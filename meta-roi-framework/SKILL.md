@@ -84,6 +84,10 @@ Use enquiry volume as a proxy (COCA per enquiry) and apply the client's conversi
 
 ---
 
+**The CAC Cap Rule (Kahan, 2022):** Customer Acquisition Cost must not exceed 25% of average Customer Lifetime Value. Formula: CAC ≤ (CLV × 0.25). Apply this as the budget governance ceiling when presenting investment recommendations to clients or boards. If the current CAC exceeds 25% of CLV, the programme is structurally unprofitable regardless of gross revenue.
+
+---
+
 ### 3. COCA:TLV Ratio Interpretation
 
 Calculate the ratio: **TLV ÷ COCA**
@@ -107,6 +111,36 @@ State clearly where the client sits and what this means for the retainer decisio
 
 **If TLV cannot be calculated (e.g., the client cannot estimate relationship length):**
 Use a conservative single-transaction value as TLV and note this understates the true return. Recommend the client track customer retention data.
+
+---
+
+## Bottom-Up Revenue Modelling
+
+Supplement the top-down ROI formula with a bottom-up model that works backwards from a revenue target through funnel conversion rates to required inquiry volumes (Kahan, 2022). This produces more defensible budget recommendations than working forwards from spend.
+
+Step 1: State the quarterly revenue target in UGX.
+Step 2: Divide by average deal size → number of new clients needed.
+Step 3: Divide by opportunity-to-deal CVR (benchmark: 40%) → opportunities needed.
+Step 4: Divide by lead-to-opportunity CVR (benchmark: 25%) → qualified leads needed.
+Step 5: Divide by inquiry-to-lead CVR (benchmark: 3%) → total inquiries needed.
+Step 6: Allocate required inquiries by channel based on historical contribution or targets.
+
+Reference `meta-revenue-planning` for the full worked example.
+
+**Pipeline Stage Weighting (Kahan, 2022):** For quarterly revenue forecasting, weight pipeline opportunities by stage rather than counting all pipeline at full value.
+- Open Opportunity: 10%
+- Active Project: 30%
+- Shortlist: 60%
+- Forecast: 85%
+- Close Win: 100%
+
+Weighted pipeline = more realistic forecast than unweighted pipeline total.
+
+**Deal Velocity as an ROI Component:** Faster conversion reduces the time-cost of capital and increases revenue per quarter at the same spend. Measure and report velocity in days at each funnel stage: inquiry-to-lead, lead-to-opportunity, opportunity-to-deal, and end-to-end. Include velocity targets in the ROI framework — they are as important as the cost targets (Kahan, 2022).
+
+**CLV by Acquisition Cohort (Zahay et al., 2024; Raaz, c.2023):** Replace single-average CLV with cohort-based LTV calculation. Calculate CLV separately for customers acquired through each channel — organic social, paid social, referral, email, events. This reveals which channels produce durable, high-value customers vs. one-transaction buyers. Note the benchmark: average repeat customers spend 67% more in months 31–36 than in months 1–6 — a data point that consistently justifies retention investment over acquisition-only strategies.
+
+**Attribution Model Note:** ROI calculations depend on how revenue is attributed to channels. Select an attribution model before the campaign begins, not after. See `06-digital-marketing-strategy` references section for the full six-model attribution selection guide (Hanlon and Tuten, 2022). Apply the chosen model consistently across the full strategy period before switching.
 
 ---
 
