@@ -116,6 +116,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `playbook-whatsapp-business` | WhatsApp Business setup and operations for EA businesses: profile, automation, broadcast lists, catalogue |
 | `playbook-marketing-automation` | Automated lead nurturing sequences triggered by prospect behaviour |
 | `playbook-question-engine` | Mining customer questions to build a content pipeline that dominates search and builds trust |
+| `playbook-geo-newsjacking` | GEO-optimised real-time content system — IFTTT + AI workflow for reacting to breaking news within minutes and capturing AI search citation |
 
 ### Presentation Decks
 
@@ -202,6 +203,20 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `ai-vendor-evaluation` | Structured vendor evaluation for AI marketing tools — 8-factor scorecard, 30-day experiment briefs, Uganda DPA compliance |
 | `ai-influencer-strategy` | AI-assisted influencer vetting, fraud detection, and human vs. virtual influencer decision framework |
 | `ai-data-foundation-plan` | Data foundation action plan — audits data assets, designs customer schema, 90-day build plan, EA-specific data problems |
+| `ai-data-foundation-audit` | Data quality audit for AI marketing readiness — assessing first-party data, CRM health, and analytics setup in EA contexts |
+| `ai-whatsapp-chatbot-design` | WhatsApp LLM chatbot design for EA markets — conversation flows, handover logic, ManyChat/Twilio stack, DPA compliance |
+| `ai-content-recycling-pipeline` | Systematic multi-format content production from a single source asset — Content Recycling Matrix with AI prompts per transformation |
+| `ai-rag-brand-knowledge-base` | RAG knowledge base design for brand-consistent AI output — knowledge architecture, vector database selection, EA SME brief |
+| `ai-synthetic-personas` | AI-generated audience personas for EA markets without primary research — synthetic data from secondary sources, validation protocol |
+| `ai-strategy-co-thinker` | AI as strategic thought partner using MVOSSTE framework + HBR Co-Thinker model — strategic ideation, scenario planning, stress-testing |
+| `ai-generative-search-optimisation` | Full GEO content audit, monitoring protocol, and quarterly review — 10-point checklist, citation tracking spreadsheet |
+| `ai-agentic-marketing-workflows` | Autonomous multi-agent marketing automation — PRAL/BDI/OODA frameworks, 5 agentic workflow templates, HITL oversight |
+| `ai-predictive-analytics-social` | Predictive analytics for social media — RFM segmentation, CLV forecasting, AutoML for churn and content performance |
+| `image-prompt-engineer` | Eight-layer AI image prompt anatomy for professional, culturally accurate visuals — platform syntax, negative prompt library, brand visual consistency |
+| `seo-geo-optimisation` | Five-Pillar GEO content workflow for AI search citation visibility — per-piece optimisation for ChatGPT Search, Perplexity, Google AI Overviews |
+| `prompt-library-image-audio-video` | Prompt frameworks for non-text AI generation — image, TTS audio, avatar video, AI music, disclosure requirements, SynthID |
+| `ai-cultural-bias-audit` | Pre-delivery protocol for detecting cultural bias in AI-generated content — BuzzFeed Barbie case, IBM Fairness 360, EA cultural accuracy checklist |
+| `ai-avatar-personalised-video` | Operational guide for AI avatar video at scale — Synthesia/HeyGen/Tavus/D-ID/Elai comparison, script writing, 75% open-rate B2B outreach |
 | `deck-ai-strategy-presentation` | (See Presentation Decks above) |
 | `meta-ai-tools-audit` | (See Analytics and Reporting above) |
 | `playbook-audacious-content` | (See Execution Playbooks above) |
@@ -212,6 +227,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | Skill | Purpose |
 |---|---|
 | `policy-ai-content-ethics` | AI content ethics policy — 5 ethical principles, prohibited uses, Uganda DPA 2019, data leakage risk, jailbreak awareness |
+| `policy-ai-ip-and-copyright` | Agency IP and copyright policy for AI-assisted client work — copyright qualification thresholds (UK/US/EU), WGA standard, EU AI Act disclosure obligations, SynthID provenance |
 
 ### Content Generation
 
@@ -287,8 +303,9 @@ social-media-skills/
 ├── [skill-name]/
 │   └── SKILL.md          # Every skill — frontmatter + content
 ├── docs/
-│   ├── gap-analysis-2026-03-new-books.md   # 31 new skills from book analysis
-│   └── gap-analysis-2026-03-ai-books.md    # 15 new AI skills from AI book analysis
+│   ├── gap-analysis-2026-03.md                      # Core gap analysis
+│   ├── gap-analysis-2026-03-digital-marketing-books.md  # 11 digital marketing books
+│   └── gap-analysis-2026-03-ai-prompting-books.md   # 10 AI and prompting books
 ├── projects/             # Client project files — excluded from git
 ├── CLAUDE.md             # Authoring conventions for this repo
 └── README.md             # This file
