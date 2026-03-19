@@ -295,7 +295,7 @@ Once the diagnostic score is known, map the client's AI readiness to the 2×2 Us
 | **Productivity** | Automate internal workflows: reporting, content briefs, data analysis | Scale customer-facing functions: chatbots, FAQs, WhatsApp automation |
 | **Growth** | Build proprietary data and algorithmic advantages | Deliver personalised customer experiences at scale |
 
-**Recommendation by score:**
+**Recommendation by score:** (Convert raw score to percentage: total ÷ 41 × 100)
 - Score 0–25%: Start in Internal/Productivity quadrant only
 - Score 26–50%: Internal/Productivity + begin External/Productivity pilot
 - Score 51–75%: All four quadrants in scope; prioritise highest-ROI cell
@@ -344,6 +344,8 @@ Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.
 Pearson.
 
 Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
+
+Nayebi, F. (2025) *Foundations of Agentic AI for Retail*. Gradient Divergence.
 
 ---
 
