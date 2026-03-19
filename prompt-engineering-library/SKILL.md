@@ -224,6 +224,113 @@ reference the RACE framework (Chaffey, 2024) if applicable.
 
 ---
 
+## PAO Matrix — Pre-Prompt Checklist
+
+Source: Joseph (c.2023–2024). Before writing any social media content prompt, confirm all three parameters simultaneously:
+
+- **Platform** — which platform is this content for? (Each platform has different norms, formats, and audience expectations.)
+- **Audience** — who specifically is this for, defined by values and mindset, not just demographics? (e.g. "first-generation entrepreneurs who value financial independence" not "25–40-year-olds")
+- **Objective** — what is the specific objective? Choose one: awareness / engagement / conversion / retention.
+
+Omitting any one parameter forces the AI to make assumptions that produce generic output. All three must appear explicitly in every social media content prompt, in the Alpha and Beta elements of the master formula.
+
+---
+
+## Prompt Anatomy Reference
+
+Source: GPT Penguin (2024). Five-component anatomy that maps directly onto the Alpha-Beta-Gamma-Delta-Epsilon formula:
+
+| GPT Penguin Component | Description | Maps to Formula Element |
+|---|---|---|
+| **Act Instruction** | The role and expertise level assigned to the AI (e.g. "Act as a senior social media copywriter") | Beta (creator persona) |
+| **Context** | The situation, background, and why it matters now | Alpha |
+| **Task** | The specific action to perform | Gamma |
+| **Constraints** | Hard limits: length, tone, banned words, format rules | Epsilon |
+| **Additional Guidance** | Style, examples, references, conditional instructions | Delta + any residual Epsilon |
+
+Use this five-component map as a diagnostic: if a prompt is producing poor output, identify which component is missing or underdeveloped.
+
+---
+
+## Copywriting Formula Prompt Activation
+
+Source: Mizrahi (2024). Naming the formula in the prompt is more effective than describing the desired structure in prose. The activation pattern:
+
+```
+Write [content type] using the [FORMULA NAME] framework ([brief description of the sequence]).
+```
+
+**Examples:**
+
+```
+Write a Facebook caption using the PAS framework (Problem → Agitate → Solve).
+Write a LinkedIn post using the AIDA framework (Attention → Interest → Desire → Action).
+Write a promotional WhatsApp broadcast using the FOMO framework (Fear Of Missing Out — create urgency around a time-limited opportunity).
+Write a community post using the SMILE framework (Subscriber, Meaningful, Inspiring, Likeable, Educational — positive engagement-first content).
+```
+
+Never describe the structure in prose ("make it compelling and build to a call to action") when you can name the formula directly. Named formulas produce structurally correct output; prose descriptions produce approximations.
+
+---
+
+## Emotional Resonance Pattern
+
+Source: GPT Penguin (2024). Human-sounding copy requires explicit emotional instruction. Every prompt for brand content must specify:
+
+1. **The emotion to evoke** — trust, urgency, nostalgia, excitement, relief, pride, curiosity. Name it explicitly.
+2. **The brand value to connect it to** — e.g. "connect the urgency to the brand's commitment to making financial services accessible."
+3. **The instruction to avoid manufactured urgency** — add to the Epsilon layer: "Do not use artificial scarcity or false countdown language."
+
+Activation pattern:
+```
+Using: evoke [EMOTION] by connecting to [BRAND VALUE]; do not use manufactured urgency or artificial scarcity.
+```
+
+---
+
+## Placeholder Variable Syntax
+
+Source: Wright (2025). Every prompt template must use `{{double-brace}}` placeholders for all variable inputs:
+
+```
+{{company name}}, {{prospect name}}, {{industry}}, {{product/service}}, {{tone}}, {{platform}}, {{CTA link}}
+```
+
+**Why this matters:** Prompts without placeholders are single-use. Prompts with placeholders are agency assets — reusable across every client engagement. A prompt library built with consistent `{{double-brace}}` syntax can be searched, shared, and updated systematically. Apply to all templates in this library.
+
+---
+
+## Hallucination Management Gate
+
+Source: Evelyn (2025, p.51); Mizrahi (2024). For any output making factual or statistical claims, include this instruction in the prompt:
+
+```
+Use web search to find the latest news and resources, and cite your sources.
+```
+
+Every factual claim, statistic, named entity, date, or product claim in AI output must be flagged for human verification before client delivery. Do not assume AI-generated facts are correct. The hallucination gate is not optional — it is a production standard for any content that makes claims of fact.
+
+---
+
+## ### Separator Syntax
+
+Source: Evelyn (2025). Any prompt containing both instructions and material to process (a brief, content to rewrite, example posts) must use triple hash marks (`###`) to separate sections. This prevents the model from confusing instructions with content to process.
+
+Structure:
+```
+[Instructions here]
+
+###
+
+[Material to process — e.g. a brief, a draft to rewrite, example posts to learn from]
+
+###
+```
+
+Apply whenever a prompt includes: pasted client briefs, existing copy for rewriting, competitor examples, or reference posts. Never mix instructions and source material in continuous prose.
+
+---
+
 ## Prompting Techniques
 
 Source: Upadhyay (2024). Apply these methods when a single prompt does not produce sufficient output quality.
@@ -287,6 +394,74 @@ Use this sequence when developing full marketing strategies with AI assistance:
 
 ---
 
+## Sales Funnel Stage-Specific Prompts
+
+Source: GPT Penguin (2024). Calibrate content prompts by buyer journey stage:
+
+**Top-of-Funnel (Attract)** — first-time visitors; no prior relationship with the brand.
+```
+[BCB]
+Consider the situation: {{prospect description}} has just discovered {{brand name}} for the first time. They do not know the brand. Acting as a social media copywriter for {{brand name}} writing for {{audience values description}}. Write a {{platform}} post that introduces the brand's core value proposition without selling — educate and intrigue first. In a single post of under 120 words. Using: British English; no promotional language; no price mentions; end with a curiosity question or an invitation to learn more.
+```
+
+**Middle-of-Funnel (Nurture)** — leads who have shown interest (followed, engaged, clicked).
+```
+[BCB]
+Consider the situation: {{prospect description}} has interacted with {{brand name}} content before. They know who the brand is. Acting as a social media copywriter for {{brand name}} writing for an audience that is considering but not yet committed. Write a {{platform}} post that provides proof of value — a case study, testimonial, or behind-the-scenes detail. In a narrative post of 100–150 words. Using: British English; specific and credible detail (no vague claims); include one social proof element; end with a soft CTA: "Find out how we helped [type of client]."
+```
+
+**Bottom-of-Funnel (Decision)** — decision-stage prospects ready to act.
+```
+[BCB]
+Consider the situation: {{prospect description}} is actively deciding whether to work with {{brand name}}. They have seen the brand before. Acting as a social media copywriter for {{brand name}} writing for a warm, ready-to-act audience. Write a {{platform}} post that makes a direct, specific offer with a clear CTA. In a concise post of under 100 words. Using: British English; one specific offer or guarantee; one frictionless CTA ("Message us on WhatsApp: {{WhatsApp link}}"); no watered-down language; genuine urgency only where a real deadline exists.
+```
+
+---
+
+## Before/After Prompt Comparison — Social Caption
+
+Source: Chavaux (2025). The most effective technique for making the quality gap between weak and strong prompts tangible.
+
+**BEFORE — Weak Prompt:**
+```
+Write a caption for a Ugandan coffee brand.
+```
+*Typical output:* Generic, Western coffee-culture language. No local context. No CTA. No emotional pull.
+
+**AFTER — Strong Prompt:**
+```
+[BCB for {{brand name}}, a specialty Ugandan coffee brand targeting urban Kampala professionals aged 28–42 who value locally-produced quality]
+
+Consider the situation: It is Monday morning. Our audience is starting their working week and already thinking about productivity. Acting as a social media copywriter for {{brand name}} writing for ambitious Kampala professionals who take pride in supporting Ugandan-grown products. Write a Facebook caption using the AIDA framework (Attention → Interest → Desire → Action) that positions our coffee as the professional's daily ritual. In a single caption with a line break after the hook, body text, and CTA on a new line. Using: British English; maximum 120 words; evoke morning energy and local pride; end with a WhatsApp CTA {{WhatsApp link}}; include 3 relevant hashtags; never begin with "Are you".
+```
+*Typical output:* Locally grounded, emotionally resonant, framework-structured, with a clear CTA.
+
+---
+
+## Forward-Reasoning Strategy Prompt
+
+Source: Wright (2025). For strategic deliverables, use this pattern to generate differentiated thinking:
+
+```
+Imagine {{client's desired future state — e.g. "{{brand name}} is the most trusted financial services brand in Kampala"}}. Work backward to identify the key decisions and unexpected moves that contributed to this success. What did the brand do differently from competitors? What risks did it take? What did it stop doing?
+```
+
+This pattern bypasses generic strategic advice and produces counter-intuitive, specific insights by anchoring the AI's reasoning at the outcome rather than the starting point. Use for strategy documents, brand positioning, and 3–5 year planning sections.
+
+---
+
+## Curiosity Gap Technique
+
+Source: Wright (2025). The gap between what the reader knows and what they want to know creates click compulsion — the psychological pull that drives opens, clicks, and continued reading. Apply by naming it explicitly in the prompt:
+
+```
+Write [content type] that uses an intrigue gap to [desired response — e.g. "make the reader want to find out the answer," "compel them to open the full post," "create anticipation for the next step"].
+```
+
+The curiosity gap works by revealing enough to make the reader aware of what they do not know, then withholding the resolution until they take the desired action (click, open, reply, scroll). It is distinct from clickbait because it delivers the promised insight — it never misleads.
+
+---
+
 ## Quality Criteria
 
 Output from this skill meets the standard when:
@@ -304,9 +479,15 @@ Output from this skill meets the standard when:
 
 ## References
 
+- Chavaux, L. (2025) — Before/After prompt comparison methodology.
 - Erné, R. (2024) — 5-Step Perfect Prompt framework: Role, Context, Task, Format, Constraints.
+- Evelyn, A. (2025) — Hallucination Management Gate; ### separator syntax; contextual continuity management.
+- GPT Penguin (2024) — Prompt Anatomy five-component model; Emotional Resonance Pattern; Sales Funnel Stage-Specific Prompts.
+- Joseph, P. (c.2023–2024) — PAO Matrix (Platform–Audience–Objective) pre-prompt checklist.
+- Mizrahi, T. (2024) — Copywriting Formula Prompt Activation; FOMO and SMILE frameworks; hallucination management.
 - Roth, J. and neuroflash (2024) — 8 Golden Rules of Prompting for AI-assisted content production.
 - Upadhyay, S. (2024) *Generative AI for Marketing*. — Alpha-Beta-Gamma-Delta-Epsilon master prompt formula; 10 prompt components; prompting techniques.
 - Randazzo, C. (2024) — MVOSSTE prompting workflow for AI-assisted marketing strategy development.
+- Wright, D. (2025) — Placeholder Variable Syntax; Forward-Reasoning Strategy Prompt; Curiosity Gap technique.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. — RACE framework; POEM model; audience segmentation.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. — 10-4-1 content rule; ROI formula.
