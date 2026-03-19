@@ -362,6 +362,61 @@ Apply these rules throughout the evaluation:
 
 ---
 
+## Tool Categories Reference
+
+Use this section when the client has no shortlist and needs guidance on which category of AI tool to evaluate. Cross-reference with `meta-ai-tools-audit` for the full catalogue.
+
+---
+
+### Category 1: RAG (Retrieval-Augmented Generation) Tools
+
+Tools that connect LLMs to client-specific knowledge bases for accurate, on-brand output:
+
+| Tool | Description | EA accessibility | Approx. cost |
+|---|---|---|---|
+| Claude Projects | Upload documents; persistent context per project | Yes — browser-based | Included in Claude Pro (~$20/month USD) |
+| ChatGPT Projects | Upload documents; persistent context per project | Yes — browser-based | Included in ChatGPT Plus (~$20/month USD) |
+| CustomGPT.ai | Build custom knowledge bases with API access | Yes — cloud-based | From $49/month USD |
+| Notion AI | RAG within Notion workspace | Yes — cloud-based | From $10/month USD |
+| Mem.ai | AI-powered knowledge management | Yes — cloud-based | Free tier available |
+
+**Evaluation criteria:** How easily can client documents be uploaded? Does the tool maintain source attribution? Can multiple team members access the same knowledge base?
+
+---
+
+### Category 2: Synthetic Research and Persona Tools
+
+Tools for generating AI-simulated audience research when primary fieldwork is unavailable or too costly:
+
+| Tool | Description | EA accessibility | Approx. cost |
+|---|---|---|---|
+| Supernatural AI | Synthetic user personas for brand research | Limited — US-focused | Enterprise pricing |
+| Glimpse | AI consumer research and audience analysis | Yes — cloud-based | From $99/month USD |
+| Synthetic Users | Simulated user testing and focus groups | Yes — cloud-based | From $29/month USD |
+| Claude/ChatGPT (prompted) | Structured persona generation via prompts | Yes | Included in existing subscription |
+
+**EA note:** For most Ugandan SME clients, prompted persona generation via Claude or ChatGPT is the most accessible option. Supernatural AI and Glimpse are better suited to multinational clients with larger research budgets.
+
+---
+
+### Category 3: Agentic AI and Automation Tools
+
+Tools for building autonomous or semi-autonomous marketing agents:
+
+| Tool | Description | EA accessibility | Approx. cost |
+|---|---|---|---|
+| Persado | AI language optimisation for copy and ads | Limited — enterprise | Enterprise pricing |
+| OfferFit | AI experimentation platform for retention campaigns | Limited — enterprise | Enterprise pricing |
+| Braze | AI-powered customer engagement platform | Yes — cloud-based | Enterprise pricing |
+| n8n | Open-source workflow automation (self-hostable) | Yes — can self-host | Free (self-hosted) |
+| Zapier AI | AI-enhanced workflow automation | Yes — cloud-based | Free tier; from $19.99/month USD |
+| Make.com | Visual workflow builder with AI steps | Yes — cloud-based | Free tier; from $9/month USD |
+| Claude API | Build custom agents and automations | Yes — API access | Pay-per-token |
+
+**EA recommendation:** n8n (self-hosted on a local server) combined with the Claude API is the most cost-effective agentic stack for EA-based consultancies. Zapier is the most accessible for clients with no technical resources.
+
+---
+
 ## Quality Criteria
 
 - All 8 factors scored for every tool with written notes — no blank cells,
@@ -381,3 +436,13 @@ Apply these rules throughout the evaluation:
   without further interpretation.
 - Vendor stability is assessed honestly: do not recommend a tool scoring 1 or
   2 on Factor 7 without explicitly noting the risk and the mitigation.
+
+---
+
+## References
+
+- Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd ed. Stanford Business Books.
+- Sweenor, D. and Mulkers, T. (2024) *AI-Powered Business Intelligence*. O'Reilly Media.
+- Nayebi, H. (2025) *Generative AI for Product and Marketing Teams*. Packt Publishing.
+- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
+- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
