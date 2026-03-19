@@ -210,6 +210,26 @@ After the matrix, add a **Strategic note** (3–5 sentences): explain which pers
 
 ---
 
+## Technology Adoption Lens
+
+**Technology Acceptance Model — TAM (Hanlon and Tuten, 2022):** Apply TAM as a diagnostic framework within the persona research process. For each persona, assess two adoption variables:
+
+- **Perceived Usefulness:** Does this digital service or platform help the persona achieve something they genuinely value? In EA contexts, this must be evaluated against real-world objectives — not assumed from demographics alone.
+- **Perceived Ease of Use:** Can the persona actually use this without frustration? In Uganda and East Africa, digital literacy levels, device quality, connectivity cost, and trust in digital transactions create genuine adoption barriers that Western frameworks do not account for.
+
+For each persona, specify: (1) which digital services and platforms they are likely to adopt, (2) which they are unlikely to adopt despite demographic fit, and (3) what the primary barrier is — usefulness gap, ease-of-use gap, or trust gap. This prevents strategies that assume adoption based on income or age alone.
+
+**Generational Digital Trust Spectrum (Rageh, 2026):** Where personas span multiple generations — common for EA clients targeting both urban professionals and older family decision-makers — add a generational trust calibration layer to each persona. For each generational cohort represented, specify: what does this persona need to see before they trust a brand digitally?
+
+- Gen Z: brand activism and algorithmic transparency
+- Millennials: data control and privacy signals
+- Generation X: institutional credentials and third-party endorsements
+- Baby Boomers: personal service access and traditional authority signals
+
+Consult `strategy-multigenerational-digital` for the full generational trust spectrum when the client's audience spans three or more generational cohorts. Do not apply a single trust-building approach uniformly across a multi-generational persona set.
+
+---
+
 ## Quality Criteria
 
 - Each persona reads as a real, specific individual — not a demographic average or a marketing archetype
