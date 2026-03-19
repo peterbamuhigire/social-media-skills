@@ -147,8 +147,28 @@ TASK: [The specific content request follows here]
 
 - Every field is mandatory. If a client has not supplied a value, go back and ask rather than leaving it blank or inventing a placeholder.
 - The EXAMPLES OF OUR VOICE field is the most important field in the block. Paste real, verbatim content. This single section does more work than all the adjectives combined.
+- **Minimum three examples standard** (Source: Evelyn, 2025, p.71; Mizrahi, 2024): Provide a minimum of three separate examples in the EXAMPLES OF OUR VOICE field. Two examples produce inconsistent voice replication. Three or more enable the AI to reverse-engineer voice characteristics reliably — including sentence rhythm, structural habits, and register — that cannot be described in words alone. Fewer than three examples is the most common reason a Brand Context Block underperforms on live client work.
 - The PLATFORM field changes with every session. Keep the rest of the block fixed and update only this field when switching platforms.
 - The standard AI vocabulary ban list is included in every block for every client, without exception. Add client-specific banned terms on top of it.
+
+---
+
+### Character-Voice Differentiation (Highly Distinctive Brands)
+
+Source: Donovan, S. (2019) *5,000 Writing Prompts: A Master List of Creative Exercises*. For clients with highly distinctive, idiosyncratic voices — founders who write in a recognisable personal style, brands with a cult following, or professional voices with known stylistic signatures — add an optional STYLISTIC BANS field to the Brand Context Block. This goes beyond vocabulary to structural habits the brand avoids:
+
+```
+STYLISTIC BANS:
+- Never opens with a statistic
+- Never uses a list of three where a paragraph would be stronger
+- Never starts a post with a question
+- Never closes with a sentence beginning "Remember:"
+- Never uses em dashes for dramatic pauses
+```
+
+The principle: specify what the voice does NOT do as precisely as what it does. The most distinctive voices are as defined by what they refuse as by what they embrace. Vocabulary bans catch words; stylistic bans catch habits of structure and rhythm that are invisible to the vocabulary scanner but obvious to a careful reader.
+
+Add this field only for clients where voice distinctiveness is material to brand value. For standard SME clients, vocabulary and example-based training is sufficient.
 
 ---
 
@@ -198,6 +218,16 @@ Before the block is used in live client work, run a quality test.
 - Re-run the test after each refinement. Iterate until the block passes.
 
 Document which version passed the quality test. Label it v1.
+
+### Voice Replication Comparison Test
+
+Source: Mizrahi (2024). When testing the Brand Context Block, run two versions of the same prompt:
+
+**Method 1 — Adjectives and "We are X, not Y" only** (no EXAMPLES OF OUR VOICE field): Generate one piece of content using only the VOICE, TONE, ALWAYS USE, NEVER USE, and AUDIENCE fields.
+
+**Method 2 — Full block including examples**: Generate the same piece using the complete Brand Context Block with the EXAMPLES OF OUR VOICE field populated with three or more verbatim examples.
+
+Compare the two outputs. Document which produces more accurate voice replication. If Method 1 significantly underperforms, the block needs more examples before it is deployed on live client work. This test is the single most reliable diagnostic for a Block that is technically complete but still producing generic output.
 
 ---
 
