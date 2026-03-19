@@ -148,7 +148,7 @@ Wrong. Free tiers of ChatGPT, Gemini, and Canva are functional for any business.
 Wrong. Raw AI output is mediocre. It is a first draft, not a finished post. The skill is in the editing, not the generation.
 
 **"AI knows my market."**
-Wrong. AI was trained on the global internet, which is predominantly English-language, Western, and urban. It does not know Kampala in 2026. It does not know what happened in your market last week. It does not understand local cultural tensions or community dynamics.
+Wrong. AI was trained on the global internet, which is predominantly English-language, Western, and urban. It does not know Kampala in 2026. It does not know what happened in your market last week. It does not understand local cultural tensions or community dynamics. This training data bias is not a setting that can be adjusted — it is the data the AI learned from. It affects not just text but imagery: AI tools default to Western-centric, gender-stereotyped representations of people. Any AI-generated content depicting East African people, places, or communities must be reviewed by a human with direct cultural knowledge before publication (Source: Ching & Mothi, 2025).
 
 **"AI is always right."**
 Wrong. AI hallucination is well-documented — AI invents facts, statistics, names, and sources with complete confidence. Any fact AI produces must be verified before publishing. Never publish an AI-generated statistic without checking the source.
@@ -189,7 +189,22 @@ This section is as important as 2.1. Be specific:
 - **Understand Luganda, Swahili, or regional dialects reliably.** Current AI tools perform poorly in local EA languages. Translated output requires review by a fluent speaker before use.
 - **Guarantee factual accuracy.** Always verify any fact, statistic, or claim AI produces. This is non-negotiable.
 
-### 2.3 The Platform Table — AI Applications for East Africa
+### 2.3 The Four-Phase Creative Process Model
+
+Source: Ching & Mothi (2025). Use this model to map AI's role at each stage of the content creation process. The key teaching point: human oversight is most essential at Production and Realization — the phases where content goes live.
+
+| Phase | What Happens | AI Role | Human Role |
+|---|---|---|---|
+| **Ideation** | Generating content concepts and campaign ideas | Generates volume — ideas, angles, topic lists, formats | Selects the best ideas; applies cultural and brand judgement |
+| **Development** | Turning ideas into drafts and testing them | Provides iterative feedback; generates multiple draft variations | Directs the development; edits and approves drafts |
+| **Production** | Creating final content assets for publication | Automates repetitive tasks: resizing, captioning, translating | Reviews every piece before it goes live — non-negotiable |
+| **Realization** | Distributing content and personalising it to audiences | Personalises at scale; optimises timing and targeting | Monitors output; corrects bias; responds to cultural moments |
+
+**Why this matters for East Africa:** At the Realization phase, AI personalisation tools may serve different content to different audience segments in ways that reflect training data bias. A human must monitor distribution and confirm that content is reaching the right audiences without discriminatory or culturally inaccurate targeting.
+
+---
+
+### 2.4 The Platform Table — AI Applications for East Africa
 
 Use this table when applying AI to the client's specific platform mix. Discuss only the platforms the client uses:
 
