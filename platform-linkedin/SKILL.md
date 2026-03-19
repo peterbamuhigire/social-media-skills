@@ -1,6 +1,17 @@
 ---
 name: platform-linkedin
-description: Generates a complete LinkedIn presence plan for a client, covering Company Page vs personal profile strategy, content types, thought leadership, B2B lead generation through content, employee advocacy, posting frequency, a 30-day content plan, connection growth tactics, and KPIs. Invoke this skill when a client operates in a B2B or professional services context, when LinkedIn is identified as a primary channel for reaching decision-makers, or when a founder or consultant wants to build a personal brand on the platform.
+description: >
+  Generates a complete LinkedIn presence plan for any client type — organisations
+  (companies, NGOs, agencies) and individuals (professionals, consultants,
+  performing artists, politicians, creatives, executives). Covers profile
+  optimisation, personal brand strategy, Company Page vs personal profile
+  decision, content types and algorithm, thought leadership, social selling,
+  B2B lead generation, employee advocacy, posting cadence, a 30-day content
+  plan, connection and DM tactics, and KPIs. Invoke when a client needs a
+  LinkedIn strategy for B2B lead generation, talent acquisition, thought
+  leadership, investor relations, political or public figure positioning,
+  personal brand building, or social selling. Works for both corporate
+  organisations and individual practitioners.
 ---
 
 # LinkedIn Presence Plan
@@ -17,6 +28,7 @@ Before generating this plan, collect the following from the client:
 - **Target decision-maker job title** — the specific role the client wants to reach (e.g. Head of Procurement, CEO of an SME, HR Manager)
 - **Products / services** — list top 3–5 offerings with brief descriptions
 - **Current LinkedIn stats** — Company Page follower count, founder/consultant personal connection count, average post impressions if available
+- **Client type** — organisation (company/NGO/agency) or individual (consultant/artist/politician/executive/professional)
 - **Founder willingness to post personally** — yes/no and frequency they can commit to
 - **Brand voice** — reference the 04-brand-voice-intake output; if not yet completed, note the tone preference (formal/professional/conversational)
 
@@ -49,12 +61,16 @@ Run both in parallel. The founder posts 4–5 times per week on their personal p
 - Specialities: complete the specialities field (shown in search) — use specific service terms
 
 **Practical setup checklist — personal profile:**
-- Headshot: professional, well-lit, facing camera; minimum 400×400px
-- Banner image: 1584×396px — include name, title, and one positioning statement
-- Headline: 220 characters — go beyond job title; state what you do and for whom (e.g. "Helping Ugandan SMEs build financial systems that grow with them | CFO Advisory")
-- About section: first 2–3 lines are visible before "see more" — lead with the strongest point
-- Featured section: pin 2–3 items (best post, case study article, key service page)
-- Experience: complete, with descriptions of achievements not just duties
+- Headshot: professional, well-lit, face fills 60–70% of frame, camera at eye level; minimum 400×400px. Profiles with a photo receive 11–21× more views (Serdula, 2023; Long, 2023).
+- Banner image: 1584×396px — use as a brand billboard: name, title, positioning statement, website, contact method. A blank/default banner signals an inactive, unserious profile.
+- Headline: 220 characters — never accept LinkedIn's auto-generated job title. Apply the formula: **"I help [specific audience] achieve [specific outcome] — [keyword] | [keyword]"**. Each keyword in the headline is a high-weight SEO field.
+- About section: first 2–3 lines show before "see more" — lead with the strongest point. Include 40+ words to improve search ranking. Never write in third person. End with contact details in the body (the Contact section is only visible to first-degree connections).
+- Featured section: pin best post, a case study or lead magnet, a booking/contact link. Update every time a new service or strong post goes live.
+- Experience: achievements not duties. Add rich media attachments (case study decks, press coverage, project samples) to each role entry.
+- Custom URL: set to `linkedin.com/in/firstname-lastname`. Never use numbers — they signal the name was taken and the profile is secondary.
+- **Turn off "People Also Viewed"**: Settings & Privacy → Privacy → "Viewers of this profile also viewed" → Off. The default setting advertises competitors to every visitor to your profile.
+- **All-Star completion:** LinkedIn only surfaces profiles widely in search at All-Star level (requires: photo, location, education, 5+ skills, 1+ current position, About section, 50+ connections). All-Star profiles are 27× more likely to be found (Serdula, 2023).
+- Skills: list 5+ relevant skills, pinned in keyword priority order. Members with 5+ skills receive 31× more messages and are viewed 17× more (Long, 2023). The top 3 pinned skills are among the five highest-weight SEO fields on LinkedIn.
 
 ---
 
@@ -62,8 +78,11 @@ Run both in parallel. The founder posts 4–5 times per week on their personal p
 
 Apply the POEM model (Paid/Owned/Earned — Chaffey, 2024) to LinkedIn: these content types are all Owned and Earned media. Each type serves a different function in the RACE framework (Reach/Act/Convert/Engage).
 
+**Algorithm fundamentals**
+LinkedIn shows a new post first to first-degree connections. If the post does not gain engagement within the first 60 minutes, it dies — it will not be pushed to second-degree connections. This makes the first hour critical: alert close contacts to engage immediately after publishing. Comments are worth 2× likes to the algorithm; shares are worth 3× likes (Menke, cited in Ingram, 2020). Posts with external links in the body receive significantly reduced distribution — LinkedIn penalises content that sends users off-platform. Always paste external links in the first comment and note this at the end of the post ("link in the first comment").
+
 **Text posts**
-The most accessible format — no design required. LinkedIn's algorithm currently favours native text posts that generate comments. Maximum impact comes from a strong hook in the first 1–2 lines before the "see more" truncation. Keep to 1,300 characters or fewer for the hook-and-content section. Works best for: opinions, lessons learnt, personal experiences, quick tips.
+The most accessible format — no design required. LinkedIn's algorithm currently favours native text posts that generate comments. Maximum impact comes from a strong hook in the first 1–2 lines before the "see more" truncation. Keep to 1,300 characters or fewer for the hook-and-content section. Works best for: opinions, lessons learnt, personal experiences, quick tips. Text-only posts (no links, no images) often outperform rich media posts in raw reach.
 
 **Document / carousel posts (PDF upload)**
 Upload a multi-page PDF as a document post — it displays as a swipeable carousel. Generates the highest dwell time of any LinkedIn format because readers swipe through multiple slides. Works best for: frameworks, step-by-step guides, checklists, data summaries, list-based content. Aim for 8–15 slides; first slide is the cover and must work as a standalone hook image.
@@ -98,29 +117,26 @@ For founder/consultant personal profiles, apply this content mix to build author
 
 5. **Behind-the-scenes professional life** — show the working reality of the business: team meetings, client sessions (with permission), proposal writing, research, events attended. Not personal life — professional context only. This builds the "know, like, trust" sequence Bodnar and Cohen (2012) identify as the foundation of social selling.
 
-**Post structure for maximum LinkedIn reach:**
+**Post structure — AIDA formula (Pattar, 2022):**
 
 ```
-[HOOK LINE — 1 sentence. Make the reader need to click "see more".]
+[ATTENTION — Hook line: curiosity, astonishment, surprise, or announcement. 1 sentence. Makes the reader click "see more".]
 
-[White space]
+[INTEREST — Lines 2–3: add context to the hook; build a "drumroll" feeling without resolving it yet.]
 
-[Point 1]
+[DESIRE — Body: develop the idea toward a big reveal; one continuous logical flow; no new ideas introduced here.]
 
-[White space]
+[ACTION — Big Bang conclusion + CTA: the payoff, followed by one question to invite comments.]
 
-[Point 2]
-
-[White space]
-
-[Point 3]
-
-[White space]
-
-[CTA — one clear action: comment / DM / click the link]
+[Signature hashtag — your personal branded hashtag on every post, e.g. #PeterWrites]
 ```
 
-Use white space aggressively — walls of text are scrolled past. Each point on its own line with a line break above and below.
+Use white space aggressively — blank line between every 1–3 lines. Walls of text are scrolled past without reading.
+
+**The 1.80 Dollar Strategy (GaryVee, adapted):**
+Find 10 relevant hashtags in your niche. Every day, search each hashtag, read the top posts, and leave one meaningful comment — your genuine perspective, not "Great post!" — on each. Ten hashtags × 10 posts × 1 real comment = 100 touchpoints daily, all public and attached to your profile. Do this for 3 months. Your search ranking rises, your profile views compound, and your niche authority builds. Devote at least 80% of LinkedIn content time to engaging with others' posts; only 20% to creating your own content (Long, 2023).
+
+**What to avoid in posts:** failure stories with no resolution (self-pity, not authority); purely promotional posts more than once per week; "it depends" opinion posts that take no position (these generate no discussion); editing published posts (signals indecision and reduces authenticity perception).
 
 ---
 
@@ -258,6 +274,20 @@ Warm outreach (post engagement):
 InMail template (for reaching people outside the network):
 > "Hello [Name], I noticed [specific detail from their profile or recent post]. I help [their job title / company type] with [specific problem] — recently supported a similar business to [result]. Would it be worth a 20-minute conversation to see if there's a fit? Happy to work around your schedule."
 
+**Video and voice note DMs after connecting (Ingram contributors, 2020):**
+After a target connection accepts, immediately send a personalised video (under 90 seconds) or voice note via the LinkedIn app. Introduce yourself, state that your goal is to provide value — not to pitch — and ask one specific question relevant to their work. Follow this immediately with a short text summary plus one free resource (article, checklist, short guide) that solves a problem they face. Video DMs doubled conversion rates vs text-only messages in controlled tests. Do NOT send a pitch in the first message under any circumstances — multiple contributors independently confirm that an immediate pitch after connecting causes instant removal.
+
+**Timing hack — accept connections after publishing:**
+After publishing a post, accept any pending connection requests immediately. New connections see your most recent post on their feed — instant reach extension to fresh eyes who have never seen your content before (Pattar, 2022).
+
+**Rest and Revisit engagement sequence (Johnson, cited in Ingram, 2020):**
+1. When someone comments on your post, comment back immediately — do NOT like their comment yet.
+2. Three days later, go back and like other commenters' comments — this triggers a new round of notifications, resurfacing the post.
+3. One week later, like your own response comments — another notification wave, another feed re-entry. Three rounds of visibility from one post.
+
+**Event prospecting:**
+Before any industry event or conference, search both the event keyword and its hashtag on LinkedIn. Anyone posting about it and confirming attendance is a warm connection request — you share context, which makes the request feel relevant and personal. Set meetings before the event, not at it.
+
 **Growing Company Page followers:**
 - Ask every employee to follow the Company Page (and to encourage their connections to follow)
 - Promote the Company Page from the personal profile: "For company updates, follow [page link]"
@@ -285,15 +315,78 @@ Review KPIs at the end of each month using the meta-reporting skill. If engageme
 
 ---
 
+## 10. Individual Brand Strategy — Artists, Politicians, and Creatives
+
+LinkedIn's default framing is corporate. Non-business individuals must actively subvert this to make the platform work for them. The professional audience on LinkedIn (senior decision-makers, commissioners, institutional clients, journalists, event bookers) is exactly the audience that performing artists, politicians, and creatives cannot reach on Instagram or TikTok.
+
+**Performing artists and musicians**
+
+Headline formula: `[Discipline] | [Genre/Style] ◆ [Notable Credential] ◆ Available for [work type] — [contact]`
+Example: `Session Musician | Jazz & Neo-Soul ◆ 15+ albums recorded ◆ Available for live work and studio sessions`
+
+About section: use a biographical narrative (first person, storytelling structure). Origin story → defining performances or projects → artistic philosophy → booking CTA. Contact details in the body — not just the Contact section (which only first-degree connections can see).
+
+Featured section: pin the showreel, a press article, a streaming link, or an EPK (electronic press kit). Each Experience entry becomes a production credit — list credits, co-performers, venues, and critical reception; attach media.
+
+Groups strategy: join groups for corporate event organisers, brand marketing teams, conference producers, venue operators, and arts funding bodies — not groups for fellow artists. Target the buyers, not the peers.
+
+Key insight: corporate event organisers, brand marketers, and documentary commissioners hire entertainment through LinkedIn. Artists who ignore this audience leave commercial work on the table.
+
+**Politicians and public figures**
+
+Headline formula: `[Title or Role] | [Constituency/Jurisdiction] ◆ [Key Policy Area or Mission]`
+Example: `Member of Parliament | Kampala Central ◆ Education Reform and Youth Employment`
+
+LinkedIn audience for politicians: journalists, NGO leaders, donors, international partners, civil servants, and institutional stakeholders — not the general voter base (which uses Facebook and WhatsApp). Write for this professional and institutional audience.
+
+Content strategy: policy analyses and position papers as Articles (Google-indexed, searchable by researchers and journalists); polls to engage the professional community on policy questions; native video of speaking events; comments on content from government bodies and multilateral organisations.
+
+Recommendations: endorsements from civil society leaders, academic experts, and international partners carry distinct credibility — different from political endorsements and valuable to this audience.
+
+**Creatives — designers, writers, photographers, filmmakers**
+
+Headline formula: `[Discipline] ◆ [Specialisation for specific client type] ◆ Available for [work type]`
+Example: `Brand Designer ◆ Packaging & Identity for FMCG Brands ◆ Open to freelance commissions`
+
+About section: lead with the transformation you create for clients, not with tools or software. Buyers care about outcomes; tools are secondary.
+
+Portfolio integration: Featured section pins 3–5 portfolio pieces; Experience entries include media attachments for each project; Skills list both the discipline (Photography, Brand Identity, Copywriting) and the tools (Figma, InDesign, Final Cut Pro) — buyers search by tool as well as by discipline.
+
+Groups: join groups for marketing directors, creative directors, procurement managers, and CMOs — the buyers of creative services.
+
+---
+
+## 11. Blog Post Angles
+
+Use with the `blog-writer` skill to generate client-attracting content.
+
+| Title | Target audience |
+|---|---|
+| Why LinkedIn Beats Facebook for B2B Sales in Uganda (And the Numbers Prove It) | SME owners sceptical of LinkedIn |
+| How to Optimise Your LinkedIn Profile to Attract Clients Without Running Ads | Professionals new to personal branding |
+| The LinkedIn Profile Mistake That Is Costing East African Professionals Business | Working professionals with incomplete profiles |
+| How Consultants in Uganda Are Using LinkedIn to Get Clients Without Cold Calling | Independent consultants and freelancers |
+| LinkedIn for Performing Artists: The Platform You Are Ignoring That Books You More Gigs | Musicians, actors, and creatives |
+| How Politicians and Public Figures Use LinkedIn to Reach the People Who Matter | Public figures and political communicators |
+| The Right Way to Send a LinkedIn Message (And Why Most People Get It Wrong) | Sales teams and business developers |
+| How to Build a LinkedIn Audience That Sends You Clients Every Month | Founders and solo practitioners |
+| LinkedIn vs. WhatsApp for B2B Lead Generation: Which One Actually Works? | Business owners deciding channel strategy |
+| The 90-Day LinkedIn Plan That Turned Our Clients into Thought Leaders | Marketing managers and consultants |
+
+---
+
 ## Quality Criteria
 
 Output meets the standard when it:
 
-- Covers all 9 sections with specific, actionable guidance tailored to the client's industry, B2B/B2C designation, and founder willingness to post personally
+- Covers all 11 sections with specific, actionable guidance tailored to the client's industry, client type (organisation or individual), and stated goal
+- If the client is an individual (artist, politician, creative, consultant), Section 10 guidance is applied — headline formula, About section structure, Featured section as portfolio, and groups strategy targeting buyers not peers
 - The Company Page vs personal profile recommendation is explicitly argued based on the client's stated goal and business model — not a generic recommendation to do both
 - The 30-day content plan contains 20 posts (5 per week) with account designation, format, content type, hook line, content brief, and CTA for each entry
 - Thought leadership guidance includes at least 3 example hook lines specific to the client's industry and target decision-maker title
 - Connection growth templates are written in a professional EA register — not American informal or British corporate stiff
 - All post structure guidance (white space, character limits, "see more" truncation point) is technically accurate for the current LinkedIn platform standard
+- Algorithm guidance is applied throughout: external links go in first comment; first-hour engagement principle is referenced where relevant; comment/share weighting is noted
 - KPI targets are clearly labelled as organic benchmarks and reference the East African professional market context
+- Blog post angles (Section 11) are present with titles targeting specific client pain points
 - British English is used throughout with no American spelling variants

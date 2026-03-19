@@ -69,7 +69,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `platform-instagram` | Instagram strategy including Reels, Stories, and grid |
 | `platform-instagram-growth` | Instagram growth engineering — 5-phase follower ladder, algorithm optimisation, hashtag clustering, collaboration strategy |
 | `platform-instagram-visual-system` | Instagram visual identity system — grid planning, mood board, colour palette, editing consistency, visual brief |
-| `platform-linkedin` | LinkedIn strategy for B2B and professional audiences |
+| `platform-linkedin` | LinkedIn strategy for organisations and individuals — B2B lead generation, personal brand, social selling, and individual brand strategy for artists, politicians, and creatives |
 | `platform-whatsapp` | WhatsApp Business strategy and broadcast plan |
 | `platform-tiktok` | TikTok content and growth strategy |
 | `platform-youtube` | YouTube channel strategy and content plan |
