@@ -40,7 +40,7 @@ Generate the following four modules in full. Use the client's name, industry, pl
 **Format:** [Insert training format]
 **Prepared for:** [Client Business Name]
 **Industry:** [Industry]
-**Primary Sources:** Anderson, D. (2022) *AI in Digital Marketing Training Guide* (Self-published); Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of AI* (CRC Press)
+**Primary Sources:** Anderson, D. (2022) *AI in Digital Marketing Training Guide* (Self-published); Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of AI* (CRC Press); Farri, O. and Rosani, M. (2025) *Co-Intelligence: Working and Learning with AI*; Nayebi, H. (2025) *AI-First Marketing*
 
 ---
 
@@ -392,6 +392,47 @@ Facilitator presents three short pieces of social media copy. Participants ident
 - `brand-voice-ai-training` — how to train AI tools on a specific brand voice
 - `prompt-engineering-library` — ready-made prompt templates for common marketing content types
 - `training-client-team` — general social media team training workbook for content creation and community management
+
+---
+
+## Co-Pilot vs Co-Thinker (Farri and Rosani, 2025)
+
+The most important distinction for any marketing team new to AI:
+
+**Co-Pilot mode** — AI handles speed tasks:
+- Summarising documents and reports
+- Drafting first versions of captions, emails, and briefs
+- Generating slide content from bullet points
+- Taking notes in meetings
+- Formatting data into tables
+
+**Co-Thinker mode** — AI acts as a thought partner for reflection-heavy work:
+- Pressure-testing campaign strategy logic
+- Mapping stakeholder perspectives the team may have overlooked
+- Identifying assumptions in a brief that should be validated
+- Framing the client's core marketing challenge as a solvable problem
+- Generating alternative strategic options for evaluation
+
+**When to use which:** Use Co-Pilot when you know what you want and need it done faster. Use Co-Thinker when you are not yet sure what the right answer is. Most marketing teams default to Co-Pilot only — they are leaving the most valuable AI capability unused.
+
+**Training exercise:** Ask participants to list their last five AI interactions. Classify each as Co-Pilot or Co-Thinker. Discuss: what proportion were Co-Thinker? What would they have done differently?
+
+---
+
+## The Three Waves of AI in Marketing (Nayebi, 2025)
+
+Help participants understand where they and their clients currently sit:
+
+**Wave 1 — Automation (Most EA businesses today)**
+Rules-based tools that follow fixed instructions. Examples: scheduled social posts, auto-reply chatbots, email drip sequences. No learning or adaptation. Reliable but rigid.
+
+**Wave 2 — Predictive ML (Growing in EA)**
+Systems that learn from data and predict future behaviour. Examples: audience segmentation models, engagement rate prediction, A/B test optimisation, sentiment analysis. Requires sufficient data. Improves over time.
+
+**Wave 3 — Agentic AI (Horizon for EA)**
+Autonomous agents that perceive their environment, reason about it, decide on actions, and learn from outcomes — without waiting for a human prompt. Examples: a content agent that monitors trending topics and drafts posts for approval; a campaign agent that detects low engagement and automatically triggers a response.
+
+**Training exercise:** Ask participants to identify one marketing activity in their business at each wave level. Where is the gap between Wave 1 and Wave 2? What data or tools would be needed to close that gap?
 
 ---
 
