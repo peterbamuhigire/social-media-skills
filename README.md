@@ -24,6 +24,9 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `biz-dev-case-study` | Client success story / case study document |
 | `biz-dev-social-media-audit-offer` | Free social media diagnostic as a business development tool — audit structure, findings format, transition to paid proposal |
 | `biz-dev-practitioner-positioning` | Positioning the consultant's own practice — niche selection, USP articulation, social proof strategy, LinkedIn thought leadership, referral system |
+| `biz-dev-video-outreach` | Personalised Loom video audit for prospect outreach — pre-audit checklist, narration script, outreach message templates, follow-up sequence (Fihn model) |
+| `biz-dev-beyond-agency-offer` | Risk-free "first date" test campaign offer — five offer structures, written offer document, phoneless pitch script, expectations sign-off (Fihn model) |
+| `biz-dev-reactivation-campaign` | Customer reactivation campaign for dormant lists — 4-part email/SMS/WhatsApp sequence, gratitude → value → offer → referral, Uganda DPA compliance (Fihn model) |
 
 ### Client Onboarding
 

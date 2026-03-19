@@ -27,6 +27,8 @@ YouTube in Uganda and the wider East African market is used primarily for resear
 
 The Hero/Hub/Hygiene content model (YouTube/Google) applies directly here: Hero content drives peak awareness (big campaigns, viral potential), Hub content keeps subscribers engaged (regular series), and Hygiene content answers evergreen search queries (tutorials, FAQs). Most East African business channels should prioritise Hygiene first — build the searchable library, then layer in Hub series once an audience forms.
 
+**EA keyword opportunity:** Most EA businesses optimise only for English. Low-competition keyword gaps exist in Luganda, Swahili, and Kinyarwanda for the same topics. A bilingual title strategy ("How to Start a Business in Uganda / Okusooka Omugga mu Uganda") captures both audiences with one video.
+
 ---
 
 ## 1. Channel Setup and Optimisation
@@ -100,7 +102,10 @@ The first 150 characters are displayed in search results before the "read more" 
 6. Paragraph 4 (optional): keywords paragraph — list related search terms naturally integrated into a short paragraph
 
 **Tags**
-5–10 tags per video. Include: the exact title phrase, 3–5 keyword variations, 2–3 broader category terms. Tags are lower priority than they were historically but remain worth completing.
+5–10 tags per video. Include: the exact title phrase, 3–5 keyword variations, 2–3 broader category terms. Tags are lower priority than they were historically but remain worth completing. **Competitor tag research:** find the top 3 competitor videos on a given topic, right-click → View Page Source, search for `"keywords"` — this reveals their full tag list. Use the same top-performing tags with better content to rank alongside them and multiply Google search listings.
+
+**Closed captions**
+Upload a manual transcript for every video. Closed captions are indexed by YouTube and Google — they function as retroactive SEO that can boost existing videos months after publication without re-uploading.
 
 **Thumbnail text guidance**
 - 3–5 words maximum on the thumbnail — more than 5 words becomes illegible on mobile
@@ -123,6 +128,12 @@ Add timestamp chapters to every video over 5 minutes. Chapters serve two purpose
 
 **Best upload times for EA**
 Tuesday and Thursday, 6–8pm EAT. Viewers are typically home from work or school. Upload 2–3 hours before the target viewing time to allow YouTube's processing and indexing to complete.
+
+**Upload workflow — private first**
+Upload videos as Private to complete the title, description, tags, chapters, end screens, and cards before going live. Switch to Public (or use Scheduled) only when metadata is complete. Public videos with incomplete metadata miss the algorithm's initial indexing window — a gap that cannot be recovered.
+
+**Post-publish boost window**
+YouTube gives every newly published video a 24–48 hour promotional window to test audience response. Stack all community promotion, email notifications, and social sharing in this window to maximise the algorithm signal from the first day.
 
 **Scheduling vs. live upload**
 Use YouTube's scheduled upload feature to maintain consistency even when production is ahead of schedule. Pre-schedule the next 2 weeks of content whenever possible.
@@ -207,11 +218,65 @@ Review monthly. Prioritise watch time and average view duration as the primary a
 
 ---
 
+## 9. Algorithm Intelligence
+
+Understanding how YouTube distributes content is not optional — it determines the entire channel strategy.
+
+**How the algorithm works**
+YouTube uses a dual neural network: the first network assesses a video's candidacy (is it relevant to this viewer?), the second ranks candidates against each other (which is best for this viewer right now?). The algorithm optimises for viewer satisfaction, not publisher satisfaction.
+
+Traffic source breakdown for most channels:
+- ~70% of views come from YouTube suggestions (Recommended, Browse Features, Up Next)
+- <20% come from YouTube search
+- The remainder comes from external sources (direct links, social media)
+
+This means: **the goal is to become a suggested video, not just a search result.** SEO is the entry point; watch time and engagement are what keep the algorithm distributing content.
+
+**The watch time hierarchy**
+1. Watch time (absolute minutes delivered) — the primary ranking signal
+2. Session time (total time a viewer stays on YouTube after watching your video)
+3. Engagement (likes, comments, shares) — important but third
+
+Implication: a 15-minute video at 50% completion delivers more algorithm value than a 5-minute video at 80% completion. Longer videos that hold attention outperform shorter videos even when completion rate is lower. Playlists directly increase session time by auto-playing related content — this is the most underused lever for EA business channels.
+
+**Non-obvious algorithm rules**
+- A viewer clicking "Not interested" on your video trains the algorithm against your entire channel, not just that video — this makes misleading thumbnails and clickbait titles a strategic liability, not just an ethical one
+- Consistent upload frequency matters more than high upload frequency — going from weekly to irregular is penalised harder than simply uploading once a week from the start
+- The algorithm tracks topic coherence across the channel — a channel that suddenly pivots topics loses its suggested video placement in its original category
+- Thumbnail updates can improve CTR on existing videos without re-uploading — a low-CTR video can be revived with a new thumbnail alone
+
+**CTA placement for EA**
+For data-cost-sensitive EA viewers, the primary CTA (subscribe, visit website, WhatsApp) must appear before the 3-minute mark. Viewers on metered data may close the video once their question is answered. Do not save the CTA only for the end screen. Use the reward-first CTA formula: deliver the most useful insight first, then ask for the subscription as a thank-you — not as a precondition.
+
+**B2B channels and monetisation caution**
+Business and professional channels using YouTube as a credibility tool should consider carefully before joining the YouTube Partner Programme (YPP). YPP places competitor advertisements on your videos, which can drive prospects away at the moment of highest intent. Workshop recordings, webinars, and client case study videos are excellent for B2B authority — the channel does not need to be monetised to be commercially valuable.
+
+---
+
+## 10. Blog Post Angles
+
+Use with the `blog-writer` skill to generate client-attracting content for the agency's own channels or for clients in the content creation space.
+
+| Title | Target audience |
+|---|---|
+| Why Your YouTube Videos Get No Views (And It's Not What You Think) | SME owners who have tried YouTube and failed |
+| The YouTube Algorithm Explained in Plain English for East African Businesses | Business owners new to video marketing |
+| How to Rank YouTube Videos in Uganda: A Step-by-Step SEO Guide | Local businesses targeting Ugandan search traffic |
+| The 7 YouTube Mistakes That Are Costing You Subscribers | Channel owners with stalled growth |
+| YouTube vs TikTok for East African Business: Which Platform Should You Choose? | Businesses deciding where to invest video effort |
+| How to Start a YouTube Channel for Your Business With a Smartphone | Budget-conscious SMEs hesitant to start |
+| The Exact Upload Schedule That Helped Our Clients Grow Their YouTube Channels | Aspiring video marketers looking for a plan |
+| How to Get More Watch Time on YouTube: The Metric That Actually Matters | Intermediate creators who understand basic SEO |
+| YouTube Shorts for Business: The Fast Track to Your First 1,000 Subscribers | New channels wanting quick growth |
+| How to Use YouTube to Generate Leads for Your Business Without Running Ads | Business owners sceptical of paid advertising |
+
+---
+
 ## Quality Criteria
 
 Output from this skill meets the standard when it:
 
-- All eight sections are complete with no placeholders — the 30-day content plan includes a full title, three-sentence video brief, thumbnail concept, and CTA for every entry
+- All ten sections are complete with no placeholders — the 30-day content plan includes a full title, three-sentence video brief, thumbnail concept, and CTA for every entry
 - SEO content guidance is applied to the content plan — every long-form video title follows the `[Primary keyword] — [Benefit] | [Brand]` format
 - Video types are matched to the client's stated expertise and goals — a service business receives more testimonial and behind-the-scenes recommendations than product showcase videos
 - The EA market context (shorter video preference, mobile-first viewing, data cost sensitivity, YouTube-as-research-tool) is reflected in video length recommendations and topic selection
@@ -219,3 +284,5 @@ Output from this skill meets the standard when it:
 - Shorts strategy is integrated with long-form strategy — Shorts are positioned as trailers and repurposed content, not as a separate workstream
 - KPI explanations clarify why each metric matters, not just what it measures
 - All production guidance is achievable with a smartphone and basic lighting — the skill does not assume studio production capability
+- Algorithm guidance (Section 9) is referenced where it affects decisions — upload workflow, CTA placement, playlist strategy, and the watch-time hierarchy
+- Blog post angles (Section 10) are present and targeted to specific audience pain points, not generic video marketing titles
