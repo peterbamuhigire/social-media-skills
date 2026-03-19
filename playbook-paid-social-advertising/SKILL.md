@@ -91,7 +91,8 @@ Cold audiences have no prior relationship with the brand. Target them using:
 Warm audiences have interacted with the brand but have not converted. Build warm audiences from:
 - People who have liked, commented on, or shared a post or ad in the last 30–90 days
 - Page fans (Facebook Page followers)
-- People who have watched 25% or more of a video ad
+- People who have watched 75% or more of any video ad or organic video on the Page — this is the most important warm audience for EA clients without a website or Pixel. A 15-second organic video can build a usable retargeting pool within 2–4 weeks at zero media cost. Target 75% viewers (not 25%) to qualify for genuine interest, not accidental exposure
+- People who have watched 25% or more of a video ad (broader warm signal, appropriate for awareness-stage retargeting)
 - People who have visited the website (requires Meta Pixel — see Section 3)
 - People who have messaged the WhatsApp Business account (requires Pixel or Conversions API)
 
@@ -242,6 +243,18 @@ The consultant produces a creative brief; the designer and copywriter execute it
 
 **Mobile data note:** the majority of Ugandan/EA users access Meta on mobile with variable data costs. Keep all video ads under 15 seconds. Lead with the key message in the first 3 seconds — do not use slow brand intros. Use captions on all video ads — most users watch without sound.
 
+### Three Creative Principles for Facebook Ads (Marshall, 2024)
+
+Apply all three to every ad creative brief. Ads that lack any of the three struggle to stop the scroll.
+
+- **Contrast** — the ad must look different from surrounding News Feed content. Use motion, bold colour, unusual framing, or an unexpected subject. An ad that blends into the feed is invisible — users do not consciously skip it, they simply never see it.
+- **Curiosity** — lead with an open loop the viewer wants to close: an unexpected data point, a counter-intuitive claim, or a question without an immediate answer on screen. Curiosity works for cold audiences because it creates a reason to stop without requiring any prior brand relationship.
+- **Comedy / entertainment** — if the ad is genuinely entertaining, users share it without prompting. Shared ads generate organic reach that multiplies paid reach at no extra cost — this is uniquely possible on social media and unavailable in search or email.
+
+**Customer Awareness Timeline:** match copy to the audience's current level of awareness. Cold audiences (unaware of the problem) need problem-identification copy, not product promotion. Warm audiences (aware of the problem, not the solution) need a product introduction. Retargeting audiences (know the product) need a specific offer, deadline, or testimonial to overcome the final objection (Marshall, 2024).
+
+**Image text warning:** Facebook suppresses ad images that contain more than 20% text — the ad shows up to five times less often and costs up to three times as much per click. Keep ad images clean; place all copy in the primary text field, not the image (Cooper, 2019).
+
 ### Creative Brief Template
 
 Complete one brief per ad format per campaign:
@@ -330,6 +343,19 @@ Complete this checklist every 7 days during an active campaign:
 - [ ] Check that the Pixel is still firing correctly (Meta Events Manager → Test Events)
 - [ ] Report weekly results to the client using the metrics above
 
+### Ads Troubleshooting Protocol — Eight-Step Diagnostic
+
+Apply this sequence when a campaign underperforms. Change only one variable per diagnostic step — changing multiple variables simultaneously makes the root cause unidentifiable (Cooper, 2019).
+
+1. **Check Quality Ranking** — view the Quality Ranking, Engagement Rate Ranking, and Conversion Rate Ranking columns in Ads Manager. "Average" on all three is acceptable; "Below Average" on Quality Ranking means the creative is the primary problem.
+2. **Check CPC trend** — cost per click should fall below approximately UGX 1,100 (USD 0.30) by day 3. If it has not, proceed to Step 3.
+3. **Quality high but CPC high?** → Audience is the problem. The audience is too small (under 50,000 for Uganda-wide campaigns), too saturated (too many advertisers using the same interests), or mismatched. Adjust the audience; do not change the creative.
+4. **Quality low and engagement poor?** → Creative is the problem. Test a new image first (highest-impact variable), then primary text, then headline. One change at a time.
+5. **Check result rate** — click-through rate should reach at least 2.5%; 4–6% is good; 10%+ is strong. If quality ranking is acceptable but CTR is below 2.5%, rework the headline and CTA.
+6. **Check frequency** — above 1.5 over a 7–14 day window signals audience saturation. Expand target interests, duplicate the ad set to a new demographic, or introduce a fresh creative.
+7. **Check demographic breakdown** — identify age or gender segments with disproportionately high cost per result and exclude them at the ad set level.
+8. **Kill threshold** — pause the ad if: day 3 with CPC still above UGX 1,100, result rate persistently below 1%, or quality ranking remains Below Average after one creative revision. A second creative change is justified; a third means the audience is the problem.
+
 ### When to Kill a Campaign
 
 Pause or stop an ad set when:
@@ -395,6 +421,8 @@ Output meets production standard when all of the following are satisfied:
 - The creative brief template is completed for every ad format in scope, including WhatsApp Click-to-Chat where applicable, with correct 2026 format specifications
 - WhatsApp Click-to-Chat ads are included in the plan for any Uganda/EA client whose primary customer communication channel is WhatsApp
 - The monthly performance report structure is included with all seven sections and populated with the client's campaign names and targets
+- The creative brief section covers the Three Cs (Contrast, Curiosity, Comedy), the Customer Awareness Timeline, and the image text warning — each ad brief is matched to the audience tier's awareness level
+- The troubleshooting diagnostic is included and follows the eight-step sequence with specific UGX-denominated CPC benchmarks
 - All content uses British English; all budget figures are stated in UGX; video ad guidance reflects mobile data constraints of the EA market
 
 ---
@@ -411,5 +439,9 @@ Consult these linked skills when building or extending the paid social plan:
 - `playbook-chatbot-strategy/SKILL.md` — WhatsApp automation setup; use when Click-to-Chat ad volume exceeds the team's manual response capacity
 
 ---
+
+**Key citations used in this skill:**
+- Cooper, M.D. (2019) *Help! My Facebook Ads Suck!* (2nd ed.)
+- Marshall, P. (2024) *Ultimate Guide to Facebook Advertising* (4th ed.)
 
 *Platform specifications and EA market benchmarks are calibrated for 2026. Confirm current Meta ad format specifications, CPM benchmarks, and UGX exchange rates before presenting any paid social plan to a client.*

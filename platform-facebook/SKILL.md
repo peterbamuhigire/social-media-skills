@@ -41,7 +41,7 @@ Complete every item before publishing content. An incomplete Page signals low cr
 **About section**
 - Business description: 2–3 sentences incorporating primary keywords (product category + location)
 - Include: physical address or service area, operating hours, website URL, WhatsApp number
-- Username: set a vanity URL (facebook.com/businessname) — must be consistent with other platforms
+- Username: set a vanity URL (facebook.com/businessname) — must be consistent with other platforms. The custom username can never be changed once set — choose carefully before the Page has more than 100 fans (Haydon, 2023)
 
 **CTA button**
 Select the button that matches the client's primary conversion action:
@@ -64,20 +64,32 @@ Welcome message template:
 Away message template (outside business hours):
 > "Thank you for your message. Our team is currently offline but will respond first thing [tomorrow / Monday]. For urgent enquiries, WhatsApp us on [number]. We appreciate your patience."
 
+**Page settings checklist (complete before publishing)**
+- Unpublish the Page (Settings > Page Visibility) while building — publish only when all sections are complete
+- Enable the Profanity Filter (Settings > General > Profanity Filter; select Medium or Strong) to auto-hide offensive comments
+- Add a keyword blocklist under Page Moderation for sector-inappropriate terms, slurs, and competitor solicitation phrases
+- Remove any unused tabs (Events, Notes, Offers) before launch — an empty tab signals neglect and reduces credibility
+- Cover photo must not exceed 20% text — Facebook suppresses images above this threshold when they are used in paid promotion (Haydon, 2023)
+- Never use URL shorteners in any post — full-length URLs generate three times the click rate of shortened links (Haydon, 2023)
+
 ---
 
 ## 2. Content Mix and Rationale
 
 Apply this mix to maintain algorithm diversity and audience variety. Ratios are weekly targets.
 
+**Organic reach baseline:** assume a maximum of 5% of Page followers see any given post without paid amplification (Goodwin, 2022). Plan posting volumes, boosting budgets, and reach expectations accordingly. On posting volume: over-posting drives 46% of users to unlike a Page; under-posting below twice per week drives 18% to unlike — consistency within the 3–5 post/week band is the goal.
+
 | Content type | Target % | Purpose |
 |---|---|---|
 | Image posts | 40% | Product showcases, team photos, behind-the-scenes, motivational quotes |
-| Video / Reels | 25% | Demonstrations, testimonials, tutorials — native upload always preferred over YouTube links |
+| Video / Reels | 25% | Demonstrations, testimonials, tutorials — native upload always preferred over YouTube links. 85% of Facebook video is watched without audio — add captions to every video; failure to do so is the single most common video error (Goodwin, 2022) |
 | Link posts | 10% | Blog articles, website pages — note: Facebook reduces reach on link posts; embed the link in the caption of an image post instead |
 | Stories | Daily | Lightweight, informal touchpoints — polls, countdowns, behind-the-scenes |
 | Polls | 10% | Community engagement — ask questions relevant to the industry |
 | Events | As needed | Minimum 5–7 days advance notice; include full event details in description |
+
+**Facebook Live:** Live video generates six times more engagement than standard video; viewers watch three times longer (Goodwin, 2022). Use Live for product launches, Q&A sessions, and behind-the-scenes content. Announce at least 24 hours in advance via Stories and the Page feed. A brief post-Live replay pinned to the Page extends the reach over the following 48 hours.
 
 **Rationale (Hero/Hub/Hygiene model):**
 - Hero content (product launches, major announcements): 10% of posts — highest production value
@@ -235,6 +247,8 @@ Do not engage publicly. Delete the comment immediately. If the behaviour is repe
 **Press / media enquiry**
 > "Hello [Name], thank you for reaching out. Please email us at [press/contact email] with your publication details and enquiry, and our team will respond within 2 business days."
 
+**Early comment management:** The comments posted in the first 5–10 minutes after a post goes live set the emotional register for the entire thread — later commenters orient to the mood established by early responses. Monitor active posts in the first 30 minutes after publication. Counter-frame a negative early comment immediately with a measured, constructive reply; do not ignore it. A mocking or hostile comment left unaddressed in the first five responses anchors the thread tone for all subsequent participants (Farina, 2018).
+
 ---
 
 ## 8. Facebook-Specific KPIs
@@ -254,15 +268,47 @@ Review KPIs monthly. Present findings using the meta-reporting skill. Adjust con
 
 ---
 
+## 9. Conversation Design: Writing Posts That Generate Comments
+
+Facebook's architecture makes the opening post the most structurally privileged content on the platform — it is the only element guaranteed to be visible to all readers. All comments downstream are secondary; engagement depth drops sharply after approximately the fifth comment. Apply the following evidence-based principles to maximise comment generation (Farina, 2018).
+
+**The three requirements of an engaging opening post**
+
+Every post that generates comments must do all three of the following:
+1. **Tell something newsworthy** — a vague status update or solo image without context reliably receives zero responses. The post must declare something: a result, an event, a surprise, a counter-intuitive fact.
+2. **Provide interpretive context** — tell readers how to understand what you have shared. An unexplained image is a closed door; the same image with a framing phrase ("This is what our team achieved in 48 hours") is an open invitation.
+3. **Signal the expected response** — make it explicit what kind of reply is welcome. A question, a fill-in-the-blank prompt, or a named reaction ("Tell us in the comments") invites specific responses rather than passive scrolling.
+
+**Evidence-based engagement tactics**
+
+- **Use humour deliberately.** Humour is the single most powerful engagement driver on Facebook — over 70% of comment-generating posts contain overt or covert humour. Posts that reward followers for "getting it" create in-group recognition and prompt public demonstration of that recognition (Farina, 2018).
+- **Tag specific people.** Naming individuals in the opening post measurably increases response rates. A post that sat silent for 15 minutes in Farina's study generated immediate responses after the author added named recipients. Use this technique for community highlights, partner announcements, and client spotlights — with the named person's permission.
+- **Never post a standalone image without a caption.** In every studied case, images without an interpretive caption or evaluative framing received zero comments — even highly attractive images. The caption is not optional.
+- **Use one-word-answer or fill-in-the-blank prompts.** Simple, low-effort prompts ("Describe our city in one word" / "The best meal in Kampala is ___") consistently outperform complex questions (Haydon, 2023).
+- **Do not bury key content in comments.** Information posted as a second comment on an existing thread is almost universally ignored — even by the original poster's own followers. Product details, offers, and testimonials belong in the opening post or a new post, not in the comments.
+- **Intervene early in active threads.** Once a thread is live, later comments respond to the most recent comment rather than the original post. A brand's thread can drift far from its intended topic as community members chat among themselves. Post a second comment from the Page within the first five responses to keep the thread on-topic and signal that the brand is present.
+
+---
+
 ## Quality Criteria
 
 Output meets the standard when it:
 
-- Covers all 8 sections with specific, actionable guidance — no vague recommendations
+- Covers all 9 sections with specific, actionable guidance — no vague recommendations
 - Uses the client's actual business name, industry, and product/service details throughout — not generic placeholders
 - All posting time recommendations are given in EAT (UTC+3) and reference the Ugandan/EA audience context
 - The 30-day content plan contains 20 posts (5 per week × 4 weeks) with format, topic, caption brief, and visual direction for each
 - Community management templates are in the brand voice established in 04-brand-voice-intake and are ready to copy-paste
 - All dimensions, character limits, and technical specifications are accurate as of the current platform standard
 - KPI targets are referenced to industry benchmarks and adjusted for organic reach in the EA market
+- Section 9 (Conversation Design) is present and includes the three opening-post requirements, humour as an engagement driver, the tagging technique, the standalone-image warning, and the early-comment management instruction
 - British English is used throughout with no American spelling variants
+
+---
+
+## References
+
+**Key citations used in this skill:**
+- Farina, M. (2018) *Facebook and Conversation Analysis*
+- Goodwin, M. (2022) *Facebook Marketing*
+- Haydon, J. (2023) *Facebook Marketing for Dummies* (5th ed.)
