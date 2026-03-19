@@ -9,6 +9,12 @@ description: >
 
 # AI Content Humaniser
 
+## The Golden Rule
+
+This agency is AI-powered. Every output it produces — text, captions, proposals, blog posts, emails, strategy documents — must look, feel, and sound as if it was crafted by the most skilled human creatives with meticulous attention to detail and deep knowledge of the target audience. Clients and their audiences must never sense the AI behind the work.
+
+This skill is the enforcement layer for that standard. Use it for every piece of AI-assisted content before client delivery. The test is not "does this pass a grammar check?" The test is "would an expert in this market, reading this cold, believe a skilled human wrote it?"
+
 ## Purpose
 
 AI writing tools produce fast drafts. They also produce generic, culturally misaligned, over-smooth
@@ -18,6 +24,10 @@ knowledgeable human expert who knows Uganda and East Africa.
 
 The goal is not to conceal AI involvement. The goal is to ensure the output genuinely earns its
 place — accurate, specific, culturally grounded, and written in the client's voice.
+
+Apply the AI-as-creative-partner principle throughout (Johnsen, 2024): AI drafts are raw material,
+never finished work. Editors have full authority — and full responsibility — to rewrite rather than
+polish. A light polish that leaves AI fingerprints is a failure of this process.
 
 ---
 
@@ -65,6 +75,40 @@ against a primary source. Do not pass fabricated data to a client.
 AI lacks genuine texture — the finesse, inventiveness, and specificity that come from lived
 expertise. Content may be technically correct but feel hollow. Flatness is the hardest risk to
 quantify and the most damaging to brand credibility over time.
+
+---
+
+## The Uncanny Valley Calibration Checklist
+
+AI content that is almost-but-not-quite human triggers a stronger rejection response than content
+that is obviously AI. This is the uncanny valley effect applied to text — readers cannot name what
+is wrong, but they feel something is off, and they disengage (Ltifi, 2024).
+
+The structural signs of uncanny AI content:
+- Every paragraph is approximately the same length
+- Transitions are consistently smooth — no abrupt shifts in register
+- There is no natural hesitation, qualification, or colloquialism
+- Phrasing is suspiciously balanced — no strongly held positions
+- Vocabulary is drawn from the same formal register throughout
+
+**When uncanny valley is detected, apply these four corrective moves:**
+
+1. **Break the symmetry.** Vary paragraph length deliberately. Follow a long paragraph with one
+   short sentence. Use a sentence fragment for emphasis.
+
+2. **Insert a real detail.** Add one specific, locally grounded detail that only a person familiar
+   with this market would include — a Kampala neighbourhood, a named local brand, a Uganda-specific
+   price point, a cultural reference that lands for this audience.
+
+3. **Take a position.** Replace "one approach is…" with "I recommend…" or "the evidence
+   suggests…". AI defaults to false balance. Human experts have opinions.
+
+4. **Introduce a controlled imperfection.** A conversational aside. A rhetorical question. A
+   sentence that starts with "And". A regional idiom used correctly. These are not mistakes — they
+   are authenticity signals.
+
+Run this checklist on every draft before applying the Human Voice Checklist. If three or more
+uncanny valley signs are present, the draft requires a full rewrite, not a polish.
 
 ---
 
@@ -140,6 +184,25 @@ not patched.
 
 10. Would you be comfortable if the client knew exactly how this piece was produced — AI draft,
     reviewed and revised by this process? If the answer is no, it is not ready.
+
+11. Does this content have the natural micro-variation in sentence length, register, and vocabulary
+    that characterises human writing — or does it have AI's telltale mechanical uniformity? If
+    every sentence feels structurally similar, the draft requires deliberate variation before it
+    can pass as human.
+
+### Micro-Moment Register Matching
+
+When editing content used at pivotal customer journey moments — a cart abandonment message, a
+post-browse retargeting caption, a comparison-shopping landing page — the copy must match the
+emotional register of that exact moment (Ltifi, 2024). Generic AI output cannot detect emotional
+context; human editors must impose it.
+
+- **Urgency without pressure:** Time-sensitive offers need energy, not aggression.
+- **Reassurance without sycophancy:** Trust-building moments need warmth, not flattery.
+- **Confidence without arrogance:** Authority content must convey expertise, not dismissiveness.
+
+Before approving any content used at a known customer journey touchpoint, ask: does the tone of
+this copy match what the audience is feeling at this moment?
 
 ---
 
@@ -227,6 +290,12 @@ Run this checklist on every piece of content before client delivery.
 - If the content mentions internet access, streaming, or data usage — does it account for the
   reality of mobile data costs and connectivity patterns in the region?
 
+- For any content translated or adapted into Luganda, Swahili, Amharic, or another EA language:
+  verify cultural idiom accuracy, not just linguistic accuracy. A linguistically correct
+  translation may contain examples, proverbs, or cultural references that are foreign or
+  inappropriate for the target community. Commission a native-speaker review for all translated
+  content before client delivery.
+
 ---
 
 ## The "Proof of Human" Standard
@@ -267,6 +336,21 @@ transition. These three moves resolve most flatness problems.
   and the extent of human revision
 - This record is for internal quality tracking, not for client disclosure unless the client
   requests it
+
+### Volume Quality Gate
+
+When AI is used to produce content at scale — multiple captions, a series of emails, a batch of
+blog posts — quality review becomes the bottleneck. A single editor reviewing too many pieces per
+session produces degraded attention and missed issues.
+
+Apply these volume limits per editing session:
+- Captions and short-form copy: maximum 15 pieces per session before a break
+- Blog posts (800–1,500 words): maximum 3 per session
+- Strategy documents: maximum 1 per session
+
+If the content pipeline exceeds these limits, schedule additional sessions rather than compressing
+review time. Volume is not an excuse for reduced quality. The Golden Rule applies to every piece,
+not to a batch average.
 
 ---
 
