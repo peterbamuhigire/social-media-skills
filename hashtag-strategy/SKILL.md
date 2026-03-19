@@ -229,6 +229,12 @@ Include a "Hashtag Performance" row in the monthly social media report (from met
 
 ---
 
+## Human Authenticity Gate
+
+All hashtag strategy documents produced using this skill must be reviewed by a human consultant familiar with the client's audience before delivery. AI-generated hashtag selections must meet the Golden Rule: every set must be as precisely targeted and culturally informed as if selected by the most skilled human digital strategist with deep knowledge of the East African social media landscape. Generic, untargeted, or culturally misaligned hashtag sets are not acceptable regardless of how efficiently they were produced.
+
+---
+
 ## Quality Criteria
 
 - [ ] All 5 branded hashtags are generated specifically for this client — not generic placeholders

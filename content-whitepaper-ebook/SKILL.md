@@ -175,6 +175,12 @@ Apply this section in full when the intended use is a donor report or investor d
 
 ---
 
+## Human Authenticity Gate
+
+All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted long-form documents must meet the Golden Rule: every whitepaper or eBook must look, feel, and sound as if it was researched and written by the most skilled human expert with genuine authority in the subject and deep knowledge of the East African context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+
+---
+
 ## Quality Criteria
 
 Output meets the standard for this skill when all of the following are true:

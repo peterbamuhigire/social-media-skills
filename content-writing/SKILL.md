@@ -446,6 +446,12 @@ From cognitive science: people remember at most 10% of what you tell them. Contr
 
 - `references/business-vocabulary.md` — Formal vs informal vocabulary pairs (22 verb pairs, 14 other word pairs); data and statistics language (15 trend phrases, percentage-to-fraction conversion table, approximate figure qualifiers); linking words and transition phrases; market potential and growth phrases for proposals; discourse markers; business phrasal verbs
 
+## Human Authenticity Gate
+
+All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted copy must meet the Golden Rule: every output must look, feel, and sound as if it was crafted by the most skilled human writer with deep knowledge of the subject matter and the target audience. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+
+---
+
 ## Integration with Other Skills
 
 This skill is cross-cutting — it applies alongside:

@@ -77,6 +77,12 @@ If the article will be shared as social content after publication, include at th
 
 Only include this section if the user requests it.
 
+## Human Authenticity Gate
+
+All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted blog drafts must meet the Golden Rule: every article must look, feel, and sound as if it was crafted by the most skilled human writer with genuine expertise in the subject and deep knowledge of the East African reader. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+
+---
+
 ## Quality Criteria
 
 Good output meets all of these:

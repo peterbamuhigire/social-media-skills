@@ -297,6 +297,12 @@ Subject lines are the highest-value AI application in email marketing — run Pr
 
 ---
 
+## Human Authenticity Gate
+
+All content produced through the workflow documented in this playbook must pass through the `ai-content-humaniser` before client delivery. This is not optional and is not a step that can be omitted under time pressure. AI-generated or AI-assisted drafts must meet the Golden Rule: every output must look, feel, and sound as if it was crafted by the most skilled human creative with deep knowledge of the target audience. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+
+---
+
 ## Quality Criteria
 
 Output meets production standard when it satisfies all of the following:
