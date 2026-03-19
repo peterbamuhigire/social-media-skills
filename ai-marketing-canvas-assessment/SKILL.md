@@ -215,6 +215,18 @@ This section must:
 
 ---
 
+## Step 5 — Monetisation
+
+At this stage, AI capabilities become a source of competitive advantage and new revenue:
+- AI-powered products or services sold to customers (e.g. a personalisation engine licensed to partners)
+- Proprietary audience data monetised through partnerships
+- AI-driven efficiency gains reinvested into market expansion
+- Brand reputation as an AI-first organisation attracts premium clients and talent
+
+**Consultancy note:** Most EA clients will not reach Step 5 within a 12-month engagement. Frame it as a 3–5 year horizon goal and use it to demonstrate the long-term value of starting the Canvas journey now.
+
+---
+
 ## East Africa Context Notes
 
 Apply these adaptations throughout the canvas and roadmap:
@@ -231,6 +243,33 @@ Apply these adaptations throughout the canvas and roadmap:
   Insights or Brandwatch (if budget allows) for sentiment monitoring.
 - **Most EA SMEs are at Step 1–2** — calibrate ambition accordingly. A Step 2 roadmap executed
   well is more valuable than a Step 4 roadmap that cannot be implemented.
+
+---
+
+## Agile Sprint Approach (Venkatesan and Lecinski, 2026)
+
+AI marketing initiatives fail when treated as annual strategic plans. Recommend monthly sprint cycles:
+
+1. **Sprint planning (Day 1):** Select one AI use case to test this month
+2. **Pilot execution (Days 2–20):** Run the experiment with a defined audience segment
+3. **Measurement (Days 21–25):** Compare AI-assisted results vs human-led baseline
+4. **Review (Days 26–28):** Replicate, iterate, or abandon based on results
+5. **Next sprint (Day 30):** Select next use case based on learnings
+
+KPI for each sprint: measure lift vs human-led control. A 10% improvement justifies scaling.
+
+---
+
+## AI-to-AI Marketing Readiness (Venkatesan and Lecinski, 2026)
+
+As consumers increasingly use AI agents (ChatGPT, Perplexity, Google Gemini) to research, compare, and purchase, brands must be readable by machines as well as humans. Assess:
+
+- Are product pages structured with clear, machine-parseable pricing and features?
+- Are brand values explicitly stated in factual, accessible language?
+- Is content well-sourced and factually accurate (LLMs avoid citing inaccurate sources)?
+- Does the website use structured data markup (Schema.org)?
+
+This is a 2–5 year horizon for most EA markets but should inform content architecture decisions now. Brands that are not AI-readable risk becoming invisible as AI-native search and AI shopping agents become mainstream.
 
 ---
 
