@@ -286,6 +286,35 @@ Common patterns to look for:
 
 ---
 
+## AI Use Case Matrix (Venkatesan and Lecinski, 2026)
+
+Once the diagnostic score is known, map the client's AI readiness to the 2×2 Use Case Matrix:
+
+|  | **Internal** | **External** |
+|---|---|---|
+| **Productivity** | Automate internal workflows: reporting, content briefs, data analysis | Scale customer-facing functions: chatbots, FAQs, WhatsApp automation |
+| **Growth** | Build proprietary data and algorithmic advantages | Deliver personalised customer experiences at scale |
+
+**Recommendation by score:**
+- Score 0–25%: Start in Internal/Productivity quadrant only
+- Score 26–50%: Internal/Productivity + begin External/Productivity pilot
+- Score 51–75%: All four quadrants in scope; prioritise highest-ROI cell
+- Score 76–100%: Full AI transformation; consider Monetisation (Canvas Step 5)
+
+---
+
+## AI Maturity Wave Assessment (Nayebi, 2025)
+
+Identify which wave the client currently operates in:
+
+- **Wave 1 — Automation:** Rules-based workflows, scheduled posts, canned responses, basic chatbots. Most EA SMEs are here.
+- **Wave 2 — Predictive ML:** Customer segmentation, engagement prediction, A/B test optimisation, sentiment analysis. Achievable for EA mid-market clients.
+- **Wave 3 — Agentic AI:** Autonomous agents that perceive, reason, act, and learn without human prompts. Horizon planning for EA; immediate for multinational clients.
+
+Ask the client: "Which wave best describes your current AI marketing activity?" Use their answer to calibrate the roadmap in the final section.
+
+---
+
 ## Quality Criteria
 
 - All 41 items are addressed — no question is skipped or estimated without a
