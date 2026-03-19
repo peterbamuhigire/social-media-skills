@@ -32,6 +32,15 @@ Start with two tools only: ChatGPT and Canva. Add others once the workflow is es
 | **CapCut AI Captions** | Automatic captions for videos; available on mobile | Free; works on Android and iOS |
 | **Google Gemini** | Research assistance, ideation, summarisation | Free via Google account |
 | **Magai / Poe** | Multi-model AI access in one interface | Paid; for advanced users only |
+| **HeyGen** | AI video production; talking-head avatars | Paid; for advanced video users |
+| **Tavus** | Personalised AI video at scale | Paid; for advanced personalisation workflows |
+| **NotebookLM** | AI podcast production from source documents | Free (Google); browser-based |
+| **Frase.io** | Content optimisation, pruning, and gap analysis | Paid; for content-mature clients |
+| **Make.com** | Workflow automation and multi-tool pipelines | Free tier; for Stage 3–4 clients |
+| **Descript** | AI audio and video editing; transcription | Paid; for clients producing audio/video |
+| **AdCreative.ai** | AI-generated ad creative variations | Paid; for clients running paid social |
+
+**Content pruning note** (Source: Roth & neuroflash, 2024/2025): removing or updating outdated content is as important as new creation. Use Frase.io or manual audits quarterly to identify and refresh content that is no longer accurate, performing, or relevant. A content library that grows without pruning accumulates liability.
 
 **Starting recommendation:** Use ChatGPT for all text work and Canva for all graphic work. Both have free tiers, both work on a basic smartphone or laptop, and both are already familiar to most EA users. Introduce Grammarly in week two as a mandatory quality step. Defer all other tools until the core workflow is running smoothly.
 
@@ -281,6 +290,68 @@ Feed captions are well-suited to AI drafting — quality control and a human edi
 
 **Email**
 Subject lines are the highest-value AI application in email marketing — run Prompt 8 from `prompt-engineering-library` and test multiple options. Email body copy benefits from an AI draft that is then substantially edited: check every claim, rewrite the opening paragraph in the client's real voice, and ensure the call to action matches the actual offer.
+
+---
+
+## 11. Iterative AI Model Improvement Protocol
+
+Source: Ching & Mothi (2025). A prompt library that never changes is a library that never improves. Document how the agency refines prompt templates over time.
+
+**What triggers a prompt update:**
+- Off-brand output that recurs across two or more sessions with the same prompt
+- Repeated quality failures of the same type (e.g. AI consistently ignores a constraint)
+- Client feedback that a specific output type consistently misses the mark
+- Platform algorithm changes that affect format or length requirements
+
+**How updates are documented:**
+- Version the prompt template: `caption-facebook-PAS-v1`, `caption-facebook-PAS-v2`
+- Record what changed and why in the project file alongside the prompt
+- Date every version; keep old versions for reference
+
+**How improved prompts are shared:**
+- Store all versioned prompts in the shared team folder (Google Drive or Notion)
+- Notify the team via WhatsApp when a prompt has been updated and a new version is live
+- Review the full library quarterly; retire prompts that are consistently outperformed by newer versions
+
+This practice turns one-off prompting into a learning system. A library built over 12 months is a proprietary agency asset.
+
+---
+
+## 12. Hallucination Management Gate
+
+Source: Mizrahi (2024); Evelyn (2025). Add as an explicit quality control step for all content making factual, statistical, or market-specific claims.
+
+**Gate instruction:** For any draft containing specific statistics, market data, product claims, named entities, dates, or prices — include this instruction in the prompt:
+
+> "Use web search to find the latest news and resources, and cite your sources."
+
+Then verify the cited sources independently before human review. Do not assume web-search output is correct; check the linked source directly.
+
+This gate applies in addition to the Accuracy Check in Section 4. The Accuracy Check applies to all content; the Hallucination Gate specifically applies to content making claims of fact that the audience might act on — statistics in proposals, market data in strategy documents, product specifications in captions.
+
+---
+
+## 13. Contextual Continuity Notes
+
+Source: Evelyn (2025). In multi-step production workflows, AI loses coherence as context accumulates across exchanges.
+
+**Key rule:** Do not assume context carries across sessions. If continuing a production workflow from a previous session, re-paste the Brand Context Block before issuing any new content instruction.
+
+**In-session practice:** In long sessions (more than 8–10 exchanges), re-state key context: "Remember: the brand is [X], tone is [Y], platform is [Z]." Reference previous outputs explicitly: "Using the caption you wrote in step 2, now write a matching Story caption." Never assume the AI remembers.
+
+**Team practice:** When a different team member continues a session or picks up a draft, share the full conversation thread or paste a session summary — not just the prompt.
+
+---
+
+## 14. AI Content Watermarking
+
+Source: Ching & Mothi (2025). For AI-generated audio and visual assets, tag original AI-generated files with persistent metadata or watermarks before any editing or compression.
+
+- **Audio:** SynthID (Google/DeepMind) is the current standard for AI-generated audio — it embeds a watermark that survives compression and editing.
+- **Images and video:** Equivalent watermarking tools exist for AI-generated images and video. Apply to original source files before delivering to the client or publishing.
+- **Production record:** Note in the project file which assets were AI-generated and confirm that watermarking was applied to the original file.
+
+This practice protects the agency if AI-generated content is later disputed, and establishes a chain of custody for client deliverables.
 
 ---
 
