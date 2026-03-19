@@ -354,6 +354,49 @@ not to a batch average.
 
 ---
 
+## Content Recycling Pipeline (Roth and neuroflash, 2024)
+
+One well-researched piece of content can become 10 platform-ready assets in under 60 minutes:
+
+| Step | Output | AI tool |
+|---|---|---|
+| 1. Master content (blog/article) | 800–1,200 word source piece | Claude/ChatGPT |
+| 2. Extract 5 key points | Bullet summary | Claude/ChatGPT |
+| 3. Facebook caption | 100–150 words, conversational | Claude/ChatGPT |
+| 4. Instagram caption | 50–80 words + hashtags | Claude/ChatGPT |
+| 5. LinkedIn post | 150–200 words, professional | Claude/ChatGPT |
+| 6. TikTok/Reels script | 30-second spoken script | Claude/ChatGPT |
+| 7. X/Twitter post | Under 280 characters | Claude/ChatGPT |
+| 8. Carousel outline | 5-slide structure with headlines | Claude/ChatGPT |
+| 9. Email snippet | 80-word newsletter paragraph | Claude/ChatGPT |
+| 10. Quote card text | Single compelling sentence | Claude/ChatGPT |
+
+**Platform adaptation checklist:**
+- Facebook: conversational, question or call-to-action, link preview works
+- Instagram: emotional hook first, hashtags at end or in comment, no clickable links in caption
+- LinkedIn: insight or lesson first, professional register, invite discussion
+- TikTok/Reels: hook in first 3 seconds, spoken register, suggest trending audio
+- WhatsApp Status: under 700 characters, image-first, direct call to action
+
+**Quality gate:** Every variant must pass the content humaniser checklist before publishing. Volume without quality is worse than no content at all.
+
+---
+
+## The Rising Quality Bar
+
+Platform algorithms increasingly detect and suppress low-quality AI-generated content (Roth and neuroflash, 2024). The human layer — strategic direction, local cultural context, brand voice — becomes more valuable, not less, as AI content volume increases.
+
+Signs that AI content will be flagged or underperform:
+- Generic phrasing with no specific local context
+- No genuine point of view or opinion
+- Repetitive sentence structures
+- Missing cultural references or local events
+- Tone inconsistency across a single post
+
+The content humaniser exists precisely to prevent these failure modes. Every AI output that passes through this skill becomes harder to detect, more engaging, and more trustworthy.
+
+---
+
 ## Quality Criteria
 
 Output from this skill meets the required standard when:
@@ -389,6 +432,7 @@ Output from this skill meets the required standard when:
 ## References
 
 - Ltifi, M. and Johnsen, S. (forthcoming) — AI content quality risks framework
+- Roth, J. and neuroflash (2024) — Content recycling pipeline and rising quality bar framework
 - Schaefer, M. (2023) *Belonging to the Brand* — "Proof of Human" content standard
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
