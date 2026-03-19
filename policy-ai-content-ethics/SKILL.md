@@ -232,6 +232,65 @@ Signed: _________________________________ Date: ________________
 
 ---
 
+## Section 2A — AI Attribution and Disclosure Standard
+
+Source: Ching & Mothi (2025). The disclosure standard used in this policy requires specificity. "Made with AI" is insufficient. The agency standard is:
+
+> "AI-generated [specific element], art-directed and revised by [human team]."
+
+Professional precedent: the band YACHT documented their AI-assisted album in specific liner notes identifying exactly which elements were AI-generated and which were human-executed. This level of attribution is the standard the agency applies and recommends to clients. Where disclosure is provided, it must be specific enough that an informed reader understands what the AI contributed and what the human contributed.
+
+Apply this standard in the Disclosure clause (Section 6 of the policy template). "Made with AI" as a generic label is not sufficient to meet the transparency principle.
+
+---
+
+## Section 2B — Intellectual Property and Copyright
+
+Source: Ching & Mothi (2025, p.82). Add as a named clause in client policies for any client intending to register or commercially licence their content:
+
+**What the policy must state:**
+- AI-generated content without substantial human creative contribution may not qualify for copyright protection under UK, US, or EU law
+- This agency ensures that every deliverable involving AI assistance also involves substantial human creative contribution — in the form of strategic direction, editorial revision, cultural adaptation, and brand voice application
+- Before registering or licensing any AI-assisted creative work, the client must obtain legal advice from a qualified intellectual property solicitor
+
+Include this clause in the policy when the client is a creative agency, publisher, music producer, or any business that commercialises content through licensing or registration. For general brand content, note in the production record that human contribution is documented per deliverable.
+
+---
+
+## Section 2C — SynthID and AI Content Watermarking
+
+Source: Ching & Mothi (2025). For AI-generated audio and visual assets, tag original AI-generated files with persistent metadata or watermarks before any editing or compression.
+
+- **Audio:** SynthID (Google/DeepMind) is the current standard for AI-generated audio — it embeds a watermark that survives compression and editing
+- **Images and video:** Equivalent watermarking tools exist for AI-generated images and video content
+- **Production record requirement:** Note in the project file which assets were AI-generated at source and confirm that watermarking was applied to the original file before editing or delivery to the client
+
+---
+
+## Section 2D — Training Data Bias Risk Register
+
+Source: Ching & Mothi (2025). Add to the policy's risk register or prohibited uses:
+
+**Named risk: Training Data Bias.** AI-generated content depicting people, communities, or cultural practices must be reviewed for training data bias by a human reviewer with direct cultural knowledge. AI tools default to Western-centric, gender-stereotyped, and racially inaccurate representations because their training data was predominantly Western. This is not a setting that can be adjusted — it is the data the AI learned from.
+
+**For East African clients:** This review is mandatory for all AI-generated imagery descriptions, people representations, and community references before client delivery. A reviewer without direct cultural knowledge of the community being depicted is not qualified to approve this content.
+
+**Examples on record:** BuzzFeed's AI-generated travel images and DeepVogue's AI fashion tool both produced racially and culturally inaccurate depictions without flagging bias. These are the precedents this policy addresses.
+
+---
+
+## Section 2E — EU AI Act Cross-Border Compliance Note
+
+Source: Ching & Mothi (2025, pp.19, 82). For international clients, donor organisations, or any client producing content for European audiences, add the following cross-border compliance note:
+
+**EU AI Act obligations relevant to AI-assisted content production:**
+- **Article 4 — Labelling obligation:** AI-generated content distributed to EU audiences must carry appropriate labelling identifying it as AI-generated where this is not obvious to the recipient.
+- **Article 28b(4) — Human oversight mandate:** High-risk AI systems must include human oversight provisions. For content production, this means documented human review and approval before publication.
+
+This note applies when: the client distributes content to EU audiences; the client receives EU donor funding with content compliance requirements; or the client operates a cross-border business with EU-facing channels. For legal certainty in EU-facing contexts, obtain advice from a qualified solicitor familiar with the EU AI Act.
+
+---
+
 ## Section 2A — Additional Ethical Requirements
 
 **Algorithmic Bias in Personalisation (Ltifi, 2024):** AI personalisation algorithms can inadvertently reinforce demographic stereotypes — showing certain product types only to certain segments, or systematically excluding groups from offers, creating discriminatory feedback loops. Require an audit of any AI personalisation tool for demographic fairness before deployment. The audit must assess whether the system treats comparable users differently based on gender, ethnicity, or age in ways that cannot be justified by legitimate business logic.
@@ -413,6 +472,7 @@ Consult the following skills where relevant:
   drafting client content.
 
 **Key citations used in this skill:**
+- Ching, J. and Mothi, N. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act Articles 4 and 28b(4).
 - Johnsen, R. (2024) *AI Ethics in Practice*
 - Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing*
 - Schaefer, M. (2025) *Belonging to the Brand*
