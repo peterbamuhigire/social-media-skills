@@ -128,6 +128,25 @@ Contact details, next step prompt, Q&A invitation.
 
 ---
 
+## Social Proof Standards
+
+### Social Proof Taxonomy (Bly, 2018)
+
+A credentials document must present all six social proof sources. Organise proof by client type and industry where possible — a financial services prospect is more convinced by financial services social proof than by a general mix across sectors.
+
+| Source | What to Include | Placement in Credentials Document |
+|---|---|---|
+| **Client testimonials** | Named testimonials with photo (where consented), name, title, and organisation. Quote must reference a specific outcome, not general satisfaction. | Section 4 — Client Success Stories; or a dedicated testimonials page |
+| **Specific case study results** | Numbers, percentages, and currency values from prior engagements. "Significant improvement" is not a result. | Section 4 — one specific metric per story |
+| **Crowd proof** | Total number of clients served, total campaigns run, total posts published, years in operation. Specific numbers carry more weight than vague claims. | Section 1 — Agency Overview, or a dedicated "By the Numbers" callout |
+| **Expert endorsements** | Referrals from named professionals, media features, speaking invitations, industry body memberships. Third-party endorsement from a recognised source outweighs ten self-claims. | Section 3 — Approach, or alongside team profiles |
+| **Award badges and media features** | Platform certifications, industry awards, press mentions (Daily Monitor, NTV, Business Daily, etc.). Display as logos or named references. | Section 1, or a visual "As Seen In / Recognised By" strip |
+| **Process credentials** | Documented methodology, tools used, quality control steps. Demonstrates that results are reproducible, not accidental. | Section 3 — Approach and Methodology |
+
+When compiling the credentials document, verify that evidence exists for at least four of the six sources before finalising. Flag any source with insufficient evidence to the consultant — a credentials document with gaps is better than one with embellished or vague claims.
+
+---
+
 ## Quality Criteria
 
 - Agency overview is factual, confident, and free of superlatives or vague claims
