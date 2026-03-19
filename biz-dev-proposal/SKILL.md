@@ -141,6 +141,39 @@ Tone: clear, specific, professional. Not pushy.
 
 ---
 
+## Proposal Strengthening Frameworks
+
+### Kahan's Marketing Agency Scorecard (Kahan, 2022)
+
+Kahan's scorecard evaluates agencies across six dimensions. Apply this as a self-assessment lens before writing any proposal — document how the consultancy scores on each dimension and what evidence supports the score.
+
+| Dimension | Self-Assessment Question | Evidence to Include in Proposal |
+|---|---|---|
+| Digital demand generation expertise | Do we understand how to generate measurable leads and revenue through digital channels? | Case study results showing inquiry volumes and conversion rates |
+| Knowledge of the client's business | Have we demonstrated genuine understanding of their industry, competitors, and customers? | Section 3 — Understanding the Client's Situation |
+| Campaign planning for all audience segments | Can we reach every relevant segment, not just the easiest one? | Persona references from 03-audience-personas |
+| Campaign planning for all prospect touchpoints | Do we cover the full buyer journey, not just awareness? | Scope of work covering awareness through conversion |
+| Provable revenue contribution | Can we show that prior work generated revenue, not just impressions? | Specific results with currency values or percentage uplifts |
+| Agency integrity | Do we keep commitments, communicate proactively, and act in the client's interest? | Testimonials that speak to process, not just outcomes |
+
+### Social Proof Taxonomy (Bly, 2018)
+
+Every proposal should incorporate multiple social proof sources. Multiple sources outperform a single strong testimonial. Include the following in every proposal where evidence exists:
+
+- **Named client testimonials** — include name, organisation, and specific outcome ("Since working with [Agency], our WhatsApp enquiries increased from 12 to 40 per month — David Ochieng, Ochieng Tiles")
+- **Specific measurable results** — numbers, percentages, currency values from prior engagements
+- **Crowd proof** — total number of clients served, total campaigns run, years in business
+- **Expert endorsements** — referrals from recognised professionals, media mentions, speaking engagements
+- **Certification badges** — professional memberships, platform certifications, industry affiliations
+
+### The Free Diagnostic Offer (Bly, 2018)
+
+Including a lead magnet equivalent in a proposal — a free social media audit, a free campaign diagnostic, a free content gap analysis — reduces the commitment threshold and increases proposal conversion rate. As the default proposal close, offer: "If you are not yet ready to proceed with the full engagement, we can begin with a complimentary [30-minute social media audit / content gap review / platform performance diagnostic] at no charge and with no obligation. This gives you a concrete sample of our thinking before any commitment is required."
+
+Use the free diagnostic to demonstrate analytical depth, build trust, and surface client-specific problems that make the full proposal more compelling on follow-up.
+
+---
+
 ## Quality Criteria
 
 - Cover letter reads as a genuine, professionally written letter — not a template with fields swapped
