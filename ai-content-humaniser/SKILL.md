@@ -190,6 +190,10 @@ not patched.
     every sentence feels structurally similar, the draft requires deliberate variation before it
     can pass as human.
 
+### "Ineffable Something" Test
+
+Source: Ching & Mothi (2025, p.64) — citing Tyler Cowen's March 2024 review of Suno AI. Named quality criterion: does this content move, surprise, or connect in a way that is unmistakably human? If a skilled reader would feel nothing in particular after reading it, the content fails the Golden Rule regardless of grammatical correctness. The test is subjective by design — that is the point. If a piece is technically correct but leaves the reviewer with no reaction, it requires a rewrite at the level of voice and meaning, not vocabulary. Apply as the final quality gate after all checklist items are satisfied.
+
 ### Micro-Moment Register Matching
 
 When editing content used at pivotal customer journey moments — a cart abandonment message, a
@@ -248,6 +252,10 @@ this copy match what the audience is feeling at this moment?
 5. **Tone:** Does the email match how the client actually communicates with their customers? Cross-
    reference against any existing brand voice notes.
 
+### Hallucination Gate
+
+Source: Evelyn (2025); Mizrahi (2024). Apply to all content types. The gate checks: statistics, citations, named entities, dates, and product/service claims. For any output making factual claims, run: "Use web search to find the latest news and resources, and cite your sources" — then verify the cited sources independently before client delivery. Do not assume web-search output is correct; verify the linked source directly. The gate is not optional — it is a production standard for any content that makes claims of fact.
+
 ### Strategy Documents and Proposals
 
 1. Are all recommendations specific and actionable? "Leverage synergies across digital touchpoints"
@@ -296,6 +304,15 @@ Run this checklist on every piece of content before client delivery.
   inappropriate for the target community. Commission a native-speaker review for all translated
   content before client delivery.
 
+- **Cultural Bias Audit** (Source: Ching & Mothi, 2025): For any AI-generated content depicting
+  people, cultures, identities, or communities — run an explicit bias check: does this reflect the
+  actual demographic and cultural reality of the target audience? AI tools were trained
+  predominantly on Western datasets and systematically produce Western-centric, gender-stereotyped,
+  and racially inaccurate depictions. Has this content been reviewed by someone with direct
+  cultural knowledge of the community being depicted? For East African clients, this review is
+  mandatory for all AI-generated imagery descriptions, character references, and community
+  representations before client delivery.
+
 ---
 
 ## The "Proof of Human" Standard
@@ -336,6 +353,19 @@ transition. These three moves resolve most flatness problems.
   and the extent of human revision
 - This record is for internal quality tracking, not for client disclosure unless the client
   requests it
+
+### IP and Copyright Note
+Source: Ching & Mothi (2025, p.82). Before client delivery of any substantially AI-generated
+piece, note in the production record that AI-generated content may not qualify for copyright
+protection without substantial human creative contribution. If the client intends to register or
+licence the work, flag for legal review by a qualified IP solicitor before proceeding.
+
+### Transparency Spectrum
+Source: Ching & Mothi (2025, p.19). Where AI disclosure is provided, it must be specific, not
+generic. "Made with AI" is insufficient. The standard is: "AI-generated [specific element],
+art-directed and revised by [human team]" — or an equivalent level of specificity. Distinguish
+between the AI's contribution and the human's contribution in any disclosure statement. Vague
+disclosure misleads audiences and undermines trust in the work.
 
 ### Volume Quality Gate
 
@@ -431,8 +461,11 @@ Output from this skill meets the required standard when:
 
 ## References
 
-- Ltifi, M. and Johnsen, S. (forthcoming) — AI content quality risks framework
-- Roth, J. and neuroflash (2024) — Content recycling pipeline and rising quality bar framework
-- Schaefer, M. (2023) *Belonging to the Brand* — "Proof of Human" content standard
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
+- Ching, J. and Mothi, N. (2025) — Cultural Bias Audit; IP and copyright guidance; Transparency Spectrum; "Ineffable Something" test citing Tyler Cowen (2024).
+- Evelyn, A. (2025) — Hallucination Management Gate.
+- Ltifi, M. and Johnsen, S. (forthcoming) — AI content quality risks framework.
+- Mizrahi, T. (2024) — Hallucination management.
+- Roth, J. and neuroflash (2024) — Content recycling pipeline and rising quality bar framework.
+- Schaefer, M. (2023) *Belonging to the Brand* — "Proof of Human" content standard.
+- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.
+- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*.
