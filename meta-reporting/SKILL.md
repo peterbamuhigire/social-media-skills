@@ -29,6 +29,33 @@ Before generating the report, collect the following from the consultant:
 
 ---
 
+## Reporting Principles
+
+**Data storytelling structure:** Every section of any report must follow the sequence Insight → Context → Recommendation. Presenting raw metric tables without interpretation is not acceptable. State what the data shows, explain what caused it, then recommend what to do next. This applies at section level and at individual metric level.
+
+**Chart type selection (Raaz, c.2023):** Select chart types by data relationship — not by preference. Trends → line chart; comparisons → bar chart; proportions → donut chart; user behaviour patterns → heatmap; conversion stages → funnel chart. Never use 3D charts — they distort proportions and reduce legibility.
+
+**Real-time monitoring tier:** For clients running active campaigns, add a live dashboard layer providing same-day visibility of: ad spend pacing, campaign reach, and conversion events. Metrics warranting real-time monitoring: ad spend vs. daily budget (real-time), campaign reach and frequency (same day), conversion events (same day). Metrics suitable for weekly reporting: engagement rates, follower growth, content performance. Metrics suitable for monthly reporting: ROI, COCA, CLV by cohort.
+
+**Mobile-responsive design standard:** All client dashboards must be readable on a mid-range Android smartphone without zooming or horizontal scrolling. Recommend Google Looker Studio for EA clients — free, Google-integrated, and mobile-accessible. Apply: single-column layout; minimum 14px body text; maximum 6 charts per dashboard view.
+
+**Funnel CVR benchmarks (Kahan, 2022):** Use these as standing reference benchmarks in monthly reports to assess client performance against industry norms.
+
+| Funnel Stage | Benchmark CVR |
+|---|---|
+| Visitor-to-lead | >5% |
+| Inquiry-to-lead | ~3% |
+| Lead-to-opportunity | ~25% |
+| Opportunity-to-deal | ~40% |
+
+**Revenue sourced by channel (first-touch):** Include in quarterly reports a table showing what percentage of revenue each channel sourced on a first-touch attribution basis. Columns: Channel | Inquiries sourced | % of total inquiries | Revenue attributed | % of total revenue. This prevents sales from absorbing credit for marketing-generated opportunities and provides the evidence base for budget allocation decisions (Kahan, 2022).
+
+**Monthly data quality audit:** Build a monthly data integrity check into the reporting workflow before producing any report. Verify: spam filter exclusions applied in GA4; bot traffic exclusions active; tracking tag firing confirmed via GA4 DebugView; UTM coverage rate (percentage of links using UTM parameters). A report built on corrupted data is worse than no report (Raaz, c.2023).
+
+**Lead score distribution chart:** For clients using lead scoring, include a lead quality distribution chart in monthly reports — showing the percentage of leads at high, medium, and low score bands. This is a leading indicator of campaign quality, not just campaign volume. Declining scores in the high band indicate targeting drift before it appears in revenue figures (Kahan, 2022).
+
+---
+
 ## Output: Complete Monthly Report
 
 Generate a complete, client-ready document using the structure below. Write in British English. Use a professional but accessible tone — this document is read by business owners, not digital marketing specialists.
