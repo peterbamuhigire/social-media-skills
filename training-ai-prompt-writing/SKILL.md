@@ -382,11 +382,52 @@ Apply these additional considerations when prompting for EA-market content:
 - **Local cultural context** is powerful. Instruct the AI to reference locally recognisable elements: boda-boda, rolex (the Ugandan street food), market day, supper culture, Kampala traffic, KCCA, etc.
 - **UGX pricing** should always appear in prompts where price is relevant. Do not let the AI invent pricing — always provide it in the Beta element.
 
-### 4.5 Q&A and Team Practice (10 minutes)
+### 4.5 Prompt Type Taxonomy and Examples-First Methodology
 
-Reserve the final 10 minutes for open Q&A and independent practice. Participants write one prompt for a real piece of content they need to produce this week and share output for peer feedback.
+Source: Mizrahi (2024); Evelyn (2025); Joseph (c.2023–2024).
+
+**Eight prompt types** — use as a decision tool:
+
+| Type | When to Use |
+|---|---|
+| **Zero-shot** | Simple tasks, quick edits |
+| **Few-shot** | Brand voice matching — correct default for any voice task |
+| **Instructional** | Complex multi-part deliverables |
+| **Conversational** | Refinement, ideation, brainstorming |
+| **Contextual** | Strategy documents, personas, reports |
+| **Creative** | Storytelling, campaign concepts |
+| **Chain-of-Thought** | Strategy, audience analysis, decision-making |
+| **Systematic** | Repeatable tasks: caption series, email sequences |
+
+**Few-shot is the correct default for brand voice work.** Supply 2–3 examples of actual human writing before issuing a content task. Master structure:
+
+```
+Here is an example of [content type] in the voice and style I want:
+###
+[Example 1]
+###
+[Example 2]
+###
+Now write a new [content type] on [topic] in the same voice and style.
+```
+
+Adjectives are imprecise; examples are exact. Three or more examples enable reliable voice matching; fewer produce inconsistency. Training activity: participants paste three real brand posts, generate a new post, compare against tone-adjective-only output.
 
 ---
+
+### 4.6 Before/After Demonstration, Separator Syntax, and Contextual Continuity
+
+Source: Chavaux (2025); Evelyn (2025).
+
+**Before/After demonstration** — run live with the client's own brand. Before: `Write a caption for our new product launch.` Display the generic output. After: combine Examples-First structure with full Alpha-Beta-Gamma-Delta-Epsilon formula. Display the output. Ask: "What is different? What would you edit?"
+
+**### Separator Syntax** — any prompt containing both instructions and material to process must use `###` to separate sections. Prevents the AI from confusing instructions with content to process.
+
+**Contextual Continuity** — three rules for long sessions: (1) use the same chat window per project; (2) re-state brand, tone, and audience after every 6–10 exchanges; (3) reference previous outputs explicitly — never assume the AI remembers.
+
+### 4.7 Q&A and Team Practice (10 minutes)
+
+Reserve the final 10 minutes for open Q&A and independent practice. Participants write one prompt for a real piece of content they need to produce this week and share output for peer feedback.
 
 ## Worked Prompt Examples
 
