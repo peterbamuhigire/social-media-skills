@@ -133,6 +133,52 @@ When Trust-stage metrics plateau despite strong Like and Know numbers, diagnose 
 
 ---
 
+## Section 7 — Extended Trust Framework
+
+### Three-Dimensional Transparency Model (Rageh, 2026)
+
+Apply within the Trust stage of the LKT framework. Trust is not a single state — it is built through three simultaneous dimensions:
+
+- **Clarity:** Complete, easy-to-find information about the brand, its products, pricing, and policies. Information gaps create suspicion.
+- **Openness:** Interactive feedback channels and permission-based data collection. Brands that ask before they take build more trust than brands that assume consent.
+- **Objectivity:** Displaying negative alongside positive reviews. Brands that show only five-star feedback are disbelieved; brands that respond to criticism publicly and professionally are trusted.
+
+All three dimensions must be active for trust to build. Empirical chain (Rageh, 2026): transparency → trust (β=0.730) → commitment (β=0.525) → engagement (β=0.413). This means transparency produces trust; trust produces commitment; commitment drives engagement — in that sequence, not simultaneously.
+
+### Commitment as the Terminal Stage
+
+The LKT framework's goal is not trust acquisition — it is commitment building. Commitment is the strongest predictor of online engagement (Rageh, 2026). Add **Commitment** as the stage beyond Trust in the LKT arc:
+
+**Like → Know → Trust → Commitment → Advocacy**
+
+Commitment-stage community members do not merely trust the brand — they defend it, recruit for it, and return regardless of price fluctuation. Strategy at this stage: recognise committed members publicly, give them early access and exclusive involvement, and create participation structures (polls, co-creation, feedback panels) that make them feel ownership of the brand direction.
+
+### Four Types of Social Influencers (Westergaard, 2016)
+
+Use this taxonomy to map community amplifiers before prescribing a community engagement strategy.
+
+| Type | Reach | Action Probability | Investment Priority |
+|---|---|---|---|
+| Connected Catalysts | Broad | Low | Low — wide reach, shallow engagement |
+| Passionate Publishers | Medium | High content output | Medium — content volume, variable quality |
+| Everyday Advocates | Narrow | High | **High — most underinvested type** |
+| Altruistic Activators | Narrow | Maximum loyalty | **High — deepest brand attachment** |
+
+Most community strategies over-invest in Catalysts (macro-influencers) and under-invest in Advocates and Activators (micro and nano advocates). The Fan Elevation System prioritises moving community members up the engagement ladder — from passive follower to Advocate or Activator. Identify Everyday Advocates through their unprompted brand mentions, peer referrals, and comment quality, then activate them through direct recognition and exclusive involvement.
+
+### Generational Trust Calibration
+
+Community trust strategies must be calibrated by generation. Do not apply a single trust-building approach across audiences spanning multiple age cohorts (Rageh, 2026):
+
+- **Gen Z (born 1997–2012):** Demands brand activism and algorithmic transparency. Will not engage with brands that appear performatively progressive without structural commitment.
+- **Millennials (born 1981–1996):** Prioritise data control and privacy. Trust increases when brands give clear control over data and communication frequency.
+- **Generation X (born 1965–1980):** Responds to institutional credentials, certifications, and third-party endorsements. Evidence of professional standing matters more than social proof from peers.
+- **Baby Boomers (born 1946–1964):** Value personal service and traditional authority signals — named contacts, direct phone access, and relationship history.
+
+Include this generational calibration as an audience segmentation layer in the persona work (see `03-audience-personas`) when the client's audience spans multiple generations.
+
+---
+
 ## Quality Criteria
 
 - The three LKT stages are defined clearly with a dedicated paragraph each, explaining the commercial logic of each stage in the EA market context
