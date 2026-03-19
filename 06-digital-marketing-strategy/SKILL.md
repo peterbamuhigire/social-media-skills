@@ -30,6 +30,31 @@ If customer lifetime value is unavailable, use the ROI formula methodology to wo
 
 ---
 
+## Pre-Strategy Checklist: P.O.S.T.
+
+Before generating the strategy document, apply Zahay et al.'s (2024) P.O.S.T. methodology to prevent platform-first thinking:
+
+1. **People** — understand the audience and their digital behaviours first. Which platforms are they actually using, and what are they doing there? Use the 5Cs framework below.
+2. **Objectives** — set business-aligned goals before selecting any platform or channel.
+3. **Strategy** — develop the strategic approach, then derive the content and engagement model from it.
+4. **Technology** — only then select platforms, tools, and channels. Technology choice follows strategy; it does not lead it.
+
+### The 5Cs of Social Media Motivation
+
+Use this framework (Zahay et al., 2024) to diagnose what the target audience is primarily doing on each platform. The diagnosis determines the appropriate content strategy per channel.
+
+| Motivation | Description | Implication for Content |
+|---|---|---|
+| **Consume** | Passive audience; reads, watches, listens | Informational content; reach over engagement |
+| **Control** | Curates and manages own digital presence | Self-expression content; tools for personalisation |
+| **Connect** | Builds relationships and community | Community content; conversation starters |
+| **Compete** | Status-seeking; comparisons and achievements | Achievement content; social proof |
+| **Create** | Produces and shares original content | UGC campaigns; co-creation invitations |
+
+Apply the 5Cs to each priority platform in Section 3 (Channel Strategy) to explain why the content approach fits this audience on this platform.
+
+---
+
 ## Document Structure
 
 Generate all seven sections in order. Use markdown headings. Do not omit any section.
@@ -59,6 +84,31 @@ List each owned asset with a brief status note.
 - Overall paid spend as % of total budget
 
 Conclude with a 2–3 sentence overall assessment: what is working, what is underused, and where the biggest opportunity lies.
+
+**Digital Transparency Assessment** (Rageh, 2026):
+
+Rate the client's current transparency across three dimensions:
+
+| Dimension | Definition | Current Rating (High / Medium / Low) | Priority Action |
+|---|---|---|---|
+| **Clarity** | Product information, pricing, policies are clear and easy to find | | |
+| **Openness** | Interactive feedback channels exist; data collection is permission-based | | |
+| **Objectivity** | Negative reviews and critical feedback are visible alongside positive content | | |
+
+Low transparency scores predict lower conversion rates and higher churn, particularly in markets where digital commerce is newer and default consumer trust is lower. For EA clients, this assessment is especially important: Uganda and Kenya's data protection frameworks (DPPA 2019, DPA 2019) are creating new transparency expectations among urban digital consumers.
+
+**Digital Marketing Lifecycle assessment** (Zahay et al., 2024):
+
+Classify the client's current digital marketing maturity against the four lifecycle stages. Each stage demands a different budget allocation and strategic priority.
+
+| Stage | Definition | Primary Digital Investment |
+|---|---|---|
+| **Acquisition** | Attracting new prospects — reach, awareness, traffic | Paid social, SEO/content, influencer |
+| **Conversion** | Turning prospects into first-time buyers | Landing pages, email nurture, retargeting |
+| **Retention** | Keeping existing customers engaged and repeat-buying | Email marketing, WhatsApp broadcasts, loyalty content |
+| **Value Growth** | Increasing revenue per customer — upsell, cross-sell, referral | Email sequences, community, advocacy programmes |
+
+State which stage represents the client's primary gap and highest-priority investment. Note: average repeat customers spend 67% more in months 31–36 than in months 1–6 (Zahay et al., 2024) — making retention investment consistently undervalued relative to acquisition.
 
 ---
 
@@ -144,6 +194,27 @@ Budget allocation: [% of total; recommended minimum threshold for meaningful rea
 
 Note: production costs (content creation, copywriting, design briefs) are separate from paid media spend. Distinguish the two clearly.
 
+**Digital Architecture Decision: Central Site vs. Hub-and-Spoke** (Bly, 2018):
+
+Before finalising channel strategy, document the client's digital content architecture. This choice has major implications for SEO investment, content effort, and conversion design.
+
+- **Central site model:** One authoritative domain receives all traffic; all social media and paid channels point to it. Best for: service businesses, B2B firms, personal brands, businesses with one core offer.
+- **Hub-and-spoke model:** A central site supported by niche microsites or landing pages targeting specific audiences or offers. Best for: multi-product businesses, clients with distinct customer segments, businesses investing significantly in paid search.
+
+State the chosen architecture and the rationale clearly in Section 3. The channel strategy must be consistent with this architectural decision.
+
+**Scrappy Budget Decision Logic** (Westergaard, 2016):
+
+For clients with constrained budgets (under UGX 5,000,000/month total), apply Westergaard's Brains Before Budget principle: rank channel investments by strategic leverage, not budget availability.
+
+**Digital Compass Question:** For each channel under consideration, ask — "Does this channel most efficiently move us towards the defined business destination?" If the answer is not clearly yes, remove it from the plan.
+
+**Prioritisation order for lean budgets:**
+1. Own your website and email list first — these are the only assets you control entirely
+2. Choose one social platform where your audience is most active and go deep, not broad
+3. Add a second platform only when the first is performing consistently
+4. Paid spend follows organic proof — boost only content that has already demonstrated organic engagement
+
 ---
 
 ### 4. Content Marketing Strategy
@@ -180,6 +251,8 @@ Cover:
 
 **Segmentation principle:** even at small list sizes, distinguish at minimum between leads (not yet purchased) and active customers. Personalise CTAs accordingly.
 
+**90/90 nurture principle** (Bly, 2018): 90% of email subscribers who purchase do so within 90 days of joining a list. Digital strategy must reflect this window — the nurture sequence in the first 90 days must be front-loaded with high frequency, high-value content. A flat ongoing cadence misses the primary buying window. Specify in the email strategy: what is the send frequency in weeks 1–12, and how does it differ from the steady-state frequency in months 4–12?
+
 If 07-email-marketing-strategy has not been commissioned, flag email as a recommended addition and note the typical ROI of email versus paid social for retention-focused businesses.
 
 ---
@@ -200,6 +273,21 @@ Apply the ROI formula from Bodnar and Cohen (2012): **ROI = (TLV − COCA) ÷ CO
 | Social media (paid) | | | | | |
 | Email marketing | | | | | |
 | Influencer marketing | | | | | |
+
+**Attribution Model Selection** (Hanlon and Tuten, 2022):
+
+Choose an attribution model before the campaign begins — do not retrofit attribution after the data exists. The choice affects which channels appear to be performing and how budget is subsequently allocated.
+
+| Model | How credit is assigned | Best suited for |
+|---|---|---|
+| **Last click** | 100% to the final touchpoint before conversion | Short purchase cycles; direct response campaigns |
+| **First click** | 100% to the first touchpoint | Awareness campaigns; brand-new market entry |
+| **Linear** | Equal credit to every touchpoint | Long nurture cycles with many touch points |
+| **Time decay** | More credit to touchpoints closer to conversion | High-consideration purchases; B2B |
+| **Position-based** | 40% first, 40% last, 20% distributed | Balanced view of both acquisition and close |
+| **Data-driven** | Algorithmic weighting based on actual conversion data | Clients with sufficient data volume (GA4 minimum: 400+ conversions/month) |
+
+State the chosen model in Section 6 and note which GA4 or platform analytics setting implements it. Apply consistently for the full strategy period before switching.
 
 **Reporting cadence:**
 - Weekly: social media engagement and posting compliance
@@ -246,6 +334,7 @@ Theme: maximise results, document learnings, and plan the following year.
 - Produce annual digital marketing performance report (meta-reporting skill)
 - Conduct strategy review: what to continue, stop, or add in Year 2
 - Begin Year 2 planning with updated baselines and revised COCA/TLV data
+- Review the full platform channel mix and assess whether any platforms have materially changed in reach, algorithm behaviour, or EA audience penetration since Q1. The EA digital market evolves faster than global benchmarks; channel decisions must be revisited annually (Pidsley, 2023)
 - Milestone: annual ROI calculated and documented; Year 2 strategy brief prepared
 
 ---
