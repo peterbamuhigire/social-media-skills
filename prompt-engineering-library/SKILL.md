@@ -240,6 +240,53 @@ Source: Upadhyay (2024). Apply these methods when a single prompt does not produ
 
 ---
 
+## The 5-Step Perfect Prompt (Erné, 2024)
+
+The single most impactful prompting improvement is assigning a role in Step 1:
+
+1. **Role:** "You are a senior social media strategist specialising in East African consumer markets…"
+2. **Context:** "The client is [name], a [industry] business in [city], targeting [audience]…"
+3. **Task:** "Write a 90-day content calendar for their Instagram account…"
+4. **Format:** "Output as a table with columns: Week, Theme, Post Type, Caption Draft, Hashtags"
+5. **Constraints:** "Keep captions under 150 words. Use British English. Reference local events where relevant."
+
+**EA calibration tip:** Always include Uganda/East Africa explicitly in the Role and Context steps. Generic AI outputs default to Western market assumptions. Specifying "Uganda" or "East Africa" in the role dramatically improves local relevance.
+
+---
+
+## 8 Golden Rules of Prompting (Roth and neuroflash, 2024)
+
+1. Be precise and specific — vague prompts produce generic outputs
+2. Define the target audience explicitly
+3. Use a clear instruction verb: Create / Write / Describe / Analyse / List
+4. Set the desired tone and style ("professional but warm", "conversational", "authoritative")
+5. Avoid ambiguities — if two interpretations are possible, the AI will choose the wrong one
+6. Focus on essentials — one task per prompt
+7. Use positive phrasing — state what to do, not what to avoid
+8. Add context — platform, format, purpose, audience size
+
+**Quick test:** Before sending any prompt, check it against all 8 rules. If it fails 3 or more, rewrite it.
+
+---
+
+## MVOSSTE Prompting Workflow (Randazzo, 2024)
+
+Use this sequence when developing full marketing strategies with AI assistance:
+
+| Step | Prompt focus |
+|---|---|
+| **Mission** | "Draft 3 mission statement options for [client] that reflect [values]…" |
+| **Vision** | "Write a 5-year vision statement assuming [growth scenario]…" |
+| **Objective** | "Generate 5 SMART marketing objectives for [goal] in [timeframe]…" |
+| **Situation** | "Conduct a SWOT analysis for [client] in [industry] in [market]…" |
+| **Strategy** | "Suggest 3 strategic options for achieving [objective], with trade-offs…" |
+| **Tactics** | "List 10 specific social media tactics for [strategy] with [budget] budget…" |
+| **Execution** | "Create a 30-day action plan with weekly milestones for [tactic]…" |
+
+**Professional practice:** Footnote every AI-generated output with the exact prompt used. This enables clients to audit, reproduce, and modify outputs — and protects the consultant if outputs are later questioned.
+
+---
+
 ## Quality Criteria
 
 Output from this skill meets the standard when:
@@ -257,7 +304,9 @@ Output from this skill meets the standard when:
 
 ## References
 
+- Erné, R. (2024) — 5-Step Perfect Prompt framework: Role, Context, Task, Format, Constraints.
+- Roth, J. and neuroflash (2024) — 8 Golden Rules of Prompting for AI-assisted content production.
 - Upadhyay, S. (2024) *Generative AI for Marketing*. — Alpha-Beta-Gamma-Delta-Epsilon master prompt formula; 10 prompt components; prompting techniques.
-- Randazzo, C. (2024) — Role + framework + subject + constraint pattern for structured prompt design.
+- Randazzo, C. (2024) — MVOSSTE prompting workflow for AI-assisted marketing strategy development.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. — RACE framework; POEM model; audience segmentation.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. — 10-4-1 content rule; ROI formula.
