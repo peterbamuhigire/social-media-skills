@@ -259,6 +259,61 @@ Automation is not set-and-forget. Include this maintenance schedule in every roa
 
 ---
 
+## No-Code Automation Stack (Erné, 2024)
+
+Combine AI intelligence with workflow automation using two layers:
+
+**Layer 1 — Automation (Zapier or Make.com):**
+- Connect data sources: Google Sheets, Meta Business Suite, WhatsApp Business, Mailchimp, Airtable
+- Trigger actions: "When new lead form submitted → add to CRM → send welcome WhatsApp → notify account manager"
+- Both tools have free tiers accessible to EA clients
+
+**Layer 2 — Intelligence (Claude or ChatGPT API):**
+- Analyse data: "Summarise this month's engagement data and identify 3 actionable insights"
+- Generate content: "Draft a WhatsApp follow-up message for a lead who enquired about [service]"
+- Route decisions: "Classify this customer complaint as urgent/standard/low-priority"
+
+**Combining both layers:** Zapier/Make handles the plumbing (moving data between tools); Claude/ChatGPT provides the intelligence (analysis and generation). Together they form a low-code AI consultancy engine.
+
+**EA-accessible starter stack:**
+- Zapier Free (5 Zaps) + Google Sheets + Gmail + WhatsApp Business API (Twilio or WATI)
+- Estimated monthly cost: $0–$50 USD depending on message volume
+
+---
+
+## Multi-Agent Architecture (Farri and Rosani, 2025; Nayebi, 2025)
+
+Rather than one general-purpose AI chatbot, advanced marketing operations use multiple specialised agents working in concert:
+
+| Agent | Role | Example tools |
+|---|---|---|
+| Research agent | Monitors trends, competitor activity, brand mentions | Perplexity, Brandwatch, Google Alerts |
+| Copywriting agent | Drafts captions, emails, scripts from brief | Claude/ChatGPT with brand context |
+| Analytics agent | Pulls performance data and generates insights | Meta Business Suite API, GA4 |
+| Scheduling agent | Publishes approved content at optimal times | Buffer, Hootsuite, Later |
+
+**Coordination:** A human consultant acts as the orchestrator — reviewing outputs from each agent, resolving conflicts, and making strategic decisions that require local knowledge or client relationship context.
+
+**Implementation path:** Start with one agent (typically the copywriting agent). Add agents one at a time as confidence grows.
+
+---
+
+## Human-in-the-Loop (HITL) Escalation Protocol (Nayebi, 2025)
+
+Define clear thresholds so automation handles routine decisions and humans handle high-stakes ones:
+
+| Decision type | AI handles | Human handles |
+|---|---|---|
+| Caption drafting | ✓ Draft | ✓ Final approval |
+| Community management | ✓ Routine queries, FAQs | ✓ Complaints, crises, sensitive topics |
+| Performance reporting | ✓ Data pull + narrative draft | ✓ Strategic commentary + client presentation |
+| Campaign optimisation | ✓ A/B test suggestions | ✓ Budget reallocation decisions |
+| Crisis response | ✗ Do not automate | ✓ Human-only — use crisis playbook |
+
+**Protocol:** Every automated workflow must have a defined escalation trigger. When the trigger fires, a human receives an alert with full context and a recommended action. The human approves, modifies, or overrides. The AI never acts autonomously on sensitive decisions.
+
+---
+
 ## Quality Criteria
 
 Output meets the standard for this skill if it:
@@ -288,5 +343,11 @@ Output meets the standard for this skill if it:
 
 - Upadhyay, N. (2024) *Generative AI for Marketing*. Kogan Page. [10-step automation
   workflow; 8 task qualification factors — cited in Steps 1, 2, and 4 above]
+- Erné, R. (2024) *AI-Powered Marketing*. [No-code automation stack; Zapier/Make +
+  Claude/ChatGPT two-layer model — cited in No-Code Automation Stack section]
+- Farri, O. and Rosani, M. (2025) *Multi-Agent Systems for Marketing*. [Multi-agent
+  architecture patterns — cited in Multi-Agent Architecture section]
+- Nayebi, M. (2025) *Human-in-the-Loop AI*. [HITL escalation protocols and agent
+  orchestration — cited in Multi-Agent Architecture and HITL sections]
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
