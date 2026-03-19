@@ -237,6 +237,42 @@ Generate the following sections in order, customised to the client's inputs:
 
 ---
 
+## Section 5 — Velocity and Funnel Diagnostics
+
+### Velocity as a Fourth Measurement Dimension (Kahan, 2022)
+
+Current frameworks measure three dimensions: volume (how many), rate (what percentage), and value (what revenue). Add **velocity** (how fast) as the fourth dimension. Velocity metrics:
+
+| Metric | Definition | How to Measure |
+|---|---|---|
+| Inquiry-to-lead velocity | Days from first inquiry to qualified lead status | CRM or enquiry log timestamp comparison |
+| Lead-to-opportunity velocity | Days from qualified lead to active opportunity | CRM pipeline stage dates |
+| Opportunity-to-deal velocity | Days from active opportunity to signed deal | CRM close date minus opportunity creation date |
+| End-to-end deal velocity | Days from first inquiry to signed deal | CRM or enquiry log: first contact to deal close |
+
+Faster conversion at the same spend equals higher revenue per quarter. Velocity targets belong in the metrics framework alongside cost targets — they are not secondary indicators. Include velocity in quarterly board reports alongside COCA and TLV.
+
+### Funnel CVR Benchmarks and Diagnostic Decision Tree (Kahan, 2022)
+
+**Benchmark CVRs:**
+
+| Funnel Stage | Benchmark CVR |
+|---|---|
+| Visitor-to-lead | >5% |
+| Inquiry-to-lead | ~3% |
+| Lead-to-opportunity | ~25% |
+| Opportunity-to-deal | ~40% |
+
+**Diagnostic decision tree — apply when a CVR falls below benchmark:**
+
+- Inquiry-to-lead CVR low → Investigate content quality and audience targeting alignment. Are the right people arriving? Is the value proposition clear enough to prompt a response?
+- Lead-to-opportunity CVR low → Investigate lead scoring threshold calibration and sales response time SLA. Leads that wait more than 24 hours for a response convert at significantly lower rates.
+- Opportunity-to-deal CVR low → Investigate sales process and objection handling quality. At this stage, the problem is rarely marketing — it is commercial conversation quality or proposal competitiveness.
+
+Include these benchmarks as a standing reference table in monthly and quarterly reports. Flag any stage that falls more than 20% below benchmark as requiring immediate diagnostic review.
+
+---
+
 ## Cross-References
 
 - `meta-reporting` — monthly report structure and template
