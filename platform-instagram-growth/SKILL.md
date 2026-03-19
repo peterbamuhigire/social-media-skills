@@ -91,6 +91,13 @@ The account is a media property. Focus shifts from growth tactics to authority p
 
 ## 2. Instagram Algorithm Optimisation
 
+### 2024–2025 Algorithm Updates
+
+Two significant changes affect strategy as of 2024:
+
+1. **Original content is now prioritised over reposted or aggregated content.** Instagram explicitly demotes accounts that primarily repost other creators' content. Growth strategies that rely on curating or reposting will be suppressed. Every post must be original work (Butow & Walker, 2025).
+2. **The Explore page surfaces only photos and videos to new audiences.** Designed graphics, infographics, and text-heavy carousel covers rarely appear on Explore. Accounts that rely on Canva-designed posts to reach new followers will not be distributed via Explore. Reserve designed graphics for existing follower engagement; use authentic photos and video for non-follower discovery.
+
 ### The 3 Rs of Instagram Ranking
 
 Instagram ranks content on three primary signals (Chaffey, 2024):
@@ -191,6 +198,12 @@ Build every post's hashtag set across three tiers:
 - Use 8–15 hashtags per post (current best practice for EA accounts); 20–30 is no longer recommended following 2023 algorithm updates
 - Place hashtags in the caption, not the first comment — the first comment placement shows no measurable reach advantage
 - Research hashtags using Instagram's own search: type a seed keyword and review the "Related" suggestions; filter for EA-specific tags
+
+**Geo-tagging:** adding a location tag to every post is estimated to increase engagement by over 80% through location-based discovery (Hietaniemi, 2020 — treat as directional, not precise). Tag the city or neighbourhood for local reach; tag the country for national campaigns.
+
+**Branded hashtag:** create a unique branded hashtag from day one (e.g. #KampalaOrganicsByAmara) and include it in: the bio, all post captions, packaging, receipts, and email signatures. It becomes the collection point for all UGC and a search hub for the community.
+
+**AR filter growth mechanic:** create a custom Instagram AR filter using Meta's Spark AR (free) that users must follow the account to access. The filter functions as a follower-gating mechanism — when users share content using the filter, the account name is embedded in every share, driving organic discovery.
 
 ### Hashtag Research Process for Uganda/EA Niches
 
@@ -348,6 +361,39 @@ Investigate if any of the following occur for 3 consecutive weeks:
 
 ---
 
+## 9. Broadcast Channels as a Retention and Growth Tool
+
+Instagram Broadcast Channels are a one-to-many messaging format: the account sends a text, photo, video, or poll to all subscribers, and every subscriber receives it as a direct message — bypassing the feed algorithm entirely. Unlike feed posts, Broadcast Channel messages are not subject to reach suppression.
+
+**Why Broadcast Channels matter for growth:**
+- Retained, engaged subscribers are the algorithm's strongest signal that an account has high-quality content — Broadcast Channel activity directly supports feed distribution
+- A subscriber who receives 3–4 channel messages before seeing a feed post arrives already warm — comment depth and immediate saves increase
+- Channels build a direct audience relationship that does not depend on Meta's algorithm or platform changes
+
+**Growth-phase use of Broadcast Channels:**
+- Phase 2–3 (500–10,000): launch a Channel and announce it in 3 consecutive Stories with a countdown sticker. Offer a specific reason to subscribe ("I'll share my weekly content schedule and post templates here only")
+- Phase 4+ (10,000+): use the Channel as the primary communication channel for product launches, exclusive previews, and time-sensitive offers
+- Promote the Channel from the profile (add a "Join Channel" button) and in every high-performing Reel's CTA
+
+---
+
+## 10. Blog Post Angles for Growth Content
+
+Use these angles with the `blog-writer` skill to generate consultancy blog posts targeting business owners who want to grow their Instagram accounts.
+
+| # | Blog post title | Angle |
+|---|---|---|
+| 1 | From zero to 10,000 Instagram followers: the realistic roadmap for Ugandan SMEs | 5-phase model with specific monthly benchmarks; what changes at each milestone |
+| 2 | Why your Instagram Reels aren't growing your following (and what to fix) | Completion rate as the #1 growth signal; hook failures; looping technique |
+| 3 | Why micro-influencers in East Africa outperform celebrity accounts by 3x | Engagement rate inversion (5.3% vs 1.6%); local vs pan-African reach |
+| 4 | Instagram Broadcast Channels explained: the growth tool your competitors haven't discovered yet | Algorithm-bypass DMs; subscriber opt-in mechanic; use cases for Ugandan brands |
+| 5 | The Instagram hashtag formula that actually works for Ugandan businesses | 3-tier approach; geo-tagging boost; why you need a branded hashtag from Day 1 |
+| 6 | How to use Instagram Collabs to double your reach without spending anything | Two-account Collab posts; how to find the right partners in the EA market |
+| 7 | Why Instagram suppresses reposted content (and what to do instead) | 2024 original content priority; what counts as original; implications for design-heavy accounts |
+| 8 | The 30-minute Instagram routine that actually grows your account | 30-minute engagement window; before/after post behaviour; community cluster logic |
+
+---
+
 ## Quality Criteria
 
 Output from this skill meets the standard when it:
@@ -365,6 +411,8 @@ Output from this skill meets the standard when it:
 
 ## References
 
+- Butow, E. and Walker, C. (2025) *Instagram for Business for Dummies* (3rd ed.)
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth*
+- Walsh Phillips, K. (2023) *Ultimate Guide to Instagram for Business* (2nd ed.)
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
-- Kotler, P. et al. (2023) *Marketing Management*. Pearson.

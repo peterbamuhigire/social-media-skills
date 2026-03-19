@@ -27,8 +27,10 @@ Before generating this plan, collect the following from the client:
 
 A complete, optimised profile converts visitors to followers before they see a single post. Complete every element.
 
-**Username**
+**Username and display name — the only two searchable fields**
+- The username and display name are the only two profile fields that Instagram's search algorithm indexes. Keywords must appear in at least one of them — placing keywords only in the bio does not improve search visibility (Butow & Walker, 2025)
 - Keep the username consistent with the Facebook Page and other platforms
+- Include the primary keyword and location in the display name (e.g. "Kampala Skincare | Natural Products") — this is indexed; the bio is not
 - Use the business trading name with no unnecessary punctuation or numbers (e.g. @kampalaorganics not @kampala_organics_ug_2024)
 - If the ideal username is taken, add a simple location suffix: @businessname.ug or @businessname.kampala
 
@@ -39,9 +41,11 @@ A complete, optimised profile converts visitors to followers before they see a s
 - Avoid text in the profile photo — it becomes illegible at small sizes
 
 **Bio (150 characters maximum)**
+Write the bio about the prospect's desired outcome, not the business's description. The question to answer is: "Why should this person follow this account?" — not "What does this business do?" (Walsh Phillips, 2023)
+
 Structure the bio across three functional lines:
-- Line 1: value proposition — what the business does and for whom (e.g. "Handcrafted skincare for Kampala women")
-- Line 2: credibility or differentiator — what makes it the right choice (e.g. "100% natural ingredients | Est. 2019")
+- Line 1: prospect outcome — what result the follower gets (e.g. "Clearer skin using natural ingredients made in Uganda")
+- Line 2: credibility or differentiator (e.g. "100% natural | 2,000 customers | Est. 2019")
 - Line 3: CTA + location (e.g. " Kampala | Order via link below")
 
 No wasted words. Avoid vague descriptors ("passionate", "dedicated", "innovative"). Every word must earn its place.
@@ -55,6 +59,8 @@ Use a link aggregator (Linktree, Beacons, or a free equivalent). Include a maxim
 5. Optional: latest blog post or YouTube video
 
 Update the link-in-bio when running a campaign. Reference it in every caption with "link in bio" or the shorthand "🔗 bio".
+
+**Stories link sticker:** every account — regardless of follower count — can add a direct URL link to a Story. Use this to drive traffic to specific pages, campaign landing pages, or WhatsApp without relying on the bio link. This removes the need to tell followers to "check bio" in Stories content.
 
 **Highlights structure**
 Create and maintain these Highlights covers (design cover images using brand colours):
@@ -129,8 +135,14 @@ Give one clear action only:
 **Reel dimensions and specs**
 - Aspect ratio: 9:16 (vertical), 1080×1920px
 - Safe zone for UI overlay: keep key text and faces within the central 80% of the frame
-- Duration: 15–60 seconds is optimal for completion rate; longer Reels (up to 90 seconds) work for tutorials
+- Duration: maximum 3 minutes (extended in 2024); 15–30 seconds is optimal for EA audiences for completion rate; up to 60 seconds for tutorials; long-form Reels (60–180 seconds) suit education-first content where the audience has declared interest
 - Cover image: set a custom cover image for each Reel so it displays well on the profile grid
+
+**Text overlays serve double duty:** on-screen text keeps silent viewers engaged and also helps Instagram's search algorithm index the Reel's topic — a Reel about "how to price a service" should include those words visibly on screen, not only in the audio (Butow & Walker, 2025).
+
+**Static posts have declined significantly.** Since Instagram prioritised Reels, static image posts experienced a 30–50% drop in organic reach (Walsh Phillips, 2023). Static posts remain important for grid aesthetics and follower engagement, but should no longer be relied upon as the primary reach-building format. Allocate the majority of content production effort to Reels and carousels.
+
+**The "business mullet" principle:** keep the feed professional and polished (this is what potential followers and clients see first), and keep Stories casual and personal — behind-the-scenes, real-time updates, team moments, process clips. The asymmetry is deliberate (Walsh Phillips, 2023).
 
 ---
 
@@ -273,15 +285,70 @@ Review KPIs at the end of each month. Present findings using the meta-reporting 
 
 ---
 
+## 9. Instagram-to-Sales Funnel
+
+Instagram's native tools are optimised for awareness and community building, not direct sales. Design an explicit capture mechanism to bridge the gap between follower and paying customer. Three models work for the Uganda/EA market:
+
+**Model A — DM-to-sale funnel (no website required)**
+Post content with a CTA that invites a DM ("DM me the word PRICING for our full rate card" / "Comment KAMPALA and I'll send you the details"). Reply with a conversation that qualifies the enquiry and moves to a link or a WhatsApp handoff. This model requires no landing page and works entirely inside Instagram. Jennifer Allwood (Walsh Phillips, 2023) converted 100,000+ followers to coaching sales exclusively via DMs.
+
+**Model B — ManyChat keyword automation**
+Ask followers to type a specific keyword in the comments of a post (e.g., "Type GUIDE below"). A ManyChat chatbot automatically DMs the link to every commenter. This removes the "link in bio" friction and delivers content at the moment of interest. Comment-to-DM automation is increasingly replacing link-in-bio tools as the primary Instagram lead capture mechanism (Butow & Walker, 2025).
+
+**Model C — Post-to-landing-page funnel (with email capture)**
+Post → bio link → lead magnet landing page → email opt-in → thank-you page offer → nurture sequence → sale. Effective lead magnet formats: checklist, free guide, short video course, discount code, event registration. The title formula that consistently converts: *"[Number] Ways to [Desired Outcome] Without [Undesirable Thing]"* (Walsh Phillips, 2023).
+
+**Broadcast Channels — algorithm-bypass communication**
+Instagram Broadcast Channels are a one-to-many DM format: the business sends a message and every subscriber receives it directly, regardless of the feed algorithm. Followers opt in by clicking "Join" on the channel. Use Broadcast Channels for: product launch announcements, flash sale alerts, exclusive content drops, and weekly tip series. Unlike feed posts, Broadcast Channel messages are never suppressed by the algorithm (Butow & Walker, 2025).
+
+**Key statistics for client conversations:**
+- 90% of Instagram users follow at least one business (Walsh Phillips, 2023)
+- Posts that ask a question generate 300% more interaction than posts that do not (Foundr, cited in Walsh Phillips, 2023)
+- 58% of users report becoming more interested in a brand after seeing it in an Instagram Story (Walsh Phillips, 2023)
+- Micro-influencers with under 35,000 followers achieve an average 5.3% engagement rate vs 1.6% for accounts above 750,000 (Hietaniemi, 2020) — use this to argue for local micro-influencer partnerships over pan-African celebrity deals
+- Boosting via the iOS app incurs a 30% Apple service charge; always boost through Meta Ads Manager on desktop or Android to avoid this (Butow & Walker, 2025)
+
+---
+
+## 10. Blog Post Angles
+
+Use these angles with the `blog-writer` skill to generate client-attracting content for the consultancy website. Each angle is derived from this skill's content and designed to rank for search terms used by Ugandan and East African business owners researching Instagram marketing.
+
+| # | Blog post title | Angle / hook |
+|---|---|---|
+| 1 | Why your Instagram bio is losing you followers — and how to fix it in 150 characters | Bio must describe prospect outcome, not business; keyword in display name/username only |
+| 2 | The only two Instagram fields that Google and Instagram search can actually find | Username + display name are the only searchable fields; bio keywords are invisible to search |
+| 3 | How to turn Instagram followers into WhatsApp leads without running a single ad | DM funnel model; ManyChat keyword automation; WhatsApp handoff as the EA-specific conversion step |
+| 4 | Why your Instagram Reels are being ignored (and what to do about it in Uganda) | Hook psychology, silent-viewer captions, text overlay for search indexing, 3-min capacity |
+| 5 | Static posts are dying on Instagram: what Ugandan businesses need to do now | 30–50% reach decline; Reels as primary distribution; carousel for saves; static for grid only |
+| 6 | Instagram Broadcast Channels: the no-algorithm shortcut your competitors haven't discovered | One-to-many DM delivery; bypass feed suppression; use cases for SMEs |
+| 7 | The "business mullet" Instagram strategy: why your feed and Stories should look completely different | Professional feed vs personal Stories; trust-building asymmetry |
+| 8 | Micro-influencers in Uganda vs celebrity endorsements: what the engagement data actually shows | 5.3% vs 1.6% engagement rate differential; local relevance over reach |
+| 9 | Why posting questions on Instagram drives 3x more engagement (with examples for Ugandan businesses) | 300% more interaction data; practical question formats for local industries |
+| 10 | The Instagram hashtag rule that most consultants get wrong | Retroactive hashtags do not work; only first 3 hashtags in Stories are indexed; test per account |
+
+---
+
 ## Quality Criteria
 
 Output meets the standard when it:
 
-- Covers all 8 sections with specific, actionable guidance tailored to the client's industry and audience — no generic filler
+- Covers all 10 sections with specific, actionable guidance tailored to the client's industry and audience — no generic filler
 - Uses the client's actual business name, products/services, and brand context throughout the 30-day plan
 - The 30-day content plan contains 20 posts (5 per week) with format, content type, caption brief, hashtag tier note, and visual direction for each entry
 - Hashtag recommendations include at least 5 Uganda/EA-specific examples relevant to the client's industry
 - Reels guidance specifies the hook/value/CTA structure with at least one example hook line relevant to the client's industry
 - All character limits, dimensions, and technical specifications are accurate for the current Instagram platform standard
 - UGC and collaboration guidance includes specific, actionable steps appropriate for the Ugandan market (micro-influencer pricing context, permission etiquette)
+- Section 9 (Instagram-to-Sales Funnel) is present with all three models (DM funnel, ManyChat, post-to-landing-page), Broadcast Channels, and key statistics cited
+- Section 10 (Blog Post Angles) contains at least 8 titled angles ready for use with the blog-writer skill
 - British English is used throughout with no American spelling variants
+
+---
+
+## References
+
+**Key citations used in this skill:**
+- Butow, E. and Walker, C. (2025) *Instagram for Business for Dummies* (3rd ed.)
+- Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth*
+- Walsh Phillips, K. (2023) *Ultimate Guide to Instagram for Business* (2nd ed.)
