@@ -111,6 +111,11 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `playbook-white-label-partnerships` | White-label and sub-contracting with agencies — structuring relationships, pricing, brief requirements, confidentiality, exit |
 | `playbook-audacious-content` | Content that stands out in an AI-saturated market — Audacity Index, 3 story pillars, STEPPS virality framework, Talk Trigger design |
 | `playbook-sentiment-listening` | AI-powered social listening — tool selection, keyword taxonomy, NSS reporting, sentiment-to-decision table, weekly routine |
+| `playbook-lead-magnet-system` | Design and optimisation of lead magnets for building owned email and WhatsApp subscriber lists |
+| `playbook-email-funnel` | Full email marketing operations: 90/90 rule, six KPIs, content-to-sales ratio, mobile design standards |
+| `playbook-whatsapp-business` | WhatsApp Business setup and operations for EA businesses: profile, automation, broadcast lists, catalogue |
+| `playbook-marketing-automation` | Automated lead nurturing sequences triggered by prospect behaviour |
+| `playbook-question-engine` | Mining customer questions to build a content pipeline that dominates search and builds trust |
 
 ### Presentation Decks
 
@@ -146,6 +151,13 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `meta-social-metrics-framework` | Three-tier metrics framework (primary/secondary/comparative) — vanity vs business metrics, report by audience |
 | `meta-social-marketing-mix-review` | 7 Ps marketing mix diagnostic — questions per P, red flags, recommended actions, scored quarterly summary |
 | `meta-ai-tools-audit` | Structured evaluation of AI marketing tools — 8 categories, EA accessibility ratings, 3 UGX budget profiles |
+| `meta-revenue-planning` | Bottom-up revenue planning: reverse-engineering targets through funnel CVRs to required inquiry volumes |
+| `meta-lead-scoring` | Lead scoring model design and calibration: explicit criteria, implicit behaviours, BANT qualification |
+| `meta-cohort-analysis` | GA4 cohort exploration for tracking retention and LTV by acquisition batch and channel |
+| `meta-dashboard-design` | Client-facing dashboard design standards: chart types, mobile-first, Looker Studio, insight→context→recommendation |
+| `meta-sales-marketing-alignment` | Shared KPI ownership, CRM discipline, and lead handover SLA between marketing and sales |
+| `meta-analytics-privacy` | Privacy-by-design analytics setup: cookie consent, GA4 settings, DPPA 2019 / Kenya DPA 2019 compliance |
+| `meta-social-proof-system` | Systematic collection and deployment of Bly's six-source social proof taxonomy |
 
 ### Training Guides
 
@@ -169,6 +181,10 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `social-commerce-strategy` | Social selling via WhatsApp, Mobile Money, and Facebook Shop |
 | `strategy-csr-purpose-communications` | CSR and purpose-driven communications strategy |
 | `framework-community-trust` | Like-Know-Trust framework applied to content sequencing |
+| `framework-digital-transparency` | Rageh's three-dimensional transparency model (Clarity, Openness, Objectivity) for building digital trust |
+| `strategy-ewom-reviews` | Proactive eWOM programme design using the Give-Seek-Transmit framework |
+| `strategy-multigenerational-digital` | Digital strategy calibrated to Gen Z, Millennial, Gen X, and Baby Boomer trust profiles |
+| `strategy-experiential-marketing` | Experiential marketing strategy for activations, events, and hybrid experiences |
 
 ### AI Skills
 
@@ -184,6 +200,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `training-ai-prompt-writing` | (See Training Guides above) |
 | `training-ai-foundations` | (See Training Guides above) |
 | `ai-vendor-evaluation` | Structured vendor evaluation for AI marketing tools — 8-factor scorecard, 30-day experiment briefs, Uganda DPA compliance |
+| `ai-influencer-strategy` | AI-assisted influencer vetting, fraud detection, and human vs. virtual influencer decision framework |
 | `ai-data-foundation-plan` | Data foundation action plan — audits data assets, designs customer schema, 90-day build plan, EA-specific data problems |
 | `deck-ai-strategy-presentation` | (See Presentation Decks above) |
 | `meta-ai-tools-audit` | (See Analytics and Reporting above) |
