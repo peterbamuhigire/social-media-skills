@@ -164,6 +164,35 @@ Integrate this owned media rhythm into the master content calendar. Refer to `11
 
 ---
 
+## Section 7 — Building the List from Social Media Traffic
+
+### Lead Magnet System as an Owned Asset (Bly, 2018)
+
+The principle of owning your audience is only realised through the active mechanics of list building. Define the full sequence for each client:
+
+1. **Social media post** — creates awareness of the lead magnet and drives traffic to the landing page. Use a clear, benefit-led CTA: "Download our free [lead magnet title] — link in bio / in comments."
+2. **Lead magnet** — a free, high-value offer exchanged for a contact detail. Effective formats for Ugandan and EA markets: a price guide, a "how to choose" checklist, a local market insight report, a practical how-to template. The lead magnet must solve a real, specific problem the audience has — not be a disguised catalogue.
+3. **Landing page** — a single-purpose page with one CTA: the form. No navigation links, no competing offers. Headline states the specific benefit. Form fields: first name + email address (and/or WhatsApp number where relevant). Include a trust signal: "No spam. Unsubscribe any time."
+4. **Double opt-in confirmation** — immediately after form submission, an automated email asks the subscriber to confirm their address by clicking a link. This confirmation step is the double opt-in.
+5. **Welcome sequence** — once confirmed, the subscriber enters the automated welcome sequence. Refer to `07-email-marketing-strategy` Section 3 for the 5-email onboarding flow.
+
+Cross-reference `playbook-lead-magnet-system` for the full implementation guide including landing page copy templates and lead magnet format selection by industry.
+
+### Double Opt-In and List Hygiene (Bly, 2018)
+
+Any subscriber list — email or WhatsApp — must be built on double opt-in: a confirmation step after the initial sign-up. Double opt-in:
+- Protects list quality by excluding mistyped addresses and false sign-ups
+- Demonstrates informed consent, complying with Uganda's Data Protection and Privacy Act 2019 and Kenya's Data Protection Act 2019
+- Reduces hard bounce rates and spam complaints, protecting sender reputation
+
+**List hygiene protocols — apply monthly:**
+- Remove all hard bounces within 24 hours of each send
+- Run re-engagement campaigns (see `07-email-marketing-strategy` Section 6) for subscribers inactive for 90+ days before removing them from the active list
+- Suppress — do not delete — non-responders after the reactivation sequence, in case they can be reached via another channel
+- Never purchase, rent, or import a contact list from a third party. Purchased lists do not carry the consent required by Uganda's Data Protection and Privacy Act 2019 and produce engagement rates so low they damage sender reputation across all future sends
+
+---
+
 ## Quality Criteria
 
 Output meets the standard for this skill when all of the following are true:
