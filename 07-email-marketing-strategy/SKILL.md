@@ -227,7 +227,28 @@ After Email 3: suppress non-openers from future sends. Do not delete from the li
 
 ---
 
+### 7A. Strategic Email Programme Principles
+
+**The 90/90 Rule (Bly, 2018):** 90% of email subscribers who will ever purchase do so within 90 days of joining the list. The first 90 days must be front-loaded with the highest-value, highest-frequency nurture content. Every email strategy must specify how send frequency and content intensity in weeks 1–12 differs from the steady-state cadence in months 4–12. For most EA clients: weeks 1–12 → 2 emails per week; months 4–12 → weekly or fortnightly. Do not apply a flat cadence across the full 12 months.
+
+**Content-to-Sales Ratio (Bly, 2018):** A minimum of 50% of all emails sent must be pure content emails — educational, insightful, or entertaining with no promotional intent. If more than half of sends carry a sales message, opt-out rates rise and list health deteriorates. Track the content-to-sales ratio monthly. Report it to the client as part of list health monitoring, alongside bounce rate and opt-out rate.
+
+**AI Send-Time Optimisation (Johnsen, 2024):** AI-driven per-subscriber optimal send time — rather than a single blast time for the whole list — produces measurable uplift in open rates and click-through rates. Define this as a distinct deliverable within the email strategy: specify which email platform supports per-subscriber send-time optimisation (Mailchimp: available on Standard plan and above; Brevo: available on Business plan), how to activate it, and how improvement is measured (compare CTOR pre and post activation over a 60-day period).
+
+---
+
 ### 7. KPIs and Target Benchmarks
+
+**Six Core Email KPIs (Bly, 2018):** Track all six metrics monthly. The CTR × conversion rate multiplier is the key revenue lever: optimising both produces compounding revenue gains.
+
+| KPI | Target | Notes |
+|---|---|---|
+| Bounce rate (hard) | <1% | Remove hard bounces within 24 hours of each send |
+| Opt-out rate | <0.1% per send | Rates above this indicate content-sales ratio imbalance or audience mismatch |
+| Open rate | 10–15% (global floor) | EA benchmark higher — see below; use CTOR as primary quality indicator |
+| Click-through rate (CTR) | 1–5% | Optimise subject line and preheader to lift open rate; optimise CTA placement to lift CTR |
+| Conversion rate | Client-specific target | Set at onboarding based on current enquiry-to-sale rate; review quarterly |
+| Gross revenue per email sent | Calculate from client data | Revenue attributed to send ÷ emails delivered; most important single email programme metric |
 
 Target benchmarks calibrated for the East African market, where mobile-heavy audiences and Gmail/Android dominance affect open tracking behaviour.
 
