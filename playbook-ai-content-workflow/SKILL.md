@@ -1,6 +1,6 @@
 ---
 name: playbook-ai-content-workflow
-description: Generates a step-by-step operational guide for integrating AI tools into a client's social media content production process — covering tool selection, brand voice training, a ready-to-use prompt library, quality control, and a clear list of what AI must never be used for. Invoke this skill when a client is already using AI tools without a structured process, when onboarding a new client who wants to scale content production, or when a consultant needs to document and hand over an AI-assisted content workflow to an in-house team. This skill does not replace the brand voice guide (04-brand-voice-intake) or the content calendar (11-content-calendar) — it plugs them into an AI-assisted production system.
+description: Generates a step-by-step operational guide for integrating AI tools into a client's social media content production process — covering tool selection, brand voice calibration, a core prompt library (with reference to the full prompt-engineering-library), quality control, content maturity staging, and a clear list of what AI must never be used for. Draws on frameworks from Upadhyay (2024) and Schaefer (2025). Invoke this skill when a client is already using AI tools without a structured process, when onboarding a new client who wants to scale content production, or when a consultant needs to document and hand over an AI-assisted content workflow to an in-house team. This skill does not replace the brand voice guide (04-brand-voice-intake) or the content calendar (11-content-calendar) — it plugs them into an AI-assisted production system.
 ---
 
 # AI Content Workflow Playbook
@@ -37,13 +37,17 @@ Start with two tools only: ChatGPT and Canva. Add others once the workflow is es
 
 ---
 
-## 2. Brand Voice Training in AI
+## 2. Brand Voice Calibration (Step 0)
 
-AI tools produce generic content by default. The only way to get on-brand output is to give the tool the brand context before every session. Do not start a new ChatGPT conversation without this block in place.
+Complete this step before any AI content is generated. It is not optional — skipping it produces generic output that sounds like every other brand in the client's industry.
+
+### Step 0 — Formal Brand Voice Capture
+
+Before building the Brand Context Block, run `brand-voice-ai-training`. That skill executes the full 6-step process: extracting tone words from real client language, building the vocabulary avoid list, generating reference examples, and producing an AI-ready voice profile. The Brand Context Block below draws directly from that output.
 
 ### The Brand Context Block
 
-This is a reusable prompt prefix. Paste it at the start of every new AI session. Complete every bracketed field before use.
+This is a reusable prompt prefix. Paste it at the start of every new AI session. Complete every bracketed field before use. Fields are populated from the `brand-voice-ai-training` output and 04-brand-voice-intake.
 
 ```
 You are writing social media content for [Brand Name], a [industry] business
@@ -57,7 +61,7 @@ leverage, game-changer, groundbreaking, revolutionary, navigate, foster, realm,
 unleash, unlock, elevate.
 ```
 
-### How to Save and Reuse the Brand Context Block
+### Saving and Reusing the Brand Context Block
 
 **ChatGPT Custom Instructions (recommended):** Go to your profile → Custom Instructions → paste the completed Brand Context Block into the "What would you like ChatGPT to know about you?" field. This loads automatically into every new conversation.
 
@@ -79,80 +83,92 @@ Update the shared Brand Context Block document every time you make a change. Dat
 
 ## 3. Prompt Library — Core Templates
 
-Every prompt below follows this structure: **[CONTEXT BLOCK]** + specific instruction + output format instruction. Replace [CONTEXT BLOCK] with the completed brand context before running.
+### Prompt Structure: Alpha-Beta-Gamma-Delta-Epsilon
+
+Every effective AI prompt contains five elements (Upadhyay, 2024):
+
+| Element | What It Does | Example |
+|---|---|---|
+| **Alpha — Role** | Assigns expertise to the AI | "You are writing for a Kampala-based SME…" |
+| **Beta — Context** | Provides background and brand parameters | The Brand Context Block |
+| **Gamma — Task** | States the specific output required | "Write a 150-word Instagram caption about…" |
+| **Delta — Constraints** | Sets limits (length, tone, language, exclusions) | "Under 100 characters. British English. No hashtags." |
+| **Epsilon — Output format** | Specifies how the result should be presented | "Output: 3 numbered options." |
+
+The Brand Context Block covers Alpha and Beta. Every prompt below adds Gamma, Delta, and Epsilon. Do not remove any element.
+
+**Copywriting frameworks available:** The core prompts below use PAS (Problem–Agitate–Solution) and AIDA (Attention–Interest–Desire–Action) by default. For the full library of 7 frameworks — PAS, AIDA, BAB, FAB, SSS, PPPP, and AFOREST — plus 7 additional ready-to-use templates, invoke `prompt-engineering-library`.
 
 All prompts specify British English output. Do not remove this instruction.
 
+---
+
 ### Captions
 
-**Prompt 1 — Short caption (under 100 characters, for Instagram / WhatsApp)**
-> [CONTEXT BLOCK] Write a short social media caption of under 100 characters for [platform]. The post is about [topic or product]. Include one relevant emoji. Do not include hashtags. Output: one caption only.
+**Prompt 1 — Short caption (under 100 characters, Instagram / WhatsApp)**
+> [CONTEXT BLOCK] Write a short social media caption of under 100 characters for [platform]. The post is about [topic or product]. Include one relevant emoji. Do not include hashtags. Output: one caption only. British English.
 
-**Prompt 2 — Medium caption (100–200 characters, for Facebook / LinkedIn)**
-> [CONTEXT BLOCK] Write a social media caption of 100–200 characters for [platform]. The post is about [topic or product]. The caption should open with a strong first line that stops the scroll. Include a call to action at the end. Do not include hashtags. Output: two caption options for me to choose between.
+**Prompt 2 — Medium caption (100–200 characters, Facebook / LinkedIn)**
+> [CONTEXT BLOCK] Write a social media caption of 100–200 characters for [platform]. The post is about [topic or product]. Open with a strong first line that stops the scroll. Include a call to action at the end. Do not include hashtags. Output: two caption options to choose between. British English.
 
-**Prompt 3 — Thread or carousel caption (5–7 slides or tweets)**
-> [CONTEXT BLOCK] Write a [5-slide carousel / 6-tweet thread] about [topic]. Each slide/tweet should be one clear point. Open with a hook that creates curiosity. Close with a call to action linking to [desired action — e.g. "WhatsApp us" or "link in bio"]. Output: numbered slides or tweets, one line each, in British English.
+**Prompt 3 — Carousel or thread (5–7 slides / tweets)**
+> [CONTEXT BLOCK] Write a [5-slide carousel / 6-tweet thread] about [topic]. Each slide/tweet should make one clear point. Open with a hook that creates curiosity. Close with a call to action linking to [desired action]. Output: numbered slides or tweets, one line each. British English.
+
+---
 
 ### Content Ideas
 
-**Prompt 4 — 30 content ideas from pillars**
-> [CONTEXT BLOCK] Generate 30 social media content ideas for the month of [month]. Distribute them evenly across these pillars: [pillar 1], [pillar 2], [pillar 3]. Include a mix of educational, entertaining, and promotional content. For each idea, provide: the content type (post, Reel, Story, carousel), the pillar it belongs to, and a one-sentence description. Output: a numbered table.
+**Prompt 4 — Monthly content ideas from pillars**
+> [CONTEXT BLOCK] Generate 30 social media content ideas for [month]. Distribute evenly across these pillars: [pillar 1], [pillar 2], [pillar 3]. Include a mix of educational, entertaining, and promotional content. For each idea: content type (post, Reel, Story, carousel), pillar, and a one-sentence description. Output: numbered table. British English.
 
 **Prompt 5 — Seasonal or campaign content ideas**
-> [CONTEXT BLOCK] Generate 10 social media content ideas for [upcoming occasion — e.g. Eid, end of financial year, back to school]. Ideas should be relevant to [industry] and the Ugandan/East African context. For each idea, provide: platform, format, and a one-sentence description. Output: numbered list.
+> [CONTEXT BLOCK] Generate 10 social media content ideas for [occasion — e.g. Eid, end of financial year, back to school]. Relevant to [industry] and the Ugandan/East African context. For each idea: platform, format, one-sentence description. Output: numbered list. British English.
 
-### Hashtag Research
+---
+
+### Hashtags
 
 **Prompt 6 — Hashtag set for a specific post**
-> [CONTEXT BLOCK] Suggest 15 relevant hashtags for a [platform] post about [topic]. Include a mix of: 3 broad hashtags (over 1 million uses), 6 mid-range hashtags (100k–1 million uses), and 6 niche hashtags (under 100k uses). Include at least 2 Uganda or East Africa specific hashtags where relevant. Output: three groups, labelled Broad, Mid-range, and Niche.
+> [CONTEXT BLOCK] Suggest 15 relevant hashtags for a [platform] post about [topic]. Include: 3 broad hashtags (over 1 million uses), 6 mid-range (100k–1 million uses), 6 niche (under 100k uses). Include at least 2 Uganda or East Africa specific hashtags. Output: three labelled groups. British English.
 
-**Prompt 7 — Evergreen hashtag bank for the account**
-> [CONTEXT BLOCK] Create an evergreen hashtag bank of 30 hashtags for a [industry] business on [platform]. Group them into sets of 10 by content type: educational content, promotional content, and community content. Output: three labelled groups of 10 hashtags each.
+---
 
-### Email Subject Lines
+### Repurposing and Community Management
 
-**Prompt 8 — Subject line options for a campaign email**
-> [CONTEXT BLOCK] Write 10 email subject line options for an email about [email topic or offer]. Subject lines should be under 50 characters, written in British English, and match the brand voice. Include a mix of: curiosity-driven, benefit-led, and urgency-based approaches. Output: 10 numbered subject lines with the approach type labelled next to each.
+**Prompt 7 — Long content to short social post**
+> [CONTEXT BLOCK] I have the following long-form content: [paste blog post, article, or transcript]. Extract the 3 most valuable insights and write a separate caption for each, suitable for [platform]. Each caption: 100–150 words, ends with a call to action. Output: 3 numbered captions. British English.
 
-**Prompt 9 — Newsletter subject lines (recurring)**
-> [CONTEXT BLOCK] Write 5 subject line options for [Client Name]'s monthly newsletter for [month]. The main content of this newsletter is: [describe 2–3 key topics]. Subject lines should be conversational and feel personal. Under 50 characters each. Output: 5 numbered options.
+**Prompt 8 — Response to a complaint or negative review**
+> [CONTEXT BLOCK] Write a response to the following complaint on [platform]: "[paste complaint]". Acknowledge the issue, apologise without admitting legal liability, offer to resolve privately via WhatsApp or DM, under 80 words. Do not be defensive. Output: one response. British English.
 
-### Blog Post Outlines
+---
 
-**Prompt 10 — Full blog post outline**
-> [CONTEXT BLOCK] Write a structured outline for a blog post titled "[working title]". The target reader is [persona]. The post should rank for the keyword "[primary keyword]". Include: an introduction paragraph summary, 4–6 H2 section headings with 2–3 bullet points under each, and a conclusion with a call to action. Output: structured outline in British English.
-
-**Prompt 11 — Blog post from an existing piece of content**
-> [CONTEXT BLOCK] I have the following content: [paste source material — could be a speech, WhatsApp message, recorded transcript]. Turn this into a blog post outline with an introduction, 3–5 sections, and a conclusion. Keep the original voice. Do not add claims or statistics I have not provided. Output: structured outline in British English.
-
-### Community Management Responses
-
-**Prompt 12 — Response to a positive review or comment**
-> [CONTEXT BLOCK] Write 3 response options for the following positive comment on [platform]: "[paste comment]". Each response should feel personal and genuine — not a copy-paste template. Include the commenter's name if provided. Match the brand voice. Under 60 words each. Output: 3 numbered options.
-
-**Prompt 13 — Response to a complaint or negative review**
-> [CONTEXT BLOCK] Write a response to the following complaint on [platform]: "[paste complaint]". The response should: acknowledge the issue, apologise without admitting legal liability, offer to resolve the matter privately via WhatsApp or DM, and be under 80 words. Do not be defensive. Match the brand voice. Output: one response.
-
-### Repurposing
-
-**Prompt 14 — Long content to short social post**
-> [CONTEXT BLOCK] I have the following long-form content: [paste blog post, article, or transcript]. Extract the 3 most valuable insights and write a separate social media caption for each one, suitable for [platform]. Each caption: 100–150 words, ends with a call to action, and is in British English. Output: 3 numbered captions.
-
-**Prompt 15 — Video script or transcript to caption**
-> [CONTEXT BLOCK] I have the following video transcript: [paste transcript]. Write a social media caption to accompany this video on [platform]. The caption should summarise the main point in the first line, expand in 2–3 sentences, and close with a call to action. Under 150 words. British English. Output: one caption.
+For email subject lines, blog post outlines, positive review responses, video transcript captions, and the full 15-template set, invoke `prompt-engineering-library`.
 
 ---
 
 ## 4. Quality Control Protocol
 
-Every AI-generated output must pass all five checks before it is published. Run the checks in order. Do not skip steps under time pressure — AI errors in published content damage the brand and the consultant's credibility.
+Every AI-generated output must pass all six checks before it is published. Run the checks in order. Do not skip steps under time pressure.
 
 - [ ] **Brand voice check:** Read the output aloud. Does it match the 3 tone words? If it sounds generic, stiff, or unlike the client, rewrite or re-prompt before proceeding.
 - [ ] **British English check:** Paste into Grammarly. Fix any American spellings (color → colour, organization → organisation, analyze → analyse, program → programme, center → centre, recognize → recognise). Reject "apologize" — it should be "apologise".
-- [ ] **Banned vocabulary check:** Scan the output against the client's vocabulary avoid list AND this universal AI vocabulary blacklist: *delve, tapestry, leverage, game-changer, groundbreaking, revolutionary, navigate, foster, realm, unleash, unlock, elevate, thriving, vibrant, seamless, robust, empower.* If any appear, delete and rewrite — do not just find-and-replace.
+- [ ] **Banned vocabulary check:** Scan against the client's vocabulary avoid list AND the universal AI blacklist: *delve, tapestry, leverage, game-changer, groundbreaking, revolutionary, navigate, foster, realm, unleash, unlock, elevate, thriving, vibrant, seamless, robust, empower.* Delete and rewrite — do not just find-and-replace.
 - [ ] **Accuracy check:** Highlight every factual claim about the client's products, services, prices, or history. Verify each one directly with the client or source document before publishing. AI fabricates plausible-sounding facts. Do not assume any specific claim is correct.
 - [ ] **Human touch check:** Add one element that AI could not have generated — a specific detail about the client's premises, a local reference (a Kampala neighbourhood, an EA seasonal moment, a current local context), a genuine customer name (with permission), or the owner's voice. Every published output must contain at least one human edit. This is not optional.
+- [ ] **Cultural localisation check:** Does the content reference at least one Uganda/EA-specific element? Generic "African" content is not sufficient. Name the specific country, city, market, or moment. If not present, add one before publishing.
+
+### Proof of Human (High-Stakes Content)
+
+For thought leadership posts, strategy documents, personal brand content, or any post where audience trust is the currency: signal that a human wrote or heavily shaped this content. Do not just assert it — show it (Schaefer, 2025). Methods:
+
+- Share the process: post a draft with visible edits, a voice note explaining your thinking, or a behind-the-scenes note
+- Name the author and include a personal observation specific to their experience
+- Reference a real, verifiable event, conversation, or local context that AI could not have known
+
+Apply this standard whenever the content is making a claim to authority, expertise, or personal experience.
+
+For AI humanisation of draft content before publishing, invoke `ai-content-humaniser`.
 
 ---
 
@@ -163,10 +179,10 @@ Every AI-generated output must pass all five checks before it is published. Run 
 AI does not replace the weekly content process — it compresses the time required for each step.
 
 **Monday — AI Drafting (10 minutes)**
-Open ChatGPT. Paste the Brand Context Block. Run Prompt 4 (content ideas) to confirm the week's topics if not already planned. Run Prompt 1 or 2 five times, once per post. Save all five drafts in a shared Google Doc or Notion page labelled "[Client] — Week of [date] — AI drafts."
+Open ChatGPT. Paste the Brand Context Block. Run Prompt 4 to confirm the week's topics if not already planned. Run Prompt 1 or 2 five times, once per post. Save all five drafts in a shared Google Doc or Notion page labelled "[Client] — Week of [date] — AI drafts."
 
 **Monday — Human Review and Edit (30 minutes)**
-Open the five drafts. Run the Quality Control Protocol on each one. Add the human touch element to each caption. Mark the status of each draft: Approved / Needs Revision / Reject. For any rejected draft, either re-prompt or write the caption manually — do not publish a draft that failed a quality check.
+Open the five drafts. Run the Quality Control Protocol on each one. Add the human touch element to each caption. Mark the status: Approved / Needs Revision / Reject. For any rejected draft, re-prompt or write the caption manually — do not publish a draft that failed a quality check.
 
 **Monday — Scheduling (20 minutes)**
 Load approved captions into Buffer or Hootsuite. Assign dates and times. Attach images. Set all posts to schedule (not auto-publish) so the client can review before anything goes live.
@@ -186,22 +202,51 @@ Load approved captions into Buffer or Hootsuite. Assign dates and times. Attach 
 
 For a consultant managing five clients, AI-assisted workflows free up to 15 hours per month — time that goes back into strategy, client relationships, and business development.
 
+For advanced automation (scheduling triggers, auto-repurposing pipelines, multi-platform distribution), invoke `playbook-ai-automation-workflow`.
+
 ---
 
-## 6. What NOT to Use AI For
+## 6. Content Maturity Model
+
+Assess where the client currently sits before prescribing tools or workflows. Introducing automation to a client at Stage 1 creates chaos, not efficiency (Upadhyay, 2024).
+
+| Stage | Description | AI Use at This Stage |
+|---|---|---|
+| **1 — Basic** | Posting inconsistently; no strategy; content reactive | Use AI for ideation and caption drafting only. Establish posting rhythm first. |
+| **2 — Aligned** | Regular posting; brand voice defined; pillars in use | Use AI for full caption workflow, hashtag research, and repurposing. This playbook is designed for Stage 2. |
+| **3 — Multichannel** | Consistent across 3+ platforms; content plan in place | Use AI for cross-platform adaptation, email subject lines, and blog outlines. Add `prompt-engineering-library`. |
+| **4 — Automated** | Workflows documented; team trained; scheduling system live | Use AI for scheduling triggers, performance-based content adjustments, and reporting summaries. Add `playbook-ai-automation-workflow`. |
+
+Identify the client's current stage in the playbook introduction. Do not prescribe Stage 4 tools to a Stage 1 client.
+
+---
+
+## 7. What AI Cannot Do
+
+These are structural limitations — not tool failures that future updates will fix. Understanding them prevents misplaced reliance (Schaefer, 2025).
+
+- **Read local cultural tensions in real time.** AI does not know what is politically sensitive in Kampala this week, what a recent local event means to a specific community, or when a trending phrase has acquired a charged meaning. A human who lives in that context must make this call.
+- **Produce genuinely novel ideas.** AI recombines existing content at scale. It does not create. Every output is a statistically likely arrangement of what has already been published. Original positioning, unexpected angles, and genuinely new concepts come from human insight.
+- **Create collective effervescence.** Shared human experiences — a live event, a community moment, a real crisis — generate emotion that AI content cannot replicate. Content that matters to a community must be anchored in real, lived moments.
+- **Replicate unscripted employee or founder voice.** The specific way a business owner talks to customers — their humour, their turns of phrase, their directness — is not reproducible by AI. Capture it in `brand-voice-ai-training`; do not try to generate it from a prompt.
+- **Understand what is socially sensitive in a specific EA community right now.** Ethnic, religious, political, and generational sensitivities vary by country, region, and moment. AI has no current awareness. Do not let AI draft content touching on any of these areas without a human review by someone with direct community knowledge.
+
+---
+
+## 8. What NOT to Use AI For
 
 These prohibitions are not suggestions. Each one exists because real harm — to the client, the audience, or the consultancy — is the predictable outcome of ignoring it.
 
 - **Do not use AI to generate client testimonials or reviews.** Fabricated social proof is dishonest and illegal in many jurisdictions. If a client needs testimonials, collect real ones.
 - **Do not publish AI-generated content without a human read.** AI hallucinates. It invents product details, fabricates prices, misrepresents services, and produces plausible errors. An unread AI post is a liability, not a time-saving.
-- **Do not use AI for crisis communications responses.** A brand apology, a response to a serious complaint, or any statement during a reputational incident requires human judgement, empathy, and accountability. See playbook-crisis-communications for the correct protocol.
+- **Do not use AI for crisis communications responses.** A brand apology, a response to a serious complaint, or any statement during a reputational incident requires human judgement, empathy, and accountability. See `playbook-crisis-communications` for the correct protocol.
 - **Do not allow AI to state specific statistics or data without verifying each figure.** AI generates statistics that sound credible and are frequently wrong. Any number in a published post must trace back to a verifiable source.
-- **Do not let AI generate the brand voice guide.** AI describes brands in generic marketing language ("innovative", "customer-focused", "passionate"). The brand voice comes from the client discovery session in 04-brand-voice-intake — real conversations, real examples, real dislikes. AI cannot do this work.
+- **Do not let AI generate the brand voice guide.** The brand voice comes from the client discovery session in 04-brand-voice-intake and `brand-voice-ai-training` — real conversations, real examples, real dislikes. AI cannot do this work.
 - **Do not use AI-generated images as photographic evidence of real products, services, or events.** AI image tools produce convincing fictions. Using them as if they depict the client's real premises or products misleads consumers.
 
 ---
 
-## 7. AI Disclosure Policy
+## 9. AI Disclosure Policy
 
 Apply this guidance to every client account. When in doubt, disclose — audiences in the EA market are becoming more sophisticated about AI use, and proactive transparency builds rather than erodes trust.
 
@@ -212,13 +257,13 @@ Use a clear label ("AI-generated image" or "Created with AI") when AI-generated 
 If a post is substantially AI-generated (drafted and published with only minor edits), a light disclosure such as "Created with AI assistance" builds long-term audience trust. Use it selectively on posts where the AI role was significant.
 
 **No disclosure required:**
-Using AI as a drafting tool that is then substantially edited, rewritten, and personalised by a human is industry-standard practice and does not require disclosure — the same way a consultant using a spell-checker or Grammarly does not disclose it.
+Using AI as a drafting tool that is then substantially edited, rewritten, and personalised by a human is industry-standard practice and does not require disclosure.
 
-For the formal client AI content policy document covering legal considerations and disclosure obligations, invoke **policy-ai-content-ethics**.
+For the formal client AI content policy document covering legal considerations and disclosure obligations, invoke `policy-ai-content-ethics`.
 
 ---
 
-## 8. Platform-Specific AI Tips
+## 10. Platform-Specific AI Tips
 
 Apply these notes when generating content for each platform. Generic AI outputs underperform on every platform — these adjustments close the gap.
 
@@ -229,13 +274,26 @@ B2B audiences on LinkedIn — especially professionals in Kampala, Nairobi, and 
 AI-written scripts sound scripted on camera — and TikTok audiences will skip within two seconds. Use AI for the opening hook only (the first line or first visual idea). Film the rest naturally and conversationally. CapCut AI captions are the single most useful AI application for TikTok — use them on every video.
 
 **WhatsApp**
-Broadcast message recipients know when they are reading a template. AI-written WhatsApp messages have a generic warmth that is immediately recognisable. Use AI to draft the structure, then rewrite in the client's natural voice — the way they actually message a trusted customer. Heavy personalisation (name, recent purchase, specific context) is mandatory. Never send a broadcast without at least one personal element per recipient segment.
+Broadcast message recipients know when they are reading a template. AI-written WhatsApp messages have a generic warmth that is immediately recognisable. Use AI to draft the structure, then rewrite in the client's natural voice. Heavy personalisation (name, recent purchase, specific context) is mandatory. Never send a broadcast without at least one personal element per recipient segment.
 
 **Instagram**
-Feed captions are well-suited to AI drafting — quality control and a human edit produce good results. Stories and Reels voice-overs must be authentic. If the client is speaking on camera, they should speak naturally from bullet points, not read an AI script. Use AI to generate caption options for Reels after filming — not to script what the creator says.
+Feed captions are well-suited to AI drafting — quality control and a human edit produce good results. Stories and Reels voice-overs must be authentic. If the client is speaking on camera, they should speak from bullet points, not read an AI script. Use AI to generate caption options for Reels after filming — not to script what the creator says.
 
 **Email**
-Subject lines are the highest-value AI application in email marketing — run Prompt 8 or 9 and test multiple options. Email body copy benefits from an AI draft that is then substantially edited: check every claim, rewrite the opening paragraph in the client's real voice, and ensure the call to action matches the actual offer.
+Subject lines are the highest-value AI application in email marketing — run Prompt 8 from `prompt-engineering-library` and test multiple options. Email body copy benefits from an AI draft that is then substantially edited: check every claim, rewrite the opening paragraph in the client's real voice, and ensure the call to action matches the actual offer.
+
+---
+
+## Related Skills
+
+| Skill | When to Use It |
+|---|---|
+| `brand-voice-ai-training` | Step 0 — before any AI content is generated for a new client |
+| `prompt-engineering-library` | Full prompt set (15 templates, 7 copywriting frameworks) |
+| `ai-content-humaniser` | Making AI drafts sound human before publishing |
+| `playbook-ai-automation-workflow` | Stage 3–4 clients; scheduling triggers and pipeline automation |
+| `playbook-crisis-communications` | Any reputational incident — do not use AI for crisis response |
+| `policy-ai-content-ethics` | Formal AI disclosure and legal compliance documentation |
 
 ---
 
@@ -243,11 +301,13 @@ Subject lines are the highest-value AI application in email marketing — run Pr
 
 Output meets production standard when it satisfies all of the following:
 
-- The Brand Context Block template is complete with all fields identified and can be filled in and used for any client without modification to the structure
-- All 15 prompt templates produce usable, on-brand outputs when run as written — test at least 3 before handing over to a client
-- The Quality Control Protocol is specific enough to catch real AI errors (fabricated statistics, American spellings, banned vocabulary, missing human edit) — not just general advice to "review the content"
+- The Brand Context Block template is complete with all fields identified and explicitly references `brand-voice-ai-training` as the source for tone words and vocabulary
+- The Alpha-Beta-Gamma-Delta-Epsilon prompt structure is explained clearly enough that a team member with no prior prompt training can apply it immediately
+- All 8 core prompts produce usable, on-brand outputs when run as written — test at least 3 before handing over to a client
+- The Quality Control Protocol includes all six checks, including the cultural localisation check, and is specific enough to catch real AI errors — not just general advice to "review the content"
 - British English is enforced throughout, including inside every prompt template (each prompt specifies "British English" explicitly)
+- The Content Maturity Model is used to stage the client correctly — the playbook introduction names the client's current stage
 - The workflow section states specific time estimates for each step and includes a time-saving calculation with actual figures, not vague efficiency claims
-- The "What NOT to Use AI For" list covers the specific risks most likely to affect EA SME clients — fabrication, hallucination, crisis misuse, and false statistics — with a reason given for each prohibition
+- The "What AI Cannot Do" section is distinct from "What NOT to Use AI For" — the former covers structural limitations, the latter covers operational prohibitions
 - No paid tools are required to implement the core workflow — ChatGPT free tier, Canva free tier, and Grammarly free tier are sufficient
 - Platform-specific notes are specific enough to act on immediately, not generic recommendations

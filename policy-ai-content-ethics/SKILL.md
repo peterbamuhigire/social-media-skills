@@ -4,12 +4,15 @@ description: >
   Produces a written AI Content Ethics Policy for a client — a one-to-two page
   compliance document stating how the agency and/or client uses AI tools in
   content creation, what is disclosed to audiences, what is prohibited, and
-  what quality standards apply. Also provides the consultant with an internal
-  ethics checklist and sector-specific guidance. Invoke when onboarding a new
-  client, when a client asks how AI is used in their content, when operating in
-  a regulated sector (health, finance, public sector, NGO/donor), or when
-  preparing a credentials or proposal document that references AI-assisted
-  production.
+  what quality standards apply. Grounds the policy in five core ethical
+  principles (transparency, fairness, nonmaleficence, accountability, privacy)
+  and addresses emerging risks including data leakage, virtual influencer
+  disclosure, filter bubbles, deepfakes, copyright uncertainty, and jailbreak
+  attempts. Also provides the consultant with an internal ethics checklist and
+  sector-specific guidance. Invoke when onboarding a new client, when a client
+  asks how AI is used in their content, when operating in a regulated sector
+  (health, finance, public sector, NGO/donor), or when preparing a credentials
+  or proposal document that references AI-assisted production.
 ---
 
 # AI Content Ethics Policy
@@ -74,6 +77,19 @@ Policy protects the client (by setting clear standards for what the agency
 produces), the agency (by defining what it will and will not do), and the
 audience (by ensuring human review stands between AI output and publication).
 It is a professional baseline, not a constraint on production speed.
+
+### The Five Ethical Principles
+
+Apply these five principles throughout the policy. Cite Ltifi (2025) and
+Johnsen (2024) on first use.
+
+| Principle | Definition | Practical application |
+|---|---|---|
+| **Transparency** | Disclose AI use honestly to clients and audiences | State which tools are used; label substantially AI-generated content |
+| **Fairness** | Monitor AI outputs for bias and discriminatory framing | Review outputs for stereotyping; audit targeting logic quarterly |
+| **Nonmaleficence** | Do no harm — do not use AI to deceive, manipulate, or demean | Prohibit fake testimonials, deepfakes, and psychological targeting |
+| **Accountability** | Humans remain responsible for AI output at all times | Named reviewer signs off every published piece |
+| **Privacy** | Protect personal data from AI tools and cloud systems | No PII entered into any AI prompt under any circumstances |
 
 ---
 
@@ -144,14 +160,28 @@ misrepresent human authorship in contexts where human authorship is
 material — including authored opinion pieces, personal testimonials, attributed
 quotes, and donor narrative reports.
 
+For thought leadership, opinion pieces, personal brand content, and donor
+narrative reports, apply a 'Proof of Human' signal — a visible marker or
+statement that a named human wrote or substantially shaped the content.
+In an AI-saturated market, authentic human authorship is a brand asset
+(Schaefer, 2025).
+
+Where a virtual or AI-generated persona is used to represent the brand (e.g.,
+an AI-generated brand ambassador or synthetic spokesperson), this must be
+clearly disclosed in every post. Non-disclosure of AI identity in influencer
+contexts is an emerging regulatory risk (Ltifi, 2025; see the Lil Miquela
+precedent).
+
 **7. Prohibited Uses**
 
 [Business Name] will not use AI tools to:
 
 - Generate false testimonials, fake reviews, or fabricated customer or
   beneficiary stories
-- Create deepfake images or videos of real people without their explicit
-  consent
+- Create deepfake images, synthetic voice, or video of any named public figure,
+  brand spokesperson, competitor, or customer without their explicit written
+  consent — the reputational and legal consequences of unsanctioned
+  impersonation are severe
 - Produce content that misrepresents the identity of a human author in a
   material way
 - Generate content in regulated sectors (health, finance, legal) without
@@ -159,16 +189,32 @@ quotes, and donor narrative reports.
 - Automate engagement through the purchase of followers, fake likes, or
   bot-driven interactions
 - Reproduce copyrighted material in a way that constitutes infringement
+- Claim copyright in AI-generated content that has had minimal human input;
+  ownership of AI-generated creative work is legally uncertain in most
+  jurisdictions — obtain legal advice before registering or licensing such work
 - Generate political statements, manifestos, or candidate-attributed content
   without disclosure and legal review
+- Deploy AI-driven personalisation in ways that create filter bubbles —
+  reinforcing existing beliefs and limiting audience exposure to diverse
+  perspectives; audit targeting logic quarterly to ensure content reaches
+  beyond existing believers
 
 **8. Data and Privacy**
 
 AI tools are used in compliance with [the Uganda Data Protection and Privacy
 Act 2019 / the Kenya Data Protection Act 2019 / applicable legislation].
 Customer data, personally identifiable information (PII), and confidential
-client or beneficiary information are not entered into AI prompts. Team
-members are trained on this requirement as part of onboarding.
+client or beneficiary information are not entered into AI prompts. Explicit
+consent must be obtained before customer data is used to train or brief AI
+tools; this consent is separate from general data collection consent under the
+Uganda Data Protection and Privacy Act 2019. Team members are trained on this
+requirement as part of onboarding.
+
+Do not enter confidential business information, trade secrets, or proprietary
+strategy documents into AI prompts that use cloud-based models. Cloud AI
+processes all inputs on remote servers — treat AI chat interfaces as
+public-facing environments. In 2023, Samsung engineers inadvertently leaked
+source code and meeting notes via ChatGPT (Venkatesan and Lecinski, 2026).
 
 **9. Compliance and Review**
 
@@ -195,6 +241,8 @@ Run it per piece of content, not per campaign.
       source
 - [ ] No customer data, PII, or confidential client information entered into
       any AI prompt
+- [ ] No confidential business information, trade secrets, or proprietary
+      documents entered into any cloud-based AI tool
 - [ ] Brand voice edit applied — the content sounds like the client, not like
       generic AI output
 - [ ] No prohibited use engaged (fake review, deepfake, bot engagement,
@@ -206,7 +254,11 @@ Run it per piece of content, not per campaign.
 - [ ] Disclosure applied if the content is substantially AI-generated with
       minimal human editing
 - [ ] If publishing under a personal name or attributed quote — confirm the
-      named individual has reviewed and approved the text
+      named individual has reviewed and approved the text; apply Proof of Human
+      signal for thought leadership and donor narrative content
+- [ ] No attempt has been made to circumvent AI safety guidelines
+      ('jailbreaking'); report any such attempt to [Name/Title] immediately
+      (Venkatesan and Lecinski, 2026)
 
 ---
 
@@ -304,17 +356,27 @@ Output meets the standard for this skill when:
 - The policy template is complete and contains no unfilled placeholders; all
   bracketed fields are populated with client-specific information gathered
   during the Required Inputs stage.
+- The five ethical principles (transparency, fairness, nonmaleficence,
+  accountability, privacy) are presented as a table and cited to Ltifi (2025)
+  and Johnsen (2024).
 - The prohibited uses list explicitly names fake testimonials, deepfakes,
-  bot engagement, and fabricated beneficiary stories.
+  bot engagement, fabricated beneficiary stories, filter bubble risk, and
+  copyright/ownership uncertainty.
+- The Proof of Human signal and virtual influencer disclosure requirement are
+  present in the Disclosure clause.
+- The data and privacy clause prohibits both PII entry and confidential
+  business information entry into cloud AI tools, and references the Samsung
+  incident (Venkatesan and Lecinski, 2026).
 - The human review requirement is stated explicitly in both the policy
-  document (Section 3) and the consultant's checklist — AI output is never
-  published without human approval.
+  document and the consultant's checklist — AI output is never published
+  without human approval.
 - Sector-specific guidance covers at least health and finance with specific,
   actionable instructions; all sectors relevant to the client are included.
 - The Uganda Data Protection and Privacy Act 2019 is named explicitly and the
   prohibition on entering PII into AI prompts is unambiguous.
 - The consultant's internal checklist is actionable as a per-piece pre-
-  publication review, not a one-time setup exercise.
+  publication review, not a one-time setup exercise, and includes data leakage
+  and jailbreak awareness items.
 - The entire document is written in British English with no American spellings
   (organisation, colour, behaviour, programme, recognise, analyse, etc.).
 
@@ -333,3 +395,9 @@ Consult the following skills where relevant:
 - `04-brand-voice-intake/SKILL.md` — captures the brand voice, tone, and
   communication standards that AI tools must be briefed against before
   drafting client content.
+
+**Key citations used in this skill:**
+- Johnsen, R. (2024) *AI Ethics in Practice*
+- Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing*
+- Schaefer, M. (2025) *Belonging to the Brand*
+- Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*
