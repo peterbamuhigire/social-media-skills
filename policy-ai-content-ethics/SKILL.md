@@ -232,6 +232,22 @@ Signed: _________________________________ Date: ________________
 
 ---
 
+## Section 2A — Additional Ethical Requirements
+
+**Algorithmic Bias in Personalisation (Ltifi, 2024):** AI personalisation algorithms can inadvertently reinforce demographic stereotypes — showing certain product types only to certain segments, or systematically excluding groups from offers, creating discriminatory feedback loops. Require an audit of any AI personalisation tool for demographic fairness before deployment. The audit must assess whether the system treats comparable users differently based on gender, ethnicity, or age in ways that cannot be justified by legitimate business logic.
+
+**Non-Discrimination Clause:** AI-generated advertising targeting must not use protected characteristics — gender, ethnicity, religion, or age — as primary targeting variables in ways that constitute discrimination. This applies to both inclusion targeting (showing content only to favoured groups) and exclusion targeting (hiding content from disfavoured groups). Cite GDPR Article 22 and Uganda's Data Protection and Privacy Act 2019 Section 25 when advising clients on compliant targeting practice.
+
+**Explainability Obligation (Johnsen, 2024, Ch.28):** When AI drives a significant strategic recommendation — audience targeting decisions, content strategy pivots, or budget allocation — the agency has an obligation to explain the AI's reasoning in plain terms to the client. AI output presented without explanation is not acceptable professional practice. Document the basis for AI-informed decisions in the strategy or reporting record.
+
+**Continuous Monitoring Obligation (Johnsen, 2024, Ch.28):** Ethical AI deployment is not a one-time review. Require quarterly bias audits and model drift reviews as standard practice for any client using AI personalisation or AI-driven targeting. AI models that performed fairly at deployment can develop bias as the distribution of their training data shifts — a model trained on historical data will reflect historical inequalities unless actively monitored and corrected.
+
+**East African Regulatory Alignment (Johnsen, 2024, Ch.28):** For clients operating across multiple EA countries, note that national data protection frameworks vary in scope and enforcement: Uganda Data Protection and Privacy Act 2019, Kenya Data Protection Act 2019, and Tanzania's Electronic and Postal Communications Act have different definitions, rights, and penalties. Flag the national regulatory context explicitly before deploying any AI personalisation system for a cross-border client.
+
+**Data Minimisation Principle (Ltifi, 2024, Ch.2):** AI personalisation systems should collect only the minimum data necessary for the task. Require clients to document their data minimisation rationale before implementing any AI personalisation or audience profiling system. Data minimisation is a legal requirement under the Uganda Data Protection and Privacy Act 2019 and Kenya Data Protection Act 2019, and a baseline ethical standard for responsible AI deployment.
+
+---
+
 ## Section 3 — Consultant's Internal AI Ethics Checklist
 
 Apply this checklist before publishing any AI-assisted content for a client.
