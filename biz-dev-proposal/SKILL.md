@@ -174,6 +174,93 @@ Use the free diagnostic to demonstrate analytical depth, build trust, and surfac
 
 ---
 
+---
+
+## Client Acquisition Frameworks
+
+### 9 Positioning Assets (Nelson, 2018)
+
+Before sending any proposal, verify that the agency has sufficient credibility infrastructure in place. Prospective clients conduct due diligence; proposals must be backed by visible assets.
+
+| Asset | What it is | Priority |
+|---|---|---|
+| 1. Keynote Presentation | 45–60 min educational presentation on a topic relevant to the niche | High |
+| 2. Cheat Sheet / Guide | One-page or short-form reference that gives immediate value | High |
+| 3. Niche-specific website | Domain that signals sector focus (e.g. hospitalitysocialmedia.ug) | High |
+| 4. Case studies and testimonials | Named clients with specific measurable outcomes | Essential |
+| 5. Webinar | Recorded or live educational session on a sector-relevant problem | Medium |
+| 6. Book or e-book for the niche | Highest-authority credibility signal; can be 80–100 pages | Long-term |
+| 7. Email follow-up sequences | Automated 7–14 email nurture for post-webinar and post-event leads | Medium |
+| 8. Podcast | 30-minute interview-format show; repurposes into multiple content pieces | Low |
+| 9. Print newsletter | Monthly printed newsletter mailed to high-value prospects | Low |
+
+**Minimum viable credibility set before pitching high-value clients:** Case studies (#4) + one guide/cheat sheet (#2) + a niche-specific website or landing page (#3).
+
+### Webinar as Positioning Shortcut (Nelson, 2018)
+
+A single webinar produces six or more content assets and serves as a proposal accelerant:
+
+1. YouTube video (full recording)
+2. SlideShare or LinkedIn carousel (slides as standalone content)
+3. 3–5 social posts (key statistics and insights extracted)
+4. Blog post (transcript edited into an article)
+5. MP3 podcast episode (audio stripped from recording)
+6. Transcribed companion article (alternative to blog post)
+
+**Critical insight:** the majority of ideal clients register but do not attend. The promotion of a webinar is itself a credibility signal. Registrants who do not attend can be followed up with a recording link. Those who do attend and engage are pre-qualified prospects — Nelson's webinar model converted 193 registrations into 58 pre-assessment forms and 19 strategy sessions.
+
+**Appointment shortcut:** on the webinar registration thank-you page, offer an immediate 1-on-1 strategy session booking. This one addition can multiply qualified appointments from a single webinar by 10×.
+
+### Cold Outreach Campaign System (Nelson, 2018)
+
+Rotate three campaign types for consistent lead flow. Each campaign targets the same niche with a different offer mechanism:
+
+| Campaign | Mechanism | CTA |
+|---|---|---|
+| #1 — Social Proof | Share a case study or client result | "Here is what we achieved for [name/type of client] — would this be relevant for you?" |
+| #2 — Surprise and Value | Send an unexpected gift of value (audit, tool, checklist) | "I prepared this specifically for your business — happy to walk you through it on a call" |
+| #3 — Content Offer | Send a guide or cheat sheet relevant to the prospect's challenge | "Thought you might find this useful — let me know if you'd like to discuss the findings" |
+
+**Volume target:** 500+ outreach touches per week across email, LinkedIn message, and WhatsApp, generates 5–10 warm responses per week, which at a 20% conversion to strategy session yields 1–2 new clients per month. Multi-channel sequences (email + text + LinkedIn + Messenger) outperform single-channel by 3–5×.
+
+### 4-Step Sales Process (Nelson, 2018)
+
+Apply this structure to every new client engagement from first contact to signed agreement:
+
+**Step 1 — Initial Call (30 minutes)**
+- Goal: schedule a pre-assessment and position yourself as a consultant, not a salesperson
+- Ask questions; listen more than you speak
+- Do not quote a price on this call — gather information only
+
+**Step 2 — Pre-Meeting Research**
+- Conduct a website audit (speed, mobile, content gaps)
+- Review the prospect's social media profiles and current content
+- Research competitor landscape for the prospect's category
+- Prepare a findings document — this becomes the proposal's Understanding of the Client's Situation section (Section 3 of this skill)
+
+**Step 3 — Review Meeting (45–60 minutes)**
+- Open with rapport; reference something specific about their business that shows preparation
+- Present findings: what is working, what is not, and what the opportunity cost is of the current gap
+- Present your solution — position it as the logical response to the findings, not a standard package
+
+**Step 4 — Close and Follow-up**
+- Ask for the decision on the call: "Based on what we've discussed, does this make sense to move forward?"
+- **Pre-close scale technique:** "On a scale of 1 to 10, how ready are you to address this today?" — anything below 7 requires uncovering the specific objection before moving to price
+- If the prospect does not close on the call, initiate a hot lead sequence: follow-up touchpoints over 14 days with a clear exclusivity deadline ("We have capacity to take on one more client in your sector this quarter — this offer is reserved for you until [date]")
+
+### Hell Yes or Hell No Principle (Wardrope, 2024)
+
+Do not pursue lukewarm prospects. A client who requires extensive convincing is likely to be a high-maintenance, low-margin relationship that drains delivery capacity.
+
+**Qualifying criteria — accept only if all three apply:**
+1. The prospect clearly understands and acknowledges the problem you are solving
+2. The prospect is ready to invest at or above the minimum viable retainer level
+3. The prospect respects the agency's process and does not demand unreasonable customisation before signing
+
+Reject any prospect who fails on criterion 2 or 3. Freeing that capacity for the right client generates more revenue and better work.
+
+---
+
 ## Quality Criteria
 
 - Cover letter reads as a genuine, professionally written letter — not a template with fields swapped
@@ -184,3 +271,4 @@ Use the free diagnostic to demonstrate analytical depth, build trust, and surfac
 - Investment table is clearly formatted with UGX pricing and USD equivalent noted
 - T&Cs section includes the standard placeholder exactly as specified
 - Next steps are actionable, dated where possible, and include a clear decision prompt
+- When generating a proposal for a high-value prospect, verify that at least 3 of the 9 Positioning Assets exist before sending — name them in the Notes to Consultant section

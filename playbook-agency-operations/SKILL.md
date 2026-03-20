@@ -237,6 +237,130 @@ Apply this section when the operation has more than one person. Skip for solo pr
 
 ---
 
+---
+
+## Section 8 — AI Revenue Models: Database Reactivation and Android Upsell Stack
+
+This section applies the Wardrope (2024) ROYA framework for agencies that want to add AI-powered revenue streams alongside or within social media retainers.
+
+### The Database Reactivation (DBR) Model
+
+Every business client has a dormant contact database — past enquiries, lapsed customers, event registrants — that represents the fastest source of new revenue. The DBR model reactivates this database using AI-personalised SMS/WhatsApp before spending on paid lead generation.
+
+**ROYA 8-Step Process (Wardrope, 2024):**
+
+| Step | Action |
+|---|---|
+| 1. Approach | Re-engage the client's old contacts with a low-friction personalised message |
+| 2. Coffee Date | Qualify interested contacts via a short Zoom or WhatsApp call |
+| 3. Close | Confirm interest and move to booking |
+| 4. Android Build | Configure the AI response system (HighLevel CRM + ChatGPT integration) |
+| 5. Prince Charming Kiss | Send a 2-sentence reactivation SMS/WhatsApp to the dormant list |
+| 6. Sales Call | Human follow-up for warm responders |
+| 7. Profit | Revenue closed and anchor payments collected |
+| 8. Repeat | Cycle continues; build to fresh lead generation only after DBR is optimised |
+
+**Key principle (Wardrope, 2024):** Sell First, Build Later. Demonstrate the value of the AI system to the client using a live demo on the OpenAI Playground before building the full pipeline. Reduces sales cycle and eliminates the need for a finished product before closing.
+
+### AI Upsell Stack (Escalation Sequence)
+
+Start with the foundational DBR service; upsell to each subsequent module only after the previous one is proven:
+
+1. **Database Reactivation** — AI-personalised messages to dormant contacts (foundation service)
+2. **Fresh Leads Pipeline** — AI qualification of new inbound leads from paid channels
+3. **Speed To Lead** — instant AI response to opt-in within 5 minutes of enquiry
+4. **Out-of-Hours Android** — 24/7 AI chat coverage when the sales team is offline
+5. **Document Collection Android** — AI-guided collection of application forms, KYC documents, or intake information
+
+### Deal Structures (Wardrope, 2024)
+
+Offer these structures based on client risk appetite. Zero Risk deals remove the price objection entirely:
+
+| Structure | Terms | Best for |
+|---|---|---|
+| Zero Risk Performance | Agency earns 50% rev share; client pays nothing upfront | Clients who need proof before commitment |
+| Zero-ish Risk | Client covers tool costs (SMS, OpenAI subscription); agency earns backend % | Low-trust new relationships |
+| Frontend + Backend | Monthly licence fee + backend revenue share | Established relationships |
+| Chunky Retainer | Fixed monthly fee (typically $5K–$25K equivalent); no backend | Clients who prefer predictability |
+| Deductible Deposit | Commitment deposit (refunded against backend earnings) | High-value deals requiring build investment |
+
+**AI Delivery Stack:** HighLevel CRM (pipelines, SMS, workflows) → Zapier or Make.com (connects ChatGPT to HighLevel) → OpenAI/ChatGPT subscription. For Ugandan/EA deployments, adapt SMS delivery to Africa's Talking or Infobip; WhatsApp messaging via WhatsApp Business API.
+
+### 5 Selling Principles (Wardrope, 2024)
+
+Apply when pitching any AI or social media service:
+
+1. **Widen the Yes Hole** — performance-based or zero-risk deals remove the price objection entirely
+2. **Be Ready to Walk Away** — scarcity and confidence command premium positioning
+3. **We Are the Prize** — the client should be qualifying themselves for the agency, not vice versa
+4. **Hell Yes or Hell No** — do not accept lukewarm deals; low-commitment clients drain capacity
+5. **Show, Don't Tell** — live demos (OpenAI Playground, content previews) close faster than decks
+
+---
+
+## Section 9 — 7-Figure Agency Model: Positioning, Retention, and Scale
+
+Principles from Nelson (2018) for building a recurring-revenue agency that reaches seven figures.
+
+### Rule of Five Ones (Nelson, 2018)
+
+A seven-figure agency requires sustained focus, not diversification:
+
+| One | Focus |
+|---|---|
+| One target market | One niche — specific enough to name (e.g. "manufacturing SMEs in Uganda") |
+| One lead generation strategy | One prospecting method mastered before adding a second |
+| One conversion mechanism | One sales process applied consistently |
+| One programme | One core service package; no custom scope for each client |
+| One year of focus | Stick to the above for 12 months before expanding |
+
+**Recurring revenue principle:** Never accept one-off project work. Auto-charge retainers only. A client that will not commit to a retainer is a client who is not ready — and not worth the operational cost of a one-off engagement.
+
+### Client Retention — 3-Part System (Nelson, 2018)
+
+"Perceived indifference" is the #1 reason clients leave — not poor results. Structure the relationship to remove all ambiguity about the agency's ongoing commitment.
+
+**Part 1 — Strong Kickoff:**
+- Comprehensive client setup meeting (30–90 minutes) within the first week of signing
+- Welcome pack: printed strategy summary, handwritten note, onboarding checklist
+- 60–90 day onboarding email sequence — weekly touchpoints with educational value, not just status updates
+
+**Part 2 — Communication Rhythm:**
+- Monthly review calls: cover performance data, what is working, what is not, and one clear recommendation
+- Weekly WhatsApp performance snapshot (for retainers UGX 2.5M+)
+- Never allow 30+ days of silence — a client who has not heard from you in a month is already looking for a replacement
+
+**Part 3 — Seed the Vision:**
+- Every client meeting must include a forward-looking statement about the next 30–60–90 days
+- Give clients specific homework (e.g. "Please send us three customer testimonials by Friday") — involvement increases psychological ownership
+- Re-anchor the relationship regularly: reference the original goal and show progress towards it
+
+**CRR Formula:** ((Clients at end of period − New clients acquired) ÷ Clients at start of period) × 100. Target: 95%+ monthly CRR. Above 95% compounds into seven-figure revenue. Below 90% means the agency is filling a leaking bucket.
+
+### Organisational Structure (Nelson, 2018)
+
+| Role | Function |
+|---|---|
+| Visionary (Owner) | Strategy, client relationships, business development, culture |
+| Integrator (COO) | Operations, systems, team accountability, process ownership |
+| Account Manager | Client communication, retention, reporting, upsell identification |
+| Content / Delivery | Execution of the core service (content, ads, SEO, AI systems) |
+| Finance / Admin | Invoicing, collections, contractor management |
+
+Hire the Integrator role first — this is the most leveraged hire an owner can make. The Integrator converts the owner's vision into operational reality and frees the Visionary to focus on growth.
+
+### Agency Value Proposition in the AI Era (Vallaeys, 2019)
+
+Saying "we use AI" is no longer a differentiator. Every agency has access to the same AI tools. The differentiator is *how* the agency deploys AI to solve client-specific problems.
+
+**Value proposition principle:** "We leverage AI and automation in ways that bring your unique business data and context into the equation — producing results that generic tools cannot replicate." This framing positions the agency as a power user, not a reseller of off-the-shelf software.
+
+**Kasparov Principle (Vallaeys, 2019):** A weaker human with a better process beats a stronger human with an inferior process. Build repeatable systems — then hire people who can execute and improve those systems, not rock-star individuals who operate outside them. Great processes outperform great people operating without processes.
+
+**Insight Broker staffing model (Vallaeys, 2019):** The new value-add role in a digital agency is not the programmer or the media buyer — it is the Insight Broker: someone who understands what causes results, can explain it to clients in plain language, and knows which levers to adjust. Hire for attitude first; aptitude is trainable. A high-attitude learner who follows process consistently outperforms a high-aptitude individual who resists structure.
+
+---
+
 ## Quality Criteria
 
 Output from this skill is considered complete and of acceptable quality when it meets all of the following:
@@ -248,6 +372,8 @@ Output from this skill is considered complete and of acceptable quality when it 
 - The URA tax note references the UGX 2,820,000 income threshold and the UGX 150M VAT threshold
 - The quality control checklist contains all nine items and is formatted as a tickable list
 - The reporting rhythm table covers all four report types with frequency, owner, and format
+- Section 8 AI revenue models are included when the client is building or considering AI-augmented services
+- Section 9 retention system (3-part: Kickoff, Communication Rhythm, Seed the Vision) is applied for any agency with 3+ clients
 
 ---
 

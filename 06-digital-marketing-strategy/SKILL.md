@@ -354,6 +354,41 @@ Theme: maximise results, document learnings, and plan the following year.
 
 ---
 
+---
+
+### 8. AI and Human Collaboration in Digital Marketing
+
+Apply when the client is using or considering AI-powered marketing tools, automated bidding, AI content generation, chatbots, or agency-managed automation.
+
+**The Indispensable Complement Principle (Vallaeys, 2019):**
+Hal Varian's principle: "Seek to be an indispensable complement to something that is getting cheap and plentiful." As AI tools commoditise routine digital marketing tasks, the agency's value lies in what the AI cannot do alone.
+
+| What AI does well | What humans do better |
+|---|---|
+| Bid management across thousands of permutations | Setting goals that translate business needs into system inputs |
+| Pattern recognition in large datasets | Creative — emotional connection, linguistic subtlety, novel angles |
+| Attribution modelling and budget automation | Micro-segmentation strategy — deciding *which* segments matter |
+| A/B testing at scale | Measuring outcomes against business context AI cannot access |
+| Real-time response to signals | Explaining *why* a result occurred and what it means |
+
+**Automate-or-not decision:** If a task can be documented as a step-by-step process, it can be automated. Prioritise automation by frequency × time-consumed: high-frequency, time-consuming tasks first (ad testing, reporting); low-frequency, fast tasks last (budget updates). Do not automate creative — the human layer that writes, edits, and selects messaging must remain human-led.
+
+**The Three Human Roles (Vallaeys, 2019):**
+
+| Role | What it means in practice |
+|---|---|
+| **Doctor** | Diagnose the account's health; explain root causes to the client (bedside manner: translate complexity into plain language; forensic investigation: identify why performance changed) |
+| **Pilot** | Monitor automated systems; calibrate alerts; intervene when automation produces unexpected outcomes; spot competitor automation failures and exploit them |
+| **Teacher** | Train the AI — provide the system with business-specific context it cannot derive from historical data alone (seasonal events, promotions, margin data, product launches) |
+
+When proposing AI-assisted marketing services, specify which human role the agency is providing and what unique business data or context it will feed into the AI system. Generic use of AI tools = average performance. Differentiated use = competitive advantage.
+
+**Recombinant Innovation (Hargadon, 2003, cited in Vallaeys, 2019):** Innovation is not always a new invention — it is often a novel combination of existing tools. The agency's competitive advantage lies in connecting client business data (seasonality, promotions, margins, customer segments) with standard AI tools in combinations competitors have not yet considered. Document these combinations as agency proprietary processes.
+
+**Fundamentals never become obsolete (Vallaeys, 2019):** AI tools produce average results when used generically. Above-average results require the human operator to understand how the system works, what it is optimising for, and when it needs overriding. Proficiency in the AI tool's underlying logic — not just its interface — is the differentiator. This applies equally to social media algorithms, email automation, and chatbot configuration.
+
+---
+
 ## Quality Criteria
 
 - Situation audit correctly applies POEM classification to every channel — no channel is left unclassified
@@ -366,3 +401,4 @@ Theme: maximise results, document learnings, and plan the following year.
 - Budget allocation table distinguishes production costs from paid media spend
 - British English spelling throughout; all monetary values in UGX with USD equivalent where helpful
 - Sub-strategies are referenced by skill name where commissioned, not duplicated
+- When AI tools are in scope, Section 8 is applied: human roles (Doctor/Pilot/Teacher) are specified and unique client data inputs are identified
