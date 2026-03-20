@@ -1,6 +1,6 @@
 # Next Features — social-media-skills
 
-*Last updated: 20 March 2026*
+*Last updated: 20 March 2026 (session 2)*
 
 ---
 
@@ -29,6 +29,21 @@
 - `ai-agentic-marketing-workflows` — PRAL/BDI/OODA, 5 workflow templates, HITL safeguards
 - `ai-predictive-analytics-social` — RFM segmentation, CLV forecasting, AutoML for EA
 
+### March 2026 (session 2) — Social Selling + Content Strategy Book Synthesis
+*Completed: 20 March 2026*
+
+**4 skills strengthened** with 7-book synthesis:
+
+Content strategy books (Espejo, Waters, Handley, Nemo, Bhatia, Meerman Scott, Kautonen):
+- `strategy-video-content` — NEW skill: Three Laws of Organic Video, WILMA test, platform-by-platform blueprints (TikTok/Reels/YouTube/Facebook/WhatsApp), hook writing framework, script templates, Hero/Hub/Hygiene video calendar
+- `meta-content-repurposing` — Content Factory (Tier 1/2/3), Platform Repurposing Matrix, 5 worked examples, FEED weekly workflow
+- `10-content-pillars` — Content Type Taxonomy (Raisin Bran/Spinach/Roasts/Tabasco/Chocolate Cake), 50/25/15/10 content mix rule
+- `playbook-content-production` — Quality Standard (Share or Solve test, Six Story Characteristics, Think Like a Publisher)
+
+Social selling books (Dodaro, Blount, Shanks; Hood assessed as low-quality):
+- `playbook-social-selling` — LINK Method 4-message sequence, 15 trigger events, FEED daily routine, Boolean search, Prospecting Pyramid, Law of Familiarity
+- `platform-linkedin` — Content ACT Framework, 5-stage buyer journey content mapping, Boolean search operators, trigger-based prospecting (3 automated searches), Grow by 3 daily, SSI Score KPI
+
 ### Previous Sessions
 - LinkedIn skill: 8-book analysis + individual brand strategy
 - YouTube: strategy upgrade + 3 Fihn agency model skills
@@ -46,11 +61,6 @@ None at this time. System is production-ready at 95% coverage.
 ---
 
 ## 🟠 HIGH PRIORITY
-
-### Video Content Strategy Skill (Cross-Platform Organic)
-**Why:** Platform skills (YouTube, TikTok, Instagram) each have video guidance embedded, but there is no single skill that treats short-form and long-form organic video as a unified cross-platform system. Video is the dominant content format in EA.
-**Effort:** 1 session (~150–200 lines)
-**Start point:** Pull from `platform-youtube`, `platform-tiktok`, `platform-instagram` + Reels strategy; add Hero/Hub/Hygiene application to video formats
 
 ### Sales Team Social Selling Training
 **Why:** `playbook-social-selling` is an operational guide for consultants. EA clients increasingly need to train their own sales teams to use LinkedIn and WhatsApp for consultative selling. No training-format skill exists for this.
