@@ -6,6 +6,13 @@
 
 ## ✅ Recently Completed
 
+### March 2026 (session 4) — Healthcare Sector Skill
+*Completed: 20 March 2026*
+
+**1 new sector skill created** from 3-book synthesis (Parsons, Stukus, Rogers):
+
+- `sectors/healthcare` (NEW) — Full healthcare social media strategy: Parsons' 11-stakeholder taxonomy, 4-level complexity model, TTR standard, 4-component social media policy, crisis communication (3-hour window, Virginia Tech Principle, crisis template); Stukus' patient de-identification (4 principles), content curation (5 criteria + 7 red flags), 6 troll types with response guidance, 4-step complaint protocol, professional boundary rules; Rogers' A-E-C-C-C patient network framework (Access/Engage/Customise/Connect/Collaborate adapted for healthcare), 90-9-1 Rule, PatientsLikeMe community model
+
 ### March 2026 (session 3) — Ecommerce Skills Synthesis
 *Completed: 20 March 2026*
 
@@ -92,6 +99,15 @@ Delivered via `social-commerce-strategy` expansion + 2 new skills (`ecommerce-co
 **Why:** `meta-dashboard-design` covers design standards but not the workflow for setting up and maintaining a client-facing Looker Studio dashboard that non-technical clients can interpret.
 **Effort:** 1 session (~180 lines)
 **Start point:** Extend `meta-dashboard-design` with Looker Studio setup steps, client training script, monthly update workflow
+
+---
+
+## 🟡 MEDIUM PRIORITY
+
+### Additional Sector Skills
+**Why:** `sectors/healthcare` establishes the sector-skill architecture. High-value next sectors for EA: financial services/fintech (regulated sector, mobile money), education (universities, schools, EdTech), hospitality/tourism, and NGO/development organisations.
+**Effort:** 1 session per sector (~250 lines each)
+**Start point:** Follow `sectors/healthcare/SKILL.md` as structural template; identify 2–3 sector-specific books per sector
 
 ---
 
