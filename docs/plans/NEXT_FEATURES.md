@@ -1,10 +1,23 @@
 # Next Features — social-media-skills
 
-*Last updated: 20 March 2026 (session 3)*
+*Last updated: 20 March 2026 (session 5)*
 
 ---
 
 ## ✅ Recently Completed
+
+### March 2026 (session 5) — Digital Marketing Book Synthesis
+*Completed: 20 March 2026*
+
+**7 skills strengthened** with 4-book synthesis (Sheridan, Bly, Denny/Leinberger, From Idea to Success):
+
+- `strategy-video-content` — The Selling 7 sales-enabling video framework (80% Video, Bio Videos, Product/Service Fit, Landing Page, Cost/Pricing, Customer Journey, Claims We Make); on-camera performance rules (Don't Stop, Can Do It Again, 3-Second Smile); personalised video for email (20-40% open rate increase)
+- `playbook-question-engine` — The Big 5 framework (Pricing, Problems, Comparisons, Reviews, Best in Class) as explicit prioritisation model; Assignment Selling concept; the 30-page close-rate principle; content insourcing principle
+- `12-website-content-plan` — 7 Website Content Priorities (homepage you:we ratio 5:1, Big 5 gap audit, premium content, self-selection tools, social proof, site speed 3-second threshold) as pre-requisite checklist before content production
+- `framework-digital-transparency` — Raw Marketing 5 rules (Seeking Control, Unscripted, In-Process, In-Context, Heroic Credibility); C2B shift (67% of purchase decisions pull-driven); brand militancy failure patterns; Heroic Credibility case studies from Denny/Leinberger
+- `06-digital-marketing-strategy` — Content insourcing principle; 5-stage content marketing timeline (launch → search visibility → leads → revenue → compounding returns; Months 1–36)
+- `08-influencer-marketing-strategy` — Creator economy structure (Hund, Falls, Hennessy); resonance over reach; the Influence Continuum; 5 influence mechanisms (Authority/Acumen/Access/Agility/Audience Match); long-term partnerships vs one-post deals
+- `strategy-personal-brand` — KNOWN framework (Schaefer 2017): 5-step path from unknown to known; Wealthy and Well-Known principle; mess-is-your-message positioning rationale
 
 ### March 2026 (session 4) — Healthcare Sector Skill
 *Completed: 20 March 2026*
