@@ -158,6 +158,27 @@ Generate qualified B2B leads without paid advertising by applying this systemati
 
 5. **LinkedIn Newsletter** — use the native newsletter feature to build a subscriber list of interested prospects. Every new subscriber receives a notification. Publish fortnightly. Topics: industry insights, practical guides, company news. The newsletter builds a permission-based audience that is independent of the algorithm.
 
+**Content ACT Framework (Dodaro, 2019)**
+Organise all thought leadership content around three functions:
+- **Authority** — positions the professional as the leading expert: opinion posts, industry analysis, prediction pieces, published articles
+- **Credibility** — demonstrates results: case studies, client outcomes, speaking engagements, certifications, measurable before/after results
+- **Trust** — shows the human behind the expertise: behind-the-scenes, team moments, values-based posts, honest reflections on challenges
+
+A content calendar that includes all three builds the conditions for inbound enquiries. Missing any one creates a gap — technically excellent content from someone the audience does not yet trust will not convert.
+
+**Buyer journey content mapping (Dodaro, 2019)**
+Match content type to where the target buyer sits in their decision process:
+
+| Buyer stage | Buyer question | Content type |
+|---|---|---|
+| Awareness | "Is this a real problem?" | Industry statistics, trend posts, problem-naming content |
+| Consideration | "What are my options?" | Framework posts, comparison content, how-to guides |
+| Decision | "Who should I work with?" | Case studies, testimonials, service explainers, credentials |
+| Retention | "Am I getting value?" | Client tips, usage guides, check-in content |
+| Advocacy | "Who can I refer?" | Referral-friendly posts, celebration of client wins, sharing tools |
+
+A monthly content calendar should contain posts at every stage — not only Awareness (the most common mistake) and not only Decision (which reads as a sales pitch to cold audiences).
+
 ---
 
 ## 5. Employee Advocacy Activation
@@ -288,6 +309,25 @@ After publishing a post, accept any pending connection requests immediately. New
 **Event prospecting:**
 Before any industry event or conference, search both the event keyword and its hashtag on LinkedIn. Anyone posting about it and confirming attendance is a warm connection request — you share context, which makes the request feel relevant and personal. Set meetings before the event, not at it.
 
+**Boolean search for precision prospecting (Shanks, 2016)**
+LinkedIn's People search supports Boolean operators for targeted ICP identification:
+- `AND` — narrows: `Marketing Director AND Uganda`
+- `OR` — broadens: `CEO OR Founder OR "Managing Director"`
+- `NOT` — excludes: `Manager NOT "Social Media Manager"`
+- Quotation marks — exact phrase: `"Head of Procurement"`
+- Parentheses — combined logic: `(CEO OR Founder) AND (Uganda OR Kenya)`
+
+Save each search. LinkedIn sends weekly alerts when new profiles match — a passive prospecting system that surfaces warm leads automatically without daily manual searching.
+
+**Trigger-based prospecting (Shanks, 2016)**
+Run three automated weekly searches:
+1. **Advocates search** — past clients or champions who have changed companies. They already know and trust the brand; one message to the new role often opens a new account
+2. **New hires/appointed leaders search** — filter by "Changed jobs in past 90 days" at target companies. New leaders make new buying decisions; early contact before they establish existing supplier relationships is the highest-probability outreach window
+3. **New opportunities search** — contacts at companies that have recently announced expansion, funding, or new initiatives. These are trigger moments when procurement windows open
+
+**Grow by 3 daily (Shanks, 2016)**
+Add 3 targeted new ICP-matched connections per day — not random connections. 3 per day × 250 working days = 750 new advocates per year, each compounding through their own networks.
+
 **Growing Company Page followers:**
 - Ask every employee to follow the Company Page (and to encourage their connections to follow)
 - Promote the Company Page from the personal profile: "For company updates, follow [page link]"
@@ -310,6 +350,7 @@ Track these metrics monthly. Company Page data is available in LinkedIn Analytic
 | Post clicks | Track volume trend | Includes link clicks, company name clicks, hashtag clicks |
 | InMail / DM response rate | 20–35% for warm outreach | Track responses ÷ messages sent |
 | Newsletter subscribers | Growing month-on-month | Benchmark: 10% of followers over 3 months |
+| LinkedIn SSI Score | 70+ for active social sellers | Available at linkedin.com/sales/ssi — four factors: Personal Brand, Finding Right People, Engaging with Insights, Building Relationships. Scores above 70 correlate with significantly more opportunities created (Shanks, 2016). Review monthly; the score reflects the previous 90 days of activity. |
 
 Review KPIs at the end of each month using the meta-reporting skill. If engagement rate drops below 2% for 4 consecutive weeks, audit the content mix: increase the ratio of opinion posts and case studies, which consistently outperform informational posts on LinkedIn.
 
