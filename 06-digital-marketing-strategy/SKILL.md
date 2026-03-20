@@ -236,6 +236,21 @@ Apply this logic to the client's content pillars (from 05-social-media-strategy)
 **Content production rhythm:**
 Define a weekly or monthly production cadence. State what gets produced in-house versus what requires external support (e.g. video production, graphic design — note that asset production is outside this suite's scope). Reference content-writing skill for copywriting standards.
 
+**Content insourcing principle (Sheridan, 2019):**
+The most valuable content is produced by the people who already know the answers: the sales team, customer service staff, and subject matter experts within the business. A content manager with a journalist's interviewing skills can extract 8–12 publishable pieces per month from a 20-minute interview with one staff member. Outsourcing content entirely to agencies consistently produces average results because agencies cannot replicate the authentic expertise that lives inside the client organisation. Recommend that every client designate one internal Content Manager (or equivalent) to own the content production process — not to write everything, but to coordinate, interview, edit, and publish.
+
+**The Five-Stage Content Marketing Timeline (Sheridan, 2019):**
+
+| Stage | Timeframe | What happens | What to measure |
+|---|---|---|---|
+| Launch and Assignment Selling | Months 1–3 | Content machine starts; editorial calendar established; Big 5 content prioritised; sales team equipped with content for every appointment | Content output volume; sales team adoption of content |
+| Search Visibility | Months 2–5 | Search engines begin indexing new content; organic traffic starts to grow; early keyword rankings appear | Organic traffic growth; keyword ranking improvements |
+| Lead Generation | Months 3–6 | Traffic converts to leads; opt-in rate on premium content; enquiry volume from digital channels | Lead volume from content; email list growth rate |
+| Revenue Generation | Months 4–18 | Sales attributed directly to content; close rate on content-educated prospects | Revenue attributed to content; COCA reduction |
+| Compounding Returns | Months 18–36 | Content library accumulates authority; rankings compound; referral volume increases; COCA continues declining | Annual ROI; brand search volume growth |
+
+Set client expectations against this timeline at strategy launch. Content marketing is not an immediate-return channel. Clients who expect leads within 30 days will abandon the programme before it reaches its inflection point.
+
 ---
 
 ### 5. Email Marketing Overview

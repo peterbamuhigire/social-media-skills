@@ -52,6 +52,22 @@ A brand built on only two strands is unstable. All three must align. The interse
 
 **Sheahan's Wall:** the #1 reason personal brands fail is diluted focus — trying to serve multiple audiences, talk about multiple topics, or appear on every platform simultaneously. The prescription is radical specificity first: one avatar, one core problem, one primary platform. Expand only after traction is achieved.
 
+**The KNOWN Framework (Schaefer, 2017):**
+The five steps that every successful personal brand follows, in order:
+
+| Step | What happens |
+|---|---|
+| **Find your Intersection** | Identify the overlap between your unique passion, your sustainable content niche, and a market that will pay |
+| **Establish a sustainable interest** | The niche must sustain content production for years, not months — test longevity before committing |
+| **Choose the right platform for your audience** | Not the platform you prefer — the platform where your target audience already spends time |
+| **Create Content Consistently** | No personal brand survives without consistent, quality content; frequency matters less than reliability |
+| **Move from Being Known to BEING KNOWN** | Achieve the tipping point by locking in a memorable association — one thing the market calls you for |
+
+The KNOWN framework reinforces the VCP sequence: you cannot be Credible until you are Visible, and you cannot be Profitable until you are Credible. Content is the primary mechanism for moving through each stage.
+
+**Wealthy and Well-Known Principle (Vaden, 2023):**
+The only truly scalable personal brand is built around a specific problem you have personally solved. The further your content gets from your lived experience, the less resonance it has and the harder it is to sustain. "Your mess is your message" — the most credible authority is the person who solved the problem they now teach. When positioning a client, always ask: what problem did this person personally solve that others are still struggling with?
+
 ### 1.2 Brand Positioning Statement (BPS)
 
 Produce one sentence using this exact structure:

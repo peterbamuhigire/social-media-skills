@@ -136,6 +136,32 @@ Identify and record the specific transparency gaps before writing any recommenda
 
 ---
 
+## Raw Marketing — The Five Rules of Authentic Brand Communication (Denny and Leinberger, 2020)
+
+The Rageh model defines transparency as a structural quality. Denny and Leinberger (2020) identify a complementary behavioural dimension: Raw Marketing — the movement towards unscripted, unfiltered, human-first brand communication driven by a fundamental shift in consumer power. Since 67% of purchase decisions are now driven by consumer-initiated pull activity rather than brand-pushed messages (2019 data), brands must communicate in ways that feel real, not produced.
+
+The five Raw Marketing rules operate as filters on all digital content decisions:
+
+| Rule | What it means | Application |
+|---|---|---|
+| **Seeking Control** | Consumers demand control over how they encounter and interact with brands | Give audiences choice: long-form and short-form, video and text, read and listen. Forced-format communication feels invasive |
+| **Unscripted** | Audiences detect and reject content that feels produced, polished, or PR-managed | Use real staff voices, real customer stories, real behind-the-scenes footage; a slightly imperfect video from a real person outperforms a glossy production from a faceless brand |
+| **In-Process** | Consumers prefer to see work in progress, not only finished results | Document the journey as it happens: show the product being made, the problem being solved, the team in action; "here is what we are working on" outperforms "here is what we achieved" |
+| **In-Context** | Authentic content is rooted in the real environment of the brand and its customers | Shoot in actual workplaces, not studios; use real customers in real settings, not models; reference real local conditions and challenges rather than aspirational imagery |
+| **Heroic Credibility** | The highest form of brand trust comes from demonstrable, costly, values-aligned action | See below |
+
+**Heroic Credibility — the trust multiplier:**
+Heroic Credibility is the trust earned when a brand takes a position that costs it something: revenue, customers, convenience, or public approval. This is the highest form of brand authority and cannot be manufactured or faked. Examples of Heroic Credibility actions: publishing pricing openly when competitors hide it; openly acknowledging product limitations; writing an article that recommends competitors for certain use cases; declining a customer who is not the right fit; making an environmental or social commitment that affects profitability.
+
+In the EA context: a business that publishes what competitors charge, identifies when it is not the right choice for a customer, and shows real job sites and real staff builds Heroic Credibility faster than any advertising investment.
+
+**Brand militancy failures:** Brands that take political or social positions that divide rather than unite their audience risk severe commercial consequences. The test: is this a value the brand holds and lives, or is it a marketing position adopted for attention? Values that are lived generate loyalty. Values performed for attention generate backlash. Before any brand values communication, assess whether the position is backed by visible operational evidence — not just a social media post.
+
+**The C2B shift (Denny and Leinberger, 2020):**
+Consumer-to-Business (C2B) has replaced Business-to-Consumer (B2C) as the dominant dynamic. Consumers now control the buying process: they research independently, self-select, set the agenda for sales conversations, and share their experiences publicly regardless of brand preferences. Marketing strategy must begin from this reality — design for a buyer who is already 70% of the way through their decision before they make contact.
+
+---
+
 ## East African Regulatory Context
 
 Uganda's Data Protection and Privacy Act 2019 and Kenya's Data Protection Act 2019 create legal obligations that align directly with this framework:

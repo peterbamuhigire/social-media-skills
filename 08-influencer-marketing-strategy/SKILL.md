@@ -256,6 +256,51 @@ Be cautious of influencers who guarantee specific sales numbers or reach figures
 
 ---
 
+## The Creator Economy — Structural Principles (Hund, 2023; Falls, 2021; Hennessy, 2018)
+
+### Why Influencer Marketing Works When It Works
+
+Influencer marketing derives its effectiveness from parasocial trust — the one-sided relationship that audiences build with creators they follow consistently. Audiences trust recommendations from a creator they watch daily more than they trust a brand advertisement, because the creator has earned that trust through consistent, authentic presence over time. The moment influencer content appears manufactured or out-of-character for that creator, the parasocial trust breaks — and brand association produces negative rather than positive effects.
+
+**The authenticity imperative (Falls, 2021):** The single most important criterion when selecting an influencer is not reach or engagement rate — it is authentic fit. A creator who genuinely uses a product produces content that audiences recognise as real. A creator promoting a product they have never touched produces content audiences also recognise — and dismiss. Authentic fit requires that the brand seek creators who are already in the natural habitat of the product or service category.
+
+**Resonance over reach (Hennessy, 2018):** The influencer industry undervalued resonance for most of its early history, obsessing over follower counts. Resonance — the emotional connection and behavioural influence an influencer has with their audience — is the actual commercial variable. A micro-influencer with 15,000 deeply engaged followers in a specific niche will consistently outperform a macro-influencer with 500,000 disengaged followers on product trial and purchase metrics.
+
+**The three-tier selection model (Hennessy, 2018):**
+
+| Consideration | Primary question |
+|---|---|
+| **Reach** | Does this creator's audience include enough members of our target persona to justify the investment? |
+| **Resonance** | Do followers take action on this creator's recommendations — not just like and scroll? |
+| **Relevance** | Is the creator's content category a natural home for our product or service? |
+
+All three must meet threshold before proceeding. An influencer with high Reach and Relevance but low Resonance (poor audience action rate) is a wasted investment.
+
+### The Influencer Industry Structure (Hund, 2023)
+
+The influencer industry is now professionalised at the macro level and semi-professional at the micro level. Understand the business structure before negotiating:
+
+- **Creator's perspective:** Influencers are running media businesses. Their content is their IP, their audience is their asset, and their sponsorship income is tied directly to the value they deliver to that audience. Brands that ask for excessive creative control, unusually short deadlines, or content that does not fit the creator's established voice will receive poor results — because the creator's audience will not respond to content that breaks from their established voice.
+
+- **Long-term partnerships outperform one-post deals:** A creator who mentions a brand once is an advertisement. A creator who integrates a brand naturally across four weeks of content becomes an endorsement. Audiences build brand familiarity through repeated, contextually appropriate exposure — not a single sponsored post. Wherever budget allows, structure campaigns as a minimum of 3–4 touchpoints across 4–6 weeks.
+
+- **Content usage rights negotiation:** Influencer-created content typically belongs to the creator. Usage rights for branded channels, paid advertising, and extended time periods must be negotiated and paid for separately from the post fee. In Uganda/EA, this is often not formalised — state rights expectations clearly in the written brief before content is produced, not after.
+
+### Winfluence — The Influence Continuum (Falls, 2021)
+
+Falls proposes the Influence Continuum: at one end, transient influencers (celebrities with broad but shallow reach); at the other end, relevant influencers (niche experts with narrow but deep impact). For most EA marketing objectives, content on the Relevant end of the continuum — micro and nano creators who are genuine authorities in their category — produces better commercial outcomes than celebrity association.
+
+**The five influence mechanisms (Falls, 2021):**
+1. **Authority** — expertise that makes followers trust the recommendation
+2. **Acumen** — business and product knowledge that makes endorsements credible
+3. **Access** — the creator's exclusive position (behind-the-scenes, first to know, personal experience)
+4. **Agility** — responsiveness to trends and timely relevance
+5. **Audience Match** — the degree to which the creator's audience mirrors the target persona
+
+Evaluate every potential partner against all five. An influencer who scores high on only one or two mechanisms is a weak investment.
+
+---
+
 ## Quality Criteria
 
 - Tier definitions apply EA-specific engagement benchmarks — not global averages

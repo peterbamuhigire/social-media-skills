@@ -214,6 +214,49 @@ Do not add a second CTA — one action, clearly stated.
 
 ---
 
+## The Selling 7 — Sales-Enabling Video Framework (Sheridan, 2019)
+
+Beyond organic content, every business needs a set of videos that actively enable the sales process. These seven types answer the questions that salespeople answer repeatedly in conversations and meetings — freeing sales staff and pre-qualifying prospects before they ever speak to the business.
+
+**Video 1 — The 80 Percent Video**
+One video that answers the 70–80% of questions every sales conversation covers. Produced by filming a real sales person explaining what they would say to a new prospect. Length: 5–8 minutes. Benefit: prospects who watch this before the first meeting arrive already informed, shortening the sales cycle by 30–50%. Distribute via email before discovery calls and on the website's homepage.
+
+**Video 2 — Bio Videos for Email Signatures**
+A 30–60 second personal introduction video for every team member's email signature. "Hi, I'm [Name] at [Company]. I look forward to speaking with you about [topic]." Every email becomes a handshake. Average result: 25–30 additional profile views per month per email address. Particularly effective in B2B and professional services.
+
+**Video 3 — Product/Service Fit Videos**
+Short videos (2–3 minutes) answering "Is this the right fit for me?" — covering who the product or service is for, who it is NOT for, and under what circumstances. Reduces mismatched enquiries; increases the close rate on qualified enquiries. Place prominently on service pages.
+
+**Video 4 — Landing Page Videos**
+A 60–90 second video on any page with a form or conversion point. A human face and voice explaining what the visitor will receive by signing up, booking, or enquiring. Documented to increase form conversion rates by up to 80% (Sheridan, 2019). The video should specifically address hesitation — "You might be wondering if..." — before the viewer types it into their search bar.
+
+**Video 5 — Cost and Pricing Videos**
+A 2–3 minute video explaining pricing honestly — ranges, what drives the price up or down, and what is not included. Companion to any written pricing content. Positions the business as the transparent authority in the category. Reduces the "how much does this cost?" question in every subsequent sales call.
+
+**Video 6 — Customer Journey Videos**
+Testimonials filmed as a narrative journey: what the customer's situation was before, what they experienced during, and the outcome achieved. Three minutes maximum. The customer speaks to camera — not a quote displayed on screen. These are the most powerful social proof assets a business can possess and should be placed at every decision-stage touchpoint.
+
+**Video 7 — "Claims We Make" Videos**
+Every business claims to be "experienced", "trusted", "passionate", or "the best". These claims are invisible on paper. A video that shows evidence — behind-the-scenes processes, quality checks, certifications, team expertise — turns abstract claims into visible proof. Use on the "About Us" page and in proposal emails.
+
+**The Selling 7 prioritisation order for most EA businesses:** Start with Video 1 (highest sales leverage), then Video 6 (social proof drives decision), then Video 3 and 4 (reduce friction on website). Videos 2, 5, and 7 follow once the core set is in place.
+
+---
+
+## On-Camera Performance Rules (Sheridan, 2019)
+
+The biggest barrier to video content is on-camera anxiety. Apply these three rules to every filming session.
+
+**The Don't Stop Rule:** Never stop filming mid-sentence because of a mistake. Finish the thought, pause, breathe, and repeat the sentence from the beginning of that thought. Stopping constantly kills momentum and makes editing extremely difficult. Treat the camera like a conversation.
+
+**The Can Do It Again Rule:** For every shot, immediately film a second take. Not because the first was bad — because two takes give the editor a choice and the presenter a chance to improve a detail. The second take is almost always better than the first.
+
+**The 3-Second Smile Rule:** Before speaking to camera, pause for exactly three seconds and smile. This eliminates the "frozen startled face" that appears in the first second of most amateur video. It gives the editor a natural in-point and settles the presenter before they begin.
+
+**Personalised Video for Email:** Short personalised videos (60–90 seconds) recorded for a specific prospect before sending a follow-up email increases open rates by 20–40% when the subject line reads "I recorded a quick video for you, [Name]" (Sheridan, 2019). Use free tools like Vidyard Goboard or Loom. One personalised video replaces three follow-up emails in relationship-building effectiveness.
+
+---
+
 ## Video Content Calendar Logic
 
 Apply the Hero / Hub / Hygiene model (YouTube / Google) across the video calendar:

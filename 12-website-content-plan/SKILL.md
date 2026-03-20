@@ -22,6 +22,35 @@ Ask for the following before generating:
 
 ---
 
+## Pre-Requisite: The 7 Website Content Priorities (Sheridan, 2019)
+
+Before generating blog briefs, confirm the client's website addresses these seven priorities in order. Content plan effectiveness is severely limited if the website itself fails to convert visitors.
+
+**Priority 1 — Homepage Design and Messaging**
+The homepage must lead with the buyer's problem, not the brand. Audit the you:we ratio: count how many times the homepage says "we", "us", and "our" versus "you" and "your". A ratio below 5:1 (you:we) means the homepage is about the brand, not the buyer. Rewrite accordingly. The primary purpose of the homepage is to move the visitor to the next page — it is not to explain everything the business does.
+
+**Priority 2 — Honest Education (The Big 5 on the site)**
+Audit the website against the Big 5 question categories: Pricing and Cost, Problems and Limitations, Comparisons, Reviews, and Best in Class. If the site does not address all five, the content plan must prioritise filling these gaps before any other blog content. These are the questions buyers ask before they ever contact the business; unanswered, they result in lost sales.
+
+**Priority 3 — Premium Education (Lead Magnets)**
+Beyond blog posts, the website must offer at least one premium content asset behind an opt-in: a buying guide, checklist, template, webinar, or ebook. Premium content converts readers into leads. A site with no opt-in mechanism allows traffic to arrive, consume, and leave — with no ongoing relationship established. The content plan must include at least one premium asset per cluster of related articles.
+
+**Priority 4 — Equal Mix of Text and Visual Content**
+Every major topic should have both a written article and a video. Buyers have different consumption preferences; a text-only or video-only site fails half of its potential audience. Where video production is not yet possible, use infographics, images, or embedded social media content.
+
+**Priority 5 — Self-Selection Tools**
+Interactive tools on the website that guide buyers through decisions without requiring contact with the business. Examples: a pricing calculator, a product recommendation questionnaire, an eligibility checker, a comparison tool. Consumer searches using "for me" and "should I" phrasing increased 120% in recent years (Sheridan, 2019) — buyers want to self-select, not be sold to. Identify one self-selection tool the client can create and include it in the content plan.
+
+**Priority 6 — Social Proof**
+Customer testimonials, journey videos, reviews, Net Promoter Scores, and case studies must be visible throughout the website — not only on a dedicated testimonials page that few visitors find. Include social proof near every CTA, pricing disclosure, and service description. The content plan must include at least two customer journey stories per quarter.
+
+**Priority 7 — Site Speed**
+40% of visitors abandon a website that takes more than 3 seconds to load (Sheridan, 2019). The average business website loads in 8–12 seconds. Before producing content, confirm the client's site loads within 3 seconds. If it does not, flag this as a prerequisite action. Slow sites make all content investment less effective: high traffic + high bounce rate = low return.
+
+Use this checklist to brief the client before commencing content production. Do not attempt to drive traffic to a site that fails Priorities 1, 2, or 7.
+
+---
+
 ## Section 1: 12 Blog Post Briefs
 
 Generate one brief per article. Number each brief clearly (Article 1 of 12 through Article 12 of 12). Distribute articles across the 3–5 primary topic areas proportionally. Do not cluster all articles in one topic.

@@ -102,9 +102,21 @@ Run all five source reviews in the first week of each month. Collect raw questio
 ### Step 2 — Cluster
 Group similar questions together. "How much does X cost?", "What is the price of X?", "Is X expensive?", and "Can I afford X?" are all the same question — cluster them into one content brief.
 
-### Step 3 — Prioritise
-Score each question cluster on two dimensions:
+### Step 3 — Prioritise Using the Big 5 Framework (Sheridan, 2019)
 
+The Big 5 are the five question categories that generate the highest search volume and the greatest sales acceleration. Prioritise content from these categories before any other topic:
+
+| Category | What buyers are asking | Why this is urgent |
+|---|---|---|
+| **Pricing and Cost** | "How much does [product/service] cost?" "What affects the price?" "Is there a cheaper option?" | Price is the most-searched topic in almost every industry; businesses that answer it first own the category in search |
+| **Problems and Limitations** | "What are the problems with [product/service]?" "When does [solution] not work?" | Buyers conduct due diligence before purchase; honest answers build trust faster than silence |
+| **Comparisons** | "[Brand A] vs [Brand B]" "What is the difference between [option 1] and [option 2]?" | Buyers in the consideration stage actively compare; appear in their research or lose the sale to whoever does |
+| **Reviews** | "Is [company/product] any good?" "What do customers say about [brand]?" "Best [product category]" | Social proof is the deciding factor for many buyers; reviews content appears in Google and YouTube search |
+| **Best in Class** | "Best [product type] in [city/country]" "Which [service] should I choose?" "Top [service providers] in Uganda" | Buyers seeking the best option are close to a decision; ranking content at this stage converts directly |
+
+Score each question cluster against the Big 5: Big 5 questions get highest priority. Non-Big 5 questions fill the calendar after the primary gaps are addressed.
+
+Also score on:
 | Dimension | Scoring |
 |---|---|
 | **Search volume / enquiry frequency** | How often is this question asked? (High / Medium / Low) |
@@ -162,6 +174,27 @@ Generate a monthly Question Engine report containing:
 3. **Priority content brief (top 5)** — for each: question cluster, recommended format, target platform, suggested headline, 3-bullet outline
 4. **Content backlog** — all remaining questions ranked by priority for future months
 5. **Last month's performance** — if applicable: which published pieces generated traffic, enquiries, or shares?
+
+---
+
+## Assignment Selling — Using Content to Close Deals (Sheridan, 2019)
+
+Once the content library is built, deploy it proactively in the sales process. This is called Assignment Selling: the practice of assigning specific content pieces to prospects before key sales conversations, so that the conversation begins at a higher level of shared understanding.
+
+**How Assignment Selling works:**
+1. Identify the two or three most important questions a prospect needs to answer before they can make a purchase decision
+2. Ensure content exists that answers each of those questions (Big 5 content is ideal)
+3. Before any sales meeting, email or WhatsApp the prospect: "Before we speak on [date], I'd like to share [article/video] — it will make our conversation much more productive."
+4. Begin every sales conversation by confirming: "Did you get a chance to review the content I sent?" If yes, the conversation can skip the basics. If no, revisit the assignment.
+
+**The 30-page principle:** Sheridan (2019) found that prospects who read 30 or more pages of a company's content before a sales conversation closed at an 80% rate. Those who had read fewer than 10 pages closed at a significantly lower rate. Content is not only a marketing tool — it is a pre-sale qualification and conversion instrument. Track which content pieces the prospect has viewed before each sales appointment.
+
+**Pre-qualification questions to include in every lead form:**
+- "Which article or video brought you to us today?" (tracks source)
+- "What is the most important question you'd like answered before deciding?" (surfaces unmet content gaps)
+- "How did you hear about us?" (attribution)
+
+**Insourcing content creation:** The most effective answer to "we don't have time to create content" is to involve the people who already have the answers — the sales team, customer service staff, and subject matter experts within the business. They answer questions every day. A content manager with a journalist's instincts can turn those answers into published content with a 20-minute monthly interview per staff member. One filming session with four employees on a job site can produce five or more videos. No specialist knowledge is required to create content — only a willingness to share what is already known.
 
 ---
 
