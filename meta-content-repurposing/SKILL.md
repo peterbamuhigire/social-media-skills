@@ -23,6 +23,21 @@ Before generating the repurposing plan, collect the following from the consultan
 
 Repurposing reduces content production costs by 60–70% compared to creating original content for every platform. One well-planned piece of source content can fill 7–10 platform slots across the publishing schedule. The goal is not to flood platforms with the same post — it is to extract the maximum number of relevant, platform-native outputs from a single investment of research, filming, or writing.
 
+**The Repurposing Chain (Nemo, 2017):** A single video recording produces:
+1 YouTube video → 1 podcast episode (audio extracted) → 1 transcript → 1 blog post → 1 email newsletter section → 3–5 social posts (quotes, tips, highlights)
+
+This is content currency: one investment, multiple returns. Clients with limited production time should always begin with a video or audio recording, because it generates the widest downstream content tree.
+
+**The 1-7-30-4-2-1 Publishing Cadence (Handley, 2012):** A framework for publishing rhythm:
+- **1** flagship piece of long-form content per month (the anchor; funds everything else)
+- **7** daily social posts derived from it
+- **30** pieces of micro-content (quotes, stats, clips, stories) across the month
+- **4** email newsletters (weekly cadence)
+- **2** guest contributions or collaborative pieces
+- **1** major campaign or push per month
+
+Apply this cadence to set realistic output targets with clients who ask "how much should we be posting?"
+
 ---
 
 ## 1. The Content Factory Model
@@ -236,5 +251,10 @@ Output meets the standard if it:
 
 Apply the **Hero/Hub/Hygiene** model (YouTube / Google) alongside the Content Factory: Hero content maps to Tier 1 source pieces; Hub content maps to Tier 2 regular derivatives; Hygiene content maps to Tier 3 micro-content answering common questions.
 
+**Think Like a Publisher (Meerman Scott, 2022):** Effective repurposing is not copy-paste — it is editorial judgement. Ask: what is the right format for this idea on this platform for this audience right now? The same insight delivered as a LinkedIn carousel, a WhatsApp broadcast, and a TikTok video will use different language, different structure, and different length — even though the underlying idea is identical.
+
 *Bodnar, K. and Cohen, J. (2012) The B2B Social Media Book. Hoboken: Wiley.*
 *Chaffey, D. (2024) Digital Marketing: Strategy, Implementation and Practice. 8th edn. Harlow: Pearson.*
+*Handley, A. and Chapman, C. (2012) Content Rules. Hoboken: Wiley.*
+*Nemo, J. (2017) Content Marketing Made Easy. Self-published.*
+*Meerman Scott, D. (2022) The New Rules of Marketing and PR. 8th edn. Hoboken: Wiley.*

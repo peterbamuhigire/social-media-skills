@@ -232,6 +232,29 @@ Print this checklist and bring it to the shoot.
 
 ---
 
+---
+
+## 6. Content Quality Standard
+
+Before approving any piece of content for publication, apply these two filters:
+
+**The "Share or Solve" Test (Handley, 2012):**
+Does this content either (a) solve a real problem the audience has, or (b) create something the audience wants to share? If the answer is neither, do not publish it. Content that exists only to show the brand exists is wasted effort.
+
+**The Six Story Characteristics (Handley, 2012):**
+Strong content — whether video, photography caption, or graphic — is:
+1. **True** — based on real experience, real results, or verified facts
+2. **Relevant** — speaks to a specific problem or aspiration the audience recognises
+3. **Human** — has a real person or real story at its centre
+4. **Passionate** — the creator visibly cares about the topic
+5. **Original** — a fresh angle, not a rephrase of what competitors already posted
+6. **Surprising** — contains at least one unexpected element
+
+**The "Think Like a Publisher" principle (Meerman Scott, 2022):**
+Approach the shoot day editorial plan the way a magazine editor approaches an issue. Each piece of content has a purpose in the reader's/viewer's journey. Before briefing the photographer or videographer, ask: what is this content trying to make the audience think, feel, or do? Brief for that outcome — not just for a visual deliverable.
+
+---
+
 ## Quality Criteria
 
 Output meets production standard when it satisfies all of the following:

@@ -36,6 +36,22 @@ Most pillars will contain a mix of tiers. Assign the tier that represents the ma
 
 ---
 
+## Content Type Taxonomy (Handley, 2012)
+
+Within each pillar, use these five content types to vary the tone and purpose of posts. Apply at least three of the five within any pillar to prevent the content from feeling monotonous.
+
+| Type | Metaphor | What it is | When to use |
+|---|---|---|---|
+| **Raisin Bran** | The everyday staple | Practical, useful, how-to content the audience reaches for regularly | Daily tips, FAQs, product info, process guides — the backbone of the content mix |
+| **Spinach** | Good for you, earns respect | Thought leadership; authoritative, substantive content that positions the brand as the expert | In-depth guides, data-driven posts, opinion pieces, industry analysis |
+| **Roasts** | Takes effort, worth it | Major research projects, reports, case studies, or in-depth content requiring real investment | Quarterly; anchor pieces that drive shares, press mentions, and backlinks |
+| **Tabasco** | Fires up a reaction | Deliberately controversial or provocative content designed to generate debate | Sparingly — when a clear, defensible position exists on a real industry debate |
+| **Chocolate Cake** | Irresistible and shareable | Fun, light, entertaining content the audience shares for joy — memes, behind-the-scenes, celebrations | Weekly or fortnightly; essential for maintaining audience affection alongside serious content |
+
+**Rule of thumb:** Most content calendars should be 50% Raisin Bran (useful daily), 25% Spinach (authoritative), 15% Chocolate Cake (entertaining), and 10% split between Roasts and Tabasco.
+
+---
+
 ## Step 1: Determine the Number of Pillars
 
 Recommend 3 pillars for small businesses posting 3–4 times per week; 4 pillars for medium businesses posting 5–7 times per week; 5 pillars for brands with a full content team or agency support. Explain the recommendation briefly before listing the pillars.
