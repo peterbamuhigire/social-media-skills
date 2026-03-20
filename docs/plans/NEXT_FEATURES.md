@@ -1,10 +1,19 @@
 # Next Features — social-media-skills
 
-*Last updated: 20 March 2026 (session 2)*
+*Last updated: 20 March 2026 (session 3)*
 
 ---
 
 ## ✅ Recently Completed
+
+### March 2026 (session 3) — Ecommerce Skills Synthesis
+*Completed: 20 March 2026*
+
+**1 skill strengthened** + **2 new skills created** from 8-book synthesis (Larsson, Harris, Verma, Phillips, Spencer, Zapletalova, Digital Growth Books, Martinez-Lopez):
+
+- `social-commerce-strategy` — Added Sections 7–10: product pricing (3X Rule, 7 product criteria, recurring income), conversion optimisation (traffic temperature, 4 buyer modalities, friction checklist), customer data intelligence (three-tier segmentation, basket analysis, competitor funnel hacking), brand differentiation (9 intangible types, Soleness statement, Blue Ocean 4 Actions, Brand Benefits Pyramid)
+- `ecommerce-conversion-optimisation` (NEW) — Full CRO skill: Harris Marketing Optimization System, 4 Buyer Modalities, 5-Step Process (Discovery→Hypothesis→Execution→Review→Scale), qualitative/quantitative research tools, abandoned enquiry recovery, EA KPI benchmarks, Phillips RASTA reporting standard
+- `ecommerce-brand-differentiation` (NEW) — Full brand positioning: Option Planning Quadrant Matrix, 9 intangible types with EA applications, Soleness statement, competitive positioning map, Blue Ocean 4 Actions, Category Creation, 6 brand name types, colour psychology, packaging checklist, 1,000 True Fans community model
 
 ### March 2026 — AI Skills Enhancement Batch
 *Completed: 20 March 2026*
@@ -71,10 +80,8 @@ None at this time. System is production-ready at 95% coverage.
 
 ## 🟡 MEDIUM PRIORITY
 
-### E-Commerce Social Integration Skill
-**Why:** EA e-commerce is growing (Jumia, WooCommerce shops). Clients need guidance on connecting social strategy to the checkout — WhatsApp Commerce, Facebook Shop, Instagram Shopping, and Mobile Money payment links.
-**Effort:** 1 session (~200 lines)
-**Start point:** Extend `social-commerce-strategy` or create a new `strategy-ecommerce-social` skill
+### ~~E-Commerce Social Integration Skill~~ ✅ COMPLETED (20 March 2026)
+Delivered via `social-commerce-strategy` expansion + 2 new skills (`ecommerce-conversion-optimisation`, `ecommerce-brand-differentiation`). Covered WhatsApp Commerce, Facebook/Instagram Shop limitations, payment infrastructure, CRO, and brand positioning.
 
 ### Threads Platform Strategy
 **Why:** Threads adoption is growing in EA, particularly among younger urban professionals. A lightweight skill covering Threads audience, content style, and cross-posting from Instagram would complete the platform suite.
