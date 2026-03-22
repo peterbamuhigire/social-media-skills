@@ -148,6 +148,24 @@ Complete one row per active platform. If you are not active on a platform, leave
 
 ---
 
+### Positioning Questions
+
+**USP / Differentiation:**
+> "What is the one thing your business does or delivers that your closest competitor does not — or cannot — do as well?"
+
+**Mission:**
+> "In one sentence: what does your business do, for whom, and what outcome does it deliver?"
+
+**Vision:**
+> "Where do you want this business to be in three years? What does success look like specifically?"
+
+**Niche:**
+> "Describe your single most ideal client — their sector, size, location, and the specific problem they have that you solve best."
+
+*These answers feed directly into `biz-dev-positioning` and all strategy and content work. Collect them at intake and store in the client file.*
+
+---
+
 ### Section 10: Internal Approval Workflow
 
 32. Who must approve content before it is published? *(Name and role)*
