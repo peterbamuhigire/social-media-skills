@@ -240,6 +240,37 @@ Social media builds brand equity that is not captured in COCA. Organic reach, fo
 
 ---
 
+## FRAT — Customer List Prioritisation Formula
+
+*Hahn (2003)*
+
+When a client has a customer database and needs to prioritise who to contact first (for a campaign, a renewal, or a direct mail programme), apply FRAT scoring:
+
+| Letter | Factor | Question |
+|---|---|---|
+| **F** | Frequency | How many times has this contact bought or enquired? |
+| **R** | Recency | How recently did they last buy or enquire? |
+| **A** | Amount | What is their average transaction value? |
+| **T** | Type | What type of product or service do they purchase? |
+
+Score each contact on all four criteria (1–5 per factor). Sort by total score descending. The highest-scoring contacts are the most responsive and should be contacted first, most often, and with the most effort.
+
+## The $20 Rule — Campaign Budget Viability Test
+
+*Hahn (2003)*
+
+Before committing to any direct marketing campaign (email, direct mail, WhatsApp broadcast), check budget viability:
+
+> For every UGX 20,000 (or equivalent USD $20) of projected revenue per transaction, the campaign can afford to invest UGX 1,000 (or USD $1) per contact reached.
+
+**Examples:**
+- Projected transaction value: UGX 200,000 → affordable spend per contact: UGX 10,000
+- Projected transaction value: UGX 1,000,000 → affordable spend per contact: UGX 50,000
+
+Use this to guide format decisions and campaign feasibility before recommending any outbound activity.
+
+---
+
 ## Quality Criteria
 
 Output meets the standard if it:
