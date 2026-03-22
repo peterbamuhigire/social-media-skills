@@ -11,6 +11,21 @@ Apply the POEM model (Paid/Owned/Earned) to classify channels. Apply the RACE fr
 
 ---
 
+### ARM Content Testing Lens
+
+Before approving any content plan or campaign, apply the ARM framework to verify balanced coverage:
+*(Hahn, 2003)*
+
+| Letter | Objective | Test Question |
+|---|---|---|
+| **A — Attract** | Bring in new audiences and prospects | Does this content reach people who do not yet know us? |
+| **R — Retain** | Keep existing followers engaged and loyal | Does this content reward people who already follow us? |
+| **M — Motivate** | Drive existing audiences to act, buy, or refer | Does this content give existing customers a reason to do something now? |
+
+A healthy content plan addresses all three. A plan heavy on M (promotional) without A or R will shrink its audience over time. A plan heavy on A without M will grow an audience that never converts.
+
+---
+
 ## Required Input
 
 Ask for all of the following before generating the strategy document:
