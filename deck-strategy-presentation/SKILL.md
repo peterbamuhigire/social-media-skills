@@ -216,6 +216,24 @@ Apply the slide structure below in full. Write every field for every slide. Do n
 
 ---
 
+## The Case for Visuals — 3M/Wharton Data
+
+*Cited in Pinskey (1997)*
+
+- Presentations using visuals are **43% more persuasive** than those without
+- Audiences retain information **65% better** when paired with a relevant visual
+- A presenter using visuals is perceived as more prepared, more professional, and more credible
+
+**Implication for strategy decks:** Every data point should have a chart. Every conceptual argument should have a diagram. Every case study should have a before/after visual. Text-only slides are an opportunity cost.
+
+**Principles:**
+- One idea per slide — never two arguments on the same slide
+- Headline each slide with the **conclusion**, not the topic (Minto's Pyramid Principle — conclusion first, evidence below)
+- Use images where possible, bullet lists only where genuinely required
+- The handout must add value beyond the slide content — include supporting data, references, and action items the slide did not have room for
+
+---
+
 ## Quality Criteria
 
 - Every slide has a complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is left empty or marked as placeholder
