@@ -147,6 +147,37 @@ When compiling the credentials document, verify that evidence exists for at leas
 
 ---
 
+## Brand Asset Scorecard
+
+*Killian, B., in Hahn (2003)*
+
+Use this 16-criterion scorecard to assess brand health before building a credentials deck. Rate each criterion 1–10. Low scores reveal gaps the credentials should address or acknowledge.
+
+| # | Criterion | Score (1–10) | Notes |
+|---|---|---|---|
+| 1 | Brand Name | | |
+| 2 | Packaging / visual identity | | |
+| 3 | Reach and frequency | | |
+| 4 | Ad / content quality | | |
+| 5 | Promotions and offers | | |
+| 6 | Consistency across channels | | |
+| 7 | Distribution / availability | | |
+| 8 | Newsworthiness | | |
+| 9 | Likeability | | |
+| 10 | Trade / partner support | | |
+| 11 | Sales team capability | | |
+| 12 | User / customer profile clarity | | |
+| 13 | Product / service performance | | |
+| 14 | Repurchasing / retention rate | | |
+| 15 | Actionable research / data | | |
+| 16 | Perceived value | | |
+
+**Scoring:** 130–160 = strong brand; 90–129 = functional but gaps present; below 90 = significant brand investment required.
+
+When completing a credentials deck for a prospect client, use this scorecard to identify the brand strengths to emphasise and the gaps to offer as consultancy opportunities.
+
+---
+
 ## Quality Criteria
 
 - Agency overview is factual, confident, and free of superlatives or vague claims
