@@ -227,6 +227,27 @@ After Email 3: suppress non-openers from future sends. Do not delete from the li
 
 ---
 
+## Eleven Psychological Principles of Copywriting
+
+Apply these principles when writing any email campaign, subject line, or marketing message:
+*(Edwards, Edwards and Douglas, 1991)*
+
+| # | Principle | Application |
+|---|---|---|
+| 1 | **Self-interest (WIIFM)** | Every subject line and opener leads with what the reader gets, not what the sender wants |
+| 2 | **Specificity** | Specific claims are more credible than general ones ("34% more enquiries" beats "great results") |
+| 3 | **Social proof** | Testimonials, named clients, or subscriber counts build trust before the ask |
+| 4 | **Scarcity / urgency** | A genuine deadline or limited availability increases action rate |
+| 5 | **Authority** | Credentials, publications, and client names signal expertise |
+| 6 | **Reciprocity** | Give something of value first — a tip, a guide, a free audit — before making an offer |
+| 7 | **Consistency** | People act in ways consistent with prior commitments — reference past interactions |
+| 8 | **Liking** | Warm, human tone increases open and click rates; robotic copy reduces them |
+| 9 | **Fear of loss** | Loss framing ("Don't miss…") outperforms gain framing ("You could gain…") |
+| 10 | **Novelty** | "New" and "first" consistently attract attention in subject lines |
+| 11 | **Story** | A brief narrative outperforms a list of facts in both engagement and recall |
+
+---
+
 ### 7A. Strategic Email Programme Principles
 
 **The 90/90 Rule (Bly, 2018):** 90% of email subscribers who will ever purchase do so within 90 days of joining the list. The first 90 days must be front-loaded with the highest-value, highest-frequency nurture content. Every email strategy must specify how send frequency and content intensity in weeks 1–12 differs from the steady-state cadence in months 4–12. For most EA clients: weeks 1–12 → 2 emails per week; months 4–12 → weekly or fortnightly. Do not apply a flat cadence across the full 12 months.
