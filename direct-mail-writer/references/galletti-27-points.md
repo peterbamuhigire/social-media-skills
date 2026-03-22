@@ -35,11 +35,3 @@ Apply this checklist before finalising any direct mail letter, sales letter, ema
 27. Test the headline before anything else — if the headline fails, nothing else matters.
 
 ---
-
-**Steps:**
-1. Create directory `direct-mail-writer/` and subdirectory `direct-mail-writer/references/`
-2. Write both files
-3. Count lines in SKILL.md (must be under 500)
-4. Run: `cd C:\wamp64\www\social-media-skills && git add direct-mail-writer/ && git commit -m "feat: add direct-mail-writer skill from book synthesis"`
-
-Report: file created confirmation, SKILL.md line count, git commit hash.
