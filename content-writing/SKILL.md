@@ -209,6 +209,37 @@ Never regurgitate information available elsewhere without adding a new angle, de
 
 ---
 
+## The WIIFM Principle
+
+Every piece of content — before a word is written — must answer the reader's unspoken question: **"What's In It For Me?"**
+
+*Edwards, Edwards and Douglas (1991)*
+
+This is not a copywriting technique. It is a complete mental reorientation: stop thinking about what the client wants to say and start thinking about what the audience wants to hear, find, solve, or achieve.
+
+**Apply before writing:**
+- Who specifically is reading this?
+- What do they want to accomplish, avoid, or understand?
+- What is the one thing in this content that is most directly useful to them?
+- Lead with that.
+
+## Features vs Benefits Doctrine
+
+*"Features instruct. Benefits sell."* — Hahn (2003)
+
+| Feature | Benefit |
+|---|---|
+| Describes what a product/service IS or HAS | Describes what that feature DOES FOR the buyer |
+| "12 posts per month" | "Your brand is visible to your audience every 2–3 days" |
+| "24-hour response time" | "Your customers never wait overnight for an answer" |
+| "Bilingual copywriting" | "You reach both English and Luganda-speaking customers without running two separate accounts" |
+
+**Process:** For every feature in a piece of content, ask "So what does this mean to the reader?" The answer is the benefit. Lead with the benefit; use the feature as supporting evidence.
+
+**Reference:** See `direct-mail-writer` for Galletti's 27 Copywriting Points — a full checklist applicable to any persuasive content.
+
+---
+
 ## Features vs Benefits
 
 Always translate features into reader benefits. Features describe what something is; benefits describe what it does for the reader.
