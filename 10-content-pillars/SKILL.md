@@ -126,6 +126,32 @@ Generate immediately after the pillar map. This is a one-page summary formatted 
 
 ---
 
+## The 8 Imprints Rule — Why Frequency Matters
+
+*Pinskey (1997)*
+
+A prospect typically needs to encounter a brand or business name **8 times** before they will take action.
+
+This is why content pillars and content frequency are not cosmetic — they are the engine of conversion.
+
+**What counts as an imprint:**
+- A social media post seen and processed
+- A direct message received
+- A referral conversation heard
+- A brochure read
+- An email opened
+- A website visited
+- A sign or poster noticed
+- A face-to-face meeting held
+
+**Implication for content pillars:** A single pillar producing once-monthly content is generating roughly 12 imprints per year — just above the minimum threshold. Content pillars that produce weekly content generate 52 imprints per year — making conversion significantly more likely.
+
+**When presenting content pillars to a client:** use the 8 Imprints Rule to justify frequency recommendations. Posting three times per week is not vanity — it is the minimum required to reliably cross the threshold from awareness to action.
+
+**Compatible reference:** The 10-4-1 rule (Bodnar and Cohen, 2012) defines the *type* of content across 15 posts; the 8 Imprints Rule explains *why* those 15 posts are necessary.
+
+---
+
 ## Quality Criteria
 
 - All pillar percentages total exactly 100% — no rounding errors or unexplained gaps
