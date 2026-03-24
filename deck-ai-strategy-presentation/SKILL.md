@@ -204,6 +204,21 @@ Apply the slide structure below in full. Write every field for every slide. Do n
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/presentation-frameworks.md` when generating this deck.
+
+Key principles for AI strategy presentations:
+- AI strategy decks face a heightened scepticism from audiences — lead with business outcomes, not technology features (Hatton: Empathy Model — the client cares about results, not tools)
+- Apply the Executive 10% Rule strictly — the first two slides state what AI will deliver for this specific client in measurable terms; the technology explanation comes later (Duarte)
+- Every slide title is a complete assertion: "AI content scheduling saves 8 hours per week and improves posting consistency by 40%" not "AI scheduling" (Duarte: Big Idea per slide)
+- The Sparkline contrast is particularly powerful here: What Is (manual processes, current costs) vs. What Could Be (AI-assisted efficiency and scale) — make the gap concrete in time and money (Duarte: Sparkline)
+- Answer Hatton's Two Strategic Questions before writing: Why should they adopt an AI strategy? and What will make this presentation memorable and different from every other "AI" pitch they have heard?
+
+Read `references/presentation-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - Minto Pyramid structure is maintained: the conclusion — AI adoption is imperative — is stated on Slide 2, not buried in the roadmap or business case

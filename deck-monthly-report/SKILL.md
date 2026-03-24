@@ -161,6 +161,21 @@ Generate all 10 slides in full. Write every field. Replace all bracketed placeho
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/presentation-frameworks.md` when generating this deck.
+
+Key principles for monthly reports:
+- Every KPI slide title is a complete assertion: "Engagement rate is 2× the benchmark this month" not "Engagement rate" (Duarte: Big Idea per slide)
+- Lead with the so-what before the data — the client cares about business impact, not platform metrics (Duarte: Executive 10% Rule — conclusions first)
+- Close with a forward-looking slide: next month's focus, recommendations, or decision needed — never end on historical data (Hatton: Persuasion Sandwich — bottom slice)
+- Frame every metric in terms of the client's business: "40 more enquiries" not "18% reach increase" (Hatton: Empathy Model)
+- The report opening slide must state the key result of the month in one sentence — the decision-maker should know the headline before they see any data (Duarte: Executive 10% Rule)
+
+Read `references/presentation-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - Every slide has a complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is empty

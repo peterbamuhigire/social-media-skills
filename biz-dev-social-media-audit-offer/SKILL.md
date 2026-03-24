@@ -196,6 +196,21 @@ After the prospect responds, proceed to the proposal stage. Invoke **`biz-dev-pr
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/proposal-frameworks.md` when generating this document.
+
+Key principles for audit offer documents:
+- Open with the problem the audit will reveal — not the audit methodology (Sant: Primacy Principle — the client cares about the insight, not the process)
+- The audit offer is a diagnostic gift, not a sales tool — position it as intelligence the prospective client genuinely needs, regardless of whether they engage (Hatton: Empathy Model)
+- Apply Go/No-Go criteria before offering a free audit — invest time only in prospects who meet all three qualifying criteria (Hatton)
+- Frame the audit findings as the N (Need) in NOSE — the audit surfaces the problem; the proposal that follows provides the O, S, and E (Sant: NOSE)
+- The audit offer document itself is Physical Evidence — its quality and specificity demonstrate the rigour of the agency's analytical process before the engagement begins (Hatton: Competitive Advantage Equation)
+
+Read `references/proposal-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - All 5 audit areas are scored numerically (0–10 each); no area is described qualitatively without a score

@@ -261,6 +261,22 @@ Reject any prospect who fails on criterion 2 or 3. Freeing that capacity for the
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/proposal-frameworks.md` when generating this proposal.
+
+Key principles for service proposals:
+- Open with the client's problem — never the agency's history, credentials, or service menu (Sant: Primacy Principle)
+- Structure the document as Need → Outcome → Solution → Evidence — not Introduction → Features → Price (Sant: NOSE)
+- The executive summary must pass the client-name test: the client's name appears 2–3× more than the agency's name (Sant)
+- Eliminate Fluff, Guff, Geek, and Weasel from every draft before sending — read the document as if you are the client (Sant)
+- The proposal document itself is physical evidence of service quality — formatting, precision, and correct spelling signal professional delivery standards (Hatton: Competitive Advantage Equation)
+- Apply Go/No-Go criteria before investing time in a full proposal — a proposal written for the wrong client wastes capacity that belongs to the right one (Hatton)
+
+Read `references/proposal-frameworks.md` for the full NOSE structure, Seven Magic Questions, and Persuasion Sandwich guide.
+
+---
+
 ## Quality Criteria
 
 - Cover letter reads as a genuine, professionally written letter — not a template with fields swapped

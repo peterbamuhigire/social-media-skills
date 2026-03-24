@@ -232,6 +232,21 @@ Generate all 16 slides in full. Write every field. Replace all bracketed placeho
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/presentation-frameworks.md` when generating this deck.
+
+Key principles for quarterly reviews:
+- The opening slide states the quarter's headline result in one sentence — the single most important business outcome (Duarte: Big Idea)
+- Every results slide title is a complete assertion with the number: "WhatsApp enquiries grew 64% this quarter" not "WhatsApp performance" (Duarte: Big Idea per slide)
+- Apply the Executive 10% Rule — the first two slides carry the full summary; the rest are evidence for those who want to go deeper (Duarte)
+- Close with the next quarter's focus and a decision slide — the Sparkline closes with What Could Be, not What Was (Duarte: Sparkline + Hatton: Persuasion Sandwich)
+- Frame all results in terms of business value to the client: revenue attributed, customers generated, cost per enquiry (Hatton: Empathy Model)
+
+Read `references/presentation-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - All 16 slides have complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is empty

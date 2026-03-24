@@ -127,6 +127,21 @@ Visual Direction: Data-forward layout. Feature the headline metric as a large ty
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/proposal-frameworks.md` when generating this document.
+
+Key principles for case studies:
+- Structure every case study using NOSE: the client's Need first, then the Outcome they achieved, then the Solution (the agency's approach), then the Evidence (specific numbers) (Sant: NOSE)
+- Write the case study from the client's perspective — the client is the hero; the agency is the enabler (Hatton: Empathy Model)
+- The most persuasive case study directly mirrors the prospective client's situation — match sector, challenge type, and scale (Sant: Evidence placement)
+- Every case study must contain at least one specific number: enquiries generated, revenue attributed, percentage growth, cost per lead — general outcomes are not evidence (Sant: Quality Maxim)
+- Eliminate Weasel language: "we helped them improve performance" is not evidence; "enquiries increased from 12 to 47 per month in 90 days" is (Sant: Fluff/Guff/Geek/Weasel Test)
+
+Read `references/proposal-frameworks.md` for the NOSE structure and evidence standards.
+
+---
+
 ## Quality Criteria
 
 - Problem section is specific and factual with no vague observations

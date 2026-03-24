@@ -144,6 +144,22 @@ Generate all 8 slides in full. Write every field. Use warm, confident, professio
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/pitch-psychology.md` and `references/storytelling.md` when generating this deck.
+
+Key principles for credentials presentations:
+- A credentials deck is a prize frame document — it demonstrates that the agency is a desirable, scarce resource, not a vendor seeking approval (Klaff: Prize Framing)
+- Lead with client outcomes, not agency history — the credentials open with the most impressive result, not the founding year (Sant: Primacy Principle — evidence before biography)
+- Every slide title is a complete assertion: "Our clients generate an average 3× return on their social media investment" not "Our results" (Duarte: Big Idea discipline)
+- The deck must answer Hatton's Two Strategic Questions: Why should they say yes? and Why will they remember this agency? before the first slide is written
+- Arrive as the authority being evaluated — not the agency seeking approval (Klaff: Status Principles)
+
+Read `references/pitch-psychology.md` for Klaff's STRONG method and Prize Framing guide.
+Read `references/storytelling.md` for Duarte's Big Idea and S.T.A.R. frameworks.
+
+---
+
 ## Quality Criteria
 
 - All 8 slides have complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is empty

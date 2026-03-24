@@ -184,6 +184,22 @@ Generate all 12 slides in full. Write every field. Maintain a persuasive, forwar
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/pitch-psychology.md` and `references/storytelling.md` when generating this deck.
+
+Key principles for campaign proposals:
+- The "Why Now" slide (Slide 2) is the Sparkline contrast moment — make the gap between What Is (market today) and What Could Be (campaign outcome) visceral and specific (Duarte: Sparkline)
+- The Campaign Concept slide (Slide 5) is the S.T.A.R. moment — it must be memorable enough to repeat in conversation (Duarte: S.T.A.R.)
+- Every slide title is a complete assertion: "This campaign will generate 150 enquiries by 14 February" not "Campaign objective" (Duarte: Big Idea discipline)
+- Present the campaign as a prize the client is accessing, not a service being sold — confidence in the concept signals high value (Klaff: Prize Framing)
+- Open with the opportunity, not the client's problem — campaign decks lead with energy and possibility (Klaff: STRONG — Offering the Prize first)
+
+Read `references/pitch-psychology.md` for Klaff's STRONG method and Frame Control guide.
+Read `references/storytelling.md` for Duarte's Sparkline, Big Idea, and S.T.A.R. frameworks.
+
+---
+
 ## Quality Criteria
 
 - The campaign concept on Slide 5 is stated in one sentence and is specific enough to be actionable — not a vague theme

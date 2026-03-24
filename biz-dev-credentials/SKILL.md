@@ -178,6 +178,21 @@ When completing a credentials deck for a prospect client, use this scorecard to 
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/proposal-frameworks.md` when generating this document.
+
+Key principles for credentials documents:
+- Credentials are Evidence (E in Sant's NOSE) — they belong after the client's need is established, not as the opener
+- Lead with outcomes, not history — the most impressive client result appears first; the founding year is irrelevant to the client's decision (Sant: Primacy Principle)
+- The credentials document is Physical Evidence (Hatton) — its quality, design, and accuracy signal the quality of the service it represents
+- Eliminate Fluff: every superlative must be supported by a number or a named client result — "world-class" without evidence is noise (Sant: Fluff/Guff/Geek/Weasel Test)
+- Frame credentials as proof for a specific outcome the prospective client wants, not as a general catalogue of past activity
+
+Read `references/proposal-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - Agency overview is factual, confident, and free of superlatives or vague claims

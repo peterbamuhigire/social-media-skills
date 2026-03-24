@@ -270,6 +270,21 @@ Generate all 18 slides in full. Write every field. Replace all bracketed placeho
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/presentation-frameworks.md` when generating this deck.
+
+Key principles for annual reviews:
+- The Sparkline structure frames the year: What Was (Year 1 baseline) → What Is Now (Year 1 results) → What Could Be (Year 2 direction) — the deck closes with the forward vision, not the backward summary (Duarte: Sparkline)
+- The year's headline result appears in the first two slides in one sentence — the decision-maker should understand the value before seeing any analysis (Duarte: Executive 10% Rule)
+- Every results slide title is a complete assertion: "Social media generated UGX 12 million in attributed revenue this year" not "Annual results" (Duarte: Big Idea per slide)
+- The annual review is the most important credibility document in the client relationship — it must answer Hatton's Two Strategic Questions: why should they renew? and why will they remember this presentation?
+- Close with the Year 2 proposal or recommendation, not a year-in-review summary — the Persuasion Sandwich bottom slice is a forward commitment (Hatton)
+
+Read `references/presentation-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - All 18 slides have complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is empty

@@ -234,6 +234,21 @@ Apply the slide structure below in full. Write every field for every slide. Do n
 
 ---
 
+## Persuasion Frameworks
+
+Apply frameworks from `references/presentation-frameworks.md` when generating this deck.
+
+Key principles for strategy presentations:
+- Slide 5 (Where We Are Going) is the Big Idea slide — the strategy statement must be one complete sentence with a point of view and what is at stake, not a summary of activities (Duarte: Big Idea)
+- The Sparkline structure is visible in the deck: Slide 4 (Where You Are Now) = What Is; Slide 5 (Where We Are Going) = What Could Be — the contrast creates the motivation to proceed (Duarte: Sparkline)
+- Every slide title is a complete assertion: "We are prioritising Facebook and WhatsApp because that is where your buyers spend time" not "Platform selection" (Duarte: Big Idea discipline)
+- Open with the client's audience and goals — not the agency's process — the client is the hero of this presentation (Hatton: Empathy Model)
+- Answer Hatton's Two Strategic Questions before writing: Why should they approve this strategy? and Why will they remember this presentation?
+
+Read `references/presentation-frameworks.md` for the full framework guide.
+
+---
+
 ## Quality Criteria
 
 - Every slide has a complete Headline, Bullets, Speaker Notes, and Visual Direction — no field is left empty or marked as placeholder
