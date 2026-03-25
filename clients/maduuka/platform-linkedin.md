@@ -37,6 +37,7 @@
 - **About section:** Lead with the problem. "Most Ugandan small businesses are managing their stock on WhatsApp and their EFRIS compliance manually. Maduuka changes that — a cloud-based platform that handles stock, sales, invoicing and EFRIS compliance on any Android device. Built in Uganda, for Uganda." Include: location (Kampala, Uganda), services (ERP, POS, EFRIS, bookkeeping), CTA ("Free trial at maduuka.com"). Keywords: EFRIS, stock management, POS Uganda, SME software Uganda, cloud ERP Uganda.
 - **Specialties:** EFRIS Compliance, Stock Management, Cloud ERP, SME Software, POS System, Uganda, East Africa, Retail Management, Restaurant POS, Pharmacy Management, Bookkeeping, Sales Tracking
 - **Page hashtags:** #EFRISCompliance #SMEUganda #KampalaBusiness
+- **Custom URL:** linkedin.com/company/maduukaapp ✓ Claimed
 - **CTA button:** Visit website → maduuka.com
 
 ---

@@ -67,8 +67,8 @@ Maduuka is built for African business reality — not adapted from a Western sys
 |---|---|---|
 | Instagram | @maduukaapp | ✓ Claimed |
 | X / Twitter | @maduukaapp | ✓ Claimed |
-| LinkedIn Company Page | MaduukaApp | Pending — claim to match X and Instagram |
-| Facebook Page | MaduukaApp | Pending — claim to match X and Instagram |
+| LinkedIn Company Page | MaduukaApp | ✓ Claimed |
+| Facebook Page | MaduukaApp | Pending — claim to match other platforms |
 
 **Handle consistency note:** @maduuka was not available on X and Instagram. @maduukaapp is now the confirmed brand handle. **LinkedIn and Facebook must use MaduukaApp** to maintain cross-platform consistency. Do not use "Maduuka" on LinkedIn/Facebook if @maduukaapp is available — a mixed handle set (Maduuka on LinkedIn, @maduukaapp on Instagram) creates confusion and reduces discoverability.
 
