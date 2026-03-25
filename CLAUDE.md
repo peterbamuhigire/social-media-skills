@@ -104,6 +104,7 @@ These skills are available and should be referenced (not duplicated) where relev
 | `content-writing` | General content writing standards |
 | `blog-writer` | Blog post content generation (text, SEO, captions — no web dev) |
 | `blog-idea-generator` | Generate blog topic ideas and content briefs |
+| `platform-linkedin-company-pages` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
 
 ---
 
