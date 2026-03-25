@@ -47,8 +47,9 @@
 ---
 
 ### Facebook Page
-**Handle to claim:** facebook.com/maduukaapp *(use MaduukaApp to match confirmed X and Instagram handles)*
-**Status:** Not yet created
+**Handle:** MaduukaApp (pending — requires 100 page likes)
+**Page URL (interim):** facebook.com/profile.php?id=61578406420389
+**Status:** Page live; custom username not yet set
 
 | Setup Element | Required | Priority | Notes |
 |---|---|---|---|
@@ -157,7 +158,7 @@ Ten actions before or during the first week of social media activity, sequenced 
 
 | # | Action | Platform(s) | Effort | Impact | Category |
 |---|---|---|---|---|---|
-| 1 | Instagram ✓, X ✓, LinkedIn ✓ all claimed as @maduukaapp / MaduukaApp — claim MaduukaApp on Facebook Page to complete the handle set | Facebook | Low | High | Profile |
+| 1 | Instagram ✓, X ✓, LinkedIn ✓ claimed. Facebook Page live ✓ — set custom handle MaduukaApp once 100 page likes are reached | Facebook | Low | High | Profile |
 | 2 | Set up WhatsApp Business number with auto-reply and quick replies before any paid promotion goes live | WhatsApp | Low | High | Community management |
 | 3 | Create LinkedIn Company Page with all 13 setup elements completed (see Section 1) | LinkedIn | Low | High | Profile |
 | 4 | Create Instagram Business account with complete bio, link in bio, and category | Instagram | Low | High | Profile |
