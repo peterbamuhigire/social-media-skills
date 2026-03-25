@@ -55,22 +55,24 @@ Maduuka is built for African business reality — not adapted from a Western sys
 
 ## 5. Current Social Media Presence
 
-**Status:** Zero. No Maduuka social accounts exist on any platform.
+**Status:** Partially live. X and Instagram claimed; LinkedIn and Facebook pending.
 
 **Existing brand assets in adjacent accounts:**
 - Peter Bamuhigire: personal accounts (techguypeter.com)
 - Chwezi Core Systems: company accounts (chwezicore.com)
 
-**Handles to claim immediately (availability unconfirmed):**
+**Confirmed handles:**
 
-| Platform | Preferred handle | Alternative |
+| Platform | Handle | Status |
 |---|---|---|
-| LinkedIn Company Page | Maduuka | MaduukaApp |
-| Instagram | @maduuka | @maduukaapp |
-| Facebook Page | Maduuka | MaduukaApp |
-| X / Twitter | @maduuka | @maduukaapp |
+| Instagram | @maduukaapp | ✓ Claimed |
+| X / Twitter | @maduukaapp | ✓ Claimed |
+| LinkedIn Company Page | MaduukaApp | Pending — claim to match X and Instagram |
+| Facebook Page | MaduukaApp | Pending — claim to match X and Instagram |
 
-**Action required before first post:** Claim handles on all four platforms. Do this before any strategy is published.
+**Handle consistency note:** @maduuka was not available on X and Instagram. @maduukaapp is now the confirmed brand handle. **LinkedIn and Facebook must use MaduukaApp** to maintain cross-platform consistency. Do not use "Maduuka" on LinkedIn/Facebook if @maduukaapp is available — a mixed handle set (Maduuka on LinkedIn, @maduukaapp on Instagram) creates confusion and reduces discoverability.
+
+**Action required before first post:** Claim MaduukaApp on LinkedIn Company Page and Facebook Page.
 
 **Existing audience assets:**
 - Waitlist: 1 bar (hospitality), 1 pharmacy

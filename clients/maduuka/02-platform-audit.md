@@ -10,7 +10,7 @@
 ## Section 1: Platform Launch Setup Audit
 
 ### LinkedIn Company Page
-**Handle to claim:** linkedin.com/company/maduuka
+**Handle to claim:** linkedin.com/company/maduukaapp *(use MaduukaApp to match confirmed X and Instagram handles)*
 **Status:** Not yet created
 
 | Setup Element | Required | Priority | Notes |
@@ -31,8 +31,8 @@
 ---
 
 ### Instagram
-**Handle to claim:** @maduuka (or @maduukaapp if taken)
-**Status:** Not yet created
+**Handle:** @maduukaapp
+**Status:** ✓ Claimed
 
 | Setup Element | Required | Priority | Notes |
 |---|---|---|---|
@@ -47,7 +47,7 @@
 ---
 
 ### Facebook Page
-**Handle to claim:** facebook.com/maduuka
+**Handle to claim:** facebook.com/maduukaapp *(use MaduukaApp to match confirmed X and Instagram handles)*
 **Status:** Not yet created
 
 | Setup Element | Required | Priority | Notes |
@@ -58,14 +58,14 @@
 | Cover image | 820×312px; same brand direction as LinkedIn cover | Week 1 | |
 | About section | Full description, website, email, WhatsApp number | Week 1 | |
 | CTA button | "Send WhatsApp message" — routes to Maduuka WhatsApp Business number | Week 1 | Highest-friction reduction CTA for EA market |
-| Username | @maduuka | Week 1 | |
+| Username | @maduukaapp | Week 1 | |
 | WhatsApp integration | Connect WhatsApp Business number to Facebook Page | Week 1 | Enables one-click WhatsApp contact from Facebook |
 
 ---
 
 ### X / Twitter
-**Handle to claim:** @maduuka (or @maduukaapp if taken)
-**Status:** Not yet created
+**Handle:** @maduukaapp
+**Status:** ✓ Claimed
 
 | Setup Element | Required | Priority | Notes |
 |---|---|---|---|
@@ -157,7 +157,7 @@ Ten actions before or during the first week of social media activity, sequenced 
 
 | # | Action | Platform(s) | Effort | Impact | Category |
 |---|---|---|---|---|---|
-| 1 | Claim @maduuka handles on LinkedIn, Instagram, Facebook, and X — do this today | All | Low | High | Profile |
+| 1 | Instagram (@maduukaapp) and X (@maduukaapp) are claimed ✓ — claim MaduukaApp on LinkedIn Company Page and Facebook Page today to complete the handle set | LinkedIn, Facebook | Low | High | Profile |
 | 2 | Set up WhatsApp Business number with auto-reply and quick replies before any paid promotion goes live | WhatsApp | Low | High | Community management |
 | 3 | Create LinkedIn Company Page with all 13 setup elements completed (see Section 1) | LinkedIn | Low | High | Profile |
 | 4 | Create Instagram Business account with complete bio, link in bio, and category | Instagram | Low | High | Profile |

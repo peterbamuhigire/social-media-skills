@@ -9,7 +9,7 @@
 
 ## 1. Account Setup
 
-**Handle:** @maduuka (or @maduukaapp if taken — claim immediately)
+**Handle:** @maduukaappapp ✓ Claimed
 **Account type:** Business (not Creator — enables analytics, ad boosting, and the contact button)
 **Category:** Software Company
 
@@ -23,7 +23,7 @@
 3. WhatsApp Us → wa.me/[number]
 
 **Contact options (visible on Business profile):**
-- Email: hello@maduuka.com (or equivalent)
+- Email: hello@maduukaapp.com (or equivalent)
 - WhatsApp Business number
 - Website: maduuka.com
 
@@ -64,7 +64,7 @@ Apply the Know, Like and Trust framework (Raymond and Johnston, 2021):
 ## 3. Reels Strategy
 
 Reels are the highest-priority Instagram format for Maduuka in Phase 1. They are the most effective format for:
-- Reaching new audiences who do not yet follow @maduuka
+- Reaching new audiences who do not yet follow @maduukaapp
 - Demonstrating the product in under 60 seconds (the clearest conversion tool available)
 - Showing real Kampala business contexts that build authentic recognition
 
@@ -146,9 +146,9 @@ Total: 5 hashtags maximum per post.
 
 ## 7. Cross-Posting and Amplification
 
-**Peter's personal Instagram:** If Peter has an existing Instagram following, he should share Maduuka content to his Story 2–3 times per week. A Story share from a personal account with followers extends reach to audiences who have never seen @maduuka.
+**Peter's personal Instagram:** If Peter has an existing Instagram following, he should share Maduuka content to his Story 2–3 times per week. A Story share from a personal account with followers extends reach to audiences who have never seen @maduukaapp.
 
-**Reposting client content:** As soon as clients begin tagging @maduuka in their own posts (after demo completion, after a first week of use, after a milestone), reshare immediately to @maduuka Stories and ask permission to feature in a dedicated post. Client-generated content is the highest-trust content on any platform.
+**Reposting client content:** As soon as clients begin tagging @maduukaapp in their own posts (after demo completion, after a first week of use, after a milestone), reshare immediately to @maduukaapp Stories and ask permission to feature in a dedicated post. Client-generated content is the highest-trust content on any platform.
 
 **Instagram to WhatsApp pipeline:** Every Instagram post with a demo CTA should route to the link in bio, which includes a direct WhatsApp link. The conversion path is: Instagram post → profile visit → link in bio → WhatsApp or demo booking. Track where drop-off occurs.
 
