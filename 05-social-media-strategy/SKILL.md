@@ -39,6 +39,7 @@ Ask for all of the following before generating the strategy document:
 - **Outputs from 02-platform-audit** — paste or summarise current platform performance data
 - **Outputs from 03-audience-personas** — paste or summarise the 2–3 primary personas
 - **Outputs from 04-brand-voice-intake** — paste brand voice summary if available
+- **Website ownership** — does the client already own a website? If yes, provide the URL. This determines whether a Website and Blog Strategy section is generated.
 
 If any onboarding documents are unavailable, note this explicitly and generate the relevant section with stated assumptions.
 
@@ -88,6 +89,34 @@ For each platform in scope, provide:
 - **Platform role in the strategy:** what this platform is expected to do (e.g. "Facebook — primary community and customer service channel; broad demographic reach")
 
 Apply EA platform defaults: Facebook for broad reach, Instagram for urban 18–35 aspirational content, TikTok for under-30 entertainment, WhatsApp for direct customer communication, LinkedIn for B2B or professional services, YouTube for long-form tutorials or brand storytelling.
+
+---
+
+### 3b. Website and Blog Content Strategy *(include only if client owns a website)*
+
+The website is the only owned channel the brand fully controls — no algorithm, no terms-of-service risk, no platform changes. Social media drives traffic; the website captures it and converts it. If the client owns a website, this section is mandatory.
+
+**Website as the content hub:** Apply the Hero/Hub/Hygiene content model. The website blog is the Hygiene layer — always-on, searchable, SEO-indexed content that answers the questions the audience is already asking. Social media distributes that content to audiences who are not yet searching.
+
+**Blog strategy:** Define a blog cadence and topic structure aligned to the content pillars in Section 5. Each blog post should:
+- Target one specific search query or audience pain point
+- Be 600–1,200 words minimum for indexability
+- Include one clear CTA (book a demo, download a resource, start a trial)
+- End with a summary or key takeaways block — this becomes the basis for social recycling
+
+**Blog-to-social recycling plan:** Every blog post generates at minimum four social assets:
+1. **LinkedIn text post** — the argument or insight from the blog, written as a standalone post (no "I wrote a blog" phrasing — the post is the content; the link is in comments)
+2. **Instagram carousel** — the key points from the blog as a swipeable carousel (5–7 slides); no need to read the blog to get value
+3. **Facebook post** — a single punchy question or statistic from the blog with the article link; optimised for shares and link clicks
+4. **X/Twitter thread** — the blog's main argument broken into 4–6 tweets with a link to read the full piece at the end
+
+Optional additions where platforms are in scope:
+- WhatsApp broadcast: a one-paragraph summary with a link — personal, direct tone
+- TikTok/Reels: talking-head video or screencast version of the blog's main idea
+
+**Content calendar integration:** The blog publishing date anchors a social distribution window. Publish the blog on Monday. LinkedIn post on Tuesday. Instagram carousel on Wednesday. Facebook post on Thursday. X thread on Friday. This stretches one piece of work across five touchpoints in one week.
+
+**SEO note:** The website blog builds search visibility that social media cannot — indexed pages rank; social posts do not. The blog compounds over time; a post published in Month 1 still drives traffic in Month 6. This makes the blog the highest long-term ROI content investment in the mix.
 
 ---
 
@@ -222,3 +251,4 @@ Theme: use data to improve performance; introduce new formats or channels if rea
 - 90-day roadmap contains specific, named actions — not abstract phases or generic tasks
 - British English spelling throughout; EAT timezone applied to all scheduling references
 - Paid social guidance is calibrated to the client's stated budget band
+- If the client owns a website, Section 3b is included with a blog cadence, recycling plan, and content calendar integration instructions

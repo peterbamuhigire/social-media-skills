@@ -1,5 +1,6 @@
 # Client project files — never commit to version control
 projects/
+clients/
 
 # OS files
 .DS_Store
