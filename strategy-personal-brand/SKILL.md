@@ -14,8 +14,34 @@ description: >
   organisation. For influencer partnership strategy (brand-side), see
   08-influencer-marketing-strategy instead.
 ---
-
 # Personal Brand Strategy
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a complete personal brand strategy for any individual client — professionals, consultants, executives, politicians, performing artists, athletes, local celebrities, comedians, pastors/religious leaders, academics, or public figures in Uganda/East Africa and globally. Covers brand architecture (positioning, differentiation, personality), client-type-specific platform strategy, content system, authority building, expert bio construction, and monetisation pathways. Distinct from a company brand strategy: this focuses on the person, their expertise, and their individual presence. Invoke when a client wants to build a personal profile, establish thought leadership, grow their professional or public reputation, build a following, attract brand partnerships, win speaking engagements, or increase visibility as an individual rather than as an organisation. For influencer partnership strategy (brand-side), see 08-influencer-marketing-strategy instead.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

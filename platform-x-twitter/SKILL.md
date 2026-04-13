@@ -2,12 +2,38 @@
 name: platform-x-twitter
 description: Generates a complete X (formerly Twitter) presence plan for East African businesses and professionals, covering profile optimisation, content types, thread strategy, community building, the platform's role in the EA media ecosystem, a 30-day content rhythm, and KPI framework. Invoke when a client needs an X/Twitter strategy, wants to build authority and network in the professional/media ecosystem, or is asking whether X is the right platform for their business in Uganda, Kenya, or Tanzania.
 ---
-
 # X (Twitter) Presence Plan
 
 > **Before generating this plan:** Confirm that X is the right platform for this client. X in East Africa serves journalists, opinion leaders, academics, NGO and development sector workers, public servants, politicians, and urban professionals. For B2B clients and professional service firms, it is disproportionately valuable. For FMCG, retail, and mass-market consumer goods, it is lower priority than Facebook, WhatsApp, and TikTok. Ask the client to confirm their target audience on X before proceeding. If X is not right for this client, state that clearly and recommend the appropriate platform instead.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a complete X (formerly Twitter) presence plan for East African businesses and professionals, covering profile optimisation, content types, thread strategy, community building, the platform's role in the EA media ecosystem, a 30-day content rhythm, and KPI framework. Invoke when a client needs an X/Twitter strategy, wants to build authority and network in the professional/media ecosystem, or is asking whether X is the right platform for their business in Uganda, Kenya, or Tanzania.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

@@ -2,10 +2,41 @@
 name: language-standards
 description: Language and tone standards for all written content across 3 languages — English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
 ---
-
 # Language Standards — Multi-Language Tone & Grammar
 
 All website copy, headings, CTAs, descriptions, and microcopy must follow this style guide for their respective language. Cross-cutting standard — applied throughout every content-writing step.
+
+<!-- dual-compat:start -->
+## Use when
+- Language and tone standards for all written content across 3 languages — English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
+- Apply it alongside the primary deliverable skill whenever wording, tone, or editorial quality needs control.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+
+## Workflow
+1. Read the requested draft, source text, or surrounding brief before making language decisions.
+2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
+3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+
+## Outputs
+- A reusable style standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+
+## References
+- Read `references/business-english-advanced.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
+
+## Required Input
+
+Start with the source text or deliverable brief, then confirm the target language and market. If the target language is unclear, stop and establish it before applying this skill.
 
 ## Core Principles (All Languages)
 
@@ -108,29 +139,6 @@ Also avoid: American slang (FYI, ASAP, BTW), dramatic emotional tone, excessive 
 
 Instead of abbreviations, write in full: "Please respond as soon as possible."
 
-### Assertive Language (All Languages)
-
-Hedging language communicates uncertainty. If you're not sure you're any good, how can prospects be? Replace weak phrasing with confident, assertive alternatives:
-
-| Hedging (weak) | Assertive (strong) |
-|---------------|-------------------|
-| Feel free to reach out | Contact me / Get in touch |
-| In case you're interested | Interested? Contact me |
-| Perhaps we can work together | Let's work together |
-| Maybe we're a good fit | Add a "Who is this for?" section |
-| We might be able to help | We can help |
-| It could potentially improve | It improves |
-
-Additional: cut qualifiers before statements — "We believe this will…" → "This will…", "This could help…" → "This helps…", "You might want to consider…" → [give the recommendation directly].
-
-This applies across all three languages. In French: "N'hésitez pas à nous contacter" is acceptable (culturally standard), but avoid excessive hedging like "Il serait éventuellement possible de...". In Kiswahili: use direct invitations ("Wasiliana nasi" not "Labda unaweza kuwasiliana nasi").
-
-### Condescending Phrases Ban (All Languages)
-
-Never use these patterns in any language:
-- **"Research suggests that..."** — Which research? What niche? What size businesses? Too vague to be credible. Only cite research if it features your target audience and their specific problems.
-- **"If you're a business owner..."** / "Si vous êtes un entrepreneur..." / "Kama wewe ni mfanyabiashara..." — If you know your audience IS business owners, address them directly. Don't do the "if" dance.
-
 ### AI Language Avoidance (All Languages)
 
 AI-generated text has recognisable vocabulary and patterns. Every piece of content must pass as entirely human-written.
@@ -156,10 +164,6 @@ See `blog-writer/references/human-voice-standards.md` for the full blacklist wit
 Delete constructions where one word does the full job: *close proximity* → proximity, *consensus of opinion* → consensus, *free gift* → gift, *end result* → result, *future plans* → plans, *past history* → history, *refer back* → refer, *revert back* → revert, *advance warning* → warning, *repeat again* → repeat, *exact same* → same. Full list in `blog-writer/references/editorial-standards.md`.
 
 ---
-
-## The "Because" Principle (All Languages)
-
-"Because" is the most persuasive connector in professional writing (Cialdini research: giving any reason after "because" dramatically increases reader compliance). Apply in CTAs, headlines, and persuasive paragraphs: "Register today — because the first cohort fills fast." In French: *parce que* or *car*. In Kiswahili: *kwa sababu*. Full guidance in `content-writing/SKILL.md`.
 
 ## English CTAs and Button Text
 
@@ -479,7 +483,7 @@ Kiswahili communication culture emphasizes relationships:
 
 ---
 
-# Enforcement Checkpoints
+## Quality Standards
 
 Before publishing any page, verify:
 
@@ -489,11 +493,3 @@ Before publishing any page, verify:
 - [ ] **All pages**: No truncation or text overflow in any language
 - [ ] **All pages**: Grammatically correct, properly punctuated, culturally appropriate
 - [ ] **All pages**: CTAs use respectful, inviting language (not aggressive)
-
-## Language-Specific Reviewers
-
-- **English**: East African professional (optional native review; standards in this guide)
-- **French**: Native francophone speaker from Côte d'Ivoire, Cameroon, Senegal, DRC, or Gabon
-- **Kiswahili**: Native Kiswahili speaker from Kenya, Tanzania, or Uganda
-
-All translations reviewed by in-country professionals before publishing.

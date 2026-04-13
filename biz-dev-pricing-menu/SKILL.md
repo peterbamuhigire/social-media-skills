@@ -2,10 +2,36 @@
 name: biz-dev-pricing-menu
 description: Generates two documents: (1) a client-facing services and pricing menu with three tiers and add-on options, and (2) a consultant-only pricing rationale guide covering objection handling, tier upsell tactics, and red flags. Invoke when a consultant needs a pricing document to share with new enquiries, or when they need to prepare for a pricing conversation with a prospective client.
 ---
-
 # Services and Pricing Menu Generator
 
 Produce two separate, clearly labelled documents from one set of inputs. Document 1 is for the client; Document 2 is for the consultant's eyes only. Apply East African English throughout Document 1. Document 2 may use a more direct, internal register.
+
+<!-- dual-compat:start -->
+## Use when
+- Generates two documents: (1) a client-facing services and pricing menu with three tiers and add-on options, and (2) a consultant-only pricing rationale guide covering objection handling, tier upsell tactics, and red flags. Invoke when a consultant needs a pricing document to share with new enquiries, or when they need to prepare for a pricing conversation with a prospective client.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

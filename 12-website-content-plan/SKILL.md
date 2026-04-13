@@ -2,10 +2,36 @@
 name: 12-website-content-plan
 description: Generates a 90-day blog and website content plan — including 12 article briefs, an editorial calendar, an internal linking structure, and lead magnet ideas. Invoke after completing audience personas and brand voice intake, and before commissioning article writing with the blog-writer skill. This skill produces content strategy only — no web design, technical SEO audit, or page building.
 ---
-
 # Website Content Plan Generator
 
 Produce four outputs: (1) 12 blog post briefs, (2) an editorial calendar table, (3) an internal linking structure, and (4) lead magnet ideas. This skill covers content strategy and planning only. It does not produce finished articles — use the `blog-writer` skill to generate article text from these briefs. Apply the `east-african-english` skill for tone throughout.
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a 90-day blog and website content plan — including 12 article briefs, an editorial calendar, an internal linking structure, and lead magnet ideas. Invoke after completing audience personas and brand voice intake, and before commissioning article writing with the blog-writer skill. This skill produces content strategy only — no web design, technical SEO audit, or page building.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

@@ -2,10 +2,36 @@
 name: 01-client-brief
 description: Generates a structured client intake questionnaire and two onboarding documents — a full client brief and a one-page at-a-glance card — capturing all information required before producing any strategy, content plan, or platform audit. Invoke at the start of every new client engagement, before any other onboarding or strategy skill is used.
 ---
-
 # Client Brief Generator
 
 Produce two outputs: (1) a full client brief document and (2) a one-page client at-a-glance card. The questionnaire doubles as a fillable document to send to the client and as a discovery call guide for the consultant. Apply the `east-african-english` skill for tone throughout. Do not begin generating content until the questionnaire has been completed.
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a structured client intake questionnaire and two onboarding documents — a full client brief and a one-page at-a-glance card — capturing all information required before producing any strategy, content plan, or platform audit. Invoke at the start of every new client engagement, before any other onboarding or strategy skill is used.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

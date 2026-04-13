@@ -3,12 +3,38 @@ name: ai-strategy-co-thinker
 description: >
   Uses AI as a strategic thought partner throughout marketing strategy development — not as a drafting tool, but as a challenger, option generator, and assumption tester. Invoke when developing brand strategy, campaign strategy, or social media strategy, and when the consultant needs to explore options, pressure-test logic, or generate alternatives before making recommendations. Distinct from prompt-engineering-library, which handles co-pilot drafting tasks.
 ---
-
 # AI Strategy Co-Thinker
 
 Use this skill when the right strategic answer is not yet clear. AI is engaged as a dialogue partner — asking questions, surfacing blind spots, generating competing directions, and stress-testing assumptions. The human consultant selects, refines, and owns all final recommendations.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Uses AI as a strategic thought partner throughout marketing strategy development — not as a drafting tool, but as a challenger, option generator, and assumption tester. Invoke when developing brand strategy, campaign strategy, or social media strategy, and when the consultant needs to explore options, pressure-test logic, or generate alternatives before making recommendations. Distinct from prompt-engineering-library, which handles co-pilot drafting tasks.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

@@ -8,12 +8,38 @@ description: >
   are masking poor retention, or when preparing a report that must show long-term
   campaign value.
 ---
-
 # Cohort Analysis for Client Reporting
 
 **Source:** Raaz (c.2023) *Web Analytics Blueprint*
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Builds time-based and behaviour-based user cohorts in GA4, tracks retention and lifetime value by cohort, and translates cohort data into client-language statements that demonstrate campaign durability — not just reach. Invoke when a client asks which campaigns produce repeat customers, when aggregate metrics are masking poor retention, or when preparing a report that must show long-term campaign value.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured audit, report, model, or analytical framework in markdown, with decisions and recommendations tied to evidence.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 

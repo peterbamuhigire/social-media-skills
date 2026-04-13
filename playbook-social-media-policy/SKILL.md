@@ -2,12 +2,38 @@
 name: playbook-social-media-policy
 description: Generates a complete, adoptable social media policy document governing how a client's employees represent the company on their personal and professional social media accounts. Invoke this skill when onboarding a client with an internal team, when a client asks for staff guidelines around social media use, or when an incident involving an employee's personal social media activity has exposed the need for a formal policy. The output is a starting framework — advise the client to have it reviewed by their legal counsel before adoption.
 ---
-
 # Social Media Policy
 
 > **Consultant note:** This document is a starting framework based on established professional practice. It does not constitute legal advice. Advise the client to have this policy reviewed by their legal counsel and aligned with their existing employment contracts before issuing it to staff. In Uganda and East Africa, ensure alignment with the Computer Misuse Act (2011, amended 2022) and any applicable sector-specific regulations.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a complete, adoptable social media policy document governing how a client's employees represent the company on their personal and professional social media accounts. Invoke this skill when onboarding a client with an internal team, when a client asks for staff guidelines around social media use, or when an incident involving an employee's personal social media activity has exposed the need for a formal policy. The output is a starting framework — advise the client to have it reviewed by their legal counsel before adoption.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

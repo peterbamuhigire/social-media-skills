@@ -11,12 +11,38 @@ description: >
   client retainer, or when a client reports that things are disorganised and
   wants a structured process.
 ---
-
 # PDCA Workflow Design for Social Media Management
 
 Based on Neal Schaffer, *Maximize Your Social* (Wiley, 2013).
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a PDCA (Plan-Do-Check-Act) daily execution loop for social media management — defining the daily, weekly, and monthly rhythm of tasks, what triggers an optimisation decision, and how to run the continuous improvement cycle. Output is an operational manual the client or their team can follow without external guidance. Invoke when setting up a new social media management system for a client, when social media is being handed over to an in-house team, when a consultant needs to document their own workflow for a client retainer, or when a client reports that things are disorganised and wants a structured process.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Overview
 

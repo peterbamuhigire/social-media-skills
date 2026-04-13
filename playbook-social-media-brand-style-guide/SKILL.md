@@ -2,7 +2,6 @@
 name: playbook-social-media-brand-style-guide
 description: Generates a complete, formatted Social Media Brand Style Guide ready to hand over to a client's social media manager or in-house team. The guide covers brand voice, platform tone adjustments, vocabulary standards, emoji policy, image and video standards, hashtag rules, content approval workflow, breaking-news pause protocol, and language and grammar rules — everything an executor needs to maintain brand consistency without consultant oversight. Invoke when onboarding a new client (before content production begins), whenever a client's social media manager changes, or when a client requests a standalone governance document for their team.
 ---
-
 # Social Media Brand Style Guide Generator
 
 Produce one complete, formatted Brand Style Guide as a client-ready deliverable. This is not advice or a framework — it is a finished document the client hands to whoever manages their social media. Every section must be filled in with client-specific content. Placeholder text must not appear in the final output.
@@ -10,6 +9,33 @@ Produce one complete, formatted Brand Style Guide as a client-ready deliverable.
 Apply British English throughout. Follow the `east-african-english` skill for prose register. Default to the Uganda/East Africa market unless the client specifies otherwise.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a complete, formatted Social Media Brand Style Guide ready to hand over to a client's social media manager or in-house team. The guide covers brand voice, platform tone adjustments, vocabulary standards, emoji policy, image and video standards, hashtag rules, content approval workflow, breaking-news pause protocol, and language and grammar rules — everything an executor needs to maintain brand consistency without consultant oversight. Invoke when onboarding a new client (before content production begins), whenever a client's social media manager changes, or when a client requests a standalone governance document for their team.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

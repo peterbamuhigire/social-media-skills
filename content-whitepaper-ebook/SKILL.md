@@ -8,7 +8,6 @@ description: >
   Triggers: "write a whitepaper", "create an eBook", "lead magnet document", "thought leadership
   report", "donor report", "investor document", "long-form content asset".
 ---
-
 # content-whitepaper-ebook
 
 Generates a fully structured whitepaper or eBook for a client. Output is paste-ready body copy
@@ -17,6 +16,33 @@ all tone and register decisions. This skill does not produce .pdf or .docx files
 the text content that a designer or the client pastes into their chosen layout tool.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a complete long-form content asset — either a whitepaper (research-led, evidence-based) or an eBook (practical guide, how-to) — for a client operating in Uganda or East Africa. Invoke this skill when a client needs a 2,000–5,000 word PDF-ready document for lead generation, thought leadership, donor reporting, investor communications, or conference distribution. Triggers: "write a whitepaper", "create an eBook", "lead magnet document", "thought leadership report", "donor report", "investor document", "long-form content asset".
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 

@@ -2,8 +2,33 @@
 name: image-prompt-engineer
 description: Teaches practitioners to write AI image prompts that produce professional, art-directed visuals using the Eight-Layer Prompt Anatomy — not the over-smooth, uncanny, obviously-AI aesthetic. Invoke when a client or the agency needs to generate images using Midjourney, DALL-E, Stable Diffusion, Flux, or Adobe Firefly, and the output must meet the Golden Rule: images that look like they were shot or designed by a skilled human creative.
 ---
-
 # AI Image Prompt Engineering
+
+<!-- dual-compat:start -->
+## Use when
+- Teaches practitioners to write AI image prompts that produce professional, art-directed visuals using the Eight-Layer Prompt Anatomy — not the over-smooth, uncanny, obviously-AI aesthetic. Invoke when a client or the agency needs to generate images using Midjourney, DALL-E, Stable Diffusion, Flux, or Adobe Firefly, and the output must meet the Golden Rule: images that look like they were shot or designed by a skilled human creative.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- The primary deliverable requested by this skill, structured in markdown and ready for immediate use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

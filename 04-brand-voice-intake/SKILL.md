@@ -2,10 +2,36 @@
 name: 04-brand-voice-intake
 description: Develops the client's social media brand voice guide and visual identity brief — a single standalone document covering tone attributes, platform tone adjustments, vocabulary, emoji policy, hashtag identity, and photography and design direction. Invoke after the 01-client-brief and 03-audience-personas are complete, and before any content writing, caption writing, or platform playbook work begins. This document is the tone reference every team member reads before writing anything for the client.
 ---
-
 # Brand Voice and Visual Identity Brief Generator
 
 Produce one standalone brand document. This is the definitive tone and identity reference for the client account. It covers written voice, platform adjustments, vocabulary, emoji and hashtag policy, and visual identity direction for briefing a designer. Apply the `east-african-english` skill for tone throughout this document's own prose — but note that the brand voice being defined may differ from EA standard if the client specifies a different style.
+
+<!-- dual-compat:start -->
+## Use when
+- Develops the client's social media brand voice guide and visual identity brief — a single standalone document covering tone attributes, platform tone adjustments, vocabulary, emoji policy, hashtag identity, and photography and design direction. Invoke after the 01-client-brief and 03-audience-personas are complete, and before any content writing, caption writing, or platform playbook work begins. This document is the tone reference every team member reads before writing anything for the client.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

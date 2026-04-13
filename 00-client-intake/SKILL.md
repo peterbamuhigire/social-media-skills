@@ -2,7 +2,6 @@
 name: 00-client-intake
 description: Two-phase client intake skill. Phase 1 presents 10 standard domain-mapped questions (also used as a website intake form), then generates a draft client brief from the answers. Phase 2 generates 5–7 targeted follow-up questions based on the answers to close gaps and confirm direction. Together, the two phases capture everything needed to begin strategy work. Invoke at the very start of every new client engagement, before any other onboarding or strategy skill.
 ---
-
 # Client Intake — Two-Phase Kickstart
 
 This skill runs in two phases. Phase 1 takes the client's answers to 10 standard questions and produces a draft client brief. Phase 2 analyses those answers, identifies gaps, and generates 5–7 targeted follow-up questions. After the follow-up answers are received, the brief is finalised and the engagement is ready to proceed.
@@ -10,6 +9,37 @@ This skill runs in two phases. Phase 1 takes the client's answers to 10 standard
 Apply the `east-african-english` skill for tone throughout all outputs.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Two-phase client intake skill. Phase 1 presents 10 standard domain-mapped questions (also used as a website intake form), then generates a draft client brief from the answers. Phase 2 generates 5–7 targeted follow-up questions based on the answers to close gaps and confirm direction. Together, the two phases capture everything needed to begin strategy work. Invoke at the very start of every new client engagement, before any other onboarding or strategy skill.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Confirm the objective, audience, and context needed to run this skill well.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
+
+## Required Input
+
+No prior client data is required to start. This skill generates the intake questions first, then works from the answers captured in Phase 1 and Phase 2.
 
 ## Phase 1 — The 10 Standard Questions
 

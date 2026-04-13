@@ -2,8 +2,35 @@
 name: deck-ai-strategy-presentation
 description: Produces a 14-slide board-level AI marketing strategy presentation in structured markdown, ready to paste into PowerPoint, Canva, or Google Slides. Uses Minto's Pyramid Principle (conclusion-first), the AI Marketing Canvas framework (Venkatesan & Lecinski, 2026), and Randazzo's MVOSSTE model (2024) to present a business case, investment requirements, and ROI expectations. Invoke when a client needs to present an AI marketing strategy to their board, senior leadership, or investors, or when a consultant needs to demonstrate AI capability to a prospective client.
 ---
-
 # AI Marketing Strategy Presentation Deck
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a 14-slide board-level AI marketing strategy presentation in structured markdown, ready to paste into PowerPoint, Canva, or Google Slides. Uses Minto's Pyramid Principle (conclusion-first), the AI Marketing Canvas framework (Venkatesan & Lecinski, 2026), and Randazzo's MVOSSTE model (2024) to present a business case, investment requirements, and ROI expectations. Invoke when a client needs to present an AI marketing strategy to their board, senior leadership, or investors, or when a consultant needs to demonstrate AI capability to a prospective client.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
+4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not turn the deck into a generic outline; every slide needs an assertion, usable speaker notes, and visual direction.
+
+## Outputs
+- A slide-by-slide markdown deck using `Headline`, `Bullets`, `Speaker Notes`, and `Visual Direction` for every slide.
+
+## References
+- Read `references/presentation-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
 
 ## Overview
 

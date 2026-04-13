@@ -2,8 +2,34 @@
 name: meta-roi-framework
 description: Calculates and presents the ROI of the client's social media and digital marketing investment using the Bodnar and Cohen (2012) formula: ROI = (TLV − COCA) ÷ COCA. Produces a step-by-step TLV calculation, COCA by channel, ratio benchmarks, attribution guidance, break-even analysis, a 12-month projection table, and consultant talking points for retainer justification. Invoke this skill when a client questions the value of the retainer, when preparing a proposal for a new client, or at a quarterly strategy review to demonstrate return on investment.
 ---
-
 # ROI Framework
+
+<!-- dual-compat:start -->
+## Use when
+- Calculates and presents the ROI of the client's social media and digital marketing investment using the Bodnar and Cohen (2012) formula: ROI = (TLV − COCA) ÷ COCA. Produces a step-by-step TLV calculation, COCA by channel, ratio benchmarks, attribution guidance, break-even analysis, a 12-month projection table, and consultant talking points for retainer justification. Invoke this skill when a client questions the value of the retainer, when preparing a proposal for a new client, or at a quarterly strategy review to demonstrate return on investment.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured audit, report, model, or analytical framework in markdown, with decisions and recommendations tied to evidence.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

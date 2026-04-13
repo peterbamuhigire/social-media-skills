@@ -2,7 +2,6 @@
 name: blog-idea-generator
 description: Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate docs/blogs/topics.md.
 ---
-
 # Blog Idea Generator
 
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
@@ -12,6 +11,39 @@ Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid sum
 **Read `sales-copywriting/references/headline-mastery.md`** for headline formulas and 4 U's scoring.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate docs/blogs/topics.md.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Confirm the objective, audience, and context needed to run this skill well.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
+4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+
+## References
+- Read `references/content-formats.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/ideation-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
+
+## Required Input
+
+Read the client files listed in Step 1, then collect any missing audience, pain-point, and content-goal context before generating ideas.
 
 ## Step 1: Gather Context
 

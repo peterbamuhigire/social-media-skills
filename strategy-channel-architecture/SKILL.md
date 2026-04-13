@@ -3,7 +3,6 @@ name: strategy-channel-architecture
 description: >
   Designs a multi-platform traffic flow system for a client — defining what role each platform plays, how audiences move between platforms, and how content flows through a hub-and-spoke architecture. Output is a channel architecture map the client can use to allocate effort and budget. Invoke when a client needs to rationalise their platform presence, is spreading effort too thinly, is launching a new social media programme, or needs a clear answer to "which platforms should we be on and what do we do on each one?"
 ---
-
 # Strategy: Channel Architecture
 
 Designs a hub-and-spoke channel architecture — defining the conversion hub, assigning platform roles, mapping the customer traffic flow, and allocating content production effort. Based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) and adapted for the Uganda/East Africa market.
@@ -11,6 +10,33 @@ Designs a hub-and-spoke channel architecture — defining the conversion hub, as
 Cross-reference: `05-social-media-strategy` (overall strategy context), `10-content-pillars` (what content to produce per platform), `owned-media-strategy` (hub development and owned channel depth).
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Designs a multi-platform traffic flow system for a client — defining what role each platform plays, how audiences move between platforms, and how content flows through a hub-and-spoke architecture. Output is a channel architecture map the client can use to allocate effort and budget. Invoke when a client needs to rationalise their platform presence, is spreading effort too thinly, is launching a new social media programme, or needs a clear answer to "which platforms should we be on and what do we do on each one?".
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

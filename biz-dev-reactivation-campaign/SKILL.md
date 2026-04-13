@@ -14,7 +14,6 @@ description: >
   tried ads but they don't work"; or as the proof-of-value deliverable in a
   risk-free "first date" agency engagement before any retainer is agreed.
 ---
-
 # Customer Reactivation Campaign
 
 > **The core insight:** Most businesses chase new customers while ignoring
@@ -26,6 +25,33 @@ description: >
 > 25-year customer list.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a complete customer reactivation campaign for a client — a 4-part email and/or SMS sequence sent to a dormant customer list to generate immediate revenue within 48–72 hours. This is the single highest-ROI marketing activity available to most businesses: existing customers already trust the brand, require no new acquisition cost, and are statistically 5–9x more likely to buy than a cold prospect. The skill produces: the campaign strategy, all four email/SMS copy pieces, an optional referral offer embedded in the sequence, and a WhatsApp-adapted version for East African markets. Invoke when a client has an existing customer database and needs immediate revenue; when a client says "we've tried ads but they don't work"; or as the proof-of-value deliverable in a risk-free "first date" agency engagement before any retainer is agreed.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

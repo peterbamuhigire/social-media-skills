@@ -2,10 +2,36 @@
 name: 11-content-calendar
 description: Generates a 90-day master content calendar (month-by-month, week-by-week) showing what gets posted, on which platform, and in which week — including Ugandan and East African observances, international awareness days, and campaign windows. Invoke after completing 10-content-pillars and before beginning content production.
 ---
-
 # 90-Day Content Calendar Generator
 
 Produce a 90-day master content calendar across three monthly tables. Each table covers one calendar month. Apply the `east-african-english` skill for tone throughout. Do not generate the calendar until all Required Input has been confirmed.
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a 90-day master content calendar (month-by-month, week-by-week) showing what gets posted, on which platform, and in which week — including Ugandan and East African observances, international awareness days, and campaign windows. Invoke after completing 10-content-pillars and before beginning content production.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

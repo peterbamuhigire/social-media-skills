@@ -2,10 +2,37 @@
 name: biz-dev-case-study
 description: Generates a polished client case study in two formats — a 1-page written version and a 3-slide deck outline — from raw information the consultant provides. Invoke when a consultant needs to document and publish a client success story for use in credentials documents, proposals, the agency website, or pitches.
 ---
-
 # Client Case Study Generator
 
 Produce two outputs: (1) a 1-page written case study and (2) a 3-slide deck outline. Both must be ready to share or present without significant editing. Use specific metrics throughout — never vague claims. Apply East African English and third-person professional register.
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a polished client case study in two formats — a 1-page written version and a 3-slide deck outline — from raw information the consultant provides. Invoke when a consultant needs to document and publish a client success story for use in credentials documents, proposals, the agency website, or pitches.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
+4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Read `references/proposal-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

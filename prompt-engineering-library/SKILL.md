@@ -2,8 +2,34 @@
 name: prompt-engineering-library
 description: Generates a ready-to-use, client-specific prompt engineering library — a documented set of reusable prompt templates for all recurring marketing tasks. Every prompt follows the Alpha-Beta-Gamma-Delta-Epsilon master formula (Upadhyay, 2024) and is prefixed with the client's Brand Context Block. Invoke when onboarding a new client onto AI-assisted content production, or when a client team needs a standardised set of approved prompts for their own use.
 ---
-
 # Prompt Engineering Library
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a ready-to-use, client-specific prompt engineering library — a documented set of reusable prompt templates for all recurring marketing tasks. Every prompt follows the Alpha-Beta-Gamma-Delta-Epsilon master formula (Upadhyay, 2024) and is prefixed with the client's Brand Context Block. Invoke when onboarding a new client onto AI-assisted content production, or when a client team needs a standardised set of approved prompts for their own use.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 
@@ -344,35 +370,6 @@ Source: Upadhyay (2024). Apply these methods when a single prompt does not produ
 **Chain-of-thought** — ask the AI to walk through its reasoning before writing the final version. Example: "Before writing the caption, explain which copywriting framework you are choosing and why it suits this audience." Review the reasoning; correct it if wrong before accepting the output.
 
 **Template approach** — when a prompt produces excellent output, save the exact prompt (with client variables noted in brackets) as a named template in the client's project folder. Name templates clearly: `caption-facebook-PAS-v1`, `email-subject-reengagement-v2`. Reuse and iterate; do not start from scratch each time.
-
----
-
-## The 5-Step Perfect Prompt (Erné, 2024)
-
-The single most impactful prompting improvement is assigning a role in Step 1:
-
-1. **Role:** "You are a senior social media strategist specialising in East African consumer markets…"
-2. **Context:** "The client is [name], a [industry] business in [city], targeting [audience]…"
-3. **Task:** "Write a 90-day content calendar for their Instagram account…"
-4. **Format:** "Output as a table with columns: Week, Theme, Post Type, Caption Draft, Hashtags"
-5. **Constraints:** "Keep captions under 150 words. Use British English. Reference local events where relevant."
-
-**EA calibration tip:** Always include Uganda/East Africa explicitly in the Role and Context steps. Generic AI outputs default to Western market assumptions. Specifying "Uganda" or "East Africa" in the role dramatically improves local relevance.
-
----
-
-## 8 Golden Rules of Prompting (Roth and neuroflash, 2024)
-
-1. Be precise and specific — vague prompts produce generic outputs
-2. Define the target audience explicitly
-3. Use a clear instruction verb: Create / Write / Describe / Analyse / List
-4. Set the desired tone and style ("professional but warm", "conversational", "authoritative")
-5. Avoid ambiguities — if two interpretations are possible, the AI will choose the wrong one
-6. Focus on essentials — one task per prompt
-7. Use positive phrasing — state what to do, not what to avoid
-8. Add context — platform, format, purpose, audience size
-
-**Quick test:** Before sending any prompt, check it against all 8 rules. If it fails 3 or more, rewrite it.
 
 ---
 

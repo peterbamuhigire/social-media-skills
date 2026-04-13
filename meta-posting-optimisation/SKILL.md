@@ -8,8 +8,34 @@ description: >
   platform data. Invoke when onboarding a new client, reviewing an underperforming
   posting schedule, or when a client asks what time and how often they should post.
 ---
-
 # Meta — Posting Time and Frequency Optimisation
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a data-driven posting time and frequency optimisation plan for a client. Covers how to read native analytics to find peak activity windows, a structured 4-week test design, and a frequency decision framework. Replaces generic "best time to post" articles with client-specific recommendations grounded in the client's own platform data. Invoke when onboarding a new client, reviewing an underperforming posting schedule, or when a client asks what time and how often they should post.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured audit, report, model, or analytical framework in markdown, with decisions and recommendations tied to evidence.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Purpose
 

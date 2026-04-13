@@ -12,7 +12,6 @@ description: >
   business associations, boda-boda groups, and market trader networks delivers
   disproportionate commercial results.
 ---
-
 # Word-of-Mouth Strategy Playbook
 
 Produce a complete Word-of-Mouth marketing programme. Apply Uganda/East Africa context throughout. Default to Uganda unless the client specifies otherwise. Use British English throughout. All objectives must be SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
@@ -20,6 +19,33 @@ Produce a complete Word-of-Mouth marketing programme. Apply Uganda/East Africa c
 This skill addresses organic advocacy only. For paid creator partnerships, use `08-influencer-marketing-strategy`. For UGC collection systems, use `playbook-ugc-strategy`. For community trust sequencing, use `framework-community-trust`.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Builds a structured Word-of-Mouth (WOM) marketing programme for a client — covering advocate identification, Gladwell influencer taxonomy, superfan cultivation, referral loop design, cause-related WOM campaigns, and tracking methodology. Distinct from 08-influencer-marketing-strategy (paid creator partnerships) and playbook-ugc-strategy (content collection). Invoke when a client wants to activate organic advocates — superfans, community leaders, and trusted referrers — to generate authentic, unpaid word-of-mouth at scale. Particularly effective in Uganda and East Africa, where community trust is the primary purchase driver and WOM through church networks, local business associations, boda-boda groups, and market trader networks delivers disproportionate commercial results.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 

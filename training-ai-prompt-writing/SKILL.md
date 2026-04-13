@@ -2,8 +2,34 @@
 name: training-ai-prompt-writing
 description: Produces a practical training guide for client teams on prompt engineering for marketing tasks — covering the Alpha-Beta-Gamma-Delta-Epsilon prompt structure, 10 prompt components, 5 prompting approaches, and 7 copywriting frameworks with worked East African examples. Invoke when the user says "create a prompt writing training guide", "teach my team how to use AI for marketing", "write a prompt engineering workshop", "AI copywriting training for staff", or needs a structured training document for client employees who use AI tools to produce marketing content.
 ---
-
 # AI Prompt Writing for Marketing Teams — Training Guide
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a practical training guide for client teams on prompt engineering for marketing tasks — covering the Alpha-Beta-Gamma-Delta-Epsilon prompt structure, 10 prompt components, 5 prompting approaches, and 7 copywriting frameworks with worked East African examples. Invoke when the user says "create a prompt writing training guide", "teach my team how to use AI for marketing", "write a prompt engineering workshop", "AI copywriting training for staff", or needs a structured training document for client employees who use AI tools to produce marketing content.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## How to Use This Skill
 
@@ -384,8 +410,6 @@ Apply these additional considerations when prompting for EA-market content:
 
 ### 4.5 Prompt Type Taxonomy and Examples-First Methodology
 
-Source: Mizrahi (2024); Evelyn (2025); Joseph (c.2023–2024).
-
 **Eight prompt types** — use as a decision tool:
 
 | Type | When to Use |
@@ -412,22 +436,6 @@ Now write a new [content type] on [topic] in the same voice and style.
 ```
 
 Adjectives are imprecise; examples are exact. Three or more examples enable reliable voice matching; fewer produce inconsistency. Training activity: participants paste three real brand posts, generate a new post, compare against tone-adjective-only output.
-
----
-
-### 4.6 Before/After Demonstration, Separator Syntax, and Contextual Continuity
-
-Source: Chavaux (2025); Evelyn (2025).
-
-**Before/After demonstration** — run live with the client's own brand. Before: `Write a caption for our new product launch.` Display the generic output. After: combine Examples-First structure with full Alpha-Beta-Gamma-Delta-Epsilon formula. Display the output. Ask: "What is different? What would you edit?"
-
-**### Separator Syntax** — any prompt containing both instructions and material to process must use `###` to separate sections. Prevents the AI from confusing instructions with content to process.
-
-**Contextual Continuity** — three rules for long sessions: (1) use the same chat window per project; (2) re-state brand, tone, and audience after every 6–10 exchanges; (3) reference previous outputs explicitly — never assume the AI remembers.
-
-### 4.7 Q&A and Team Practice (10 minutes)
-
-Reserve the final 10 minutes for open Q&A and independent practice. Participants write one prompt for a real piece of content they need to produce this week and share output for peer feedback.
 
 ## Worked Prompt Examples
 
@@ -487,13 +495,3 @@ The completed training guide meets the standard if:
 - Output is structured so a non-technical facilitator can deliver it without additional preparation
 - The `prompt-engineering-library` and `ai-content-humaniser` skills are explicitly referenced as companion resources
 - The guide is written in British English with imperative language throughout
-
----
-
-## Related Skills
-
-- `prompt-engineering-library` — full library of ready-made marketing prompt templates
-- `ai-content-humaniser` — editing checklist and humanisation protocol for AI-generated content
-- `brand-voice-ai-training` — how to train AI tools on a specific brand voice
-- `training-client-team` — general social media team training workbook
-- `east-african-english` — language and tone standard for EA-market content

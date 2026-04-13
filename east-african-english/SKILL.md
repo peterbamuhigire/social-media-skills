@@ -2,10 +2,41 @@
 name: east-african-english
 description: Language and tone standard for all written content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania — formal, clear, respectful, British-influenced, and professionally courteous. Apply to every piece of text generated for the website.
 ---
-
 # East African English — Language & Tone Skill
 
 All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
+
+<!-- dual-compat:start -->
+## Use when
+- Language and tone standard for all written content. Enforces authentic East African English as used in Uganda, Kenya, and Tanzania — formal, clear, respectful, British-influenced, and professionally courteous. Apply to every piece of text generated for the website.
+- Apply it alongside the primary deliverable skill whenever wording, tone, or editorial quality needs control.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+
+## Workflow
+1. Read the requested draft, source text, or surrounding brief before making language decisions.
+2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
+3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+
+## Outputs
+- A reusable style standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
+
+## Required Input
+
+Start with the draft or brief being written. Confirm the target country when known; otherwise apply neutral East African business English by default.
 
 ## Core Characteristics
 
@@ -195,6 +226,12 @@ Often followed by:
 Use this as a benchmark for tone and rhythm:
 
 > We wish to inform you that the training programme will commence on 3 March 2026 at our Nairobi office. Kindly confirm your availability at your earliest convenience. Should you require any further clarification, please do not hesitate to contact us. We appreciate your continued partnership and look forward to working together.
+
+## Quality Standards
+
+- British English spelling is consistent throughout the deliverable.
+- Tone stays professional, respectful, and recognisably East African rather than American, slang-heavy, or globally generic.
+- CTAs, directives, and service language remain courteous without becoming weak or vague.
 
 ## When This Skill Applies
 

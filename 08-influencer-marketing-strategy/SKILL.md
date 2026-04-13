@@ -2,7 +2,6 @@
 name: 08-influencer-marketing-strategy
 description: Generates a complete influencer marketing strategy for clients who want to use creators and influencers to extend their reach, build trust, or drive sales. Applies Uganda/East Africa ecosystem context throughout — including tier definitions, engagement benchmarks, outreach norms, and barter-versus-fee guidance. Invoke when a client has identified influencer marketing as a growth channel, or when 06-digital-marketing-strategy has flagged influencer as a priority channel requiring a dedicated sub-strategy.
 ---
-
 # Influencer Marketing Strategy Generator
 
 Produce a complete influencer marketing strategy document. Apply Uganda/East Africa ecosystem context throughout — tier definitions, engagement benchmarks, and outreach norms must reflect local market realities, not global averages. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
@@ -10,6 +9,33 @@ Produce a complete influencer marketing strategy document. Apply Uganda/East Afr
 This skill covers strategy and execution guidance only. It does not produce legal contracts. Refer the client to a lawyer for formal influencer agreements.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a complete influencer marketing strategy for clients who want to use creators and influencers to extend their reach, build trust, or drive sales. Applies Uganda/East Africa ecosystem context throughout — including tier definitions, engagement benchmarks, outreach norms, and barter-versus-fee guidance. Invoke when a client has identified influencer marketing as a growth channel, or when 06-digital-marketing-strategy has flagged influencer as a priority channel requiring a dedicated sub-strategy.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

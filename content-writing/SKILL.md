@@ -2,10 +2,41 @@
 name: content-writing
 description: Copywriting and content creation standards for website pages, blog posts, and all written copy. Covers headlines, ledes, readability, niche vocabulary, scannable formatting, and persuasive structure. Cross-cutting skill — apply whenever generating or editing any website text.
 ---
-
 # Content Writing Skill
 
 Professional copywriting standards for website copy, blog posts, articles, and all written content. This is a cross-cutting skill — apply these principles whenever creating or editing text for any page.
+
+<!-- dual-compat:start -->
+## Use when
+- Copywriting and content creation standards for website pages, blog posts, and all written copy. Covers headlines, ledes, readability, niche vocabulary, scannable formatting, and persuasive structure. Cross-cutting skill — apply whenever generating or editing any website text.
+- Apply it alongside the primary deliverable skill whenever wording, tone, or editorial quality needs control.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+
+## Workflow
+1. Read the requested draft, source text, or surrounding brief before making language decisions.
+2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
+3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+
+## Outputs
+- A reusable style standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+
+## References
+- Read `references/business-vocabulary.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
+
+## Required Input
+
+Start with the actual draft, page brief, or source material you are improving. If the audience, goal, or CTA is unclear, clarify those before editing or writing.
 
 ## The Reader-First Rule
 
@@ -223,23 +254,6 @@ This is not a copywriting technique. It is a complete mental reorientation: stop
 - What is the one thing in this content that is most directly useful to them?
 - Lead with that.
 
-## Features vs Benefits Doctrine
-
-*"Features instruct. Benefits sell."* — Hahn (2003)
-
-| Feature | Benefit |
-|---|---|
-| Describes what a product/service IS or HAS | Describes what that feature DOES FOR the buyer |
-| "12 posts per month" | "Your brand is visible to your audience every 2–3 days" |
-| "24-hour response time" | "Your customers never wait overnight for an answer" |
-| "Bilingual copywriting" | "You reach both English and Luganda-speaking customers without running two separate accounts" |
-
-**Process:** For every feature in a piece of content, ask "So what does this mean to the reader?" The answer is the benefit. Lead with the benefit; use the feature as supporting evidence.
-
-**Reference:** See `direct-mail-writer` for Galletti's 27 Copywriting Points — a full checklist applicable to any persuasive content.
-
----
-
 ## Features vs Benefits
 
 Always translate features into reader benefits. Features describe what something is; benefits describe what it does for the reader.
@@ -345,17 +359,7 @@ The storytelling style builds trust because readers connect with real experience
 
 ---
 
-## Takeaways
-
-End substantial content (blog posts, articles, long pages) with bulleted takeaways:
-
-- Summarise the 3-5 most important points
-- Each takeaway should stand alone — useful even without reading the full piece
-- Busy readers may only read the headline and takeaways — make both complete
-
----
-
-## Content Quality Checklist
+## Quality Standards
 
 Before publishing any page or post, verify:
 

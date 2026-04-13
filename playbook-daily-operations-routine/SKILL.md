@@ -8,7 +8,6 @@ description: >
   systems for a newly hired social media manager, or when a client wants to understand how their
   account is managed day-to-day. Based on Johnson, J. (2023) How to Become a Social Media Manager.
 ---
-
 # Playbook: Daily Operations Routine
 
 A personalised operating manual for managing multiple social media clients without losing quality,
@@ -17,6 +16,33 @@ the analytical improvement cycle (Plan/Do/Check/Act). This skill covers the phys
 the specific tasks a social media manager executes hour by hour.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a structured daily task framework for a social media manager or consultant managing multiple clients — covering morning monitoring, response queue management, content scheduling workflow, and client reporting rhythm. Output is a personalised operating manual. Invoke when a consultant is taking on additional clients and needs to structure their day, when setting up systems for a newly hired social media manager, or when a client wants to understand how their account is managed day-to-day. Based on Johnson, J. (2023) How to Become a Social Media Manager.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 

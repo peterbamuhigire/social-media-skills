@@ -2,8 +2,35 @@
 name: deck-annual-review
 description: Generates an 18-slide annual performance and strategy refresh presentation in structured markdown, ready to paste into PowerPoint, Canva, or Google Slides. Invoke this skill at the end of Year 1 of a client engagement when presenting the full-year review and proposing the Year 2 retainer renewal. This is the highest-stakes deck the consultant presents — it must make the client feel the year was well-invested and excited about Year 2.
 ---
-
 # Annual Review and Year 2 Strategy Deck
+
+<!-- dual-compat:start -->
+## Use when
+- Generates an 18-slide annual performance and strategy refresh presentation in structured markdown, ready to paste into PowerPoint, Canva, or Google Slides. Invoke this skill at the end of Year 1 of a client engagement when presenting the full-year review and proposing the Year 2 retainer renewal. This is the highest-stakes deck the consultant presents — it must make the client feel the year was well-invested and excited about Year 2.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
+4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not turn the deck into a generic outline; every slide needs an assertion, usable speaker notes, and visual direction.
+
+## Outputs
+- A slide-by-slide markdown deck using `Headline`, `Bullets`, `Speaker Notes`, and `Visual Direction` for every slide.
+
+## References
+- Read `references/presentation-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
 
 ## Overview
 

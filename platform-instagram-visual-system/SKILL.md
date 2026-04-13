@@ -9,7 +9,6 @@ description: >
   briefing a designer or content creator on Instagram visual standards. Based on
   Hietaniemi (2022), Secret Strategies for Instagram Growth.
 ---
-
 # Instagram Visual Identity System
 
 This skill produces a **written visual brief and standards document**. It defines what the
@@ -22,6 +21,33 @@ Cross-reference:
 - `playbook-social-media-brand-style-guide` — broader brand style guide across all platforms
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Designs a written Instagram visual identity system covering feed grid planning, mood board creation, colour palette selection, editing/filter consistency, and brand visual standards. Output is a structured visual brief the client or their designer can implement directly. Invoke when onboarding a new Instagram account, when a client's feed looks inconsistent and a unified visual identity is needed, or when briefing a designer or content creator on Instagram visual standards. Based on Hietaniemi (2022), Secret Strategies for Instagram Growth.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 

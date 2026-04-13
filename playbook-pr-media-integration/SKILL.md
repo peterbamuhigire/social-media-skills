@@ -7,8 +7,34 @@ description: >
   Ugandan or East African media, amplify existing press coverage through social channels, build
   ongoing relationships with journalists, or develop a coordinated social-PR strategy.
 ---
-
 # PR and Earned Media Integration Playbook
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a PR and earned media integration playbook that bridges social media with traditional public relations — covering media pitching, journalist relationship-building, and social amplification of press coverage. Invoke this skill when a client wants to pitch a story to Ugandan or East African media, amplify existing press coverage through social channels, build ongoing relationships with journalists, or develop a coordinated social-PR strategy.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

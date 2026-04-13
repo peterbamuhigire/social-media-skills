@@ -2,12 +2,38 @@
 name: playbook-social-selling
 description: Generates a social selling playbook that converts social media followers into paying clients using an authority-first, non-pushy approach. Covers the 5-step selling sequence, platform selection logic, WhatsApp conversion path, DM handling scripts, social proof deployment, and realistic benchmarks. Invoke when a client has an existing social media presence but is not generating enquiries or sales from it, or when a client reports "we have followers but no sales."
 ---
-
 # Social Selling Playbook
 
 > **The core problem this playbook solves:** Most East African service businesses either post only promotional content (skipping trust-building) or post only awareness content (no conversion mechanism). Social selling bridges that gap — turning an engaged audience into a client pipeline without burning goodwill.
 
 ---
+
+<!-- dual-compat:start -->
+## Use when
+- Generates a social selling playbook that converts social media followers into paying clients using an authority-first, non-pushy approach. Covers the 5-step selling sequence, platform selection logic, WhatsApp conversion path, DM handling scripts, social proof deployment, and realistic benchmarks. Invoke when a client has an existing social media presence but is not generating enquiries or sales from it, or when a client reports "we have followers but no sales.".
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

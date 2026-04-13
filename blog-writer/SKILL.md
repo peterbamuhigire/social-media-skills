@@ -2,10 +2,45 @@
 name: blog-writer
 description: Write a complete, publication-ready blog post from a content brief. Produces the full article text with SEO title, meta description, body with H2/H3 structure, and a closing CTA. Use when the user says "write a blog post", "write a blog article", "write about [topic]", or provides a content brief and wants a finished article. Output is a standalone markdown document — no web page building, no image pipelines.
 ---
-
 # Blog Writer
 
 Generate a complete, professional blog post from a brief. The output is a finished article in markdown — ready to paste into a CMS, share with a client, or hand to a web developer.
+
+<!-- dual-compat:start -->
+## Use when
+- Write a complete, publication-ready blog post from a content brief. Produces the full article text with SEO title, meta description, body with H2/H3 structure, and a closing CTA. Use when the user says "write a blog post", "write a blog article", "write about [topic]", or provides a content brief and wants a finished article. Output is a standalone markdown document — no web page building, no image pipelines.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
+4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+
+## References
+- Read `references/article-design.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/content-strategy.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/editorial-standards.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/human-voice-standards.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/ideation-and-research.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/reader-experience.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/storytelling.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/topic-ideas.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/writing-craft.md` when you need the deeper framework, examples, or supporting material it contains.
+
+<!-- dual-compat:end -->
 
 ## Required Input
 

@@ -14,8 +14,34 @@ description: >
   (health, finance, public sector, NGO/donor), or when preparing a credentials
   or proposal document that references AI-assisted production.
 ---
-
 # AI Content Ethics Policy
+
+<!-- dual-compat:start -->
+## Use when
+- Produces a written AI Content Ethics Policy for a client — a one-to-two page compliance document stating how the agency and/or client uses AI tools in content creation, what is disclosed to audiences, what is prohibited, and what quality standards apply. Grounds the policy in five core ethical principles (transparency, fairness, nonmaleficence, accountability, privacy) and addresses emerging risks including data leakage, virtual influencer disclosure, filter bubbles, deepfakes, copyright uncertainty, and jailbreak attempts. Also provides the consultant with an internal ethics checklist and sector-specific guidance. Invoke when onboarding a new client, when a client asks how AI is used in their content, when operating in a regulated sector (health, finance, public sector, NGO/donor), or when preparing a credentials or proposal document that references AI-assisted production.
+- Use this skill when it is the closest match to the requested deliverable or workflow.
+
+## Do not use when
+- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
+- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+
+## Workflow
+1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
+2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
+3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+
+## Anti-Patterns
+- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
+- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
+- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+
+## Outputs
+- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+
+## References
+- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+
+<!-- dual-compat:end -->
 
 ## Required Inputs
 
@@ -240,8 +266,6 @@ Source: Ching & Mothi (2025). The disclosure standard used in this policy requir
 
 Professional precedent: the band YACHT documented their AI-assisted album in specific liner notes identifying exactly which elements were AI-generated and which were human-executed. This level of attribution is the standard the agency applies and recommends to clients. Where disclosure is provided, it must be specific enough that an informed reader understands what the AI contributed and what the human contributed.
 
-Apply this standard in the Disclosure clause (Section 6 of the policy template). "Made with AI" as a generic label is not sufficient to meet the transparency principle.
-
 ---
 
 ## Section 2B — Intellectual Property and Copyright
@@ -259,8 +283,7 @@ Include this clause in the policy when the client is a creative agency, publishe
 
 ## Section 2C — SynthID and AI Content Watermarking
 
-Source: Ching & Mothi (2025). For AI-generated audio and visual assets, tag original AI-generated files with persistent metadata or watermarks before any editing or compression.
-
+For AI-generated audio and visual assets, tag original AI-generated files with persistent metadata or watermarks before any editing or compression.
 - **Audio:** SynthID (Google/DeepMind) is the current standard for AI-generated audio — it embeds a watermark that survives compression and editing
 - **Images and video:** Equivalent watermarking tools exist for AI-generated images and video content
 - **Production record requirement:** Note in the project file which assets were AI-generated at source and confirm that watermarking was applied to the original file before editing or delivery to the client
@@ -269,8 +292,7 @@ Source: Ching & Mothi (2025). For AI-generated audio and visual assets, tag orig
 
 ## Section 2D — Training Data Bias Risk Register
 
-Source: Ching & Mothi (2025). Add to the policy's risk register or prohibited uses:
-
+Add to the policy's risk register or prohibited uses:
 **Named risk: Training Data Bias.** AI-generated content depicting people, communities, or cultural practices must be reviewed for training data bias by a human reviewer with direct cultural knowledge. AI tools default to Western-centric, gender-stereotyped, and racially inaccurate representations because their training data was predominantly Western. This is not a setting that can be adjusted — it is the data the AI learned from.
 
 **For East African clients:** This review is mandatory for all AI-generated imagery descriptions, people representations, and community references before client delivery. A reviewer without direct cultural knowledge of the community being depicted is not qualified to approve this content.
@@ -280,9 +302,7 @@ Source: Ching & Mothi (2025). Add to the policy's risk register or prohibited us
 ---
 
 ## Section 2E — EU AI Act Cross-Border Compliance Note
-
-Source: Ching & Mothi (2025, pp.19, 82). For international clients, donor organisations, or any client producing content for European audiences, add the following cross-border compliance note:
-
+For international clients, donor organisations, or any client producing content for European audiences, add the following cross-border compliance note:
 **EU AI Act obligations relevant to AI-assisted content production:**
 - **Article 4 — Labelling obligation:** AI-generated content distributed to EU audiences must carry appropriate labelling identifying it as AI-generated where this is not obvious to the recipient.
 - **Article 28b(4) — Human oversight mandate:** High-risk AI systems must include human oversight provisions. For content production, this means documented human review and approval before publication.
