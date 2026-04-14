@@ -6,6 +6,14 @@ This repository is a complete documentation and deliverable toolkit for running 
 
 **This suite is content-only.** No web development, graphic design, video editing, or paid ad campaign management (bidding/creative testing). Skills generate text documents, structured plans, and slide outlines — not files, code, or designs.
 
+## Active Roadmap
+
+The current system-upgrade roadmap lives in:
+
+- `docs/plans/2026-04-14-world-class-consultancy-engine/00-roadmap-index.md`
+
+Treat that roadmap as the controlling sequence for major repository improvements. Its target end-state is a world-class, market-adaptive consultancy engine rather than a fixed East Africa-only prompt library.
+
 ---
 
 ## Naming Conventions
@@ -31,7 +39,7 @@ This repository is a complete documentation and deliverable toolkit for running 
 2. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
 3. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
 4. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
-5. **Required Input section** — every skill must ask for: client business name, industry, country/city, and primary goal before generating any deliverable. Additional inputs as needed per skill.
+5. **Required Input section** — every skill must ask for: client business name, industry, country/city, and primary goal before generating any deliverable. For strategy, proposal, pricing, platform, reporting, and AI-governance skills, also capture market context, audience context, and relevant compliance or risk context.
 6. **Quality Criteria section** — every skill must include 5–8 bullets defining what good output looks like for that specific skill.
 7. **Frontmatter description** — must state both *what the skill does* and *when to invoke it* (triggers). This is the primary trigger mechanism.
 
@@ -40,6 +48,8 @@ This repository is a complete documentation and deliverable toolkit for running 
 ## Default Country Context: Uganda / East Africa
 
 All skills default to the Ugandan/East African market unless the user specifies otherwise. This affects examples, platform penetration data, pricing, cultural references, and audience characteristics.
+
+If another market is specified, replace those assumptions rather than keeping Uganda/East Africa defaults in place. Make market-specific assumptions explicit where they materially affect strategy, platform selection, pricing, evaluation, or compliance guidance.
 
 **Platform defaults for Uganda/EA:**
 
@@ -66,6 +76,8 @@ Apply where relevant; cite on first use:
 - **Minto's Pyramid Principle** — conclusion-first slide sequencing
 - **SMART objectives** — all goals must be Specific, Measurable, Achievable, Relevant, Time-bound
 - **ROI formula** — (TLV − COCA) ÷ COCA — Bodnar and Cohen (2012)
+- **Playing to Win** — where to play / how to win logic for strategic choice
+- **Good Strategy/Bad Strategy** — diagnosis, guiding policy, coherent action
 
 **Key references to cite:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
@@ -115,3 +127,14 @@ These skills are available and should be referenced (not duplicated) where relev
 - Paid ad campaign management (bidding, targeting, creative testing)
 - Web design or web development (separate suite)
 - Influencer contracts or payments (legal territory — refer to a lawyer)
+
+## Upgrade Priority
+
+When improving this repository, prioritise in this order:
+
+1. Market-context and localisation layers
+2. Core strategy and proposal quality
+3. Platform and execution coherence
+4. Measurement and evaluation quality
+5. AI governance and augmentation
+6. Commercial packaging and operating system depth

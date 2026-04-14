@@ -24,6 +24,8 @@ Treat every top-level directory containing `SKILL.md` as a skill. Do not assume 
 - Timezone: EAT (UTC+3)
 - Channel reality: WhatsApp-first, then Facebook/Instagram/TikTok/YouTube/LinkedIn/X depending on audience
 
+If the user specifies another market, replace East Africa assumptions rather than layering the new market on top of them. Adapt channel, pricing, legal, tone, and conversion-path assumptions to the named market. If confidence is low, state the uncertainty and recommend specialist review where appropriate.
+
 ## Baseline Skills
 
 Apply these alongside the main deliverable skill when relevant:
@@ -82,6 +84,8 @@ If two skills overlap:
 - Keep frontmatter minimal: `name` and `description` only.
 - Use British English throughout unless the target market or requested language requires otherwise.
 - Keep outputs as text deliverables only. This repo does not produce code, web builds, graphic design, or video production.
+- For strategy, proposal, pricing, platform, reporting, and AI governance work, make market assumptions explicit rather than hidden.
+- Follow the active roadmap in `docs/plans/2026-04-14-world-class-consultancy-engine/` when changing repository-level documentation or high-impact skills.
 
 ## Quality Expectations
 
@@ -92,6 +96,7 @@ Every skill and every deliverable should be:
 - Procedural rather than theoretical
 - Explicit about outputs
 - Grounded in East African market reality by default
+- Adaptable to non-EA markets when specified
 - Safe, factual, and reviewable
 
 ## Maintenance

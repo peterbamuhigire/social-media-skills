@@ -4,6 +4,25 @@ A complete skill suite for running a professional social media and digital marke
 
 **Default context:** Uganda / East Africa · British English · UGX pricing · EAT (UTC+3)
 
+## Current Transformation Priority
+
+This repository is being upgraded from a strong East Africa-first consultancy system into a world-class, market-adaptive consultancy engine.
+
+The active roadmap lives in:
+
+- `docs/plans/2026-04-14-world-class-consultancy-engine/00-roadmap-index.md`
+
+That roadmap focuses on:
+
+- mandatory market-context injection before major deliverables,
+- cross-cultural, regulatory, and pricing localisation,
+- stronger strategic diagnosis and strategic choice,
+- better measurement and evaluation discipline,
+- AI as a governed augmentation layer,
+- commercial packaging and premium delivery operations.
+
+East Africa remains the default only when no other market is specified.
+
 ---
 
 ## How Skills Work
@@ -261,11 +280,12 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 ## Key Conventions
 
 - **British English throughout** — organisation, colour, programme, behaviour, analyse
-- **Uganda/East Africa default** — UGX pricing, EAT timezone, WhatsApp-first, Mobile Money payments
+- **Uganda/East Africa default** — only when no other market is specified; otherwise skills must adapt channel, pricing, legal, and tone assumptions to the named market
 - **500-line limit** per SKILL.md — detailed references go in `references/` subdirectory
 - **Every skill includes** Required Input and Quality Criteria sections
 - **Deck skills** output slide-by-slide markdown: Headline / Bullets / Speaker Notes / Visual Direction
 - **AI integration** — every strategy and plan skill references how AI is used and how quality is controlled
+- **High-value deliverables should expose assumptions** — strategy, proposal, pricing, platform, and reporting outputs should make market assumptions visible rather than implicit
 
 ## Strategic Frameworks Used
 
@@ -305,7 +325,8 @@ social-media-skills/
 ├── docs/
 │   ├── gap-analysis-2026-03.md                      # Core gap analysis
 │   ├── gap-analysis-2026-03-digital-marketing-books.md  # 11 digital marketing books
-│   └── gap-analysis-2026-03-ai-prompting-books.md   # 10 AI and prompting books
+│   ├── gap-analysis-2026-03-ai-prompting-books.md   # 10 AI and prompting books
+│   └── plans/                                       # Active implementation roadmaps
 ├── projects/             # Client project files — excluded from git
 ├── CLAUDE.md             # Authoring conventions for this repo
 └── README.md             # This file
