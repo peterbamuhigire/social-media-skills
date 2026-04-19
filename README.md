@@ -136,6 +136,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 | `playbook-marketing-automation` | Automated lead nurturing sequences triggered by prospect behaviour |
 | `playbook-question-engine` | Mining customer questions to build a content pipeline that dominates search and builds trust |
 | `playbook-geo-newsjacking` | GEO-optimised real-time content system — IFTTT + AI workflow for reacting to breaking news within minutes and capturing AI search citation |
+| `direct-response-funnel-copy` | **Kennedy + Brunson direct-response framework.** Design conversion-focused funnels and long-form sales copy for social, email, and WhatsApp — Brunson Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar close, OTO Bump; Kennedy 5 Propositions, Creative P.S., Takeaway Selling, sequence discipline. Use when a campaign must actually sell — info-products, coaching, masterminds, high-ticket services, memberships, events, webinar funnels. |
 
 ### Presentation Decks
 
@@ -302,6 +303,10 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 - Alpha-Beta-Gamma-Delta-Epsilon prompt structure — Upadhyay (2024)
 - STEPPS virality framework — Berger (2013)
 - Audacity Index — Schaefer (2025)
+- Kennedy/Marrs — *No B.S. Price Strategy* (2011) — 9 price failures, 5 Propositions, Triangle of Preeminence, niche pricing, competing with free
+- Kennedy — *No B.S. Sales Success* (2004) — 23 strategies, 6-step sales process, takeaway selling, positioning-not-prospecting, lead generation "Welcome Guest Process"
+- Kennedy — *The Ultimate Sales Letter* (2000) — 28-step long-form system, Power of a Sequence, Creative P.S., Hidden Benefit, Damaging Admission
+- Brunson — *DotComSecrets Ignite* (2013) — Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar, Soap Opera + Seinfeld
 
 ## Platform Defaults for Uganda/EA
 
@@ -322,6 +327,7 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 social-media-skills/
 ├── [skill-name]/
 │   └── SKILL.md          # Every skill — frontmatter + content
+├── book-extractions/      # Primary-source extraction files — Kennedy, Brunson, etc.
 ├── docs/
 │   ├── gap-analysis-2026-03.md                      # Core gap analysis
 │   ├── gap-analysis-2026-03-digital-marketing-books.md  # 11 digital marketing books

@@ -78,11 +78,16 @@ Apply where relevant; cite on first use:
 - **ROI formula** — (TLV − COCA) ÷ COCA — Bodnar and Cohen (2012)
 - **Playing to Win** — where to play / how to win logic for strategic choice
 - **Good Strategy/Bad Strategy** — diagnosis, guiding policy, coherent action
+- **Kennedy + Brunson direct-response** — whenever a brief requires *selling* (not awareness), use `direct-response-funnel-copy` and the `book-extractions/` Kennedy + Brunson files (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar, Soap Opera, Kennedy 28-step letter, 5 Propositions, Takeaway Selling, Creative P.S.). These are the canonical references for info-product, coaching, high-ticket service, membership, event, and webinar funnels.
 
 **Key references to cite:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*
 - Kotler, P. et al. (2023) *Marketing Management*
+- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*
+- Kennedy, D. (2004) *No B.S. Sales Success*
+- Kennedy, D. (2000) *The Ultimate Sales Letter*
+- Brunson, R. (2013) *DotComSecrets Ignite*
 
 ---
 
