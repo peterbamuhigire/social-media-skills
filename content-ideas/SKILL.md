@@ -28,6 +28,7 @@ description: Generates 30 fresh content ideas for a client, structured as a tabl
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/source-buckets-and-series.md` when idea generation should be organised by source buckets, repeatable series, and clearer next-step logic.
 
 <!-- dual-compat:end -->
 

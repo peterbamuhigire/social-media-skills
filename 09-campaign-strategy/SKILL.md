@@ -1,6 +1,6 @@
 ---
 name: 09-campaign-strategy
-description: Generates a complete single-campaign strategy document — covering objective setting, audience targeting, campaign concept, channel plan, timeline, content production list, paid amplification, budget allocation, and success metrics. Invoke when a client needs to plan a focused marketing campaign: product launch, seasonal offer, awareness drive, or event promotion. Also produces a one-page campaign brief for briefing creative partners or clients.
+description: "Generates a complete single-campaign strategy document covering objective setting, audience targeting, campaign concept, channel plan, timeline, content production list, paid amplification, budget allocation, and success metrics. Invoke when a client needs to plan a focused marketing campaign: product launch, seasonal offer, awareness drive, or event promotion. Also produces a one-page campaign brief for briefing creative partners or clients."
 ---
 # Campaign Strategy Generator
 
@@ -34,6 +34,7 @@ A campaign is a time-bound, focused effort with a specific objective. It is dist
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/sequence-and-proof-architecture.md` when the campaign is a launch, event, or timed offer that needs explicit sequencing and proof planning.
 
 <!-- dual-compat:end -->
 
@@ -336,3 +337,4 @@ Total: UGX [X] | Production: UGX [X] | Paid spend: UGX [X]
 - Success metrics are agreed before the campaign starts — targets are specific numbers, not "increase" or "improve"
 - One-page campaign brief is standalone and complete — a designer or client could act on it without reading the full document
 - British English spelling throughout; EAT timezone applied to all scheduling references
+

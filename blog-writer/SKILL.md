@@ -36,6 +36,7 @@ Generate a complete, professional blog post from a brief. The output is a finish
 - Read `references/human-voice-standards.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/ideation-and-research.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/reader-experience.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/series-and-launch-engine.md` when the article is part of a campaign, lead-nurture path, or launch sequence rather than a standalone post.
 - Read `references/storytelling.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/topic-ideas.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/writing-craft.md` when you need the deeper framework, examples, or supporting material it contains.

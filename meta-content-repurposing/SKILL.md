@@ -1,6 +1,6 @@
 ---
 name: meta-content-repurposing
-description: Generates a content repurposing plan to maximise output from each piece of content the client produces. Covers the Content Factory model, a platform repurposing matrix, 10 worked repurposing chains, a weekly workflow for social media managers, and guidance on what not to repurpose. Invoke this skill when a client has limited content production capacity, when building a content calendar with a small team, or when a client asks how to get more mileage from content they already create.
+description: "Generates a content repurposing plan to maximise output from each piece of content the client produces. Covers the Content Factory model, a platform repurposing matrix, 10 worked repurposing chains, a weekly workflow for social media managers, and guidance on what not to repurpose. Invoke this skill when a client has limited content production capacity, when building a content calendar with a small team, or when a client asks how to get more mileage from content they already create."
 ---
 # Content Repurposing Plan
 
@@ -28,6 +28,7 @@ description: Generates a content repurposing plan to maximise output from each p
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/repurposing-for-launch-and-clusters.md` when the repurposing plan must support a launch, campaign, funnel, or topic cluster rather than volume alone.
 
 <!-- dual-compat:end -->
 
@@ -188,7 +189,7 @@ Each example shows one source piece → 5+ platform outputs. Industries are draw
 
 - **Output 1:** TikTok — post the same Reel with adapted captions and trending TikTok audio.
 - **Output 2:** YouTube Short — repost the Reel as a YouTube Short; add a YouTube-specific caption.
-- **Output 3:** Facebook post — embed or share the Reel with a written description: "One piece. Three looks. Shop now [link]."
+- **Output 3:** Facebook post — embed or share the Reel with a written description: "Generates a content repurposing plan to maximise output from each piece of content the client produces. Covers the Content Factory model, a platform repurposing matrix, 10 worked repurposing chains, a weekly workflow for social media managers, and guidance on what not to repurpose. Invoke this skill when a client has limited content production capacity, when building a content calendar with a small team, or when a client asks how to get more mileage from content they already create."
 - **Output 4:** Instagram carousel (follow-up) — still frames from the Reel showing each outfit; price and item code on each slide; final slide: "DM us to order."
 - **Output 5:** WhatsApp broadcast — "New stock just dropped. Here's 3 ways to style the [item name]: [Reel link]. Reply to order."
 - **Output 6:** X/Twitter — post the Reel link with commentary: "Kampala fashion for every occasion — one piece, three looks. [link]"
@@ -284,3 +285,4 @@ Apply the **Hero/Hub/Hygiene** model (YouTube / Google) alongside the Content Fa
 *Handley, A. and Chapman, C. (2012) Content Rules. Hoboken: Wiley.*
 *Nemo, J. (2017) Content Marketing Made Easy. Self-published.*
 *Meerman Scott, D. (2022) The New Rules of Marketing and PR. 8th edn. Hoboken: Wiley.*
+

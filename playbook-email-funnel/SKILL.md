@@ -33,6 +33,7 @@ description: >
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/launch-sequence-operations.md` when the funnel must support a timed offer, event, campaign window, or staged email sequence.
 
 <!-- dual-compat:end -->
 

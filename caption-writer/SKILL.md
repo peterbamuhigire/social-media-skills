@@ -28,6 +28,7 @@ description: Writes social media captions for any platform from a brief. Generat
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/cta-and-platform-hooks.md` when the caption needs sharper hooks, better CTA wording, or cleaner platform-specific commitment levels.
 
 <!-- dual-compat:end -->
 

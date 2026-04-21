@@ -28,6 +28,7 @@ description: Writes email marketing copy — newsletters, promotional emails, we
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/launch-and-sequence-copy.md` when the request involves a welcome flow, launch sequence, waitlist, event promotion, or reactivation series.
 
 <!-- dual-compat:end -->
 

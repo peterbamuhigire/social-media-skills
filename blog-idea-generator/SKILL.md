@@ -38,6 +38,7 @@ Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid sum
 ## References
 - Read `references/content-formats.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/ideation-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `references/idea-sources-and-series.md` when the brief needs cluster planning, source-bucket logic, or repeatable series instead of isolated titles.
 
 <!-- dual-compat:end -->
 

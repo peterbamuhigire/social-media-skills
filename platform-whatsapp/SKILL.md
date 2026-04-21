@@ -30,6 +30,7 @@ description: Generates a complete WhatsApp Business strategy for East African bu
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/campaign-and-broadcast-sequences.md` when WhatsApp needs to support a launch, event push, or timed campaign rather than only steady-state broadcasts.
 
 <!-- dual-compat:end -->
 

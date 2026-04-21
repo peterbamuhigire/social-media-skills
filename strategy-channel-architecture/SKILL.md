@@ -35,6 +35,7 @@ Cross-reference: `05-social-media-strategy` (overall strategy context), `10-cont
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/launch-channel-sequencing.md` when channel roles must support a timed launch, event, or campaign sequence.
 
 <!-- dual-compat:end -->
 
