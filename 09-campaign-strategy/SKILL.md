@@ -54,6 +54,15 @@ Ask for all of the following before generating the campaign strategy document:
 
 If the 03-audience-personas document is available, reference it explicitly. If not, ask the client to confirm the target audience before proceeding.
 
+Also collect or infer these conversion-critical details:
+
+- the exact offer being promoted
+- the objection most likely to suppress response
+- the proof available to support the offer
+- the primary CTA and the post-click destination
+
+If those are unclear, the campaign concept is not ready.
+
 ---
 
 ## Document Structure
@@ -111,6 +120,13 @@ Define the big idea that ties all campaign content together.
 
 **Core message:** [One sentence stating what the audience must take away from this campaign. Everything in the campaign serves this message. If an asset does not reinforce the core message, cut it.]
 
+Pressure-test the core message against four questions:
+
+1. what is being offered?
+2. who is it for?
+3. why act now rather than later?
+4. what proof or mechanism makes this believable?
+
 **Tone for this campaign:** [Reference 04-brand-voice-intake if available. Note if the campaign tone differs from the always-on brand tone — e.g. a campaign for a festive seasonal offer may be more playful than the brand's standard tone]
 
 **Visual direction note:** [Brief description of the look and feel for campaign assets — not a design brief, but enough direction for a graphic designer or videographer to understand the aesthetic. Note: asset production is outside the scope of this skill.]
@@ -142,6 +158,16 @@ Build from teaser to announcement to amplification to close-out:
 
 Populate only channels available to this client. Remove rows for channels not in use.
 
+Do not let every channel do the same job.
+Assign channels by role:
+
+- attention
+- education
+- proof
+- conversion
+- reminder
+- follow-up or retention
+
 ---
 
 ### 5. Campaign Timeline
@@ -165,7 +191,7 @@ Goal: maximum visibility; drive first wave of action
 
 **Phase 3 — Sustain (Week 2 through campaign close minus 48 hours)**
 Goal: maintain momentum; deepen engagement; convert warm audiences
-- Content to publish: [e.g. customer testimonials or UGC reposts, FAQ content, behind-the-scenes, reminder posts]
+- Content to publish: [e.g. customer testimonials or UGC reposts, FAQ content, objection-handling posts, behind-the-scenes, reminder posts]
 - UGC encouragement: actively invite customers to share their experience using the campaign hashtag
 - Retargeting: serve content to people who engaged with Phase 2 posts but have not yet converted
 - Email: send mid-campaign email to non-openers and non-clickers from Phase 2 send
@@ -337,4 +363,3 @@ Total: UGX [X] | Production: UGX [X] | Paid spend: UGX [X]
 - Success metrics are agreed before the campaign starts — targets are specific numbers, not "increase" or "improve"
 - One-page campaign brief is standalone and complete — a designer or client could act on it without reading the full document
 - British English spelling throughout; EAT timezone applied to all scheduling references
-

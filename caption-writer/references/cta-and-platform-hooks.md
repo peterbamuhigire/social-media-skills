@@ -12,6 +12,9 @@ Primary sources:
 A caption hook must stop the scroll.
 A caption CTA must tell the reader what they get or do next.
 
+Treat the CTA as a call to value, not merely a call to action.
+The reader should understand why replying, clicking, saving, or DMing is worth doing.
+
 ## Hook types
 
 - direct benefit
@@ -20,6 +23,7 @@ A caption CTA must tell the reader what they get or do next.
 - proof-led
 - curiosity gap
 - audience qualifier
+- objection-led
 
 Do not repeat the same hook type across all three caption variations.
 
@@ -31,6 +35,12 @@ Do not repeat the same hook type across all three caption variations.
 - WhatsApp: reply, ask, confirm, order
 - X: reply, quote, click thread link
 
+Match the ask to readiness:
+
+- low commitment: save, comment, reply, vote
+- medium commitment: DM, download, join list, request details
+- high commitment: book call, apply, buy now
+
 ## Friction reducers
 
 Use short reassurance lines when useful:
@@ -38,6 +48,20 @@ Use short reassurance lines when useful:
 - `DM us and we'll send details`
 - `Reply YES and we'll explain`
 - `No pressure. Just ask`
+- `I'll send the details here.`
+- `Takes less than a minute.`
+- `Best fit if you're actively dealing with this now.`
+
+## Button and caption consistency
+
+If a caption sends people to a page, the CTA language should align with the destination.
+Do not promise `free guide` in the caption and land people on a vague `learn more` button.
+Carry the same promise across:
+
+- hook
+- body
+- CTA
+- landing-page button
 
 ## Anti-patterns
 
@@ -45,4 +69,4 @@ Use short reassurance lines when useful:
 - two competing asks in one short caption
 - same CTA across every platform
 - long setup before the hook
-
+- asking for a sale before the post has created interest or trust

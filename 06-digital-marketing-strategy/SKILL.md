@@ -8,6 +8,13 @@ Produce the boardroom-level digital marketing strategy document. This is the bro
 
 Apply the POEM model (Paid/Owned/Earned) to audit current digital assets. Apply the RACE framework (Reach/Act/Convert/Engage) to map the customer journey and structure measurement (Chaffey, 2024). Reference Kotler et al. (2023) for channel integration principles.
 
+Add Kennedy's systems lens before selecting tactics:
+
+- avoid dependence on a single platform or traffic source
+- distinguish acquisition, conversion, retention, and referral mechanisms
+- define the lead-generation offer separately from the core sale
+- treat the website, email list, and customer database as strategic assets, not optional extras
+
 ---
 
 <!-- dual-compat:start -->
@@ -217,6 +224,15 @@ Budget allocation: [% of total; recommended minimum threshold for meaningful rea
 | Paid social | | | |
 | Tools and platforms | | | |
 | **Total** | | 100% | |
+
+For the final recommendation, verify the channel mix covers:
+
+- a dependable lead source
+- a conversion path with clear offers and follow-up
+- a retention channel the brand controls directly
+- a referral or advocacy mechanism
+
+If any one of those is missing, the strategy is incomplete.
 
 Note: production costs (content creation, copywriting, design briefs) are separate from paid media spend. Distinguish the two clearly.
 

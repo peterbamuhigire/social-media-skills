@@ -8,6 +8,15 @@ Produce the master social media strategy document. This is the primary deliverab
 
 Apply the POEM model (Paid/Owned/Earned) to classify channels. Apply the RACE framework (Reach/Act/Convert/Engage) to structure the KPI section. Reference Bodnar and Cohen (2012), Chaffey (2024), and Kotler et al. (2023) where indicated.
 
+Before recommending channels or content, apply a direct-response filter drawn from Kennedy and Wiebe:
+
+- market: who exactly is the strategy for?
+- message: what pain, desire, or differentiated promise should the audience hear repeatedly?
+- media: which channels fit that audience and message?
+- offer: what is the next step being promoted at each stage?
+
+Do not build platform plans before those four are explicit.
+
 ---
 
 ### ARM Content Testing Lens
@@ -160,6 +169,13 @@ Write 3–4 sentences summarising the brand's voice and tone for social media. D
 
 Define 3–5 content pillars. Apply the 10-4-1 rule (Bodnar and Cohen, 2012): for every 15 pieces of content, 10 should share relevant third-party or educational content, 4 should be original brand content, and 1 should be directly promotional.
 
+Also make sure the pillars serve the full response system:
+
+- attraction: bring in the right strangers
+- conversion: move qualified people toward enquiry or opt-in
+- retention: keep customers and followers engaged after the first action
+- referral: give satisfied customers reasons and language to recommend the brand
+
 For each pillar, provide:
 
 **Pillar name:** [Short, memorable name]
@@ -202,6 +218,8 @@ Include principles covering:
 - **UGC and mentions** — how to handle and celebrate user-generated content
 - **Crisis response** — brief trigger definition; note that the playbook-crisis-communications skill handles full crisis planning
 
+Add a lead-handling principle: high-intent comments, poll replies, and DMs must feed a follow-up path instead of dying in-platform. Social engagement should create identifiable opportunities, not just vanity metrics.
+
 ---
 
 ### 8. Paid Social Integration
@@ -216,6 +234,14 @@ Cover:
   - Low: selective boosting of 2–3 posts/month on Facebook and Instagram
   - Medium: monthly always-on boosting plus 1 structured campaign per quarter
   - High: always-on paid social plus multiple campaign flights; recommend engaging 09-campaign-strategy
+
+Frame boosting and paid support around system roles, not random visibility.
+Each spend decision should support one of these:
+
+- attract new qualified attention
+- convert warm traffic already showing intent
+- retain customers with follow-up or repeat-purchase content
+- reactivate dormant leads or past buyers
 
 ---
 

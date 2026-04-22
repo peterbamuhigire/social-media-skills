@@ -6,6 +6,13 @@ description: Generates a social selling playbook that converts social media foll
 
 > **The core problem this playbook solves:** Most East African service businesses either post only promotional content (skipping trust-building) or post only awareness content (no conversion mechanism). Social selling bridges that gap — turning an engaged audience into a client pipeline without burning goodwill.
 
+Use Kennedy's market-message-offer discipline and Wiebe's voice-of-customer discipline throughout:
+
+- define the right-fit buyer before scripting content
+- state the problem in the buyer's own language
+- choose the offer type before choosing the CTA
+- treat DMs and WhatsApp replies as objection-rich research, not just sales admin
+
 ---
 
 <!-- dual-compat:start -->
@@ -74,6 +81,13 @@ Most social selling fails because the offer is introduced at stage 1 or 2. Intro
 - Consistent publishing cadence — reliability signals professionalism
 
 **The 80/20 principle applied to social selling:** 80% of posts educate, entertain, or inspire. 20% invite action. Clients who invert this ratio will see engagement collapse and reach decline within 4–6 weeks.
+
+Authority content should do at least one of these well:
+
+- diagnose the problem more clearly than competitors
+- explain why common fixes fail
+- show a repeatable process or point of view
+- use concrete proof from real client outcomes
 
 ---
 
@@ -146,6 +160,13 @@ Use this sequence as a repeating content arc — one full cycle every 2–4 week
 
 **Follow up every response.** Every comment, every poll response, every DM is a potential client. Assign someone to respond to all engagement within 4 hours during business hours.
 
+Use soft CTAs to sell the next step, not the final sale.
+Examples:
+
+- `Comment GUIDE and I'll send the checklist`
+- `DM AUDIT and I'll explain what to fix first`
+- `Reply YES if you want the breakdown`
+
 ---
 
 ### Step 4 — Offer Reveal (1 post)
@@ -162,6 +183,15 @@ Use this sequence as a repeating content arc — one full cycle every 2–4 week
 > "If you have been struggling to [problem], I have been working on something. [Service name] is a [duration/format] programme where we [core outcome]. We work with [target client type] who are ready to [commitment signal]. If that is you, DM me the word [keyword] and I will send you the details."
 
 **Do not post the price in Step 4.** Price requires context. Context requires conversation. Send the price after the first qualifying conversation on WhatsApp.
+
+Name the offer type clearly:
+
+- free resource
+- audit or diagnostic
+- consultation
+- programme or service
+
+Ambiguity reduces response.
 
 ---
 
@@ -214,6 +244,14 @@ Every enquiry is a warm lead. Treat every DM with the same attention as a referr
 4. What does success look like for them?
 5. Are they in a position to invest in a solution now, or is this more of a future interest?
 
+Capture repeated language from DMs into three banks:
+
+- problem phrases
+- objection phrases
+- desire or goal phrases
+
+Feed those banks back into future posts, offer pages, FAQs, and WhatsApp scripts.
+
 **Moving to WhatsApp:** Once the conversation has warmed in DMs, use this transition:
 
 > "I have a few ideas that could help you with this. Would it be okay if I sent them to you on WhatsApp? It is easier to go through the details there. My number is [number] — or you can click here: [wa.me link]."
@@ -226,6 +264,9 @@ Every enquiry is a warm lead. Treat every DM with the same attention as a referr
 | "I need to think about it." | "Of course — that is completely fine. What information would help you make the decision? I can send you [case study / breakdown / FAQ] while you think it over." |
 | "Can you send me more information?" | "Absolutely. What specifically would be most useful — the way the programme works, who it is for, or what results others have seen?" |
 | "I will check with my partner/boss." | "No problem. Would it help if I sent a short summary you can share with them? I can make it easy to explain." |
+
+Do not treat objections as friction to bulldoze.
+Treat them as information about what the content, proof, or offer still has not clarified.
 
 ---
 
