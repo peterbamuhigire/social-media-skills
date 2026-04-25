@@ -2,19 +2,20 @@
 
 ## Purpose
 
-This repository is a dual-compatible skills system for professional social media and digital marketing consultancy work in Uganda and East Africa. It must continue to work for Claude Code while also being directly usable by Codex without moving skills into a different folder structure.
+This repository is a dual-compatible skills system for professional social media and digital marketing consultancy work in Uganda and East Africa. It must continue to work for Claude Code while also being directly usable by Codex from the standard skill repository layout.
 
 The portable unit is the skill directory:
 
 ```text
-[skill-name]/
-  SKILL.md
-  references/   # optional
-  scripts/      # optional
-  assets/       # optional
+skills/
+  [skill-name]/
+    SKILL.md
+    references/   # optional
+    scripts/      # optional
+    assets/       # optional
 ```
 
-Treat every top-level directory containing `SKILL.md` as a skill. Do not assume a `skills/` parent folder exists or is required.
+Treat every `skills/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root.
 
 ## Default Context
 
@@ -77,8 +78,8 @@ If two skills overlap:
 
 ## Working Rules
 
-- Preserve the current directory layout unless a change is clearly necessary.
-- Do not relocate skills into a `skills/` folder just to satisfy one agent.
+- Preserve the standard directory layout unless a change is clearly necessary.
+- Keep skills in `skills/<skill-name>/SKILL.md`.
 - Do not weaken Claude triggers in `description`; improve Codex compatibility by layering structure on top.
 - Keep all `SKILL.md` files under 500 lines. Move deep detail into `references/` when needed.
 - Keep frontmatter minimal: `name` and `description` only.
@@ -101,6 +102,6 @@ Every skill and every deliverable should be:
 
 ## Maintenance
 
-- Use `scripts/normalise_skills_for_dual_compat.py` to refresh the shared compatibility sections across top-level skills.
+- Use `scripts/normalise_skills_for_dual_compat.py` to refresh the shared compatibility sections across skills under `skills/`.
 - Run `skill-safety-audit` for third-party imports or major changes.
 - When a skill approaches the line limit, move detailed material into `references/` and leave only the execution workflow in `SKILL.md`.

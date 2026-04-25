@@ -27,7 +27,7 @@ East Africa remains the default only when no other market is specified.
 
 ## How Skills Work
 
-Each skill lives in its own directory containing a `SKILL.md` file. The frontmatter `description` field is the trigger — Claude reads it to decide when to invoke the skill. Skills produce text documents: strategies, plans, playbooks, reports, slide outlines, and copy. No code, no graphic design, no video production.
+Each skill lives under `skills/<skill-name>/SKILL.md`. The frontmatter `description` field is the trigger — Claude reads it to decide when to invoke the skill. Skills produce text documents: strategies, plans, playbooks, reports, slide outlines, and copy. No code, no graphic design, no video production.
 
 ---
 
@@ -325,18 +325,22 @@ Each skill lives in its own directory containing a `SKILL.md` file. The frontmat
 
 ```
 social-media-skills/
-├── [skill-name]/
-│   └── SKILL.md          # Every skill — frontmatter + content
 ├── book-extractions/      # Primary-source extraction files — Kennedy, Brunson, etc.
 ├── docs/
 │   ├── gap-analysis-2026-03.md                      # Core gap analysis
 │   ├── gap-analysis-2026-03-digital-marketing-books.md  # 11 digital marketing books
 │   ├── gap-analysis-2026-03-ai-prompting-books.md   # 10 AI and prompting books
 │   └── plans/                                       # Active implementation roadmaps
+├── skills/
+│   └── [skill-name]/
+│       └── SKILL.md      # Every skill — frontmatter + content
 ├── projects/             # Client project files — excluded from git
+├── AGENTS.md             # Agent operating guidance
 ├── CLAUDE.md             # Authoring conventions for this repo
 └── README.md             # This file
 ```
+
+The repository root should contain project documentation and operational folders only. Keep `docs/`, `skills/`, and `projects/` at root where relevant; do not add new skill directories directly at root.
 
 ## Out of Scope
 

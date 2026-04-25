@@ -35,7 +35,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 
 ## Authoring Rules (All Skills)
 
-1. **SKILL.md only** — every skill directory contains a `SKILL.md` with YAML frontmatter (`name` and `description` only). No README.md, CHANGELOG.md, or auxiliary docs.
+1. **SKILL.md only** — every skill lives at `skills/<skill-name>/SKILL.md` with YAML frontmatter (`name` and `description` only). No README.md, CHANGELOG.md, or auxiliary docs.
 2. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
 3. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
 4. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
@@ -112,7 +112,7 @@ Output is paste-ready into PowerPoint, Canva, or Google Slides. The skill does n
 
 ## Existing Skills in This Repo
 
-These skills are available and should be referenced (not duplicated) where relevant:
+These skills are available under `skills/<skill-name>/SKILL.md` and should be referenced (not duplicated) where relevant:
 
 | Skill | Purpose |
 |---|---|
