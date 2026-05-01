@@ -149,6 +149,7 @@ Each skill lives under `skills/<skill-name>/SKILL.md`. The frontmatter `descript
 | `deck-credentials` | Agency credentials presentation deck |
 | `deck-annual-review` | Annual review and planning deck |
 | `deck-ai-strategy-presentation` | Board-level AI marketing strategy presentation — Minto Pyramid, AI Marketing Canvas, business case, investment, ROI |
+| `ai-growth-systems-design` | AI-powered growth systems tied to funnel metrics, data readiness, governance, and ROI |
 
 ### Analytics and Reporting
 
@@ -172,6 +173,7 @@ Each skill lives under `skills/<skill-name>/SKILL.md`. The frontmatter `descript
 | `meta-social-metrics-framework` | Three-tier metrics framework (primary/secondary/comparative) — vanity vs business metrics, report by audience |
 | `meta-social-marketing-mix-review` | 7 Ps marketing mix diagnostic — questions per P, red flags, recommended actions, scored quarterly summary |
 | `meta-ai-tools-audit` | Structured evaluation of AI marketing tools — 8 categories, EA accessibility ratings, 3 UGX budget profiles |
+| `ai-growth-systems-design` | AI marketing, sales, content, listening, personalization, and automation systems designed for measurable economic value |
 | `meta-revenue-planning` | Bottom-up revenue planning: reverse-engineering targets through funnel CVRs to required inquiry volumes |
 | `meta-lead-scoring` | Lead scoring model design and calibration: explicit criteria, implicit behaviours, BANT qualification |
 | `meta-cohort-analysis` | GA4 cohort exploration for tracking retention and LTV by acquisition batch and channel |
