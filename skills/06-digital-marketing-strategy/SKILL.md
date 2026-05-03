@@ -14,6 +14,7 @@ Add Kennedy's systems lens before selecting tactics:
 - distinguish acquisition, conversion, retention, and referral mechanisms
 - define the lead-generation offer separately from the core sale
 - treat the website, email list, and customer database as strategic assets, not optional extras
+- when the client sells premium, high-ticket, luxury/affluent, executive, or enterprise offers, load `premium-social-selling/SKILL.md` before finalising positioning, content, lead generation, outreach, email nurture, or conversion strategy
 
 ---
 

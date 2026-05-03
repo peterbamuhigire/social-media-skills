@@ -35,6 +35,7 @@ Assume Mailchimp or Brevo as the email platform. Note differences between the tw
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
 - Read `playbook-email-funnel/references/launch-sequence-operations.md` when the strategy must support a timed launch, staged nurture path, or exact open/close campaign window.
+- Read `premium-social-selling/SKILL.md` when the email programme must nurture premium, executive, enterprise, luxury/affluent, or high-ticket prospects. Use it to adjust lead magnets, segmentation, proof, invitation CTAs, VIP treatment, and human follow-up.
 
 <!-- dual-compat:end -->
 

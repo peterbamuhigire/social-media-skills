@@ -34,6 +34,7 @@ description: >
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Use `premium-social-selling/SKILL.md` when scoring premium, executive, enterprise, luxury/affluent, or high-ticket leads. In those cases, weight fit, authority, buying trigger, referral path, response quality, and meeting readiness above raw engagement volume.
 
 <!-- dual-compat:end -->
 

@@ -38,6 +38,7 @@ description: >
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Use `premium-social-selling/SKILL.md` when aligning marketing and sales for premium, executive, enterprise, luxury/affluent, or high-ticket prospects; premium lead quality, response speed, discovery quality, and human follow-up matter more than raw lead volume.
 
 <!-- dual-compat:end -->
 
