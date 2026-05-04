@@ -15,6 +15,8 @@ Use this gate for premium, executive, affluent, enterprise, or high-ticket socia
 - Trust content: process, proof, founder expertise, client outcomes, behind-the-scenes quality, risk controls.
 - Conversion content: diagnostic offer, private consultation, webinar/briefing, lead magnet, case study, invitation, limited availability.
 - Relationship content: comments, direct messages, replies, introductions, event follow-up, community participation.
+- Digital PR content: original data, expert commentary, campaignable stories, useful visuals, buyer guides, industry roundups, and credible opinions that journalists, partners, or executives can reference.
+- Product/website packaging content: show the premium experience, process, quality checks, before/after decisions, and proof assets without turning the feed into a portfolio dump.
 
 ## Lead Capture
 
@@ -36,6 +38,8 @@ Use this gate for premium, executive, affluent, enterprise, or high-ticket socia
 - Ask for a small, clear next step.
 - Follow up with useful context, not "just checking in".
 - Use referrals and warm introductions wherever possible.
+- Create a reason to meet: benchmark result, diagnostic finding, relevant introduction, event context, strategic risk, premium opportunity, or tailored teardown.
+- For elite buyers, keep outreach short, specific, respectful of status, and connected to a decision they already care about.
 
 ## Measurement
 
