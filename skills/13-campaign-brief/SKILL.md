@@ -248,3 +248,33 @@ Add a one-sentence note on how results will be reported: when the post-campaign 
 - The timeline table covers the full lifecycle from kickoff to post-campaign report, with realistic sequencing between review and production stages
 - The approval process states what happens when feedback is late — ambiguity here is a common cause of campaign delays
 - Success metrics include baselines and targets; a KPI without a target is not a KPI
+
+## Five Outcomes gate before sign-off (added 2026-05-04 from Synechron Enterprise UX)
+
+Canonical reference: `docs/ux-foundations.md` Section 3.
+
+Every campaign brief must declare expected pass per the five outcomes table below. **One No = no campaign launch.** No exceptions for premium-priced campaigns.
+
+| # | Outcome | Campaign-specific verification |
+|---|---|---|
+| 1 | **Useful** | The campaign addresses the persona's stated goal (not a vanity metric like "more followers") |
+| 2 | **Easy** | Thumb-stop comprehension in ≤ 3 seconds; one clear CTA per asset |
+| 3 | **Efficient** | Copy scannable; image conveys message before text loads on slow connections |
+| 4 | **Pleasing** | Visual quality matches brand premium positioning; not "good enough" |
+| 5 | **Accessible** | Alt text + captions + ≥ 4.5:1 contrast + plain-language copy |
+
+### How to apply at sign-off
+
+Add a "Five Outcomes" subsection to the campaign brief with a one-paragraph Yes/No declaration per outcome and the evidence behind each Yes:
+
+- Useful — Yes, because [persona X's goal Y is addressed by asset Z]
+- Easy — Yes, because [the 3-second user-test result was X]
+- Efficient — Yes, because [text-load fallback shows complete message]
+- Pleasing — Yes, because [visual reference comparison passed]
+- Accessible — Yes, because [alt text written, captions ready, contrast measured at X.X:1]
+
+If any outcome cannot be declared Yes with evidence, the campaign cannot ship. The brief returns to the strategy or content stage to close the gap.
+
+### Why "Accessible" is non-optional
+
+Most social-campaign briefs in the wild treat accessibility as cleanup. The Synechron rule treats it as a launch gate. For premium-priced engagements ($20k+) the cost of an accessibility-rejection at launch (legal exposure on regulated industries; brand damage on inclusive-marketing claims) far exceeds the cost of building accessibility in.

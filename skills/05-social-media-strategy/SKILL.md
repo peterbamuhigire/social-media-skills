@@ -304,3 +304,27 @@ Theme: use data to improve performance; introduce new formats or channels if rea
 - British English spelling throughout; EAT timezone applied to all scheduling references
 - Paid social guidance is calibrated to the client's stated budget band
 - If the client owns a website, Section 3b is included with a blog cadence, recycling plan, and content calendar integration instructions
+
+## Four Tenets check before strategy (added 2026-05-04 from Levy)
+
+Canonical reference: `docs/ux-foundations.md` Section 2.
+
+Before producing the master strategy document, verify upstream artifacts contain evidence for all four tenets:
+
+| Tenet | Where to verify | Pass criterion |
+|---|---|---|
+| **Business Strategy** | `01-client-brief` | Value proposition declared; revenue stream identified |
+| **Value Innovation** | `02-platform-audit` | Differentiation vs competitors named with specifics |
+| **Validated User Research** | `03-audience-personas` (or `ai-synthetic-personas`) | Personas cite real data sources, not pure hypothesis |
+| **Killer UX Design** | `04-brand-voice-intake` + content pillars | Voice and pillars actually distinct from category baseline |
+
+If any tenet is missing, return to the upstream stage before producing strategy. Do not paper over a missing tenet with a stronger headline; the strategy will fail downstream.
+
+### Complementarity with existing direct-response filter
+
+The Kennedy/Wiebe direct-response filter (market / message / media / offer) already specified in this skill operates **within** the Four Tenets framework, not in place of it. Both run; they don't replace each other:
+
+- Four Tenets → does this strategy belong in market at all?
+- Market/Message/Media/Offer → if so, what is the operational shape of the next campaign?
+
+Apply Four Tenets first as a gate; apply Kennedy/Wiebe second as a structure.

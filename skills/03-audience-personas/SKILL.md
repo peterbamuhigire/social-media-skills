@@ -266,3 +266,16 @@ Consult `strategy-multigenerational-digital` for the full generational trust spe
 - The persona summary matrix enables a team member to make a quick content decision without reading the full cards
 - British English spelling throughout; tone follows the `east-african-english` skill
 - The strategic note after the matrix identifies at least one concrete implication for content or channel prioritisation
+
+## Persona discipline (added 2026-05-04 from Branson)
+
+Canonical reference: `docs/ux-foundations.md` Section 1.
+
+For research-grounded persona work specifically (this skill), the following rules apply on top of the shared discipline:
+
+- **Choose ONE Essential Persona per audience cluster.** A 4-persona deliverable means 4 Essential Personas, not a blurred average. Document the choice and the reasoning.
+- **Reject "edge-cased to death" feature requests.** When stakeholders ask "what if a user wants X?", answer: "Persona <name> doesn't need X." Use the persona's name, not "the user."
+- **"Clingy" tactic for East African client engagements.** Include the persona's full name, photo placeholder, and one memorable quote on every page that references the persona — not just the persona card itself.
+- **Mechanics floor.** Every persona must have name, demographics, goals, motivations, social/technical/physical environment, pain points, stress points (Synechron list).
+
+If a stakeholder pushes back on the Essential Persona choice, walk them through `docs/ux-foundations.md` Section 1 ("Choosing the Essential Persona" subsection) — the design specifically for the right Essential Persona will at least work for the others; a design for any other won't necessarily work for the Essential.

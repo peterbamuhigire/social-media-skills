@@ -241,3 +241,17 @@ For each unvalidated assumption, add a bracketed risk note in the strategy: *[As
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
 - Randazzo, G.W. (2024) *Winning Marketing Strategies Using Generative AI*. Business Expert Press.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+
+## Persona discipline applied to synthetic (added 2026-05-04 from Branson)
+
+Canonical reference: `docs/ux-foundations.md` Section 1.
+
+Synthetic personas pass the same Branson discipline gate as research-grounded personas. The disclosure already required by this skill stays in place; this section adds discipline, not transparency.
+
+Three caveats specific to AI-generated personas:
+
+- **Stronger "designing for themselves" risk.** AI generation tends to mirror the operator's stated assumptions back at them. **Mitigation:** name the persona's pain points *before* generation; reject any synthetic persona whose pain points reduce to "agrees with the operator."
+- **Essential Persona declaration is mandatory** even for synthetic work. Pick one persona as the canonical target; document why it was chosen over the others. Do not produce 4 synthetic personas without naming which is Essential.
+- **Edge-case discipline still applies.** Synthetic personas are not licence to design for everyone. The "Sorry, but Noah won't need X" answer holds whether Noah is a real or synthetic persona.
+
+If the synthetic persona output cannot satisfy these three caveats, the deliverable is not ready to ship. Either return to primary research (use `03-audience-personas` instead) or rerun with stronger constraints.

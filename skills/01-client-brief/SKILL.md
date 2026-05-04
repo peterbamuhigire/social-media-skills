@@ -284,3 +284,32 @@ Add a **Consultant Notes** field at the bottom: flag any ambiguities, missing in
 - The at-a-glance card fits a single page; no section contains more detail than is needed for quick reference
 - British English spelling is used throughout; tone follows the `east-african-english` skill
 - The consultant notes field in the at-a-glance card identifies at least one follow-up item where information is missing or unclear
+
+## Pre-brief filter (added 2026-05-04 from Levy + Deacon)
+
+Three checks to apply during intake — before scoping or pricing:
+
+### 1. Top-10 Not-UX-Strategies anti-pattern check (Levy)
+
+See `docs/ux-foundations.md` Section 2 for the full list. During intake, score the client's stated goal against the Top-10. If the goal matches any anti-pattern, push back before scoping. Document the pushback in the brief itself under a "Brief filters applied" subsection so future audits can trace the conversation.
+
+Most common matches in social-media intakes:
+- "We need a killer Instagram strategy" → matches #1 (a killer idea) — push back, ask what problem the client is solving
+- "We want viral content" → matches #5 (motivational generic) — push back, ask which persona for what action
+- "We just need posts that look like [trending brand]" → matches #4 (buzzword permutation) — push back, ask what differentiated promise
+
+### 2. Three Levels of UX Scope declaration (Deacon)
+
+Every brief must declare which level the engagement targets:
+
+- **Single Interaction** — one platform, one campaign, one task. Most engagements live here.
+- **Journey** — multi-channel, multi-device, time-sequenced (e.g., social → email nurture → website). Opt-in upgrade.
+- **Relationship** — overall brand experience across all touchpoints. Rare; treat as a separate engagement bundle.
+
+Add the level declaration as a required field in the intake questionnaire and the at-a-glance card.
+
+### 3. Field-of-Dreams flag (Levy)
+
+If the brief contains no validated user research and no plan to acquire it, mark the brief as "speculative" rather than "execution-ready." This affects pricing — speculative work cannot be priced as a delivery engagement; it must be priced as a discovery engagement first.
+
+If the client refuses discovery and demands execution-priced delivery on a speculative brief, decline the work or document the risk acceptance in writing.
