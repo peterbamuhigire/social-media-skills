@@ -28,6 +28,7 @@ description: Write the complete copy for a client brochure — covering structur
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `../premium-commercial-writing/SKILL.md` when the brochure must support premium positioning, high-value sales conversations, executive buyers, or stronger proof and price justification.
 
 <!-- dual-compat:end -->
 
@@ -166,3 +167,4 @@ Good output from this skill:
 
 - Hahn, F.E. (2003) *Do-It-Yourself Advertising and Promotion*, 3rd edn. Hoboken: Wiley.
 - Pinskey, R. (1997) *101 Ways to Promote Yourself*. New York: Avon Books.
+- `premium-commercial-writing/SKILL.md` - companion layer for premium value, proof, offer framing, and sales-collateral polish.

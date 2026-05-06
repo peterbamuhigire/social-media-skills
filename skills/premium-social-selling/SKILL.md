@@ -19,7 +19,8 @@ description: Design premium social selling, digital selling, lead generation, em
 4. Design nurture: email/social sequence that educates, proves, handles risk, and invites a concrete next step.
 5. Design outreach: named-account/contact campaign, referral path, executive assistant/gatekeeper handling, personalised reason to meet, and follow-up cadence.
 6. Align sales: qualification, discovery, objection handling, proposal handoff, CRM stages, and response-time SLA.
-7. Run the premium social selling gate before publishing the strategy.
+7. Apply `premium-commercial-writing` to the authority content, lead magnet promise, outreach language, and offer framing.
+8. Run the premium social selling gate before publishing the strategy.
 
 ## Quality Bar
 
@@ -40,3 +41,4 @@ description: Design premium social selling, digital selling, lead generation, em
 ## References
 
 - `references/premium-social-selling-gate.md` - detailed quality gate for high-ticket social/digital selling.
+- `../premium-commercial-writing/SKILL.md` - cross-cutting writing layer for premium proof, value framing, price integrity, search authority, and high-trust conversion copy.

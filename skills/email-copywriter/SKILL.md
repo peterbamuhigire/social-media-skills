@@ -29,6 +29,7 @@ description: Writes email marketing copy — newsletters, promotional emails, we
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
 - Read `references/launch-and-sequence-copy.md` when the request involves a welcome flow, launch sequence, waitlist, event promotion, or reactivation series.
+- Read `../premium-commercial-writing/SKILL.md` when the email supports a premium offer, executive audience, high-ticket service, or sales sequence that needs stronger value and proof.
 
 <!-- dual-compat:end -->
 
@@ -241,3 +242,4 @@ All content produced using this skill must pass through the `ai-content-humanise
 - [ ] No banned vocabulary in any section
 - [ ] Email is scannable on mobile — short paragraphs, no walls of text, white space between sections
 - [ ] Tone matches the brand voice and suits the EA professional register — warm but not unprofessional
+- [ ] Premium or high-ticket emails show proof, value, risk reduction, and one appropriately weighted CTA

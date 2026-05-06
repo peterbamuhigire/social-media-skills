@@ -29,12 +29,15 @@ description: Writes social media captions for any platform from a brief. Generat
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
 - Read `references/cta-and-platform-hooks.md` when the caption needs sharper hooks, better CTA wording, or cleaner platform-specific commitment levels.
+- Read `../premium-commercial-writing/SKILL.md` when captions must support premium positioning, executive buyers, high-ticket offers, or stronger proof and value framing.
 
 <!-- dual-compat:end -->
 
 ## How to Use This Skill
 
 Collect the Required Input below. Generate 3 caption variations per request — labelled Short, Medium, and Long — each with a distinct approach, appropriate hashtag set, and platform-specific formatting. Apply British English throughout. Do not reuse the same hook across variations — each must be genuinely different in structure and tone.
+
+When the post supports a premium offer, executive audience, high-ticket service, or trust-sensitive category, apply `premium-commercial-writing` before finalising. The caption should create value, show proof or judgement, and ask for a next step without sounding desperate or discount-led.
 
 ---
 
@@ -263,3 +266,4 @@ All content produced using this skill must pass through the `ai-content-humanise
 - [ ] British English spelling throughout all variations
 - [ ] Tone matches the brand descriptor provided in the brief
 - [ ] Output format follows the structure above — labelled, consistent, ready to copy
+- [ ] Premium or high-ticket captions show specificity, proof, and value before asking for action

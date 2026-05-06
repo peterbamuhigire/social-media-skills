@@ -27,6 +27,7 @@ description: Optimises individual pieces of content for Generative Engine Optimi
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `../premium-commercial-writing/SKILL.md` when SEO/GEO content must also carry premium positioning, stronger proof, clearer value, and commercial conversion intent.
 
 <!-- dual-compat:end -->
 
@@ -194,6 +195,7 @@ Good output from this skill meets all of the following standards:
 - Every optimised piece opens with a direct answer to the core query in 50 words or fewer, placed in the first paragraph
 - Semantic depth confirmed — all major related subtopics and adjacent questions are covered within the piece
 - EEAT signals present in every piece: author name and credentials, at least two named and dated external sources, and first-hand evidence or a named case study
+- Premium commercial layer applied where the content supports a high-value service, executive buyer, investor/donor audience, or price-sensitive decision
 - Content structure uses question-phrased headings where appropriate and includes a FAQ section
 - GEO content checklist completed and all ten items ticked before publication
 - "Last updated" date is visible and accurate on every optimised page

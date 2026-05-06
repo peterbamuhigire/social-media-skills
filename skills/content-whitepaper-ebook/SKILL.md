@@ -41,6 +41,7 @@ the text content that a designer or the client pastes into their chosen layout t
 
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `../premium-commercial-writing/SKILL.md` when the document must function as premium thought leadership, a high-value lead magnet, an investor/donor confidence asset, or a sales-enablement document.
 
 <!-- dual-compat:end -->
 
@@ -230,3 +231,4 @@ Output meets the standard for this skill when all of the following are true:
 | `owned-media-strategy/SKILL.md` | Planning how the document fits into the client's broader owned media ecosystem |
 | `07-email-marketing-strategy/SKILL.md` | Building the email nurture sequence that follows a gated download |
 | `east-african-english/SKILL.md` | All tone, register, and language decisions — read before writing any section |
+| `premium-commercial-writing/SKILL.md` | For thesis strength, proof density, authority signals, value framing, and premium commercial polish |

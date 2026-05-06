@@ -186,6 +186,7 @@ Every campaign needs at least two:
 | `09-campaign-strategy` | Use together — this skill handles the copy; campaign strategy handles the mix |
 | `ai-whatsapp-chatbot-design` | WhatsApp is the primary "owned traffic" channel in EA |
 | `biz-dev-proposal`, `biz-dev-reactivation-campaign` | Same frameworks apply to B2B proposals and win-back |
+| `premium-commercial-writing` | Apply as the premium quality layer for proof density, value framing, price integrity, and high-ticket tone control |
 
 ## Quality Bar
 
@@ -231,6 +232,7 @@ Every campaign needs at least two:
 - **Kennedy sales letter primary source**: See `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` — the 28-step system, the Power of a Sequence, the Creative P.S., Beat the Price Bugaboo.
 - **Kennedy sales success**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` — Positioning-Not-Prospecting, 5 Propositions, Takeaway Selling, Damaging Admission, 6-Step Sales Process.
 - **Kennedy price strategy**: See `../book-extractions/kennedy-no-bs-price-strategy-extraction.md` — discount discipline, price presentation, competing with free.
+- **Premium commercial writing layer**: See `../premium-commercial-writing/SKILL.md` and its references when direct-response copy must stay credible, premium-fee worthy, and search/authority aware.
 
 ## Uganda / East Africa Notes
 

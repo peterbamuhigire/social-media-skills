@@ -40,6 +40,7 @@ Generate a complete, professional blog post from a brief. The output is a finish
 - Read `references/storytelling.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/topic-ideas.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/writing-craft.md` when you need the deeper framework, examples, or supporting material it contains.
+- Read `../premium-commercial-writing/SKILL.md` when the article must operate as premium thought leadership, justify a high-value offer, or strengthen proof, authority, and AI-search readiness.
 
 <!-- dual-compat:end -->
 
@@ -95,6 +96,8 @@ Apply the `east-african-english` skill for language and tone. Also:
 - **Take positions** — at least 2 clear opinions or recommendations per article. "I recommend" not "one might consider".
 - **Commit, do not hedge** — "This approach works for SMEs" not "This could potentially be a viable option".
 
+For premium thought leadership or lead-generation articles, also apply `premium-commercial-writing`: build a message spine before drafting, state a clear point of view, make the mechanism visible, add proof density, and structure the article so both readers and AI-search systems can extract the main answer.
+
 ## SEO Requirements
 
 - Primary keyword in: title, first 100 words, at least one H2, and the conclusion.
@@ -141,3 +144,4 @@ Good output meets all of these:
 | `references/writing-craft.md` | For sentence structure, opening hook techniques, paragraph rhythm |
 | `references/editorial-standards.md` | For punctuation, capitalisation, and grammar rules |
 | `east-african-english/SKILL.md` | For tone calibration, British English spelling list, courteous phrasing |
+| `premium-commercial-writing/SKILL.md` | For premium positioning, proof density, value framing, and SEO/GEO-aware authority structure |

@@ -35,6 +35,7 @@ A campaign is a time-bound, focused effort with a specific objective. It is dist
 ## References
 - Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
 - Read `references/sequence-and-proof-architecture.md` when the campaign is a launch, event, or timed offer that needs explicit sequencing and proof planning.
+- Read `../premium-commercial-writing/SKILL.md` when the campaign needs premium message architecture, stronger proof, high-ticket positioning, or search/authority reuse.
 
 <!-- dual-compat:end -->
 
@@ -126,6 +127,8 @@ Pressure-test the core message against four questions:
 2. who is it for?
 3. why act now rather than later?
 4. what proof or mechanism makes this believable?
+
+For premium, executive, high-ticket, or trust-sensitive campaigns, also build the `premium-commercial-writing` message spine: reader, moment, pain, outcome, point of view, mechanism, proof, objection, next step.
 
 **Tone for this campaign:** [Reference 04-brand-voice-intake if available. Note if the campaign tone differs from the always-on brand tone — e.g. a campaign for a festive seasonal offer may be more playful than the brand's standard tone]
 
@@ -363,3 +366,4 @@ Total: UGX [X] | Production: UGX [X] | Paid spend: UGX [X]
 - Success metrics are agreed before the campaign starts — targets are specific numbers, not "increase" or "improve"
 - One-page campaign brief is standalone and complete — a designer or client could act on it without reading the full document
 - British English spelling throughout; EAT timezone applied to all scheduling references
+- Premium campaigns use proof, value, objection handling, and price integrity before the strongest conversion ask

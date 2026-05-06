@@ -32,6 +32,7 @@ Professional copywriting standards for website copy, blog posts, articles, and a
 ## References
 - Read `references/business-vocabulary.md` when you need the deeper framework, examples, or supporting material it contains.
 - Read `references/reader-empathy-and-voc.md` when the copy needs stronger customer language, clearer objections, or better audience empathy.
+- Read `../premium-commercial-writing/SKILL.md` when the copy must meet a premium commercial standard, justify higher fees, or improve proof, positioning, search authority, and conversion value.
 
 <!-- dual-compat:end -->
 
