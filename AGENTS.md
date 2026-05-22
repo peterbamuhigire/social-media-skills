@@ -8,14 +8,15 @@ The portable unit is the skill directory:
 
 ```text
 skills/
-  [skill-name]/
-    SKILL.md
-    references/   # optional
-    scripts/      # optional
-    assets/       # optional
+  [category]/
+    [skill-name]/
+      SKILL.md
+      references/   # optional
+      scripts/      # optional
+      assets/       # optional
 ```
 
-Treat every `skills/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root.
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `decks/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `strategy/`, `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category.
 
 ## Default Context
 
@@ -31,11 +32,11 @@ If the user specifies another market, replace East Africa assumptions rather tha
 
 Apply these alongside the main deliverable skill when relevant:
 
-- `east-african-english`: tone, register, British spelling, EA business phrasing
-- `language-standards`: multilingual standards where English, French, or Kiswahili output is required
-- `content-writing`: readability, headlines, persuasion, scannability
-- `skill-writing`: authoring or revising skills in this repository
-- `skill-safety-audit`: safety review for imported or substantially changed skills
+- `language/east-african-english`: tone, register, British spelling, EA business phrasing
+- `language/language-standards`: multilingual standards where English, French, or Kiswahili output is required
+- `content-writing/` (category): readability, headlines, persuasion, scannability
+- `meta-utility/skill-writing`: authoring or revising skills in this repository
+- `meta-utility/skill-safety-audit`: safety review for imported or substantially changed skills
 
 ## Routing Rules
 

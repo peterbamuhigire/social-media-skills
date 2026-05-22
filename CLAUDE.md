@@ -33,15 +33,42 @@ Treat that roadmap as the controlling sequence for major repository improvements
 
 ---
 
+## Skill Categories
+
+Skills are organised into thematic subdirectories under `skills/`. The canonical path for any skill is `skills/<category>/<skill-name>/SKILL.md`.
+
+| Category | Contents |
+|---|---|
+| `ai-marketing/` | AI-prefixed skills, brand voice AI training, AI strategy and governance |
+| `business-development/` | `biz-dev-*` — credentials, proposals, pricing, outreach, practitioner positioning |
+| `content-writing/` | Blog, caption, email, copywriting, direct-response, prompt libraries, hashtag, image-prompt skills |
+| `pipeline/` | Numbered onboarding-to-planning flow `00-` through `13-` |
+| `decks/` | All `deck-*` presentation outline skills |
+| `frameworks/` | `framework-*` strategic frameworks |
+| `meta-analytics-ops/` | `meta-*` analytics, reporting, measurement, audit skills |
+| `platforms/` | `platform-*` per-channel plans |
+| `playbooks/` | `playbook-*` execution SOPs |
+| `policies/` | `policy-*` governance and compliance |
+| `strategy/` | `strategy-*` plus `owned-media-strategy`, `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling` |
+| `training/` | `training-*` client team training guides |
+| `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
+| `language/` | `east-african-english`, `language-standards` |
+| `meta-utility/` | `skill-writing`, `skill-safety-audit` — for authoring/auditing skills themselves |
+
+When referencing a skill in documentation or prompts, use the full path: `skills/<category>/<skill-name>/SKILL.md`.
+
+---
+
 ## Authoring Rules (All Skills)
 
-1. **SKILL.md only** — every skill lives at `skills/<skill-name>/SKILL.md` with YAML frontmatter (`name` and `description` only). No README.md, CHANGELOG.md, or auxiliary docs.
-2. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
-3. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
-4. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
-5. **Required Input section** — every skill must ask for: client business name, industry, country/city, and primary goal before generating any deliverable. For strategy, proposal, pricing, platform, reporting, and AI-governance skills, also capture market context, audience context, and relevant compliance or risk context.
-6. **Quality Criteria section** — every skill must include 5–8 bullets defining what good output looks like for that specific skill.
-7. **Frontmatter description** — must state both *what the skill does* and *when to invoke it* (triggers). This is the primary trigger mechanism.
+1. **SKILL.md only** — every skill lives at `skills/<category>/<skill-name>/SKILL.md` with YAML frontmatter (`name` and `description` only). No README.md, CHANGELOG.md, or auxiliary docs.
+2. **No skills at `skills/` root** — every skill must live inside one of the category subdirectories listed above. Pick the category whose theme best matches the skill; add a new category only when no existing one fits.
+3. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
+4. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
+5. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
+6. **Required Input section** — every skill must ask for: client business name, industry, country/city, and primary goal before generating any deliverable. For strategy, proposal, pricing, platform, reporting, and AI-governance skills, also capture market context, audience context, and relevant compliance or risk context.
+7. **Quality Criteria section** — every skill must include 5–8 bullets defining what good output looks like for that specific skill.
+8. **Frontmatter description** — must state both *what the skill does* and *when to invoke it* (triggers). This is the primary trigger mechanism.
 
 ---
 
@@ -112,16 +139,16 @@ Output is paste-ready into PowerPoint, Canva, or Google Slides. The skill does n
 
 ## Existing Skills in This Repo
 
-These skills are available under `skills/<skill-name>/SKILL.md` and should be referenced (not duplicated) where relevant:
+These skills are available under `skills/<category>/<skill-name>/SKILL.md` and should be referenced (not duplicated) where relevant:
 
-| Skill | Purpose |
-|---|---|
-| `east-african-english` | Language and tone standard — British English, EA professional register |
-| `language-standards` | Grammar, punctuation, and vocabulary rules |
-| `content-writing` | General content writing standards |
-| `blog-writer` | Blog post content generation (text, SEO, captions — no web dev) |
-| `blog-idea-generator` | Generate blog topic ideas and content briefs |
-| `platform-linkedin-company-pages` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
+| Skill | Path | Purpose |
+|---|---|---|
+| `east-african-english` | `skills/language/east-african-english/` | Language and tone standard — British English, EA professional register |
+| `language-standards` | `skills/language/language-standards/` | Grammar, punctuation, and vocabulary rules |
+| `content-writing` | `skills/content-writing/` (category-level standards) | General content writing standards |
+| `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
+| `blog-idea-generator` | `skills/content-writing/blog-idea-generator/` | Generate blog topic ideas and content briefs |
+| `platform-linkedin-company-pages` | `skills/platforms/platform-linkedin-company-pages/` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
 
 ---
 

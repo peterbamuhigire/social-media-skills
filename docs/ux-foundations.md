@@ -105,11 +105,11 @@ A premium social-media campaign must hit ALL FIVE outcomes. One No = no launch.
 - `book-extractions/fekeshazi-pm-ux-guide-extraction.md`
 
 ### Skill consumption map
-- **`skills/03-audience-personas/`** — uses Section 1 (full persona discipline)
-- **`skills/ai-synthetic-personas/`** — uses Section 1 (with synthetic-persona caveats)
-- **`skills/01-client-brief/`** — uses Section 2 (Top-10 anti-patterns) + Deacon's Three Levels of UX Scope (skill-local rule)
-- **`skills/05-social-media-strategy/`** — uses Section 2 (Four Tenets check) — complementary to existing Kennedy/Wiebe direct-response filter
-- **`skills/13-campaign-brief/`** — uses Section 3 (Five Outcomes gate)
+- **`skills/pipeline/03-audience-personas/`** — uses Section 1 (full persona discipline)
+- **`skills/ai-marketing/ai-synthetic-personas/`** — uses Section 1 (with synthetic-persona caveats)
+- **`skills/pipeline/01-client-brief/`** — uses Section 2 (Top-10 anti-patterns) + Deacon's Three Levels of UX Scope (skill-local rule)
+- **`skills/pipeline/05-social-media-strategy/`** — uses Section 2 (Four Tenets check) — complementary to existing Kennedy/Wiebe direct-response filter
+- **`skills/pipeline/13-campaign-brief/`** — uses Section 3 (Five Outcomes gate)
 
 ### Phase 2 spec
 This document was created as part of the Phase 2 upgrade described in `docs/superpowers/specs/2026-05-04-social-media-skills-uiux-phase2-design.md`.
