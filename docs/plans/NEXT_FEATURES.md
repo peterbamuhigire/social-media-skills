@@ -33,7 +33,7 @@
 
 **1 new sector skill created** from 3-book synthesis (Parsons, Stukus, Rogers):
 
-- `sectors/healthcare` (NEW) — Full healthcare social media strategy: Parsons' 11-stakeholder taxonomy, 4-level complexity model, TTR standard, 4-component social media policy, crisis communication (3-hour window, Virginia Tech Principle, crisis template); Stukus' patient de-identification (4 principles), content curation (5 criteria + 7 red flags), 6 troll types with response guidance, 4-step complaint protocol, professional boundary rules; Rogers' A-E-C-C-C patient network framework (Access/Engage/Customise/Connect/Collaborate adapted for healthcare), 90-9-1 Rule, PatientsLikeMe community model
+- `skills/sectors/healthcare` (NEW) — Full healthcare social media strategy: Parsons' 11-stakeholder taxonomy, 4-level complexity model, TTR standard, 4-component social media policy, crisis communication (3-hour window, Virginia Tech Principle, crisis template); Stukus' patient de-identification (4 principles), content curation (5 criteria + 7 red flags), 6 troll types with response guidance, 4-step complaint protocol, professional boundary rules; Rogers' A-E-C-C-C patient network framework (Access/Engage/Customise/Connect/Collaborate adapted for healthcare), 90-9-1 Rule, PatientsLikeMe community model
 
 ### March 2026 (session 3) — Ecommerce Skills Synthesis
 *Completed: 20 March 2026*
@@ -127,9 +127,9 @@ Delivered via `social-commerce-strategy` expansion + 2 new skills (`ecommerce-co
 ## 🟡 MEDIUM PRIORITY
 
 ### Additional Sector Skills
-**Why:** `sectors/healthcare` establishes the sector-skill architecture. High-value next sectors for EA: financial services/fintech (regulated sector, mobile money), education (universities, schools, EdTech), hospitality/tourism, and NGO/development organisations.
+**Why:** `skills/sectors/healthcare` establishes the sector-skill architecture under the `sectors/` category. High-value next sectors for EA: financial services/fintech (regulated sector, mobile money), education (universities, schools, EdTech), hospitality/tourism, and NGO/development organisations.
 **Effort:** 1 session per sector (~250 lines each)
-**Start point:** Follow `sectors/healthcare/SKILL.md` as structural template; identify 2–3 sector-specific books per sector
+**Start point:** Follow `skills/sectors/healthcare/SKILL.md` as structural template; identify 2–3 sector-specific books per sector
 
 ---
 

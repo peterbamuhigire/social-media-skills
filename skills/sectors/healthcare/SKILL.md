@@ -1,5 +1,5 @@
 ---
-name: sectors/healthcare
+name: healthcare
 description: Social media strategy for healthcare organisations and medical professionals in East Africa — covering patient trust architecture, compliance with the Uganda Data Protection and Privacy Act 2019, content strategy for combating health misinformation, patient network engagement, and healthcare crisis communication. Invoke when the client is a hospital, clinic, health NGO, pharmaceutical company, public health department, or individual medical professional building a social media presence, developing a social media policy, or managing a reputational or clinical communication challenge.
 ---
 

@@ -52,6 +52,7 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `strategy/` | `strategy-*` plus `owned-media-strategy`, `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling` |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
+| `sectors/` | Sector-specific social media skills — `healthcare` (first); future: financial services, education, hospitality, NGO |
 | `language/` | `east-african-english`, `language-standards` |
 | `meta-utility/` | `skill-writing`, `skill-safety-audit` — for authoring/auditing skills themselves |
 
