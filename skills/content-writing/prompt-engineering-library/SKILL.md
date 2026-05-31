@@ -27,7 +27,7 @@ description: Generates a ready-to-use, client-specific prompt engineering librar
 - An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/team-prompt-operating-system.md` when turning prompts into a reusable client/team library with owners, versions, examples, approval rules, and quality tests.
 
 <!-- dual-compat:end -->
 

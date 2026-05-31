@@ -41,7 +41,7 @@ Add Kennedy's systems lens before selecting tactics:
 - A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/demand-generation-and-social-operating-system.md` when the strategy needs demand creation logic, channel roles, owned-audience design, reverse-engineering of competitor/channel patterns, or experiment cadence.
 
 <!-- dual-compat:end -->
 

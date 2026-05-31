@@ -57,7 +57,8 @@ A healthy content plan addresses all three. A plan heavy on M (promotional) with
 - A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `../06-digital-marketing-strategy/references/demand-generation-and-social-operating-system.md` when the social strategy needs stronger demand-generation, owned-audience, channel-role, or experiment logic.
+- Read `../../meta-analytics-ops/meta-social-metrics-framework/references/brand-metrics-customer-journey.md` when social KPIs need to map to brand awareness, consideration, purchase, retention, loyalty, advocacy, or holistic brand health.
 
 <!-- dual-compat:end -->
 

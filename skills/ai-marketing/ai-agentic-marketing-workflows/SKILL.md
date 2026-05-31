@@ -31,7 +31,7 @@ description: >
 - An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/agentic-marketing-operating-model.md` when designing autonomy levels, tool gates, marketing-agent memory, evaluation, observability, deployment stages, or safety controls.
 
 <!-- dual-compat:end -->
 
@@ -322,6 +322,7 @@ Output meets standard when it satisfies all of the following:
 - HITL safeguards are defined: autonomous decision boundary, escalation triggers, escalation mechanism, and audit trail
 - Tool stack is recommended based on the client's technical resources and budget with EA accessibility noted
 - EA feasibility is assessed — WhatsApp-based and no-code workflows prioritised for clients without developer resource
+- Autonomy level, allowed-action table, eval set, run logging fields, and kill-switch owner are defined before any autonomous action is recommended
 
 ---
 
@@ -330,3 +331,4 @@ Output meets standard when it satisfies all of the following:
 - Nayebi, F. (2025) *Foundations of Agentic AI for Retail*. Gradient Divergence.
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford University Press.
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
+- `references/agentic-marketing-operating-model.md` - source-synthesised hardening rules for production marketing agents.

@@ -36,7 +36,7 @@ description: >
 - A structured audit, report, model, or analytical framework in markdown, with decisions and recommendations tied to evidence.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- Read `references/brand-metrics-customer-journey.md` when the reporting framework must connect social metrics to awareness, consideration, purchase, post-purchase trust, retention, loyalty, advocacy, or overall brand health.
 
 <!-- dual-compat:end -->
 
