@@ -476,6 +476,7 @@ Kiswahili communication culture emphasizes relationships:
 
 ## Integration with Other Skills
 
+- **Native-copy execution skills (mandatory for French & Kiswahili)**: this skill owns the cross-language tone policy, but native-quality execution belongs to the dedicated skills. Route to **`french-native-copy`** for any French caption/ad/bio and **`swahili-native-copy`** for any Kiswahili one; use **`east-african-english`** for English. Do not produce French or Kiswahili copy by raw translation — the native-copy skills are required for those languages and carry the deeper grammar, idiom, register, and typography references.
 - **i18n**: Determines which language versions are built
 - **page-builder**: Applies language standards when creating content
 - **seo**: Uses language standards for meta tags, titles, descriptions

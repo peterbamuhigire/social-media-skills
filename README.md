@@ -42,7 +42,7 @@ Skills are grouped into 15 thematic categories under `skills/`:
 | `content-writing/` | 15 | Blog, caption, email, copywriting, direct-response, prompt libraries |
 | `decks/` | 8 | `deck-*` presentation outlines |
 | `frameworks/` | 2 | `framework-*` strategic frameworks |
-| `language/` | 2 | `east-african-english`, `language-standards` |
+| `language/` | 4 | `east-african-english`, `language-standards`, `french-native-copy`, `swahili-native-copy` |
 | `meta-analytics-ops/` | 25 | `meta-*` analytics, reporting, audits |
 | `meta-utility/` | 2 | `skill-writing`, `skill-safety-audit` |
 | `pipeline/` | 14 | Numbered onboarding-to-planning flow `00-`–`13-` |
@@ -294,7 +294,9 @@ The Skill Directory tables below are grouped by deliverable role; the canonical 
 | Skill | Purpose |
 |---|---|
 | `east-african-english` | EA professional English — tone, register, British spelling |
-| `language-standards` | Grammar, punctuation, and vocabulary rules |
+| `language-standards` | Grammar, punctuation, and vocabulary rules; cross-language tone policy |
+| `french-native-copy` | Native-quality French short-form copy for Francophone Africa — register, idiom, grammar, typography (never raw-translate) |
+| `swahili-native-copy` | Native-quality Kiswahili short-form copy for East Africa — noun-class concord, register, idiom, the Swahili clock (never raw-translate) |
 | `content-writing` | General content writing standards |
 
 ### Meta-Skills (Internal)
