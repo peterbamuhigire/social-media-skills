@@ -16,6 +16,17 @@ Treat that roadmap as the controlling sequence for major repository improvements
 
 ---
 
+## Blog & Article Research — Always Use the Digital Research Engine
+
+**Every blog post, article, or thought-leadership piece must be researched with the digital-research-engine before drafting.** Never write a blog post from assumed knowledge alone. Real examples, statistics, market figures, and any cited research must come from a live research wave, with sources verified and credit given to the original authors (named researchers, institutions, regulators).
+
+- **Engine location:** `digital-research-engine` (on this machine: `C:\Users\Peter\Documents\Claude Projects\digital-research-engine\skills\`). The repo is cloned on every device Peter works on; if the path differs, locate the `digital-research-engine` repo locally rather than skipping research.
+- **Method:** Start with `research-orchestration/SKILL.md` and run a planned multi-agent wave — one research agent per cohort/region (e.g. one per country), each briefed per the engine's standard agent-brief structure. The orchestrator (you) does the synthesis; research agents return raw, sourced findings only.
+- **Attribution is mandatory.** Cite real, locatable sources with URLs. Name the student/academic researchers, universities, and regulators whose work you draw on. Mark anything you cannot directly verify as UNVERIFIED and either confirm it or frame it without inventing authors, titles, or statistics. Never fabricate a citation.
+- **Output:** Weave credits naturally into the prose and close each piece with a short "Sources & the researchers worth crediting" block. See `projects/tech-guy-peter/blog-posts/N2-cloud-erp-migration-east-africa.md` as the reference example of this standard.
+
+---
+
 ## Naming Conventions
 
 | Prefix | Category | Examples |
