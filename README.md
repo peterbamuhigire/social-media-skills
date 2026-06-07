@@ -31,13 +31,24 @@ Each skill lives under `skills/<category>/<skill-name>/SKILL.md`. The frontmatte
 
 ---
 
+## Anti-AI-slop quality gate
+
+Two skills under `skills/ai-marketing/` keep AI slop out of anything this suite produces:
+
+- **`anti-ai-slop` — real-time guardrail.** Applied continuously while generating, to every output (caption, post, thread, carousel, campaign, ad copy, blog, email, deck outline, image/video brief). Banned vocabulary, generic placeholders, unverified figures/brands/prices, and template defaults are fixed in place as they appear; its ship-gate checklist is run before any output is delivered or published.
+- **`ai-slop-audit` — per-iteration auditor.** Runs after each major iteration (a drafted caption, a finished thread or carousel, a completed campaign or content calendar, a significant revision) and auto-runs on any request to analyse, review, evaluate, audit, critique, score, or de-slop content — or "does this look AI-generated?". It returns a graded report (A/B/C/F) with evidenced findings and concrete fixes; **a grade of F blocks progression** to the next asset or to submission until the blocking findings are resolved.
+
+Both skills share one verified evidence base (Merriam-Webster 2025 Word of the Year; Kommers et al., arXiv 2601.06060) and one merged banned-vocabulary list. They run alongside `ai-content-humaniser`, not instead of it.
+
+---
+
 ## Skill Categories
 
 Skills are grouped into 15 thematic categories under `skills/`:
 
 | Category | Count | Contents |
 |---|---|---|
-| `ai-marketing/` | 20 | AI-prefixed skills, AI strategy, brand voice training |
+| `ai-marketing/` | 22 | AI-prefixed skills, AI strategy, brand voice training, anti-slop quality gate |
 | `business-development/` | 10 | `biz-dev-*` |
 | `content-writing/` | 15 | Blog, caption, email, copywriting, direct-response, prompt libraries |
 | `decks/` | 8 | `deck-*` presentation outlines |
@@ -239,6 +250,8 @@ The Skill Directory tables below are grouped by deliverable role; the canonical 
 
 | Skill | Purpose |
 |---|---|
+| `anti-ai-slop` | **Mandatory pre-ship guardrail.** Ship-gate checklist run on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) so it cannot read as AI slop — seven universal markers, merged EN/FR banned-vocabulary list, verified definition |
+| `ai-slop-audit` | **Auto-run detector.** Grades any social artefact A/B/C/F for AI slop with per-marker findings, evidence, and concrete fixes — runs whenever the user asks to analyse/review/audit/de-slop content or "does this look AI-generated?" |
 | `ai-content-humaniser` | Quality control process for transforming AI drafts into brand-voiced, human-quality content — banned vocabulary, EA localisation, Proof of Human |
 | `brand-voice-ai-training` | Capturing a client's brand voice and encoding it into a reusable AI training document — Brand Context Block, vocabulary fingerprint, few-shot examples |
 | `prompt-engineering-library` | Client-specific prompt library — Alpha-Beta-Gamma-Delta-Epsilon structure, 7 copywriting frameworks, 7 ready-to-use templates |

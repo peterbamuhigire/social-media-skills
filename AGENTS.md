@@ -37,6 +37,8 @@ Apply these alongside the main deliverable skill when relevant:
 - `content-writing/` (category): readability, headlines, persuasion, scannability
 - `meta-utility/skill-writing`: authoring or revising skills in this repository
 - `meta-utility/skill-safety-audit`: safety review for imported or substantially changed skills
+- `ai-marketing/anti-ai-slop`: MANDATORY pre-ship gate — run its ship-gate checklist on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) before delivery or publishing
+- `ai-marketing/ai-slop-audit`: auto-run whenever the user asks to analyse, review, evaluate, audit, critique, score, or de-slop any content/campaign/image/video, or asks "does this look AI-generated?"
 
 ## Routing Rules
 
@@ -69,6 +71,7 @@ If two skills overlap:
 3. Load only the referenced files needed for the current task. Do not bulk-load every file in `references/`.
 4. Produce the deliverable in markdown unless the skill explicitly specifies another format.
 5. Validate the output against the skill's quality section before returning it.
+6. Apply `ai-marketing/anti-ai-slop` in real time while generating — fix banned vocabulary, generic placeholders, unverified figures/brands/prices, and template defaults in place — and run its ship-gate checklist on the finished output before delivery. Run `ai-marketing/ai-slop-audit` after each major iteration (a drafted asset, a finished thread or carousel, a completed campaign or calendar, a significant revision) and whenever the user asks to analyse, review, audit, critique, score, or de-slop existing content; a grade of F blocks progression to the next asset or to submission until the blocking findings are fixed.
 
 ## Reference Handling
 

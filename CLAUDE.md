@@ -84,6 +84,17 @@ When referencing a skill in documentation or prompts, use the full path: `skills
 
 ---
 
+## Anti-AI-Slop Quality Gate (Mandatory)
+
+Two skills under `skills/ai-marketing/` enforce that nothing leaving this engine reads as AI slop:
+
+- **`anti-ai-slop` — MANDATORY, applied in REAL TIME.** This is a live constraint applied **continuously while generating** — to every caption, post, slide, line, and image-brief sentence as it is written, not only as a final pre-ship pass. The moment a banned word, generic placeholder, unverified figure/brand/price, or template default appears, fix it in place. Run its ship-gate checklist on **every generated social output** — caption, post, thread, carousel, campaign, ad copy, blog draft, email, deck outline, image/video brief — before it is delivered to a client or published. No output ships with an unticked ship-gate box. Apply it alongside the deliverable skill and `ai-content-humaniser`, not instead of them.
+- **`ai-slop-audit` — RUNS AFTER EACH MAJOR ITERATION (not only on request).** Run it after each completed unit of work — a drafted caption/post, a finished thread/carousel, a completed campaign or content calendar, a deck outline, a significant revision — logging a verdict each time; a grade **F blocks progression** to the next asset or submission until the blocking findings are fixed. It also auto-runs whenever the user asks to **analyse, review, evaluate, audit, critique, score, or de-slop** any content, campaign, image, or video, or asks "does this look AI-generated / is this AI slop / why does this feel off?", and as the final gate before publishing. It returns a graded report (A/B/C/F) with evidenced findings and concrete fixes.
+
+The two skills share one verified evidence base and one merged banned-vocabulary list (the canonical anti-slop lexicon plus the existing `ai-content-humaniser` list). Preserve their verified citations verbatim: Merriam-Webster 2025 Word of the Year; Kommers et al. *"Why Slop Matters"* (arXiv 2601.06060); Spracklen et al. (USENIX Security 2025, 19.7%); Veracode (45% / XSS 86% / log-injection 88%). Do not add unsourced statistics to either skill.
+
+---
+
 ## Default Country Context: Uganda / East Africa
 
 All skills default to the Ugandan/East African market unless the user specifies otherwise. This affects examples, platform penetration data, pricing, cultural references, and audience characteristics.
@@ -161,6 +172,8 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 | `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
 | `blog-idea-generator` | `skills/content-writing/blog-idea-generator/` | Generate blog topic ideas and content briefs |
 | `platform-linkedin-company-pages` | `skills/platforms/platform-linkedin-company-pages/` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
+| `anti-ai-slop` | `skills/ai-marketing/anti-ai-slop/` | MANDATORY pre-ship guardrail — ship-gate checklist run on every generated social output so it cannot read as AI slop |
+| `ai-slop-audit` | `skills/ai-marketing/ai-slop-audit/` | Auto-run detector — grades any social artefact (A/B/C/F) for AI slop with evidenced findings and concrete fixes |
 
 ---
 
