@@ -57,6 +57,8 @@ Use the skill whose directory name and `description` most closely match the deli
 - `ai-`, `brand-voice-`, `prompt-`: AI strategy, prompting, automation, evaluation
 - `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`, `hashtag-strategy`: direct content generation
 - `framework-`, `peso-`, `owned-media-`, `social-commerce-`, `strategy-`: strategic frameworks and specialist strategy modules
+- `business-development/eac-call-for-applications-campaign`: donor-compliant calls for applications, EOIs, applicant FAQs, partner dissemination kits, fairness protocols, and evidence logs across EAC markets
+- `strategy/ecommerce-export-marketing-advisory`: export marketing plans for e-commerce companies, cross-border trust/proof layers, conversion reviews, CAC-bounded campaign outlines, and partner outreach
 
 If two skills overlap:
 
@@ -91,6 +93,14 @@ If two skills overlap:
 - Keep outputs as text deliverables only. This repo does not produce code, web builds, graphic design, or video production.
 - For strategy, proposal, pricing, platform, reporting, and AI governance work, make market assumptions explicit rather than hidden.
 - Follow the active roadmap in `docs/plans/2026-04-14-world-class-consultancy-engine/` when changing repository-level documentation or high-impact skills.
+
+## Document and Spreadsheet Tooling
+
+- Before promising `.docx`, `.pdf`, `.xlsx`, application registers, scoring matrices, budgets, monitoring dashboards, reports, or annexes, check whether document and spreadsheet tooling is available.
+- Prefer available Codex/Claude document and spreadsheet plugins. If unavailable, use local Python libraries such as `openpyxl`, `XlsxWriter`, `pandas`, `python-docx`, `docxtpl`, `docxcompose`, `pypandoc`, `markdown`, `PyMuPDF`, `pypdf`, `pdfplumber`, and `reportlab`.
+- Check binaries such as `pandoc`, LibreOffice/`soffice`, `wkhtmltopdf`, and `tesseract` when conversion or OCR is needed.
+- Run a minimal DOCX/XLSX smoke test on a new machine before production export.
+- Never claim a generated Word, PDF, or Excel file exists unless it was actually written and opened or validated.
 
 ## Quality Expectations
 
