@@ -4,6 +4,15 @@ A complete skill suite for running a professional social media and digital marke
 
 **Default context:** Uganda / East Africa · British English · UGX pricing · EAT (UTC+3)
 
+## Architecture & cross-cutting engines (updated 2026-06-21)
+
+This engine no longer relies on native skill discovery — **no engine on this machine is natively discovered anymore.** Every engine, including this one, is consulted through the global routing table by globbing its `SKILL.md` files and reading them directly (resolve each engine's path per-device from the routing table; never assume an absolute path). Consult these cross-cutting engines **in addition** to this one:
+
+- **`design-system-skills`** — the single home for ALL design, typography, UI/UX, and visual-formatting skills, plus the anti-AI-slop *visual/typographic* doctrine. **Referenced, not mirrored** — resolve its path per-device. As of 2026-06-21 the **8 deck/presentation skills migrated out of this engine into `design-system-skills` (group `02-document-formatting`)**: `deck-ai-strategy-presentation`, `deck-annual-review`, `deck-campaign-proposal`, `deck-credentials`, `deck-initial-pitch`, `deck-monthly-report`, `deck-quarterly-review`, `deck-strategy-presentation`. Presentation **visual** design now lives in the design engine; **social content and strategy stay here.** When a deliverable needs a deck, written outline/content stays here and routes its visual build to `design-system-skills`.
+- **`chwezi-accounting-doctrine`** — cross-cutting finance/accounting engine. **Referenced, not mirrored.** Consult for any pricing, ROI, budgeting, or financial-statement work alongside this engine.
+
+This engine keeps its own **textual** anti-AI-slop guardrail (`anti-ai-slop`, `ai-slop-audit` under `skills/ai-marketing/`) — clichés, hedging, banned vocabulary, template defaults in copy. **Visual/typographic** slop is the design engine's domain.
+
 ## Current Transformation Priority
 
 This repository is being upgraded from a strong East Africa-first consultancy system into a world-class, market-adaptive consultancy engine.
@@ -44,14 +53,13 @@ Both skills share one verified evidence base (Merriam-Webster 2025 Word of the Y
 
 ## Skill Categories
 
-Skills are grouped into 15 thematic categories under `skills/`:
+Skills are grouped into 14 thematic categories under `skills/`. (The former `decks/` category was migrated out to `design-system-skills` on 2026-06-21 — see **Architecture & cross-cutting engines** above.)
 
 | Category | Count | Contents |
 |---|---|---|
 | `ai-marketing/` | 22 | AI-prefixed skills, AI strategy, brand voice training, anti-slop quality gate |
 | `business-development/` | 10 | `biz-dev-*` |
 | `content-writing/` | 15 | Blog, caption, email, copywriting, direct-response, prompt libraries |
-| `decks/` | 8 | `deck-*` presentation outlines |
 | `frameworks/` | 2 | `framework-*` strategic frameworks |
 | `language/` | 4 | `east-african-english`, `language-standards`, `french-native-copy`, `swahili-native-copy` |
 | `meta-analytics-ops/` | 25 | `meta-*` analytics, reporting, audits |
@@ -177,15 +185,10 @@ The Skill Directory tables below are grouped by deliverable role; the canonical 
 
 ### Presentation Decks
 
+> **Migrated out (2026-06-21).** All 8 deck/presentation skills now live in the **`design-system-skills`** engine under group `02-document-formatting`: `deck-ai-strategy-presentation`, `deck-annual-review`, `deck-campaign-proposal`, `deck-credentials`, `deck-initial-pitch`, `deck-monthly-report`, `deck-quarterly-review`, `deck-strategy-presentation`. Social content and strategy stay here; route deck **visual** design to the design engine (resolve its path per-device from the global routing table). See **Architecture & cross-cutting engines** above.
+
 | Skill | Purpose |
 |---|---|
-| `deck-strategy-presentation` | Strategy presentation deck outline |
-| `deck-monthly-report` | Monthly performance report deck |
-| `deck-quarterly-review` | Quarterly business review deck |
-| `deck-campaign-proposal` | Campaign proposal deck |
-| `deck-credentials` | Agency credentials presentation deck |
-| `deck-annual-review` | Annual review and planning deck |
-| `deck-ai-strategy-presentation` | Board-level AI marketing strategy presentation — Minto Pyramid, AI Marketing Canvas, business case, investment, ROI |
 | `ai-growth-systems-design` | AI-powered growth systems tied to funnel metrics, data readiness, governance, and ROI |
 
 ### Analytics and Reporting
@@ -278,7 +281,6 @@ The Skill Directory tables below are grouped by deliverable role; the canonical 
 | `prompt-library-image-audio-video` | Prompt frameworks for non-text AI generation — image, TTS audio, avatar video, AI music, disclosure requirements, SynthID |
 | `ai-cultural-bias-audit` | Pre-delivery protocol for detecting cultural bias in AI-generated content — BuzzFeed Barbie case, IBM Fairness 360, EA cultural accuracy checklist |
 | `ai-avatar-personalised-video` | Operational guide for AI avatar video at scale — Synthesia/HeyGen/Tavus/D-ID/Elai comparison, script writing, 75% open-rate B2B outreach |
-| `deck-ai-strategy-presentation` | (See Presentation Decks above) |
 | `meta-ai-tools-audit` | (See Analytics and Reporting above) |
 | `playbook-audacious-content` | (See Execution Playbooks above) |
 | `playbook-sentiment-listening` | (See Execution Playbooks above) |
@@ -327,7 +329,6 @@ The Skill Directory tables below are grouped by deliverable role; the canonical 
 - **Uganda/East Africa default** — only when no other market is specified; otherwise skills must adapt channel, pricing, legal, and tone assumptions to the named market
 - **500-line limit** per SKILL.md — detailed references go in `references/` subdirectory
 - **Every skill includes** Required Input and Quality Criteria sections
-- **Deck skills** output slide-by-slide markdown: Headline / Bullets / Speaker Notes / Visual Direction
 - **AI integration** — every strategy and plan skill references how AI is used and how quality is controlled
 - **High-value deliverables should expose assumptions** — strategy, proposal, pricing, platform, and reporting outputs should make market assumptions visible rather than implicit
 
