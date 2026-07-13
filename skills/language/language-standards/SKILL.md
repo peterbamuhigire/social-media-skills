@@ -1,45 +1,85 @@
 ---
 name: language-standards
-description: Language and tone standards for all written content across 3 languages — English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
+description: Use when Language Standards — Multi-Language Tone & Grammar is needed to produce a language quality specification for social-media or digital-marketing work; use `east-african-english` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Language Standards — Multi-Language Tone & Grammar
 
-All website copy, headings, CTAs, descriptions, and microcopy must follow this style guide for their respective language. Cross-cutting standard — applied throughout every content-writing step.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **language quality specification** and the supplied brief falls within language standards — multi-language tone & grammar.
 
-<!-- dual-compat:start -->
-## Use when
-- Language and tone standards for all written content across 3 languages — English (British, East African), French (Francophone African), and Kiswahili (East African standard). Enforces authentic, culturally appropriate, professional communication in each language. Apply throughout all content generation steps.
-- Apply it alongside the primary deliverable skill whenever wording, tone, or editorial quality needs control.
+## Do Not Use When
+- Use `east-african-english` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Source copy, target language or register, market, audience and protected terminology | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified language quality specification; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Market, language variety and audience register are confirmed | Use the named regional standard and preserve meaning, terminology and voice. | Literal or culturally misplaced copy presented as native-quality language. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Read the requested draft, source text, or surrounding brief before making language decisions.
-2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
-3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+1. Confirm the exact language quality specification, consumer, market, channel and approval boundary; route to `east-african-english` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete language quality specification; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A reusable style standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Language quality specification | Requester, client reviewer or delivery team | The language quality specification addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested language quality specification, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Read `references/business-english-advanced.md` when you need the deeper framework, examples, or supporting material it contains.
+- [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+All website copy, headings, CTAs, descriptions, and microcopy must follow this style guide for their respective language. Cross-cutting standard — applied throughout every content-writing step.
 
 ## Required Input
-
 Start with the source text or deliverable brief, then confirm the target language and market. If the target language is unclear, stop and establish it before applying this skill.
 
 ## Core Principles (All Languages)
-
 1. **Clear and direct.** Sentences are straightforward, grammatically careful, logically structured.
 2. **Formal and respectful.** Politeness is essential. Communication shows courtesy and humility.
 3. **No excessive marketing language.** Avoid drama, exaggeration, slang.
@@ -47,12 +87,9 @@ Start with the source text or deliverable brief, then confirm the target languag
 5. **Measured confidence.** Confident without arrogance.
 6. **Culturally authentic.** Respect regional norms, preferences, sensitivities.
 
----
-
 # ENGLISH (en) — British English, East African Professional Standard
 
 ## Core Characteristics
-
 1. **British English spelling** throughout.
 2. **East African tone** — formal, respectful, professionally courteous (Uganda, Kenya, Tanzania blend).
 3. **Measured and confident** without arrogance or dramatic language.
@@ -61,7 +98,6 @@ Start with the source text or deliverable brief, then confirm the target languag
 6. **Consistent verb tense** — do not switch tenses within a section. If you begin in present, stay present throughout that block. Mixing past and present within the same thought signals uncertainty.
 
 ## British English Spelling
-
 Always use British spelling:
 
 | Correct (British) | Incorrect (American) |
@@ -81,14 +117,12 @@ Always use British spelling:
 | enquiry | inquiry |
 
 ## Dates and Numbers
-
 - **Date format**: 17 February 2026 (or 17th February 2026)
 - **Never**: February 17, 2026 (American format)
 - **Numbers**: Use commas for thousands: 1,000; 100,000
 - **Currency**: £ for GBP, $ for USD, €, or regional (specify in design-tokens.md)
 
 ## Tone by East African Country Context
-
 Adjust tone slightly based on client location. Use Neutral East African when no country is specified.
 
 | Country | Tone | Key marker |
@@ -99,7 +133,6 @@ Adjust tone slightly based on client location. Use Neutral East African when no 
 | **Neutral (default)** | Balanced blend | Use when no country is specified |
 
 ## Courteous Phrases (English)
-
 Natural and expected in East African business English:
 
 - Kindly find attached…
@@ -113,7 +146,6 @@ Natural and expected in East African business English:
 - Yours faithfully, / Yours sincerely,
 
 ## Vocabulary Standards (English)
-
 ### Preferred Professional Words
 - facilitate, implement, undertake, liaise, coordinate
 - engage, support, enhance, review, confirm
@@ -140,7 +172,6 @@ Also avoid: American slang (FYI, ASAP, BTW), dramatic emotional tone, excessive 
 Instead of abbreviations, write in full: "Please respond as soon as possible."
 
 ### AI Language Avoidance (All Languages)
-
 AI-generated text has recognisable vocabulary and patterns. Every piece of content must pass as entirely human-written.
 
 **Tier 1 — Banned words (instant AI tells):** delve, tapestry, landscape (as metaphor), multifaceted, testament, realm, harness, leverage, synergy, embark, navigate (as metaphor), foster, beacon, forge, unleash, pivotal, paramount, robust, vibrant, bolster, seamless, holistic, curate, resonate, underscore, showcase
@@ -157,16 +188,10 @@ AI-generated text has recognisable vocabulary and patterns. Every piece of conte
 
 See `blog-writer/references/human-voice-standards.md` for the full blacklist with replacements, detailed techniques, and Voice DNA extraction process.
 
----
-
 ## Redundant Phrases (All Languages)
-
 Delete constructions where one word does the full job: *close proximity* → proximity, *consensus of opinion* → consensus, *free gift* → gift, *end result* → result, *future plans* → plans, *past history* → history, *refer back* → refer, *revert back* → revert, *advance warning* → warning, *repeat again* → repeat, *exact same* → same. Full list in `blog-writer/references/editorial-standards.md`.
 
----
-
 ## English CTAs and Button Text
-
 Apply respectful tone to buttons and UI text:
 
 | Generic/Aggressive | East African Style |
@@ -178,12 +203,9 @@ Apply respectful tone to buttons and UI text:
 | Contact Us | Get in Touch |
 | Download | Download the Brochure |
 
----
-
 # FRENCH (fr) — Francophone African Professional Standard
 
 ## Core Characteristics
-
 1. **Formal francophone African French** — not Québécois, not Belgian variants.
 2. **Respectful and courteous** — professionalism with warmth.
 3. **Standard French grammar and conventions**.
@@ -191,14 +213,12 @@ Apply respectful tone to buttons and UI text:
 5. **Culturally appropriate** for Côte d'Ivoire, Cameroon, Senegal, DRC, Gabon.
 
 ## French Spelling and Grammar
-
 Use standard French orthography:
 - Accent marks required: é, è, ê, ë, à, ù, ç, œ, æ
 - Double-check diacritical marks (many African translators omit them)
 - UTF-8 encoding mandatory
 
 ### Apostrophes in Astro JSX Templates (French, Swahili, all languages)
-
 **CRITICAL:** Single-quoted JS strings inside Astro JSX expressions (`.astro` template section) CANNOT contain straight apostrophes (`'`). This breaks the build because the apostrophe terminates the string early.
 
 **Rules for any text containing apostrophes (e.g. French `d'`, `l'`, `n'`, `qu'`; Swahili `ng'`):**
@@ -220,7 +240,6 @@ All adjectives and past participles must agree with gender:
 - "Les pages sont complétées" (feminine plural)
 
 ## French Dates and Numbers
-
 - **Date format**: 17 février 2026 (or 17 février 2026)
 - **Month names**: Lowercase (février, not Février)
 - **Numbers**: Use space or period for thousands: 1 000 or 1.000 (not 1,000)
@@ -228,7 +247,6 @@ All adjectives and past participles must agree with gender:
 - **Currency**: Franc CFA (FCFA), Euro (€), or specified in design-tokens.md
 
 ## Formal Registers and Politeness
-
 ### Standard Openings
 - Madame, Monsieur,
 - Chère Madame, Cher Monsieur,
@@ -241,7 +259,6 @@ All adjectives and past participles must agree with gender:
 - Veuillez agréer l'expression de nos salutations distinguées.
 
 ### Courtesy Phrases (French)
-
 - Nous vous prions de…
 - Veuillez… (imperative form with "vous")
 - Merci de votre attention.
@@ -252,7 +269,6 @@ All adjectives and past participles must agree with gender:
 - Si vous avez besoin de précisions supplémentaires, veuillez nous contacter.
 
 ## French Vocabulary Standards
-
 ### Preferred Professional Terms
 - Faciliter, mettre en œuvre, entreprendre, coordonner
 - Engager, soutenir, améliorer, examiner, confirmer
@@ -260,7 +276,6 @@ All adjectives and past participles must agree with gender:
 - Significatif, important, stratégique, bénéfique, précieux
 
 ### Words to Avoid (Marketing Hype)
-
 | Avoid | Use Instead |
 |-------|-------------|
 | révolutionnaire | innovant |
@@ -271,7 +286,6 @@ All adjectives and past participles must agree with gender:
 | Libérez le pouvoir | Activez la capacité |
 
 ### Francophone African Terminology
-
 Use terms understood across francophone Africa (not Canada-specific, not France-specific):
 - Budget (not "subvention")
 - Entreprise (company, not "compagnie")
@@ -280,7 +294,6 @@ Use terms understood across francophone Africa (not Canada-specific, not France-
 - Formation (training, widely used)
 
 ## French CTAs and Button Text
-
 | English | French (Formal) |
 |---------|-----------------|
 | Sign Up | S'inscrire |
@@ -293,7 +306,6 @@ Use terms understood across francophone Africa (not Canada-specific, not France-
 | Get Started | Commencer maintenant |
 
 ## French-Specific Considerations
-
 ### In-Country Reviewer Required
 All French content must be reviewed by a native francophone speaker from the target market (Côte d'Ivoire, Cameroon, Senegal, DRC, Gabon). Send for review before publishing.
 
@@ -310,7 +322,6 @@ Avoid country-specific terms unless relevant:
 - Avoid Canadian (Québécois) terminology
 
 ### Francophone Africa Geographic Scope
-
 **CRITICAL RULE:** French content must target Francophone Africa broadly — NOT just East Africa or Uganda.
 
 The French language version of any website should be written and positioned for the entire Francophone African market:
@@ -344,12 +355,9 @@ Côte d'Ivoire, Cameroun, Sénégal, RDC (Congo-Kinshasa), Guinée, Mali, Burkin
 **When a client is specifically in East Africa:**
 If the client is Uganda-based, English pages handle the Ugandan/East African audience. The French pages reach the francophone African audience — these are different markets.
 
----
-
 # KISWAHILI (sw) — East African Standard
 
 ## Core Characteristics
-
 1. **Standard East African Kiswahili** — not regional dialects (Mombasa, Zanzibar variants).
 2. **Formal/respectful register** throughout professional communication.
 3. **Humble and relationship-focused** — Swahili culture emphasizes harmony.
@@ -357,7 +365,6 @@ If the client is Uganda-based, English pages handle the Ugandan/East African aud
 5. **Simple sentence structure** — Kiswahili clarity values straightforward expression.
 
 ## Kiswahili Grammar and Structure
-
 ### Standard Kiswahili Conventions
 - **Subject prefixes**: Proper noun classes (m-/ba, ki-/vi, n-, li-)
 - **Verb conjugation**: Tense markers (-li-, -na-, -ta-, -ki-, -a)
@@ -365,7 +372,6 @@ If the client is Uganda-based, English pages handle the Ugandan/East African aud
 - **No gender distinction** in pronouns (yeye = he/she)
 
 ### Formal Register (Habari Rasmi)
-
 Use formal register in all professional communication:
 - Avoid slang (sheng, Nairobi street language)
 - Use full words (hakuna = do not have, not "hakuna matata")
@@ -378,7 +384,6 @@ Use formal register in all professional communication:
 - **Conditional**: -ki-, -ngali (Akija = if he/she comes)
 
 ## Kiswahili Dates and Numbers
-
 - **Date format**: Februari 17, 2026 (or 17 Februari 2026)
 - **Month names**: English borrowed (Januari, Februari) — no Kiswahili equivalents universally understood
 - **Day of week**: Jumapili (Sunday), Jumatatu (Monday), Jumanne (Tuesday), etc.
@@ -386,14 +391,12 @@ Use formal register in all professional communication:
 - **Currency**: Shilingi (Sh, KES for Kenya), or specified in design-tokens.md
 
 ## Kiswahili Courtesy and Formality
-
 ### Standard Openings (Business)
 - Habari yako?  (How are you? — formal)
 - Tunataka kuwashukuru…  (We want to thank you…)
 - Tunakuomba… (We kindly request…)
 
 ### Respectful Phrases (Kiswahili)
-
 - **Tafadhali** (please — polite request)
 - **Asante sana** (thank you very much)
 - **Karibu sana** (welcome, you're welcome)
@@ -409,7 +412,6 @@ Use formal register in all professional communication:
 - **Tunatumaini kuongea nayo upya** (We hope to speak with you again)
 
 ## Kiswahili Vocabulary Standards
-
 ### Preferred Professional Terms
 - **Kusimamia** (to manage, oversee)
 - **Kutekeleza** (to implement, execute)
@@ -430,7 +432,6 @@ Use formal register in all professional communication:
 - English insertions without Kiswahili alternative available
 
 ## Kiswahili CTAs and Button Text
-
 | English | Kiswahili (Formal) |
 |---------|-------------------|
 | Sign Up | Jisajili |
@@ -443,7 +444,6 @@ Use formal register in all professional communication:
 | Get Started | Anza Sasa |
 
 ## Kiswahili-Specific Considerations
-
 ### In-Country Reviewer Required
 All Kiswahili content must be reviewed by a native Kiswahili speaker from East Africa (Kenya, Tanzania, or Uganda). Regional variants exist; ensure reviewer is from target market.
 
@@ -466,8 +466,6 @@ Kiswahili communication culture emphasizes relationships:
 - Avoid direct criticism or bluntness
 - Always acknowledge the relationship before asking for action
 
----
-
 # When This Skill Applies
 
 **Cross-cutting** — applies to all visible website text, meta descriptions, alt text, form labels, error messages, email templates, and microcopy in all enabled languages.
@@ -475,17 +473,13 @@ Kiswahili communication culture emphasizes relationships:
 **Extended reference:** `references/business-english-advanced.md` — phrase banks (meetings, presentations, apologies, formal correspondence), 80 ESL grammar rules, register-switching guidance, and anti-jargon rewrites.
 
 ## Integration with Other Skills
-
 - **Native-copy execution skills (mandatory for French & Kiswahili)**: this skill owns the cross-language tone policy, but native-quality execution belongs to the dedicated skills. Route to **`french-native-copy`** for any French caption/ad/bio and **`swahili-native-copy`** for any Kiswahili one; use **`east-african-english`** for English. Do not produce French or Kiswahili copy by raw translation — the native-copy skills are required for those languages and carry the deeper grammar, idiom, register, and typography references.
 - **i18n**: Determines which language versions are built
 - **page-builder**: Applies language standards when creating content
 - **seo**: Uses language standards for meta tags, titles, descriptions
 - **sector-strategies**: Industry-specific tone within language standards
 
----
-
 ## Quality Standards
-
 Before publishing any page, verify:
 
 - [ ] **English pages**: British spelling, East African tone, no marketing hype

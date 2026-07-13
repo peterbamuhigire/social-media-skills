@@ -1,48 +1,85 @@
 ---
 name: ai-content-humaniser
-description: >
-  Transforms AI-generated marketing drafts into brand-voiced, human-quality content by applying a
-  structured quality-control process covering vocabulary, cultural localisation, factual accuracy,
-  and voice consistency. Invoke immediately after any AI-assisted draft and before any client
-  delivery — for captions, blog posts, email copy, strategy documents, and proposals.
+description: Use when AI Content Humaniser is needed to produce a AI content humaniser deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Content Humaniser
 
-<!-- dual-compat:start -->
-## Use when
-- Transforms AI-generated marketing drafts into brand-voiced, human-quality content by applying a structured quality-control process covering vocabulary, cultural localisation, factual accuracy, and voice consistency. Invoke immediately after any AI-assisted draft and before any client delivery — for captions, blog posts, email copy, strategy documents, and proposals.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI content humaniser deliverable** and the supplied brief falls within ai content humaniser.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI content humaniser deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI content humaniser deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI content humaniser deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai content humaniser deliverable | Requester, client reviewer or delivery team | The AI content humaniser deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI content humaniser deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## The Golden Rule
-
-This agency is AI-powered. Every output it produces — text, captions, proposals, blog posts, emails, strategy documents — must look, feel, and sound as if it was crafted by the most skilled human creatives with meticulous attention to detail and deep knowledge of the target audience. Clients and their audiences must never sense the AI behind the work.
+This agency is AI-powered. Every output it produces — text, captions, proposals, blog posts, emails, strategy documents — must look, feel, and sound as if it was crafted by skilled human creatives with close attention to detail and deep knowledge of the target audience. Clients and their audiences must never sense the AI behind the work.
 
 This skill is the enforcement layer for that standard. Use it for every piece of AI-assisted content before client delivery. The test is not "does this pass a grammar check?" The test is "would an expert in this market, reading this cold, believe a skilled human wrote it?"
 
 ## Purpose
-
 AI writing tools produce fast drafts. They also produce generic, culturally misaligned, over-smooth
 content that reveals its origins to any experienced reader. This skill is a quality-control process
 for closing the gap between an AI-generated draft and content that reads as written by a
@@ -55,10 +92,7 @@ Apply the AI-as-creative-partner principle throughout (Johnsen, 2024): AI drafts
 never finished work. Editors have full authority — and full responsibility — to rewrite rather than
 polish. A light polish that leaves AI fingerprints is a failure of this process.
 
----
-
 ## Required Input
-
 Before beginning any humanisation review, confirm the following:
 
 1. **Client business name** — whose brand voice does this content represent?
@@ -70,10 +104,7 @@ Before beginning any humanisation review, confirm the following:
 7. **Brand voice notes** — any existing tone-of-voice guidelines, sample copy, or adjectives the
    client uses to describe their brand (e.g., "professional but warm", "bold and direct").
 
----
-
 ## The Five AI Quality Risks
-
 Every AI-generated draft carries these risks (Ltifi and Johnsen). Check for all five before
 approving any piece for client delivery.
 
@@ -102,10 +133,7 @@ AI lacks genuine texture — the finesse, inventiveness, and specificity that co
 expertise. Content may be technically correct but feel hollow. Flatness is the hardest risk to
 quantify and the most damaging to brand credibility over time.
 
----
-
 ## The Uncanny Valley Calibration Checklist
-
 AI content that is almost-but-not-quite human triggers a stronger rejection response than content
 that is obviously AI. This is the uncanny valley effect applied to text — readers cannot name what
 is wrong, but they feel something is off, and they disengage (Ltifi, 2024).
@@ -136,10 +164,7 @@ The structural signs of uncanny AI content:
 Run this checklist on every draft before applying the Human Voice Checklist. If three or more
 uncanny valley signs are present, the draft requires a full rewrite, not a polish.
 
----
-
 ## AI Vocabulary to Eliminate
-
 These words and phrases are characteristic of AI-generated marketing content. Their presence
 signals an unreviewed draft. Remove or rewrite every instance.
 
@@ -174,10 +199,7 @@ use), beacon, testament, crucial, vital, cutting-edge, innovative, empower, unlo
 - "it could be argued that"
 - "in some cases"
 
----
-
 ## The Human Voice Checklist
-
 Apply these ten questions to every AI draft. A draft that fails more than two must be rewritten,
 not patched.
 
@@ -217,12 +239,10 @@ not patched.
     can pass as human.
 
 ### "Ineffable Something" Test
-
 Source: Ching & Mothi (2025, p.64) — citing Tyler Cowen's March 2024 review of Suno AI. Named quality criterion: does this content move, surprise, or connect in a way that is unmistakably human? If a skilled reader would feel nothing in particular after reading it, the content fails the Golden Rule regardless of grammatical correctness. The test is subjective by design — that is the point. If a piece is technically correct but leaves the reviewer with no reaction, it requires a rewrite at the level of voice and meaning, not vocabulary. Apply as the final quality gate after all checklist items are satisfied.
 
 ### Micro-Moment Register Matching
-
-When editing content used at pivotal customer journey moments — a cart abandonment message, a
+When editing content used at high-stakes customer interactions — a cart abandonment message, a
 post-browse retargeting caption, a comparison-shopping landing page — the copy must match the
 emotional register of that exact moment (Ltifi, 2024). Generic AI output cannot detect emotional
 context; human editors must impose it.
@@ -234,12 +254,8 @@ context; human editors must impose it.
 Before approving any content used at a known customer journey touchpoint, ask: does the tone of
 this copy match what the audience is feeling at this moment?
 
----
-
 ## Editing Process by Content Type
-
 ### Captions
-
 1. Check the first line — the hook. Rewrite if it opens with a question, a generic statement, or
    any banned phrase. The first line must earn the tap to expand.
 2. Remove every banned word and phrase. Do not replace with a synonym from the same register —
@@ -252,7 +268,6 @@ this copy match what the audience is feeling at this moment?
    around a single idea.
 
 ### Blog Posts
-
 1. Rewrite the opening if it starts with a definition ("According to the Oxford Dictionary..."),
    a decontextualised statistic, or any variation of "In today's...". The opening must state the
    piece's central argument or the reader's problem — immediately.
@@ -266,7 +281,6 @@ this copy match what the audience is feeling at this moment?
    does it merely restate the heading in paragraph form? If the latter, restructure.
 
 ### Email Copy
-
 1. **Subject line:** Does it create genuine curiosity without resorting to clickbait? Test against
    this standard: would you open it? Would the client's specific audience open it?
 2. **Preview text:** Does it add new information, or does it repeat the subject line? Repetition
@@ -279,11 +293,9 @@ this copy match what the audience is feeling at this moment?
    reference against any existing brand voice notes.
 
 ### Hallucination Gate
-
 Source: Evelyn (2025); Mizrahi (2024). Apply to all content types. The gate checks: statistics, citations, named entities, dates, and product/service claims. For any output making factual claims, run: "Use web search to find the latest news and resources, and cite your sources" — then verify the cited sources independently before client delivery. Do not assume web-search output is correct; verify the linked source directly. The gate is not optional — it is a production standard for any content that makes claims of fact.
 
 ### Strategy Documents and Proposals
-
 1. Are all recommendations specific and actionable? "Leverage synergies across digital touchpoints"
    is not a recommendation. "Post three times per week on Facebook, focusing on video content
    between 18:00 and 20:00 EAT" is a recommendation.
@@ -295,10 +307,7 @@ Source: Evelyn (2025); Mizrahi (2024). Apply to all content types. The gate chec
    Check for assumptions based on Western market conditions (credit card penetration, broadband
    access, regulatory environment, platform algorithm behaviour in the region).
 
----
-
 ## Cultural Localisation Checklist for East Africa
-
 Run this checklist on every piece of content before client delivery.
 
 - Does any content assume Western payment methods — credit cards, PayPal, Stripe — when Mobile
@@ -339,10 +348,7 @@ Run this checklist on every piece of content before client delivery.
   mandatory for all AI-generated imagery descriptions, character references, and community
   representations before client delivery.
 
----
-
 ## The "Proof of Human" Standard
-
 Apply this standard as the final test before sign-off (after Schaefer).
 
 Content that passes this checklist reads as written by a human with genuine expertise in the
@@ -359,10 +365,7 @@ subject and the market. It does not need to be perfect. It needs to be real.
 **When in doubt, apply this rule:** add a real detail, take a stronger position, cut a smooth
 transition. These three moves resolve most flatness problems.
 
----
-
 ## Sign-Off Protocol
-
 ### Junior Content (captions, short-form copy, email)
 - Reviewed by a senior consultant before client delivery
 - Senior consultant checks against the Human Voice Checklist and Cultural Localisation Checklist
@@ -394,7 +397,6 @@ between the AI's contribution and the human's contribution in any disclosure sta
 disclosure misleads audiences and undermines trust in the work.
 
 ### Volume Quality Gate
-
 When AI is used to produce content at scale — multiple captions, a series of emails, a batch of
 blog posts — quality review becomes the bottleneck. A single editor reviewing too many pieces per
 session produces degraded attention and missed issues.
@@ -408,10 +410,7 @@ If the content pipeline exceeds these limits, schedule additional sessions rathe
 review time. Volume is not an excuse for reduced quality. The Golden Rule applies to every piece,
 not to a batch average.
 
----
-
 ## Content Recycling Pipeline (Roth and neuroflash, 2024)
-
 One well-researched piece of content can become 10 platform-ready assets in under 60 minutes:
 
 | Step | Output | AI tool |
@@ -436,10 +435,7 @@ One well-researched piece of content can become 10 platform-ready assets in unde
 
 **Quality gate:** Every variant must pass the content humaniser checklist before publishing. Volume without quality is worse than no content at all.
 
----
-
 ## The Rising Quality Bar
-
 Platform algorithms increasingly detect and suppress low-quality AI-generated content (Roth and neuroflash, 2024). The human layer — strategic direction, local cultural context, brand voice — becomes more valuable, not less, as AI content volume increases.
 
 Signs that AI content will be flagged or underperform:
@@ -451,10 +447,7 @@ Signs that AI content will be flagged or underperform:
 
 The content humaniser exists precisely to prevent these failure modes. Every AI output that passes through this skill becomes harder to detect, more engaging, and more trustworthy.
 
----
-
 ## Quality Criteria
-
 Output from this skill meets the required standard when:
 
 1. **No banned vocabulary remains** — every word and phrase from the elimination list has been
@@ -483,10 +476,7 @@ Output from this skill meets the required standard when:
    has been completed and noted in the production record before the piece is delivered to the
    client.
 
----
-
 ## References
-
 - Ching, J. and Mothi, N. (2025) — Cultural Bias Audit; IP and copyright guidance; Transparency Spectrum; "Ineffable Something" test citing Tyler Cowen (2024).
 - Evelyn, A. (2025) — Hallucination Management Gate.
 - Ltifi, M. and Johnsen, S. (forthcoming) — AI content quality risks framework.

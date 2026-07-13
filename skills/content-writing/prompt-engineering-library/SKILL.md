@@ -1,38 +1,80 @@
 ---
 name: prompt-engineering-library
-description: Generates a ready-to-use, client-specific prompt engineering library — a documented set of reusable prompt templates for all recurring marketing tasks. Every prompt follows the Alpha-Beta-Gamma-Delta-Epsilon master formula (Upadhyay, 2024) and is prefixed with the client's Brand Context Block. Invoke when onboarding a new client onto AI-assisted content production, or when a client team needs a standardised set of approved prompts for their own use.
+description: Use when Prompt Engineering Library is needed to produce a reusable prompt library for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Prompt Engineering Library
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a ready-to-use, client-specific prompt engineering library — a documented set of reusable prompt templates for all recurring marketing tasks. Every prompt follows the Alpha-Beta-Gamma-Delta-Epsilon master formula (Upadhyay, 2024) and is prefixed with the client's Brand Context Block. Invoke when onboarding a new client onto AI-assisted content production, or when a client team needs a standardised set of approved prompts for their own use.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **reusable prompt library** and the supplied brief falls within prompt engineering library.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified reusable prompt library; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact reusable prompt library, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete reusable prompt library; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Reusable prompt library | Requester, client reviewer or delivery team | The reusable prompt library addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested reusable prompt library, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Read `references/team-prompt-operating-system.md` when turning prompts into a reusable client/team library with owners, versions, examples, approval rules, and quality tests.
-
-<!-- dual-compat:end -->
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Required Input
-
 Before generating the library, ask for:
 
 1. **Client business name** — exact trading name
@@ -43,10 +85,7 @@ Before generating the library, ask for:
 6. **Active platforms** — list the platforms the client publishes on
 7. **Priority tasks** — which recurring tasks the team performs most often (captions, blogs, reports, etc.)
 
----
-
 ## The Master Prompt Formula
-
 Source: Upadhyay, S. (2024) *Generative AI for Marketing*.
 
 Every prompt in this library follows the Alpha-Beta-Gamma-Delta-Epsilon structure. Always prepend the client's Brand Context Block before the formula.
@@ -71,10 +110,7 @@ Using [Epsilon — boundaries, tone, style, length, platform rules, hard constra
 
 **Epsilon** — imposes hard constraints: language standard, word count, banned words, required elements (CTA, hashtags, WhatsApp link), and anything the output must never do.
 
----
-
 ## The 10 Prompt Components
-
 Source: Upadhyay (2024). Every strong prompt draws on some or all of these components. Identify which are required for each task before writing the prompt.
 
 | # | Component | What it controls |
@@ -90,10 +126,7 @@ Source: Upadhyay (2024). Every strong prompt draws on some or all of these compo
 | 9 | **Reference** | A URL, competitor post, or LinkedIn profile the AI should learn from or match in quality |
 | 10 | **Conditionality** | Hard constraints: never start with a question; always use British English; exclude competitor names; cite sources |
 
----
-
 ## Copywriting Style Frameworks
-
 Apply via Component 3 (Style). Choose the framework that matches the audience's mindset and the content goal.
 
 | Framework | Structure | When to use |
@@ -106,16 +139,10 @@ Apply via Component 3 (Style). Choose the framework that matches the audience's 
 | **PPPP** | Picture → Promise → Prove → Push | Sales pages; high-stakes conversion content; premium offers |
 | **AFOREST** | Alliteration → Facts → Opinions → Repetition → Examples → Statistics → Threes | Persuasive speeches; thought leadership articles; keynote scripts |
 
----
-
 ## Prompt Library — Templates by Task
-
 Replace all content in square brackets with client-specific detail before use. The Brand Context Block is abbreviated as `[BCB]` below; always paste the full block.
 
----
-
 ### 1. Caption Writing
-
 ```
 [BCB]
 
@@ -131,10 +158,7 @@ WhatsApp CTA [wa.me/256XXXXXXXXX]; include [number] hashtags drawn from
 [hashtag guidance or list]; never begin with "Are you".
 ```
 
----
-
 ### 2. Blog Post Brief
-
 ```
 [BCB]
 
@@ -150,10 +174,7 @@ keyword; all examples must be drawn from Uganda or East Africa; no Western-marke
 assumptions; link suggestion for one internal and one external source.
 ```
 
----
-
 ### 3. Email Subject Line and Preview Text
-
 ```
 [BCB]
 
@@ -168,10 +189,7 @@ urgency, social proof, or personalisation; include at least one option with
 a localised East African reference; British English throughout.
 ```
 
----
-
 ### 4. Audience Persona
-
 ```
 Consider the situation: [business name, industry, and Uganda/East Africa market —
 include any known data about current customers or target segment].
@@ -187,10 +205,7 @@ Facebook penetration data where relevant; no Western market assumptions; referen
 Chaffey (2024) for audience segmentation methodology if applicable.
 ```
 
----
-
 ### 5. Social Media Strategy — Platform Selection Section
-
 ```
 [BCB]
 
@@ -207,10 +222,7 @@ more than 3 platforms for a starter client; cite the POEM model
 (Paid/Owned/Earned) when classifying channels.
 ```
 
----
-
 ### 6. Community Management Response
-
 ```
 [BCB]
 
@@ -227,10 +239,7 @@ to WhatsApp if resolution requires further discussion
 complaint without resolution; British English throughout.
 ```
 
----
-
 ### 7. Monthly Performance Report Narrative
-
 ```
 Consider the situation: [paste the month's key metrics — reach, impressions,
 engagement rate, follower growth, link clicks, WhatsApp enquiries generated,
@@ -248,10 +257,7 @@ conclude with a forward-looking recommendation framed as a SMART objective;
 reference the RACE framework (Chaffey, 2024) if applicable.
 ```
 
----
-
 ## PAO Matrix — Pre-Prompt Checklist
-
 Source: Joseph (c.2023–2024). Before writing any social media content prompt, confirm all three parameters simultaneously:
 
 - **Platform** — which platform is this content for? (Each platform has different norms, formats, and audience expectations.)
@@ -260,10 +266,7 @@ Source: Joseph (c.2023–2024). Before writing any social media content prompt, 
 
 Omitting any one parameter forces the AI to make assumptions that produce generic output. All three must appear explicitly in every social media content prompt, in the Alpha and Beta elements of the master formula.
 
----
-
 ## Prompt Anatomy Reference
-
 Source: GPT Penguin (2024). Five-component anatomy that maps directly onto the Alpha-Beta-Gamma-Delta-Epsilon formula:
 
 | GPT Penguin Component | Description | Maps to Formula Element |
@@ -276,10 +279,7 @@ Source: GPT Penguin (2024). Five-component anatomy that maps directly onto the A
 
 Use this five-component map as a diagnostic: if a prompt is producing poor output, identify which component is missing or underdeveloped.
 
----
-
 ## Copywriting Formula Prompt Activation
-
 Source: Mizrahi (2024). Naming the formula in the prompt is more effective than describing the desired structure in prose. The activation pattern:
 
 ```
@@ -297,10 +297,7 @@ Write a community post using the SMILE framework (Subscriber, Meaningful, Inspir
 
 Never describe the structure in prose ("make it compelling and build to a call to action") when you can name the formula directly. Named formulas produce structurally correct output; prose descriptions produce approximations.
 
----
-
 ## Emotional Resonance Pattern
-
 Source: GPT Penguin (2024). Human-sounding copy requires explicit emotional instruction. Every prompt for brand content must specify:
 
 1. **The emotion to evoke** — trust, urgency, nostalgia, excitement, relief, pride, curiosity. Name it explicitly.
@@ -312,10 +309,7 @@ Activation pattern:
 Using: evoke [EMOTION] by connecting to [BRAND VALUE]; do not use manufactured urgency or artificial scarcity.
 ```
 
----
-
 ## Placeholder Variable Syntax
-
 Source: Wright (2025). Every prompt template must use `{{double-brace}}` placeholders for all variable inputs:
 
 ```
@@ -324,10 +318,7 @@ Source: Wright (2025). Every prompt template must use `{{double-brace}}` placeho
 
 **Why this matters:** Prompts without placeholders are single-use. Prompts with placeholders are agency assets — reusable across every client engagement. A prompt library built with consistent `{{double-brace}}` syntax can be searched, shared, and updated systematically. Apply to all templates in this library.
 
----
-
 ## Hallucination Management Gate
-
 Source: Evelyn (2025, p.51); Mizrahi (2024). For any output making factual or statistical claims, include this instruction in the prompt:
 
 ```
@@ -336,10 +327,7 @@ Use web search to find the latest news and resources, and cite your sources.
 
 Every factual claim, statistic, named entity, date, or product claim in AI output must be flagged for human verification before client delivery. Do not assume AI-generated facts are correct. The hallucination gate is not optional — it is a production standard for any content that makes claims of fact.
 
----
-
 ## ### Separator Syntax
-
 Source: Evelyn (2025). Any prompt containing both instructions and material to process (a brief, content to rewrite, example posts) must use triple hash marks (`###`) to separate sections. This prevents the model from confusing instructions with content to process.
 
 Structure:
@@ -349,16 +337,11 @@ Structure:
 ###
 
 [Material to process — e.g. a brief, a draft to rewrite, example posts to learn from]
-
 ###
 ```
-
 Apply whenever a prompt includes: pasted client briefs, existing copy for rewriting, competitor examples, or reference posts. Never mix instructions and source material in continuous prose.
 
----
-
 ## Prompting Techniques
-
 Source: Upadhyay (2024). Apply these methods when a single prompt does not produce sufficient output quality.
 
 **Prompt trail** — break a complex deliverable into logical steps. Validate the AI's thinking at each step before proceeding to the next. Example: generate the strategy outline first, confirm it, then ask for the full narrative.
@@ -371,10 +354,7 @@ Source: Upadhyay (2024). Apply these methods when a single prompt does not produ
 
 **Template approach** — when a prompt produces excellent output, save the exact prompt (with client variables noted in brackets) as a named template in the client's project folder. Name templates clearly: `caption-facebook-PAS-v1`, `email-subject-reengagement-v2`. Reuse and iterate; do not start from scratch each time.
 
----
-
 ## MVOSSTE Prompting Workflow (Randazzo, 2024)
-
 Use this sequence when developing full marketing strategies with AI assistance:
 
 | Step | Prompt focus |
@@ -389,10 +369,7 @@ Use this sequence when developing full marketing strategies with AI assistance:
 
 **Professional practice:** Footnote every AI-generated output with the exact prompt used. This enables clients to audit, reproduce, and modify outputs — and protects the consultant if outputs are later questioned.
 
----
-
 ## Sales Funnel Stage-Specific Prompts
-
 Source: GPT Penguin (2024). Calibrate content prompts by buyer journey stage:
 
 **Top-of-Funnel (Attract)** — first-time visitors; no prior relationship with the brand.
@@ -413,10 +390,7 @@ Consider the situation: {{prospect description}} has interacted with {{brand nam
 Consider the situation: {{prospect description}} is actively deciding whether to work with {{brand name}}. They have seen the brand before. Acting as a social media copywriter for {{brand name}} writing for a warm, ready-to-act audience. Write a {{platform}} post that makes a direct, specific offer with a clear CTA. In a concise post of under 100 words. Using: British English; one specific offer or guarantee; one frictionless CTA ("Message us on WhatsApp: {{WhatsApp link}}"); no watered-down language; genuine urgency only where a real deadline exists.
 ```
 
----
-
 ## Before/After Prompt Comparison — Social Caption
-
 Source: Chavaux (2025). The most effective technique for making the quality gap between weak and strong prompts tangible.
 
 **BEFORE — Weak Prompt:**
@@ -433,10 +407,7 @@ Consider the situation: It is Monday morning. Our audience is starting their wor
 ```
 *Typical output:* Locally grounded, emotionally resonant, framework-structured, with a clear CTA.
 
----
-
 ## Forward-Reasoning Strategy Prompt
-
 Source: Wright (2025). For strategic deliverables, use this pattern to generate differentiated thinking:
 
 ```
@@ -445,10 +416,7 @@ Imagine {{client's desired future state — e.g. "{{brand name}} is the most tru
 
 This pattern bypasses generic strategic advice and produces counter-intuitive, specific insights by anchoring the AI's reasoning at the outcome rather than the starting point. Use for strategy documents, brand positioning, and 3–5 year planning sections.
 
----
-
 ## Curiosity Gap Technique
-
 Source: Wright (2025). The gap between what the reader knows and what they want to know creates click compulsion — the psychological pull that drives opens, clicks, and continued reading. Apply by naming it explicitly in the prompt:
 
 ```
@@ -457,10 +425,7 @@ Write [content type] that uses an intrigue gap to [desired response — e.g. "ma
 
 The curiosity gap works by revealing enough to make the reader aware of what they do not know, then withholding the resolution until they take the desired action (click, open, reply, scroll). It is distinct from clickbait because it delivers the promised insight — it never misleads.
 
----
-
 ## Quality Criteria
-
 Output from this skill meets the standard when:
 
 1. Every prompt template strictly follows the Alpha-Beta-Gamma-Delta-Epsilon structure and is prefixed by the Brand Context Block — no exceptions.
@@ -472,10 +437,7 @@ Output from this skill meets the standard when:
 7. The copywriting framework specified in each caption or content template is the correct match for the task's audience mindset and conversion goal, with a one-line rationale provided.
 8. The completed library is delivered as a single structured markdown document, organised by task category, ready to be saved in the client's project folder and shared with their team.
 
----
-
 ## References
-
 - Chavaux, L. (2025) — Before/After prompt comparison methodology.
 - Erné, R. (2024) — 5-Step Perfect Prompt framework: Role, Context, Task, Format, Constraints.
 - Evelyn, A. (2025) — Hallucination Management Gate; ### separator syntax; contextual continuity management.

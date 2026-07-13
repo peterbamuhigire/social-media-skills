@@ -1,47 +1,77 @@
 ---
 name: policy-ai-content-ethics
-description: >
-  Produces a written AI Content Ethics Policy for a client — a one-to-two page
-  compliance document stating how the agency and/or client uses AI tools in
-  content creation, what is disclosed to audiences, what is prohibited, and
-  what quality standards apply. Grounds the policy in five core ethical
-  principles (transparency, fairness, nonmaleficence, accountability, privacy)
-  and addresses emerging risks including data leakage, virtual influencer
-  disclosure, filter bubbles, deepfakes, copyright uncertainty, and jailbreak
-  attempts. Also provides the consultant with an internal ethics checklist and
-  sector-specific guidance. Invoke when onboarding a new client, when a client
-  asks how AI is used in their content, when operating in a regulated sector
-  (health, finance, public sector, NGO/donor), or when preparing a credentials
-  or proposal document that references AI-assisted production.
+description: Use when drafting or reviewing an organisational Ai Content Ethics policy with roles, approval boundaries, enforcement and evidence. Use playbook-social-media-policy for rollout operations and specialist counsel for legal advice.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Content Ethics Policy
+<!-- dual-compat-start -->
+## Use When
+- Draft, revise or assess an organisational Ai Content Ethics policy.
+- Define accountable roles, approval thresholds, records and exception handling.
 
-<!-- dual-compat:start -->
-## Use when
-- Produces a written AI Content Ethics Policy for a client — a one-to-two page compliance document stating how the agency and/or client uses AI tools in content creation, what is disclosed to audiences, what is prohibited, and what quality standards apply. Grounds the policy in five core ethical principles (transparency, fairness, nonmaleficence, accountability, privacy) and addresses emerging risks including data leakage, virtual influencer disclosure, filter bubbles, deepfakes, copyright uncertainty, and jailbreak attempts. Also provides the consultant with an internal ethics checklist and sector-specific guidance. Invoke when onboarding a new client, when a client asks how AI is used in their content, when operating in a regulated sector (health, finance, public sector, NGO/donor), or when preparing a credentials or proposal document that references AI-assisted production.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Do Not Use When
+- The request is policy rollout or staff workflow; use `playbook-social-media-policy`.
+- The request needs a binding legal opinion; refer the stated issue to qualified counsel.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Organisation, risk appetite and policy objective | Accountable sponsor or approved brief | Yes | Stop and request sponsor direction |
+| Existing policies, contracts and approval map | HR, legal, communications or governance owner | Conditional | Record the gap and avoid claims of alignment |
+| Applicable law, licence or platform terms | Current official source or qualified adviser | Conditional | Mark legal conclusions unassessed and require review |
+
+## Capability and Permission Boundaries
+Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+## Degraded Mode
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Ai Content Ethics policy and implementation checklist plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+## Decision Rules
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Rule is an internal operating choice | Draft the control and name its owner | Ownerless policy text |
+| Rule depends on law, contract or platform terms | Verify and cite the governing source | Unsupported compliance claim |
+| Exception could expose people, rights or confidential data | Escalate before approval or publication | Irreversible harm or liability |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
+2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
+3. Apply the decision rules, preserve useful existing material and draft the Ai Content Ethics policy and implementation checklist.
+4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
+5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Ai Content Ethics policy and implementation checklist | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
+| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+
+## Quality Standards
+Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+## Anti-Patterns
+- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
+- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
+- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
+- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
+- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [East African English standard](../../language/east-african-english/SKILL.md)
+- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+<!-- dual-compat-end -->
 
 ## Required Inputs
 
@@ -328,10 +358,8 @@ This note applies when: the client distributes content to EU audiences; the clie
 ---
 
 ## Section 3 — Consultant's Internal AI Ethics Checklist
-
 Apply this checklist before publishing any AI-assisted content for a client.
 Run it per piece of content, not per campaign.
-
 - [ ] Every factual claim verified by a human against a primary or authoritative
       source
 - [ ] No customer data, PII, or confidential client information entered into
@@ -354,17 +382,12 @@ Run it per piece of content, not per campaign.
 - [ ] No attempt has been made to circumvent AI safety guidelines
       ('jailbreaking'); report any such attempt to [Name/Title] immediately
       (Venkatesan and Lecinski, 2026)
-
 ---
-
 ## Section 4 — Sector-Specific Guidance
-
 Apply the relevant subsection based on the client's industry. Include all
 applicable subsections when multiple regulated sectors overlap (e.g., an
 NGO running a health programme).
-
 **Health**
-
 Never publish AI-generated health advice without clinical review by a
 qualified health professional. Even general wellness content can cause harm
 if inaccurate — AI tools are not trained as medical authorities and do not
@@ -372,9 +395,7 @@ distinguish between safe and harmful guidance. Always append: *"This content
 is for informational purposes only and does not constitute medical advice.
 Consult a qualified health professional."* Report all health content to the
 client's designated clinical reviewer before scheduling.
-
 **Finance**
-
 AI-generated financial projections, savings guidance, or investment commentary
 requires review by a licensed financial professional before publication.
 Uganda's Capital Markets Authority (CMA) and Bank of Uganda (BoU) have
@@ -382,9 +403,7 @@ disclosure requirements for financial communications. Always append: *"This
 content does not constitute financial advice. Consult a licensed financial
 adviser."* Do not use AI to generate specific return figures, interest rate
 comparisons, or regulatory compliance statements.
-
 **NGO and Donor-Funded Organisations**
-
 Many international donors — including USAID, EU development funds, and UN
 agencies — have content verification requirements embedded in grant agreements.
 Review the grant agreement before using AI tools for donor-facing
@@ -393,22 +412,16 @@ embellish beneficiary stories; this constitutes research fraud and can result
 in grant termination. Where a donor requires human-authored narrative, document
 that the final text was written or substantially rewritten by a named team
 member.
-
 **Political and Public Sector**
-
 Uganda's National Information Technology Authority (NITA-U) guidelines and
 the Electoral Commission's rules govern political and election-related content.
 Do not use AI to generate political statements, candidate profiles, manifestos,
 or content attributed to public officials without disclosure and legal review.
 Public sector clients should obtain sign-off from their communications or legal
 team before any AI-assisted content is published under an official channel.
-
 ---
-
 ## Section 5 — East Africa-Specific Considerations
-
 Apply the following contextual guidance for all Uganda and East Africa clients.
-
 **Uganda Data Protection and Privacy Act 2019 (UDPPA)**
 Do not enter personal customer data into AI prompts. Names, phone numbers,
 National ID numbers, locations, transaction data, and health records all
@@ -416,7 +429,6 @@ qualify as personal data under the UDPPA. Breach of this requirement exposes
 the agency and the client to regulatory sanction from the Personal Data
 Protection Office (PDPO). Store AI conversation logs securely and purge
 sensitive sessions promptly.
-
 **Audience trust**
 East African professional and institutional audiences — government partners,
 B2B buyers, international donors, and formal sector consumers — are acutely
@@ -424,7 +436,6 @@ sensitive to perceived inauthenticity. Over-reliance on generic AI output
 risks damaging brand credibility in markets where relationships and personal
 trust underpin commercial decisions. Apply a rigorous brand voice edit to
 every piece of AI-assisted content before publication.
-
 **Language and vernacular content**
 AI tools produce more reliable output in English than in Luganda, Swahili,
 Runyankore, Acholi, or other regional languages. Human-written vernacular
@@ -433,7 +444,6 @@ communications. Where AI is used to draft vernacular text, require a fluent
 native-speaker review before publication — machine translation into East
 African languages introduces both linguistic errors and cultural missteps that
 damage trust.
-
 **Local context accuracy**
 AI tools are trained predominantly on Western and global datasets. They
 frequently produce incorrect Uganda-specific facts: wrong prices, outdated
@@ -441,13 +451,9 @@ regulations, inaccurate geography, and unfamiliar local institutions. Always
 verify EA-specific claims — market prices, regulatory body names, government
 programme titles, local statistics — against current Ugandan or East African
 primary sources before publication.
-
 ---
-
 ## Quality Criteria
-
 Output meets the standard for this skill when:
-
 - The policy template is complete and contains no unfilled placeholders; all
   bracketed fields are populated with client-specific information gathered
   during the Required Inputs stage.
@@ -474,13 +480,9 @@ Output meets the standard for this skill when:
   and jailbreak awareness items.
 - The entire document is written in British English with no American spellings
   (organisation, colour, behaviour, programme, recognise, analyse, etc.).
-
 ---
-
 ## References
-
 Consult the following skills where relevant:
-
 - `playbook-ai-content-workflow/SKILL.md` — the operational workflow for
   producing AI-assisted content; read this when setting up or auditing the
   client's production process.
@@ -490,7 +492,6 @@ Consult the following skills where relevant:
 - `04-brand-voice-intake/SKILL.md` — captures the brand voice, tone, and
   communication standards that AI tools must be briefed against before
   drafting client content.
-
 **Key citations used in this skill:**
 - Ching, J. and Mothi, N. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act Articles 4 and 28b(4).
 - Johnsen, R. (2024) *AI Ethics in Practice*

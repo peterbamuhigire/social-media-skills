@@ -1,46 +1,80 @@
 ---
 name: biz-dev-practitioner-positioning
-description: >
-  Helps a social media consultant position their own practice — covering niche
-  selection, USP articulation, social proof strategy, LinkedIn thought
-  leadership, and referral system design. This is an internal business
-  development skill for the consultant, not a client-facing deliverable.
-  Invoke when starting out and defining a market position, when rebranding or
-  repositioning after experience in the market, when business development has
-  stalled and the consultant cannot clearly articulate why a client should hire
-  them, or when competing for clients against other agencies or freelancers.
+description: Use when Practitioner Positioning is needed to produce a positioning statement and proof architecture for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Practitioner Positioning
 
-<!-- dual-compat:start -->
-## Use when
-- Helps a social media consultant position their own practice — covering niche selection, USP articulation, social proof strategy, LinkedIn thought leadership, and referral system design. This is an internal business development skill for the consultant, not a client-facing deliverable. Invoke when starting out and defining a market position, when rebranding or repositioning after experience in the market, when business development has stalled and the consultant cannot clearly articulate why a client should hire them, or when competing for clients against other agencies or freelancers.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **positioning statement and proof architecture** and the supplied brief falls within practitioner positioning.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified positioning statement and proof architecture; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact positioning statement and proof architecture, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete positioning statement and proof architecture; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Positioning statement and proof architecture | Requester, client reviewer or delivery team | The positioning statement and proof architecture addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested positioning statement and proof architecture, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 In Uganda and East Africa, professional services are won through relationships
 and reputation. A consultant who cannot clearly answer "why you?" loses to a
 more connected or better-positioned competitor.
@@ -52,10 +86,7 @@ skill builds that position systematically.
 **Sources:** Sobia Publication, *Powerful Social Media Marketing for Beginners*
 (2022); Johnson, J., *How to Become a Social Media Manager* (2023).
 
----
-
 ## Required Input
-
 Ask for all of the following before generating any output:
 
 1. **Consultant's name** and years of experience in social media or digital marketing
@@ -67,16 +98,12 @@ Ask for all of the following before generating any output:
 
 Do not proceed until all six inputs are provided.
 
----
-
 ## Section 1: Niche Selection
-
 The most common mistake consultants make is trying to serve everyone. The most
 effective EA consultants specialise. A narrow niche builds faster credibility,
 commands higher fees, and generates stronger referrals.
 
 ### Niche Dimensions
-
 Select **one primary niche** and, at most, one secondary. Niches can be defined
 by sector, service type, or audience size.
 
@@ -107,7 +134,6 @@ by sector, service type, or audience size.
 - NGOs and INGOs
 
 ### Niche Selection Test
-
 Apply this three-question test using the consultant's inputs:
 
 1. In which sector, service type, or audience size do you have the most experience?
@@ -122,16 +148,12 @@ Generate a one-paragraph niche statement that names the primary niche, explains
 why it is the right choice based on the consultant's inputs, and identifies the
 secondary niche (if any).
 
----
-
 ## Section 2: USP Articulation
-
 The USP (Unique Selling Proposition) is the one thing that makes this
 consultant different from every other social media consultant in their market.
 It must be specific enough to be testable and narrow enough to be memorable.
 
 ### USP Formula
-
 Apply this structure:
 
 > "I help [specific client type] achieve [specific result] through [specific
@@ -143,28 +165,22 @@ Apply this structure:
 - "I train NGO communications teams to produce donor-quality social media content in-house, so they don't need an agency."
 
 ### Generating the USP
-
 Using the consultant's niche, experience, and challenge inputs, draft three USP
 candidates. Present all three, explain the strengths of each, and recommend one
 as the primary USP.
 
 ### USP Testing Instruction
-
 Include this instruction in the output:
 
 > Say the USP to five prospective clients. If three or more respond with "yes,
 > that is exactly what I need" — it is working. If they look confused or say
 > "interesting" — revise. Report back and this skill will help you iterate.
 
----
-
 ## Section 3: Social Proof Strategy
-
 In EA professional markets, social proof is the most powerful sales tool. No
 amount of portfolio polishing beats a referral from a trusted contact.
 
 ### Social Proof Types
-
 Build in this order:
 
 1. **Client testimonials** — ask every client at Month 3 and at contract
@@ -189,7 +205,6 @@ Build in this order:
    EA professional markets. Pursue actively.
 
 ### Social Proof Collection Schedule
-
 Apply this named schedule as a standard operating procedure:
 
 | Trigger | Action |
@@ -204,17 +219,13 @@ current client base and LinkedIn status. If LinkedIn is inactive or absent,
 include a note on why the recommendation request is still worth prioritising
 and what to do first.
 
----
-
 ## Section 4: LinkedIn Thought Leadership
-
 LinkedIn is the primary professional networking platform in EA urban centres.
 A consistent LinkedIn presence generates referrals and inbound enquiries for
 consultants. It is not optional for a consultant who wants to be taken seriously
 by corporate or NGO clients.
 
 ### Content Strategy for the Consultant's Own Account
-
 **Posting frequency:**
 - 2 posts per week minimum for maintenance
 - 4 posts per week for active growth
@@ -238,7 +249,6 @@ by corporate or NGO clients.
   failures, or emerging client behaviours.
 
 ### Engagement Discipline
-
 - Comment meaningfully on 5 posts per day by potential clients, peers, and
   sector influencers
 - Respond to every comment on your own posts within 24 hours
@@ -252,16 +262,12 @@ each.
 If the consultant has no LinkedIn account, include a step-by-step profile setup
 checklist before the content plan.
 
----
-
 ## Section 5: Referral System Design
-
 Referrals are the primary business development channel for EA consultants. The
 goal is a system, not a hope. Most consultants wait for referrals; effective
 ones engineer them.
 
 ### Step 1: Identify Referral Partners
-
 These are professionals who work with the consultant's ideal clients and are
 not competitors. Approach each category:
 
@@ -280,7 +286,6 @@ Generate a shortlist of 5–8 specific referral partner categories based on the
 consultant's niche.
 
 ### Step 2: Make Referrals Easy
-
 Produce the following two assets as part of the skill output:
 
 1. **WhatsApp referral message** — a short text referral partners can forward
@@ -295,7 +300,6 @@ Produce the following two assets as part of the skill output:
    separately agreed and documented.
 
 ### Step 3: Track and Reciprocate
-
 - Log every referral received and every referral made in a spreadsheet with
   columns: Date / Source / Client Name / Outcome / Thank-you Sent
 - Prioritise referring clients to referral partners — reciprocity drives
@@ -305,10 +309,7 @@ Produce the following two assets as part of the skill output:
 
 Generate a referral tracking spreadsheet template as part of the output.
 
----
-
 ## Output Structure
-
 Produce the following sections in order:
 
 1. **Niche Statement** — one paragraph
@@ -320,10 +321,7 @@ Produce the following sections in order:
 7. **WhatsApp Referral Message** — ready to send
 8. **Referral Tracking Template** — simple table format
 
----
-
 ## Cross-References
-
 - `biz-dev-credentials` — use when the positioning work is complete and a
   credentials document is needed for proposals
 - `biz-dev-case-study` — use to document client results as social proof assets
@@ -334,10 +332,7 @@ Produce the following sections in order:
 - `playbook-audacious-content` — use for the contrarian content pillar in the
   LinkedIn thought leadership plan
 
----
-
 ## Quality Criteria
-
 - Niche selection is guided by the three-question test (experience / results /
   payment quality) and produces a specific, named niche — not a broad category
 - USP formula produces a specific, testable one-sentence position statement

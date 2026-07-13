@@ -1,53 +1,87 @@
 ---
 name: ai-cultural-bias-audit
-description: >
-  Runs a structured pre-delivery audit of AI-generated content — copy, images, and personas — for cultural bias,
-  Western default assumptions, and inaccurate cultural representation, with specific attention to East African
-  and non-Western contexts. Invoke before any AI-assisted deliverable is sent to a client, whenever AI tools have
-  generated content depicting people, communities, or cultural settings, or when an internal review flags that
-  content feels generically "Western" or generically "African" rather than accurately localised.
+description: Use when AI Cultural Bias Audit Protocol is needed to produce an evidence-backed audit report for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Cultural Bias Audit Protocol
 
-<!-- dual-compat:start -->
-## Use when
-- Runs a structured pre-delivery audit of AI-generated content — copy, images, and personas — for cultural bias, Western default assumptions, and inaccurate cultural representation, with specific attention to East African and non-Western contexts. Invoke before any AI-assisted deliverable is sent to a client, whenever AI tools have generated content depicting people, communities, or cultural settings, or when an internal review flags that content feels generically "Western" or generically "African" rather than accurately localised.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **evidence-backed audit report** and the supplied brief falls within ai cultural bias audit protocol.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified evidence-backed audit report; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact evidence-backed audit report, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete evidence-backed audit report; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Evidence-backed audit report | Requester, client reviewer or delivery team | The evidence-backed audit report addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested evidence-backed audit report, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 This skill produces a structured pre-delivery audit report that identifies and corrects cultural bias in AI-generated content before it reaches the client. It draws on documented failure cases and the IBM AI Fairness 360 framework to provide a systematic review process.
 
 > **Default context:** Uganda and East Africa. All examples, checks, and correction guidance apply the EA market as the baseline unless another jurisdiction is specified.
 
 **Source:** Ching, V. and Mothi, D. (2025) *AI for Creatives: Unlocking Expressive Digital Potential*. CRC Press.
 
----
-
 ## Required Inputs
-
 Ask for the following before running the audit:
 
 1. **Client business name** — the organisation for whom content was produced
@@ -58,12 +92,8 @@ Ask for the following before running the audit:
 6. **AI tools used** — which generative AI systems produced the content under review
 7. **Reviewer identity** — who will conduct the cultural review, and confirm they have direct first-hand knowledge of the target community (see Part 5)
 
----
-
 ## Part 1: Why AI Has Systematic Cultural Bias
-
 ### The Training Data Problem
-
 Generative AI models are trained predominantly on English-language, Western-origin internet data. This creates systematic defaults:
 
 - **Aesthetic defaults:** Human subjects generated without explicit instruction default to Western physical features, clothing, and settings
@@ -75,7 +105,6 @@ Generative AI models are trained predominantly on English-language, Western-orig
 These are not occasional errors. They are structural properties of models trained on Western-dominated datasets. They persist even when a diversity brief is explicitly provided.
 
 ### The Uncanny Valley of Cultural Representation
-
 Content that is almost-but-not-quite culturally accurate is more damaging than content that is openly generic Western. An audience in Kampala or Nairobi immediately recognises:
 
 - A Ugandan name that no Ugandan family would actually use
@@ -85,12 +114,8 @@ Content that is almost-but-not-quite culturally accurate is more damaging than c
 
 This partial representation signals that the brand does not understand its audience. It erodes trust more effectively than simply using no localisation at all.
 
----
-
 ## Part 2: Documented Failure Cases
-
 ### Primary Case — BuzzFeed Barbie (2023)
-
 In 2023, BuzzFeed used AI image generation to create Barbie doll representations for different countries as part of a viral content series. Despite an explicit diversity and cultural accuracy brief, the outputs exhibited:
 
 - Racial stereotyping inconsistent with the actual populations of the depicted countries
@@ -102,15 +127,11 @@ The failure occurred because the AI model's Western training data dominated the 
 **Lesson:** An explicit brief for cultural accuracy does not guarantee cultural accuracy. A structured human review by someone with direct cultural knowledge is mandatory.
 
 ### Secondary Case — DeepVogue
-
 The DeepVogue AI fashion generation system demonstrated similar defaults in fashion imagery: AI-generated "global" fashion content defaulted to Western body standards, Western aesthetic frameworks, and Western interpretations of non-Western fashion traditions. Models depicting non-Western cultural dress frequently blended or confused distinct cultural traditions.
 
 **Lesson:** AI systems cannot reliably distinguish between specific cultural traditions within a region. "East African" is not a single aesthetic. Ugandan, Kenyan, and Tanzanian professional and cultural aesthetics are distinct and must be reviewed separately.
 
----
-
 ## Part 3: IBM AI Fairness 360
-
 IBM AI Fairness 360 (AIF360) is an open-source toolkit for evaluating algorithmic fairness across protected attributes including race, gender, and national origin. Apply it as a conceptual framework for content audits:
 
 - **Individual fairness:** Would a person from the specific target community see themselves accurately reflected?
@@ -119,14 +140,10 @@ IBM AI Fairness 360 (AIF360) is an open-source toolkit for evaluating algorithmi
 
 For practical content review, translate these principles into the checklist in Part 4.
 
----
-
 ## Part 4: Pre-Delivery Bias Checklist
-
 Run this checklist on every AI-assisted deliverable before client submission. Record the reviewer's name, date, and findings for each item.
 
 ### 4A — Visual Content Checklist
-
 Apply to all AI-generated images, image briefs, stock photo selections, and visual descriptions:
 
 - [ ] Does the depicted person or group reflect the actual demographic and physical characteristics of the target community — not a generic or stereotyped representation?
@@ -137,7 +154,6 @@ Apply to all AI-generated images, image briefs, stock photo selections, and visu
 - [ ] Does the image avoid conflating distinct East African national or ethnic identities under a single generic representation?
 
 ### 4B — Copy and Text Checklist
-
 Apply to all AI-generated social media captions, body copy, headlines, scripts, and descriptions:
 
 - [ ] Are all idioms, expressions, and colloquialisms consistent with the professional register used in this specific market? (Flag any expressions that read as British, American, or generic "international English")
@@ -148,7 +164,6 @@ Apply to all AI-generated social media captions, body copy, headlines, scripts, 
 - [ ] Is the tone and register consistent with how professionals in this specific community communicate — not a Western approximation of "African" informality or formality?
 
 ### 4C — Audience Persona Checklist
-
 Apply to all AI-generated audience personas, customer profiles, and market segment descriptions:
 
 - [ ] Are the persona's name, family structure, and social context consistent with naming conventions and family norms in the specific country and community (not generic "African" names)?
@@ -157,12 +172,8 @@ Apply to all AI-generated audience personas, customer profiles, and market segme
 - [ ] Does the persona's described decision-making process reflect actual purchasing and trust-building patterns in this community (community referrals, church/mosque networks, extended family input) rather than Western individualist consumer models?
 - [ ] Has the persona been reviewed by someone who is actually a member of, or has direct professional experience working with, the described community?
 
----
-
 ## Part 5: Reviewer Qualification Standard
-
 ### The Mandatory Human Reviewer
-
 Every AI cultural bias audit must be signed off by a human reviewer who meets the following standard:
 
 **Minimum qualification:** Direct, first-hand knowledge of the target community. This means:
@@ -177,15 +188,11 @@ Every AI cultural bias audit must be signed off by a human reviewer who meets th
 - Being from a neighbouring country (Kenyan market knowledge does not substitute for Ugandan market knowledge)
 
 ### Reviewer Sign-Off
-
 The audit report must record:
 
 > *Reviewed by: [Name] | Qualification: [Direct knowledge basis] | Date: [Date] | Finding: [Pass / Requires correction / Reject and regenerate]*
 
----
-
 ## Part 6: Correction Protocol
-
 When the audit identifies bias or inaccuracy, apply corrections in the following order:
 
 1. **Reject and regenerate** — if the bias is structural and pervasive, do not attempt to patch the AI output; regenerate with a more specific, culturally grounded prompt
@@ -194,7 +201,6 @@ When the audit identifies bias or inaccuracy, apply corrections in the following
 4. **Visual brief revision** — for image briefs or visual descriptions, revise the brief with explicit cultural markers and regenerate; do not use a Western-default image with a localised caption
 
 ### Prompt Improvement for EA Context
-
 When regenerating AI content for East African markets, include the following specificity in every prompt:
 
 - Name the specific country (Uganda, Kenya, Tanzania) — never "Africa" or "East Africa" alone
@@ -203,10 +209,7 @@ When regenerating AI content for East African markets, include the following spe
 - Specify the language register (formal Ugandan English, Swahili-influenced Kenyan professional English, etc.)
 - Include explicit instruction: *"Do not default to Western aesthetics, Western naming conventions, or Western consumer behaviour patterns"*
 
----
-
 ## Quality Criteria
-
 A well-produced cultural bias audit under this skill:
 
 - Identifies specific instances of bias with precise reference to the checklist item failed, not vague general observations
@@ -218,10 +221,7 @@ A well-produced cultural bias audit under this skill:
 - Applies the IBM AI Fairness 360 principles of individual fairness, group fairness, and counterfactual fairness as the evaluative standard
 - Produces a signed, dated audit record suitable for the agency's production file
 
----
-
 ## References
-
 - Ching, V. and Mothi, D. (2025) *AI for Creatives: Unlocking Expressive Digital Potential*. CRC Press.
 - IBM Research (2018–present) *AI Fairness 360 (AIF360)* — open-source fairness toolkit. Available at: aif360.mybluemix.net
 - BuzzFeed (2023) — AI Barbie series (documented failure case; original publication and subsequent critical analysis)

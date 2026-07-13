@@ -116,7 +116,9 @@ Every skill and every deliverable should be:
 
 ## Maintenance
 
-- Use `scripts/normalise_skills_for_dual_compat.py` to refresh the shared compatibility sections across skills under `skills/`.
+- Follow `docs/standards/skill-authoring-standard.md` and start new skills from `docs/templates/SKILL.template.md`.
+- Treat `quality-baseline.json` as a zero-debt assertion, not a waiver list. Run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py` before release.
+- The legacy `scripts/normalise_skills_for_dual_compat.py` is not an authoring substitute; it may repair marker syntax only and must not invent domain contracts.
 - Run `skill-safety-audit` for third-party imports or major changes.
 - When a skill approaches the line limit, move detailed material into `references/` and leave only the execution workflow in `SKILL.md`.
 

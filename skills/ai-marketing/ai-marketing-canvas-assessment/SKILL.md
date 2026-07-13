@@ -1,44 +1,80 @@
 ---
 name: ai-marketing-canvas-assessment
-description: >
-  Generates a completed AI Marketing Canvas for a client based on Venkatesan & Lecinski's
-  five-step framework (The AI Marketing Canvas, 2nd ed., Stanford Business Books, 2026).
-  Diagnoses the client's current step (1–5), maps AI readiness across the four customer moments
-  (acquisition, retention, growth, advocacy), and produces a concrete 12-month roadmap. Invoke
-  when a client wants to understand where they stand on AI adoption in marketing and what to do
-  next — particularly useful at strategy kick-off, annual planning, or following an AI audit.
+description: Use when AI Marketing Canvas Assessment is needed to produce a scored assessment for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Marketing Canvas Assessment
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a completed AI Marketing Canvas for a client based on Venkatesan & Lecinski's five-step framework (The AI Marketing Canvas, 2nd ed., Stanford Business Books, 2026). Diagnoses the client's current step (1–5), maps AI readiness across the four customer moments (acquisition, retention, growth, advocacy), and produces a concrete 12-month roadmap. Invoke when a client wants to understand where they stand on AI adoption in marketing and what to do next — particularly useful at strategy kick-off, annual planning, or following an AI audit.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **scored assessment** and the supplied brief falls within ai marketing canvas assessment.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified scored assessment; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact scored assessment, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete scored assessment; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Scored assessment | Requester, client reviewer or delivery team | The scored assessment addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested scored assessment, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Most businesses talk about AI in marketing without knowing where they actually stand or what
 "progress" looks like for their size and context. This skill produces a completed AI Marketing
 Canvas — a structured diagnostic and roadmap grounded in Venkatesan and Lecinski's (2026)
@@ -51,10 +87,7 @@ This skill focuses on canvas completion and roadmap output.
 **Framework source:** Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd ed.
 Stanford Business Books.
 
----
-
 ## Required Input
-
 Before generating any output, ask for the following:
 
 1. **Client business name** — the trading name used in all deliverables.
@@ -68,10 +101,7 @@ Before generating any output, ask for the following:
 7. **Monthly marketing budget range (UGX)** — approximate band: under 500k, 500k–2M, 2M–10M,
    10M+. If a different currency applies, note it.
 
----
-
 ## Step 1 — Run the Canvas Diagnostic
-
 Ask the client the following nine questions. Record yes/no answers.
 
 | # | Diagnostic Question | Step Indicator |
@@ -99,16 +129,12 @@ Ask the client the following nine questions. Record yes/no answers.
 State the diagnosed step clearly at the top of the canvas output. Be honest: most East African
 SMEs will land at Step 1 or Step 2. Do not inflate the diagnosis.
 
----
-
 ## Step 2 — Complete the AI Marketing Canvas
-
 The canvas has five steps (rows) and four customer moments (columns), producing 20 cells.
 Populate every cell for the client's **current step** and **next step** in full. Summarise the
 remaining steps in one sentence each.
 
 ### The Five Steps
-
 **Step 1 — Foundation**
 AI is not yet deployed. The focus is data infrastructure and organisational readiness.
 
@@ -127,21 +153,18 @@ budget allocation.
 AI enables new business models and entirely new customer value propositions.
 
 ### The Four Customer Moments (Columns)
-
 - **Acquisition** — attracting new customers: awareness, consideration, trial.
 - **Retention** — keeping customers engaged: satisfaction, loyalty, repeat purchase.
 - **Growth** — increasing customer value: upsell, cross-sell, referral.
 - **Advocacy** — turning customers into brand promoters: UGC, referral, word-of-mouth.
 
 ### Canvas Cell Content
-
 For each cell at the client's current and next step, include:
 - **AI capability** — what AI tool or technique is deployed here.
 - **Data required** — what data the client needs to make this work.
 - **Expected result** — what measurable outcome this produces.
 
 ### Reference Cell Content by Step and Moment
-
 Use the following as the basis for populating cells, adapted to the client's context.
 
 **Step 1 — Foundation**
@@ -189,10 +212,7 @@ Use the following as the basis for populating cells, adapted to the client's con
 | Growth | AI identifies and creates new revenue streams from existing customer relationships | Full data platform | New business model lines |
 | Advocacy | Community AI — AI tools that advocates use to create and share content | Community platform data | Advocate-led growth at scale |
 
----
-
 ## Step 3 — Produce the 12-Month Roadmap
-
 Structure the roadmap by quarter. Every action must include a named tool or channel, a named metric,
 and a Q assignment.
 
@@ -226,10 +246,7 @@ and a Q assignment.
 - Metric: step movement (did the client advance one step?), Year 2 AI investment recommendation
   in UGX.
 
----
-
 ## Step 4 — Write the Plain-Language Summary
-
 After the canvas and roadmap, produce a section titled **"What This Means for Your Business"**.
 
 This section must:
@@ -239,10 +256,7 @@ This section must:
 - Be honest about the gap between current state and transformation — do not promise shortcuts.
 - Be written as if speaking directly to a business owner, not a marketing professional.
 
----
-
 ## Step 5 — Monetisation
-
 At this stage, AI capabilities become a source of competitive advantage and new revenue:
 - AI-powered products or services sold to customers (e.g. a personalisation engine licensed to partners)
 - Proprietary audience data monetised through partnerships
@@ -251,10 +265,7 @@ At this stage, AI capabilities become a source of competitive advantage and new 
 
 **Consultancy note:** Most EA clients will not reach Step 5 within a 12-month engagement. Frame it as a 3–5 year horizon goal and use it to demonstrate the long-term value of starting the Canvas journey now.
 
----
-
 ## East Africa Context Notes
-
 Apply these adaptations throughout the canvas and roadmap:
 
 - **Data scarcity** — most EA SMEs have no CRM; customer data lives in WhatsApp groups,
@@ -270,10 +281,7 @@ Apply these adaptations throughout the canvas and roadmap:
 - **Most EA SMEs are at Step 1–2** — calibrate ambition accordingly. A Step 2 roadmap executed
   well is more valuable than a Step 4 roadmap that cannot be implemented.
 
----
-
 ## Agile Sprint Approach (Venkatesan and Lecinski, 2026)
-
 AI marketing initiatives fail when treated as annual strategic plans. Recommend monthly sprint cycles:
 
 1. **Sprint planning (Day 1):** Select one AI use case to test this month
@@ -284,10 +292,7 @@ AI marketing initiatives fail when treated as annual strategic plans. Recommend 
 
 KPI for each sprint: measure lift vs human-led control. A 10% improvement justifies scaling.
 
----
-
 ## AI-to-AI Marketing Readiness (Venkatesan and Lecinski, 2026)
-
 As consumers increasingly use AI agents (ChatGPT, Perplexity, Google Gemini) to research, compare, and purchase, brands must be readable by machines as well as humans. Assess:
 
 - Are product pages structured with clear, machine-parseable pricing and features?
@@ -297,10 +302,7 @@ As consumers increasingly use AI agents (ChatGPT, Perplexity, Google Gemini) to 
 
 This is a 2–5 year horizon for most EA markets but should inform content architecture decisions now. Brands that are not AI-readable risk becoming invisible as AI-native search and AI shopping agents become mainstream.
 
----
-
 ## Quality Criteria
-
 Output meets standard when it:
 
 - Diagnoses the client's step based on evidence from the nine questions, not aspiration or
@@ -317,10 +319,7 @@ Output meets standard when it:
   plan the client cannot execute.
 - Cites Venkatesan and Lecinski (2026) on first use of the framework.
 
----
-
 ## References
-
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd ed. Stanford Business Books.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.

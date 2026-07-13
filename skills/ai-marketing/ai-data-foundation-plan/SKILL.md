@@ -1,45 +1,80 @@
 ---
 name: ai-data-foundation-plan
-description: >
-  Audits a client's existing data assets, designs a customer-focused minimum
-  viable data schema, and produces a 90-day action plan to build the data
-  infrastructure required for AI marketing. Invoke this skill when a client at
-  Canvas Step 1 (Foundation) needs to structure their data before any AI tools
-  can function, or when a client at Step 2–3 discovers data gaps that limit AI
-  effectiveness. Based on Venkatesan and Lecinski (2026) The AI Marketing
-  Canvas, 2nd edition, Stanford Business Books.
+description: Use when AI Data Foundation Plan is needed to produce an implementation plan for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Data Foundation Plan
 
-<!-- dual-compat:start -->
-## Use when
-- Audits a client's existing data assets, designs a customer-focused minimum viable data schema, and produces a 90-day action plan to build the data infrastructure required for AI marketing. Invoke this skill when a client at Canvas Step 1 (Foundation) needs to structure their data before any AI tools can function, or when a client at Step 2–3 discovers data gaps that limit AI effectiveness. Based on Venkatesan and Lecinski (2026) The AI Marketing Canvas, 2nd edition, Stanford Business Books.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **implementation plan** and the supplied brief falls within ai data foundation plan.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified implementation plan; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact implementation plan, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete implementation plan; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Implementation plan | Requester, client reviewer or delivery team | The implementation plan addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested implementation plan, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Produce a structured data foundation action plan grounded in Canvas Step 1 of
 Venkatesan and Lecinski's *The AI Marketing Canvas* (2nd ed., 2026). AI is
 only as good as the data it is trained on. A client with poor data will get
@@ -58,10 +93,7 @@ After completing this plan, refer the client to `ai-readiness-diagnostic` to
 confirm their Canvas step progression, and to `ai-vendor-evaluation` when
 selecting CRM or AI tools.
 
----
-
 ## Required Inputs
-
 Ask for the following before generating any output:
 
 1. **Client business name** — trading name and legal entity if different
@@ -76,10 +108,7 @@ Ask for the following before generating any output:
    the client to describe their AI marketing activity to date
 8. **Existing CRM or data tool** — name and version, or "none"
 
----
-
 ## Step 1 — Data Asset Inventory
-
 Map all current data sources across five categories. For each source identified,
 record the four attributes listed below.
 
@@ -107,10 +136,7 @@ record the four attributes listed below.
 Present the inventory as a table. Flag any source rated below 50% completeness
 or updated less than monthly as a priority gap.
 
----
-
 ## Step 2 — Data Quality Assessment
-
 Rate each data source on four dimensions. Target scores are noted; flag any
 source below target.
 
@@ -140,10 +166,7 @@ source below target.
 Produce a quality scorecard table with one row per data source and columns for
 each dimension. Assign RAG status (Red / Amber / Green) per cell.
 
----
-
 ## Step 3 — Minimum Viable Customer Schema
-
 Design the client's minimum viable customer record — the specific fields
 required for their stated marketing goal. Do not produce a generic schema;
 tailor fields to the client's industry and goal.
@@ -184,16 +207,12 @@ tailor fields to the client's industry and goal.
 For each field in the schema, note: (a) whether it currently exists in a data
 source, (b) the source location, and (c) what action is needed to populate it.
 
----
-
 ## Step 4 — 90-Day Data Foundation Plan
-
 Produce a task-level plan with named deliverables per 30-day block. Assign a
 responsible role (e.g., Marketing Manager, IT Officer, Data Analyst) to each
 task. Milestones must be concrete and measurable — not vague objectives.
 
 ### Days 1–30: Audit and Clean
-
 - **Week 1** — Complete the data asset inventory (Step 1). Produce the
   inventory table and share with senior management for sign-off.
 - **Week 2** — Run the data quality assessment (Step 2) on the top three data
@@ -206,7 +225,6 @@ task. Milestones must be concrete and measurable — not vague objectives.
   the record template.
 
 ### Days 31–60: Consolidate
-
 - Migrate all customer records from existing sources into the chosen CRM.
 - Apply the minimum viable schema to all migrated records; flag incomplete
   records for follow-up.
@@ -218,7 +236,6 @@ task. Milestones must be concrete and measurable — not vague objectives.
   consent.
 
 ### Days 61–90: Connect and Test
-
 - Connect the clean data source to the first AI or automation tool identified
   in the client's marketing goal (e.g., Mailchimp for email segmentation;
   Africa's Talking for SMS broadcast; HubSpot workflows for lead nurturing).
@@ -229,10 +246,7 @@ task. Milestones must be concrete and measurable — not vague objectives.
   full minimum viable schema. Set a target of 70%+ by Day 90, 90%+ by
   Month 6.
 
----
-
 ## Uganda Data Protection and Privacy Act 2019 — Compliance
-
 Address the following requirements explicitly in the plan output.
 
 **Obligations relevant to marketing data:**
@@ -248,8 +262,6 @@ Address the following requirements explicitly in the plan output.
 
 **Consent capture template — include this verbatim in the output, adapted to
 the client's name and service:**
-
----
 
 > **[CLIENT NAME] — Data Consent Notice**
 >
@@ -267,16 +279,11 @@ the client's name and service:**
 > Data is retained for [X] years or until you request deletion.
 > This notice complies with the Uganda Data Protection and Privacy Act 2019.
 
----
-
 Adapt the retention period and contact channels to the client's actual
 practice. Translate into Luganda or Swahili if the client's primary customer
 base is not English-speaking.
 
----
-
 ## Recommended CRM Tools for the EA Market
-
 Recommend one tool from this table based on client size and budget. Cross-
 reference with `ai-vendor-evaluation` for a full tool selection process.
 
@@ -296,10 +303,7 @@ reference with `ai-vendor-evaluation` for a full tool selection process.
 - If the client is an NGO or CSO: apply for Salesforce Nonprofit first.
 - If the client has complex relational data needs: Airtable.
 
----
-
 ## Quality Criteria
-
 Assess the output against these criteria before delivering to the client:
 
 - The data asset inventory is exhaustive — it includes WhatsApp contacts,
@@ -321,10 +325,7 @@ Assess the output against these criteria before delivering to the client:
   and what Canvas step the client will be ready to attempt once that target
   is met.
 
----
-
 ## Output Format
-
 Deliver the plan in five clearly labelled sections matching the steps above:
 
 1. Data Asset Inventory (table)

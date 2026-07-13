@@ -1,40 +1,79 @@
 ---
 name: policy-ai-ip-and-copyright
-description: >
-  Generates a formal agency policy document on intellectual property and copyright for AI-assisted creative work.
-  Covers IP ownership of AI-assisted deliverables, copyright qualification thresholds under UK/US/EU law, disclosure
-  obligations, provenance tracking, and the standard for professional authorship. Invoke when a client asks who owns
-  AI-assisted content, whether AI-generated deliverables can be copyrighted, what the agency's disclosure obligations
-  are, or when onboarding a client who will receive AI-assisted work.
+description: Use when drafting or reviewing an organisational Ai Ip And Copyright policy with roles, approval boundaries, enforcement and evidence. Use playbook-social-media-policy for rollout operations and specialist counsel for legal advice.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Policy: AI, Intellectual Property, and Copyright
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a formal agency policy document on intellectual property and copyright for AI-assisted creative work. Covers IP ownership of AI-assisted deliverables, copyright qualification thresholds under UK/US/EU law, disclosure obligations, provenance tracking, and the standard for professional authorship. Invoke when a client asks who owns AI-assisted content, whether AI-generated deliverables can be copyrighted, what the agency's disclosure obligations are, or when onboarding a client who will receive AI-assisted work.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Draft, revise or assess an organisational Ai Ip And Copyright policy.
+- Define accountable roles, approval thresholds, records and exception handling.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- The request is policy rollout or staff workflow; use `playbook-social-media-policy`.
+- The request needs a binding legal opinion; refer the stated issue to qualified counsel.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Organisation, risk appetite and policy objective | Accountable sponsor or approved brief | Yes | Stop and request sponsor direction |
+| Existing policies, contracts and approval map | HR, legal, communications or governance owner | Conditional | Record the gap and avoid claims of alignment |
+| Applicable law, licence or platform terms | Current official source or qualified adviser | Conditional | Mark legal conclusions unassessed and require review |
+
+## Capability and Permission Boundaries
+Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+## Degraded Mode
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Ai Ip And Copyright policy and implementation checklist plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+## Decision Rules
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Training material, source content or generated output has unclear rights | Do not publish or licence it until provenance and permission are resolved | Copyright infringement or false ownership claim |
+| Rule is an internal operating choice | Draft the control and name its owner | Ownerless policy text |
+| Rule depends on law, contract or platform terms | Verify and cite the governing source | Unsupported compliance claim |
+| Exception could expose people, rights or confidential data | Escalate before approval or publication | Irreversible harm or liability |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
+2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
+3. Apply the decision rules, preserve useful existing material and draft the Ai Ip And Copyright policy and implementation checklist.
+4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
+5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Ai Ip And Copyright policy and implementation checklist | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
+| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+
+## Quality Standards
+Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+## Anti-Patterns
+- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
+- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
+- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
+- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
+- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [East African English standard](../../language/east-african-english/SKILL.md)
+- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+<!-- dual-compat-end -->
 
 ## Purpose
 

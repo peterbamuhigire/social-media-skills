@@ -1,43 +1,82 @@
 ---
 name: ai-strategy-co-thinker
-description: >
-  Uses AI as a strategic thought partner throughout marketing strategy development — not as a drafting tool, but as a challenger, option generator, and assumption tester. Invoke when developing brand strategy, campaign strategy, or social media strategy, and when the consultant needs to explore options, pressure-test logic, or generate alternatives before making recommendations. Distinct from prompt-engineering-library, which handles co-pilot drafting tasks.
+description: Use when AI Strategy Co-Thinker is needed to produce a decision-ready strategy for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Strategy Co-Thinker
 
-Use this skill when the right strategic answer is not yet clear. AI is engaged as a dialogue partner — asking questions, surfacing blind spots, generating competing directions, and stress-testing assumptions. The human consultant selects, refines, and owns all final recommendations.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **decision-ready strategy** and the supplied brief falls within ai strategy co-thinker.
 
----
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-<!-- dual-compat:start -->
-## Use when
-- Uses AI as a strategic thought partner throughout marketing strategy development — not as a drafting tool, but as a challenger, option generator, and assumption tester. Invoke when developing brand strategy, campaign strategy, or social media strategy, and when the consultant needs to explore options, pressure-test logic, or generate alternatives before making recommendations. Distinct from prompt-engineering-library, which handles co-pilot drafting tasks.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified decision-ready strategy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact decision-ready strategy, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete decision-ready strategy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Decision-ready strategy | Requester, client reviewer or delivery team | The decision-ready strategy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested decision-ready strategy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Use this skill when the right strategic answer is not yet clear. AI is engaged as a dialogue partner — asking questions, surfacing blind spots, generating competing directions, and stress-testing assumptions. The human consultant selects, refines, and owns all final recommendations.
 
 ## Required Input
-
 Before beginning, gather the following:
 
 1. **Client business name** — exact trading name
@@ -47,10 +86,7 @@ Before beginning, gather the following:
 5. **Available context documents** — paste or reference: client brief, audit report, audience personas, competitor analysis
 6. **Deadline for strategy delivery** — date the final strategy document is due to the client
 
----
-
 ## Co-Pilot vs Co-Thinker
-
 The core distinction from Farri and Rosani (2025):
 
 | Mode | When to use | What AI does |
@@ -62,10 +98,7 @@ The core distinction from Farri and Rosani (2025):
 
 For Co-Pilot drafting tasks — writing captions, formatting reports, producing first drafts — use `prompt-engineering-library` instead.
 
----
-
 ## Multi-Step Dialogue Sequence for Brand Strategy
-
 Run this five-step conversation before writing any strategy document. Paste AI responses into a working document as you go; these become the evidence base for the strategy.
 
 **Step 1 — Context brief**
@@ -98,10 +131,7 @@ This is the most valuable step. Assumptions that seem obvious are the ones most 
 
 Do not skip to this step. The value of the options depends on the quality of the context built in steps 1–4.
 
----
-
 ## MVOSSTE Workflow with AI
-
 Apply the MVOSSTE framework (Randazzo, 2024) at every strategy stage. Use the prompt templates below; document each prompt and its output before moving to the next stage.
 
 | Stage | AI prompt template |
@@ -116,10 +146,7 @@ Apply the MVOSSTE framework (Randazzo, 2024) at every strategy stage. Use the pr
 
 Each stage builds on the previous. Do not generate tactics before the strategy stage is agreed. Do not write execution plans before tactics are prioritised.
 
----
-
 ## Job-to-be-Done Framing
-
 Shifts the brief from "what should we post?" to "what job is our audience hiring this content to do?" (Randazzo, 2024).
 
 **Prompt:**
@@ -134,10 +161,7 @@ Once the AI returns a list, audit the existing content strategy against it:
 
 Use this audit to justify content pivots or new content pillars in the strategy document.
 
----
-
 ## Campaign Risk Mapping
-
 Use AI to identify and stress-test assumptions before any campaign launches (Farri and Rosani, 2025). Run in three steps:
 
 **Step 1 — Assumption inventory**
@@ -158,10 +182,7 @@ Focus on the top three. A campaign can tolerate minor assumption failures; it ca
 
 Validation methods might include: a soft-launch post to test audience response, a WhatsApp poll to a sample of existing customers, a one-week pilot with a reduced budget. Include the validation plan in the campaign brief so the client knows the strategy has been tested before full deployment.
 
----
-
 ## Prompt Footnoting Practice
-
 Professional standard for AI-assisted strategy work (Randazzo, 2024). Every AI-generated output used in a client document must be cited.
 
 **Format:**
@@ -177,10 +198,7 @@ Add this footnote directly below any table, list, or paragraph drawn from an AI 
 
 Never omit the footnote to make a deliverable look cleaner. If a client asks where an insight came from, the answer must always be available.
 
----
-
 ## Quality Gate
-
 AI generates options; the human consultant selects, refines, and takes responsibility. The following rules are non-negotiable:
 
 - **No direct delivery** — never present AI-generated strategic options directly to a client without human editorial review. Every AI output must pass through the consultant's judgement before it reaches a client.
@@ -188,10 +206,7 @@ AI generates options; the human consultant selects, refines, and takes responsib
 - **Flag unverifiables** — if an AI output makes a claim that cannot be verified against a source, a known data point, or direct client knowledge, flag it before including it in a deliverable. Do not include unverifiable claims in client documents.
 - **Own the recommendation** — the strategy document is signed by the consultant, not by the AI. The consultant is responsible for every recommendation, regardless of which tool was used to generate it.
 
----
-
 ## Quality Criteria
-
 - Multi-step dialogue sequence (all 5 steps) completed before any strategic recommendation is drafted
 - MVOSSTE workflow applied with AI at each stage — all prompts documented with outputs
 - Job-to-be-Done framing applied to at least one strategic question in the brief
@@ -200,10 +215,7 @@ AI generates options; the human consultant selects, refines, and takes responsib
 - Prompt footnoting applied throughout the strategy document — every AI output cited with exact prompt and date
 - Final strategy document reflects the consultant's professional judgement, not a compiled set of AI outputs
 
----
-
 ## References
-
 - Erné, J. (2024) *The Artificial Intelligence Handbook for Management Consultants*.
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
 - Randazzo, G.W. (2024) *Winning Marketing Strategies Using Generative AI*. Business Expert Press.

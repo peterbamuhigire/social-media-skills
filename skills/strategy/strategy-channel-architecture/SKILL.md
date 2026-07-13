@@ -1,9 +1,92 @@
 ---
 name: strategy-channel-architecture
-description: >
-  Designs a multi-platform traffic flow system for a client — defining what role each platform plays, how audiences move between platforms, and how content flows through a hub-and-spoke architecture. Output is a channel architecture map the client can use to allocate effort and budget. Invoke when a client needs to rationalise their platform presence, is spreading effort too thinly, is launching a new social media programme, or needs a clear answer to "which platforms should we be on and what do we do on each one?"
+description: Use when the main deliverable concerns platform roles, audience flows, hub-and-spoke routing, and effort allocation; use peso-integrated-strategy when that neighbouring workflow owns the primary decision.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Strategy: Channel Architecture
+
+<!-- dual-compat-start -->
+## Use When
+
+- Use this skill for platform roles, audience flows, hub-and-spoke routing, and effort allocation.
+- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+
+## Do Not Use When
+
+- Use `peso-integrated-strategy` when that neighbouring workflow owns the main decision or deliverable.
+- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+
+## Required Inputs
+
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
+| Existing channel, content, commercial, or performance evidence relevant to platform roles, audience flows, hub-and-spoke routing, and effort allocation | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
+| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+
+## Workflow
+
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `peso-integrated-strategy`.
+2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
+3. Apply the domain framework in this skill and use the decision rule below at each branch.
+4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
+5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
+6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+
+## Outputs
+
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Platform roles, audience flows, hub-and-spoke routing, and effort allocation deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
+| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
+| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+
+## Capability and Permission Boundaries
+
+Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+
+## Degraded Mode
+
+If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+
+## Decision Rules
+
+| Choice condition | Action | Failure or risk avoided |
+|---|---|---|
+| The client is spread thinly or lacks a role for each channel | Choose a primary hub and explicit support roles | Every channel receives equal effort without a conversion path |
+| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
+| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+
+## Quality Standards
+
+- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
+- Tie recommendations to observed evidence, a named assumption, or a verification action.
+- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
+- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+
+## Anti-Patterns
+
+- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
+- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
+- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
+- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
+- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
+- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+
+## References
+
+- [AGENTS.md](../../../AGENTS.md)
+<!-- dual-compat-end -->
 
 Designs a hub-and-spoke channel architecture — defining the conversion hub, assigning platform roles, mapping the customer traffic flow, and allocating content production effort. Based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) and adapted for the Uganda/East Africa market.
 
@@ -11,33 +94,6 @@ Cross-reference: `05-social-media-strategy` (overall strategy context), `10-cont
 
 ---
 
-<!-- dual-compat:start -->
-## Use when
-- Designs a multi-platform traffic flow system for a client — defining what role each platform plays, how audiences move between platforms, and how content flows through a hub-and-spoke architecture. Output is a channel architecture map the client can use to allocate effort and budget. Invoke when a client needs to rationalise their platform presence, is spreading effort too thinly, is launching a new social media programme, or needs a clear answer to "which platforms should we be on and what do we do on each one?".
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `references/launch-channel-sequencing.md` when channel roles must support a timed launch, event, or campaign sequence.
-
-<!-- dual-compat:end -->
 
 ## Required Input
 

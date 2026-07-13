@@ -1,45 +1,80 @@
 ---
 name: ai-avatar-personalised-video
-description: >
-  Generates an operational guide and all supporting content — tool selection
-  rationale, avatar design brief, scripts, use-case plans, and distribution
-  protocol — for deploying AI avatar video at scale in B2B outreach, client
-  communications, and social content production. Invoke when a client wants
-  to use AI-generated video for personalised outreach or branded video content,
-  when production time on talking-head video needs to be reduced, or when a
-  scalable video communications system is being built.
+description: Use when AI Avatar Personalised Video is needed to produce a AI avatar personalised video deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Avatar Personalised Video
 
-<!-- dual-compat:start -->
-## Use when
-- Generates an operational guide and all supporting content — tool selection rationale, avatar design brief, scripts, use-case plans, and distribution protocol — for deploying AI avatar video at scale in B2B outreach, client communications, and social content production. Invoke when a client wants to use AI-generated video for personalised outreach or branded video content, when production time on talking-head video needs to be reduced, or when a scalable video communications system is being built.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI avatar personalised video deliverable** and the supplied brief falls within ai avatar personalised video.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI avatar personalised video deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI avatar personalised video deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI avatar personalised video deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai avatar personalised video deliverable | Requester, client reviewer or delivery team | The AI avatar personalised video deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI avatar personalised video deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Produce operational plans and production-ready scripts for AI avatar video
 deployments using Synthesia, HeyGen, Tavus, D-ID, or Elai.io. Output covers
 tool selection, avatar design, script writing, distribution, and disclosure
@@ -48,10 +83,7 @@ compliance. Every deliverable is sized for the East African market by default.
 > Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing
 > Teams*. neuroflash. [Statistics on video outreach performance cited below]
 
----
-
 ## Required Input
-
 Before generating any deliverable, ask for:
 
 1. **Client business name** and industry
@@ -64,12 +96,8 @@ Before generating any deliverable, ask for:
    likeness the avatar should represent, or will a stock avatar be used?
 6. **Budget tier** — indicative monthly budget in USD (see platform pricing below)
 
----
-
 ## Section 1 — Tool Selection Guide
-
 ### Platform Comparison
-
 | Platform | Best for | Avatar creation | Languages | Free tier |
 |---|---|---|---|---|
 | Synthesia | Corporate training, branded explainers, polished templates | 230+ stock avatars; custom avatar from upload | 140+ | No (14-day trial) |
@@ -79,7 +107,6 @@ Before generating any deliverable, ask for:
 | Elai.io | Volume production at lower cost; best value for EA price point | Custom avatar from video upload | 75+ | Yes (1 free video/month) |
 
 ### Selection Rules
-
 Apply these rules to select the right platform before starting production:
 
 - **Outreach volume > 100 personalised videos/month:** Use Tavus. Each recipient
@@ -95,7 +122,6 @@ Apply these rules to select the right platform before starting production:
   The price-to-output ratio is the strongest for high-frequency social content.
 
 ### EA Pricing Reference (March 2026)
-
 | Platform | Entry paid plan | Approx. UGX/month |
 |---|---|---|
 | Synthesia | USD 29/month (Starter — 10 min video/month) | ~UGX 107,000 |
@@ -108,12 +134,8 @@ Flag: all platforms require payment by international card or PayPal. MTN Mobile
 Money payment is not directly supported; use Payoneer or Wise to fund an
 international card from a Mobile Money wallet.
 
----
-
 ## Section 2 — Avatar Design to Brand Specification
-
 ### Wardrobe and Visual Identity
-
 - Specify wardrobe colour in the design brief using the client's primary brand
   colour hex code; most platforms allow uploading reference images.
 - Avoid busy patterns or small checks — they compress poorly in MP4 output.
@@ -125,7 +147,6 @@ international card from a Mobile Money wallet.
   branded casual (polo shirt with embroidery) for retail and FMCG.
 
 ### Background
-
 - **Branded background:** Use the client's office, a branded set mockup, or a
   solid brand-colour background. Synthesia, HeyGen, and Elai.io all support
   custom background image uploads.
@@ -135,7 +156,6 @@ international card from a Mobile Money wallet.
   CapCut or Canva's video editor before distribution.
 
 ### Voice: ElevenLabs Integration
-
 Where the client has a human presenter whose voice should match the avatar:
 
 1. Record the presenter reading a 3–5 minute voice sample (clear, neutral pace,
@@ -148,7 +168,6 @@ Where the client has a human presenter whose voice should match the avatar:
    African professional audiences; 1.0x can read as rushed.
 
 ### Approval Protocol
-
 Obtain written client sign-off (email confirmation is sufficient) on:
 
 1. Avatar appearance (screenshot from the platform's preview)
@@ -158,15 +177,11 @@ Obtain written client sign-off (email confirmation is sufficient) on:
 
 Do not proceed to volume production without approval at each stage.
 
----
-
 ## Section 3 — Script Writing for AI Avatars
-
 Script quality is the primary determinant of avatar video quality. AI avatar
 delivery requires a fundamentally different structure to live video.
 
 ### Core Rules
-
 - **Sentence length:** 15 words maximum per sentence. Break longer sentences
   at natural breath points.
 - **No compressed contractions:** Avoid "I'd've", "we'd've", "they'd've" — write
@@ -184,7 +199,6 @@ delivery requires a fundamentally different structure to live video.
   respectful, and specific.
 
 ### Length Limits
-
 - **Outreach video (cold or warm B2B):** 60–90 seconds maximum. Anything longer
   loses the recipient before the CTA.
 - **Client communications (e.g. monthly report summary):** 90–120 seconds.
@@ -193,7 +207,6 @@ delivery requires a fundamentally different structure to live video.
 - **Social content (Reels, TikTok, Facebook short video):** 30–60 seconds.
 
 ### Script Template — B2B Outreach (60–90 seconds)
-
 ```
 (warm, direct)
 Hello [FIRST NAME]. [PAUSE]
@@ -219,7 +232,6 @@ Thank you.
 ```
 
 ### Script Template — Monthly Report Summary (90–120 seconds)
-
 ```
 (professional, warm)
 Hello [CLIENT NAME] team. [PAUSE]
@@ -245,12 +257,8 @@ I am available Thursday if you would like to discuss any of this.
 Thank you.
 ```
 
----
-
 ## Section 4 — Use Cases with EA Application
-
 ### B2B Video Outreach
-
 Personalised video emails achieve 75% open rates and up to 40% response rates,
 compared to 21% average open rates for text-only emails (Roth and neuroflash
 Team, 2024/2025).
@@ -267,7 +275,6 @@ Team, 2024/2025).
   A generic "I saw your company" opener will not perform in this market.
 
 ### Client Communications
-
 - Monthly performance report as a 2-minute avatar video from the account
   manager. Replaces or supplements the PDF report.
 - Use the account manager's own avatar (HeyGen custom avatar from a 60-second
@@ -278,7 +285,6 @@ Team, 2024/2025).
   question the agency fee.
 
 ### Onboarding
-
 - Welcome video for new clients: 90-second avatar video from the managing
   director, welcoming the client and confirming the first three steps.
 - Platform training introduction: a 3-minute explainer on how to read their
@@ -287,7 +293,6 @@ Team, 2024/2025).
   are appropriate for a first impression.
 
 ### Social Content
-
 - Short branded videos for Instagram Reels (30 seconds), TikTok (30–45 seconds),
   and Facebook (45–60 seconds).
 - The avatar handles the talking-head element; pair with B-roll footage or
@@ -298,12 +303,8 @@ Team, 2024/2025).
   consistent presenter. A recurring avatar character builds familiarity over
   time in the same way a brand spokesperson does on television.
 
----
-
 ## Section 5 — Distribution Protocol
-
 ### LinkedIn
-
 - Post the video directly to the LinkedIn feed (native video outperforms links
   in the algorithm).
 - For outreach: send as an InMail with a thumbnail image embedded in the message
@@ -311,7 +312,6 @@ Team, 2024/2025).
 - Add captions; LinkedIn auto-generates them — edit for accuracy before posting.
 
 ### Email
-
 - Do not embed the MP4 file directly. Host the video and use a static thumbnail
   with a play-button overlay as the email image.
 - A GIF preview of the video's first 3 seconds increases click-through rate
@@ -320,7 +320,6 @@ Team, 2024/2025).
   on [TOPIC]" consistently outperforms generic subject lines.
 
 ### WhatsApp (EA Primary Channel)
-
 - Compress the MP4 to under 10MB before sending (use HandBrake, free, or
   CapCut's export settings).
 - Send directly to known contacts via WhatsApp Business.
@@ -331,12 +330,8 @@ Team, 2024/2025).
   increases video opens in the EA market — the voice note signals a genuine
   personal message rather than a mass broadcast.
 
----
-
 ## Section 6 — Disclosure Requirements
-
 ### Legal Obligation
-
 Under EU AI Act Article 4 (effective August 2026) and emerging global norms,
 any video using an AI avatar that is not a real person must be disclosed as
 AI-generated.
@@ -349,7 +344,6 @@ operation, because:
   is a brand asset.
 
 ### Standard Disclosure Language
-
 Include this line in every AI avatar video communication:
 
 > "This message was delivered by an AI avatar on behalf of [FULL NAME],
@@ -361,7 +355,6 @@ Place the disclosure:
 - In the video description on any platform that supports it
 
 ### Custom Avatar Disclosure
-
 When the avatar uses a real person's likeness and voice (cloned via ElevenLabs
 or a platform's custom avatar tool), add:
 
@@ -369,14 +362,10 @@ or a platform's custom avatar tool), add:
 > with their consent."
 
 ### Client Approval
-
 Obtain written client approval of the disclosure approach before any video is
 sent to a third party. Document the approval in the client's folder.
 
----
-
 ## Quality Criteria
-
 - The correct platform is selected using the selection rules in Section 1;
   the rationale is stated in one sentence referencing the client's primary goal
   and volume requirement
@@ -396,10 +385,7 @@ sent to a third party. Document the approval in the client's folder.
 - Volume production does not begin until the pilot video has been approved
   in writing
 
----
-
 ## Related Skills
-
 - **`biz-dev-video-outreach`** — use for the full video outreach sequence
   (messaging strategy, follow-up cadence, CRM tracking) that AI avatar videos
   feed into
@@ -409,10 +395,7 @@ sent to a third party. Document the approval in the client's folder.
 - **`playbook-content-production`** — use for the full content production
   workflow that AI avatar social videos sit within
 
----
-
 ## References
-
 - Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing
   Teams*. neuroflash. [Video outreach performance statistics; distribution
   CTR data]

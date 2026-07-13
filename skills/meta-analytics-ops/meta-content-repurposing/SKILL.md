@@ -1,36 +1,98 @@
 ---
 name: meta-content-repurposing
-description: "Generates a content repurposing plan to maximise output from each piece of content the client produces. Covers the Content Factory model, a platform repurposing matrix, 10 worked repurposing chains, a weekly workflow for social media managers, and guidance on what not to repurpose. Invoke this skill when a client has limited content production capacity, when building a content calendar with a small team, or when a client asks how to get more mileage from content they already create."
+description: "Use when turning a proven source asset into channel-appropriate derivatives without duplicating it blindly. Produces content repurposing map and production sequence; use `meta-evergreen-content-strategy` when that neighbouring contract is the closer match."
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Content Repurposing Plan
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a content repurposing plan to maximise output from each piece of content the client produces. Covers the Content Factory model, a platform repurposing matrix, 10 worked repurposing chains, a weekly workflow for social media managers, and guidance on what not to repurpose. Invoke this skill when a client has limited content production capacity, when building a content calendar with a small team, or when a client asks how to get more mileage from content they already create.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+<!-- dual-compat-start -->
+## Use When
 
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+- Use this skill for turning a proven source asset into channel-appropriate derivatives without duplicating it blindly.
+- Confirm that `meta-evergreen-content-strategy` is not the closer route before proceeding.
 
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+## Do Not Use When
+
+- Use `meta-evergreen-content-strategy` when its narrower output is requested.
+- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+
+## Required Inputs
+
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Approved source assets, audience and channel constraints | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
+| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
 
 ## Outputs
-- A structured audit, report, model, or analytical framework in markdown, with decisions and recommendations tied to evidence.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Content repurposing map and production sequence | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+
+<!-- dual-compat-end -->
+
+## Capability and permission boundary
+
+Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+
+## Degraded mode
+
+If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified content repurposing map and production sequence. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+
+## Decision rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Approved source assets, audience and channel constraints is current and attributable | Produce the full content repurposing map and production sequence and cite the evidence used. | Decisions based on stale or unrelated evidence. |
+| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The requested outcome belongs to `meta-evergreen-content-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+
+## Workflow
+
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-evergreen-content-strategy` if its contract is closer.
+2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
+3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
+4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
+5. Produce the content repurposing map and production sequence, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
+6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+
+## Quality Standards
+
+The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+
+## Anti-Patterns
+
+- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
+- Producing the content repurposing map and production sequence without approved source assets. Fix: stop the affected decision or issue a clearly bounded partial output.
+- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
+- Absorbing `meta-evergreen-content-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
+
+## Worked example
+
+Given verified approved source assets, the skill produces a content repurposing map and production sequence with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
+
+## Read next
+
+- [`meta-evergreen-content-strategy`](../meta-evergreen-content-strategy/SKILL.md) for the neighbouring contract.
+- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `references/repurposing-for-launch-and-clusters.md` when the repurposing plan must support a launch, campaign, funnel, or topic cluster rather than volume alone.
 
-<!-- dual-compat:end -->
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
 
@@ -121,16 +183,16 @@ One Tier 1 piece → 5 Tier 2 pieces → 4 Tier 3 pieces = **10 platform slots f
 
 ## 2. Platform Repurposing Matrix
 
-Use this matrix to determine what each source content type can produce. ✅ = viable repurpose. ❌ = not appropriate (either technically impossible or would perform poorly).
+Use this matrix to determine what each source content type can produce. `Yes` means viable; `No` means technically unsuitable or likely to perform poorly.
 
 | Source content | YouTube Short | TikTok | Instagram Reel | LinkedIn post | Blog summary | WhatsApp broadcast | X/Twitter thread |
 |---|---|---|---|---|---|---|---|
-| YouTube video (5–10 min) | ✅ 60s clip | ✅ hook clip | ✅ clip | ✅ key insight post | ✅ summary post | ✅ tip snippet | ✅ thread |
-| Blog post (1,200+ words) | ❌ | ✅ visual explainer | ✅ carousel slides | ✅ insight post | ❌ (it is the blog) | ✅ key tip | ✅ thread |
-| LinkedIn article | ❌ | ✅ key insight video | ✅ carousel | ❌ (it is the post) | ✅ expanded version | ✅ snippet | ✅ thread |
-| Instagram Reel | ✅ repost | ✅ repost/adapt | ❌ (it is the Reel) | ✅ link post with commentary | ❌ | ✅ teaser | ✅ commentary post |
-| Podcast / audio | ✅ audiogram | ✅ audiogram | ✅ audiogram | ✅ transcript excerpt | ✅ show notes summary | ✅ key quote | ✅ thread |
-| Webinar recording | ✅ highlight clip | ✅ key moment clip | ✅ clip | ✅ key insight post | ✅ summary with CTA | ✅ one takeaway | ✅ thread |
+| YouTube video (5–10 min) | Yes: 60s clip | Yes: hook clip | Yes: clip | Yes: key insight post | Yes: summary post | Yes: tip snippet | Yes: thread |
+| Blog post (1,200+ words) | No | Yes: visual explainer | Yes: carousel slides | Yes: insight post | No: it is the blog | Yes: key tip | Yes: thread |
+| LinkedIn article | No | Yes: key insight video | Yes: carousel | No: it is the post | Yes: expanded version | Yes: snippet | Yes: thread |
+| Instagram Reel | Yes: repost | Yes: repost/adapt | No: it is the Reel | Yes: link post with commentary | No | Yes: teaser | Yes: commentary post |
+| Podcast / audio | Yes: audiogram | Yes: audiogram | Yes: audiogram | Yes: transcript excerpt | Yes: show notes summary | Yes: key quote | Yes: thread |
+| Webinar recording | Yes: highlight clip | Yes: key moment clip | Yes: clip | Yes: key insight post | Yes: summary with CTA | Yes: one takeaway | Yes: thread |
 
 **Audiogram:** A static or animated image with an audio waveform overlay, used to share podcast or spoken-word content on visual platforms. Tools: Headliner (free tier), Canva (audio visualiser). Effective on Instagram and TikTok for podcast content.
 
@@ -285,4 +347,3 @@ Apply the **Hero/Hub/Hygiene** model (YouTube / Google) alongside the Content Fa
 *Handley, A. and Chapman, C. (2012) Content Rules. Hoboken: Wiley.*
 *Nemo, J. (2017) Content Marketing Made Easy. Self-published.*
 *Meerman Scott, D. (2022) The New Rules of Marketing and PR. 8th edn. Hoboken: Wiley.*
-

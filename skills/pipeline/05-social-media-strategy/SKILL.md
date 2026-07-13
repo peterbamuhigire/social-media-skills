@@ -1,6 +1,11 @@
 ---
 name: 05-social-media-strategy
-description: Generates the master social media strategy document — the primary deliverable for strategy-only client engagements. Applies the POEM model and RACE framework as structural backbones. Invoke when a client has completed onboarding (01-client-brief, 02-platform-audit, 03-audience-personas, 04-brand-voice-intake) and needs a comprehensive, board-ready social media strategy document.
+description: "Use when producing the master social-media strategy after onboarding and audit. Produces board-ready social-media strategy and implementation priorities; use `06-digital-marketing-strategy` when that neighbouring contract is the closer match."
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Social Media Strategy Generator
 
@@ -34,33 +39,90 @@ A healthy content plan addresses all three. A plan heavy on M (promotional) with
 
 ---
 
-<!-- dual-compat:start -->
-## Use when
-- Generates the master social media strategy document — the primary deliverable for strategy-only client engagements. Applies the POEM model and RACE framework as structural backbones. Invoke when a client has completed onboarding (01-client-brief, 02-platform-audit, 03-audience-personas, 04-brand-voice-intake) and needs a comprehensive, board-ready social media strategy document.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+<!-- dual-compat-start -->
+## Use When
 
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
+- Use this skill for producing the master social-media strategy after onboarding and audit.
+- Confirm that `06-digital-marketing-strategy` is not the closer route before proceeding.
 
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+## Do Not Use When
+
+- Use `06-digital-marketing-strategy` when its narrower output is requested.
+- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+
+## Required Inputs
+
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Approved brief, audit, personas, voice guide, objectives and budget boundary | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
+| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
 
 ## Outputs
-- A structured onboarding, strategy, or planning document in markdown, ready to hand off to the next skill in the workflow.
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Board-ready social-media strategy and implementation priorities | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+
+<!-- dual-compat-end -->
+
+## Capability and permission boundary
+
+Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+
+## Degraded mode
+
+If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified board-ready social-media strategy and implementation priorities. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+
+## Decision rules
+
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Approved brief, audit, personas, voice guide, objectives and budget boundary is current and attributable | Produce the full board-ready social-media strategy and implementation priorities and cite the evidence used. | Decisions based on stale or unrelated evidence. |
+| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The requested outcome belongs to `06-digital-marketing-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+
+## Workflow
+
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `06-digital-marketing-strategy` if its contract is closer.
+2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
+3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
+4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
+5. Produce the board-ready social-media strategy and implementation priorities, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
+6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+
+## Quality Standards
+
+The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+
+## Anti-Patterns
+
+- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
+- Producing the board-ready social-media strategy and implementation priorities without approved brief. Fix: stop the affected decision or issue a clearly bounded partial output.
+- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
+- Absorbing `06-digital-marketing-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
+
+## Worked example
+
+Given verified approved brief, the skill produces a board-ready social-media strategy and implementation priorities with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
+
+## Read next
+
+- [`06-digital-marketing-strategy`](../06-digital-marketing-strategy/SKILL.md) for the neighbouring contract.
+- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
-- Read `../06-digital-marketing-strategy/references/demand-generation-and-social-operating-system.md` when the social strategy needs stronger demand-generation, owned-audience, channel-role, or experiment logic.
-- Read `../../meta-analytics-ops/meta-social-metrics-framework/references/brand-metrics-customer-journey.md` when social KPIs need to map to brand awareness, consideration, purchase, retention, loyalty, advocacy, or holistic brand health.
 
-<!-- dual-compat:end -->
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
 

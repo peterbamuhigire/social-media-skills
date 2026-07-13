@@ -1,45 +1,83 @@
 ---
 name: content-ideas
-description: Generates 30 fresh content ideas for a client, structured as a table with platform, content type, pillar, and a 2-sentence brief for each idea. Run quarterly as a content bank refresh. Invoke when the user says "give me content ideas", "I need post ideas", "generate content ideas for", "fill the content calendar", or when a quarterly content bank refresh is due. Output includes 30 idea entries plus 5 evergreen series formats.
+description: Use when Content Ideas Generator is needed to produce a prioritised idea set for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Content Ideas Generator
 
-<!-- dual-compat:start -->
-## Use when
-- Generates 30 fresh content ideas for a client, structured as a table with platform, content type, pillar, and a 2-sentence brief for each idea. Run quarterly as a content bank refresh. Invoke when the user says "give me content ideas", "I need post ideas", "generate content ideas for", "fill the content calendar", or when a quarterly content bank refresh is due. Output includes 30 idea entries plus 5 evergreen series formats.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **prioritised idea set** and the supplied brief falls within content ideas generator.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified prioritised idea set; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact prioritised idea set, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete prioritised idea set; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Prioritised idea set | Requester, client reviewer or delivery team | The prioritised idea set addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested prioritised idea set, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `references/source-buckets-and-series.md` when idea generation should be organised by source buckets, repeatable series, and clearer next-step logic.
-
-<!-- dual-compat:end -->
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## How to Use This Skill
-
 Collect the Required Input below. Generate 30 content ideas in the table format specified, followed by 5 evergreen content series. Apply all 8 idea generation frameworks. Distribute ideas across all active platforms proportionally. Ideas must be specific to the client's industry and audience — not generic social media advice restated.
 
----
-
 ## Required Input
-
 Ask for the following before generating ideas:
 
 - **Client name** — trading name of the business
@@ -52,10 +90,7 @@ Ask for the following before generating ideas:
 - **Brand tone (3 words)** — from 04-brand-voice-intake
 - **Upcoming campaigns or seasonal dates** — any launches, promotions, or cultural moments to plan around
 
----
-
 ## Output Format
-
 Generate the 30 ideas in this table:
 
 | # | Idea title | Platform | Content type | Pillar | 2-sentence brief |
@@ -64,10 +99,7 @@ Generate the 30 ideas in this table:
 
 After the table, generate the 5 evergreen series.
 
----
-
 ## Distribution Rules
-
 Apply these rules to every batch of 30 ideas:
 
 **Platform distribution** — minimum ideas per active platform:
@@ -98,10 +130,7 @@ Image post, video (short-form), carousel / multi-image, Story or Status update, 
 - Seasonal or cultural hook (Uganda/EA calendar — see Framework 6)
 - UGC prompt (encourages customers to create and share content)
 
----
-
 ## 8 Idea Generation Frameworks
-
 Apply all 8 frameworks when generating the 30 ideas. Each framework should contribute at least 2–3 ideas to the final set.
 
 **Framework 1: The 5 Ws**
@@ -162,25 +191,19 @@ Identify a current trend in the client's industry or in EA popular culture and s
 Who could the brand feature, partner with, or recognise?
 - A supplier or producer story
 - A local business the brand admires (not a competitor)
-- A customer whose story would resonate with others
+- A customer whose story would matter to others
 - A charity or cause the brand supports
 - An influencer or community figure relevant to the audience
 Collaboration content generates goodwill, extends reach to a partner's audience, and creates genuine warmth around the brand.
 
----
-
 ## Output: 30 Content Ideas
-
 [Generate the full table here once Required Input is received. Provide titles that are specific and vivid — not generic. The brief must make it clear what the content looks like and why it will work for this specific audience.]
 
 Example row (Uganda — food and beverage brand):
 
 | 5 | The matoke that travels 40 km to your plate | Instagram | Short video (Reel) | Behind the scenes | Follow the matoke from a Wakiso farm to the restaurant kitchen in 45 seconds. Shows sourcing story and freshness credentials without a word of advertising copy. |
 
----
-
 ## Evergreen Content Series
-
 After the 30-idea table, generate 5 evergreen series — content formats that can be repeated weekly or monthly without running out of material.
 
 For each series, provide:
@@ -201,16 +224,10 @@ For each series, provide:
 
 Generate 5 series specifically tailored to the client's industry, platform mix, and brand tone — not generic formats restated.
 
----
-
 ## Human Authenticity Gate
-
 All content ideas and briefs produced using this skill must pass through the `ai-content-humaniser` before the resulting content is delivered to the client. AI-generated or AI-assisted content ideas must meet the Golden Rule: every idea brief must be specific, culturally grounded, and audience-relevant — as if developed by the most skilled human strategist with deep knowledge of the client's market. Generic, formulaic, or culturally misaligned idea sets are not acceptable regardless of how efficiently they were produced.
 
----
-
 ## Quality Criteria
-
 - [ ] All 30 ideas are specific to the client's industry, audience, and location — no generic filler
 - [ ] Every active platform receives its minimum allocation of ideas
 - [ ] All 8 idea generation frameworks contribute at least 2 ideas each to the set

@@ -1,51 +1,84 @@
 ---
 name: ai-influencer-strategy
-description: >
-  AI-assisted influencer identification, vetting, and campaign design —
-  including the strategic choice between human and virtual/CGI influencers and
-  AI-powered fraud detection. Invoke when a client is planning an influencer
-  campaign and needs a data-informed approach to influencer selection, when
-  engagement fraud is suspected, or when the client is considering virtual
-  influencers as part of a brand innovation initiative. Influencer contracts and
-  payments are out of scope — refer to a lawyer for contractual matters.
+description: Use when AI-Assisted Influencer Strategy is needed to produce a decision-ready strategy for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI-Assisted Influencer Strategy
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **decision-ready strategy** and the supplied brief falls within ai-assisted influencer strategy.
+
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified decision-ready strategy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact decision-ready strategy, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete decision-ready strategy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Decision-ready strategy | Requester, client reviewer or delivery team | The decision-ready strategy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested decision-ready strategy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 **Source:** Ltifi (Ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence*
 
 See also: `08-influencer-marketing-strategy` for the full influencer marketing strategy framework; `meta-social-proof-system` for integrating influencer content with the broader proof strategy.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- AI-assisted influencer identification, vetting, and campaign design — including the strategic choice between human and virtual/CGI influencers and AI-powered fraud detection. Invoke when a client is planning an influencer campaign and needs a data-informed approach to influencer selection, when engagement fraud is suspected, or when the client is considering virtual influencers as part of a brand innovation initiative. Influencer contracts and payments are out of scope — refer to a lawyer for contractual matters.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
-
 ## Required Inputs
-
 Ask for the following before generating any deliverable:
 
 1. **Client business name**
@@ -57,10 +90,7 @@ Ask for the following before generating any deliverable:
 7. **Budget range** (determines which AI vetting tools are accessible; free vs. paid tiers differ significantly)
 8. **Human or virtual influencer** (or confirm the client has not yet considered this choice — address it proactively)
 
----
-
 ## AI-Powered Influencer Identification
-
 AI tools can scan millions of creator accounts to match audience demographics, engagement patterns, content topic affinity, and posting behaviour to a client's target profile. Use AI identification to build a longlist of 20–50 candidates, then apply human judgement for final selection.
 
 **Recommended tools by access level:**
@@ -83,10 +113,7 @@ AI tools can scan millions of creator accounts to match audience demographics, e
 4. Note follower count, engagement rate, content style, and audience comment quality
 5. Add to the longlist for formal vetting
 
----
-
 ## Fraudulent Engagement Detection
-
 Fraudulent engagement (purchased followers, bot activity, fake comments) is widespread across all markets including East Africa. Detect it using AI audit tools and manual signals before committing any campaign budget.
 
 **Red flags detectable via AI tools:**
@@ -108,12 +135,8 @@ Fraudulent engagement (purchased followers, bot activity, fake comments) is wide
 
 **Rejection threshold:** Do not proceed with any influencer whose engagement rate is below 1% at the 100K+ follower level, or whose follower geography does not match the client's target market by at least 60%.
 
----
-
 ## Human vs. Virtual Influencer Decision
-
 ### Human Influencers
-
 **Strengths:**
 - Authenticity signals: audiences have parasocial relationships with human creators — they follow a person, not a brand proposition
 - Community connection: human influencers carry existing trust with their audience
@@ -127,7 +150,6 @@ Fraudulent engagement (purchased followers, bot activity, fake comments) is wide
 **Best for:** Trust-building, community connection, local market penetration, EA campaigns of all types.
 
 ### Virtual / CGI Influencers (e.g. Lil Miquela, Shudu)
-
 **Strengths:**
 - Full message control: the brand controls every word, image, and position taken
 - No scandal risk: no personal controversies, no off-brand behaviour, no fatigue
@@ -138,12 +160,9 @@ Fraudulent engagement (purchased followers, bot activity, fake comments) is wide
 - **Sarcasm and cynicism:** Audiences increasingly view virtual influencers as a corporate pretence rather than a genuine voice, particularly Gen X and Boomer audiences
 - Higher production cost: quality CGI requires significant creative investment
 
-**Best for:** Tech-forward brands, fashion and beauty, Gen Z audiences with high tolerance for digital innovation, international campaigns where brand consistency is paramount.
-
----
+**Best for:** Tech-forward brands, fashion and beauty, Gen Z audiences with high tolerance for digital innovation, and international campaigns that require strict brand consistency.
 
 ## The Parasocial Interaction Scale for Virtual Influencers (Ltifi, 2024)
-
 Audiences evaluate virtual influencers on four dimensions. Assess each before recommending a virtual influencer campaign:
 
 | Dimension | What it measures | Target |
@@ -155,10 +174,7 @@ Audiences evaluate virtual influencers on four dimensions. Assess each before re
 
 Virtual influencer campaigns succeed when admiration and identification are high and uncanny valley rejection and sarcasm are low. Assess using a small audience panel (10–20 members of the target demographic) before committing to full production.
 
----
-
 ## Decision Matrix
-
 | Factor | Choose Human Influencer | Choose Virtual Influencer |
 |---|---|---|
 | Brand risk tolerance | Low | High |
@@ -171,10 +187,7 @@ Virtual influencer campaigns succeed when admiration and identification are high
 
 **EA default recommendation:** For the vast majority of EA clients, human influencers — particularly local micro and nano influencers (1K–100K followers) — produce stronger results than virtual influencers. EA audiences are relationship-oriented, digital trust is still maturing, and virtual influencers have not yet established parasocial credibility in most EA markets.
 
----
-
 ## Campaign Design Principles
-
 Once the influencer is selected and vetted, apply these design principles:
 
 1. **Brief the brief:** Provide a creative brief — not a script. Define the message, the required claim accuracy, the mandatory disclosures ("#ad" or "#sponsored" as required by law), and what is off-limits. Do not write the creator's caption or dictate delivery style.
@@ -183,10 +196,7 @@ Once the influencer is selected and vetted, apply these design principles:
 4. **Content rights:** Agree in writing whether the client has the right to repurpose influencer content as paid social advertising. This is contractual — refer to a lawyer.
 5. **Performance tracking:** Require UTM links for all influencer content linking to the client's website. Track reach, engagement, link clicks, and conversions. See `meta-utm-tracking` for UTM setup.
 
----
-
 ## Quality Criteria
-
 Output meets the standard for this skill if:
 
 - AI identification tools are recommended at appropriate cost tiers — free manual methods are provided for EA clients with limited budgets

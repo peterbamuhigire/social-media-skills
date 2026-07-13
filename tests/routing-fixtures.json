@@ -1,0 +1,32 @@
+{
+  "threshold": 1.0,
+  "top_k": 3,
+  "fixtures": [
+    {"id": "caption-positive", "type": "positive", "prompt": "Use the caption writer to draft three publish-ready Instagram captions from this approved brief", "expected": "caption-writer"},
+    {"id": "blog-positive", "type": "positive", "prompt": "Draft a sourced long-form blog article, not just topic ideas", "expected": "blog-writer"},
+    {"id": "ideas-vs-calendar", "type": "collision", "prompt": "Generate a bank of content ideas; I do not need dates or a publishing calendar", "expected": "content-ideas"},
+    {"id": "calendar-positive", "type": "positive", "prompt": "Build a four-week content calendar with dates, owners, channels and approval status", "expected": "11-content-calendar"},
+    {"id": "platform-instagram", "type": "positive", "prompt": "Create the operating strategy for our Instagram account, formats and engagement", "expected": "platform-instagram"},
+    {"id": "instagram-growth-collision", "type": "collision", "prompt": "Diagnose why Instagram follower growth has stalled and create an experiment plan", "expected": "platform-instagram-growth"},
+    {"id": "whatsapp-commerce", "type": "collision", "prompt": "Design catalogue, WhatsApp ordering, Mobile Money payment and fulfilment workflow", "expected": "social-commerce-strategy"},
+    {"id": "whatsapp-platform", "type": "positive", "prompt": "Plan our WhatsApp channel role, opt-in messaging and account use", "expected": "platform-whatsapp"},
+    {"id": "roi-readonly", "type": "limited-capability", "prompt": "Build a read-only ROI framework with attribution, investment, return and calculation rules from supplied evidence", "expected": "meta-roi-framework"},
+    {"id": "content-audit", "type": "limited-capability", "prompt": "Audit the existing content library in read-only mode and identify keep, update and retire decisions", "expected": "meta-content-audit"},
+    {"id": "ai-slop", "type": "positive", "prompt": "Does this campaign copy look AI-generated? Score the slop and cite each finding", "expected": "ai-slop-audit"},
+    {"id": "anti-slop", "type": "positive", "prompt": "Apply real-time anti-slop controls while writing this client-facing post", "expected": "anti-ai-slop"},
+    {"id": "crisis-stop", "type": "failure-path", "prompt": "Prepare a crisis communications response but stop before publishing because legal approval is missing", "expected": "playbook-crisis-communications"},
+    {"id": "healthcare-risk", "type": "failure-path", "prompt": "Create healthcare social content but withhold unverified clinical claims and patient data", "expected": "healthcare"},
+    {"id": "eac-call", "type": "positive", "prompt": "Create an EAC donor call for applications with applicant FAQ, fairness protocol and dissemination evidence log", "expected": "eac-call-for-applications-campaign"},
+    {"id": "export", "type": "positive", "prompt": "Advise an e-commerce company on export market trust, cross-border conversion, partners and CAC limits", "expected": "ecommerce-export-marketing-advisory"},
+    {"id": "geo-page", "type": "collision", "prompt": "Optimise this single article so generative search engines can cite it", "expected": "seo-geo-optimisation"},
+    {"id": "geo-programme", "type": "collision", "prompt": "Audit and monitor our whole content programme for generative search visibility", "expected": "ai-generative-search-optimisation"},
+    {"id": "personal-brand", "type": "positive", "prompt": "Build a personal brand strategy for an individual executive, not a company brand", "expected": "strategy-personal-brand"},
+    {"id": "creator-income", "type": "positive", "prompt": "Create a creator monetisation strategy covering eligibility, partnerships, rate card and digital products", "expected": "strategy-creator-monetisation"},
+    {"id": "beginner-training", "type": "collision", "prompt": "Create social media fundamentals training for complete beginners: what social media is and how it works, before strategy or operational handover", "expected": "training-social-media-fundamentals"},
+    {"id": "team-handover", "type": "collision", "prompt": "Create a two-hour workbook to hand an approved social strategy over to the client team", "expected": "training-client-team"},
+    {"id": "smartphone-video", "type": "positive", "prompt": "Train staff to shoot, light, record audio, edit and export video using their phones", "expected": "training-smartphone-video-production"},
+    {"id": "channel-architecture", "type": "collision", "prompt": "Decide the role of each platform and map how audiences flow through a hub-and-spoke system", "expected": "strategy-channel-architecture"},
+    {"id": "peso", "type": "collision", "prompt": "Coordinate paid, earned, shared and owned media with channel handoffs and budget roles", "expected": "peso-integrated-strategy"},
+    {"id": "demand-data-gap", "type": "failure-path", "prompt": "Forecast stockouts and reorder timing but flag duplicate SQL joins and missing history instead of guessing", "expected": "demand-forecasting"}
+  ]
+}

@@ -1,44 +1,82 @@
 ---
 name: premium-commercial-writing
-description: Cross-cutting premium commercial writing standards for social posts, captions, campaigns, blogs, whitepapers, brochures, proposals, sales pages, email, WhatsApp, and executive content. Apply when copy must sound professional, specific, high-trust, SEO/GEO-aware, and worthy of premium fees rather than generic content production.
+description: Use when Premium Commercial Writing is needed to produce a premium commercial writing deliverable for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Premium Commercial Writing
 
-Use this as a cross-cutting writing layer alongside the primary deliverable skill. It raises ordinary content into premium commercial writing: clearer positioning, stronger proof, better buyer psychology, cleaner search structure, and more confident sales argumentation.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **premium commercial writing deliverable** and the supplied brief falls within premium commercial writing.
 
-<!-- dual-compat:start -->
-## Use when
-- Cross-cutting premium commercial writing standards for social posts, captions, campaigns, blogs, whitepapers, brochures, proposals, sales pages, email, WhatsApp, and executive content. Apply when copy must sound professional, specific, high-trust, SEO/GEO-aware, and worthy of premium fees rather than generic content production.
-- Apply it alongside the primary deliverable skill whenever wording, tone, proof, positioning, offer framing, or editorial quality needs a premium commercial standard.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified premium commercial writing deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Read the requested draft, source text, or surrounding brief before making language decisions.
-2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
-3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+1. Confirm the exact premium commercial writing deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete premium commercial writing deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A reusable premium writing standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Premium commercial writing deliverable | Requester, client reviewer or delivery team | The premium commercial writing deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested premium commercial writing deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Read `references/format-specific-gates.md` when adapting the premium standard to captions, social posts, campaigns, blogs, documents, email, WhatsApp, brochures, or sales copy.
-- Read `references/premium-writing-system.md` when the work needs a full premium edit, message architecture, or quality upgrade.
-- Read `references/search-and-authority-layer.md` when the asset must be SEO/GEO-friendly, citable, or useful for AI-search discovery.
-- Read `references/value-proof-and-offer-architecture.md` when the copy must justify premium fees, reduce price resistance, or support high-ticket conversion.
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Use this as a cross-cutting writing layer alongside the primary deliverable skill. It raises ordinary content into premium commercial writing: clearer positioning, stronger proof, better buyer psychology, cleaner search structure, and more confident sales argumentation.
 
 ## Required Input
-
 Ask for or infer these before upgrading copy:
 
 - Client name, industry, location, and market context.
@@ -53,7 +91,6 @@ Ask for or infer these before upgrading copy:
 If proof, offer, reader, or next step is missing, flag the gap before writing. Premium copy cannot be built from vague claims.
 
 ## Operating Standard
-
 Premium commercial writing is not ornate language. It is disciplined, buyer-centred, specific, and commercially useful.
 
 Every premium asset must do five jobs:
@@ -65,7 +102,6 @@ Every premium asset must do five jobs:
 5. **Compound:** improve search, trust, sales follow-up, and future repurposing value.
 
 ## Workflow
-
 1. **Classify the asset.** Identify whether the piece is primarily for social attention, education, authority, nurture, conversion, search discovery, or sales enablement.
 2. **Choose the paired skill.** Use the most specific skill first, then apply this skill as the premium writing layer.
 3. **Build the message spine:** reader, moment, pain, desired outcome, point of view, mechanism, proof, objection, next step.
@@ -75,7 +111,6 @@ Every premium asset must do five jobs:
 7. **Check commercial integrity.** Confirm the CTA matches the reader's readiness and the offer supports the price or positioning.
 
 ## Premium Writing Tests
-
 - **Specificity test:** Could a competitor use the same copy unchanged? If yes, rewrite.
 - **Proof test:** Does every important claim have evidence, example, mechanism, or source? If not, qualify or cut.
 - **Reader value test:** Does the reader gain useful insight before being asked to act?
@@ -84,7 +119,6 @@ Every premium asset must do five jobs:
 - **Human voice test:** Does it sound like a skilled person with judgement, not a neutral content machine?
 
 ## Output Options
-
 Depending on the request, deliver one of:
 
 - a premium rewrite of the asset
@@ -95,7 +129,6 @@ Depending on the request, deliver one of:
 - a search/GEO-ready structure for long-form content
 
 ## Integration
-
 Use this skill alongside:
 
 - `content-writing` for readability and broad editorial standards.
@@ -110,7 +143,6 @@ Use this skill alongside:
 - `premium-social-selling` for executive, affluent, enterprise, and high-ticket buyers.
 
 ## Quality Criteria
-
 - [ ] The copy has one clear reader, commercial job, message, and next step.
 - [ ] The opening earns attention without hype, vague trend language, or throat-clearing.
 - [ ] Benefits are tied to a mechanism and proof, not stated as unsupported promises.

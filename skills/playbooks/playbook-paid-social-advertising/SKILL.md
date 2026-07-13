@@ -1,35 +1,77 @@
 ---
 name: playbook-paid-social-advertising
-description: Produces a paid social media strategy and campaign brief for clients who have never run social ads or are running them poorly. Covers campaign objective selection, audience targeting tiers, Meta Pixel setup instructions, campaign structure, budget allocation, creative briefing, WhatsApp Click-to-Chat ads, performance metrics, and a monthly reporting template. Does not cover ad operations, bidding, creative production, or copywriting. Invoke this skill when a client wants to start paid social advertising, when a client's existing ads are underperforming, or when a consultant needs to design a paid social plan and hand off a brief to an ads operator.
+description: Use when designing or improving a Paid Social Advertising operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Paid Social Advertising Playbook
+<!-- dual-compat-start -->
+## Use When
+- Build or improve a repeatable Paid Social Advertising workflow for a client or delivery team.
+- Turn an approved objective into roles, controls, handoffs and measurable actions.
 
-<!-- dual-compat:start -->
-## Use when
-- Produces a paid social media strategy and campaign brief for clients who have never run social ads or are running them poorly. Covers campaign objective selection, audience targeting tiers, Meta Pixel setup instructions, campaign structure, budget allocation, creative briefing, WhatsApp Click-to-Chat ads, performance metrics, and a monthly reporting template. Does not cover ad operations, bidding, creative production, or copywriting. Invoke this skill when a client wants to start paid social advertising, when a client's existing ads are underperforming, or when a consultant needs to design a paid social plan and hand off a brief to an ads operator.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Do Not Use When
+- The task is a single-channel presence plan; use the closest `platform-*` skill.
+- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
+| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
+| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
+
+## Capability and Permission Boundaries
+Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+## Degraded Mode
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Paid Social Advertising playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+## Decision Rules
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
+| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
+| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
+2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
+3. Apply the decision rules, preserve useful existing material and draft the Paid Social Advertising playbook.
+4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
+5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Paid Social Advertising playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
+| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+
+## Quality Standards
+Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+## Anti-Patterns
+- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
+- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
+- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
+- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
+- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [East African English standard](../../language/east-african-english/SKILL.md)
+- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+<!-- dual-compat-end -->
 
 ## Required Input
 
@@ -421,25 +463,17 @@ State the campaign objective, total spend for the month, and the single most imp
 | Cold | | | | |
 | Warm | | | | |
 | Retargeting | | | | |
-
 **4. Creative Performance**
 List the top three and bottom three ads by CPL or CTR. State which creatives are being paused and which are being carried forward.
-
 **5. Key Insights**
 Three to five bullet points on what the data showed this month — what worked, what did not, and why.
-
 **6. Recommendations for Next Month**
 Three to five specific, actionable changes to the campaign plan for the coming month. Each recommendation must include the rationale and the expected impact.
-
 **7. Budget Plan for Next Month**
 Updated 50/30/20 audience split with UGX amounts for the coming month, reflecting any reallocation based on this month's performance.
-
 ---
-
 ## Quality Criteria
-
 Output meets production standard when all of the following are satisfied:
-
 - The campaign objective is selected from the three-tier framework (Awareness / Consideration / Conversion) and the rationale for the choice is explicitly stated — "Boost Post" is recommended only where justified
 - All three audience tiers (Cold, Warm, Retargeting) are defined with specific targeting signals and the 50/30/20 budget split is applied and stated in UGX
 - The Meta Pixel section includes a complete developer brief with named standard events and a verification method — the consultant does not install the Pixel
@@ -450,24 +484,17 @@ Output meets production standard when all of the following are satisfied:
 - The creative brief section covers the Three Cs (Contrast, Curiosity, Comedy), the Customer Awareness Timeline, and the image text warning — each ad brief is matched to the audience tier's awareness level
 - The troubleshooting diagnostic is included and follows the eight-step sequence with specific UGX-denominated CPC benchmarks
 - All content uses British English; all budget figures are stated in UGX; video ad guidance reflects mobile data constraints of the EA market
-
 ---
-
 ## References
-
 Consult these linked skills when building or extending the paid social plan:
-
 - `caption-writer/SKILL.md` — all ad copy, headlines, and CTAs; use for every ad creative brief
 - `meta-budget-planner/SKILL.md` — overall digital marketing budget allocation across channels; use before setting the paid social budget if the client does not have a total budget plan
 - `meta-testing-framework/SKILL.md` — structured A/B test design for creative and audience testing; use when more than two creative variants are being tested simultaneously
 - `meta-utm-tracking/SKILL.md` — UTM parameter structure for tracking paid traffic in Google Analytics; use for all website destination ads
 - `meta-reporting/SKILL.md` — full social media analytics and reporting framework; use when the paid report needs to be integrated with organic performance data
 - `playbook-chatbot-strategy/SKILL.md` — WhatsApp automation setup; use when Click-to-Chat ad volume exceeds the team's manual response capacity
-
 ---
-
 **Key citations used in this skill:**
 - Cooper, M.D. (2019) *Help! My Facebook Ads Suck!* (2nd ed.)
 - Marshall, P. (2024) *Ultimate Guide to Facebook Advertising* (4th ed.)
-
 *Platform specifications and EA market benchmarks are calibrated for 2026. Confirm current Meta ad format specifications, CPM benchmarks, and UGX exchange rates before presenting any paid social plan to a client.*

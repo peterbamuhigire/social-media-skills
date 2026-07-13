@@ -73,14 +73,16 @@ When referencing a skill in documentation or prompts, use the full path: `skills
 
 ## Authoring Rules (All Skills)
 
-1. **SKILL.md only** — every skill lives at `skills/<category>/<skill-name>/SKILL.md` with YAML frontmatter (`name` and `description` only). No README.md, CHANGELOG.md, or auxiliary docs.
+The binding contract is `docs/standards/skill-authoring-standard.md`; use `docs/templates/SKILL.template.md` for new skills.
+
+1. **Portable SKILL.md entrypoint** — every skill lives at `skills/<category>/<skill-name>/SKILL.md` with directory-matching `name`, a single-line `Use when` description, and portable Claude Code/Codex metadata. Keep deep material in linked `references/`; do not add README.md or CHANGELOG.md inside skill folders.
 2. **No skills at `skills/` root** — every skill must live inside one of the category subdirectories listed above. Pick the category whose theme best matches the skill; add a new category only when no existing one fits.
 3. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
 4. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
 5. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
-6. **Required Input section** — every skill must ask for: client business name, industry, country/city, and primary goal before generating any deliverable. For strategy, proposal, pricing, platform, reporting, and AI-governance skills, also capture market context, audience context, and relevant compliance or risk context.
-7. **Quality Criteria section** — every skill must include 5–8 bullets defining what good output looks like for that specific skill.
-8. **Frontmatter description** — must state both *what the skill does* and *when to invoke it* (triggers). This is the primary trigger mechanism.
+6. **Composition contracts** — every skill declares sources and absent-input behaviour, outputs and acceptance, evidence, capability permissions, degraded mode, decision risks, stop/recovery workflow, quality standards, five corrected anti-patterns, and direct references.
+7. **Read-only analysis** — audits, reviews, diagnostics, critiques, analysis, and planning default to read-only. Publishing, spend, outreach, production mutation, destructive work, personal-data processing, and certification claims require explicit authority.
+8. **Release gates** — run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json`, `python -X utf8 scripts/routing_smoke_test.py`, repository tests, and canonical per-skill validation. Failure counts must remain empty.
 
 ---
 

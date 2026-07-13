@@ -1,47 +1,85 @@
 ---
 name: content-writing
-description: Copywriting and content creation standards for website pages, blog posts, and all written copy. Covers headlines, ledes, readability, niche vocabulary, scannable formatting, and persuasive structure. Cross-cutting skill — apply whenever generating or editing any website text.
+description: Use when Content Writing Skill is needed to produce a content writing deliverable for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Content Writing Skill
 
-Professional copywriting standards for website copy, blog posts, articles, and all written content. This is a cross-cutting skill — apply these principles whenever creating or editing text for any page.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **content writing deliverable** and the supplied brief falls within content writing skill.
 
-<!-- dual-compat:start -->
-## Use when
-- Copywriting and content creation standards for website pages, blog posts, and all written copy. Covers headlines, ledes, readability, niche vocabulary, scannable formatting, and persuasive structure. Cross-cutting skill — apply whenever generating or editing any website text.
-- Apply it alongside the primary deliverable skill whenever wording, tone, or editorial quality needs control.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-- Do not use this skill as a substitute for the main document, strategy, or copy-generation skill.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified content writing deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Read the requested draft, source text, or surrounding brief before making language decisions.
-2. Apply the rules in this skill consistently across the whole deliverable, not only the obvious problem lines.
-3. Return corrected copy, guidance, or a style-constrained draft that the paired skill can use directly.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not mix British and American English, and do not apply the rules inconsistently across the same deliverable.
+1. Confirm the exact content writing deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete content writing deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A reusable style standard, rewrite, or editing pass that improves another deliverable rather than replacing it.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Content writing deliverable | Requester, client reviewer or delivery team | The content writing deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested content writing deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Read `references/business-vocabulary.md` when you need the deeper framework, examples, or supporting material it contains.
-- Read `references/reader-empathy-and-voc.md` when the copy needs stronger customer language, clearer objections, or better audience empathy.
-- Read `../premium-commercial-writing/SKILL.md` when the copy must meet a premium commercial standard, justify higher fees, or improve proof, positioning, search authority, and conversion value.
+- [caption-writer](caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Professional copywriting standards for website copy, blog posts, articles, and all written content. This is a cross-cutting skill — apply these principles whenever creating or editing text for any page.
 
 ## Required Input
-
 Start with the actual draft, page brief, or source material you are improving. If the audience, goal, or CTA is unclear, clarify those before editing or writing.
 
 ## The Reader-First Rule
-
 Every word exists for the reader, not the writer. Before writing anything, answer:
 - **Who** is the reader? What do they already know?
 - **What** are they looking for? What problem brought them here?
@@ -49,14 +87,10 @@ Every word exists for the reader, not the writer. Before writing anything, answe
 
 Write for the reader all the time. That is what separates content that converts from content that gets ignored.
 
----
-
 ## Headlines & Titles
-
 The headline is the most important element. Five times as many people read the headline as read the body. If the headline fails, everything below it is wasted.
 
 ### Headline Rules
-
 1. **Promise a benefit.** Headlines that promise benefits outperform those that don't.
 2. **Give news.** Readers seek new information — new products, new methods, new insights.
 3. **Select your reader.** Flag down the people you want. If writing for banana farmers, put "banana farmers" in the headline.
@@ -66,7 +100,6 @@ The headline is the most important element. Five times as many people read the h
 7. **Telegraph in simple language.** Readers do not stop to decipher obscure headlines.
 
 ### Headline Formulas That Work
-
 - **How to [achieve desired result]**: "How to Store Bananas for Maximum Shelf Life"
 - **[Number] Ways/Reasons/Steps**: "7 Steps to Higher-Quality Matooke Flour"
 - **Question that mirrors the reader's problem**: "Is Your Banana Crop Vulnerable to Fusarium Wilt?"
@@ -74,47 +107,36 @@ The headline is the most important element. Five times as many people read the h
 - **Direct benefit**: "Reduce Post-Harvest Losses by Half with These Storage Methods"
 
 ### What to Avoid in Headlines
-
 - Clever wordplay the reader won't get
 - Headlines that could apply to any topic (too generic)
 - ALL CAPS for entire headlines (harder to read)
 - Clickbait that the content cannot deliver on
 
----
-
 ## The Lede (Opening)
-
 Your first 10 words are more important than the next 10,000. The lede must sell the reader on continuing.
 
 ### Lede Rules
-
 1. **No throat-clearing.** Do not warm up, set the scene, or provide background before the point. Get to the substance in the first sentence.
 2. **Maximum 11 words in the opening paragraph** (Ogilvy's rule). Short opening paragraphs draw the eye in.
 3. **Lead with the most important information.** Use the inverted pyramid — who, what, where, when, why first. Details follow in descending order of importance.
 4. **Create a reason to keep reading.** The lede either promises useful information, provokes curiosity, or states something surprising.
 
 ### Lede Types
-
 - **News lede**: State the key fact. "BIRDC has released three new banana cultivars resistant to Fusarium TR4."
 - **Problem lede**: Name the reader's pain. "Post-harvest banana losses in East Africa exceed 40% — most of it preventable."
 - **Story lede**: Brief, vivid scene (2-3 sentences max, then get to the point). "A farmer in Bushenyi watched half her harvest rot in three days. The cause was a storage mistake that costs Uganda millions annually."
 - **Question lede**: Ask what the reader is already wondering. "What makes East African highland bananas different from every other cultivar on the planet?"
 
 ### Ledes to Avoid
-
 - Starting with "In today's world..." or "Since the dawn of time..."
 - Background history before the point
 - Definitions from the dictionary
 - Throat-clearing: "This article will explore..." or "It is important to note that..."
 
----
-
 ## Readability
-
 Write at a reading level your audience can easily absorb. For general web audiences, target **grade 8 readability** (Gunning Fog Index of 8).
 
 ### The Fog Index Formula
-
 Fog Index = 0.4 x (average words per sentence + percentage of words with 3+ syllables)
 
 - **Target: 8 or below** for general audiences
@@ -122,7 +144,6 @@ Fog Index = 0.4 x (average words per sentence + percentage of words with 3+ syll
 - **Above 12** means you are losing readers
 
 ### Readability Rules
-
 1. **Noun-then-verb sentence structure.** Put the subject early, follow it closely with the verb. "The consumer foods division increased revenues by 22%" beats "During the third quarter, revenues in the consumer foods division, which covers all packaged goods, were up 22%." Distance between subject and verb is the enemy of clarity.
 2. **Short sentences.** Average 15-20 words per sentence. Mix lengths — some 5-word sentences, some 25-word, but never above 30.
 3. **Short paragraphs.** 1-4 sentences. One idea per paragraph. A single-sentence paragraph is powerful.
@@ -132,7 +153,6 @@ Fog Index = 0.4 x (average words per sentence + percentage of words with 3+ syll
 7. **Cut mercilessly.** If a word adds nothing, delete it. "In order to" → "to." "At this point in time" → "now." "Due to the fact that" → "because."
 
 ### Words That Lose Readers
-
 If readers must look up a word, you've interrupted the flow and may lose them entirely. Prefer the simple alternative:
 
 | Instead of | Write |
@@ -148,33 +168,24 @@ If readers must look up a word, you've interrupted the flow and may lose them en
 | in the event that | if |
 | with regard to | about |
 
----
-
 ## Niche Vocabulary (Thematic Depth)
-
 Every topic has essential words and phrases that naturally appear in expert-written content. Google and readers both recognise this "niche vocabulary" — it signals authority and depth.
 
 ### How to Use Niche Vocabulary
-
 1. **Identify the core terms** for your topic. For banana research, these might include: cultivar, Musa, highland banana, matooke, tissue culture, Fusarium, Black Sigatoka, post-harvest, value chain, smallholder, East African highland.
 2. **Use them naturally.** Do not force keywords. Write as an expert would — the vocabulary emerges from genuine knowledge.
 3. **Cover the topic thoroughly.** A page on "banana tissue culture" that never mentions propagation, plantlets, sterile media, or acclimatisation looks thin to both readers and search engines.
 4. **Different subtopics need different vocabulary.** A page on banana diseases uses different core terms than a page on banana food products.
 
 ### What NOT to Do
-
 - Do not stuff keywords repeatedly (old SEO — Google penalises this)
 - Do not create separate pages for minor keyword variations (one thorough page beats five thin ones)
 - Do not sacrifice readability for keyword inclusion
 
----
-
 ## Scannable Formatting
-
 Readers scan before they read. If scanning reveals nothing useful, they leave.
 
 ### Formatting Rules
-
 1. **Subheadings every 2-3 paragraphs.** Subheads are the signposts — readers should understand the page's content by reading only the subheads.
 2. **Bullet points for lists of 3+ items.** Bullets are faster to scan than embedded lists in prose.
 3. **Bold key phrases** within paragraphs — the words a scanner's eye should catch. Bold the introductory keyword of a bullet, not the entire bullet — bolding everything defeats emphasis and makes lists visually muddy.
@@ -184,7 +195,6 @@ Readers scan before they read. If scanning reveals nothing useful, they leave.
 7. **White space is content.** Generous margins and padding help the eye focus.
 
 ### Bullet Formats (Pick One Per List, Be Consistent)
-
 Three valid formats — choose the one that fits and apply it to every item in that list:
 
 1. **Single words or short phrases** — no period, no full verb (use in feature lists, tag clouds)
@@ -194,13 +204,9 @@ Three valid formats — choose the one that fits and apply it to every item in t
 **Chunking rule:** Working memory holds approximately 7 items. Never exceed 9 items per list. If you have 12 items, split into two grouped lists with a mini-subhead each.
 
 ### Above the Fold
-
 The content visible without scrolling must immediately answer: "Am I in the right place?" and "What's in it for me?" Place the strongest headline, the clearest value proposition, and (on landing pages) a CTA above the fold.
 
----
-
 ## The "So What?" Test
-
 After writing any claim, ask: "So what?" If you cannot answer with a clear, specific benefit or implication, either add the answer or cut the claim. This test applies at sentence, paragraph, and page level.
 
 - "We have 15 years of experience." — So what? → "You get a team that has solved this problem in 23 organisations — and won't repeat the mistakes they made in the first five."
@@ -208,10 +214,7 @@ After writing any claim, ask: "So what?" If you cannot answer with a clear, spec
 
 A claim without a "so what" answer is decoration, not content.
 
----
-
 ## Attribution as Authority
-
 Unsupported claims are assertions. Claims with a source are evidence. Readers trust evidence more, and search engines reward specificity.
 
 **Rule:** Every statistic, research finding, and quoted opinion needs a source. "Who says so?" is the editorial test. If you cannot answer it, either find a source or reframe as an opinion.
@@ -224,14 +227,10 @@ Unsupported claims are assertions. Claims with a source are evidence. Readers tr
 
 **How to cite in web copy:** For blog articles — inline attribution in the sentence ("according to the World Bank") and a linked reference at the end. For landing pages — use the claim directly with attribution in small print below or as a footnote. Do not use footnote numbers in running prose — they interrupt flow.
 
----
-
 ## Unique Value Proposition
-
 Every page must answer: **Why should I read this instead of the hundred other pages on the same topic?**
 
 ### How to Create Unique Value
-
 1. **Original data or research.** Primary research that readers cannot find elsewhere.
 2. **Expert perspective.** Analysis, not just facts — what does this mean for the reader?
 3. **Practical application.** Show how to apply the information, not just what it is.
@@ -240,10 +239,7 @@ Every page must answer: **Why should I read this instead of the hundred other pa
 
 Never regurgitate information available elsewhere without adding a new angle, deeper analysis, or practical guidance. Content that merely restates existing material adds no value.
 
----
-
 ## The WIIFM Principle
-
 Every piece of content — before a word is written — must answer the reader's unspoken question: **"What's In It For Me?"**
 
 *Edwards, Edwards and Douglas (1991)*
@@ -257,7 +253,6 @@ This is not a copywriting technique. It is a complete mental reorientation: stop
 - Lead with that.
 
 ## Features vs Benefits
-
 Always translate features into reader benefits. Features describe what something is; benefits describe what it does for the reader.
 
 | Feature | Benefit |
@@ -269,12 +264,8 @@ Always translate features into reader benefits. Features describe what something
 
 **Rule:** For every feature you mention, immediately follow with the benefit using "so that," "which means," or "this gives you."
 
----
-
 ## Structure Templates
-
 ### Blog Post / Article Structure
-
 ```
 Headline (benefit-driven, specific)
   ↓
@@ -294,7 +285,6 @@ CTA (what should the reader do next?)
 ```
 
 ### Service/Product Page Structure
-
 ```
 Headline (what it does for the reader)
   ↓
@@ -312,7 +302,6 @@ CTA (clear next action)
 ```
 
 ### About Page Structure
-
 ```
 Mission statement (what you do and why it matters)
   ↓
@@ -325,14 +314,10 @@ Team / People (humanise the organisation)
 CTA (connect, partner, learn more)
 ```
 
----
-
 ## Keeping Eyes Moving
-
 Even strong prose needs visual help to keep readers engaged through the full page.
 
 ### Visual Touchpoints
-
 - **Subheads** — the primary eye-catcher when attention drifts
 - **Bold text** — highlights key phrases within paragraphs
 - **Bulleted/numbered lists** — faster to scan than prose
@@ -341,16 +326,12 @@ Even strong prose needs visual help to keep readers engaged through the full pag
 - **Short paragraphs** — white space between paragraphs creates entry points
 
 ### Paragraph Discipline
-
 - Never write more than 3 paragraphs without a subhead
 - Vary paragraph length (1 sentence, then 3 sentences, then 2)
 - A one-sentence paragraph is powerful emphasis — use it for key points
 - Keep paragraphs to 4 lines maximum on screen
 
----
-
 ## Writing Styles
-
 Choose the appropriate voice for each piece:
 
 1. **Journalistic/factual** — impartial, evidence-based, authoritative. Best for: research summaries, industry reports, technical content.
@@ -359,10 +340,7 @@ Choose the appropriate voice for each piece:
 
 The storytelling style builds trust because readers connect with real experiences. But it must always serve the content — never use story as padding.
 
----
-
 ## Quality Standards
-
 Before publishing any page or post, verify:
 
 - [ ] **Headline** promises a specific benefit or gives news
@@ -380,14 +358,10 @@ Before publishing any page or post, verify:
 - [ ] **Captions** on all images (read 2x more than body copy)
 - [ ] **Proofread** — grammar, spelling, factual accuracy checked
 
----
-
 ## Customer-Focused Copy
-
 Your website exists for the visitor, not the business owner. Every page must pass the "you" test.
 
 ### The You/We Ratio
-
 Count "you" and "your" versus "I", "we", "our" on every page. **"You/your" must outnumber "I/we/our" by at least 2:1.** If the ratio is wrong, rephrase:
 
 | Self-centred | Customer-focused |
@@ -398,17 +372,12 @@ Count "you" and "your" versus "I", "we", "our" on every page. **"You/your" must 
 | We offer 24/7 support | You reach a real person any time you need help |
 
 ### No Welcome Text
-
 Never write "Welcome to our website", "Thanks for visiting", or "I invite you to look around." These waste the reader's most valuable seconds — the first impression. Open with what you do and why it matters to them.
 
 ### No Telling Visitors How to Feel
-
 Never write "Isn't it great?", "Easy, right?", or "How awesome is that?" Let the content create the feeling. If you have to tell visitors to feel impressed, the content isn't impressive enough.
 
----
-
 ## The 4 Most Persuasive Words
-
 Research-backed words that increase reader engagement and action (Cialdini, Ariely):
 
 1. **"You"** — immediately signals relevance to the reader. Every sentence with "you" pulls the reader in. Count "you/your" vs "we/our" — "you" must win 2:1 minimum.
@@ -416,14 +385,10 @@ Research-backed words that increase reader engagement and action (Cialdini, Arie
 3. **"Free"** — triggers near-irrational engagement even when the reader knows it is a tactic. Use for lead magnets, guides, consultations. Never fake it.
 4. **"Because"** — adding any reason after "because" increases compliance dramatically (Cialdini: from 60% to 94% in queue experiments). Give a reason for every CTA. "Download the guide **because** your competitors already have it" outperforms "Download the guide."
 
----
-
 ## Assertive Language
-
 Confident copy converts. Tentative language signals doubt about your own offering.
 
 ### Banned Hedge Words
-
 | Ban | Replace with |
 |-----|-------------|
 | Maybe we can work together | Let's work together |
@@ -435,7 +400,6 @@ Confident copy converts. Tentative language signals doubt about your own offerin
 | Possibly / Potentially | [Delete or be specific] |
 
 ### Questions Must Get "Yes"
-
 If you use a question in a headline or CTA, it MUST get a "yes" from the target audience. Questions that prompt "no" or "I don't know" kill conversions.
 
 - Bad: "Ready to upgrade your plan?" (Who is ever ready?)
@@ -445,10 +409,7 @@ If you use a question in a headline or CTA, it MUST get a "yes" from the target 
 
 If unsure whether the question will get a "yes", use a declarative sentence instead.
 
----
-
 ## Awareness-Level Copy Matching
-
 Different visitors know different amounts about their problem and your solution. Match your copy to their awareness level (Eugene Schwartz's 5 stages):
 
 | Stage | What they know | What to say |
@@ -464,33 +425,22 @@ Different visitors know different amounts about their problem and your solution.
 **Contact/pricing pages** target Most Aware — don't re-explain benefits, just make it easy to act.
 **Blog posts** target Unaware and Problem-aware — educate first, sell later.
 
----
-
 ## Memorable Key Messages
-
 From cognitive science: people remember at most 10% of what you tell them. Control WHICH 10%.
 
 ### Rules for Memorable Messages
-
 1. **One key message per page.** If everything is important, nothing is. Decide the single thing you want visitors to remember and repeat it.
 2. **Make it repeatable.** Your key message should be short enough (under 10 words) that a visitor could repeat it to a friend: "They help landlords get paid on time."
 3. **Attach it to a future action.** People remember content that helps them plan their next step. End sections with what the reader should do, not what they should think.
 4. **Use concrete specifics.** "Reduce vacancy rates by 40%" is remembered. "Improve your property performance" is forgotten.
 
----
-
 ## Extended Reference Files
-
 - `references/business-vocabulary.md` — Formal vs informal vocabulary pairs (22 verb pairs, 14 other word pairs); data and statistics language (15 trend phrases, percentage-to-fraction conversion table, approximate figure qualifiers); linking words and transition phrases; market potential and growth phrases for proposals; discourse markers; business phrasal verbs
 
 ## Human Authenticity Gate
-
 All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted copy must meet the Golden Rule: every output must look, feel, and sound as if it was crafted by the most skilled human writer with deep knowledge of the subject matter and the target audience. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
----
-
 ## Integration with Other Skills
-
 This skill is cross-cutting — it applies alongside:
 
 - **language-standards** — tone, grammar, and formality per language (British English, formal French, East African Kiswahili)

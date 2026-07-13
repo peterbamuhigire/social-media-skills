@@ -1,5 +1,7 @@
 # Executive Summary
 
+> Historical capability benchmark. Structural conformance findings in this audit were cleared on 13 July 2026; see [the conformance upgrade record](11-conformance-upgrade-record.md). The 57/100 score remains a capability benchmark, not active repair debt.
+
 Engine: `social-media-skills`
 Root: `C:\wamp64\www\social-media-skills`
 Rank: 8 of 9

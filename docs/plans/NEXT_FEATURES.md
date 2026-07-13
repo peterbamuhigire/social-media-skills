@@ -1,10 +1,17 @@
 # Next Features — social-media-skills
 
-*Last updated: 20 March 2026 (session 5)*
+*Last updated: 13 July 2026*
 
 ---
 
 ## ✅ Recently Completed
+
+### July 2026 — Zero-debt skill composition upgrade
+
+- Normalised all 176 active skills to the portable July 2026 input, output, evidence, capability, degraded-mode, decision, workflow, quality, anti-pattern, and reference contracts.
+- Added the local authoring standard, template, zero-debt baseline, 26 routing fixtures, validator, unit tests, and push/PR CI.
+- Moved long training curricula into five parent-linked references so every active `SKILL.md` remains at or below 500 lines.
+- Structural conformance debt is complete. Future entries should distinguish capability expansion from contract repair.
 
 ### March 2026 (session 6) — Agency Operations Book Synthesis
 *Completed: 20 March 2026*

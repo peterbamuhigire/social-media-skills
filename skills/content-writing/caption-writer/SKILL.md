@@ -1,48 +1,85 @@
 ---
 name: caption-writer
-description: Writes social media captions for any platform from a brief. Generates 3 variations — short, medium, and long — with a hashtag set for each. Invoke when the user says "write a caption", "write captions for", "I need post copy for", "draft some caption options", or when a content brief is provided and the user needs caption text. Also invoke when working through a content calendar and post copy is needed for specific items.
+description: Use when Caption Writer is needed to produce a publication-ready copy for social-media or digital-marketing work; use `email-copywriter` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Caption Writer
 
-<!-- dual-compat:start -->
-## Use when
-- Writes social media captions for any platform from a brief. Generates 3 variations — short, medium, and long — with a hashtag set for each. Invoke when the user says "write a caption", "write captions for", "I need post copy for", "draft some caption options", or when a content brief is provided and the user needs caption text. Also invoke when working through a content calendar and post copy is needed for specific items.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within caption writer.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `email-copywriter` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `email-copywriter` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `references/cta-and-platform-hooks.md` when the caption needs sharper hooks, better CTA wording, or cleaner platform-specific commitment levels.
-- Read `../premium-commercial-writing/SKILL.md` when captions must support premium positioning, executive buyers, high-ticket offers, or stronger proof and value framing.
-
-<!-- dual-compat:end -->
+- [email-copywriter](../email-copywriter/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## How to Use This Skill
-
 Collect the Required Input below. Generate 3 caption variations per request — labelled Short, Medium, and Long — each with a distinct approach, appropriate hashtag set, and platform-specific formatting. Apply British English throughout. Do not reuse the same hook across variations — each must be genuinely different in structure and tone.
 
 When the post supports a premium offer, executive audience, high-ticket service, or trust-sensitive category, apply `premium-commercial-writing` before finalising. The caption should create value, show proof or judgement, and ask for a next step without sounding desperate or discount-led.
 
----
-
 ## Required Input
-
 Ask for the following before writing:
 
 - **Client name / brand name** — the business publishing the post
@@ -58,14 +95,10 @@ Ask for the following before writing:
 - **Any keywords or phrases to include** — mandatory phrases, product names, or campaign lines
 - **Any banned vocabulary** — from 04-brand-voice-intake if available
 
----
-
 ## Platform-Specific Rules
-
 Apply these conventions when generating captions. Do not blend conventions across platforms.
 
 ### Instagram
-
 - Hook in the first line — the first 125 characters appear before the "more" cut; everything depends on this line
 - Use line breaks between paragraphs — Instagram compresses unbroken text
 - Conversational or aspirational tone depending on the brand
@@ -74,7 +107,6 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - No more than 2 emojis in the hook line
 
 ### Facebook
-
 - Warm, community-focused tone; question-based CTAs perform well ("Have you tried this? Let us know below")
 - Optimal length: 40–80 characters for highest organic reach; up to 250 words for storytelling or event posts
 - If the post includes a link, include it in the caption text — not only in the link preview
@@ -82,7 +114,6 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - Write as if speaking to a neighbour, not an audience
 
 ### LinkedIn
-
 - Professional, evidence-based, direct
 - First 2 lines carry the entire weight — they appear before the "see more" cut; make them count
 - No emoji overuse — 0–2 per post, purposeful only
@@ -91,7 +122,6 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - No buzzwords — no "synergy", "leverage", "game-changing", "disruptive"
 
 ### TikTok
-
 - Punchy, casual, hooks the first scroll — caption is secondary to the video but still matters
 - Optimal length: 100–150 characters
 - CTA drives comments: "Comment 'YES' if this resonates" / "Tell me in the comments"
@@ -99,7 +129,6 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - Conversational tone; can be playful — match the energy of the video
 
 ### WhatsApp Broadcast
-
 - Personal and direct — write as if to one person you know
 - Open with "Hi [first name]" or equivalent warm greeting
 - Short paragraphs — one idea per paragraph; easy to read on a small screen
@@ -108,17 +137,13 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - Optimal length: under 150 words; every word must earn its place
 
 ### X / Twitter
-
 - Punchy, take a position, conversational
 - 240–280 characters for a single post; use thread format for longer content (indicate thread breaks with 1/, 2/, etc.)
 - 1–2 hashtags maximum; weave them naturally into the text — do not stack them at the end
 - Hook with a take or observation, not an announcement
 - Conversational, opinionated, direct — not corporate
 
----
-
 ## Caption Quality Standards
-
 Apply to every variation before outputting:
 
 - Hook must work as a standalone sentence that creates curiosity or compels action
@@ -129,10 +154,7 @@ Apply to every variation before outputting:
 - Consistent with brand tone (from 04-brand-voice-intake if provided)
 - Active voice throughout — not "great service is offered by us" but "we offer great service"
 
----
-
 ## EA-Specific Hashtag Communities
-
 Suggest relevant tags from this list when generating hashtag sets for Uganda/EA clients:
 
 **Uganda-specific:** #UgandaTwitter #MadeInUganda #KampalaLife #UgandaEntrepreneur #BuyUgandaBuildUganda #DiscoverUganda #KampalaEats #KampalaFashion #UgandaFood #UgandaTech
@@ -143,17 +165,10 @@ Suggest relevant tags from this list when generating hashtag sets for Uganda/EA 
 
 Select and combine: 1–2 local/city tags + 1–2 niche industry tags + 1–2 community tags for most platforms. Adjust count to match platform conventions above.
 
----
-
 ## Output Format
-
 For each caption request, output in this structure:
 
----
-
 **CAPTION — [Platform] | [Content Type] | [Brand Name]**
-
----
 
 **SHORT VARIATION**
 *Approach: [describe the hook strategy — e.g. question-led / bold statement / curiosity gap]*
@@ -163,8 +178,6 @@ For each caption request, output in this structure:
 *Hashtags:*
 [hashtag set appropriate to platform and count]
 
----
-
 **MEDIUM VARIATION**
 *Approach: [describe the hook strategy — different from Short]*
 
@@ -172,8 +185,6 @@ For each caption request, output in this structure:
 
 *Hashtags:*
 [hashtag set]
-
----
 
 **LONG VARIATION**
 *Approach: [describe the hook strategy — different from Short and Medium]*
@@ -183,20 +194,13 @@ For each caption request, output in this structure:
 *Hashtags:*
 [hashtag set]
 
----
-
 **NOTES FOR THIS POST:**
 - [Any platform-specific recommendation — e.g. "For Instagram, consider placing hashtags in the first comment to keep the caption clean"]
 - [Any timing recommendation if relevant — e.g. "Post between 7–9pm EAT for highest Facebook reach among Kampala audiences"]
 - [Flag if the brief contained ambiguity — e.g. "CTA was not specified — assumed WhatsApp link. Confirm before scheduling."]
 
----
-
 ## Example Application (Uganda — Food and Beverage)
-
 **Brief:** Platform: Instagram | Content type: Photo | Topic: New seasonal menu launch | Key message: Fresh, locally sourced ingredients | CTA: Visit the restaurant this weekend | Tone: Warm, aspirational | Brand: Nakibuuka Kitchen
-
----
 
 **SHORT VARIATION**
 *Approach: Bold statement — leads with the product benefit, not the announcement*
@@ -209,8 +213,6 @@ Our new seasonal menu is here — every ingredient sourced within Central Uganda
 
 *Hashtags:*
 #NakibuukaKitchen #KampalaEats #MadeInUganda #UgandaFood #FarmToTable
-
----
 
 **MEDIUM VARIATION**
 *Approach: Question-led — draws the reader into a shared experience before revealing the offer*
@@ -225,8 +227,6 @@ Visit us at [location] this weekend. Reservations via the link in bio.
 
 *Hashtags:*
 #NakibuukaKitchen #KampalaEats #UgandaFood #MadeInUganda #FarmToTable #KampalaLife #DiscoverUganda
-
----
 
 **LONG VARIATION**
 *Approach: Story-led — opens with a behind-the-scenes narrative before the offer*
@@ -248,16 +248,10 @@ Reservations: link in bio. Walk-ins welcome before 1pm.
 *Hashtags:*
 #NakibuukaKitchen #KampalaEats #UgandaFood #MadeInUganda #FarmToTable #KampalaLife #DiscoverUganda #UgandaEntrepreneur
 
----
-
 ## Human Authenticity Gate
-
 All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted captions must meet the Golden Rule: every caption must look, feel, and sound as if it was crafted by the most skilled human copywriter with deep knowledge of the target audience and their cultural context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
----
-
 ## Quality Criteria
-
 - [ ] Each variation genuinely differs in length and approach — not the same caption padded or shortened
 - [ ] Hook line of each variation is distinct and compelling — three different strategies, not three versions of the same opener
 - [ ] CTA is clear, specific, and matches platform convention (one action only)

@@ -1,42 +1,82 @@
 ---
 name: ai-generative-search-optimisation
-description: Optimise client content for AI-native search engines and LLM citation. Invoke when a client wants their brand and content to appear in ChatGPT, Perplexity, Google AI Overviews, and other generative search results, or when auditing existing content for AI-readiness.
+description: Use when AI Generative Search Optimisation (GEO) is needed to produce a AI generative search optimisation deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Generative Search Optimisation (GEO)
 
-Generative Engine Optimisation (GEO) is the discipline of structuring and writing content so that large language models (LLMs) cite it when answering user queries. This skill guides an audit of existing content, a rewrite using GEO principles, and the setup of an ongoing monitoring protocol.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI generative search optimisation deliverable** and the supplied brief falls within ai generative search optimisation (geo).
 
----
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-<!-- dual-compat:start -->
-## Use when
-- Optimise client content for AI-native search engines and LLM citation. Invoke when a client wants their brand and content to appear in ChatGPT, Perplexity, Google AI Overviews, and other generative search results, or when auditing existing content for AI-readiness.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI generative search optimisation deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI generative search optimisation deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI generative search optimisation deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai generative search optimisation deliverable | Requester, client reviewer or delivery team | The AI generative search optimisation deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI generative search optimisation deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Generative Engine Optimisation (GEO) is the discipline of structuring and writing content so that large language models (LLMs) cite it when answering user queries. This skill guides an audit of existing content, a rewrite using GEO principles, and the setup of an ongoing monitoring protocol.
 
 ## Required Input
-
 Ask the client for the following before generating any deliverable:
 
 1. **Client business name** — the trading name used publicly
@@ -50,10 +90,7 @@ Ask the client for the following before generating any deliverable:
    - Thought leadership and authority
    - Local business discovery (Google Maps, Gemini local answers)
 
----
-
 ## GEO vs SEO — What Changes
-
 Traditional SEO and Generative Engine Optimisation share some foundations but differ in what they optimise for.
 
 **Traditional SEO** optimises for keyword rankings in Google's blue-link results. Success is measured by page position, click-through rate, and organic traffic. The algorithm ranks pages; the user chooses which to click.
@@ -66,10 +103,7 @@ Traditional SEO and Generative Engine Optimisation share some foundations but di
 
 **East Africa relevance:** GEO is forward-looking for Uganda in 2026, but growing fast as urban professionals adopt ChatGPT and Gemini for research. Brands that invest now in GEO-ready content build a durable advantage as AI search adoption accelerates across East Africa. Crucially, GEO foundations — clear structure, explicit facts, author attribution — improve traditional SEO simultaneously at no additional cost.
 
----
-
 ## How LLMs Decide What to Cite
-
 LLMs do not rank pages. They extract, synthesise, and attribute information from content they have been trained on or can retrieve. Prefer content that is:
 
 1. **Factually accurate** — LLMs avoid inaccurate sources to protect the reliability of their answers. Unverifiable claims and marketing hyperbole reduce citation probability.
@@ -79,10 +113,7 @@ LLMs do not rank pages. They extract, synthesise, and attribute information from
 5. **Authoritative** — content linked to from other credible sources signals trustworthiness. Being cited by others increases the likelihood of being cited by AI.
 6. **Regularly updated** — LLMs deprioritise stale content. A visible "Updated March 2026" note signals currency and reliability.
 
----
-
 ## Content Structure for LLM Citation
-
 Apply these structural principles to all new and revised content:
 
 - **Open with a direct answer** — state the key point in the first two sentences. Do not bury the answer after lengthy context-setting.
@@ -93,10 +124,7 @@ Apply these structural principles to all new and revised content:
 - **Include a one-paragraph summary at the top of long articles** — LLMs frequently extract this paragraph for their answer. Write it as if it will be read in isolation.
 - **Add publication date and last-updated date** to all content. Place these in a visible, consistent location — below the title or at the top of the article body.
 
----
-
 ## Machine-Readable Brand Content
-
 As consumers use AI agents to research and make purchase decisions, brands must be readable by machines as well as humans. Venkatesan and Lecinski (2026) argue that brand content must answer the questions an AI agent will ask on behalf of a consumer before a human ever sees the response.
 
 Audit the following elements for each client:
@@ -108,10 +136,7 @@ Audit the following elements for each client:
 - **Customer reviews** — are they present and accessible to crawlers? Reviews are strong citation signals. Testimonials buried in images or JavaScript cannot be read by LLMs.
 - **Differentiators** — is the answer to "why choose [brand] over competitors?" clearly and factually stated? Phrase this as a direct answer, not a tagline.
 
----
-
 ## GEO Content Audit — 10-Point Checklist
-
 For each key page or article, score Yes (1) or No (0). Apply to the homepage, top five traffic pages, and any page central to the primary goal.
 
 | # | Criterion | Y/N |
@@ -132,10 +157,7 @@ For each key page or article, score Yes (1) or No (0). Apply to the homepage, to
 - **5–7:** Moderate. Prioritise revisions to criteria scored No.
 - **Under 5:** High priority. Revise before investing further in content production.
 
----
-
 ## Content Creation Guidelines for GEO
-
 Apply these guidelines when writing all new content for a GEO-focused client:
 
 - **Lead with the answer** — write the key point in the first two sentences. Assume the reader — human or LLM — may read only the opening.
@@ -146,10 +168,7 @@ Apply these guidelines when writing all new content for a GEO-focused client:
 - **Write locally** — "In Uganda, WhatsApp is the dominant customer service channel, used by over 90% of smartphone owners" is more specific and citable than a generic global claim. Local specificity also increases relevance for regional AI queries.
 - **Keep paragraphs short** — three to four sentences maximum. Long paragraphs are harder for LLMs to parse and summarise accurately.
 
----
-
 ## Monitoring Brand Mentions in AI Search
-
 No dedicated tool is required. Set up a manual monitoring protocol on a recurring schedule.
 
 **Monthly — run 5 queries per tool:**
@@ -168,20 +187,14 @@ No dedicated tool is required. Set up a manual monitoring protocol on a recurrin
 **Tracking spreadsheet columns:**
 Date | Query | Tool | Brand Mentioned (Y/N) | Quote or Summary | Competitors Cited | Sentiment | Action Required
 
----
-
 ## EA Relevance Note
-
 GEO is a two-to-three year horizon for most Ugandan businesses. AI search adoption is concentrated among urban professionals and is growing fastest in Kampala and among younger demographics who use ChatGPT for research tasks.
 
 However, invest in the structural foundations now. Clear headings, explicit facts, FAQ sections, and author attribution cost nothing extra and improve traditional Google SEO simultaneously. Brands that build GEO-ready content in 2026 will hold a compounding advantage as AI search adoption grows across East Africa.
 
 Do not overpromise to clients. Frame GEO work as: "We are building content that performs well in today's Google results and will be well-positioned when AI search becomes mainstream in this market."
 
----
-
 ## Quality Criteria
-
 Good output from this skill meets all of the following standards:
 
 - GEO content audit completed — all key pages scored on the 10-point checklist with clear Y/N decisions
@@ -192,9 +205,6 @@ Good output from this skill meets all of the following standards:
 - At least one piece of existing content revised using GEO principles, re-audited on the 10-point checklist, and score improvement documented
 - EA relevance framing applied throughout — no overpromising on immediate GEO impact for Ugandan SMEs; framed as a durable foundation investment
 
----
-
 ## References
-
 - Roth, H. and neuroflash (2024) *AI Strategy 2025 for Marketing Teams*. neuroflash.
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford University Press.

@@ -4,6 +4,8 @@ A complete skill suite for running a professional social media and digital marke
 
 **Default context:** Uganda / East Africa · British English · UGX pricing · EAT (UTC+3)
 
+**July 2026 conformance:** 176 active skills, all passing the local zero-debt validator and canonical portable-skill scanner. Routing release tests contain 26 positive, negative/collision, limited-capability, and failure-path fixtures; the required top-three precision is 100%.
+
 ## Architecture & cross-cutting engines (updated 2026-06-21)
 
 This engine no longer relies on native skill discovery — **no engine on this machine is natively discovered anymore.** Every engine, including this one, is consulted through the global routing table by globbing its `SKILL.md` files and reading them directly (resolve each engine's path per-device from the routing table; never assume an absolute path). Consult these cross-cutting engines **in addition** to this one:
@@ -32,11 +34,21 @@ That roadmap focuses on:
 
 East Africa remains the default only when no other market is specified.
 
+Structural conformance debt is complete. The roadmap now represents capability expansion: current-source registers, finished campaign exemplars, measurement proof, and deeper creative/legal review assets.
+
 ---
 
 ## How Skills Work
 
-Each skill lives under `skills/<category>/<skill-name>/SKILL.md`. The frontmatter `description` field is the trigger — Claude reads it to decide when to invoke the skill. Skills produce text documents: strategies, plans, playbooks, reports, slide outlines, and copy. No code, no graphic design, no video production.
+Each skill lives under `skills/<category>/<skill-name>/SKILL.md`. The frontmatter `description` field is the trigger. Skills produce text documents: strategies, plans, playbooks, reports, slide outlines, and copy. No code, graphic design, or video production is produced by this engine.
+
+Authoring rules live in `docs/standards/skill-authoring-standard.md`; new work starts from `docs/templates/SKILL.template.md`. Release checks are:
+
+```powershell
+python -X utf8 scripts\validate_skill_engine.py --baseline quality-baseline.json
+python -X utf8 scripts\routing_smoke_test.py
+python -X utf8 -m unittest discover -s tests -p "test_*.py"
+```
 
 ---
 
@@ -53,12 +65,12 @@ Both skills share one verified evidence base (Merriam-Webster 2025 Word of the Y
 
 ## Skill Categories
 
-Skills are grouped into 14 thematic categories under `skills/`. (The former `decks/` category was migrated out to `design-system-skills` on 2026-06-21 — see **Architecture & cross-cutting engines** above.)
+Skills are grouped into 15 thematic categories under `skills/`. (The former `decks/` category was migrated out to `design-system-skills` on 2026-06-21 — see **Architecture & cross-cutting engines** above.)
 
 | Category | Count | Contents |
 |---|---|---|
 | `ai-marketing/` | 22 | AI-prefixed skills, AI strategy, brand voice training, anti-slop quality gate |
-| `business-development/` | 10 | `biz-dev-*` |
+| `business-development/` | 11 | `biz-dev-*` and EAC calls for applications |
 | `content-writing/` | 15 | Blog, caption, email, copywriting, direct-response, prompt libraries |
 | `frameworks/` | 2 | `framework-*` strategic frameworks |
 | `language/` | 4 | `east-african-english`, `language-standards`, `french-native-copy`, `swahili-native-copy` |
@@ -68,8 +80,9 @@ Skills are grouped into 14 thematic categories under `skills/`. (The former `dec
 | `platforms/` | 12 | `platform-*` per-channel plans |
 | `playbooks/` | 39 | `playbook-*` execution SOPs |
 | `policies/` | 2 | `policy-*` governance |
+| `sectors/` | 1 | Sector-specific social media practice (`healthcare`) |
 | `seo-discovery/` | 2 | `seo-geo-optimisation`, `demand-forecasting` |
-| `strategy/` | 18 | `strategy-*` plus `peso-`, `owned-media-`, `social-commerce-`, `ecommerce-*`, `premium-social-selling` |
+| `strategy/` | 19 | `strategy-*` plus `peso-`, `owned-media-`, `social-commerce-`, `ecommerce-*`, `premium-social-selling` |
 | `training/` | 6 | `training-*` |
 
 The Skill Directory tables below are grouped by deliverable role; the canonical filesystem path for any skill is `skills/<category>/<skill-name>/SKILL.md`.

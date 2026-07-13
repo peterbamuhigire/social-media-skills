@@ -1,8 +1,78 @@
 ---
 name: blog-idea-generator
-description: Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate docs/blogs/topics.md.
+description: Use when Blog Idea Generator is needed to produce a blog idea generator deliverable for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Blog Idea Generator
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **blog idea generator deliverable** and the supplied brief falls within blog idea generator.
+
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified blog idea generator deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact blog idea generator deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete blog idea generator deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Blog idea generator deliverable | Requester, client reviewer or delivery team | The blog idea generator deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested blog idea generator deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid summary with narrative brief + structured specs. The system adapts its ideation methods to the specific client and available information.
 
@@ -10,46 +80,11 @@ Generate 15-25 targeted blog post ideas, each presented as a 200-word hybrid sum
 **Read `references/content-formats.md`** for 20 content formats with structural templates.
 **Read `sales-copywriting/references/headline-mastery.md`** for headline formulas and 4 U's scoring.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Generate 15-25 targeted blog post ideas with 200-word summaries for any client website. Reads website content, assesses available information, adaptively selects from 20 ideation methods, and conducts a guided interview. Each idea includes a narrative brief + structured specs. Use when the user says "generate blog ideas", "what should I blog about", "blog topic ideas", "content ideas", or wants to populate docs/blogs/topics.md.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Confirm the objective, audience, and context needed to run this skill well.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
-4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
-
-## References
-- Read `references/content-formats.md` when you need the deeper framework, examples, or supporting material it contains.
-- Read `references/ideation-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
-- Read `references/idea-sources-and-series.md` when the brief needs cluster planning, source-bucket logic, or repeatable series instead of isolated titles.
-
-<!-- dual-compat:end -->
-
 ## Required Input
-
 Read the client files listed in Step 1, then collect any missing audience, pain-point, and content-goal context before generating ideas.
 
 ## Step 1: Gather Context
-
 ### Read client docs (mandatory)
-
 Read every available file to build a complete picture:
 
 1. `docs/en/company-profile.md` (and all enabled language versions)
@@ -71,7 +106,6 @@ Extract and note:
 - What content already exists (published articles, covered topics)
 
 ### Guided interview (3-5 questions)
-
 After reading docs, ask targeted questions to fill gaps. Ask one at a time. Skip questions already answered by docs.
 
 **Core questions (ask what's missing):**
@@ -87,10 +121,7 @@ After reading docs, ask targeted questions to fill gaps. Ask one at a time. Skip
 
 If the user provides additional context (audience details, campaign goals, seasonal focus), incorporate it into the assessment.
 
----
-
 ## Step 2: Assess Available Information
-
 Score each dimension to determine which ideation methods will work best:
 
 | Dimension | Rich (3) | Moderate (2) | Sparse (1) |
@@ -102,14 +133,10 @@ Score each dimension to determine which ideation methods will work best:
 | **Existing content** | 5+ published articles to spin off | 1-4 articles | No existing content |
 | **Customer interaction** | Direct customer questions available | Some FAQ data | No customer feedback |
 
----
-
 ## Step 3: Select Ideation Methods
-
 Based on the assessment, select 5-7 methods from the 20-method library. **Always include Methods 1 and 2** as foundation.
 
 ### Selection Matrix
-
 | Method | Best When | Min Score |
 |--------|-----------|-----------|
 | 1. Category Drilldown | Always | — (always include) |
@@ -135,16 +162,12 @@ Based on the assessment, select 5-7 methods from the 20-method library. **Always
 
 Announce: "Based on available information, I'm using methods: [list]. Here's why: [brief rationale]."
 
----
-
 ## Step 4: Generate Ideas
-
 Run selected methods sequentially. Aim for 25-35 raw ideas, then filter to the best 15-25.
 
 For each method, consult `references/ideation-frameworks.md` for detailed instructions and examples.
 
 ### Quality Filters
-
 Remove any idea that fails:
 
 | Filter | Test |
@@ -157,22 +180,17 @@ Remove any idea that fails:
 | **Searchable** | Would someone type this into a search engine? |
 
 ### Tier Classification
-
 | Tier | Purpose | Target Count |
 |------|---------|-------------|
 | **Tier 1: SEO drivers** | Attract organic traffic via long-tail keywords | 6-8 ideas |
 | **Tier 2: Authority builders** | Establish expertise with deep guides and analysis | 5-7 ideas |
 | **Tier 3: Thought leadership** | Build brand with opinions, predictions, stories | 4-5 ideas |
 
----
-
 ## Step 5: Create 200-Word Hybrid Summaries
-
 For each approved idea, produce a summary in this exact format:
 
 ```markdown
 ### [Number]. [Working Title]
-
 [3-4 sentence narrative brief: What this article is about, who it serves,
 why it matters now, and the unique angle that makes it worth reading. This
 paragraph should make someone want to write — and read — this article. It
@@ -195,19 +213,14 @@ captures the creative direction and emotional tone.]
 ```
 
 ### Summary Quality Rules
-
 - The narrative must read like a creative brief — not a dry description
 - Key points must be specific enough to outline section headings from
 - Keywords must be realistic long-tail phrases someone would search
 - The angle must be genuinely different from what a Google search would surface
 - Every title must pass the 4 U's test (see `sales-copywriting/references/headline-mastery.md`): Useful, Unique, Urgent, Ultra-specific — score 3+ on at least 3 dimensions
 
----
-
 ## Step 6: Present and Refine
-
 ### Present to the User
-
 Show ideas grouped by tier with full summaries. After presenting, ask:
 - Which ideas excite you most?
 - Any ideas to remove or modify?
@@ -216,10 +229,7 @@ Show ideas grouped by tier with full summaries. After presenting, ask:
 
 Refine based on feedback. The user's input overrides the assessment.
 
----
-
 ## Step 7: Save Output
-
 Save the final approved list to `docs/blogs/topics.md`:
 
 ```markdown
@@ -231,7 +241,6 @@ Target audience: [summary]
 Content categories: [list]
 
 ## Tier 1: SEO Drivers
-
 ### 1. [Title]
 [Full 200-word hybrid summary as above]
 
@@ -242,7 +251,6 @@ Content categories: [list]
 ...
 
 ## Content Calendar Suggestion
-
 | Month | Article 1 (Tier) | Article 2 (Tier) |
 |-------|-------------------|-------------------|
 | Month 1 | [title] (T1) | [title] (T2) |
@@ -251,10 +259,7 @@ Content categories: [list]
 
 If the file already exists, merge new ideas — don't overwrite existing topics. Mark previously written topics as `[PUBLISHED]`.
 
----
-
 ## Quality Checklist
-
 Before finalising:
 
 - [ ] At least 15 ideas across all 3 tiers

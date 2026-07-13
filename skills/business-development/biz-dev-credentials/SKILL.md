@@ -1,41 +1,82 @@
 ---
 name: biz-dev-credentials
-description: Generates the agency credentials document — the "who we are" document sent to prospective clients — plus a matching 8-slide deck outline for in-person presentations. Invoke when a consultant or agency needs to produce a credentials pack, capabilities document, or credentials presentation to share with a prospective client.
+description: Use when Agency Credentials Generator is needed to produce a credentials pack for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Agency Credentials Generator
 
-Produce two outputs from a single set of inputs: (1) a written credentials document and (2) an 8-slide deck outline. Both are ready to share or present without major editing. Apply East African English and professional register throughout.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **credentials pack** and the supplied brief falls within agency credentials generator.
 
-<!-- dual-compat:start -->
-## Use when
-- Generates the agency credentials document — the "who we are" document sent to prospective clients — plus a matching 8-slide deck outline for in-person presentations. Invoke when a consultant or agency needs to produce a credentials pack, capabilities document, or credentials presentation to share with a prospective client.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Do Not Use When
+- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified credentials pack; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Read files in `references/` only when the body points to them or when you need the deeper framework, examples, or evidence.
-4. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact credentials pack, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete credentials pack; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Credentials pack | Requester, client reviewer or delivery team | The credentials pack addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested credentials pack, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Read `references/proposal-frameworks.md` when you need the deeper framework, examples, or supporting material it contains.
+- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Produce two outputs from a single set of inputs: (1) a written credentials document and (2) an 8-slide deck outline. Both are ready to share or present without major editing. Apply East African English and professional register throughout.
 
 ## Required Input
-
 Ask for the following before generating anything:
 
 - **Agency name** — trading name and any tagline
@@ -48,20 +89,15 @@ Ask for the following before generating anything:
 
 If any of these are missing, ask for them before proceeding.
 
----
-
 ## Output 1: Written Credentials Document
-
 Generate each section in order. Do not skip sections.
 
 ### 1. Agency Overview and Founding Story
-
 Write 3–4 sentences. Cover: what the agency does, who it serves, when it was founded, and why. Tone must be confident but not boastful — let the facts speak. Reference the founder's background naturally. Do not use superlatives ("the best", "leading", "premier").
 
 > Example register: "Meridian Social was founded in 2021 by [Founder Name], a communications professional with eight years' experience across corporate and NGO sectors in Uganda. The agency specialises in social media strategy and content management for small and medium-sized businesses seeking measurable growth. [Agency Name] brings together strategic rigour and practical execution — giving clients senior-level thinking without the overhead of an in-house team."
 
 ### 2. Services Offered
-
 List 4–6 services. For each service:
 - **Service name** (bold)
 - One sentence describing what it is
@@ -70,7 +106,6 @@ List 4–6 services. For each service:
 Do not use jargon. Write as if explaining to a capable but non-specialist business owner.
 
 ### 3. Approach and Methodology
-
 Describe how the agency works in 3–4 numbered steps. Each step has a title and 1–2 sentences. Frame this as a repeatable process that gives the client confidence. Reference the RACE framework (Chaffey, 2024) at the appropriate step — typically the planning or strategy phase.
 
 Example step structure:
@@ -80,7 +115,6 @@ Example step structure:
 4. **Review** — ...
 
 ### 4. Client Success Stories (Three)
-
 For each story, use this format:
 
 **Client [A/B/C] — [Industry or anonymised descriptor, e.g. "Kampala-based retail brand"]**
@@ -89,7 +123,6 @@ For each story, use this format:
 - **Result:** One sentence. Specific metric or outcome. Use real numbers from the input. Never write "significant improvement".
 
 ### 5. Team Profiles
-
 For each team member:
 
 **[Full Name]**
@@ -98,16 +131,12 @@ For each team member:
 **Expertise:** [3–5 key areas, comma-separated]
 
 ### 6. Contact and Next Steps
-
 Include:
 - Full contact details as provided
 - A short paragraph (2–3 sentences) inviting the prospective client to get in touch. Warm, professional, not pushy.
 - A clear call to action: "We would welcome the opportunity to discuss your goals. Kindly reach out via [contact method] to arrange a conversation."
 
----
-
 ## Output 2: 8-Slide Deck Outline
-
 Generate immediately after the written document. Use the exact slide format from CLAUDE.md:
 
 **Slide N — [Slide Title]**
@@ -118,7 +147,6 @@ Generate immediately after the written document. Use the exact slide format from
 **Visual Direction:** [Layout, imagery, colour, chart type]
 
 ### Slide Structure
-
 **Slide 1 — Cover**
 Agency name, tagline, presenter name, date. Clean and professional.
 
@@ -143,22 +171,15 @@ Onboarding process, communication norms, typical engagement structure. Sets expe
 **Slide 8 — Let's Talk**
 Contact details, next step prompt, Q&A invitation.
 
----
-
 ## Formatting Rules
-
 - Use markdown headings and bold for section titles
 - Credentials document: continuous prose with clear section breaks
 - Deck outline: strict slide-by-slide format, no deviations
 - No bullet points in the prose sections of the credentials document — write in full sentences
 - Keep team bios in the specified format; do not pad with vague phrases ("passionate about", "dedicated to")
 
----
-
 ## Social Proof Standards
-
 ### Social Proof Taxonomy (Bly, 2018)
-
 A credentials document must present all six social proof sources. Organise proof by client type and industry where possible — a financial services prospect is more convinced by financial services social proof than by a general mix across sectors.
 
 | Source | What to Include | Placement in Credentials Document |
@@ -172,10 +193,7 @@ A credentials document must present all six social proof sources. Organise proof
 
 When compiling the credentials document, verify that evidence exists for at least four of the six sources before finalising. Flag any source with insufficient evidence to the consultant — a credentials document with gaps is better than one with embellished or vague claims.
 
----
-
 ## Brand Asset Scorecard
-
 *Killian, B., in Hahn (2003)*
 
 Use this 16-criterion scorecard to assess brand health before building a credentials deck. Rate each criterion 1–10. Low scores reveal gaps the credentials should address or acknowledge.
@@ -203,10 +221,7 @@ Use this 16-criterion scorecard to assess brand health before building a credent
 
 When completing a credentials deck for a prospect client, use this scorecard to identify the brand strengths to emphasise and the gaps to offer as consultancy opportunities.
 
----
-
 ## Persuasion Frameworks
-
 Apply frameworks from `references/proposal-frameworks.md` when generating this document.
 
 Key principles for credentials documents:
@@ -218,10 +233,7 @@ Key principles for credentials documents:
 
 Read `references/proposal-frameworks.md` for the full framework guide.
 
----
-
 ## Quality Criteria
-
 - Agency overview is factual, confident, and free of superlatives or vague claims
 - Each client success story contains at least one specific metric (number, percentage, or concrete outcome)
 - Team bios are professional and informative; each is distinct in voice and content

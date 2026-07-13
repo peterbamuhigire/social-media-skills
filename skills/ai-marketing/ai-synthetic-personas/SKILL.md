@@ -1,44 +1,84 @@
 ---
 name: ai-synthetic-personas
-description: Generate research-grade audience personas using AI when primary fieldwork is unavailable or too costly. Invoke when a client needs audience personas for strategy development but cannot commission primary research, or when quick validation of messaging concepts is needed.
+description: Use when AI Synthetic Personas is needed to produce a AI synthetic personas deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Synthetic Personas
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI synthetic personas deliverable** and the supplied brief falls within ai synthetic personas.
+
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI synthetic personas deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact AI synthetic personas deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI synthetic personas deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai synthetic personas deliverable | Requester, client reviewer or delivery team | The AI synthetic personas deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI synthetic personas deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 Generate structured audience personas using AI-assisted synthesis when primary research is unavailable. Personas produced by this skill are informed hypotheses grounded in secondary data and East African market knowledge — not primary research findings. Every deliverable produced using this skill must carry the disclosure specified in the Citation Standard section below.
 
 Apply the `east-african-english` skill for tone throughout. For clients who can commission primary research, use `03-audience-personas` instead and return to this skill only for supplementary rapid-validation work.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Generate research-grade audience personas using AI when primary fieldwork is unavailable or too costly. Invoke when a client needs audience personas for strategy development but cannot commission primary research, or when quick validation of messaging concepts is needed.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
-
 ## Required Input
-
 Ask for the following before generating any personas:
 
 - **Client business name** — the trading name as used publicly
@@ -48,34 +88,25 @@ Ask for the following before generating any personas:
 - **Primary goal** — choose one: strategy development / messaging validation / content planning / campaign targeting
 - **Available secondary data** — note any existing research, sales data, customer feedback, or Meta Audience Insights the client can share; state "none available" if there is nothing
 
----
-
 ## When to Use Synthetic vs Primary Research
-
 ### Use synthetic personas when:
-
 - Budget for primary research is unavailable
 - The project timeline is under two weeks
 - Preliminary hypotheses need rapid validation before commissioning fieldwork
 - The client has existing secondary data (sales records, CRM data, website analytics) that can anchor the AI output
 
 ### Commission primary research instead when:
-
 - Launching a new product in an unfamiliar market where AI training data is likely thin
 - The decision at stake is high-value — above UGX 50 million in campaign or product investment
 - There is reason to believe AI training data underrepresents the target audience (e.g. rural low-income segments, elderly populations, niche occupational groups)
 - The client has had prior strategy failures that suggest existing assumptions are wrong
 
 ### Always:
-
 - Disclose the synthetic origin of personas in all deliverables (see Citation Standard)
 - Flag every assumption that could not be cross-referenced against secondary data
 - Treat synthetic personas as a starting point, not a conclusion
 
----
-
 ## Uganda / East Africa Calibration
-
 Apply this demographic and behavioural context when constructing prompts. Adjust for the specific country and city provided by the client.
 
 **Income bands (UGX per month):**
@@ -95,7 +126,7 @@ Apply this demographic and behavioural context when constructing prompts. Adjust
 - **LinkedIn** — formal sector professionals, NGO workers, senior management, B2B audiences
 - **YouTube** — research, tutorials, long-form; consumed when users have Wi-Fi access
 
-**Trust landscape:**
+**Trust conditions:**
 
 - Word-of-mouth and community recommendations carry high weight; formal advertising is viewed with scepticism by many segments
 - Social proof from peers and WhatsApp group endorsements consistently outperforms broadcast advertising
@@ -107,10 +138,7 @@ Apply this demographic and behavioural context when constructing prompts. Adjust
 - Luganda phrases in captions or CTAs can increase relatability for Kampala-based mass-market audiences
 - Kiswahili is the appropriate local language calibration for Kenya and Tanzania
 
----
-
 ## Structured Prompt Template
-
 Use this prompt to generate one persona. Replace all bracketed placeholders with the client's specific details before running. Run the prompt once per persona.
 
 ```
@@ -137,10 +165,7 @@ Include:
 
 Add the Uganda/EA Calibration data above to the prompt when working on Ugandan clients to anchor the AI output in realistic local context.
 
----
-
 ## 3-Persona Output Format
-
 Generate three distinct personas per engagement. Do not generate all three using the same demographic profile — vary income, age, or use case meaningfully.
 
 **Primary persona** — the highest-value or most common customer segment; the person the strategy is primarily built around.
@@ -150,7 +175,6 @@ Generate three distinct personas per engagement. Do not generate all three using
 **Edge persona** — a segment the client may be overlooking; often a future growth opportunity, an underserved demographic, or a non-obvious use case. Flag explicitly that this persona represents a growth hypothesis.
 
 ### Output structure for each persona:
-
 | Field | Detail |
 |---|---|
 | **Name** | Realistic EA name (e.g. Harriet, Brian, Fatuma, Ronald, Aisha) |
@@ -163,10 +187,7 @@ Generate three distinct personas per engagement. Do not generate all three using
 
 After the three persona cards, produce a **side-by-side summary table** using the fields above for quick team reference.
 
----
-
 ## Synthetic Focus Group Technique
-
 Simulate audience reactions to campaign concepts before investing in creative production. Use this technique for messaging validation and campaign brief development.
 
 **Run this prompt for each of the three personas:**
@@ -185,17 +206,14 @@ Answer the following:
 
 **Analyse the three responses to identify:**
 
-- Universal appeal — elements that resonate across all three personas
+- Universal appeal — elements that matter across all three personas
 - Segment-specific messaging — elements that work for one persona but not others
 - Red flags — anything that alienates more than one persona
 - Gaps — something the campaign does not address that multiple personas care about
 
 Document the synthetic focus group findings as a table: Persona | Reaction | Engage trigger | Turn-off | Verdict. Include this table in the strategy or campaign brief alongside the disclosure footnote.
 
----
-
 ## Validation Checklist
-
 Complete this checklist before using synthetic personas in any client-facing strategy document. Record the outcome of each check as: Validated / Partially validated / Unvalidated — assumption retained.
 
 - [ ] Cross-reference age and income assumptions against Uganda Bureau of Statistics household survey data or equivalent national statistics authority for the relevant country
@@ -206,10 +224,7 @@ Complete this checklist before using synthetic personas in any client-facing str
 
 For each unvalidated assumption, add a bracketed risk note in the strategy: *[Assumption: [description]. Validate before campaign launch.]*
 
----
-
 ## Citation Standard
-
 **In every client-facing deliverable that uses synthetic personas, include the following footnote verbatim:**
 
 > Audience personas were generated using AI (Claude/ChatGPT) based on secondary data and market knowledge. They represent informed hypotheses, not primary research findings. Assumptions that could not be cross-referenced against secondary data are flagged within the document.
@@ -220,10 +235,7 @@ For each unvalidated assumption, add a bracketed risk note in the strategy: *[As
 - In presentation decks, add the disclosure to the slide footer or speaker notes of every slide that references a persona
 - If the client requests that the disclosure be removed, explain the professional and reputational risk and decline; if they insist, note the removal in the project file
 
----
-
 ## Quality Criteria
-
 - Three distinct personas generated — primary, secondary, and edge — with meaningfully different demographics or use cases
 - Each persona uses the full structured output format with all fields completed; no field left blank without explanation
 - Uganda/EA calibration applied — income expressed in UGX, platform norms accurate for the target city, language preferences noted
@@ -233,17 +245,13 @@ For each unvalidated assumption, add a bracketed risk note in the strategy: *[As
 - Citation standard applied — synthetic origin disclosure included verbatim in every client-facing document
 - At least one secondary data source (UBOS, GSMA, Meta Audience Insights) cross-referenced and cited
 
----
-
 ## References
-
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford University Press.
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
 - Randazzo, G.W. (2024) *Winning Marketing Strategies Using Generative AI*. Business Expert Press.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
 
 ## Persona discipline applied to synthetic (added 2026-05-04 from Branson)
-
 Canonical reference: `docs/ux-foundations.md` Section 1.
 
 Synthetic personas pass the same Branson discipline gate as research-grounded personas. The disclosure already required by this skill stays in place; this section adds discipline, not transparency.

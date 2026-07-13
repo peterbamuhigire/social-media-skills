@@ -1,41 +1,83 @@
 ---
 name: playbook-social-media-brand-style-guide
-description: Generates a complete, formatted Social Media Brand Style Guide ready to hand over to a client's social media manager or in-house team. The guide covers brand voice, platform tone adjustments, vocabulary standards, emoji policy, image and video standards, hashtag rules, content approval workflow, breaking-news pause protocol, and language and grammar rules — everything an executor needs to maintain brand consistency without consultant oversight. Invoke when onboarding a new client (before content production begins), whenever a client's social media manager changes, or when a client requests a standalone governance document for their team.
+description: Use when designing or improving a Social Media Brand Style Guide operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Social Media Brand Style Guide Generator
-
 Produce one complete, formatted Brand Style Guide as a client-ready deliverable. This is not advice or a framework — it is a finished document the client hands to whoever manages their social media. Every section must be filled in with client-specific content. Placeholder text must not appear in the final output.
 
 Apply British English throughout. Follow the `east-african-english` skill for prose register. Default to the Uganda/East Africa market unless the client specifies otherwise.
 
 ---
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a complete, formatted Social Media Brand Style Guide ready to hand over to a client's social media manager or in-house team. The guide covers brand voice, platform tone adjustments, vocabulary standards, emoji policy, image and video standards, hashtag rules, content approval workflow, breaking-news pause protocol, and language and grammar rules — everything an executor needs to maintain brand consistency without consultant oversight. Invoke when onboarding a new client (before content production begins), whenever a client's social media manager changes, or when a client requests a standalone governance document for their team.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Build or improve a repeatable Social Media Brand Style Guide workflow for a client or delivery team.
+- Turn an approved objective into roles, controls, handoffs and measurable actions.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- The task is a single-channel presence plan; use the closest `platform-*` skill.
+- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
+| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
+| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
+
+## Capability and Permission Boundaries
+Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+## Degraded Mode
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Social Media Brand Style Guide playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+## Decision Rules
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
+| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
+| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
+2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
+3. Apply the decision rules, preserve useful existing material and draft the Social Media Brand Style Guide playbook.
+4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
+5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Social Media Brand Style Guide playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
+| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+
+## Quality Standards
+Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+## Anti-Patterns
+- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
+- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
+- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
+- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
+- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [East African English standard](../../language/east-african-english/SKILL.md)
+- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+<!-- dual-compat-end -->
 
 ## Required Input
 
@@ -429,34 +471,25 @@ Apply these rules consistently across all platforms and all content types.
 - **USD references:** Use USD [amount] — only where the product or service is priced in dollars
 
 ### 9.4 Date and Time Formatting
-
 - **Date format:** DD/MM/YYYY — e.g. 19/03/2026 (never MM/DD/YYYY)
 - **Written dates in copy:** 19 March 2026 (no ordinal suffix — not "19th March")
 - **Time:** 12-hour clock with am/pm — e.g. 10:00am, 2:30pm (no space before am/pm)
 - **Day ranges:** Monday–Friday (en dash, not hyphen)
-
 ### 9.5 Capitalisation Rules
-
 - **Brand name:** Always as specified in Section 3.3 — check every post
 - **Post copy:** Sentence case only — not Title Case For Every Word
 - **Platform names:** Facebook, Instagram, LinkedIn, TikTok, WhatsApp, X (formerly Twitter), YouTube — capitalise exactly as shown
 - **Job titles:** Capitalise only when preceding a name — "Managing Director Jane Akello" but "the managing director"
 - **Acronyms:** Use on first instance only after spelling out in full — e.g. "small and medium enterprises (SMEs)"
-
 ### 9.6 Punctuation Standards
-
 - **Apostrophes:** Contractions are acceptable on Facebook, Instagram, TikTok, and WhatsApp. Avoid on LinkedIn.
 - **Exclamation marks:** Maximum one per post. Never two consecutive. Not used in formal announcements or LinkedIn.
 - **Oxford comma:** Use in all lists of three or more items — "strategy, content, and reporting"
 - **Ellipsis:** Use sparingly and only for genuine suspense or continuation — not as a trailing sentence ender in formal posts
 - **Em dash (—):** Use for parenthetical asides and emphasis — not a hyphen
-
 ---
-
 ## Quality Criteria
-
 Output meets production standard when it satisfies all of the following:
-
 - The brand voice section produces "we are X, not Y" pairings that are specific and actionable — a new team member can use them to make a real writing decision, not just understand an abstract principle
 - The platform tone guide shows a genuine, audible tonal shift between platforms using the same client's product or service — the worked examples are not the same sentence with different punctuation
 - The vocabulary tables contain a minimum of three terms specific to this client's industry; generic EA professional vocabulary does not fill the list

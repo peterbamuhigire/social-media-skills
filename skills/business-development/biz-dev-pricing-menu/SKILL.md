@@ -1,40 +1,82 @@
 ---
 name: biz-dev-pricing-menu
-description: Generates two documents: (1) a client-facing services and pricing menu with three tiers and add-on options, and (2) a consultant-only pricing rationale guide covering objection handling, tier upsell tactics, and red flags. Invoke when a consultant needs a pricing document to share with new enquiries, or when they need to prepare for a pricing conversation with a prospective client.
+description: Use when Services and Pricing Menu Generator is needed to produce a priced service menu for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Services and Pricing Menu Generator
 
-Produce two separate, clearly labelled documents from one set of inputs. Document 1 is for the client; Document 2 is for the consultant's eyes only. Apply East African English throughout Document 1. Document 2 may use a more direct, internal register.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **priced service menu** and the supplied brief falls within services and pricing menu generator.
 
-<!-- dual-compat:start -->
-## Use when
-- Generates two documents: (1) a client-facing services and pricing menu with three tiers and add-on options, and (2) a consultant-only pricing rationale guide covering objection handling, tier upsell tactics, and red flags. Invoke when a consultant needs a pricing document to share with new enquiries, or when they need to prepare for a pricing conversation with a prospective client.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+## Do Not Use When
+- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified priced service menu; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact priced service menu, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete priced service menu; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Priced service menu | Requester, client reviewer or delivery team | The priced service menu addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested priced service menu, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
+- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
-<!-- dual-compat:end -->
+Produce two separate, clearly labelled documents from one set of inputs. Document 1 is for the client; Document 2 is for the consultant's eyes only. Apply East African English throughout Document 1. Document 2 may use a more direct, internal register.
 
 ## Required Input
-
 Ask for the following before generating:
 
 - **Consultant name** — for personalising Document 2
@@ -43,26 +85,16 @@ Ask for the following before generating:
 - **Current client load** — how many active clients (affects capacity notes)
 - **Years of experience** — informs confidence of rate justification in Document 2
 
----
-
 ## Document 1: Client-Facing Services Menu
-
 Label this section clearly: `# Services Menu — [Agency Name]`
 
 ### Introductory Paragraph
-
 2–3 sentences. State what the agency does, who it serves, and that packages are designed to match different stages of business growth. Professional, warm, not salesy.
 
----
-
 ### Three Service Tiers
-
 Generate all three tiers. Present each tier in the format below.
 
----
-
 #### Starter Package
-
 **Ideal for:** Small businesses and startups establishing their social media presence for the first time.
 
 **Platforms covered:** Choose 1–2 platforms based on the client's industry. Default recommendation for Uganda: Facebook + Instagram.
@@ -88,10 +120,7 @@ Generate all three tiers. Present each tier in the format below.
 
 **Monthly investment:** UGX 800,000 – 1,200,000 (approx. USD 215 – 325)
 
----
-
 #### Growth Package
-
 **Ideal for:** Established businesses ready to scale their social media consistently and connect it to business goals.
 
 **Platforms covered:** 2–3 platforms. Default for Uganda: Facebook + Instagram + WhatsApp (broadcast list management).
@@ -118,10 +147,7 @@ Generate all three tiers. Present each tier in the format below.
 
 **Monthly investment:** UGX 2,000,000 – 3,000,000 (approx. USD 540 – 810)
 
----
-
 #### Premium Package
-
 **Ideal for:** Organisations requiring full social media management, senior strategic input, and multi-platform presence.
 
 **Platforms covered:** Up to 4 platforms. Recommended: Facebook + Instagram + LinkedIn + WhatsApp.
@@ -150,10 +176,7 @@ Generate all three tiers. Present each tier in the format below.
 
 **Monthly investment:** UGX 4,500,000 – 6,500,000 (approx. USD 1,215 – 1,755)
 
----
-
 ### Add-On Services
-
 Present as a clean list. Each add-on has a name, one-sentence description, and indicative price.
 
 **One-Off Strategy Projects**
@@ -180,27 +203,18 @@ Comprehensive training on social media strategy, content planning, or platform-s
 Monthly performance report with commentary — for clients who manage their own content but want professional analysis.
 *Investment: UGX 500,000 per month (approx. USD 135)*
 
----
-
 ### Pricing Notes
-
 - All prices are quoted in Ugandan Shillings. USD equivalents are indicative and based on prevailing exchange rates.
 - Prices shown are ranges; final pricing depends on scope, platform complexity, and client requirements.
 - A 50% deposit is required to commence; the balance is invoiced monthly in advance.
 - Packages are reviewed annually. Current pricing is valid through [insert review date].
 
----
-
 ## Document 2: Consultant-Only Pricing Rationale Guide
-
 Label this section clearly: `# Pricing Rationale Guide — For [Consultant Name]`
 
 Add a note at the top: *This document is for internal use only. Do not share with clients.*
 
----
-
 ### How to Justify Your Rates
-
 Frame every pricing conversation around value delivered, not time spent or costs incurred. Clients who focus only on price are usually not yet convinced of the value.
 
 **Value-based framing approach:**
@@ -215,10 +229,7 @@ Frame every pricing conversation around value delivered, not time spent or costs
 
 5. **Avoid discounting immediately.** If pushed on price, explore scope reduction first: "We could start with the Starter package and add platforms once we have proven the results."
 
----
-
 ### Common Client Objections and Responses
-
 **Objection 1: "Your prices are too high for us."**
 Response: "I understand budget is always a consideration. May I ask — what were you expecting to invest? That helps me understand whether there is a package that fits, or whether we need to adjust the scope. I want to find something that works rather than just discounting."
 
@@ -234,20 +245,14 @@ Response: "I appreciate the caution. Social media results compound over time —
 **Objection 5: "We do not have a budget for this right now."**
 Response: "Thank you for being candid. When would be a better time to revisit this? I am happy to schedule a follow-up in [timeframe] when you are ready. In the meantime, I can share our Reporting-Only Retainer as a lower-cost way to stay connected to your performance data."
 
----
-
 ### How to Move a Client from Starter to Growth
-
 - At month 3, present a results summary showing what has been achieved on the Starter package.
 - Identify one specific gap that the Growth package would address (e.g., response management, WhatsApp, additional platforms).
 - Frame it as a natural next step, not an upsell: "Based on what we have achieved, I think you are now ready to build on this."
 - Introduce WhatsApp broadcast as the easiest add-on — high engagement, familiar to the client's audience, low creative burden.
 - Offer a 90-day Growth trial rather than asking for an open-ended commitment.
 
----
-
 ### When to Walk Away from an Enquiry
-
 Decline or disengage when:
 
 - **The client wants guaranteed follower counts or sales numbers.** No ethical consultant can guarantee specific metrics. This expectation signals either misaligned expectations or a future dispute.
@@ -256,10 +261,7 @@ Decline or disengage when:
 - **They expect immediate availability and same-day turnarounds consistently.** This client will breach the boundaries that allow you to serve all clients well.
 - **They are unwilling to sign a basic agreement or pay a deposit.** This is a standard professional protection, not negotiable.
 
----
-
 ## Quality Criteria
-
 - All three tiers are clearly differentiated in scope, volume, and price; a client can self-select without a conversation
 - "What is NOT included" sections are honest and specific — not defensive in tone
 - Add-ons are priced individually so clients can build their own package

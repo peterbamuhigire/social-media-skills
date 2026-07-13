@@ -1,39 +1,80 @@
 ---
 name: copywriting-brochure
-description: Write the complete copy for a client brochure — covering structure, headlines, benefits positioning, proof elements, and calls to action. Use when a client needs a printed or digital brochure for sales meetings, trade shows, direct mail inserts, or website downloads.
+description: Use when Copywriting — Brochure is needed to produce a publication-ready copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Copywriting — Brochure
 
-<!-- dual-compat:start -->
-## Use when
-- Write the complete copy for a client brochure — covering structure, headlines, benefits positioning, proof elements, and calls to action. Use when a client needs a printed or digital brochure for sales meetings, trade shows, direct mail inserts, or website downloads.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within copywriting — brochure.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `../premium-commercial-writing/SKILL.md` when the brochure must support premium positioning, high-value sales conversations, executive buyers, or stronger proof and price justification.
-
-<!-- dual-compat:end -->
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Required Input
-
 Before generating any deliverable, ask for:
 - Client business name
 - Industry / sector
@@ -44,10 +85,7 @@ Before generating any deliverable, ask for:
 - Services or products to be featured
 - Any existing testimonials, case studies, or statistics available
 
----
-
 ## Part 1 — Purpose Before Writing
-
 Define the single purpose of the brochure before writing a word.
 
 **Ask:** What is the one action the reader should take after reading this?
@@ -62,10 +100,7 @@ Define the single purpose of the brochure before writing a word.
 
 If the client cannot define a single action, help them choose one. A brochure trying to do five things does none of them.
 
----
-
 ## Part 2 — The Eight Imprints Rule
-
 *Adapted from Pinskey (1997)*
 
 A prospect typically needs to encounter a brand or business name **eight times** before they will act.
@@ -75,10 +110,7 @@ The brochure is one imprint. It does not work as a standalone piece — it must 
 
 **Implication:** Design brochure copy to move the prospect to the *next step*, not to close the sale. The brochure's job is not to sell — it is to maintain and deepen interest.
 
----
-
 ## Part 3 — The Eight Elements Every Brochure Must Contain
-
 1. **A headline that states the primary benefit** — not the company name, not the service category
 2. **A clear description of who you serve** — the reader must immediately recognise themselves
 3. **The problem you solve** — stated in the reader's language, not the business's
@@ -88,10 +120,7 @@ The brochure is one imprint. It does not work as a standalone piece — it must 
 7. **Contact details** — minimum two channels (phone + email or WhatsApp)
 8. **A reason to act now (if applicable)** — a deadline, limited availability, or bonus offer
 
----
-
 ## Part 4 — Features vs Benefits
-
 *"Features instruct. Benefits sell."* — Hahn (2003)
 
 Every service or product listed in the brochure must be translated from feature to benefit before it appears in copy.
@@ -104,10 +133,7 @@ Every service or product listed in the brochure must be translated from feature 
 
 **In a brochure, features are supporting evidence. Benefits are the message.**
 
----
-
 ## Part 5 — The Biggest Brochure Mistakes
-
 1. **Leading with the company name and history** — the reader does not care yet; earn their interest first
 2. **Featuring the company, not the client's outcomes** — "We were founded in 2015 and have 12 staff" is not a benefit
 3. **No call to action** — a brochure without a next step is a pamphlet
@@ -117,10 +143,7 @@ Every service or product listed in the brochure must be translated from feature 
 7. **Burying the headline** — the cover must state the most powerful benefit, not just the business name
 8. **Trying to include everything** — a brochure with 12 services and 6 sections is unread
 
----
-
 ## Part 6 — Panel-by-Panel Structure (Trifold)
-
 For a standard trifold brochure:
 
 | Panel | Position | Content |
@@ -134,10 +157,7 @@ For a standard trifold brochure:
 
 **Rule:** Design the cover as the most powerful panel. It is the only panel the prospect sees if they are not yet interested.
 
----
-
 ## Part 7 — Design Instructions to Include
-
 When briefing a designer, include these content-level design notes:
 
 - Maximum two font families
@@ -148,10 +168,7 @@ When briefing a designer, include these content-level design notes:
 - The call to action must be visually distinct — boxed, coloured, or enlarged
 - Separate editorial decisions from design decisions: write the full copy first, then brief the designer
 
----
-
 ## Quality Criteria
-
 Good output from this skill:
 1. The brochure has a single, clearly defined purpose and a single call to action
 2. The cover headline states a primary benefit — not the company name alone
@@ -161,10 +178,7 @@ Good output from this skill:
 6. The panel-by-panel structure follows a logical journey from problem to solution to proof to action
 7. All copy is written in British English using the register defined in `east-african-english`
 
----
-
 ## References
-
 - Hahn, F.E. (2003) *Do-It-Yourself Advertising and Promotion*, 3rd edn. Hoboken: Wiley.
 - Pinskey, R. (1997) *101 Ways to Promote Yourself*. New York: Avon Books.
 - `premium-commercial-writing/SKILL.md` - companion layer for premium value, proof, offer framing, and sales-collateral polish.

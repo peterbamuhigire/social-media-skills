@@ -1,42 +1,80 @@
 ---
 name: ai-content-recycling-pipeline
-description: >
-  Transform one piece of long-form content into 10 platform-ready assets using
-  AI tools. Solves the content creation bottleneck for resource-constrained East
-  African marketing teams. Invoke when a client needs more content output from
-  their existing content investment.
+description: Use when AI Content Recycling Pipeline is needed to produce an operating pipeline specification for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Content Recycling Pipeline
 
-<!-- dual-compat:start -->
-## Use when
-- Transform one piece of long-form content into 10 platform-ready assets using AI tools. Solves the content creation bottleneck for resource-constrained East African marketing teams. Invoke when a client needs more content output from their existing content investment.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **operating pipeline specification** and the supplied brief falls within ai content recycling pipeline.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified operating pipeline specification; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact operating pipeline specification, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete operating pipeline specification; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Operating pipeline specification | Requester, client reviewer or delivery team | The operating pipeline specification addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested operating pipeline specification, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Required Input
-
 Ask for:
 - Client business name and industry
 - Country/city (default: Uganda)
@@ -46,17 +84,13 @@ Ask for:
 - Any topics or phrases to avoid
 
 ## The Core Principle
-
 Most East African marketing teams create content once and publish it once. This wastes the research, thinking, and writing invested in each piece. AI makes it practical to extract 10 distinct, platform-optimised assets from a single source in under 60 minutes — without the output feeling repetitive (Roth and neuroflash, 2024).
 
 The constraint is not content creation — it is content *extraction and reformatting*. AI removes that constraint.
 
 ## The 10-Asset Pipeline
-
 ### Source: One long-form piece (500–1,500 words)
 A blog post, article, interview transcript, or video script.
-
----
 
 **Asset 1 — Facebook post (100–150 words)**
 
@@ -128,10 +162,7 @@ Prompt:
 Structure this article as a 3-minute podcast segment outline: 30-second intro (hook + what we'll cover), 4 x 30-second points, 30-second outro (summary + CTA). Written for spoken delivery.
 ```
 
----
-
 ## Platform Adaptation Rules
-
 | Platform | Practical limit | Tone | Key rule |
 |---|---|---|---|
 | Facebook | 150 words | Conversational | End with question or CTA |
@@ -143,7 +174,6 @@ Structure this article as a 3-minute podcast segment outline: 30-second intro (h
 | Email | 80–100 words | Helpful, personal | Drive to one action |
 
 ## Quality Gate
-
 Before publishing any asset, check:
 - Does it make sense as a standalone piece — no context needed from other assets?
 - Does the tone match the client's brand voice?
@@ -153,13 +183,11 @@ Before publishing any asset, check:
 - Has a human reviewed and approved — not published directly from AI output?
 
 ## Time Benchmark
-
 - Running all 10 prompts: 15–20 minutes
 - Human review and light editing: 30–40 minutes
 - **Total: under 60 minutes for 10 platform-ready assets**
 
 ## Quality Criteria
-
 - All 10 asset types are generated from the source content
 - Each asset is platform-specific — not a copy-paste of the same text with minor edits
 - Platform adaptation rules are applied (character limits, tone, format)
@@ -170,6 +198,5 @@ Before publishing any asset, check:
 - At least one asset references a local Uganda/EA context, event, or example
 
 ## References
-
 - Roth, H. and neuroflash (2024) *AI Strategy 2025 for Marketing Teams*.
 - Sweenor, D.E. and Mulkers, Y. (2024) *Generative AI Business Applications*. TinyTechMedia.

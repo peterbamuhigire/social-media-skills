@@ -1,20 +1,78 @@
 ---
 name: biz-dev-reactivation-campaign
-description: >
-  Produces a complete customer reactivation campaign for a client — a
-  4-part email and/or SMS sequence sent to a dormant customer list to
-  generate immediate revenue within 48–72 hours. This is the single
-  highest-ROI marketing activity available to most businesses: existing
-  customers already trust the brand, require no new acquisition cost, and
-  are statistically 5–9x more likely to buy than a cold prospect. The skill
-  produces: the campaign strategy, all four email/SMS copy pieces, an
-  optional referral offer embedded in the sequence, and a WhatsApp-adapted
-  version for East African markets. Invoke when a client has an existing
-  customer database and needs immediate revenue; when a client says "we've
-  tried ads but they don't work"; or as the proof-of-value deliverable in a
-  risk-free "first date" agency engagement before any retainer is agreed.
+description: Use when Customer Reactivation Campaign is needed to produce a campaign pack for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Customer Reactivation Campaign
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **campaign pack** and the supplied brief falls within customer reactivation campaign.
+
+## Do Not Use When
+- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified campaign pack; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact campaign pack, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete campaign pack; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Campaign pack | Requester, client reviewer or delivery team | The campaign pack addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested campaign pack, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 > **The core insight:** Most businesses chase new customers while ignoring
 > a gold mine — the people who have already bought from them. A dormant
@@ -24,37 +82,7 @@ description: >
 > $100,000 in 48 hours from a single reactivation sequence sent to his
 > 25-year customer list.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Produces a complete customer reactivation campaign for a client — a 4-part email and/or SMS sequence sent to a dormant customer list to generate immediate revenue within 48–72 hours. This is the single highest-ROI marketing activity available to most businesses: existing customers already trust the brand, require no new acquisition cost, and are statistically 5–9x more likely to buy than a cold prospect. The skill produces: the campaign strategy, all four email/SMS copy pieces, an optional referral offer embedded in the sequence, and a WhatsApp-adapted version for East African markets. Invoke when a client has an existing customer database and needs immediate revenue; when a client says "we've tried ads but they don't work"; or as the proof-of-value deliverable in a risk-free "first date" agency engagement before any retainer is agreed.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
-
 ## Required Input
-
 Ask for all of the following before generating any output:
 
 1. **Client business name and industry** — legal or trading name and sector
@@ -78,10 +106,7 @@ Ask for all of the following before generating any output:
 10. **Primary goal** — immediate sales / reactivated relationships /
     referral acquisition / all three
 
----
-
 ## Section 1 — Why Reactivation Outperforms Cold Acquisition
-
 Include this framing in any client presentation or brief accompanying the
 campaign.
 
@@ -106,18 +131,12 @@ campaign.
 - A human voice in the writing (the campaign must sound personal, not
   automated)
 
----
-
 ## Section 2 — The Four-Part Reactivation Sequence
-
 Generate all four pieces for the client's chosen channel (email or
 WhatsApp). Adapt tone to the brand voice. Each piece is a complete,
 standalone message — not a fragment.
 
----
-
 ### Message 1 — The Gratitude Message (Day 1)
-
 **Purpose:** re-establish contact as a thank-you, not a sales pitch.
 Arriving with gratitude disarms any awkwardness about the gap in contact
 and does not feel like a marketing email.
@@ -158,10 +177,7 @@ and does not feel like a marketing email.
 **WhatsApp adaptation:** shorten to 5–7 lines. Begin with their name.
 No subject line. End with a simple sign-off — no CTA button or link.
 
----
-
 ### Message 2 — The Value Message (Day 3)
-
 **Purpose:** deliver something genuinely useful with no strings attached.
 Positions the business as an authority and continues building re-engagement
 before any offer is made.
@@ -177,10 +193,7 @@ before any offer is made.
 **The value must be real.** Do not send a promotional message disguised
 as a tip. This message earns the right to make an offer in Message 3.
 
----
-
 ### Message 3 — The Exclusive Offer (Day 5)
-
 **Purpose:** present a time-sensitive, customer-specific offer that is
 not available to the general public. The exclusivity is the message.
 
@@ -206,10 +219,7 @@ not available to the general public. The exclusivity is the message.
 **WhatsApp CTA:** "Reply YES to this message and I'll send you the
 details / booking link."
 
----
-
 ### Message 4 — The Referral Close (Day 8)
-
 **Purpose:** convert the reactivated relationship into a referral engine.
 The best time to ask for a referral is immediately after a positive
 re-engagement — when trust and goodwill are at their highest.
@@ -230,10 +240,7 @@ owner you refer. Present this card to receive your personal thank-you
 gift."* Three cards given to each happy reactivated customer. The card
 makes the referral ask physical and memorable.
 
----
-
 ## Section 3 — WhatsApp-First Adaptation for Uganda/EA
-
 In the Uganda/East Africa market, WhatsApp is the dominant personal and
 professional communication channel. Many customers have mobile numbers on
 record but no email address. Apply the following adaptations:
@@ -261,10 +268,7 @@ and Privacy Act 2019. Advise the client to send Message 1 only and
 include an explicit opt-in CTA: *"Reply YES to continue hearing from us."*
 Only continue the sequence to those who reply.
 
----
-
 ## Section 4 — Campaign Brief for Client Sign-Off
-
 Produce a one-page brief before generating the full campaign copy. The
 brief documents the client's agreement on:
 
@@ -281,10 +285,7 @@ brief documents the client's agreement on:
 Obtain written approval of this brief before writing the copy. Scope
 creep after copy is written is preventable.
 
----
-
 ## Section 5 — Measuring Success
-
 Track the following for every reactivation campaign:
 
 | Metric | How to measure | Benchmark |
@@ -298,10 +299,7 @@ Track the following for every reactivation campaign:
 Report to the client within 10 days of the final message sending.
 Use the results as the case study anchor for the next client pitch.
 
----
-
 ## Quality Criteria
-
 Output meets the standard for this skill when:
 
 - All four messages are complete, copy-ready pieces — not outlines or
@@ -320,10 +318,7 @@ Output meets the standard for this skill when:
 - The ROI framing (reactivation economics) is present and cited to support
   the client conversation on why to prioritise this campaign
 
----
-
 ## References
-
 - Fihn, F. (2025) *Beyond the Agency Box: The Phoneless Meet*
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
 - Uganda Data Protection and Privacy Act 2019 (UDPPA)

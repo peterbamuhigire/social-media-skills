@@ -1,44 +1,80 @@
 ---
 name: framework-community-trust
-description: >
-  Applies the Like-Know-Trust (LKT) framework to social media strategy, producing a
-  sequenced trust-building plan that maps content types, community activity, and
-  conversion tactics to each stage of audience relationship development. Invoke this
-  skill when a client has low conversion despite reasonable reach, when a brand is
-  new or rebuilding reputation, when promotional content is underperforming, or when
-  a strategic layer is needed to explain *why* content should be sequenced in a
-  particular order before selling. Particularly relevant in East Africa where
-  relationship-based commerce means trust must be earned before purchase.
+description: Use when Framework Community Trust is needed to produce an applied framework assessment for social-media or digital-marketing work; use `framework-digital-transparency` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
-<!-- dual-compat:start -->
-## Use when
-- Applies the Like-Know-Trust (LKT) framework to social media strategy, producing a sequenced trust-building plan that maps content types, community activity, and conversion tactics to each stage of audience relationship development. Invoke this skill when a client has low conversion despite reasonable reach, when a brand is new or rebuilding reputation, when promotional content is underperforming, or when a strategic layer is needed to explain *why* content should be sequenced in a particular order before selling. Particularly relevant in East Africa where relationship-based commerce means trust must be earned before purchase.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+# Framework Community Trust
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **applied framework assessment** and the supplied brief falls within framework community trust.
+
+## Do Not Use When
+- Use `framework-digital-transparency` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Observed community or transparency problem, affected audience and decision context | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified applied framework assessment; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| The observed behaviour and trust gap fit this framework | Apply the framework to the named behaviour and record the intervention choice. | Using an abstract framework without a real trust or accountability problem. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact applied framework assessment, consumer, market, channel and approval boundary; route to `framework-digital-transparency` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete applied framework assessment; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Applied framework assessment | Requester, client reviewer or delivery team | The applied framework assessment addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested applied framework assessment, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [framework-digital-transparency](../framework-digital-transparency/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Required Input
-
 Ask for all of the following before generating any deliverable:
 
 1. **Client business name and industry** — full trading name and sector (e.g. "Kampala Orthopaedic Clinic — private healthcare")
@@ -49,10 +85,7 @@ Ask for all of the following before generating any deliverable:
 6. **Existing trust signals** — any reviews, testimonials, media coverage, certifications, awards, or affiliations already in existence?
 7. **Target conversion goal** — what does "trust converted to action" look like for this client? (e.g. WhatsApp enquiry, walk-in visit, form submission, online purchase, event registration)
 
----
-
 ## Section 1 — The Like-Know-Trust Framework
-
 The Like-Know-Trust (LKT) framework describes the sequence a stranger must travel before becoming a paying customer. It is not a funnel — it is a relationship arc. Skipping stages does not accelerate conversion; it destroys it. Cite: Bodnar and Cohen (2012) — the LKT model maps closely to their social media buying cycle, in which value must be given before a sale is ever attempted.
 
 **Like** is the first stage. Before an audience will pay attention, they must find the brand worth following. Content at this stage is entertaining, practically useful, or emotionally resonant — it does not sell. A brand that opens with "buy from us" before establishing likability is asking for trust it has not yet earned. In East Africa, where word-of-mouth and community reputation carry enormous commercial weight, a brand that is not liked is not shared — and a brand that is not shared does not grow organically. Like-stage content creates the conditions for everything that follows.
@@ -61,10 +94,7 @@ The Like-Know-Trust (LKT) framework describes the sequence a stranger must trave
 
 **Trust** is the third and most commercially consequential stage. Trust is not declared — it is demonstrated through consistency, proof, and risk reduction. Social proof (reviews, testimonials, case studies), third-party endorsements (press coverage, certifications, awards), guarantees, and transparency all build trust. Only when trust is established does selling become natural and welcome rather than intrusive. In markets where online fraud and quality inconsistency are live consumer concerns — as they are across East Africa — the Trust stage is not optional. It is the gate through which every conversion must pass.
 
----
-
 ## Section 2 — Diagnosing the Client's Current Stage
-
 Apply this diagnostic to every new or existing client before recommending a content strategy. Score the audience on each signal. Identify where the strongest signals cluster — that is the current dominant stage. Identify where signals are absent — those are the gaps to close.
 
 **LKT Stage Diagnostic**
@@ -84,10 +114,7 @@ Apply this diagnostic to every new or existing client before recommending a cont
 
 **Interpretation:** A brand with high reach and engagement but low conversion is typically stuck at the Know stage — audiences are aware and interested, but have not yet accumulated sufficient proof to act. Apply Trust-stage content to close this gap. A brand with strong conversion but poor organic growth is typically bypassing Like-stage content — it is selling to existing customers but not recruiting new audiences.
 
----
-
 ## Section 3 — Content Strategy by Stage
-
 Map every piece of content to one LKT stage before publishing. If a content calendar has no Like content, the brand is not growing. If it has no Know content, the brand is not deepening. If it has no Trust content, the brand is not converting.
 
 **Like Content**
@@ -116,10 +143,7 @@ Map every piece of content to one LKT stage before publishing. If a content cale
 - Transparent complaint resolution: publicly resolving a customer issue in the comments demonstrates confidence and integrity more powerfully than any advertisement
 - EA examples: a financial services firm sharing anonymised client outcome data ("Client saved UGX 12 million in tax in year one"); a secondary school sharing UNEB results and university placement rates
 
----
-
 ## Section 4 — The 10-4-1 Rule Applied to LKT
-
 Apply the **10-4-1 rule** (Bodnar and Cohen, 2012) as the practical LKT content mix for any active social media channel:
 
 - **10 shares** of third-party content (Like and Know stages): relevant articles, sector news, and useful resources from credible external sources — this builds authority and perceived generosity without selling
@@ -130,10 +154,7 @@ For most East African clients who currently over-post promotional content, adopt
 
 Generate a sample 15-post content sequence using the 10-4-1 ratio, mapped explicitly to the client's current LKT stage and target conversion goal.
 
----
-
 ## Section 5 — Trust Acceleration Tactics
-
 For clients who need to build trust faster — new brands, businesses recovering from a reputation issue, or organisations entering a competitive market — apply these five tactics in sequence:
 
 1. **Rapid review generation:** Deploy a WhatsApp review request template within the first 30 days. Target: 10 genuine, named Google reviews within the first month. Refer to `playbook-reputation-management/SKILL.md` for the full review request protocol.
@@ -142,10 +163,7 @@ For clients who need to build trust faster — new brands, businesses recovering
 4. **Social proof cluster:** In a single week, publish five testimonials or case studies in quick succession. The clustering effect creates a perception of overwhelming positive evidence that a single monthly testimonial never achieves.
 5. **Founder visibility campaign:** Put the founder's face on social media content for 30 consecutive days — one short video, post, or story per day. In East African markets, people trust people before they trust logos. A face creates accountability, relatability, and connection that branded graphics cannot replicate.
 
----
-
 ## Section 6 — Measurement
-
 Track LKT stage progression using these platform-native metrics. Report monthly and use movement across the table to determine whether content sequencing is working.
 
 | Stage | Primary Metric | Secondary Metric | Target Direction |
@@ -157,12 +175,8 @@ Track LKT stage progression using these platform-native metrics. Report monthly 
 
 When Trust-stage metrics plateau despite strong Like and Know numbers, diagnose the gap using the Section 2 diagnostic and introduce one or more Trust Acceleration Tactics from Section 5. When Like-stage metrics are static, audit whether the content calendar has drifted toward promotional-heavy posting and rebalance using 10-4-1.
 
----
-
 ## Section 7 — Extended Trust Framework
-
 ### Three-Dimensional Transparency Model (Rageh, 2026)
-
 Apply within the Trust stage of the LKT framework. Trust is not a single state — it is built through three simultaneous dimensions:
 
 - **Clarity:** Complete, easy-to-find information about the brand, its products, pricing, and policies. Information gaps create suspicion.
@@ -172,7 +186,6 @@ Apply within the Trust stage of the LKT framework. Trust is not a single state �
 All three dimensions must be active for trust to build. Empirical chain (Rageh, 2026): transparency → trust (β=0.730) → commitment (β=0.525) → engagement (β=0.413). This means transparency produces trust; trust produces commitment; commitment drives engagement — in that sequence, not simultaneously.
 
 ### Commitment as the Terminal Stage
-
 The LKT framework's goal is not trust acquisition — it is commitment building. Commitment is the strongest predictor of online engagement (Rageh, 2026). Add **Commitment** as the stage beyond Trust in the LKT arc:
 
 **Like → Know → Trust → Commitment → Advocacy**
@@ -180,7 +193,6 @@ The LKT framework's goal is not trust acquisition — it is commitment building.
 Commitment-stage community members do not merely trust the brand — they defend it, recruit for it, and return regardless of price fluctuation. Strategy at this stage: recognise committed members publicly, give them early access and exclusive involvement, and create participation structures (polls, co-creation, feedback panels) that make them feel ownership of the brand direction.
 
 ### Four Types of Social Influencers (Westergaard, 2016)
-
 Use this taxonomy to map community amplifiers before prescribing a community engagement strategy.
 
 | Type | Reach | Action Probability | Investment Priority |
@@ -193,7 +205,6 @@ Use this taxonomy to map community amplifiers before prescribing a community eng
 Most community strategies over-invest in Catalysts (macro-influencers) and under-invest in Advocates and Activators (micro and nano advocates). The Fan Elevation System prioritises moving community members up the engagement ladder — from passive follower to Advocate or Activator. Identify Everyday Advocates through their unprompted brand mentions, peer referrals, and comment quality, then activate them through direct recognition and exclusive involvement.
 
 ### Generational Trust Calibration
-
 Community trust strategies must be calibrated by generation. Do not apply a single trust-building approach across audiences spanning multiple age cohorts (Rageh, 2026):
 
 - **Gen Z (born 1997–2012):** Demands brand activism and algorithmic transparency. Will not engage with brands that appear performatively progressive without structural commitment.
@@ -203,10 +214,7 @@ Community trust strategies must be calibrated by generation. Do not apply a sing
 
 Include this generational calibration as an audience segmentation layer in the persona work (see `03-audience-personas`) when the client's audience spans multiple generations.
 
----
-
 ## Quality Criteria
-
 - The three LKT stages are defined clearly with a dedicated paragraph each, explaining the commercial logic of each stage in the EA market context
 - The Section 2 diagnostic table is applied to the specific client and produces a clear verdict on their current dominant stage and identified gaps
 - Content examples for every stage include at least one concrete EA or Uganda-specific scenario
@@ -215,10 +223,7 @@ Include this generational calibration as an audience segmentation layer in the p
 - Measurement metrics are presented per stage with both a primary and secondary metric and a stated direction of travel
 - Bodnar and Cohen (2012) is cited at least twice — once at the LKT framework introduction and once at the 10-4-1 rule
 
----
-
 ## References
-
 Consult these related skills when building the full client deliverable:
 
 - `05-social-media-strategy/SKILL.md` — the overarching strategy skill; use framework-community-trust as the trust-sequencing layer within the broader strategy

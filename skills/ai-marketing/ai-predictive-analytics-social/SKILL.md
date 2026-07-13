@@ -1,42 +1,80 @@
 ---
 name: ai-predictive-analytics-social
-description: >
-  Apply predictive analytics to social media strategy and content decisions.
-  Invoke when a client wants to move beyond vanity metrics to data-driven
-  forecasting of audience behaviour, content performance, and campaign ROI on
-  social media platforms. Based on Johnsen (2024) and Lamplugh (2024).
+description: Use when AI Predictive Analytics for Social Media is needed to produce a AI predictive analytics social deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Predictive Analytics for Social Media
 
-<!-- dual-compat:start -->
-## Use when
-- Apply predictive analytics to social media strategy and content decisions. Invoke when a client wants to move beyond vanity metrics to data-driven forecasting of audience behaviour, content performance, and campaign ROI on social media platforms. Based on Johnsen (2024) and Lamplugh (2024).
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI predictive analytics social deliverable** and the supplied brief falls within ai predictive analytics for social media.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI predictive analytics social deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI predictive analytics social deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI predictive analytics social deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai predictive analytics social deliverable | Requester, client reviewer or delivery team | The AI predictive analytics social deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI predictive analytics social deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Transform a client's existing social media data into forward-looking
 forecasts: which content will perform, which audience segments are at risk of
 disengaging, and what revenue social campaigns are likely to generate.
@@ -51,10 +89,7 @@ After completing this skill, refer the client to `meta-roi-framework` to
 build the financial case for continued investment, or to
 `ai-data-foundation-plan` if data quality gaps prevent effective prediction.
 
----
-
 ## Required Inputs
-
 Ask for the following before generating any output:
 
 1. **Client business name** — trading name and legal entity if different
@@ -75,10 +110,7 @@ Ask for the following before generating any output:
    - Campaign ROI (project revenue from a planned social campaign)
    - Customer segmentation (identify highest-value audience groups)
 
----
-
 ## From Descriptive to Predictive Analytics
-
 Establish clearly which stage of analytics the client is currently at before
 proposing predictive methods.
 
@@ -93,17 +125,11 @@ Most EA clients with 3+ months of Meta Business Suite data are ready to move
 from descriptive to predictive. Prescriptive recommendations follow naturally
 once predictions are validated against actual outcomes.
 
----
-
 ## Five Predictive Use Cases for Social Media
-
 Match the use case to the client's stated primary prediction goal. Address
 the highest-priority use case in full; summarise the remaining four briefly.
 
----
-
 ### 1. Follower Churn Prediction
-
 **What it predicts:** Identifies follower segments or subscriber groups
 likely to disengage before they leave — enabling pre-emptive content
 intervention.
@@ -120,10 +146,7 @@ the Insights export; per-follower data requires third-party tools.
 > Shift content mix toward video and interactive formats (polls, questions)
 > for this segment over the next 30 days and measure re-engagement rate."
 
----
-
 ### 2. Content Performance Prediction
-
 **What it predicts:** Forecasts which content types, topics, and formats will
 drive highest engagement in the next 30 days based on historical patterns.
 
@@ -141,10 +164,7 @@ Meta Business Suite insights export at no additional cost.
 > per week in this slot. Carousel posts on Saturday mornings are the
 > second-highest performer for the education topic category."
 
----
-
 ### 3. Audience Personalisation
-
 **What it predicts:** Which content variant each audience segment is most
 likely to engage with — enabling a segmented content calendar rather than
 a single feed.
@@ -165,10 +185,7 @@ tools for organic posts).
 > performance and business outcomes; (c) 18–24 students — entertainment,
 > humour, and community challenges.
 
----
-
 ### 4. Social Commerce Forecasting
-
 **What it predicts:** Projects the revenue contribution from a planned
 social-driven campaign before it launches, based on historical campaign
 performance data.
@@ -189,10 +206,7 @@ recorded.
 > March 2024 campaign. Revenue forecast confidence is medium — validate
 > against actual outcome and update the model."
 
----
-
 ### 5. Cross-Sell and Upsell Identification
-
 **What it predicts:** Identifies which audience members are most likely to
 purchase additional products or upgrade from their current product tier.
 
@@ -212,10 +226,7 @@ service clients).
 > introductory offer. Estimated conversion rate based on past similar
 > segments: 8–12%."
 
----
-
 ## RFM Analysis for Social Audiences
-
 RFM (Recency, Frequency, Monetary) is a customer segmentation model
 originally used in direct marketing (Johnsen, 2024). Apply it to social
 media audiences to prioritise where to invest content resources.
@@ -242,10 +253,7 @@ use audience segment engagement trends rather than per-follower data. A
 spreadsheet-based manual RFM score is sufficient for clients without
 specialist tools.
 
----
-
 ## Predictive Content Calendar
-
 Use historical engagement data to build a data-driven posting strategy for
 the next 30 days. Follow these five steps exactly:
 
@@ -278,10 +286,7 @@ At the end of each month, compare actual post performance against the
 predictions. Update the export and re-run the analysis. Each iteration
 improves accuracy.
 
----
-
 ## Five-Step Data Science Workflow
-
 Apply this workflow to any predictive analytics engagement
 (Lamplugh, 2024):
 
@@ -308,10 +313,7 @@ Apply this workflow to any predictive analytics engagement
    actual outcomes. Record the accuracy rate. Use discrepancies to refine
    the next model iteration.
 
----
-
 ## Tool Options for Non-Data-Science Teams
-
 Recommend tools based on the client's technical capacity and budget. Do not
 recommend enterprise tools to SME clients without budget and technical
 support.
@@ -335,10 +337,7 @@ support.
 - Enterprise clients: evaluate Pecan AI alongside CRM-native analytics
   tools via `ai-vendor-evaluation`.
 
----
-
 ## EA Data Sources Reference
-
 Available data sources for Ugandan businesses that do not have enterprise
 analytics tools:
 
@@ -360,10 +359,7 @@ analytics tools:
   manually to calculate social commerce conversion rates without specialist
   tools.
 
----
-
 ## Quality Criteria
-
 Assess the output against these criteria before delivering to the client:
 
 - Primary prediction goal is identified and matched explicitly to one of the
@@ -388,10 +384,7 @@ Assess the output against these criteria before delivering to the client:
   cycle, with a clear mechanism for comparing the predicted outcome against
   actual performance.
 
----
-
 ## References
-
 - Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning.
 - Lamplugh, M. (2024) *The AI Marketing Playbook*, 2nd edn. Mercury
   Learning.

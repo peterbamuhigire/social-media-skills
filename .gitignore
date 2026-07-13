@@ -19,3 +19,5 @@ desktop.ini
 # Temporary files
 *.tmp
 *.bak
+__pycache__/
+*.pyc

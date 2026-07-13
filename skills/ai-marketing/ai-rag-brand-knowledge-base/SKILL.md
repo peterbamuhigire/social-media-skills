@@ -1,41 +1,80 @@
 ---
 name: ai-rag-brand-knowledge-base
-description: >
-  Build a client-specific RAG (Retrieval-Augmented Generation) knowledge base for accurate,
-  on-brand AI output. Invoke when a client uses AI tools for content creation and needs
-  consistent, factually correct outputs grounded in their brand, products, and audience.
+description: Use when AI RAG Brand Knowledge Base is needed to produce a AI rag brand knowledge base deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI RAG Brand Knowledge Base
 
-<!-- dual-compat:start -->
-## Use when
-- Build a client-specific RAG (Retrieval-Augmented Generation) knowledge base for accurate, on-brand AI output. Invoke when a client uses AI tools for content creation and needs consistent, factually correct outputs grounded in their brand, products, and audience.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI rag brand knowledge base deliverable** and the supplied brief falls within ai rag brand knowledge base.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI rag brand knowledge base deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI rag brand knowledge base deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI rag brand knowledge base deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai rag brand knowledge base deliverable | Requester, client reviewer or delivery team | The AI rag brand knowledge base deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI rag brand knowledge base deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Required Input
-
 Ask for the following before proceeding:
 
 1. **Client business name** — the trading name as it appears on communications
@@ -53,10 +92,7 @@ Ask for the following before proceeding:
    - Competitor analysis or market notes
    - Policy documents (returns, delivery, payment, warranties)
 
----
-
 ## What Is RAG and Why It Matters
-
 Standard AI language models generate outputs from patterns learned across the internet. They do not
 know a client's brand name, product range, pricing, tone of voice, or customer context unless that
 information is provided in every prompt. The result: AI outputs that are generic, factually
@@ -77,10 +113,7 @@ context (Sweenor and Mulkers, 2024).
 RAG does not require technical infrastructure beyond a paid subscription to a tool such as Claude
 Projects or ChatGPT Projects. The investment is in document preparation, not engineering.
 
----
-
 ## What to Include in the Knowledge Base
-
 Organise documents into seven categories. Each category should be a separate file or section — do
 not combine unrelated content in a single document.
 
@@ -137,14 +170,11 @@ not combine unrelated content in a single document.
 - Economic context: notes on price sensitivity, mobile-first purchasing behaviour, and
   WhatsApp as the primary customer channel
 
----
-
 ## How to Structure Documents for LLM Retrieval
-
 The quality of AI outputs depends directly on the quality of documents in the knowledge base.
 Apply these rules to every document before adding it to the base.
 
-**Use clear headings and subheadings.** LLMs navigate by structure. A document with headings such
+**Use clear headings and subheadings.** LLMs interpret structure. A document with headings such
 as "Delivery — Kampala" and "Delivery — Upcountry" retrieves more accurately than unstructured
 paragraphs. Use H2 and H3 headings consistently.
 
@@ -165,10 +195,7 @@ Foods ships orders on Monday, Wednesday, and Friday" not "we ship three days a w
 A discontinued product still in the knowledge base will appear in AI-generated captions. Delete
 or archive it. If archiving, label the file clearly: "ARCHIVED — do not load."
 
----
-
 ## Tool Options
-
 Select the tool that matches the client's budget, technical capacity, and primary use case.
 
 | Tool | Best for | EA accessibility | Approx. cost |
@@ -183,10 +210,7 @@ Select the tool that matches the client's budget, technical capacity, and primar
 accessible on standard internet connections, require no technical setup, and cost under $25/month.
 Recommend clients start here before investing in a dedicated platform.
 
----
-
 ## Query Workflow for Content Creators
-
 Document this workflow and share it with every team member who uses the knowledge base.
 
 **Step 1 — Open the knowledge base tool.**
@@ -212,10 +236,7 @@ Re-prompting without fixing the source document produces the same error next tim
 document was missing or unclear, update it, date-stamp it, and reload it into the project. This is
 the maintenance discipline that compounds knowledge base quality over time.
 
----
-
 ## Maintenance Protocol
-
 Schedule a quarterly review. Assign a named owner — this is typically the social media manager or
 content lead.
 
@@ -239,10 +260,7 @@ content lead.
 - The brand refreshes its tone of voice or visual identity
 - A new team member joins who will use the knowledge base
 
----
-
 ## EA Calibration
-
 Prioritise these local market context documents for Ugandan and East African clients. They are the
 most common gap between generic AI output and locally relevant content.
 
@@ -265,10 +283,7 @@ Include approved Luganda phrases (e.g. "Webale nnyo" for "thank you very much", 
 global ones. AI models can otherwise generate competitive comparisons referencing irrelevant
 international brands. Ground the comparison in the real local market.
 
----
-
 ## Quality Criteria
-
 - Knowledge base covers all seven document types: brand identity, audience, products/services,
   past campaigns, competitor notes, policies, and local market context
 - Every document is structured with clear headings, explicit factual statements, the brand name
@@ -285,10 +300,7 @@ international brands. Ground the comparison in the real local market.
 - Uganda Data Protection and Privacy Act (2019) compliance is noted on any document containing
   customer data (personas, customer quotes, contact information)
 
----
-
 ## References
-
 Lamplugh, M. (2024) *The AI Marketing Playbook*, 2nd edn. Mercury Learning.
 
 Sweenor, D.E. and Mulkers, Y. (2024) *Generative AI Business Applications*. TinyTechMedia.

@@ -1,52 +1,85 @@
 ---
 name: content-whitepaper-ebook
-description: >
-  Produces a complete long-form content asset — either a whitepaper (research-led, evidence-based)
-  or an eBook (practical guide, how-to) — for a client operating in Uganda or East Africa.
-  Invoke this skill when a client needs a 2,000–5,000 word PDF-ready document for lead generation,
-  thought leadership, donor reporting, investor communications, or conference distribution.
-  Triggers: "write a whitepaper", "create an eBook", "lead magnet document", "thought leadership
-  report", "donor report", "investor document", "long-form content asset".
+description: Use when content-whitepaper-ebook is needed to produce a content whitepaper ebook deliverable for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # content-whitepaper-ebook
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **content whitepaper ebook deliverable** and the supplied brief falls within content-whitepaper-ebook.
+
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified content whitepaper ebook deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact content whitepaper ebook deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete content whitepaper ebook deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Content whitepaper ebook deliverable | Requester, client reviewer or delivery team | The content whitepaper ebook deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested content whitepaper ebook deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 Generates a fully structured whitepaper or eBook for a client. Output is paste-ready body copy
 organised by section, written to PDF-ready standard. Apply the `east-african-english` skill for
 all tone and register decisions. This skill does not produce .pdf or .docx files — it produces
 the text content that a designer or the client pastes into their chosen layout tool.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Produces a complete long-form content asset — either a whitepaper (research-led, evidence-based) or an eBook (practical guide, how-to) — for a client operating in Uganda or East Africa. Invoke this skill when a client needs a 2,000–5,000 word PDF-ready document for lead generation, thought leadership, donor reporting, investor communications, or conference distribution. Triggers: "write a whitepaper", "create an eBook", "lead magnet document", "thought leadership report", "donor report", "investor document", "long-form content asset".
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `../premium-commercial-writing/SKILL.md` when the document must function as premium thought leadership, a high-value lead magnet, an investor/donor confidence asset, or a sales-enablement document.
-
-<!-- dual-compat:end -->
-
 ## Required Inputs
-
 Ask for all of the following before generating any content:
 
 1. **Client business name** — trading name as it should appear on the document
@@ -63,10 +96,7 @@ Ask for all of the following before generating any content:
 If the client cannot answer items 7 or 8, pause and prompt them before proceeding. A whitepaper
 without a thesis is a brochure. An eBook without a reader problem is a catalogue.
 
----
-
 ## Section 1 — Whitepaper vs eBook: Decision Rule
-
 Apply this distinction before choosing a structure template.
 
 **Whitepaper**
@@ -93,12 +123,8 @@ If the primary output is a set of actions the reader can take → eBook.
 When the client is unsure, ask: "After reading this document, do you want the reader to think
 differently about a problem, or to do something differently?" Thinking → whitepaper. Doing → eBook.
 
----
-
 ## Section 2 — Document Structure Templates
-
 ### Whitepaper Structure
-
 Generate each section in order. Write the Executive Summary last, then position it first.
 
 1. **Cover page** — title, subtitle, client name, date, classification label ("Public" or "Confidential")
@@ -112,7 +138,6 @@ Generate each section in order. Write the Executive Summary last, then position 
 9. **References / Sources** — full citations in Harvard style
 
 ### eBook Structure
-
 Generate each chapter in order. The introduction sets reader expectations; every chapter delivers on them.
 
 1. **Cover page** — title, subtitle, a clear "what you will learn" statement (3 bullets maximum)
@@ -125,10 +150,7 @@ Generate each chapter in order. The introduction sets reader expectations; every
 8. **About [Business Name]** — one short paragraph on who the client is and what they offer; include contact details
 9. **Call to Action page** — one clear action the reader should take now (book a consultation, join the newsletter, download a template)
 
----
-
 ## Section 3 — Writing Standards
-
 Apply these on top of the `east-african-english` skill standards.
 
 - **Executive Summary is written last, positioned first.** Complete all other sections, then write
@@ -147,10 +169,7 @@ Apply these on top of the `east-african-english` skill standards.
 - **Avoid vague conclusions.** Every recommendation must answer: who should do this, what exactly,
   and by when or with what resources?
 
----
-
 ## Section 4 — Lead Generation Integration
-
 Apply this section when the intended use is a lead magnet or gated download.
 
 **Email gate setup:** Instruct the client to gate the document behind a sign-up form using one of:
@@ -180,10 +199,7 @@ What you will learn:
 3. Email to existing list — subject line + 3-sentence body + download link
 4. WhatsApp broadcast — one sentence hook + shortened link (use Bitly or similar)
 
----
-
 ## Section 5 — Donor / Investor Variant
-
 Apply this section in full when the intended use is a donor report or investor document.
 
 - Use formal register throughout: no contractions, no colloquialisms, no first-person informality.
@@ -200,16 +216,10 @@ Apply this section in full when the intended use is a donor report or investor d
 - Add a **financial accountability section** if the document is for a donor: budget allocated,
   budget spent, variance explanation, auditor or board sign-off status.
 
----
-
 ## Human Authenticity Gate
-
 All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted long-form documents must meet the Golden Rule: every whitepaper or eBook must look, feel, and sound as if it was researched and written by the most skilled human expert with genuine authority in the subject and deep knowledge of the East African context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
----
-
 ## Quality Criteria
-
 Output meets the standard for this skill when all of the following are true:
 
 - The whitepaper vs eBook distinction has been applied and the correct structure template used
@@ -221,10 +231,7 @@ Output meets the standard for this skill when all of the following are true:
 - If the intended use is donor or investor: the impact metrics table, Theory of Change description,
   and formal register requirements are applied in full
 
----
-
 ## References
-
 | Skill | When to use it |
 |---|---|
 | `blog-writer/SKILL.md` | Repurposing whitepaper or eBook content into blog posts for distribution |

@@ -1,44 +1,83 @@
 ---
 name: hashtag-strategy
-description: Generates a complete hashtag strategy document for a client — covering branded, niche, community, and awareness hashtags, a platform-specific usage guide, hashtags to avoid, and a tracking method. Invoke when the user says "create a hashtag strategy", "research hashtags for", "build a hashtag bank", or "what hashtags should we use". Also invoke when a new client onboarding is underway and no hashtag strategy exists yet.
+description: Use when Hashtag Strategy is needed to produce a decision-ready strategy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Hashtag Strategy
 
-<!-- dual-compat:start -->
-## Use when
-- Generates a complete hashtag strategy document for a client — covering branded, niche, community, and awareness hashtags, a platform-specific usage guide, hashtags to avoid, and a tracking method. Invoke when the user says "create a hashtag strategy", "research hashtags for", "build a hashtag bank", or "what hashtags should we use". Also invoke when a new client onboarding is underway and no hashtag strategy exists yet.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **decision-ready strategy** and the supplied brief falls within hashtag strategy.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified decision-ready strategy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact decision-ready strategy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete decision-ready strategy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Decision-ready strategy | Requester, client reviewer or delivery team | The decision-ready strategy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested decision-ready strategy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## How to Use This Skill
-
 Collect the Required Input below. Generate a complete hashtag strategy document in one output. Include all seven sections. Use the client's industry, location, and audience to select and justify every hashtag — do not generate generic lists. For Uganda/East Africa clients, prioritise the EA-specific tags listed in each section where relevant.
 
----
-
 ## Required Input
-
 Ask for the following before generating the strategy:
 
 - **Client name** — trading name of the business
@@ -51,26 +90,17 @@ Ask for the following before generating the strategy:
 - **Any existing branded hashtags** — hashtags the client has already used or promoted to their audience
 - **Active platforms** — all platforms the client posts on (determines the usage guide)
 
----
-
 ## Output: Complete Hashtag Strategy Document
-
 Generate the cover section and all seven sections in full. For each hashtag: explain when to use it, which platform it performs best on, and what type of content it suits. Justify selections — do not list without explanation.
 
----
-
 ### Cover
-
 **[Client Name] — Hashtag Strategy**
 Prepared for: [Client Name]
 Industry: [Industry]
 Primary market: [City / Country]
 Date: [Date]
 
----
-
 ### Section 1: Branded Hashtags
-
 Branded hashtags are unique to [Client Name]. They build a searchable content library, encourage user-generated content (UGC), and make it easy for customers to find and contribute to the brand community. Use at least the primary branded hashtag on every post across all platforms.
 
 **1. Primary branded hashtag**
@@ -104,10 +134,7 @@ Purpose: attracts an audience that shares the brand's values — these tend to b
 
 Generate all 5 branded hashtags for [Client Name] based on the brand name and industry provided in the Required Input. If the client already uses existing branded hashtags, incorporate those and note which category they fall into.
 
----
-
 ### Section 2: Niche Hashtags (10)
-
 Niche hashtags have between 1,000 and 100,000 posts. They are highly relevant to a specific topic, product, or location, and face lower competition than broad tags — meaning the content stays visible for longer and reaches a genuinely interested audience.
 
 Generate 10 niche hashtags based on the client's industry and location. For each, provide:
@@ -135,10 +162,7 @@ Generate 10 niche hashtags based on the client's industry and location. For each
 
 For the final strategy, select the most relevant 10, supplement with industry-specific global niche tags (e.g. `#NaturalHairUganda` for a beauty brand), and present as the table above.
 
----
-
 ### Section 3: Community Hashtags (10)
-
 Community hashtags connect the brand to broader audience groups — people who identify with a community, movement, or shared interest beyond the immediate product category. They have between 100,000 and 500,000 posts and drive discovery by new audiences.
 
 Generate 10 community hashtags relevant to the client's audience. Present in the same table format as Section 2.
@@ -160,10 +184,7 @@ Generate 10 community hashtags relevant to the client's audience. Present in the
 
 Select those relevant to [Client Name]'s audience and supplement with global community tags specific to the industry (e.g. `#WomenInTech`, `#SustainableFashion`, `#PlantBased` as relevant).
 
----
-
 ### Section 4: Awareness / Trending Hashtags (5)
-
 These are broad tags with 500,000+ posts. They maximise reach but offer low targeting precision — the content competes with an enormous volume of posts. Use sparingly: 1–2 per post maximum, combined with niche tags.
 
 **Select 5 from the categories below, relevant to the client:**
@@ -179,10 +200,7 @@ Use global days that align with content: `#InternationalWomensDay` / `#WorldEnvi
 
 Present the final 5 selected tags with a note on when to use each.
 
----
-
 ### Section 5: Platform-Specific Usage Guide
-
 Apply this guide every time a post is scheduled. Mixing hashtag sets incorrectly across platforms reduces performance.
 
 | Platform | Recommended count | Placement | Sets to combine |
@@ -203,10 +221,7 @@ For each post, start with the standard set below and swap out 2–3 tags for one
 
 Generate this standard set in the output, using the hashtags selected in Sections 1–4.
 
----
-
 ### Section 6: Hashtags to Avoid
-
 **Engagement bait tags**
 `#follow4follow` `#likeforlike` `#f4f` `#l4l` `#followback` — these attract bot accounts and inactive profiles, not genuine customers. They inflate follower counts with no commercial value.
 
@@ -224,10 +239,7 @@ Do not use competitor brand names as hashtags. It is ineffective for discovery a
 **Misleading or irrelevant tags**
 Never tag content with a hashtag that does not relate to the post. Instagram's algorithm penalises irrelevant hashtagging. It also damages trust if audiences click a tag and find unrelated content.
 
----
-
 ### Section 7: Hashtag Performance Tracking
-
 Review hashtag performance monthly. Retire underperformers. Test replacements.
 
 **How to Check if Hashtags Are Working (Instagram)**
@@ -253,16 +265,10 @@ Every 3 months: run a full review of the entire hashtag strategy. Check all nich
 
 Include a "Hashtag Performance" row in the monthly social media report (from meta-reporting). Note the average impressions from hashtags per post and flag any tags that generated significantly above or below average discovery.
 
----
-
 ## Human Authenticity Gate
-
-All hashtag strategy documents produced using this skill must be reviewed by a human consultant familiar with the client's audience before delivery. AI-generated hashtag selections must meet the Golden Rule: every set must be as precisely targeted and culturally informed as if selected by the most skilled human digital strategist with deep knowledge of the East African social media landscape. Generic, untargeted, or culturally misaligned hashtag sets are not acceptable regardless of how efficiently they were produced.
-
----
+All hashtag strategy documents produced using this skill must be reviewed by a human consultant familiar with the client's audience before delivery. AI-generated hashtag selections must meet the Golden Rule: every set must be as precisely targeted and culturally informed as if selected by a skilled human digital strategist with deep knowledge of East African social media. Generic, untargeted, or culturally misaligned hashtag sets are not acceptable regardless of how efficiently they were produced.
 
 ## Quality Criteria
-
 - [ ] All 5 branded hashtags are generated specifically for this client — not generic placeholders
 - [ ] 10 niche hashtags are relevant to the client's actual industry and city — not a generic list
 - [ ] 10 community hashtags reflect the client's target audience, not just broad EA tags

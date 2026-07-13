@@ -1,44 +1,80 @@
 ---
 name: framework-digital-transparency
-description: >
-  Applies Rageh's three-dimensional transparency model to build consumer trust across
-  digital channels. Invoke when a client needs to improve digital trust, increase
-  conversion rates from digital channels, or position themselves as a trustworthy
-  operator in a market where digital commerce is newer and consumer scepticism is
-  higher. Source: Rageh (Ed.) (2026) Ethical Marketing and Consumer Trust in Digital
-  and Sustainable Markets.
+description: Use when Digital Transparency Framework is needed to produce an applied framework assessment for social-media or digital-marketing work; use `framework-community-trust` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Digital Transparency Framework
 
-<!-- dual-compat:start -->
-## Use when
-- Applies Rageh's three-dimensional transparency model to build consumer trust across digital channels. Invoke when a client needs to improve digital trust, increase conversion rates from digital channels, or position themselves as a trustworthy operator in a market where digital commerce is newer and consumer scepticism is higher. Source: Rageh (Ed.) (2026) Ethical Marketing and Consumer Trust in Digital and Sustainable Markets.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **applied framework assessment** and the supplied brief falls within digital transparency framework.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+## Do Not Use When
+- Use `framework-community-trust` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
 
 ## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Observed community or transparency problem, affected audience and decision context | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
 
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified applied framework assessment; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| The observed behaviour and trust gap fit this framework | Apply the framework to the named behaviour and record the intervention choice. | Using an abstract framework without a real trust or accountability problem. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact applied framework assessment, consumer, market, channel and approval boundary; route to `framework-community-trust` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete applied framework assessment; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Applied framework assessment | Requester, client reviewer or delivery team | The applied framework assessment addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested applied framework assessment, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [framework-community-trust](../framework-community-trust/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
+
+## Required Inputs
 Ask for the following before generating any output:
 
 1. **Business name** — trading name of the client
@@ -49,10 +85,7 @@ Ask for the following before generating any output:
 6. **Current digital presence** — list the platforms and owned channels in use (website, social media, WhatsApp, etc.)
 7. **Known trust gaps** — any customer feedback, complaints, or sales objections related to trust or credibility
 
----
-
 ## Why Digital Transparency Matters in East Africa
-
 In Uganda and East Africa, many consumers are transacting online for the first time, or have experienced fraud, misrepresentation, or undelivered orders from online sellers. Consumer scepticism about digital commerce is not irrational — it is the result of lived experience.
 
 The empirical chain established by Rageh (2026) is clear:
@@ -61,12 +94,8 @@ The empirical chain established by Rageh (2026) is clear:
 
 Brands that invest in visible, operational transparency see measurably higher conversion rates and customer retention than those that treat trust as implicit ("people will just see that we're legitimate"). Transparency must be designed into the customer experience at every touchpoint — it does not emerge from good intentions alone.
 
----
-
 ## The Three-Dimensional Transparency Model (Rageh, 2026)
-
 ### Dimension 1 — Clarity
-
 Complete, accurate, and easy-to-understand information about products, pricing, policies, and the brand. The consumer must be able to answer five pre-purchase questions without contacting the business:
 
 1. What is this product or service, exactly?
@@ -87,7 +116,6 @@ A customer who cannot answer all five questions without a DM will abandon the pu
 | Email | Include physical address, business registration number (if applicable), and an unsubscribe link in every email footer |
 
 ### Dimension 2 — Openness
-
 Interactive feedback mechanisms and permission-based data collection. Consumers must feel they have a voice, that the brand is listening, and that they have control over their own data.
 
 **Implementation actions:**
@@ -98,7 +126,6 @@ Interactive feedback mechanisms and permission-based data collection. Consumers 
 - **Respond to feedback publicly** — acknowledge compliments publicly; acknowledge complaints publicly and offer to resolve them privately. Silence in response to public feedback signals indifference.
 
 ### Dimension 3 — Objectivity
-
 Displaying negative information alongside positive. This is the counterintuitive dimension: brands that show 3-star reviews alongside 5-star reviews are trusted more than brands that display only positive content. Rageh (2026) confirms that consumers interpret a perfect review record as evidence of manipulation or selective curation — not genuine quality.
 
 **The objectivity principle in practice:**
@@ -120,10 +147,7 @@ Displaying negative information alongside positive. This is the counterintuitive
 5. Move the detailed resolution to a private channel (WhatsApp or direct message)
 6. Follow up once the issue is resolved to confirm satisfaction
 
----
-
 ## The Generational Trust Spectrum (Rageh, 2026)
-
 Calibrate transparency practices to the generational profile of the primary audience. A single approach applied uniformly across generations will underperform.
 
 | Generation | Trust Drivers | Transparency Calibration |
@@ -135,10 +159,7 @@ Calibrate transparency practices to the generational profile of the primary audi
 
 Where the client's audience spans multiple generations, apply the transparency practices of the most sceptical generation as the baseline.
 
----
-
 ## Transparency Audit
-
 Conduct a transparency audit before making recommendations. Do not assume transparency from the brand's self-presentation.
 
 **Audit checklist — Dimension 1 (Clarity):**
@@ -160,10 +181,7 @@ Conduct a transparency audit before making recommendations. Do not assume transp
 
 Identify and record the specific transparency gaps before writing any recommendations.
 
----
-
 ## Raw Marketing — The Five Rules of Authentic Brand Communication (Denny and Leinberger, 2020)
-
 The Rageh model defines transparency as a structural quality. Denny and Leinberger (2020) identify a complementary behavioural dimension: Raw Marketing — the movement towards unscripted, unfiltered, human-first brand communication driven by a fundamental shift in consumer power. Since 67% of purchase decisions are now driven by consumer-initiated pull activity rather than brand-pushed messages (2019 data), brands must communicate in ways that feel real, not produced.
 
 The five Raw Marketing rules operate as filters on all digital content decisions:
@@ -186,10 +204,7 @@ In the EA context: a business that publishes what competitors charge, identifies
 **The C2B shift (Denny and Leinberger, 2020):**
 Consumer-to-Business (C2B) has replaced Business-to-Consumer (B2C) as the dominant dynamic. Consumers now control the buying process: they research independently, self-select, set the agenda for sales conversations, and share their experiences publicly regardless of brand preferences. Marketing strategy must begin from this reality — design for a buyer who is already 70% of the way through their decision before they make contact.
 
----
-
 ## East African Regulatory Context
-
 Uganda's Data Protection and Privacy Act 2019 and Kenya's Data Protection Act 2019 create legal obligations that align directly with this framework:
 
 - **Consent** — personal data may only be collected and processed with informed, freely given, specific consent
@@ -198,10 +213,7 @@ Uganda's Data Protection and Privacy Act 2019 and Kenya's Data Protection Act 20
 
 Treating transparency as a legal compliance baseline undersells it — transparency is a revenue driver as well as a legal requirement. Present both arguments to the client.
 
----
-
 ## Output: Digital Transparency Report
-
 Generate the following for the client:
 
 1. **Transparency audit results** — completed checklists for all three dimensions with gaps identified
@@ -212,10 +224,7 @@ Generate the following for the client:
 6. **Regulatory compliance checklist** — specific actions required to align with the applicable data protection legislation
 7. **Review schedule** — transparency audit to be repeated every six months; trust practices that are not maintained actively decay
 
----
-
 ## Quality Criteria
-
 Output meets the standard when:
 
 1. All three transparency dimensions are assessed for the client before any recommendations are written — gaps are documented, not assumed from brand presentation
@@ -226,8 +235,5 @@ Output meets the standard when:
 6. EA regulatory compliance gaps are flagged explicitly and resolved before any personal data is collected or processed for marketing purposes
 7. Transparency audit is scheduled for repetition every six months — trust practices are treated as an operational discipline, not a one-time setup task
 
----
-
 ## Reference
-
 Rageh, A. (Ed.) (2026) *Ethical Marketing and Consumer Trust in Digital and Sustainable Markets*. IGI Global.

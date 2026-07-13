@@ -1,41 +1,79 @@
 ---
 name: playbook-reputation-management
-description: >
-  Guides a social media consultant through building and protecting a client's online reputation
-  in the Uganda/East Africa market. Covers proactive reputation building (review generation,
-  authority content, GBP optimisation) and reactive reputation defence (monitoring, complaint
-  response, suppression, escalation). Invoke when a client asks to improve their online ratings,
-  respond to negative reviews, recover from a reputation incident, or establish a systematic
-  review generation process.
+description: Use when designing or improving a Reputation Management operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Reputation Management Playbook
 
-<!-- dual-compat:start -->
-## Use when
-- Guides a social media consultant through building and protecting a client's online reputation in the Uganda/East Africa market. Covers proactive reputation building (review generation, authority content, GBP optimisation) and reactive reputation defence (monitoring, complaint response, suppression, escalation). Invoke when a client asks to improve their online ratings, respond to negative reviews, recover from a reputation incident, or establish a systematic review generation process.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Build or improve a repeatable Reputation Management workflow for a client or delivery team.
+- Turn an approved objective into roles, controls, handoffs and measurable actions.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- The task is a single-channel presence plan; use the closest `platform-*` skill.
+- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---|---|
+| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
+| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
+| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
+
+## Capability and Permission Boundaries
+Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+## Degraded Mode
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Reputation Management playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+## Decision Rules
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| A damaging claim is credible and unresolved | Preserve evidence, respond proportionately and move resolution to the right owner | Defensive deletion that compounds distrust |
+| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
+| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
+| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
+2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
+3. Apply the decision rules, preserve useful existing material and draft the Reputation Management playbook.
+4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
+5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Reputation Management playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
+| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+
+## Quality Standards
+Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+## Anti-Patterns
+- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
+- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
+- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
+- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
+- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [East African English standard](../../language/east-african-english/SKILL.md)
+- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+<!-- dual-compat-end -->
 
 ## Required Input
 

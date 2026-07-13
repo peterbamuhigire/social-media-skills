@@ -1,20 +1,78 @@
 ---
 name: biz-dev-beyond-agency-offer
-description: >
-  Produces a risk-free "first date" engagement offer for a prospective
-  client — the core acquisition tool of the results-first agency model.
-  Rather than pitching a monthly retainer upfront, the consultant proposes
-  a short, low-commitment test campaign that generates measurable results
-  within 7–10 days before any ongoing engagement is agreed. The skill
-  produces: the written offer document, the verbal/written pitch script,
-  the profit-share or flat-fee options, and the expectations sign-off
-  document covering Results, Time, Cost, and Communication. Invoke when
-  approaching a new prospect, when a prospect has declined a standard
-  retainer proposal, or when building a pipeline of "hell yes" clients
-  who enter the relationship already convinced by results rather than
-  promises. Based on Fihn's Beyond Agency model (2025).
+description: Use when The Risk-Free "First Date" Engagement Offer is needed to produce a beyond agency offer deliverable for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # The Risk-Free "First Date" Engagement Offer
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **beyond agency offer deliverable** and the supplied brief falls within the risk-free "first date" engagement offer.
+
+## Do Not Use When
+- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified beyond agency offer deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact beyond agency offer deliverable, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete beyond agency offer deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Beyond agency offer deliverable | Requester, client reviewer or delivery team | The beyond agency offer deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested beyond agency offer deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 > **The principle:** Traditional agencies ask clients to commit to a
 > monthly retainer while hoping for results. The Beyond Agency model
@@ -25,37 +83,7 @@ description: >
 > removes the biggest objection in any agency sales conversation: "How do
 > I know you can deliver?" (Fihn, 2025)
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Produces a risk-free "first date" engagement offer for a prospective client — the core acquisition tool of the results-first agency model. Rather than pitching a monthly retainer upfront, the consultant proposes a short, low-commitment test campaign that generates measurable results within 7–10 days before any ongoing engagement is agreed. The skill produces: the written offer document, the verbal/written pitch script, the profit-share or flat-fee options, and the expectations sign-off document covering Results, Time, Cost, and Communication. Invoke when approaching a new prospect, when a prospect has declined a standard retainer proposal, or when building a pipeline of "hell yes" clients who enter the relationship already convinced by results rather than promises. Based on Fihn's Beyond Agency model (2025).
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- A structured markdown document, plan, playbook, or strategy ready for client-facing or internal use.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
-
 ## Required Input
-
 Ask for the following before producing the offer:
 
 1. **Prospect business name and industry** — trading name and sector
@@ -78,10 +106,7 @@ Ask for the following before producing the offer:
     referral, white-label partner, or inbound? (Affects the tone and
     framing of the offer)
 
----
-
 ## Section 1 — The Five Offer Structures
-
 Select the most appropriate offer structure based on the client's
 situation and appetite for risk:
 
@@ -130,21 +155,14 @@ customer base. This is the highest-trust offer and the highest-reward
 model. Requires a written agreement specifying the baseline revenue
 figure (Fihn recommends including a legal disclaimer).
 
----
-
 ## Section 2 — The Written Offer Document
-
 Generate a one-page offer document. Replace all brackets with the
 client-specific information from the Required Input stage.
-
----
 
 **[CLIENT BUSINESS NAME]**
 **[CONSULTANT NAME / AGENCY NAME]**
 **7-Day Marketing Test — No Upfront Commitment**
 Proposed start date: [DD Month YYYY]
-
----
 
 **What we are proposing**
 
@@ -213,10 +231,7 @@ Agreed by: _________________________ Date: ___________
 Proposed by: _________________________ Date: ___________
 [Consultant name, agency name]
 
----
-
 ## Section 3 — The Verbal / Written Pitch (Phoneless Close)
-
 Use this script for written outreach (email, LinkedIn, WhatsApp) or
 as the basis for a short video audit message. The goal is to produce
 a response — not to close on first contact.
@@ -251,10 +266,7 @@ By the time the one-page offer document lands, the prospect has already
 engaged twice and seen the consultant's thinking. The "yes" to the offer
 document is the natural next step — not a hard sell.
 
----
-
 ## Section 4 — The Expectations Sign-Off Document
-
 Produce this one-page document at the start of every engagement to
 prevent misalignment, scope creep, and disappointing client experiences.
 Have it signed before any campaign begins (Fihn, 2025: the four
@@ -262,8 +274,6 @@ key expectation areas).
 
 **[CLIENT BUSINESS NAME] — Engagement Expectations**
 Agreed on: [DD Month YYYY]
-
----
 
 **Results**
 
@@ -310,18 +320,13 @@ Response time expectation (client): [e.g., "Copy approvals within
 Scheduled check-in: [e.g., "Brief WhatsApp update every Monday
 morning; full written report on Day 7 or Day 30"]
 
----
-
 Signed: _________________________ Date: ___________
 [Client name, title]
 
 Signed: _________________________ Date: ___________
 [Consultant name]
 
----
-
 ## Quality Criteria
-
 Output meets the standard for this skill when:
 
 - The offer document is complete, ready to send, and contains no
@@ -339,8 +344,5 @@ Output meets the standard for this skill when:
   agreement over UGX 500,000
 - British English throughout; no American spelling variants
 
----
-
 ## References
-
 - Fihn, F. (2025) *Beyond the Agency Box: The Phoneless Meet*

@@ -1,39 +1,80 @@
 ---
 name: brand-voice-ai-training
-description: >
-  Captures a client's authentic brand voice and encodes it into a reusable Brand Context Block — a standardised prompt header pasted at the start of every AI session to ensure consistent, on-brand output across all content types and platforms. Invoke at the start of every new client relationship, before any AI-assisted content is produced. Update whenever the client rebrands or when voice drift is detected in AI-assisted output.
+description: Use when Brand Voice AI Training is needed to produce a brand voice AI training deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Brand Voice AI Training
 
-<!-- dual-compat:start -->
-## Use when
-- Captures a client's authentic brand voice and encodes it into a reusable Brand Context Block — a standardised prompt header pasted at the start of every AI session to ensure consistent, on-brand output across all content types and platforms. Invoke at the start of every new client relationship, before any AI-assisted content is produced. Update whenever the client rebrands or when voice drift is detected in AI-assisted output.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **brand voice AI training deliverable** and the supplied brief falls within brand voice ai training.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified brand voice AI training deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact brand voice AI training deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete brand voice AI training deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Brand voice ai training deliverable | Requester, client reviewer or delivery team | The brand voice AI training deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested brand voice AI training deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Why This Matters
-
 AI tools default to a generic global register. The output is professional, grammatically correct, and completely bland. Left untrained, repeated AI use gradually smooths out a brand's authentic character — the local references, the signature phrases, the particular warmth or edge that makes a brand recognisable.
 
 The **Brand Context Block** is the solution. It is a structured prompt header, pasted before every AI instruction, that gives the tool the context it needs to write in the client's voice rather than in the voice of a marketing textbook. One well-built block transforms every AI session for this client.
@@ -43,10 +84,7 @@ With it: consistent, on-brand content from the first line, every time.
 
 This skill works with any AI tool — Claude, ChatGPT, Gemini, or any future equivalent.
 
----
-
 ## Required Inputs
-
 Before beginning, collect or confirm the following. If `04-brand-voice-intake` has already been completed for this client, pull the relevant answers from there rather than asking again.
 
 | Input | Detail |
@@ -65,10 +103,7 @@ Before beginning, collect or confirm the following. If `04-brand-voice-intake` h
 | Emoji policy | Yes / No / Limited (and if limited, which contexts) |
 | Content types produced | Which formats need few-shot examples: captions, emails, Stories/WhatsApp Status, DM replies, other |
 
----
-
 ## Step 1 — Capture the Voice Inputs
-
 Ask the client for each item in the Required Inputs table above, or pull from `04-brand-voice-intake`.
 
 **On sample content:** the 3–5 pieces must be content the client themselves considers most representative — not the highest-performing post, but the one that sounds most like them. Performance and authenticity do not always overlap.
@@ -85,10 +120,7 @@ Ask the client for each item in the Required Inputs table above, or pull from `0
 
 Ask the client to pick one, then ask for a single sentence from their existing content that best represents that tone.
 
----
-
 ## Step 2 — Analyse the Sample Content
-
 Do not rely solely on what the client tells you their voice is. Read the sample content and extract what it actually is. Clients often describe an aspirational voice, not their real one.
 
 Analyse the samples for:
@@ -105,10 +137,7 @@ Analyse the samples for:
 
 Record findings in a short analysis note before building the block. This is internal reference — not delivered to the client.
 
----
-
 ## Step 3 — Build the Brand Context Block
-
 The Brand Context Block is the deliverable. Produce it using the template below, populated with everything gathered in Steps 1 and 2.
 
 ```
@@ -177,10 +206,7 @@ TASK: [The specific content request follows here]
 - The PLATFORM field changes with every session. Keep the rest of the block fixed and update only this field when switching platforms.
 - The standard AI vocabulary ban list is included in every block for every client, without exception. Add client-specific banned terms on top of it.
 
----
-
 ### Character-Voice Differentiation (Highly Distinctive Brands)
-
 Source: Donovan, S. (2019) *5,000 Writing Prompts: A Master List of Creative Exercises*. For clients with highly distinctive, idiosyncratic voices — founders who write in a recognisable personal style, brands with a cult following, or professional voices with known stylistic signatures — add an optional STYLISTIC BANS field to the Brand Context Block. This goes beyond vocabulary to structural habits the brand avoids:
 
 ```
@@ -196,10 +222,7 @@ The principle: specify what the voice does NOT do as precisely as what it does. 
 
 Add this field only for clients where voice distinctiveness is material to brand value. For standard SME clients, vocabulary and example-based training is sufficient.
 
----
-
 ## Step 4 — Few-Shot Examples by Content Type
-
 For each content type the client regularly produces, source 1–2 approved examples in their voice. These are stored alongside the Brand Context Block and pasted into the prompt when working on that content type.
 
 **Caption example**
@@ -219,10 +242,7 @@ First paragraph only. Enough to establish rhythm and hook style.
 
 Store all few-shot examples in a single reference document in the client's project folder, labelled clearly by content type.
 
----
-
 ## Step 5 — Quality Test the Block
-
 Before the block is used in live client work, run a quality test.
 
 **Test prompt:** Using only the Brand Context Block (no few-shot example), ask the AI to write one piece of content the client produces regularly — a Facebook caption, an email opening, a WhatsApp message.
@@ -246,7 +266,6 @@ Before the block is used in live client work, run a quality test.
 Document which version passed the quality test. Label it v1.
 
 ### Voice Replication Comparison Test
-
 Source: Mizrahi (2024). When testing the Brand Context Block, run two versions of the same prompt:
 
 **Method 1 — Adjectives and "We are X, not Y" only** (no EXAMPLES OF OUR VOICE field): Generate one piece of content using only the VOICE, TONE, ALWAYS USE, NEVER USE, and AUDIENCE fields.
@@ -255,10 +274,7 @@ Source: Mizrahi (2024). When testing the Brand Context Block, run two versions o
 
 Compare the two outputs. Document which produces more accurate voice replication. If Method 1 significantly underperforms, the block needs more examples before it is deployed on live client work. This test is the single most reliable diagnostic for a Block that is technically complete but still producing generic output.
 
----
-
 ## Step 6 — Maintain and Update the Block
-
 The Brand Context Block is a living document, not a one-time deliverable.
 
 **Storage:** save the block as a plain text file in the client's project folder. Name it `[ClientName]-brand-context-v1.txt`. Keep all versions.
@@ -278,10 +294,7 @@ The Brand Context Block is a living document, not a one-time deliverable.
 
 **Do not delete old versions.** Reverting is sometimes necessary.
 
----
-
 ## Quality Criteria
-
 Output from this skill meets the standard when:
 
 - The Brand Context Block is complete — no field is blank or contains a placeholder; every item in the Required Inputs table is represented.

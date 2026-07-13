@@ -1,17 +1,78 @@
 ---
 name: ai-vendor-evaluation
-description: >
-  Structured 8-factor vendor evaluation framework for AI marketing tools,
-  based on Venkatesan & Lecinski's The AI Marketing Canvas (2nd ed., Stanford
-  Business Books, 2026). Scores each tool against EA market accessibility, data
-  requirements, integration compatibility, team capability, and total cost in
-  UGX, then produces a shortlist with 30-day experiment briefs. Invoke when a
-  client has completed the ai-readiness-diagnostic and is at Canvas Step 2
-  (Experimentation) and is ready to select specific AI tools for structured
-  trials. Also invoke when a client wants to compare 2–4 named tools before
-  purchasing or committing budget.
+description: Use when AI Vendor Evaluation is needed to produce an evaluation scorecard for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Vendor Evaluation
+
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **evaluation scorecard** and the supplied brief falls within ai vendor evaluation.
+
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified evaluation scorecard; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+
+## Workflow
+1. Confirm the exact evaluation scorecard, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete evaluation scorecard; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+## Outputs
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Evaluation scorecard | Requester, client reviewer or delivery team | The evaluation scorecard addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested evaluation scorecard, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+## References
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 **Framework:** Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*,
 2nd ed. Stanford Business Books.
@@ -22,37 +83,7 @@ reference catalogue when the client does not yet have a shortlist. Use
 `playbook-ai-automation-workflow` once a tool has been selected and an
 automation build is underway.
 
----
-
-<!-- dual-compat:start -->
-## Use when
-- Structured 8-factor vendor evaluation framework for AI marketing tools, based on Venkatesan & Lecinski's The AI Marketing Canvas (2nd ed., Stanford Business Books, 2026). Scores each tool against EA market accessibility, data requirements, integration compatibility, team capability, and total cost in UGX, then produces a shortlist with 30-day experiment briefs. Invoke when a client has completed the ai-readiness-diagnostic and is at Canvas Step 2 (Experimentation) and is ready to select specific AI tools for structured trials. Also invoke when a client wants to compare 2–4 named tools before purchasing or committing budget.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
-
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
-
-## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
-
-## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
-
-## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
-
 ## Required Input
-
 Ask for all of the following before generating any output:
 
 1. **Client business name** — exact trading name
@@ -74,17 +105,11 @@ Ask for all of the following before generating any output:
 
 Do not proceed until all nine inputs are confirmed.
 
----
-
 ## Evaluation Framework — 8 Factors
-
 Apply all 8 factors to every tool. Do not produce partial scorecards.
 Score each factor 1–5 using the criteria below. Sum to a total out of 40.
 
----
-
 ### Factor 1 — Use Case Fit
-
 Does the tool address the specific, named marketing problem the client stated?
 
 | Score | Criterion |
@@ -98,10 +123,7 @@ Does the tool address the specific, named marketing problem the client stated?
 Red flag: any vendor positioning the tool as an all-in-one AI platform without
 a primary specialisation. Record this explicitly in the scorecard.
 
----
-
 ### Factor 2 — Data Requirements
-
 What data does the tool need to function, and does the client have it?
 
 | Score | Criterion |
@@ -117,10 +139,7 @@ and Privacy Act 2019** (PDPA 2019). In particular: personal data collection,
 third-party data sharing, cross-border data transfer, and automated profiling
 of individuals. Record the flag in the scorecard even if the score is high.
 
----
-
 ### Factor 3 — Integration Compatibility
-
 Does the tool connect to what the client already uses?
 
 | Score | Criterion |
@@ -135,10 +154,7 @@ For any use case involving WhatsApp or SMS, check for **Africa's Talking**
 integration and note the result explicitly. Africa's Talking is the default
 recommendation for EA WhatsApp/SMS automation.
 
----
-
 ### Factor 4 — EA Market Accessibility
-
 Can the client actually buy, trial, and use this tool from Uganda or East Africa?
 
 | Score | Criterion |
@@ -153,10 +169,7 @@ Always convert the pricing to UGX using the current approximate rate and state
 it explicitly. Note EAT (UTC+3) customer support availability if known — not a
 scoring criterion but record it as context.
 
----
-
 ### Factor 5 — Team Capability Match
-
 Can the client's team use this without specialist skills or paid training?
 
 | Score | Criterion |
@@ -167,10 +180,7 @@ Can the client's team use this without specialist skills or paid training?
 | 2 | Paid training or certification required for effective use |
 | 1 | Requires a data scientist, developer, or specialist to operate |
 
----
-
 ### Factor 6 — Output Quality
-
 Based on trial, demo, or available samples: is the AI output usable for the
 client's stated marketing task?
 
@@ -187,10 +197,7 @@ generates written content. If a trial is not possible before scoring, note this
 as a limitation and flag that output quality must be verified before the Step 2
 experiment launches.
 
----
-
 ### Factor 7 — Vendor Stability
-
 Is this a vendor the client can rely on for at least 12 months?
 
 | Score | Criterion |
@@ -205,10 +212,7 @@ Assess honestly. Do not recommend a tool with a score of 1 or 2 on this factor
 unless the client has technical capacity to migrate quickly and the tool cost is
 zero.
 
----
-
 ### Factor 8 — Total Cost of Ownership
-
 What is the real monthly cost once the trial period ends?
 
 | Score | Criterion |
@@ -223,10 +227,7 @@ Always itemise: base plan cost, per-seat fees if any, usage limits and overage
 rates, annual vs monthly billing difference, and the total estimated monthly
 cost in UGX. Use the client's stated budget as the benchmark.
 
----
-
 ## Scoring and Decision Rules
-
 Sum the 8 factor scores for a total out of 40. Apply the following decision
 thresholds:
 
@@ -239,21 +240,14 @@ thresholds:
 Every deferred tool must include: (a) the primary reason for deferral stated in
 one sentence, and (b) a named alternative tool to evaluate in its place.
 
----
-
 ## Output Structure
-
 Produce all five sections below. Do not omit any section.
 
----
-
 ### Section 1 — Tool Evaluation Scorecards
-
 One scorecard per tool. Use this format for each:
 
 ```
 ## [Tool Name]
-
 **Use case being evaluated:** [restate the client's named marketing problem]
 
 | Factor | Score (/5) | Notes |
@@ -281,30 +275,20 @@ One scorecard per tool. Use this format for each:
 **PDPA 2019 flag:** [Yes — describe the specific data concern / No]
 ```
 
----
-
 ### Section 2 — Recommended Shortlist
-
 List all tools scoring 24 or above. For conditional tools, state explicitly
 which factor(s) must be addressed and how before the experiment launches.
 
----
-
 ### Section 3 — Deferred Tools
-
 List all tools scoring below 24. For each: one-sentence reason for deferral
 and one named alternative tool.
 
----
-
 ### Section 4 — 30-Day Experiment Briefs
-
 Produce one experiment brief for every recommended tool (score 24+). Use this
 format:
 
 ```
 ## 30-Day Experiment Brief — [Tool Name]
-
 **Hypothesis:** If we use [tool name] for [specific task], we expect
 [measurable result] within 30 days.
 
@@ -335,10 +319,7 @@ criteria: Specific, Measurable, Achievable, Relevant, Time-bound.]
 - No-Go: [specific condition that means the experiment failed; state what happens next]
 ```
 
----
-
 ### Section 5 — Budget Summary
-
 Produce a single budget table covering all evaluated tools:
 
 ```
@@ -353,10 +334,7 @@ within budget.
 If the shortlist exceeds budget, recommend which single tool to start with and
 why.
 
----
-
 ## EA-Specific Evaluation Notes
-
 Apply these rules throughout the evaluation:
 
 - Prioritise tools with free tiers. EA clients at Step 2 should not pay for a
@@ -375,10 +353,7 @@ Apply these rules throughout the evaluation:
   assessment unless the client has explicitly confirmed they can access it and
   pay for it.
 
----
-
 ## Cross-References
-
 | Skill | When to use it |
 |-------|---------------|
 | `ai-readiness-diagnostic` | Run before this skill; confirms the client is at Canvas Step 2 |
@@ -386,16 +361,10 @@ Apply these rules throughout the evaluation:
 | `ai-content-humaniser` | Apply to evaluate output quality for any content-generation tool |
 | `playbook-ai-automation-workflow` | Use after a tool is selected to build the automation workflow |
 
----
-
 ## Tool Categories Reference
-
 Use this section when the client has no shortlist and needs guidance on which category of AI tool to evaluate. Cross-reference with `meta-ai-tools-audit` for the full catalogue.
 
----
-
 ### Category 1: RAG (Retrieval-Augmented Generation) Tools
-
 Tools that connect LLMs to client-specific knowledge bases for accurate, on-brand output:
 
 | Tool | Description | EA accessibility | Approx. cost |
@@ -408,10 +377,7 @@ Tools that connect LLMs to client-specific knowledge bases for accurate, on-bran
 
 **Evaluation criteria:** How easily can client documents be uploaded? Does the tool maintain source attribution? Can multiple team members access the same knowledge base?
 
----
-
 ### Category 2: Synthetic Research and Persona Tools
-
 Tools for generating AI-simulated audience research when primary fieldwork is unavailable or too costly:
 
 | Tool | Description | EA accessibility | Approx. cost |
@@ -423,10 +389,7 @@ Tools for generating AI-simulated audience research when primary fieldwork is un
 
 **EA note:** For most Ugandan SME clients, prompted persona generation via Claude or ChatGPT is the most accessible option. Supernatural AI and Glimpse are better suited to multinational clients with larger research budgets.
 
----
-
 ### Category 3: Agentic AI and Automation Tools
-
 Tools for building autonomous or semi-autonomous marketing agents:
 
 | Tool | Description | EA accessibility | Approx. cost |
@@ -441,10 +404,7 @@ Tools for building autonomous or semi-autonomous marketing agents:
 
 **EA recommendation:** n8n (self-hosted on a local server) combined with the Claude API is the most cost-effective agentic stack for EA-based consultancies. Zapier is the most accessible for clients with no technical resources.
 
----
-
 ## Quality Criteria
-
 - All 8 factors scored for every tool with written notes — no blank cells,
   no partial scorecards.
 - EA accessibility assessed explicitly: name the payment method, name the
@@ -463,10 +423,7 @@ Tools for building autonomous or semi-autonomous marketing agents:
 - Vendor stability is assessed honestly: do not recommend a tool scoring 1 or
   2 on Factor 7 without explicitly noting the risk and the mitigation.
 
----
-
 ## References
-
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd ed. Stanford Business Books.
 - Sweenor, D. and Mulkers, T. (2024) *AI-Powered Business Intelligence*. O'Reilly Media.
 - Nayebi, H. (2025) *Generative AI for Product and Marketing Teams*. Packt Publishing.

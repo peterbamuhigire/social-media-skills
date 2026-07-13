@@ -1,48 +1,85 @@
 ---
 name: email-copywriter
-description: Writes email marketing copy — newsletters, promotional emails, welcome sequence emails, and reactivation emails. Invoke when the user says "write an email", "write a newsletter", "write a welcome email", "write a promotional email", "write a reactivation email", or provides an email copy brief. Also invoke when a client's email marketing strategy (from 07-email-marketing-strategy) moves into execution and copy is needed. Output is complete, send-ready email copy — not a structural outline.
+description: Use when Email Copywriter is needed to produce a publication-ready copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # Email Copywriter
 
-<!-- dual-compat:start -->
-## Use when
-- Writes email marketing copy — newsletters, promotional emails, welcome sequence emails, and reactivation emails. Invoke when the user says "write an email", "write a newsletter", "write a welcome email", "write a promotional email", "write a reactivation email", or provides an email copy brief. Also invoke when a client's email marketing strategy (from 07-email-marketing-strategy) moves into execution and copy is needed. Output is complete, send-ready email copy — not a structural outline.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within email copywriter.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+
+## Capability and Permission Boundaries
+Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- The requested copy asset or idea set in markdown, written to publish, review, or adapt without major rework.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-- Read `references/launch-and-sequence-copy.md` when the request involves a welcome flow, launch sequence, waitlist, event promotion, or reactivation series.
-- Read `../premium-commercial-writing/SKILL.md` when the email supports a premium offer, executive audience, high-ticket service, or sales sequence that needs stronger value and proof.
-
-<!-- dual-compat:end -->
+- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## How to Use This Skill
-
 Collect the Required Input below. Identify the email type. Generate complete, send-ready copy for the specified email type: subject lines, preheader, body, and CTA. Apply British English, mobile-first formatting, and the principle that every email must give value before it asks for anything.
 
 Core principle: emails must earn the right to sell. Value first, sell second.
 
----
-
 ## Required Input
-
 Ask for the following before writing:
 
 - **Client business name** — the sender name as it appears in the inbox
@@ -57,10 +94,7 @@ Ask for the following before writing:
 - **Brand tone (3 words)** — from 04-brand-voice-intake
 - **Any banned vocabulary** — words or phrases to avoid
 
----
-
 ## Writing Standards (All Email Types)
-
 Apply these standards to every email generated:
 
 - British English throughout: organisation, colour, programme, behaviour, recognise, analyse
@@ -74,10 +108,7 @@ Apply these standards to every email generated:
 - No filler openers: do not begin with "I hope this email finds you well", "We are pleased to announce", or "In today's digital world"
 - Personal sign-off: not "Best regards" — use "Talk soon", "To your success", "Warmly", or a variation that fits the brand tone
 
----
-
 ## Email Type 1: Newsletter
-
 **When to use:** Regular value-first communication — weekly, fortnightly, or monthly. Builds relationship and trust over time. Does not primarily sell.
 
 **Output structure:**
@@ -106,10 +137,7 @@ One sentence + one link. A brief additional recommendation or resource. If there
 **Sign-off**
 Warm, personal. Sender's name. Optional: one line that sets up the next email ("Next week, I will share [topic]").
 
----
-
 ## Email Type 2: Promotional Email
-
 **When to use:** Announcing a specific offer, product, event, or time-limited opportunity. Every promotional email must open with the reader's desire or problem — not the product.
 
 **Output structure:**
@@ -147,10 +175,7 @@ Include only if the deadline or scarcity is genuine. State it plainly: "Offer cl
 **PS line**
 Always include a PS. It is consistently the second most-read element of an email, after the subject line. Use it to restate the key benefit in a different way — or to address the reader's most likely objection.
 
----
-
 ## Email Type 3: Welcome Email (Single Email)
-
 **When to use:** Sent immediately when someone joins the mailing list, signs up for a service, or downloads a lead magnet. Sets the tone for the entire relationship. This is the most-opened email in any sequence — write it accordingly.
 
 **Output structure:**
@@ -178,10 +203,7 @@ Low-pressure. "Hit reply and tell me [one question about them]" builds immediate
 **Warm close**
 First name sign-off. One sentence that expresses genuine welcome — not a legal disclaimer.
 
----
-
 ## Email Type 4: Reactivation Email
-
 **When to use:** For subscribers who have not opened or clicked in 60 or more days. Goal: re-engage them with value, or let them leave cleanly. Do not send further promotional content to inactive subscribers without attempting reactivation first — it harms sender reputation.
 
 **Output structure:**
@@ -203,10 +225,7 @@ An exclusive reactivation offer — discount, free resource, early access — if
 **Opt-out option**
 Include this explicitly and without guilt. Example: *"If you would rather not hear from us, you can unsubscribe below — no hard feelings. We would rather you leave than stay and find us irrelevant."* Including this increases trust, reduces spam reports, and keeps the list healthy.
 
----
-
 ## 12 Subject Line Formulas
-
 Apply these when generating subject line options. Each formula is a different psychological approach — select the 3 most relevant to the email type and audience.
 
 | # | Formula | Uganda/EA Example |
@@ -224,16 +243,10 @@ Apply these when generating subject line options. Each formula is a different ps
 | 11 | The Timely: *[Month/season/event]: how to [action] before [deadline]* | "Back to school: how to reach parents before August rush" |
 | 12 | The Direct: *[Exactly what is in the email, no frills]* | "Your September content calendar is ready" |
 
----
-
 ## Human Authenticity Gate
-
 All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted email copy must meet the Golden Rule: every email must look, feel, and sound as if it was written by the most skilled human copywriter with deep knowledge of the target audience and their relationship with the brand. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
----
-
 ## Quality Criteria
-
 - [ ] Subject line options are genuinely different in approach — not three versions of the same formula
 - [ ] Preheader text complements the subject line without repeating it
 - [ ] Opening earns attention before requesting or selling anything — no "we are pleased to announce" opener

@@ -1,45 +1,80 @@
 ---
 name: ai-use-case-mapping
-description: >
-  Maps a client's marketing activities against the 2×2 AI Use Case Framework
-  (Venkatesan & Lecinski, 2026) — Productivity/Growth × Internal/External —
-  to identify the highest-priority AI opportunities across all four quadrants
-  and produce a prioritised implementation shortlist with a 90-day action
-  sequence. Invoke when a client wants to know where AI can add the most value
-  to their marketing operations, or as the diagnostic step before building an
-  AI-assisted workflow (see also: playbook-ai-automation-workflow).
+description: Use when AI Use Case Mapping is needed to produce a AI use case mapping deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Use Case Mapping
 
-<!-- dual-compat:start -->
-## Use when
-- Maps a client's marketing activities against the 2×2 AI Use Case Framework (Venkatesan & Lecinski, 2026) — Productivity/Growth × Internal/External — to identify the highest-priority AI opportunities across all four quadrants and produce a prioritised implementation shortlist with a 90-day action sequence. Invoke when a client wants to know where AI can add the most value to their marketing operations, or as the diagnostic step before building an AI-assisted workflow (see also: playbook-ai-automation-workflow).
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **AI use case mapping deliverable** and the supplied brief falls within ai use case mapping.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI use case mapping deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact AI use case mapping deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete AI use case mapping deliverable; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Ai use case mapping deliverable | Requester, client reviewer or delivery team | The AI use case mapping deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI use case mapping deliverable, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Produce a structured, evidence-based map of AI opportunities for a client's
 marketing activities using the 2×2 AI Use Case Framework. The output moves the
 client from a vague awareness that "AI could help" to a concrete, prioritised
@@ -48,10 +83,7 @@ shortlist of use cases they can begin implementing within 90 days.
 Source framework: Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing
 Canvas* (2nd ed.). Stanford Business Books.
 
----
-
 ## Required Input
-
 Before generating any deliverable, ask the client for:
 
 1. **Business name** — exact trading name of the organisation
@@ -70,10 +102,7 @@ Before generating any deliverable, ask the client for:
 7. **Team size and technical comfort level** — number of people managing
    marketing; rate their comfort with new software as Low / Medium / High.
 
----
-
 ## The 2×2 AI Use Case Framework
-
 Source: Venkatesan and Lecinski (2026).
 
 The framework classifies every AI use case on two axes:
@@ -93,7 +122,6 @@ This produces four quadrants:
 | **Growth** | Q3 — Internal Growth | Q4 — External Growth |
 
 ### Quadrant 1 — Internal Productivity
-
 AI used to make internal marketing operations faster and cheaper.
 
 Examples:
@@ -105,7 +133,6 @@ Examples:
 - Prompt libraries for team-wide use
 
 ### Quadrant 2 — External Productivity
-
 AI used to make customer interactions more efficient at scale.
 
 Examples:
@@ -116,7 +143,6 @@ Examples:
 - SMS reminders and follow-ups via Africa's Talking
 
 ### Quadrant 3 — Internal Growth
-
 AI used to grow capability, insight, or competitive advantage internally.
 
 Examples:
@@ -127,7 +153,6 @@ Examples:
 - Competitive intelligence aggregation
 
 ### Quadrant 4 — External Growth
-
 AI used to drive revenue and engagement directly with customers.
 
 Examples:
@@ -137,10 +162,7 @@ Examples:
 - Real-time personalisation on landing pages
 - Loyalty programme personalisation
 
----
-
 ## Step 1 — Establish the Activity List
-
 If the client provides a full activity list, use it. If not, apply the standard
 12-activity starter list:
 
@@ -160,10 +182,7 @@ If the client provides a full activity list, use it. If not, apply the standard
 Add any client-specific activities not covered by the list. Remove any
 activities the client does not perform.
 
----
-
 ## Step 2 — Map Each Activity to a Quadrant
-
 For each activity, assign it to the quadrant that best describes its primary AI
 opportunity. Note that a single activity may have opportunities in more than one
 quadrant — if so, create a separate row per quadrant opportunity.
@@ -176,10 +195,7 @@ Quadrant assignment rules:
 - When an activity spans two quadrants, assign it to the quadrant where the
   highest-value AI opportunity sits.
 
----
-
 ## Step 3 — Score Each Activity
-
 Rate each activity on two dimensions:
 
 **Current AI Use (0–2):**
@@ -203,10 +219,7 @@ Assess based on these four factors — sum them, then divide by four and round:
 - **Medium** — Opportunity Score 3–4 OR Current AI Use 1
 - **Low** — Opportunity Score 1–2 OR Current AI Use 2
 
----
-
 ## Step 4 — Build the Priority Matrix
-
 Output the completed matrix in this format:
 
 | Activity | Quadrant | Current AI Use | Opportunity Score | Priority |
@@ -217,10 +230,7 @@ Ensure all four quadrants are represented. If the client's activity list
 produces an empty quadrant, add at least one standard example activity from
 that quadrant and mark it as a suggested addition.
 
----
-
 ## Step 5 — Quadrant Summary
-
 After the matrix, produce a one-paragraph summary per quadrant:
 
 - State how many activities fall in each quadrant.
@@ -229,10 +239,7 @@ After the matrix, produce a one-paragraph summary per quadrant:
   items) — this may indicate a strategic blind spot.
 - Recommend which quadrant to address first, with a one-line rationale.
 
----
-
 ## Step 6 — Top 5 Priority Use Cases
-
 Select the five activities rated High priority. Present each in this format:
 
 **Use Case [N]: [Activity Name] — [Quadrant]**
@@ -251,10 +258,7 @@ Quick wins must be achievable within 4 weeks using free or low-cost tools
 (under UGX 100,000/month). Flag any use case that requires a paid tool above
 this threshold clearly.
 
----
-
 ## Step 7 — 3 Use Cases to Defer
-
 Identify three activities that score High on Opportunity but are not suitable
 for immediate implementation. For each, provide:
 
@@ -265,10 +269,7 @@ for immediate implementation. For each, provide:
 - **When to revisit:** [Milestone or timeframe — e.g. "After 90-day quick wins
   are embedded" or "When CRM data reaches 1,000+ contacts"]
 
----
-
 ## Step 8 — 90-Day Implementation Sequence
-
 Sequence the Top 5 priority use cases into a realistic 90-day plan. Use the
 following structure:
 
@@ -289,10 +290,7 @@ following structure:
 State clearly which team member owns each action and what the success metric is
 for each 30-day phase.
 
----
-
 ## EA-Specific Opportunities
-
 Apply these as default suggestions for East African clients unless the client's
 context makes them irrelevant:
 
@@ -316,10 +314,7 @@ context makes them irrelevant:
   insight. Flag data scarcity explicitly; do not present AI-synthesised insight
   as equivalent to primary research.
 
----
-
 ## Quality Criteria
-
 Output from this skill meets the standard when:
 
 1. **All four quadrants are populated** — no quadrant is left empty; if the
@@ -347,10 +342,7 @@ Output from this skill meets the standard when:
    responsible person and a success metric; the plan is a working document,
    not a wish list.
 
----
-
 ## Cross-References
-
 - **`ai-marketing-canvas-assessment`** — use for full AI marketing maturity
   assessment and strategic canvas before or after this use case mapping exercise.
 - **`prompt-engineering-library`** — use for ready-made, client-specific prompts
@@ -360,10 +352,7 @@ Output from this skill meets the standard when:
 - **`playbook-ai-content-workflow`** — use for content production automation
   planning, particularly for Q1 caption and blog use cases.
 
----
-
 ## References
-
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas* (2nd ed.).
   Stanford Business Books. [2×2 AI Use Case Framework — cited in Steps 2–8]
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.

@@ -1,45 +1,80 @@
 ---
 name: ai-readiness-diagnostic
-description: >
-  Conducts a 41-item diagnostic to assess a client's AI marketing maturity,
-  identify their current AI Marketing Canvas step (1–5), and produce a scored
-  maturity profile with a prioritised action plan. Invoke this skill when a
-  client wants to understand where they stand on AI adoption, before beginning
-  any AI strategy, tool selection, or training investment. Based on Venkatesan
-  and Lecinski (2026) The AI Marketing Canvas, 2nd edition, Stanford Business
-  Books.
+description: Use when AI Readiness Diagnostic is needed to produce a scored diagnostic for social-media or digital-marketing work; use `ai-use-case-mapping` when its narrower outcome is requested.
+metadata:
+  portable: true
+  compatible_with:
+  - claude-code
+  - codex
 ---
 # AI Readiness Diagnostic
 
-<!-- dual-compat:start -->
-## Use when
-- Conducts a 41-item diagnostic to assess a client's AI marketing maturity, identify their current AI Marketing Canvas step (1–5), and produce a scored maturity profile with a prioritised action plan. Invoke this skill when a client wants to understand where they stand on AI adoption, before beginning any AI strategy, tool selection, or training investment. Based on Venkatesan and Lecinski (2026) The AI Marketing Canvas, 2nd edition, Stanford Business Books.
-- Use this skill when it is the closest match to the requested deliverable or workflow.
+<!-- dual-compat-start -->
+## Use When
+- Use this skill when the requested outcome is specifically a **scored diagnostic** and the supplied brief falls within ai readiness diagnostic.
 
-## Do not use when
-- Do not use this skill for graphic design, video production, software development, or legal advice beyond the repository's stated scope.
-- Do not use it when another skill in this repository is clearly more specific to the requested deliverable.
+## Do Not Use When
+- Use `ai-use-case-mapping` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
+- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+
+## Required Inputs
+| Artefact | Source/provider | Required? | If absent |
+|---|---|---:|---|
+| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
+| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
+| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+
+## Capability and Permission Boundaries
+Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+## Degraded Mode
+Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified scored diagnostic; mark unavailable checks `not assessed` and never convert them into a pass.
+
+## Decision Rules
+| Choice | Action | Failure or risk avoided |
+|---|---|---|
+| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
+| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
 
 ## Workflow
-1. Collect the required inputs or source material before drafting, unless this skill explicitly generates the intake itself.
-2. Follow the section order and decision rules in this `SKILL.md`; do not skip mandatory steps or required fields.
-3. Review the draft against the quality criteria, then deliver the final output in markdown unless the skill specifies another format.
-
-## Anti-Patterns
-- Do not invent client facts, performance data, budgets, or approvals that were not provided or clearly inferred from evidence.
-- Do not skip required inputs, mandatory sections, or quality checks just to make the output shorter.
-- Do not drift into out-of-scope work such as code implementation, design production, or unsupported legal conclusions.
+1. Confirm the exact scored diagnostic, consumer, market, channel and approval boundary; route to `ai-use-case-mapping` if it is the closer match.
+2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Select the domain method and record the material decision behind it before drafting.
+4. Produce the smallest complete scored diagnostic; keep facts traceable and placeholders visibly unresolved.
+5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
-- An AI-focused strategy, audit, system design, or prompt asset in markdown with human review and control points.
+| Artefact | Consumer | Observable acceptance condition |
+|---|---|---|
+| Scored diagnostic | Requester, client reviewer or delivery team | The scored diagnostic addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
+| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+
+## Evidence Produced
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+
+## Quality Standards
+- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
+- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
+- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
+- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+## Anti-Patterns
+- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested scored diagnostic, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- Use the inline instructions in this skill now. If a `references/` directory is added later, treat its files as the deeper source material and keep this `SKILL.md` execution-focused.
-
-<!-- dual-compat:end -->
+- [ai-use-case-mapping](../ai-use-case-mapping/SKILL.md) is the nearest routing comparison for this skill.
+- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->
 
 ## Purpose
-
 Assess a client's current AI marketing maturity across five domains, calculate
 their AI Marketing Canvas step, and produce a practical, prioritised action plan
 that reflects their actual starting point. Output is structured for a
@@ -49,10 +84,7 @@ After completing this diagnostic, refer the client to the sister skill
 `ai-marketing-canvas-assessment` for full canvas completion and strategic
 roadmap development.
 
----
-
 ## Required Inputs
-
 Ask for the following before beginning:
 
 - **Business name** — trading name of the client organisation
@@ -65,12 +97,8 @@ Then walk through all 41 diagnostic questions together with the client,
 recording Y (Yes) or N (No) for each item. Do not skip questions. If the client
 is genuinely uncertain, default to N and note it for follow-up.
 
----
-
 ## The 41-Item Diagnostic
-
 ### Domain 1: Data Foundation (8 items)
-
 1. Do you have a single, centralised customer database?
 2. Is customer data cleaned and deduplicated at least quarterly?
 3. Do you track customer behaviour across more than one channel?
@@ -81,7 +109,6 @@ is genuinely uncertain, default to N and note it for follow-up.
 8. Can you link online and offline customer data?
 
 ### Domain 2: Technology Stack (8 items)
-
 9. Do you have a CRM system in active use?
 10. Do you use a social media scheduling tool?
 11. Do you use an email marketing platform?
@@ -92,7 +119,6 @@ is genuinely uncertain, default to N and note it for follow-up.
 16. Do you have a documented tech stack with assigned owners?
 
 ### Domain 3: Team Capability (8 items)
-
 17. Has your marketing team used ChatGPT or a similar LLM in the last 30 days?
 18. Does anyone on your team understand prompt engineering basics?
 19. Has your team received any AI tools training in the last 12 months?
@@ -103,7 +129,6 @@ is genuinely uncertain, default to N and note it for follow-up.
 24. Does your team know the difference between AI-generated and human-created content?
 
 ### Domain 4: AI Deployment (9 items)
-
 25. Do you use AI for any content creation (captions, blogs, emails)?
 26. Do you use AI for social media scheduling or posting?
 27. Do you use AI for customer segmentation or targeting?
@@ -115,7 +140,6 @@ is genuinely uncertain, default to N and note it for follow-up.
 33. Has AI changed how you make budget or strategy decisions?
 
 ### Domain 5: Business Impact (8 items)
-
 34. Has AI reduced time spent on content creation by at least 25%?
 35. Have AI experiments produced measurable ROI?
 36. Has AI improved audience targeting or engagement rates?
@@ -125,12 +149,8 @@ is genuinely uncertain, default to N and note it for follow-up.
 40. Do senior stakeholders receive regular AI performance updates?
 41. Has AI changed your competitive position in your market?
 
----
-
 ## Scoring
-
 ### Step 1: Calculate domain scores
-
 Count the number of YES answers in each domain:
 
 | Domain | Items | Max Score |
@@ -143,7 +163,6 @@ Count the number of YES answers in each domain:
 | **Total** | 1–41 | **41** |
 
 ### Step 2: Identify the AI Marketing Canvas step
-
 | Total Score | Canvas Step |
 |---|---|
 | 0–8 | Step 1 — Foundation |
@@ -153,7 +172,6 @@ Count the number of YES answers in each domain:
 | 33–41 | Step 5 — Reinvention |
 
 ### Step 3: Interpret domain scores
-
 Apply these thresholds to identify specific gap areas:
 
 | Domain | Score | Interpretation |
@@ -164,16 +182,10 @@ Apply these thresholds to identify specific gap areas:
 | AI Deployment | 0–4 | Experimentation is the immediate priority |
 | Business Impact | 0–3 | Either early stage or AI is not yet being measured |
 
----
-
 ## Output Structure
-
 Produce the following five sections in order.
 
----
-
 ### Section 1: Score Summary Table
-
 Present a clean table showing:
 
 - Each domain name
@@ -192,10 +204,7 @@ Example format:
 | Business Impact | 1/8 | Critical |
 | **Total** | **15/41** | **Step 2 — Experimentation** |
 
----
-
 ### Section 2: Canvas Step Diagnosis
-
 Write one paragraph in plain English explaining:
 
 - Which step the client is at and what that means in practice
@@ -209,10 +218,7 @@ means without softening the message into vagueness.
 Source: Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*,
 2nd edn. Stanford Business Books.
 
----
-
 ### Section 3: Top 3 Priority Gaps
-
 Identify the three most urgent gaps based on domain scores and individual
 question responses. Rank them most urgent first. For each gap:
 
@@ -221,10 +227,7 @@ question responses. Rank them most urgent first. For each gap:
 - **What is missing** — the specific Y/N items that are N
 - **First action** — the single most important thing to do about it
 
----
-
 ### Section 4: 90-Day Action Plan
-
 Structure three 30-day blocks. Include exactly three named, specific actions
 per block. Actions must be concrete (name a tool, name a process, name a
 person or role).
@@ -250,10 +253,7 @@ person or role).
 Calibrate ambition to the client's step. A Step 1 client's 90-day plan is about
 getting basic data and tools in place — not deploying AI-powered personalisation.
 
----
-
 ### Section 5: Recommended Tools
-
 Recommend tools appropriate to the client's current Canvas step and the East
 African market. Prioritise:
 
@@ -290,10 +290,7 @@ Note the WhatsApp advantage: if the client is already using WhatsApp for
 customer communications, this counts toward the Technology Stack domain
 and can be formalised quickly via Africa's Talking or similar APIs.
 
----
-
 ## East African Market Context
-
 Most Ugandan and East African SMEs score between 4 and 12 on this diagnostic,
 placing them at Step 1 or early Step 2. This is not a failure — it reflects
 the market's current stage of AI adoption.
@@ -310,10 +307,7 @@ Common patterns to look for:
 - **Budget sensitivity**: Lead with free tiers. Demonstrate value before
   recommending any paid subscription.
 
----
-
 ## AI Use Case Matrix (Venkatesan and Lecinski, 2026)
-
 Once the diagnostic score is known, map the client's AI readiness to the 2×2 Use Case Matrix:
 
 |  | **Internal** | **External** |
@@ -327,10 +321,7 @@ Once the diagnostic score is known, map the client's AI readiness to the 2×2 Us
 - Score 51–75%: All four quadrants in scope; prioritise highest-ROI cell
 - Score 76–100%: Full AI transformation; consider Monetisation (Canvas Step 5)
 
----
-
 ## AI Maturity Wave Assessment (Nayebi, 2025)
-
 Identify which wave the client currently operates in:
 
 - **Wave 1 — Automation:** Rules-based workflows, scheduled posts, canned responses, basic chatbots. Most EA SMEs are here.
@@ -339,10 +330,7 @@ Identify which wave the client currently operates in:
 
 Ask the client: "Which wave best describes your current AI marketing activity?" Use their answer to calibrate the roadmap in the final section.
 
----
-
 ## Quality Criteria
-
 - All 41 items are addressed — no question is skipped or estimated without a
   reason recorded
 - The total score is calculated accurately and the Canvas step is stated clearly
@@ -359,10 +347,7 @@ Ask the client: "Which wave best describes your current AI marketing activity?" 
 - The score summary table is the first thing the client sees — context and
   explanation follow the data
 
----
-
 ## References
-
 Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn.
 Stanford Business Books.
 
@@ -372,8 +357,6 @@ Pearson.
 Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
 
 Nayebi, F. (2025) *Foundations of Agentic AI for Retail*. Gradient Divergence.
-
----
 
 *For full canvas completion and strategic roadmap development, use the sister
 skill `ai-marketing-canvas-assessment` after completing this diagnostic.*
