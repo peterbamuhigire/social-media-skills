@@ -82,6 +82,14 @@ If two skills overlap:
 - If `references/` does not exist yet, use the inline instructions and keep future heavy content out of `SKILL.md`.
 - Do not duplicate the same guidance across `SKILL.md` and `references/` unless brevity requires a short pointer in both places.
 
+## Current evidence and release gates
+
+- For changing platform, legal, regulatory or market claims, use `docs/source-registers/source-register.json`, open the underlying source, and record the source ID, access date, relevant section/table and limitation. Run `python -X utf8 scripts/check_source_freshness.py`; an overdue or unavailable source makes the affected check `not assessed`.
+- Campaign work uses `docs/world-class-exemplars/campaign-exemplars.md` as a quality model, never as client evidence or a source of benchmark results.
+- Reporting and ROI work uses `docs/evidence-packs/measurement-proof-pack.md` to define, reconcile and trace metrics.
+- All finished creative uses `docs/quality-gates/creative-review-gate.md`. Paid media, WhatsApp, influencer, AI, UGC, public-sector and current-market work also uses `docs/quality-gates/legal-market-release-gate.md`.
+- Legal gates are screening and escalation controls, not legal advice or certification. Missing counsel, rights, approval, source evidence or platform access never becomes a pass.
+
 ## Working Rules
 
 - Preserve the standard directory layout unless a change is clearly necessary.

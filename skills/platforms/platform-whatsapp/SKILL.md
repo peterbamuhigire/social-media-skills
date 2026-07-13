@@ -74,6 +74,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [Current-source register](../../../docs/source-registers/README.md)
+- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

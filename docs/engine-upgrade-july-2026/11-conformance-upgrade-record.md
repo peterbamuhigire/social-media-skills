@@ -35,6 +35,14 @@ All skills now have portable metadata and markers; neighbour-aware positive and 
 
 The local standard is `docs/standards/skill-authoring-standard.md`; CI runs the zero-debt validator, routing smoke test, and unit suite on pushes to `main` and pull requests.
 
-## Outside conformance
+## Evidence-capability closure
 
-Capability work remains in current-source registers, finished campaign exemplars, measurement proof packs, creative-review depth, and market/legal refresh coverage. These items do not waive or reopen structural conformance.
+Closed 13 July 2026 using the canonical Digital Research Skills Engine's source-evaluation, evidence-discipline, research-orchestration, source-verification, critical-reasoning and anti-slop controls.
+
+- Added 17 Tier 1 legal, platform and market records with verification dates, intended uses, limitations and review deadlines. Coverage includes Uganda, Kenya, Rwanda, Tanzania, Meta, WhatsApp, TikTok, Google, UCC, ITU and UBOS. The register captures Uganda's Copyright and Neighbouring Rights (Amendment) Act, 2026.
+- Added an executable freshness checker; CI and unit tests fail on missing fields/domains, duplicate IDs, invalid URLs/dates, inconsistent deadlines or overdue records.
+- Added complete, explicitly fictional campaign exemplars for B2B, NGO, retail, public-sector and creator work. Illustrative figures are labelled and cannot serve as benchmarks or client results.
+- Added a measurement proof pack with KPI dictionary, evidence ledger, reconciliation, calculations, limitations and a synthetic worked example.
+- Added a scored creative gate and a legal/privacy/market gate covering paid media, WhatsApp, influencer work, AI-assisted content and UGC. Unavailable checks resolve to `not assessed`; legal ambiguity and high-risk categories require specialist review.
+
+These resources close the named July 2026 capability backlog without changing the 176-skill catalogue. Future work is ordinary source refresh and new capability development, not deferred conformance debt.

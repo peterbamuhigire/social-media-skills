@@ -92,6 +92,7 @@ Given verified attributable revenue or lifetime value, the skill produces a ROI 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

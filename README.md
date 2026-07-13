@@ -34,7 +34,7 @@ That roadmap focuses on:
 
 East Africa remains the default only when no other market is specified.
 
-Structural conformance debt is complete. The roadmap now represents capability expansion: current-source registers, finished campaign exemplars, measurement proof, and deeper creative/legal review assets.
+Structural conformance and the July 2026 evidence-capability backlog are complete. The engine now includes a release-controlled current-source register, five finished sector campaign exemplars, a worked measurement proof pack, and enforceable creative plus legal/market review gates.
 
 ---
 
@@ -46,9 +46,17 @@ Authoring rules live in `docs/standards/skill-authoring-standard.md`; new work s
 
 ```powershell
 python -X utf8 scripts\validate_skill_engine.py --baseline quality-baseline.json
+python -X utf8 scripts\check_source_freshness.py
 python -X utf8 scripts\routing_smoke_test.py
 python -X utf8 -m unittest discover -s tests -p "test_*.py"
 ```
+
+Evidence resources:
+
+- `docs/source-registers/` — dated legal, platform and market sources with executable review deadlines;
+- `docs/world-class-exemplars/campaign-exemplars.md` — complete fictional B2B, NGO, retail, public-sector and creator campaign packs;
+- `docs/evidence-packs/measurement-proof-pack.md` — KPI definitions, source ledger, reconciliation and a labelled synthetic worked example;
+- `docs/quality-gates/` — scored creative review and non-waivable legal/privacy/market release decisions.
 
 ---
 

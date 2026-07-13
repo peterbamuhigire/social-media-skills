@@ -33,6 +33,13 @@ MANDATORY = (
     "docs/templates/SKILL.template.md",
     "tests/routing-fixtures.json",
     "scripts/routing_smoke_test.py",
+    "docs/source-registers/source-register.json",
+    "docs/source-registers/README.md",
+    "scripts/check_source_freshness.py",
+    "docs/quality-gates/creative-review-gate.md",
+    "docs/quality-gates/legal-market-release-gate.md",
+    "docs/evidence-packs/measurement-proof-pack.md",
+    "docs/world-class-exemplars/campaign-exemplars.md",
 )
 FM_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 

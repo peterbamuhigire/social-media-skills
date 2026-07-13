@@ -96,6 +96,8 @@ Given verified approved 09-campaign-strategy, the skill produces a operational c
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md)
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
