@@ -43,6 +43,7 @@ Fallback: if files, network access, platform data, language review or production
 3. Select the domain method and record the material decision behind it before drafting.
 4. Produce the smallest complete AI content humaniser deliverable; keep facts traceable and placeholders visibly unresolved.
 5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+6. Check audience situation, narrative job, first-screen information hierarchy, readability, accessibility, disclosure, permission, and correction/escalation needs before sign-off.
 6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
@@ -61,6 +62,7 @@ Fallback: if files, network access, platform data, language review or production
 - Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
 - Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
 - Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+- Humanise by improving truth, specificity, audience fit, and useful structure; do not merely disguise AI phrasing. For AI-assisted workflows, require specific disclosure and a human correction path.
 
 ## Anti-Patterns
 - Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
@@ -68,6 +70,8 @@ Fallback: if files, network access, platform data, language review or production
 - Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+- Polishing a generic draft without fixing the audience problem or next action. **Fix:** return to the brief, narrative job, proof, and CTA.
+- Treating disclosure as a substitute for review. **Fix:** verify facts, permissions, accessibility, cultural fit, and correction routes.
 
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
@@ -482,6 +486,8 @@ Output from this skill meets the required standard when:
 - Ltifi, M. and Johnsen, S. (forthcoming) — AI content quality risks framework.
 - Mizrahi, T. (2024) — Hallucination management.
 - Roth, J. and neuroflash (2024) — Content recycling pipeline and rising quality bar framework.
+- [Narrative, audience empathy, and content quality audit](../../meta-analytics-ops/meta-content-audit/references/narrative-empathy-and-content-quality.md)
+- [AI campaign trust, control, correction, and drift](../ai-agentic-marketing-workflows/references/ai-campaign-trust-control-correction-drift.md)
 - Schaefer, M. (2023) *Belonging to the Brand* — "Proof of Human" content standard.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*.

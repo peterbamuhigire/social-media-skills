@@ -44,6 +44,7 @@ Fallback: if files, network access, platform data, language review or production
 4. Produce the smallest complete prioritised idea set; keep facts traceable and placeholders visibly unresolved.
 5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
 6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+7. For each idea, name the audience situation, narrative job, emotional or practical tension, proof/source need, choice or CTA, format/readability risk, and the learning signal it can generate.
 
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |
@@ -61,6 +62,7 @@ Fallback: if files, network access, platform data, language review or production
 - Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
 - Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
 - Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+- Use story structure and audience empathy to make ideas specific, but do not invent customer stories, results, permissions, cultural facts, or platform behaviour.
 
 ## Anti-Patterns
 - Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
@@ -68,6 +70,7 @@ Fallback: if files, network access, platform data, language review or production
 - Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+- Generating a list of hooks without a job, audience situation, proof, or next action. **Fix:** add the missing narrative and measurement fields or narrow the idea set.
 
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.

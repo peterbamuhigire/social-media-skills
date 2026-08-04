@@ -71,10 +71,11 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
 5. Produce the marketing test plan, register and result interpretation, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
 6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+7. Apply the [Kaizen campaign learning loop](references/kaizen-campaign-learning-loop.md): preserve the audience problem, narrative job, failed/inconclusive result, standardisation decision, and next baseline.
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions. Every proposed variant is checked for audience empathy, information hierarchy, mobile readability, accessibility, cultural fit, and one clear action before performance interpretation.
 
 ## Anti-Patterns
 
@@ -83,6 +84,8 @@ The output is client-specific, uses British English and the stated market/curren
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
 - Absorbing `meta-posting-optimisation` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
+- Treating a metric lift as a win when readability, accessibility, trust, accuracy, or complaint guardrails worsen. Fix: reject or roll back the variant.
+- Designing a test around a clever hook without naming the audience problem or decision. Fix: return to the narrative job and baseline.
 
 ## Worked example
 
@@ -98,6 +101,8 @@ Given verified baseline, the skill produces a marketing test plan, register and 
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
+- [Kaizen campaign learning loop](references/kaizen-campaign-learning-loop.md)
+- [Narrative, audience empathy, and content quality audit](../meta-content-audit/references/narrative-empathy-and-content-quality.md)
 
 ## Required Inputs
 

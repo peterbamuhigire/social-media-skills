@@ -66,10 +66,11 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
 5. Produce the content audit and prioritised improvement plan, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
 6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+7. Apply [Narrative, audience empathy, and content quality audit](references/narrative-empathy-and-content-quality.md) to representative items and publish the capped audit plus 95/100 remediation plan.
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions. Metric findings are paired with audience empathy, narrative clarity, hierarchy, readability/accessibility, evidence, permissions, AI transparency, and learning-value findings.
 
 ## Anti-Patterns
 
@@ -78,6 +79,8 @@ The output is client-specific, uses British English and the stated market/curren
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
 - Absorbing `meta-competitor-analysis` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
+- Calling content effective because engagement is high while the audience cannot understand the offer or next step. Fix: inspect the narrative and information hierarchy.
+- Treating a missing render, source, permission, or native-language review as a pass. Fix: mark it `not assessed`, state the risk, and name the recovery evidence.
 
 ## Worked example
 
@@ -88,6 +91,7 @@ Given verified content inventory and platform performance exports for a stated p
 - [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md) for the neighbouring contract.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- [`narrative-empathy-and-content-quality.md`](references/narrative-empathy-and-content-quality.md) for audience, story, visual, accessibility, and learning checks.
 
 ## References
 

@@ -44,6 +44,7 @@ Fallback: if files, network access, platform data, language review or production
 4. Produce the smallest complete workflow specification; keep facts traceable and placeholders visibly unresolved.
 5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
 6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+7. Apply [AI campaign trust, control, correction, and drift](references/ai-campaign-trust-control-correction-drift.md) before recommending any rollout or learning loop.
 
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |
@@ -61,6 +62,7 @@ Fallback: if files, network access, platform data, language review or production
 - Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
 - Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
 - Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+- Separate the model, surrounding system, inputs, inferred inputs, outputs, human reviewer, and external action. Require specific disclosure, correction, escalation, drift monitoring, and a non-AI fallback.
 
 ## Anti-Patterns
 - Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
@@ -68,9 +70,11 @@ Fallback: if files, network access, platform data, language review or production
 - Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+- Describing an AI workflow as autonomous without a decision boundary, human escalation, correction path, audit trail, or rollback. **Fix:** complete the trust/control/drift reference or withhold the rollout recommendation.
 
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
+- [AI campaign trust, control, correction, and drift](references/ai-campaign-trust-control-correction-drift.md)
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

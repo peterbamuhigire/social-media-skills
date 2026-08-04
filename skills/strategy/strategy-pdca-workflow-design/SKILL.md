@@ -36,6 +36,7 @@ metadata:
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
 5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
 6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+7. At the weekly and monthly review, apply the Kaizen campaign learning loop: observe the audience and process, baseline the decision, select one small improvement, test it, check guardrails, standardise verified learning, teach it into the operating template, and re-measure.
 
 ## Outputs
 
@@ -73,6 +74,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 - Tie recommendations to observed evidence, a named assumption, or a verification action.
 - Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
 - Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- Record the audience problem, narrative job, metric denominator, accessibility/readability guardrail, owner, stop rule, rollback, and next baseline for each optimisation.
 
 ## Anti-Patterns
 
@@ -82,10 +84,12 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 - Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
 - Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
 - Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Repeating a calendar because it is familiar while the audience signal is worsening. Fix: select one bounded countermeasure and record the result.
 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [Kaizen campaign learning loop](../../meta-analytics-ops/meta-testing-framework/references/kaizen-campaign-learning-loop.md)
 <!-- dual-compat-end -->
 
 Based on Neal Schaffer, *Maximize Your Social* (Wiley, 2013).

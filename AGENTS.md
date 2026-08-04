@@ -30,6 +30,11 @@ If the user specifies another market, replace East Africa assumptions rather tha
 
 ## Baseline Skills
 
+Kaizen is mandatory for the engine and every campaign/content/report product. Load
+`skills/meta-utility/kaizen-improvement-system/SKILL.md`; cap published audits at 65/100 and
+target 95/100 with evidence, experiment, standardisation, and re-audit records. Current
+platform, market, legal, and policy claims route through the source register and Digital Research.
+
 Apply these alongside the main deliverable skill when relevant:
 
 - `language/east-african-english`: tone, register, British spelling, EA business phrasing

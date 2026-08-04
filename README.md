@@ -1,417 +1,253 @@
 # social-media-skills
 
-A complete skill suite for running a professional social media and digital marketing consultancy in Uganda and East Africa. Covers every deliverable in the consultancy lifecycle — from credentials and proposals through to strategy, content, campaigns, reporting, training, and AI-assisted production.
+`social-media-skills` is a professional social-media and digital-marketing consultancy engine for strategy, content, campaigns, community, analytics, training, AI-assisted marketing, and client-facing reporting.
 
-**Default context:** Uganda / East Africa · British English · UGX pricing · EAT (UTC+3)
+Its default operating context is Uganda and East Africa: British English, UGX unless another currency is specified, EAT (UTC+3), mobile-first delivery, and WhatsApp-first customer journeys. When a client names another market, replace these defaults with the specified market's audience, language, channel, pricing, legal, cultural, and conversion assumptions.
 
-**July 2026 conformance:** 176 active skills, all passing the local zero-debt validator and canonical portable-skill scanner. Routing release tests contain 26 positive, negative/collision, limited-capability, and failure-path fixtures; the required top-three precision is 100%.
+## What this engine produces
 
-## Architecture & cross-cutting engines (updated 2026-06-21)
+The engine produces text-first, reviewable consultancy artefacts, including:
 
-This engine no longer relies on native skill discovery — **no engine on this machine is natively discovered anymore.** Every engine, including this one, is consulted through the global routing table by globbing its `SKILL.md` files and reading them directly (resolve each engine's path per-device from the routing table; never assume an absolute path). Consult these cross-cutting engines **in addition** to this one:
+- market and social-media strategies;
+- platform audits, channel architecture, audience and brand-voice work;
+- content pillars, calendars, briefs, captions, articles, email, SEO/GEO content, and repurposing plans;
+- campaign strategies, campaign briefs, influencer, UGC, community, social-commerce, WhatsApp, and launch playbooks;
+- paid/organic/hybrid recommendations and funnel content;
+- analytics frameworks, dashboards specifications, KPI reports, ROI and attribution models, testing plans, social listening, competitor analysis, and content audits;
+- AI-marketing strategy, readiness assessments, vendor and data audits, prompt systems, RAG knowledge bases, chatbots, agentic workflows, and AI-content policies;
+- client training, DIY content guidance, smartphone-video briefs, and team operating models;
+- proposals, credentials, decks and presentation outlines. Visual design and final deck production route to `design-system-skills`.
 
-- **`design-system-skills`** — the single home for ALL design, typography, UI/UX, and visual-formatting skills, plus the anti-AI-slop *visual/typographic* doctrine. **Referenced, not mirrored** — resolve its path per-device. As of 2026-06-21 the **8 deck/presentation skills migrated out of this engine into `design-system-skills` (group `02-document-formatting`)**: `deck-ai-strategy-presentation`, `deck-annual-review`, `deck-campaign-proposal`, `deck-credentials`, `deck-initial-pitch`, `deck-monthly-report`, `deck-quarterly-review`, `deck-strategy-presentation`. Presentation **visual** design now lives in the design engine; **social content and strategy stay here.** When a deliverable needs a deck, written outline/content stays here and routes its visual build to `design-system-skills`.
-- **`chwezi-accounting-doctrine`** — cross-cutting finance/accounting engine. **Referenced, not mirrored.** Consult for any pricing, ROI, budgeting, or financial-statement work alongside this engine.
+The engine does not produce finished graphic design, video edits, websites, software, or live-account changes. It can specify, audit, brief, and govern those outputs, then route implementation to the appropriate specialist engine.
 
-This engine keeps its own **textual** anti-AI-slop guardrail (`anti-ai-slop`, `ai-slop-audit` under `skills/ai-marketing/`) — clichés, hedging, banned vocabulary, template defaults in copy. **Visual/typographic** slop is the design engine's domain.
+## Current capability surface
 
-## Current Transformation Priority
+The repository currently contains 177 active `SKILL.md` files across 16 capability groups:
 
-This repository is being upgraded from a strong East Africa-first consultancy system into a world-class, market-adaptive consultancy engine.
+| Group | Coverage |
+|---|---|
+| `business-development` | Credentials, offers, outreach, reactivation, EAC calls and campaign-facing business development |
+| `ai-marketing` | AI strategy, content workflows, vendor/data readiness, agents, personalisation, disclosure, bias, privacy, slop control and evaluation |
+| `content-writing` | Captions, blogs, email, direct response, whitepapers, prompts, image/audio/video briefs and human-quality editing |
+| `frameworks` | Planning and strategic models |
+| `language` | East African English, language standards, French and Kiswahili copy |
+| `meta-analytics-ops` | Audits, reporting, testing, ROI, attribution, listening, dashboards, metrics, privacy and measurement |
+| `meta-utility` | Skill authoring, safety auditing, and the Kaizen improvement system |
+| `pipeline` | Brief-to-strategy-to-calendar-to-campaign workflow |
+| `platforms` | WhatsApp, Facebook, Instagram, TikTok, LinkedIn, YouTube, X, podcast and other channel plans |
+| `playbooks` | Production, crisis, UGC, viral, community, post-click, chatbot, AI-content and operating playbooks |
+| `policies` | AI ethics, copyright, social-media and governance policies |
+| `sectors` | Sector-specific marketing guidance |
+| `seo-discovery` | Search, GEO and discovery optimisation |
+| `strategy` | PESO, owned media, social commerce, personal brand, communities, export, customer value, purpose, eWOM and experiential strategy |
+| `training` | Client teams, DIY content, social fundamentals, smartphone video, AI foundations and prompt writing |
 
-The active roadmap lives in:
+Use the most specific skill available. The pipeline skills provide the usual operating spine:
 
-- `docs/plans/2026-04-14-world-class-consultancy-engine/00-roadmap-index.md`
+`client brief → platform audit → audience/voice → strategy → channel plan → content pillars → calendar → campaign brief → production → review → publication/reporting → learning`.
 
-That roadmap focuses on:
+## Routing and engine boundaries
 
-- mandatory market-context injection before major deliverables,
-- cross-cultural, regulatory, and pricing localisation,
-- stronger strategic diagnosis and strategic choice,
-- better measurement and evaluation discipline,
-- AI as a governed augmentation layer,
-- commercial packaging and premium delivery operations.
+This repository is referenced through the canonical engine-routing table. Do not copy skills into client projects or rely on native discovery. Resolve the engine path, read the relevant router and then read only the matched `SKILL.md` files.
 
-East Africa remains the default only when no other market is specified.
+### Required companion engines
 
-Structural conformance and the July 2026 evidence-capability backlog are complete. The engine now includes a release-controlled current-source register, five finished sector campaign exemplars, a worked measurement proof pack, and enforceable creative plus legal/market review gates.
+- **`design-system-skills`**: all typography, layout, visual identity, UI/UX, visual asset, presentation-design and visual anti-slop work. Social strategy and written content remain here; visual production and visual quality gates route there.
+- **`digital-research-skills`**: current platform, market, legal, regulatory, policy, audience, benchmark and other externally verifiable claims; evidence packs, source verification and uncertainty handling.
+- **`chwezi-accounting-doctrine`**: pricing, budgets, ROI, costing, financial statements, controls and finance-system questions.
+- **`skills-web-dev`**: websites, applications, APIs, automation, analytics implementation, databases and technical systems.
+- **`proposal-skills`**: formal tenders, bids, EOIs, procurement responses and technical/financial proposals.
+- **`business-plan-skills`**: feasibility, market sizing, business plans, investor readiness and financial projections.
+- **`srs-skills`**: formal requirements, architecture, test, release, governance and standards-driven SDLC documentation.
+- **`linux-skills`**: servers, Bash, deployment operations, hardening and infrastructure runbooks.
 
----
+The current source register is authoritative for platform, legal, policy and market claims. A source that is stale, unavailable or not attributable makes the affected check `not assessed`; it never becomes a pass by assumption.
 
-## How Skills Work
+## Kaizen operating principle
 
-Each skill lives under `skills/<category>/<skill-name>/SKILL.md`. The frontmatter `description` field is the trigger. Skills produce text documents: strategies, plans, playbooks, reports, slide outlines, and copy. No code, graphic design, or video production is produced by this engine.
+Continuous improvement is mandatory for the engine and every product it produces. Load:
 
-Authoring rules live in `docs/standards/skill-authoring-standard.md`; new work starts from `docs/templates/SKILL.template.md`. Release checks are:
+`skills/meta-utility/kaizen-improvement-system/SKILL.md`
+
+The required cycle is:
+
+`Observe → Baseline → Select → Experiment → Check → Standardise → Teach → Re-measure`
+
+Apply the cycle to strategy, content systems, campaigns, calendars, AI workflows, community operations, reports, training assets, policies and client handoffs.
+
+### Engine audit contract
+
+Audit the engine across the applicable dimensions:
+
+- doctrine, routing and skill taxonomy;
+- skill depth, inputs, workflow, outputs and evidence;
+- East African context, accessibility, readability and inclusion;
+- current-source readiness and uncertainty handling;
+- creative, legal, rights, privacy and AI safety gates;
+- campaign and product measurement;
+- handoff, permissions, reproducibility and operational hygiene;
+- learning capture, standardisation and re-audit discipline.
+
+Published audit scores are hard-capped:
+
+`published_score = min(raw_score, 65)`
+
+The cap is a reporting ceiling, not permission to ignore deficiencies. Every audit must produce a plan targeting 95/100 with a gap, root cause, exact change, owner, experiment, metric, guardrail, acceptance evidence, rollback/recovery path and re-audit date.
+
+### Product audit contract
+
+The same method applies to any social-media product: strategy, campaign, content calendar, post, article, deck outline, AI workflow, community playbook, report, dashboard specification, training guide or policy.
+
+At minimum, inspect:
+
+1. objective, audience, market and permission boundary;
+2. evidence, source dates, assumptions and uncertainty;
+3. message, narrative, offer, CTA and audience value;
+4. cultural fit, language, accessibility and readability;
+5. channel mechanics and conversion path;
+6. AI provenance, human review, disclosure, correction and drift controls;
+7. rights, privacy, safeguarding, legal/market release and escalation;
+8. measurement, baseline, guardrail, decision rule and next experiment;
+9. handoff, owner, approval, publication and recovery evidence.
+
+Record whether the product should be `standardise`, `iterate`, `pause`, `reject`, or `not assessed`. Do not publish a claimed result without attributable evidence.
+
+## Content and campaign quality system
+
+Every significant content or campaign workflow uses the following controls:
+
+- **Brief discipline:** define the business outcome, audience, market, message, offer, channel, budget/capacity and approval boundary before production.
+- **Audience value:** apply attraction, retention, motivation, conversion, referral and community-trust tests rather than optimising reach alone.
+- **Narrative:** use clear conflict, stakes, character/audience perspective, progression, choice and payoff where the format benefits from storytelling. Route visual character, composition and design decisions to `design-system-skills`.
+- **Content architecture:** use content pillars, POEM/PESO, RACE, Hero/Hub/Hygiene, ARM and response-system logic; make the content mix and CTA role explicit.
+- **Production:** use the content calendar, campaign brief, production playbook and brand-voice controls; maintain a source and approval record.
+- **Human quality:** run `anti-ai-slop` continuously and `ai-slop-audit` whenever content is audited, critiqued, scored or de-slopped. A blocking result prevents progression until corrected.
+- **Release:** run the creative review gate and, when applicable, the legal/market release gate, AI ethics gate, cultural-bias review, privacy check, accessibility/readability check and measurement-proof review.
+- **Learning:** define a baseline, hypothesis, primary outcome, guardrails, test window, decision rule and next action. Record what is standardised, rejected or still uncertain.
+
+The 10-4-1 model, PESO/POEM, RACE, Hero/Hub/Hygiene, Like-Know-Trust, customer-value-journey, direct-response and community-trust frameworks are tools, not substitutes for diagnosis or evidence.
+
+## AI marketing and human control
+
+AI is governed augmentation, never unsupervised authorship or publication. The engine supports AI use-case mapping, readiness, vendor evaluation, brand-voice training, prompt systems, RAG, content recycling, synthetic-persona qualification, chatbots, agentic workflows, predictive analytics, GEO and AI-content policy.
+
+For every AI-assisted product:
+
+- state the problem before choosing AI;
+- distinguish the human, system, model, input and output layers;
+- minimise data and never place PII, confidential client data or secrets into an unauthorised cloud prompt;
+- record the tool, material contribution, human editor and approval owner;
+- disclose material AI contribution with specific attribution where required;
+- prohibit fabricated testimonials, beneficiary stories, reviews, deepfakes, impersonation, bot engagement and unreviewed regulated-sector advice;
+- check cultural bias, language quality, accessibility, copyright and rights;
+- provide human correction, escalation, contestability and rollback;
+- monitor performance, safety and distribution drift after release;
+- route legal, regulatory and current platform claims to Digital Research and qualified specialists.
+
+East African language output, community narratives, public-sector communication, health, finance, donor, political and beneficiary content require appropriately qualified human review. The engine does not certify legal compliance.
+
+## Uganda and East Africa defaults
+
+Unless the brief says otherwise:
+
+| Channel | Default role |
+|---|---|
+| WhatsApp | Direct customer communication, enquiries, opt-in, follow-up and community conversion |
+| Facebook | Broad reach, community and customer service |
+| Instagram | Urban and aspirational visual storytelling, generally 18–35 audiences where evidenced |
+| TikTok | Short-form entertainment, discovery and creator-led reach |
+| YouTube | Searchable tutorials, demonstrations and longer storytelling |
+| LinkedIn | B2B, professional, institutional and employer audiences |
+| X | Public conversation, journalists, opinion leaders and issue monitoring |
+| Google Business Profile | Local discovery, reviews and location intent |
+
+These are starting hypotheses, not guaranteed audience facts or performance benchmarks. Verify current usage, platform rules, access, language and legal requirements before making a material recommendation.
+
+Use British English, UGX and EAT by default. Make assumptions about connectivity, mobile data, payment paths, language, trust, diaspora, urban/rural reach, creator access, moderation capacity and approval timelines visible in the deliverable.
+
+## Book-informed capability upgrades
+
+The current engine improvements were informed by the 16-book study recorded in the Digital Research engine. The books are treated as dated or partial references where appropriate; current platform, legal and market claims still require independent verification.
+
+| Book-derived lesson | Implemented capability in this engine |
+|---|---|
+| Agile/XP and LEAN | Small experiments, validated learning, evidence-led retrospectives, guardrails, decision rules and standardisation |
+| Kaizen and Applying Kaizen in Africa | Participatory, incremental, low-cost improvement; PDCA/QC Story thinking; visible baselines and operational learning |
+| Digital Storytelling and Video Game Storytelling | Audience-centred narrative, emotional progression, choices, payoff, character perspective and cross-format story systems |
+| Dynamic Characters and Anatomy for Artists | Stronger visual-story briefs, pose/gesture/readability prompts and explicit routing of finished visual design to the design engine; no anatomy claims are inferred from the unreadable extraction |
+| Designing for AI | Problem-first AI selection, transparency, human control, correction, disclosure, contestability and drift monitoring |
+| Platform Enterprise | Platform-as-product thinking for channel systems, consumer feedback, maintenance ownership, cognitive-load reduction and sustainable operations |
+| Tech Lead | Role clarity, transparent communication, ownership transfer, reflection and adjustment, and non-blaming learning culture |
+| Nonprofit Strategic Planning | Stakeholder mapping, mission fit, baselines, external scan, resource implications, monitoring and refresh triggers |
+| Facility Move Playbook | Continuity, readiness, cutover, escalation, stabilisation and lessons-learned patterns for major campaign or channel change |
+| Paid for Your Perspective | Evidence-bounded expert positioning, buyer-fit screening, compliance boundaries, preparation and knowledge-product development |
+| AI for Game Developers and MSC Software Magazine | Instrumented systems thinking, model/decision traceability, assumptions, verification, test evidence and production feedback loops |
+
+Implementation provenance and limitations are recorded in:
+
+`docs/continuous-improvement/kaizen-adoption-2026-08.md`
+
+## Evidence, safety and limitations
+
+- This engine creates recommendations and text artefacts; it does not create evidence merely by writing confidently.
+- Platform algorithms, prices, audience statistics, laws, regulations, AI products and policies change. Verify them before use.
+- Synthetic personas, historical examples, campaign exemplars and benchmark figures must be labelled and must not be presented as client results.
+- Legal and regulatory gates are screening and escalation controls, not legal advice or certification.
+- Missing account access, source evidence, rights, approvals, measurement data, fluent-language review, rendering capability or qualified specialists produces `not assessed` or a qualified result.
+- No campaign should be published, paid spend changed, customer data processed, account altered or external message sent without explicit authority.
+- Visual asset production, final layout, typography, interface design and presentation rendering belong to `design-system-skills`.
+- This repository's historical `book-extractions/` material is supporting study material, not automatically current evidence.
+
+## Repository layout
+
+```text
+social-media-skills/
+├── skills/                         # Portable skills by category
+├── docs/                           # Standards, plans, source registers and evidence packs
+├── scripts/                        # Read-only validation and freshness checks
+├── tests/                          # Repository tests
+├── book-extractions/               # Supporting book extraction material
+├── AGENTS.md                       # Operating and routing instructions
+├── CLAUDE.md                       # Dual-compatibility authoring guidance
+├── quality-baseline.json           # Zero-debt baseline assertion
+└── README.md                       # This capability and operating guide
+```
+
+Keep new skills under `skills/<category>/<skill-name>/SKILL.md`. Do not mirror this engine into a project. Keep individual skills execution-focused and move deep frameworks into `references/`.
+
+## Validation and release checks
+
+Run from the repository root in PowerShell:
 
 ```powershell
 python -X utf8 scripts\validate_skill_engine.py --baseline quality-baseline.json
 python -X utf8 scripts\check_source_freshness.py
 python -X utf8 scripts\routing_smoke_test.py
+python -X utf8 scripts\source_ingestion_guardrail.py
 python -X utf8 -m unittest discover -s tests -p "test_*.py"
+git diff --check
 ```
 
-Evidence resources:
+The expected release state is zero contract debt, a passing routing suite, current or explicitly qualified sources, passing tests, and no whitespace errors. Review the continuous-improvement record after significant changes.
 
-- `docs/source-registers/` — dated legal, platform and market sources with executable review deadlines;
-- `docs/world-class-exemplars/campaign-exemplars.md` — complete fictional B2B, NGO, retail, public-sector and creator campaign packs;
-- `docs/evidence-packs/measurement-proof-pack.md` — KPI definitions, source ledger, reconciliation and a labelled synthetic worked example;
-- `docs/quality-gates/` — scored creative review and non-waivable legal/privacy/market release decisions.
+## Further reading
 
----
+- `AGENTS.md` — routing, authoring, evidence, safety and release rules.
+- `docs/continuous-improvement/kaizen-adoption-2026-08.md` — engine and product improvement adoption record.
+- `skills/meta-utility/kaizen-improvement-system/SKILL.md` — mandatory Kaizen workflow.
+- `skills/meta-analytics-ops/meta-testing-framework/SKILL.md` — campaign experimentation and decision rules.
+- `skills/meta-analytics-ops/meta-reporting/SKILL.md` — reporting and measurement structure.
+- `skills/meta-analytics-ops/meta-content-audit/SKILL.md` — content quality and performance audit.
+- `skills/ai-marketing/anti-ai-slop/SKILL.md` — mandatory production ship gate.
+- `skills/ai-marketing/ai-slop-audit/SKILL.md` — content audit and de-slopping workflow.
+- `docs/source-registers/` — dated evidence for current claims.
+- `docs/evidence-packs/measurement-proof-pack.md` — metric definitions, reconciliation and proof standards.
+- `docs/quality-gates/` — creative and legal/market release gates.
 
-## Anti-AI-slop quality gate
+## Out of scope
 
-Two skills under `skills/ai-marketing/` keep AI slop out of anything this suite produces:
-
-- **`anti-ai-slop` — real-time guardrail.** Applied continuously while generating, to every output (caption, post, thread, carousel, campaign, ad copy, blog, email, deck outline, image/video brief). Banned vocabulary, generic placeholders, unverified figures/brands/prices, and template defaults are fixed in place as they appear; its ship-gate checklist is run before any output is delivered or published.
-- **`ai-slop-audit` — per-iteration auditor.** Runs after each major iteration (a drafted caption, a finished thread or carousel, a completed campaign or content calendar, a significant revision) and auto-runs on any request to analyse, review, evaluate, audit, critique, score, or de-slop content — or "does this look AI-generated?". It returns a graded report (A/B/C/F) with evidenced findings and concrete fixes; **a grade of F blocks progression** to the next asset or to submission until the blocking findings are resolved.
-
-Both skills share one verified evidence base (Merriam-Webster 2025 Word of the Year; Kommers et al., arXiv 2601.06060) and one merged banned-vocabulary list. They run alongside `ai-content-humaniser`, not instead of it.
-
----
-
-## Skill Categories
-
-Skills are grouped into 15 thematic categories under `skills/`. (The former `decks/` category was migrated out to `design-system-skills` on 2026-06-21 — see **Architecture & cross-cutting engines** above.)
-
-| Category | Count | Contents |
-|---|---|---|
-| `ai-marketing/` | 22 | AI-prefixed skills, AI strategy, brand voice training, anti-slop quality gate |
-| `business-development/` | 11 | `biz-dev-*` and EAC calls for applications |
-| `content-writing/` | 15 | Blog, caption, email, copywriting, direct-response, prompt libraries |
-| `frameworks/` | 2 | `framework-*` strategic frameworks |
-| `language/` | 4 | `east-african-english`, `language-standards`, `french-native-copy`, `swahili-native-copy` |
-| `meta-analytics-ops/` | 25 | `meta-*` analytics, reporting, audits |
-| `meta-utility/` | 2 | `skill-writing`, `skill-safety-audit` |
-| `pipeline/` | 14 | Numbered onboarding-to-planning flow `00-`–`13-` |
-| `platforms/` | 12 | `platform-*` per-channel plans |
-| `playbooks/` | 39 | `playbook-*` execution SOPs |
-| `policies/` | 2 | `policy-*` governance |
-| `sectors/` | 1 | Sector-specific social media practice (`healthcare`) |
-| `seo-discovery/` | 2 | `seo-geo-optimisation`, `demand-forecasting` |
-| `strategy/` | 19 | `strategy-*` plus `peso-`, `owned-media-`, `social-commerce-`, `ecommerce-*`, `premium-social-selling` |
-| `training/` | 6 | `training-*` |
-
-The Skill Directory tables below are grouped by deliverable role; the canonical filesystem path for any skill is `skills/<category>/<skill-name>/SKILL.md`.
-
----
-
-## Skill Directory
-
-### Business Development
-
-| Skill | Purpose |
-|---|---|
-| `biz-dev-credentials` | Agency credentials document — services, case studies, client list |
-| `biz-dev-proposal` | Client proposal with scope, fees, and deliverables |
-| `biz-dev-pricing-menu` | Service pricing menu in UGX |
-| `biz-dev-case-study` | Client success story / case study document |
-| `biz-dev-social-media-audit-offer` | Free social media diagnostic as a business development tool — audit structure, findings format, transition to paid proposal |
-| `biz-dev-practitioner-positioning` | Positioning the consultant's own practice — niche selection, USP articulation, social proof strategy, LinkedIn thought leadership, referral system |
-| `biz-dev-video-outreach` | Personalised Loom video audit for prospect outreach — pre-audit checklist, narration script, outreach message templates, follow-up sequence (Fihn model) |
-| `biz-dev-beyond-agency-offer` | Risk-free "first date" test campaign offer — five offer structures, written offer document, phoneless pitch script, expectations sign-off (Fihn model) |
-| `biz-dev-reactivation-campaign` | Customer reactivation campaign for dormant lists — 4-part email/SMS/WhatsApp sequence, gratitude → value → offer → referral, Uganda DPA compliance (Fihn model) |
-
-### Client Onboarding
-
-| Skill | Purpose |
-|---|---|
-| `01-client-brief` | Full client intake brief — business, audience, goals, channels |
-| `02-platform-audit` | Audit of existing social media presence and performance |
-| `03-audience-personas` | Detailed audience persona profiles |
-| `04-brand-voice-intake` | Brand voice, tone, and language guidelines |
-
-### Strategy
-
-| Skill | Purpose |
-|---|---|
-| `05-social-media-strategy` | Full social media strategy document |
-| `06-digital-marketing-strategy` | Integrated digital marketing strategy |
-| `07-email-marketing-strategy` | Email marketing strategy and programme design |
-| `08-influencer-marketing-strategy` | Influencer identification, briefing, and campaign strategy |
-| `09-campaign-strategy` | Campaign strategy for a specific product, promotion, or objective |
-| `strategy-organic-paid-hybrid` | Organic reach decline, organic-then-amplify workflow, boost decision framework, UGX budget guidance |
-| `strategy-customer-value-journey` | 8-stage Consumer Value Journey (Awareness → Promote), content mapped to funnel stage, WhatsApp integration |
-| `strategy-channel-architecture` | Multi-platform hub-and-spoke traffic flow — platform roles, audience movement, content distribution |
-| `strategy-pdca-workflow-design` | PDCA daily execution loop — daily/weekly/monthly rhythm, what to check, optimisation triggers |
-| `strategy-creator-monetisation` | Creator monetisation models for EA — YouTube Partner, TikTok, affiliate marketing, digital products, brand partnerships, rate cards |
-
-### Planning
-
-| Skill | Purpose |
-|---|---|
-| `10-content-pillars` | Content pillar framework for consistent messaging |
-| `11-content-calendar` | Monthly content calendar with post schedule |
-| `12-website-content-plan` | Website page-by-page content plan |
-| `13-campaign-brief` | Creative brief for a specific campaign |
-
-### Platform Plans
-
-| Skill | Purpose |
-|---|---|
-| `platform-facebook` | Facebook strategy, content, and community plan |
-| `platform-instagram` | Instagram strategy including Reels, Stories, and grid |
-| `platform-instagram-growth` | Instagram growth engineering — 5-phase follower ladder, algorithm optimisation, hashtag clustering, collaboration strategy |
-| `platform-instagram-visual-system` | Instagram visual identity system — grid planning, mood board, colour palette, editing consistency, visual brief |
-| `platform-linkedin` | LinkedIn strategy for organisations and individuals — B2B lead generation, personal brand, social selling, and individual brand strategy for artists, politicians, and creatives |
-| `platform-whatsapp` | WhatsApp Business strategy and broadcast plan |
-| `platform-tiktok` | TikTok content and growth strategy |
-| `platform-youtube` | YouTube channel strategy and content plan |
-| `platform-x-twitter` | X/Twitter strategy for opinion leaders and public sector |
-| `platform-google-business-profile` | GBP setup, optimisation, reviews, and local SEO |
-| `platform-podcast-strategy` | Podcast launch, format, distribution, and social integration |
-
-### Execution Playbooks
-
-| Skill | Purpose |
-|---|---|
-| `playbook-community-management` | Community management SOPs, response protocols, escalation |
-| `playbook-crisis-communications` | Crisis classification, response framework, and recovery |
-| `playbook-content-production` | Content production workflow, briefing, and QC |
-| `playbook-social-media-policy` | Social media policy for client staff and spokespeople |
-| `playbook-ai-content-workflow` | AI tool integration, prompt library, brand voice training, quality control, What AI Cannot Do |
-| `playbook-sms-whatsapp-marketing` | SMS and WhatsApp broadcast campaigns, Africa's Talking, DPA compliance |
-| `playbook-reputation-management` | Proactive reputation building and reactive defence |
-| `playbook-chatbot-strategy` | Chatbot and automated messaging design (Messenger, WhatsApp, ManyChat) |
-| `playbook-employee-advocacy` | Employee advocacy programme with content pack system |
-| `playbook-agency-operations` | Agency operations: onboarding, retainers, invoicing, QC |
-| `playbook-pr-media-integration` | PR and media pitching integrated with social amplification |
-| `playbook-location-based-marketing` | Local SEO, geo-targeted ads, and neighbourhood marketing |
-| `playbook-ugc-strategy` | User-generated content collection, curation, and permissions |
-| `playbook-viral-content-design` | Viral content structures, share psychology, platform mechanics |
-| `playbook-webinars-live-events` | Webinar and live event planning, run sheet, EA technical guide |
-| `playbook-social-media-brand-style-guide` | Complete, hand-over-ready Social Media Brand Style Guide — voice, tone, emoji policy, image standards, hashtag rules, approval workflow |
-| `playbook-social-selling` | Non-pushy social selling framework — authority-first model, soft CTA sequencing, DM-to-WhatsApp conversion paths |
-| `playbook-social-media-contests` | Contests, giveaways, and sweepstakes — entry mechanics, prize strategy, Uganda DPA compliance, WhatsApp mini-contest format |
-| `playbook-paid-social-advertising` | Paid social playbook — campaign objectives, audience targeting tiers, Meta Pixel, UGX budget bands |
-| `playbook-social-customer-service` | Daily social customer service — SLAs by platform, triage, complaint scripts, saved-replies library |
-| `playbook-word-of-mouth-strategy` | WOM marketing programme — 5-pillar framework, Gladwell taxonomy mapped to EA archetypes, superfan cultivation, referral loops |
-| `playbook-social-media-governance` | Social media governance — RACI model, staff certification, 4-level escalation, SMCC setup, agency SLA template |
-| `playbook-post-click-strategy` | Converting social traffic after the click — link-in-bio, WhatsApp CTA, lead magnet delivery, 3G-optimised landing pages |
-| `playbook-instagram-dm-sales` | Instagram DM as a structured sales channel — 5-stage sequence, objection handling, move-to-WhatsApp protocol |
-| `playbook-profile-optimisation` | Profile and bio optimisation across all platforms — WHO-WHAT-WHO-CTA formula, platform-by-platform audit checklists |
-| `playbook-daily-operations-routine` | Daily task framework for managing multiple clients — morning monitoring, response queue, content scheduling, client comms batching |
-| `playbook-client-retainer-management` | Scope management within retainers — scope creep prevention, change request protocol, monthly check-in, renewal approach |
-| `playbook-white-label-partnerships` | White-label and sub-contracting with agencies — structuring relationships, pricing, brief requirements, confidentiality, exit |
-| `playbook-audacious-content` | Content that stands out in an AI-saturated market — Audacity Index, 3 story pillars, STEPPS virality framework, Talk Trigger design |
-| `playbook-sentiment-listening` | AI-powered social listening — tool selection, keyword taxonomy, NSS reporting, sentiment-to-decision table, weekly routine |
-| `playbook-lead-magnet-system` | Design and optimisation of lead magnets for building owned email and WhatsApp subscriber lists |
-| `playbook-email-funnel` | Full email marketing operations: 90/90 rule, six KPIs, content-to-sales ratio, mobile design standards |
-| `playbook-whatsapp-business` | WhatsApp Business setup and operations for EA businesses: profile, automation, broadcast lists, catalogue |
-| `playbook-marketing-automation` | Automated lead nurturing sequences triggered by prospect behaviour |
-| `playbook-question-engine` | Mining customer questions to build a content pipeline that dominates search and builds trust |
-| `playbook-geo-newsjacking` | GEO-optimised real-time content system — IFTTT + AI workflow for reacting to breaking news within minutes and capturing AI search citation |
-| `direct-response-funnel-copy` | **Kennedy + Brunson direct-response framework.** Design conversion-focused funnels and long-form sales copy for social, email, and WhatsApp — Brunson Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution 35-beat script, Perfect Webinar close, OTO Bump; Kennedy 5 Propositions, Creative P.S., Takeaway Selling, sequence discipline. Use when a campaign must actually sell — info-products, coaching, masterminds, high-ticket services, memberships, events, webinar funnels. |
-
-### Presentation Decks
-
-> **Migrated out (2026-06-21).** All 8 deck/presentation skills now live in the **`design-system-skills`** engine under group `02-document-formatting`: `deck-ai-strategy-presentation`, `deck-annual-review`, `deck-campaign-proposal`, `deck-credentials`, `deck-initial-pitch`, `deck-monthly-report`, `deck-quarterly-review`, `deck-strategy-presentation`. Social content and strategy stay here; route deck **visual** design to the design engine (resolve its path per-device from the global routing table). See **Architecture & cross-cutting engines** above.
-
-| Skill | Purpose |
-|---|---|
-| `ai-growth-systems-design` | AI-powered growth systems tied to funnel metrics, data readiness, governance, and ROI |
-
-### Analytics and Reporting
-
-| Skill | Purpose |
-|---|---|
-| `meta-competitor-analysis` | Competitor social media analysis |
-| `meta-content-audit` | Audit of existing content performance and quality |
-| `meta-reporting` | Monthly/quarterly social media performance reports |
-| `meta-roi-framework` | ROI calculation and attribution model |
-| `meta-content-repurposing` | Content repurposing across platforms and formats |
-| `meta-social-listening` | Social listening setup, keyword taxonomy, intelligence extraction |
-| `meta-utm-tracking` | UTM naming conventions, GA4 attribution, dark social handling |
-| `meta-testing-framework` | A/B testing design, tracking, and decision framework |
-| `meta-budget-planner` | Marketing budget allocation by tier in UGX |
-| `meta-tools-stack-evaluation` | Martech stack evaluation and recommendation |
-| `meta-algorithm-guide` | Per-platform algorithm ranking factors — Facebook, Instagram, TikTok, YouTube, LinkedIn, X/Twitter |
-| `meta-social-media-roi-business-case` | Building the internal business case for social media investment — fan valuation, NPS, Risk of Ignoring, budget guidance |
-| `meta-posting-optimisation` | Posting time and frequency optimisation — native analytics reading, EA peak times, 4-week test design |
-| `meta-evergreen-content-strategy` | Evergreen content lifecycle — identification scoring, refresh protocol, 90-day rotation calendar |
-| `meta-sentiment-analysis` | Sentiment analysis methodology — NSS formula, SOV calculation, theme extraction, sentiment-to-strategy |
-| `meta-social-metrics-framework` | Three-tier metrics framework (primary/secondary/comparative) — vanity vs business metrics, report by audience |
-| `meta-social-marketing-mix-review` | 7 Ps marketing mix diagnostic — questions per P, red flags, recommended actions, scored quarterly summary |
-| `meta-ai-tools-audit` | Structured evaluation of AI marketing tools — 8 categories, EA accessibility ratings, 3 UGX budget profiles |
-| `ai-growth-systems-design` | AI marketing, sales, content, listening, personalization, and automation systems designed for measurable economic value |
-| `meta-revenue-planning` | Bottom-up revenue planning: reverse-engineering targets through funnel CVRs to required inquiry volumes |
-| `meta-lead-scoring` | Lead scoring model design and calibration: explicit criteria, implicit behaviours, BANT qualification |
-| `meta-cohort-analysis` | GA4 cohort exploration for tracking retention and LTV by acquisition batch and channel |
-| `meta-dashboard-design` | Client-facing dashboard design standards: chart types, mobile-first, Looker Studio, insight→context→recommendation |
-| `meta-sales-marketing-alignment` | Shared KPI ownership, CRM discipline, and lead handover SLA between marketing and sales |
-| `meta-analytics-privacy` | Privacy-by-design analytics setup: cookie consent, GA4 settings, DPPA 2019 / Kenya DPA 2019 compliance |
-| `meta-social-proof-system` | Systematic collection and deployment of Bly's six-source social proof taxonomy |
-
-### Training Guides
-
-| Skill | Purpose |
-|---|---|
-| `training-client-team` | Social media training guide for client teams |
-| `training-diy-content` | DIY content creation guide for clients managing their own channels |
-| `training-social-media-fundamentals` | Foundational social media training for brand-new clients — platform basics, algorithm, 80/20 rule, common EA mistakes |
-| `training-smartphone-video-production` | Smartphone video production guide for East African field conditions |
-| `training-ai-prompt-writing` | Practical training guide on prompt engineering — Alpha-Beta-Gamma-Delta-Epsilon framework, 7 copywriting frameworks, worked EA examples |
-| `training-ai-foundations` | AI literacy training for teams new to AI — what AI can/cannot do, 3 AI types, 5 hands-on tools, human quality standard |
-
-### Strategy Frameworks
-
-| Skill | Purpose |
-|---|---|
-| `peso-integrated-strategy` | PESO (Paid/Earned/Shared/Owned) integrated communications strategy |
-| `owned-media-strategy` | Email list, WhatsApp opt-in, blog, and owned channel strategy |
-| `strategy-personal-brand` | Personal brand strategy for founders and executives |
-| `strategy-micro-communities` | Facebook Group and WhatsApp Community strategy |
-| `social-commerce-strategy` | Social selling via WhatsApp, Mobile Money, and Facebook Shop |
-| `strategy-csr-purpose-communications` | CSR and purpose-driven communications strategy |
-| `framework-community-trust` | Like-Know-Trust framework applied to content sequencing |
-| `framework-digital-transparency` | Rageh's three-dimensional transparency model (Clarity, Openness, Objectivity) for building digital trust |
-| `strategy-ewom-reviews` | Proactive eWOM programme design using the Give-Seek-Transmit framework |
-| `strategy-multigenerational-digital` | Digital strategy calibrated to Gen Z, Millennial, Gen X, and Baby Boomer trust profiles |
-| `strategy-experiential-marketing` | Experiential marketing strategy for activations, events, and hybrid experiences |
-
-### AI Skills
-
-| Skill | Purpose |
-|---|---|
-| `anti-ai-slop` | **Mandatory pre-ship guardrail.** Ship-gate checklist run on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) so it cannot read as AI slop — seven universal markers, merged EN/FR banned-vocabulary list, verified definition |
-| `ai-slop-audit` | **Auto-run detector.** Grades any social artefact A/B/C/F for AI slop with per-marker findings, evidence, and concrete fixes — runs whenever the user asks to analyse/review/audit/de-slop content or "does this look AI-generated?" |
-| `ai-content-humaniser` | Quality control process for transforming AI drafts into brand-voiced, human-quality content — banned vocabulary, EA localisation, Proof of Human |
-| `brand-voice-ai-training` | Capturing a client's brand voice and encoding it into a reusable AI training document — Brand Context Block, vocabulary fingerprint, few-shot examples |
-| `prompt-engineering-library` | Client-specific prompt library — Alpha-Beta-Gamma-Delta-Epsilon structure, 7 copywriting frameworks, 7 ready-to-use templates |
-| `playbook-ai-automation-workflow` | End-to-end marketing automation roadmap — 4 maturity stages, 8 qualification factors, EA stack by tier, what NOT to automate |
-| `ai-marketing-canvas-assessment` | AI Marketing Canvas completion — diagnoses Canvas step (1–5), maps 4 customer moments, produces 12-month roadmap |
-| `ai-readiness-diagnostic` | 41-item diagnostic across 5 domains — scores AI marketing maturity, identifies Canvas step, outputs 90-day action plan |
-| `ai-use-case-mapping` | Maps marketing activities against 2×2 AI Use Case Framework (Productivity/Growth × Internal/External), prioritises opportunities |
-| `training-ai-prompt-writing` | (See Training Guides above) |
-| `training-ai-foundations` | (See Training Guides above) |
-| `ai-vendor-evaluation` | Structured vendor evaluation for AI marketing tools — 8-factor scorecard, 30-day experiment briefs, Uganda DPA compliance |
-| `ai-influencer-strategy` | AI-assisted influencer vetting, fraud detection, and human vs. virtual influencer decision framework |
-| `ai-data-foundation-plan` | Data foundation action plan — audits data assets, designs customer schema, 90-day build plan, EA-specific data problems |
-| `ai-data-foundation-audit` | Data quality audit for AI marketing readiness — assessing first-party data, CRM health, and analytics setup in EA contexts |
-| `ai-whatsapp-chatbot-design` | WhatsApp LLM chatbot design for EA markets — conversation flows, handover logic, ManyChat/Twilio stack, DPA compliance |
-| `ai-content-recycling-pipeline` | Systematic multi-format content production from a single source asset — Content Recycling Matrix with AI prompts per transformation |
-| `ai-rag-brand-knowledge-base` | RAG knowledge base design for brand-consistent AI output — knowledge architecture, vector database selection, EA SME brief |
-| `ai-synthetic-personas` | AI-generated audience personas for EA markets without primary research — synthetic data from secondary sources, validation protocol |
-| `ai-strategy-co-thinker` | AI as strategic thought partner using MVOSSTE framework + HBR Co-Thinker model — strategic ideation, scenario planning, stress-testing |
-| `ai-generative-search-optimisation` | Full GEO content audit, monitoring protocol, and quarterly review — 10-point checklist, citation tracking spreadsheet |
-| `ai-agentic-marketing-workflows` | Autonomous multi-agent marketing automation — PRAL/BDI/OODA frameworks, 5 agentic workflow templates, HITL oversight |
-| `ai-predictive-analytics-social` | Predictive analytics for social media — RFM segmentation, CLV forecasting, AutoML for churn and content performance |
-| `image-prompt-engineer` | Eight-layer AI image prompt anatomy for professional, culturally accurate visuals — platform syntax, negative prompt library, brand visual consistency |
-| `seo-geo-optimisation` | Five-Pillar GEO content workflow for AI search citation visibility — per-piece optimisation for ChatGPT Search, Perplexity, Google AI Overviews |
-| `prompt-library-image-audio-video` | Prompt frameworks for non-text AI generation — image, TTS audio, avatar video, AI music, disclosure requirements, SynthID |
-| `ai-cultural-bias-audit` | Pre-delivery protocol for detecting cultural bias in AI-generated content — BuzzFeed Barbie case, IBM Fairness 360, EA cultural accuracy checklist |
-| `ai-avatar-personalised-video` | Operational guide for AI avatar video at scale — Synthesia/HeyGen/Tavus/D-ID/Elai comparison, script writing, 75% open-rate B2B outreach |
-| `meta-ai-tools-audit` | (See Analytics and Reporting above) |
-| `playbook-audacious-content` | (See Execution Playbooks above) |
-| `playbook-sentiment-listening` | (See Execution Playbooks above) |
-
-### Policy
-
-| Skill | Purpose |
-|---|---|
-| `policy-ai-content-ethics` | AI content ethics policy — 5 ethical principles, prohibited uses, Uganda DPA 2019, data leakage risk, jailbreak awareness |
-| `policy-ai-ip-and-copyright` | Agency IP and copyright policy for AI-assisted client work — copyright qualification thresholds (UK/US/EU), WGA standard, EU AI Act disclosure obligations, SynthID provenance |
-
-### Content Generation
-
-| Skill | Purpose |
-|---|---|
-| `caption-writer` | Social media captions for any platform and objective |
-| `hashtag-strategy` | Hashtag research and strategy per platform |
-| `content-ideas` | Content idea generation from briefs and themes |
-| `email-copywriter` | Email copy for campaigns, newsletters, and sequences |
-| `blog-writer` | Complete blog post with SEO title, body, and CTA |
-| `blog-idea-generator` | Blog topic ideas and content briefs |
-| `content-whitepaper-ebook` | Whitepapers and eBooks for lead generation or thought leadership |
-
-### Language and Writing Standards
-
-| Skill | Purpose |
-|---|---|
-| `east-african-english` | EA professional English — tone, register, British spelling |
-| `language-standards` | Grammar, punctuation, and vocabulary rules; cross-language tone policy |
-| `french-native-copy` | Native-quality French short-form copy for Francophone Africa — register, idiom, grammar, typography (never raw-translate) |
-| `swahili-native-copy` | Native-quality Kiswahili short-form copy for East Africa — noun-class concord, register, idiom, the Swahili clock (never raw-translate) |
-| `content-writing` | General content writing standards |
-
-### Meta-Skills (Internal)
-
-| Skill | Purpose |
-|---|---|
-| `skill-writing` | Guide for writing new skills in this suite |
-| `skill-safety-audit` | Safety audit for new or updated skills |
-
----
-
-## Key Conventions
-
-- **British English throughout** — organisation, colour, programme, behaviour, analyse
-- **Uganda/East Africa default** — only when no other market is specified; otherwise skills must adapt channel, pricing, legal, and tone assumptions to the named market
-- **500-line limit** per SKILL.md — detailed references go in `references/` subdirectory
-- **Every skill includes** Required Input and Quality Criteria sections
-- **AI integration** — every strategy and plan skill references how AI is used and how quality is controlled
-- **High-value deliverables should expose assumptions** — strategy, proposal, pricing, platform, and reporting outputs should make market assumptions visible rather than implicit
-
-## Strategic Frameworks Used
-
-- POEM model — Paid/Owned/Earned/Media (Chaffey, 2024)
-- PESO model — Paid/Earned/Shared/Owned (Dietrich, 2020)
-- RACE framework — Reach/Act/Convert/Engage (Chaffey, 2024)
-- 10-4-1 rule — Bodnar and Cohen (2012)
-- Hero/Hub/Hygiene — content tier model
-- Like-Know-Trust (LKT) — trust-building sequence
-- SMART objectives — all goals are Specific, Measurable, Achievable, Relevant, Time-bound
-- ROI formula — (TLV − COCA) ÷ COCA — Bodnar and Cohen (2012)
-- Consumer Value Journey (CVJ) — DigitalMarketer / Ryan Deiss (8 stages)
-- AI Marketing Canvas — Venkatesan & Lecinski (2026) — 5 steps × 4 customer moments
-- Alpha-Beta-Gamma-Delta-Epsilon prompt structure — Upadhyay (2024)
-- STEPPS virality framework — Berger (2013)
-- Audacity Index — Schaefer (2025)
-- Kennedy/Marrs — *No B.S. Price Strategy* (2011) — 9 price failures, 5 Propositions, Triangle of Preeminence, niche pricing, competing with free
-- Kennedy — *No B.S. Sales Success* (2004) — 23 strategies, 6-step sales process, takeaway selling, positioning-not-prospecting, lead generation "Welcome Guest Process"
-- Kennedy — *The Ultimate Sales Letter* (2000) — 28-step long-form system, Power of a Sequence, Creative P.S., Hidden Benefit, Damaging Admission
-- Brunson — *DotComSecrets Ignite* (2013) — Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar, Soap Opera + Seinfeld
-
-## Platform Defaults for Uganda/EA
-
-| Platform | Role |
-|---|---|
-| WhatsApp | Dominant messaging — 90%+ smartphone users; primary for customer comms |
-| Facebook | Largest social platform; all demographics |
-| Instagram | Urban, 18–35, aspirational content |
-| TikTok | Fast-growing, 16–30, entertainment-first |
-| YouTube | Research, tutorial, long-form |
-| LinkedIn | B2B, professionals, formal sector |
-| X/Twitter | Opinion leaders, journalists, public figures |
-| Google Business Profile | Local discovery, reviews, Maps |
-
-## Repository Structure
-
-```
-social-media-skills/
-├── book-extractions/      # Primary-source extraction files — Kennedy, Brunson, etc.
-├── docs/
-│   ├── gap-analysis-2026-03.md                      # Core gap analysis
-│   ├── gap-analysis-2026-03-digital-marketing-books.md  # 11 digital marketing books
-│   ├── gap-analysis-2026-03-ai-prompting-books.md   # 10 AI and prompting books
-│   └── plans/                                       # Active implementation roadmaps
-├── skills/
-│   └── [category]/
-│       └── [skill-name]/
-│           └── SKILL.md      # Every skill — frontmatter + content
-├── projects/             # Client project files — excluded from git
-├── AGENTS.md             # Agent operating guidance
-├── CLAUDE.md             # Authoring conventions for this repo
-└── README.md             # This file
-```
-
-The repository root should contain project documentation and operational folders only. Keep `docs/`, `skills/`, and `projects/` at root where relevant; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — every skill must live inside one of the category subdirectories listed in **Skill Categories** above.
-
-## Out of Scope
-
-- Graphic design and visual asset production
-- Video editing and video production
-- Paid ad campaign management (bidding, targeting, creative testing)
-- Web design or web development
-- Influencer contracts and payments (legal territory)
+- finished graphic design, illustration, animation or video editing;
+- web, mobile, desktop or backend implementation;
+- autonomous publishing, ad spend, account mutation or customer-data processing;
+- legal advice, regulatory certification or financial assurance;
+- unsupported claims about current platforms, markets, laws, benchmarks or client performance.
