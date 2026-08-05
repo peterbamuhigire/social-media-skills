@@ -120,6 +120,8 @@ This framework connects every metric to a business objective. Present this to th
 
 ---
 
+Add a guardrail beside the primary metric. Depending on the client and channel, it may be unresolved complaints, response time, opt-outs, safety incidents, privacy breaches, negative review resolution, repeat engagement quality or a bounded qualitative trust check. State the denominator, threshold, owner and action. If the guardrail cannot be measured, mark it `not assessed` and narrow the conclusion. Engagement is evidence to interpret, not proof of value.
+
 ## Section 1 — The Three-Tier Framework
 
 Apply Schaffer's three-tier hierarchy. Every metric must sit in exactly one tier.
@@ -308,6 +310,7 @@ Generate the following sections in order, customised to the client's inputs:
 ## Quality Criteria
 
 - All three tiers are defined with specific named metrics, not generic categories
+- At least one trust, attention, privacy or safety guardrail has a denominator, threshold, owner and decision rule, or is marked `not assessed`
 - Primary metrics are linked to the client's named business goal — not generic "brand awareness"
 - Vanity vs business metrics table includes at least five pairs, each with an explanation of why the vanity metric misleads
 - EA-specific ER benchmarks are stated numerically (e.g. "2–5% for EA SMEs on Facebook") — not vaguely

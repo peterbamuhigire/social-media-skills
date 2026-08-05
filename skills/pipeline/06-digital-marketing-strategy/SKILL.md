@@ -96,7 +96,7 @@ Given verified approved brief, the skill produces a board-ready digital marketin
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
+- [Social operating system and pragmatics reference](references/social-operating-system-and-pragmatics.md)
 
 ## Required Input
 

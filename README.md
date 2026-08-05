@@ -234,6 +234,7 @@ The expected release state is zero contract debt, a passing routing suite, curre
 
 - `AGENTS.md` — routing, authoring, evidence, safety and release rules.
 - `docs/continuous-improvement/kaizen-adoption-2026-08.md` — engine and product improvement adoption record.
+- `docs/continuous-improvement/2026-08-social-books-learning-record.md` — Kaizen learning record for the nine-book social-media synthesis.
 - `skills/meta-utility/kaizen-improvement-system/SKILL.md` — mandatory Kaizen workflow.
 - `skills/meta-analytics-ops/meta-testing-framework/SKILL.md` — campaign experimentation and decision rules.
 - `skills/meta-analytics-ops/meta-reporting/SKILL.md` — reporting and measurement structure.

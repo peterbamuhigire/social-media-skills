@@ -101,6 +101,12 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 
 The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
 
+## Participation and trust lens
+
+For every priority platform, add a short audience-affordance card before recommending content or effort. Record the audience motive (consume, control, connect, compete or create), the platform's useful affordance, the participation job (identity, conversation, sharing, presence, relationships, reputation or groups), the public/private boundary, the intended action, and one trust or attention guardrail. Do not infer motive from age alone; use the supplied persona, listening or pilot evidence.
+
+The strategy must show the route from public discovery to the approved conversion hub, retention and honest advocacy. Do not optimise for outrage, humiliation, compulsive use or engagement without business context. See [`social-operating-system-and-pragmatics`](../06-digital-marketing-strategy/references/social-operating-system-and-pragmatics.md) for the reusable card and conversation controls.
+
 ## Anti-Patterns
 
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.

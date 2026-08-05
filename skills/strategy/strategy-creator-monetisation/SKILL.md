@@ -119,6 +119,10 @@ Frame the strategy with honest context for the Ugandan and East African market:
 
 Assess each of the five streams below against the client's profile and provide a recommendation for each: **Priority / Secondary / Not Yet / Not Applicable**.
 
+### Income and job-claim safety
+
+Do not repeat guaranteed daily earnings, effortless work-from-home claims, pay-to-access vacancy claims or platform eligibility statements without evidence. For every material claim, record the source, access date, market, role level, contract or payment condition, and whether the claim is an estimate or a verified programme rule. Separate entry-level tasks from professional strategy, analytics, content production, community operations and safety work. A credible recommendation should show the skills, portfolio evidence, client acquisition route and payment risks required; it should never promise income.
+
 ---
 
 ## Section 2: YouTube Partner Programme (YPP)
@@ -304,4 +308,5 @@ Output is of professional standard when it meets all of the following:
 - The affiliate programme table includes EA-accessible options with Mobile Money payment noted where available.
 - The brand partnership pitch template is complete with all five sections populated for the client.
 - The Uganda DPA 2019 disclosure requirement is stated explicitly for any affiliate marketing recommendation.
+- Earnings, job access, eligibility and payment claims are sourced, dated and qualified; no guaranteed income or pay-to-access opportunity is presented.
 - Each monetisation stream is assessed with a clear recommendation: Priority / Secondary / Not Yet / Not Applicable, based on the creator's current profile.

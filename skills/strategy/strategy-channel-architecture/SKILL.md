@@ -253,6 +253,10 @@ Based on role assignments and the client's available weekly production time, pro
 
 After the table, include a weekly time budget breakdown. Show how the client's stated available hours map to the effort levels above.
 
+### Participation, affordance and privacy check
+
+For each High or Medium effort platform, add a compact card with: audience motive (consume, control, connect, compete or create); platform affordance; participation job (identity, conversation, sharing, presence, relationships, reputation or groups); audience and public/private boundary; intended hub action; consent or safeguarding risk; and one trust or attention guardrail. A channel is not ready for high effort if its role is only "post more". Use the approved public-to-private route for personal, service or conversion conversations and record the handoff owner.
+
 ---
 
 ### Section 6 — Content Flow Map

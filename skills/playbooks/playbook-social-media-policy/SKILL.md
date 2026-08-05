@@ -194,6 +194,8 @@ If a customer expresses frustration, acknowledge their feeling without validatin
 **Step 5 — Notify the relevant manager.**
 If a customer has made a complaint through your personal channel, inform your line manager or [Company Name]'s social media manager so it can be followed up through the official process.
 
+**Boundary rule:** public acknowledgement is not permission to move a person or their data into a private channel. Use the official route, request only the minimum necessary information, and document who owns the handoff. Personal accounts must not become unofficial service desks or spokesperson channels.
+
 ---
 
 ## 5. Disclosure Requirements

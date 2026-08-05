@@ -186,6 +186,12 @@ Never contradict the reviewer publicly. Never ask them to prove their experience
 
 **Priority note:** responding to negative reviews publicly is more valuable than responding to positive ones. Prioritise accordingly.
 
+## 4A. Conversation classification and repair
+
+Before using a template, classify the interaction as good-faith disagreement, specific complaint, topic drift, abuse/harassment, or credible threat/safety concern. Disagreement is not automatically trolling. Use the response ladder: acknowledge, answer, repair or clarify, redirect or close, then escalate when safety, legal, safeguarding, privacy or crisis risk is credible. Preserve evidence before hiding or reporting content.
+
+When a public exchange needs personal details or case handling, acknowledge it without repeating sensitive information, name the official private route and response time, obtain permission before requesting details, log the minimum necessary case information, and close the loop safely. Invite an honest review only after the underlying experience has been addressed; never condition service on a positive review.
+
 ---
 
 ## 5. Growing Community Engagement (Proactive Management)

@@ -331,6 +331,8 @@ New regulations, food safety news, industry trends, local events — topics gain
 
 ---
 
+Add these fields to every material listening entry: `context`, `audience`, `public/private`, `interaction type`, `confidence`, `action owner`, `decision changed`, and `guardrail or escalation`. If the source is inaccessible, record the check as `not assessed` rather than filling the gap with a conclusion.
+
 ## 5. Listening Log Template
 
 Maintain this log as a Google Sheet. Create one tab per month. Share view access with the client.
