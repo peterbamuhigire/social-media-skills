@@ -57,7 +57,7 @@ This repository is referenced through the canonical engine-routing table. Do not
 ### Required companion engines
 
 - **`design-system-skills`**: all typography, layout, visual identity, UI/UX, visual asset, presentation-design and visual anti-slop work. Social strategy and written content remain here; visual production and visual quality gates route there.
-- **`digital-research-skills`**: current platform, market, legal, regulatory, policy, audience, benchmark and other externally verifiable claims; evidence packs, source verification and uncertainty handling.
+- **`digital-research-engine`** (`C:\wamp64\www\digital-research-engine`): current platform, market, legal, regulatory, policy, audience, benchmark and other externally verifiable claims; evidence packs, source verification and uncertainty handling.
 - **`chwezi-accounting-doctrine`**: pricing, budgets, ROI, costing, financial statements, controls and finance-system questions.
 - **`skills-web-dev`**: websites, applications, APIs, automation, analytics implementation, databases and technical systems.
 - **`proposal-skills`**: formal tenders, bids, EOIs, procurement responses and technical/financial proposals.
