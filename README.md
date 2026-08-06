@@ -1,5 +1,9 @@
 # social-media-skills
 
+See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for
+campaign agent roles, thin commands, publication hooks, evidence, and
+stop/recovery behavior.
+
 `social-media-skills` is a professional social-media and digital-marketing consultancy engine for strategy, content, campaigns, community, analytics, training, AI-assisted marketing, and client-facing reporting.
 
 Its default operating context is Uganda and East Africa: British English, UGX unless another currency is specified, EAT (UTC+3), mobile-first delivery, and WhatsApp-first customer journeys. When a client names another market, replace these defaults with the specified market's audience, language, channel, pricing, legal, cultural, and conversion assumptions.

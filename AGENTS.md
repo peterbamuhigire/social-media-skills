@@ -1,5 +1,9 @@
 # social-media-skills Agent Guide
 
+Shared agent, command, hook, evidence, and handoff behavior is mapped for
+social-media work in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
+and governed centrally by `C:\wamp64\www\skills-web-dev\docs\engine-control-plane.md`.
+
 ## Purpose
 
 This repository is a dual-compatible skills system for professional social media and digital marketing consultancy work in Uganda and East Africa. It must continue to work for Claude Code while also being directly usable by Codex from the standard skill repository layout.

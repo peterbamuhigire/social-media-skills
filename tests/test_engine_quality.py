@@ -22,7 +22,7 @@ class EngineQualityTests(unittest.TestCase):
     def test_zero_debt_baseline_has_no_waivers(self):
         baseline = json.loads((ROOT / "quality-baseline.json").read_text(encoding="utf-8"))
         self.assertEqual({}, baseline["failure_counts"])
-        self.assertEqual(176, baseline["active_skill_count"])
+        self.assertEqual(177, baseline["active_skill_count"])
 
     def test_fixture_types_cover_release_paths(self):
         fixtures = json.loads((ROOT / "tests" / "routing-fixtures.json").read_text(encoding="utf-8"))["fixtures"]
