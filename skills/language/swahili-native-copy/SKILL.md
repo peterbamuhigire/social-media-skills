@@ -9,6 +9,12 @@ metadata:
 ---
 # Swahili Native Copy (Social)
 
+## Target Markets (Standard)
+
+Kiswahili content from this engine targets East and Central Africa. Primary: Kenya, Tanzania. Secondary: DR Congo. Tertiary: Uganda (limited), Rwanda, Burundi.
+
+The reader is an educated professional with advanced Kiswahili comprehension. Use respectful Kiswahili sanifu — no Sheng, no Mombasa dialect, no Zanzibari variants. Default to terms most widely understood across Kenya and Tanzania.
+
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within swahili native copy (social).

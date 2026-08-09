@@ -9,6 +9,10 @@ metadata:
 ---
 # East African English — Language & Tone Skill
 
+## Target Audience (Standard)
+
+English content targets East Africa primarily (Uganda, Kenya, Tanzania, Rwanda) but must be **globally readable** by any English speaker worldwide. The reader is an educated professional with advanced English comprehension — often reading English as L2 or L3. The test: a business professional in London, Lagos, Nairobi, or Kigali must understand every sentence without confusion. Use East African warmth and courtesy but avoid local slang or references only one country's readers would understand.
+
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **east african english deliverable** and the supplied brief falls within east african english — language & tone skill.

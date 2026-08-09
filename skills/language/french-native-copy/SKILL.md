@@ -9,6 +9,12 @@ metadata:
 ---
 # French Native Copy (Social)
 
+## Target Markets (Standard)
+
+French content from this engine targets **francophone Africa**, not France. Primary markets: DRC, Congo-Brazzaville, Burundi, Senegal, Mali, Côte d'Ivoire, Togo, Cameroon, Gabon, Madagascar, Bénin, Burkina Faso, Niger, Guinea, Djibouti, Comoros.
+
+The reader is an educated professional with advanced French comprehension. Use formal `vous` register. Reference OHADA, BCEAO/BEAC, FCFA — not France-specific institutions. Never assume the reader is in Paris.
+
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within french native copy (social).
