@@ -8,7 +8,6 @@ metadata:
   - codex
 ---
 # Language Standards — Multi-Language Tone & Grammar
-
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **language quality specification** and the supplied brief falls within language standards — multi-language tone & grammar.
@@ -16,27 +15,22 @@ metadata:
 ## Do Not Use When
 - Use `east-african-english` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
 - Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
-
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---:|---|
 | Source copy, target language or register, market, audience and protected terminology | Requester or approved brief | Yes | Stop and request the missing decision context. |
 | Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
 | Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
 ## Capability and Permission Boundaries
 Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
 ## Degraded Mode
 Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified language quality specification; mark unavailable checks `not assessed` and never convert them into a pass.
-
 ## Decision Rules
 | Choice | Action | Failure or risk avoided |
 |---|---|---|
 | Market, language variety and audience register are confirmed | Use the named regional standard and preserve meaning, terminology and voice. | Literal or culturally misplaced copy presented as native-quality language. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-
 ## Workflow
 1. Confirm the exact language quality specification, consumer, market, channel and approval boundary; route to `east-african-english` if it is the closer match.
 2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
@@ -44,13 +38,11 @@ Fallback: if files, network access, platform data, language review or production
 4. Produce the smallest complete language quality specification; keep facts traceable and placeholders visibly unresolved.
 5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
 6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
-
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |
 |---|---|---|
 | Language quality specification | Requester, client reviewer or delivery team | The language quality specification addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
 | Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
-
 ## Evidence Produced
 | Evidence | Format | Acceptance condition |
 |---|---|---|
