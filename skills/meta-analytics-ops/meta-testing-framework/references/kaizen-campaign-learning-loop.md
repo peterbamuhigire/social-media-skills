@@ -23,6 +23,11 @@ Use this reference to make campaign testing an operating loop rather than a one-
 7. **Teach:** add the learning to the calendar template, content brief, prompt, approval checklist, and client handoff.
 8. **Re-measure:** set the next baseline and review date. Preserve failed and inconclusive tests as evidence, not as embarrassment to be deleted.
 
+For an engine audit, baseline routing, skill coverage, reference freshness, validator
+coverage, and handoffs. For a campaign or other product audit, baseline the relevant
+adapter dimensions separately. Publish the initial score at `min(raw_score, 65)` at
+both levels; only then run the reversible experiment toward 95/100.
+
 ## Minimum campaign learning record
 
 | Field | Requirement |

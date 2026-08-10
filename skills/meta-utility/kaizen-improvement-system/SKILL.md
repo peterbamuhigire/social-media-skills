@@ -50,6 +50,16 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.
 |---|---|---|
 | Brief-to-output map, source register, creative/legal review, measurement result, and before/after decision record | Reviewer and release owner | Another reviewer can reproduce the decision and verify the learning |
 
+## Two-level product contract
+
+Run the loop once for the engine (routes, skills, references, validators, templates,
+handoffs, and East Africa defaults) and once for the product (campaign, content,
+calendar, report, training asset, policy, or website/social output). At each level,
+the first analysis is capped at `min(raw_score, 65)`. Then select one root cause and
+one reversible improvement toward 95/100. Use the product adapters in
+`references/product-type-adapters.md`; do not transfer a campaign metric directly
+to a report, training asset, or website without its own evidence.
+
 <!-- dual-compat-end -->
 ## Capability
 
@@ -71,6 +81,15 @@ If the brief, audience evidence, platform data, source register, rights, or revi
 
 Do not invent platform benchmarks, audience statistics, or performance results. Use British English and East African defaults unless the brief says otherwise.
 
+## Mandatory 65-to-95 gate
+
+The first review is an initial analysis: calculate raw findings, publish only
+`min(raw_score, 65)`, and keep evidence, rights, safety, and measurement gaps visible.
+Do not improve the score by adding copy alone. After the capped baseline, target
+95/100 through one small reversible change at a time, with a root cause, owner,
+primary measure, trust/accessibility guardrail, stop/rollback rule, acceptance
+evidence, standardisation decision, and re-audit date.
+
 ## Anti-Patterns
 
 - Optimising vanity metrics without a decision. Fix: define outcome, guardrail, and action.
@@ -86,6 +105,6 @@ If a short-form video gets reach but no qualified action and triggers cultural c
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- [Portfolio standard](C:/wamp64/www/digital-research-engine/docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md)
+- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-analytics-ops/meta-testing-framework/`
 - `skills/ai-marketing/anti-ai-slop/`
