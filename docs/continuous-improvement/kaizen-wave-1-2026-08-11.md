@@ -38,8 +38,8 @@ The frozen portfolio assessment records 177 active skills, 69 references, one
 template, one campaign exemplar, five scripts, two test modules, 26 routing
 fixtures, 17 source records, six passing unit tests, a 62.5/100 raw score, a
 55/100 exercise-published score, and Level 2 maturity: repeatable workflow with
-material evidence gaps. See the social-media entry in
-[`KAIZEN-INITIAL-ASSESSMENT.md`](../../../KAIZEN-INITIAL-ASSESSMENT.md).
+material evidence gaps. The retained baseline is summarised in this report and
+carried forward in the [Wave 2 repository report](kaizen-wave-2-2026-08-11.md).
 
 The local baseline file also records 177 active skills and an empty failure-count
 object in [`quality-baseline.json`](../../quality-baseline.json). The baseline
