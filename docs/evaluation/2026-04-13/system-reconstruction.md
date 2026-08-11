@@ -2,7 +2,7 @@
 
 ## How The Repository Functions As A Consultancy System
 
-This repository is not organised as a single master workflow file. Instead, it functions as a modular operating system built from many specialised skills. The lifecycle is reconstructed by following the naming scheme, repository guidance in [README.md](/C:/wamp64/www/social-media-skills/README.md:1), behavioural rules in [CLAUDE.md](/C:/wamp64/www/social-media-skills/CLAUDE.md:1), and the internal logic of the major `SKILL.md` files.
+This repository is not organised as a single master workflow file. Instead, it functions as a modular operating system built from many specialised skills. The lifecycle is reconstructed by following the naming scheme, repository guidance in `README.md`, behavioural rules in `CLAUDE.md`, and the internal logic of the major `SKILL.md` files.
 
 At a system level, the repository behaves like this:
 

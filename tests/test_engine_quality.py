@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -68,6 +69,28 @@ class EngineQualityTests(unittest.TestCase):
         campaigns = (ROOT / "docs/world-class-exemplars/campaign-exemplars.md").read_text(encoding="utf-8")
         for sector in ("B2B", "NGO", "Retail", "Public sector", "Creator"):
             self.assertIn(sector, campaigns)
+
+    def test_active_routes_do_not_advertise_absent_deck_taxonomy(self):
+        active_sources = [ROOT / name for name in ("AGENTS.md", "CLAUDE.md", "README.md")]
+        active_sources.extend(ROOT.joinpath("skills").rglob("SKILL.md"))
+        active_text = "\n".join(path.read_text(encoding="utf-8") for path in active_sources)
+        self.assertNotRegex(active_text, r"\bdeck-[a-z0-9-]+\b")
+        self.assertNotIn("skills/decks/", active_text)
+
+    def test_all_repository_markdown_links_resolve_or_are_external(self):
+        link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+        schemes = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
+        for path in ROOT.rglob("*.md"):
+            if ".git" in path.parts or "__pycache__" in path.parts:
+                continue
+            for target in link_pattern.findall(path.read_text(encoding="utf-8")):
+                target = target.split("#", 1)[0].strip()
+                if not target or target.startswith("//") or schemes.match(target):
+                    continue
+                self.assertTrue(
+                    (path.parent / target).resolve().exists(),
+                    f"broken local link in {path.relative_to(ROOT)}: {target}",
+                )
 
 
 if __name__ == "__main__":

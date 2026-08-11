@@ -37,7 +37,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | `10-` through `13-` | Planning | 10-content-pillars, 11-content-calendar |
 | `platform-` | Platform-specific plans | platform-facebook, platform-linkedin |
 | `playbook-` | Execution playbooks | playbook-crisis-communications |
-| `deck-` | Presentation deck outlines | deck-strategy-presentation, deck-monthly-report |
+| Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `design-system-skills` | No standalone deck route is active |
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
 | `training-` | Training guides | training-client-team, training-diy-content |
 | Plain name | Utility / generation | caption-writer, hashtag-strategy, blog-post-writer |
@@ -54,7 +54,6 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `business-development/` | `biz-dev-*` — credentials, proposals, pricing, outreach, practitioner positioning |
 | `content-writing/` | Blog, caption, email, copywriting, direct-response, prompt libraries, hashtag, image-prompt skills |
 | `pipeline/` | Numbered onboarding-to-planning flow `00-` through `13-` |
-| `decks/` | All `deck-*` presentation outline skills |
 | `frameworks/` | `framework-*` strategic frameworks |
 | `meta-analytics-ops/` | `meta-*` analytics, reporting, measurement, audit skills |
 | `platforms/` | `platform-*` per-channel plans |
@@ -143,9 +142,9 @@ Apply where relevant; cite on first use:
 
 ---
 
-## Deck Skill Format
+## Deck outline format
 
-All `deck-` skills output slide-by-slide content outlines in structured markdown. Every slide entry must follow this exact format:
+Any matched skill that declares a slide-by-slide deck outline must use this structured markdown format. Every slide entry must follow this exact format:
 
 ```
 **Slide N — [Slide Title]**

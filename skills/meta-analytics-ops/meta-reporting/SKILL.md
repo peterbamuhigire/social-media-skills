@@ -9,7 +9,7 @@ metadata:
 ---
 # Monthly Social Media Performance Report (Written Document)
 
-> **Note:** This is the written document version of the monthly report. Use `deck-monthly-report` for the presentation version. Both cover the same month's data. This document is sent by email; the deck is used in client meetings. Do not duplicate — produce one of each per month, not both from this skill.
+> **Note:** This skill produces the written monthly report. This repository has no active standalone deck skill. If a presentation is required, hand the verified measurement proof pack to `design-system-skills`; do not claim that this engine produced a deck.
 
 ---
 

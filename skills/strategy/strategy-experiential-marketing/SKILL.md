@@ -219,7 +219,7 @@ Measure the following for every event:
 | Press and influencer coverage | Number of media or influencer mentions generated | 7 days post-event |
 | Cost per attendee | Total event cost ÷ number of attendees | Post-event |
 
-Include ExM measurement results in the next monthly or quarterly report using `meta-reporting` or `deck-monthly-report`.
+Include ExM measurement results in the next monthly or quarterly report using `meta-reporting`.
 
 ---
 

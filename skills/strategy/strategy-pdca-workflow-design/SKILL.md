@@ -236,7 +236,7 @@ Write the hypothesis down in the PDCA documentation log before the month begins.
 
 ### Week 4 — Act (60 minutes)
 
-- Prepare the monthly client report (Cross-reference `meta-reporting` or `deck-monthly-report`)
+- Prepare the monthly client report (cross-reference `meta-reporting`)
 - Record the optimisation hypothesis result in the log: did the change work? Why or why not?
 - Document one learning from this month: "We learned that [audience insight]. Next month we will [action]."
 - Book the next monthly review session before closing out the month

@@ -288,7 +288,7 @@ Check the rolling 7-day NSS. If the score has dropped 5+ points since Monday, id
 Produce the one-page weekly summary using the template in Section 3. Calculate the week's NSS and compare to last week. Identify the top 3 themes. Confirm the alert item and recommended action. Share the summary with the client or present it at the weekly team meeting. File a copy in the client's monthly reporting folder for use in the monthly report (`meta-reporting`).
 
 **Monthly close (45 minutes — end of each calendar month)**
-Calculate the month's SOV. Produce a sentiment trend chart for the month (NSS by week). Extract the top 5 positive and top 5 negative themes for the month. Identify any recurring complaint topic that has appeared across three or more weeks — escalate operationally. Share the monthly summary with the client and file it for the quarterly review (`deck-quarterly-review`).
+Calculate the month's SOV. Produce a sentiment trend chart for the month (NSS by week). Extract the top 5 positive and top 5 negative themes for the month. Identify any recurring complaint topic that has appeared across three or more weeks — escalate operationally. Share the monthly summary with the client and file it in `meta-reporting` for quarterly review.
 
 ---
 

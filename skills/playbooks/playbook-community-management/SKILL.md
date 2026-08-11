@@ -214,7 +214,7 @@ Celebrate follower milestones (500, 1,000, 5,000), positive review counts, and b
 
 ## 6. Monthly Community Health Scorecard
 
-Complete this table at the end of each calendar month. Share with the client in the monthly report (see deck-monthly-report).
+Complete this table at the end of each calendar month. Share it with the client through the written monthly report (`meta-reporting`).
 
 | Metric | Target | Actual | Rating |
 |---|---|---|---|

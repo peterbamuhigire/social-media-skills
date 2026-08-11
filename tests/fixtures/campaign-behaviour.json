@@ -1,0 +1,132 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA - not client evidence or a benchmark",
+  "workflow": "brief -> calendar -> approval -> evidence -> report",
+  "cases": [
+    {
+      "id": "complete-test-campaign",
+      "expected_verdict": "PASS",
+      "stage_order": ["brief", "calendar", "approval", "evidence", "report"],
+      "brief": {
+        "brief_id": "TEST-BRIEF-001",
+        "campaign_id": "TEST-CAMPAIGN-001",
+        "objective": "Generate fictional test enquiries for a fictional service",
+        "audience": "Fictional test audience: Kampala small-business owners",
+        "platforms": ["Instagram", "WhatsApp"],
+        "approval_owner": "Fictional Test Approver",
+        "approval_boundary": "draft-only-until-approved"
+      },
+      "calendar": {
+        "campaign_id": "TEST-CAMPAIGN-001",
+        "entries": [
+          {
+            "entry_id": "TEST-POST-001",
+            "brief_id": "TEST-BRIEF-001",
+            "date": "2026-08-17",
+            "platform": "Instagram",
+            "owner": "Fictional Test Content Lead",
+            "status": "scheduled-pending-approval"
+          },
+          {
+            "entry_id": "TEST-POST-002",
+            "brief_id": "TEST-BRIEF-001",
+            "date": "2026-08-19",
+            "platform": "WhatsApp",
+            "owner": "Fictional Test Content Lead",
+            "status": "scheduled-pending-approval"
+          }
+        ]
+      },
+      "approval": {
+        "campaign_id": "TEST-CAMPAIGN-001",
+        "status": "approved",
+        "approval_id": "TEST-APPROVAL-001",
+        "approval_evidence_id": "TEST-APPROVAL-001",
+        "approver": "Fictional Test Approver",
+        "approved_entry_ids": ["TEST-POST-001", "TEST-POST-002"]
+      },
+      "evidence": {
+        "campaign_id": "TEST-CAMPAIGN-001",
+        "source_records": [
+          {"id": "TEST-BRIEF-SOURCE-001", "label": "Synthetic test brief record"},
+          {"id": "TEST-RESULT-001", "label": "Synthetic test measurement export"}
+        ],
+        "metrics": [
+          {"name": "test_enquiries", "value": 12, "source_id": "TEST-RESULT-001"}
+        ],
+        "limitations": ["No live platform access; this fixture does not establish campaign performance."]
+      },
+      "report": {
+        "report_id": "TEST-REPORT-001",
+        "campaign_id": "TEST-CAMPAIGN-001",
+        "decision": "iterate",
+        "workflow_status": "complete",
+        "publish_authority": false,
+        "calendar_entry_ids": ["TEST-POST-001", "TEST-POST-002"],
+        "evidence_ids": ["TEST-RESULT-001"],
+        "metric_rows": [
+          {"name": "test_enquiries", "value": 12, "evidence_id": "TEST-RESULT-001"}
+        ],
+        "not_assessed": []
+      }
+    },
+    {
+      "id": "blocked-test-campaign-missing-approval",
+      "expected_verdict": "BLOCKED",
+      "stage_order": ["brief", "calendar", "approval", "evidence", "report"],
+      "brief": {
+        "brief_id": "TEST-BRIEF-002",
+        "campaign_id": "TEST-CAMPAIGN-002",
+        "objective": "Generate fictional test enquiries for a fictional service",
+        "audience": "Fictional test audience: Kampala small-business owners",
+        "platforms": ["Instagram"],
+        "approval_owner": "Fictional Test Approver",
+        "approval_boundary": "draft-only-until-approved"
+      },
+      "calendar": {
+        "campaign_id": "TEST-CAMPAIGN-002",
+        "entries": [
+          {
+            "entry_id": "TEST-POST-003",
+            "brief_id": "TEST-BRIEF-002",
+            "date": "2026-08-21",
+            "platform": "Instagram",
+            "owner": "Fictional Test Content Lead",
+            "status": "draft"
+          }
+        ]
+      },
+      "approval": {
+        "campaign_id": "TEST-CAMPAIGN-002",
+        "status": "blocked",
+        "approval_id": null,
+        "approval_evidence_id": null,
+        "approver": null,
+        "approved_entry_ids": [],
+        "missing": ["final brand approval evidence"]
+      },
+      "evidence": {
+        "campaign_id": "TEST-CAMPAIGN-002",
+        "source_records": [
+          {"id": "TEST-BRIEF-SOURCE-002", "label": "Synthetic test brief record"},
+          {"id": "TEST-RESULT-002", "label": "Synthetic test measurement export"}
+        ],
+        "metrics": [
+          {"name": "test_enquiries", "value": 0, "source_id": "TEST-RESULT-002"}
+        ],
+        "limitations": ["Approval evidence is intentionally omitted in this blocked case."]
+      },
+      "report": {
+        "report_id": "TEST-REPORT-002",
+        "campaign_id": "TEST-CAMPAIGN-002",
+        "decision": "hold",
+        "workflow_status": "blocked",
+        "publish_authority": false,
+        "calendar_entry_ids": ["TEST-POST-003"],
+        "blocked_omissions": ["final brand approval evidence"],
+        "evidence_ids": ["TEST-RESULT-002"],
+        "metric_rows": [],
+        "not_assessed": ["Approval evidence and any publication decision"]
+      }
+    }
+  ]
+}

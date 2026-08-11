@@ -26,7 +26,7 @@ The engine does not produce finished graphic design, video edits, websites, soft
 
 ## Current capability surface
 
-The repository currently contains 177 active `SKILL.md` files across 16 capability groups:
+The repository currently contains 177 active `SKILL.md` files across 15 active capability groups:
 
 | Group | Coverage |
 |---|---|

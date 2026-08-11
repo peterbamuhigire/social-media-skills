@@ -20,7 +20,7 @@ skills/
       assets/       # optional
 ```
 
-Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `decks/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `strategy/`, `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category.
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, and `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category.
 
 ## Default Context
 
@@ -59,7 +59,7 @@ Use the skill whose directory name and `description` most closely match the deli
 - `10-` to `13-`: planning
 - `platform-`: platform-specific plans
 - `playbook-`: execution SOPs and operating playbooks
-- `deck-`: slide-by-slide presentation outlines
+- Deck outline output: use only a matched skill that explicitly declares a slide-by-slide outline; no standalone deck category is active
 - `meta-`: audits, measurement, analytics, models, reporting
 - `training-`: client team training guides
 - `policy-`: internal or client-facing policy documents

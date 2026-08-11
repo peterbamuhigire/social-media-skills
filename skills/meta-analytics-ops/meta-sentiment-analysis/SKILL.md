@@ -304,7 +304,7 @@ Each action must have a named owner (consultant, client, operations) and a deadl
 
 ## Section 6: Monthly Sentiment Report Template
 
-Produce this report monthly. Deliver it to the client alongside the written monthly report (`meta-reporting`) or as a section within the presentation deck (`deck-monthly-report`). Do not produce it as a standalone document unless the client has requested a dedicated sentiment briefing.
+Produce this report monthly. Deliver it to the client alongside the written monthly report (`meta-reporting`) or include it in the evidence handoff to `design-system-skills` when a presentation is commissioned. Do not claim a local deck route or produce this as a standalone document unless the client has requested a dedicated sentiment briefing.
 
 ```
 MONTHLY SENTIMENT REPORT — [Client Name] — [Month, Year]

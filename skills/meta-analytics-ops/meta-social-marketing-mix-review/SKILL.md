@@ -13,7 +13,7 @@ metadata:
 
 Use this skill to systematically diagnose the health of a client's social media strategy using the 7 Ps marketing mix framework, as applied to social media by Dallas (2022). The output is a scored one-page summary — suitable for a quarterly review meeting, a new account baseline, or a cause-of-decline investigation.
 
-**Related skills:** `05-social-media-strategy`, `meta-reporting`, `deck-quarterly-review`
+**Related skills:** `05-social-media-strategy`, `meta-reporting`; route any presentation design handoff to `design-system-skills` after the evidence is approved.
 
 ---
 
