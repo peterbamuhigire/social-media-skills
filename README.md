@@ -69,6 +69,8 @@ The current source register is authoritative for platform, legal, policy and mar
 
 ## Kaizen operating principle
 
+For a ready-to-run product or project operation, use [`prompts/full-kaizen-operation.md`](prompts/full-kaizen-operation.md).
+
 Continuous improvement is mandatory for the engine and every product it produces. Load:
 
 `skills/meta-utility/kaizen-improvement-system/SKILL.md`
