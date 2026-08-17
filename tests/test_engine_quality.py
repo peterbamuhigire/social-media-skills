@@ -49,7 +49,7 @@ class EngineQualityTests(unittest.TestCase):
         from datetime import date
         errors = freshness.validate(
             ROOT / "docs" / "source-registers" / "source-register.json",
-            date(2026, 8, 13),
+            date(2026, 9, 18),
         )
         self.assertTrue(any("overdue" in error for error in errors))
 
