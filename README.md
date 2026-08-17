@@ -1,12 +1,10 @@
 # social-media-skills
 
-See [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md) for
-campaign agent roles, thin commands, publication hooks, evidence, and
-stop/recovery behavior.
+`social-media-skills` is a portable consultancy engine for strategy, content, campaigns, community, measurement, training, and AI-assisted marketing. It turns a defined business or communication objective into reviewable briefs, plans, content systems, reports, and operating guidance.
 
-`social-media-skills` is a professional social-media and digital-marketing consultancy engine for strategy, content, campaigns, community, analytics, training, AI-assisted marketing, and client-facing reporting.
+Social strategists, content practitioners, channel owners, consultants, and client teams use it to address unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims. Its skills cover platform and audience work, content calendars and copy, campaigns, community, SEO and discovery, analytics, training, governance, and AI-assisted workflows, with Uganda and East Africa as defaults that must be replaced when a project names another market.
 
-Its default operating context is Uganda and East Africa: British English, UGX unless another currency is specified, EAT (UTC+3), mobile-first delivery, and WhatsApp-first customer journeys. When a client names another market, replace these defaults with the specified market's audience, language, channel, pricing, legal, cultural, and conversion assumptions.
+The engine helps teams move from brief to strategy, production, review, reporting, and learning with clearer decisions, evidence, approval boundaries, and reusable operating practice. It produces text-first, reviewable artefacts and specifications; finished graphic design, video editing, websites, software, live-account changes, and paid-spend actions belong to the appropriate specialist or authorised owner, including the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a> for visual production.
 
 ## What this engine produces
 
@@ -20,7 +18,7 @@ The engine produces text-first, reviewable consultancy artefacts, including:
 - analytics frameworks, dashboards specifications, KPI reports, ROI and attribution models, testing plans, social listening, competitor analysis, and content audits;
 - AI-marketing strategy, readiness assessments, vendor and data audits, prompt systems, RAG knowledge bases, chatbots, agentic workflows, and AI-content policies;
 - client training, DIY content guidance, smartphone-video briefs, and team operating models;
-- proposals, credentials, decks and presentation outlines. Visual design and final deck production route to `design-system-skills`.
+- proposals, credentials, decks and presentation outlines. Visual design and final deck production route to the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a>.
 
 The engine does not produce finished graphic design, video edits, websites, software, or live-account changes. It can specify, audit, brief, and govern those outputs, then route implementation to the appropriate specialist engine.
 
@@ -56,14 +54,14 @@ This repository is referenced through the canonical engine-routing table. Do not
 
 ### Required companion engines
 
-- **`design-system-skills`**: all typography, layout, visual identity, UI/UX, visual asset, presentation-design and visual anti-slop work. Social strategy and written content remain here; visual production and visual quality gates route there.
-- **[Digital Research Engine](https://github.com/peterbamuhigire/digital-research-skills):** current platform, market, legal, regulatory, policy, audience, benchmark and other externally verifiable claims; evidence packs, source verification and uncertainty handling.
-- **`chwezi-accounting-doctrine`**: pricing, budgets, ROI, costing, financial statements, controls and finance-system questions.
-- **`skills-web-dev`**: websites, applications, APIs, automation, analytics implementation, databases and technical systems.
-- **`proposal-skills`**: formal tenders, bids, EOIs, procurement responses and technical/financial proposals.
-- **`business-plan-skills`**: feasibility, market sizing, business plans, investor readiness and financial projections.
-- **`srs-skills`**: formal requirements, architecture, test, release, governance and standards-driven SDLC documentation.
-- **`linux-skills`**: servers, Bash, deployment operations, hardening and infrastructure runbooks.
+- **<a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills</a>**: all typography, layout, visual identity, UI/UX, visual asset, presentation-design and visual anti-slop work. Social strategy and written content remain here; visual production and visual quality gates route there.
+- **<a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>:** current platform, market, legal, regulatory, policy, audience, benchmark and other externally verifiable claims; evidence packs, source verification and uncertainty handling.
+- **<a href="https://github.com/peterbamuhigire/chwezi-accounting-doctrine" target="_blank" rel="noopener noreferrer">Chwezi Accounting Doctrine</a>**: pricing, budgets, ROI, costing, financial statements, controls and finance-system questions.
+- **<a href="https://github.com/peterbamuhigire/chwezi-dev-engine" target="_blank" rel="noopener noreferrer">Chwezi Dev Engine</a>**: websites, applications, APIs, automation, analytics implementation, databases and technical systems.
+- **<a href="https://github.com/peterbamuhigire/proposal-skills" target="_blank" rel="noopener noreferrer">Proposal Skills</a>**: formal tenders, bids, EOIs, procurement responses and technical/financial proposals.
+- **<a href="https://github.com/peterbamuhigire/business-plan-skills" target="_blank" rel="noopener noreferrer">Business Plan Skills</a>**: feasibility, market sizing, business plans, investor readiness and financial projections.
+- **<a href="https://github.com/peterbamuhigire/srs-skills" target="_blank" rel="noopener noreferrer">SRS Skills</a>**: formal requirements, architecture, test, release, governance and standards-driven SDLC documentation.
+- **<a href="https://github.com/peterbamuhigire/linux-skills" target="_blank" rel="noopener noreferrer">Linux Skills</a>**: servers, Bash, deployment operations, hardening and infrastructure runbooks.
 
 The current source register is authoritative for platform, legal, policy and market claims. A source that is stale, unavailable or not attributable makes the affected check `not assessed`; it never becomes a pass by assumption.
 
@@ -124,7 +122,7 @@ Every significant content or campaign workflow uses the following controls:
 
 - **Brief discipline:** define the business outcome, audience, market, message, offer, channel, budget/capacity and approval boundary before production.
 - **Audience value:** apply attraction, retention, motivation, conversion, referral and community-trust tests rather than optimising reach alone.
-- **Narrative:** use clear conflict, stakes, character/audience perspective, progression, choice and payoff where the format benefits from storytelling. Route visual character, composition and design decisions to `design-system-skills`.
+- **Narrative:** use clear conflict, stakes, character/audience perspective, progression, choice and payoff where the format benefits from storytelling. Route visual character, composition and design decisions to the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a>.
 - **Content architecture:** use content pillars, POEM/PESO, RACE, Hero/Hub/Hygiene, ARM and response-system logic; make the content mix and CTA role explicit.
 - **Production:** use the content calendar, campaign brief, production playbook and brand-voice controls; maintain a source and approval record.
 - **Human quality:** run `anti-ai-slop` continuously and `ai-slop-audit` whenever content is audited, critiqued, scored or de-slopped. A blocking result prevents progression until corrected.
@@ -173,7 +171,7 @@ Use British English, UGX and EAT by default. Make assumptions about connectivity
 
 ## Book-informed capability upgrades
 
-The current engine improvements were informed by the 16-book study recorded in the Digital Research engine. The books are treated as dated or partial references where appropriate; current platform, legal and market claims still require independent verification.
+The current engine improvements were informed by the 16-book study recorded in the <a href="https://github.com/peterbamuhigire/digital-research-skills" target="_blank" rel="noopener noreferrer">Digital Research Engine</a>. The books are treated as dated or partial references where appropriate; current platform, legal and market claims still require independent verification.
 
 | Book-derived lesson | Implemented capability in this engine |
 |---|---|
@@ -201,7 +199,7 @@ Implementation provenance and limitations are recorded in:
 - Legal and regulatory gates are screening and escalation controls, not legal advice or certification.
 - Missing account access, source evidence, rights, approvals, measurement data, fluent-language review, rendering capability or qualified specialists produces `not assessed` or a qualified result.
 - No campaign should be published, paid spend changed, customer data processed, account altered or external message sent without explicit authority.
-- Visual asset production, final layout, typography, interface design and presentation rendering belong to `design-system-skills`.
+- Visual asset production, final layout, typography, interface design and presentation rendering belong to the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a>.
 - This repository's historical `book-extractions/` material is supporting study material, not automatically current evidence.
 
 ## Repository layout
