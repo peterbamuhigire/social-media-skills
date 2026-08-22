@@ -34,3 +34,11 @@ existing workflows; no command may publish directly without the release gate.
 
 An absent platform, legal, rights, or measurement check is `NOT ASSESSED` and
 blocks publishing; advisory telemetry may fail open.
+
+## Human approval adapter
+
+Outbound and high-impact actions are detailed in
+[`approval-enforcement.md`](approval-enforcement.md) and catalogued in
+[`approval-adapter.json`](approval-adapter.json). The platform adapter must
+route publishing, messaging, spend, moderation, and serious-case resolution
+through the shared gate.
