@@ -1,44 +1,9 @@
-# Control-plane adoption
+# Skills-engine control-plane adoption
 
-This engine adopts the shared ten-engine contract from
-`C:\wamp64\www\skills-web-dev\docs\engine-control-plane.md`. Social-media
-doctrine remains authoritative for strategy, content, campaigns, communities,
-platform operations, and measurement.
+This repository exposes the social-media-skills engine through the declarative .skills-engine/engine-manifest.yaml contract.
 
-## Local roles and commands
+The engine remains independently usable. Its router and domain SKILL.md files are authoritative. Universal coordination may read the router, discover skills, inspect Git, and review declared validators.
 
-| Role | Responsibility | Stop condition |
-|---|---|---|
-| Campaign strategist | Set audience, objective, funnel, offer, channel, and experiment. | Brief is incomplete or unsupported. |
-| Content producer | Produce channel-fit assets from the approved content matrix. | Source, rights, or disclosure is unresolved. |
-| Compliance reviewer | Check legal, market, rights, privacy, safeguarding, and platform constraints. | Any blocking gate is missing or failed. |
-| Analytics reporter | Reconcile measurement definitions, baselines, and outcomes. | Metric lineage or access is absent. |
+Missing dependency, platform, source, or approval evidence is NOT ASSESSED. Writes, pulls, publication, submissions, ledger/filing changes, deployment, and control changes require explicit approval.
 
-Route thin commands `campaign`, `content-qa`, `measure`, and `retro` to
-existing workflows; no command may publish directly without the release gate.
-
-## Hook and release contract
-
-- `preflight` records audience, market, objective, platform, permissions,
-  rights, disclosure, and approval owners.
-- `context` loads the current brief, content matrix, source dates, brand and
-  design constraints, prior performance, and known platform changes.
-- `before_write` checks claims, rights, privacy, safeguarding, and whether the
-  asset is draft-only or approved for scheduling.
-- `after_write` runs creative, anti-slop, legal/market, and accessibility
-  checks as applicable and records the verdict.
-- `release` requires approval, content-matrix trace, audience evidence,
-  measurement baseline, and required counsel or platform escalation.
-- `stop` writes a handoff with unscheduled assets, failed checks, missing
-  approvals, and the next review owner.
-
-An absent platform, legal, rights, or measurement check is `NOT ASSESSED` and
-blocks publishing; advisory telemetry may fail open.
-
-## Human approval adapter
-
-Outbound and high-impact actions are detailed in
-[`approval-enforcement.md`](approval-enforcement.md) and catalogued in
-[`approval-adapter.json`](approval-adapter.json). The platform adapter must
-route publishing, messaging, spend, moderation, and serious-case resolution
-through the shared gate.
+MCP-safe operations are read-only discovery, router read, skill read, and documented-check inspection. Forks are inspected from their own checkout; no validator is invented when the repository is not catalogued.
