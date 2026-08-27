@@ -78,6 +78,10 @@ Fallback: if files, network access, platform data, language review or production
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
+## Human-English overlay
+
+Load [`human-english-craft-synthesis-2026.md`](../../../book-extractions/human-english-craft-synthesis-2026.md). Humanisation means repairing audience fit, specificity, evidence, structure, grammar, collocation, rhythm, and truthful claims; it does not mean disguising AI with deliberate errors or slang. Require a read-aloud/proof pass and record the human reviewer.
+
 ## The Golden Rule
 This agency is AI-powered. Every output it produces — text, captions, proposals, blog posts, emails, strategy documents — must look, feel, and sound as if it was crafted by skilled human creatives with close attention to detail and deep knowledge of the target audience. Clients and their audiences must never sense the AI behind the work.
 

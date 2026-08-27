@@ -161,3 +161,9 @@ engine; presentation comes from design-system-skills. Hard rule: never use a ban
 (Inter, Geist, Roboto, Arial, Open Sans, Lato, Space Grotesk, bare system stacks) as primary
 type — state the chosen typeface and reason before producing any artifact.
 <!-- /design-system-skills:trigger -->
+
+## Human-English editorial standard (2026-08 Kaizen)
+
+Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
+
+Social writing must be channel-native without becoming careless: one real idea, one audience, one honest action, concrete detail, correct grammar, natural rhythm, and local texture only when true. Do not use forced slang, hashtag piles, fake intimacy, invented lived experience, or typos to imitate people. Record audience, channel, purpose, source/rights status, claim checks, language review, proof status, gaps, reviewer, and date.

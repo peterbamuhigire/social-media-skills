@@ -64,6 +64,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [Human English and reader-centred craft](../../../book-extractions/human-english-craft-synthesis-2026.md) governs the English reader, genre, grammar, rhythm, and proof layer.
 <!-- dual-compat-end -->
 
 All website copy, headings, CTAs, descriptions, and microcopy must follow this style guide for their respective language. Cross-cutting standard — applied throughout every content-writing step.
