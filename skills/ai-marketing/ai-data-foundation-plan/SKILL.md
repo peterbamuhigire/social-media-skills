@@ -341,3 +341,6 @@ to invoke next (`ai-readiness-diagnostic` to re-score, or
 
 Output is a structured text document suitable for sharing with the client's
 senior leadership team as a standalone briefing paper.
+
+For data-product ownership, lineage, freshness, audience boundaries, and AI
+marketing controls, load [data product and AI foundation principles](references/data-product-and-ai-foundation-principles.md).

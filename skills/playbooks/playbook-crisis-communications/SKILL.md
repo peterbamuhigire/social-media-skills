@@ -69,6 +69,11 @@ Use British English and the specified market context. Recommendations must be ex
 - Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
 - Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
+## Book-derived additions
+
+For health or NGO crises involving misinformation, impersonation, or account
+  targeting, load [institutional health communication and infodemic response](../../sectors/healthcare/references/institutional-health-communication-and-infodemic-response.md).
+
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)

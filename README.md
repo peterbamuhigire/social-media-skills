@@ -191,6 +191,10 @@ Implementation provenance and limitations are recorded in:
 
 `docs/continuous-improvement/kaizen-adoption-2026-08.md`
 
+## September 2026 book-driven Kaizen wave
+
+See [`docs/continuous-improvement/book-driven-kaizen-2026-09-01.md`](docs/continuous-improvement/book-driven-kaizen-2026-09-01.md) for the healthcare infodemic-response and AI data-product additions.
+
 ## Evidence, safety and limitations
 
 - This engine creates recommendations and text artefacts; it does not create evidence merely by writing confidently.

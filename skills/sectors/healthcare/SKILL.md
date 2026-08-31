@@ -84,6 +84,10 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 - Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
 - Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
 
+## Book-derived additions
+
+- `references/institutional-health-communication-and-infodemic-response.md` for participatory, evidence-led health communication and cyber-aware correction.
+
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
