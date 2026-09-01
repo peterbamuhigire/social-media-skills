@@ -102,9 +102,18 @@ evidence, standardisation decision, and re-audit date.
 
 If a short-form video gets reach but no qualified action and triggers cultural concerns, retain the result as a failed experiment, pause the variant, document the evidence, and test a better-fit message with a guardrail.
 
+## Mandatory Digital Research currentness gate
+
+Every Kaizen cycle must begin with `digital-research-skills` source evaluation
+and source verification. Record scope, dates, freshness class, support status,
+uncertainty, and review date for current platform, market, legal, policy,
+technology, and lifecycle claims; quarantine unsupported claims as
+`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md).
+
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
 - Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-analytics-ops/meta-testing-framework/`
 - `skills/ai-marketing/anti-ai-slop/`
+- [Book-driven campaign learning and retention](../references/book-driven-campaign-learning-and-retention.md) - audience, story-to-action, ethical experimentation, retention, and currentness.

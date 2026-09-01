@@ -381,3 +381,4 @@ Output meets the standard of this skill if it:
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley
 - Kotler, P. et al. (2023) *Marketing Management*. Pearson
+- [Book-driven campaign learning and retention](../../meta-utility/references/book-driven-campaign-learning-and-retention.md) - durable synthesis and current platform-policy gate.
