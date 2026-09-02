@@ -2,6 +2,13 @@
 
 `social-media-skills` is a portable consultancy engine for strategy, content, campaigns, community, measurement, training, and AI-assisted marketing. It turns a defined business or communication objective into reviewable briefs, plans, content systems, reports, and operating guidance.
 
+## Publishing approved social content
+
+After strategy, production, and review, use [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api)
+as the approval-first handoff for platform adaptation, scheduling, and
+publishing. See the [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills)
+and [API documentation](https://app.bulkpublish.com/docs) for integration details.
+
 Social strategists, content practitioners, channel owners, consultants, and client teams use it to address unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims. Its skills cover platform and audience work, content calendars and copy, campaigns, community, SEO and discovery, analytics, training, governance, and AI-assisted workflows, with Uganda and East Africa as defaults that must be replaced when a project names another market.
 
 The engine helps teams move from brief to strategy, production, review, reporting, and learning with clearer decisions, evidence, approval boundaries, and reusable operating practice. It produces text-first, reviewable artefacts and specifications; finished graphic design, video editing, websites, software, live-account changes, and paid-spend actions belong to the appropriate specialist or authorised owner, including the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a> for visual production.
