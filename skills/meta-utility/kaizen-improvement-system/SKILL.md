@@ -117,3 +117,4 @@ technology, and lifecycle claims; quarantine unsupported claims as
 - `skills/meta-analytics-ops/meta-testing-framework/`
 - `skills/ai-marketing/anti-ai-slop/`
 - [Book-driven campaign learning and retention](../references/book-driven-campaign-learning-and-retention.md) - audience, story-to-action, ethical experimentation, retention, and currentness.
+- [Book-driven Kaizen Wave 3](../references/book-driven-kaizen-wave-3-2026-09-02.md) - outcome/guardrail experimentation, provenance, cultural review, and platform currentness.
