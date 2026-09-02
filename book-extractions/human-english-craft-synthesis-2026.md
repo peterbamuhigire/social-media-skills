@@ -37,3 +37,7 @@ Would this post still exist if the brand name were removed? If yes, add the actu
 ## Evidence record
 
 Record audience/channel/purpose, source and rights status, claim checks, language review, read-aloud/proof status, unresolved issues, reviewer, and date. A lively caption cannot rescue an untrue claim or borrowed identity.
+
+## Collocation and lexical-precision overlay (2026-09-02)
+
+Apply [`english-collocations-and-lexical-precision-2026-09-02.md`](../skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for natural word partnerships, channel-fit register, spelling, idiom restraint, and calibrated claims. Keep the voice lively when the idea earns it; do not use slang, typos, or phrase-book language to perform humanity.

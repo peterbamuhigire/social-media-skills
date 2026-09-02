@@ -452,3 +452,6 @@ This skill is cross-cutting — it applies alongside:
 - **seo** — headlines and niche vocabulary directly support search visibility
 - **brand-alignment** — content voice must match brand identity
 - **sector-strategies** — industry-specific content angles and trust signals
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for every caption, post, script, email, and response. It is a decision aid, not a list of lines to paste.

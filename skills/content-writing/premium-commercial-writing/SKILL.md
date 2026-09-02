@@ -151,3 +151,6 @@ Use this skill alongside:
 - [ ] Price, value, risk, or effort objections are addressed directly when relevant.
 - [ ] British English and East African market defaults are applied unless the brief says otherwise.
 - [ ] The piece sounds like a skilled human expert wrote it for a specific audience.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) before final polish. Use precise, channel-native language with evidence-calibrated claims and no forced hype or slang.

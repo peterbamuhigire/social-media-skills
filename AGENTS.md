@@ -179,6 +179,6 @@ type — state the chosen typeface and reason before producing any artifact.
 
 ## Human-English editorial standard (2026-08 Kaizen)
 
-Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
+Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) and [`skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md`](skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
 
 Social writing must be channel-native without becoming careless: one real idea, one audience, one honest action, concrete detail, correct grammar, natural rhythm, and local texture only when true. Do not use forced slang, hashtag piles, fake intimacy, invented lived experience, or typos to imitate people. Record audience, channel, purpose, source/rights status, claim checks, language review, proof status, gaps, reviewer, and date.

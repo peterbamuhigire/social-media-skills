@@ -265,3 +265,6 @@ Use this as a benchmark for tone and rhythm:
 - **Any generated email templates or contact responses**
 
 This skill runs alongside every other skill. The design-system chooses how text looks; this skill governs what it says and how it sounds.
+## English collocation and lexical-precision overlay
+
+Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md). Preserve genuine local detail and warmth, but never manufacture dialect, slang, intimacy, or mistakes. Check the phrase in the channel and audience context.
