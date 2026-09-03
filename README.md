@@ -6,7 +6,7 @@ Social strategists, content practitioners, channel owners, consultants, and clie
 
 The engine helps teams move from brief to strategy, production, review, reporting, and learning with clearer decisions, evidence, approval boundaries, and reusable operating practice. It produces text-first, reviewable artefacts and specifications; finished graphic design, video editing, websites, software, live-account changes, and paid-spend actions belong to the appropriate specialist or authorised owner, including the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a> for visual production.
 
-## What this engine produces
+## Capability map
 
 The engine produces text-first, reviewable consultancy artefacts, including:
 
