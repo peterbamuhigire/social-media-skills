@@ -74,6 +74,12 @@ Fallback: if files, network access, platform data, language review or production
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
+## Machine-error audit extension
+
+Report ME1-ME7 at post, slide, caption, and campaign-sequence level. Cite the repeated or inflated
+unit and state the missing audience value. Do not treat a repeated safety warning, accessibility
+label, or approved campaign message as slop; record it as a functional exception.
+
 The detector. Given any social artefact, it decides how strongly it reads as AI slop, names exactly why, and says how to fix each finding. Production-side prevention is the companion `anti-ai-slop` skill.
 
 ## When this runs

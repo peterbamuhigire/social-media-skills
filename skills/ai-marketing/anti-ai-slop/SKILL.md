@@ -74,6 +74,24 @@ Fallback: if files, network access, platform data, language review or production
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
+## Machine-error editorial gate (cross-engine Kaizen)
+
+Apply Digital Research's `docs/continuous-improvement/machine-errors-editorial-gate-2026-09-03.md`
+to captions, carousels, campaign briefs, image prompts, and community replies:
+
+| ID | Social-media adaptation |
+|---|---|
+| ME1 | Does each post or slide add a distinct point rather than repeat the previous card? |
+| ME2 | Is the hook/contrast real, or a repeated content template? |
+| ME3 | Can the audience act without another restatement or CTA recap? |
+| ME4 | Does urgency match the verified event, offer, or risk? |
+| ME5 | Is the place, person, price, or example real and approved? |
+| ME6 | Has the same hook, triplet, emoji, or CTA become a mannerism? |
+| ME7 | Does the asset earn attention with a useful claim, instruction, or decision? |
+
+Cut carousel slides that only paraphrase earlier slides. Preserve repetition required by an approved
+accessibility, safety, legal, or campaign-frequency requirement and record the reason.
+
 The guardrail every social output passes before it ships. Detection lives in the companion `ai-slop-audit` skill; this skill governs **production** — writing the caption, planning the campaign, briefing the image so slop never appears in the first place.
 
 ## Real-time application (this is a LIVE constraint, not only a final gate)
