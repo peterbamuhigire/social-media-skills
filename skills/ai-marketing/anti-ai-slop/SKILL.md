@@ -89,6 +89,25 @@ to captions, carousels, campaign briefs, image prompts, and community replies:
 | ME6 | Has the same hook, triplet, emoji, or CTA become a mannerism? |
 | ME7 | Does the asset earn attention with a useful claim, instruction, or decision? |
 
+### Impeccable-derived AS overlay
+
+Use AS1-AS7 for social visuals, campaign decks, landing-page handoffs, and short-form copy. In
+visual campaigns, purple gradients, glassmorphism, neon glow, AI-beige defaults, decorative
+editorial scaffolding, and decorative motion are no-ship choices. Functional status, accessibility,
+data, or approved brand reasons must be explicit.
+
+| ID | Social-media overlay test |
+|---|---|
+| AS1 | Is the visual/copy template chosen for this audience and campaign rather than generator default? |
+| AS2 | Do badges, chips, icon tiles, metrics, or numbered labels clarify the message or decorate it? |
+| AS3 | Do carousel cards and spacing distinguish ideas, or repeat one card template? |
+| AS4 | Does motion or glow communicate a state, message, or task and respect reduced motion? |
+| AS5 | Are imagery, examples, icons, and claims purposeful, approved, and traceable? |
+| AS6 | Are buzzwords, em-dash cadence, aphoristic contrasts, and theatrical framing recurring? |
+| AS7 | Is the rendered post readable, contrasted, complete, and free of clipped or missing content? |
+
+Record `cli`, `browser`, `llm_only`, or `human_review`; unavailable evidence is `NOT_ASSESSED`.
+
 Cut carousel slides that only paraphrase earlier slides. Preserve repetition required by an approved
 accessibility, safety, legal, or campaign-frequency requirement and record the reason.
 

@@ -80,6 +80,14 @@ Report ME1-ME7 at post, slide, caption, and campaign-sequence level. Cite the re
 unit and state the missing audience value. Do not treat a repeated safety warning, accessibility
 label, or approved campaign message as slop; record it as a functional exception.
 
+### Impeccable-derived overlay audit
+
+For social visuals, campaign decks, landing-page handoffs, and rendered posts, report AS1-AS7 with
+evidence mode and concrete location. Purple gradients, glassmorphism, neon glow, AI-beige defaults,
+decorative editorial scaffolding, and decorative motion are blocking visual findings unless a
+functional state, accessibility need, data encoding, or approved brand reason is recorded. Mark
+non-visual checks `not_applicable` and unavailable render evidence `NOT_ASSESSED`.
+
 The detector. Given any social artefact, it decides how strongly it reads as AI slop, names exactly why, and says how to fix each finding. Production-side prevention is the companion `anti-ai-slop` skill.
 
 ## When this runs
