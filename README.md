@@ -1,6 +1,6 @@
 # social-media-skills
 
-`social-media-skills` is a portable consultancy engine for strategy, content, campaigns, community, measurement, training, and AI-assisted marketing. It turns a defined business or communication objective into reviewable briefs, plans, content systems, reports, and operating guidance.
+`social-media-skills` is a channel-native consultancy engine for turning a defined business or communication objective into deliberate strategy, content, campaigns, community practice, measurement, training, and governed AI-assisted marketing. It develops one audience-and-channel unit at a time, connecting the idea, evidence, creative treatment, approval boundary, action, moderation, and learning signal instead of producing interchangeable volume.
 
 Social strategists, content practitioners, channel owners, consultants, and client teams use it to address unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims. Its skills cover platform and audience work, content calendars and copy, campaigns, community, SEO and discovery, analytics, training, governance, and AI-assisted workflows, with Uganda and East Africa as defaults that must be replaced when a project names another market.
 

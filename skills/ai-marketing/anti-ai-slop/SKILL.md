@@ -40,10 +40,10 @@ Fallback: if files, network access, platform data, language review or production
 ## Workflow
 1. Confirm the exact anti AI slop deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
 2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete anti AI slop deliverable; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+3. Select one post, asset, or content unit and record the material decision behind it before drafting; do not fill a calendar as one opaque batch.
+4. Inspect the surrounding brand, campaign, source, rights, and channel context, then produce the smallest complete unit with facts traceable and placeholders visibly unresolved.
+5. Test the unit against the decision table, domain quality criteria, moderation risk, and anti-slop gate; make one concrete refinement and recover by narrowing or qualifying unsupported portions.
+6. Deliver the revised unit with evidence, assumptions, unassessed checks, approval boundary, and the next measurement or verification step.
 
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |

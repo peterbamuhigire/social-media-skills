@@ -10,7 +10,7 @@ The package may read the router, discover skills, inspect Git, and run only decl
 
 Every Kaizen audit, skill edit, reference update, validator change, and
 standardisation decision MUST begin with the Digital Research Engine at
-`C:\wamp64\www\digital-research-skills`. Read its `source-evaluation` and
+`C:\wamp64\www\digital-research-engine`. Read its `source-evaluation` and
 `source-verification` skills and the currentness gate reference
 `docs/continuous-improvement/kaizen-currentness-gate.md`.
 
@@ -182,3 +182,7 @@ type — state the chosen typeface and reason before producing any artifact.
 Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) and [`skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md`](skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
 
 Social writing must be channel-native without becoming careless: one real idea, one audience, one honest action, concrete detail, correct grammar, natural rhythm, and local texture only when true. Do not use forced slang, hashtag piles, fake intimacy, invented lived experience, or typos to imitate people. Record audience, channel, purpose, source/rights status, claim checks, language review, proof status, gaps, reviewer, and date.
+
+## PORTFOLIO CRAFT CONTRACT
+
+Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Build a campaign in deliberate content units: frame the audience and channel job, select one post or asset, inspect brand and evidence context, draft with a distinct point of view, check platform fit and moderation risk, review the visual/audio treatment, refine, and record the approval and measurement plan. Real examples, source status, correction handling, and a meaningful next action matter more than volume. Do not generate a calendar full of interchangeable posts. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, rights, platform, render, approval, or performance evidence is `NOT ASSESSED`, never a pass.
