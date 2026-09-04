@@ -206,11 +206,19 @@
       "publisher": "Uganda Communications Commission",
       "tier": 1,
       "url": "https://www.ucc.co.ug/market-performance-reports/",
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-09-04",
       "review_every_days": 45,
-      "next_review": "2026-08-27",
+      "next_review": "2026-10-19",
       "use_for": ["telecom subscriptions", "connectivity", "device and service context"],
-      "verification_note": "Use the newest quarter available and cite the report period, table and denominator."
+      "verification_note": "Verified against UCC's official market-performance index and dedicated Q2 2026 report page on 2026-09-04. The newest listed report is Q2 2026 (Jun 2026), displayed as published 12 August 2026. Use the report period, exact table, definition, and denominator for any statistic; do not infer a statistic from the index page.",
+      "source_scope": "UCC official market-performance report index and the latest listed quarterly report for Uganda ICT market context.",
+      "report_period": "Q2 2026 (Jun 2026)",
+      "publication_date": "2026-08-12",
+      "accessed_on": "2026-09-04",
+      "freshness_class": "time-sensitive",
+      "support_status": "verified_for_report_availability",
+      "uncertainty": "The official UCC index and dedicated report page confirm the latest listed report, reporting period, and page publication date. Individual statistics still require report-level table, denominator, and definition checks before use.",
+      "owner": "social-media-engine maintainer"
     },
     {
       "id": "ITU-INTERNET-USAGE",

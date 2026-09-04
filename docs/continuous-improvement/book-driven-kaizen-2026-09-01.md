@@ -27,6 +27,8 @@ correction time, privacy, and model/data drift rather than engagement alone.
 ## Validation note
 
 The book-driven changes pass the skill, routing, source-ingestion, regression,
-and link gates. The separate source-freshness check still reports the inherited
-`UCC-MARKET-REPORTS` record as overdue since 2026-08-27; this wave does not
-refresh that external source, so current claims depending on it remain not assessed.
+and link gates. The source-freshness check was refreshed on 2026-09-04:
+`UCC-MARKET-REPORTS` is current for report availability through the official UCC
+pages, with Q2 2026 (Jun 2026) displayed as published on 12 August 2026 and the
+next review due on 2026-10-19. Statistic-level claims remain subject to
+report-level verification of the exact table, definition, and denominator.
