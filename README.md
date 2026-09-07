@@ -253,6 +253,10 @@ The expected release state is zero contract debt, a passing routing suite, curre
 - `docs/evidence-packs/measurement-proof-pack.md` — metric definitions, reconciliation and proof standards.
 - `docs/quality-gates/` — creative and legal/market release gates.
 
+## Current first-wave implementation (7 September 2026)
+
+The bounded first wave adds [`docs/kaizen/first-wave-campaign-unit.md`](./docs/kaizen/first-wave-campaign-unit.md) and [`docs/kaizen/first-wave-claim-rights-contract.md`](./docs/kaizen/first-wave-claim-rights-contract.md). They define a labelled brief, one audience and channel job, evidence and rights states, human review, normal/failure cases and measurement boundaries. The native test suite passed 20 tests, the engine validator reported 177 compliant skills, routing smoke passed 26/26, and source freshness passed for 17 records while claim support remained NOT ASSESSED. These are fixture specifications and contracts, not a published campaign or performance result. Account access, platform currentness, rendered assets, publication, attribution, audience response and conversion remain unassessed until a completed packet is attached. Next action: attach one authorised campaign unit and run the claim/rights and human-review packet.
+
 ## Out of scope
 
 - finished graphic design, illustration, animation or video editing;
