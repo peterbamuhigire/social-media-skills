@@ -35,12 +35,14 @@ class EngineQualityTests(unittest.TestCase):
         active = list((ROOT / "skills").rglob("SKILL.md"))
         self.assertEqual(len(active), len(routing.catalogue()))
 
-    def test_source_register_is_current_at_release_date(self):
+    def test_source_register_window_at_observed_audit_date(self):
         freshness = load_script("check_source_freshness.py")
         from datetime import date
         errors = freshness.validate(
             ROOT / "docs" / "source-registers" / "source-register.json",
-            date(2026, 7, 13),
+            # The mutable register now includes verifications after July.
+            # Separate synthetic tests reject future-dated verification.
+            date(2026, 9, 6),
         )
         self.assertEqual([], errors)
 

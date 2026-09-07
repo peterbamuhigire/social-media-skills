@@ -27,7 +27,12 @@ def parse_args() -> argparse.Namespace:
 
 
 def validate(register: Path, as_of: date) -> list[str]:
-    payload = json.loads(register.read_text(encoding="utf-8"))
+    try:
+        payload = json.loads(register.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        return [f'register: cannot read JSON: {exc}']
+    if not isinstance(payload, dict):
+        return ['register: root must be an object']
     records = payload.get("records")
     if not isinstance(records, list) or not records:
         return ["register: records must be a non-empty list"]
@@ -43,28 +48,47 @@ def validate(register: Path, as_of: date) -> list[str]:
         if missing:
             errors.append(f"{label}: missing {', '.join(missing)}")
             continue
+        text_fields = ('id', 'domain', 'jurisdiction', 'title', 'publisher', 'url',
+                       'verified_on', 'next_review', 'verification_note')
+        invalid = [key for key in text_fields
+                   if not isinstance(record[key], str) or not record[key].strip()]
+        if invalid:
+            errors.append(f'record-{index}: non-empty strings required: {", ".join(invalid)}')
+            continue
         if label in seen:
             errors.append(f"{label}: duplicate id")
         seen.add(label)
         present_domains.add(record["domain"])
         if record["domain"] not in DOMAINS:
             errors.append(f"{label}: unsupported domain {record['domain']!r}")
-        if record["tier"] not in (1, 2, 3):
+        if type(record["tier"]) is not int or record["tier"] not in (1, 2, 3):
             errors.append(f"{label}: tier must be 1, 2 or 3")
-        if not isinstance(record["use_for"], list) or not record["use_for"]:
+        if (not isinstance(record["use_for"], list) or not record["use_for"]
+                or any(not isinstance(v, str) or not v.strip() for v in record['use_for'])):
             errors.append(f"{label}: use_for must be a non-empty list")
-        parsed = urlparse(record["url"])
-        if parsed.scheme != "https" or not parsed.netloc:
-            errors.append(f"{label}: url must be an absolute HTTPS URL")
+        try:
+            parsed = urlparse(record["url"])
+            # Port syntax and range are checked when this property is read.
+            _ = parsed.port
+            if (parsed.scheme != "https" or not parsed.hostname
+                    or parsed.username is not None or parsed.password is not None):
+                raise ValueError('invalid source URL')
+        except ValueError:
+            errors.append(f"{label}: url must be an absolute HTTPS URL without credentials")
         try:
             verified = date.fromisoformat(record["verified_on"])
             review = date.fromisoformat(record["next_review"])
-            interval = int(record["review_every_days"])
-        except (TypeError, ValueError):
+            interval = record["review_every_days"]
+            if type(interval) is not int or interval < 1:
+                raise ValueError('interval must be a positive integer')
+            expected_review = verified + timedelta(days=interval)
+        except (TypeError, ValueError, OverflowError):
             errors.append(f"{label}: invalid date or review interval")
             continue
-        if interval < 1 or review != verified + timedelta(days=interval):
+        if review != expected_review:
             errors.append(f"{label}: next_review must equal verified_on plus review_every_days")
+        if verified > as_of:
+            errors.append(f'{label}: verified_on is in the future relative to as-of date')
         if review < as_of:
             errors.append(f"{label}: overdue since {review.isoformat()}")
     missing_domains = sorted(DOMAINS - present_domains)
@@ -81,7 +105,7 @@ def main() -> int:
         print("\n".join(f"- {error}" for error in errors))
         return 1
     count = len(json.loads(options.register.read_text(encoding="utf-8"))["records"])
-    print(f"source freshness: PASS ({count} current records; as of {options.as_of.isoformat()})")
+    print(f"source freshness: PASS ({count} records within review windows; as of {options.as_of.isoformat()}; claim support NOT ASSESSED)")
     return 0
 
 
