@@ -93,6 +93,9 @@ Apply these alongside the main deliverable skill when relevant:
 - `meta-utility/skill-safety-audit`: safety review for imported or substantially changed skills
 - `ai-marketing/anti-ai-slop`: MANDATORY pre-ship gate — run its ship-gate checklist on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) before delivery or publishing
 - `ai-marketing/ai-slop-audit`: auto-run whenever the user asks to analyse, review, evaluate, audit, critique, score, or de-slop any content/campaign/image/video, or asks "does this look AI-generated?"
+- `book-extractions/carter-new-rules-ai-search-synthesis-2026.md`: qualified
+  concept input for response-mode planning, entity clarity, outcome separation,
+  and reversible experiments; it never supplies current platform facts.
 
 ## Routing Rules
 

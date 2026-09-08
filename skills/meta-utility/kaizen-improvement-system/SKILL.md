@@ -104,16 +104,18 @@ If a short-form video gets reach but no qualified action and triggers cultural c
 
 ## Mandatory Digital Research currentness gate
 
-Every Kaizen cycle must begin with `digital-research-skills` source evaluation
+Every Kaizen cycle must begin with the Digital Research Engine at
+`C:\\wamp64\\www\\digital-research-engine`, using its source evaluation
 and source verification. Record scope, dates, freshness class, support status,
 uncertainty, and review date for current platform, market, legal, policy,
 technology, and lifecycle claims; quarantine unsupported claims as
-`NOT_ASSESSED`. Apply the [portfolio Kaizen currentness gate](../../../../digital-research-skills/docs/continuous-improvement/kaizen-currentness-gate.md).
+`NOT_ASSESSED`. Apply the portfolio Kaizen currentness gate at
+`C:\\wamp64\\www\\digital-research-engine\\docs\\continuous-improvement\\kaizen-currentness-gate.md`.
 
 ## References
 
 - [Local adoption plan](../../../docs/continuous-improvement/kaizen-adoption-2026-08.md)
-- Portfolio standard: resolve `digital-research-skills` through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
+- Portfolio standard: resolve the Digital Research Engine through the global engine-routing table, then read `docs/continuous-improvement/portfolio-kaizen-standard-2026-08.md`.
 - `skills/meta-analytics-ops/meta-testing-framework/`
 - `skills/ai-marketing/anti-ai-slop/`
 - [Book-driven campaign learning and retention](../references/book-driven-campaign-learning-and-retention.md) - audience, story-to-action, ethical experimentation, retention, and currentness.

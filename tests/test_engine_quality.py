@@ -42,7 +42,7 @@ class EngineQualityTests(unittest.TestCase):
             ROOT / "docs" / "source-registers" / "source-register.json",
             # The mutable register now includes verifications after July.
             # Separate synthetic tests reject future-dated verification.
-            date(2026, 9, 6),
+            date(2026, 9, 8),
         )
         self.assertEqual([], errors)
 

@@ -8,6 +8,7 @@ metadata:
   - codex
 ---
 # The Question Engine Playbook
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
 **Sources:** Westergaard (2016) *Get Scrappy*; Marcus Sheridan's River Pools case study
 
@@ -76,6 +77,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [Carter independent AI-search synthesis](../../../book-extractions/carter-new-rules-ai-search-synthesis-2026.md)
+- [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
@@ -250,7 +253,22 @@ Once the content library is built, deploy it proactively in the sales process. T
 3. Before any sales meeting, email or WhatsApp the prospect: "Before we speak on [date], I'd like to share [article/video] — it will make our conversation much more productive."
 4. Begin every sales conversation by confirming: "Did you get a chance to review the content I sent?" If yes, the conversation can skip the basics. If no, revisit the assignment.
 
-**The 30-page principle:** Sheridan (2019) found that prospects who read 30 or more pages of a company's content before a sales conversation closed at an 80% rate. Those who had read fewer than 10 pages closed at a significantly lower rate. Content is not only a marketing tool — it is a pre-sale qualification and conversion instrument. Track which content pieces the prospect has viewed before each sales appointment.
+**Consumption is a useful signal, not a universal benchmark:** track which content
+pieces a prospect has viewed before each sales appointment, but do not carry a
+fixed “30 pages” or “80% close rate” rule into a client report without the
+original study, population, period, definitions, and local evidence. Treat
+content consumption as one explanatory signal alongside qualification, source
+self-report, sales stage, and qualified outcome.
+
+### AI-search bridge
+
+Use the Carter synthesis when question research also informs AI-search
+discoverability. Preserve the customer's language, then classify the resulting
+content unit by job: evergreen brand/offer fact, current sourced update, or deep
+decision support. Track the observation separately as representation, retrieval
+or citation, referral, qualified action, or sale; never collapse these into “AI
+rank”. A prompt or question is a seed for research, not evidence that the market
+uses that wording.
 
 **Pre-qualification questions to include in every lead form:**
 - "Which article or video brought you to us today?" (tracks source)
@@ -271,5 +289,7 @@ Output meets the standard for this skill if:
 - Content format is matched to question type — not assigned generically
 - The "answer what competitors avoid" principle is applied explicitly: price, comparison, and problem questions are prioritised, not avoided
 - WhatsApp saved replies are addressed as both a question source and a distribution channel
+- When AI-search visibility is in scope, the question-to-content handoff records
+  response mode, source status, destination, and separate outcome measures
 - The six-step process is included in full — collect, cluster, prioritise, assign, publish, review
 - Language is British English throughout; imperative in all instructional sections
