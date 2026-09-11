@@ -71,6 +71,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Buyer psychology and social selling](references/buyer-psychology-and-social-selling.md) for ethical choice architecture, proof, memory cues, channel adaptation, and conversion guardrails.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

@@ -83,6 +83,8 @@ Collect the Required Input below. Generate 3 caption variations per request — 
 
 When the post supports a premium offer, executive audience, high-ticket service, or trust-sensitive category, apply `premium-commercial-writing` before finalising. The caption should create value, show proof or judgement, and ask for a next step without sounding desperate or discount-led.
 
+For persuasion-led posts, also load `../premium-commercial-writing/references/buyer-psychology-and-social-selling.md`. Use its belief sequence, proof rules, readiness-matched CTA, and downstream-quality guardrails; never use fake scarcity, fabricated consensus, or unsupported “brain” claims.
+
 ## Required Input
 Ask for the following before writing:
 
