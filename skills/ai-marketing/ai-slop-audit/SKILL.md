@@ -69,6 +69,16 @@ Fallback: if files, network access, platform data, language review or production
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
+## Responsibility audit
+
+Do not call a post AI-written because it has emojis, repeated openers, three-part phrasing, or a
+familiar cadence. Cite the exact unit and audience-value loss for style findings. Verify claims,
+dates, links, testimonials, platform limits, and performance numbers; distinguish internal links
+from evidence citations. Separate stylistic concerns from deception, cultural harm, provenance,
+and garbled visual text. Unavailable review evidence is `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.

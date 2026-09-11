@@ -69,7 +69,18 @@ Fallback: if files, network access, platform data, language review or production
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
 
+## Responsibility overlay
+
+Treat the 25 signs as channel-aware editing prompts, not AI-authorship evidence. Every post,
+carousel, ad, and CTA must have a named audience, channel job, supported promise, source/date when
+needed, and an honest next action. Label hypothetical customers and generated scenarios; never
+invent testimonials, urgency, platform rules, engagement results, or cultural insight. Apply ME1-ME7
+across the sequence, audit visual choices separately, and mark missing evidence `NOT_ASSESSED`.
+
+- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+
 ## References
+
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
