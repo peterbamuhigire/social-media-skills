@@ -9,7 +9,7 @@ metadata:
 ---
 # Client Intake — Two-Phase Kickstart
 
-This skill runs in two phases. Phase 1 takes the client's answers to 10 standard questions and produces a draft client brief. Phase 2 analyses those answers, identifies gaps, and generates 5–7 targeted follow-up questions. After the follow-up answers are received, the brief is finalised and the engagement is ready to proceed.
+This skill runs in two phases. Phase 1 uses ten coverage questions and existing evidence to produce a draft client brief. Phase 2 maps unresolved decisions and asks only the ready frontier. After blocking answers are confirmed, the brief is finalised and the engagement can proceed.
 
 Apply the `east-african-english` skill for tone throughout all outputs.
 
@@ -98,6 +98,7 @@ Given verified client contact, the skill produces a completed intake record and 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- Use the SRS engine's `decision-frontier-elicitation` reference as the canonical dependency and shared-understanding method; this skill supplies social strategy decision fields only.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -205,7 +206,8 @@ Frequency, format, recipients, and priority metrics as stated. Note anything vag
 
 ## Phase 2 — Follow-Up Questions
 
-Immediately after the draft brief, generate 5–7 targeted follow-up questions. These are not standard questions — they are generated fresh based on this specific client's answers.
+Immediately after the draft brief, map unresolved decisions, their owners, prerequisites, and
+downstream effects. Generate only the ready frontier questions, written for this client's evidence.
 
 **How to generate them:**
 
@@ -217,13 +219,15 @@ Review the draft brief against the 12 sections. For each **[TO CONFIRM]** marker
 4. Vague goals that need a specific, measurable target
 5. Unclear approval or reporting expectations that will cause friction in the retainer
 
-Cap at 7 questions. If fewer than 5 gaps exist, generate only as many as needed — do not pad.
+Do not apply a fixed minimum or maximum. Batch independent questions when useful, delay dependent
+questions, and stop the affected strategy branch when no decision owner exists.
 
 **Format each follow-up question as:**
 
-> **[Domain] — [Question number of 5–7]**
+> **[Decision ID] — [Domain]**
 > [The question, written directly to the client in plain language.]
 > *Why we are asking: [One sentence explaining what this unlocks for the strategy or workflow.]*
+> *Depends on / affects: [Prerequisite and downstream strategy decision.]*
 
 ---
 
