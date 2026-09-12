@@ -68,6 +68,14 @@ performance improvement.
 
 ## Workflow
 
+For any article, run and retain the mandatory three-wave SERP study before
+drafting: map 3–7 query clusters; read the accessible top five results for each;
+record the content, evidence and AI-answer gaps; and mark blocked pages
+`UNASSESSED`. Record provider, query date, exact queries and result URLs. Use an
+approved search/API tool rather than direct Google SERP scraping. Search
+visibility is competitive evidence, not proof; do not claim rankings, citations
+or search volumes. For bilingual work, map intent separately in each language.
+
 1. Frame the page job, audience, query or decision, market/language, proof burden,
    CTA, owner, and consequence of error.
 2. Audit the opening answer, heading structure, definitions, facts, sources,

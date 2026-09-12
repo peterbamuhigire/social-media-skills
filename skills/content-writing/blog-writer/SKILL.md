@@ -40,10 +40,11 @@ Fallback: if files, network access, platform data, language review or production
 ## Workflow
 1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
 2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+3. For every article, run and retain the digital-research-engine's three-wave SEO/SERP study: map 3–7 intent clusters, read the accessible top five results per cluster, and record content, evidence and AI-answer gaps; mark inaccessible results `UNASSESSED`.
+4. Select the domain method and record the material decision behind it before drafting. Treat search results and competitor copy as competitive evidence, not proof.
+5. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
+6. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
+7. Deliver the artefact with the dated research record, evidence, assumptions, unassessed checks and the next approval or verification step.
 
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |
@@ -68,6 +69,7 @@ Fallback: if files, network access, platform data, language review or production
 - Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
 - Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+- Drafting from a keyword list or a single search result. **Fix:** complete the three-wave article study and write to the verified reader gap.
 
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
