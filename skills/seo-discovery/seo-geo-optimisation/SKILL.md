@@ -96,11 +96,15 @@ or search volumes. For bilingual work, map intent separately in each language.
    crawlability, useful people-first content, and Search Console measurement are
    the foundation. `llms.txt`, artificial chunking, special AI markup, and
    inauthentic mentions are not default requirements.
-7. Define one reversible improvement and one measurement slice. Separate page
+7. Apply the evidence-checked SEO/AEO/GEO/AIO/SXO disposition in
+   `../../ai-marketing/ai-generative-search-optimisation/SKILL.md`: no fixed
+   40–60-word answer rule, no universal FAQ/HowTo requirement, no training-data
+   or citation promise, and no quarterly refresh without a substantive trigger.
+8. Define one reversible improvement and one measurement slice. Separate page
    visibility/citation observation, referral, qualified action, and revenue.
-8. Review content, source, rights, legal/market, language, accessibility,
+9. Review content, source, rights, legal/market, language, accessibility,
    anti-slop, and visual/render checks. Correct or quarantine failed evidence.
-9. Hand off the page, source map, assumptions, test results, owner, rollback,
+10. Hand off the page, source map, assumptions, test results, owner, rollback,
    unresolved gaps, and re-audit date.
 
 Apply the [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)

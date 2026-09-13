@@ -62,6 +62,26 @@ each affected item `not assessed`. Never convert a missing check into a pass.
 | A destination is useful to people and agents | Improve clear facts, accessible text, consent-safe CTA, and failure path | Optimising a surface that cannot complete the job |
 | Evidence is partial or contradictory | Narrow, quarantine, or mark `NOT_ASSESSED`; preserve the contradiction | Confident synthesis from a weak source |
 
+## Evidence-checked optimisation model — 2026-09-13
+
+Apply the following disposition when a client uses the labels SEO, AEO, GEO,
+AIO, or SXO. The labels are planning shorthand, not interchangeable platform
+ranking systems.
+
+| Layer | What is supportable | What to reject or qualify |
+|---|---|---|
+| **SEO** | Intent-led search language, useful page content, crawlable links, indexability, technical health, page experience, and legitimate references remain the foundation. | No universal quarterly refresh cadence; no promise based on “domain authority” or a fixed keyword formula. Refresh after a substantive evidence, offer, intent, or performance change. |
+| **AEO** | Clear answers, definitions, steps, comparisons, and natural question coverage can make content easier for people and systems to use. | Never require 40–60 words. Google publishes no exact featured-snippet length and does not allow owners to mark pages for inclusion. FAQ/HowTo markup is conditional and never a guaranteed rich result. |
+| **GEO** | Observe retrieval, citation, claim fidelity, referral, and qualified action separately. Use original, factual, entity-clear content and authentic community distribution. | “Cited in ChatGPT, Perplexity, or Gemini” is an observation, not a deliverable guarantee. Do not treat tables, headings, FAQs, E-E-A-T language, forums, or datasets as a universal recipe. |
+| **AIO** | Use “entity and knowledge presence” for consistent, verifiable identity and offer facts across owned and legitimate third-party sources. | Define AIO before using it. Do not promise inclusion in training data, Wikipedia/Wikidata/GitHub placement, model recall, or future factual accuracy. Separate retrieval, user-triggered fetching, and potential training controls. |
+| **SXO** | Join the social click to a fast, accessible, intent-matched destination with a clear CTA, consent-safe handoff, and failure path; test conversion and quality. | CTA/CRO improvements are not automatically SEO ranking factors. Do not report speed scores, citations, or engagement as sales without an attribution definition. |
+
+For Google, map the work back to foundational SEO and people-first content. For
+ChatGPT and Perplexity, verify the current search crawler and referral guidance
+before changing robots or WAF rules. Keep provider scope, access date, review
+date, and uncertainty in the source register; unavailable cross-platform claims
+remain `NOT_ASSESSED`.
+
 ## Workflow
 
 1. Frame one audience, channel, customer job, business outcome, market, and
