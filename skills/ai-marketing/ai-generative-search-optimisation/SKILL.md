@@ -14,6 +14,10 @@ Use this skill to plan evidence-bounded discoverability across AI answers,
 search, social profiles, communities, and the destination a customer uses next.
 It is a planning and audit route, not a promise of inclusion, ranking, or sales.
 
+Load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md)
+when the brief includes the report's LinkedIn or citation findings. Preserve
+the study scope and use the findings as test hypotheses, never as platform laws.
+
 <!-- dual-compat-start -->
 ## Use When
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-13",
+  "as_of": "2026-09-14",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -427,6 +427,69 @@
       "next_review": "2027-01-09",
       "use_for": ["official indicator definitions", "population and access context"],
       "verification_note": "Use the named source year and definition; framework targets are not observed campaign results."
+    },
+    {
+      "id": "MELTWATER-LINKEDIN-REPORT-2026",
+      "domain": "platform",
+      "jurisdiction": "International; B2B sample",
+      "title": "How LinkedIn Content Wins in AI Search",
+      "publisher": "Meltwater and LinkedIn",
+      "tier": 2,
+      "url": "https://learn.meltwater.com/rs/814-WJU-189/images/2026%20Meltwater%20report%20-%20How%20LinkedIn%20Content%20Wins%20AI%20Search.pdf?version=0",
+      "verified_on": "2026-09-14",
+      "review_every_days": 90,
+      "next_review": "2026-12-13",
+      "use_for": ["AI-search content hypotheses", "LinkedIn content and author experiments"],
+      "verification_note": "Vendor-produced observational analysis of 9.5 million citations from B2B prompts across 16 categories and six named AI products. Preserve the sample, denominator, date, and source; do not present findings as causal or universal ranking rules.",
+      "source_scope": "Meltwater's named B2B prompt and citation sample; not a universal measure of LinkedIn, search, or LLM behaviour.",
+      "publication_date": "2026",
+      "accessed_on": "2026-09-14",
+      "freshness_class": "time-sensitive",
+      "support_status": "context-bound",
+      "uncertainty": "The report supports directional observations about cited content and source mix, but does not establish causation, traffic, lead quality, sales impact, or applicability to every market, language, product, or model.",
+      "owner": "social-media-engine maintainer"
+    },
+    {
+      "id": "LINKEDIN-MELTWATER-TAKEAWAYS-2026",
+      "domain": "platform",
+      "jurisdiction": "International; B2B sample",
+      "title": "AI Search and LinkedIn: 5 Takeaways from 9.5 Million Citations",
+      "publisher": "LinkedIn Marketing Blog",
+      "tier": 2,
+      "url": "https://www.linkedin.com/business/marketing/blog/ai-search/new-meltwater-research-shares-5-insights-from-9-million-citations/",
+      "verified_on": "2026-09-14",
+      "review_every_days": 90,
+      "next_review": "2026-12-13",
+      "use_for": ["qualified LinkedIn AI-search observations", "content experiment hypotheses"],
+      "verification_note": "Supporting summary of the Meltwater study. Retain its sample and non-causal limits; it is not independent evidence of universal platform behaviour.",
+      "source_scope": "LinkedIn's summary of the named Meltwater B2B citation analysis.",
+      "publication_date": "2026-05-21",
+      "accessed_on": "2026-09-14",
+      "freshness_class": "time-sensitive",
+      "support_status": "context-bound",
+      "uncertainty": "The summary corroborates the study's reported observations but does not expand the study population or prove that format, cadence, reach, or freshness causes citation growth.",
+      "owner": "social-media-engine maintainer"
+    },
+    {
+      "id": "MELTWATER-AI-VISIBILITY-BLOG-2026",
+      "domain": "platform",
+      "jurisdiction": "International; B2B sample",
+      "title": "9.5M AI citations analyzed: How LinkedIn content wins AI search",
+      "publisher": "Meltwater",
+      "tier": 2,
+      "url": "https://www.meltwater.com/en/blog/linkedin-ai-visibility-study",
+      "verified_on": "2026-09-14",
+      "review_every_days": 90,
+      "next_review": "2026-12-13",
+      "use_for": ["context for social AI-search experiments"],
+      "verification_note": "Use as a supporting vendor explanation only. Match every statistic to the report scope and separate observed citation from engagement, referral, and conversion.",
+      "source_scope": "Meltwater's public explanation of its 2026 B2B citation analysis.",
+      "publication_date": "2026-05-12",
+      "accessed_on": "2026-09-14",
+      "freshness_class": "time-sensitive",
+      "support_status": "context-bound",
+      "uncertainty": "Vendor interpretation may emphasise favourable findings; use the report and LinkedIn summary together and keep conclusions bounded.",
+      "owner": "social-media-engine maintainer"
     }
   ]
 }

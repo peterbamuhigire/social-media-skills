@@ -9,6 +9,10 @@ metadata:
 ---
 # Social Media Strategy Generator
 
+For AI-search-aware strategy, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md)
+and preserve its sample, denominator, date, and attribution limits in the
+strategy's evidence register.
+
 Produce the master social media strategy document. This is the primary deliverable for a strategy engagement. Every section must be populated with client-specific content — no generic filler. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
 
 Apply the POEM model (Paid/Owned/Earned) to classify channels. Apply the RACE framework (Reach/Act/Convert/Engage) to structure the KPI section. Reference Bodnar and Cohen (2012), Chaffey (2024), and Kotler et al. (2023) where indicated.

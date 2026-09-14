@@ -9,6 +9,21 @@ metadata:
 ---
 # LinkedIn Company Page Strategy
 
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+For AI-search visibility work, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md).
+Use Company Pages as one institutional surface alongside credible individual
+voices; treat the report's profile/page split as an observation from its named
+sample, not a guaranteed platform rule.
+
+## Evidence boundary
+
+Any completion, reach, cadence, or algorithm claim in this legacy guidance must
+be verified against current official LinkedIn evidence or removed before being
+presented as a fact. The Meltwater findings are sample-bound observations, not
+platform laws; record the study scope and test outcomes separately from
+engagement, referral, and conversion.
+
 Produce a complete Company Page strategy for the client. Every section must be populated with client-specific content — no generic filler. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
 
 This skill covers the organisational LinkedIn asset. For the founder or consultant's personal profile strategy — headline formula, AIDA post structure, connection tactics, thought leadership approach, and individual brand strategy for artists, politicians, and creatives — apply the `platform-linkedin` skill.

@@ -9,6 +9,14 @@ metadata:
 ---
 # LinkedIn Presence Plan
 
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
+
+For AI-search visibility work, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md). Treat its LinkedIn findings as sample-bound hypotheses; route current platform limits to official LinkedIn evidence.
+
+## Evidence boundary
+
+The operational profile and content tactics below include legacy guidance. Treat profile-completion multipliers, engagement weights, distribution windows, external-link effects, image dimensions, and similar platform-behaviour claims as volatile hypotheses: verify them against current official LinkedIn evidence before client use. Preserve the study scope and caveats, and measure observed citation separately from engagement, referral, and conversion.
+
 <!-- dual-compat-start -->
 ## Use When
 - Create or revise a Linkedin-specific presence, growth or publishing plan.
