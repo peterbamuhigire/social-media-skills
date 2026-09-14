@@ -65,6 +65,14 @@ This repository is referenced through the canonical engine-routing table. Do not
 
 The current source register is authoritative for platform, legal, policy and market claims. A source that is stale, unavailable or not attributable makes the affected check `not assessed`; it never becomes a pass by assumption.
 
+For hotels, resorts, lodges, inns, guest houses, restaurants, bars, venues,
+catering and food-service brands, load
+`skills/sectors/hospitality-hotel-restaurant/SKILL.md` alongside the campaign,
+content, platform, website, review, analytics and anti-slop routes. Treat the
+website or approved booking/reservation destination as the canonical source for
+volatile prices, availability and policies; do not promise reach, AI citation,
+training-data inclusion or attributed revenue without evidence.
+
 ## Kaizen operating principle
 
 For a ready-to-run product or project operation, use [`prompts/full-kaizen-operation.md`](prompts/full-kaizen-operation.md).
