@@ -130,6 +130,10 @@ Generate the following four modules in full. Use the client's name, industry, pr
 
 Load [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md) for this part of the training curriculum.
 
+## Evidence-first prompt practice
+
+Teach frameworks as optional memory aids, not laws. Every exercise should identify the outcome, audience, trusted context/source boundary, required content, hard constraints, output shape, and acceptance or fallback rule. Test a baseline and one changed prompt on a small representative set, inspect failure slices, and keep a change only when the improvement survives factuality, safety, accessibility, cost, latency, and approval checks. Current platform, model, policy, pricing, and performance claims require a current verified source; otherwise mark them `NOT_ASSESSED`.
+
 ## Copy frameworks and practice curriculum
 
 Load [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md) for this part of the training curriculum.

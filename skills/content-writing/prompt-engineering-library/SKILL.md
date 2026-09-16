@@ -74,6 +74,10 @@ Fallback: if files, network access, platform data, language review or production
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
+## Evidence-first prompt standard
+
+The frameworks and formulas below are optional drafting aids, not universal quality guarantees. Every reusable prompt must make the outcome, audience, trusted context/source boundary, required content, hard constraints and non-goals, output shape, and acceptance or fallback rule visible. Use a framework only when it clarifies a material requirement. Test a baseline and one changed version on representative fixtures, inspect factuality, safety, accessibility and failure slices, and record the version, adapter/model, evaluator, result, cost/latency effect and rollback path. Current platform, model, pricing, policy and performance claims require a current verified source; otherwise remove or label them `NOT_ASSESSED`.
+
 ## Required Input
 Before generating the library, ask for:
 
@@ -322,7 +326,7 @@ Source: Wright (2025). Every prompt template must use `{{double-brace}}` placeho
 Source: Evelyn (2025, p.51); Mizrahi (2024). For any output making factual or statistical claims, include this instruction in the prompt:
 
 ```
-Use web search to find the latest news and resources, and cite your sources.
+Use an authorised current source or the Digital Research Engine's verified evidence record for claims that depend on current news, rules, platform behaviour, prices, products, or named entities; cite the source and preserve the verification date.
 ```
 
 Every factual claim, statistic, named entity, date, or product claim in AI output must be flagged for human verification before client delivery. Do not assume AI-generated facts are correct. The hallucination gate is not optional — it is a production standard for any content that makes claims of fact.
@@ -343,6 +347,10 @@ Apply whenever a prompt includes: pasted client briefs, existing copy for rewrit
 
 ## Prompting Techniques
 Source: Upadhyay (2024). Apply these methods when a single prompt does not produce sufficient output quality.
+
+### Evidence-first qualification
+
+Use these techniques only when a baseline comparison on representative fixtures shows a material benefit. For reasoning-heavy work, request concise assumptions, criteria, trade-offs, checks, and unresolved gaps rather than requiring private chain-of-thought disclosure. Record prompt version, source boundary, adapter/model, evaluator, result, cost/latency effect, and rollback path when the prompt is reused in production. Frameworks, example counts, separators, and provider parameters remain optional and adapter-scoped.
 
 **Prompt trail** — break a complex deliverable into logical steps. Validate the AI's thinking at each step before proceeding to the next. Example: generate the strategy outline first, confirm it, then ask for the full narrative.
 
