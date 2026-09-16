@@ -211,6 +211,10 @@ Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions
 
 Social writing must be channel-native without becoming careless: one real idea, one audience, one honest action, concrete detail, correct grammar, natural rhythm, and local texture only when true. Do not use forced slang, hashtag piles, fake intimacy, invented lived experience, or typos to imitate people. Record audience, channel, purpose, source/rights status, claim checks, language review, proof status, gaps, reviewer, and date.
 
+## DOMAIN PROMPT GENERATION CONTRACT
+
+For a prompt handoff, read the local [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md). Generate a ready-to-paste prompt with channel, audience, one communication job, hook, proof, CTA, format, language, rights/moderation constraints, visual/audio direction, and measurement checks. **Ready-to-paste prompt:** include assumptions, rights/safety flags, and next action. **Failure action:** repair the single failed content unit or regenerate when the concept is wrong.
+
 ## PORTFOLIO CRAFT CONTRACT
 
 Load `C:\wamp64\www\chwezi-engine-agents\docs\operations\portfolio-craft-standard-2026-09-04.md` when available. Build a campaign in deliberate content units: frame the audience and channel job, select one post or asset, inspect brand and evidence context, draft with a distinct point of view, check platform fit and moderation risk, review the visual/audio treatment, refine, and record the approval and measurement plan. Real examples, source status, correction handling, and a meaningful next action matter more than volume. Do not generate a calendar full of interchangeable posts. Apply `Observe -> Baseline -> Select -> Experiment -> Check -> Standardise -> Teach -> Re-measure` to kaizen itself. Missing source, rights, platform, render, approval, or performance evidence is `NOT ASSESSED`, never a pass.

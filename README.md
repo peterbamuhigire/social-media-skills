@@ -24,6 +24,13 @@ The engine does not produce finished graphic design, video edits, websites, soft
 
 ## Current capability surface
 
+## Prompt-generation capability — September 2026
+
+The engine generates channel-aware prompts with audience, objective, evidence
+and rights boundaries, tone, platform constraints, approval gates, claims
+verification, variants, and measurement acceptance checks through the local
+[domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
+
 The repository currently contains 177 active `SKILL.md` files across 15 active capability groups:
 
 | Group | Coverage |
