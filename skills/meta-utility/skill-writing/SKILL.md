@@ -107,7 +107,7 @@ Use this skill to design or update repository skills as compact, execution-focus
 ## Core Rules
 
 - Keep `SKILL.md` under 500 lines.
-- Keep YAML frontmatter to `name` and `description` only.
+- Keep YAML frontmatter to `name`, `description`, and the optional `metadata` block (e.g. `metadata.compatible_with`) only.
 - Put trigger language in the `description`, not the body.
 - Use imperative language throughout.
 - Include these body sections in every skill: `Use when`, `Do not use when`, `Required inputs`, `Workflow`, `Quality standards`, `Anti-Patterns`, `Outputs`, `References`.

@@ -66,7 +66,7 @@ skills/
       assets/       # optional
 ```
 
-Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, and `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category.
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, and `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (One documented exception: `skills/content-writing/SKILL.md` is a category-level standards file, not a skill.)
 
 ## Default Context
 

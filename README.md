@@ -33,7 +33,7 @@ and rights boundaries, tone, platform constraints, approval gates, claims
 verification, variants, and measurement acceptance checks through the local
 [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
 
-The repository currently contains 177 active `SKILL.md` files across 15 active capability groups:
+The repository currently contains 178 active `SKILL.md` files across 15 active capability groups (177 skill-level files plus the category-level standards file `skills/content-writing/SKILL.md`):
 
 | Group | Coverage |
 |---|---|
