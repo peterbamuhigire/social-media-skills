@@ -100,6 +100,7 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
 5. Produce the board-ready social-media strategy and implementation priorities, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
 6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+7. For each proposed content unit, hand the audience job and strategic outcome to [`13-campaign-brief`](../13-campaign-brief/SKILL.md), which owns the reader-first production, evidence, rights and destination record.
 
 ## Quality Standards
 
@@ -132,6 +133,7 @@ Given verified approved brief, the skill produces a board-ready social-media str
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Reader-first content brief](../13-campaign-brief/references/reader-first-content-brief.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

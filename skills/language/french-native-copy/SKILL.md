@@ -77,6 +77,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
+- [Identity and register review](references/identity-and-register-review.md) minimises French identity fields and records the native-review state.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

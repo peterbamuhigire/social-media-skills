@@ -1,0 +1,65 @@
+{
+  "fixture_label": "FICTIONAL TEST DATA - not client evidence or a benchmark",
+  "content_units": [
+    {
+      "id": "reader-first-pass",
+      "expected_verdict": "PASS",
+      "brief_id": "UNIT-001",
+      "reader": {"audience": "Fictional Kampala SME owner", "reader_job": "Choose one next step", "utility": "A short checklist", "inspiration": "Confidence to start", "empathy": "Limited time and data"},
+      "objective": "Help the reader request a fictional checklist",
+      "channel": "Instagram feed",
+      "destination": {"kind": "form", "url": "https://example.test/checklist", "promise": "Get the checklist", "status": "verified"},
+      "cta": {"action": "Request the checklist", "destination_kind": "form", "destination_url": "https://example.test/checklist"},
+      "claims": [{"claim_id": "CLAIM-001", "text": "The checklist has five steps", "source_scope": "Synthetic fixture", "source_ids": ["SYN-001"], "publication_date": "2026-09-19", "accessed_on": "2026-09-19", "support_review": {"state": "supported", "reviewer": "Fixture reviewer", "basis": "Synthetic source row", "reviewed_on": "2026-09-19"}}],
+      "rights": [{"asset_id": "ASSET-001", "asset_type": "owned", "rights_status": "owned", "rights_owner": "Fictional owner", "reviewed_on": "2026-09-19"}],
+      "review": {"owner": "Fictional content lead", "reviewer": "Fictional reviewer", "reviewed_on": "2026-09-19", "language_review": "completed"}
+    },
+    {
+      "id": "unsupported-claim",
+      "expected_verdict": "BLOCKED",
+      "brief_id": "UNIT-002",
+      "reader": {"audience": "Fictional reader", "reader_job": "Understand the offer", "utility": "A clear answer", "inspiration": "A reason to act", "empathy": "Uncertainty"},
+      "objective": "Explain a fictional result",
+      "channel": "Facebook post",
+      "destination": {"kind": "none", "url": null, "promise": "Read the explanation", "status": "verified"},
+      "cta": {"action": "Read and reply", "destination_kind": "none", "destination_url": null},
+      "claims": [{"claim_id": "CLAIM-002", "text": "This doubled enquiries", "source_scope": "Missing export", "source_ids": [], "publication_date": "unknown", "accessed_on": "2026-09-19", "support_review": {"state": "unsupported", "reviewer": "Fixture reviewer", "basis": "No result export", "reviewed_on": "2026-09-19"}}],
+      "rights": [{"asset_id": "ASSET-002", "asset_type": "owned", "rights_status": "owned", "rights_owner": "Fictional owner", "reviewed_on": "2026-09-19"}],
+      "review": {"owner": "Fictional lead", "reviewer": "Fictional reviewer", "reviewed_on": "2026-09-19", "language_review": "completed"}
+    },
+    {
+      "id": "missing-rights",
+      "expected_verdict": "BLOCKED",
+      "brief_id": "UNIT-003",
+      "reader": {"audience": "Fictional reader", "reader_job": "Recognise a service", "utility": "A relevant example", "inspiration": "A useful possibility", "empathy": "Need for trust"},
+      "objective": "Describe a fictional service",
+      "channel": "WhatsApp status",
+      "destination": {"kind": "whatsapp", "url": "https://example.test/chat", "promise": "Ask a question", "status": "verified"},
+      "cta": {"action": "Ask a question", "destination_kind": "whatsapp", "destination_url": "https://example.test/chat"},
+      "claims": [{"claim_id": "CLAIM-003", "text": "A fictional service exists", "source_scope": "Synthetic fixture", "source_ids": ["SYN-003"], "publication_date": "2026-09-19", "accessed_on": "2026-09-19", "support_review": {"state": "supported", "reviewer": "Fixture reviewer", "basis": "Synthetic source row", "reviewed_on": "2026-09-19"}}],
+      "rights": [{"asset_id": "ASSET-003", "asset_type": "image", "rights_status": "permission-pending", "rights_owner": "Unknown owner", "reviewed_on": "2026-09-19"}],
+      "review": {"owner": "Fictional lead", "reviewer": "Fictional reviewer", "reviewed_on": "2026-09-19", "language_review": "completed"}
+    },
+    {
+      "id": "destination-mismatch",
+      "expected_verdict": "BLOCKED",
+      "brief_id": "UNIT-004",
+      "reader": {"audience": "Fictional buyer", "reader_job": "Book a fictional consultation", "utility": "A clear booking path", "inspiration": "Confidence in the next step", "empathy": "Low patience for dead ends"},
+      "objective": "Move a qualified reader to booking",
+      "channel": "LinkedIn post",
+      "destination": {"kind": "form", "url": "https://example.test/book", "promise": "Book a consultation", "status": "verified"},
+      "cta": {"action": "Book now", "destination_kind": "website", "destination_url": "https://example.test/home"},
+      "claims": [{"claim_id": "CLAIM-004", "text": "Consultations are available", "source_scope": "Synthetic fixture", "source_ids": ["SYN-004"], "publication_date": "2026-09-19", "accessed_on": "2026-09-19", "support_review": {"state": "supported", "reviewer": "Fixture reviewer", "basis": "Synthetic source row", "reviewed_on": "2026-09-19"}}],
+      "rights": [{"asset_id": "ASSET-004", "asset_type": "owned", "rights_status": "owned", "rights_owner": "Fictional owner", "reviewed_on": "2026-09-19"}],
+      "review": {"owner": "Fictional lead", "reviewer": "Fictional reviewer", "reviewed_on": "2026-09-19", "language_review": "completed"}
+    }
+  ],
+  "identities": [
+    {"id": "display-name-locale-only", "expected_verdict": "PASS", "identity": {"display_name": "Maison Mwezi", "locale": "fr-CD"}, "native_review": {"status": "completed", "reviewer": "Fictional native reviewer", "reviewed_on": "2026-09-19"}},
+    {"id": "identity-missing-native-review", "expected_verdict": "NOT_ASSESSED", "identity": {"display_name": "Maison Mwezi", "locale": "fr-CD"}}
+  ],
+  "experiments": [
+    {"id": "customer-voice-pass", "expected_verdict": "PASS", "experiment_id": "VOICE-001", "source_scope": "Synthetic public comments, Kampala, 2026-09-19", "source_ids": ["LISTEN-001"], "observation": "Several people asked for a checklist", "hypothesis": "If we answer the recurring question with a checklist, qualified requests will increase because the uncertainty is specific", "sample": {"unit": "eligible public comments", "denominator": 120, "inclusion": "English comments naming the question", "exclusion": "Duplicates and automated replies"}, "privacy_boundary": "Public aggregate only; no handles copied", "action": "Publish one checklist explainer", "primary_outcome": "Qualified checklist requests", "counter_metric": "Unresolved complaints", "guardrail": "No unsupported promise or personal-data collection", "test_window": "2026-09-22 to 2026-09-29", "decision_rule": "Support if requests rise while guardrail holds; otherwise mixed or weakens", "owner": "Fictional content lead", "review_date": "2026-10-01", "knowledge_record": {"lesson": "Answer the recurring question with a concrete checklist", "source_ids": ["LISTEN-001"], "standardise": false, "retirement_trigger": "Question no longer recurs"}},
+    {"id": "customer-voice-missing-denominator", "expected_verdict": "NOT_ASSESSED", "experiment_id": "VOICE-002", "source_scope": "Synthetic public comments", "source_ids": ["LISTEN-002"], "observation": "People reacted positively", "hypothesis": "A reply will increase demand", "sample": {"unit": "comments", "denominator": null, "inclusion": "Unknown", "exclusion": "Unknown"}, "privacy_boundary": "Aggregate only", "action": "Draft a reply", "primary_outcome": "Qualified requests", "counter_metric": "Complaints", "guardrail": "No personal data", "test_window": "2026-09-22 to 2026-09-29", "decision_rule": "Need a denominator before interpretation", "owner": "Fictional lead", "review_date": "2026-10-01", "knowledge_record": {"lesson": "Unassessed", "source_ids": ["LISTEN-002"], "standardise": false, "retirement_trigger": "Evidence replaced"}}
+  ]
+}

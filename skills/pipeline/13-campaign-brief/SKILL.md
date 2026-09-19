@@ -70,6 +70,7 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
 5. Produce the operational campaign brief with owners, deliverables and approvals, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
 6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+7. Complete the [reader-first content brief](references/reader-first-content-brief.md) and [content evidence and rights record](references/content-evidence-and-rights-record.md) for each production unit. Quarantine unsupported claims, missing rights, mismatched destinations or unassessed review states.
 
 ## Quality Standards
 
@@ -96,6 +97,8 @@ Given verified approved 09-campaign-strategy, the skill produces a operational c
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Reader-first content brief](references/reader-first-content-brief.md)
+- [Content evidence and rights record](references/content-evidence-and-rights-record.md)
 - [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md)
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.

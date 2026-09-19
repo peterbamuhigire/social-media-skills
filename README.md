@@ -284,6 +284,20 @@ This workflow is adapted from Affaan/ECC’s shorthand, longform and security gu
 
 The bounded first wave adds [`docs/kaizen/first-wave-campaign-unit.md`](./docs/kaizen/first-wave-campaign-unit.md) and [`docs/kaizen/first-wave-claim-rights-contract.md`](./docs/kaizen/first-wave-claim-rights-contract.md). They define a labelled brief, one audience and channel job, evidence and rights states, human review, normal/failure cases and measurement boundaries. The native test suite passed 20 tests, the engine validator reported 177 compliant skills, routing smoke passed 26/26, and source freshness passed for 17 records while claim support remained NOT ASSESSED. These are fixture specifications and contracts, not a published campaign or performance result. Account access, platform currentness, rendered assets, publication, attribution, audience response and conversion remain unassessed until a completed packet is attached. Next action: attach one authorised campaign unit and run the claim/rights and human-review packet.
 
+### Phase 1 content contract slice (19 September 2026)
+
+The bounded Phase 1 extension routes strategic audience jobs from
+[`05-social-media-strategy`](./skills/pipeline/05-social-media-strategy/SKILL.md)
+to the reader-first production contract owned by
+[`13-campaign-brief`](./skills/pipeline/13-campaign-brief/SKILL.md). It adds
+claim/source and rights rows, canonical destination matching, conditional
+French identity/register fields, and a customer-voice experiment card with a
+denominator, privacy boundary, counter-metric, guardrail and knowledge link.
+Unsupported claims, unresolved rights and destination mismatches are blocked;
+missing native review or experiment evidence is `NOT_ASSESSED`. Synthetic QA
+fixtures and commands are recorded in
+[`docs/kaizen/phase1-content-contracts-2026-09-19.md`](./docs/kaizen/phase1-content-contracts-2026-09-19.md).
+
 ## Out of scope
 
 - finished graphic design, illustration, animation or video editing;

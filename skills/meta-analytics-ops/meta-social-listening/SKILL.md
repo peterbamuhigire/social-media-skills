@@ -409,3 +409,9 @@ Output meets the standard if it:
 - EA-specific considerations address multilingual monitoring with concrete examples in Luganda, the WhatsApp limitation with a named practical workaround, and Facebook Groups with a named monitoring method
 - The strategy integration section explicitly connects this skill to at least five other skills in the suite by slug name
 - British English throughout — no American spellings anywhere in the deliverable
+
+For a listening observation that may change content or service, use the
+[customer-voice experiment card](references/customer-voice-experiment-card.md).
+Keep source scope, denominator, privacy boundary, counter-metric, guardrail,
+decision rule, owner and knowledge link explicit; sentiment or activity alone
+does not prove demand or impact.
