@@ -43,7 +43,7 @@ class EngineQualityTests(unittest.TestCase):
             # The mutable register now includes verifications through the
             # current audit date.
             # Separate synthetic tests reject future-dated verification.
-            date(2026, 9, 14),
+            date(2026, 9, 19),
         )
         self.assertEqual([], errors)
 
@@ -52,7 +52,7 @@ class EngineQualityTests(unittest.TestCase):
         from datetime import date
         errors = freshness.validate(
             ROOT / "docs" / "source-registers" / "source-register.json",
-            date(2026, 9, 18),
+            date(2026, 10, 20),
         )
         self.assertTrue(any("overdue" in error for error in errors))
 

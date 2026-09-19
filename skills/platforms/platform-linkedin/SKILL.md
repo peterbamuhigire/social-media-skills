@@ -170,19 +170,13 @@ Use LinkedIn Events for webinars, workshops, panel discussions, and product laun
 
 ## 3. Thought Leadership Content Approach
 
-For founder/consultant personal profiles, apply this content mix to build authority and generate inbound enquiries.
-
-**Five content categories:**
-
-1. **Professional insight posts** — share a lesson learned from client work, a business experience, or an observed pattern in the industry. Be specific: name the situation and the outcome. Generic observations are forgettable.
-
-2. **Industry opinion posts** — take a clear position on a relevant debate or trend. Avoid "it depends" conclusions — these generate no comment or discussion. Example: "Most Ugandan SMEs don't need a social media manager. Here's what they actually need first." A clear stance invites both agreement and respectful disagreement — both drive reach.
-
-3. **Case study posts** — structure: Challenge / Approach / Result. Use the Challenge/Approach/Result format within a single post (no link required). Anonymise the client if needed. Results must be specific: "revenue increased by 40% in 3 months" outperforms "significantly improved their results."
-
-4. **Q&A posts** — pose a question to the audience and invite responses in the comments. Example: "What's the biggest mistake you made in your first year of business? I'll start." High comment volume signals to the algorithm that the post deserves broader distribution. Always return to reply to every comment.
-
-5. **Behind-the-scenes professional life** — show the working reality of the business: team meetings, client sessions (with permission), proposal writing, research, events attended. Not personal life — professional context only. This builds the "know, like, trust" sequence Bodnar and Cohen (2012) identify as the foundation of social selling.
+For a repeatable content mix, load the [seven-role content system](references/seven-role-content-system.md).
+Choose awareness, educational, personal story, proof of work, building in public,
+lead magnet or newsjacking according to the reader's need and available evidence.
+Separate these post roles from topic pillars and media formats. Do not impose a
+universal ratio or promise reach, trust or enquiries from the taxonomy alone.
+Produce the post planning rows, claim/rights decisions, destination handoff and
+small pilot record in that reference. Hold unsupported results and unverified news.
 
 **Post structure — AIDA formula (Pattar, 2022):**
 
@@ -200,10 +194,16 @@ For founder/consultant personal profiles, apply this content mix to build author
 
 Use white space aggressively — blank line between every 1–3 lines. Walls of text are scrolled past without reading.
 
-**The 1.80 Dollar Strategy (GaryVee, adapted):**
-Find 10 relevant hashtags in your niche. Every day, search each hashtag, read the top posts, and leave one meaningful comment — your genuine perspective, not "Great post!" — on each. Ten hashtags × 10 posts × 1 real comment = 100 touchpoints daily, all public and attached to your profile. Do this for 3 months. Your search ranking rises, your profile views compound, and your niche authority builds. Devote at least 80% of LinkedIn content time to engaging with others' posts; only 20% to creating your own content (Long, 2023).
+**Community participation:**
+Select relevant conversations the practitioner can contribute to meaningfully.
+Set an effort budget from capacity and observed value; avoid comment quotas,
+generic replies and assumed ranking gains. Drafting a response does not authorise
+posting it. Record useful conversations separately from content reach.
 
-**What to avoid in posts:** failure stories with no resolution (self-pity, not authority); purely promotional posts more than once per week; "it depends" opinion posts that take no position (these generate no discussion); editing published posts (signals indecision and reduces authenticity perception).
+**What to avoid in posts:** invented lessons, unsupported outcomes, forced controversy,
+confidential details and promotion without reader value. Explain uncertainty where
+it matters; a truthful unresolved lesson can be useful. Correct published errors
+promptly and visibly where the change is material.
 
 ---
 
@@ -219,11 +219,11 @@ Generate qualified B2B leads without paid advertising by applying this systemati
 
 2. **Soft CTA within content** — at the end of value-led posts, offer something more: "Send me a message and I'll share the full framework / checklist / template." This creates a reason to DM without feeling like a sales pitch.
 
-3. **Hard CTA for offer posts** — once per week, a post may explicitly promote a service or product. Be direct. State who it is for, what they get, the outcome, and how to start. Link to a landing page or invite a DM.
+3. **Direct CTA for offer posts** — choose frequency from campaign purpose, audience response and capacity. State who the offer is for, what it includes, its supported benefit and how to start. Link to a relevant landing page or invite a requested conversation; do not promise an unproven outcome.
 
-4. **Warm outreach after engagement** — when a decision-maker likes or comments on a post, send a connection request within 48 hours with a personalised note referencing their engagement. This converts content interaction into a direct relationship.
+4. **Follow-up after engagement** — respond usefully in context. Treat a requested resource as a fulfilment task, not blanket marketing permission. Execute connection requests, messages or automated delivery only within the user's explicit authority and current platform rules; a like alone is not permission for outreach.
 
-5. **LinkedIn Newsletter** — use the native newsletter feature to build a subscriber list of interested prospects. Every new subscriber receives a notification. Publish fortnightly. Topics: industry insights, practical guides, company news. The newsletter builds a permission-based audience that is independent of the algorithm.
+5. **LinkedIn Newsletter** — consider a native newsletter when capacity and audience need justify it; verify current availability and notification behaviour. Keep LinkedIn subscribers distinct from an independently permissioned email list. Choose cadence from reader value and production capacity.
 
 **Content ACT Framework (Dodaro, 2019)**
 Organise all thought leadership content around three functions:

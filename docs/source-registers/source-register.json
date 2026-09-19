@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-14",
+  "as_of": "2026-09-19",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -316,11 +316,11 @@
       "publisher": "Meta",
       "tier": 1,
       "url": "https://www.facebook.com/policies/ads/",
-      "verified_on": "2026-08-18",
+      "verified_on": "2026-09-19",
       "review_every_days": 30,
-      "next_review": "2026-09-17",
+      "next_review": "2026-10-19",
       "use_for": ["Facebook ads", "Instagram ads", "lead forms", "targeting", "landing pages"],
-      "verification_note": "Frequently changing policy: check the relevant category and destination at each paid-media release."
+      "verification_note": "Direct HTTPS retrieval returned 200 on 2026-09-19. Treat the policy categories and destination requirements as volatile; check the relevant category and destination at each paid-media release. Browser access may require an authenticated Meta session."
     },
     {
       "id": "WHATSAPP-BUSINESS-POLICY",
@@ -330,11 +330,11 @@
       "publisher": "WhatsApp",
       "tier": 1,
       "url": "https://whatsappbusiness.com/policy/",
-      "verified_on": "2026-08-18",
+      "verified_on": "2026-09-19",
       "review_every_days": 30,
-      "next_review": "2026-09-17",
+      "next_review": "2026-10-19",
       "use_for": ["opt-in", "opt-out", "message templates", "regulated verticals", "government use"],
-      "verification_note": "Retain opt-in provenance and honour off-platform and on-platform opt-outs."
+      "verification_note": "Official policy page retrieved on 2026-09-19. Retain opt-in provenance, honour on- and off-platform opt-outs, use approved templates outside the 24-hour customer-service window, and provide escalation paths for automation."
     },
     {
       "id": "TIKTOK-BRANDED-CONTENT",
@@ -344,11 +344,11 @@
       "publisher": "TikTok",
       "tier": 1,
       "url": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/branded-content-policy",
-      "verified_on": "2026-08-18",
+      "verified_on": "2026-09-19",
       "review_every_days": 30,
-      "next_review": "2026-09-17",
+      "next_review": "2026-10-19",
       "use_for": ["creator campaigns", "commercial disclosure", "prohibited industries", "minors"],
-      "verification_note": "Check market-specific requirements and the in-product disclosure setting before posting."
+      "verification_note": "Official TikTok Help Center URL retrieved on 2026-09-19; the page routes branded-content guidance through the creator/business help centre. Check market-specific requirements, disclosure settings and commercial-music rules before posting."
     },
     {
       "id": "GOOGLE-ADS-POLICY",
@@ -358,11 +358,11 @@
       "publisher": "Google",
       "tier": 1,
       "url": "https://support.google.com/adspolicy/answer/6008942?hl=en",
-      "verified_on": "2026-08-18",
+      "verified_on": "2026-09-19",
       "review_every_days": 30,
-      "next_review": "2026-09-17",
+      "next_review": "2026-10-19",
       "use_for": ["YouTube ads", "Google ads", "destinations", "restricted content"],
-      "verification_note": "Open the specific content, targeting and data-collection policy that applies to the campaign."
+      "verification_note": "Official Google Ads policy centre retrieved on 2026-09-19. Open the specific content, targeting, destination, editorial and data-collection policy that applies to the campaign; Google may restrict, block or suspend non-compliant advertising."
     },
     {
       "id": "GOOGLE-PERSONALISED-ADS",
@@ -372,11 +372,11 @@
       "publisher": "Google",
       "tier": 1,
       "url": "https://support.google.com/adspolicy/answer/143465?hl=en",
-      "verified_on": "2026-08-18",
+      "verified_on": "2026-09-19",
       "review_every_days": 30,
-      "next_review": "2026-09-17",
+      "next_review": "2026-10-19",
       "use_for": ["remarketing", "customer lists", "sensitive interests", "audience targeting"],
-      "verification_note": "Treat sensitive-interest targeting as a stop-and-review decision."
+      "verification_note": "Official Google Restricted targeting in personalised advertising page retrieved on 2026-09-19. Do not pass PII through ad data segments, send precise location without consent, or target overly narrow audiences; review sensitive-interest and access-to-opportunities restrictions before launch."
     },
     {
       "id": "UCC-MARKET-REPORTS",

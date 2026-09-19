@@ -68,6 +68,10 @@ performance improvement.
 
 ## Workflow
 
+For SaaS content webs, comparison pages or LinkedIn-linked destinations, read
+[the social-to-website handoff](references/saas-content-web-handoff.md) before
+reviewing the page. Return its intent, proof, destination and measurement record.
+
 For any article, run and retain the mandatory three-wave SERP study before
 drafting: map 3–7 query clusters; read the accessible top five results for each;
 record the content, evidence and AI-answer gaps; and mark blocked pages
