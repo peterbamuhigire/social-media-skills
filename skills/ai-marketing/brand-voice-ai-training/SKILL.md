@@ -93,7 +93,7 @@ Before beginning, collect or confirm the following. If `04-brand-voice-intake` h
 | Industry | Sector and sub-sector |
 | Country / city | Defaults to Uganda/East Africa if not specified |
 | Primary goal | What this client most needs consistent AI content for |
-| Sample content | 3–5 pieces of existing content that feel most "them" — posts, emails, web copy, WhatsApp messages |
+| Sample content | 3–5 pieces of existing content that feel most "them" — posts, emails, web copy, WhatsApp messages. Collect in ranked priority order (see Step 1) and never substitute a generic platform exemplar for a missing tier. |
 | Voice adjectives | Exactly 3 adjectives describing the brand voice |
 | We are / not pairs | 3 pairs: "We are [X], not [Y]" |
 | Always-use vocabulary | 5–10 words or phrases the brand always uses |
@@ -107,6 +107,15 @@ Before beginning, collect or confirm the following. If `04-brand-voice-intake` h
 Ask the client for each item in the Required Inputs table above, or pull from `04-brand-voice-intake`.
 
 **On sample content:** the 3–5 pieces must be content the client themselves considers most representative — not the highest-performing post, but the one that sounds most like them. Performance and authenticity do not always overlap.
+
+**Ranked source priority.** Collect samples in this order and stop once 3–5 strong pieces are in hand; only drop to the next tier when the current one is genuinely exhausted (Source: adapted from ECC `brand-voice` skill's source-priority contract):
+
+1. Recent original social posts and threads in the client's own voice (Facebook, Instagram, LinkedIn, X, WhatsApp Status) — the closest thing to unscripted, current voice.
+2. Longer-form pieces the client wrote or approved: essays, newsletters, blog posts, launch notes.
+3. Outbound messages that worked — emails, DMs, or WhatsApp replies the client points to as effective, not just sent.
+4. Product/service docs and site copy — the most polished and least representative tier; use only to fill a genuine gap in the first three.
+
+**Never use a generic platform exemplar as source material.** A stock "high-performing Instagram caption" example, a competitor's post, or an AI-generated placeholder is not a substitute for real client content, however thin the client's own archive is. If fewer than three genuine samples exist, say so explicitly, proceed with the reduced set, and flag in the analysis note (Step 2) that the block is built on a thin corpus and should be revisited once more real content exists. Do not pad the gap with invented or borrowed-voice examples — a thin, honest corpus outperforms a padded, contaminated one.
 
 **On cultural references (EA-specific):** ask whether the brand uses local language phrases (Luganda, Swahili, Runyankole, or others depending on region), local slang, references to local events, seasons, or community structures. These are often the most distinctive elements of an East African brand voice and the first things a generic AI strips out. Preserve them explicitly.
 
@@ -134,6 +143,7 @@ Analyse the samples for:
 - **CTA style** — how do posts close? Soft invitation, direct instruction, question, emotional close?
 - **Humour or wit** — present or absent? If present, what type — self-deprecating, dry, warm, playful?
 - **Local language use** — if present, in which positions (opening hook, emphasis, sign-off) and how frequently?
+- **What the author never does** — scan the samples for structural habits that are conspicuously absent, not just words that are absent (Source: adapted from ECC `brand-voice` skill's extraction list, "what the author never does"). Examples of the kind of habit to look for: never opens with a statistic, never uses a list of three, never starts with a question, never closes with a stock sign-off phrase, never uses a particular punctuation mark for emphasis. This is a required field for every profile, standard or distinctive — for most SME clients it will be short (1–3 items); reserve the fuller `STYLISTIC BANS` treatment below for highly distinctive voices.
 
 Record findings in a short analysis note before building the block. This is internal reference — not delivered to the client.
 
@@ -220,7 +230,7 @@ STYLISTIC BANS:
 
 The principle: specify what the voice does NOT do as precisely as what it does. The most distinctive voices are as defined by what they refuse as by what they embrace. Vocabulary bans catch words; stylistic bans catch habits of structure and rhythm that are invisible to the vocabulary scanner but obvious to a careful reader.
 
-Add this field only for clients where voice distinctiveness is material to brand value. For standard SME clients, vocabulary and example-based training is sufficient.
+Add this field to the Brand Context Block only for clients where voice distinctiveness is material to brand value; for standard SME clients, vocabulary and example-based training is sufficient in the delivered block. Regardless of client type, the "what the author never does" observation from Step 2 is always recorded in the internal analysis note — it is the raw material this field draws on when a client does warrant it, and it doubles as a cheap sense-check even when it stays internal.
 
 ## Step 4 — Few-Shot Examples by Content Type
 For each content type the client regularly produces, source 1–2 approved examples in their voice. These are stored alongside the Brand Context Block and pasted into the prompt when working on that content type.
@@ -305,3 +315,6 @@ Output from this skill meets the standard when:
 - Local language, cultural references, and EA-specific identity markers are preserved explicitly in the block, not left to the AI to infer.
 - The block is versioned, stored in the client's project folder, and a review schedule is agreed (quarterly minimum).
 - The block is platform-agnostic in its fixed fields, with only the PLATFORM field updated per session.
+- Samples were collected in ranked source-priority order (posts/threads → essays/longer-form → outbound messages that worked → docs/site copy); any drop to a lower tier, or a thin corpus of fewer than three samples, is stated explicitly rather than padded with generic exemplars.
+- No generic platform exemplar, competitor post, or invented example appears anywhere in EXAMPLES OF OUR VOICE.
+- The analysis note records what the author never does, not only what they do; for distinctive-voice clients this feeds a STYLISTIC BANS field in the delivered block.

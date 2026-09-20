@@ -67,7 +67,8 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
 5. Produce the 90-day content calendar with owners and production cues, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+6. Run the Section 7 stratified-sampling QC pass on the completed calendar before hand-off; batch-fix any systematic failure type and re-sample until a clean sample is achieved.
+7. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
 
 ## Quality Standards
 
@@ -228,6 +229,24 @@ Adjust the template based on the client's platforms and posting frequency.
 
 ---
 
+## Section 7: Pre-Publish QC — Stratified Sampling
+
+A completed 90-day calendar typically contains 60+ scheduled rows across three months and multiple platforms. Reviewing every row in full before hand-off to the client is cost-prohibitive at that volume, and it is also the wrong tool: a full review checks each post in isolation, while the failure mode that actually matters in a calendar this size is *systematic* — the same wrong observance date, the same broken 10-4-1 ratio, the same missing cross-platform tie-in, repeated across dozens of rows. Use stratified batch sampling instead of full review (Source: adapted from ECC `santa-method` skill's Pattern C, batch sampling for large batches — cuts verification cost to roughly 15–20% of a full review while catching over 90% of systematic issues):
+
+1. **Sample.** From the completed calendar, draw a random sample of 10–15% of all rows, minimum 5 rows, spread across all three months and all in-scope platforms — do not sample only from Month 1.
+2. **Verify each sampled row** against this rubric:
+   - Topic/Headline is specific, not a placeholder ("TBC", "educational post").
+   - Pillar assignment matches the row's actual content brief.
+   - Observance/awareness-day/campaign/high-season tagging in Notes is correct for that date.
+   - Cross-platform theme for that week is genuinely differentiated per platform, not identical copy pasted across rows.
+   - Date range and day-of-week are internally consistent with the Weekly Rhythm Template.
+3. **Classify any failure by type** (wrong-date tagging, generic topic, broken cross-platform differentiation, pillar mismatch, ratio drift) rather than treating each failure as a one-off.
+4. **If a failure type appears more than once in the sample, treat it as systematic.** Batch-fix every row in the full 90-day calendar that matches that failure type — not just the sampled rows where it was caught.
+5. **Re-sample** a fresh 10–15% (minimum 5) from the corrected calendar and repeat verification. Continue until a clean sample passes with no systematic failure type found.
+6. **Record the QC pass** in the decision/source register: sample size, rows checked, failure types found and batch-fixed, and the round on which a clean sample was achieved. A calendar that reaches Round 3 without converging is escalated to the client lead rather than shipped on a partial pass.
+
+This QC step runs after all three monthly tables are drafted and before the calendar is handed off for client review — it is a release gate, not a drafting aid.
+
 ## Three Monthly Tables
 
 Produce Month 1, Month 2, and Month 3 tables in sequence. Each table covers approximately 4–5 weeks. Before each table, write a one-paragraph overview of the month's strategic focus: what the main themes are, which observances or campaigns fall in this month, and what the tone should be.
@@ -251,4 +270,5 @@ Apply the 10-4-1 rule (Bodnar and Cohen, 2012) across each month: check that app
 - Campaign windows from `09-campaign-strategy` are marked and content in those weeks defers to the campaign
 - Cross-platform content for each week shows a clear thematic connection across platforms without being identical copy
 - The 10-4-1 ratio is checked per month and the result is noted — the calendar must not be predominantly promotional
+- The Section 7 stratified-sampling QC pass has been run and recorded before hand-off — sample size, failure types found, batch-fixes applied and the round of convergence are all stated, not just a final "reviewed" claim
 - British English spelling is used throughout; dates in day-month-year format (e.g., 7 April 2026)

@@ -96,6 +96,10 @@ Given verified approved client brief, the skill produces a brand voice guide and
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
+## Corpus Cross-Reference
+
+If `brand-voice-ai-training` has already been run for this client, pull its analysis note directly rather than re-deriving tone from adjectives alone: the ranked-source corpus it collected (posts/threads → essays → outbound messages that worked → docs/site copy) and, in particular, its "what the author never does" finding feed the Right/Wrong examples in Section 1 and the avoid-list in Section 3 below with real, source-derived material instead of inferred opposites.
+
 ## Required Input
 
 Ask for the following before generating anything:

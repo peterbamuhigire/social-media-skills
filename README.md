@@ -1,12 +1,55 @@
 # social-media-skills
 
-`social-media-skills` is a channel-native consultancy engine for turning a defined business or communication objective into deliberate strategy, content, campaigns, community practice, measurement, training, and governed AI-assisted marketing. It develops one audience-and-channel unit at a time, connecting the idea, evidence, creative treatment, approval boundary, action, moderation, and learning signal instead of producing interchangeable volume.
+`social-media-skills` is a 178-skill, content-only consultancy engine for running a professional social media and digital-marketing practice: it turns a defined business or communication objective into deliberate strategy, content, campaigns, community practice, measurement, training, and governed AI-assisted marketing, one audience-and-channel unit at a time, connecting idea, evidence, creative treatment, approval boundary, action, moderation, and learning signal instead of producing interchangeable volume. It produces text documents, structured plans, and slide outlines — never finished graphic design, video edits, websites, software, or paid-spend execution. Social strategists, content practitioners, channel owners, consultants, and client teams use it to fix unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims, with Uganda/East Africa as the default market context (replaced when a brief names another). Concrete use cases: drafting a full consultancy proposal and credentials deck (`business-development/`), building a 90-day content calendar with 10-4-1 ratio and stratified pre-publish QC (`pipeline/11-content-calendar`), writing platform-native captions and blog posts with brand-voice extraction (`content-writing/`, `ai-marketing/brand-voice-ai-training`), running a campaign or crisis-communications playbook (`playbooks/`), or producing a measurement/ROI report (`meta-analytics-ops/`). Every generated output passes through the mandatory, always-on `anti-ai-slop` ship gate and the post-iteration `ai-slop-audit` grader before it reaches a client.
 
-Social strategists, content practitioners, channel owners, consultants, and client teams use it to address unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims. Its skills cover platform and audience work, content calendars and copy, campaigns, community, SEO and discovery, analytics, training, governance, and AI-assisted workflows, with Uganda and East Africa as defaults that must be replaced when a project names another market.
+Install it as a native Claude Code plugin, or npm-free from a clone:
 
-The engine helps teams move from brief to strategy, production, review, reporting, and learning with clearer decisions, evidence, approval boundaries, and reusable operating practice. It produces text-first, reviewable artefacts and specifications; finished graphic design, video editing, websites, software, live-account changes, and paid-spend actions belong to the appropriate specialist or authorised owner, including the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a> for visual production.
+```
+# Native Claude Code plugin
+/plugin marketplace add https://github.com/peterbamuhigire/social-media-skills
+/plugin install social@chwezi-social
+
+# npm-free, from a clone
+git clone https://github.com/peterbamuhigire/social-media-skills
+cd social-media-skills
+./install.sh --scope project      # macOS/Linux/Git Bash
+.\install.ps1 -scope project      # Windows PowerShell
+```
+
+(`chwezi-social` is the marketplace name and `social` the plugin name declared in `.claude-plugin/marketplace.json`; both installers delegate to the vendored `scripts/install-engine.js` and accept `--scope user|project`.) This engine's own rules (`rules/common/core.md`, `CLAUDE.md`) name two sister engines it leans on for every piece of work, both independent and optional: the **Digital Research Engine** (`digital-research-engine`) — every article, blog post, or thought-leadership piece must run a live research wave through it before drafting, one research agent per cohort/region, per the mandatory rule in `rules/common/core.md` and `CLAUDE.md`'s "Blog & Article Research" section — and the **Design System Skills Engine** (`design-system-skills`) — all typography, layout, visual identity, UI/UX, and finished visual/deck production route there, since this engine deliberately stops at slide-outline and text-brief level (see the "Deck outline output" row in the Naming Conventions table and the repeated visual-production handoffs throughout this README). A third, occasional sister is **Chwezi Accounting Doctrine** (`chwezi-accounting-doctrine`) for pricing, budgets, ROI, and costing questions inside a proposal or report.
 
 ## Capability map
+
+| Category | SKILL.md files | Coverage |
+|---|---|---|
+| `playbooks/` | 39 | Production, crisis, UGC, viral, community, post-click, chatbot, AI-content and operating SOPs |
+| `meta-analytics-ops/` | 25 | Audits, reporting, testing, ROI, attribution, listening, dashboards, metrics, privacy and measurement |
+| `ai-marketing/` | 22 | AI strategy, brand-voice training, content workflows, vendor/data readiness, disclosure, bias, privacy, and the mandatory anti-slop/slop-audit gates |
+| `strategy/` | 19 | PESO, owned media, social commerce, personal brand, communities, export, customer value, purpose, eWOM and experiential strategy |
+| `content-writing/` | 15 | Captions, blogs, email, direct response, whitepapers, prompts, image/audio/video briefs and human-quality editing |
+| `pipeline/` | 14 | Numbered `00`–`13` brief-to-strategy-to-calendar-to-campaign workflow |
+| `platforms/` | 12 | WhatsApp, Facebook, Instagram, TikTok, LinkedIn, YouTube, X, podcast and other channel plans |
+| `business-development/` | 11 | `biz-dev-*` credentials, proposals, pricing, outreach, practitioner positioning |
+| `training/` | 6 | Client teams, DIY content, social fundamentals, smartphone video, AI foundations and prompt writing |
+| `language/` | 4 | East African English, language standards, French and Kiswahili copy |
+| `meta-utility/` | 3 | Skill authoring, safety auditing, and the Kaizen improvement system |
+| `frameworks/` | 2 | `framework-*` strategic planning and decision models |
+| `policies/` | 2 | AI ethics, copyright, social-media and governance policies |
+| `sectors/` | 2 | Sector-specific marketing guidance (healthcare first; more planned) |
+| `seo-discovery/` | 2 | Search, GEO and discovery optimisation |
+
+178 `SKILL.md` files across 15 category directories under `skills/<category>/<skill-name>/SKILL.md` (verified 2026-09-20 by direct count).
+
+## References
+
+- Mustafa, A. et al. *Everything Claude Code (ECC)*. GitHub: affaan-m/ECC, 2026. — This engine adapts several ECC skills by name, not by blanket mention: `brand-voice`'s source-priority contract and "what the author never does" extraction list (`skills/ai-marketing/brand-voice-ai-training/SKILL.md`); the `crosspost`/`content-engine` no-identical-cross-platform-copy rule (`skills/meta-analytics-ops/meta-content-repurposing/SKILL.md`); and the `santa-method` skill's Pattern C stratified batch-sampling QC, credited to Ronald Skelton (RapportScore.ai) via ECC, applied to 90-day content-calendar pre-publish review (`skills/pipeline/11-content-calendar/SKILL.md`). The `install.sh`/`install.ps1` MSYS2 path-conversion and symlink-resolution logic is also adapted from ECC's own installer.
+- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book* — source of the 10-4-1 rule and the ROI formula (TLV − COCA) ÷ COCA.
+- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice* — source of the RACE framework.
+- Kotler, P. et al. (2023) *Marketing Management*.
+- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*; Kennedy, D. (2004) *No B.S. Sales Success*; Kennedy, D. (2000) *The Ultimate Sales Letter*; Brunson, R. (2013) *DotComSecrets Ignite* — canonical references for the direct-response funnel skills, extracted in full in `book-extractions/`.
+- Handley, A. (2012) — source of the 1-7-30-4-2-1 publishing cadence cited in `skills/meta-analytics-ops/meta-content-repurposing/SKILL.md`.
+- Merriam-Webster (2025 Word of the Year); Kommers et al., *"Why Slop Matters"* (arXiv 2601.06060); Spracklen et al. (USENIX Security 2025, 19.7%); Veracode (45% / XSS 86% / log-injection 88%) — the verified evidence base shared by the `anti-ai-slop` and `ai-slop-audit` skills; see `CLAUDE.md`'s Anti-AI-Slop Quality Gate section.
+- A further sixteen-book intake (Kaizen, Lean, digital storytelling, UX strategy, and others) is recorded in full in `book-extractions/` and `docs/continuous-improvement/kaizen-adoption-2026-08.md`; each is cited by title in this README's existing "Book-informed capability upgrades" table below.
 
 The engine produces text-first, reviewable consultancy artefacts, including:
 
@@ -22,8 +65,6 @@ The engine produces text-first, reviewable consultancy artefacts, including:
 
 The engine does not produce finished graphic design, video edits, websites, software, or live-account changes. It can specify, audit, brief, and govern those outputs, then route implementation to the appropriate specialist engine.
 
-## Current capability surface
-
 ## Prompt-generation capability — 2026-09-17
 
 This release adds evidence-first candidate testing, failure-slice review, and explicit `NOT_ASSESSED` handling for volatile prompt claims.
@@ -32,26 +73,6 @@ The engine generates channel-aware prompts with audience, objective, evidence
 and rights boundaries, tone, platform constraints, approval gates, claims
 verification, variants, and measurement acceptance checks through the local
 [domain prompt contract](docs/ai-prompting/domain-prompt-compilation-contract.md).
-
-The repository currently contains 178 active `SKILL.md` files across 15 active capability groups (177 skill-level files plus the category-level standards file `skills/content-writing/SKILL.md`):
-
-| Group | Coverage |
-|---|---|
-| `business-development` | Credentials, offers, outreach, reactivation, EAC calls and campaign-facing business development |
-| `ai-marketing` | AI strategy, content workflows, vendor/data readiness, agents, personalisation, disclosure, bias, privacy, slop control and evaluation |
-| `content-writing` | Captions, blogs, email, direct response, whitepapers, prompts, image/audio/video briefs and human-quality editing |
-| `frameworks` | Planning and strategic models |
-| `language` | East African English, language standards, French and Kiswahili copy |
-| `meta-analytics-ops` | Audits, reporting, testing, ROI, attribution, listening, dashboards, metrics, privacy and measurement |
-| `meta-utility` | Skill authoring, safety auditing, and the Kaizen improvement system |
-| `pipeline` | Brief-to-strategy-to-calendar-to-campaign workflow |
-| `platforms` | WhatsApp, Facebook, Instagram, TikTok, LinkedIn, YouTube, X, podcast and other channel plans |
-| `playbooks` | Production, crisis, UGC, viral, community, post-click, chatbot, AI-content and operating playbooks |
-| `policies` | AI ethics, copyright, social-media and governance policies |
-| `sectors` | Sector-specific marketing guidance |
-| `seo-discovery` | Search, GEO and discovery optimisation |
-| `strategy` | PESO, owned media, social commerce, personal brand, communities, export, customer value, purpose, eWOM and experiential strategy |
-| `training` | Client teams, DIY content, social fundamentals, smartphone video, AI foundations and prompt writing |
 
 Use the most specific skill available. The pipeline skills provide the usual operating spine:
 

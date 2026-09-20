@@ -1,0 +1,21 @@
+{
+  "name": "chwezi-social",
+  "owner": { "name": "Peter Bamuhigire", "email": "peter.bamuhigire@gmail.com" },
+  "metadata": { "description": "Chwezi social media engine — social strategy, content planning, campaigns, and platform playbooks for a digital-marketing consultancy" },
+  "plugins": [
+    {
+      "name": "social",
+      "source": "./",
+      "description": "164 skills for social media consultancy work: strategy, content planning, campaign execution, and platform-native writing",
+      "version": "1.0.0",
+      "author": { "name": "Peter Bamuhigire" },
+      "homepage": "https://github.com/chwezi/social-media-skills",
+      "repository": "https://github.com/chwezi/social-media-skills",
+      "license": "MIT",
+      "keywords": ["social-media", "content-marketing", "campaigns"],
+      "category": "marketing",
+      "tags": ["social-media", "content", "marketing"],
+      "strict": false
+    }
+  ]
+}
