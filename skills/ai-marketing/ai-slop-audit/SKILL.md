@@ -77,7 +77,7 @@ dates, links, testimonials, platform limits, and performance numbers; distinguis
 from evidence citations. Separate stylistic concerns from deception, cultural harm, provenance,
 and garbled visual text. Unavailable review evidence is `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.

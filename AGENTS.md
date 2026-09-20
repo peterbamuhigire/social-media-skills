@@ -55,7 +55,7 @@ primary sources; quarantine stale/ambiguous/unsupported claims and mark them
 
 Shared agent, command, hook, evidence, and handoff behavior is mapped for
 social-media work in [`docs/control-plane-adoption.md`](docs/control-plane-adoption.md)
-and governed centrally by `C:\wamp64\www\skills-web-dev\docs\engine-control-plane.md`.
+and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-plane.md`.
 
 ## Purpose
 

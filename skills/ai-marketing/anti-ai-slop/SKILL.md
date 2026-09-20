@@ -77,7 +77,7 @@ needed, and an honest next action. Label hypothetical customers and generated sc
 invent testimonials, urgency, platform rules, engagement results, or cultural insight. Apply ME1-ME7
 across the sequence, audit visual choices separately, and mark missing evidence `NOT_ASSESSED`.
 
-- Shared standard: [`AI-slop responsible publishing`](../../../../skills-web-dev/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
+- Shared standard: [`AI-slop responsible publishing`](../../../../chwezi-dev-engine/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
 
 ## References
 

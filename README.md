@@ -18,6 +18,17 @@ cd social-media-skills
 
 (`chwezi-social` is the marketplace name and `social` the plugin name declared in `.claude-plugin/marketplace.json`; both installers delegate to the vendored `scripts/install-engine.js` and accept `--scope user|project`.) This engine's own rules (`rules/common/core.md`, `CLAUDE.md`) name two sister engines it leans on for every piece of work, both independent and optional: the **Digital Research Engine** (`digital-research-engine`) — every article, blog post, or thought-leadership piece must run a live research wave through it before drafting, one research agent per cohort/region, per the mandatory rule in `rules/common/core.md` and `CLAUDE.md`'s "Blog & Article Research" section — and the **Design System Skills Engine** (`design-system-skills`) — all typography, layout, visual identity, UI/UX, and finished visual/deck production route there, since this engine deliberately stops at slide-outline and text-brief level (see the "Deck outline output" row in the Naming Conventions table and the repeated visual-production handoffs throughout this README). A third, occasional sister is **Chwezi Accounting Doctrine** (`chwezi-accounting-doctrine`) for pricing, budgets, ROI, and costing questions inside a proposal or report.
 
+## Content integrity
+
+This repository contains no client names, client data, or project-specific
+work product; client and project directories are excluded from version
+control by design (see `.gitignore`). Users installing this engine should
+still exercise their own due diligence — you can ask Claude Code or Codex to
+run a security scan of this engine, its skills, and its reference files
+before relying on it in a sensitive environment (for example: "scan this
+repository for hardcoded secrets, personal paths, or unexpected network
+calls").
+
 ## Capability map
 
 | Category | SKILL.md files | Coverage |
