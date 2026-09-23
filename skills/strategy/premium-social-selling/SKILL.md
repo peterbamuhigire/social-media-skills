@@ -102,7 +102,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 3. Design lead capture: premium lead magnet, diagnostic, private briefing, consultation, benchmark, audit, calculator, invitation, or executive roundtable.
 4. Design nurture: email/social sequence that educates, proves, handles risk, and invites a concrete next step.
 5. Design outreach: named-account/contact campaign, referral path, executive assistant/gatekeeper handling, personalised reason to meet, and follow-up cadence.
-6. Align sales: qualification, discovery, objection handling, proposal handoff, CRM stages, and response-time SLA.
+6. Align sales: qualification, discovery, objection handling, proposal handoff, CRM stages, and response-time SLA. For consulting/professional services, apply [LinkedIn authority to pipeline](../../platforms/platform-linkedin/references/consulting-authority-to-pipeline.md) and retain the website proof and opportunity handoff.
 7. Apply `premium-commercial-writing` to the authority content, lead magnet promise, outreach language, and offer framing.
 8. Run the premium social selling gate before publishing the strategy.
 
@@ -125,4 +125,4 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - `references/premium-social-selling-gate.md` - detailed quality gate for high-ticket social/digital selling.
-- `../premium-commercial-writing/SKILL.md` - cross-cutting writing layer for premium proof, value framing, price integrity, search authority, and high-trust conversion copy.
+- [Premium commercial writing](../../content-writing/premium-commercial-writing/SKILL.md) - proof, value framing, price integrity, search authority and conversion copy.

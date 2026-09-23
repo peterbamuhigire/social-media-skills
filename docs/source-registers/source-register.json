@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-22",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -13,7 +13,12 @@
       "verified_on": "2026-09-08",
       "review_every_days": 90,
       "next_review": "2026-12-07",
-      "use_for": ["Google Search AI features", "SEO/GEO mythbusting", "crawlability", "Search Console measurement"],
+      "use_for": [
+        "Google Search AI features",
+        "SEO/GEO mythbusting",
+        "crawlability",
+        "Search Console measurement"
+      ],
       "publication_date": "2026-07-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -31,7 +36,12 @@
       "verified_on": "2026-09-08",
       "review_every_days": 90,
       "next_review": "2026-12-07",
-      "use_for": ["people-first content", "natural language", "crawlability", "spam-policy checks"],
+      "use_for": [
+        "people-first content",
+        "natural language",
+        "crawlability",
+        "spam-policy checks"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -49,7 +59,12 @@
       "verified_on": "2026-09-08",
       "review_every_days": 90,
       "next_review": "2026-12-07",
-      "use_for": ["reader language", "content usefulness", "keyword stuffing checks", "search-friendly structure"],
+      "use_for": [
+        "reader language",
+        "content usefulness",
+        "keyword stuffing checks",
+        "search-friendly structure"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -67,7 +82,11 @@
       "verified_on": "2026-09-08",
       "review_every_days": 60,
       "next_review": "2026-11-07",
-      "use_for": ["Bing AI Performance", "citation observations", "grounding-query samples"],
+      "use_for": [
+        "Bing AI Performance",
+        "citation observations",
+        "grounding-query samples"
+      ],
       "publication_date": "2026-02-10",
       "freshness_class": "time-sensitive",
       "support_status": "context-bound",
@@ -85,7 +104,12 @@
       "verified_on": "2026-09-08",
       "review_every_days": 90,
       "next_review": "2026-12-07",
-      "use_for": ["OAI-SearchBot", "GPTBot", "ChatGPT-User", "crawler-governance"],
+      "use_for": [
+        "OAI-SearchBot",
+        "GPTBot",
+        "ChatGPT-User",
+        "crawler-governance"
+      ],
       "publication_date": "2026-09-05",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -103,7 +127,12 @@
       "verified_on": "2026-09-13",
       "review_every_days": 90,
       "next_review": "2026-12-12",
-      "use_for": ["Core Web Vitals", "mobile experience", "page experience", "SEO/SXO boundaries"],
+      "use_for": [
+        "Core Web Vitals",
+        "mobile experience",
+        "page experience",
+        "SEO/SXO boundaries"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -121,7 +150,12 @@
       "verified_on": "2026-09-13",
       "review_every_days": 90,
       "next_review": "2026-12-12",
-      "use_for": ["crawlable links", "internal links", "anchor text", "qualified outbound links"],
+      "use_for": [
+        "crawlable links",
+        "internal links",
+        "anchor text",
+        "qualified outbound links"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -139,7 +173,11 @@
       "verified_on": "2026-09-13",
       "review_every_days": 90,
       "next_review": "2026-12-12",
-      "use_for": ["structured data", "rich-result eligibility", "schema integrity"],
+      "use_for": [
+        "structured data",
+        "rich-result eligibility",
+        "schema integrity"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -157,12 +195,16 @@
       "verified_on": "2026-09-13",
       "review_every_days": 90,
       "next_review": "2026-12-12",
-      "use_for": ["featured snippets", "answer clarity", "snippet controls"],
+      "use_for": [
+        "featured snippets",
+        "answer clarity",
+        "snippet controls"
+      ],
       "publication_date": "2025-12-10",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
       "uncertainty": "Google does not publish an exact minimum snippet length or a page-owner marking mechanism.",
-      "verification_note": "Treat short answer blocks as a reader-focused experiment, not a fixed 40–60-word requirement."
+      "verification_note": "Treat short answer blocks as a reader-focused experiment, not a fixed 40\u201360-word requirement."
     },
     {
       "id": "PERPLEXITY-CRAWLERS-2026",
@@ -175,7 +217,11 @@
       "verified_on": "2026-09-13",
       "review_every_days": 90,
       "next_review": "2026-12-12",
-      "use_for": ["PerplexityBot", "Perplexity-User", "AI search crawler governance"],
+      "use_for": [
+        "PerplexityBot",
+        "Perplexity-User",
+        "AI search crawler governance"
+      ],
       "publication_date": "2026-07-16",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
@@ -193,7 +239,12 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["personal-data collection", "audience lists", "analytics", "direct marketing"],
+      "use_for": [
+        "personal-data collection",
+        "audience lists",
+        "analytics",
+        "direct marketing"
+      ],
       "verification_note": "Official legal database; check the latest-version notice and amendments before release."
     },
     {
@@ -207,7 +258,11 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["consent records", "data-subject requests", "controller and processor duties"],
+      "use_for": [
+        "consent records",
+        "data-subject requests",
+        "controller and processor duties"
+      ],
       "verification_note": "Read with the Act and current PDPO guidance."
     },
     {
@@ -221,7 +276,11 @@
       "verified_on": "2026-09-13",
       "review_every_days": 60,
       "next_review": "2026-11-12",
-      "use_for": ["registration", "annual renewal", "organisational compliance"],
+      "use_for": [
+        "registration",
+        "annual renewal",
+        "organisational compliance"
+      ],
       "verification_note": "Regulator guidance; the organisation guidance page was rechecked for current availability on 2026-09-13. Confirm the organisation's status directly with the accountable owner."
     },
     {
@@ -235,7 +294,12 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["advertising claims", "minors", "regulated categories", "broadcast and digital creative"],
+      "use_for": [
+        "advertising claims",
+        "minors",
+        "regulated categories",
+        "broadcast and digital creative"
+      ],
       "verification_note": "Confirm sector-specific rules and approvals in addition to the general standard."
     },
     {
@@ -249,7 +313,13 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["creator content", "music", "reposts", "UGC", "AI-assisted assets"],
+      "use_for": [
+        "creator content",
+        "music",
+        "reposts",
+        "UGC",
+        "AI-assisted assets"
+      ],
       "verification_note": "Recent amendment: require rights evidence and legal review for contested or material uses."
     },
     {
@@ -263,7 +333,12 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["direct marketing", "profiling", "opt-out", "data-subject notices"],
+      "use_for": [
+        "direct marketing",
+        "profiling",
+        "opt-out",
+        "data-subject notices"
+      ],
       "verification_note": "Use with the Kenya Data Protection Act and current ODPC guidance."
     },
     {
@@ -277,7 +352,11 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["personal-data processing", "cross-border campaigns", "Rwanda audiences"],
+      "use_for": [
+        "personal-data processing",
+        "cross-border campaigns",
+        "Rwanda audiences"
+      ],
       "verification_note": "Confirm current implementing guidance and registration duties before processing."
     },
     {
@@ -291,7 +370,10 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["personal-data processing", "Tanzania campaigns"],
+      "use_for": [
+        "personal-data processing",
+        "Tanzania campaigns"
+      ],
       "verification_note": "Confirm territorial application, current notices and controller/processor registration with Tanzanian counsel or the PDPC."
     },
     {
@@ -305,7 +387,11 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["collection and processing", "complaints", "Tanzania campaigns"],
+      "use_for": [
+        "collection and processing",
+        "complaints",
+        "Tanzania campaigns"
+      ],
       "verification_note": "Read the collection-and-processing regulations, not only the complaints procedure."
     },
     {
@@ -319,7 +405,13 @@
       "verified_on": "2026-09-19",
       "review_every_days": 30,
       "next_review": "2026-10-19",
-      "use_for": ["Facebook ads", "Instagram ads", "lead forms", "targeting", "landing pages"],
+      "use_for": [
+        "Facebook ads",
+        "Instagram ads",
+        "lead forms",
+        "targeting",
+        "landing pages"
+      ],
       "verification_note": "Direct HTTPS retrieval returned 200 on 2026-09-19. Treat the policy categories and destination requirements as volatile; check the relevant category and destination at each paid-media release. Browser access may require an authenticated Meta session."
     },
     {
@@ -333,7 +425,13 @@
       "verified_on": "2026-09-19",
       "review_every_days": 30,
       "next_review": "2026-10-19",
-      "use_for": ["opt-in", "opt-out", "message templates", "regulated verticals", "government use"],
+      "use_for": [
+        "opt-in",
+        "opt-out",
+        "message templates",
+        "regulated verticals",
+        "government use"
+      ],
       "verification_note": "Official policy page retrieved on 2026-09-19. Retain opt-in provenance, honour on- and off-platform opt-outs, use approved templates outside the 24-hour customer-service window, and provide escalation paths for automation."
     },
     {
@@ -347,7 +445,12 @@
       "verified_on": "2026-09-19",
       "review_every_days": 30,
       "next_review": "2026-10-19",
-      "use_for": ["creator campaigns", "commercial disclosure", "prohibited industries", "minors"],
+      "use_for": [
+        "creator campaigns",
+        "commercial disclosure",
+        "prohibited industries",
+        "minors"
+      ],
       "verification_note": "Official TikTok Help Center URL retrieved on 2026-09-19; the page routes branded-content guidance through the creator/business help centre. Check market-specific requirements, disclosure settings and commercial-music rules before posting."
     },
     {
@@ -361,7 +464,12 @@
       "verified_on": "2026-09-19",
       "review_every_days": 30,
       "next_review": "2026-10-19",
-      "use_for": ["YouTube ads", "Google ads", "destinations", "restricted content"],
+      "use_for": [
+        "YouTube ads",
+        "Google ads",
+        "destinations",
+        "restricted content"
+      ],
       "verification_note": "Official Google Ads policy centre retrieved on 2026-09-19. Open the specific content, targeting, destination, editorial and data-collection policy that applies to the campaign; Google may restrict, block or suspend non-compliant advertising."
     },
     {
@@ -375,7 +483,12 @@
       "verified_on": "2026-09-19",
       "review_every_days": 30,
       "next_review": "2026-10-19",
-      "use_for": ["remarketing", "customer lists", "sensitive interests", "audience targeting"],
+      "use_for": [
+        "remarketing",
+        "customer lists",
+        "sensitive interests",
+        "audience targeting"
+      ],
       "verification_note": "Official Google Restricted targeting in personalised advertising page retrieved on 2026-09-19. Do not pass PII through ad data segments, send precise location without consent, or target overly narrow audiences; review sensitive-interest and access-to-opportunities restrictions before launch."
     },
     {
@@ -389,7 +502,11 @@
       "verified_on": "2026-09-04",
       "review_every_days": 45,
       "next_review": "2026-10-19",
-      "use_for": ["telecom subscriptions", "connectivity", "device and service context"],
+      "use_for": [
+        "telecom subscriptions",
+        "connectivity",
+        "device and service context"
+      ],
       "verification_note": "Verified against UCC's official market-performance index and dedicated Q2 2026 report page on 2026-09-04. The newest listed report is Q2 2026 (Jun 2026), displayed as published 12 August 2026. Use the report period, exact table, definition, and denominator for any statistic; do not infer a statistic from the index page.",
       "source_scope": "UCC official market-performance report index and the latest listed quarterly report for Uganda ICT market context.",
       "report_period": "Q2 2026 (Jun 2026)",
@@ -411,7 +528,10 @@
       "verified_on": "2026-07-13",
       "review_every_days": 90,
       "next_review": "2026-10-11",
-      "use_for": ["cross-country internet-use comparisons", "access constraints"],
+      "use_for": [
+        "cross-country internet-use comparisons",
+        "access constraints"
+      ],
       "verification_note": "Record the indicator definition, year and disaggregation; do not compare it directly with subscriptions."
     },
     {
@@ -425,7 +545,10 @@
       "verified_on": "2026-07-13",
       "review_every_days": 180,
       "next_review": "2027-01-09",
-      "use_for": ["official indicator definitions", "population and access context"],
+      "use_for": [
+        "official indicator definitions",
+        "population and access context"
+      ],
       "verification_note": "Use the named source year and definition; framework targets are not observed campaign results."
     },
     {
@@ -439,7 +562,10 @@
       "verified_on": "2026-09-14",
       "review_every_days": 90,
       "next_review": "2026-12-13",
-      "use_for": ["AI-search content hypotheses", "LinkedIn content and author experiments"],
+      "use_for": [
+        "AI-search content hypotheses",
+        "LinkedIn content and author experiments"
+      ],
       "verification_note": "Vendor-produced observational analysis of 9.5 million citations from B2B prompts across 16 categories and six named AI products. Preserve the sample, denominator, date, and source; do not present findings as causal or universal ranking rules.",
       "source_scope": "Meltwater's named B2B prompt and citation sample; not a universal measure of LinkedIn, search, or LLM behaviour.",
       "publication_date": "2026",
@@ -460,7 +586,10 @@
       "verified_on": "2026-09-14",
       "review_every_days": 90,
       "next_review": "2026-12-13",
-      "use_for": ["qualified LinkedIn AI-search observations", "content experiment hypotheses"],
+      "use_for": [
+        "qualified LinkedIn AI-search observations",
+        "content experiment hypotheses"
+      ],
       "verification_note": "Supporting summary of the Meltwater study. Retain its sample and non-causal limits; it is not independent evidence of universal platform behaviour.",
       "source_scope": "LinkedIn's summary of the named Meltwater B2B citation analysis.",
       "publication_date": "2026-05-21",
@@ -481,7 +610,9 @@
       "verified_on": "2026-09-14",
       "review_every_days": 90,
       "next_review": "2026-12-13",
-      "use_for": ["context for social AI-search experiments"],
+      "use_for": [
+        "context for social AI-search experiments"
+      ],
       "verification_note": "Use as a supporting vendor explanation only. Match every statistic to the report scope and separate observed citation from engagement, referral, and conversion.",
       "source_scope": "Meltwater's public explanation of its 2026 B2B citation analysis.",
       "publication_date": "2026-05-12",
@@ -490,6 +621,166 @@
       "support_status": "context-bound",
       "uncertainty": "Vendor interpretation may emphasise favourable findings; use the report and LinkedIn summary together and keep conclusions bounded.",
       "owner": "social-media-engine maintainer"
+    },
+    {
+      "id": "PREMIUM-LI-POLICY-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public page and stated claim only",
+      "title": "Professional Community Policies",
+      "publisher": "www.linkedin.com",
+      "tier": 1,
+      "url": "https://www.linkedin.com/legal/professional-community-policies",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Be trustworthy; Be professional"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Policy text, not an account enforcement prediction.",
+      "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-LI-AGREEMENT-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public page and stated claim only",
+      "title": "User Agreement",
+      "publisher": "www.linkedin.com",
+      "tier": 1,
+      "url": "https://www.linkedin.com/legal/user-agreement",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Section 8 Dos and Donts"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Effective date displayed 2025-11-03; exact action/account interpretation requires review.",
+      "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-GA4-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public page and stated claim only",
+      "title": "Select attribution settings",
+      "publisher": "support.google.com",
+      "tier": 1,
+      "url": "https://support.google.com/analytics/answer/10597962?hl=en",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Reporting attribution model"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Does not describe every Google advertising product or confirm account settings.",
+      "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-ICC-2026",
+      "domain": "legal",
+      "jurisdiction": "International self-regulatory guidance; not legislation",
+      "title": "ICC Advertising and Marketing Communications Code",
+      "publisher": "iccwbo.org",
+      "tier": 1,
+      "url": "https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "2024 update; How does self-regulation work"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Not legislation or universal legal certification.",
+      "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-TT-MUSIC-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public source and stated claim",
+      "title": "How to Use the Commercial Music Library",
+      "publisher": "ads.tiktok.com",
+      "tier": 1,
+      "url": "https://ads.tiktok.com/resources/help/article/how-to-use-the-commercial-music-library?lang=en-GB",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Region selection and usable placements"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Specific sound rights and intended use still require verification.",
+      "verification_note": "root independent reopening after researcher handoff; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-TT-TEST-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public source and stated claim",
+      "title": "Ad testing guide",
+      "publisher": "ads.tiktok.com",
+      "tier": 1,
+      "url": "https://ads.tiktok.com/business/en/guides/ad-testing-guide?redirected=1",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Core strategies for ad testing"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Vendor guidance, not proof of statistical validity or a guaranteed outcome.",
+      "verification_note": "root independent reopening after researcher handoff; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-TT-PIXEL-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public source and stated claim",
+      "title": "Set up and Verify Pixel",
+      "publisher": "ads.tiktok.com",
+      "tier": 1,
+      "url": "https://ads.tiktok.com/resources/help/article/get-started-pixel?lang=en",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Events API; Test Events and Diagnostics"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Actual implementation, data rights, account availability and event accuracy remain unassessed.",
+      "verification_note": "root independent reopening after researcher handoff; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "PREMIUM-META-ORIGINAL-2026",
+      "domain": "platform",
+      "jurisdiction": "Exact public source and stated claim",
+      "title": "Rewarding Original Creators on Facebook",
+      "publisher": "about.fb.com",
+      "tier": 1,
+      "url": "https://about.fb.com/news/2026/03/rewarding-original-creators-on-facebook/amp/",
+      "verified_on": "2026-09-22",
+      "review_every_days": 30,
+      "next_review": "2026-10-22",
+      "use_for": [
+        "Original content and transformed content"
+      ],
+      "as_of": "2026-09-22",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Does not establish copyright clearance or guarantee distribution.",
+      "verification_note": "root independent reopening after researcher handoff; narrow content check, not account or outcome certification."
     }
   ]
 }

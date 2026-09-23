@@ -1,6 +1,6 @@
 ---
 name: platform-linkedin
-description: Use when creating a Linkedin channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: Use when creating a LinkedIn channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
 metadata:
   portable: true
   compatible_with:
@@ -15,11 +15,11 @@ For AI-search visibility work, load [the 2026-09-14 Meltwater AI-search implemen
 
 ## Evidence boundary
 
-The operational profile and content tactics below include legacy guidance. Treat profile-completion multipliers, engagement weights, distribution windows, external-link effects, image dimensions, and similar platform-behaviour claims as volatile hypotheses: verify them against current official LinkedIn evidence before client use. Preserve the study scope and caveats, and measure observed citation separately from engagement, referral, and conversion.
+Do not prescribe ranking formulas, profile-completion multipliers, universal posting times, engagement quotas or conversion benchmarks from books. Verify current specifications against official LinkedIn sources and the intended account. Keep observed reach, website referrals, accepted opportunities and revenue separate.
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Linkedin-specific presence, growth or publishing plan.
+- Create or revise a LinkedIn-specific presence, growth or publishing plan.
 - Translate a confirmed audience, offer and objective into channel decisions.
 
 ## Do Not Use When
@@ -31,13 +31,13 @@ The operational profile and content tactics below include legacy guidance. Treat
 |---|---|---|---|
 | Client objective, audience and offer | Approved brief or client interview | Yes | Stop and request the missing decision; do not invent it |
 | Current account and content evidence | Native account export, screenshots or supplied audit | Conditional | Mark the account baseline unassessed and qualify recommendations |
-| Current platform rules and feature limits | Official Linkedin help or policy source | Conditional | Omit volatile specifications or flag them for live verification |
+| Current platform rules and feature limits | Official LinkedIn help or policy source | Conditional | Omit volatile specifications or flag them for live verification |
 
 ## Capability and Permission Boundaries
 Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
 
 ## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Linkedin channel plan plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified LinkedIn channel plan plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
 
 ## Decision Rules
 | Condition | Action | Failure or risk avoided |
@@ -50,14 +50,14 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
 2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Linkedin channel plan.
+3. Apply [consulting authority to pipeline](references/consulting-authority-to-pipeline.md), preserve useful existing material and draft the LinkedIn channel plan. Connect the profile, evidence-bearing content, website destination and CRM handoff.
 4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
 5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
 ## Outputs
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Linkedin channel plan | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
+| LinkedIn channel plan | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
 | Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
 
 ## Evidence Produced
@@ -83,418 +83,97 @@ Use British English and the specified market context. Recommendations must be ex
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
-## Required Input
-
-Before generating this plan, collect the following from the client:
-
-- **Client name** — business name and founder/consultant name
-- **Industry** — sector and sub-sector (e.g. financial services: SME lending)
-- **Country / city** — default: Uganda / Kampala
-- **Primary goal** — thought leadership / B2B lead generation / talent recruitment / investor relations / brand credibility
-- **B2B, B2C, or both** — determines content tone and CTA approach
-- **Target decision-maker job title** — the specific role the client wants to reach (e.g. Head of Procurement, CEO of an SME, HR Manager)
-- **Products / services** — list top 3–5 offerings with brief descriptions
-- **Current LinkedIn stats** — Company Page follower count, founder/consultant personal connection count, average post impressions if available
-- **Client type** — organisation (company/NGO/agency) or individual (consultant/artist/politician/executive/professional)
-- **Founder willingness to post personally** — yes/no and frequency they can commit to
-- **Brand voice** — reference the 04-brand-voice-intake output; if not yet completed, note the tone preference (formal/professional/conversational)
-
----
-
-## 1. Company Page vs Personal Profile Strategy
-
-Most East African SMEs and consultancies should run both — the personal profile builds trust and drives engagement while the Company Page provides institutional credibility. Apply the guidance below to decide where to focus the majority of effort.
-
-**Prioritise the Company Page when:**
-- Recruiting talent at scale — candidates research the company independently of the founder
-- Managing investor or donor relations — institutional stakeholders expect an organisational presence
-- The business has multiple spokespeople or a communications team producing content
-- The organisation is transitioning from founder-led to a brand-led identity
-
-**Prioritise the personal profile (founder or lead consultant) when:**
-- The business is a consultancy, advisory, or professional services firm where the client buys the individual's expertise
-- Thought leadership is the primary value proposition — clients choose the person before the company
-- The business is in an early growth stage where the founder's network is the primary lead source
-- The service is high-value and trust-dependent (legal, financial, medical, education)
-
-**Recommended approach for most EA SMEs:**
-Run both in parallel. The founder posts 4–5 times per week on their personal profile; the Company Page posts 3 times per week with curated and company-specific content. Cross-reference: personal profile posts can be shared to the Company Page to amplify reach. Company Page posts can be shared by the founder to their network.
-
-**Practical setup checklist — Company Page:**
-- Logo: 300×300px; transparent background preferred
-- Cover image: 1128×191px; include tagline, website, and one CTA
-- Tagline: 120 characters — precise description of what the business does and for whom
-- About section: 2,000 characters maximum — include keywords, services, location, and a clear value proposition
-- Specialities: complete the specialities field (shown in search) — use specific service terms
-
-**Practical setup checklist — personal profile:**
-- Headshot: professional, well-lit, face fills 60–70% of frame, camera at eye level; minimum 400×400px. Profiles with a photo receive 11–21× more views (Serdula, 2023; Long, 2023).
-- Banner image: 1584×396px — use as a brand billboard: name, title, positioning statement, website, contact method. A blank/default banner signals an inactive, unserious profile.
-- Headline: 220 characters — never accept LinkedIn's auto-generated job title. Apply the formula: **"I help [specific audience] achieve [specific outcome] — [keyword] | [keyword]"**. Each keyword in the headline is a high-weight SEO field.
-- About section: first 2–3 lines show before "see more" — lead with the strongest point. Include 40+ words to improve search ranking. Never write in third person. End with contact details in the body (the Contact section is only visible to first-degree connections).
-- Featured section: pin best post, a case study or lead magnet, a booking/contact link. Update every time a new service or strong post goes live.
-- Experience: achievements not duties. Add rich media attachments (case study decks, press coverage, project samples) to each role entry.
-- Custom URL: set to `linkedin.com/in/firstname-lastname`. Never use numbers — they signal the name was taken and the profile is secondary.
-- **Turn off "People Also Viewed"**: Settings & Privacy → Privacy → "Viewers of this profile also viewed" → Off. The default setting advertises competitors to every visitor to your profile.
-- **All-Star completion:** LinkedIn only surfaces profiles widely in search at All-Star level (requires: photo, location, education, 5+ skills, 1+ current position, About section, 50+ connections). All-Star profiles are 27× more likely to be found (Serdula, 2023).
-- Skills: list 5+ relevant skills, pinned in keyword priority order. Members with 5+ skills receive 31× more messages and are viewed 17× more (Long, 2023). The top 3 pinned skills are among the five highest-weight SEO fields on LinkedIn.
-
----
-
-## 2. Content Types and Rationale
-
-Apply the POEM model (Paid/Owned/Earned — Chaffey, 2024) to LinkedIn: these content types are all Owned and Earned media. Each type serves a different function in the RACE framework (Reach/Act/Convert/Engage).
-
-**Algorithm fundamentals**
-LinkedIn shows a new post first to first-degree connections. If the post does not gain engagement within the first 60 minutes, it dies — it will not be pushed to second-degree connections. This makes the first hour critical: alert close contacts to engage immediately after publishing. Comments are worth 2× likes to the algorithm; shares are worth 3× likes (Menke, cited in Ingram, 2020). Posts with external links in the body receive significantly reduced distribution — LinkedIn penalises content that sends users off-platform. Always paste external links in the first comment and note this at the end of the post ("link in the first comment").
-
-**Text posts**
-The most accessible format — no design required. LinkedIn's algorithm currently favours native text posts that generate comments. Maximum impact comes from a strong hook in the first 1–2 lines before the "see more" truncation. Keep to 1,300 characters or fewer for the hook-and-content section. Works best for: opinions, lessons learnt, personal experiences, quick tips. Text-only posts (no links, no images) often outperform rich media posts in raw reach.
-
-**Document / carousel posts (PDF upload)**
-Upload a multi-page PDF as a document post — it displays as a swipeable carousel. Generates the highest dwell time of any LinkedIn format because readers swipe through multiple slides. Works best for: frameworks, step-by-step guides, checklists, data summaries, list-based content. Aim for 8–15 slides; first slide is the cover and must work as a standalone hook image.
-
-**Native video**
-Upload video directly to LinkedIn — do not share YouTube or Vimeo links, which receive lower distribution. Recommended duration: 30–90 seconds for feed posts. Works best for: service demonstrations, office walkthroughs, event recaps, founder commentary on industry news. Always add subtitles — the majority of LinkedIn video is watched without sound.
-
-**Articles (LinkedIn Publishing)**
-Long-form content indexed by LinkedIn and by Google. Use for thought leadership pieces: 800–1,500 words. Always link back to the client's website blog. Works best for: detailed frameworks, opinion pieces, case studies, guides. Note: articles receive lower immediate feed reach than posts — use a separate post to announce the article and drive readers to it.
-
-**Polls**
-High-engagement format — LinkedIn's algorithm boosts polls because they generate click interactions quickly. Use polls for: industry debate questions, product/service research, audience preference questions. Keep the question genuinely interesting to the audience. Follow up the poll with a post sharing the results and the client's interpretation.
-
-**Events**
-Use LinkedIn Events for webinars, workshops, panel discussions, and product launches. Send invitations to connections and followers. Event pages allow direct registration. Post about the event 2 weeks out, 1 week out, and the day before.
-
----
-
-## 3. Thought Leadership Content Approach
-
-For a repeatable content mix, load the [seven-role content system](references/seven-role-content-system.md).
-Choose awareness, educational, personal story, proof of work, building in public,
-lead magnet or newsjacking according to the reader's need and available evidence.
-Separate these post roles from topic pillars and media formats. Do not impose a
-universal ratio or promise reach, trust or enquiries from the taxonomy alone.
-Produce the post planning rows, claim/rights decisions, destination handoff and
-small pilot record in that reference. Hold unsupported results and unverified news.
-
-**Post structure — AIDA formula (Pattar, 2022):**
-
-```
-[ATTENTION — Hook line: curiosity, astonishment, surprise, or announcement. 1 sentence. Makes the reader click "see more".]
-
-[INTEREST — Lines 2–3: add context to the hook; build a "drumroll" feeling without resolving it yet.]
-
-[DESIRE — Body: develop the idea toward a big reveal; one continuous logical flow; no new ideas introduced here.]
-
-[ACTION — Big Bang conclusion + CTA: the payoff, followed by one question to invite comments.]
-
-[Signature hashtag — your personal branded hashtag on every post, e.g. #PeterWrites]
-```
-
-Use white space aggressively — blank line between every 1–3 lines. Walls of text are scrolled past without reading.
-
-**Community participation:**
-Select relevant conversations the practitioner can contribute to meaningfully.
-Set an effort budget from capacity and observed value; avoid comment quotas,
-generic replies and assumed ranking gains. Drafting a response does not authorise
-posting it. Record useful conversations separately from content reach.
-
-**What to avoid in posts:** invented lessons, unsupported outcomes, forced controversy,
-confidential details and promotion without reader value. Explain uncertainty where
-it matters; a truthful unresolved lesson can be useful. Correct published errors
-promptly and visibly where the change is material.
-
----
-
-## 4. B2B Lead Generation Through Content
-
-Generate qualified B2B leads without paid advertising by applying this systematic approach. Reference: Bodnar and Cohen (2012) describe this as the "content-first" outreach method.
-
-**Core principle:** post content that solves a problem your ideal client has. When they find the post useful, they are pre-qualified — they have self-identified as someone with that problem.
-
-**Five-step organic lead generation system:**
-
-1. **Name the problem in the post** — decision-makers recognise their own situation when it is described accurately. Begin posts with the problem before offering the solution. Example: "If you're running a Ugandan SME and still managing your finances in a spreadsheet, this is for you."
-
-2. **Soft CTA within content** — at the end of value-led posts, offer something more: "Send me a message and I'll share the full framework / checklist / template." This creates a reason to DM without feeling like a sales pitch.
-
-3. **Direct CTA for offer posts** — choose frequency from campaign purpose, audience response and capacity. State who the offer is for, what it includes, its supported benefit and how to start. Link to a relevant landing page or invite a requested conversation; do not promise an unproven outcome.
-
-4. **Follow-up after engagement** — respond usefully in context. Treat a requested resource as a fulfilment task, not blanket marketing permission. Execute connection requests, messages or automated delivery only within the user's explicit authority and current platform rules; a like alone is not permission for outreach.
-
-5. **LinkedIn Newsletter** — consider a native newsletter when capacity and audience need justify it; verify current availability and notification behaviour. Keep LinkedIn subscribers distinct from an independently permissioned email list. Choose cadence from reader value and production capacity.
-
-**Content ACT Framework (Dodaro, 2019)**
-Organise all thought leadership content around three functions:
-- **Authority** — positions the professional as the leading expert: opinion posts, industry analysis, prediction pieces, published articles
-- **Credibility** — demonstrates results: case studies, client outcomes, speaking engagements, certifications, measurable before/after results
-- **Trust** — shows the human behind the expertise: behind-the-scenes, team moments, values-based posts, honest reflections on challenges
-
-A content calendar that includes all three builds the conditions for inbound enquiries. Missing any one creates a gap — technically excellent content from someone the audience does not yet trust will not convert.
-
-**Buyer journey content mapping (Dodaro, 2019)**
-Match content type to where the target buyer sits in their decision process:
-
-| Buyer stage | Buyer question | Content type |
-|---|---|---|
-| Awareness | "Is this a real problem?" | Industry statistics, trend posts, problem-naming content |
-| Consideration | "What are my options?" | Framework posts, comparison content, how-to guides |
-| Decision | "Who should I work with?" | Case studies, testimonials, service explainers, credentials |
-| Retention | "Am I getting value?" | Client tips, usage guides, check-in content |
-| Advocacy | "Who can I refer?" | Referral-friendly posts, celebration of client wins, sharing tools |
-
-A monthly content calendar should contain posts at every stage — not only Awareness (the most common mistake) and not only Decision (which reads as a sales pitch to cold audiences).
-
----
-
-## 5. Employee Advocacy Activation
-
-Employee shares extend the Company Page's reach to networks the brand cannot access directly. One employee share can reach 10× more connections than the Page has followers if the employee has an active network.
-
-**How to activate employee advocacy:**
-
-- Provide share-ready post templates — pre-written LinkedIn posts the employee can post with one click and minor personalisation. Templates should feel personal, not like corporate press releases.
-- Publish a one-page internal guide (or Slack/WhatsApp message) outlining: what is encouraged (sharing company news, celebrating wins, sharing their own professional content), what is off-limits (client confidentiality, financial data, personal opinions on behalf of the company). Reference the 04-brand-voice-intake for tone guidance.
-- Recognise employees who share — an internal mention, a "team spotlight" Story on Instagram, or a public thank-you on the Company Page post itself. Recognition drives repeat behaviour.
-- Do not mandate sharing — coerced employee advocacy reads as inauthentic and can backfire publicly. Make it easy and attractive, not compulsory.
-
-**Sample share-ready template:**
-> "Excited to share that [Company Name] just [achievement / publication / event]. This is what we've been working on — really proud of the team. Read more here: [link]."
-> *(Edit to your own voice before posting)*
-
----
-
-## 6. Posting Frequency Guide
-
-**Company Page**
-- Minimum: 3 posts per week (Monday / Wednesday / Friday rhythm)
-- Growth phase: 5 posts per week
-- Avoid posting more than once per day on the Company Page — it suppresses the reach of each individual post
-
-**Personal profile (founder/consultant)**
-- Maintenance: 3 posts per week
-- Growth phase: 4–5 posts per week
-- Posting 5+ times per week is only sustainable with a content planning system — use the 11-content-calendar skill
-
-**Best posting times for Uganda and the EA market (EAT, UTC+3):**
-
-| Time slot | Rationale |
-|---|---|
-| Tuesday–Thursday, 8–10am | Professional audience active before meetings begin |
-| Tuesday–Thursday, 12–1pm | Lunch break scrolling — high engagement window |
-| Wednesday only, 5–6pm | Post-work professional catchup |
-
-Avoid Friday afternoons and weekends — LinkedIn usage drops sharply. Monday morning posts can work if the topic is a week-opener observation or industry news, but engagement is typically lower than midweek.
-
----
-
-## 7. Thirty-Day Content Plan
-
-Deliver 5 posts per week across the personal profile and/or Company Page. Assign each post to the correct account (P = Personal profile, C = Company Page).
-
-### Week 1 — Establish Credibility
-
-| # | Account | Format | Content type | Hook line | Content brief | CTA |
-|---|---|---|---|---|---|---|
-| 1 | C | Text post | Company introduction | "We help [target audience] achieve [outcome]. Here's how." | Introduce the company, what it does, who it serves, and what makes it different. 3 bullet points. | "Follow our page for more." |
-| 2 | P | Text post | Founder's story | "I started [business] because I kept seeing [problem]. Here's what I've learnt." | Personal origin story — the problem observed, the decision to build a solution, the outcome so far. | "Connect with me for more." |
-| 3 | C | Document/carousel | Service overview | "What we do — and why it matters for [industry]" | One slide per service. Each slide: service name / problem it solves / one-line outcome. Final slide: CTA. | "Send us a message to learn more." |
-| 4 | P | Text post | Industry insight | "[Observation about the industry]. Most people don't talk about this." | Specific insight drawn from real client work or market observation. Name the pattern, explain it, give the implication. | "What's your experience? Comment below." |
-| 5 | P | Text post | Practical tip | "Here's the [X]-step process I use for [outcome]." | Step-by-step practical guide. Each step on its own line. Specific and actionable. | "Save this post for later." |
-
-### Week 2 — Demonstrate Expertise
-
-| # | Account | Format | Content type | Hook line | Content brief | CTA |
-|---|---|---|---|---|---|---|
-| 6 | P | Text post | Case study | "A client came to us with [problem]. 3 months later: [result]." | Challenge / Approach / Result structure. Anonymise the client. Specific numbers. | "DM me if you're facing a similar challenge." |
-| 7 | C | Native video | Company culture | "Here's what a day at [Company] looks like." | 60–90 second team or office walkthrough. Include team introductions. | "Follow us to see more." |
-| 8 | P | Document/carousel | Framework or checklist | "The [X]-point checklist every [target audience] needs." | Practical framework relevant to the target audience's biggest pain point. Actionable and downloadable-feeling. | "Repost if you found this useful." |
-| 9 | P | Poll | Industry debate | "[Provocative question relevant to industry]?" | 3–4 answer options covering the range of positions. Follow up post planned for results day. | "Vote and comment your reasoning." |
-| 10 | C | Text post | Testimonial / social proof | "Here's what [client type] said after working with us." | Share a testimonial (attributed or anonymised). Add context: what the challenge was before and after. | "Reach out to discuss your situation." |
-
-### Week 3 — Engage Decision-Makers
-
-| # | Account | Format | Content type | Hook line | Content brief | CTA |
-|---|---|---|---|---|---|---|
-| 11 | P | Text post | Opinion post | "[Industry practice]. I think it's wrong. Here's why." | Take a clear, defended position on a debated practice. 3 supporting arguments. Invite disagreement respectfully. | "Agree or disagree? Tell me why." |
-| 12 | C | Document/carousel | Industry insight report | "[Stat or finding] about [industry] in Uganda. What it means for you." | Summarise a relevant trend or data point. 5–8 slides. Practical implication on the final slide. | "Follow for monthly insights." |
-| 13 | P | Text post | Q&A post | "What's the hardest part of [challenge your clients face]? I'll start." | Pose a genuine question. Share the founder's own answer first to set the tone. Respond to every comment. | "Drop your answer below." |
-| 14 | P | Native video | Founder commentary | "[Industry news item]. Here's what I think it means for [target audience]." | 60–90 seconds on camera. Introduce the news item, give a clear point of view, state the practical implication. | "Follow for more commentary like this." |
-| 15 | C | Text post | Event or webinar announcement | "We're hosting [event name] on [date]. Here's why you should join." | Announce the event with the 3 key things attendees will learn or gain. Registration link or DM CTA. | "Register via the link below." |
-
-### Week 4 — Convert and Grow
-
-| # | Account | Format | Content type | Hook line | Content brief | CTA |
-|---|---|---|---|---|---|---|
-| 16 | P | Text post | Service promotion | "If you're a [target client] dealing with [problem], this is for you." | Direct, clear description of the service: who it is for, what they get, the outcome, the investment or starting point. | "Send me a message to start a conversation." |
-| 17 | C | Document/carousel | Month-in-review | "What we achieved in [month] — and what's coming next." | Highlights from the month: client wins, content milestones, team news. Final slide previews next month. | "Follow to stay updated." |
-| 18 | P | Text post | Lessons learnt | "I made [mistake] in my business. Here's what it taught me." | Honest, specific reflection on a professional mistake or challenge. What happened, what was done, what changed. | "What's a lesson you've learnt the hard way?" |
-| 19 | C | Text post | Hiring or team post | "We're growing. [Role title] needed — here's what we're looking for." | Job description in post format: role, responsibilities, ideal candidate, how to apply. Or team spotlight if not hiring. | "Tag someone or apply via DM." |
-| 20 | P | Text post | Month close and CTA | "That's [month] done. Here's what I focused on — and what's next." | Honest monthly recap. What was learnt, what is planned. Make it personal and forward-looking. | "Follow along — big things coming in [next month]." |
-
----
-
-## 8. Connection Growth and Engagement Tactics
-
-**Who to connect with (Ideal Client Profile)**
-Define the ICP before sending connection requests:
-- Job titles: list 3–5 decision-maker titles (e.g. Chief Executive Officer, Head of Operations, Procurement Manager, Finance Director)
-- Industries: list 2–3 industries where the service adds the most value
-- Company size: define by employee count or annual revenue band
-- Location: Kampala, Uganda; East Africa region; or specific countries if relevant
-
-Search LinkedIn using the People filter with these criteria. Save the search to receive weekly alerts on new matching profiles.
-
-**Warm-up before connecting**
-- Follow the target profile (follow, not connect) and engage with their posts — a meaningful comment, not a generic "Great post!"
-- Do this consistently for 2 weeks before sending a connection request
-- When the target engages back or views the profile, send the connection request — they are now warm
-
-**Connection request message templates:**
-
-Cold outreach:
-> "Hello [Name], I came across your profile while researching [industry topic] in Uganda. I work with [type of business] on [outcome] and thought it would be valuable to connect. Looking forward to following your work."
-
-Warm outreach (post engagement):
-> "Hello [Name], I appreciated your comment on [topic] — it aligned closely with what I'm seeing in the market too. I'd love to connect and continue the conversation."
-
-InMail template (for reaching people outside the network):
-> "Hello [Name], I noticed [specific detail from their profile or recent post]. I help [their job title / company type] with [specific problem] — recently supported a similar business to [result]. Would it be worth a 20-minute conversation to see if there's a fit? Happy to work around your schedule."
-
-**Video and voice note DMs after connecting (Ingram contributors, 2020):**
-After a target connection accepts, immediately send a personalised video (under 90 seconds) or voice note via the LinkedIn app. Introduce yourself, state that your goal is to provide value — not to pitch — and ask one specific question relevant to their work. Follow this immediately with a short text summary plus one free resource (article, checklist, short guide) that solves a problem they face. Video DMs doubled conversion rates vs text-only messages in controlled tests. Do NOT send a pitch in the first message under any circumstances — multiple contributors independently confirm that an immediate pitch after connecting causes instant removal.
-
-**Timing hack — accept connections after publishing:**
-After publishing a post, accept any pending connection requests immediately. New connections see your most recent post on their feed — instant reach extension to fresh eyes who have never seen your content before (Pattar, 2022).
-
-**Rest and Revisit engagement sequence (Johnson, cited in Ingram, 2020):**
-1. When someone comments on your post, comment back immediately — do NOT like their comment yet.
-2. Three days later, go back and like other commenters' comments — this triggers a new round of notifications, resurfacing the post.
-3. One week later, like your own response comments — another notification wave, another feed re-entry. Three rounds of visibility from one post.
-
-**Event prospecting:**
-Before any industry event or conference, search both the event keyword and its hashtag on LinkedIn. Anyone posting about it and confirming attendance is a warm connection request — you share context, which makes the request feel relevant and personal. Set meetings before the event, not at it.
-
-**Boolean search for precision prospecting (Shanks, 2016)**
-LinkedIn's People search supports Boolean operators for targeted ICP identification:
-- `AND` — narrows: `Marketing Director AND Uganda`
-- `OR` — broadens: `CEO OR Founder OR "Managing Director"`
-- `NOT` — excludes: `Manager NOT "Social Media Manager"`
-- Quotation marks — exact phrase: `"Head of Procurement"`
-- Parentheses — combined logic: `(CEO OR Founder) AND (Uganda OR Kenya)`
-
-Save each search. LinkedIn sends weekly alerts when new profiles match — a passive prospecting system that surfaces warm leads automatically without daily manual searching.
-
-**Trigger-based prospecting (Shanks, 2016)**
-Run three automated weekly searches:
-1. **Advocates search** — past clients or champions who have changed companies. They already know and trust the brand; one message to the new role often opens a new account
-2. **New hires/appointed leaders search** — filter by "Changed jobs in past 90 days" at target companies. New leaders make new buying decisions; early contact before they establish existing supplier relationships is the highest-probability outreach window
-3. **New opportunities search** — contacts at companies that have recently announced expansion, funding, or new initiatives. These are trigger moments when procurement windows open
-
-**Grow by 3 daily (Shanks, 2016)**
-Add 3 targeted new ICP-matched connections per day — not random connections. 3 per day × 250 working days = 750 new advocates per year, each compounding through their own networks.
-
-**Growing Company Page followers:**
-- Ask every employee to follow the Company Page (and to encourage their connections to follow)
-- Promote the Company Page from the personal profile: "For company updates, follow [page link]"
-- Cross-promote on other platforms (Instagram bio, Facebook Page About section, email signature)
-- Tag the Company Page in personal posts when relevant — the Page's followers see the mention
-
----
-
-## 9. LinkedIn-Specific KPIs
-
-Track these metrics monthly. Company Page data is available in LinkedIn Analytics. Personal profile post data is visible under each post.
-
-| KPI | Target | Notes |
-|---|---|---|
-| Post impressions | Growing month-on-month | Track per post type — document posts vs text posts vs video |
-| Engagement rate | 2–4% organic | (Reactions + comments + reposts) ÷ impressions × 100 |
-| Company Page follower growth | 5–10% monthly (growth phase) | Track net new followers per month |
-| Personal profile connection growth | 50–100 new connections/month (growth phase) | Quality over quantity — ICP alignment matters |
-| Profile / Page visits | Growing month-on-month | Proxy for interest generated by content |
-| Post clicks | Track volume trend | Includes link clicks, company name clicks, hashtag clicks |
-| InMail / DM response rate | 20–35% for warm outreach | Track responses ÷ messages sent |
-| Newsletter subscribers | Growing month-on-month | Benchmark: 10% of followers over 3 months |
-| LinkedIn SSI Score | 70+ for active social sellers | Available at linkedin.com/sales/ssi — four factors: Personal Brand, Finding Right People, Engaging with Insights, Building Relationships. Scores above 70 correlate with significantly more opportunities created (Shanks, 2016). Review monthly; the score reflects the previous 90 days of activity. |
-
-Review KPIs at the end of each month using the meta-reporting skill. If engagement rate drops below 2% for 4 consecutive weeks, audit the content mix: increase the ratio of opinion posts and case studies, which consistently outperform informational posts on LinkedIn.
-
----
-
-## 10. Individual Brand Strategy — Artists, Politicians, and Creatives
-
-LinkedIn's default framing is corporate. Non-business individuals must actively subvert this to make the platform work for them. The professional audience on LinkedIn (senior decision-makers, commissioners, institutional clients, journalists, event bookers) is exactly the audience that performing artists, politicians, and creatives cannot reach on Instagram or TikTok.
-
-**Performing artists and musicians**
-
-Headline formula: `[Discipline] | [Genre/Style] ◆ [Notable Credential] ◆ Available for [work type] — [contact]`
-Example: `Session Musician | Jazz & Neo-Soul ◆ 15+ albums recorded ◆ Available for live work and studio sessions`
-
-About section: use a biographical narrative (first person, storytelling structure). Origin story → defining performances or projects → artistic philosophy → booking CTA. Contact details in the body — not just the Contact section (which only first-degree connections can see).
-
-Featured section: pin the showreel, a press article, a streaming link, or an EPK (electronic press kit). Each Experience entry becomes a production credit — list credits, co-performers, venues, and critical reception; attach media.
-
-Groups strategy: join groups for corporate event organisers, brand marketing teams, conference producers, venue operators, and arts funding bodies — not groups for fellow artists. Target the buyers, not the peers.
-
-Key insight: corporate event organisers, brand marketers, and documentary commissioners hire entertainment through LinkedIn. Artists who ignore this audience leave commercial work on the table.
-
-**Politicians and public figures**
-
-Headline formula: `[Title or Role] | [Constituency/Jurisdiction] ◆ [Key Policy Area or Mission]`
-Example: `Member of Parliament | Kampala Central ◆ Education Reform and Youth Employment`
-
-LinkedIn audience for politicians: journalists, NGO leaders, donors, international partners, civil servants, and institutional stakeholders — not the general voter base (which uses Facebook and WhatsApp). Write for this professional and institutional audience.
-
-Content strategy: policy analyses and position papers as Articles (Google-indexed, searchable by researchers and journalists); polls to engage the professional community on policy questions; native video of speaking events; comments on content from government bodies and multilateral organisations.
-
-Recommendations: endorsements from civil society leaders, academic experts, and international partners carry distinct credibility — different from political endorsements and valuable to this audience.
-
-**Creatives — designers, writers, photographers, filmmakers**
-
-Headline formula: `[Discipline] ◆ [Specialisation for specific client type] ◆ Available for [work type]`
-Example: `Brand Designer ◆ Packaging & Identity for FMCG Brands ◆ Open to freelance commissions`
-
-About section: lead with the transformation you create for clients, not with tools or software. Buyers care about outcomes; tools are secondary.
-
-Portfolio integration: Featured section pins 3–5 portfolio pieces; Experience entries include media attachments for each project; Skills list both the discipline (Photography, Brand Identity, Copywriting) and the tools (Figma, InDesign, Final Cut Pro) — buyers search by tool as well as by discipline.
-
-Groups: join groups for marketing directors, creative directors, procurement managers, and CMOs — the buyers of creative services.
-
----
-
-## 11. Blog Post Angles
-
-Use with the `blog-writer` skill to generate client-attracting content.
-
-| Title | Target audience |
-|---|---|
-| Why LinkedIn Beats Facebook for B2B Sales in Uganda (And the Numbers Prove It) | SME owners sceptical of LinkedIn |
-| How to Optimise Your LinkedIn Profile to Attract Clients Without Running Ads | Professionals new to personal branding |
-| The LinkedIn Profile Mistake That Is Costing East African Professionals Business | Working professionals with incomplete profiles |
-| How Consultants in Uganda Are Using LinkedIn to Get Clients Without Cold Calling | Independent consultants and freelancers |
-| LinkedIn for Performing Artists: The Platform You Are Ignoring That Books You More Gigs | Musicians, actors, and creatives |
-| How Politicians and Public Figures Use LinkedIn to Reach the People Who Matter | Public figures and political communicators |
-| The Right Way to Send a LinkedIn Message (And Why Most People Get It Wrong) | Sales teams and business developers |
-| How to Build a LinkedIn Audience That Sends You Clients Every Month | Founders and solo practitioners |
-| LinkedIn vs. WhatsApp for B2B Lead Generation: Which One Actually Works? | Business owners deciding channel strategy |
-| The 90-Day LinkedIn Plan That Turned Our Clients into Thought Leaders | Marketing managers and consultants |
-
----
-
-## Quality Criteria
-
-Output meets the standard when it:
-
-- Covers all 11 sections with specific, actionable guidance tailored to the client's industry, client type (organisation or individual), and stated goal
-- If the client is an individual (artist, politician, creative, consultant), Section 10 guidance is applied — headline formula, About section structure, Featured section as portfolio, and groups strategy targeting buyers not peers
-- The Company Page vs personal profile recommendation is explicitly argued based on the client's stated goal and business model — not a generic recommendation to do both
-- The 30-day content plan contains 20 posts (5 per week) with account designation, format, content type, hook line, content brief, and CTA for each entry
-- Thought leadership guidance includes at least 3 example hook lines specific to the client's industry and target decision-maker title
-- Connection growth templates are written in a professional EA register — not American informal or British corporate stiff
-- All post structure guidance (white space, character limits, "see more" truncation point) is technically accurate for the current LinkedIn platform standard
-- Algorithm guidance is applied throughout: external links go in first comment; first-hour engagement principle is referenced where relevant; comment/share weighting is noted
-- KPI targets are clearly labelled as organic benchmarks and reference the East African professional market context
-- Blog post angles (Section 11) are present with titles targeting specific client pain points
-- British English is used throughout with no American spelling variants
+## Practitioner and company decisions
+
+For a consultant, start with the practitioner's actual competence, buyer and proof.
+Use the company page when an institutional identity, team or service portfolio
+needs its own presence. Choose both only when their distinct jobs and production
+capacity justify them. Do not prescribe a universal ratio of personal and company posts.
+
+Collect: service scope; target buying roles; geography/language; buying situation;
+approved cases and samples; website destinations; account baseline; available
+practitioner time; confidentiality constraints; and sales ownership. Missing
+account data permits a discovery plan, not an optimisation result.
+
+## Profile review
+
+Review identity, headline, opening explanation, experience, credentials, proof
+assets and next step for consistency with the website. Verify feature availability,
+field limits, image dimensions and privacy controls before specifying them.
+Do not fabricate awards, client outcomes or educational credentials. A profile is
+not qualified by an assumed All-Star multiplier or a particular URL pattern.
+
+## Content choices
+
+Load [the seven-role content system](references/seven-role-content-system.md)
+for awareness, education, personal story, proof of work, building in public,
+lead magnet and news commentary when each serves a real reader need.
+
+Choose text for a concise argument; a document for a sequence that benefits from
+pages; video for something worth demonstrating; and an article/newsletter for
+sustained explanation when account availability and capacity support it.
+No format is universally best. Poll responses are a self-selected sample, not
+representative market research. Verify event and newsletter mechanics before use.
+
+Write a useful opening, develop one defensible idea and finish when the job is
+done. Avoid forced curiosity gaps, theatrical reveals, compulsory signature
+hashtags and formulaic questions. Include a CTA only when it helps the reader.
+
+## Thirty-day pilot
+
+Agree an effort budget and sustainable cadence. Specify each content unit's buyer
+question, source, distinct argument, account, format, destination, owner and
+review date. Do not invent twenty posts to satisfy a template. Review the first
+complete unit before expanding. Use accurate alt text/captions and inspect
+rendered documents for legibility when those formats are commissioned.
+
+## Conversations and employee participation
+
+Use the relationship workflow in [consulting authority to pipeline](references/consulting-authority-to-pipeline.md).
+Drafting does not authorise sending. Do not organise reciprocal engagement,
+scrape profiles or create unsolicited automated sequences. Participation by
+employees is voluntary and uses their real judgement, with confidentiality and
+commercial-disclosure checks. A like, profile view or connection acceptance does
+not establish a qualified lead or broad marketing permission.
+
+## Measurement and review
+
+Track relevant audience evidence, useful conversations, website enquiries,
+accepted opportunities, won work and delivery economics as separate stages.
+Define denominators and time windows. Include self-reported discovery and
+offline referrals without claiming exact attribution. Use account baselines and
+capacity to set targets; no universal engagement rate, reply rate, follower
+growth or SSI threshold proves success.
+
+At review, decide whether to continue, revise the proposition, improve the
+destination, reduce cadence or stop the experiment. Explain the sales-cycle lag
+and incomplete tracking. Diagnose before increasing publishing volume.
+
+## Other professional identities
+
+For artists and creatives, show verified work, credits, commissioning scope and
+portfolio evidence. For public figures, use accurate identity, sourced public
+information and applicable platform restrictions; do not assume audience reach
+or endorsement rights. Tailor the professional buying or information job rather
+than reusing consulting sales copy.
+
+## Worked example
+
+A consultant has no approved client case studies. Use a clearly labelled
+educational diagnostic, explain its limits, and link to a service page describing
+scope and acceptance. Do not turn the demonstration into a claimed client win.
+The pilot measures relevant questions and qualified enquiries before making
+revenue claims.
+
+## Release criteria
+
+- Profile, content and website make the same supportable promise.
+- Each content unit contains specific evidence or useful professional judgement.
+- Account features and current policy claims are verified or omitted.
+- No engagement manipulation, fake cases, fabricated experience or universal targets remain.
+- The website and sales owner can handle the next step promised by the content.
+- Rights, confidentiality, accessibility and anti-slop reviews are recorded.
+
+## Operational reference
+
+- [Consulting authority to pipeline](references/consulting-authority-to-pipeline.md) — professional presence, proof, relationships, website handoff and commercial measurement.

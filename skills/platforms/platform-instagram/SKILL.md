@@ -42,7 +42,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
 2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Instagram channel plan.
+3. Apply [the channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md), the platform decisions below and the verified account evidence; draft a capacity-based plan with an accountable conversion path.
 4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
 5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
 
@@ -75,350 +75,72 @@ Use British English and the specified market context. Recommendations must be ex
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
-## Required Input
-
-Before generating this plan, collect the following from the client:
-
-- **Client name** — trading name and legal name if different
-- **Industry** — sector and sub-sector (e.g. hospitality: boutique hotel)
-- **Country / city** — default: Uganda / Kampala
-- **Primary goal** — brand awareness / audience growth / lead generation / product sales
-- **Target audience persona** — age range, gender split, occupation, interests, aspirations
-- **Current Instagram stats** — follower count, average reach per post, average engagement rate, account age
-- **Brand colours and visual style** — hex codes, existing brand guidelines or moodboard description
-- **Products / services to feature** — list the top 3–5 offerings with brief descriptions
-- **Posting frequency agreed** — how many posts per week the client has capacity for
-- **WhatsApp number and website URL** — for link-in-bio configuration
-- **Existing content assets** — photography available, video capability, whether they use a designer
-
----
-
-## 1. Profile Optimisation
-
-A complete, optimised profile converts visitors to followers before they see a single post. Complete every element.
-
-**Username and display name — the only two searchable fields**
-- The username and display name are the only two profile fields that Instagram's search algorithm indexes. Keywords must appear in at least one of them — placing keywords only in the bio does not improve search visibility (Butow & Walker, 2025)
-- Keep the username consistent with the Facebook Page and other platforms
-- Include the primary keyword and location in the display name (e.g. "Kampala Skincare | Natural Products") — this is indexed; the bio is not
-- Use the business trading name with no unnecessary punctuation or numbers (e.g. @kampalaorganics not @kampala_organics_ug_2024)
-- If the ideal username is taken, add a simple location suffix: @businessname.ug or @businessname.kampala
-
-**Profile photo**
-- Display size: 110×110px (circle crop); upload at minimum 200×200px
-- Use the business logo for product and retail brands; use a founder headshot for personal and consulting brands
-- Ensure the logo has adequate padding from the circle edge — Instagram crops tighter than Facebook
-- Avoid text in the profile photo — it becomes illegible at small sizes
-
-**Bio (150 characters maximum)**
-Write the bio about the prospect's desired outcome, not the business's description. The question to answer is: "Why should this person follow this account?" — not "What does this business do?" (Walsh Phillips, 2023)
-
-Structure the bio across three functional lines:
-- Line 1: prospect outcome — what result the follower gets (e.g. "Clearer skin using natural ingredients made in Uganda")
-- Line 2: credibility or differentiator (e.g. "100% natural | 2,000 customers | Est. 2019")
-- Line 3: CTA + location (e.g. " Kampala | Order via link below")
-
-No wasted words. Avoid vague descriptors ("passionate", "dedicated", "innovative"). Every word must earn its place.
-
-**Link-in-bio**
-Use a link aggregator (Linktree, Beacons, or a free equivalent). Include a maximum of 4–5 links to avoid decision fatigue:
-1. Website homepage or online shop
-2. WhatsApp Business direct link (wa.me/[countrycode][number])
-3. Latest offer or campaign landing page
-4. Most popular product or service page
-5. Optional: latest blog post or YouTube video
-
-Update the link-in-bio when running a campaign. Reference it in every caption with "link in bio" or the shorthand "🔗 bio".
-
-**Stories link sticker:** every account — regardless of follower count — can add a direct URL link to a Story. Use this to drive traffic to specific pages, campaign landing pages, or WhatsApp without relying on the bio link. This removes the need to tell followers to "check bio" in Stories content.
-
-**Highlights structure**
-Create and maintain these Highlights covers (design cover images using brand colours):
-
-| Highlight name | Content to include |
-|---|---|
-| About Us | Business origin story, mission, team photos |
-| Products | Catalogue-style product features, prices, how to order |
-| Reviews | Screenshots of testimonials, customer photos, ratings |
-| Tips | Educational content relevant to the industry |
-| Behind the Scenes | Production, packaging, team moments, day-in-the-life |
-| Contact | WhatsApp, email, location, opening hours |
-
-Limit each Highlight to 10–15 Stories for quality control. Archive older Stories into Highlights within 24 hours of posting. Design Highlight cover icons in a consistent style — plain icons on a brand-colour circle background.
-
----
-
-## 2. Content Types and Rationale
-
-Apply the Hero/Hub/Hygiene content model (YouTube/Google, 2012) to Instagram:
-
-**Feed posts — Hero content**
-Reserve the feed for highest-quality, most timeless content. Feed posts appear on the profile grid permanently and represent the brand's standard. Aim for professional photography or high-quality graphic design for all feed posts. One strong feed post per day is preferable to two weak ones.
-
-**Reels — Primary growth driver**
-Reels receive the widest distribution of any Instagram content type, reaching non-followers through the Explore and Reels tab. Prioritise Reels for audience acquisition. Aim for at least 2 Reels per week during a growth phase.
-
-**Stories — Daily touchpoint**
-Post Stories daily even when no feed post is scheduled. Stories are informal, ephemeral (24 hours), and interactive. Use Stories for polls, questions, countdowns, behind-the-scenes, and casual brand moments. Stories are not indexed — they do not contribute to feed quality judgements.
-
-**Carousels — Highest save rate**
-Carousel posts (multiple images or slides in one post) generate the highest save rate of any static format because they deliver sustained value. Use carousels for educational content, step-by-step guides, before/after comparisons, product comparisons, and list-based content. A strong carousel prompt: "Swipe to see all [X] steps / options / reasons."
-
-**Collaborations — Reach extension**
-Joint feed posts (Collab posts) appear on both accounts' grids. Use for complementary brand partnerships (e.g. a café collaborating with a local coffee roaster), product launches with a local personality, or joint events. Lives with guest experts build credibility and real-time engagement.
-
----
-
-## 3. Reels Strategy
-
-Reels are the single most important content format for audience growth on Instagram in the EA market. Apply this structure consistently.
-
-**Four-part Reel structure:**
-
-**Hook (0–3 seconds)**
-The hook must stop the scroll before the viewer has decided whether to watch. Methods:
-- Text on screen that names a problem or poses a question ("Still doing this wrong?")
-- Immediate visual action — movement, contrast, reveal
-- Bold verbal statement in the first spoken word
-
-Never start a Reel with a logo or title card — these lose viewers instantly.
-
-**Value (3–25 seconds)**
-Deliver exactly what the hook promised. No padding, no lengthy introductions. Formats that work:
-- Tutorial or how-to (step 1 / step 2 / step 3)
-- Before/after transformation
-- List (5 things / 3 mistakes / 2 options)
-- Behind-the-scenes process reveal
-
-**CTA (final 3–5 seconds)**
-Give one clear action only:
-- "Follow for more [topic] tips"
-- "Drop a comment with your question"
-- "Link in bio to order"
-- "Share this with someone who needs to know"
-
-**Audio selection**
-- Trending audio: increases distribution by riding the algorithm's current preference — find trending audio within the Instagram app (look for the upward arrow icon on audio). Use trending audio for entertainment and lifestyle content.
-- Original audio: builds brand recognition over time. Use for tutorials, testimonials, and professional content where the spoken word matters.
-- Silent-watch captions: always add on-screen captions or text overlays. The majority of mobile viewers in Uganda and East Africa watch video without sound — particularly in shared spaces, offices, and public transport. Content without captions loses a significant portion of its audience.
-
-**Reel dimensions and specs**
-- Aspect ratio: 9:16 (vertical), 1080×1920px
-- Safe zone for UI overlay: keep key text and faces within the central 80% of the frame
-- Duration: maximum 3 minutes (extended in 2024); 15–30 seconds is optimal for EA audiences for completion rate; up to 60 seconds for tutorials; long-form Reels (60–180 seconds) suit education-first content where the audience has declared interest
-- Cover image: set a custom cover image for each Reel so it displays well on the profile grid
-
-**Text overlays serve double duty:** on-screen text keeps silent viewers engaged and also helps Instagram's search algorithm index the Reel's topic — a Reel about "how to price a service" should include those words visibly on screen, not only in the audio (Butow & Walker, 2025).
-
-**Static posts have declined significantly.** Since Instagram prioritised Reels, static image posts experienced a 30–50% drop in organic reach (Walsh Phillips, 2023). Static posts remain important for grid aesthetics and follower engagement, but should no longer be relied upon as the primary reach-building format. Allocate the majority of content production effort to Reels and carousels.
-
-**The "business mullet" principle:** keep the feed professional and polished (this is what potential followers and clients see first), and keep Stories casual and personal — behind-the-scenes, real-time updates, team moments, process clips. The asymmetry is deliberate (Walsh Phillips, 2023).
-
----
-
-## 4. Grid Aesthetic Planning
-
-The Instagram profile grid is the brand's visual portfolio. A visitor forms a first impression of the brand from the grid before reading a single caption.
-
-**Colour palette**
-Maintain consistent use of the brand colours established in the 04-brand-voice-intake. Every graphic should use only the approved colour palette. Photography should be edited with a consistent filter or preset — apply the same Lightroom preset or VSCO filter to all photos.
-
-**Visual consistency guidelines**
-- Use a maximum of 2 brand fonts in all graphics — one for headlines, one for body text
-- Apply consistent margins and padding in all designed posts — no text touching the edge of the frame
-- Alternate between product/service-led images and people/lifestyle images — a grid of only product shots reads as a catalogue; a grid of only people shots loses the commercial clarity
-
-**Content variety pattern**
-Avoid placing two of the same content type side by side. A simple alternating pattern:
-- Column 1: product/service feature
-- Column 2: lifestyle or people
-- Column 3: text-based quote or tip graphic
-
-Plan the next 9 posts before scheduling to check the grid appearance. Use Preview app or Planoly to visualise the grid before posting.
-
----
-
-## 5. Hashtag Strategy
-
-Apply a 3-tier hashtag mix. Use 5–10 hashtags per post — research consistently shows diminishing returns beyond 10 on Instagram. Place hashtags at the end of the caption or in the first comment.
-
-**Tier 1 — Niche hashtags (1K–100K posts)**
-High relevance, lower competition — most likely to drive discovery from a genuinely interested audience. Include location and industry:
-- Examples: #KampalaFashion, #UgandaEntrepreneur, #KampalaCafé, #MadeInKampala, #UgandanFoodie
-- Aim for 3–5 niche hashtags per post
-
-**Tier 2 — Community hashtags (100K–500K posts)**
-Broader interest communities with engaged followings:
-- Examples: #EastAfricaBusiness, #MadeInUganda, #KampalaLife, #EastAfricaCreatives, #AfricanFashion
-- Aim for 2–3 community hashtags per post
-
-**Tier 3 — Broad hashtags (500K+ posts)**
-High volume, highly competitive — use sparingly to signal category:
-- Examples: #SmallBusiness, #AfricanEntrepreneur, #BlackOwnedBusiness
-- Use 1–2 broad hashtags per post maximum
-
-**Banned and shadow-banned hashtags**
-Do not use: #follow4follow, #likeforlike, #instadaily, #photooftheday used generically, or any hashtag that Instagram has restricted. Research each new hashtag before use — search the hashtag in the app and check whether the top posts display normally. If the page shows only "top posts" with no "recent posts", the hashtag is restricted. A restricted hashtag suppresses the entire post's distribution.
-
-**EA-specific hashtag communities to build presence in:**
-#MadeInUganda, #KampalaLife, #EastAfricaCreatives, #UgandaTwitter (also active on Instagram), #VisitUganda (for hospitality/tourism), #NairobiStyle (if targeting Kenya), #DarEsSalaam (for Tanzanian reach).
-
----
-
-## 6. UGC and Collaboration Approach
-
-**Encouraging user-generated content**
-- Ask directly in captions: "Share a photo of yours and tag us — we repost our favourites every Friday"
-- Create a branded hashtag (e.g. #MyKampalaOrganics) and include it in packaging, receipts, and the bio
-- Feature UGC in Stories and tag the creator — this encourages others to post for the same recognition
-- Run a monthly UGC prompt: a specific call to action (e.g. "Show us how you style [product] — tag us for a chance to be featured")
-
-**Collaborating with local creators**
-Identify micro-influencers (5,000–50,000 followers) in the Kampala/EA market whose audience matches the target persona. Approach:
-1. Follow the creator and engage authentically with their content for 2 weeks before outreach
-2. Send a direct message outlining: who you are, why you chose them specifically, what you are offering (gifting/fee/both), and what content you are requesting
-3. Agree deliverables in writing: number of posts, format (Reel/Story/feed), approval process, deadline, and usage rights
-4. Brief them using the 08-influencer-marketing-strategy skill for a full influencer brief
-
-Micro-influencers in Uganda typically charge UGX 150,000–750,000 per post depending on reach and engagement. Gifting alone is appropriate only for very small creators (under 5,000 followers).
-
-**Reposting etiquette**
-- Always ask for permission before reposting to the feed — a DM is sufficient; keep a record
-- Always credit in the caption: "📷 @username" or "via @username"
-- Never repost without credit — this damages brand trust and can attract public criticism
-- Stories reposts (using the share button) do not require additional permission but always show the original account handle
-
----
-
-## 7. Thirty-Day Content Plan
-
-Target 5–7 posts per week: 2 Feed posts, 2 Reels, and daily Stories. Adjust to the agreed frequency and client capacity.
-
-### Week 1 — Introduce and Attract
-
-| # | Format | Content type | Caption brief | Hashtag tier | Visual direction |
-|---|---|---|---|---|---|
-| 1 | Feed image | Brand introduction | Introduce the business, its story, and what followers can expect. End with a follow prompt. | Tiers 1+2 | Brand-colour background, logo centred, clean and bold |
-| 2 | Reel | Product/service in action | Show the product being made, used, or delivered. Hook: "Here's what we do differently." | Tiers 1+2+3 | Bright, fast-paced cuts; text overlay of key benefit |
-| 3 | Carousel | Top 5 reasons to choose [brand] | Each slide covers one reason with a brief explanation. Final slide: CTA to DM or visit link. | Tiers 1+2 | Consistent slide template; brand colours throughout |
-| 4 | Reel | Tutorial or how-to | Practical tip relevant to the audience's interests. Hook names a common mistake. | Tiers 1+2 | Step-by-step text overlays; no sound reliance |
-| 5 | Feed image | Featured product | Showcase one product with price, key benefit, and WhatsApp CTA. | Tiers 1+2 | Hero product shot; clean background |
-
-### Week 2 — Build Credibility
-
-| # | Format | Content type | Caption brief | Hashtag tier | Visual direction |
-|---|---|---|---|---|---|
-| 6 | Feed image | Customer testimonial | Quote from a satisfied customer with their outcome. Ask followers to share their experience. | Tiers 1+2 | Quote graphic; brand fonts; customer photo if available |
-| 7 | Reel | Behind the scenes | Show the team, production, or delivery process. Humanise the brand. | Tiers 1+2 | Candid, natural light; minimal text overlay |
-| 8 | Carousel | Educational series: [industry topic] | 5–7 slides on a topic the audience wants to learn. Actionable and specific. | Tiers 1+2 | Step-by-step graphic template; strong cover slide |
-| 9 | Reel | FAQ answer | Address the most common question the business receives. One question per Reel. | Tiers 1+3 | Talking head or text-on-screen format; captions |
-| 10 | Feed image | Team spotlight | Introduce a team member. Name, role, and one personal fact. | Tiers 1+2 | Portrait photo; consistent framing across team series |
-
-### Week 3 — Engage and Involve
-
-| # | Format | Content type | Caption brief | Hashtag tier | Visual direction |
-|---|---|---|---|---|---|
-| 11 | Feed image | UGC or customer feature | Feature a customer photo or story (with permission). Credit in caption. | Tiers 1+2 | Repost frame graphic; clear credit text |
-| 12 | Reel | Opinion or industry take | Share a clear point of view on a trend or debate in the industry. Invite comment. | Tiers 1+2+3 | Talking head or text-on-screen; bold hook text |
-| 13 | Carousel | Product comparison or options | Side-by-side comparison of two products or service tiers. Helps undecided buyers decide. | Tiers 1+2 | Split-layout slides; prices clearly visible |
-| 14 | Reel | Trending audio + brand content | Use a trending audio and adapt it to showcase the product/service with playful or creative visuals. | Tiers 2+3 | High-energy edit; brand colours in on-screen text |
-| 15 | Feed image | Milestone or anniversary | Celebrate a business achievement (sales milestone, anniversary, award). Invite followers to celebrate. | Tiers 1+2 | Celebratory graphic; warm brand palette |
-
-### Week 4 — Convert and Retain
-
-| # | Format | Content type | Caption brief | Hashtag tier | Visual direction |
-|---|---|---|---|---|---|
-| 16 | Feed image | Promotional offer | Present a specific, time-limited offer with price, what's included, and deadline. | Tiers 1+2 | High-contrast promotional graphic; CTA prominent |
-| 17 | Reel | Testimonial or case study | 30–45 second customer story: the problem, the product/service, the result. | Tiers 1+2 | Interview style or text narration over product footage |
-| 18 | Carousel | Month recap / best of | Round up the month's top content, offers, or customer stories. Builds community. | Tiers 1+2 | Collage layout; consistent graphic treatment |
-| 19 | Reel | Call to action — follow | Remind the audience to follow for more content like this. Use a "best of the month" hook. | Tiers 2+3 | Fast-cut montage of best posts from the month |
-| 20 | Feed image | Next month preview | Tease upcoming content, offers, or launches. Build anticipation. CTA: "Follow so you don't miss it." | Tiers 1+2 | Teaser graphic; partly obscured or silhouetted product |
-
----
-
-## 8. Instagram-Specific KPIs
-
-Track these metrics monthly using Instagram Insights. Available only on Business and Creator accounts.
-
-| KPI | Target | Notes |
-|---|---|---|
-| Reach (accounts reached) | Growing month-on-month | Track per post and per period |
-| Impressions | Growing month-on-month | Total views including repeat viewers |
-| Saves | 1–3% of reach | Highest-value engagement signal — indicates content worth returning to |
-| Shares (DM + Story reshares) | Track volume trend | Shares indicate content worth passing on |
-| Reel views | Growing week-on-week | Benchmark new Reels against previous 4-week average |
-| Reel completion rate | 40%+ | Lower rate indicates weak hook or excessive length |
-| Follower growth rate | 5–10% monthly (growth phase) | (Net new followers ÷ start-of-month followers) × 100 |
-| Profile visits to link clicks | 10–20% conversion | (Link clicks ÷ profile visits) × 100 |
-
-Review KPIs at the end of each month. Present findings using the meta-reporting skill. If Reel completion rate drops below 30% consistently, review the hook strategy. If saves are low, increase carousel and educational content frequency.
-
----
-
-## 9. Instagram-to-Sales Funnel
-
-Instagram's native tools are optimised for awareness and community building, not direct sales. Design an explicit capture mechanism to bridge the gap between follower and paying customer. Three models work for the Uganda/EA market:
-
-**Model A — DM-to-sale funnel (no website required)**
-Post content with a CTA that invites a DM ("DM me the word PRICING for our full rate card" / "Comment KAMPALA and I'll send you the details"). Reply with a conversation that qualifies the enquiry and moves to a link or a WhatsApp handoff. This model requires no landing page and works entirely inside Instagram. Jennifer Allwood (Walsh Phillips, 2023) converted 100,000+ followers to coaching sales exclusively via DMs.
-
-**Model B — ManyChat keyword automation**
-Ask followers to type a specific keyword in the comments of a post (e.g., "Type GUIDE below"). A ManyChat chatbot automatically DMs the link to every commenter. This removes the "link in bio" friction and delivers content at the moment of interest. Comment-to-DM automation is increasingly replacing link-in-bio tools as the primary Instagram lead capture mechanism (Butow & Walker, 2025).
-
-**Model C — Post-to-landing-page funnel (with email capture)**
-Post → bio link → lead magnet landing page → email opt-in → thank-you page offer → nurture sequence → sale. Effective lead magnet formats: checklist, free guide, short video course, discount code, event registration. The title formula that consistently converts: *"[Number] Ways to [Desired Outcome] Without [Undesirable Thing]"* (Walsh Phillips, 2023).
-
-**Broadcast Channels — algorithm-bypass communication**
-Instagram Broadcast Channels are a one-to-many DM format: the business sends a message and every subscriber receives it directly, regardless of the feed algorithm. Followers opt in by clicking "Join" on the channel. Use Broadcast Channels for: product launch announcements, flash sale alerts, exclusive content drops, and weekly tip series. Unlike feed posts, Broadcast Channel messages are never suppressed by the algorithm (Butow & Walker, 2025).
-
-**Key statistics for client conversations:**
-- 90% of Instagram users follow at least one business (Walsh Phillips, 2023)
-- Posts that ask a question generate 300% more interaction than posts that do not (Foundr, cited in Walsh Phillips, 2023)
-- 58% of users report becoming more interested in a brand after seeing it in an Instagram Story (Walsh Phillips, 2023)
-- Micro-influencers with under 35,000 followers achieve an average 5.3% engagement rate vs 1.6% for accounts above 750,000 (Hietaniemi, 2020) — use this to argue for local micro-influencer partnerships over pan-African celebrity deals
-- Boosting via the iOS app incurs a 30% Apple service charge; always boost through Meta Ads Manager on desktop or Android to avoid this (Butow & Walker, 2025)
-
----
-
-## 10. Blog Post Angles
-
-Use these angles with the `blog-writer` skill to generate client-attracting content for the consultancy website. Each angle is derived from this skill's content and designed to rank for search terms used by Ugandan and East African business owners researching Instagram marketing.
-
-| # | Blog post title | Angle / hook |
-|---|---|---|
-| 1 | Why your Instagram bio is losing you followers — and how to fix it in 150 characters | Bio must describe prospect outcome, not business; keyword in display name/username only |
-| 2 | The only two Instagram fields that Google and Instagram search can actually find | Username + display name are the only searchable fields; bio keywords are invisible to search |
-| 3 | How to turn Instagram followers into WhatsApp leads without running a single ad | DM funnel model; ManyChat keyword automation; WhatsApp handoff as the EA-specific conversion step |
-| 4 | Why your Instagram Reels are being ignored (and what to do about it in Uganda) | Hook psychology, silent-viewer captions, text overlay for search indexing, 3-min capacity |
-| 5 | Static posts are dying on Instagram: what Ugandan businesses need to do now | 30–50% reach decline; Reels as primary distribution; carousel for saves; static for grid only |
-| 6 | Instagram Broadcast Channels: the no-algorithm shortcut your competitors haven't discovered | One-to-many DM delivery; bypass feed suppression; use cases for SMEs |
-| 7 | The "business mullet" Instagram strategy: why your feed and Stories should look completely different | Professional feed vs personal Stories; trust-building asymmetry |
-| 8 | Micro-influencers in Uganda vs celebrity endorsements: what the engagement data actually shows | 5.3% vs 1.6% engagement rate differential; local relevance over reach |
-| 9 | Why posting questions on Instagram drives 3x more engagement (with examples for Ugandan businesses) | 300% more interaction data; practical question formats for local industries |
-| 10 | The Instagram hashtag rule that most consultants get wrong | Retroactive hashtags do not work; only first 3 hashtags in Stories are indexed; test per account |
-
----
-
-## Quality Criteria
-
-Output meets the standard when it:
-
-- Covers all 10 sections with specific, actionable guidance tailored to the client's industry and audience — no generic filler
-- Uses the client's actual business name, products/services, and brand context throughout the 30-day plan
-- The 30-day content plan contains 20 posts (5 per week) with format, content type, caption brief, hashtag tier note, and visual direction for each entry
-- Hashtag recommendations include at least 5 Uganda/EA-specific examples relevant to the client's industry
-- Reels guidance specifies the hook/value/CTA structure with at least one example hook line relevant to the client's industry
-- All character limits, dimensions, and technical specifications are accurate for the current Instagram platform standard
-- UGC and collaboration guidance includes specific, actionable steps appropriate for the Ugandan market (micro-influencer pricing context, permission etiquette)
-- Section 9 (Instagram-to-Sales Funnel) is present with all three models (DM funnel, ManyChat, post-to-landing-page), Broadcast Channels, and key statistics cited
-- Section 10 (Blog Post Angles) contains at least 8 titled angles ready for use with the blog-writer skill
-- British English is used throughout with no American spelling variants
-
----
-
-## References
-
-**Key citations used in this skill:**
-- Butow, E. and Walker, C. (2025) *Instagram for Business for Dummies* (3rd ed.)
-- Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth*
-- Walsh Phillips, K. (2023) *Ultimate Guide to Instagram for Business* (2nd ed.)
+## Profile and visual proof
+
+Confirm audience, offer, brand assets, rights, existing account evidence,
+production capacity and intended next step. Review identity, description, proof
+and destination for buyer comprehension. Verify current searchable fields,
+profile limits, link options and account features; do not claim only two fields
+are indexed or that a profile change guarantees discovery.
+
+Route visual decisions through design-system-skills and the neighbouring
+`platform-instagram-visual-system` skill when needed. Use intentional art
+direction, readable type, truthful product detail and an identifiable voice.
+Do not impose a rigid alternating grid, one filter or a luxury colour formula.
+
+## Format and series decisions
+
+Choose a still image when one view carries the point; a carousel when each page
+adds useful evidence; a Reel when motion or a demonstration helps; Stories for
+timely interaction; and collaboration when genuine audience/creative fit exists.
+Verify current format/account eligibility. No format always wins distribution,
+saves or sales. Select length and cadence from comprehension and production tests.
+
+For each video, specify opening, visual evidence, explanation, ending, audio,
+captions and destination. Review crops and UI obstruction in the intended surface.
+Choose sound for meaning and commercial rights. Trending sound is not a reach
+guarantee. Captions serve accessibility and comprehension regardless of an
+unsupported estimate of silent viewers.
+
+Build collections of related advice only with currently supported features or
+an owned website resource. Do not revive Instagram Guides from a historical book
+without verifying availability. Treat broadcast-channel delivery/notifications
+as current product behaviour to verify, not a guaranteed bypass of ranking.
+
+## Discovery and creator partnerships
+
+Use accurate descriptive language, relevant location and topic cues where
+appropriate. Verify current hashtag rules; avoid arbitrary counts, hashtag-size
+tiers and diagnosing restrictions from a missing interface tab.
+
+Evaluate creators through audience fit, actual work and commercial evidence.
+Agree fee, deliverables, approvals, disclosures and usage/amplification rights
+in writing. Obtain current quotes; no generic local price band or follower
+threshold proves value. Permission and attribution are separate requirements.
+
+## Instagram to sales
+
+Choose a supported destination that meets the buyer's need: direct enquiry,
+service/product page, booking or permissioned resource. Test fulfilment and
+handoff. A requested resource is not broad marketing consent. Automation requires
+an authorised integration, current policy check, limited scope and human recovery.
+Do not default to a named automation vendor or send unsolicited follow-ups.
+
+## Pilot and review
+
+Plan one manageable learning cycle: distinct concepts, rights/creative review,
+capacity-based cadence, destination checks and defined measures. Track attention,
+useful sharing/saving, qualified actions, accepted opportunities and contribution
+separately. State metric definitions and tracking limits. No universal save,
+completion, follower-growth or profile-to-click rate is a success standard.
+
+## Worked example and acceptance
+
+A beautiful carousel has repeated claims and no substantiated product proof.
+Reject it, replace repetition with a genuine comparison or demonstration, and
+check the destination. Acceptance requires a distinct point per unit, truthful
+visuals, rights, readable rendering and an accountable next step.
+
+## Operational reference
+
+- [Channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md) — production, creators, community, paid readiness and commercial measurement.

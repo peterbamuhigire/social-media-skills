@@ -107,6 +107,7 @@ Apply these alongside the main deliverable skill when relevant:
 
 ## Routing Rules
 
+For integrated digital marketing, start with `skills/pipeline/06-digital-marketing-strategy/SKILL.md` and its premium growth operating contract. Scope includes research, positioning, search, paid media, social, content, email, permissioned messaging, conversion, CRM, retention and measurement. Route builds and visual production to their canonical engines; planning text alone is not execution evidence. For professional consulting acquisition, connect `platform-linkedin` to website proof and CRM opportunity acceptance.
 Use the skill whose directory name and `description` most closely match the deliverable. Prefixes matter:
 
 - `biz-dev-`: credentials, proposals, pricing, outreach, practitioner positioning
