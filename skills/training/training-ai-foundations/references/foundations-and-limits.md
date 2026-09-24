@@ -162,6 +162,16 @@ Source: Ching & Mothi (2025). Use this model to map AI's role at each stage of t
 
 ---
 
+### 2.3a Narrow AI: every tool is a specialist instrument
+
+Teach this before any tool demonstration. Every AI tool a marketing team uses today is narrow AI: it is built for a bounded task (drafting, transcribing, resizing, ranking, classifying) and does not reason about the client's business, culture or goals the way a person does. General-purpose, human-level AI does not exist in these tools. Consequences for the team:
+
+- Treat each tool as an instrument that needs a skilled operator, a brief and a reviewer, never as a creative colleague who can be left alone.
+- Map each tool to one phase of the four-phase model above and name the human who reviews its output in that phase.
+- When a tool is marketed as "doing marketing for you", ask which bounded task it actually performs and where human judgement still sits.
+
+Source: Ching, V. and Mothi, D. (2025) *AI for Creatives: Unlocking Expressive Digital Potential*, CRC Press (narrow-AI framing, paraphrased).
+
 ### 2.4 The Platform Table — AI Applications for East Africa
 
 Use this table when applying AI to the client's specific platform mix. Discuss only the platforms the client uses:

@@ -78,6 +78,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [Service and sector vocabulary](references/service-and-sector-vocabulary.md) — read for booking, signage, price and food/agriculture copy.
 <!-- dual-compat-end -->
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
@@ -99,4 +100,4 @@ This is the Kiswahili execution layer for the social engine. It owns *how Kiswah
 
 ## Notes
 - Relationship before the transaction: open warm (`Karibu`), lead with respect (`heshima`), then the offer. Inclusive `tu-` framing (`Tujenge pamoja`) resonates more than commands. See `language-standards` for the cross-language policy.
-- Source material distilled from: Peter M. Wilson, *Simplified Swahili*; *Rough Guide Phrasebook — Swahili* (Lexus); John M. Mugane, *The Story of Swahili*; Derek Nurse & Thomas Spear, *The Swahili*; Johannes Fabian, *Language and Colonial Power*; *Authentic East African Swahili Cuisine* (Malaquias); and the *Trilingual Story Book* (Aames). See `book-extractions/swahili-language-books-extraction-2026.md`.
+- Source material distilled from: Peter M. Wilson, *Simplified Swahili*; *Rough Guide Phrasebook — Swahili* (Lexus); John M. Mugane, *The Story of Swahili*; Derek Nurse & Thomas Spear, *The Swahili*; Johannes Fabian, *Language and Colonial Power*; *Authentic East African Swahili Cuisine* (Malaquias); and the *Trilingual Story Book* (Aames).

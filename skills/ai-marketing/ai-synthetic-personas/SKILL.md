@@ -252,7 +252,7 @@ For each unvalidated assumption, add a bracketed risk note in the strategy: *[As
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
 
 ## Persona discipline applied to synthetic (added 2026-05-04 from Branson)
-Canonical reference: `docs/ux-foundations.md` Section 1.
+Canonical reference: [persona discipline](../../pipeline/03-audience-personas/references/persona-discipline.md) (summary in `docs/ux-foundations.md` Section 1).
 
 Synthetic personas pass the same Branson discipline gate as research-grounded personas. The disclosure already required by this skill stays in place; this section adds discipline, not transparency.
 

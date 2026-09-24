@@ -62,4 +62,4 @@ l'heure (f) · la minute · midi / minuit · le matin / l'après-midi (f) / le s
 
 ## Source
 
-Vocabulary and gender from the *French–English Bilingual Visual Dictionary* (DK); calque traps cross-checked against Heminway, *Practice Makes Perfect — Complete French Grammar*. See `book-extractions/french-language-books-extraction-2026.md`.
+Vocabulary and gender from the *French–English Bilingual Visual Dictionary* (DK); calque traps cross-checked against Heminway, *Practice Makes Perfect — Complete French Grammar*.

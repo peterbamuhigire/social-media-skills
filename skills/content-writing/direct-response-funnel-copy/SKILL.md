@@ -75,214 +75,133 @@ Fallback: if files, network access, platform data, language review or production
 <!-- dual-compat-end -->
 
 ## Overview
-Design direct-response campaigns that convert — not just "build awareness." Applies Russell Brunson's DotComSecrets Ignite funnel framework (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar, Soap Opera sequence) and Dan Kennedy's sales letter sequencing and takeaway selling disciplines to social media campaigns, email sequences, WhatsApp broadcasts, and long-form landing content.
+Design direct-response campaigns that produce measurable sales, applications or sign-ups — not just awareness. The skill applies named frameworks with brief attribution — the value ladder and funnel logic (Brunson), sales-letter discipline and the five propositions (Kennedy) — through the engine's own workflow, templates and ethics filter, across social campaigns, email, WhatsApp broadcasts and long-form landing content.
 
-This is a **conversion-economics** skill. It assumes the campaign must produce measurable sales, applications, or signups — not impressions.
+This is a **conversion-economics** skill: every asset serves a funnel step with a target and a test.
 
 ## Use When
-- The client wants a social/email/WhatsApp campaign that *sells*, not one that just posts
-- Launching an info-product, coaching programme, mastermind, high-ticket service, membership, event, webinar, or book
-- Building a lead funnel that ascends prospects up a Value Ladder (free → low-ticket → high-ticket → continuity)
-- Diagnosing why a current funnel converts poorly (apply the 100-Visitor Test and 7-phase framework)
-- Designing WhatsApp / email broadcast sequences for launch, evergreen, or reactivation
-- The client faces a high-ticket selling motion where awareness-only content is not enough
+- The client wants a social, email or WhatsApp campaign that *sells*, not one that only posts.
+- Launching a course, coaching programme, high-ticket service, membership, event, webinar or book.
+- Building a lead funnel that moves buyers up an offer ladder (free → low-cost → core → premium → recurring).
+- Diagnosing a funnel that converts poorly (small-batch test, lead-progression review).
+- Designing WhatsApp or email broadcast sequences for launch, evergreen selling or reactivation.
+- High-ticket selling where awareness content alone will not close.
 
 ## Do Not Use When
-- The primary brief is brand-building with no conversion goal (use `05-social-media-strategy` + `10-content-pillars` instead)
-- Hard-sell direct-response tone conflicts with the brand voice already established in the `04-brand-voice-intake`
-- Legal/regulatory constraints forbid direct-response claims (financial services, healthcare claims, regulated categories — always check)
+- The brief is brand-building with no conversion goal (use `05-social-media-strategy` and `10-content-pillars`).
+- A hard-sell register conflicts with the voice agreed in `04-brand-voice-intake`.
+- Regulation forbids the claims involved (financial services, health, other regulated categories) until legal review clears them.
 
 ## Required Inputs
-- **Dream customer definition** — who, where, what bait, where you'll take them (Brunson's Secret Formula)
-- **Offer**: front-end product/SLO + backend + continuity (or state if missing)
-- **Current traffic sources** — owned list size, paid spend, organic reach
-- **Brand voice and tone** — inherited from `04-brand-voice-intake`
-- **Revenue goal** (absolute UGX/USD) and timeline
-- **Conversion benchmarks** — current ad → lead rate, lead → customer rate, AOV
+- **Funnel-design answers:** who the buyer is, where they gather, what attracts them, which offer the funnel sells.
+- **Offer range:** entry offer, core offer, back-end and any recurring option (or state what is missing).
+- **Traffic today:** owned list sizes, paid spend, organic reach.
+- **Brand voice** from `04-brand-voice-intake`.
+- **Revenue goal** (UGX or stated currency) and period.
+- **Current conversion data:** ad → lead, lead → customer, average order value (or labelled assumptions).
 
 ## Workflow
-1. **Build the Secret Formula answer** (4 questions): dream customer / where / bait / where to take them. All subsequent copy is built against this.
-2. **Reverse-engineer the revenue math** (Brunson): monthly revenue goal → continuity members OR backend sales needed → SLO sales needed (at ~30% upsell) → monthly traffic needed (at ~5% conversion).
-3. **Map the Value Ladder** — free bait → front-end / SLO → core offer → premium → continuity. Every post/email/broadcast must serve one ladder rung.
-4. **Classify each traffic source** — Controlled (paid), Uncontrolled (SEO/social reach), Owned (email/WhatsApp). **Goal of every campaign: convert Controlled/Uncontrolled → Owned.**
-5. **Design the Attractive Character** (posture choice): Leader / Adventurer-Crusader / Reporter-Evangelist / Reluctant Hero. Pick one and apply consistently across backstory, parables, character flaws, polarity.
-6. **Write the primary long-form asset** using the Star-Story-Solution script (see Scripts section below).
-7. **Write the launch sequence** (Soap Opera 5-day → Seinfeld ongoing) or single-letter + 2 follow-ups (Kennedy).
-8. **Write the upsell / OTO script** (Brunson 14-step bump).
-9. **Specify scarcity / deadline mechanics** — the campaign dies without urgency (Kennedy Step 13).
-10. **Plan the 100-Visitor Test** — test the funnel at small scale before scaling paid spend. Diagnose weakest step first.
+1. **Answer the funnel-design questions** in writing; all copy is built against them ([funnel architecture](references/funnel-architecture-and-scripts.md) §1).
+2. **Work the revenue maths backwards** from the goal to entry buyers and visitors; if the numbers cannot close, change the offer or model before writing.
+3. **Map the offer ladder**; give every post, email and broadcast one ladder step to serve.
+4. **Classify traffic** as rented, borrowed or owned and plan the consented route into owned lists (WhatsApp opt-in in most East African cases).
+5. **Set the public voice**: one persona stance with a true backstory, admitted weaknesses and a clear point of view.
+6. **Design the offer and propositions** before copy ([offer and price integrity](references/offer-proposition-and-price-integrity.md)).
+7. **Draft the main long-form asset** with the persuasion arc ([funnel architecture](references/funnel-architecture-and-scripts.md) §3; [long-copy system](references/long-copy-sales-letter-system.md) for the drafting and editing stages).
+8. **Draft the sequences**: a five-message story sequence after opt-in, or a three-message follow-up for high-consideration and B2B buyers; then ongoing notes.
+9. **Draft the post-purchase offer** and, where relevant, the live-presentation script and two-call close.
+10. **Specify honest urgency** (real deadlines and limits with reasons) and run the [ethics filter](../references/direct-marketing-ethics-filter.md); stop any asset that fails it.
+11. **Plan the small-batch funnel test** with pre-set targets per step before any spend is scaled; recover by fixing the weakest step and rerunning.
 
-## The Scripts
-### Primary Long-Form Script — Star, Story, Solution (Brunson, 35 beats)
-Use for: long-form sales letter, VSL, webinar pitch, broadcast one-pager, launch email #3.
+## Script Toolkit (choose by job)
 
-```
-1. Pattern Interrupt opening
-2. Core Desire Questions ("have you ever wanted to…?")
-3. Agitate Past Failures ("why hasn't it happened yet?")
-4. Big Promise (the ONE thing they'll discover)
-5. Intro the Attractive Character
-6. High Drama opening line
-7. Backstory & Wall
-8. Identify the Problem
-9. Epiphany / Declaration of Independence
-10. The Path (what you tried)
-11. First Signs of Success
-12. Conspiracy (why you'd failed before)
-13. Big Lie ("it's not your fault")
-14. Common Enemy
-15. Rapid Growth
-16. Case Studies
-17. Hidden Benefits
-18. Formal Introduction of the offer
-19. Pain + Cost of creation
-20. Ease / Speed / "So" Benefits
-21. Social Proof
-22. Make the Offer
-23. Build Value (stack)
-24. Fake Price / "total value of $$$"
-25. "If All's" Emotional Close
-26. Reveal Real Price
-27. Guarantee (logic)
-28. Inject Scarcity (fear)
-29. Future Pacing
-30. CTA
-31. Post-Selling
-32. Take-Away / Warning
-33. Close with Reminder
-34. P.S. (restate, bonus, deadline)
-35. P.P.S. (testimonial, handle top objection)
-```
-
-### Launch Sequence — Soap Opera (5 days)
-| Day | Purpose | Content |
+| Job | Pattern | Where it lives |
 |---|---|---|
-| 1 | Set the Stage | Welcome, intro Attractive Character, what's coming |
-| 2 | High Drama → Backstory → Wall | Story, build bond, tease resolution |
-| 3 | Epiphany → The ONE Thing | Ah-ha, tie to offer |
-| 4 | Hidden Benefits | Unexpected upsides |
-| 5 | Urgency CTA | Scarcity + call to buy |
+| Long sales letter, video script, webinar pitch, one-page broadcast | Persuasion arc: stop the reader → desire and stalled attempts → one promise → who is speaking → the mechanism → evidence → offer → value then price → risk reversal → honest urgency → result and action → after-action and P.S. | [Funnel architecture](references/funnel-architecture-and-scripts.md) §3 |
+| Launch after opt-in | Five-message story sequence (welcome → story to the obstacle → the realisation → unexpected benefits → offer with real deadline) | Same, §3 |
+| High-consideration or B2B follow-up | Three messages: full offer → "did this reach you?" with top objection answered → final honest notice (after Kennedy) | Same, §3; [long-copy system](references/long-copy-sales-letter-system.md) stage 7 |
+| Ongoing nurture | Rotate a real incident, a lesson and a how-to, each with a light product link | Same, §3 |
+| Straight after purchase | One named add-on, offered once, easy to decline | Same, §3 |
+| Webinar or live session | Perfect Webinar structure (Brunson) with closing moves chosen by the buyer's objection | Same, §3 |
+| High-ticket application | Two calls: qualify with four commitments (time, learning, investment, decision-maker), then confirm and close | Same, §3 |
+| Call or meeting-led sale | Consultative stages before, during and after the conversation | [Consultative sales](references/consultative-sales-and-positioning.md) |
 
-### Kennedy Three-Letter Sequence (for high-consideration / B2B)
-- **Letter 1** — full pitch, strong offer, deadline
-- **Letter 2** — "Did you receive my letter?" + top objection handled + restate
-- **Letter 3** — final deadline + strongest incentive + urgency
+## Offer and Trust Layer
+- **Propositions:** build Kennedy's five propositions (distinctive reason to choose, value beyond price, hard-to-refuse offer, safety, experience) into every long-form asset.
+- **P.S. lines:** one to three, each with one job — restate offer and deadline, add a bonus, answer the top objection, or add a consented testimonial.
+- **Honest selectivity:** state real qualification criteria ("for owners already selling weekly"); never manufacture exclusivity.
+- **Price handling:** change the comparison, cost per use, substantiated value stacks, instalments (mobile money where permitted), discounts only in exchange for something, and an open admission of price.
+- **Honest concession:** name the obvious weakness first ("We are not the cheapest; here is why") to pre-empt scepticism.
 
-Response typically 2–3× a single send. Works in email, WhatsApp broadcast, SMS, direct mail.
-
-### Ongoing — Seinfeld Emails (3 styles, cycled)
-- **Episode** — "something happened today…" + product tie
-- **Epiphany** — teaching moment + product tie
-- **Educational** — direct how-to + product tie
-
-### OTO Bump Script (immediately post-purchase)
-14 steps, compressed: Confirm Decision → 3X/2X → Smart+Why → Question → Exclusive → Fast/Results/Speed → The ONE Thing → Future Cast → CTA → Guarantee → Value Stack → Scarcity → 2nd CTA → Testimonial Rush.
-
-### Perfect Webinar Close (for webinar-driven campaigns)
-Intro ("How to __ without __") → 3 Secrets (each with Reveal + Reframe) → The Stack close → 20+ mini-closes (If/All's, Money-is-good, Disposable Income, Money Replenishes, Break Old Habits, Money or Excuses, 2 Choices, Us vs Them, Hand Hold, Say Goodbye, Now & Later, Only Excuses, Reluctant Hero, If You Only Got, Close Close).
-
-### Two-Step Phone Close (for high-ticket application funnels)
-Set call: qualify → 4 commitments (Time, Teachable, Investment, Decision-Maker).
-Close call: confirm commitments → finalise sale.
-
-## Kennedy Overlays
-Brunson gives the *structure*. Kennedy adds the *discipline*:
-
-### Five Propositions (stack into every long-form asset)
-1. USP (why choose you?)
-2. UVP (why far more valuable than the price?)
-3. Irresistible Offer (discount + premiums + fast-bonus + deadline penalty)
-4. Unique Safety Proposition (guarantee, warranty, risk reversal)
-5. Unique Experience Proposition (theme, ritual, celebrity, event)
-
-### The Creative P.S.
-The P.S. is the second-most-read element after the headline. Multiple P.S. lines (P.S., P.P.S., P.P.P.S.) each serving a distinct purpose:
-- Restate offer + deadline
-- Add a bonus
-- Handle top objection
-- Add a testimonial
-
-### Takeaway Selling
-Disqualify. "This isn't for everyone. Only apply if you can commit to X." Paradoxically increases demand.
-
-### Beat the Price Bugaboo
-- Apples-to-oranges comparison shift
-- Cost-per-day / cost-per-use reframe
-- Value-stack bundling
-- Payment plan reframe
-- Quid pro quo if discounting
-- Damaging admission about price ("yes, this costs more; here's why")
-
-### Damaging Admission
-Concede the obvious weakness first. "I'm not the cheapest. My programme isn't for beginners." Pre-empts skepticism.
-
-## Scarcity / Urgency Mechanics (Kennedy Step 13)
-Every campaign needs at least two:
-
-- Specific deadline (date + time + timezone)
-- Limited quantity (with proof)
-- Fast-action bonus (expires at a sub-deadline)
-- Penalty for missing deadline (price rises / offer withdrawn)
-- Risk reversal (strong guarantee = easier decision)
+## Honest Urgency
+Use only mechanics that are true and provable, with the reason why (see the ethics filter). Where genuine limits exist, combine two:
+- A specific deadline (date, time, time zone).
+- A proven limited quantity or cohort size.
+- An early-response bonus with its own sub-deadline.
+- A real consequence of waiting (the price does rise; the offer is withdrawn).
+- A strong, honoured guarantee.
 
 ## Integration With Other Skills
 | Skill | Integration |
 |---|---|
-| `04-brand-voice-intake` | Attractive Character must respect brand voice |
-| `05-social-media-strategy` | This skill produces the *direct-response layer*; the strategy skill defines the *awareness layer* above it |
-| `07-email-marketing-strategy` | Soap Opera + Seinfeld + 3-letter sequences slot directly in |
-| `09-campaign-strategy` | Use together — this skill handles the copy; campaign strategy handles the mix |
-| `ai-whatsapp-chatbot-design` | WhatsApp is the primary "owned traffic" channel in EA |
-| `biz-dev-proposal`, `biz-dev-reactivation-campaign` | Same frameworks apply to B2B proposals and win-back |
-| `premium-commercial-writing` | Apply as the premium quality layer for proof density, value framing, price integrity, and high-ticket tone control |
+| `04-brand-voice-intake` | The public persona must respect the brand voice |
+| `05-social-media-strategy` | This skill builds the direct-response layer; strategy defines the awareness layer above it |
+| `07-email-marketing-strategy` | Story, follow-up and nurture sequences slot in directly |
+| `09-campaign-strategy` | This skill handles copy; campaign strategy handles the mix |
+| `ai-whatsapp-chatbot-design` | WhatsApp is usually the main owned channel in East Africa |
+| `biz-dev-proposal`, `biz-dev-reactivation-campaign` | The same methods apply to B2B proposals and win-back |
+| `premium-commercial-writing` | Premium layer for proof density, value framing, price integrity and high-ticket tone |
+| `advertising/direct-response-economics` | Break-even targets for the small-batch test |
 
 ## Quality Bar
-- Secret Formula is answered specifically (dream customer / where / bait / destination)
-- Revenue math is reverse-engineered — every funnel step has a target conversion rate and volume
-- Value Ladder has at least 3 rungs with a clear ascension path
-- Traffic sources map to the Controlled / Uncontrolled / Owned framework, with a plan to convert to Owned
-- Attractive Character is declared and consistent across assets
-- Primary long-form asset follows Star-Story-Solution (35 beats, adapted)
-- Launch sequence (Soap Opera or 3-letter) is scripted day-by-day
-- 5 Propositions are visible in the long-form asset
-- At least 2 scarcity mechanics are live
-- 100-Visitor Test is planned before scaling spend
+- Funnel-design questions answered specifically.
+- Revenue maths worked backwards; every funnel step has a target rate and volume.
+- Offer ladder has at least three steps and a clear upgrade path.
+- Traffic sources classified, with a consented plan to move buyers into owned lists.
+- Persona stance declared and consistent across assets.
+- Main long-form asset follows the persuasion arc, adapted to channel and awareness.
+- Launch sequence scripted message by message.
+- Five propositions visible in the long-form asset.
+- At least two genuine urgency mechanics, each with its reason.
+- Small-batch funnel test planned before spend is scaled.
+- Ethics filter passed for every asset.
 
-## Anti-Patterns
-- "Brand awareness campaign" with no conversion goal, no offer, no CTA
-- Social posts that end with a link but no explicit next step
-- Long-form copy without damaging admission (reads as hype)
-- Stack offer without reveal-price moment
-- Deadlines that get extended publicly (kills future urgency)
-- "We'll boost this post and see what happens" in place of a funnel
-- Premium offering given away free "for marketing"
-- Single-send launches with no follow-up sequence
+## Common Failures
+- An "awareness campaign" with no conversion goal, offer or call to action.
+- Posts ending with a link but no explicit next step.
+- Long copy with no honest concession (reads as hype).
+- A value stack with no clear price moment, or values that were never real prices.
+- Deadlines extended publicly (destroys future urgency).
+- Boosting a post "to see what happens" instead of building a funnel.
+- A premium offer given away free "for marketing".
+- A single send with no follow-up sequence.
 
-## Outputs
-- Completed Secret Formula (4 questions answered specifically)
-- Reverse-engineered revenue math (traffic → SLO → continuity/backend)
-- Value Ladder diagram (rungs, prices, margin per rung, ascension triggers)
-- Attractive Character brief (archetype, backstory, character flaws, polarity, voice rules)
-- Primary long-form asset (sales letter / VSL script / landing page copy)
-- Launch sequence (5-day Soap Opera OR 3-letter Kennedy sequence)
-- Seinfeld email calendar (12+ ongoing posts)
-- OTO bump script
-- Scarcity/urgency mechanics specification
-- 100-Visitor Test plan with per-step conversion targets
-- Integration notes for the campaign brief (`13-campaign-brief`)
+## Deliverables
+- Funnel-design answers.
+- Revenue maths from traffic to entry buyers to core and recurring buyers.
+- Offer-ladder diagram (steps, prices, margin per step, upgrade triggers).
+- Persona brief (stance, backstory, admitted weaknesses, point of view, voice rules).
+- Main long-form asset (sales letter, video script or landing copy).
+- Launch sequence (five-message story sequence or three-message follow-up).
+- Ongoing nurture calendar (12 or more notes).
+- Post-purchase offer script.
+- Urgency specification with reasons.
+- Small-batch test plan with per-step targets.
+- Integration notes for `13-campaign-brief`.
 
 ## References
-- **Brunson primary source**: See `../book-extractions/brunson-dotcomsecrets-ignite-extraction.md` — Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, 100-Visitor Test, 9 Core Funnels, Inception Awareness levels, Star-Story-Solution script, OTO Bump, Perfect Webinar, 2-Step Phone Close, Soap Opera, Seinfeld, EA/Uganda adaptation notes.
-- **Kennedy sales letter primary source**: See `../book-extractions/kennedy-ultimate-sales-letter-extraction.md` — the 28-step system, the Power of a Sequence, the Creative P.S., Beat the Price Bugaboo.
-- **Kennedy sales success**: See `../book-extractions/kennedy-no-bs-sales-success-extraction.md` — Positioning-Not-Prospecting, 5 Propositions, Takeaway Selling, Damaging Admission, 6-Step Sales Process.
-- **Kennedy price strategy**: See `../book-extractions/kennedy-no-bs-price-strategy-extraction.md` — discount discipline, price presentation, competing with free.
-- **Premium commercial writing layer**: See `../premium-commercial-writing/SKILL.md` and its references when direct-response copy must stay credible, premium-fee worthy, and search/authority aware.
+- [Funnel architecture and scripts](references/funnel-architecture-and-scripts.md) — read when making funnel-design decisions and drafting the persuasion arc, sequences, post-purchase offer, live-presentation closes or call close.
+- [Long-copy sales letter system](references/long-copy-sales-letter-system.md) — read when researching the reader, drafting, editing and testing any long sales asset or sequence.
+- [Offer, proposition and price integrity](references/offer-proposition-and-price-integrity.md) — read when designing the offer, the propositions, discount rules or the price section.
+- [Consultative sales and positioning](references/consultative-sales-and-positioning.md) — read when the funnel ends in a call, chat or meeting.
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — apply to every asset before release.
+- **Premium commercial writing layer:** see `../premium-commercial-writing/SKILL.md` when direct-response copy must stay credible and premium-fee worthy.
 
 ## Uganda / East Africa Notes
-- **WhatsApp is the primary "traffic you own" channel.** WhatsApp broadcast lists outperform email by 3–10× on open rate and 2–5× on conversion for most consumer and prosumer offers.
-- **Soap Opera maps to a 5-day WhatsApp broadcast** — use voice notes for Day 1 and Day 2 (storytelling), text+image for Day 3–4, and a combined text+voice+image CTA on Day 5.
-- **Kennedy 3-letter sequence** works on LinkedIn InMail, email, or WhatsApp for B2B decision-makers.
-- **100-Visitor Test is essential** — traffic in EA is expensive per qualified click. Don't scale a broken funnel.
-- **Model what works** — study Kenyan/Nigerian/SA info-product pages and Facebook ad libraries before inventing. Brunson's "model, don't invent" discipline applies.
-- **Scarcity mechanics** — Ugandan buyers respond especially well to cohort-based scarcity ("only 50 seats, closes 30 Nov") tied to an event or launch date.
-- **Payment mechanics** — mobile money (MTN, Airtel Money) integration is non-negotiable; any funnel requiring card-only payment cuts conversion by 50%+.
+- **WhatsApp is usually the main owned channel.** Opt-in lists often outperform email for consumer offers in the region — an unverified practitioner heuristic; test against the client's own data.
+- **Story sequences map well to a five-day WhatsApp broadcast:** voice notes for the story messages, text plus image for the benefit messages, and a combined text, voice and image call to action at the end.
+- **Three-message follow-up** works on LinkedIn, email or WhatsApp for B2B decision-makers.
+- **Test before you scale:** qualified clicks are expensive; do not scale a broken funnel.
+- **Study what already works:** Kenyan, Nigerian and South African offer pages and ad libraries — structure only, never wording.
+- **Cohort limits** ("50 seats, closes 30 November") tied to a real event or venue suit many Ugandan buyers — only when true.
+- **Payment:** mobile money (MTN, Airtel) is expected; a card-only checkout is a likely barrier — test and measure rather than assume a figure.

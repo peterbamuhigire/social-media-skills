@@ -88,182 +88,131 @@ Before generating any deliverable, ask for:
 
 ## Part 1 — What Counts as News
 
-Not everything a business does is newsworthy. Apply this filter before writing any release.
+Apply this filter before writing anything.
 
-**Genuinely newsworthy:**
-- New product, service, or business launch
-- Milestone (first client, 1,000 customers, anniversary, award)
-- Survey, study, or data you commissioned or conducted
-- A provable "first" or "biggest" in your category
-- Tie to a current national or regional news trend
-- Human-interest story (client transformation, founder origin, community impact)
-- Controversy or contrarian take on an industry issue (handled carefully)
-- Partnership, expansion, or change that affects the public
+**Worth pitching:**
+- A new product, service or business launch
+- A milestone (first client, a customer count, an anniversary, an award)
+- A survey, study or data set the client ran or commissioned
+- A provable "first" or "largest" in the category
+- A link to a current national or regional story
+- A human story (client change, founder origin, community impact)
+- A well-argued contrarian view on a sector issue (handled carefully)
+- A partnership, expansion or change that affects the public
 
-**Not newsworthy (do not pitch):**
-- General promotions or price reductions
-- Internal appointments with no public significance
-- "We're excited to announce…" — without a reason for the reader to care
-- Routine product updates
+**Not worth pitching:** routine promotions or price cuts; internal appointments with no public significance; "we're excited to announce" with no reason for the reader to care; routine product updates.
 
 ---
 
 ## Part 2 — The Standard News Release
 
-Every news release follows this format exactly.
-
     FOR IMMEDIATE RELEASE
 
-    [HEADLINE — active voice, benefit or outcome-led, present tense]
-    [SUBHEADLINE — one sentence that adds detail the headline omits]
+    [HEADLINE — active voice, outcome-led, present tense]
+    [SUBHEADLINE — one sentence adding what the headline leaves out]
 
-    [City], [Date] — [Lead paragraph: who, what, when, where, why — most important fact first.
-    Maximum two sentences. Never begin with the company name.]
+    [City], [Date] — [Lead: who, what, when, where, why — most important fact first.
+    Two sentences at most. Do not open with the company name.]
 
-    [Second paragraph: supporting detail, context, and the "so what" for the reader.]
+    [Paragraph 2: supporting detail and why it matters to the reader.]
 
-    [Third paragraph: quote from a named spokesperson — not a generic statement.
-    Quote must add information not already in the body.]
+    [Paragraph 3: a quote from a named spokesperson that adds information.]
 
-    [Fourth paragraph: further supporting detail, data, or background.]
+    [Paragraph 4: further detail, data or background.]
 
-    [Boilerplate: one paragraph beginning "About [Company Name]:" —
-    describes the business in two to three sentences.]
+    [About [Company Name]: two or three sentences.]
 
     For more information:
-    [Contact name]
-    [Email address]
-    [Phone number]
-    [Website]
+    [Contact name] · [Email] · [Phone] · [Website]
 
     ###
 
-**Rules for every release:**
-- Lead with the most important fact — not the company name
-- Active voice throughout
-- Inverted pyramid structure (most important → least important)
-- Maximum 400 words for the body
-- One quote from a named person — never "a company spokesperson said"
-- Every claim must be verifiable
-- Send plain text or PDF — never Word documents
-- Do not write the release as an advertisement
+**Rules:** most important fact first, then descending importance; active voice; body under 400 words; one quote from a named person, never "a spokesperson said"; every claim verifiable; send as plain text in the email body or as a PDF, not an editable document; never write it as an advertisement.
 
 ---
 
 ## Part 3 — The Publicity Kit
 
-A publicity kit (media kit) is sent to journalists before or alongside a pitch. It contains:
-
 | Component | Purpose |
 |---|---|
-| Biographical profile | Who you are — written in third person, 200 words |
-| Company description | What the business does, for whom, since when — 100 words |
-| Product/service overview | One page describing key offerings and differentiators |
-| Fact sheet | Key figures: founding date, team size, clients served, notable results |
-| High-resolution photography | Headshot + product/service images — minimum 300 dpi |
-| Past coverage | Copies of any articles, features, or media mentions already published |
-| Story hooks | 3–5 suggested story angles, written as headline-length ideas |
-| Interview questions | 10–15 suggested questions a journalist could ask — provided as a courtesy |
+| Biographical profile | Who the spokesperson is — third person, about 200 words |
+| Company description | What the business does, for whom, since when — about 100 words |
+| Product or service overview | One page on key offers and differences |
+| Fact sheet | Founding date, team size, clients served, verified results |
+| Photography | Headshot and product or service images at print resolution (300 dpi minimum) |
+| Past coverage | Links or copies of published coverage |
+| Story angles | Three to five headline-length ideas |
+| Suggested questions | 10–15 questions a journalist might ask |
 
-**Delivery:** Send as a single PDF or a well-organised folder. Never email 10 individual attachments.
+**Delivery:** one PDF or one tidy shared folder, never a string of separate attachments.
 
 ---
 
 ## Part 4 — Pitching Journalists
 
-### The Query Letter Structure
+### Query Letter Structure
 
-Use this to pitch a feature article, interview, or column opportunity:
+    Paragraph 1 — Hook: why this story, why now (a trend, season or issue). One or two sentences.
+    Paragraph 2 — Story: the angle, and what the reader will learn or feel. Two or three sentences.
+    Paragraph 3 — Why us: credentials or unique position to speak. One or two sentences.
+    Paragraph 4 — Practicalities: length, interview availability, materials (data, cases, photos).
+    Sign-off: name, title, phone, email.
 
-    Paragraph 1 — The hook
-    Why this story, why now? Connect to a current news trend, season, or issue
-    that makes this timely. One to two sentences.
+The letter fits on one printed page.
 
-    Paragraph 2 — The story
-    What exactly would the article or interview cover? What angle?
-    What will the reader learn or feel? Two to three sentences.
+### Media-Relations Operating Checklist
 
-    Paragraph 3 — Why you
-    Your credentials, expertise, or unique position to speak on this topic.
-    One to two sentences.
+The engine's own grouping of standard publicity practice (drawing on Hahn, 2003; Pinskey, 1997; Edwards et al., 1991).
 
-    Paragraph 4 — Practical details
-    Proposed length, your availability for interview, any supporting materials
-    (data, case studies, photography) you can provide.
-
-    Sign-off: Name, title, phone, email.
-
-**Length:** The query letter must fit on one printed page. Journalists are busy.
-
-### 22 Ways to Get Your Story Published
-*(Adapted from Hahn, 2003)*
-
-1. Learn what journalists consider newsworthy — read the publication before pitching it
-2. Find a news hook for every release — tie to current events or trends
-3. Time releases to editorial calendars and news cycles
-4. Write in inverted pyramid style — most important information first
-5. Use the standard news release format (Part 2 above) without deviation
-6. Target the right journalist — not the editor-in-chief; find the reporter who covers your beat
-7. Send exclusives for major stories — one outlet gets first rights for 48–72 hours
-8. Follow up by phone once only, 48 hours after sending
-9. Build media relationships before you need them — comment on their articles, attend press events
-10. Create a media kit and keep it permanently up to date (Part 3 above)
-11. Capitalise on national news by making your business the local or specialist angle
-12. Write opinion pieces (op-eds) as a named expert — 600–800 words, no advertising
-13. Create an "expert source" positioning for your sector — be available for comment on breaking news
-14. Use customer success stories as story angles — transformation, impact, and results
-15. Anniversaries, milestones, and firsts are news — plan releases around them in advance
-16. Create an award, index, or ranking in your category — data and recognition are both newsworthy
-17. Sponsor a survey or publish original research — data is the most shareable PR asset
-18. Host an event that creates news — a panel, launch, or public debate
-19. Make yourself available immediately when journalists are on deadline — responsiveness is rare
-20. Use trade press as a platform before targeting consumer press
-21. Register with HARO (Help a Reporter Out) or regional equivalents as an expert source
-22. Never lie, never spin — long-term media credibility is built over years and destroyed in a day
+| Area | Practice |
+|---|---|
+| Target | Read the outlet before pitching; pitch the reporter who covers the beat, not the editor-in-chief; start with trade press before consumer press |
+| Angle | Give every release a news hook; make the client the local or specialist angle on national news; turn client successes into human stories (with consent); plan anniversaries, milestones and firsts in advance |
+| Create news | Publish original research or a survey; create a transparently judged award, index or ranking; host a panel, launch or public debate that is itself news |
+| Format | Standard release format (Part 2) and inverted-pyramid writing; an always-current publicity kit (Part 3) |
+| Timing | Match editorial calendars and news cycles; offer one outlet a 48–72-hour exclusive on a major story; answer journalists on deadline immediately |
+| Relationships | Build them before you need them (read and share their work, attend media events); follow up once by phone about 48 hours after sending |
+| Expert voice | Position the spokesperson as an on-call expert source; write signed opinion pieces of 600–800 words with no advertising; register with journalist-request services (check each service's current name and terms before recommending it) |
+| Integrity | Never lie or spin; credibility with media takes years to build and one day to lose |
 
 ---
 
 ## Part 5 — Publicity Calendar
 
-Generate a 12-month publicity calendar with these columns:
+Build a 12-month calendar:
 
-| Month | News Hook or Angle | Release / Pitch Type | Target Media | Lead Time Required |
+| Month | News hook or angle | Release / pitch type | Target media | Lead time |
 |---|---|---|---|---|
-| January | New year goals / resolutions | Opinion piece | Business press | 2 weeks |
-| February | Upcoming campaigns (Valentine's) | Feature pitch | Lifestyle / consumer | 3 weeks |
+| January | New-year plans and school-term opening | Opinion piece | Business press | 2 weeks |
+| February | Seasonal campaign (Valentine's) | Feature pitch | Lifestyle / consumer | 3 weeks |
 | ... | ... | ... | ... | ... |
 
-**Rules for the calendar:**
-- Identify 2–3 newsworthy moments per quarter minimum
-- Build in 3–4 weeks of lead time for print publications
-- Flag national holidays and sector events that create natural hooks
+**Rules:** at least two or three newsworthy moments per quarter; allow three to four weeks' lead time for print; mark national holidays, budget reading, sector events and other natural hooks.
 
 ---
 
 ## Part 6 — Earned Media Tracking
 
-Track all media activity in a simple log:
-
-| Date | Outlet | Story Type | Journalist | Status | Link / Clip | Estimated Reach |
+| Date | Outlet | Story type | Journalist | Status | Link / clip | Estimated reach |
 |---|---|---|---|---|---|---|
 
-Review monthly. Calculate:
-- **Total earned media impressions** = sum of outlet reach figures for published coverage
-- **Equivalent advertising value (EAV)** = estimated cost of buying equivalent space at rate card
-- **Share of voice** = your mentions ÷ total category mentions in tracked outlets
+Review monthly and calculate:
+- **Earned impressions** = sum of reach for published coverage (state the source of each reach figure)
+- **Advertising value equivalent** = cost of equivalent paid space at rate card — report only as context, never as a measure of outcome
+- **Share of voice** = the client's mentions ÷ all category mentions in tracked outlets
 
 ---
 
 ## Quality Criteria
 
 Good output from this skill:
-1. Every news release passes the "would a journalist run this?" test — it is genuinely newsworthy
-2. The release follows the standard format exactly — inverted pyramid, no advertising language
-3. The publicity kit contains all 8 components, each at the specified word count
+1. Every release passes the "would a journalist run this?" test
+2. Releases follow the standard format — inverted pyramid, no advertising language
+3. The publicity kit contains all eight components at the stated lengths
 4. The query letter fits on one page and has a genuine time-sensitive hook
-5. The 12-month calendar identifies real, specific news moments — not generic "brand awareness"
-6. Media targets are named publications or outlet types relevant to the client's sector and geography
-7. All content is written in the professional East African English register defined in `east-african-english`
+5. The 12-month calendar names real, specific news moments, not generic "brand awareness"
+6. Media targets are named outlets or outlet types relevant to the client's sector and geography
+7. All content uses the professional register defined in `east-african-english`
 
 ---
 

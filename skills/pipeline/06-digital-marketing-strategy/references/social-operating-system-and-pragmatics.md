@@ -72,6 +72,25 @@ Use this sequence for a service issue, personal-data question or conversion that
 
 Do not use outrage, humiliation, fear, compulsive posting or misleading omission as the default growth mechanism. When a metric moves, interpret it with its denominator, audience context, content type, channel affordance, time window and likely business meaning. Record uncertainty instead of turning a raw number into a conclusion.
 
+## 6. Measure value, not visible activity
+
+Social activity includes listening, conversation, sharing, reviews, ratings, groups, messaging, advocacy and service, not only publishing. Close the loop from social activity to enquiries, sales, retention and advocacy where evidence allows. Engagement is a signal, not proof of business value: high activity can coexist with distrust, complaints or harmful attention. Every experiment carries a primary metric, a trust or safety guardrail (for example unresolved complaints, opt-outs, safety incidents, response time), a stop rule and a learning record. If a guardrail cannot be measured, mark it `not assessed` and use a bounded qualitative check.
+
+## 7. Pilots and capability ladders
+
+Start with a small listening-and-publishing pilot, learn by doing, then standardise only what has evidence. Do not recommend every platform. For creator, career and monetisation work, separate entry tasks from strategy, analytics, creative production, community operations and safety work. Any claim about income, vacancies, eligibility or payment must be sourced, dated and market-specific; reject guaranteed earnings and pay-to-access schemes.
+
+## 8. Deliberately not imported from older social-media books
+
+| Excluded item | Reason |
+|---|---|
+| Historical follower counts, adoption rates, engagement benchmarks, CPMs, platform features | Time-sensitive; use the source register or client evidence |
+| Church, US or India market conclusions presented as East African facts | Context-specific; keep only transferable operating principles |
+| Guaranteed social-media income claims | Promotional and unsupported; retained only as a risk signal |
+| A critical book's strongest causal or political conclusions as settled fact | Useful questions about incentives and power, not neutral measurement |
+| Legal, privacy or consent conclusions as certification | Current jurisdiction and counsel review remain mandatory |
+| Identical cross-posting, platform-first selection, vanity-metric success claims | Conflict with the engine's audience, strategy and measurement contracts |
+
 ## Source note
 
-The cycle, participation card and conversation guidance synthesise B1, B2, B3, B4, B6, B8 and B9 in `book-extractions/2026-08-social-media-books-kaizen-synthesis.md`. The source set includes older and sector-specific material; verify current platform, legal, market and policy claims separately.
+Operating lenses distilled for this engine in August 2026 from nine social-media texts, including Albarran, A. B. *The Social Media Industries*; Crawford, T. *Going Social*; Lines, C. J. *The Great Digital Commission*; Seymour, R. *The Twittering Machine*; Stukus, D. *Social Media for Medical Professionals*; Hoffmann, C. R. and Bublitz, W. (eds) *Pragmatics of Social Media*; Field, C. *Social Media Jobs That Pay Well* (used only as a risk signal); Bhatia, P. S. *Social Media and Mobile Marketing*; and McDonald, J. *Social Media Marketing Workbook*. The set includes older and sector-specific material; verify current platform, legal, market and policy claims separately. The pilot and re-audit record is in `docs/continuous-improvement/2026-08-social-books-learning-record.md`.

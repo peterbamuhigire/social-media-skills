@@ -96,6 +96,7 @@ Given verified metric definitions, the skill produces a dashboard specification 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [OMTM hero tile and guard-rails](../meta-social-metrics-framework/references/omtm-lines-in-the-sand-and-stage-metrics.md) — read when laying out a dashboard: one metric that matters as the hero tile with its line in the sand and trend, three to five guard-rails, everything else as drill-down.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Inputs

@@ -1,20 +1,20 @@
 {
   "name": "chwezi-social",
   "owner": { "name": "Peter Bamuhigire", "email": "peter.bamuhigire@gmail.com" },
-  "metadata": { "description": "Chwezi social media engine — social strategy, content planning, campaigns, and platform playbooks for a digital-marketing consultancy" },
+  "metadata": { "description": "Chwezi digital marketing and advertising engine — marketing and advertising strategy, media planning, creative, ad copy, paid search and social, content, campaigns, measurement and agency operations" },
   "plugins": [
     {
       "name": "social",
       "source": "./",
-      "description": "164 skills for social media consultancy work: strategy, content planning, campaign execution, and platform-native writing",
+      "description": "191 skills for digital marketing and advertising consultancy work: strategy, advertising and media planning, creative and copy, paid search and social specifications, content, measurement and agency operations",
       "version": "1.0.0",
       "author": { "name": "Peter Bamuhigire" },
       "homepage": "https://github.com/peterbamuhigire/social-media-skills",
       "repository": "https://github.com/peterbamuhigire/social-media-skills",
       "license": "MIT",
-      "keywords": ["social-media", "content-marketing", "campaigns"],
+      "keywords": ["digital-marketing", "advertising", "social-media", "content-marketing", "campaigns"],
       "category": "marketing",
-      "tags": ["social-media", "content", "marketing"],
+      "tags": ["digital-marketing", "advertising", "social-media", "content", "marketing"],
       "strict": false
     }
   ]

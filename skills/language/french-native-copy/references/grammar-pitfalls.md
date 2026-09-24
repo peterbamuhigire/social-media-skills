@@ -146,7 +146,7 @@ Beyond §8: subjunctive after expressions of **emotion** (`être ravi/désolé q
 
 ## 18. Articulateurs logiques — connectors with the right register
 
-Choosing the connector that matches register and construction is the mark of advanced French. Quick map (full tables in the extraction):
+Choosing the connector that matches register and construction is the mark of advanced French. Quick map:
 
 - **Cause**: `grâce à` + noun (positive outcome), `à cause de` + noun (negative), **`en raison de`** + noun (neutral/institutional — prefer this in sober copy), `car` (written, never sentence-initial), `comme` (always initial), `puisque` (cause already known). Two causes share one conjunction via `que`: `Comme la demande est forte et que les délais se réduisent…`.
 - **Consequence**: `c'est pourquoi`, `par conséquent` (admin), `si bien que` (+ indicative), and `Aussi` / `Ainsi` in initial position trigger **inversion**: `Aussi mettons-nous un conseiller à votre service.`
@@ -171,10 +171,21 @@ Choosing the connector that matches register and construction is the mark of adv
 - `dont` covers any simple `de` (verb, adjective, noun, quantity): `le partenaire dont vous avez besoin`, `une équipe dont l'expertise est reconnue`, `trois formules, dont deux sans engagement`. Use `duquel / de laquelle` only after a **prepositional locution** containing `de` (`au bout de`, `à l'issue de`): `l'événement à l'issue duquel un prix est remis`.
 - **Concordance in si-clauses** (never conditional/future after `si`): `si` + présent → futur; `si` + imparfait → conditionnel présent; `si` + plus-que-parfait → conditionnel passé. Avoid the **conditionnel of unverified information** in a promise (`Notre service serait le meilleur` sows doubt) → `Notre service est reconnu comme le meilleur.`
 
+## 22. Advanced mood and register checks
+
+- **Sought or uncertain antecedent → subjunctive** in the relative clause: `Nous cherchons un partenaire qui connaisse le marché` (may not exist) vs `…qui connaît le marché` (exists).
+- **Same subject → infinitive, not subjunctive**: `Nous souhaitons vous accompagner` (not `que nous vous accompagnions`); different subjects → subjunctive (`…que vous réussissiez`).
+- **No imperfect subjunctive in commercial copy**: after a past main verb keep the present subjunctive — `Nous voulions que vous soyez les premiers informés` (not `fussiez`).
+- **Adjectif verbal vs participe présent**: the adjective agrees and may change spelling (`des résultats convaincants`), the participle is invariable (`convainquant ses clients`).
+- **Conditionnel d'atténuation** softens an offer (`Vous pourriez bénéficier de…`, `Nous aimerions vous proposer…`); never use the conditional of unverified information for a promise (see §21).
+- **Register shading** for premium-but-warm copy: prefer high-standard over familiar pairs — `en revanche` over `mais`, `néanmoins/toutefois` over `pourtant`, `afin de` over `pour`, `par conséquent` over `donc`, `en raison de` over `à cause de`.
+
+**Five non-native errors to ban:** conditional or future after `si`; indicative after `bien que / pour que / afin que / avant que`; `que` instead of `dont` with a `de`-construction; subjunctive with an identical subject; `à cause de` in neutral institutional copy.
+
 ## MT smell-test (run before sign-off)
 
 1. Article restored before abstract/general nouns. 2. `pas de` after negation; `de` after quantity words. 3. Adjective endings match gender+number; colour compounds invariable (`des chaussures orange`). 4. A trigger word → subjunctive. 5. `dont` for de-verbs; `qui`=subject / `que`=object. 6. `à/de/∅` after the verb verified against the collocation list. 7. `au/en/à/aux` + country/city correct. 8. CTA register consistent (`vous`, not `tu`; `Veuillez` for max politeness). 9. Conditionnel for requests; futur simple after `dès que/quand`. 10. Past-participle agreement: être→subject, avoir→preceding direct object only.
 
 ## Source
 
-Article, agreement, negation, pronoun, relative-pronoun, and verb-construction rules distilled from Sylvie Poisson-Quinton, *French Grammar in 44 Lessons* (Level A1), and *50 Most Used French Verbs* (French Hacking); §10–§17 and the smell-test from Annie Heminway, *Practice Makes Perfect — Complete French Grammar* (McGraw-Hill), and Boulares & Frérot, *Grammaire progressive du français — Niveau avancé* (CLE). See `book-extractions/french-language-books-extraction-2026.md`.
+Article, agreement, negation, pronoun, relative-pronoun, and verb-construction rules distilled from Sylvie Poisson-Quinton, *French Grammar in 44 Lessons* (Level A1), and *50 Most Used French Verbs* (French Hacking); §10–§17 and the smell-test from Annie Heminway, *Practice Makes Perfect — Complete French Grammar* (McGraw-Hill), and Boulares & Frérot, *Grammaire progressive du français — Niveau avancé* (CLE).

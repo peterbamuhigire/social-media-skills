@@ -75,6 +75,8 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [email-copywriter](../email-copywriter/SKILL.md) is the nearest routing comparison for this skill.
+- [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — post and ad sentence patterns (three-line power paragraph).
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling captions and ads.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

@@ -226,13 +226,12 @@ Every invoice must include:
 - Maintain a float equivalent to **one month of operating costs** at all times
 - Keep business and personal bank accounts separate — even when operating as a sole trader
 
-### Tax Obligations (Uganda)
+### Tax Obligations (check, do not assume)
 
-- Consultants earning above **UGX 2,820,000 per year** are subject to Income Tax under the Income Tax Act Cap 340
-- Register with the Uganda Revenue Authority (URA) and file annual returns
-- VAT registration is required when annual turnover exceeds **UGX 150 million**
-- Retain all invoices, receipts, and payment records for a minimum of 5 years
-- Consult a qualified accountant for personal tax structuring — this playbook is operational guidance, not legal or tax advice
+- Income-tax thresholds, VAT registration thresholds, withholding tax on services and record-retention periods change with each Finance Act. Route every tax figure to `chwezi-accounting-doctrine` and the current URA (or KRA) guidance before stating it; this playbook does not supply tax figures.
+- Register with the relevant revenue authority, file returns on time and keep every invoice, receipt and payment record.
+- Ad invoices from non-resident platforms may carry VAT where no TIN is registered (Kaizen register PL-05, partial; confirm with the finance engine before budgeting).
+- This playbook is operational guidance, not legal or tax advice.
 
 ---
 
@@ -244,10 +243,10 @@ Apply this checklist to every piece of content before sending to the client for 
 - [ ] Brand voice consistent with the `04-brand-voice-intake` document for this client
 - [ ] No banned vocabulary, Americanisms, or tonal mismatches (see `east-african-english` skill)
 - [ ] All factual claims verified — no invented statistics, no unattributed data
-- [ ] Hashtags reviewed — no broken, banned, or irrelevant hashtags; maximum 5 hashtags for LinkedIn, up to 30 for Instagram
+- [ ] Hashtags reviewed — no broken, banned, or irrelevant hashtags; use the few that serve discovery and check each platform's current guidance rather than a fixed count
 - [ ] All included URLs tested — links open correctly and lead to the intended destination
-- [ ] Image dimensions correct for the platform (1080×1080 for Instagram square; 1200×628 for Facebook link posts; 1080×1920 for Stories)
-- [ ] Caption length appropriate for the platform — Facebook up to 400 characters for feed posts; LinkedIn up to 150 characters before "see more"; Instagram up to 125 characters before truncation
+- [ ] Image dimensions match the current platform specification — for Meta paid placements, 4:5 feed and 9:16 Stories/Reels with the published safe zones (Kaizen register AD-08, checked 2026-09-23); check organic and other-platform specs in the platform's help centre
+- [ ] Caption length suits the platform — keep the key message before the truncation point shown in the live preview; do not rely on remembered character limits
 - [ ] CTA included and unambiguous — every post must tell the audience what to do next
 
 ---
@@ -283,7 +282,7 @@ Apply this section when the operation has more than one person. Skip for solo pr
 | Account Manager | Client communication, content approval coordination, reporting, relationship management |
 | Content Creator | Caption writing, content calendar management, scheduling |
 | Graphic Designer | Visual assets — static posts, Stories, covers (design files, not strategy) |
-| Ads Specialist | Paid campaign setup and reporting (within retainer scope — no bidding optimisation) |
+| Ads Specialist | Paid media planning, campaign build specifications, test design, optimisation recommendations and reporting (see the `advertising/` skills); changes to live ad accounts and spend only with the client's explicit written authority |
 
 ### Delegation Rules
 
@@ -309,6 +308,8 @@ This section applies the Wardrope (2024) ROYA framework for agencies that want t
 ### The Database Reactivation (DBR) Model
 
 Every business client has a dormant contact database — past enquiries, lapsed customers, event registrants — that represents the fastest source of new revenue. The DBR model reactivates this database using AI-personalised SMS/WhatsApp before spending on paid lead generation.
+
+**Compliance gate:** a dormant list may only be messaged where the client has a lawful basis for that contact, an opt-out in every message and, where required, data-protection registration (Uganda DPPA s.26 objection right; Kenya DPA consent plus free opt-out — Kaizen register PL-01, PL-02). Check WhatsApp Business template and opt-in rules first. See `business-development/biz-dev-lawful-prospecting-outreach`.
 
 **ROYA 8-Step Process (Wardrope, 2024):**
 
@@ -361,56 +362,45 @@ Apply when pitching any AI or social media service:
 
 ---
 
-## Section 9 — 7-Figure Agency Model: Positioning, Retention, and Scale
+## Section 9 — Seven-Figure Agency Model: Growth, Retention and Scale
 
-Principles from Nelson (2018) for building a recurring-revenue agency that reaches seven figures.
+Principles from Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC. Full procedures (growth-stage ladder, MRR gap and paths table in UGX, niche test, fast-plus-slow programme design, cost-to-serve sheet, org-chart exercise, kickoff kit, monthly review agenda) are in [`references/agency-growth-roadmap.md`](references/agency-growth-roadmap.md). Agency economics and governance (client P&L, time capture, margin gate, concentration limits, creative management, account pods, meeting cost, digital asset management) are in [`references/agency-economics-and-governance.md`](references/agency-economics-and-governance.md).
 
-### Rule of Five Ones (Nelson, 2018)
-
-A seven-figure agency requires sustained focus, not diversification:
+### Rule of Five Ones (Nelson, 2019, credited by him to Taki Moore and Clay Collins)
 
 | One | Focus |
 |---|---|
-| One target market | One niche — specific enough to name (e.g. "manufacturing SMEs in Uganda") |
-| One lead generation strategy | One prospecting method mastered before adding a second |
+| One target market | One niche — specific enough to name (e.g. "private clinics in Kampala") |
+| One lead generation strategy | One method mastered before adding a second; choose one that can scale |
 | One conversion mechanism | One sales process applied consistently |
-| One programme | One core service package; no custom scope for each client |
-| One year of focus | Stick to the above for 12 months before expanding |
+| One programme | One core productised programme; no custom scope for each client |
+| One year of focus | Hold the above for 12 months; each extra niche or programme multiplies complexity |
 
-**Recurring revenue principle:** Never accept one-off project work. Auto-charge retainers only. A client that will not commit to a retainer is a client who is not ready — and not worth the operational cost of a one-off engagement.
+**Recurring revenue principle:** build around recurring programmes. Where a website or other project is needed, wrap it as the set-up phase of a recurring programme or pair it with a mandatory care or growth retainer rather than selling isolated projects. Collect by automated recurring payment (standing order, mobile-money merchant pull or direct debit); payment method is part of the business model.
 
-### Client Retention — 3-Part System (Nelson, 2018)
+### Client Retention — Kickoff, Rhythm, Seed the Vision (Nelson, 2019)
 
-"Perceived indifference" is the #1 reason clients leave — not poor results. Structure the relationship to remove all ambiguity about the agency's ongoing commitment.
+Nelson reports that clients leave mainly because of **perceived indifference**, not poor results.
 
-**Part 1 — Strong Kickoff:**
-- Comprehensive client setup meeting (30–90 minutes) within the first week of signing
-- Welcome pack: printed strategy summary, handwritten note, onboarding checklist
-- 60–90 day onboarding email sequence — weekly touchpoints with educational value, not just status updates
+**Kickoff:** client set-up sheet; a 30–90 minute launch call run by the account manager with the writer present; a 60–90 day weekly welcome sequence from different people (founder, account manager, service lead); physical welcome items (printed binder, a locally made gift, a handwritten note); something physical at least quarterly.
 
-**Part 2 — Communication Rhythm:**
-- Monthly review calls: cover performance data, what is working, what is not, and one clear recommendation
-- Weekly WhatsApp performance snapshot (for retainers UGX 2.5M+)
-- Never allow 30+ days of silence — a client who has not heard from you in a month is already looking for a replacement
+**Rhythm:** a monthly live review call — rapport, work done, results, next 30/60/90 days, seasonal questions, client homework, confirm next call; follow up last month's homework first. Log every contact attempt. Expect the "where is my return?" question around days 90–120 and change gear: show leading indicators and early wins, which is why every programme pairs a fast-signal component with a slow-compounding one.
 
-**Part 3 — Seed the Vision:**
-- Every client meeting must include a forward-looking statement about the next 30–60–90 days
-- Give clients specific homework (e.g. "Please send us three customer testimonials by Friday") — involvement increases psychological ownership
-- Re-anchor the relationship regularly: reference the original goal and show progress towards it
+**Seed the vision:** every meeting ends with the next 30/60/90 days and the client's seasonal priorities (school terms, festive seasons, Eid, harvest, tourism high season, budget reading).
 
-**CRR Formula:** ((Clients at end of period − New clients acquired) ÷ Clients at start of period) × 100. Target: 95%+ monthly CRR. Above 95% compounds into seven-figure revenue. Below 90% means the agency is filling a leaking bucket.
+**CRR formula:** ((Clients at end of period − New clients acquired) ÷ Clients at start of period) × 100. Nelson reports his agency averaging about 97% monthly retention and treats roughly 5–8% monthly attrition as natural. **Engine policy (not Nelson's):** target at least 95% monthly CRR and treat below 90% as a leaking bucket that needs a retention review before new acquisition spend.
 
-### Organisational Structure (Nelson, 2018)
+### Organisational Structure
 
 | Role | Function |
 |---|---|
-| Visionary (Owner) | Strategy, client relationships, business development, culture |
+| Visionary (Owner) | Strategy, key relationships, business development, culture |
 | Integrator (COO) | Operations, systems, team accountability, process ownership |
-| Account Manager | Client communication, retention, reporting, upsell identification |
-| Content / Delivery | Execution of the core service (content, ads, SEO, AI systems) |
+| Account Manager | Client communication, retention, reporting, growth opportunities |
+| Content / Delivery | Execution of the core programme (content, advertising, search, AI systems) |
 | Finance / Admin | Invoicing, collections, contractor management |
 
-Hire the Integrator role first — this is the most leveraged hire an owner can make. The Integrator converts the owner's vision into operational reality and frees the Visionary to focus on growth.
+The Visionary/Integrator split comes from Gino Wickman's EOS (*Traction*, 2011), recommended by Nelson. Nelson's own hiring sequence was operations first (every client launched the same way), then account management, which freed the founders to sell. Use the org-chart exercise in the growth-roadmap reference to choose the next two hires; do not pause sales when overloaded — build capacity.
 
 ### Agency Value Proposition in the AI Era (Vallaeys, 2019)
 
@@ -432,11 +422,12 @@ Output from this skill is considered complete and of acceptable quality when it 
 - Retainer tiers are presented in a table with UGX price ranges, inclusions, and target client type for all four tiers
 - The content approval protocol specifies the 48-hour turnaround rule and the two-revision-rounds policy
 - An invoicing tool is recommended and justified by team size; mandatory invoice fields are listed
-- The URA tax note references the UGX 2,820,000 income threshold and the UGX 150M VAT threshold
+- The tax note routes every figure to the finance engine and current revenue-authority guidance instead of quoting thresholds
 - The quality control checklist contains all nine items and is formatted as a tickable list
 - The reporting rhythm table covers all four report types with frequency, owner, and format
 - Section 8 AI revenue models are included when the client is building or considering AI-augmented services
-- Section 9 retention system (3-part: Kickoff, Communication Rhythm, Seed the Vision) is applied for any agency with 3+ clients
+- Section 9 retention system (Kickoff, Rhythm, Seed the Vision) is applied for any agency with 3+ clients; CRR targets are labelled as engine policy, with Nelson's reported figures cited as his experience
+- No tax threshold, platform specification or benchmark appears without a register claim ID or a stated check
 
 ---
 
@@ -448,3 +439,6 @@ Link to these related skills when producing output. Read the linked skill before
 - [`meta-reporting/SKILL.md`](../../meta-analytics-ops/meta-reporting/SKILL.md) — monthly and quarterly report generation; required for Section 6
 - [`playbook-social-media-policy/SKILL.md`](../playbook-social-media-policy/SKILL.md) — internal content governance; relevant to Section 5 quality control
 - [`meta-roi-framework/SKILL.md`](../../meta-analytics-ops/meta-roi-framework/SKILL.md) — ROI calculation for retainer justification; relevant to quarterly and annual reviews
+- [Agency growth roadmap](references/agency-growth-roadmap.md) — read when planning growth stages, niche, programmes, pricing, hiring and retention rituals
+- [Agency economics and governance](references/agency-economics-and-governance.md) — read when setting margins, client concentration limits, team structure, creative reviews, meetings and asset management
+- [Client retainer management](../playbook-client-retainer-management/SKILL.md) — scope, check-ins and value-first renewal

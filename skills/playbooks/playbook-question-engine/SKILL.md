@@ -77,8 +77,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
-- [Carter independent AI-search synthesis](../../../book-extractions/carter-new-rules-ai-search-synthesis-2026.md)
-- [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
+- [AI search and social discovery rules](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md)
+- [customer-language bank and intent map](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

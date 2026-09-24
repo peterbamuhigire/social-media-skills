@@ -71,6 +71,8 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Lawful prospecting and outreach](../biz-dev-lawful-prospecting-outreach/SKILL.md) — contact sources for the chosen niche.
+- [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md) — niche, programme and pricing decisions for the agency as a business.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
@@ -144,9 +146,22 @@ The correct niche is the overlap of all three answers. Where the answers
 diverge, prioritise question 3 — payment quality and client respect determine
 whether the work is sustainable.
 
+### Market Viability Test (Nelson, 2019)
+
+Before committing, test the candidate niche against four market questions adapted from Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC:
+
+| Question | Pass condition | East African adaptation |
+|---|---|---|
+| Does the group self-identify? | A member reads a one-line headline naming them and says "this is for me" ("plumbers" works; "contractors" did not for Nelson) | Name the trade as the market names itself (e.g. "private midwifery clinics", not "healthcare") |
+| Do they already invest in marketing? | Visible spend on search, directories, radio, billboards or social ads | Also check FM radio, outdoor, press and the Meta Ad Library |
+| Are there enough of them? | Enough firms of the right size within reach to fill the plan | Few single-country niches are large; go regional or diaspora-facing, or accept fewer, larger clients at a higher fee |
+| Is there an association? | A body with members, events and partner listings | Use it for trust and speaking; check its current data-sharing and contact rules before using any member list |
+
+Then narrow once more: a **specialty within the specialty** (dentistry → orthodontics; hospitality → conference lodges), high transaction value for the client, and fit with the consultant's own background. Own the local market with two or three proof clients before widening. Commit to the niche for 12 months; changing niche every few months resets credibility.
+
 Generate a one-paragraph niche statement that names the primary niche, explains
-why it is the right choice based on the consultant's inputs, and identifies the
-secondary niche (if any).
+why it is the right choice based on the consultant's inputs and the viability test, and identifies the
+secondary niche (if any). List prospecting sources for the niche only through [`biz-dev-lawful-prospecting-outreach`](../biz-dev-lawful-prospecting-outreach/SKILL.md).
 
 ## Section 2: USP Articulation
 The USP (Unique Selling Proposition) is the one thing that makes this

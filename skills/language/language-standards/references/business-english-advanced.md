@@ -1,6 +1,8 @@
-# Business English Advanced Masterclass — Reference Notes
+# Professional Spoken and Written English Phrase Bank
 
-Source: *Business English Speaking: Advanced Masterclass — Speak Advanced ESL Business English with Confidence & Elegance* by Marc Roche
+A task-organised phrase bank for meetings, presentations, apologies, data summaries, persuasion and common grammar checks in professional English. It is a working reference for language-standards reviews, not a summary of any book.
+
+Source consulted: Roche, M. *Business English Speaking: Advanced Masterclass*, IDM Business and Law (phrase patterns and grammar checks re-organised by task).
 
 ---
 
@@ -15,7 +17,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 4. Business Meeting and Discussion Phrases
+## 2. Business Meeting and Discussion Phrases
 
 ### Expressing Views
 - I would argue that...
@@ -104,7 +106,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 6. Presentation Skills and Memory Science
+## 3. Presentation Skills and Memory Science
 
 ### The Multi-Modal Technique
 - Combining text with visual representation improves audience memory beyond what a single channel achieves (Paivio and Csapo, 1973).
@@ -136,7 +138,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 7. The Anti-Jargon Principle
+## 4. The Anti-Jargon Principle
 
 ### Why Jargon Damages Communication
 - Business jargon creates the illusion of authority but destroys actual connection.
@@ -176,7 +178,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 8. Listener-Centred Communication
+## 5. Listener-Centred Communication
 
 ### The "What's In It For Them?" Principle
 - Every listener asks "What's in it for me?" before deciding to pay attention.
@@ -201,7 +203,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 9. Apologising in Professional Contexts
+## 6. Apologising in Professional Contexts
 
 ### The Right Approach
 - When you make a mistake, do not pretend it did not happen and do not argue. Both waste everyone's time and make you look unprofessional.
@@ -222,7 +224,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 10. Summarising Data for Meetings, Presentations and Reports
+## 7. Summarising Data for Meetings, Presentations and Reports
 
 ### The Three-Part Report Structure
 1. **Background** — brief summary of the project or situation.
@@ -254,7 +256,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 11. Persuasion Language
+## 8. Persuasion Language
 
 ### The 4 Most Persuasive Words in English
 1. **"You"** — immediately engages the reader or listener and signals relevance to them.
@@ -270,7 +272,7 @@ Full formal/informal vocabulary pairs: see `content-writing/references/business-
 
 ---
 
-## 12. Business English Phrasal Verbs (Legal and Contract Register)
+## 9. Business English Phrasal Verbs (Legal and Contract Register)
 
 These are particularly relevant for correspondence, negotiations and contracts:
 
@@ -301,9 +303,9 @@ These are particularly relevant for correspondence, negotiations and contracts:
 
 ---
 
-## 13. Critical Grammar Rules for Professional Writing (80-Rule Set)
+## 10. Critical Grammar Rules for Professional Writing
 
-These are the rules most commonly violated by ESL professionals, extracted from the full 80-rule set. Grouped by category.
+These are the rules most commonly violated by ESL professionals, selected as the checks most often needed. Grouped by category.
 
 ### People, Everyone, Everything
 - **"People" is always plural.** "People are..." not "People is..."
@@ -394,7 +396,7 @@ These are the rules most commonly violated by ESL professionals, extracted from 
 
 ---
 
-## 14. Data Communication — Vocabulary Bank
+## 11. Data Communication — Vocabulary Bank
 
 Transitions for formal reports, proposals and presentations:
 
@@ -420,7 +422,7 @@ Transitions for formal reports, proposals and presentations:
 
 ---
 
-## 15. Key Principles for East African Business English
+## 12. Key Principles for East African Business English
 
 These insights are particularly relevant for professionals writing in English as a second or additional language in an East African context:
 

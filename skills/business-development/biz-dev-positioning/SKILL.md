@@ -84,151 +84,112 @@ Before generating any deliverable, ask for:
 - Primary client type they want to attract
 - What they most want to be known for
 
-## Part 1 — The USP (Unique Selling Proposition)
-The USP is the one specific thing that distinguishes a business, product, or personal brand from every alternative available to the target client.
+## Part 1 — The Differentiating Promise (USP)
+The USP (unique selling proposition, Rosser Reeves) is the one specific thing that sets a business, product or personal brand apart from every alternative the target client could choose.
 
-*Original concept: Rosser Reeves (1950s). Applied here via Pinskey (1997).*
+**Procedure:**
+1. List every service or product.
+2. Beside each, write the concrete outcomes clients get.
+3. Choose the outcome that is both most valuable to the target client and least offered by competitors.
+4. Rewrite it in the client's own words, not internal jargon.
+5. **Competitor test:** could a direct competitor say the same sentence truthfully? If yes, sharpen it.
 
-**The USP development process:**
+**Formula:**
+> "We [specific action] for [specific client type] so that [specific outcome] — without [the obstacle or pain competitors leave in place]."
 
-1. List every service or product the business offers
-2. For each service, list the specific, tangible outcomes it delivers to clients
-3. Identify the one outcome that is both the most valuable to the target client AND the most differentiated from competitors
-4. Express it in the language the ideal client would use — not internal jargon
-5. Apply the test: **Could a direct competitor say this exact sentence?** If yes, it is not a USP. Refine.
-
-**The USP formula:**
-
-> "We [specific action] for [specific client type] so that [specific outcome] — without [key obstacle or pain the competition imposes]."
-
-**Examples:**
+**Example (illustrative):**
 - Weak: "We provide social media management services."
-- Strong: "We manage social media for Ugandan food and beverage brands so that their Facebook and WhatsApp communities generate walk-in customers — without the owner spending a single hour on content."
+- Strong: "We run social media for Ugandan food and beverage brands so their Facebook and WhatsApp communities bring in walk-in customers — without the owner spending an hour a week on content."
 
-## Part 2 — The 15-Second Pitch
-The spoken version of the USP — used at networking events, in introductions, and in discovery calls.
+## Part 2 — The Short Spoken Pitch
+The spoken form of the USP for events, introductions and discovery calls.
 
-**Structure:**
-> "[What I/we do] + [for whom] + [the specific result they get] + [why us, not someone else]"
+**Structure:** what we do + for whom + the result they get + why us. Two or three sentences, under 15 seconds.
 
-**Length:** 2–3 sentences. Delivered in under 15 seconds.
+**Preparation:** draft from the formula → say it aloud → rewrite until it sounds like conversation, not a brochure → try it at one event and note the questions it prompts.
 
-**Preparation process:**
-1. Draft the pitch using the USP formula above
-2. Say it aloud — does it sound natural, or like a brochure?
-3. Revise until it sounds like something you would say in a casual conversation
-4. Test it: deliver it at one networking event and note what follow-up questions it triggers
+**Failure checks:** opens with a job title; describes inputs ("we post three times a week") instead of outcomes; too broad ("we help businesses grow"); runs past 20 seconds.
 
-**Common mistakes:**
-- Starting with a job title ("I'm a social media manager") — labels, not value
-- Describing inputs ("We post three times a week") — outputs are what clients want
-- Being too broad ("We help businesses grow") — no differentiation
-- Being too long — if it takes more than 20 seconds, it is a sales pitch, not a pitch
+## Part 3 — Defining the Niche
+Specialisation is usually the strongest position for an independent firm. A niche must be small enough to reach and lead within the firm's time and budget, and large enough to carry the revenue the firm needs.
 
-## Part 3 — Niche Definition
-*"For the self-employed individual, finding a niche is somewhat like establishing job security."* — Edwards, Edwards and Douglas (1991)
+**Selection grid** — score each candidate client type:
 
-The most successful independent service businesses are highly specialised. A niche must be:
-- **Small enough** to avoid heavy competition and be reachable within the business's time and budget
-- **Large enough** to sustain the revenue the business requires
+| Question | Evidence |
+|---|---|
+| Which clients bring the most revenue per engagement? | Invoices |
+| Which clients refer others most? | Referral log |
+| Which work do we do best and enjoy most? | Delivery reviews, team view |
+| Where is competition thinnest? | Competitor scan |
 
-**Niche definition exercise:**
+Choose where the answers overlap.
 
-Answer these four questions:
-1. Which type of client produces the most revenue per engagement?
-2. Which type of client produces the most referrals?
-3. Which type of work do you do best and find most interesting?
-4. Where is competition least intense?
+**Narrow in layers** (illustrative):
 
-The intersection of all four answers is the natural niche.
-
-**Niche levels (from broad to specific):**
-
-| Level | Example |
+| Layer | Example |
 |---|---|
 | Sector | Healthcare |
 | Sub-sector | Private hospitals and clinics |
-| Role within sub-sector | Marketing teams in private hospitals |
+| Buyer role | Marketing leads in private hospitals |
 | Geography | Kampala and Nairobi |
-| Specific outcome | Patient acquisition through Facebook and WhatsApp |
+| Outcome | Patient bookings through Facebook and WhatsApp |
 
-The more specific, the more powerful the positioning.
+A well-defined niche states what it excludes as well as what it includes.
 
-## Part 4 — Mission and Vision Statements
-**Mission Statement** — what the business does, for whom, and the value it delivers. Present tense. Action-oriented.
+## Part 4 — Mission and Vision
+**Mission** — what the firm does, for whom and the value, in the present tense.
+Formula: "We [verb] [service or output] for [client type] so that [outcome]."
+Example: "We design and run social media strategies for East African SMEs so their online audiences become paying customers."
 
-Formula: *"We [verb] [specific service or output] for [specific client type] so that [specific outcome]."*
+**Vision** — where the firm is going, specific and dated.
+Formula: "To be [position] in [market] by [year]."
+Example: "To be the leading social media consultancy for East Africa's food and beverage sector by 2028."
 
-Example: "We design and manage social media strategies for East African SMEs so that their online presence converts audiences into paying customers."
+**Checks:** the vision is where the mission leads; both are specific enough to know when they are achieved; plain English; short enough for every staff member to remember.
 
-**Vision Statement** — where the business is heading. Future-tense. Aspirational but specific.
+## Part 5 — Strategic Positioning Checks
+Before finalising, test the positioning against five questions (a synthesis of long-standing advice for independent professionals, including Edwards, Edwards and Douglas, 1991):
 
-Formula: *"To be [specific position] in [specific market] by [specific timeframe]."*
+| Check | Pass condition | If it fails |
+|---|---|---|
+| Pull | The offer, visibility and delivery are strong enough that clients seek the firm out | Tighten the offer; fix delivery before marketing |
+| Focus | The firm is the obvious specialist for one client type and problem | Return to Part 3 |
+| Access | Named gatekeepers already trusted by the ideal client are in the plan | Build the gatekeeper list in [playbook-networking](../../playbooks/playbook-networking/SKILL.md) |
+| Standing | There is a route to recognised expertise (Part 6) | Choose a preeminence route |
+| Marketing craft | The firm uses ordinary tools unusually well — specific, consistent, audience-led — not routine ads and mailings | Rework the channel plan with the audience's evidence |
 
-Example: "To be the leading social media consultancy for the food and beverage sector across East Africa by 2028."
+## Part 6 — Preeminence Routes
+For clients, or the consultancy itself, aiming to be seen as the leading expert in their category. Pick one or two routes and commit for 12–36 months; preeminence is an investment, not a campaign.
 
-**Rules:**
-- Mission and vision must be internally consistent — the vision is where the mission leads
-- Both must be specific enough that you could describe what achieving them looks like
-- Both should be written in plain English — not corporate jargon
-- Both must be short enough to be memorised by every person in the business
-
-## Part 5 — The Five Lessons of Successful Independents
-*(Edwards, Edwards and Douglas, 1991 — synthesised from research into $100,000+ independent businesses)*
-
-These five principles distinguish the most successful independent service businesses from the rest:
-
-**Lesson 1 — Get people to beat a path to your door**
-Build such a strong reputation for delivering a specific result that clients come to you, rather than you chasing them. Requires: a clearly defined offer, consistent visibility, and exceptional delivery.
-
-**Lesson 2 — Establish a niche**
-Specialise to the point where you are the obvious expert for a specific type of client with a specific problem. Generalists struggle; specialists dominate.
-
-**Lesson 3 — Gain entrance through gatekeepers**
-Identify the professionals and institutions that already have trusted relationships with your ideal clients — and build deliberate relationships with those gatekeepers. See `playbook-networking` for the gatekeeper cultivation process.
-
-**Lesson 4 — Position yourself as preeminent in your field**
-Three routes to preeminence:
-- Further the knowledge in your field (publish, research, speak, teach)
-- Assume a leadership role (association president, conference chair, award creator)
-- Pioneer a new approach or methodology (be first, name it, own it)
-
-**Lesson 5 — Become a premier marketeer**
-Do not take out run-of-the-mill ads. Do not send customary mailings. Premier marketeers use the same tools as everyone else — but more creatively, more consistently, and with more understanding of what their specific audience responds to.
-
-## Part 6 — Preeminence Strategy
-For clients or the consultancy who want to be seen as the leading expert in their category:
-
-| Route | Specific Actions |
+| Route | Specific actions |
 |---|---|
-| **Publish** | Monthly newsletter, LinkedIn articles, trade press column, annual industry report |
-| **Speak** | Industry conferences, Chamber of Commerce events, university guest lectures |
-| **Research** | Annual survey of your sector's clients or practitioners; publish the data |
-| **Lead** | Volunteer for a leadership role in a trade or professional association |
-| **Award** | Create a sector award (e.g., "Best Customer Service in Ugandan Banking") — judge and publish |
-| **First** | Be the first to name a new problem, trend, or methodology in your category |
-
-Preeminence is built over 12–36 months. It is an investment, not a campaign.
+| **Publish** | Monthly newsletter, LinkedIn articles, trade-press column, annual sector report |
+| **Speak** | Sector conferences, chamber of commerce events, university guest lectures |
+| **Research** | An annual survey of the sector's clients or practitioners, published (consent and data-protection compliant) |
+| **Lead** | A leadership role in a trade or professional association, or chairing a conference |
+| **Recognise** | A sector award or ranking (for example a customer-service award in Ugandan banking), judged and published transparently |
+| **Pioneer** | Be first to name a new problem, trend or method in the category, then own it |
 
 ## Part 7 — Deliverables This Skill Can Generate
-1. **USP statement** — one or two sentences, tested against the competitor test
-2. **15-second pitch** — natural, spoken version of the USP
-3. **Niche definition** — sector, sub-sector, role, geography, and specific outcome
-4. **Mission statement** — 1–2 sentences
-5. **Vision statement** — 1–2 sentences
-6. **Positioning brief** — 1-page document combining all of the above for use in proposals and credentials
-7. **Preeminence action plan** — 12-month visibility building programme
+1. **USP statement** — one or two sentences that pass the competitor test
+2. **Short spoken pitch** — natural spoken version of the USP
+3. **Niche definition** — sector, sub-sector, buyer role, geography and outcome
+4. **Mission statement** — one or two sentences
+5. **Vision statement** — one or two sentences
+6. **Positioning brief** — one page combining the above for proposals and credentials
+7. **Preeminence action plan** — a 12-month visibility programme
 
 ## Quality Criteria
 Good output from this skill:
-1. The USP fails the "competitor test" — a direct competitor could NOT say the same sentence
-2. The 15-second pitch sounds natural when spoken aloud — not like marketing copy
-3. The niche is specific enough to describe what it excludes, not just what it includes
-4. The mission statement contains a subject, a verb, a client type, and an outcome
-5. The vision statement names a specific position in a specific market with a specific timeframe
-6. The preeminence plan names specific publications, events, and organisations — not generic categories
-7. All content reflects the East African market context where relevant
+1. The USP passes the competitor test — a direct competitor could not say the same sentence
+2. The spoken pitch sounds natural aloud, not like marketing copy
+3. The niche states what it excludes, not only what it includes
+4. The mission has a subject, a verb, a client type and an outcome
+5. The vision names a position, a market and a date
+6. The preeminence plan names specific publications, events and organisations
+7. Content reflects the East African market where relevant
 
 ## References
 - Edwards, P., Edwards, S. and Douglas, L.C. (1991) *Getting Business to Come to You*. Los Angeles: Tarcher.
+- Reeves, R. (1961) *Reality in Advertising*. New York: Knopf. (Origin of the USP concept.)
 - Pinskey, R. (1997) *101 Ways to Promote Yourself*. New York: Avon Books.

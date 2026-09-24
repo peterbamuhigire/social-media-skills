@@ -94,6 +94,7 @@ Given verified approved client brief plus primary or cited secondary audience ev
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Persona discipline](references/persona-discipline.md) — read when building, choosing or defending personas, or validating a provisional persona with problem interviews.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -332,7 +333,7 @@ Consult `strategy-multigenerational-digital` for the full generational trust spe
 
 ## Persona discipline (added 2026-05-04 from Branson)
 
-Canonical reference: `docs/ux-foundations.md` Section 1.
+Canonical reference: [persona discipline](references/persona-discipline.md) (summary in `docs/ux-foundations.md` Section 1).
 
 For research-grounded persona work specifically (this skill), the following rules apply on top of the shared discipline:
 

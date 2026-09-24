@@ -128,6 +128,10 @@ After an opening past clause, `-ka-` carries a built-in "and" for sequences — 
 - **Negative infinitive** `ku-to-`: `Ni bora kutochelewa.` (It's better not to be late.)
 - **Emphatic `ndi-`** ("it is indeed / the very") for branding: `Hii ndiyo bidhaa unayoitaka.` (This is the very product you want.)
 
+## Stative verbs and the -me- present state
+
+State verbs describe a condition reached, so the present state uses `-me-`, never `-na-`: `Nimechoka` (I am tired), `Kimevunjika` (it is broken), `Imepotea` (it is lost). `-na-` is present only — the future is `-ta-`. Keep the `ng'` apostrophe, and remember that possessives agree with the thing owned, not the owner.
+
 ## Source
 
-Verb structure, tense, negation, imperative, and subjunctive rules distilled from Oswald Almasi, Michael David Fallon et al., *Swahili Grammar for Introductory and Intermediate Levels (Sarufi ya Kiswahili)*, Joan Russell, *Swahili (Teach Yourself)*, and Lutz Marten & Donovan Lee McGrath, *Colloquial Swahili*. Relatives, the `-ka-` narrative, hypothetical/counterfactual conditionals, copulas (`ni/si`, `-po/-ko/-mo`, `kuna/pana/mna`, `kuwa na`), object-infix rules, the negative infinitive, and emphatic `ndi-` added in 2026 from Peter M. Wilson, *Simplified Swahili*. See `book-extractions/swahili-language-books-extraction-2026.md`.
+Verb structure, tense, negation, imperative, and subjunctive rules distilled from Oswald Almasi, Michael David Fallon et al., *Swahili Grammar for Introductory and Intermediate Levels (Sarufi ya Kiswahili)*, Joan Russell, *Swahili (Teach Yourself)*, and Lutz Marten & Donovan Lee McGrath, *Colloquial Swahili*. Relatives, the `-ka-` narrative, hypothetical/counterfactual conditionals, copulas (`ni/si`, `-po/-ko/-mo`, `kuna/pana/mna`, `kuwa na`), object-infix rules, the negative infinitive, and emphatic `ndi-` added in 2026 from Peter M. Wilson, *Simplified Swahili*.

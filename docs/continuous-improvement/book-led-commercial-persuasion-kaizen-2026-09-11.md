@@ -10,7 +10,7 @@
 
 - Added `skills/content-writing/premium-commercial-writing/references/buyer-psychology-and-social-selling.md`.
 - Linked it from premium commercial writing and routed persuasion-led captions to it.
-- Added `book-extractions/2026-09-11-commercial-persuasion-and-growth-synthesis.md`.
+- Added a short synthesis note under `book-extractions/` (retired 2026-09-23 under the no-stored-extractions rule; its five principles now live in `skills/content-writing/premium-commercial-writing/references/buyer-psychology-and-social-selling.md`).
 
 ## PDCA experiment
 

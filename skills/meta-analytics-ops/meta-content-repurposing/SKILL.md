@@ -92,6 +92,7 @@ Given verified approved source assets, the skill produces a content repurposing 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Capture for repurposing](references/capture-for-repurposing.md) — read before recording an interview or session that will be repurposed, or when designing an expert-minimum content service.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

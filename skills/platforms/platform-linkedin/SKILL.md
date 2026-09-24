@@ -11,7 +11,7 @@ metadata:
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
-For AI-search visibility work, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md). Treat its LinkedIn findings as sample-bound hypotheses; route current platform limits to official LinkedIn evidence.
+For AI-search visibility work, load [the AI search and social discovery rules (LinkedIn citation section)](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md). Treat its LinkedIn findings as sample-bound hypotheses; route current platform limits to official LinkedIn evidence.
 
 ## Evidence boundary
 

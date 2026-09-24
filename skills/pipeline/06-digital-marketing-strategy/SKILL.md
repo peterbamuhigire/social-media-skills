@@ -97,6 +97,7 @@ Given verified approved brief, the skill produces a board-ready digital marketin
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Social operating system and pragmatics reference](references/social-operating-system-and-pragmatics.md)
+- [Digital planning lenses](references/digital-planning-lenses.md) — lifecycle coverage, impact-before-budget, scenario planning, B2B demand-generation sequence and annual channel-mix review.
 - [Channel creative and service lab](references/channel-creative-and-service-lab.md) — native production, community, rights and measurable outcomes across Facebook, Instagram and TikTok.
 
 ## Integrated marketing deliverable

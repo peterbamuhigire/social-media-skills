@@ -100,6 +100,9 @@ Given verified campaign objective, the skill produces a influencer strategy, sel
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
+- [Creator due diligence, typology and pricing](references/creator-due-diligence-and-pricing.md) — read when shortlisting, vetting or budgeting creators.
+- [Influencer term sheet, brief and disclosure register](references/influencer-term-sheet-and-disclosure.md) — read before any offer, brief, contract hand-off or go-live.
+- [Creator monetisation](../../strategy/strategy-creator-monetisation/SKILL.md) — the creator-side counterpart.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -165,7 +168,7 @@ Before reaching out to any influencer, verify:
 - Their content niche is relevant to the product or service category
 - Their audience size is realistic for the tier claimed — follower counts can be inflated
 
-**Engagement rate benchmarks:**
+**Engagement rate screening heuristics** (engine-authored for East Africa, unsourced and undated — use only as a first screen; replace with platform-specific current data and the creator's own trend before any decision):
 
 | Tier | Followers | Expected Engagement Rate | Red Flag Threshold |
 |---|---|---|---|
@@ -221,7 +224,7 @@ Keep the tone warm and peer-to-peer. Avoid corporate language. Use WhatsApp DM o
 | Tier | Typical Offer |
 |---|---|
 | Nano | Product barter; free experience; gift hamper; no cash fee expected |
-| Micro | Product barter + cash fee (negotiate; typical range UGX 100K–500K per deliverable) |
+| Micro | Product barter + cash fee (build the fee with the distribution-fee + talent-fee method in the pricing reference; no fixed local rate is verified) |
 | Macro | Cash fee (negotiate); product provided in addition |
 | WhatsApp admins | Product sample or small cash fee; reciprocal promotion in your channels |
 
@@ -266,7 +269,7 @@ Use this template for all micro and macro influencer engagements. Adapt for nano
 - [e.g. Do not mention price — we will handle pricing communication separately]
 - [e.g. Do not use a filter that significantly alters the product's appearance]
 
-**Disclosure:** Clearly disclose this as a paid partnership or gifted collaboration. On Instagram, use the Paid Partnership label. On TikTok, use the Branded Content toggle. In captions, include #Ad or #Gifted. This is international best practice; local enforcement is limited but disclosure protects the influencer's credibility and the brand's reputation.
+**Disclosure:** Clearly disclose this as a paid partnership or gifted collaboration, up front, using the platform's branded-content tools **and** a plain label such as "Ad" or "Paid partnership with [Brand]". Platform tools alone may not be sufficient (US FTC Endorsement Guides, revised 2023; UK CAP/ASA and CMA influencer guide — Kaizen register AD-09, checked 2026-09-23). No influencer-specific disclosure law was found for Uganda or Kenya as of 2026-09-23 (register AD-10); apply the FTC/ASA standard as best practice and check the Uganda Communications Commission, Kenya's Communications Authority and Competition Authority, and any sector regulator (for example betting) before each campaign.
 
 **Usage rights:** By accepting this partnership, you grant [Brand Name] the right to repurpose your content on our owned social media channels for a period of [6 months / 12 months] from the date of publication. We will always credit your handle when repurposing. [Note: for formal usage rights transfer, refer to a lawyer to draft appropriate contract language.]
 
@@ -355,17 +358,17 @@ Influencer marketing derives its effectiveness from parasocial trust — the one
 
 **The authenticity imperative (Falls, 2021):** The single most important criterion when selecting an influencer is not reach or engagement rate — it is authentic fit. A creator who genuinely uses a product produces content that audiences recognise as real. A creator promoting a product they have never touched produces content audiences also recognise — and dismiss. Authentic fit requires that the brand seek creators who are already in the natural habitat of the product or service category.
 
-**Resonance over reach (Hennessy, 2018):** The influencer industry undervalued resonance for most of its early history, obsessing over follower counts. Resonance — the emotional connection and behavioural influence an influencer has with their audience — is the actual commercial variable. A micro-influencer with 15,000 deeply engaged followers in a specific niche will consistently outperform a macro-influencer with 500,000 disengaged followers on product trial and purchase metrics.
+**The buyer's selection lens (Hennessy, 2018, *Influencer*, Citadel Press):** Hennessy, who cast creators for a large magazine publisher, describes the order in which a buyer screens a creator: follower count, then engagement rate (including engagement on sponsored versus organic posts), then audience age, sex and location, then special skills and content quality (can they produce what the brief needs?), then professionalism and ease of working together (response speed, delivery history, conduct). Follower count alone never decides. The full 15-line scorecard is in [`references/creator-due-diligence-and-pricing.md`](references/creator-due-diligence-and-pricing.md).
 
-**The three-tier selection model (Hennessy, 2018):**
+**Reach, resonance and relevance (3R):** a widely used industry shorthand of uncertain origin (often associated with influencer-platform vendors). It does **not** come from Hennessy. Use it as a summary check after the scorecard:
 
 | Consideration | Primary question |
 |---|---|
 | **Reach** | Does this creator's audience include enough members of our target persona to justify the investment? |
-| **Resonance** | Do followers take action on this creator's recommendations — not just like and scroll? |
-| **Relevance** | Is the creator's content category a natural home for our product or service? |
+| **Resonance** | Do followers act on this creator's recommendations — not just like and scroll? Evidence: saves, shares, replies, clicks, code redemptions |
+| **Relevance** | Is the creator's content category a natural home for our product or service, with recent posts in that category? |
 
-All three must meet threshold before proceeding. An influencer with high Reach and Relevance but low Resonance (poor audience action rate) is a wasted investment.
+A creator weak on resonance or relevance is a poor investment whatever the reach. Do not claim that a micro-creator "will consistently outperform" a larger one; test with tracked codes and links and let the client's data decide.
 
 ### The Influencer Industry Structure (Hund, 2023)
 
@@ -394,7 +397,10 @@ Evaluate every potential partner against all five. An influencer who scores high
 
 ## Quality Criteria
 
-- Tier definitions apply EA-specific engagement benchmarks — not global averages
+- Tier definitions label EA engagement figures as unsourced screening heuristics, not benchmarks
+- Selection uses the creator due-diligence scorecard (bought audience, undisclosed past ads, hateful content and safety risk are red lines); the 3R check is not attributed to Hennessy
+- Pricing is built from distribution fee + talent fee, with usage, exclusivity and season priced explicitly; the term sheet is completed before lawyer drafting
+- Disclosure guidance cites the register (AD-09, AD-10) and keeps Uganda/Kenya items as checks
 - Audience match criteria include a clear instruction to verify audience location before committing
 - Engagement rate calculation method is specified and can be performed manually without paid tools
 - Outreach message template sounds personal and human — not corporate

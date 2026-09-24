@@ -70,3 +70,7 @@ Carry the same promise across:
 - same CTA across every platform
 - long setup before the hook
 - asking for a sale before the post has created interest or trust
+
+## Sell the next step, not just the click
+
+A CTA such as "Comment", "DM" or "Click" is not enough on its own. Tell the reader what they get, how much effort it takes and what happens next ("Reply PRICE and we'll send the three packages with delivery times — takes 10 seconds"). Match the CTA to the channel and to readiness: a caption CTA, an email CTA and a WhatsApp CTA are not interchangeable. Mine customer comments, DMs, reviews and call notes for the words that become hooks, objections and offer framing. Place proof deliberately between education posts and offer posts, and repeat it in follow-up.

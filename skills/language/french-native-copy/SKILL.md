@@ -100,4 +100,4 @@ This is the French execution layer for the social engine. It owns *how French re
 
 ## Notes
 - Francophone Africa is the default French market: target `Afrique francophone` broadly (Côte d'Ivoire, Sénégal, Cameroun, RDC, Guinée, Mali, Burkina, Gabon, Bénin, Togo…), `FCFA` currency, OHADA/SYSCOHADA frameworks where relevant — not France-centric or Québécois vocabulary. See `language-standards` for the full geographic policy.
-- Source material distilled from: Annie Heminway, *Practice Makes Perfect — Complete French Grammar*; Boulares & Frérot, *Grammaire progressive du français — Niveau avancé*; *Learn French II — Parallel Text*; and the *French–English Bilingual Visual Dictionary* (DK). See `book-extractions/french-language-books-extraction-2026.md`.
+- Source material distilled from: Annie Heminway, *Practice Makes Perfect — Complete French Grammar*; Boulares & Frérot, *Grammaire progressive du français — Niveau avancé*; *Learn French II — Parallel Text*; and the *French–English Bilingual Visual Dictionary* (DK).

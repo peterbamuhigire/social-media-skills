@@ -71,4 +71,4 @@ If the brand voice is `tu`, keep it consistently idiomatic: `Crée ton compte`, 
 
 ## Source
 
-Register, conditional politeness, and courteous-disagreement patterns distilled from Sylvie Poisson-Quinton, *French Grammar in 44 Lessons* (Level A1), and *Conversational French Dialogues* (Touri Language Learning); short-form adaptation for the social engine. See `book-extractions/french-language-books-extraction-2026.md`.
+Register, conditional politeness, and courteous-disagreement patterns distilled from Sylvie Poisson-Quinton, *French Grammar in 44 Lessons* (Level A1), and *Conversational French Dialogues* (Touri Language Learning); short-form adaptation for the social engine.

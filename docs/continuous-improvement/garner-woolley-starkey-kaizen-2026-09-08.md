@@ -22,8 +22,10 @@ approval/moderation, canonical destinations, and learning.
 
 ## Research and evidence disposition
 
-The full independent synthesis is in
-[book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md](../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md).
+The independent synthesis once stored under `book-extractions/` was retired on
+2026-09-23 under the no-stored-extractions rule. Its knowledge now lives in
+[the AI-search and social discovery rules](../../skills/ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md)
+and [the real-time content bridge and voice reference](../../skills/playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md).
 The supplied files were hash-checked and treated as tier-5 concept inputs. The
 local files are not evidence for current platform behaviour.
 

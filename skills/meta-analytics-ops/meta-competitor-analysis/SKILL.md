@@ -92,6 +92,7 @@ Given verified named competitors, the skill produces a competitor comparison and
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Competitive matrix and analysis procedure](references/competitive-matrix-and-analysis.md) — read when building the competitor list, the matrix columns and the findings brief.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

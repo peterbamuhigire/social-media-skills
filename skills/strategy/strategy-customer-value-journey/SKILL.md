@@ -86,6 +86,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [Experience map and journey layout](references/experience-map-and-journey-layout.md) — read when mapping scope level, experience phases, a user journey or the suspect-to-reference funnel matrix.
 <!-- dual-compat-end -->
 
 ## Framework Attribution

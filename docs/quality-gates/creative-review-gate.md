@@ -49,3 +49,7 @@ Score each dimension 0–3: `0 absent/unsafe`, `1 major repair`, `2 acceptable w
 - Accessibility reviewed from a script only → inspect the rendered asset, captions, timing and reading order.
 
 Use the [legal and market release gate](legal-market-release-gate.md) for the non-waivable policy and permission decision. Apply [anti-AI slop](../../skills/ai-marketing/anti-ai-slop/SKILL.md) during production and [AI slop audit](../../skills/ai-marketing/ai-slop-audit/SKILL.md) after each major iteration.
+
+## Advertising concept screen (2026-09-23)
+
+Before any advertising concept reaches a client, score it with the creative effectiveness scale, run the brief test and the responsible-creative interrogation in [creative brief and big idea](../../skills/advertising/creative-brief-and-big-idea/SKILL.md), and screen copy with [the ad copy and hook lab](../../skills/advertising/ad-copy-and-hook-lab/SKILL.md) and the [direct-marketing ethics filter](../../skills/content-writing/references/direct-marketing-ethics-filter.md). Feedback is judged against the brief, never taste; only people who have read the brief comment.

@@ -82,4 +82,4 @@ Read the French aloud. If a French friend would pause and say "on ne dit pas ça
 
 ## Source
 
-False friends, calque patterns, and borrowing conventions distilled from *2000 French Phrases* (French Hacking) and *Read & Think French, Premium* (Think French magazine), cross-checked against standard francophone usage including Québec norms; the sector calque table from the *French–English Bilingual Visual Dictionary* (DK). See `book-extractions/french-language-books-extraction-2026.md`.
+False friends, calque patterns, and borrowing conventions distilled from *2000 French Phrases* (French Hacking) and *Read & Think French, Premium* (Think French magazine), cross-checked against standard francophone usage including Québec norms; the sector calque table from the *French–English Bilingual Visual Dictionary* (DK).

@@ -23,7 +23,7 @@ class EngineQualityTests(unittest.TestCase):
     def test_zero_debt_baseline_has_no_waivers(self):
         baseline = json.loads((ROOT / "quality-baseline.json").read_text(encoding="utf-8"))
         self.assertEqual({}, baseline["failure_counts"])
-        self.assertEqual(178, baseline["active_skill_count"])
+        self.assertEqual(191, baseline["active_skill_count"])
 
     def test_fixture_types_cover_release_paths(self):
         fixtures = json.loads((ROOT / "tests" / "routing-fixtures.json").read_text(encoding="utf-8"))["fixtures"]
@@ -43,7 +43,7 @@ class EngineQualityTests(unittest.TestCase):
             # The mutable register now includes verifications through the
             # current audit date.
             # Separate synthetic tests reject future-dated verification.
-            date(2026, 9, 19),
+            date(2026, 9, 23),
         )
         self.assertEqual([], errors)
 

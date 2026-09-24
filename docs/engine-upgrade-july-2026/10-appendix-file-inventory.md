@@ -1,5 +1,7 @@
 # Appendix: Full Content Inventory
 
+> Historical snapshot (July 2026). The `book-extractions/` folder in this tree was retired on 2026-09-23 under the no-stored-extractions rule; its knowledge now lives in task-oriented skill `references/`.
+
 This inventory was captured before the audit reports were written. It excludes VCS/cache/dependency internals: `.git`, `node_modules`, `.venv`, `venv`, `__pycache__`, and `.pytest_cache`.
 
 ## Empty Directories

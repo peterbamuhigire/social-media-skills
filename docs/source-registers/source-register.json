@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-23",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -204,7 +204,7 @@
       "freshness_class": "time-sensitive",
       "support_status": "verified",
       "uncertainty": "Google does not publish an exact minimum snippet length or a page-owner marking mechanism.",
-      "verification_note": "Treat short answer blocks as a reader-focused experiment, not a fixed 40\u201360-word requirement."
+      "verification_note": "Treat short answer blocks as a reader-focused experiment, not a fixed 40–60-word requirement."
     },
     {
       "id": "PERPLEXITY-CRAWLERS-2026",
@@ -781,6 +781,282 @@
       "support_status": "verified",
       "uncertainty": "Does not establish copyright clearance or guarantee distribution.",
       "verification_note": "root independent reopening after researcher handoff; narrow content check, not account or outcome certification."
+    },
+    {
+      "id": "META-ODAX-OBJECTIVES-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; Meta Ads Manager",
+      "title": "About Meta campaign objectives",
+      "publisher": "Meta Business Help Centre",
+      "tier": 1,
+      "url": "https://www.facebook.com/business/help/1438417719786914",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "Meta campaign objective selection",
+        "paid social build specifications"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Help page renders client-side; only objective names were read.",
+      "verification_note": "Kaizen register AD-01: six objectives - Awareness, Traffic, Engagement, Leads, App promotion, Sales."
+    },
+    {
+      "id": "META-ADVANTAGE-PLUS-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; Meta Marketing API",
+      "title": "Advantage+ campaigns",
+      "publisher": "Meta for Developers",
+      "tier": 1,
+      "url": "https://developers.facebook.com/docs/marketing-api/advantage-campaigns",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "Advantage+ status",
+        "paid social campaign structure"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Ads Manager UI merge (Feb 2026) and v25/v26 release dates NOT_ASSESSED.",
+      "verification_note": "Kaizen register AD-02: Advantage+ is a state reached when Advantage+ audience, campaign budget and placements are all on; Advantage+ sales and Advantage+ app replace ASC and AAC; legacy creation blocked from Marketing API v25.0."
+    },
+    {
+      "id": "META-SPECIAL-AD-CATEGORIES-2026",
+      "domain": "legal",
+      "jurisdiction": "US, Canada and Europe targeting limits; declaration may apply globally",
+      "title": "Special ad categories",
+      "publisher": "Meta for Developers",
+      "tier": 1,
+      "url": "https://developers.facebook.com/docs/marketing-api/audiences/special-ad-category",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "housing, employment, financial and political ad declarations",
+        "targeting restrictions"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Whether Uganda- or Kenya-only campaigns must declare a category was not confirmed.",
+      "verification_note": "Kaizen register AD-03: categories are housing, employment, financial products and services, and social issues/elections/politics; restricted targeting in the US, Canada and Europe; no social-issue, electoral or political ads in the EU from 6 Oct 2025."
+    },
+    {
+      "id": "META-SIEP-AD-LIBRARY-2026",
+      "domain": "legal",
+      "jurisdiction": "Global; Meta",
+      "title": "Social issue, electoral and political ads; Ad Library",
+      "publisher": "Meta Transparency Center",
+      "tier": 1,
+      "url": "https://transparency.meta.com/policies/ad-standards/SIEP-advertising/SIEP/",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "political and social-issue ad authorisation",
+        "competitor ad research via the Ad Library"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Read via search snippets; UG/KE authorisation rules NOT_ASSESSED.",
+      "verification_note": "Kaizen register AD-04: authorisation and a verified Paid-for-by disclaimer; political ads kept in the Ad Library for 7 years; all active ads searchable."
+    },
+    {
+      "id": "GOOGLE-ADS-FORMATS-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; Google Ads",
+      "title": "Responsive search ads, Performance Max and Demand Gen",
+      "publisher": "Google Ads Help",
+      "tier": 1,
+      "url": "https://support.google.com/google-ads/answer/7684791",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "RSA asset limits",
+        "Performance Max scope",
+        "Demand Gen and Display migration"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Auto-migration date for Display campaigns not announced.",
+      "verification_note": "Kaizen register AD-05: RSA 3-15 headlines of up to 30 characters, 2-4 descriptions of up to 90, two 15-character paths; Performance Max runs across Google inventory with negatives, brand exclusions, search themes and channel reporting; Display campaigns moving into Demand Gen (announced 2026-05-26)."
+    },
+    {
+      "id": "TIKTOK-AD-OBJECTIVES-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; TikTok Ads Manager",
+      "title": "Choose the right advertising objective",
+      "publisher": "TikTok Ads Help",
+      "tier": 1,
+      "url": "https://ads.tiktok.com/help/article/choose-right-objective",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "TikTok objective selection"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Source last updated Apr 2025; Smart+ and GMV Max NOT_ASSESSED.",
+      "verification_note": "Kaizen register AD-06: Reach; Traffic, Video views, Community interaction, Branded Mission; App promotion, Lead generation, Sales."
+    },
+    {
+      "id": "LINKEDIN-ADS-OBJECTIVES-TLA-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; LinkedIn Campaign Manager",
+      "title": "LinkedIn objectives and Thought Leader Ads",
+      "publisher": "LinkedIn Help",
+      "tier": 1,
+      "url": "https://www.linkedin.com/help/lms/answer/a1399568",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "LinkedIn objective selection",
+        "Thought Leader Ads"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Eligible post types may change.",
+      "verification_note": "Kaizen register AD-07: objectives by funnel stage; Thought Leader Ads can sponsor posts by employees, creators and other members with the author's approval."
+    },
+    {
+      "id": "META-CREATIVE-SPECS-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; Meta Ads Guide",
+      "title": "Meta Ads Guide image and video specifications",
+      "publisher": "Meta Business",
+      "tier": 1,
+      "url": "https://www.facebook.com/business/ads-guide/update/image/facebook-feed",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "feed 4:5 and Stories/Reels 9:16 specifications",
+        "safe zones"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Specifications change; recheck before production.",
+      "verification_note": "Kaizen register AD-08: feed 4:5 at 1440x1800; Stories and Reels 9:16 at 1440x2560; keep about 14% top, 35% bottom and 6% each side free of text, logos and key elements. The retired 20%-text rule is not current guidance."
+    },
+    {
+      "id": "FTC-ENDORSEMENTS-REVIEWS-2026",
+      "domain": "legal",
+      "jurisdiction": "United States",
+      "title": "FTC Endorsement Guides and Consumer Reviews and Testimonials Rule",
+      "publisher": "US Federal Trade Commission",
+      "tier": 1,
+      "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "influencer disclosure (US)",
+        "fake reviews and fake indicators of influence"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "US jurisdiction only.",
+      "verification_note": "Kaizen register AD-09: unavoidable disclosure of material connections on social media; 16 CFR Part 465 (in force 21 Oct 2024) bans fake reviews and buying or selling fake indicators of social-media influence."
+    },
+    {
+      "id": "UK-ASA-CMA-INFLUENCER-2026",
+      "domain": "legal",
+      "jurisdiction": "United Kingdom",
+      "title": "Influencers' guide to making clear that ads are ads; DMCC Act enforcement",
+      "publisher": "ASA/CAP and CMA",
+      "tier": 1,
+      "url": "https://www.asa.org.uk/resource/influencers-guide.html",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "influencer disclosure (UK)"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "ASA guide is being updated; exact label wording in the PDF was not opened.",
+      "verification_note": "Kaizen register AD-09: label ads clearly and upfront; CMA can directly fine up to 10% of global turnover since 6 Apr 2025."
+    },
+    {
+      "id": "UG-KE-INFLUENCER-DISCLOSURE-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda; Kenya",
+      "title": "Influencer disclosure position in Uganda and Kenya",
+      "publisher": "Kaizen register (T3 news; no T1 found)",
+      "tier": 3,
+      "url": "https://www.vividvoicenews.com/2026/05/15/uganda-moves-to-regulate-social-media-influencers-as-digital-economy-expands/",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "UG/KE influencer disclosure checks"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "Kenya T1 NOT_ASSESSED; T3 source only.",
+      "verification_note": "Kaizen register AD-10: no influencer-specific disclosure law found in Uganda or Kenya as of 2026-09-23; Uganda discussion only; Kenya general consumer, competition, KICA and data-protection law applies. Apply FTC/ASA-standard disclosure as best practice and check UCC, CA, CAK and BCLB before any campaign."
+    },
+    {
+      "id": "GOOGLE-CONSENT-MODE-GA4-2026",
+      "domain": "legal",
+      "jurisdiction": "EEA, UK and Switzerland; Google tags",
+      "title": "Consent mode v2 and GA4",
+      "publisher": "Google Tag Manager and Analytics Help",
+      "tier": 1,
+      "url": "https://support.google.com/tagmanager/answer/13695607",
+      "verified_on": "2026-09-23",
+      "review_every_days": 181,
+      "next_review": "2027-03-23",
+      "use_for": [
+        "consent-aware measurement",
+        "conversion tracking for EU-facing campaigns"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "March 2024 enforcement date partial; not a legal requirement in Uganda or Kenya.",
+      "verification_note": "Kaizen register CW-10: EEA/UK/CH traffic needs consent signals including ad_user_data and ad_personalization; advanced mode enables modelling; GA4 is Google's only Analytics product."
+    },
+    {
+      "id": "DATAREPORTAL-UG-KE-2026",
+      "domain": "market",
+      "jurisdiction": "Uganda; Kenya",
+      "title": "Digital 2026: Uganda and Digital 2026: Kenya",
+      "publisher": "DataReportal (Kepios)",
+      "tier": 2,
+      "url": "https://datareportal.com/reports/digital-2026-uganda",
+      "verified_on": "2026-09-23",
+      "review_every_days": 60,
+      "next_review": "2026-11-22",
+      "use_for": [
+        "platform ad-reach context for media planning"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Ad reach is not users; not comparable year on year.",
+      "verification_note": "Kaizen register MK-01/MK-02: published 8 Nov 2025. Uganda Meta ad reach was measured while Facebook was blocked - use it as a floor, not an audience size. No WhatsApp ad-reach figure exists (MK-03 NOT_ASSESSED)."
+    },
+    {
+      "id": "UG-DIGITAL-TAX-ADS-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "VAT on non-resident digital services and digital services tax",
+      "publisher": "EY tax alert (T3); route to chwezi-accounting-doctrine",
+      "tier": 3,
+      "url": "https://www.ey.com/en_gl/technical/tax-alerts/uganda-issues-tax-amendment-acts-for-2025",
+      "verified_on": "2026-09-23",
+      "review_every_days": 91,
+      "next_review": "2026-12-23",
+      "use_for": [
+        "ad budget tax allowance check (finance engine)"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "T3 only; Act text and URA notice not opened.",
+      "verification_note": "Kaizen register PL-05: 18% VAT on non-resident digital services including online ads unless a TIN is registered; DST mechanics must be checked by the finance engine before use."
     }
   ]
 }

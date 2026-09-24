@@ -19,6 +19,10 @@ Analysis, audit, critique, review, planning, and diagnostics default to read-onl
 
 Decision tables name the condition, action, and failure or risk avoided. Workflows include ordered decisions, stop conditions, and correction or rerun behaviour. Anti-patterns contain at least five concrete failures, each paired with `Fix:`.
 
+## Source material and copyright
+
+Book knowledge enters only as task-oriented skill content and `references/`; no book extractions or summaries are stored in the repository. Reference files must not be single-book digests. Synthesise across sources into the engine's own task structure (inputs, decision rules, procedures, templates, checklists, localised original examples), in your own order and wording. Do not reproduce a book's numbered lists in its sequence, an author's full catalogue of beat/step/strategy names, book case studies or near-verbatim text, or "Strategy N" / chapter numbering. Name a framework with a brief attribution (for example "value ladder (Brunson)") and apply it; cite sources briefly as Author (Year) *Title*, Publisher. Quotes stay at or under 25 words and are rare. Volatile facts come from the dated source register or are written as checks.
+
 ## Authoring and release
 
 Start from [the local template](../templates/SKILL.template.md). Preserve the skill's domain content; do not replace it with generic compatibility prose. Run:

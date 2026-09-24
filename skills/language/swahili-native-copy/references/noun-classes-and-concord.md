@@ -104,4 +104,4 @@ No inflection — use a surpass-word after the statement: **`kuliko`** (most com
 
 ## Source
 
-Noun-class and concord rules distilled from Oswald Almasi, Michael David Fallon et al., *Swahili Grammar for Introductory and Intermediate Levels (Sarufi ya Kiswahili)*, and Joan Russell, *Swahili (Teach Yourself)*. Quantifiers (`-enye`, `-enyewe`, `-ote`, `-o -ote`, `-ingine`), noun-phrase word order, the reference demonstrative, and comparatives added in 2026 from Peter M. Wilson, *Simplified Swahili*. See `book-extractions/swahili-language-books-extraction-2026.md`.
+Noun-class and concord rules distilled from Oswald Almasi, Michael David Fallon et al., *Swahili Grammar for Introductory and Intermediate Levels (Sarufi ya Kiswahili)*, and Joan Russell, *Swahili (Teach Yourself)*. Quantifiers (`-enye`, `-enyewe`, `-ote`, `-o -ote`, `-ingine`), noun-phrase word order, the reference demonstrative, and comparatives added in 2026 from Peter M. Wilson, *Simplified Swahili*.

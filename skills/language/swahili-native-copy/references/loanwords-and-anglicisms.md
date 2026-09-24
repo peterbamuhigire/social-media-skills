@@ -93,4 +93,4 @@ Native-form variants also seen and acceptable: `online` → `mkondoni` (alongsid
 
 ## Source
 
-Loanword integration, orthography, and calque patterns distilled from Joan Russell, *Swahili (Teach Yourself)*, Lutz Marten & Donovan Lee McGrath, *Colloquial Swahili*, and standard `Kiswahili sanifu` usage in *Swahili Grammar (Sarufi ya Kiswahili)* (Almasi, Fallon et al.). Tanzania/Kenya term differences and native-form variants added in 2026 from the *Rough Guide Phrasebook — Swahili* (Lexus). See `book-extractions/swahili-language-books-extraction-2026.md`.
+Loanword integration, orthography, and calque patterns distilled from Joan Russell, *Swahili (Teach Yourself)*, Lutz Marten & Donovan Lee McGrath, *Colloquial Swahili*, and standard `Kiswahili sanifu` usage in *Swahili Grammar (Sarufi ya Kiswahili)* (Almasi, Fallon et al.). Tanzania/Kenya term differences and native-form variants added in 2026 from the *Rough Guide Phrasebook — Swahili* (Lexus).

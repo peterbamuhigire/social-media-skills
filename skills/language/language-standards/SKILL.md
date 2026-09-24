@@ -64,7 +64,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-- [Human English and reader-centred craft](../../../book-extractions/human-english-craft-synthesis-2026.md) governs the English reader, genre, grammar, rhythm, and proof layer.
+- [Human English and reader-centred craft](references/human-english-craft-standard.md) governs the English reader, genre, grammar, rhythm, and proof layer.
 <!-- dual-compat-end -->
 
 All website copy, headings, CTAs, descriptions, and microcopy must follow this style guide for their respective language. Cross-cutting standard — applied throughout every content-writing step.
@@ -480,7 +480,7 @@ Kiswahili communication culture emphasizes relationships:
 
 **Cross-cutting** — applies to all visible website text, meta descriptions, alt text, form labels, error messages, email templates, and microcopy in all enabled languages.
 
-**Extended reference:** `references/business-english-advanced.md` — phrase banks (meetings, presentations, apologies, formal correspondence), 80 ESL grammar rules, register-switching guidance, and anti-jargon rewrites.
+**Extended reference:** `references/business-english-advanced.md` — phrase banks (meetings, presentations, apologies, formal correspondence), a selection of ESL grammar rules, register-switching guidance, and anti-jargon rewrites.
 
 ## Integration with Other Skills
 - **Native-copy execution skills (mandatory for French & Kiswahili)**: this skill owns the cross-language tone policy, but native-quality execution belongs to the dedicated skills. Route to **`french-native-copy`** for any French caption/ad/bio and **`swahili-native-copy`** for any Kiswahili one; use **`east-african-english`** for English. Do not produce French or Kiswahili copy by raw translation — the native-copy skills are required for those languages and carry the deeper grammar, idiom, register, and typography references.

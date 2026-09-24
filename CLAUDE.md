@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This repository is a complete documentation and deliverable toolkit for running a professional social media and digital marketing consultancy. Skills produce every document in the consultancy lifecycle: credentials, proposals, strategies, content plans, platform playbooks, presentation decks, reports, and training guides.
+This repository is the Chwezi **digital marketing and advertising** consultancy engine (the repository keeps its historical name, `social-media-skills`). Skills produce every document in the consultancy lifecycle — credentials, proposals, marketing and advertising strategies, media plans, budgets, creative briefs and concepts, ad copy, campaign build specifications, content plans, platform and paid-media playbooks, testing and scaling plans, measurement and attribution frameworks, reports and training guides — and the agency's own operating system (prospecting, pricing, retention and key-account management).
 
-**This suite is content-only.** No web development, graphic design, video editing, or paid ad campaign management (bidding/creative testing). Skills generate text documents, structured plans, and slide outlines — not files, code, or designs.
+**Scope boundary.** The engine plans, specifies, writes, audits and reports. It covers advertising strategy, media planning, budgeting, creative briefs and concepts, ad copy, campaign build specifications, testing and scaling logic, optimisation recommendations and reporting across paid search, paid social, display/video, audio, outdoor and direct response. **Spending money, changing live ad accounts, publishing or contacting people still requires explicit, action-specific client authority.** Finished visual execution hands off to `design-system-skills`; website implementation hands off to `website-skills` through the channel-to-site journey handoff (`skills/advertising/ad-to-site-journey-handoff/`); formal tenders to `proposal-skills`; business and full marketing plan documents to `business-plan-skills`; tax, accounting and financial statements to `chwezi-accounting-doctrine`; current facts to `digital-research-engine`. Skills generate text documents, structured plans, specifications and slide outlines — not code, builds or finished designs.
 
 ## Active Roadmap
 
@@ -40,6 +40,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | `playbook-` | Execution playbooks | playbook-crisis-communications |
 | Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `design-system-skills` | No standalone deck route is active |
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
+| `advertising/` skills (plain names) | Advertising strategy, media, creative, copy, search, testing, attribution | advertising-strategy-and-budget, media-planning, ad-copy-and-hook-lab |
 | `training-` | Training guides | training-client-team, training-diy-content |
 | Plain name | Utility / generation | caption-writer, hashtag-strategy, blog-post-writer |
 
@@ -60,7 +61,8 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `platforms/` | `platform-*` per-channel plans |
 | `playbooks/` | `playbook-*` execution SOPs |
 | `policies/` | `policy-*` governance and compliance |
-| `strategy/` | `strategy-*` plus `owned-media-strategy`, `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling` |
+| `strategy/` | `strategy-*` plus `owned-media-strategy`, `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
+| `advertising/` | Advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
 | `sectors/` | Sector-specific social media skills — `healthcare` (first); future: financial services, education, hospitality, NGO |
@@ -107,8 +109,8 @@ If another market is specified, replace those assumptions rather than keeping Ug
 
 | Platform | Role in EA |
 |---|---|
-| WhatsApp | Dominant messaging; 90%+ smartphone users; primary for customer comms |
-| Facebook | Largest social platform; all demographics |
+| WhatsApp | Primary customer-communication channel (hypothesis; no verified UG/KE usage figure exists — register MK-03 NOT_ASSESSED, so never state a percentage) |
+| Facebook | Broad reach and community; in Uganda, Meta ad-reach figures were measured while Facebook was blocked — treat them as a floor (register MK-02) |
 | Instagram | Urban, 18–35, aspirational content |
 | TikTok | Fast-growing, 16–30, entertainment-first |
 | YouTube | Research, tutorial, long-form video |
@@ -130,18 +132,26 @@ Apply where relevant; cite on first use:
 - **ROI formula** — (TLV − COCA) ÷ COCA — Bodnar and Cohen (2012)
 - **Playing to Win** — where to play / how to win logic for strategic choice
 - **Good Strategy/Bad Strategy** — diagnosis, guiding policy, coherent action
-- **Kennedy + Brunson direct-response** — whenever a brief requires *selling* (not awareness), use `direct-response-funnel-copy` and the `book-extractions/` Kennedy + Brunson files (Secret Formula, Value Ladder, 3 traffic types, 7 phases of a lead, Star-Story-Solution, Perfect Webinar, Soap Opera, Kennedy 28-step letter, 5 Propositions, Takeaway Selling, Creative P.S.). These are the canonical references for info-product, coaching, high-ticket service, membership, event, and webinar funnels.
+- **Kennedy + Brunson direct-response** — whenever a brief requires *selling* (not awareness), use `direct-response-funnel-copy` and its `references/` (funnel architecture and scripts, long-copy sales-letter system, offer/proposition and price integrity, consultative sales and positioning), always with `skills/content-writing/references/direct-marketing-ethics-filter.md`.
+- **Advertising doctrine** — 4-level measurement (message, communication, media, business), budget triangulation with a minimum-effective floor, reach/frequency/GRP media maths, the strategic creative brief and effectiveness scale, lines in the sand and the retest→extend→roll-out ladder. Start at `skills/advertising/advertising-strategy-and-budget/SKILL.md`.
+- **Channel choice** — Bullseye across all 19 traction channels (`strategy/traction-channel-bullseye`) before assigning roles within social (`strategy-channel-architecture`).
 
 **Key references to cite:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*
 - Kotler, P. et al. (2023) *Marketing Management*
-- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*
-- Kennedy, D. (2004) *No B.S. Sales Success*
-- Kennedy, D. (2000) *The Ultimate Sales Letter*
-- Brunson, R. (2013) *DotComSecrets Ignite*
+- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*; Kennedy, D. (2004) *No B.S. Sales Success*; Kennedy, D. (2000) *The Ultimate Sales Letter*; Brunson, R. *DotComSecrets Ignite*
+- Kelley, L. D. and Sheehan, K. B. (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge
+- Landa, R. (2022) *Strategic Creativity*, Routledge
+- Serling, B. (2002) *How to Write Million Dollar Ads, Sales Letters & Web Marketing Pieces*, The Internet Marketing Center
+- Stockwell, J. and Shaw, H. M. (1994) *Direct Marketing Checklists*, NTC Business Books
+- Weinberg, G. and Mares, J. (2014) *Traction*, S-curves Publishing; Croll, A. and Yoskovitz, B. (2013) *Lean Analytics*, O'Reilly
 
----
+## Book extractions are never stored in this repository (owner rule, 2026-09-23)
+
+Do not create `book-extractions/`, book summaries or "extraction" files anywhere in this repository. Book knowledge lands only as task-oriented skill content and `references/` files (procedures, checklists, templates, decision rules, phrase banks) with a short citation (Author (Year) *Title*, Publisher). Paraphrase; quotes stay at or under 25 words. `scripts/source_ingestion_guardrail.py` fails any file under a book-extraction path.
+
+Reference files must not be single-book digests. Synthesise across sources into the engine's own task structure (inputs, decision rules, procedures, templates, checklists, localised original examples), in your own order and wording. Do not reproduce a book's numbered lists in its sequence, an author's full catalogue of beat/step/strategy names, book case studies or near-verbatim text, or "Strategy N" / chapter numbering. Name a framework with a brief attribution (for example "value ladder (Brunson)") and apply it; cite sources briefly as Author (Year) *Title*, Publisher.
 
 ## Deck outline format
 
@@ -174,6 +184,8 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 | `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
 | `blog-idea-generator` | `skills/content-writing/blog-idea-generator/` | Generate blog topic ideas and content briefs |
 | `platform-linkedin-company-pages` | `skills/platforms/platform-linkedin-company-pages/` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
+| `advertising-strategy-and-budget` | `skills/advertising/advertising-strategy-and-budget/` | Entry point for advertising strategy, budget triangulation, measurement architecture and agency–client governance |
+| `direct-marketing-ethics-filter` | `skills/content-writing/references/direct-marketing-ethics-filter.md` | Canonical ethics filter for ads, offers, outreach and influencer work |
 | `anti-ai-slop` | `skills/ai-marketing/anti-ai-slop/` | MANDATORY pre-ship guardrail — ship-gate checklist run on every generated social output so it cannot read as AI slop |
 | `ai-slop-audit` | `skills/ai-marketing/ai-slop-audit/` | Auto-run detector — grades any social artefact (A/B/C/F) for AI slop with evidenced findings and concrete fixes |
 
@@ -181,11 +193,11 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 
 ## Out of Scope
 
-- Actual graphic design or visual asset production
+- Finished graphic design or visual asset production (route to `design-system-skills`)
 - Video editing or video production
-- Paid ad campaign management (bidding, targeting, creative testing)
-- Web design or web development (separate suite)
-- Influencer contracts or payments (legal territory — refer to a lawyer)
+- Executing spend, changing live ad accounts, publishing or contacting people without explicit client authority (planning, specification, optimisation recommendations and reporting ARE in scope)
+- Web design or web development (route to `website-skills` via the journey handoff)
+- Legal advice or certification — influencer and advertising agreements get a pre-lawyer term sheet here; counsel drafts and approves
 
 ## Upgrade Priority
 

@@ -99,4 +99,4 @@ The first line is the whole game — it shows before "… plus". Native French h
 
 ## Source
 
-Connectors, collocations, CTA conventions, and idiom distilled from *2000 French Phrases* (French Hacking), *Conversational French Dialogues* (Touri Language Learning), and *Read & Think French, Premium* (Think French magazine); the native craft tells, extra connectors, and story-driven phrasing from *Learn French II — Parallel Text* (Polyglot Planet); hook and hashtag conventions adapted for the social engine. See `book-extractions/french-language-books-extraction-2026.md`.
+Connectors, collocations, CTA conventions, and idiom distilled from *2000 French Phrases* (French Hacking), *Conversational French Dialogues* (Touri Language Learning), and *Read & Think French, Premium* (Think French magazine); the native craft tells, extra connectors, and story-driven phrasing from *Learn French II — Parallel Text* (Polyglot Planet); hook and hashtag conventions adapted for the social engine.

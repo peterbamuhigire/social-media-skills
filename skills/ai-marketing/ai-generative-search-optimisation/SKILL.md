@@ -14,7 +14,7 @@ Use this skill to plan evidence-bounded discoverability across AI answers,
 search, social profiles, communities, and the destination a customer uses next.
 It is a planning and audit route, not a promise of inclusion, ranking, or sales.
 
-Load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md)
+Load [the AI search and social discovery rules (LinkedIn citation section)](references/ai-search-and-social-discovery-rules.md)
 when the brief includes the report's LinkedIn or citation findings. Preserve
 the study scope and use the findings as test hypotheses, never as platform laws.
 
@@ -115,7 +115,7 @@ remain `NOT_ASSESSED`.
 9. Standardise only a demonstrated improvement in the skill, reference,
    template, source register, fixture, or gate. Record the next re-audit.
 
-Use the [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
+Use the [customer-language bank and intent map](references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 to add three checks to the slice: the outside-in customer journey, an
 intent/customer-language map, and a recognisable human voice. Retain native
 adaptation, source/rights/approval handoffs, moderation, and a correction path;
@@ -166,8 +166,8 @@ authority.
 
 ## References
 
-- [Carter independent synthesis](../../../book-extractions/carter-new-rules-ai-search-synthesis-2026.md)
-- [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
+- [AI search and social discovery rules](references/ai-search-and-social-discovery-rules.md)
+- [customer-language bank and intent map](references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 - [Social source register](../../../docs/source-registers/source-register.json)
 - [Digital Research currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md)
 - [Digital Research source evaluation](../../../../digital-research-engine/skills/source-evaluation/SKILL.md)

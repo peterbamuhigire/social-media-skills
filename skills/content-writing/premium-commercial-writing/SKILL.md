@@ -71,6 +71,8 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
+- [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — sentence patterns for posts, ads, emails, pages, rate cards and plans.
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling copy.
 - [Buyer psychology and social selling](references/buyer-psychology-and-social-selling.md) for ethical choice architecture, proof, memory cues, channel adaptation, and conversion guardrails.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->

@@ -94,6 +94,7 @@ Given verified completed 00-client-intake answers and unresolved follow-up respo
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [UX strategy and product lenses](references/ux-strategy-and-product-lenses.md) — read at intake when the brief involves a digital product or website-led campaign, or when stakeholders disagree about "good design".
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -352,14 +353,14 @@ Add a **Consultant Notes** field at the bottom: flag any ambiguities, missing in
 
 Three checks to apply during intake — before scoping or pricing:
 
-### 1. Top-10 Not-UX-Strategies anti-pattern check (Levy)
+### 1. Brief-screening check ("is this a strategy yet?")
 
-See `docs/ux-foundations.md` Section 2 for the full list. During intake, score the client's stated goal against the Top-10. If the goal matches any anti-pattern, push back before scoping. Document the pushback in the brief itself under a "Brief filters applied" subsection so future audits can trace the conversation.
+Run the brief-screening table in [UX strategy and product lenses](references/ux-strategy-and-product-lenses.md) §1 (summary in `docs/ux-foundations.md` Section 2): business case, customer evidence, distinctiveness, capability fit, adaptability and whole-experience coverage. Any "no" becomes an intake question before scoping. Document the result under a "Brief filters applied" subsection so future audits can trace the conversation.
 
-Most common matches in social-media intakes:
-- "We need a killer Instagram strategy" → matches #1 (a killer idea) — push back, ask what problem the client is solving
-- "We want viral content" → matches #5 (motivational generic) — push back, ask which persona for what action
-- "We just need posts that look like [trending brand]" → matches #4 (buzzword permutation) — push back, ask what differentiated promise
+Common social-media intake requests and the screen they fail:
+- "We need a killer Instagram strategy" → an idea, not a business case — ask what result it must move and for whom
+- "We want viral content" → no customer evidence or action — ask which persona should do what
+- "Posts that look like [trending brand]" → no distinctiveness — ask what promise only this client can make
 
 ### 2. Three Levels of UX Scope declaration (Deacon)
 

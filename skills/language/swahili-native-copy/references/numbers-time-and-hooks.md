@@ -67,7 +67,7 @@ Months: `Januari, Februari, Machi, Aprili, Mei, Juni, Julai, Agosti, Septemba, O
 
 - `…na robo` = quarter past (`saa saba na robo` = quarter past 1:00 Western).
 - `…u nusu` / `…na nusu` = half past (`saa kumi na moja u nusu` = 5:30 p.m.).
-- `…kasoro robo` = quarter to (`saa nane kasoro robo` = quarter to 2:00 Western, i.e. 7:45 a.m.).
+- `…kasoro robo` = quarter to (`saa nane kasoro robo` = a quarter to *saa nane* (2 o'clock international), i.e. 1:45 international time; add the day-part word — `mchana` for 1:45 p.m., `usiku` for 1:45 a.m.).
 - `…na dakika tano` = five past; `…kasoro dakika ishirini` = twenty to.
 - "What time is it?" → `Ni saa ngapi?` / `Saa ngapi sasa?` "What time do you open/close?" → `Unafungua / Inafungwa saa ngapi?`
 
@@ -81,4 +81,4 @@ Months: `Januari, Februari, Machi, Aprili, Mei, Juni, Julai, Agosti, Septemba, O
 
 ## Source
 
-Number agreement, the Swahili clock, days, months, and date conventions distilled from Joan Russell, *Swahili (Teach Yourself)*, *Swahili (Spoken World)* (Living Language), and *Swahili Grammar (Sarufi ya Kiswahili)* (Almasi, Fallon et al.); currency conventions per Tanzanian and Kenyan usage. Telling-time fractions, ordinals concord, and price/money vocabulary added in 2026 from the *Rough Guide Phrasebook — Swahili* (Lexus) and Peter M. Wilson, *Simplified Swahili*. See `book-extractions/swahili-language-books-extraction-2026.md`.
+Number agreement, the Swahili clock, days, months, and date conventions distilled from Joan Russell, *Swahili (Teach Yourself)*, *Swahili (Spoken World)* (Living Language), and *Swahili Grammar (Sarufi ya Kiswahili)* (Almasi, Fallon et al.); currency conventions per Tanzanian and Kenyan usage. Telling-time fractions, ordinals concord, and price/money vocabulary added in 2026 from the *Rough Guide Phrasebook — Swahili* (Lexus) and Peter M. Wilson, *Simplified Swahili*.

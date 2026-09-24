@@ -4,6 +4,9 @@
 **Books analysed:** 3
 **Method:** Full PDF extraction and synthesis by specialist agent; gaps cross-referenced against the existing skill suite.
 
+> Status (2026-09-23): historical planning record. It names books and frameworks and records the build plan; it is not a store of book content. Current guidance lives in the skills named below. Any statistic mentioned here is a book-era claim, not a benchmark.
+> The deck skill named below no longer exists (deck presentation routes to `design-system-skills`), and the 3M/Wharton visual-persuasion percentages are not used as evidence anywhere in the engine.
+
 ---
 
 ## Books Analysed

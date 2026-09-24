@@ -36,9 +36,10 @@ evidence remain `NOT_ASSESSED`.
 
 ## Research disposition
 
-The [social synthesis](../../book-extractions/carter-new-rules-ai-search-synthesis-2026.md)
-records package coverage, hash, publisher metadata corroboration, and mirror
-limitations. The [social source register](../source-registers/source-register.json)
+The social synthesis that recorded package coverage, hash, publisher metadata
+corroboration and mirror limitations was retired on 2026-09-23 under the
+no-stored-extractions rule; its operating rules now live in
+[the AI-search and social discovery rules](../../skills/ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md). The [social source register](../source-registers/source-register.json)
 records the current Google, Bing, and OpenAI primary sources with review dates;
 the book remains outside the changing-claim register because it is concept-only.
 Archive snapshots for the new book and some platform pages are `NOT_ASSESSED`;

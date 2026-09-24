@@ -111,7 +111,7 @@ or search volumes. For bilingual work, map intent separately in each language.
 10. Hand off the page, source map, assumptions, test results, owner, rollback,
    unresolved gaps, and re-audit date.
 
-Apply the [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
+Apply the [customer-language bank and intent map](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 as a qualified editorial lens: map the audience journey and intent before
 choosing a phrase, add original value and proof, and preserve a distinctive
 human voice. Do not import the books' dated platform, algorithm, or metric
@@ -161,8 +161,8 @@ claims without current primary-source verification.
 
 ## References
 
-- [Carter independent synthesis](../../../book-extractions/carter-new-rules-ai-search-synthesis-2026.md)
-- [Garner, Woolley, and Bishop/Starkey independent synthesis](../../../book-extractions/garner-woolley-starkey-content-and-language-synthesis-2026.md)
+- [AI search and social discovery rules](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md)
+- [customer-language bank and intent map](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 - [Social source register](../../../docs/source-registers/source-register.json)
 - [Digital Research currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md)
 - [Digital Research source evaluation](../../../../digital-research-engine/skills/source-evaluation/SKILL.md)

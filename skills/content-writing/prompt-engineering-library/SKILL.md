@@ -72,6 +72,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [Role prompt packs and engagement question banks](references/role-prompt-packs-and-engagement-questions.md) — read when building prompts per job role or audience questions that invite replies.
 <!-- dual-compat-end -->
 
 ## Evidence-first prompt standard

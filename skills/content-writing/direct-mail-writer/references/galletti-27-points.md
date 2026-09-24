@@ -1,37 +1,45 @@
-# Galletti's 27 Copywriting Points
+# Direct-Mail Pre-Release Copy Checklist
 
-*Source: Carl Galletti, as documented in Pinskey, R. (1997) 101 Ways to Promote Yourself. New York: Avon Books.*
+Apply before finalising any direct-mail letter, sales letter, email campaign, WhatsApp broadcast or proposal document. Work through the groups in order; any "no" is fixed before release. (The filename is retained for link stability.)
 
-Apply this checklist before finalising any direct mail letter, sales letter, email campaign, or proposal document.
+## Focus and reader
+- [ ] One main idea runs through the whole piece.
+- [ ] It is written to one specific person (a named persona), not "our valued customers".
+- [ ] "You" and "your" clearly outnumber "we", "I" and "our".
+- [ ] Every word earns its place; nothing is there for decoration.
 
----
+## Opening
+- [ ] The strongest thing you can truthfully say comes first.
+- [ ] The first lines give an immediate reason to keep reading.
+- [ ] It opens on a problem the reader already recognises, not one you have to convince them they have.
 
-1. Take the best, most powerful, most effective thing you can say and move it to the very beginning.
-2. Give your audience a reason to keep reading immediately.
-3. Focus the entire piece on one main idea.
-4. Know exactly who you are writing to — write as if to one specific person.
-5. Make every word earn its place.
-6. Write in conversational, natural language.
-7. Use "you" and "your" far more than "I," "we," or "our."
-8. Lead with a problem the reader already has.
-9. Paint a picture of the world after the problem is solved.
-10. Use specifics, not generalities. ("Increased revenue by 34%" not "increased revenue significantly.")
-11. Build credibility early — credentials, testimonials, or case data in the first third of the piece.
-12. Make an offer that removes risk — a guarantee, a trial, or a free first step.
-13. Create urgency — a genuine reason to act now, not later.
-14. Use subheadings so that a skimmer can understand the argument without reading every word.
-15. Every paragraph must pull the reader into the next paragraph.
-16. Use bullet points for lists of benefits — not for lists of features.
-17. Make the call to action specific: what exactly should the reader do, when, and how.
-18. Use simple words and short sentences. Write at a Grade 8 reading level.
-19. The offer is more important than the copy — make an offer they cannot refuse.
-20. Let the P.S. be your second headline — restate the key benefit and call to action.
-21. Tell a story if possible — narrative outperforms argument.
-22. Overcome objections before they are raised.
-23. Use social proof — names, numbers, testimonials.
-24. Use the active voice throughout.
-25. Read it aloud before sending — if it sounds awkward, it reads awkward.
-26. Have a second reader who does not know your business read it and describe what the letter is asking them to do. If they cannot say it in one sentence, rewrite.
-27. Test the headline before anything else — if the headline fails, nothing else matters.
+## Argument and proof
+- [ ] The reader can picture life after the problem is solved.
+- [ ] Specifics replace generalities ("34 more bookings in March", only if true — never "a significant increase").
+- [ ] Credibility appears early — consented testimonials, credentials or case data within the first third.
+- [ ] Likely objections are answered before the reader raises them.
+- [ ] A true story carries at least part of the argument where one exists.
+- [ ] Social proof uses real names, numbers and consented testimonials.
 
----
+## Offer and risk
+- [ ] The offer is strong enough to carry the piece; the copy supports it rather than replacing it.
+- [ ] Risk is reduced with a guarantee, a trial or a free first step that the client will honour.
+- [ ] Any urgency is genuine and its reason is stated.
+
+## Structure and readability
+- [ ] Subheadings let a skimmer follow the whole argument.
+- [ ] Each paragraph pulls the reader into the next.
+- [ ] Bullet lists carry benefits, not bare features.
+- [ ] Words are plain, sentences short, voice active and tone conversational — suitable for readers on a phone in their second language.
+
+## Action and P.S.
+- [ ] The call to action says exactly what to do, how and by when.
+- [ ] The P.S. works as a second headline: it restates the strongest benefit and the action.
+
+## Final tests
+- [ ] The headline has been tested (or at least compared against an alternative) before anything else; if it fails, nothing else matters.
+- [ ] Read aloud; anything awkward to say is rewritten.
+- [ ] A second reader who does not know the business can state in one sentence what the piece asks them to do.
+- [ ] The [direct-marketing ethics filter](../../references/direct-marketing-ethics-filter.md) passes.
+
+*Source note: the engine's own checklist, synthesised from direct-response practice including a copywriting checklist attributed to Carl Galletti in Pinskey, R. (1997) *101 Ways to Promote Yourself*, Avon Books, and from Kennedy, D. S. (2000) *The Ultimate Sales Letter*, Adams Media.*

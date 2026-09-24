@@ -13,7 +13,7 @@ Social guidance correctly valued channel fit, but channel formulas can become co
 
 ## Improvement implemented
 
-- Added `book-extractions/human-english-craft-synthesis-2026.md` with source limits, five passes, social register, grammar/lexical checks, and original anti-slop tests.
+- Added a human-English synthesis with source limits, five passes, social register, grammar/lexical checks, and original anti-slop tests (first stored under `book-extractions/`; moved on 2026-09-23 under the no-stored-extractions rule to `skills/language/language-standards/references/human-english-craft-standard.md`).
 - Routed it through `AGENTS.md`, content-writing, AI content humaniser, and language-standards.
 - Preserved rights, cultural, platform, disclosure, and approval gates; “human” never means careless or deceptive.
 

@@ -59,7 +59,7 @@ and governed centrally by `C:\wamp64\www\chwezi-dev-engine\docs\engine-control-p
 
 ## Purpose
 
-This repository is a dual-compatible skills system for professional social media and digital marketing consultancy work in Uganda and East Africa. It must continue to work for Claude Code while also being directly usable by Codex from the standard skill repository layout.
+This repository is the Chwezi digital marketing and advertising consultancy engine (historical name `social-media-skills`), a dual-compatible skills system for professional digital marketing, advertising and social media consultancy work in Uganda and East Africa. It plans, specifies, writes, audits and reports on advertising strategy, media planning, budgets, creative briefs and concepts, ad copy, campaign build specifications, testing, scaling, optimisation and measurement; spending money, changing live ad accounts, publishing or contacting people always requires explicit client authority. It must continue to work for Claude Code while also being directly usable by Codex from the standard skill repository layout.
 
 The portable unit is the skill directory:
 
@@ -73,7 +73,7 @@ skills/
       assets/       # optional
 ```
 
-Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, and `training/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (One documented exception: `skills/content-writing/SKILL.md` is a category-level standards file, not a skill.)
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, `training/`, and `advertising/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (One documented exception: `skills/content-writing/SKILL.md` is a category-level standards file, not a skill.)
 
 ## Default Context
 
@@ -101,13 +101,15 @@ Apply these alongside the main deliverable skill when relevant:
 - `meta-utility/skill-safety-audit`: safety review for imported or substantially changed skills
 - `ai-marketing/anti-ai-slop`: MANDATORY pre-ship gate — run its ship-gate checklist on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) before delivery or publishing
 - `ai-marketing/ai-slop-audit`: auto-run whenever the user asks to analyse, review, evaluate, audit, critique, score, or de-slop any content/campaign/image/video, or asks "does this look AI-generated?"
-- `book-extractions/carter-new-rules-ai-search-synthesis-2026.md`: qualified
-  concept input for response-mode planning, entity clarity, outcome separation,
-  and reversible experiments; it never supplies current platform facts.
+- `ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md`:
+  qualified concept input for response-mode planning, entity clarity, outcome
+  separation and reversible experiments; it never supplies current platform facts.
+- `content-writing/references/direct-marketing-ethics-filter.md`: mandatory for
+  every ad, offer, outreach sequence, influencer brief and sales page.
 
 ## Routing Rules
 
-For integrated digital marketing, start with `skills/pipeline/06-digital-marketing-strategy/SKILL.md` and its premium growth operating contract. Scope includes research, positioning, search, paid media, social, content, email, permissioned messaging, conversion, CRM, retention and measurement. Route builds and visual production to their canonical engines; planning text alone is not execution evidence. For professional consulting acquisition, connect `platform-linkedin` to website proof and CRM opportunity acceptance.
+For integrated digital marketing, start with `skills/pipeline/06-digital-marketing-strategy/SKILL.md` and its premium growth operating contract. For advertising (strategy, budget, media, creative, copy, paid search, paid social, testing, attribution), start with `skills/advertising/advertising-strategy-and-budget/SKILL.md` and route to the specific `advertising/` skill; paid social execution specifications live in `skills/playbooks/playbook-paid-social-advertising/SKILL.md`; the website handoff is `skills/advertising/ad-to-site-journey-handoff/SKILL.md`. For channel choice across all acquisition channels use `strategy/traction-channel-bullseye`; for segmentation and positioning use `strategy/marketing-foundations-stp-positioning`. Scope includes research, positioning, search, paid media, social, content, email, permissioned messaging, conversion, CRM, retention and measurement. Route builds and visual production to their canonical engines; planning text alone is not execution evidence. For professional consulting acquisition, connect `platform-linkedin` to website proof and CRM opportunity acceptance.
 Use the skill whose directory name and `description` most closely match the deliverable. Prefixes matter:
 
 - `biz-dev-`: credentials, proposals, pricing, outreach, practitioner positioning
@@ -123,6 +125,7 @@ Use the skill whose directory name and `description` most closely match the deli
 - `ai-`, `brand-voice-`, `prompt-`: AI strategy, prompting, automation, evaluation
 - `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`, `hashtag-strategy`: direct content generation
 - `framework-`, `peso-`, `owned-media-`, `social-commerce-`, `strategy-`: strategic frameworks and specialist strategy modules
+- `advertising/`: advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff
 - `business-development/eac-call-for-applications-campaign`: donor-compliant calls for applications, EOIs, applicant FAQs, partner dissemination kits, fairness protocols, and evidence logs across EAC markets
 - `strategy/ecommerce-export-marketing-advisory`: export marketing plans for e-commerce companies, cross-border trust/proof layers, conversion reviews, CAC-bounded campaign outlines, and partner outreach
 
@@ -165,6 +168,8 @@ If two skills overlap:
 - Keep frontmatter within `docs/standards/skill-authoring-standard.md`; retain required `name`, `description` and portable `metadata`.
 - Use British English throughout unless the target market or requested language requires otherwise.
 - Keep outputs as text deliverables only. This repo does not produce code, web builds, graphic design, or video production.
+- Never store book extractions or book summaries in this repository (owner rule, 2026-09-23). Fold book knowledge into task-oriented skill `references/` with a short citation; `scripts/source_ingestion_guardrail.py` enforces this.
+- Reference files must not be single-book digests. Synthesise across sources into the engine's own task structure (inputs, decision rules, procedures, templates, checklists, localised original examples), in your own order and wording. Do not reproduce a book's numbered lists in its sequence, an author's full catalogue of beat/step/strategy names, book case studies or near-verbatim text, or "Strategy N" / chapter numbering. Name a framework with a brief attribution (for example "value ladder (Brunson)") and apply it; cite sources briefly as Author (Year) *Title*, Publisher.
 - For strategy, proposal, pricing, platform, reporting, and AI governance work, make market assumptions explicit rather than hidden.
 - Follow the active roadmap in `docs/plans/2026-04-14-world-class-consultancy-engine/` when changing repository-level documentation or high-impact skills.
 
@@ -215,7 +220,7 @@ type — state the chosen typeface and reason before producing any artifact.
 
 ## Human-English editorial standard (2026-08 Kaizen)
 
-Load [`book-extractions/human-english-craft-synthesis-2026.md`](book-extractions/human-english-craft-synthesis-2026.md) and [`skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md`](skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
+Load [`human-english-craft-standard.md`](skills/language/language-standards/references/human-english-craft-standard.md), [`human-professional-phrase-bank.md`](skills/content-writing/references/human-professional-phrase-bank.md) and [`skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md`](skills/language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) for every caption, post, script, email, comment, campaign, calendar, report, training asset, and client message. Apply its five passes with the channel skill, native-language skill, rights review, and anti-slop gate.
 
 Social writing must be channel-native without becoming careless: one real idea, one audience, one honest action, concrete detail, correct grammar, natural rhythm, and local texture only when true. Do not use forced slang, hashtag piles, fake intimacy, invented lived experience, or typos to imitate people. Record audience, channel, purpose, source/rights status, claim checks, language review, proof status, gaps, reviewer, and date.
 

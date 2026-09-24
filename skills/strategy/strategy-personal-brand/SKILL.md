@@ -86,6 +86,9 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [Reputation, authority and network system](references/reputation-authority-and-network-system.md) — read for the reputation audit, the four-lever plan, authority routes, the personal board of advisors and networking cadence.
+- [Brand partnership guide](references/brand-partnership-guide.md) — read when a creator, artist or athlete needs a press kit, one-sheet, partnership page, pitches or contract checks.
+- [Expert bio templates](references/expert-bio-templates.md) — read when writing bios, speaker introductions and elevator pitches.
 <!-- dual-compat-end -->
 
 ## Required Input
@@ -160,12 +163,12 @@ Rules:
 
 ### 1.3 DCPR Brand Test (Brown, 2016)
 
-Before finalising positioning, verify the brand passes all four tests:
+Before finalising positioning, verify the idea or message passes all four tests from Brown, R. (2016) *Build Your Reputation*, Capstone/Wiley:
 
-- **Distinctive** — different from others in this field. Not better — *different*. Test: could someone describe this person in one sentence that no one else in the field could claim?
-- **Consistent** — same positioning across all channels and over time. Test: does a stranger seeing this person on LinkedIn and then on Facebook recognise the same brand?
-- **Passionate** — authentic energy that signals genuine commitment, not performance. Test: does the person talk about this topic voluntarily, unprompted?
-- **Relevant** — meaningful to the specific audience. Test: would the target audience immediately understand why they should follow this person?
+- **Distinctive** — different enough to be noticed. Not better — *different*. Test: could someone describe this person in one sentence that no one else in the field could claim?
+- **Consistent** — the same lane, style and topic held long enough to build momentum. Test: does a stranger seeing this person on LinkedIn and then on Facebook recognise the same brand?
+- **Passonable** — easy for others to pass on. Test: can someone repeat the idea accurately in one sentence after hearing it once? Avoid abstraction unless the audience is specialist.
+- **Relevant** — meaningful to a chosen audience (polarising others is acceptable). Test: would the target audience immediately understand why they should follow this person?
 
 ### 1.4 Core Expertise Areas (3 Pillars)
 
@@ -189,11 +192,24 @@ Apply the RACE framework (Chaffey, 2024) lens: the personality must work at the 
 
 Present the three attributes with a one-sentence implication for content: e.g. "Analytical — back every claim with a data point or a cited source, even in short posts."
 
+### 1.6 Reputation Plan: Four Levers (Brown, 2016)
+
+For executives, consultants, founders and professionals, reputation is what people say about the person when they are not in the room. Build it on four levers, choosing two or three tactics per lever using three filters — Current (a head start exists), Aspirational (what they want to be known for) and Strengths (fits their nature):
+
+| Lever | Keywords | Example tactics |
+|---|---|---|
+| Performance | Delivery, reliability, credibility | Small kept commitments, early delivery, meeting routine, testimonials captured at thank-you moments |
+| Profile | Visibility with people who count | Local-media expert source, events with written bring-back reports, boards and panels, research interviews with senior people |
+| Positioning | Authority, contribution | One authority route (researcher, model-maker, commentator, author, community host), points of difference, back story |
+| Personal board | Network, advocates, leverage | PBA of 5 or 7, a sponsor, A/B/C/D contact cadence |
+
+Start with a reputation audit and choose one authority route; the instruments and route picker are in the reputation reference.
+
 ---
 
 ## Section 2 — Client Type Platform Guide
 
-Apply this quick reference to identify the correct platform priority and content approach for each individual client type. Detailed playbooks for each type are in `references/client-type-playbooks.md`.
+Apply this quick reference to identify the correct platform priority and content approach for each individual client type. Adapt the row to the individual's evidence; there is no separate playbook file per type.
 
 | Client Type | Primary Platform | Secondary | Content Focus | Key Insight |
 |---|---|---|---|---|
@@ -207,7 +223,7 @@ Apply this quick reference to identify the correct platform priority and content
 | Academic/Researcher | LinkedIn | Twitter/X | Insights, data, methodology, accessible writing | Op-eds in national press generate durable Google visibility |
 | Creative (designer, photographer) | Instagram | LinkedIn | Portfolio, process, client outcomes | LinkedIn reaches commercial buyers (CMOs, brand managers) that Instagram misses |
 
-**The VCP Sequence (Brown, 2016) — applies to every client type:**
+**The VCP Sequence (Ivan Misner's VCP Process, as used by Brown, 2016) — applies to every client type:**
 - **Visibility first** — people must know the name before they trust the expertise
 - **Credibility second** — delivered results, endorsements, and consistent behaviour
 - **Profitability third** — referrals, fees, partnerships, votes — only reachable after credibility is established
@@ -341,7 +357,7 @@ Content builds familiarity. Authority requires proof points that exist outside t
 **Expert Bio construction — Names & Numbers (Vaden, 2023):**
 The expert bio is read before every speaking booking, media interview, and brand partnership decision. Use Portrait View (zoom in on specific, impressive numbers and named institutions) not Landscape View (vague general terms). Replace "experienced professional" with "conducted 300+ client engagements across 7 African countries." Replace "award-winning artist" with "winner of the 2024 Pearl of Africa Music Award, Best Afrobeats Artist." Build a 50-word, 150-word, and 300-word version. Store in `references/expert-bio-templates.md`.
 
-**Speaking:** Target 2–4 engagements per year. Speaking is the single highest-ROI visibility activity for individual brands — one keynote to 200 qualified peers delivers more credibility than six months of social media posts (Brown, 2016). Uganda's active conference seasons: finance, agri-business, technology, healthcare, education, faith. Submit speaker proposals 3–4 months in advance. Record every talk; a 60-second highlight clip generates content for weeks.
+**Speaking:** Target 2–4 engagements per year. Speaking reaches many people at once and few peers do it, which is why Brown (2016) treats it as a powerful positioning activity; measure its effect with the client's own enquiries and invitations rather than an assumed return. Uganda's active conference seasons: finance, agri-business, technology, healthcare, education, faith. Submit speaker proposals 3–4 months in advance. Record every talk; a 60-second highlight clip generates content for weeks.
 
 **Media appearances:** Pitch to the Daily Monitor business section, New Vision, NBS TV Business Focus, NTV's business programmes, and the BBC Africa or VOA Africa for regional/international profiles. Journalists prefer a specific, data-backed angle over a general offer to comment. Pitch a counterintuitive finding, a new statistic, or a timely hook. A single media mention generates lasting Google search visibility and can be referenced in every future pitch.
 
@@ -349,7 +365,7 @@ The expert bio is read before every speaking booking, media interview, and brand
 
 **Written thought leadership:** Submit op-eds to The Observer, Nile Post, The East African, and The African Report. Op-eds rank in Google and generate inbound credibility long after publication. Aim for 1–2 per year.
 
-**Personal Board of Advisors (PBA):** Assemble 5–7 people who are not close friends, have diverse expertise and networks, and are values-aligned (Brown, 2016). The PBA must be formally invited into the role (not assumed into it) with a clear brief. Roles: Navigator (strategic direction), Connector (introduces you to inaccessible networks), Champion (advocates publicly), Sponsor (creates opportunities from a position of power), Specialist (technical expertise you lack). One Sponsor relationship is worth more career capital than ten mentors.
+**Personal Board of Advisors (PBA):** Assemble an odd number (5 or 7) of people with diverse levels, industries and personalities, chosen for values rather than titles, and kept separate from any personal board (Brown, 2016). Invite each formally with the compliment → explain → invite script and a light, explicit commitment (for example a quarterly lunch paid by the client, or a 20-minute call every two months) plus a planned give-back. Roles include Navigator (direction), Connector (introductions), Champion (public advocacy), Sponsor (spends their own standing to open doors — mentors advise, sponsors act, after Hewlett) and Specialist (expertise you lack). Send agendas, report back after each meeting, and refresh the board annually. Full method and anti-corruption guardrail for public-official sponsors: [`references/reputation-authority-and-network-system.md`](references/reputation-authority-and-network-system.md).
 
 ---
 
@@ -416,9 +432,11 @@ A high-quality output from this skill meets all of the following standards:
 - **Client type acknowledged and applied:** Section 2 guidance for the specific client type is reflected in platform priorities, content mix, and tone — not a generic default
 - **Brand DNA verified:** All three strands (Prolific, Passionate, Profitable) are confirmed before the BPS is written; Sheahan's Wall is addressed in platform and topic recommendations
 - **BPS produced:** One sentence using the correct structure, specific to this individual's type, audience, and East African or stated market context
-- **DCPR test passed:** The brand positioning is Distinctive, Consistent, Passionate, and Relevant — confirmed against each criterion
+- **DCPR test passed:** The brand positioning is Distinctive, Consistent, Passonable (repeatable accurately in one sentence after one hearing) and Relevant — confirmed against each criterion
 - **Three content pillars specific:** Each pillar is narrow enough for the individual to be introduced as Uganda's or East Africa's leading voice on that topic
-- **VCP sequence respected:** Visibility and Credibility tactics are recommended before Profitability tactics — not the reverse
+- **VCP sequence respected:** Visibility and Credibility tactics are recommended before Profitability tactics — not the reverse (Misner's VCP Process, cited via Brown, 2016)
+- **Reputation audit run:** for executive, consultant and founder clients, the four-lever plan (performance, profile, positioning, personal board) is built from an audit (peer appraisal, reality gap, red box) and one authority route is chosen
+- **No unsourced statistic** about the return on speaking, posting or media appears in the deliverable
 - **Monetisation model selected:** One or more P.A.I.D.S. streams are identified and the Craft-before-Scale sequence is applied; authority-building tactics reference specific Ugandan/EA outlets, events, and mechanisms
 - **Measurement table with 6-month targets:** Every metric has a named target and review cadence; report cadence references the `meta-reporting` skill
 
@@ -440,8 +458,8 @@ A high-quality output from this skill meets all of the following standards:
 
 | File | Contents |
 |---|---|
-| `references/client-type-playbooks.md` | Detailed content playbooks for politicians, athletes, performing artists, pastors, and creatives — platform-by-platform tactics, content pillars, and EA-specific examples |
-| `references/brand-partnership-guide.md` | Press kit structure, fee formula (Distribution Fee + Talent Fee), email pitch templates, contract terms to negotiate, post-campaign reporting |
+| `references/reputation-authority-and-network-system.md` | Reputation audit, four-lever reputation plan, authority routes, personal board of advisors, networking operating system, leadership reputation programme |
+| `references/brand-partnership-guide.md` | Price-free press kit and one-sheet, partnership page, fee method (distribution fee + talent fee), pitch and decline templates, contract terms to check, post-campaign reporting |
 | `references/expert-bio-templates.md` | Portrait View bio templates for each client type in 50-word, 150-word, and 300-word versions |
 
 ---

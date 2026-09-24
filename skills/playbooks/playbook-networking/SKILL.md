@@ -72,6 +72,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [Reputation, authority and network system](../../strategy/strategy-personal-brand/references/reputation-authority-and-network-system.md) — read for the network operating system and personal board method.
+- [Lawful prospecting and outreach](../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md) — rules for turning contacts into outreach lists.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
@@ -87,143 +89,135 @@ Before generating any deliverable, ask for:
 
 ---
 
-## Part 1 — Why Networking First
+## Part 1 — Decide Whether Networking Leads the Plan
 
-In the East African market — and for independent professional service businesses globally — word-of-mouth is the single most effective and lowest-cost marketing method available.
+In East African markets, and for independent professional-service firms anywhere, a recommendation from someone the buyer already trusts is usually the cheapest and most persuasive route to new work. Dissatisfied clients talk too, and faster, so networking only works on top of reliable delivery. Networking here means deliberately managing the relationships that produce recommendations.
 
-*"A satisfied customer tells three people about a positive experience over one month. An unhappy customer tells seven people about a bad experience within one week."* — Edwards, Edwards and Douglas (1991)
+**Choose the channel mix by what the client has more of:**
 
-Networking is the deliberate, systematic management of the relationships that generate word-of-mouth.
-
-The Time-Money Marketing Continuum (Edwards et al., 1991):
-- **High time / low money:** Networking, speaking, referral cultivation, content creation
-- **Low time / high money:** Paid advertising, direct mail, sponsored placement
-
-New businesses and independent practitioners should start at the high-time/low-money end. Migrate toward paid channels only when revenue allows.
-
----
-
-## Part 2 — Event Networking: 14 Rules
-
-*(Adapted from Edwards, Edwards and Douglas, 1991)*
-
-1. Set specific goals before each event — e.g., "I will have three substantive conversations and leave with two follow-up commitments."
-2. Arrive early — groups have not yet formed; it is easier to meet people one-to-one.
-3. Prepare and practise a clear 30-second answer to "What do you do?" (see USP Pitch in `biz-dev-positioning`).
-4. Listen more than you talk — ask questions that draw the other person out.
-5. Focus first on how you can help others — not on selling yourself.
-6. Write a note on the back of every business card immediately after the conversation — what was discussed, what you promised to do.
-7. Follow up within 24–48 hours. Not "we should have coffee sometime" but "I'll call you on Thursday."
-8. Build a follow-up system — a spreadsheet or CRM with contact date, next action, and deadline.
-9. Join organisations actively — volunteer for committees, not just attend as a passive member.
-10. Refer others freely and specifically — reciprocity is the currency of networking.
-11. Show up consistently — be known as someone who is always there, not someone who appears occasionally.
-12. Choose organisations strategically — attend where your best clients and best referrers already are.
-13. Do not hard-sell at networking events — the sale happens in the follow-up, not at the event.
-14. Create your own group when existing options are inadequate (see Part 4).
-
----
-
-## Part 3 — Referral Activation: Three Strategies
-
-### Strategy 1 — Active Solicitation from Existing Clients
-
-Do not wait for referrals. Ask for them explicitly and specifically.
-
-**Script:**
-> "I'm glad the work has been useful. I'm looking to work with more businesses like yours — specifically [describe the ideal client]. Do you know one or two people I should be speaking to?"
-
-**Rules:**
-- Ask at the peak of client satisfaction — immediately after a successful delivery, not at renewal time
-- Be specific about who you are looking for — "anyone" produces nothing; a description produces names
-- Follow up the referral immediately and report back to the referrer ("I spoke to James — thank you for the introduction")
-- Express genuine gratitude — a handwritten note or a small gift is remembered
-
-### Strategy 2 — Gatekeeper Cultivation
-
-Gatekeepers are not clients; they are the people who connect you to clients — lawyers, accountants, architects, event organisers, trade association officers, journalists.
-
-**Steps:**
-1. List the five professional categories most likely to encounter your ideal client before you do
-2. Identify 2–3 named individuals in each category
-3. Make first contact through introduction or shared event — not a cold pitch
-4. Build the relationship with value first: refer work to them, share useful information, invite them to relevant events
-5. When the relationship is established, explain what you do and for whom — and ask if they know anyone who fits that description
-
-### Strategy 3 — Reference Letters and Endorsements
-
-A written reference from a respected client or partner functions as a referral that works without the referrer being present.
-
-**What a useful reference letter contains:**
-- Who the client is and what context they know you in
-- The specific problem you solved
-- The specific outcome you delivered (with numbers if possible)
-- A direct statement that they would recommend you
-- Permission to use it in proposals and on your website
-
-**Collection process:** Ask for a reference letter within 2 weeks of completing a successful project. Provide a brief template to make it easy. Never wait 6 months — the experience will have faded.
-
----
-
-## Part 4 — Creating a Referral Group: 7 Steps
-
-*(Adapted from Edwards, Edwards and Douglas, 1991)*
-
-A referral group is a small, structured gathering of non-competing professionals who refer business to each other systematically.
-
-1. **Define the niche:** What sector or client type will this group serve? Be specific.
-2. **Identify 8–12 founding members:** Each should bring a complementary (not competing) service. Example: social media consultancy, accountancy firm, legal practice, web design studio, print/branding supplier, business coach.
-3. **Set a fixed, recurring meeting time:** Monthly is the minimum; fortnightly is optimal. Same day, same location.
-4. **Create a referral-sharing structure:** At each meeting, each member describes their ideal client for the month and reports on referrals given and received.
-5. **Keep meetings focused and short:** 90 minutes maximum. Assign a facilitator.
-6. **Rotate hosting duties:** Distributes the commitment and builds ownership.
-7. **Track referrals generated:** Record the source, the recipient, and the outcome. Quantify the value. This keeps members accountable and demonstrates the ROI of participation.
-
----
-
-## Part 5 — The Follow-Up System
-
-*"Follow-up is 80% of networking. Most people follow up zero times. One follow-up puts you in the top 20%. Two follow-ups puts you in the top 5%."* — Pinskey (1997)
-
-**Minimum follow-up system:**
-
-| Contact Type | Follow-Up Action | Timing |
+| Client has | Lead with | Add later |
 |---|---|---|
-| Event meeting | Personalised message referencing the conversation | Within 24 hours |
-| Referral received | Acknowledgement to the referrer; introduction message to the lead | Within 48 hours |
-| Proposal sent | One follow-up call | 5–7 business days after sending |
-| Past client, inactive | Check-in message with relevant news or resource | Every 90 days |
-| Referrer (gatekeeper) | Value touch — article, invitation, relevant introduction | Monthly |
+| Time and relationships, little budget (new firms, independents) | Networking, speaking, referral cultivation, useful content | Paid channels once revenue allows |
+| Budget, little senior time | Paid advertising, sponsored placements, direct mail | A light referral routine run by the account lead |
+| Both | Referral partners and events as the base, paid media to scale | — |
 
-**Tools:** A simple spreadsheet works for under 100 contacts. Any CRM (Hubspot Free, Notion database, Google Sheets) works for more.
+The time-versus-money trade-off is a long-standing small-business marketing idea (see Edwards, Edwards and Douglas, 1991); apply it to the client's real capacity.
 
 ---
 
-## Part 6 — Deliverables This Skill Can Generate
+## Part 2 — Event Routine
 
-1. **Networking action plan** — target organisations, events, and individuals for the next 90 days
-2. **30-second USP pitch** — prepared answer to "what do you do?" (links to `biz-dev-positioning`)
-3. **Referral activation script** — exact words to use when asking existing clients for referrals
-4. **Gatekeeper target list** — 10–15 named referral sources with cultivation plan
-5. **Referral group design document** — founding member profile, meeting structure, referral tracking log
-6. **Follow-up schedule** — tailored to contact type, with message templates
+| Stage | Actions |
+|---|---|
+| Choose | Go where the best clients and best referrers already gather; join a few organisations and take a committee or volunteer role rather than attending passively; turn up consistently so people expect you. If no suitable group exists, start one (Part 4). |
+| Before | Set a measurable goal (for example "three real conversations, two agreed follow-ups"); rehearse a 15–30-second answer to "What do you do?" (see [biz-dev-positioning](../../business-development/biz-dev-positioning/SKILL.md)); arrive early, before groups close up. |
+| During | Ask more than you tell; look for how you can help the other person first; do not sell — the sale belongs to the follow-up; offer specific referrals where you genuinely can. |
+| Straight after | Note on each contact what was discussed and what you promised; enter it in the follow-up system (Part 5) the same day. |
+| Within 48 hours | Follow up with a specific next step ("I'll call you on Thursday"), not "let's have coffee sometime". |
+
+---
+
+## Part 3 — Activating Referrals
+
+Use three routes together.
+
+**A. Ask existing clients directly.**
+- Timing: at a high point of satisfaction, straight after a successful delivery, not at renewal.
+- Describe the client you want; "anyone" produces nobody.
+- Script: "I'm glad the work has been useful. I'd like to work with more businesses like yours — specifically [ideal client description]. Is there one person you think I should talk to?"
+- Contact the referral promptly, tell the referrer what happened ("I spoke to Grace — thank you for the introduction"), and thank them properly; a handwritten note or small locally made gift is remembered.
+
+**B. Cultivate gatekeepers** — professionals who meet the ideal client before you do (lawyers, accountants, architects, event organisers, association officers, journalists, bankers).
+1. List the five professions most likely to meet the ideal client first.
+2. Name two or three people in each.
+3. Meet them through an introduction or a shared event, never a cold pitch.
+4. Give value first: refer work, share useful information, invite them to relevant events.
+5. Once trust exists, explain whom you help and ask whether anyone comes to mind.
+
+**C. Collect written references** that work when the referrer is absent. Ask within two weeks of a successful project and supply a short template covering: who they are and how they know you; the problem; the result (numbers only if verifiable); a plain recommendation; permission to use it in proposals and online.
+
+---
+
+## Part 4 — Designing a Referral Group
+
+A small, regular group of non-competing professionals who pass business to one another.
+
+| Design decision | Engine default |
+|---|---|
+| Focus | One sector or client type, stated in a sentence |
+| Membership | 8–12 complementary, non-competing firms (for example a social media consultancy, accountant, lawyer, web studio, printer, business coach) |
+| Rhythm | Same day and venue, fortnightly where possible, monthly at minimum; 90 minutes with a named facilitator |
+| Ownership | Rotate hosting |
+| Meeting format | Each member describes this month's ideal client, then reports referrals given and received |
+| Tracking | Log source, recipient, outcome and value of every referral; review the log quarterly so members see the return |
+
+---
+
+## Part 5 — Follow-Up System
+
+Most contacts are lost for want of a second message; a simple, dated routine is the advantage.
+
+| Contact type | Action | Timing |
+|---|---|---|
+| Met at an event | Personal message referring to the conversation | Within 24 hours |
+| Referral received | Thank the referrer; introduce yourself to the lead | Within 48 hours |
+| Proposal sent | One follow-up call | 5–7 working days after sending |
+| Past client, inactive | Check-in with relevant news or a useful resource | Every 90 days |
+| Gatekeeper | Value touch — article, invitation, introduction | Monthly |
+
+**Tools:** a spreadsheet is enough for under 100 contacts; beyond that, any CRM or database with next action and due date. Keep only contacts with a lawful basis for follow-up ([lawful prospecting](../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md)).
+
+---
+
+## Part 6 — Network Operating System and Connector Strategy
+
+Use this part to turn occasional networking into a managed system. The full method (network map, role-gap audit, connection scoring, help types, agenda questions, A/B/C/D cadence, advisory board) is in the [reputation, authority and network system](../../strategy/strategy-personal-brand/references/reputation-authority-and-network-system.md) reference.
+
+**Operating rules:**
+- Map contacts into operational, professional, strategic and personal networks; the professional and strategic groups need deliberate, scheduled effort before the need arises.
+- Run a quarterly gap audit: who opens doors, who challenges thinking, who champions you, who sponsors you — and which roles you play for others.
+- Set a contact cadence: A (weekly to monthly), B (quarterly), C (once or twice a year), D (reactive only). Record people's stories and interests, not only their titles.
+- After every event, send a written summary (learning, contacts, opportunities) to your team or sponsor within 48 hours.
+
+**Connector strategy** (drawing on Maltz et al., 1998, on introductions): what others say about you persuades more than what you say about yourself, so earn introductions.
+- Each week make one useful introduction between two people in your network: "[Name], meet [Name]. [One line on why each should know the other]. I'll let you take it from here."
+- Each week share one useful piece of information with a contact that is not about you.
+- Call A-list contacts when you have an opportunity for them, not only when you need something.
+- Each quarter host one curated gathering (a breakfast or roundtable of 20–30 decision-makers, assigned seats, a short hosted introduction for each guest, no pitch).
+- When you genuinely need guidance or an introduction: "I wonder if you could help me with something…"
+- For people who know you socially but not professionally: acknowledge the relationship, say in one line whom you help, explain that you held back so they would not think you joined the group to sell, and leave the choice with them ("Would you mind if we met on a professional basis?").
+- Guard against conflict of interest when networking touches public procurement; never approach evaluators during a live tender.
+
+---
+
+## Part 7 — Deliverables This Skill Can Generate
+
+1. **Networking action plan** — target organisations, events and individuals for the next 90 days
+2. **Short spoken pitch** — prepared answer to "What do you do?" (links to `biz-dev-positioning`)
+3. **Referral activation script** — words to use when asking existing clients for referrals
+4. **Gatekeeper target list** — 10–15 named referral sources with a cultivation plan
+5. **Referral group design document** — member profile, meeting structure, referral tracking log
+6. **Follow-up schedule** — by contact type, with message templates
+7. **Network map and cadence** — groups, gap audit, A/B/C/D contact plan and a quarterly gathering plan
 
 ---
 
 ## Quality Criteria
 
 Good output from this skill:
-1. The networking action plan names specific organisations and events — not generic "networking events"
-2. The 30-second pitch is specific, benefit-led, and memorable — not a job title
-3. Referral scripts are direct and comfortable to say aloud — not awkward or pressuring
-4. The gatekeeper list identifies professionals in roles that actually precede the client's buying decision
-5. The referral group design includes a tracking mechanism — not just a description of who attends
-6. All follow-up timings are specific (24 hours, 48 hours) not vague ("soon")
-7. Content is adapted to the Ugandan/East African relationship-first business culture
+1. The action plan names specific organisations and events, not generic "networking events"
+2. The spoken pitch is specific, benefit-led and memorable, not a job title
+3. Referral scripts are direct and comfortable to say aloud, never pressuring
+4. The gatekeeper list names professions that genuinely meet the client's buyer first
+5. The referral group design includes a tracking mechanism, not just a list of attendees
+6. All follow-up timings are specific (24 hours, 48 hours), not "soon"
+7. Content reflects the relationship-first business culture of Uganda and East Africa
+8. The network map names gaps by role and sets a cadence; introductions give value before any ask
 
 ---
 
 ## References
 
-- Edwards, P., Edwards, S. and Douglas, L.C. (1991) *Getting Business to Come to You*. Los Angeles: Tarcher.
-- Pinskey, R. (1997) *101 Ways to Promote Yourself*. New York: Avon Books.
+- Edwards, P., Edwards, S. and Douglas, L.C. (1991) *Getting Business to Come to You*. Los Angeles: Tarcher. (Source of the time-versus-money idea; the routines above are the engine's own.)
+- Brown, R. (2016) *Build Your Reputation*. Chichester: Capstone/John Wiley & Sons.
+- Maltz, M., Kennedy, D. S., Brooks, W. T., Oechsli, M., Paul, J. and Yellen, P. (1998) *Zero-Resistance Selling*. New York: Prentice Hall Press.

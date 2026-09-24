@@ -93,6 +93,7 @@ Given verified business objectives, the skill produces a social metrics framewor
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md)
+- [OMTM, lines in the sand and stage metrics](references/omtm-lines-in-the-sand-and-stage-metrics.md) — read when selecting KPIs, setting targets, declaring the business stage or writing a retainer measurement plan.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

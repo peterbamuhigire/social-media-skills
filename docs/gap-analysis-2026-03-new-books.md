@@ -4,6 +4,8 @@
 **Books analysed:** 10 (1 excluded as out-of-scope)
 **Method:** Each book read in full by a specialist agent; gaps cross-referenced against the existing 79-skill suite.
 
+> Status (2026-09-23): historical planning record. It names books and frameworks and records the build plan; it is not a store of book content. Current guidance lives in the skills named below. Any statistic mentioned here is a book-era claim, not a benchmark.
+
 ---
 
 ## Books Analysed

@@ -86,6 +86,8 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [Brand partnership guide (creator side)](../strategy-personal-brand/references/brand-partnership-guide.md) — read when building the press kit, one-sheet and partnership page.
+- [Creator due diligence and pricing (brand side)](../../pipeline/08-influencer-marketing-strategy/references/creator-due-diligence-and-pricing.md) — how buyers vet and price creators.
 <!-- dual-compat-end -->
 
 *Based on Dallas, M. (2022) Social Media Marketing Algorithms. Cross-reference: `platform-youtube`, `platform-tiktok`, `08-influencer-marketing-strategy`.*
@@ -111,7 +113,7 @@ Before generating any deliverable, ask the client for:
 
 Frame the strategy with honest context for the Ugandan and East African market:
 
-- **Platform monetisation programmes** (YouTube Partner, TikTok Creator Fund) have qualification thresholds and pay in USD. Receiving this income requires a USD bank account, Payoneer, or Wise account — assess the client's payment capability first.
+- **Platform monetisation programmes** (for example YouTube's Partner Programme and whatever creator-reward programme TikTok currently runs) have eligibility thresholds, country lists and payout rules that change often, and usually pay in USD. Receiving this income requires a USD bank account, Payoneer, or Wise account — assess the client's payment capability first.
 - **Brand partnerships** are the most accessible and highest-value monetisation route for most EA creators. A nano-creator with a tightly defined audience can secure brand deals before reaching any platform monetisation threshold.
 - **Affiliate marketing** works for creators whose audience actively purchases online. Confirm audience purchasing behaviour before recommending it.
 - **Digital products** offer the highest margin — created once, sold repeatedly — but require genuine audience trust and a frictionless local payment mechanism (Mobile Money).
@@ -129,23 +131,17 @@ Do not repeat guaranteed daily earnings, effortless work-from-home claims, pay-t
 
 *See `platform-youtube` for full channel optimisation guidance.*
 
-### Eligibility Requirements (2025)
+### Eligibility check (run before setting YPP as a goal)
 
-| Path | Subscribers | Watch Hours | Shorts |
-|---|---|---|---|
-| Standard monetisation (ads) | 1,000 | 4,000 in last 12 months | — |
-| Fan funding (memberships, Super Thanks) | 500 | 3,000 in last 12 months | 3 public Shorts in 90 days |
+YouTube's Partner Programme thresholds, tiers, country availability and payout routes change. Do not state them from memory or from this skill. Before advising:
+1. Open YouTube's official Partner Programme help pages and record the current thresholds for each tier, the list of available countries, and the date checked.
+2. Confirm the creator's country is listed; if Uganda (or the named market) is not listed, say so and drop YPP as a goal.
+3. Confirm the payout route (AdSense payment method, bank or intermediary) the creator can actually use.
+4. Record all three in the decision register as a dated platform claim; if the source cannot be opened, mark the check `not assessed`.
 
-Additional requirements for both paths:
-- Channel compliant with YouTube monetisation policies
-- Linked AdSense account approved
+### Revenue expectations
 
-### EA-Specific Notes
-
-- Uganda is included in the YPP programme — creators can apply once thresholds are met.
-- AdSense payments require a local bank account (Stanbic, Centenary, DFCU) or Payoneer. Confirm the creator has one before setting YPP as a goal.
-- Ad revenue in Uganda is low. Ugandan audience demographics yield CPM rates of USD 0.30–0.80, compared to USD 3–10 for US audiences. **Treat ad revenue as supplemental income, not primary income. Prioritise sponsorships.**
-- A channel with 5,000 Ugandan subscribers earning USD 0.50 CPM at 10,000 monthly views generates approximately USD 5/month in ad revenue. Set expectations accordingly.
+Ad revenue per thousand views varies widely by audience country, niche and season, and no verified figure for Ugandan audiences is held in this engine. Estimate only from the creator's own YouTube Analytics once monetised, and treat ad revenue as supplemental until the creator's own data shows otherwise. Prioritise sponsorships and owned products.
 
 ### Path to 1,000 Subscribers: Month-by-Month Plan
 
@@ -166,27 +162,17 @@ Generate a personalised timeline using the creator's niche. Use this model as th
 
 *See `platform-tiktok` for full platform guidance.*
 
-### TikTok Creator Fund
+### TikTok platform monetisation (check before advising)
 
-Not available in Uganda as of 2025. **Do not recommend as an income source.** If this changes, verify via TikTok's Creator Portal before advising clients.
-
-### TikTok LIVE Gifts
-
-- Available in Uganda.
-- Audience sends virtual gifts during LIVE sessions; gifts convert to Diamonds, then cash.
-- Requires **1,000 followers** to go LIVE.
-- Minimum withdrawal: USD 20, paid via PayPal or available local options.
-- Recommend only for creators who already engage a loyal, returning audience — random LIVE sessions without a community convert poorly.
-
-### TikTok Series (Paid Content)
-
-- Requires **10,000+ followers**.
-- Allows creators to put content behind a paywall (set own price).
-- EA adoption is low but growing — suitable for professional skills creators (finance, legal, health).
+TikTok's creator programmes have been replaced and renamed over time (check whether the programme named in older guides, such as the original Creator Fund, still exists), and eligibility, follower thresholds, country availability, LIVE gifting rules, paid-content features and withdrawal methods differ by market and change often. Before recommending any TikTok platform income:
+1. Check TikTok's official creator and LIVE help pages for the creator's country; record the programme name, thresholds and date checked.
+2. If the programme is not available in the creator's country, do not recommend it.
+3. Treat LIVE gifting as suitable only for creators who already have a loyal, returning audience.
+4. Mark any unverifiable feature `not assessed`.
 
 ### EA TikTok Monetisation Reality
 
-Most EA TikTok creators earn through brand deals, not platform programmes. Recommend building an engaged audience first; introduce monetisation via brand partnerships once the creator reaches 5,000–10,000 followers with above-average engagement (above 5%).
+Treat brand deals, not platform programmes, as the working hypothesis for East African TikTok creators, and test it against the creator's own enquiries and earnings. Introduce brand partnerships once the creator has a clearly defined, engaged audience; set the engagement and audience thresholds from the creator's own analytics and the buyer's brief, not from a fixed benchmark (engine heuristic, unsourced).
 
 ---
 
@@ -194,31 +180,31 @@ Most EA TikTok creators earn through brand deals, not platform programmes. Recom
 
 Affiliate marketing pays a commission for every sale or lead generated through the creator's unique link. Suitable for creators with an audience that purchases products or services online.
 
-### EA-Accessible Affiliate Programmes
+### Candidate affiliate programmes (verify terms before use)
 
-| Programme | Category | Commission Rate | Payment Method |
-|---|---|---|---|
-| Jumia Affiliate | E-commerce (EA) | 3–11% | Mobile Money or bank |
-| Kilimall Affiliate | E-commerce (EA) | 5–10% | Bank transfer |
-| Amazon Associates | Global e-commerce | 1–10% | Cheque or direct deposit (USD) |
-| Booking.com Partner | Travel | 25% of Booking.com's commission | Bank transfer |
-| Coursera Affiliate | Online learning | 10–45% | PayPal |
-| Udemy Affiliate | Online learning | 10–15% | PayPal |
-| Local brand affiliate | Any niche | Negotiable (10–20% typical) | Mobile Money |
+Commission rates, country eligibility and payout methods change frequently, so this skill holds no rates. Shortlist candidates by category, then open each programme's current terms and record rate, cookie window, country eligibility, payout method and date checked:
+
+| Category | Candidate programmes to check | What to confirm |
+|---|---|---|
+| East African e-commerce | Regional marketplaces' affiliate programmes (for example Jumia, Kilimall) | Country eligibility, commission by category, Mobile Money or bank payout |
+| Global e-commerce | Large marketplace associate programmes | Whether the creator's country can join and be paid |
+| Travel | Accommodation and booking-platform partner programmes | Commission basis and payout currency |
+| Online learning | Course-platform affiliate programmes | Rates, cookie length, payout method |
+| Local brands | Direct agreements with a named business | Negotiated rate in writing, tracking method, Mobile Money payout, tax treatment (route to `chwezi-accounting-doctrine`) |
 
 ### Eligibility and Fit Criteria
 
-- Minimum: **2,000 engaged followers** with a clearly defined audience (not a vanity following).
+- Readiness (engine heuristic, not a platform rule): a clearly defined audience that already asks where to buy what the creator shows; follower count alone is not a readiness signal.
 - Product-audience fit: the product must be genuinely relevant to the audience's life and purchasing behaviour. Do not recommend a creator promote Jumia if their audience does not shop online.
 - Niche alignment: recommend one or two programmes maximum — do not scatter affiliate links across unrelated categories.
 
-### Uganda DPA 2019 Disclosure Requirement
+### Affiliate Disclosure (best practice; check local law)
 
-Under the Uganda Data Protection and Privacy Act 2019 and broader consumer transparency obligations, creators **must disclose affiliate relationships in every post or video** where an affiliate link is used. Include a written statement such as: *"This post contains affiliate links. I may earn a commission if you purchase through my link at no extra cost to you."* Non-disclosure damages audience trust and may constitute misleading advertising.
+Disclose affiliate relationships in every post or video that carries an affiliate link, up front and in plain words, for example: *"This post contains affiliate links. I may earn a commission if you buy through my link, at no extra cost to you."* The Uganda Data Protection and Privacy Act 2019 governs personal data, not advertising disclosure, and no influencer- or affiliate-specific disclosure law was found for Uganda or Kenya as of 2026-09-23 (Kaizen register AD-10); apply the US FTC and UK ASA/CMA standard as best practice (register AD-09) and check consumer-protection and sector rules before each campaign. If the creator collects personal data (giveaway entries, email lists), the data-protection law does apply.
 
 ### Earnings Estimate
 
-A creator with 5,000 engaged followers, a 2% click-to-purchase conversion rate, an average purchase value of UGX 100,000, and a 10% affiliate commission earns approximately **UGX 100,000/month**. Scale estimate proportionally to the client's audience size and engagement.
+Illustrative arithmetic only (all inputs are assumptions to replace with the creator's own data and the programme's verified rate): 5,000 engaged followers × 2% who buy in a month × UGX 100,000 average order × 10% commission ≈ UGX 100,000 a month. Show the formula with the client's numbers; never present the illustration as an expected income.
 
 ---
 
@@ -251,7 +237,7 @@ High-margin income: created once, sold repeatedly. Prioritise for creators with 
 
 ## Section 6: Brand Partnerships
 
-The highest-earning monetisation route for most EA creators at every tier above 1,000 followers.
+Usually the most accessible monetisation route for East African creators (a working hypothesis; confirm with the creator's own deal history).
 
 ### Types of Brand Deals
 
@@ -260,28 +246,25 @@ The highest-earning monetisation route for most EA creators at every tier above 
 - **Ambassador:** Ongoing relationship (3–12 months). Highest value; requires demonstrated loyalty to the brand and audience alignment.
 - **Product seeding:** Receive free products with no guaranteed payment. Generally not recommended unless the product is genuinely valuable to the creator — it sets a low-value precedent.
 
-### Rate Card: EA Benchmarks (2025)
+### Pricing Brand Work: Distribution Fee + Talent Fee
 
-| Follower Tier | Platform | Sponsored Post Rate (UGX) |
-|---|---|---|
-| Nano (1K–10K) | Instagram / TikTok | 200,000–500,000 |
-| Micro (10K–50K) | Instagram / TikTok | 500,000–2,000,000 |
-| Mid-tier (50K–200K) | Instagram / TikTok | 2,000,000–8,000,000 |
-| Macro (200K+) | Instagram / TikTok | 8,000,000+ |
-| Nano (1K–10K) | YouTube (integration) | 300,000–800,000 |
-| Micro (10K–50K) | YouTube (integration) | 800,000–3,000,000 |
+No verified local rate card exists; do not publish follower-tier price bands as benchmarks. Build each quote from scope, using the method in Hennessy, B. (2018) *Influencer*, Citadel Press:
 
-### Rate Card Adjustment Factors
+- **Distribution fee** (value of placement on the creator's channels): follower count; engagement, especially sponsored engagement compared with organic; content quality; name, face and special skills; audience precision.
+- **Talent fee** (cost to create): production costs (photographer or editor, location, props, wardrobe, make-up, transport, data) + the creator's hours (negotiation, brief research, scouting, mood board, shoot, edit).
+- **Price explicitly for:** usage beyond the brand's own channels (paid social, pre-roll, print, in-store); exclusivity beyond a narrow baseline (about one month against the top three competitors is Hennessy's fair baseline); high-season timing (Christmas, Easter, Eid, school-term openings, Valentine's, festivals); rush turnaround.
+- **When the fee cannot move:** ask for a deposit, a split payment or shorter payment terms, or non-cash value (a brand feature, reshares).
+- Record the creator's own past quotes and outcomes to build a dated, evidence-based rate history over time. Check withholding tax on payments with `chwezi-accounting-doctrine`.
 
-Apply these multipliers when negotiating above the base rate:
+### Offer Triage and Graceful Declines
 
-| Factor | Adjustment |
-|---|---|
-| Engagement rate above 5% | +25–50% |
-| Niche audience (financial services, health, B2B, legal) | +30–50% |
-| Exclusivity clause (brand is the only brand in category) | +20–30% per month of exclusivity |
-| Usage rights (brand repurposes content in paid ads) | +50–100% |
-| Turnaround under 48 hours | +10–20% |
+- **Coverage or campaign?** A publicist offering gifted product with no talking points is seeking coverage; a campaign has talking points, hashtags and a go-live window. Price campaigns; treat coverage as optional.
+- **Unpaid campaign test:** accept only for a dream brand, travel that lifts content quality, or real promotion by the brand. Otherwise decline: unpaid work displaces organic content and can tie the creator to one brand for free.
+- **Below-rate offer:** apply the "would I advise a friend to take this?" test; counter politely ("For this scope my rate is closer to [amount], mainly because of [usage/exclusivity/production]") or accept with non-cash value.
+- **Always ask for the contract before accepting**; terms and usage decide the true price.
+- **Decline gracefully** — buyers keep do-not-book lists:
+  - Budget: "I appreciate the offer. At this budget I can't deliver the quality the campaign deserves. If the budget changes, I'd be glad to revisit."
+  - Off-brand: "Thank you for considering me. I don't think this would resonate with my audience, and I'd rather you got a strong return elsewhere."
 
 ### Brand Partnership Pitch Template
 
@@ -290,7 +273,7 @@ Produce a pitch document with these five sections for the creator:
 1. **Introduction (1 paragraph):** Who the creator is, their content niche, and a one-sentence description of their audience and why brands benefit from reaching them.
 2. **Audience numbers (1 table):** Followers per platform, average engagement rate, monthly reach, and audience demographics (age range, primary city, gender split).
 3. **Case study (1 example):** A previous brand partnership result — or, if no prior partnerships exist, an organic post demonstrating brand-fit content (screenshot, caption, and result metrics).
-4. **Packages and rates (1 table):** Three tiered options — a starter package, a campaign package, and an ambassador package — with deliverables and UGX pricing.
+4. **Ways we can work together (1 table, no prices):** ambassadorships, sponsored posts and videos, live coverage, events, shoots — with the line "Rates depend on scope, usage and exclusivity; I'm happy to hear about any budget." Keep a separate rate sheet that is shared only on request, after scope is known (Hennessy, 2018: never put prices in the press kit or one-sheet). Do not show a wall of past-client logos; link to a sponsored-work archive instead.
 5. **Contact:** WhatsApp number and professional email address.
 
 *See `08-influencer-marketing-strategy` for brand partnership negotiation frameworks and contract checklist.*
@@ -303,10 +286,10 @@ Output is of professional standard when it meets all of the following:
 
 - All five monetisation streams are assessed with EA-specific eligibility criteria and payment method information relevant to the client's payment capability.
 - The YPP path includes a month-by-month growth timeline tailored to the creator's niche.
-- The rate card is denominated in UGX with follower tier bands and adjustment factors.
+- Brand-work pricing uses the distribution-fee + talent-fee method with usage, exclusivity and season priced explicitly; no unsourced follower-tier rate card is presented as a benchmark.
 - Digital product pricing is in UGX with production effort estimates per product type.
 - The affiliate programme table includes EA-accessible options with Mobile Money payment noted where available.
-- The brand partnership pitch template is complete with all five sections populated for the client.
-- The Uganda DPA 2019 disclosure requirement is stated explicitly for any affiliate marketing recommendation.
+- The brand partnership pitch template is complete with all five sections populated for the client, and the default pitch and press kit contain no prices.
+- Affiliate and sponsorship disclosure follows the FTC/ASA standard as best practice with register AD-09/AD-10 cited; the data-protection law is invoked only for personal-data collection.
 - Earnings, job access, eligibility and payment claims are sourced, dated and qualified; no guaranteed income or pay-to-access opportunity is presented.
 - Each monetisation stream is assessed with a clear recommendation: Priority / Secondary / Not Yet / Not Applicable, based on the creator's current profile.

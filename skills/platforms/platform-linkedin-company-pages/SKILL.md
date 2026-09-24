@@ -11,7 +11,7 @@ metadata:
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 
-For AI-search visibility work, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md).
+For AI-search visibility work, load [the AI search and social discovery rules (LinkedIn citation section)](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md).
 Use Company Pages as one institutional surface alongside credible individual
 voices; treat the report's profile/page split as an observation from its named
 sample, not a guaranteed platform rule.

@@ -146,15 +146,15 @@ If any of the three is absent, the letter is incomplete.
     [P.S. — Restate the single strongest benefit and the call to action.
     The P.S. is the second-most-read element after the headline. Never waste it.]
 
-## Part 5 — The 27 Copywriting Points
-See `references/galletti-27-points.md` for the full Galletti checklist. Apply before finalising any copy.
+## Part 5 — Pre-Release Copy Checklist
+Run the [pre-release copy checklist](references/galletti-27-points.md) before finalising any copy; it groups the checks into focus, opening, argument and proof, offer and risk, structure, action and final tests.
 
-**The five most critical points:**
-1. Move the best, most powerful thing you can say to the very beginning
-2. Write to one specific person — not "our valued customers"
-3. Use "you" and "your" far more than "I," "we," or "our"
-4. Make the offer risk-free — a guarantee, a trial, or a free first step
-5. Test the headline before anything else — if the headline fails, nothing else matters
+**Checks that most often decide the outcome:**
+- The strongest true thing you can say comes first.
+- The piece is written to one named persona, not "our valued customers".
+- "You" and "your" clearly outnumber "we" and "our".
+- Risk is reduced with a guarantee, trial or free first step the client will honour.
+- The headline is tested against an alternative before anything else is polished.
 
 ## Part 6 — List Strategy and the FRAT Formula
 When advising on mailing lists, apply the FRAT formula to prioritise who to contact first:

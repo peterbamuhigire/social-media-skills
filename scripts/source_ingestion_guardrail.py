@@ -74,6 +74,18 @@ def scan(root: Path) -> list[Finding]:
                 )
             )
             continue
+        if in_book_source_path:
+            # Owner rule (2026-09-23): book extractions and book summaries must never be
+            # stored in this repository, whatever their size. Knowledge belongs in
+            # task-oriented skill references with a short source citation.
+            findings.append(
+                Finding(
+                    "book-extraction-stored",
+                    relative,
+                    "book-extraction material must not be stored in the repository; fold it into task-oriented skill references",
+                )
+            )
+            continue
         if suffix not in SOURCE_TEXT_EXTENSIONS:
             continue
 

@@ -75,3 +75,19 @@ At discovery and immediately before release, run `python -X utf8 scripts/check_s
 Qualified legal or regulatory review is mandatory for political advertising, children, health claims, financial products, gambling, alcohol, tobacco, competitions with material prizes, biometric or sensitive data, cross-border transfers, unresolved copyright/likeness disputes, regulator complaints, or a proposed interpretation carrying material exposure. The reviewer’s decision and scope are evidence; “legal checked” without them is not.
 
 Parent routes: [paid social](../../skills/playbooks/playbook-paid-social-advertising/SKILL.md), [WhatsApp](../../skills/platforms/platform-whatsapp/SKILL.md), [influencer strategy](../../skills/pipeline/08-influencer-marketing-strategy/SKILL.md), [UGC strategy](../../skills/playbooks/playbook-ugc-strategy/SKILL.md), [analytics privacy](../../skills/meta-analytics-ops/meta-analytics-privacy/SKILL.md), and [AI content ethics](../../skills/policies/policy-ai-content-ethics/SKILL.md).
+
+## Advertising, direct-response and outreach checks (2026-09-23)
+
+Run the [direct-marketing ethics filter](../../skills/content-writing/references/direct-marketing-ethics-filter.md) on every ad, offer, sales page, outreach sequence and influencer brief. Use only dated register claims:
+
+| Check | Register record | Rule to apply |
+|---|---|---|
+| Special ad category | `META-SPECIAL-AD-CATEGORIES-2026` | Declare housing, employment, financial or political/social-issue ads; targeting limits apply in the US, Canada and Europe; no political ads in the EU since Oct 2025 |
+| Political and social-issue ads | `META-SIEP-AD-LIBRARY-2026` | Authorisation and "Paid for by" disclaimer; UG/KE authorisation rules not assessed — escalate |
+| Influencer disclosure | `FTC-ENDORSEMENTS-REVIEWS-2026`, `UK-ASA-CMA-INFLUENCER-2026`, `UG-KE-INFLUENCER-DISCLOSURE-2026` | Clear, upfront disclosure everywhere as best practice; no fake reviews or fake indicators of influence; UG/KE checks (UCC, CA, CAK, BCLB) stay open |
+| Direct marketing (Uganda) | `UG-DPPA-2019`, `UG-DPPR-2021` | Consent to collect; honour written direct-marketing objections within 14 days; register with the PDPO; do not claim the Act requires marketing opt-in |
+| Direct marketing (Kenya) | `KE-DP-GENERAL-2021` | Consent plus a free, simple opt-out; objections are absolute; sender identity shown; direct-marketing businesses register with the ODPC |
+| EU/UK-facing measurement | `GOOGLE-CONSENT-MODE-GA4-2026` | Consent mode v2 signals via a CMP for EEA/UK/CH traffic |
+| Ad-invoice tax | `UG-DIGITAL-TAX-ADS-2026` | Route VAT/DST treatment to `chwezi-accounting-doctrine`; never state it as settled |
+
+Parent route for advertising: [advertising strategy and budget](../../skills/advertising/advertising-strategy-and-budget/SKILL.md).

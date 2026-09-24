@@ -82,6 +82,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [Value-first renewal and relationship health](references/value-first-renewal-and-relationship-health.md) — read before renewals, relationship resets, after a missed commitment, or when designing the client council.
+- [B2B customer community and key accounts](../../strategy/strategy-b2b-customer-community/SKILL.md) — grading clients and key-account plans.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
@@ -247,6 +249,8 @@ retainer.
 | Client is unresponsive for 2 or more weeks | Send a formal review request via WhatsApp and email; unresponsiveness is a retainer risk and must be named |
 | Client requests a price reduction without proposing a scope reduction | Prepare a counter-proposal pairing the reduced price with a corresponding reduction in deliverables |
 | Client relationship feels adversarial or mistrustful | Request a reset meeting; name the dynamic professionally without blame |
+| The agency misses a commitment (deadline, post window, report) | Run the trust-recovery protocol within 24 hours (see reference) |
+| Content approvals stall for 14 days, the marketing contact changes, the client's own ad spend drops, or invoices pass 45 days overdue | Treat as early warning; hold a value review before the next invoice |
 
 **Reset meeting script:**
 
@@ -283,8 +287,7 @@ Complete these four steps before the renewal conversation:
 
 ### Pricing at Renewal
 
-An annual price increase of 10–20% for active retainers is standard and should be
-communicated six weeks in advance, not on the day of renewal.
+Set any price change from the agency's cost-to-serve sheet, the value delivered and the market, not from a remembered "standard" percentage. Communicate it six weeks in advance, not on the day of renewal.
 
 Frame the increase in terms of results and forward value:
 
@@ -294,6 +297,10 @@ Frame the increase in terms of results and forward value:
 
 Do not apologise for the increase. A price increase tied to demonstrated results
 is professional and justified.
+
+### Value-First Renewal Negotiation
+
+Open with results against the agreed baseline and next year's plan before any price. Present three packages of equal value to the agency that differ in scope, support and risk-sharing (MESO), trade concessions only on "if you…, then we…" terms, and hold a short post-settlement session after signing to look for improvements that help both sides. Full procedure, scripts and the concession worksheet are in [`references/value-first-renewal-and-relationship-health.md`](references/value-first-renewal-and-relationship-health.md).
 
 ### Renewal Conversation Script
 
@@ -343,3 +350,5 @@ Output from this skill meets the standard when:
 - Renewal preparation is framed as a six-week process, not a last-minute conversation
 - The offboarding process is included for non-renewals, with a word-for-word
   handover message and a five-working-day asset handover deadline
+- Renewal opens with value against an agreed baseline, uses equal-value options and conditional concessions, and contains no unsourced "standard increase" percentage
+- The client-council or value-workshop step and the trust-recovery protocol are included for retainers above the agency's defined grade threshold

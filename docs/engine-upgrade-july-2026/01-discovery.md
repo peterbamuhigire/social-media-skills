@@ -3,6 +3,8 @@
 Engine root: `C:\wamp64\www\social-media-skills`
 Discovery date: 2026-07-07
 
+> Historical snapshot. The `book-extractions/` folder listed below was retired on 2026-09-23 under the no-stored-extractions rule; its knowledge now lives in task-oriented skill `references/` (see the 2026-09-23 capability preservation record in the change ledger).
+
 ## What Was Read
 
 I read the root router/controller files where present (`README.md`, `AGENTS.md`, `CLAUDE.md`) and read every discovered `SKILL.md` file in full. I also read every Markdown file matching governance, doctrine, standard, quality, anti-slop, architecture, router, guide, index, policy, protocol, or changelog naming patterns into the audit manifest. The full content inventory is in `10-appendix-file-inventory.md`.

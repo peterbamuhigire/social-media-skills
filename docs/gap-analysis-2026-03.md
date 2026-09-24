@@ -4,6 +4,8 @@
 **Context:** Uganda/East Africa primary market
 **Sources:** 8 books across two research batches (see bibliography)
 
+> Status (2026-09-23): historical planning record. It names books and frameworks and records the build plan; it is not a store of book content. Current guidance lives in the skills named below. Any statistic mentioned here is a book-era claim, not a benchmark.
+
 ---
 
 ## Executive Summary

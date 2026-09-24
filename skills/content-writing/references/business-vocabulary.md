@@ -1,6 +1,8 @@
-# Business Vocabulary Reference — Marc Roche, IDM Business and Law
+# Professional Vocabulary Bank for Business Writing
 
-Extracted from *Business English Vocabulary: Advanced Masterclass* (Marc Roche, IDM Business and Law). This reference feeds into all content-generating skills: content-writing, page-builder, sales-copywriting, blog-writer.
+A task-organised vocabulary bank for choosing register, linking ideas, describing data and writing professional correspondence. Use it with content-writing, blog-writer, email and proposal skills. It is a working phrase bank, not a summary of any book.
+
+Source consulted: Roche, M. *Business English Vocabulary: Advanced Masterclass*, IDM Business and Law (word pairs and phrase patterns re-organised by writing task).
 
 ---
 

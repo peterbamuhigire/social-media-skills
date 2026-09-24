@@ -71,6 +71,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md) — read for the paths table, cost-to-serve sheet and programme design behind the prices.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 
@@ -209,6 +210,15 @@ Monthly performance report with commentary — for clients who manage their own 
 - A 50% deposit is required to commence; the balance is invoiced monthly in advance.
 - Packages are reviewed annually. Current pricing is valid through [insert review date].
 
+### Menu Design Rules (apply before publishing Document 1)
+
+- **Three core programmes at most** (Nelson, 2019). Put one-off audits, training and add-ons on a separate list or tab so unrelated items are not mixed in one table.
+- **Choice architecture** (Wiebe, 2011, *Copy Hackers: 6 Persuasion Strategies*): never show a single option; align rows so the same features appear in the same order and words in every column; name tiers by the buyer's situation or outcome, not "Basic/Pro"; place the programme you most want to sell in the middle; use one badge only, and only if true ("Most chosen by clinics" must be literally true); put a named contact and WhatsApp route directly below the table. Treat claims such as "leading with the dearest plan raises revenue per visitor" as hypotheses to test, not rules.
+- **Price presentation order:** in conversation, problem → cost to the client's profit → solution → price. On a premium agency website, sell outcomes and proof on the home page and show ranges on an "Investment" page; never bury the price where it is expected.
+- **Discounts:** show the old price, new price and saving together, give the real reason, and prefer trading something (term length, prepayment, case-study rights) over cutting price.
+- **Every programme pairs a fast-signal component with a slow-compounding one** so the client sees early results (see [agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md)).
+- **Price from the cost-to-serve sheet and value delivered**, then check margin with the finance engine. Nelson observed that a sizeable share of his clients chose his top package unprompted; that is one agency's anecdote, not a planning rate.
+
 ## Document 2: Consultant-Only Pricing Rationale Guide
 Label this section clearly: `# Pricing Rationale Guide — For [Consultant Name]`
 
@@ -221,7 +231,7 @@ Frame every pricing conversation around value delivered, not time spent or costs
 
 1. **Anchor to the client's goal first.** Before quoting, confirm what outcome the client wants (more leads, brand awareness, sales). Then connect your service to that outcome: "Our Growth package is designed for businesses that want consistent, strategic content tied to real business targets — not just posting for the sake of it."
 
-2. **Quantify the alternative.** In-house hire (even part-time) in Kampala costs UGX 800,000–1,500,000 per month in salary alone, before training, management time, and tools. Your retainer delivers senior expertise for the same budget or less.
+2. **Quantify the alternative.** Compare the retainer with the client's real cost of an in-house hire (salary from a current, dated local salary source, plus training, management time and tools). Do not quote a remembered salary range; if no current source is available, ask the client what the role would cost them.
 
 3. **Reference what's included.** Walk through the deliverables list item by item. Clients often do not realise how much is covered. "This includes your content calendar, all captions, community management, and a monthly report with recommendations — every month."
 
@@ -270,3 +280,4 @@ Decline or disengage when:
 - Upsell guidance is specific to the Starter-to-Growth journey; not generic sales advice
 - Red flags list is practical and actionable; each item has a clear reason
 - Document 2 is clearly marked as internal-use only
+- The menu has no more than three core programmes, aligned rows, one true badge, a contact route under the table and no unsourced salary or market figures

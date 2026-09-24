@@ -96,6 +96,7 @@ Given verified event-level cohort data, the skill produces a cohort analysis wit
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [Three-view cohort reveal and churn denominators](../meta-social-metrics-framework/references/omtm-lines-in-the-sand-and-stage-metrics.md) — read §6 before building a cohort table or choosing a churn formula.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Inputs

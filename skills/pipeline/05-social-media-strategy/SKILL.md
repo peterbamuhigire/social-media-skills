@@ -9,7 +9,7 @@ metadata:
 ---
 # Social Media Strategy Generator
 
-For AI-search-aware strategy, load [the 2026-09-14 Meltwater AI-search implementation synthesis](../../../book-extractions/meltwater-ai-search-implementation-synthesis-2026-09-14.md)
+For AI-search-aware strategy, load [the AI search and social discovery rules (LinkedIn citation section)](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md)
 and preserve its sample, denominator, date, and attribution limits in the
 strategy's evidence register.
 
@@ -380,7 +380,7 @@ Theme: use data to improve performance; introduce new formats or channels if rea
 - Paid social guidance is calibrated to the client's stated budget band
 - If the client owns a website, Section 3b is included with a blog cadence, recycling plan, and content calendar integration instructions
 
-## Four Tenets check before strategy (added 2026-05-04 from Levy)
+## Strategy readiness gate (four evidence areas, after Levy, 2015, UX Strategy, O'Reilly)
 
 Canonical reference: `docs/ux-foundations.md` Section 2.
 

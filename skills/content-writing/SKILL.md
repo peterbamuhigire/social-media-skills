@@ -72,11 +72,13 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [caption-writer](caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [Human, professional phrase bank](references/human-professional-phrase-bank.md) — read when copy is correct but generic, or when you need patterns for posts, ads, emails, pages, rate cards or plan sections.
+- [Direct-marketing ethics filter](references/direct-marketing-ethics-filter.md) — apply to every selling asset before release.
 <!-- dual-compat-end -->
 
 ## Human-English overlay
 
-Load [`human-english-craft-synthesis-2026.md`](../../book-extractions/human-english-craft-synthesis-2026.md) before drafting. Apply the five passes and keep the post channel-native: one real idea, one audience, one honest action, concrete detail, correct grammar, and rhythm that serves the thought. Never add typos, forced slang, or fake intimacy to imitate a person.
+Load [the human English craft standard](../language/language-standards/references/human-english-craft-standard.md) before drafting. Apply the five passes and keep the post channel-native: one real idea, one audience, one honest action, concrete detail, correct grammar, and rhythm that serves the thought. Never add typos, forced slang, or fake intimacy to imitate a person.
 
 Professional copywriting standards for website copy, blog posts, articles, and all written content. This is a cross-cutting skill — apply these principles whenever creating or editing text for any page.
 

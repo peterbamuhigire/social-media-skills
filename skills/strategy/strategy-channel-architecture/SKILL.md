@@ -18,6 +18,7 @@ metadata:
 ## Do Not Use When
 
 - Use `peso-integrated-strategy` when that neighbouring workflow owns the main decision or deliverable.
+- Use `traction-channel-bullseye` first when nobody has yet tested whether social media (or which channel family) should be an inner-circle acquisition channel at all.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -66,6 +67,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | The client is spread thinly or lacks a role for each channel | Choose a primary hub and explicit support roles | Every channel receives equal effort without a conversion path |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| Channel choice has not been tested against the other acquisition channels | Gate: run `traction-channel-bullseye` (19 channels, three capped tests) before assigning social roles; record whether each social channel harvests demand or generates it | Building an elaborate social architecture on a channel that cannot reach customers at allowable cost |
 
 ## Quality Standards
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [Traction channel bullseye](../traction-channel-bullseye/SKILL.md) — upstream gate for channel selection.
 <!-- dual-compat-end -->
 
 Designs a hub-and-spoke channel architecture — defining the conversion hub, assigning platform roles, mapping the customer traffic flow, and allocating content production effort. Based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) and adapted for the Uganda/East Africa market.

@@ -1,6 +1,35 @@
 # social-media-skills
 
-`social-media-skills` is a 178-skill, content-only consultancy engine for running a professional social media and digital-marketing practice: it turns a defined business or communication objective into deliberate strategy, content, campaigns, community practice, measurement, training, and governed AI-assisted marketing, one audience-and-channel unit at a time, connecting idea, evidence, creative treatment, approval boundary, action, moderation, and learning signal instead of producing interchangeable volume. It produces text documents, structured plans, and slide outlines — never finished graphic design, video edits, websites, software, or paid-spend execution. Social strategists, content practitioners, channel owners, consultants, and client teams use it to fix unclear positioning, inconsistent publishing, weak audience-to-conversion paths, and unproven performance claims, with Uganda/East Africa as the default market context (replaced when a brief names another). Concrete use cases: drafting a full consultancy proposal and credentials deck (`business-development/`), building a 90-day content calendar with 10-4-1 ratio and stratified pre-publish QC (`pipeline/11-content-calendar`), writing platform-native captions and blog posts with brand-voice extraction (`content-writing/`, `ai-marketing/brand-voice-ai-training`), running a campaign or crisis-communications playbook (`playbooks/`), or producing a measurement/ROI report (`meta-analytics-ops/`). Every generated output passes through the mandatory, always-on `anti-ai-slop` ship gate and the post-iteration `ai-slop-audit` grader before it reaches a client.
+`social-media-skills` is the Chwezi **digital marketing and advertising** consultancy engine: 191 skills, kept under the repository's original name, for running a premium marketing and advertising practice that earns professional fees. It turns a business objective into the documents a serious agency produces — marketing and advertising strategies, segmentation and positioning, channel selection, media plans with reach, frequency and budget logic, strategic creative briefs and concepts, ad copy and hooks, paid search and paid social build specifications, landing-page briefs, content plans and calendars, influencer and creator programmes, testing, attribution and measurement frameworks, reports, training guides, proposals, and the agency's own prospecting, pricing, retention and key-account systems. Everything is written in plain, professional British English, checked by a mandatory quality gate against generic, machine-sounding output, and built to be specific, measurable, realistic and time-bound for the client's business, location and scope, with Uganda and East Africa as the default market (replaced whenever a brief names another).
+
+The engine plans, specifies, writes, audits and reports; it does not spend money, change live ad accounts, publish or contact anyone without explicit client authority. It helps agency owners and account leads who need a repeatable way to win and keep clients; strategists, media planners, copywriters and paid-media specialists who need defensible budgets, briefs, copy and test plans; in-house marketing teams and founders who want to know which channels to test and what the numbers must show before they spend; and clients who need honest measurement rather than vanity metrics. It does this by giving each deliverable a procedure, decision rules, worked templates, dated evidence for volatile platform and legal facts, and explicit stop points where evidence or authority is missing.
+
+## Capability map
+
+| Category | SKILL.md files | Coverage |
+|---|---|---|
+| `playbooks/` | 39 | Production, paid social build specifications, crisis, UGC, viral, community, post-click, chatbot, networking, agency operations, retainer management and other operating SOPs |
+| `meta-analytics-ops/` | 25 | Audits, reporting, testing, ROI, UTM, listening, dashboards, OMTM and lines in the sand, metrics, privacy and measurement |
+| `strategy/` | 22 | STP and positioning, traction-channel Bullseye, B2B customer community and key accounts, PESO, owned media, social commerce, personal brand, creator monetisation, customer value and experiential strategy |
+| `ai-marketing/` | 22 | AI strategy, brand-voice training, AI search, content workflows, vendor/data readiness, disclosure, bias, privacy, and the mandatory anti-slop/slop-audit gates |
+| `content-writing/` | 15 | Captions, blogs, email, direct-response funnels and sales letters, whitepapers, prompts, briefs, the human-professional phrase bank and the direct-marketing ethics filter (count includes the category standards file) |
+| `pipeline/` | 14 | Numbered `00`–`13` brief-to-strategy-to-calendar-to-campaign workflow, including influencer strategy |
+| `platforms/` | 12 | WhatsApp, Facebook, Instagram, TikTok, LinkedIn, YouTube, X, podcast and other channel plans |
+| `business-development/` | 12 | Credentials, proposals, pricing, lawful prospecting and outreach, positioning, case studies and calls for applications |
+| `advertising/` | 9 | Advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff |
+| `training/` | 6 | Client teams, DIY content, social fundamentals, smartphone video, AI foundations and prompt writing |
+| `language/` | 4 | East African English, language standards (human-English craft), French and Kiswahili copy |
+| `meta-utility/` | 3 | Skill authoring, safety auditing, and the Kaizen improvement system |
+| `frameworks/` | 2 | Community-trust and digital-transparency frameworks |
+| `policies/` | 2 | AI content ethics and AI intellectual-property and copyright policies |
+| `sectors/` | 2 | Healthcare and hospitality |
+| `seo-discovery/` | 2 | Search and generative-engine (GEO) optimisation, and demand forecasting |
+
+191 `SKILL.md` files across 16 category directories under `skills/<category>/<skill-name>/SKILL.md` (verified 2026-09-24 by `scripts/validate_skill_engine.py`; the count includes the `content-writing` category standards file).
+
+## Sister engines and installation
+
+It works alongside sister engines rather than duplicating them: finished visual design goes to `design-system-skills`; website builds go to `website-skills` through a defined ad-to-site journey handoff (landing-page brief, message match, UTM and conversion definitions, ownership); formal tenders go to `proposal-skills`; full business and marketing plan documents to `business-plan-skills`; tax, accounting and finance to `chwezi-accounting-doctrine`; and live facts to `digital-research-engine`.
 
 Install it as a native Claude Code plugin, or npm-free from a clone:
 
@@ -29,38 +58,41 @@ before relying on it in a sensitive environment (for example: "scan this
 repository for hardcoded secrets, personal paths, or unexpected network
 calls").
 
-## Capability map
-
-| Category | SKILL.md files | Coverage |
-|---|---|---|
-| `playbooks/` | 39 | Production, crisis, UGC, viral, community, post-click, chatbot, AI-content and operating SOPs |
-| `meta-analytics-ops/` | 25 | Audits, reporting, testing, ROI, attribution, listening, dashboards, metrics, privacy and measurement |
-| `ai-marketing/` | 22 | AI strategy, brand-voice training, content workflows, vendor/data readiness, disclosure, bias, privacy, and the mandatory anti-slop/slop-audit gates |
-| `strategy/` | 19 | PESO, owned media, social commerce, personal brand, communities, export, customer value, purpose, eWOM and experiential strategy |
-| `content-writing/` | 15 | Captions, blogs, email, direct response, whitepapers, prompts, image/audio/video briefs and human-quality editing |
-| `pipeline/` | 14 | Numbered `00`–`13` brief-to-strategy-to-calendar-to-campaign workflow |
-| `platforms/` | 12 | WhatsApp, Facebook, Instagram, TikTok, LinkedIn, YouTube, X, podcast and other channel plans |
-| `business-development/` | 11 | `biz-dev-*` credentials, proposals, pricing, outreach, practitioner positioning |
-| `training/` | 6 | Client teams, DIY content, social fundamentals, smartphone video, AI foundations and prompt writing |
-| `language/` | 4 | East African English, language standards, French and Kiswahili copy |
-| `meta-utility/` | 3 | Skill authoring, safety auditing, and the Kaizen improvement system |
-| `frameworks/` | 2 | `framework-*` strategic planning and decision models |
-| `policies/` | 2 | AI ethics, copyright, social-media and governance policies |
-| `sectors/` | 2 | Sector-specific marketing guidance (healthcare first; more planned) |
-| `seo-discovery/` | 2 | Search, GEO and discovery optimisation |
-
-178 `SKILL.md` files across 15 category directories under `skills/<category>/<skill-name>/SKILL.md` (verified 2026-09-20 by direct count).
-
 ## References
 
 - Mustafa, A. et al. *Everything Claude Code (ECC)*. GitHub: affaan-m/ECC, 2026. — This engine adapts several ECC skills by name, not by blanket mention: `brand-voice`'s source-priority contract and "what the author never does" extraction list (`skills/ai-marketing/brand-voice-ai-training/SKILL.md`); the `crosspost`/`content-engine` no-identical-cross-platform-copy rule (`skills/meta-analytics-ops/meta-content-repurposing/SKILL.md`); and the `santa-method` skill's Pattern C stratified batch-sampling QC, credited to Ronald Skelton (RapportScore.ai) via ECC, applied to 90-day content-calendar pre-publish review (`skills/pipeline/11-content-calendar/SKILL.md`). The `install.sh`/`install.ps1` MSYS2 path-conversion and symlink-resolution logic is also adapted from ECC's own installer.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book* — source of the 10-4-1 rule and the ROI formula (TLV − COCA) ÷ COCA.
 - Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice* — source of the RACE framework.
 - Kotler, P. et al. (2023) *Marketing Management*.
-- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*; Kennedy, D. (2004) *No B.S. Sales Success*; Kennedy, D. (2000) *The Ultimate Sales Letter*; Brunson, R. (2013) *DotComSecrets Ignite* — canonical references for the direct-response funnel skills, extracted in full in `book-extractions/`.
+- Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*, Entrepreneur Press; Kennedy, D. (2004) *No B.S. Sales Success*, Entrepreneur Press; Kennedy, D. (2000) *The Ultimate Sales Letter*, Adams Media; Brunson, R. *DotComSecrets Ignite*, SuccessEtc — canonical references for `content-writing/direct-response-funnel-copy` and its `references/`.
 - Handley, A. (2012) — source of the 1-7-30-4-2-1 publishing cadence cited in `skills/meta-analytics-ops/meta-content-repurposing/SKILL.md`.
 - Merriam-Webster (2025 Word of the Year); Kommers et al., *"Why Slop Matters"* (arXiv 2601.06060); Spracklen et al. (USENIX Security 2025, 19.7%); Veracode (45% / XSS 86% / log-injection 88%) — the verified evidence base shared by the `anti-ai-slop` and `ai-slop-audit` skills; see `CLAUDE.md`'s Anti-AI-Slop Quality Gate section.
-- A further sixteen-book intake (Kaizen, Lean, digital storytelling, UX strategy, and others) is recorded in full in `book-extractions/` and `docs/continuous-improvement/kaizen-adoption-2026-08.md`; each is cited by title in this README's existing "Book-informed capability upgrades" table below.
+- A further sixteen-book intake (Kaizen, Lean, digital storytelling, UX strategy, and others) is recorded in `docs/continuous-improvement/kaizen-adoption-2026-08.md`; each is cited by title in the "Book-informed capability upgrades" table below.
+- UX books used for persona discipline and destination-UX heuristics: Branson, S. (2020) *UX/UI Design*; Deacon, P. B. (2020) *UX and UI Design Strategy*; Fekeshazi, Z. (c. 2017) *Product Managers' Guide to UX Design*, UX Studio; Levy, J. (2015) *UX Strategy*, O'Reilly; Synechron (2018) *Bridge the User Experience Gap in Enterprise Applications for Financial Services & Insurance* — used in `pipeline/03-audience-personas`, `pipeline/01-client-brief`, `meta-analytics-ops/meta-competitor-analysis` and `advertising/ad-to-site-journey-handoff`.
+
+### September 2026 digital marketing and advertising intake
+
+| Book | Used in |
+|---|---|
+| Kelley, L. D. and Sheehan, K. B. (c. 2021–22) *Advertising Management in a Digital Environment: Text and Cases*, Routledge | `advertising/advertising-strategy-and-budget`, `advertising/media-planning`, `advertising/creative-brief-and-big-idea`, `strategy/marketing-foundations-stp-positioning`, `playbooks/playbook-agency-operations` |
+| Landa, R. (2022) *Strategic Creativity: A Business Field Guide to Advertising, Branding, and Design*, Routledge | `advertising/creative-brief-and-big-idea`, `advertising/ad-copy-and-hook-lab` |
+| Serling, B. (ed.) (2002) *How to Write Million Dollar Ads, Sales Letters & Web Marketing Pieces*, The Internet Marketing Center | `advertising/ad-copy-and-hook-lab`, `content-writing/direct-response-funnel-copy` |
+| Stockwell, J. and Shaw, H. M. (1994) *Direct Marketing Checklists*, NTC Business Books | `advertising/direct-response-economics`, `advertising/media-planning`, `advertising/ad-testing-and-scaling` |
+| Weinberg, G. and Mares, J. (2014) *Traction: A Startup Guide to Getting Customers*, S-curves Publishing | `strategy/traction-channel-bullseye`, `advertising/paid-search-advertising` |
+| Croll, A. and Yoskovitz, B. (2013) *Lean Analytics*, O'Reilly Media | `meta-analytics-ops/meta-social-metrics-framework`, `advertising/ad-testing-and-scaling` |
+| Stutts, P. (2021) *The Undefeated Marketing System*, Lioncrest | `advertising/ad-testing-and-scaling`, `strategy/marketing-foundations-stp-positioning`, `advertising/ad-to-site-journey-handoff` |
+| Hunter, V. L. with Tietyen, D. (1997) *Business-to-Business Marketing: Creating a Community of Customers*, NTC Business Books | `strategy/strategy-b2b-customer-community`, `advertising/advertising-attribution-and-measurement` |
+| Marcos, J., Guesalaga, R., Hough, A. and Vincent, R. (c. 2025) *The High-Performing Key Account Manager*, Kogan Page (research-backed frameworks only) | `strategy/strategy-b2b-customer-community`, `playbooks/playbook-client-retainer-management` |
+| Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC | `playbooks/playbook-agency-operations`, `business-development/biz-dev-proposal`, `business-development/biz-dev-lawful-prospecting-outreach`, `business-development/biz-dev-practitioner-positioning` |
+| Hennessy, B. (2018) *Influencer: Building Your Personal Brand in the Age of Social Media*, Citadel Press | `pipeline/08-influencer-marketing-strategy`, `strategy/strategy-creator-monetisation` |
+| Brown, R. (2016) *Build Your Reputation*, Capstone/Wiley | `strategy/strategy-personal-brand`, `playbooks/playbook-networking` |
+| Wiebe, J. (2011) *Copy Hackers: 6 Persuasion Strategies*, Copy Hackers | `content-writing/references/human-professional-phrase-bank.md`, `business-development/biz-dev-pricing-menu` |
+| Maltz, M., Kennedy, D. S. et al. (1998) *Zero-Resistance Selling*, Prentice Hall Press | `content-writing/direct-response-funnel-copy`, `business-development/biz-dev-lawful-prospecting-outreach`, the phrase bank |
+| McDermott, A. (2023) *Efficient Content Creation*, The Recognized Authority | `meta-analytics-ops/meta-content-repurposing` |
+| Debelak, D. (2006) *Perfect Phrases for Business Proposals and Business Plans*, McGraw-Hill | `content-writing/references/human-professional-phrase-bank.md` |
+| Abrams, R. *The Successful Business Plan*; Barrow, C., Barrow, P. and Brown, R. *Get Backed, Get Big, Get Bought*; Wheelen, T. L. and Hunger, J. D. *Strategic Management and Business Policy*; Kupsh, J. and Graves, P. R. *How to Create High Impact Business Presentations* (selected items) | `strategy/marketing-foundations-stp-positioning`, `playbooks/playbook-agency-operations` |
+
+Book knowledge is held only as task-oriented skill content and `references/`; no book extractions or book summaries are stored in this repository (owner rule, 2026-09-23). Volatile platform, legal and market facts come from `docs/source-registers/source-register.json` (Kaizen currentness register, 2026-09-23), never from the books.
 
 The engine produces text-first, reviewable consultancy artefacts, including:
 
@@ -68,6 +100,7 @@ The engine produces text-first, reviewable consultancy artefacts, including:
 - platform audits, channel architecture, audience and brand-voice work;
 - content pillars, calendars, briefs, captions, articles, email, SEO/GEO content, and repurposing plans;
 - campaign strategies, campaign briefs, influencer, UGC, community, social-commerce, WhatsApp, and launch playbooks;
+- advertising strategies and budgets, media plans, creative briefs and concepts, ad copy and hooks, paid search and paid social build specifications, test and scaling plans, attribution and measurement frameworks, direct-response economics and landing-page handoff briefs;
 - paid/organic/hybrid recommendations and funnel content;
 - analytics frameworks, dashboards specifications, KPI reports, ROI and attribution models, testing plans, social listening, competitor analysis, and content audits;
 - AI-marketing strategy, readiness assessments, vendor and data audits, prompt systems, RAG knowledge bases, chatbots, agentic workflows, and AI-content policies;
@@ -253,7 +286,7 @@ See [`docs/continuous-improvement/book-driven-kaizen-2026-09-01.md`](docs/contin
 - Missing account access, source evidence, rights, approvals, measurement data, fluent-language review, rendering capability or qualified specialists produces `not assessed` or a qualified result.
 - No campaign should be published, paid spend changed, customer data processed, account altered or external message sent without explicit authority.
 - Visual asset production, final layout, typography, interface design and presentation rendering belong to the <a href="https://github.com/peterbamuhigire/design-system-skills" target="_blank" rel="noopener noreferrer">Design System Skills Engine</a>.
-- This repository's historical `book-extractions/` material is supporting study material, not automatically current evidence.
+- Book knowledge is durable concept input only; it is held as task-oriented skill references, never as stored extractions, and is not current evidence.
 
 ## Repository layout
 
@@ -263,7 +296,6 @@ social-media-skills/
 ├── docs/                           # Standards, plans, source registers and evidence packs
 ├── scripts/                        # Read-only validation and freshness checks
 ├── tests/                          # Repository tests
-├── book-extractions/               # Supporting book extraction material
 ├── AGENTS.md                       # Operating and routing instructions
 ├── CLAUDE.md                       # Dual-compatibility authoring guidance
 ├── quality-baseline.json           # Zero-debt baseline assertion
@@ -333,7 +365,7 @@ fixtures and commands are recorded in
 ## Out of scope
 
 - finished graphic design, illustration, animation or video editing;
-- web, mobile, desktop or backend implementation;
-- autonomous publishing, ad spend, account mutation or customer-data processing;
+- web, mobile, desktop or backend implementation (handed to `website-skills` through the journey handoff);
+- publishing, ad spend, live ad-account changes, outreach or customer-data processing without explicit client authority (planning, build specifications, optimisation recommendations and reporting are in scope);
 - legal advice, regulatory certification or financial assurance;
 - unsupported claims about current platforms, markets, laws, benchmarks or client performance.

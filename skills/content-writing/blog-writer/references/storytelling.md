@@ -148,116 +148,60 @@ French business storytelling differs from English:
 
 ## Sales Storytelling vs Informational Storytelling
 
-**Informational storytelling** (default for blog posts): The story illustrates a point. The reader learns something. The CTA is secondary.
+**Informational storytelling** (default for blog posts): the story illustrates a point; the reader learns something; the call to action is secondary. Use the Five-Beat Structure above.
 
-**Sales storytelling** (for landing pages, product pages, conversion copy): The story IS the selling mechanism. Every detail moves the reader toward action.
+**Sales storytelling** (landing pages, product pages, conversion copy): the story carries the case for acting. Every detail moves the reader toward a decision. Use the procedure below, then run the ethics filter in `../../references/direct-marketing-ethics-filter.md`.
 
-When writing sales-oriented stories, use the frameworks below. For standard blog articles, the Five-Beat Structure (above) remains your primary tool.
+### Step 1 — Find the story worth telling
 
-## The Dominant Story Idea (Ray Edwards)
+Search these sources in order until one gives a true, specific story that serves the promise:
 
-Borrowed from movie trailers. Your product has a story — find it and build your copy around it.
+| Source | What to ask |
+|---|---|
+| The founder | Why did this business start, and what nearly stopped it? |
+| How the offer was made | What unusual choice, accident or change of direction shaped it? |
+| How it is produced or delivered | Which ingredient, process or care is surprising to an outsider? |
+| The people who serve customers | What do front-desk, delivery and support staff hear every week? |
+| Customers | Phone a satisfied customer (with consent) and ask what happened, how it felt, and what changed afterwards |
+| What is happening now | Is there a season, regulation, price change or news event the story connects to honestly? |
 
-### Three Elements:
+### Step 2 — Compress it into one line
 
-1. **The Dominant Story Idea (DSI)** — Sum up your product's story the way a movie trailer sums up a film. One sentence. This becomes your headline and lead.
+Write the story as a single "trailer" sentence: who, what was at stake, what changed. That line feeds the headline and opening (the "dominant story idea", a technique credited to Ray Edwards). Test it: could the reader repeat it after hearing it once? Does it belong to this client and no one else? If the offer were a film, what kind of film would it be — rescue, comeback, discovery, homecoming?
 
-2. **Sample Feelings** — Show scenes that help the reader feel the feelings they want from the product. These become your bullet points and deck copy.
+### Step 3 — Plan the arc backwards
 
-3. **Proof It Works** — Testimonials, case studies, before/after. Distributed throughout.
+1. Decide the ending first — the feeling and belief the reader should hold on the last line.
+2. Pick the one moment that makes the story compelling and links to the promise.
+3. List the details that earn that ending and order them.
+4. Open in the middle of the action, not at the beginning of the chronology.
+5. Name the obstacle or opponent (the problem that keeps this reader awake) and show the reader, not the brand, as the person who overcomes it; the brand is the guide.
 
-### Finding Your DSI:
-- Immerse yourself in the product and the client's world
-- Read copy from OTHER industries and ask "How might this story apply to my client?"
-- Ask: "If this product were a film, what film would it be?"
-- Watch the news for current tie-ins
+### Step 4 — Write it tight and true
 
-### Using Your DSI:
-- Get it into the headline and lead
-- Summarise Sample Feelings in bullet points
-- Distribute proof throughout the body
+- Keep only details that move the story; tell it quickly; hint early at the benefit to come.
+- Use exact numbers, names of places, sensory detail and the customer's own words (with consent). Prefer "they hired two staff and took their first holiday in three years" to "business improved".
+- Replace vague praise words (lovely, amazing, incredible, upscale, charming, colourful, beautiful) with the concrete fact that justifies them.
+- Choose verbs that show action ("opened", "sold out", "rebuilt") over "was" and "had".
+- Stay true: nothing invented, composite stories labelled, results typical or clearly marked as not typical.
+- End by linking the story to the promise, then move into proof and the offer.
 
-## John Forde's Story Construction Process (AWAI)
+### Step 5 — Quality check before release
 
-### 1. Know Your Story
-- Study everything about the subject
-- Read everything available
-- Close your eyes and tell yourself what the story is about
-- Write the details different ways
-- Pick the most effective approach
+| Check | Pass condition |
+|---|---|
+| Honest and consistent | True, and consistent with everything else the brand says and does |
+| Worth telling | Makes a clear promise of relief, gain or safety that matters to this reader |
+| Credible teller | The brand or customer has earned the right to tell it (proof nearby) |
+| Restrained | Leaves the reader to draw part of the conclusion; not over-explained |
+| Fast | The point lands in the first lines |
+| Felt, not argued | Creates a feeling first; the facts support it |
+| Narrow audience | Written for one defined reader, not everyone |
+| Fits the reader's view | Starts from what the reader already believes about their situation |
+| Moves forward | Rewards the reader with progress, raises the stakes, and leaves a reason to keep reading or act |
 
-### 2. Prepare Your Story
-- Ask what message you want to convey
-- Identify the key moment that makes it compelling and relates to your promise
+These checks synthesise widely used copywriting guidance, including Seth Godin's view that stories spread when they are true, focused and consistent with the audience's worldview, and storytelling advice published by the American Writers & Artists Institute (contributors including John Forde and Jen Stevens). The order, wording and tables here are the engine's own.
 
-### 3. Identify the Arc
-- Start by figuring out how the story ENDS
-- List inspiring details and order them
-- Start in the MIDDLE of the story (where the action is) — not the beginning
+### Worked example (illustrative)
 
-### 4. Construct the Story
-- Make it tight: use only important details, cut ruthlessly
-- Hint at the big benefit to come
-- Tell it quickly — don't meander
-- Stick to the truth
-- Rely on specificity and juicy details
-- When finished, tie it all together with your promise, then transition to the rest
-
-## 6 Places to Find Stories (AWAI)
-
-1. **Talk to the creator/founder** — there's almost always an interesting backstory
-2. **Discover how the product was developed** — unusual origins, accidental discoveries, pivots
-3. **Learn what goes into production** — exotic ingredients, new technology, careful processes
-4. **Talk to the team** — customer service, product development, sales staff all have stories
-5. **Mine testimonials deeply** — call the person, have them expand, record the conversation. Ask "How did you feel?" not just "What happened?"
-6. **Current events and trends** — tie your story to something happening now
-
-## Seth Godin's 9 Qualities of Great Stories
-
-1. **True** — consistent and authentic (not necessarily factual, but always honest)
-2. **Bold promise** — fun, safety, or a shortcut; must be exceptional or not worth telling
-3. **Trusted** — earned credibility to tell the story
-4. **Subtle** — fewer details spelled out = more powerful; let readers draw conclusions
-5. **Happen fast** — first impressions are far more powerful than we credit
-6. **Appeal to senses, not logic** — create feelings, not arguments
-7. **Rarely aimed at everyone** — narrow audience spreads the story; water it down and it appeals to no one
-8. **Don't contradict themselves** — consistency across all touchpoints
-9. **Agree with the audience's worldview** — best stories don't teach anything new; they make the audience feel smart and right
-
-## Jen Stevens' Authenticity Rules (AWAI)
-
-### 1. Employ specific details
-- Bad: "The business was successful, very successful."
-- Good: "Within 18 months, they'd opened three locations across Kampala, employed 45 staff, and processed 2,000 orders per week."
-
-### 2. Avoid filler words
-Eliminate: fashionable, lovely, charming, upscale, colourful, beautiful, amazing, incredible. These are lazy descriptions that don't paint specific pictures. Replace with concrete detail.
-
-### 3. Use strong verbs
-Replace "to be" and "to have" with verbs that describe action or offer visual images.
-- "swept through" instead of "was in"
-- "tucked into" instead of "had"
-- "launched" instead of "started"
-
-### 4. Ferret out details others overlook
-- What did you see, smell, hear, feel?
-- Offer exact numbers
-- When gathering testimonials, don't just ask "what happened" — ask "how did you feel?" and "in what ways did this change how you see things?"
-- Draw out specific details: not "business improved" but "we hired two new staff and finally took a holiday for the first time in three years"
-
-## 14 Storytelling Tips for Copywriters (John Forde, AWAI)
-
-1. **Appear spontaneous** — study until the message is second nature, then write naturally
-2. **Give hope** — for things to come
-3. **Show passion** — necessity, not optional
-4. **Overcome obstacles** — drama is about obstacles and how they're overcome
-5. **Make it personal** — personal stories prove what logic can't
-6. **Name the hero** — show your reader how they'll triumph
-7. **Name a villain** — what keeps the prospect up at night? That's your villain
-8. **Reward and tease** — reward with progress, tease with more to come
-9. **Enlarge and enrich** — remind what's important, raise the bar
-10. **Build a relationship** — between brand and customer, beneath the surface
-11. **Commute facts to the subconscious** — embed facts painlessly through story
-12. **Have a good twist** — unexpected angle that keeps them reading
-13. **Make sense** — knowledgeable customers spot fakes immediately
-14. **Leave them wanting more** — know the final emotion and write toward it
+A Jinja fish-farm supplier wants a sales page for its fingerlings. Source: a customer in Buikwe who lost a pond to poor stock. Trailer line: "After losing her first pond, Grace restocked with tested fingerlings and sold her first harvest in five months." Arc: open at the empty pond; the obstacle is untested stock from roadside sellers; the guide is the supplier's testing and weekly WhatsApp advice; the ending is the first harvest and a second pond. Proof follows the story (test certificate, two more consented customer results); then the offer.
