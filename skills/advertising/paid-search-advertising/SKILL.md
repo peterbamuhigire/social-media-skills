@@ -131,7 +131,7 @@ Weinberg & Mares (2014) describe running small search tests on candidate proposi
 
 - Many local categories (schools, clinics, hotels, property, B2B services) have search demand with limited competition; verify on the day rather than assuming low costs.
 - Use click-to-call and WhatsApp destinations where the business converts by conversation; track calls and WhatsApp clicks as conversion actions.
-- Mobile-first landing pages; test at a WebPageTest "3G" stress profile (1.6 Mbps/300 ms RTT) as a worst case, while noting Kenya's median mobile speed is far higher (register CW-04, MK-04).
+- Mobile-first landing pages; test under a throttled Slow 4G/3G profile as a constrained-network stress test, not as a measured median; every source found for Uganda is higher (UCC operator averages 5-16 Mbps, SpeedOf.Me median 8.4 Mbps; register CW-04, MK-04, NET-05).
 - Ugandan invoices for non-resident digital services may attract 18% VAT unless a TIN is registered (PL-05, partial); budget impact goes to `chwezi-accounting-doctrine` for verification.
 
 ## Sources

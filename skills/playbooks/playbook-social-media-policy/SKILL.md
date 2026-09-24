@@ -200,7 +200,7 @@ If a customer has made a complaint through your personal channel, inform your li
 
 ## 5. Disclosure Requirements
 
-When an employee posts content that references [Company Name] — whether reviewing a product, commenting on the company's work, or sharing company news — they must disclose their employment relationship. This is international best practice and builds credibility with audiences.
+When an employee posts content that references [Company Name] — whether reviewing a product, commenting on the company's work, or sharing company news — they must disclose their employment relationship. This is international best practice and builds credibility with audiences. No dedicated Kenyan, Ugandan or Tanzanian influencer or employee-disclosure statute was found (register KE-01, UG-01, TZ-01, 2026-09-24); misleading-representation law and advertising codes still apply, so keep the disclosure and check the jurisdiction register in `../../pipeline/08-influencer-marketing-strategy/references/influencer-term-sheet-and-disclosure.md` (not legal advice; confirm with counsel).
 
 **Disclosure examples:**
 - "I work at [Company Name] — but this is my personal view."

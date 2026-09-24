@@ -196,7 +196,7 @@ Apply the following tactics to build organic local presence through social media
 
 ## Section 6 — WhatsApp Hyperlocal Marketing
 
-WhatsApp is the dominant messaging platform in Uganda (90%+ of smartphone users) and functions as an informal local discovery network. Treat it as a distinct channel requiring specific tactics.
+WhatsApp is the dominant messaging channel in East Africa (no source measures WhatsApp's share of smartphone users in Uganda, Kenya, Tanzania or Rwanda, so state no percentage unless it is a named, dated figure with its base, and check the client's own audience data (register WA-01, 2026-09-24)) and functions as an informal local discovery network. Treat it as a distinct channel requiring specific tactics.
 
 **Neighbourhood WhatsApp groups**
 Many Ugandan residential communities, estates, and professional circles maintain WhatsApp groups for local coordination (estate groups, parents' groups, church groups, market trader groups). These groups carry high trust and high open rates. Do not spam them — this causes backlash and removal. Instead:

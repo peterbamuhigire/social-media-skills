@@ -178,7 +178,7 @@ Apply these tactics in order of ease of implementation:
 
 ## Section 4 — WhatsApp Opt-in List Strategy
 
-WhatsApp is the dominant messaging channel across East Africa, with 90%+ smartphone penetration in Uganda. A permission-based WhatsApp list is often more valuable than an email list for B2C clients because open rates approach 95% and response is near-immediate.
+WhatsApp is the dominant messaging channel across East Africa (no source measures WhatsApp's share of smartphone users in Uganda, Kenya, Tanzania or Rwanda, so state no percentage unless it is a named, dated figure with its base, and check the client's own audience data (register WA-01, 2026-09-24)). A permission-based WhatsApp list is often more valuable than an email list for B2C clients because open rates approach 95% and response is near-immediate.
 
 **Broadcast vs. Groups.** Clarify this distinction with every client:
 - **WhatsApp Broadcast** sends a message to multiple contacts individually. Recipients cannot see each other. Messages appear in the individual chat thread. Recipients must have saved the business number to receive broadcasts. Best for one-way announcements, offers, and updates.

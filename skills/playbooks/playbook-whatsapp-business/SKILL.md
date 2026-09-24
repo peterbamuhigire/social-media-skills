@@ -91,7 +91,7 @@ Ask for the following before generating any output:
 
 ## Why WhatsApp Business Matters for East Africa
 
-WhatsApp is used by 90%+ of smartphone users in Uganda and across East Africa. It is the primary channel for customer enquiries, order confirmations, appointment booking, and repeat purchase. Businesses that manage WhatsApp professionally — with consistent branding, fast response times, and a structured catalogue — consistently outperform those using it informally from a personal number.
+WhatsApp is the dominant messaging channel in East Africa (no source measures WhatsApp's share of smartphone users in Uganda, Kenya, Tanzania or Rwanda, so state no percentage unless it is a named, dated figure with its base, and check the client's own audience data (register WA-01, 2026-09-24); best-attributed figures are Pew's 2023 adult survey, 8-country median 73% with Kenya inferred below 90%, and Yazi's unattributed estimates of about 95% of internet users in Kenya and Uganda, register WA-02 and WA-04). It is the primary channel for customer enquiries, order confirmations, appointment booking, and repeat purchase. Businesses that manage WhatsApp professionally — with consistent branding, fast response times, and a structured catalogue — consistently outperform those using it informally from a personal number.
 
 The WhatsApp Business app (free) is suitable for businesses with one or two team members managing conversations. The WhatsApp Business API (requires a verified business and an approved Business Solution Provider) is required for automation at scale and for teams of three or more.
 

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-23",
+  "as_of": "2026-09-25",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -1057,6 +1057,215 @@
       "support_status": "partial",
       "uncertainty": "T3 only; Act text and URA notice not opened.",
       "verification_note": "Kaizen register PL-05: 18% VAT on non-resident digital services including online ads unless a TIN is registered; DST mechanics must be checked by the finance engine before use."
+    },
+    {
+      "id": "KE-INFLUENCER-LAW-2026",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "Kenya advertising and influencer disclosure instruments (CPA 2012 s.12, Competition Act 2010 s.55/70, ASBK Code, Media Council Code 2025 cl.14)",
+      "publisher": "Kaizen register 2026-09-24 (statute and code working texts)",
+      "tier": 1,
+      "url": "https://new.kenyalaw.org/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 181,
+      "next_review": "2027-03-25",
+      "use_for": [
+        "Kenya influencer disclosure pre-campaign check"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Working texts read via summaries; verify against the live text. Not legal advice.",
+      "verification_note": "Kaizen register KE-01 to KE-05, KE-09, KE-11: no dedicated influencer statute and no express influencer disclosure duty; indirect duties via CPA s.12, Competition Act s.55/s.70 (up to 5 years or KES 10m), ASBK cl.24.1/24.9/13.1, Media Council Code 2025 cl.14(1)(b),(e),(f) (binds journalists and media enterprises, not named influencers). Blog claims of an express CPA duty are unverified."
+    },
+    {
+      "id": "KE-ODPC-DIRECT-MARKETING-2026",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "Data Protection Act 2019 s.37, General Regulations 2021 reg.8/14-17, ODPC guidance notes",
+      "publisher": "Office of the Data Protection Commissioner; Kaizen register 2026-09-24",
+      "tier": 1,
+      "url": "https://www.odpc.go.ke/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 91,
+      "next_review": "2026-12-25",
+      "use_for": [
+        "Kenya direct marketing and influencer image-use checks"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "s.37(3) practice guidelines not found; ODPC penalty reports are secondary.",
+      "verification_note": "Kaizen register KE-06 to KE-08: express consent for commercial use of personal data; electronic direct marketing must identify the sender and offer opt-out; ODPC Nov 2025 guidance has an influencer image-use example (contract term only); ODPC penalties of KES 25,000 and 50,000 against influencers reported. No ODPC influencer paid-partnership disclosure guidance found."
+    },
+    {
+      "id": "KE-CA-BLOGGER-LICENCE-2026",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "Communications Authority influencer or blogger licensing and BCLB gambling-advertising rules",
+      "publisher": "Kaizen register 2026-09-24",
+      "tier": 1,
+      "url": "https://www.ca.go.ke/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 91,
+      "next_review": "2026-12-25",
+      "use_for": [
+        "Kenya regulator check before campaign"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "not_assessed",
+      "uncertainty": "No enacted licensing regime found (2019 KICA Amendment Bill reported only); BCLB 2025 guidelines not assessed (page blocked).",
+      "verification_note": "Kaizen register KE-10: keep as a check; do not present as clearance."
+    },
+    {
+      "id": "UG-INFLUENCER-CONSUMER-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Uganda consumer, competition and electronic marketing rules relevant to influencers",
+      "publisher": "Kaizen register 2026-09-24",
+      "tier": 3,
+      "url": "https://ulii.org/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 91,
+      "next_review": "2026-12-25",
+      "use_for": [
+        "Uganda influencer disclosure check"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "No enacted influencer rule found; consumer protection bill reported pending; Competition Act 2024 (Act 5) commencement and misleading-advertising provisions unverified; UCC Consumer Protection Regulations 2019 and UCC Advertising Standards reported, not read.",
+      "verification_note": "Kaizen register UG-01, UG-03, UG-04: keep as checks."
+    },
+    {
+      "id": "UG-DPPA-S26-DIRECT-MARKETING-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Data Protection and Privacy Act 2019 s.26 direct marketing opt-out",
+      "publisher": "Kaizen register 2026-09-24 (statute working text)",
+      "tier": 1,
+      "url": "https://ulii.org/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 181,
+      "next_review": "2027-03-25",
+      "use_for": [
+        "Uganda opt-out handling in lists and giveaways"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Not legal advice; confirm with counsel.",
+      "verification_note": "Kaizen register UG-02: a data subject may require in writing that a controller stop processing for direct marketing; controller responds within 14 days; direct marketing includes advertising material directed at an individual."
+    },
+    {
+      "id": "TZ-ONLINE-CONTENT-2020",
+      "domain": "legal",
+      "jurisdiction": "Tanzania",
+      "title": "Electronic and Postal Communications (Online Content) Regulations 2020 (GN 538, amended 2022 GN 136) and Fair Competition Act 2003 s.15-16",
+      "publisher": "Kaizen register 2026-09-24 (working texts)",
+      "tier": 1,
+      "url": "https://www.tcra.go.tz/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 181,
+      "next_review": "2027-03-25",
+      "use_for": [
+        "Tanzania influencer licensing and disclosure check"
+      ],
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Working texts read; no sponsored-content disclosure clause in the Regulations. Not legal advice.",
+      "verification_note": "Kaizen register TZ-01, TZ-02: TCRA licence for online media services (reg.4), blogger defined, reg.14 user accountability, Third Schedule bans gambling promotion and unlawful health ads; FCA s.15(1) misleading conduct and s.16(e),(f) false sponsorship or approval."
+    },
+    {
+      "id": "RW-INFLUENCER-DISCLOSURE-2026",
+      "domain": "legal",
+      "jurisdiction": "Rwanda",
+      "title": "Rwanda influencer and advertising disclosure rules",
+      "publisher": "Kaizen register 2026-09-24",
+      "tier": 3,
+      "url": "https://www.rura.rw/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 91,
+      "next_review": "2026-12-25",
+      "use_for": [
+        "Rwanda disclosure check"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "not_assessed",
+      "uncertainty": "No source read.",
+      "verification_note": "Kaizen register RW-01: NOT_ASSESSED; withhold compliance claims."
+    },
+    {
+      "id": "WHATSAPP-USAGE-EA-2026",
+      "domain": "market",
+      "jurisdiction": "Kenya; Uganda; Tanzania; Rwanda",
+      "title": "WhatsApp usage in East Africa (Pew 2023, DataReportal 2026, Yazi estimates)",
+      "publisher": "Kaizen register 2026-09-24",
+      "tier": 2,
+      "url": "https://www.pewresearch.org/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 91,
+      "next_review": "2026-12-25",
+      "use_for": [
+        "WhatsApp channel context; never a smartphone-share percentage"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "No source measures WhatsApp share of smartphone users in these countries; Pew Kenya value not extracted; Yazi figures unattributed and conflict with DataReportal.",
+      "verification_note": "Kaizen register WA-01 to WA-05: '90%+ of smartphone users' is unsupported as worded. Pew (2023, adults, 8 middle-income countries) median 73%, Kenya inferred below 90%; Yazi estimates about 95% of internet users in Kenya and Uganda, about 80% in Tanzania and Rwanda. Check the client's own audience data."
+    },
+    {
+      "id": "UG-MOBILE-SPEED-2026",
+      "domain": "market",
+      "jurisdiction": "Uganda",
+      "title": "Uganda mobile network speed evidence (UCC QoS 2024, SpeedOf.Me H1 2026)",
+      "publisher": "Uganda Communications Commission via Ecofin (T3); SpeedOf.Me",
+      "tier": 3,
+      "url": "https://www.ucc.co.ug/",
+      "verified_on": "2026-09-25",
+      "review_every_days": 60,
+      "next_review": "2026-11-24",
+      "use_for": [
+        "network assumptions in media and landing-page planning"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "UCC data table is an image and figures come via Ecofin (2025-01-20); SpeedOf.Me is single-stream browser tests, mixed desktop and mobile.",
+      "verification_note": "Kaizen register NET-01, NET-02, NET-05: UCC operator mean download 5.3-16.3 Mbps (30 towns, peak hours, Aug-Sep 2024); SpeedOf.Me median 8.4 Mbps (H1 2026). The 1.6 Mbps profile is a stress profile, not a measured median."
+    },
+    {
+      "id": "MOBILE-SPEED-KE-SNAPSHOT-2026",
+      "domain": "market",
+      "jurisdiction": "Kenya",
+      "title": "Kenya mobile speed snapshot (search-reported Ookla median about 45.37 Mbps; StatRanker 50.63 Mbps, about Oct 2025)",
+      "publisher": "Ookla via search report; StatRanker (T3)",
+      "tier": 3,
+      "url": "https://www.speedtest.net/global-index/kenya",
+      "verified_on": "2026-09-25",
+      "review_every_days": 60,
+      "next_review": "2026-11-24",
+      "use_for": [
+        "network assumptions"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Month and 28 ms latency not re-verified; crowdsourced tests skew urban and 4G/5G.",
+      "verification_note": "Kaizen register NET-04. Ookla and Opensignal for Uganda, Tanzania and Rwanda (NET-03): NOT_ASSESSED; keep as checks."
+    },
+    {
+      "id": "ANTHROPIC-MODELS-2026",
+      "domain": "platform",
+      "jurisdiction": "Global; Anthropic API",
+      "title": "Anthropic models overview and retirement floors",
+      "publisher": "Anthropic",
+      "tier": 1,
+      "url": "https://platform.claude.com/docs/en/models/overview",
+      "verified_on": "2026-09-25",
+      "review_every_days": 20,
+      "next_review": "2026-10-15",
+      "use_for": [
+        "model-currentness review for the Claude side"
+      ],
+      "freshness_class": "time-sensitive",
+      "support_status": "verified",
+      "uncertainty": "Undated page fetched live 2026-09-25; session self-report for the active model.",
+      "verification_note": "Kaizen register MR-01 to MR-03: Claude Haiku 4.5 retirement not sooner than 2026-10-15; Fable 5.1, Opus 5.5 and Sonnet 5 later. Engine skills stay model-agnostic; no skill names Haiku 4.5. Codex/OpenAI pins are out of scope for Claude sessions."
     }
   ]
 }

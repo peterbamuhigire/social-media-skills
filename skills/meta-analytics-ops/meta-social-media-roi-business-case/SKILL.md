@@ -355,7 +355,7 @@ State the recommended tier, the monthly cost, and the 12-month total. Include a 
 ### Handling Objections
 
 **"Our customers are not on social media."**
-Respond with data. Facebook has approximately 3.2 million users in Uganda (Meta, 2024). WhatsApp penetration among smartphone users exceeds 90%. Ask: what is the client's target customer profile, and present platform demographics that match that profile. Offer to run a lightweight A&U poll on WhatsApp in the first 30 days to verify.
+Respond with data. Facebook has approximately 3.2 million users in Uganda (Meta, 2024). WhatsApp is the dominant messaging channel, but no verified share of smartphone users exists (register WA-01, 2026-09-24), so state no percentage. Ask: what is the client's target customer profile, and present platform demographics that match that profile. Offer to run a lightweight A&U poll on WhatsApp in the first 30 days to verify.
 
 **"We tried it before and it didn't work."**
 Ask what was tried, for how long, and how success was defined. In most cases: the previous attempt had no budget, no strategy, no dedicated resource, and no defined KPIs. Acknowledge the failure honestly. Present this business case as the difference between an unfunded experiment and a managed investment with defined outcomes and a review cadence. Commit to a 90-day review gate.

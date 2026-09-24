@@ -109,7 +109,7 @@ If another market is specified, replace those assumptions rather than keeping Ug
 
 | Platform | Role in EA |
 |---|---|
-| WhatsApp | Primary customer-communication channel (hypothesis; no verified UG/KE usage figure exists — register MK-03 NOT_ASSESSED, so never state a percentage) |
+| WhatsApp | Dominant messaging channel in East Africa; no source measures its share of smartphone users, so state no percentage unless it is a named, dated figure with its base (best-attributed: Pew 2023 adults, 8-country median 73%; Yazi unattributed internet-user estimates) and check the client's own audience data (register MK-03, WA-01, 2026-09-24) |
 | Facebook | Broad reach and community; in Uganda, Meta ad-reach figures were measured while Facebook was blocked — treat them as a floor (register MK-02) |
 | Instagram | Urban, 18–35, aspirational content |
 | TikTok | Fast-growing, 16–30, entertainment-first |

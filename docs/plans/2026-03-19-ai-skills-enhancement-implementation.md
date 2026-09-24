@@ -535,7 +535,7 @@ Ask for:
 
 ## Why WhatsApp + LLM for East Africa
 
-WhatsApp penetration exceeds 90% among smartphone users in Uganda and across East Africa. Combined with a large language model, a WhatsApp business number becomes a 24/7 sales and support agent that speaks the customer's language, remembers context, and escalates intelligently to humans when needed (Boustany, 2024; Ltifi, 2025).
+WhatsApp is the dominant messaging channel in East Africa (no source measures WhatsApp's share of smartphone users in Uganda, Kenya, Tanzania or Rwanda, so state no percentage unless it is a named, dated figure with its base, and check the client's own audience data (register WA-01, 2026-09-24)). Combined with a large language model, a WhatsApp business number becomes a 24/7 sales and support agent that speaks the customer's language, remembers context, and escalates intelligently to humans when needed (Boustany, 2024; Ltifi, 2025).
 
 The competitive advantage is not automation for its own sake — it is *availability and responsiveness* at a cost most EA businesses can afford.
 

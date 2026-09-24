@@ -43,7 +43,7 @@ class EngineQualityTests(unittest.TestCase):
             # The mutable register now includes verifications through the
             # current audit date.
             # Separate synthetic tests reject future-dated verification.
-            date(2026, 9, 23),
+            date(2026, 9, 25),
         )
         self.assertEqual([], errors)
 

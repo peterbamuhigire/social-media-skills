@@ -226,7 +226,7 @@ Where a virtual or AI-generated persona is used to represent the brand (e.g.,
 an AI-generated brand ambassador or synthetic spokesperson), this must be
 clearly disclosed in every post. Non-disclosure of AI identity in influencer
 contexts is an emerging regulatory risk (Ltifi, 2025; see the Lil Miquela
-precedent).
+precedent). Paid-partnership disclosure in Kenya, Uganda, Tanzania: see `../../pipeline/08-influencer-marketing-strategy/references/influencer-term-sheet-and-disclosure.md` (not legal advice; confirm with counsel).
 
 **7. Prohibited Uses**
 
