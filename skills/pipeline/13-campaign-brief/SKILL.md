@@ -144,7 +144,7 @@ State:
 - **Persona name** — from `03-audience-personas`
 - **3 defining characteristics relevant to this specific campaign** — not a full persona profile; only the characteristics that affect how this campaign should look, sound, or be delivered. Examples: "Price-sensitive; responds to value framing", "Mobile-first; consumes content in 15-second windows", "Aspirational; wants to see themselves in the brand"
 
-Add a one-sentence note on how the audience's platform behaviour in Uganda/EA affects campaign delivery (e.g., "This audience is primarily reached via Facebook and WhatsApp; Instagram secondary").
+Record evidence for the audience's use of each proposed channel and how it changes delivery. If account, survey or other audience evidence is absent, mark channel fit `NOT_ASSESSED`; do not infer preference or reach from Uganda/East Africa location alone.
 
 ---
 
@@ -174,65 +174,25 @@ This section does not produce design briefs — it sets the creative direction s
 
 Produce a table listing every asset required. Every deliverable mentioned in the Required Input must appear in this table.
 
-| Deliverable | Platform | Format | Dimensions / Specs | Quantity | Due Date | Responsible Party |
+| Deliverable | Platform and placement | Format | Official specification source and access date | Quantity | Due date | Owner |
 |---|---|---|---|---|---|---|
-| Facebook feed graphic | Facebook | Static image | 1200 × 630 px, JPG/PNG | | | |
-| Instagram feed graphic | Instagram | Static image | 1080 × 1080 px, JPG/PNG | | | |
-| Instagram Stories graphic | Instagram | Static image / video | 1080 × 1920 px | | | |
-| Instagram Reel | Instagram | Video | 1080 × 1920 px, MP4, max 60 sec | | | |
-| LinkedIn graphic | LinkedIn | Static image | 1200 × 627 px, JPG/PNG | | | |
-| TikTok video | TikTok | Video | 1080 × 1920 px, MP4, max 60 sec | | | |
-| WhatsApp broadcast copy | WhatsApp | Text + image | Image: 800 × 800 px; copy: max 300 words | | | |
-| Caption set | All platforms | Text | Per platform character limits (see Section 6) | | | |
+| [Required asset from the approved strategy] | [Organic/paid placement] | [Text/image/video/etc.] | [Official source, version/page date, access date; or NOT_ASSESSED] | [Count] | [Agreed date] | [Named owner/role] |
 
-Populate quantity, due date, and responsible party from the Required Input. Add rows for any additional deliverables not listed above.
+List only deliverables required by the approved strategy. Do not assume that every channel or format is in scope. Do not copy fixed dimensions, durations, file limits, text limits, or format availability from an old brief. Populate the technical specification from the official current source for the exact platform, account and placement; if it cannot be verified, omit the value and mark it `NOT_ASSESSED`.
 
 ---
 
 ### Section 6: Content Specifications Per Deliverable
 
-#### Social Graphics
+#### Platform specifications and copy
 
-Use these standard specifications for all static image deliverables:
+Do not embed default dimensions, file sizes, durations, aspect ratios, character limits, hashtag counts or "optimal" lengths in a campaign brief. They can vary by organic/paid placement, account, device, region and product change. Route current specifications through the canonical [Facebook](../../platforms/platform-facebook/SKILL.md), [Instagram](../../platforms/platform-instagram/SKILL.md), [LinkedIn](../../platforms/platform-linkedin/SKILL.md) or [TikTok](../../platforms/platform-tiktok/SKILL.md) skill, then verify the official source and intended account/placement when preparing production files. Record the source, source date or version where shown, access date, scope and recheck trigger. If a page or account cannot be checked, mark the specific specification `NOT_ASSESSED` and leave it out of the executable handoff.
 
-| Platform | Dimensions | File Format | Max File Size |
-|---|---|---|---|
-| Facebook feed | 1200 × 630 px | JPG or PNG | 8 MB |
-| Instagram feed | 1080 × 1080 px | JPG or PNG | 8 MB |
-| Instagram Stories | 1080 × 1920 px | JPG or PNG | 8 MB |
-| LinkedIn feed | 1200 × 627 px | JPG or PNG | 8 MB |
-| TikTok / Reels | 1080 × 1920 px | MP4 | 287 MB |
-| WhatsApp image | 800 × 800 px | JPG or PNG | 2 MB |
+Write copy to carry one audience need and one communication job. Do not force a word count, hashtag quota or CTA onto every unit. Include a CTA only when it follows from the approved offer, the destination works, and a named owner can handle the response. Check the live platform limit before final production; platform limits are not copy-length recommendations.
 
-**Key elements every graphic must include:**
-- Brand logo (position: as per brand guidelines — typically top-left or bottom-right)
-- Campaign headline or key message (legible at thumbnail size on mobile)
-- Brand colours only — no off-brand colour use
-- Clear visual hierarchy: one dominant image or graphic element, one headline, one CTA or supporting text
+Treat accurate captions or an equivalent text alternative as a production accessibility requirement for spoken or audio-dependent video. Review automated captions for errors and test the rendered asset in its intended placement. This is an accessibility control for the deliverable, not a statement that every platform offers the same caption tool or that captions substitute for commercial, partnership or legal disclosure.
 
-#### Video Specifications
-
-| Platform | Duration | Aspect Ratio | Captions | Key Requirements |
-|---|---|---|---|---|
-| Instagram Reels | 15–60 seconds (30 sec optimal) | 9:16 vertical | Required | Hook in first 3 seconds; branding in last 5 seconds |
-| TikTok | 15–60 seconds (30–45 sec optimal) | 9:16 vertical | Required | Native feel; avoid over-polished corporate aesthetic |
-| Facebook video | 30–90 seconds | 16:9 or 1:1 | Required | Auto-plays without sound; first frame must carry the message |
-| YouTube | 2–5 minutes (if in scope) | 16:9 | Required | Thumbnail must be designed separately |
-
-**Captions are required on all video deliverables without exception.** A significant proportion of video on Facebook and Instagram in East Africa is watched without sound. Uncaptioned video fails a large part of the audience.
-
-#### Captions
-
-| Platform | Recommended Length | Max Length | Hashtags | CTA Required |
-|---|---|---|---|---|
-| Facebook | 40–80 words | 63,206 characters | 2–5 | Yes |
-| Instagram | 100–150 words | 2,200 characters | 5–15 | Yes |
-| LinkedIn | 100–200 words | 3,000 characters | 3–5 | Yes |
-| TikTok | 1–3 sentences | 2,200 characters | 3–8 | Optional |
-| WhatsApp broadcast | 100–200 words | 300 words recommended | None | Yes |
-| X / Twitter | 1–2 sentences | 280 characters | 1–2 | Optional |
-
-Every caption must include one clear CTA. Match the CTA to the campaign objective: awareness campaigns use "Share this", "Tag someone"; lead generation uses "Click the link", "Send us a message"; promotional campaigns use "Shop now", "Book your spot".
+For graphics, use only approved brand assets and licensed or owned media. A logo is optional unless the approved identity or brief requires it. Keep essential information in accessible copy as well as the visual, and record alt text, contrast and render review with the design owner. Never imply that a visual has been reviewed when no render exists.
 
 ---
 
@@ -310,39 +270,42 @@ Add a one-sentence note on how results will be reported: when the post-campaign 
 
 - All ten sections are present and complete; no section is left blank or contains a placeholder without a note explaining what must be filled in at kickoff
 - Deliverables table accounts for every asset mentioned in the Required Input — nothing is omitted
-- All graphic specifications use the correct platform dimensions as listed; captions are required on all video deliverables without exception
+- Each technical platform specification has current official-source and intended-placement evidence, or is omitted and marked `NOT_ASSESSED`
+- Spoken or audio-dependent video has reviewed captions or an equivalent text alternative; rendered accessibility and native-size preview evidence are recorded before production approval
 - The key message is one sentence only and is clearly distinct from the campaign slogan or tagline
 - Brand do's and don'ts are campaign-specific and reference the client's actual brand voice — not generic rules applicable to any campaign
 - The timeline table covers the full lifecycle from kickoff to post-campaign report, with realistic sequencing between review and production stages
 - The approval process states what happens when feedback is late — ambiguity here is a common cause of campaign delays
 - Success metrics include baselines and targets; a KPI without a target is not a KPI
 
-## Five Outcomes gate before sign-off (added 2026-05-04 from Synechron Enterprise UX)
+## Five Outcomes gate before sign-off
 
 Canonical reference: `docs/ux-foundations.md` Section 3.
 
-Every campaign brief must declare expected pass per the five outcomes table below. **One No = no campaign launch.** No exceptions for premium-priced campaigns.
+For each outcome below, record `pass`, `fail` or `NOT_ASSESSED` and cite the evidence. A failed outcome blocks the affected deliverable. Do not treat missing audience, source, approval or render evidence as a pass.
 
 | # | Outcome | Campaign-specific verification |
 |---|---|---|
 | 1 | **Useful** | The campaign addresses the persona's stated goal (not a vanity metric like "more followers") |
-| 2 | **Easy** | Thumb-stop comprehension in ≤ 3 seconds; one clear CTA per asset |
-| 3 | **Efficient** | Copy scannable; image conveys message before text loads on slow connections |
-| 4 | **Pleasing** | Visual quality matches brand premium positioning; not "good enough" |
-| 5 | **Accessible** | Alt text + captions + ≥ 4.5:1 contrast + plain-language copy |
+| 2 | **Easy** | The intended audience can identify the message and next action from the reviewed asset; no universal seconds threshold |
+| 3 | **Efficient** | The required information remains understandable in the tested delivery context; provide an equivalent text route where needed |
+| 4 | **Pleasing** | Visual quality matches the approved brand direction, assessed against the actual rendered asset |
+| 5 | **Accessible** | Useful image descriptions, accurate captions or text alternatives, readable contrast checked against the applicable standard, and clear language |
 
 ### How to apply at sign-off
 
-Add a "Five Outcomes" subsection to the campaign brief with a one-paragraph Yes/No declaration per outcome and the evidence behind each Yes:
+Add a "Five Outcomes" subsection to the campaign brief. For each outcome, record `pass`, `fail` or `NOT_ASSESSED` and cite the evidence. The affected deliverable cannot ship unless every applicable outcome passes:
 
-- Useful — Yes, because [persona X's goal Y is addressed by asset Z]
-- Easy — Yes, because [the 3-second user-test result was X]
-- Efficient — Yes, because [text-load fallback shows complete message]
-- Pleasing — Yes, because [visual reference comparison passed]
-- Accessible — Yes, because [alt text written, captions ready, contrast measured at X.X:1]
+- Useful — [pass/fail/NOT_ASSESSED], because [persona goal and asset evidence]
+- Easy — [pass/fail/NOT_ASSESSED], because [audience comprehension evidence or gap]
+- Efficient — [pass/fail/NOT_ASSESSED], because [tested delivery context and equivalent text route where needed]
+- Pleasing — [pass/fail/NOT_ASSESSED], because [approved visual reference and reviewed render]
+- Accessible — [pass/fail/NOT_ASSESSED], because [image description, caption/text alternative and applicable contrast check evidence]
 
-If any outcome cannot be declared Yes with evidence, the campaign cannot ship. The brief returns to the strategy or content stage to close the gap.
+If an outcome fails, return the affected deliverable to the strategy, content or design owner to close the gap. If evidence is missing, retain `NOT_ASSESSED` and withhold release.
 
-### Why "Accessible" is non-optional
+Accessibility evidence is part of production approval. If the asset has not been rendered or its relevant accessibility checks have not been reviewed, keep the outcome `NOT_ASSESSED` and do not present the deliverable as ready.
 
-Most social-campaign briefs in the wild treat accessibility as cleanup. The Synechron rule treats it as a launch gate. For premium-priced engagements ($20k+) the cost of an accessibility-rejection at launch (legal exposure on regulated industries; brand damage on inclusive-marketing claims) far exceeds the cost of building accessibility in.
+## Bounded example
+
+See [the synthetic Ugandan small-retailer discussion example](examples/synthetic-retail-discussion-unit.md). It demonstrates channel adaptation and evidence boundaries; it is not an approved strategy, a complete campaign brief, or authority to publish.
