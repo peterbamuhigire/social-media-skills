@@ -155,7 +155,7 @@ Train the team to remove these words from all AI-generated content. Their presen
 
 **Why this matters:** These words appear in AI output because they appeared frequently in the training data. They are statistically common in corporate writing. They are not how real people talk, and they are not how authentic brands communicate.
 
-*Reference:* For the full quality control process including a complete humanisation checklist, see the `ai-content-humaniser` skill.
+*Reference:* For the full quality control process including a complete humanisation checklist, see the `anti-ai-slop` skill (humanising rewrite passes).
 
 ### 4.5 The Approval Rule
 

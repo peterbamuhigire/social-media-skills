@@ -12,7 +12,7 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 191
+  current_active_skill_count: 176
   # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
   # (active count 110), after which cap-exceeded is enforced strictly.
   consolidation_until: S07
@@ -20,4 +20,19 @@ active_skill_policy:
 inactive_alias_file: ALIAS.md
 # Keys and values are skill directories relative to the repository root, for example
 #   skills/content-writing/hashtag-strategy: skills/content-writing/caption-writer
-inactive_skill_aliases: {}
+inactive_skill_aliases:
+  skills/ai-marketing/ai-data-foundation-audit: skills/ai-marketing/ai-readiness-diagnostic
+  skills/ai-marketing/ai-data-foundation-plan: skills/ai-marketing/ai-readiness-diagnostic
+  skills/ai-marketing/ai-marketing-canvas-assessment: skills/ai-marketing/ai-readiness-diagnostic
+  skills/ai-marketing/ai-growth-systems-design: skills/ai-marketing/ai-use-case-mapping
+  skills/ai-marketing/ai-predictive-analytics-social: skills/ai-marketing/ai-use-case-mapping
+  skills/ai-marketing/ai-strategy-co-thinker: skills/ai-marketing/ai-use-case-mapping
+  skills/ai-marketing/ai-content-humaniser: skills/ai-marketing/anti-ai-slop
+  skills/ai-marketing/ai-rag-brand-knowledge-base: skills/ai-marketing/brand-voice-ai-training
+  skills/ai-marketing/ai-vendor-evaluation: skills/meta-analytics-ops/meta-tools-stack-evaluation
+  skills/meta-analytics-ops/meta-ai-tools-audit: skills/meta-analytics-ops/meta-tools-stack-evaluation
+  skills/ai-marketing/ai-whatsapp-chatbot-design: skills/playbooks/playbook-chatbot-strategy
+  skills/ai-marketing/ai-agentic-marketing-workflows: skills/playbooks/playbook-marketing-automation
+  skills/playbooks/playbook-ai-automation-workflow: skills/playbooks/playbook-marketing-automation
+  skills/ai-marketing/ai-cultural-bias-audit: skills/policies/policy-ai-content-ethics
+  skills/policies/policy-ai-ip-and-copyright: skills/policies/policy-ai-content-ethics

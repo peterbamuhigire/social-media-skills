@@ -148,5 +148,5 @@ The completed training guide meets the standard if:
 - Hands-on activities are specified in Modules 2, 3, and 4 — not lecture content only
 - All worked examples use Ugandan/EA brands, UGX pricing, and local cultural references where relevant
 - Output is structured so a non-technical facilitator can deliver it without additional preparation
-- The `prompt-engineering-library` and `ai-content-humaniser` skills are explicitly referenced as companion resources
+- The `prompt-engineering-library` and `anti-ai-slop` (humanising rewrite passes) skills are explicitly referenced as companion resources
 - The guide is written in British English with imperative language throughout

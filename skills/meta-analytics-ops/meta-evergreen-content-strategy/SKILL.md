@@ -190,7 +190,7 @@ Apply this checklist before republishing any evergreen post:
 - [ ] Update the opening hook — write a new first sentence or headline that creates a fresh entry point for repeat viewers
 - [ ] Add one current local reference (a recent EA news item, a current Ugandan cultural moment, or a relevant seasonal hook) to signal that the content is fresh
 - [ ] If the original post used stock imagery or a dated visual, consider replacing with original photography or an updated graphic
-- [ ] If the original was AI-assisted, run it through the `ai-content-humaniser` skill before republishing
+- [ ] If the original was AI-assisted, run it through the `anti-ai-slop` skill (humanising rewrite passes) before republishing
 
 A refresh should take 20–30 minutes per post for Tier 1 content and 30–45 minutes for Tier 2 content (which requires more substantial updating).
 

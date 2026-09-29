@@ -1,6 +1,6 @@
 ---
 name: ai-readiness-diagnostic
-description: Use when AI Readiness Diagnostic is needed to produce a scored diagnostic for social-media or digital-marketing work; use `ai-use-case-mapping` when its narrower outcome is requested.
+description: Use when AI Readiness Diagnostic is needed to produce a scored diagnostic, data foundation audit or plan, or AI Marketing Canvas roadmap for social-media or digital-marketing work; use `ai-use-case-mapping` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,9 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **scored diagnostic** and the supplied brief falls within ai readiness diagnostic.
+- Audit messy customer data (WhatsApp chats, Facebook DMs, Excel sheets, CRM) with the data hygiene checklist and a 30-day remediation plan before buying AI tools (formerly `ai-data-foundation-audit`).
+- Build a 90-day data foundation plan: data asset inventory, data quality scorecard, minimum viable customer schema and Uganda Data Protection and Privacy Act 2019 consent (formerly `ai-data-foundation-plan`).
+- Complete the AI Marketing Canvas across acquisition, retention, growth and advocacy and turn it into a 12-month quarterly AI roadmap (formerly `ai-marketing-canvas-assessment`).
 
 ## Do Not Use When
 - Use `ai-use-case-mapping` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +39,9 @@ Fallback: if files, network access, platform data, language review or production
 | Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| Data Foundation scores 0–3, or the client asks for a customer-data hygiene audit before buying AI tools | Run the 20-item hygiene checklist, data map and 30-day remediation plan in [data-foundation-audit.md](references/data-foundation-audit.md). | Connecting AI tools to fragmented, duplicated or non-consented data. |
+| The client needs a 90-day data foundation build (inventory, RAG quality scorecard, customer schema, DPA 2019 consent) | Produce the plan in [data-foundation-plan.md](references/data-foundation-plan.md). | A generic schema or vague plan that never reaches a measurable data health score. |
+| The client wants the completed AI Marketing Canvas and a 12-month roadmap, not only the score | Place them with the nine-question canvas diagnostic and build the canvas and roadmap in [ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md). | Step inflation and a roadmap the client cannot execute. |
 
 ## Workflow
 1. Confirm the exact scored diagnostic, consumer, market, channel and approval boundary; route to `ai-use-case-mapping` if it is the closer match.
@@ -72,6 +78,10 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [ai-use-case-mapping](../ai-use-case-mapping/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [data-foundation-audit](references/data-foundation-audit.md) — read when auditing fragmented customer data (hygiene checklist, data map, 30-day remediation) before any AI tool is connected.
+- [data-foundation-plan](references/data-foundation-plan.md) — read when a larger client needs a 90-day data foundation plan with customer schema and Uganda DPA 2019 consent.
+- [data-product-and-ai-foundation-principles](references/data-product-and-ai-foundation-principles.md) — read when the plan must cover data-product ownership, lineage, freshness, audience boundaries or AI marketing controls.
+- [ai-marketing-canvas-scoring](references/ai-marketing-canvas-scoring.md) — read when completing the AI Marketing Canvas, four customer moments and 12-month roadmap after scoring.
 <!-- dual-compat-end -->
 
 ## Purpose
@@ -80,9 +90,9 @@ their AI Marketing Canvas step, and produce a practical, prioritised action plan
 that reflects their actual starting point. Output is structured for a
 non-technical business owner to read and act on immediately.
 
-After completing this diagnostic, refer the client to the sister skill
-`ai-marketing-canvas-assessment` for full canvas completion and strategic
-roadmap development.
+After completing this diagnostic, use
+[ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md) for
+full canvas completion and strategic roadmap development.
 
 ## Required Inputs
 Ask for the following before beginning:
@@ -358,5 +368,5 @@ Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
 
 Nayebi, F. (2025) *Foundations of Agentic AI for Retail*. Gradient Divergence.
 
-*For full canvas completion and strategic roadmap development, use the sister
-skill `ai-marketing-canvas-assessment` after completing this diagnostic.*
+*For full canvas completion and strategic roadmap development, use
+[ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md) after completing this diagnostic.*

@@ -128,7 +128,7 @@ Run every applicable check; a hit on a **blocking** marker ([BLOCK]) fails the a
 - [BLOCK] (auto) Garbled text-in-image (illegible on-pack copy, invented logos, nonsense signage) on any asset meant to publish.
 
 **Video (for social)**
-- (auto) Frame-to-frame "boiling", lip-sync drift, morphing hands/objects, impossible motion; missing disclosure where the platform or `policy-ai-ip-and-copyright` requires it.
+- (auto) Frame-to-frame "boiling", lip-sync drift, morphing hands/objects, impossible motion; missing disclosure where the platform or `policy-ai-content-ethics` (AI IP and copyright policy) requires it.
 
 ### Step 3 — Structural score ((auto)) -> 0–100 "genericness"
 Combine burstiness (sentence-length variation), focal-word density, duplication across a set, and template-similarity into a single genericness score. Higher = more slop-like. Report the score and its drivers (e.g. "78 — every caption opens with a question, banned-word density 5/500, three slides restate each other").
@@ -213,6 +213,6 @@ The audit meets the standard when:
 
 ## See also
 - `anti-ai-slop` — prevention companion (write, plan, and brief so slop never appears).
-- `ai-content-humaniser` — broader humanisation QC; complementary checklist and banned list.
+- `anti-ai-slop` (humanising rewrite passes) — broader humanisation QC; complementary checklist and banned list.
 - `meta-content-audit` — performance/quality audit of a content set (different lens: engagement, not authenticity).
 - `language/east-african-english`, `language/french-native-copy` — apply house style and native-language standards when judging written output.

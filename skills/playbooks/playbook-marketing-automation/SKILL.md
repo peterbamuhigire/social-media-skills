@@ -1,6 +1,6 @@
 ---
 name: playbook-marketing-automation
-description: Use when designing or improving a Marketing Automation operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Marketing Automation operating playbook, AI automation roadmap or agentic workflow with roles, ordered actions, human checkpoints, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,8 @@ metadata:
 ## Use When
 - Build or improve a repeatable Marketing Automation workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Design an autonomous or agentic AI marketing workflow (PRAL loop, BDI decision boundary, OODA cycle) with human-in-the-loop escalation triggers, for example brand sentiment monitoring or complaint routing (formerly `ai-agentic-marketing-workflows`).
+- Assess automation maturity, qualify which marketing tasks to automate and produce a week-by-week no-code automation build plan (Zapier, Make, ManyChat) with a maintenance schedule (formerly `playbook-ai-automation-workflow`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -38,6 +40,8 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| The client needs an operational automation roadmap (maturity stage, task qualification, tool tiers, build plan, maintenance) | Apply [ai-automation-recipes.md](references/ai-automation-recipes.md); keep human-only tasks manual | Automating tasks that fail qualification or must stay human |
+| The brief asks for an AI agent that acts or learns without a human prompt | Specify it with [agentic-workflows-and-human-checkpoints.md](references/agentic-workflows-and-human-checkpoints.md) at the lowest viable wave, with HITL safeguards | Unbounded agent autonomy |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -65,13 +69,15 @@ Use British English and the specified market context. Recommendations must be ex
 - Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
 - Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
 - Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
+- Treating an inaccessible account, file or metric, or a missing native-language review, as healthy or approved. Fix: mark it `not assessed` and bound the conclusion.
 - Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
 - Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
 
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [ai-automation-recipes](references/ai-automation-recipes.md) — read when building an AI or no-code automation roadmap: maturity stage, 8 qualification factors, feasibility tests, tool tiers, week-by-week build plan, what stays human and maintenance.
+- [agentic-workflows-and-human-checkpoints](references/agentic-workflows-and-human-checkpoints.md) — read when specifying an agentic AI workflow (PRAL, BDI, OODA, five templates, HITL safeguards, three-wave roadmap); it links the moved operating-model and trust/drift references.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

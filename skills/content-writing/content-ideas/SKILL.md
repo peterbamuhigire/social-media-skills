@@ -228,7 +228,7 @@ For each series, provide:
 Generate 5 series specifically tailored to the client's industry, platform mix, and brand tone — not generic formats restated.
 
 ## Human Authenticity Gate
-All content ideas and briefs produced using this skill must pass through the `ai-content-humaniser` before the resulting content is delivered to the client. AI-generated or AI-assisted content ideas must meet the Golden Rule: every idea brief must be specific, culturally grounded, and audience-relevant — as if developed by the most skilled human strategist with deep knowledge of the client's market. Generic, formulaic, or culturally misaligned idea sets are not acceptable regardless of how efficiently they were produced.
+All content ideas and briefs produced using this skill must pass through the `anti-ai-slop` humanising rewrite passes before the resulting content is delivered to the client. AI-generated or AI-assisted content ideas must meet the Golden Rule: every idea brief must be specific, culturally grounded, and audience-relevant — as if developed by the most skilled human strategist with deep knowledge of the client's market. Generic, formulaic, or culturally misaligned idea sets are not acceptable regardless of how efficiently they were produced.
 
 ## Quality Criteria
 - [ ] All 30 ideas are specific to the client's industry, audience, and location — no generic filler

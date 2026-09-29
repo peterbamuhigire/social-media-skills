@@ -1,6 +1,6 @@
 ---
 name: meta-tools-stack-evaluation
-description: "Use when evaluating the wider marketing technology stack for workflow fit, duplication and total cost. Produces martech stack recommendation and migration priorities; use `meta-ai-tools-audit` when that neighbouring contract is the closer match."
+description: "Use when evaluating the marketing technology or AI tool stack for workflow fit, duplication, EA access, governance and total cost, or scoring AI vendors. Produces martech/AI stack recommendation, vendor scorecards and migration priorities; use `meta-budget-planner` when budget allocation is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -20,11 +20,14 @@ Produce a structured, client-specific martech tools recommendation calibrated to
 ## Use When
 
 - Use this skill for evaluating the wider marketing technology stack for workflow fit, duplication and total cost.
-- Confirm that `meta-ai-tools-audit` is not the closer route before proceeding.
+- Use it for AI marketing tool audits (fit, access, cost, governance) and for scored AI vendor due diligence on a named shortlist.
+- Confirm that `meta-budget-planner` is not the closer route before proceeding.
+- Score candidate AI tools on the eight-factor vendor evaluation scorecard and write a 30-day experiment brief for each tool worth trialling (formerly `ai-vendor-evaluation`).
+- Audit the AI marketing tools in use for fit, East African payment access, cost and data governance, and recommend an AI tool stack by budget profile (formerly `meta-ai-tools-audit`).
 
 ## Do Not Use When
 
-- Use `meta-ai-tools-audit` when its narrower output is requested.
+- Use `meta-budget-planner` when allocating a confirmed marketing budget across channels, not choosing tools, is requested.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -62,11 +65,13 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Current stack, workflows, integrations, users and verified total costs is current and attributable | Produce the full martech stack recommendation and migration priorities and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-ai-tools-audit` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The requested outcome belongs to `meta-budget-planner` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs an AI tool audit or AI stack by function (content, SEO, social, email, automation, analytics, paid ads, influencer) | Apply the five-question AI test, category tables and budget profiles A–C in [ai-tool-fit-access-cost-governance](references/ai-tool-fit-access-cost-governance.md). | AI tools recommended on novelty, or without EA payment, UGX cost or DPA checks. |
+| The client has a shortlist of up to four named AI tools for one marketing problem | Score each on the eight-factor /40 scorecard and write 30-day experiment briefs per [ai-vendor-due-diligence](references/ai-vendor-due-diligence.md). | Buying an AI tool before a measured experiment shows value. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-ai-tools-audit` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-budget-planner` if its contract is closer.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -82,7 +87,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the martech stack recommendation and migration priorities without current stack. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-ai-tools-audit` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing `meta-budget-planner` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -91,13 +96,16 @@ Given verified current stack, the skill produces a martech stack recommendation 
 
 ## Read next
 
-- [`meta-ai-tools-audit`](../meta-ai-tools-audit/SKILL.md) for the neighbouring contract.
+- [`meta-budget-planner`](../meta-budget-planner/SKILL.md) for the neighbouring contract.
+- [AI tool fit, access, cost and governance](references/ai-tool-fit-access-cost-governance.md) for AI-specific tool audits.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [ai-tool-fit-access-cost-governance](references/ai-tool-fit-access-cost-governance.md) — read when auditing AI marketing tools or recommending an AI stack by function and budget profile.
+- [ai-vendor-due-diligence](references/ai-vendor-due-diligence.md) — read when scoring a named shortlist of AI vendors and writing 30-day experiment briefs.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

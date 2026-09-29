@@ -1,6 +1,6 @@
 # Social Media Skills Engine
 
-The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 191 routed skills, 190 task skills plus one shared content-writing standards file, for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
+The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 176 routed skills, 175 task skills plus one shared content-writing standards file, for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
 
 The engine works to named standards rather than house opinion. Personal-data and direct-marketing work is checked against the Uganda Data Protection and Privacy Act 2019 and its 2021 Regulations, with the Kenyan, Rwandan and Tanzanian data-protection laws held in a dated source register (`docs/source-registers/source-register.json`, 63 records under a freshness gate); advertising claims against the Uganda Communications Commission Advertising Standards 2019 and the ICC Advertising and Marketing Communications Code; influencer disclosure against the FTC Endorsement Guides and ASA/CAP guidance; platform mechanics against the Meta, WhatsApp, TikTok, LinkedIn and Google policy pages in the same register; and web accessibility against WCAG 2.2. Method draws on named practitioner texts, among them Chaffey's RACE, Bodnar and Cohen's social ROI formula, Weinberg and Mares's Bullseye and Kotler's segmentation and positioning (full list under References). Every deliverable passes an anti-slop and human-review gate. The engine is for agency owners, account leads, strategists, media planners, copywriters, paid-media specialists, in-house marketing teams and founders who need reviewable, evidence-backed marketing decisions. It plans, specifies, writes, audits and reports; spending money, changing live ad accounts, publishing and contacting people always require explicit client authority.
 
@@ -54,27 +54,27 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 
 ## Capabilities
 
-191 active `SKILL.md` files across 16 category folders under `skills/`. The `content-writing` count includes the category-level standards file `skills/content-writing/SKILL.md`.
+176 active `SKILL.md` files across 16 category folders under `skills/`. The `content-writing` count includes the category-level standards file `skills/content-writing/SKILL.md`. Skills retired by the 2026-09-29 consolidation stay on disk as inactive `ALIAS.md` files; [docs/skill-aliases.yml](docs/skill-aliases.yml) routes each one to the active skill that now holds its content.
 
 | Category | Skills |
 |---|---:|
 | `advertising` | 9 |
-| `ai-marketing` | 22 |
+| `ai-marketing` | 10 |
 | `business-development` | 12 |
 | `content-writing` | 15 |
 | `frameworks` | 2 |
 | `language` | 4 |
-| `meta-analytics-ops` | 25 |
+| `meta-analytics-ops` | 24 |
 | `meta-utility` | 3 |
 | `pipeline` | 14 |
 | `platforms` | 12 |
-| `playbooks` | 39 |
-| `policies` | 2 |
+| `playbooks` | 38 |
+| `policies` | 1 |
 | `sectors` | 2 |
 | `seo-discovery` | 2 |
 | `strategy` | 22 |
 | `training` | 6 |
-| **Total** | **191** |
+| **Total** | **176** |
 
 | Category | Skill | What it does |
 |---|---|---|
@@ -87,26 +87,14 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `advertising` | `direct-response-economics` | Builds pro-forma P&L, break-even and roll-out ladders for response campaigns. |
 | `advertising` | `media-planning` | Builds and reviews media plans: reach, frequency, GRPs, CPM, flighting and post-buy. |
 | `advertising` | `paid-search-advertising` | Plans, specifies and audits Google Ads Search, Performance Max and Demand Gen. |
-| `ai-marketing` | `ai-agentic-marketing-workflows` | Specifies supervised agentic AI workflows for marketing operations. |
 | `ai-marketing` | `ai-avatar-personalised-video` | Plans consented AI-avatar and personalised video programmes. |
-| `ai-marketing` | `ai-content-humaniser` | Revises AI-assisted drafts into specific, human-reviewed copy. |
 | `ai-marketing` | `ai-content-recycling-pipeline` | Specifies a pipeline for turning proven assets into new formats with AI. |
-| `ai-marketing` | `ai-cultural-bias-audit` | Audits AI outputs for cultural bias and East African misrepresentation. |
-| `ai-marketing` | `ai-data-foundation-audit` | Audits marketing data readiness before AI adoption. |
-| `ai-marketing` | `ai-data-foundation-plan` | Plans the data foundation needed for marketing AI use cases. |
 | `ai-marketing` | `ai-generative-search-optimisation` | Plans brand visibility in AI and generative search answers. |
-| `ai-marketing` | `ai-growth-systems-design` | Designs AI-assisted growth loops with measures and controls. |
 | `ai-marketing` | `ai-influencer-strategy` | Uses AI to support influencer discovery, vetting and programme strategy. |
-| `ai-marketing` | `ai-marketing-canvas-assessment` | Scores AI marketing maturity against a structured canvas. |
-| `ai-marketing` | `ai-predictive-analytics-social` | Specifies predictive analytics for social performance and audiences. |
-| `ai-marketing` | `ai-rag-brand-knowledge-base` | Designs a retrieval-based brand knowledge base for AI assistants. |
 | `ai-marketing` | `ai-readiness-diagnostic` | Produces a scored AI readiness diagnostic for a marketing team. |
 | `ai-marketing` | `ai-slop-audit` | Audits content for generic AI patterns and sets remediation. |
-| `ai-marketing` | `ai-strategy-co-thinker` | Uses AI as a challenge partner for marketing strategy decisions. |
 | `ai-marketing` | `ai-synthetic-personas` | Builds labelled synthetic personas for early testing, never as real evidence. |
 | `ai-marketing` | `ai-use-case-mapping` | Maps and prioritises AI use cases across the marketing workflow. |
-| `ai-marketing` | `ai-vendor-evaluation` | Scores AI marketing vendors on fit, data terms, cost and risk. |
-| `ai-marketing` | `ai-whatsapp-chatbot-design` | Designs WhatsApp chatbot flows, handover rules and safeguards. |
 | `ai-marketing` | `anti-ai-slop` | Applies the engine's anti-slop writing rules to any deliverable. |
 | `ai-marketing` | `brand-voice-ai-training` | Encodes a brand voice into AI instructions, examples and checks. |
 | `business-development` | `biz-dev-beyond-agency-offer` | Designs a low-risk first engagement offer for new agency clients. |
@@ -142,7 +130,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `language` | `french-native-copy` | Writes native French social copy for francophone markets. |
 | `language` | `language-standards` | Sets the engine-wide British English and language rules. |
 | `language` | `swahili-native-copy` | Writes native Kiswahili social copy. |
-| `meta-analytics-ops` | `meta-ai-tools-audit` | Audits AI marketing tools for fit, access, cost and governance. |
 | `meta-analytics-ops` | `meta-algorithm-guide` | Builds a platform-ranking reference from current evidence. |
 | `meta-analytics-ops` | `meta-analytics-privacy` | Reviews analytics collection, consent, retention and data sharing. |
 | `meta-analytics-ops` | `meta-budget-planner` | Allocates a confirmed budget across channels, production, tools and contingency. |
@@ -197,7 +184,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `platforms` | `platform-x-twitter` | X (Twitter) channel plan: setup, content and measurement. |
 | `platforms` | `platform-youtube` | YouTube channel plan: setup, content, community and measurement. |
 | `playbooks` | `playbook-agency-operations` | Agency operations playbook: roles, workflow, controls and measures. |
-| `playbooks` | `playbook-ai-automation-workflow` | Playbook for supervised AI automation workflows. |
 | `playbooks` | `playbook-ai-content-workflow` | Playbook for AI-assisted content production with human review. |
 | `playbooks` | `playbook-audacious-content` | Playbook for bold, distinctive content within approval limits. |
 | `playbooks` | `playbook-chatbot-strategy` | Chatbot strategy playbook: scope, flows, handover and measures. |
@@ -236,7 +222,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `playbooks` | `playbook-white-label-partnerships` | White-label partnership playbook for agencies. |
 | `playbooks` | `playbook-word-of-mouth-strategy` | Word-of-mouth playbook: referral triggers and advocacy. |
 | `policies` | `policy-ai-content-ethics` | Drafts or reviews an organisational AI content ethics policy. |
-| `policies` | `policy-ai-ip-and-copyright` | Drafts or reviews an AI intellectual property and copyright policy. |
 | `sectors` | `healthcare` | Healthcare marketing: patient-safe content, trust and misinformation response. |
 | `sectors` | `hospitality-hotel-restaurant` | Hospitality marketing for hotels, lodges, restaurants, venues and catering. |
 | `seo-discovery` | `demand-forecasting` | Demand forecasts, stockout timing and reorder decisions from operational data. |

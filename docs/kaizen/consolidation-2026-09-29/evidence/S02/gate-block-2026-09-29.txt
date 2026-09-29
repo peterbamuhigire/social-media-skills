@@ -1,0 +1,59 @@
+=== python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json
+skills=176 compliant=176 failures=0
+
+exit=0
+=== python -X utf8 scripts/routing_smoke_test.py --min-rank1 91 --lint-fixtures
+routing fixtures=71 passed=71 top_3_precision=1.000 threshold=1.000
+precision@1=66/71 (93.0%) registered_floor=91.0% (lexical proxy, not live routing)
+fixture lint: 0 finding(s)
+exit=0
+=== python -X utf8 scripts/check_skill_aliases.py
+skill aliases: routes=15 findings=0 active=176 cap=120 window=open-until-S07
+exit=0
+=== python -X utf8 -B -m pytest -q tests
+.................................................      [100%]
+49 passed, 18 subtests passed in 4.79s
+exit=0
+=== python -X utf8 -m unittest discover -s tests -p test_*.py
+.................................................
+----------------------------------------------------------------------
+Ran 49 tests in 4.450s
+
+OK
+exit=0
+=== python -X utf8 scripts/check_source_freshness.py
+source freshness: PASS (76 records within review windows; as of 2026-09-29; claim support NOT ASSESSED)
+exit=0
+=== python -X utf8 scripts/source_ingestion_guardrail.py
+source-ingestion-guardrail: C:\wamp64\www\social-media-skills
+findings: 0
+exit=0
+=== git diff --check
+exit=0
+=== python -X utf8 scripts/render_host_files.py --check --workspace-root .. --engine ../social-media-skills
+checked 1 repositories; findings 0; not assessed 0
+exit=0
+=== node scripts/generate-plugin-manifest.js --check-marketplace --workspace-root ..
+ok     linux-skills: linux: 45 skills
+ok     proposal-skills: proposal: 115 skills
+ok     chwezi-dev-engine: engineering: 165 skills
+ok     chwezi-accounting-doctrine: accounting: 108 skills
+ok     design-system-skills: design-system: 101 skills
+ok     digital-research-engine: research: 59 skills
+ok     windows-admin-engine-skills: windows-admin: 20 skills
+marketplace check: 23 ok, 0 drift, 0 not assessed
+exit=0
+=== python -X utf8 scripts/validate-runtime-skill-budget.py --collisions --ownership evals/routing/ownership.yaml
+PASS: skills=1154 cross>=0.75: 21 cross>=0.5: 196 undeclared>=0.75: 0 (lexical proxy; not live routing (see agent-skills issue #620))
+exit=0
+=== python -X utf8 scripts/validate-routing-baseline.py
+PASS: routing baseline ratchet (5 engines + portfolio; lexical proxy, not live routing)
+exit=0
+=== python -X utf8 scripts/validate-no-book-extractions.py
+PASS: book-extraction check roots=12 findings=0
+exit=0
+=== python -X utf8 scripts/render_host_files.py --check --workspace-root /c/wamp64/www
+checked 12 repositories; findings 0; not assessed 0
+exit=0
+=== python -X utf8 scripts/lexical_routing.py --collisions
+exit=0

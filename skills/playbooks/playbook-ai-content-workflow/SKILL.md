@@ -247,7 +247,7 @@ For thought leadership posts, strategy documents, personal brand content, or any
 
 Apply this standard whenever the content is making a claim to authority, expertise, or personal experience.
 
-For AI humanisation of draft content before publishing, invoke `ai-content-humaniser`.
+For AI humanisation of draft content before publishing, invoke `anti-ai-slop` (humanising rewrite passes).
 
 ---
 
@@ -281,7 +281,7 @@ Load approved captions into Buffer or Hootsuite. Assign dates and times. Attach 
 
 For a consultant managing five clients, AI-assisted workflows free up to 15 hours per month — time that goes back into strategy, client relationships, and business development.
 
-For advanced automation (scheduling triggers, auto-repurposing pipelines, multi-platform distribution), invoke `playbook-ai-automation-workflow`.
+For advanced automation (scheduling triggers, auto-repurposing pipelines, multi-platform distribution), invoke `playbook-marketing-automation` (AI automation recipes reference).
 
 ---
 
@@ -294,7 +294,7 @@ Assess where the client currently sits before prescribing tools or workflows. In
 | **1 — Basic** | Posting inconsistently; no strategy; content reactive | Use AI for ideation and caption drafting only. Establish posting rhythm first. |
 | **2 — Aligned** | Regular posting; brand voice defined; pillars in use | Use AI for full caption workflow, hashtag research, and repurposing. This playbook is designed for Stage 2. |
 | **3 — Multichannel** | Consistent across 3+ platforms; content plan in place | Use AI for cross-platform adaptation, email subject lines, and blog outlines. Add `prompt-engineering-library`. |
-| **4 — Automated** | Workflows documented; team trained; scheduling system live | Use AI for scheduling triggers, performance-based content adjustments, and reporting summaries. Add `playbook-ai-automation-workflow`. |
+| **4 — Automated** | Workflows documented; team trained; scheduling system live | Use AI for scheduling triggers, performance-based content adjustments, and reporting summaries. Add `playbook-marketing-automation` (AI automation recipes reference). |
 
 Identify the client's current stage in the playbook introduction. Do not prescribe Stage 4 tools to a Stage 1 client.
 
@@ -431,8 +431,8 @@ This practice protects the agency if AI-generated content is later disputed, and
 |---|---|
 | `brand-voice-ai-training` | Step 0 — before any AI content is generated for a new client |
 | `prompt-engineering-library` | Full prompt set (15 templates, 7 copywriting frameworks) |
-| `ai-content-humaniser` | Making AI drafts sound human before publishing |
-| `playbook-ai-automation-workflow` | Stage 3–4 clients; scheduling triggers and pipeline automation |
+| `anti-ai-slop` (humanising rewrite passes) | Making AI drafts sound human before publishing |
+| `playbook-marketing-automation` (AI automation recipes reference) | Stage 3–4 clients; scheduling triggers and pipeline automation |
 | `playbook-crisis-communications` | Any reputational incident — do not use AI for crisis response |
 | `policy-ai-content-ethics` | Formal AI disclosure and legal compliance documentation |
 
@@ -440,7 +440,7 @@ This practice protects the agency if AI-generated content is later disputed, and
 
 ## Human Authenticity Gate
 
-All content produced through the workflow documented in this playbook must pass through the `ai-content-humaniser` before client delivery. This is not optional and is not a step that can be omitted under time pressure. AI-generated or AI-assisted drafts must meet the Golden Rule: every output must look, feel, and sound as if it was crafted by the most skilled human creative with deep knowledge of the target audience. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+All content produced through the workflow documented in this playbook must pass through the `anti-ai-slop` humanising rewrite passes before client delivery. This is not optional and is not a step that can be omitted under time pressure. AI-generated or AI-assisted drafts must meet the Golden Rule: every output must look, feel, and sound as if it was crafted by the most skilled human creative with deep knowledge of the target audience. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
 ---
 

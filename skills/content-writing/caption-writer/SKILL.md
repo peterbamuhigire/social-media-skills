@@ -257,7 +257,7 @@ Reservations: link in bio. Walk-ins welcome before 1pm.
 #NakibuukaKitchen #KampalaEats #UgandaFood #MadeInUganda #FarmToTable #KampalaLife #DiscoverUganda #UgandaEntrepreneur
 
 ## Human Authenticity Gate
-All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted captions must meet the Golden Rule: every caption must look, feel, and sound as if it was crafted by the most skilled human copywriter with deep knowledge of the target audience and their cultural context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+All content produced using this skill must pass through the `anti-ai-slop` humanising rewrite passes before client delivery. AI-generated or AI-assisted captions must meet the Golden Rule: every caption must look, feel, and sound as if it was crafted by the most skilled human copywriter with deep knowledge of the target audience and their cultural context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
 ## Quality Criteria
 - [ ] Each variation genuinely differs in length and approach — not the same caption padded or shortened

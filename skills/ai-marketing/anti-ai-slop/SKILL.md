@@ -1,6 +1,6 @@
 ---
 name: anti-ai-slop
-description: Use when Anti AI Slop is needed to produce a anti AI slop deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when Anti AI Slop is needed to produce a anti AI slop deliverable or humanise an AI-assisted draft for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **anti AI slop deliverable** and the supplied brief falls within anti ai slop.
+- Humanise AI-written captions, emails, blogs or proposals so they sound like a real local copywriter wrote them, not ChatGPT, before the client sees them (formerly `ai-content-humaniser`).
 
 ## Do Not Use When
 - Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| An AI-assisted draft already exists and must be humanised before client delivery | Run the humanising rewrite passes (quality risks, uncanny valley, Human Voice Checklist, content-type edits, East Africa localisation, Proof of Human, sign-off) in [humanising-rewrite-passes](references/humanising-rewrite-passes.md). | Light polish that leaves AI fingerprints, unverified claims or Western defaults. |
 
 ## Workflow
 1. Confirm the exact anti AI slop deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
@@ -81,6 +83,7 @@ across the sequence, audit visual choices separately, and mark missing evidence 
 
 ## References
 
+- [humanising-rewrite-passes](references/humanising-rewrite-passes.md) — read when reviewing and rewriting an existing AI draft (caption, blog, email, strategy document, proposal) for human voice, localisation and sign-off.
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
@@ -150,7 +153,7 @@ On social specifically: slop is the engagement-bait carousel with five identical
 | **U7** | Mechanical uniformity | Vary sentence length and structure. No rule-of-three reflex, no "it's not X, it's Y" formula, no em-dash flood, no every-caption-the-same-shape carousel. |
 
 ## Banned / high-risk vocabulary (the lexical tells)
-These words and constructions are statistically over-produced by LLMs (FSU/COLING-2025; PubMed "delve" +400%). **Do not use them as default register.** A word here is allowed only when it is the genuinely precise term, never as filler. This list merges the canonical anti-slop lexicon with the repository's existing `ai-content-humaniser` banned list — both apply.
+These words and constructions are statistically over-produced by LLMs (FSU/COLING-2025; PubMed "delve" +400%). **Do not use them as default register.** A word here is allowed only when it is the genuinely precise term, never as filler. This list merges the canonical anti-slop lexicon with the former `ai-content-humaniser` banned list; [humanising-rewrite-passes](references/humanising-rewrite-passes.md) uses it for its vocabulary sweep.
 
 - **Words:** delve, tapestry, realm, landscape (as metaphor), navigate (as metaphor), leverage, foster, harness, synergy, embark, robust, vibrant, holistic, seamless / seamlessly, intricate, commendable, meticulous, pivotal, underscore, testament, resonate, elevate, paramount, unwavering, multifaceted, comprehensive, revolutionary, groundbreaking, game-changer, beacon, crucial, vital, cutting-edge, innovative, empower, unlock, journey (as metaphor), dynamic.
 - **Phrases:** "in today's fast-paced world", "in today's digital age", "in the ever-evolving landscape of", "in the ever-evolving", "it is important to note that", "it is worth noting that", "it's worth mentioning", "it goes without saying", "with that being said", "let's dive in", "here's the kicker", "at the end of the day", "moving forward", "take your business to the next level", "one-stop shop", "in conclusion", "studies show" (without a named study).
@@ -177,7 +180,7 @@ ANTI-SLOP GUARDRAIL (inherit in every output):
 ## Domain-specific avoidance (load the relevant block for the output type)
 - **Written content — EN (captions, posts, threads, carousels, ad copy, email, blog):** no focal-word clusters; vary sentence length (mix 3–10-word lines with 20–35-word lines for burstiness); ≤1 em-dash per paragraph; no "in conclusion"; one specific local detail per piece (a Kampala neighbourhood, a named local brand, a UGX price, a dated platform figure); a stated point of view, not false balance; a direct CTA tied to the real channel ("Send a WhatsApp to 0700 000 000 before Friday", not "Learn more"); first line earns the tap to expand. Carousels: each slide must add a distinct point, not restate the previous one.
 - **Written content — FR (Francophone Africa):** never raw-translate from English; write natively per `language/french-native-copy`; avoid the French banned list above; match register and idiom to the target Francophone market, not metropolitan-France defaults.
-- **Image/video briefs for social:** describe real, culturally accurate specimens — named setting, real local context, specific wardrobe and lighting, not generic "African" placeholders; check the brief forces anatomy/text/physics correctness (hands, eyes, teeth, legible on-pack text, plausible geometry); avoid the "AI sheen" (over-smooth skin, plastic bokeh, symmetrical everything); for video, flag lip-sync, "boiling", and frame-to-frame drift; require provenance/disclosure (C2PA / SynthID labelling and a specific "AI-generated [element], art-directed by [team]" line) where it matters, per `policy-ai-ip-and-copyright` and `ai-cultural-bias-audit`.
+- **Image/video briefs for social:** describe real, culturally accurate specimens — named setting, real local context, specific wardrobe and lighting, not generic "African" placeholders; check the brief forces anatomy/text/physics correctness (hands, eyes, teeth, legible on-pack text, plausible geometry); avoid the "AI sheen" (over-smooth skin, plastic bokeh, symmetrical everything); for video, flag lip-sync, "boiling", and frame-to-frame drift; require provenance/disclosure (C2PA / SynthID labelling and a specific "AI-generated [element], art-directed by [team]" line) where it matters, per `policy-ai-content-ethics` (AI IP and copyright policy) and `ai-cultural-bias-audit`.
 - **Campaign / strategy text:** add a genuine strategic choice (where to play / how to win), not generic "raise awareness and drive engagement"; transparent, real numbers; no deceptive AI-capability or reach claims; plan the objection and the crisis path.
 
 ## Ship gate (run before delivering or publishing ANY output)
@@ -217,6 +220,6 @@ The output meets the standard when:
 
 ## See also
 - `ai-slop-audit` — the detection / evaluation / audit companion (analyse any artefact for slop).
-- `ai-content-humaniser` — the broader humanisation QC process; its banned list is merged here.
+- [humanising-rewrite-passes](references/humanising-rewrite-passes.md) — the humanisation QC process (formerly `ai-content-humaniser`); its banned list is merged here.
 - `language/east-african-english`, `language/language-standards`, `language/french-native-copy`, `language/swahili-native-copy` — apply house style and native-language standards on top.
-- `policy-ai-ip-and-copyright`, `ai-cultural-bias-audit` — provenance, disclosure, and bias checks for image/video output.
+- `policy-ai-content-ethics` ([AI IP and copyright policy](../../policies/policy-ai-content-ethics/references/ai-ip-and-copyright-policy.md), [cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md)) — provenance, disclosure, and bias checks for image/video output.

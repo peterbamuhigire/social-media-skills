@@ -117,7 +117,7 @@ If audience evidence, brand documents or the decision-maker are unavailable, ret
 - [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md) for line-level copy; [13-campaign-brief](../../pipeline/13-campaign-brief/SKILL.md) for production briefs.
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md) and [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md).
 - [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md).
-- [AI cultural bias audit](../../ai-marketing/ai-cultural-bias-audit/SKILL.md) for the responsible-creative check.
+- [AI cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md) for the responsible-creative check.
 <!-- dual-compat-end -->
 
 ## Core method in brief

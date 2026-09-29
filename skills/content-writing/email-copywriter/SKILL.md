@@ -246,7 +246,7 @@ Apply these when generating subject line options. Each formula is a different ps
 | 12 | The Direct: *[Exactly what is in the email, no frills]* | "Your September content calendar is ready" |
 
 ## Human Authenticity Gate
-All content produced using this skill must pass through the `ai-content-humaniser` before client delivery. AI-generated or AI-assisted email copy must meet the Golden Rule: every email must look, feel, and sound as if it was written by the most skilled human copywriter with deep knowledge of the target audience and their relationship with the brand. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
+All content produced using this skill must pass through the `anti-ai-slop` humanising rewrite passes before client delivery. AI-generated or AI-assisted email copy must meet the Golden Rule: every email must look, feel, and sound as if it was written by the most skilled human copywriter with deep knowledge of the target audience and their relationship with the brand. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
 
 ## Quality Criteria
 - [ ] Subject line options are genuinely different in approach — not three versions of the same formula

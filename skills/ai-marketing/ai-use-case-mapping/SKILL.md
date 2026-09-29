@@ -1,6 +1,6 @@
 ---
 name: ai-use-case-mapping
-description: Use when AI Use Case Mapping is needed to produce a AI use case mapping deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when AI Use Case Mapping is needed to produce a AI use case mapping deliverable, AI growth system design, predictive social analytics plan or AI co-thinking strategy for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,9 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **AI use case mapping deliverable** and the supplied brief falls within ai use case mapping.
+- Design an AI growth system that ties content, lead scoring and service copilots to revenue and retention, with governance and hard rules (formerly `ai-growth-systems-design`).
+- Plan predictive social analytics: churn prediction, post performance forecasts and RFM segmentation from Meta Business Suite exports (formerly `ai-predictive-analytics-social`).
+- Use AI as a strategy co-thinker, not a co-pilot: stakeholder and red-flag dialogue, MVOSSTE prompts, jobs-to-be-done framing and campaign risk mapping (formerly `ai-strategy-co-thinker`).
 
 ## Do Not Use When
 - Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +39,9 @@ Fallback: if files, network access, platform data, language review or production
 | Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| Chosen use cases must work together as a growth system tied to revenue, retention or conversion | Apply the growth principle, pattern table and hard rules in [ai-growth-systems-design](references/ai-growth-systems-design.md). | AI that produces more content without moving a funnel metric. |
+| The client wants forecasts (churn, content performance, campaign revenue, segments) from social data | Run the analytics-stage check, use-case match, RFM and predictive calendar in [predictive-analytics-use-cases](references/predictive-analytics-use-cases.md). | Predictions from under 3 months of data or tools beyond the client's budget. |
+| The strategic answer is not yet clear before mapping or recommending | Use the Co-Thinker dialogue, MVOSSTE, JTBD and risk-mapping prompts in [ai-strategy-co-thinking-prompts](references/ai-strategy-co-thinking-prompts.md). | Delivering unreviewed AI strategy options as the consultant's recommendation. |
 
 ## Workflow
 1. Confirm the exact AI use case mapping deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
@@ -72,6 +78,9 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [ai-growth-systems-design](references/ai-growth-systems-design.md) — read when the use-case map must become an AI growth system with patterns, data foundation, governance and a 30/60/90-day roadmap.
+- [predictive-analytics-use-cases](references/predictive-analytics-use-cases.md) — read when a client needs social media forecasts, RFM segmentation or a predictive content calendar.
+- [ai-strategy-co-thinking-prompts](references/ai-strategy-co-thinking-prompts.md) — read when AI should act as a strategy co-thinker (dialogue sequence, MVOSSTE, JTBD, campaign risk mapping, prompt footnoting).
 <!-- dual-compat-end -->
 
 ## Purpose
@@ -343,11 +352,11 @@ Output from this skill meets the standard when:
    not a wish list.
 
 ## Cross-References
-- **`ai-marketing-canvas-assessment`** — use for full AI marketing maturity
+- **`ai-readiness-diagnostic` (AI Marketing Canvas scoring reference)** — use for full AI marketing maturity
   assessment and strategic canvas before or after this use case mapping exercise.
 - **`prompt-engineering-library`** — use for ready-made, client-specific prompts
   to activate Q1 (Internal Productivity) quick wins immediately.
-- **`playbook-ai-automation-workflow`** — use for detailed workflow automation
+- **`playbook-marketing-automation` (AI automation recipes reference)** — use for detailed workflow automation
   planning once Q2 (External Productivity) use cases are approved.
 - **`playbook-ai-content-workflow`** — use for content production automation
   planning, particularly for Q1 caption and blog use cases.

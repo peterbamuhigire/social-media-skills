@@ -1,6 +1,6 @@
 ---
 name: policy-ai-content-ethics
-description: Use when drafting or reviewing an organisational Ai Content Ethics policy with roles, approval boundaries, enforcement and evidence. Use playbook-social-media-policy for rollout operations and specialist counsel for legal advice.
+description: Use when drafting or reviewing an organisational Ai Content Ethics policy, including AI copyright/IP and cultural bias audits, with roles, approval boundaries, enforcement and evidence. Use playbook-social-media-policy for rollout operations and specialist counsel for legal advice.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,8 @@ metadata:
 ## Use When
 - Draft, revise or assess an organisational Ai Content Ethics policy.
 - Define accountable roles, approval thresholds, records and exception handling.
+- Audit AI-generated images, personas or copy for Western cultural bias and East African misrepresentation before delivery, with qualified reviewer sign-off (formerly `ai-cultural-bias-audit`).
+- Set AI intellectual property and copyright policy: who owns AI-assisted deliverables, whether they can be registered, disclosure and provenance records (formerly `policy-ai-ip-and-copyright`).
 
 ## Do Not Use When
 - The request is policy rollout or staff workflow; use `playbook-social-media-policy`.
@@ -36,6 +38,8 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Rule is an internal operating choice | Draft the control and name its owner | Ownerless policy text |
 | Rule depends on law, contract or platform terms | Verify and cite the governing source | Unsupported compliance claim |
 | Exception could expose people, rights or confidential data | Escalate before approval or publication | Irreversible harm or liability |
+| AI-generated content depicts people, communities or cultural practices | Run the signed pre-delivery cultural bias audit in `references/cultural-bias-audit-protocol.md` | Western-default, stereotyped or conflated representation |
+| Client asks who owns AI-assisted work, wants to register/licence it, or needs a standalone IP policy | Apply `references/ai-ip-and-copyright-policy.md`, including its legal-referral triggers | False ownership claim or unsupported legal assurance |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -71,6 +75,9 @@ Use British English and the specified market context. Recommendations must be ex
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md); verify time-sensitive claims before use.
+- [cultural-bias-audit-protocol](references/cultural-bias-audit-protocol.md) — read when AI content depicting people or communities needs a signed pre-delivery bias audit.
+- [ai-ip-and-copyright-policy](references/ai-ip-and-copyright-policy.md) — read when a client needs AI IP ownership, copyright threshold, disclosure wording, provenance records or IP-solicitor referral.
+- [sector-specific-ai-guidance](references/sector-specific-ai-guidance.md) — read when the client is in health, finance, NGO/donor or political/public-sector work.
 <!-- dual-compat-end -->
 
 ## Required Inputs
@@ -307,7 +314,7 @@ Source: Ching & Mothi (2025, p.82). Add as a named clause in client policies for
 - This agency ensures that every deliverable involving AI assistance also involves substantial human creative contribution — in the form of strategic direction, editorial revision, cultural adaptation, and brand voice application
 - Before registering or licensing any AI-assisted creative work, the client must obtain legal advice from a qualified intellectual property solicitor
 
-Include this clause in the policy when the client is a creative agency, publisher, music producer, or any business that commercialises content through licensing or registration. For general brand content, note in the production record that human contribution is documented per deliverable.
+Include this clause in the policy when the client is a creative agency, publisher, music producer, or any business that commercialises content through licensing or registration. For general brand content, note in the production record that human contribution is documented per deliverable. Full jurisdictional detail, WGA 2023 benchmark, provenance record and referral triggers: [references/ai-ip-and-copyright-policy.md](references/ai-ip-and-copyright-policy.md).
 
 ---
 
@@ -327,13 +334,13 @@ Add to the policy's risk register or prohibited uses:
 
 **For East African clients:** This review is mandatory for all AI-generated imagery descriptions, people representations, and community references before client delivery. A reviewer without direct cultural knowledge of the community being depicted is not qualified to approve this content.
 
-**Examples on record:** BuzzFeed's AI-generated travel images and DeepVogue's AI fashion tool both produced racially and culturally inaccurate depictions without flagging bias. These are the precedents this policy addresses.
+**Examples on record:** BuzzFeed's AI-generated travel images and DeepVogue's AI fashion tool both produced racially and culturally inaccurate depictions without flagging bias. These are the precedents this policy addresses. Run the audit itself with [references/cultural-bias-audit-protocol.md](references/cultural-bias-audit-protocol.md).
 
 ---
 
 ## Section 2E — EU AI Act Cross-Border Compliance Note
 For international clients, donor organisations, or any client producing content for European audiences, add the following cross-border compliance note:
-**EU AI Act obligations relevant to AI-assisted content production:**
+**EU AI Act obligations relevant to AI-assisted content production** (article numbers below follow a draft text and must be verified; see the numbering note in [ai-ip-and-copyright-policy](references/ai-ip-and-copyright-policy.md) — in Regulation (EU) 2024/1689 the transparency duty is Article 50):
 - **Article 4 — Labelling obligation:** AI-generated content distributed to EU audiences must carry appropriate labelling identifying it as AI-generated where this is not obvious to the recipient.
 - **Article 28b(4) — Human oversight mandate:** High-risk AI systems must include human oversight provisions. For content production, this means documented human review and approval before publication.
 
@@ -384,41 +391,7 @@ Run it per piece of content, not per campaign.
       (Venkatesan and Lecinski, 2026)
 ---
 ## Section 4 — Sector-Specific Guidance
-Apply the relevant subsection based on the client's industry. Include all
-applicable subsections when multiple regulated sectors overlap (e.g., an
-NGO running a health programme).
-**Health**
-Never publish AI-generated health advice without clinical review by a
-qualified health professional. Even general wellness content can cause harm
-if inaccurate — AI tools are not trained as medical authorities and do not
-distinguish between safe and harmful guidance. Always append: *"This content
-is for informational purposes only and does not constitute medical advice.
-Consult a qualified health professional."* Report all health content to the
-client's designated clinical reviewer before scheduling.
-**Finance**
-AI-generated financial projections, savings guidance, or investment commentary
-requires review by a licensed financial professional before publication.
-Uganda's Capital Markets Authority (CMA) and Bank of Uganda (BoU) have
-disclosure requirements for financial communications. Always append: *"This
-content does not constitute financial advice. Consult a licensed financial
-adviser."* Do not use AI to generate specific return figures, interest rate
-comparisons, or regulatory compliance statements.
-**NGO and Donor-Funded Organisations**
-Many international donors — including USAID, EU development funds, and UN
-agencies — have content verification requirements embedded in grant agreements.
-Review the grant agreement before using AI tools for donor-facing
-communications, reports, or beneficiary stories. Never fabricate or
-embellish beneficiary stories; this constitutes research fraud and can result
-in grant termination. Where a donor requires human-authored narrative, document
-that the final text was written or substantially rewritten by a named team
-member.
-**Political and Public Sector**
-Uganda's National Information Technology Authority (NITA-U) guidelines and
-the Electoral Commission's rules govern political and election-related content.
-Do not use AI to generate political statements, candidate profiles, manifestos,
-or content attributed to public officials without disclosure and legal review.
-Public sector clients should obtain sign-off from their communications or legal
-team before any AI-assisted content is published under an official channel.
+Apply the relevant subsection (health, finance, NGO and donor-funded, political and public sector) from [references/sector-specific-ai-guidance.md](references/sector-specific-ai-guidance.md); include every subsection that applies when regulated sectors overlap.
 ---
 ## Section 5 — East Africa-Specific Considerations
 Apply the following contextual guidance for all Uganda and East Africa clients.
@@ -493,7 +466,7 @@ Consult the following skills where relevant:
   communication standards that AI tools must be briefed against before
   drafting client content.
 **Key citations used in this skill:**
-- Ching, J. and Mothi, N. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act Articles 4 and 28b(4).
+- Ching, V. and Mothi, D. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act Articles 4 and 28b(4).
 - Johnsen, R. (2024) *AI Ethics in Practice*
 - Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing*
 - Schaefer, M. (2025) *Belonging to the Brand*

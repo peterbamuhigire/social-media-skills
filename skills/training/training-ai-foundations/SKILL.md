@@ -138,7 +138,7 @@ Load [tools-and-human-review.md](references/tools-and-human-review.md) for this 
 ## Related Skills
 
 - `training-ai-prompt-writing` — next-level training on the Alpha-Beta-Gamma-Delta-Epsilon prompt structure and copywriting frameworks; deliver this session after AI Foundations
-- `ai-content-humaniser` — full quality control process, editing checklist, and banned vocabulary reference for AI-generated content
+- `anti-ai-slop` (humanising rewrite passes) — full quality control process, editing checklist, and banned vocabulary reference for AI-generated content
 - `brand-voice-ai-training` — how to train AI tools on a specific brand voice
 - `prompt-engineering-library` — ready-made prompt templates for common marketing content types
 - `training-client-team` — general social media team training workbook for content creation and community management

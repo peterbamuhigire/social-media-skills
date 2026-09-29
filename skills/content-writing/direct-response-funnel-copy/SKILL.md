@@ -148,7 +148,7 @@ Use only mechanics that are true and provable, with the reason why (see the ethi
 | `05-social-media-strategy` | This skill builds the direct-response layer; strategy defines the awareness layer above it |
 | `07-email-marketing-strategy` | Story, follow-up and nurture sequences slot in directly |
 | `09-campaign-strategy` | This skill handles copy; campaign strategy handles the mix |
-| `ai-whatsapp-chatbot-design` | WhatsApp is usually the main owned channel in East Africa |
+| `playbook-chatbot-strategy` (WhatsApp chatbot design reference) | WhatsApp is usually the main owned channel in East Africa |
 | `biz-dev-proposal`, `biz-dev-reactivation-campaign` | The same methods apply to B2B proposals and win-back |
 | `premium-commercial-writing` | Premium layer for proof density, value framing, price integrity and high-ticket tone |
 | `advertising/direct-response-economics` | Break-even targets for the small-batch test |

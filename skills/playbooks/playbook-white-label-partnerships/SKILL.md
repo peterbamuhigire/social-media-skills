@@ -228,7 +228,7 @@ discovery work required before content production begins.
 
 ### Quality Control in White-Label Work
 
-- Apply the same quality control process as for direct clients: use `ai-content-humaniser`
+- Apply the same quality control process as for direct clients: use the `anti-ai-slop` humanising rewrite passes
   for any AI-assisted output, apply a brand voice check, and verify all factual claims.
 - Deliver work 48 hours before the agency's deadline with the end client — this allows
   time for the agency review round before submission.

@@ -316,6 +316,6 @@ Include the Proof of Human signal in the final brief for every piece of content 
 
 ## Related Skills
 
-- **`ai-content-humaniser`** — use for quality control of any AI-assisted drafts before publishing; ensures Proof of Human standards are met
+- **`anti-ai-slop` (humanising rewrite passes)** — use for quality control of any AI-assisted drafts before publishing; ensures Proof of Human standards are met
 - **`playbook-viral-content-design`** — use alongside this skill for platform-specific viral mechanics; STEPPS and this playbook are complementary
 - **`playbook-word-of-mouth-strategy`** — use for the full word-of-mouth and referral programme that a Talk Trigger feeds into

@@ -1,6 +1,6 @@
 ---
 name: brand-voice-ai-training
-description: Use when Brand Voice AI Training is needed to produce a brand voice AI training deliverable for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when Brand Voice AI Training is needed to produce a brand voice AI training deliverable or RAG brand knowledge base for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **brand voice AI training deliverable** and the supplied brief falls within brand voice ai training.
+- Set up a RAG brand knowledge base (for example in Claude Projects) with the product catalogue, UGX prices, policies and personas so AI drafts stay accurate and on-brand (formerly `ai-rag-brand-knowledge-base`).
 
 ## Do Not Use When
 - Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The AI must also know the client's products, UGX prices, policies, audience or local calendar, or the brief asks for a RAG brand knowledge base | Build the seven-category document library and query workflow in [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md); load the Brand Context Block as one of its documents. | Generic or factually wrong AI output that no voice block can fix. |
 
 ## Workflow
 1. Confirm the exact brand voice AI training deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
@@ -72,6 +74,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md) — read when the client needs an AI knowledge base (Claude/ChatGPT Projects, CustomGPT, Notion AI) grounded in brand, product, policy and East African market documents.
 <!-- dual-compat-end -->
 
 ## Why This Matters

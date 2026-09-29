@@ -167,7 +167,7 @@ moving to Client B. Context-switching between clients mid-task wastes 15–20 mi
 ### Content Production Order Within a Client
 
 1. AI-assisted first draft — use ChatGPT or Claude (reference `prompt-engineering-library`)
-2. Brand voice edit — apply the client's voice guidelines (reference `ai-content-humaniser`)
+2. Brand voice edit — apply the client's voice guidelines (reference the `anti-ai-slop` humanising rewrite passes)
 3. Cultural localisation check — confirm EA context, Ugandan references where appropriate
 4. Image selection or briefing — identify what visual accompanies each post
 5. Load into scheduling tool — Buffer, FeedHive, or Hootsuite
@@ -280,7 +280,7 @@ the clock times shift.
 - `playbook-crisis-communications` — activate immediately if the morning incident check reveals
   a crisis indicator
 - `prompt-engineering-library` — for AI-assisted content drafting in the production block
-- `ai-content-humaniser` — for brand voice editing after AI first drafts
+- `anti-ai-slop` (humanising rewrite passes) — for brand voice editing after AI first drafts
 
 ---
 

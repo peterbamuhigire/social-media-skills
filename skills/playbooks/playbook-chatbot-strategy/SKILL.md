@@ -1,6 +1,6 @@
 ---
 name: playbook-chatbot-strategy
-description: Use when designing or improving a Chatbot Strategy operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Chatbot Strategy operating playbook, including WhatsApp LLM chatbot design, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,7 @@ metadata:
 ## Use When
 - Build or improve a repeatable Chatbot Strategy workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Design a WhatsApp chatbot that uses an LLM to answer customers in local languages and hands complaints to a human agent (formerly `ai-whatsapp-chatbot-design`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -38,6 +39,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| The bot runs on WhatsApp and must answer open-ended questions with an LLM | Apply the three-layer design (rules, LLM, human escalation) in [whatsapp-chatbot-design](references/whatsapp-chatbot-design.md) | Ungrounded LLM answers and missing human handoff |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -73,6 +75,7 @@ Use British English and the specified market context. Recommendations must be ex
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+- [whatsapp-chatbot-design](references/whatsapp-chatbot-design.md) — read when designing a WhatsApp chatbot with an LLM layer, social presence cues, HITL escalation triggers, a knowledge-base input and containment KPIs.
 <!-- dual-compat-end -->
 
 ## Required Input

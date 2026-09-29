@@ -148,7 +148,7 @@ Show that iterative refinement produces better results than trying to write the 
 
 ### 4.3 The AI Content Quality Checklist
 
-Before any AI-generated content is published, apply the checklist from the `ai-content-humaniser` skill. Key checks include:
+Before any AI-generated content is published, apply the checklist from the `anti-ai-slop` skill (humanising rewrite passes). Key checks include:
 
 - Does this sound like a human wrote it, or an AI?
 - Does it match the brand voice guide?
@@ -156,7 +156,7 @@ Before any AI-generated content is published, apply the checklist from the `ai-c
 - Are there any AI clichés ("game-changing", "seamless", "dive into", "in today's fast-paced world")?
 - Has a human editor reviewed and approved it?
 
-*Reference:* For the full humanisation checklist and editing protocol, see the `ai-content-humaniser` skill.
+*Reference:* For the full humanisation checklist and editing protocol, see the `anti-ai-slop` skill (humanising rewrite passes).
 
 ### 4.4 East African Context Notes
 
