@@ -204,6 +204,6 @@ For consultancy blog posts aimed at owners who want to grow Instagram accounts, 
 
 - Butow, E. and Walker, C. (2025) *Instagram for Business For Dummies* (3rd ed.), Wiley (publisher added at merge; verify).
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
-- Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth* (publisher not stated in the legacy source).
-- Walsh Phillips, K. (2023) *Ultimate Guide to Instagram for Business* (2nd ed.) (publisher not stated in the legacy source).
+- Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth* (publisher unverified: not found in Open Library, 29 Sep 2026).
+- Walsh-Phillips, K. (2023) *Ultimate Guide to Instagram for Business*, 2nd edn. Entrepreneur Press (first edition 2017 confirmed, Open Library catalogue, 29 Sep 2026; second-edition year verify).
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley.

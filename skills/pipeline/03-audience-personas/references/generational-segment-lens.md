@@ -94,4 +94,4 @@ The parent SKILL.md summarises each cohort's headline trust need (Gen Z: activis
 
 ## Source
 
-- Rageh (Ed.) (2026) *Ethical Marketing and Consumer Trust in Digital and Sustainable Markets* (cohort trust spectrum and the 73% activism figure; editor's initials and publisher not recorded in the source skill — verify before citing externally).
+- Rageh (Ed.) (2026) *Ethical Marketing and Consumer Trust in Digital and Sustainable Markets* (cohort trust spectrum and the 73% activism figure; editor's initials and publisher not recorded in the source skill; other engine files give Rageh, A. (Ed.), IGI Global; not found in Open Library on 29 Sep 2026 — verify before citing externally).

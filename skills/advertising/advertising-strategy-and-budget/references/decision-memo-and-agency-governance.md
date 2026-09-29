@@ -4,7 +4,7 @@ Read when a client decision is needed quickly, or when defining how the agency a
 
 ## 1. Six-part decision memo
 
-Method adapted from Kelley and Sheehan (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge. Business decisions run at about 60–80% confidence; "more research" is not a recommendation.
+Method adapted from Kelley and Sheehan (2021) *Advertising Management in a Digital Environment*, Routledge. Business decisions run at about 60–80% confidence; "more research" is not a recommendation.
 
 | Part | Content | Test |
 |---|---|---|

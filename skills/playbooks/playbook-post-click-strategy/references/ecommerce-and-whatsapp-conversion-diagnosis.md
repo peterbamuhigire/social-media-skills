@@ -179,7 +179,7 @@ Apply the RASTA standard to all client reporting (Phillips, 2015): Relevant, Acc
 
 ## Sources
 
-- Harris, A. (2016) *Small Business Big Money Online*: Marketing Optimization System, four buyer modalities, five-step process.
-- Larsson, T. (2016) *Ecommerce Evolved*: conversion tactics, traffic temperature, retargeting, flash sales, ride-alongs.
+- Harris, A. (2016) *Small Business Big Money Online* (publisher unverified: not found in Open Library, 29 Sep 2026): Marketing Optimization System, four buyer modalities, five-step process.
+- Larsson, T. (2016) *Ecommerce Evolved*. CreateSpace Independent Publishing Platform: conversion tactics, traffic temperature, retargeting, flash sales, ride-alongs.
 - Phillips, J. (2015) *Ecommerce Analytics*: KPI frameworks, dashboards, RASTA reporting.
 - Register `GOOGLE-OPTIMIZE-SUNSET-2023` (Google Optimize Help, read 2026-09-29): Optimize closure and GA4 testing integrations.

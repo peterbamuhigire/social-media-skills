@@ -263,9 +263,9 @@ A humanised piece is ready when:
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Ching, V. and Mothi, D. (2025): cultural bias audit; IP and copyright guidance; transparency spectrum; "ineffable something" test citing Tyler Cowen (2024).
 - Evelyn, A. (2025): hallucination management gate.
-- Johnsen, S. (2024): AI as creative partner.
+- Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning: AI as creative partner.
 - Ltifi, M. (2024): uncanny valley in text; micro-moment register matching.
-- Ltifi, M. and Johnsen, S. (forthcoming): AI content quality risks framework.
+- Ltifi, M. and Johnsen, M. (forthcoming): AI content quality risks framework (verify: no such joint work found, 29 Sep 2026).
 - Mizrahi, T. (2024): hallucination management.
-- Roth, J. and neuroflash (2024): content recycling pipeline and rising quality bar.
+- Roth, J. and neuroflash (2024): content recycling pipeline and rising quality bar (author initial and year verify: the engine also gives Roth, H. and 2024/2025).
 - Schaefer, M. (2023) *Belonging to the Brand*: "Proof of Human" content standard.

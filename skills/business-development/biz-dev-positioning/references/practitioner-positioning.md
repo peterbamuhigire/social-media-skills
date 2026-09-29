@@ -209,6 +209,6 @@ Produce these sections in order:
 
 ## Sources
 
-- Sobia Publication (2022) *Powerful Social Media Marketing for Beginners*. Sobia Publication.
+- Sobia Publication (2022) *Powerful Social Media Marketing for Beginners*. Independently published.
 - Johnson, J. (2023) *How to Become a Social Media Manager* (publisher not recorded in the source).
-- Nelson, J. (2019) *The Seven Figure Agency Roadmap*. Seven Figure Agency LLC. (Market viability test.)
+- Nelson, J. (2019) *The Seven Figure Agency Roadmap*. Independently published. (Market viability test.)

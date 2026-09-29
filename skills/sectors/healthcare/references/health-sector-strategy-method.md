@@ -155,8 +155,8 @@ Only share third-party health content that meets all 5 criteria:
 
 ## Sources
 
-- Parsons, P.J. (2009) *Beyond Persuasion: The Healthcare Manager's Guide to Strategic Communication*. Stakeholder taxonomy, 4-level complexity model, TTR standard, 4-component social media policy, crisis communication structure
-- Stukus, D.R., Patrick, M.D. and Nuss, K.E. (2019) *Social Media for Medical Professionals*. Platform guidance, HIPAA de-identification principles, content curation standards, troll taxonomy, complaint protocol, crisis template, professional boundary rules
+- Parsons, P.J. (2009) *Beyond Persuasion: The Healthcare Manager's Guide to Strategic Communication*. Health Administration Press (first edition 2001 in Open Library; 2009 edition verify). Stakeholder taxonomy, 4-level complexity model, TTR standard, 4-component social media policy, crisis communication structure
+- Stukus, D.R., Patrick, M.D. and Nuss, K.E. (2019) *Social Media for Medical Professionals*. Springer. Platform guidance, HIPAA de-identification principles, content curation standards, troll taxonomy, complaint protocol, crisis template, professional boundary rules
 - Rogers, D.L. (2011) *The Network Is Your Customer*. A-E-C-C-C framework, patient network strategy, 90-9-1 Rule, PatientsLikeMe model, customer-network-focused organisation
 - Uganda Data Protection and Privacy Act 2019 — patient data and privacy obligations
 - `platform-facebook/SKILL.md` — Facebook platform operational detail

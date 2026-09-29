@@ -86,4 +86,4 @@ Purpose-led claims: mission-level, funded with money or action, sustained over y
 ## Sources
 
 - Landa (2022) *Strategic Creativity*, Routledge — scales, idea card elements, review and critique protocols, responsible-creative questions.
-- Kelley & Sheehan (c. 2021–22), Routledge — creative-assessment rules, inappropriate feedback list, message vs execution testing, brand-linkage diagnostic.
+- Kelley & Sheehan (2021), Routledge — creative-assessment rules, inappropriate feedback list, message vs execution testing, brand-linkage diagnostic.

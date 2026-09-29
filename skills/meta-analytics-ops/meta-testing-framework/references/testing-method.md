@@ -313,7 +313,7 @@ achieve statistical significance. Apply the following adjustments:
 
 ### Mobile-First Testing
 
-95%+ of East African users view social media content on mobile. Before publishing any test variant:
+Most East African users view social media content on mobile (the source's "95%+" figure is undated and has no register record: `NOT_ASSESSED`, verify at use). Before publishing any test variant:
 
 - Preview all creatives on a mobile screen (not desktop)
 - Ensure caption text is legible without expanding — front-load key information in the first two lines

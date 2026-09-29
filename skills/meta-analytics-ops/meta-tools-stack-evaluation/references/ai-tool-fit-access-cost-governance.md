@@ -215,7 +215,7 @@ Build on Profile B when the client has a dedicated marketing team and active pro
 ## Sources
 
 - Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning. AI tool capability classifications and marketing automation frameworks.
-- Upadhyay, M. A. (2024) *Generative AI for Marketing*. Packt. Generative AI across content, SEO, analytics and personalisation.
+- Upadhyay, M. (2024) *Generative AI for Marketing*. Business Expert Press (Open Library catalogue, 29 Sep 2026; the engine formerly gave Packt). Generative AI across content, SEO, analytics and personalisation.
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. RACE framework for tool selection against marketing objectives.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley. ROI framework for tool investment decisions: (TLV − COCA) ÷ COCA.
 - Uganda Data Protection and Privacy Act 2019: applies to every tool processing customer personal data.

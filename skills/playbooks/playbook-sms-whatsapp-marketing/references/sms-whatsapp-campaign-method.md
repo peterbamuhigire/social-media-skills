@@ -79,7 +79,7 @@ Apply this structure to every broadcast:
 
 ## 3. WhatsApp Automated Sequences (API)
 
-For clients on WhatsApp Business API via a BSP — recommended EA providers: WATI, Interakt, and Twilio (Twilio has EA-specific pricing). All outbound messages require pre-approved templates.
+For clients on WhatsApp Business API via a BSP — recommended EA providers: WATI, Interakt, and Twilio (the source's claim that Twilio has EA-specific pricing is unverified; check the BSP's current rate card at use). All outbound messages require pre-approved templates.
 
 ### Welcome Sequence
 *Trigger: new contact sends first message or saves the business number.*
@@ -126,7 +126,7 @@ The catalogue is the WhatsApp Business equivalent of a product page. Use it as a
 - In broadcast messages: "Browse our full range here: [catalogue link]"
 - In replies to product enquiries: share the specific catalogue item, not just the link
 - As a pinned message in customer groups
-- Via WhatsApp Status with a swipe-up link (if the account is linked to a Meta Business page)
+- Via WhatsApp Status with a link (the source's "swipe-up link" for accounts linked to a Meta Business page is unverified; check current Status link behaviour at use)
 - In the business profile — the catalogue is the first thing new contacts see when they view the profile
 
 **Seasonal catalogue updates — key EA shopping periods:**

@@ -56,11 +56,11 @@ For each platform, present the free built-in option first. Only recommend paid t
 - **FAQ Shortcuts** — pre-written answers to common questions, selectable from the reply composer.
 - **Saved Replies** — full-length templated responses triggered by typing a shortcut keyword in the inbox.
 
-**Paid — ManyChat (free tier: up to 1,000 contacts):**
+**Paid — ManyChat (free tier: up to 1,000 contacts; vendor plan as recorded in the source, undated, verify at use):**
 - Keyword triggers — a customer types "price" and receives an automated price list message.
 - Flow builder — visual drag-and-drop conversation designer; no coding required.
 - Lead capture sequences — collect name, phone number, or email via Messenger before routing to a human.
-- Upgrade to ManyChat Pro (approx. USD 15/month) for unlimited contacts and advanced conditions.
+- Upgrade to ManyChat Pro (approx. USD 15/month, undated vendor price; verify at use) for unlimited contacts and advanced conditions.
 
 ### Instagram DMs
 

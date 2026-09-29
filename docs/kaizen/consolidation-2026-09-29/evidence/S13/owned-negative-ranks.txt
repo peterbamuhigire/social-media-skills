@@ -1,0 +1,300 @@
+# S13 owned-negative competitor ranks (lexical proxy, not live routing)
+## Before (S12 tree e7d68fd, fixtures unchanged)
+{
+ "fixtures": 392,
+ "types": {
+  "positive": 240,
+  "collision": 142,
+  "limited-capability": 4,
+  "failure-path": 6
+ },
+ "distinct_expected": 112,
+ "active": 112,
+ "skills_not_expected_by_any_fixture": [],
+ "alias_fixtures": 83,
+ "owned_negatives": 121,
+ "skills_owning_negatives": 112,
+ "competitor_bands": {
+  "ranks 4-10": 34,
+  "below rank 10": 51,
+  "competitor in top 3": 36
+ },
+ "t2_cov_ge3pos_ge2neg": 6,
+ "t2_cov": 0.0536,
+ "holdout": {
+  "n": 60,
+  "p1": 48,
+  "top3": 54
+ }
+}
+competitor rank  75  expected rank 1  hospitality-hotel-restaurant-not-retail-launch
+competitor rank  53  expected rank 1  strategy-creator-monetisation-not-reputation
+competitor rank  51  expected rank 1  meta-reporting-not-kpi-choice
+competitor rank  48  expected rank 1  training-social-media-fundamentals-not-handover
+competitor rank  48  expected rank 1  premium-commercial-writing-not-funnel
+competitor rank  48  expected rank 1  playbook-client-retainer-management-not-b2b
+competitor rank  47  expected rank 1  meta-competitor-analysis-not-own-profiles
+competitor rank  46  expected rank 1  meta-social-listening-not-complaint-response
+competitor rank  45  expected rank 1  04-brand-voice-intake-not-distinct
+competitor rank  44  expected rank 1  playbook-community-management-not-reputation
+competitor rank  39  expected rank 1  meta-sales-marketing-alignment-not-prospecting
+competitor rank  37  expected rank 1  playbook-marketing-automation-not-chatbot
+competitor rank  34  expected rank 1  strategy-personal-brand-not-practice
+competitor rank  29  expected rank 1  03-audience-personas-not-stp
+competitor rank  28  expected rank 1  platform-facebook-not-ads
+competitor rank  28  expected rank 1  marketing-mix-modelling-not-ad-credit
+competitor rank  27  expected rank 1  blog-writer-not-ideas
+competitor rank  27  expected rank 1  09-campaign-strategy-not-handover
+competitor rank  23  expected rank 3  kaizen-improvement-system-not-single-draft
+competitor rank  23  expected rank 1  media-planning-not-total-budget
+competitor rank  23  expected rank 1  06-digital-marketing-strategy-not-social
+competitor rank  21  expected rank 1  training-client-team-not-beginners
+competitor rank  21  expected rank 1  playbook-agency-operations-not-retainer
+competitor rank  21  expected rank 1  marketing-foundations-stp-positioning-not-agency
+competitor rank  20  expected rank 1  seo-geo-optimisation-not-brand-programme
+competitor rank  20  expected rank 1  playbook-chatbot-strategy-not-whatsapp
+competitor rank  20  expected rank 1  11-content-calendar-not-workflow
+competitor rank  19  expected rank 1  strategy-ewom-reviews-not-complaints
+competitor rank  19  expected rank 1  skill-safety-audit-not-authoring
+competitor rank  19  expected rank 1  biz-dev-credentials-not-proposal
+competitor rank  18  expected rank 1  playbook-post-click-strategy-not-handoff
+competitor rank  18  expected rank 1  demand-forecasting-not-marketing-split
+competitor rank  18  expected rank 1  biz-dev-proposal-not-credentials
+competitor rank  18  expected rank 1  ad-testing-and-scaling-not-stats
+competitor rank  18  expected rank 1  05-social-media-strategy-not-digital
+competitor rank  18  expected rank 1  02-platform-audit-not-rivals
+competitor rank  17  expected rank 3  measurement-tracking-plan-not-credit-model
+competitor rank  17  expected rank 2  meta-content-repurposing-not-performance-review
+competitor rank  17  expected rank 1  programmatic-and-brand-safety-not-plan
+competitor rank  17  expected rank 1  meta-social-metrics-framework-not-monthly-writeup
+competitor rank  17  expected rank 1  direct-response-economics-not-attribution
+competitor rank  17  expected rank 1  biz-dev-lawful-prospecting-outreach-not-advocacy
+competitor rank  16  expected rank 1  traction-channel-bullseye-not-roles
+competitor rank  16  expected rank 1  01-client-brief-not-handover
+competitor rank  15  expected rank 1  prompt-engineering-library-not-training
+competitor rank  15  expected rank 1  media-planning-not-programmatic
+competitor rank  15  expected rank 1  ecommerce-export-marketing-advisory-not-local-shop
+competitor rank  13  expected rank 1  programmatic-vs-media-plan-screens
+competitor rank  13  expected rank 1  content-ideas-not-calendar
+competitor rank  13  expected rank 1  advertising-attribution-and-measurement-not-mmm
+competitor rank  12  expected rank 1  brand-voice-ai-training-not-intake
+competitor rank  10  expected rank 3  meta-budget-planner-not-ad-spend
+competitor rank  10  expected rank 2  meta-algorithm-guide-not-experiment
+competitor rank  10  expected rank 1  playbook-daily-operations-routine-not-agency
+competitor rank   9  expected rank 1  playbook-viral-content-design-not-ideas
+competitor rank   9  expected rank 1  brand-strategy-vs-brand-voice
+competitor rank   8  expected rank 1  playbook-social-media-policy-not-ai-ethics
+competitor rank   8  expected rank 1  meta-roi-framework-not-ad-credit
+competitor rank   8  expected rank 1  creative-brief-vs-brand-strategy
+competitor rank   8  expected rank 1  anti-ai-slop-not-grading
+competitor rank   7  expected rank 2  direct-response-funnel-copy-not-ad-hooks
+competitor rank   7  expected rank 1  swahili-native-copy-not-style-guide
+competitor rank   7  expected rank 1  strategy-channel-architecture-not-channel-tests
+competitor rank   7  expected rank 1  playbook-reputation-management-not-ewom
+competitor rank   7  expected rank 1  meta-content-audit-not-profile-review
+competitor rank   7  expected rank 1  marketing-mix-modelling-vs-roi
+competitor rank   7  expected rank 1  ai-use-case-mapping-not-readiness
+competitor rank   6  expected rank 1  strategy-csr-purpose-communications-not-press
+competitor rank   6  expected rank 1  policy-ai-content-ethics-not-staff-policy
+competitor rank   6  expected rank 1  playbook-sms-whatsapp-marketing-not-whatsapp
+competitor rank   5  expected rank 2  strategy-customer-value-journey-not-themes
+competitor rank   5  expected rank 1  strategy-b2b-customer-community-not-retainer
+competitor rank   5  expected rank 1  platform-youtube-not-crossplatform
+competitor rank   5  expected rank 1  platform-x-twitter-not-press
+competitor rank   5  expected rank 1  healthcare-not-resort
+competitor rank   5  expected rank 1  ad-copy-and-hook-lab-not-captions
+competitor rank   4  expected rank 1  playbook-social-selling-not-outreach
+competitor rank   4  expected rank 1  playbook-networking-not-outreach
+competitor rank   4  expected rank 1  platform-instagram-not-ads
+competitor rank   4  expected rank 1  paid-search-advertising-not-social
+competitor rank   4  expected rank 1  brand-strategy-and-distinctive-assets-not-checkout
+competitor rank   4  expected rank 1  ai-generative-search-optimisation-not-page
+competitor rank   4  expected rank 1  advertising-strategy-and-budget-not-total
+competitor rank   4  expected rank 1  advertising-attribution-and-measurement-not-roi
+competitor rank   4  expected rank 1  07-email-marketing-strategy-not-copy
+competitor rank   3  expected rank 2  creative-brief-and-big-idea-not-production
+competitor rank   3  expected rank 1  training-smartphone-video-production-not-plan
+competitor rank   3  expected rank 1  training-ai-foundations-not-template-library
+competitor rank   3  expected rank 1  playbook-pr-publicity-not-crisis
+competitor rank   3  expected rank 1  playbook-paid-social-advertising-not-search
+competitor rank   3  expected rank 1  platform-linkedin-not-outreach
+competitor rank   3  expected rank 1  platform-google-business-profile-not-page
+competitor rank   3  expected rank 1  peso-integrated-strategy-not-platform-roles
+competitor rank   3  expected rank 1  meta-testing-framework-not-live-ads
+competitor rank   3  expected rank 1  language-standards-not-english-edit
+competitor rank   3  expected rank 1  french-native-copy-not-style-rules
+competitor rank   3  expected rank 1  east-african-english-not-multilingual-rulebook
+competitor rank   3  expected rank 1  caption-writer-not-ad-hooks
+competitor rank   3  expected rank 1  brand-strategy-and-distinctive-assets-not-stp
+competitor rank   3  expected rank 1  13-campaign-brief-not-idea
+competitor rank   2  expected rank 1  strategy-video-content-not-filming-skills
+competitor rank   2  expected rank 1  strategy-experiential-marketing-not-campaign
+competitor rank   2  expected rank 1  social-commerce-strategy-not-conversion
+competitor rank   2  expected rank 1  skill-writing-not-safety-check
+competitor rank   2  expected rank 1  s11-whatsapp-split-test
+competitor rank   2  expected rank 1  playbook-crisis-communications-not-reputation
+competitor rank   2  expected rank 1  playbook-content-production-not-calendar
+competitor rank   2  expected rank 1  platform-whatsapp-not-bulk
+competitor rank   2  expected rank 1  platform-tiktok-not-crossplatform
+competitor rank   2  expected rank 1  meta-tools-stack-evaluation-not-ai-maturity
+competitor rank   2  expected rank 1  email-copywriter-not-programme
+competitor rank   2  expected rank 1  eac-call-for-applications-campaign-not-launch
+competitor rank   2  expected rank 1  brand-strategy-vs-creative-brief
+competitor rank   2  expected rank 1  biz-dev-pricing-menu-not-proposal
+competitor rank   2  expected rank 1  biz-dev-positioning-not-client-stp
+competitor rank   2  expected rank 1  ai-slop-audit-not-drafting
+competitor rank   2  expected rank 1  ai-readiness-diagnostic-not-tasks
+competitor rank   2  expected rank 1  ad-to-site-journey-handoff-not-whatsapp
+competitor rank   2  expected rank 1  12-website-content-plan-not-article
+competitor rank   2  expected rank 1  10-content-pillars-not-schedule
+competitor rank   2  expected rank 1  08-influencer-marketing-strategy-not-creator
+
+## After (S13 fixture prompts)
+{
+ "fixtures": 392,
+ "types": {
+  "positive": 240,
+  "collision": 142,
+  "limited-capability": 4,
+  "failure-path": 6
+ },
+ "distinct_expected": 112,
+ "active": 112,
+ "skills_not_expected_by_any_fixture": [],
+ "alias_fixtures": 83,
+ "owned_negatives": 121,
+ "skills_owning_negatives": 112,
+ "competitor_bands": {
+  "ranks 4-10": 47,
+  "competitor in top 3": 73,
+  "below rank 10": 1
+ },
+ "t2_cov_ge3pos_ge2neg": 6,
+ "t2_cov": 0.0536,
+ "holdout": {
+  "n": 60,
+  "p1": 48,
+  "top3": 54
+ }
+}
+competitor rank  23  expected rank 3  kaizen-improvement-system-not-single-draft
+competitor rank  10  expected rank 3  meta-budget-planner-not-ad-spend
+competitor rank  10  expected rank 2  meta-algorithm-guide-not-experiment
+competitor rank  10  expected rank 1  playbook-daily-operations-routine-not-agency
+competitor rank   9  expected rank 1  playbook-viral-content-design-not-ideas
+competitor rank   9  expected rank 1  meta-sales-marketing-alignment-not-prospecting
+competitor rank   9  expected rank 1  meta-competitor-analysis-not-own-profiles
+competitor rank   9  expected rank 1  marketing-foundations-stp-positioning-not-agency
+competitor rank   9  expected rank 1  brand-strategy-vs-brand-voice
+competitor rank   8  expected rank 1  playbook-social-media-policy-not-ai-ethics
+competitor rank   8  expected rank 1  playbook-marketing-automation-not-chatbot
+competitor rank   8  expected rank 1  meta-roi-framework-not-ad-credit
+competitor rank   8  expected rank 1  creative-brief-vs-brand-strategy
+competitor rank   8  expected rank 1  anti-ai-slop-not-grading
+competitor rank   7  expected rank 2  direct-response-funnel-copy-not-ad-hooks
+competitor rank   7  expected rank 1  swahili-native-copy-not-style-guide
+competitor rank   7  expected rank 1  strategy-channel-architecture-not-channel-tests
+competitor rank   7  expected rank 1  playbook-reputation-management-not-ewom
+competitor rank   7  expected rank 1  playbook-client-retainer-management-not-b2b
+competitor rank   7  expected rank 1  meta-content-audit-not-profile-review
+competitor rank   7  expected rank 1  marketing-mix-modelling-vs-roi
+competitor rank   7  expected rank 1  ai-use-case-mapping-not-readiness
+competitor rank   6  expected rank 1  strategy-csr-purpose-communications-not-press
+competitor rank   6  expected rank 1  policy-ai-content-ethics-not-staff-policy
+competitor rank   6  expected rank 1  playbook-sms-whatsapp-marketing-not-whatsapp
+competitor rank   5  expected rank 2  strategy-customer-value-journey-not-themes
+competitor rank   5  expected rank 1  training-social-media-fundamentals-not-handover
+competitor rank   5  expected rank 1  strategy-b2b-customer-community-not-retainer
+competitor rank   5  expected rank 1  platform-youtube-not-crossplatform
+competitor rank   5  expected rank 1  platform-x-twitter-not-press
+competitor rank   5  expected rank 1  healthcare-not-resort
+competitor rank   5  expected rank 1  ad-testing-and-scaling-not-stats
+competitor rank   5  expected rank 1  ad-copy-and-hook-lab-not-captions
+competitor rank   5  expected rank 1  05-social-media-strategy-not-digital
+competitor rank   4  expected rank 3  measurement-tracking-plan-not-credit-model
+competitor rank   4  expected rank 1  traction-channel-bullseye-not-roles
+competitor rank   4  expected rank 1  playbook-social-selling-not-outreach
+competitor rank   4  expected rank 1  playbook-networking-not-outreach
+competitor rank   4  expected rank 1  platform-instagram-not-ads
+competitor rank   4  expected rank 1  paid-search-advertising-not-social
+competitor rank   4  expected rank 1  ecommerce-export-marketing-advisory-not-local-shop
+competitor rank   4  expected rank 1  demand-forecasting-not-marketing-split
+competitor rank   4  expected rank 1  brand-strategy-and-distinctive-assets-not-checkout
+competitor rank   4  expected rank 1  biz-dev-proposal-not-credentials
+competitor rank   4  expected rank 1  ai-generative-search-optimisation-not-page
+competitor rank   4  expected rank 1  advertising-strategy-and-budget-not-total
+competitor rank   4  expected rank 1  advertising-attribution-and-measurement-not-roi
+competitor rank   4  expected rank 1  07-email-marketing-strategy-not-copy
+competitor rank   3  expected rank 2  creative-brief-and-big-idea-not-production
+competitor rank   3  expected rank 1  training-smartphone-video-production-not-plan
+competitor rank   3  expected rank 1  training-ai-foundations-not-template-library
+competitor rank   3  expected rank 1  strategy-personal-brand-not-practice
+competitor rank   3  expected rank 1  strategy-creator-monetisation-not-reputation
+competitor rank   3  expected rank 1  programmatic-and-brand-safety-not-plan
+competitor rank   3  expected rank 1  playbook-pr-publicity-not-crisis
+competitor rank   3  expected rank 1  playbook-post-click-strategy-not-handoff
+competitor rank   3  expected rank 1  playbook-paid-social-advertising-not-search
+competitor rank   3  expected rank 1  platform-linkedin-not-outreach
+competitor rank   3  expected rank 1  platform-google-business-profile-not-page
+competitor rank   3  expected rank 1  peso-integrated-strategy-not-platform-roles
+competitor rank   3  expected rank 1  meta-testing-framework-not-live-ads
+competitor rank   3  expected rank 1  meta-social-metrics-framework-not-monthly-writeup
+competitor rank   3  expected rank 1  meta-content-repurposing-not-performance-review
+competitor rank   3  expected rank 1  media-planning-not-total-budget
+competitor rank   3  expected rank 1  media-planning-not-programmatic
+competitor rank   3  expected rank 1  marketing-mix-modelling-not-ad-credit
+competitor rank   3  expected rank 1  language-standards-not-english-edit
+competitor rank   3  expected rank 1  hospitality-hotel-restaurant-not-retail-launch
+competitor rank   3  expected rank 1  french-native-copy-not-style-rules
+competitor rank   3  expected rank 1  east-african-english-not-multilingual-rulebook
+competitor rank   3  expected rank 1  direct-response-economics-not-attribution
+competitor rank   3  expected rank 1  caption-writer-not-ad-hooks
+competitor rank   3  expected rank 1  brand-voice-ai-training-not-intake
+competitor rank   3  expected rank 1  brand-strategy-and-distinctive-assets-not-stp
+competitor rank   3  expected rank 1  blog-writer-not-ideas
+competitor rank   3  expected rank 1  biz-dev-lawful-prospecting-outreach-not-advocacy
+competitor rank   3  expected rank 1  advertising-attribution-and-measurement-not-mmm
+competitor rank   3  expected rank 1  13-campaign-brief-not-idea
+competitor rank   3  expected rank 1  09-campaign-strategy-not-handover
+competitor rank   3  expected rank 1  03-audience-personas-not-stp
+competitor rank   3  expected rank 1  02-platform-audit-not-rivals
+competitor rank   2  expected rank 1  training-client-team-not-beginners
+competitor rank   2  expected rank 1  strategy-video-content-not-filming-skills
+competitor rank   2  expected rank 1  strategy-experiential-marketing-not-campaign
+competitor rank   2  expected rank 1  strategy-ewom-reviews-not-complaints
+competitor rank   2  expected rank 1  social-commerce-strategy-not-conversion
+competitor rank   2  expected rank 1  skill-writing-not-safety-check
+competitor rank   2  expected rank 1  skill-safety-audit-not-authoring
+competitor rank   2  expected rank 1  seo-geo-optimisation-not-brand-programme
+competitor rank   2  expected rank 1  s11-whatsapp-split-test
+competitor rank   2  expected rank 1  prompt-engineering-library-not-training
+competitor rank   2  expected rank 1  programmatic-vs-media-plan-screens
+competitor rank   2  expected rank 1  premium-commercial-writing-not-funnel
+competitor rank   2  expected rank 1  playbook-crisis-communications-not-reputation
+competitor rank   2  expected rank 1  playbook-content-production-not-calendar
+competitor rank   2  expected rank 1  playbook-community-management-not-reputation
+competitor rank   2  expected rank 1  playbook-chatbot-strategy-not-whatsapp
+competitor rank   2  expected rank 1  playbook-agency-operations-not-retainer
+competitor rank   2  expected rank 1  platform-whatsapp-not-bulk
+competitor rank   2  expected rank 1  platform-tiktok-not-crossplatform
+competitor rank   2  expected rank 1  platform-facebook-not-ads
+competitor rank   2  expected rank 1  meta-tools-stack-evaluation-not-ai-maturity
+competitor rank   2  expected rank 1  meta-social-listening-not-complaint-response
+competitor rank   2  expected rank 1  meta-reporting-not-kpi-choice
+competitor rank   2  expected rank 1  email-copywriter-not-programme
+competitor rank   2  expected rank 1  eac-call-for-applications-campaign-not-launch
+competitor rank   2  expected rank 1  content-ideas-not-calendar
+competitor rank   2  expected rank 1  brand-strategy-vs-creative-brief
+competitor rank   2  expected rank 1  biz-dev-pricing-menu-not-proposal
+competitor rank   2  expected rank 1  biz-dev-positioning-not-client-stp
+competitor rank   2  expected rank 1  biz-dev-credentials-not-proposal
+competitor rank   2  expected rank 1  ai-slop-audit-not-drafting
+competitor rank   2  expected rank 1  ai-readiness-diagnostic-not-tasks
+competitor rank   2  expected rank 1  ad-to-site-journey-handoff-not-whatsapp
+competitor rank   2  expected rank 1  12-website-content-plan-not-article
+competitor rank   2  expected rank 1  11-content-calendar-not-workflow
+competitor rank   2  expected rank 1  10-content-pillars-not-schedule
+competitor rank   2  expected rank 1  08-influencer-marketing-strategy-not-creator
+competitor rank   2  expected rank 1  06-digital-marketing-strategy-not-social
+competitor rank   2  expected rank 1  04-brand-voice-intake-not-distinct
+competitor rank   2  expected rank 1  01-client-brief-not-handover

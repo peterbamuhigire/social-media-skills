@@ -37,5 +37,5 @@ A honey-based energy drink wants women 35+ in Kampala and Nairobi. Directive: pe
 ## Sources
 
 - Landa, R. (2022) *Strategic Creativity: A Business Field Guide to Advertising, Branding, and Design*. Routledge.
-- Kelley, L.D. and Sheehan, K.B. (c. 2021–22) *Advertising Management in a Digital Environment: Text and Cases*. Routledge.
+- Kelley, L.D. and Sheehan, K.B. (2021) *Advertising Management in a Digital Environment: Text and Cases*. Routledge.
 - Wallas, G. (1926) *The Art of Thought*; Young, J.W. (1940) *A Technique for Producing Ideas* (via Landa).

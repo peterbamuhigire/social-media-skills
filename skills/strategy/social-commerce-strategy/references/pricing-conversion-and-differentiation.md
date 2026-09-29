@@ -45,7 +45,7 @@ EA audiences trend Humanistic and Spontaneous. Lead with trust signals and emoti
 - Bounce rate target: below 55% on product landing pages and catalogue pages
 - Exit intent: a pop-up or pinned Story offering a discount captures WhatsApp numbers from visitors about to leave
 - Enquiry abandonment: follow up via WhatsApp within 30 minutes for customers who enquired but did not confirm
-- Mobile first: 85%+ of EA social commerce traffic is mobile; all product images and payment links must function on 2G/3G
+- Mobile first: most EA social commerce traffic is mobile (the source's "85%+" is uncited; verify at use); all product images and payment links must function on 2G/3G
 - Free delivery threshold: set free delivery at approximately 20% above average order value to lift basket size
 
 **Urgency Mechanics:**
@@ -115,7 +115,7 @@ Output from this skill meets the standard if it:
 - Includes an order management system with specific column headings and a scaling trigger (20+ orders per day)
 - Lists at least five commerce-specific content types with a description of why each works in the EA market
 - Names EA delivery partners (SafeBoda, Glovo, DHL Uganda, Posta Uganda) and addresses upcountry fulfilment
-- Flags the VAT registration threshold (UGX 150 million) and the trust signal requirements for EA online buyers
+- Flags the VAT registration threshold (UGX 150 million as recorded in the source, undated; confirm with the finance engine and the URA at use) and the trust signal requirements for EA online buyers
 - Applies the 3X pricing rule and 7 product selection criteria when advising on product range decisions
 - Segments customer data into one-time/repeat/whale tiers with a clear action for each
 - Identifies the client's brand intangible type and produces a Soleness statement

@@ -4,7 +4,7 @@ Merged from `skills/strategy/ecommerce-brand-differentiation` on 2026-09-29 at 3
 
 ## When to use this reference
 
-The job turns an online shop that competes only on price into a brand buyers choose on purpose: a strategic quadrant, an intangible type, a Soleness statement, a positioning map, a name shortlist, packaging moves and a buyer community. Verma (2019) reports that only a quarter of brands are seen as genuinely distinctive by their customers (figure not re-verified; illustrative).
+The job turns an online shop that competes only on price into a brand buyers choose on purpose: a strategic quadrant, an intangible type, a Soleness statement, a positioning map, a name shortlist, packaging moves and a buyer community. Verma (2019) *Checkout* argues that few brands are seen by their own customers as genuinely different (no measured figure is quoted; `NOT_ASSESSED`).
 
 Client triggers:
 

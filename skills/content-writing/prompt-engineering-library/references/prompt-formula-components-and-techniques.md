@@ -18,7 +18,7 @@ Before generating the library, ask for:
 7. **Priority tasks** — which recurring tasks the team performs most often (captions, blogs, reports, etc.)
 
 ## The Master Prompt Formula
-Source: Upadhyay, S. (2024) *Generative AI for Marketing*.
+Source: Upadhyay, M. (2024) *Generative AI for Marketing*.
 
 Every prompt in this library follows the Alpha-Beta-Gamma-Delta-Epsilon structure. Always prepend the client's Brand Context Block before the formula.
 
@@ -219,13 +219,13 @@ Output from this skill meets the standard when:
 
 ## Sources
 - Chavaux, L. (2025) — Before/After prompt comparison methodology.
-- Erné, R. (2024) — 5-Step Perfect Prompt framework: Role, Context, Task, Format, Constraints.
+- Erné, R. (2024) (title verify: the engine also cites Erné, J. (2024) and *AI-Powered Marketing*; neither found in Open Library, 29 Sep 2026) — 5-Step Perfect Prompt framework: Role, Context, Task, Format, Constraints.
 - Evelyn, A. (2025) — Hallucination Management Gate; ### separator syntax; contextual continuity management.
 - GPT Penguin (2024) — Prompt Anatomy five-component model; Emotional Resonance Pattern; Sales Funnel Stage-Specific Prompts.
-- Joseph, P. (c.2023–2024) — PAO Matrix (Platform–Audience–Objective) pre-prompt checklist.
+- Joseph, P. (c.2023–2024) (title, year and publisher verify: not identified, 29 Sep 2026) — PAO Matrix (Platform–Audience–Objective) pre-prompt checklist.
 - Mizrahi, T. (2024) — Copywriting Formula Prompt Activation; FOMO and SMILE frameworks; hallucination management.
-- Roth, J. and neuroflash (2024) — 8 Golden Rules of Prompting for AI-assisted content production.
-- Upadhyay, S. (2024) *Generative AI for Marketing*. — Alpha-Beta-Gamma-Delta-Epsilon master prompt formula; 10 prompt components; prompting techniques.
+- Roth, J. and neuroflash (2024) (author initial and year verify) — 8 Golden Rules of Prompting for AI-assisted content production.
+- Upadhyay, M. (2024) *Generative AI for Marketing*. Business Expert Press (Open Library catalogue, 29 Sep 2026) — Alpha-Beta-Gamma-Delta-Epsilon master prompt formula; 10 prompt components; prompting techniques.
 - Randazzo, C. (2024) — MVOSSTE prompting workflow for AI-assisted marketing strategy development.
 - Wright, D. (2025) — Placeholder Variable Syntax; Forward-Reasoning Strategy Prompt; Curiosity Gap technique.
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. — RACE framework; POEM model; audience segmentation.

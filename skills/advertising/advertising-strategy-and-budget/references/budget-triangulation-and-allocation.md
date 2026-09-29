@@ -4,7 +4,7 @@ Read before proposing any advertising budget figure. Parent skill: [advertising-
 
 ## 1. Methods available (choose three to triangulate)
 
-Kelley and Sheehan (c. 2021–22) list more than twenty budgeting methods. Most are variants of four families:
+Kelley and Sheehan (2021) list more than twenty budgeting methods. Most are variants of four families:
 
 | Family | Examples | Strength | Weakness |
 |---|---|---|---|

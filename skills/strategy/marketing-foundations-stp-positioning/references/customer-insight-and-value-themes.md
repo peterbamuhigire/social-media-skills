@@ -54,5 +54,5 @@ After a positioning change, rewrite counter, phone and WhatsApp scripts so every
 
 ## Sources
 
-- Stutts, P. (2021) *The Undefeated Marketing System*, Lioncrest (Scribe).
+- Stutts, P. (2021) *The Undefeated Marketing System*, Lioncrest.
 - Landa, R. (2022) *Strategic Creativity*, Routledge.

@@ -1,0 +1,65 @@
+{
+  "note": "Stored inputs for the S13 scorecard (Social Kaizen 2026-09-29). Rubric: chwezi-dev-engine skills/sdlc-meta/skill-engine-audit references/scoring-rubric.md and eval-readiness-worked-example.md (M10-14 / AO-14). Lexical T2 figures are a drift guard, not proof of live routing.",
+  "readiness": {
+    "close": {
+      "T1": {
+        "passed": 4,
+        "declared": 4,
+        "source": "catalog/engines.yaml social validators, gate-block-2026-09-29.txt"
+      },
+      "T2_p1": {
+        "hits": 373,
+        "total": 392
+      },
+      "T2_neg": {
+        "pass": 121,
+        "total": 121
+      },
+      "T2_cov": {
+        "skills": 4,
+        "active": 112,
+        "rule": ">=3 fixtures of type positive expecting the skill (alias prompts of type positive included; collision fixtures excluded) and >=2 owned negatives naming it in negative_for (S13 review finding 1). Looser count including collision fixtures as positives: 6."
+      },
+      "T2_clean": {
+        "undeclared": 0,
+        "pairs_ge_0_75": 0,
+        "in_scan": true
+      },
+      "T3": {
+        "executed": 0,
+        "status": "NOT_ASSESSED (zero-spend rule)"
+      }
+    },
+    "baseline_M10_14": {
+      "readiness": 40.0,
+      "slots": {
+        "T1": 1.0,
+        "T2_p1": 0.0,
+        "T2_neg": 0.0,
+        "T2_cov": 0.0,
+        "T2_clean": 1.0,
+        "T3": 0.0
+      },
+      "source": "chwezi-engine-agents docs/operations/m10-kaizen-evidence/M10-14/eval-readiness.json (191 skills; p@1 unreported, no owned negatives)"
+    }
+  },
+  "weights": {
+    "output": 0.3,
+    "depth": 0.25,
+    "standards": 0.15,
+    "taxonomy": 0.1,
+    "doctrine": 0.1,
+    "hygiene": 0.1
+  },
+  "judged": {
+    "output": 58,
+    "depth": 55,
+    "standards": 62,
+    "taxonomy": 62,
+    "doctrine": 63,
+    "redundancy": 64,
+    "routing": 62,
+    "safety": 60
+  },
+  "published_cap": 65
+}

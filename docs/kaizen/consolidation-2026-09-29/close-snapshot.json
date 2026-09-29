@@ -1,0 +1,163 @@
+{
+  "snapshot": "Social Kaizen 2026-09-29 S13-T01 close snapshot",
+  "engine": "social-media-skills",
+  "head": "e7d68fd plus the uncommitted S13 working tree",
+  "measured_on": "2026-09-29",
+  "baseline": "baseline-snapshot.json (start commit 38b6c9a)",
+  "method": "evidence/S13/measure_close.py run on a git archive of 38b6c9a and on the close tree with the same code; evidence/S13/measure_routing.py on the close tree; scripts/measure_skill_scaffolding.py; chwezi-engine-agents union collision scan. Routing figures are a lexical proxy, not live routing.",
+  "counts": {
+    "active_skill_md": 112,
+    "by_category": {
+      "advertising": 11,
+      "ai-marketing": 6,
+      "business-development": 6,
+      "content-writing": 7,
+      "language": 4,
+      "meta-analytics-ops": 13,
+      "meta-utility": 3,
+      "pipeline": 13,
+      "platforms": 8,
+      "playbooks": 17,
+      "policies": 1,
+      "sectors": 2,
+      "seo-discovery": 2,
+      "strategy": 15,
+      "training": 4
+    },
+    "inactive_alias_routes": 83,
+    "cap": 120
+  },
+  "lines": {
+    "total": 13742,
+    "median": 121.0,
+    "over_300": 0,
+    "over_400": 0,
+    "max": 162
+  },
+  "reference_files": {
+    "files": 369,
+    "lines": 51424,
+    "baseline_files": 145,
+    "baseline_lines": 14708
+  },
+  "templates": {
+    "validator_findings": {},
+    "description_template_phrase": 0,
+    "use_when_template_phrase": 0,
+    "baseline_same_classifier": {
+      "description_template_phrase": 170,
+      "use_when_template_phrase": 170,
+      "validator_findings": {
+        "description_formula": 191,
+        "use_when_template": 181,
+        "description_template": 170
+      }
+    },
+    "baseline_plan_01_hand_classification": {
+      "templated_descriptions": 105,
+      "templated_use_when": 117
+    }
+  },
+  "scaffolding": {
+    "raw_median_pct": 30.9,
+    "gated_median_pct": 1.4,
+    "baseline_raw_median_pct": 30.5,
+    "baseline_gated_median_pct": 14.5
+  },
+  "near_duplicates": {
+    "unique_text_pairs_gt_0_45": [
+      {
+        "score": 0.581,
+        "a": "ai-marketing/ai-generative-search-optimisation",
+        "b": "seo-discovery/seo-geo-optimisation"
+      }
+    ],
+    "baseline_unique_text_pairs_gt_0_45_count": 12,
+    "baseline_plan_01_reported": 6,
+    "within_engine_pairs_ge_0_75": 0,
+    "cross_engine_pairs_ge_0_75": 0,
+    "undeclared_cross_engine_ge_0_75": 0,
+    "baseline_within_ge_0_75": 9,
+    "baseline_cross_ge_0_75": 7
+  },
+  "routing": {
+    "fixtures": 392,
+    "types": {
+      "positive": 240,
+      "collision": 142,
+      "limited-capability": 4,
+      "failure-path": 6
+    },
+    "distinct_expected": 112,
+    "active": 112,
+    "skills_not_expected_by_any_fixture": [],
+    "alias_fixtures": 83,
+    "owned_negatives": 121,
+    "skills_owning_negatives": 112,
+    "competitor_bands": {
+      "ranks 4-10": 47,
+      "competitor in top 3": 73,
+      "below rank 10": 1
+    },
+    "t2_cov_ge3pos_ge2neg": 4,
+    "t2_cov": 0.0357,
+    "holdout": {
+      "n": 60,
+      "p1": 48,
+      "top3": 54
+    },
+    "p1": {
+      "hits": 373,
+      "total": 392,
+      "pct": 95.2
+    },
+    "top3": 1.0,
+    "p1_floor": 0.92,
+    "portfolio_floor": 92,
+    "baseline": {
+      "fixtures": 56,
+      "distinct_expected": 44,
+      "p1": "51/56 (91.1%)",
+      "top3": 1.0,
+      "owned_negatives": 0,
+      "collision_fixtures": 20,
+      "holdout": "not built (S08)"
+    },
+    "t2_cov_note": "positives = type 'positive' fixtures (S13 review finding 1); 6 / 0.0536 if collision fixtures count as positives"
+  },
+  "benchmark": {
+    "matrix": {
+      "STRONG": 129,
+      "THIN": 4,
+      "GAP": 0
+    },
+    "east_africa": {
+      "STRONG": 16,
+      "THIN": 7,
+      "GAP": 0,
+      "DEFECT": 0
+    },
+    "baseline": {
+      "matrix": {
+        "STRONG": 44,
+        "THIN": 54,
+        "GAP": 35
+      },
+      "east_africa": {
+        "STRONG": 5,
+        "THIN": 13,
+        "GAP": 3,
+        "DEFECT": 2
+      }
+    }
+  },
+  "source_register": {
+    "records_within_window": 179,
+    "baseline_records": 63
+  },
+  "tier3": "NOT_ASSESSED (zero-spend rule; 0 grading.json files)",
+  "readiness": {
+    "close": 59.9,
+    "baseline_M10_14": 40.0
+  }
+}

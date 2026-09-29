@@ -258,7 +258,7 @@ Score each contact on all four criteria (1–5 per factor). Sort by total score 
 
 Before committing to any direct marketing campaign (email, direct mail, WhatsApp broadcast), check budget viability:
 
-> For every UGX 20,000 (or equivalent USD $20) of projected revenue per transaction, the campaign can afford to invest UGX 1,000 (or USD $1) per contact reached.
+> For every UGX 20,000 of projected revenue per transaction (or USD 20 in a dollar plan; the two amounts are not equivalent, so apply the ratio within one currency), the campaign can afford to invest UGX 1,000 (or USD 1) per contact reached. This is a house heuristic, not a sourced benchmark; verify at use.
 
 **Examples:**
 - Projected transaction value: UGX 200,000 → affordable spend per contact: UGX 10,000

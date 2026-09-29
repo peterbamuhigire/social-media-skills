@@ -99,6 +99,6 @@ AI generates options; the human consultant selects, refines and takes responsibi
 - [ ] The final strategy document reflects the consultant's professional judgement, not a compiled set of AI outputs.
 
 ## Sources
-- Erné, J. (2024) *The Artificial Intelligence Handbook for Management Consultants*.
+- Erné, J. (2024) *The Artificial Intelligence Handbook for Management Consultants* (verify: not found in Open Library, 29 Sep 2026).
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
 - Randazzo, G.W. (2024) *Winning Marketing Strategies Using Generative AI*. Business Expert Press.

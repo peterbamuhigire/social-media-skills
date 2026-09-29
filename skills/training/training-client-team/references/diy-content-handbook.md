@@ -165,7 +165,7 @@ Tap **Export** (top right) → select **1080p** resolution → **MP4 format** �
 | Instagram Stories | Portrait (vertical) | 1080 × 1920 | Keep under 15 seconds per clip |
 | Facebook | Landscape (horizontal) | 1920 × 1080 | Or portrait — both work |
 | YouTube | Landscape (horizontal) | 1920 × 1080 | Never upload vertical to YouTube |
-| WhatsApp Status | Portrait (vertical) | 1080 × 1920 | Keep under 30 seconds |
+| WhatsApp Status | Portrait (vertical) | 1080 × 1920 | Keep under 30 seconds (undated platform limit; verify at use) |
 
 Dimensions and duration limits: verify before stating (no register record). In CapCut, set the canvas ratio at the start of a new project: tap the ratio icon → select **9:16** (vertical) or **16:9** (horizontal) before importing footage.
 

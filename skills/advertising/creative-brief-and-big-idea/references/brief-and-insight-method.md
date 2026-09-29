@@ -85,5 +85,5 @@ East Africa: guardian and guide roles suit fintech, insurance and SACCOs where t
 
 ## Sources
 
-- Kelley & Sheehan (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge — brief anatomy and five-question test.
+- Kelley & Sheehan (2021) *Advertising Management in a Digital Environment*, Routledge — brief anatomy and five-question test.
 - Landa (2022) *Strategic Creativity*, Routledge — brief interrogation, insight method, ideation, story spine.

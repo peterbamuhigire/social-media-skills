@@ -58,7 +58,7 @@ The consultant's role is to make this informal conversion path faster, more cons
 
 ## Section 3 — Payment Infrastructure
 
-Payment options for EA social commerce, in order of customer trust and ease of use:
+Payment options for EA social commerce, in order of customer trust and ease of use. Fees are as recorded in the source skill, undated and without register records; verify each provider's current merchant pricing at use:
 
 | Method | Provider | Fee | Best For |
 |---|---|---|---|

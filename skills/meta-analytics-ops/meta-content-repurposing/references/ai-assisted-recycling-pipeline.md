@@ -159,5 +159,5 @@ These are practical working limits for the pipeline, not platform maxima; verify
 
 ## Sources
 
-- Roth, H. and neuroflash (2024) *AI Strategy 2025 for Marketing Teams*.
+- Roth, H. and neuroflash (2024) *AI Strategy 2025 for Marketing Teams* (vendor publication; author initial and year verify).
 - Sweenor, D.E. and Mulkers, Y. (2024) *Generative AI Business Applications*. TinyTechMedia.

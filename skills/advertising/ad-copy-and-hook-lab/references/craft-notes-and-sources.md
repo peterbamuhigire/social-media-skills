@@ -40,4 +40,4 @@ Before → after:
 
 - Serling, B. (ed.) (2002) *How to Write Million Dollar Ads, Sales Letters & Web Marketing Pieces*, The Internet Marketing Center — contributors include Caples (via Halbert), Bly, Vitale, Kennedy, Nicholas, Petersen, Voiles, Eker, Gage, Hauptman.
 - Wiebe, J. (2011) *Copy Hackers: 6 Persuasion Strategies*, Copy Hackers — price timing and discount display.
-- Stutts, P. (2021) *The Undefeated Marketing System*, Scribe — comparative ("punch up") rules.
+- Stutts, P. (2021) *The Undefeated Marketing System*, Lioncrest — comparative ("punch up") rules.

@@ -136,10 +136,10 @@ Follow these rules without exception during any Level 2 or Level 3 event:
 Pause all scheduled content immediately on identification of Level 2 or Level 3. Use Buffer or Hootsuite draft mode — do not delete scheduled content, only pause it. Resume only with client approval.
 
 ### Facebook
-For Level 3: consider enabling the strong profanity filter (Settings → Privacy → Profanity Filter → Strong). For specific posts under heavy negative attack, comments can be turned off on that post via the three-dot menu. Use this only when comments have become abusive or coordinated — not to suppress legitimate criticism.
+For Level 3: consider enabling the strong profanity filter (Settings → Privacy → Profanity Filter → Strong; menu path as recorded in the source, verify at use). For specific posts under heavy negative attack, comments can be turned off on that post via the three-dot menu. Use this only when comments have become abusive or coordinated — not to suppress legitimate criticism.
 
 ### Instagram
-Use the restricted words list (Settings → Privacy → Hidden Words) to automatically hide comments containing abusive language. Hide — not delete — specific comments that are threatening or contain personal abuse. Document all hidden comments.
+Use the restricted words list (Settings → Privacy → Hidden Words; menu path as recorded in the source, verify at use) to automatically hide comments containing abusive language. Hide — not delete — specific comments that are threatening or contain personal abuse. Document all hidden comments.
 
 ### WhatsApp Business
 Pause all pending broadcast messages immediately. Update the away message to: "We are aware of the current situation and are working to address it. For urgent enquiries, please message us here and we will respond as soon as possible."

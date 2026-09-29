@@ -2,10 +2,10 @@
 
 Merged from `skills/strategy/ecommerce-brand-differentiation` on 2026-09-29 at 3416d0b (file moved from its `references/differentiation-method.md`); preservation map: [ecommerce-brand-differentiation.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/ecommerce-brand-differentiation.md). Parent: [brand-strategy-and-distinctive-assets](../SKILL.md); the decision layer for this method is [e-commerce differentiation](ecommerce-differentiation.md).
 
-**Currentness and routing notes (added 29 Sep 2026; text below otherwise unchanged).**
+**Currentness and routing notes (added 29 Sep 2026).** Sections 1, 2 and the packaging paragraph in Section 5 were rewritten in the engine's own words in Social Kaizen S13 (29 Sep 2026): the source book's case examples and survey percentages were removed, and the catalogue is now a selection table (copyright rule: ideas paraphrased with Author (Year) *Title* attribution, no digest). The rest of the moved text is unchanged.
 
 - Visual direction: the colour table, hex/RGB instruction and typography line in Section 5 are kept as historical direction only. Visual execution, colour and any typeface choice route to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine); this engine makes no positive typeface claim.
-- Figures: "25% of brands" (Section 1) and the packaging percentages (Section 5) come second-hand via Verma (2019). They were not re-verified on 29 Sep 2026; treat them as illustrative, never as targets or current market facts (`NOT_ASSESSED`).
+- Figures: the second-hand survey percentages previously quoted from Verma (2019) (share of distinctive brands; packaging influence, repeat purchase and photo sharing) were removed in S13 because no primary source was found. Quote no packaging statistic to a client without a dated primary source (`NOT_ASSESSED`).
 - Uganda labelling: the ingredient and batch/expiry requirement in Section 5 has no source-register record; confirm with the Uganda National Bureau of Standards or the client's adviser before stating it as law (`NOT_ASSESSED`).
 - "Distinctive" in this method means different from rivals in the buyer's reasons to choose. Whether a name, colour or pack is a *distinctive asset* is measured on fame × uniqueness in the [distinctive asset audit](distinctive-asset-audit.md) (register `EBI-DISTINCTIVE-ASSETS`).
 - Blue Ocean Strategy is dated 2005 in Section 3 and 2015 in Sources: the first edition is 2005 and the expanded edition 2015 (Harvard Business Review Press).
@@ -25,71 +25,38 @@ Ask the client for the following before generating any deliverable:
 7. **Business stage** — new brand (building from scratch), existing brand (refreshing or repositioning), or established brand (deepening differentiation)?
 8. **Primary goal** — e.g., stop competing on price, attract loyal repeat buyers, enter a new market segment, justify a premium price point
 
-## Section 1 — Why Brand Differentiation Matters in Ecommerce
+## Section 1 — Why an online shop needs a reason to be chosen
 
-Only 25% of brands are perceived as genuinely distinctive by their customers (Verma, 2019). In ecommerce — and especially in EA social commerce — this figure is lower. When products and pricing are similar, customers default to the cheapest option. Brand differentiation creates a reason to pay a premium, generates word-of-mouth, and builds a customer base that returns without needing a discount.
+When products and prices look alike, buyers default to the cheapest listing. A shop that gives buyers a reason to choose it on purpose can hold its price, earn repeat orders without discounts and get talked about. Verma (2019) argues that few brands are seen by their own customers as genuinely different; treat that claim as context, not a measured figure for any market (`NOT_ASSESSED`).
 
-The goal is **Soleness**: a state in which the brand occupies a unique position in the customer's mind that no competitor has claimed. Soleness is not a product feature — it is an emotional and psychological association that makes the brand feel irreplaceable.
+The aim is what Verma (2019) calls **Soleness**: a place in the buyer's mind that no rival has claimed. It is an association the buyer holds, not a product feature.
 
-Apply the **Option Planning Quadrant Matrix** (Verma, 2019) to choose the right approach:
+**Choose the route from two facts about the client** (the capital-and-competition quadrant is adapted from Verma (2019) *Checkout*):
 
-| Capital Availability | High Competition | Low Competition |
+| Capital available | Crowded category | Uncrowded category |
 |---|---|---|
-| **Low capital** | Use **Intangibles** (story, purpose, surprise, curation) | Use **Positioning** (claim a specific market position) |
-| **High capital** | Use **Disruption** (Blue Ocean Strategy, new business model) | Use **Category Creation** (invent a new category) |
+| **Little** | Lead with an intangible (Section 2) | Claim a specific position (Section 3) |
+| **Plenty** | Change the business model (four-actions grid, Section 3) | Define a new category (Section 3) |
 
-Most EA SME clients operate in the lower-left quadrant: high competition, limited capital. **Intangibles** are the primary tool.
+Most East African SME shops sit in the little-capital, crowded cell, so an intangible is usually the first tool.
 
-## Section 2 — The 9 Intangible Brand Types
+## Section 2 — Choosing an intangible
 
-Intangibles are emotional and story-based qualities that competitors cannot copy even if they copy the product (Verma, 2019). Choose the one or two that fit the client's authentic story and market position.
+An intangible is a reason to buy that lives in the brand's story, conduct or experience, so a rival who copies the product does not copy it. Verma (2019) catalogues nine types; the table below restates them as a selection aid for this engine. Pick one, at most two, and only where the client can prove it.
 
-### 1. Story-Driven
-Build differentiation around the founder's origin story. The story must be true, specific, and personally relevant to the product.
+| Type | What the brand claims | Proof the client must already hold | East African illustration | Main risk |
+|---|---|---|---|---|
+| Origin story | Why the founder started, told as setting → setback → action → result | A true, checkable personal history that explains the product | A founder who began selling second-hand clothes by the roadside and now dresses Kampala professionals | An embellished story that buyers or journalists can disprove |
+| Mission | The business exists to change something; every sale advances it | The operating model itself serves the mission (who is employed, trained or supplied) | A tailoring brand that trains and employs young people in one named community | A mission bolted on as marketing |
+| Named giveback | A fixed amount or item per sale goes to a named beneficiary | A written arrangement with the beneficiary and a public running total | A fixed shilling amount per order to one named school library | Vague "we give back" wording, or totals that cannot be shown |
+| Delight at delivery | Every order arrives better than expected | A repeatable, costed extra that fits the margin | A handwritten note or small sample in every parcel | Surprises that stop when volume grows |
+| Made for you | Customisation rivals do not offer at this price or ease | A production process that can deliver the options on time | Name labels, chosen scent or colour, made to order | Promising options the workshop cannot fulfil |
+| Simpler choice | The shop removes the confusion the category takes for granted | A deliberately narrow range and one clear price | One product, one size, one price, with the reason explained | Oversimplifying for buyers who need options |
+| Lower footprint | Sourcing, materials or local making reduce harm | Supplier evidence, material specifications or certificates | Locally grown ingredients and compostable packaging | Green claims without evidence (route claim wording through the legal-market release gate) |
+| Aspiration | The brand stands for who the buyer wants to become | Tone, content and service that consistently match the promise | A skincare range positioned on the buyer's confidence rather than on the product | Empty slogans the product experience contradicts |
+| Expert selection | Value comes from judgement in what is stocked | A visible selection rule and a named curator | A shop that stocks only a short, monthly-refreshed list of African-made goods with its reasons | A "curated" range that is really just a small range |
 
-*Structure:* Initial harmony → challenge or turning point → action taken → outcome. Reference: Pressed Juicery (founder's personal journey with cold-pressed juice).
-
-*EA application:* "I started selling second-hand clothes on the road because I could not afford a shop. Eight years later, I dress the women of Kampala."
-
-### 2. Purpose-Driven
-Embed a social mission into the core of the business. Every product sold advances the mission. The mission is not a marketing layer — it is the reason the business exists.
-
-*Reference:* TOMS Shoes (one-for-one shoe donation model). *EA application:* A business that employs mothers in a specific community, trains youth tailors, or plants trees for every order placed.
-
-### 3. Giveback
-A defined percentage of every sale goes to a named cause or beneficiary. More specific than purpose-driven; the giveback is quantifiable and verifiable.
-
-*Reference:* STATE Bags (one backpack donated per purchase). *EA application:* "UGX 2,000 from every order goes to the Gulu Primary School Library."
-
-### 4. Surprise-Driven
-Design the experience to consistently exceed expectations at the moment of delivery. The surprise must be genuine, repeatable, and aligned with the brand.
-
-*Reference:* Greetabl (personalised packaging that delights at unboxing). *EA application:* A handwritten note, an unexpected small bonus product, or a personalised sticker on every parcel.
-
-### 5. Personalisation-Driven
-Offer meaningful customisation that competitors do not provide at this price point or with this level of ease.
-
-*Reference:* Anomalie (custom wedding dresses via a 15-question survey). *EA application:* Made-to-order products with the customer's name, a chosen scent, a preferred colour combination, or a custom label.
-
-### 6. Simplification-Driven
-Remove the complexity, confusion, or friction that the rest of the category takes for granted.
-
-*Reference:* Casper (eliminated the confusing mattress buying process). *EA application:* One product, one price, one size — no overwhelming choice. "We made the decision for you."
-
-### 7. Sustainability-Driven
-Build the brand around ethical sourcing, recycled materials, local production, or reduced environmental impact.
-
-*Reference:* Rothy's (shoes made from recycled plastic bottles). *EA application:* Natural, locally sourced ingredients; biodegradable packaging; support for Ugandan farmers or artisans.
-
-### 8. Optimism/Hope-Driven
-The brand identity is built around aspiration — helping customers become a better version of themselves or believe in a better future.
-
-*Reference:* BestSelf Co. (journaling and self-help products). *EA application:* A skincare brand whose positioning is not about beauty products but about the woman's confidence and ambition. "Not just skincare. Self-belief, bottled."
-
-### 9. Curation-Driven
-Differentiate through expert selection. The brand's value is not the product itself but the judgement and taste behind choosing only the best.
-
-*Reference:* Stitch Fix (personal stylist service using data and human curation). *EA application:* A boutique that carries only the 10 best African-made products in a category, curated monthly, with the buying rationale explained.
+**Selection rule.** Score each candidate type on three questions: is it true today, can the client keep delivering it, and does any direct rival already own it? Choose the type that passes all three; if none does, fall back to positioning (Section 3) rather than inventing a story.
 
 ## Section 3 — Competitive Positioning
 
@@ -175,11 +142,7 @@ Select one primary font family and apply it consistently. Typeface choice is bri
 
 ### Packaging as Marketing
 
-Packaging is a conversion tool, not just a protective layer (Verma, 2019). Key statistics:
-- 33% of purchase decisions in product categories are influenced by packaging
-- 52% of customers say they will return for a second purchase if their first order arrived in premium packaging
-- 40% of consumers share photos of packaging that is interesting or gift-like
-- 74% of young adults post pictures of their orders online — Instagram-worthy packaging is free marketing
+For a shop that sells through social media, the parcel is the first physical contact with the brand, so it works as marketing as well as protection (an argument made in Verma (2019) *Checkout*). A parcel buyers want to photograph earns unpaid reach; a plain one wastes that moment. Treat any published statistic on packaging influence as unverified unless it has a dated primary source.
 
 **Packaging checklist for EA social commerce:**
 - Every parcel should carry the brand name and logo visibly on the outside
@@ -224,7 +187,7 @@ Output from this skill meets the standard if it:
 
 ## Sources
 
-- Verma, N. (2019) *Checkout*. Soleness framework, 7C Canvas, 9 Intangible types, naming, packaging, community, Brand Benefits Pyramid
+- Verma (2019) *Checkout* (author initial, subtitle and publisher: verify). Concept inputs: Soleness, the capital-and-competition quadrant, the intangible types, naming types, packaging and community; restated here in the engine's own words.
 - Kim, W.C. and Mauborgne, R. (2015) *Blue Ocean Strategy*. Four Actions Framework, value innovation
 - Ries, A. and Trout, J. (2001) *Positioning: The Battle for Your Mind*. Positioning maps, category ownership
 - Kelly, K. (2008) '1,000 True Fans'. True fan community model

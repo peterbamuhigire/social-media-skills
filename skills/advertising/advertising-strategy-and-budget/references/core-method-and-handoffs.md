@@ -19,7 +19,7 @@ Slot template: "Increase [metric] from [baseline, date, source] to [target] amon
 
 ### 2. The four-level measurement architecture
 
-Adapted from Kelley and Sheehan (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge. A campaign cannot win on one level and lose on another and still be called a success.
+Adapted from Kelley and Sheehan (2021) *Advertising Management in a Digital Environment*, Routledge. A campaign cannot win on one level and lose on another and still be called a success.
 
 | Level | What to measure | Typical sources |
 |---|---|---|

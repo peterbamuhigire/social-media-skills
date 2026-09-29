@@ -63,7 +63,7 @@ Apply when pitching any AI or social media service:
 
 ## Section 9 — Seven-Figure Agency Model: Growth, Retention and Scale
 
-Principles from Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC. Full procedures (growth-stage ladder, MRR gap and paths table in UGX, niche test, fast-plus-slow programme design, cost-to-serve sheet, org-chart exercise, kickoff kit, monthly review agenda) are in [`references/agency-growth-roadmap.md`](agency-growth-roadmap.md). Agency economics and governance (client P&L, time capture, margin gate, concentration limits, creative management, account pods, meeting cost, digital asset management) are in [`references/agency-economics-and-governance.md`](agency-economics-and-governance.md).
+Principles from Nelson, J. (2019) *The Seven Figure Agency Roadmap*, independently published. Full procedures (growth-stage ladder, MRR gap and paths table in UGX, niche test, fast-plus-slow programme design, cost-to-serve sheet, org-chart exercise, kickoff kit, monthly review agenda) are in [`references/agency-growth-roadmap.md`](agency-growth-roadmap.md). Agency economics and governance (client P&L, time capture, margin gate, concentration limits, creative management, account pods, meeting cost, digital asset management) are in [`references/agency-economics-and-governance.md`](agency-economics-and-governance.md).
 
 ### Rule of Five Ones (Nelson, 2019, credited by him to Taki Moore and Clay Collins)
 

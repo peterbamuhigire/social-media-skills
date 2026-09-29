@@ -1,6 +1,6 @@
 # Agency economics and governance
 
-Read when setting agency margins, accepting or re-pricing clients, structuring teams, running creative reviews and meetings, or organising brand assets. Parent skill: [playbook-agency-operations](../SKILL.md). Sources: Kelley, L. D. and Sheehan, K. B. (c. 2021–22) *Advertising Management in a Digital Environment: Text and Cases*, Routledge; Marcos, J. et al. (c. 2025) *The High-Performing Key Account Manager*, Kogan Page (research-backed team frameworks only); Kupsh and Graves, *High-Impact Presentations* (meeting management); *Graphic Design Rules* (design-practice guardrails); Landa, R. (2022) *Strategic Creativity*, Routledge. Case figures in these books are illustrative, not benchmarks.
+Read when setting agency margins, accepting or re-pricing clients, structuring teams, running creative reviews and meetings, or organising brand assets. Parent skill: [playbook-agency-operations](../SKILL.md). Sources: Kelley, L. D. and Sheehan, K. B. (2021) *Advertising Management in a Digital Environment: Text and Cases*, Routledge; Marcos, J. et al. (c. 2025) *The High-Performing Key Account Manager*, Kogan Page (research-backed team frameworks only); Kupsh and Graves, *High-Impact Presentations* (meeting management); *Graphic Design Rules* (design-practice guardrails); Landa, R. (2022) *Strategic Creativity*, Routledge. Case figures in these books are illustrative, not benchmarks.
 
 ## 1. The four Ps of advertising management (health check)
 

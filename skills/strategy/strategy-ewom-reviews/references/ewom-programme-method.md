@@ -2,7 +2,7 @@
 
 Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`); text unchanged. Read when running the intake, applying the GST framework, finding transmitters, planning peak-moment review requests and incentives, handling negative reviews, setting eWOM metrics and platform priority, or building a programme from zero.
 
-**Source:** Hanlon and Tuten (2022) *The SAGE Handbook of Digital Marketing*
+**Source:** Hanlon and Tuten (2022) *The SAGE Handbook of Social Media Marketing*, SAGE (title per Open Library catalogue, 29 Sep 2026)
 
 ## Required Inputs
 

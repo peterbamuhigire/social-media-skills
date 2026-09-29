@@ -8,7 +8,7 @@ Read this reference when the consultant wants to use a short, free social media 
 
 This is a lighter, pre-sale variant of the SKILL.md audit. Once the prospect signs and `01-client-brief` has produced an approved brief, run the full SKILL.md audit (per-platform tables, benchmarking, ten quick wins, six-slide deck). For per-element profile fixes after either audit, use [profile-optimisation-fixes](profile-optimisation-fixes.md).
 
-Working basis: Johnson, J. (2023) *How to Become a Social Media Manager* (publisher not recorded in the source). Persuasion frameworks: Sant, T. (2012) *Persuasive Business Proposals*, 3rd edn, and Hatton, A. (2007) *The Definitive Business Pitch* (publishers not recorded in the source); summarised in [proposal-frameworks](proposal-frameworks.md).
+Working basis: Johnson, J. (2023) *How to Become a Social Media Manager* (Open Library lists a 2021 independently published edition; year verify). Persuasion frameworks: Sant, T. (2012) *Persuasive Business Proposals*, 3rd edn, and Hatton, A. (2007) *The Definitive Business Pitch* (publishers not recorded in the source); summarised in [proposal-frameworks](proposal-frameworks.md).
 
 ## Inputs
 

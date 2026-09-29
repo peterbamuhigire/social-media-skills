@@ -38,7 +38,7 @@ Borrowed from list testing: after a winning cell, retest at the same size; if it
 
 ## Sources
 
-- Stutts, P. (2021) *The Undefeated Marketing System*, Scribe/Lioncrest.
+- Stutts, P. (2021) *The Undefeated Marketing System*, Lioncrest.
 - Weinberg, G. and Mares, J. (2014) *Traction*, S-curves Publishing.
 - Croll, A. and Yoskovitz, B. (2013) *Lean Analytics*, O'Reilly.
 - Stockwell, J. and Shaw, H.M. (1994) *Direct Marketing Checklists*, NTC Business Books.

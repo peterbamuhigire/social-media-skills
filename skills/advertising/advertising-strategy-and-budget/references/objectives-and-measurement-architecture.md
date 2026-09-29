@@ -14,7 +14,7 @@ Include only what bears on this decision (not a term paper).
 | Communication | Channel and technology trends affecting reach | Current source register records, client data |
 | Internal: operations, finance, personnel | Can we deliver, fund and staff the plan? | Owner interviews |
 
-Framework adapted from Kelley and Sheehan (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge.
+Framework adapted from Kelley and Sheehan (2021) *Advertising Management in a Digital Environment*, Routledge.
 
 ## 2. Objective types and matching metrics
 

@@ -62,7 +62,7 @@ Rules:
 
 ### 2. Track three core service metrics
 
-Source: Macarthy (2023) *500 Social Media Marketing Tips*. Track monthly for every active channel:
+Source: Macarthy (2022) *500 Social Media Marketing Tips*, 6th edn. Track monthly for every active channel:
 
 1. **Queries by channel (volume tracker).** Count incoming messages and comments by platform and by query type (triage below). Shows where volume is highest and where to focus training or automation.
 2. **Speed of first reply.** Average time from message received to first response sent. Some platforms display a public responsiveness badge; the source cites Facebook's "Very responsive" badge as 90%+ of messages answered within 15 minutes, reachable with an auto-reply (verify the current badge rule before stating; no register record).

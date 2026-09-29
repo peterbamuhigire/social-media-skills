@@ -19,7 +19,7 @@ Read this when writing or testing a positioning statement, drawing a perceptual 
 
 - The frame of reference is what the buyer compares you with, not what you call yourself.
 - The reason to believe must be a checkable fact: a certification, a process, a named partnership, a published result with source and date. An adjective is not proof.
-- One label per brand. The mind files a brand under one idea; a statement that tries to say everything is remembered for nothing (Kelley & Sheehan, c. 2021–22).
+- One label per brand. The mind files a brand under one idea; a statement that tries to say everything is remembered for nothing (Kelley & Sheehan, 2021).
 
 ## 3. Tests before approval
 
@@ -89,7 +89,7 @@ Offensive options (Wheelen & Hunger): frontal (needs superior resources), flanki
 
 ## Sources
 
-- Kelley, L. D. and Sheehan, K. B. (c. 2021–22) *Advertising Management in a Digital Environment: Text and Cases*, Routledge.
+- Kelley, L. D. and Sheehan, K. B. (2021) *Advertising Management in a Digital Environment: Text and Cases*, Routledge.
 - Landa, R. (2022) *Strategic Creativity*, Routledge.
 - Stockwell, J. and Shaw, H. M. (1994) *Direct Marketing Checklists*, NTC Business Books.
 - Abrams, R. *The Successful Business Plan* (Five F's message framework).

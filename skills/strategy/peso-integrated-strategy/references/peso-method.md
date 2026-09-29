@@ -191,7 +191,7 @@ Read the following skills for related frameworks before generating deliverables 
 - [`meta-roi-framework`](../../../meta-analytics-ops/meta-roi-framework/SKILL.md) — ROI measurement and reporting; use to build the KPI framework and budget justification that accompany this strategy
 - [`07-email-marketing-strategy`](../../../pipeline/07-email-marketing-strategy/SKILL.md) — email marketing programme design; use when developing the Owned pillar email component in detail
 
-**Primary citation:** Dietrich, G. (2020) *Spin Sucks: PR in the Digital Age*. Que Publishing.
+**Primary citation:** Dietrich, G. (2020) *Spin Sucks: PR in the Digital Age*. Que Publishing (year and subtitle verify: Open Library lists only a 2013–14 Que/Pearson edition, 29 Sep 2026).
 
 **Supporting references:**
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.

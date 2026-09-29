@@ -216,6 +216,6 @@ Output meets the standard if all of the following are true:
 ## Sources
 
 - Schaffer, N. (2013) *Maximize Your Social*. Wiley.
-- Sobia Publication (2022) *Powerful Social Media Marketing for Beginners*. Sobia Publication.
+- Sobia Publication (2022) *Powerful Social Media Marketing for Beginners*. Independently published.
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.

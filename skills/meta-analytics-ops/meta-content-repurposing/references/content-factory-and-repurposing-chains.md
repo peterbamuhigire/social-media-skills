@@ -25,7 +25,7 @@ This is content currency: one investment, multiple returns. Clients with limited
 
 **Never post identical content cross-platform.** This is a hard rule, not a style preference (Source: adapted from ECC `crosspost` and `content-engine` skills, both of which state it as a non-negotiable). Every platform slot in the Content Factory model above is an *adaptation* of the source asset — reformatted for that platform's constraints, tone and audience behaviour — never the same copy pasted with a different header. A carousel that is the blog post's paragraphs cut into slides, or a WhatsApp broadcast that is the Facebook caption with the hashtags stripped, has not been repurposed; it has been duplicated. Treat identical cross-platform copy as a QC failure, not a shortcut.
 
-**The 1-7-30-4-2-1 Publishing Cadence (Handley, 2012):** A framework for publishing rhythm:
+**The 1-7-30-4-2-1 Publishing Cadence (Handley and Chapman, 2012):** A framework for publishing rhythm:
 - **1** flagship piece of long-form content per month (the anchor; funds everything else)
 - **7** daily social posts derived from it
 - **30** pieces of micro-content (quotes, stats, clips, stories) across the month

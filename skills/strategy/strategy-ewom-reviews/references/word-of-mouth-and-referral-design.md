@@ -243,8 +243,8 @@ A WOM programme for the client owner and delivery team that uses named inputs, a
 
 ## Sources
 
-- Funk, T. (2011) *Social Media Playbook for Business*, Praeger (publisher added at merge; verify) — five-pillar WOM framework (Talkers, Topics, Tools, Taking Part, Tracking), synthesising the Word of Mouth Marketing Association.
-- Gladwell, M. (2000) *The Tipping Point*, Little, Brown (publisher added at merge; verify) — Connector, Maven and Salesperson taxonomy.
+- Funk, T. (2011) *Social Media Playbook for Business*, Praeger (publisher confirmed, Open Library catalogue, 29 Sep 2026) — five-pillar WOM framework (Talkers, Topics, Tools, Taking Part, Tracking), synthesising the Word of Mouth Marketing Association.
+- Gladwell, M. (2000) *The Tipping Point*, Little, Brown (publisher confirmed, Open Library catalogue, 29 Sep 2026) — Connector, Maven and Salesperson taxonomy.
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. — POEM model; credibility of earned media.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley — Like-Know-Trust framework; ROI formula.
-- Kotler, P. et al. (2023) *Marketing Management*, Pearson (publisher added at merge; verify) — consumer decision-making and community trust.
+- Kotler, P., Keller, K. L. and Chernev, A. (2023) *Marketing Management*, 16th edn, Pearson (catalogues date the 16th edition 2021–22; year verify; not cited in the text above) — consumer decision-making and community trust.

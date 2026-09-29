@@ -141,7 +141,7 @@ Use the frameworks in [proposal-frameworks.md](proposal-frameworks.md) (the NOSE
 
 ## Sources
 
-- Sant, T. (2012) *Persuasive Business Proposals*, 3rd edn. AMACOM (publisher added at merge; verify). (NOSE, evidence placement, the Quality Maxim, the Fluff/Guff/Geek/Weasel Test.)
-- Hatton, A. (2007) *The Definitive Business Pitch*. FT Prentice Hall (publisher added at merge; verify). (Empathy Model.)
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley (publisher added at merge; verify). (10-4-1 rule.)
+- Sant, T. (2012) *Persuasive Business Proposals*, 3rd edn. AMACOM (publisher confirmed, Open Library catalogue, 29 Sep 2026). (NOSE, evidence placement, the Quality Maxim, the Fluff/Guff/Geek/Weasel Test.)
+- Hatton, A. (2007) *The Definitive Business Pitch*. Financial Times Management (FT Prentice Hall) (author Angela Hatton; Open Library catalogue, 29 Sep 2026). (Empathy Model.)
+- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley (publisher confirmed, S09 citation check). (10-4-1 rule.)
 - Hero/Hub/Hygiene content model: YouTube/Google creator guidance, as named in the source.

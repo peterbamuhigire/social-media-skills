@@ -107,7 +107,7 @@ Contact details, next step prompt, Q&A invitation.
 - Keep team bios in the specified format; do not pad with vague phrases ("passionate about", "dedicated to")
 
 ## Social Proof Standards
-### Social Proof Taxonomy (Bly, 2018)
+### Social Proof Taxonomy (Bly (2018) *The Digital Marketing Handbook*, also cited in the `07-email-marketing-strategy` references; verify)
 A credentials document must present all six social proof sources. Organise proof by client type and industry where possible — a financial services prospect is more convinced by financial services social proof than by a general mix across sectors.
 
 | Source | What to Include | Placement in Credentials Document |
@@ -122,7 +122,7 @@ A credentials document must present all six social proof sources. Organise proof
 When compiling the credentials document, verify that evidence exists for at least four of the six sources before finalising. Flag any source with insufficient evidence to the consultant — a credentials document with gaps is better than one with embellished or vague claims.
 
 ## Brand Asset Scorecard
-*Killian, B., in Hahn (2003)*
+*Killian, B., in Hahn, F. E. (2003) Do-It-Yourself Advertising and Promotion, 3rd edn, Wiley (contributor attribution verify)*
 
 Use this 16-criterion scorecard to assess brand health before building a credentials deck. Rate each criterion 1–10. Low scores reveal gaps the credentials should address or acknowledge.
 

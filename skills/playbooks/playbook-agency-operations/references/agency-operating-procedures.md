@@ -81,7 +81,7 @@ Include all of the following in every engagement agreement:
 - **Term length** — minimum 3 months recommended; month-to-month attracts a 15% premium
 - **Termination clause** — 30 days' written notice required from either party
 - **IP ownership** — client owns all content produced under the retainer
-- **Late payment clause** — 1.5% per month on invoices overdue beyond 30 days
+- **Late payment clause** — 1.5% per month on invoices overdue beyond 30 days (house term, not a statutory rate; set it in each contract)
 - **Revision policy** — two rounds included; additional rounds billed at the stated rate
 
 ## Section 3 — Project Management System
