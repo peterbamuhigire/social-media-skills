@@ -1,6 +1,6 @@
 # Digital Product and Experience Lenses for Marketing Briefs
 
-Read this at intake when a brief involves a new digital product, an app or portal launch, a website-led campaign, or stakeholders who disagree about what "good" looks like. It helps the strategist screen the brief, scope the engagement and hand clean requirements to `website-skills` or `design-system-skills`. It does not design or build anything. Destination-page heuristics for ads live in `advertising/ad-to-site-journey-handoff`.
+Read this at intake when a brief involves a new digital product, an app or portal launch, a website-led campaign, or stakeholders who disagree about what "good" looks like. It helps the strategist screen the brief, scope the engagement and hand clean requirements to `website-skills` or `chwezi-design-engine`. It does not design or build anything. Destination-page heuristics for ads live in `advertising/ad-to-site-journey-handoff`.
 
 ## 1. Brief-screening checklist (run before accepting the brief)
 
@@ -74,11 +74,11 @@ Also check three perspectives — how the product fits the person's life, how th
 
 ## 7. Dashboards and data presentation
 
-Charts exist to improve understanding: choose the chart for the data and the decision, avoid 3D and decorative effects, use colour for meaning, give context, and use size, colour, orientation and proximity deliberately. Visual execution routes to `design-system-skills`; dashboard specification to `meta-reporting`.
+Charts exist to improve understanding: choose the chart for the data and the decision, avoid 3D and decorative effects, use colour for meaning, give context, and use size, colour, orientation and proximity deliberately. Visual execution routes to `chwezi-design-engine`; dashboard specification to `meta-reporting`.
 
 ## 8. Handoff
 
-Record the scope level, the lens tensions, the outcome requirements and the validation plan in the brief. Implementation belongs to `website-skills`; visual design to `design-system-skills`; the ad-to-page journey contract to `advertising/ad-to-site-journey-handoff`.
+Record the scope level, the lens tensions, the outcome requirements and the validation plan in the brief. Implementation belongs to `website-skills`; visual design to `chwezi-design-engine`; the ad-to-page journey contract to `advertising/ad-to-site-journey-handoff`.
 
 ## Source note
 

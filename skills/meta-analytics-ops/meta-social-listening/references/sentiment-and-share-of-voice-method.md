@@ -179,7 +179,7 @@ Each action needs a named owner (consultant, client or operations) and a deadlin
 
 ## Template — monthly sentiment report
 
-Produce monthly. Deliver it with the written monthly report from [meta-reporting](../../meta-reporting/SKILL.md), or include it in the evidence handoff to the design engine (design-system-skills) when a presentation is commissioned. Do not claim a local deck route, and do not produce it as a standalone document unless the client has asked for a dedicated sentiment briefing.
+Produce monthly. Deliver it with the written monthly report from [meta-reporting](../../meta-reporting/SKILL.md), or include it in the evidence handoff to the design engine (chwezi-design-engine) when a presentation is commissioned. Do not claim a local deck route, and do not produce it as a standalone document unless the client has asked for a dedicated sentiment briefing.
 
 ```
 MONTHLY SENTIMENT REPORT — [Client Name] — [Month, Year]

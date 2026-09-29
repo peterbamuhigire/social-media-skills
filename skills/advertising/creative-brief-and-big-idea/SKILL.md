@@ -25,7 +25,7 @@ Turn a business problem into a single-minded strategic brief, a tested insight a
 
 - `13-campaign-brief` for the production-ready brief with deliverables, dimensions, owners and dates.
 - `ad-copy-and-hook-lab` for headlines, hooks and offer wording on a known concept.
-- `09-campaign-strategy` for the overall campaign plan and channel mix; visual execution goes to design-system-skills.
+- `09-campaign-strategy` for the overall campaign plan and channel mix; visual execution goes to chwezi-design-engine.
 - Stop when nobody can supply evidence of the audience or business problem; return the discovery questions instead of a brief.
 
 ## Required Inputs
@@ -46,7 +46,7 @@ Turn a business problem into a single-minded strategic brief, a tested insight a
 4. Run the five-stage ideation process with scheduled incubation; produce at least three substantially different ideas, not variations.
 5. Write an idea card per concept, including the Lodestar line, press-release test and three channel sketches ([concept screen and critique](references/concept-screen-and-critique.md)).
 6. Screen internally: effectiveness scale, idea-quality grid, acceptance questions and responsible-creative interrogation. Kill anything scoring 1–4; send 5 back for a sharper hook; advance 6–7.
-7. Decide campaign structure and copy–image construction ([campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md)); hand visual execution to `design-system-skills`.
+7. Decide campaign structure and copy–image construction ([campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md)); hand visual execution to `chwezi-design-engine`.
 8. Plan the test pack: message test before execution test; brand-linkage check.
 9. Run the review with the critique protocol; record decisions, likely negative reactions and sign-off. If the review drifts to taste or changes the brief, stop and return to the brief; rerun the affected steps.
 

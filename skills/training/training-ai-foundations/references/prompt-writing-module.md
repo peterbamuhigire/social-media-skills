@@ -12,7 +12,7 @@ The parent [SKILL.md](../SKILL.md) delivers AI Foundations: literacy, safe use a
 
 Deliver it after AI Foundations. If learners lack a shared AI mental model, teach the parent's foundations modules first; prompt recipes without that grounding create confidence without judgement.
 
-The output is a complete, facilitator-ready training guide in four modules, not a slide deck. This repository has no active standalone slide-deck route; if slides are commissioned, hand the approved content to [design-system-skills](https://github.com/peterbamuhigire/design-system-skills).
+The output is a complete, facilitator-ready training guide in four modules, not a slide deck. This repository has no active standalone slide-deck route; if slides are commissioned, hand the approved content to [chwezi-design-engine](https://github.com/peterbamuhigire/chwezi-design-engine).
 
 ## Inputs
 

@@ -96,7 +96,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 
 ## How to Use This Skill
 
-Collect the Required Input below. Then generate the full training guide across four modules, substituting all bracketed placeholders with the client's specific details. Output is a complete, facilitator-ready training document, not a slide deck. This repository has no active standalone slide-deck route; if slides are commissioned, hand the approved content to `design-system-skills`.
+Collect the Required Input below. Then generate the full training guide across four modules, substituting all bracketed placeholders with the client's specific details. Output is a complete, facilitator-ready training document, not a slide deck. This repository has no active standalone slide-deck route; if slides are commissioned, hand the approved content to `chwezi-design-engine`.
 
 ---
 

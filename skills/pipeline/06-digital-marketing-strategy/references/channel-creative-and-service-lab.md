@@ -15,7 +15,7 @@ account before using current formats, ad products, music, messaging or commerce.
    concept needs a proposition, proof mechanism, opening, demonstration, ending
    and next step. State what the audience should understand after viewing.
 3. Specify shots, sound, captions, on-screen text, brand details, rights and
-   accessibility. Route art direction and rendered review to design-system-skills.
+   accessibility. Route art direction and rendered review to chwezi-design-engine.
 4. Produce a representative unit, inspect it on the intended device/surface, and
    revise comprehension, factual accuracy, pacing and visual finish before scale.
 5. Test a meaningful variable with a stated audience and observation window.

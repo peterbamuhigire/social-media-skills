@@ -46,7 +46,7 @@ Useful question starters: "What is the biggest mistake [audience] makes with [to
 - [ ] A dynamic USB microphone in ordinary rooms (it rejects more room noise than a condenser).
 - [ ] Soft light in front of the speaker; no bright window behind.
 - [ ] Curtains, rugs or cushions to cut echo.
-- [ ] A tidy or branded background (visual rules via `design-system-skills`).
+- [ ] A tidy or branded background (visual rules via `chwezi-design-engine`).
 - [ ] A short test recording before any important call.
 
 Fix audio first: published research found listeners judged the same content and speaker less favourably when sound quality was poor (Newman and Schwarz, 2018, *Science Communication*). Use this as a reason to prioritise audio, not as a performance figure.

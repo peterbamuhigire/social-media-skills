@@ -45,7 +45,7 @@ Decision rules: if two rivals already own the client's intended claim, choose an
 
 ## 5. Quick capability grid
 
-When a slide or proposal needs one visual, put capabilities in rows and the client plus its main and secondary rivals in columns, marking present / partial / absent. Visual layout routes to `design-system-skills`.
+When a slide or proposal needs one visual, put capabilities in rows and the client plus its main and secondary rivals in columns, marking present / partial / absent. Visual layout routes to `chwezi-design-engine`.
 
 ## 6. Ethics
 

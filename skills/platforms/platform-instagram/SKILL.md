@@ -43,7 +43,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
 | Follower growth or reach has stalled, or a growth plan is requested | Place the account on the phase ladder, diagnose the plateau and run one-lever experiments with [growth diagnosis](references/growth-diagnosis-and-experiments.md) | Adding volume into a suppressed or mis-targeted account |
-| The client needs a feed grid or visual standards brief | Write the planning brief with [grid and visual system](references/grid-and-visual-system.md); route visual execution to design-system-skills | Unbriefed creators or consultant-made visual assets |
+| The client needs a feed grid or visual standards brief | Write the planning brief with [grid and visual system](references/grid-and-visual-system.md); route visual execution to chwezi-design-engine | Unbriefed creators or consultant-made visual assets |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -91,7 +91,7 @@ and destination for buyer comprehension. Verify current searchable fields,
 profile limits, link options and account features; do not claim only two fields
 are indexed or that a profile change guarantees discovery.
 
-Route visual decisions through design-system-skills and brief them with
+Route visual decisions through chwezi-design-engine and brief them with
 [the grid and visual system reference](references/grid-and-visual-system.md) when needed. Use intentional art
 direction, readable type, truthful product detail and an identifiable voice.
 Do not impose a rigid alternating grid, one filter or a luxury colour formula.

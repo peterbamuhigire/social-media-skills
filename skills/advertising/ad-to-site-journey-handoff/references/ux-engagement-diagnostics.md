@@ -1,6 +1,6 @@
 # UX Engagement Diagnostics for Advertising Destinations
 
-**When to read:** when an advertising plan depends on a website, app or portal whose user experience the client has not yet funded or scoped, and you must brief the client (and the receiving website-skills or design-system-skills team) on what kind of UX work, team and evidence the destination needs. This file is diagnostic and briefing material. It does not design screens; finished UX and UI work routes to `website-skills` and `design-system-skills` through the [journey handoff](../SKILL.md).
+**When to read:** when an advertising plan depends on a website, app or portal whose user experience the client has not yet funded or scoped, and you must brief the client (and the receiving website-skills or chwezi-design-engine team) on what kind of UX work, team and evidence the destination needs. This file is diagnostic and briefing material. It does not design screens; finished UX and UI work routes to `website-skills` and `chwezi-design-engine` through the [journey handoff](../SKILL.md).
 
 Sources (ideas synthesised; order, grouping and examples are the engine's own): Branson, S. (2020) *UX/UI Design: Introduction Guide to Intuitive Design and User-Friendly Experience*; Deacon, P. B. (2020) *UX and UI Design Strategy*; Fekeshazi, Z. (c. 2017) *Product Managers' Guide to UX Design*, UX Studio; Synechron (2018) *Bridge the User Experience Gap in Enterprise Applications for Financial Services & Insurance*; Levy, J. (2015) *UX Strategy*, O'Reilly. Statistics quoted in these sources (for example UX return-on-investment multiples) are not used; any business case must rest on the client's own baseline.
 
@@ -79,7 +79,7 @@ Research users and stakeholders → define needs → ideate → prototype → te
 
 ## 8. Dashboards and data visualisation shown to clients
 
-When a destination or client report includes charts: choose the chart for the data and the decision, not decoration; avoid 3D widgets, heavy shadows and gradients; use colour to highlight meaning; give context for every number; use pre-attentive attributes (size, colour difference, orientation, proximity, similarity, connection) deliberately. Route visual production to `design-system-skills`; route dashboard content to [meta-reporting](../../../meta-analytics-ops/meta-reporting/references/dashboard-specification.md).
+When a destination or client report includes charts: choose the chart for the data and the decision, not decoration; avoid 3D widgets, heavy shadows and gradients; use colour to highlight meaning; give context for every number; use pre-attentive attributes (size, colour difference, orientation, proximity, similarity, connection) deliberately. Route visual production to `chwezi-design-engine`; route dashboard content to [meta-reporting](../../../meta-analytics-ops/meta-reporting/references/dashboard-specification.md).
 
 ## 9. Internal portals and intranets
 

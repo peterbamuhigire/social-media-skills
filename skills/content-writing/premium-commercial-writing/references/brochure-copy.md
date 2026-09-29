@@ -98,7 +98,7 @@ Write the full copy first, then brief the designer. Include these content-level 
 - the call to action must be visually distinct: boxed, coloured or enlarged;
 - separate editorial decisions from design decisions: write the full copy first, then brief the designer.
 
-Typeface choice, type scale and layout belong to the design engine ([design-system-skills](https://github.com/peterbamuhigire/design-system-skills)); these notes are the copywriter's constraints, not the design decision.
+Typeface choice, type scale and layout belong to the design engine ([chwezi-design-engine](https://github.com/peterbamuhigire/chwezi-design-engine)); these notes are the copywriter's constraints, not the design decision.
 
 ## Anti-patterns: the biggest brochure mistakes
 

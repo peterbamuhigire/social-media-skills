@@ -215,7 +215,7 @@ The sections below were moved verbatim from the former `CLAUDE.md` when it becam
 
 This repository is the Chwezi **digital marketing and advertising** consultancy engine (the repository keeps its historical name, `social-media-skills`). Skills produce every document in the consultancy lifecycle — credentials, proposals, marketing and advertising strategies, media plans, budgets, creative briefs and concepts, ad copy, campaign build specifications, content plans, platform and paid-media playbooks, testing and scaling plans, measurement and attribution frameworks, reports and training guides — and the agency's own operating system (prospecting, pricing, retention and key-account management).
 
-**Scope boundary.** The engine plans, specifies, writes, audits and reports. It covers advertising strategy, media planning, budgeting, creative briefs and concepts, ad copy, campaign build specifications, testing and scaling logic, optimisation recommendations and reporting across paid search, paid social, display/video, audio, outdoor and direct response. **Spending money, changing live ad accounts, publishing or contacting people still requires explicit, action-specific client authority.** Finished visual execution hands off to `design-system-skills`; website implementation hands off to `website-skills` through the channel-to-site journey handoff (`skills/advertising/ad-to-site-journey-handoff/`); formal tenders to `proposal-skills`; business and full marketing plan documents to `business-plan-skills`; tax, accounting and financial statements to `chwezi-accounting-doctrine`; current facts to `digital-research-engine`. Skills generate text documents, structured plans, specifications and slide outlines — not code, builds or finished designs.
+**Scope boundary.** The engine plans, specifies, writes, audits and reports. It covers advertising strategy, media planning, budgeting, creative briefs and concepts, ad copy, campaign build specifications, testing and scaling logic, optimisation recommendations and reporting across paid search, paid social, display/video, audio, outdoor and direct response. **Spending money, changing live ad accounts, publishing or contacting people still requires explicit, action-specific client authority.** Finished visual execution hands off to `chwezi-design-engine`; website implementation hands off to `website-skills` through the channel-to-site journey handoff (`skills/advertising/ad-to-site-journey-handoff/`); formal tenders to `proposal-skills`; business and full marketing plan documents to `business-plan-skills`; tax, accounting and financial statements to `chwezi-accounting-doctrine`; current facts to `digital-research-engine`. Skills generate text documents, structured plans, specifications and slide outlines — not code, builds or finished designs.
 
 ### Active Roadmap
 
@@ -245,7 +245,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | `10-` through `13-` | Planning | 10-content-pillars, 11-content-calendar |
 | `platform-` | Platform-specific plans | platform-facebook, platform-linkedin |
 | `playbook-` | Execution playbooks | playbook-crisis-communications |
-| Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `design-system-skills` | No standalone deck route is active |
+| Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `chwezi-design-engine` | No standalone deck route is active |
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
 | `advertising/` skills (plain names) | Advertising strategy, media, creative, copy, search, testing, attribution | advertising-strategy-and-budget, media-planning, ad-copy-and-hook-lab |
 | `training-` | Training guides | training-client-team (absorbed `training-diy-content`), training-ai-foundations |
@@ -384,7 +384,7 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 
 ### Out of Scope
 
-- Finished graphic design or visual asset production (route to `design-system-skills`)
+- Finished graphic design or visual asset production (route to `chwezi-design-engine`)
 - Video editing or video production
 - Executing spend, changing live ad accounts, publishing or contacting people without explicit client authority (planning, specification, optimisation recommendations and reporting ARE in scope)
 - Web design or web development (route to `website-skills` via the journey handoff)
@@ -401,25 +401,25 @@ When improving this repository, prioritise in this order:
 5. AI governance and augmentation
 6. Commercial packaging and operating system depth
 
-<!-- design-system-skills:trigger v3 -->
+<!-- chwezi-design-engine:trigger v4 -->
 ### Design / typography / UI/UX (cross-cutting — consult IN ADDITION)
 
 Any work touching how an artifact LOOKS — font/typeface choice, type scale, colour, layout/grid,
 visual identity, web/desktop/mobile UI screens, or the visual formatting of a DOCX/PPTX/PDF/XLSX
-— routes to the **`design-system-skills`** engine, the single home for ALL design/UI/UX skills
+— routes to the **`chwezi-design-engine`** engine, the single home for ALL design/UI/UX skills
 and the anti-AI-slop doctrine.
 
 **Resolve its location on THIS device from the active runner's global engine-routing table or
 `AGENTS.md`** — never assume an absolute path; it varies per machine. Then read its
 `README.md` → `doctrine/design-doctrine.md` → glob `skills/**/SKILL.md` fresh and route by
 frontmatter (read SKILL.md directly, not via the Skill tool). Content and structure stay in THIS
-engine; presentation comes from design-system-skills. Hard rule: never use a banned AI-slop font
+engine; presentation comes from chwezi-design-engine. Hard rule: never use a banned AI-slop font
 as primary type — hard ban: Inter, Geist, Roboto, Open Sans, Lato, Arial, Fraunces, IBM Plex (all
 faces); secondary ban: Space Grotesk, Instrument Serif, Instrument Sans, Poppins, Montserrat, Nunito, Nunito Sans, Newsreader, Cormorant (all cuts), Crimson Pro, Plus Jakarta Sans, DM Sans, Outfit, Playfair Display, Lora, Space Mono;
 Roboto Mono and IBM Plex Mono are banned as monospace choices; Source Sans 3 only as a paired
 body face; no bare system stacks alone. State the chosen typeface and reason before producing
 any artifact.
-<!-- /design-system-skills:trigger -->
+<!-- /chwezi-design-engine:trigger -->
 
 ## Human-English editorial standard (2026-08 Kaizen)
 

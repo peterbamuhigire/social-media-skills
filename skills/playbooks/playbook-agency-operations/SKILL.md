@@ -259,7 +259,7 @@ Apply this checklist to every piece of content before sending to the client for 
 
 ## Section 6 — Client Reporting Rhythm
 
-Maintain a consistent reporting cadence for every active client. Use the `meta-reporting` skill for monthly and quarterly report content; route approved evidence to `design-system-skills` if presentation design is required.
+Maintain a consistent reporting cadence for every active client. Use the `meta-reporting` skill for monthly and quarterly report content; route approved evidence to `chwezi-design-engine` if presentation design is required.
 
 | Report | Frequency | Delivered By | Format |
 |---|---|---|---|

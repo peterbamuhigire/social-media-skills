@@ -9,7 +9,7 @@ metadata:
 ---
 # Monthly Social Media Performance Report (Written Document)
 
-> **Note:** This skill produces the written monthly report. This repository has no active standalone deck skill. If a presentation is required, hand the verified measurement proof pack to `design-system-skills`; do not claim that this engine produced a deck.
+> **Note:** This skill produces the written monthly report. This repository has no active standalone deck skill. If a presentation is required, hand the verified measurement proof pack to `chwezi-design-engine`; do not claim that this engine produced a deck.
 
 ---
 

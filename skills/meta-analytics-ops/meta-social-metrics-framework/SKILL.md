@@ -277,7 +277,7 @@ Include:
 - Year-on-year comparison on primary metrics
 - Budget vs results — planned spend vs actual spend vs outcomes
 
-Cross-reference `meta-roi-framework` for the full ROI calculation methodology. For a board presentation, hand the verified metrics to `design-system-skills`; no quarterly deck route is active here.
+Cross-reference `meta-roi-framework` for the full ROI calculation methodology. For a board presentation, hand the verified metrics to `chwezi-design-engine`; no quarterly deck route is active here.
 
 ---
 
@@ -369,4 +369,4 @@ Include these benchmarks as a standing reference table in monthly and quarterly 
 - `meta-roi-framework` — full ROI calculation, TLV and COCA definitions
 - `meta-social-listening` — NSS methodology and sentiment tracking tools (sentiment and share-of-voice reference)
 - `meta-social-listening` — tools for tracking SOV and mentions in East Africa
-- `design-system-skills` — presentation design after the metrics and evidence are approved
+- `chwezi-design-engine` — presentation design after the metrics and evidence are approved

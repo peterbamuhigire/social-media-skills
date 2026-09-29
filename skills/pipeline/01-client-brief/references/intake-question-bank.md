@@ -11,7 +11,7 @@ Read this reference at the very start of a new client engagement, before the ful
 
 Once the blocking answers are confirmed, the brief is finalised in the SKILL.md's twelve-section structure and the engagement moves on. No prior client data is needed to start: this reference generates the intake questions first, then works from the answers captured in Phase 1 and Phase 2. Apply the `east-african-english` skill for tone in every output.
 
-For dependency mapping and shared understanding, the canonical method is the SRS engine's `decision-frontier-elicitation` reference (https://github.com/peterbamuhigire/srs-skills); this reference supplies only the social-strategy decision fields.
+For dependency mapping and shared understanding, the canonical method is the SRS engine's `decision-frontier-elicitation` reference (https://github.com/peterbamuhigire/chwezi-sdlc-documentation); this reference supplies only the social-strategy decision fields.
 
 ## Inputs
 

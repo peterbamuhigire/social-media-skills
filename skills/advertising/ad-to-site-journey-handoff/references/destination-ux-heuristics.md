@@ -1,6 +1,6 @@
 # Destination UX heuristics
 
-When to read: when briefing or auditing any page, form or app screen that receives campaign traffic. These are the engine's review heuristics for marketers, synthesised from several UX sources (listed at the end); implementation and visual design belong to website-skills and design-system-skills. Run the sections in order: first view, memory load, controls, placement, usability, scope, funnel, outcomes, review, trust, journey.
+When to read: when briefing or auditing any page, form or app screen that receives campaign traffic. These are the engine's review heuristics for marketers, synthesised from several UX sources (listed at the end); implementation and visual design belong to website-skills and chwezi-design-engine. Run the sections in order: first view, memory load, controls, placement, usability, scope, funnel, outcomes, review, trust, journey.
 
 ## 1. The first view decides whether the rest is read
 

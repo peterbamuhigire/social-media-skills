@@ -35,7 +35,7 @@ Platform event names differ by tool (for example Meta standard events such as Le
 | Task | Responsible | Accountable | Consulted | Informed |
 |---|---|---|---|---|
 | Landing-page brief and copy | Agency strategist/copywriter | Agency account lead | Client marketing | Web team |
-| Visual design | Designer (design-system-skills) | Agency creative lead | Client brand owner | Web team |
+| Visual design | Designer (chwezi-design-engine) | Agency creative lead | Client brand owner | Web team |
 | Page build | Website team (website-skills) | Client web owner | Agency | Client marketing |
 | Tags and events | Developer / tag owner | Client web owner | Agency analyst | Agency account lead |
 | Consent tool | Developer | Client data-protection owner | Legal | Agency |

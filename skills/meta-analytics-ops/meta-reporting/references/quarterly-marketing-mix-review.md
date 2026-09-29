@@ -4,7 +4,7 @@ Merged from skills/meta-analytics-ops/meta-social-marketing-mix-review on 2026-0
 
 ## When to use this reference
 
-Read this reference at a quarterly decision point, when the client needs a diagnosis of social media's contribution across the 7 Ps marketing mix rather than a monthly performance report. Uses: a quarterly review meeting, a new-account baseline, or a cause-of-decline investigation. The framework is the 7 Ps as applied to social media by Dallas (2022). The output is a scored one-page summary. If the client wants the strategy itself rewritten, route to [`05-social-media-strategy`](../../../pipeline/05-social-media-strategy/SKILL.md) and hand over the verified evidence. Route any presentation design to the design engine (https://github.com/peterbamuhigire/design-system-skills) after the evidence is approved.
+Read this reference at a quarterly decision point, when the client needs a diagnosis of social media's contribution across the 7 Ps marketing mix rather than a monthly performance report. Uses: a quarterly review meeting, a new-account baseline, or a cause-of-decline investigation. The framework is the 7 Ps as applied to social media by Dallas (2022). The output is a scored one-page summary. If the client wants the strategy itself rewritten, route to [`05-social-media-strategy`](../../../pipeline/05-social-media-strategy/SKILL.md) and hand over the verified evidence. Route any presentation design to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine) after the evidence is approved.
 
 ## Inputs
 

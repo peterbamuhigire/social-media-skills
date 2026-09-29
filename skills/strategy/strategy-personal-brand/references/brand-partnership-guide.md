@@ -32,7 +32,7 @@
 | Press kit / one-sheet | The same content as a designed PDF / a single page. **No prices.** No wall of past-client logos (it can deter competitors); link a sponsored-work archive instead |
 | East African additions | Languages; dated screenshots of WhatsApp Status or Channel views; radio and TV appearances; community affiliations; verified payment identity |
 
-Layout and design of the pack route to `design-system-skills`.
+Layout and design of the pack route to `chwezi-design-engine`.
 
 ## 3. Pricing a deal
 

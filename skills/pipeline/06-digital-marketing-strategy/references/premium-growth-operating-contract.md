@@ -6,7 +6,7 @@ Parent: [Digital Marketing Strategy](../SKILL.md).
 
 McKinsey's public growth practice includes customer insight, brand, digital marketing, lifecycle, pricing, analytics and organisational capabilities ([service description](https://www.mckinsey.com/capabilities/growth-marketing-and-sales/how-we-help-clients), accessed 2026-09-22). This establishes its advertised scope, not independently verified results. The following operating contract is our synthesis and design decision; do not imply affiliation or equivalent performance.
 
-Own the integrated digital-marketing plan here: research, segmentation, positioning, offers, search, content, paid media, social, email, permissioned messaging, conversion, CRM, retention, referral and measurement. Route actual website builds to website-skills, visual production to design-system-skills, commercial proposals to proposal-skills and reconciled financial decisions to Chwezi. A strategy must identify delivery capacity for each commissioned service; a text planning engine cannot claim to have run campaigns or produced assets.
+Own the integrated digital-marketing plan here: research, segmentation, positioning, offers, search, content, paid media, social, email, permissioned messaging, conversion, CRM, retention, referral and measurement. Route actual website builds to website-skills, visual production to chwezi-design-engine, commercial proposals to proposal-skills and reconciled financial decisions to Chwezi. A strategy must identify delivery capacity for each commissioned service; a text planning engine cannot claim to have run campaigns or produced assets.
 
 ## Build the decision before the channel plan
 

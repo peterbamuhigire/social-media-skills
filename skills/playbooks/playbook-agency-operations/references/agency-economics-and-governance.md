@@ -70,7 +70,7 @@ A digital asset is a file the brand has rights to, that has value and is recogni
 6. Limit access to current account staff; record approvals.
 7. Deliver the structure at onboarding as a premium differentiator.
 
-Visual naming and versioning standards come from design-system-skills.
+Visual naming and versioning standards come from chwezi-design-engine.
 
 ## 10. Advertising ethics in agency operations
 

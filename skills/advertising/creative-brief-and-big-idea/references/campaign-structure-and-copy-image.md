@@ -1,6 +1,6 @@
 # Campaign structure and copy–image rules
 
-When to read: once a platform idea is chosen and the team must decide how units relate to each other and how headline and visual work together. Visual execution itself routes to `design-system-skills`.
+When to read: once a platform idea is chosen and the team must decide how units relate to each other and how headline and visual work together. Visual execution itself routes to `chwezi-design-engine`.
 
 ## 1. Triplets vs cousins
 
@@ -44,7 +44,7 @@ Additional rules from direct-response practice (Serling 2002 contributors):
 
 For radio-heavy markets, the "image" is sound design: a distinctive sonic device plays the red-thread role.
 
-## 4. Creative hand-off to design-system-skills
+## 4. Creative hand-off to chwezi-design-engine
 
 Hand over: brief, chosen platform idea, idea card, campaign structure decision, copy–image construction per unit, mandatory assets and disclosures, channel list with current format specs (see the paid-social and paid-search skills for register-checked specs), accessibility needs (captions, alt text, contrast), and approval owner. Do not specify fonts or colours here; the design engine governs type and visual identity.
 

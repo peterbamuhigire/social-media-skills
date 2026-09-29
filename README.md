@@ -194,7 +194,7 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 - Research, planning, drafting, auditing and reporting run without special permission.
 - Ad spend, live ad-account or platform changes, publishing, messaging and outreach to real people, and personal-data processing need explicit client authority; without it the engine returns a draft marked for approval.
 - Changing legal, platform or market claims must cite a current record in `docs/source-registers/source-register.json`; a stale or unavailable source makes the check `not assessed`.
-- Visual execution routes to the design engine (`design-system-skills`); website builds route to `website-skills`.
+- Visual execution routes to the design engine (`chwezi-design-engine`); website builds route to `website-skills`.
 
 ## References
 

@@ -25,7 +25,7 @@ Define the contract between a marketing campaign and the website that receives i
 
 - `playbook-post-click-strategy` when traffic goes to link-in-bio, WhatsApp chat or DMs with no web page.
 - `measurement-tracking-plan` for UTM and tagging rules across every campaign.
-- `12-website-content-plan` for a full website content plan; page build, code and design go to website-skills and design-system-skills.
+- `12-website-content-plan` for a full website content plan; page build, code and design go to website-skills and chwezi-design-engine.
 - Stop before tags go live or the page collects personal data without consent handling and client sign-off; return the go/no-go record.
 
 ## Required Inputs
@@ -128,7 +128,7 @@ If the site, analytics or owners are unavailable, return the narrowest useful qu
 | Go/no-go gate | Account lead chairs | Client approver signs | Checklist |
 | Post-launch learning loop | Analyst | Web team | Monthly funnel review and fix list |
 
-Visual design, type and layout go to `design-system-skills`; code, performance and hosting stay with website-skills. This engine does not specify fonts, colours or implementation.
+Visual design, type and layout go to `chwezi-design-engine`; code, performance and hosting stay with website-skills. This engine does not specify fonts, colours or implementation.
 
 ## Brand-slice audit (Stutts 2021)
 

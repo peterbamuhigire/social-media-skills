@@ -69,7 +69,7 @@ In Uganda and East Africa, the majority of clients access dashboards on smartpho
 - **Contrasting colours:** chart colours must be distinguishable on lower-quality Android screens in bright outdoor light (avoid light grey on white).
 - **Test before delivering:** open the dashboard on a mid-range Android smartphone before sending it to the client; do not test on an iPhone or desktop only.
 
-For typeface and colour choices beyond these minimums, hand over to the design engine (https://github.com/peterbamuhigire/design-system-skills).
+For typeface and colour choices beyond these minimums, hand over to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine).
 
 ### 3. Choose the tool
 

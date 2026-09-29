@@ -26,7 +26,7 @@ A premium campaign or destination must pass all five; one "no" holds the launch:
 | 1 | Useful | Addresses the persona's stated goal, not a vanity metric |
 | 2 | Easy | Understood at a glance; one clear CTA per asset |
 | 3 | Efficient | Scannable copy; the image carries the message before text loads |
-| 4 | Pleasing | Quality matches the brand's positioning (visual execution via `design-system-skills`) |
+| 4 | Pleasing | Quality matches the brand's positioning (visual execution via `chwezi-design-engine`) |
 | 5 | Accessible | Alt text, captions, sufficient contrast, plain language; web targets per `website-skills` (WCAG 2.2 AA is the current W3C Recommendation, register CW-05, checked 2026-09-23) |
 
 Detail: [`ux-strategy-and-product-lenses.md`](../skills/pipeline/01-client-brief/references/ux-strategy-and-product-lenses.md) §5.

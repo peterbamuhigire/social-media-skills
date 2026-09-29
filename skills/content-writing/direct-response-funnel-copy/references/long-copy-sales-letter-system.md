@@ -68,7 +68,7 @@ Use only what is true, with the reason: a dated deadline, a proven limited quant
 
 1. Rewrite for strategy (right points, right order), then for style (voice, rhythm, readability).
 2. Strip hedges and add conviction; bring in a true story and a human voice.
-3. Recheck emphasis (subheads, bold, callouts) so a skimmer gets the whole argument; route visual execution to `design-system-skills`.
+3. Recheck emphasis (subheads, bold, callouts) so a skimmer gets the whole argument; route visual execution to `chwezi-design-engine`.
 4. Compare with strong examples in the category (structure only, never wording).
 5. Read aloud; send a mock-up to yourself on the real device; leave it 24–48 hours; get opinions from people who resemble the buyer.
 6. Run the skeleton and the ethics filter as a final checklist; decide format, tracking and links.

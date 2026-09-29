@@ -67,7 +67,7 @@ to a report, training asset, or website without its own evidence.
 <!-- dual-compat-end -->
 ## Capability
 
-Read and search are required. Audits are read-only by default; edits, publishing, or external communication require explicit authority and permission. Route current facts to Digital Research and visual work to design-system-skills.
+Read and search are required. Audits are read-only by default; edits, publishing, or external communication require explicit authority and permission. Route current facts to Digital Research and visual work to chwezi-design-engine.
 
 ## Degraded Mode
 
