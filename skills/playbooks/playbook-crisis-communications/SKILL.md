@@ -1,6 +1,6 @@
 ---
 name: playbook-crisis-communications
-description: Use when something has gone wrong in public (a viral complaint, media attention, a scandal, a platform blocked at election time) and the brand must respond fast; produces severity levels, holding statements, response timelines, a one-page crisis card and post-crisis review; not for slow review repair (use `playbook-reputation-management`).
+description: Use when something has gone wrong in public (a viral complaint, media attention, a deepfake or impersonation scam, a platform blocked at election time) and the brand must respond fast; produces severity levels, holding statements, timelines, a crisis card and post-crisis review; not for slow review repair (use `playbook-reputation-management`).
 metadata:
   portable: true
   compatible_with:
@@ -15,9 +15,9 @@ Produces a client's social media crisis plan: three severity levels with quantif
 ## Use When
 - A customer's video or post is spreading fast and a reporter wants a comment: how serious is it and who responds in the first hour?
 - A damaging news story is about to air or print and a statement is needed today.
-- Write holding statements and a first-30-minute checklist before anything goes wrong.
+- Impersonation scams: a faked clip or cloned voice note of the CEO, a copycat page, or forwarded messages asking customers for money in the brand's name; warn customers, report it and correct the record.
 - Platform actions on Facebook, Instagram, WhatsApp, X and LinkedIn during an incident, and what must not be done.
-- Prepare for an internet shutdown or platform block around an election or national event.
+- Before anything goes wrong: holding statements, a first-30-minute checklist and a plan for an internet shutdown or platform block around an election or national event.
 - The storm has passed and a post-crisis review with lessons learned is due.
 
 ## Do Not Use When

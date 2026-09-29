@@ -251,7 +251,7 @@ Branded hashtags are permanent. Community hashtags are refreshed monthly. Campai
 | X / Twitter | 1–2 | 2 | Embedded in the sentence where possible |
 | WhatsApp | 0 | 0 | No hashtags in WhatsApp messages |
 
-Currency warning: Instagram said in December 2025 that it would gradually cap captions on posts and Reels at five hashtags (Social Media Today, 18 Dec 2025, reporting an Instagram @creators statement; register INSTAGRAM-HASHTAG-LIMIT-2025, partial). The primary statement is now confirmed (register INSTAGRAM-HASHTAG-LIMIT-PRIMARY, read 29 Sep 2026): set Instagram to a maximum of 5 in the client's guide. Whether the gradual rollout has reached every account is `NOT_ASSESSED`; check the client's account before release.
+Currency warning: Instagram said in December 2025 that it would gradually cap captions on posts and Reels at five hashtags (Social Media Today, 18 Dec 2025, reporting an Instagram @creators statement). The primary statement is confirmed (register INSTAGRAM-HASHTAG-LIMIT-PRIMARY, read 29 Sep 2026, which also records that report): set Instagram to a maximum of 5 in the client's guide. Whether the gradual rollout has reached every account is `NOT_ASSESSED`; check the client's account before release.
 
 **6.5 Hashtag research process** — before adding a new hashtag to the rotation:
 

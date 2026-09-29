@@ -1,6 +1,6 @@
 ---
 name: meta-testing-framework
-description: 'Use when a client wants to know whether one caption, format, audience or offer truly beats another: hypotheses, one variable at a time, sample size, significance and decision rules; produces the test plan, test register and result interpretation; not for scaling or killing live paid ads (use `ad-testing-and-scaling`).'
+description: 'Use when a client wants to know whether one caption, message version, format, audience or offer truly beats another: hypotheses, one variable at a time, sample size, significance and decision rules; produces the test plan, test register and result interpretation; not for scaling or killing live paid ads (use `ad-testing-and-scaling`).'
 metadata:
   portable: true
   compatible_with:
@@ -17,6 +17,7 @@ A structured approach to experiment design, A/B testing, and result interpretati
 - The team wants to prove what works rather than guess: which hook, format, language (Swahili or English) or offer wins.
 - A test needs a hypothesis, one changed variable such as caption style or format, guardrail metrics, a sample size and run length, and a rule for calling the winner.
 - Results from a Meta Ads Manager A/B test or an organic post comparison need reading correctly, including negative results.
+- Split a WhatsApp broadcast, SMS or email list between two versions of the message and compare replies or orders, checking the split is balanced before calling a winner.
 - A monthly testing calendar is needed that avoids holiday and school-fees periods in Uganda and East Africa.
 - Learning from finished tests must be logged and fed into the next campaign.
 

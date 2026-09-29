@@ -1,0 +1,76 @@
+# S11 standard gate block, 29 Sep 2026 (social-media-skills + chwezi-engine-agents), final run after review fixes
+
+$ python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json
+skills=112 compliant=112 failures=0 median_lines=121.0
+
+exit=0
+
+$ python -X utf8 scripts/routing_smoke_test.py --min-rank1 92 --lint-fixtures
+routing fixtures=392 passed=392 top_3_precision=1.000 threshold=1.000
+precision@1=372/392 (94.9%) registered_floor=92.0% (lexical proxy, not live routing)
+owned negatives=121 passed=121 failed=0
+fixture lint: 0 finding(s)
+exit=0
+
+$ python -X utf8 scripts/check_skill_aliases.py
+skill aliases: routes=83 findings=0 active=112 cap=120
+exit=0
+
+$ python -X utf8 -B -m pytest -q tests
+............................................................... [ 92%]
+.....                                                           [100%]
+68 passed, 18 subtests passed in 8.48s
+exit=0
+
+$ python -X utf8 -m unittest discover -s tests -p test_*.py
+----------------------------------------------------------------------
+Ran 68 tests in 7.876s
+
+OK
+exit=0
+
+$ python -X utf8 scripts/check_source_freshness.py
+source freshness: PASS (179 records within review windows; as of 2026-09-29; claim support NOT ASSESSED)
+exit=0
+
+$ python -X utf8 scripts/source_ingestion_guardrail.py
+source-ingestion-guardrail: C:\wamp64\www\social-media-skills
+findings: 0
+exit=0
+
+$ python -X utf8 scripts/measure_skill_scaffolding.py
+skills=112 raw_median=30.9% gated_median=1.4% median_lines=121.0 over_300=0
+exit=0
+
+$ git diff --check
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 scripts/render_host_files.py --check --workspace-root .. --engine ../social-media-skills
+checked 1 repositories; findings 0; not assessed 0
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 scripts/render_host_files.py --check --workspace-root C:/wamp64/www
+checked 12 repositories; findings 0; not assessed 0
+exit=0
+
+$ (chwezi-engine-agents) node scripts/generate-plugin-manifest.js --check-marketplace --workspace-root ..
+ok     windows-admin-engine-skills: windows-admin: 20 skills
+marketplace check: 23 ok, 0 drift, 0 not assessed
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 scripts/validate-runtime-skill-budget.py --collisions --ownership evals/routing/ownership.yaml
+PASS: skills=1090 cross>=0.75: 15 cross>=0.5: 155 undeclared>=0.75: 0 (lexical proxy; not live routing (see agent-skills issue #620))
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 scripts/validate-routing-baseline.py
+PASS: routing baseline ratchet (6 engines + portfolio; lexical proxy, not live routing)
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 scripts/validate-no-book-extractions.py
+PASS: book-extraction check roots=12 findings=0
+exit=0
+
+$ (chwezi-engine-agents) python -X utf8 -B -m pytest -q tests
+..................                                                       [100%]
+162 passed in 36.69s
+exit=0

@@ -19,13 +19,13 @@ The IAB framework itself says advertisers should yield to regulation wherever bi
 
 ## 2. Accountability: who answers for AI output
 
-- The ICC Advertising and Marketing Communications Code (2024) states in its responsibility section that marketers who use algorithms or other AI instruments are responsible for the communication results they produce. Its Article 5 (truthfulness) treats content altered or enhanced by AI as misleading when it misleads about a product or about a person's association with it (register `PREMIUM-ICC-2026`).
+- The ICC Advertising and Marketing Communications Code (2024) states in its responsibility section that marketers who use algorithms or other AI instruments are responsible for the communication results they produce. Its Article 5 (truthfulness) treats content altered or enhanced by AI as misleading when it misleads about a product or about a person's association with it (register `ICC-CODE-2024-TEXT`; these two sections have no recorded check against the code text: `NOT_ASSESSED` until read).
 - IAB v2 places ultimate disclosure responsibility on the advertiser and says it cannot be delegated. Where an agency creates and controls content for a client, agency and client may share that responsibility. Platforms act only as secondary enforcers (register `IAB-AI-DISCLOSURE-V2-2026`).
 - Engine rule: every AI-assisted asset has a named human reviewer who records the disclosure decision before publication. "The tool did it" is never an answer to a client, a platform or a regulator.
 
 ## 3. Risk-based disclosure decision table
 
-The test, following IAB v1 (15 Jan 2026) and v2 (18 Aug 2026): does the AI involvement create a material risk that a reasonable consumer is misled about authenticity, identity or representation? The trigger is consumer impact, not how many AI tools touched the asset (registers `IAB-AI-DISCLOSURE-2026`, `IAB-AI-DISCLOSURE-V2-2026`).
+The test, following IAB v1 (15 Jan 2026) and v2 (18 Aug 2026): does the AI involvement create a material risk that a reasonable consumer is misled about authenticity, identity or representation? The trigger is consumer impact, not how many AI tools touched the asset (register `IAB-AI-DISCLOSURE-V2-2026`, which also records the v1 landing page).
 
 | Situation | IAB v2 position | Engine default | Extra checks |
 |---|---|---|---|
@@ -88,7 +88,7 @@ Applies when the client distributes to EU audiences, runs EU-facing channels or 
 
 Not verified against primary law in this wave; use only as a prompt to ask counsel: New York's synthetic-performer disclosure law (effective 9 Jun 2026); the California AI Transparency Act (effective 2 Aug 2026, duties on large generative-AI providers rather than advertisers); China's labelling measures (1 Sep 2025); South Korea's AI Basic Act (22 Jan 2026); India's 2026 amendment to the IT Rules and draft ASCI guidance; Vietnam's AI law; Thailand's consumer-protection notification; and Taiwan's fraud-prevention rule for platforms.
 
-**Uganda, Kenya, Tanzania and Rwanda.** No AI-specific advertising labelling law was verified for any of the four: `NOT_ASSESSED`. General rules still bite: truthfulness and substantiation under the ICC Code (register `PREMIUM-ICC-2026`) and Kenya's advertising code (register `KE-ASBK-CODE-2003`), personal-data rules when a real person's image or voice is processed (register `UG-DPPA-2019` and the Kenya and Tanzania records), and election-period rules. Apply the Section 3 table as the floor and label every realistic depiction of a real person or event.
+**Uganda, Kenya, Tanzania and Rwanda.** No AI-specific advertising labelling law was verified for any of the four: `NOT_ASSESSED`. General rules still bite: truthfulness and substantiation under the ICC Code (register `ICC-CODE-2024-TEXT`) and Kenya's advertising code (register `KE-ASBK-CODE-2003`), personal-data rules when a real person's image or voice is processed (register `UG-DPPA-2019` and the Kenya and Tanzania records), and election-period rules. Apply the Section 3 table as the floor and label every realistic depiction of a real person or event.
 
 ## 9. Management-system alignment
 
@@ -130,8 +130,7 @@ For a small Ugandan or Kenyan client, do these five things now, even before a fu
 
 ## Sources
 
-- `IAB-AI-DISCLOSURE-2026` — IAB, AI Transparency and Disclosure Framework, 15 Jan 2026 (landing page; full PDF behind login).
-- `IAB-AI-DISCLOSURE-V2-2026` — IAB, AI Transparency and Disclosure Framework V2, 18 Aug 2026 (42-page PDF read in full for the sections used).
+- `IAB-AI-DISCLOSURE-V2-2026` — IAB, AI Transparency and Disclosure Framework V2, 18 Aug 2026 (42-page PDF read in full for the sections used); the v1 landing page of 15 Jan 2026 (full PDF behind login) is folded into this record.
 - `EU-AI-ACT-ART50-FAQ` — European Commission, transparency obligations under Article 50 AI Act, FAQ.
 - `META-AI-INFO-LABELS` — Meta newsroom, approach to labelling AI-generated content and manipulated media.
 - `TIKTOK-AIGC-LABELS` — TikTok Community Guidelines, integrity and authenticity (2026 H2).
@@ -139,4 +138,4 @@ For a small Ugandan or Kenyan client, do these five things now, even before a fu
 - `IPTC-DIGITAL-SOURCE-TYPE` — IPTC NewsCodes digital source type vocabulary.
 - `ISO-IEC-42001-2023` — ISO/IEC 42001:2023 (partial).
 - `NIST-AI-600-1` — NIST AI 600-1 Generative AI Profile.
-- `PREMIUM-ICC-2026`, `META-SIEP-AD-LIBRARY-2026`, `KE-ASBK-CODE-2003`, `UG-DPPA-2019` — existing register records.
+- `ICC-CODE-2024-TEXT`, `META-SIEP-AD-LIBRARY-2026`, `KE-ASBK-CODE-2003`, `UG-DPPA-2019` — existing register records.

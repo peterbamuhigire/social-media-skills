@@ -19,6 +19,7 @@ Plans organic video across TikTok, Reels, YouTube, Facebook and WhatsApp Status 
 - Sales teams want videos that answer buyer questions (the Selling 7) and on-camera tips.
 - We are considering AI avatar or personalised videos (HeyGen, Synthesia, voice cloning) for outreach or client reports, with consent and AI disclosure.
 - Should we start a podcast or audio series: format, recording equipment, hosting and the first episodes?
+- Our podcast is live and we need honest listener numbers: what counts as a download, how hosts filter bots and repeat requests, and which episode figures to report.
 
 ## Do Not Use When
 

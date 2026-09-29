@@ -30,7 +30,7 @@ The parent workbook trains staff in a two-hour workshop with a facilitator. Use 
 - **Banned vocabulary list**: words or phrases not to use in captions.
 - **Standard hashtag set**: the agreed hashtag bank from the hashtag strategy.
 
-**Currentness notes.** Platform template sizes, video durations, caption lengths, analytics metric names and menu paths, boost objectives and the UGX–USD conversion below have no register record: verify each at handover and do not state them as current platform rules. Related records: Meta ads specifications (feed 4:5, Stories and Reels 9:16, safe zones) are in register META-CREATIVE-SPECS-2026; Meta Ads Manager objectives in META-ODAX-OBJECTIVES-2026 (the boost button's own objective list is not recorded); Instagram's reported five-hashtag cap in INSTAGRAM-HASHTAG-LIMIT-2025; music rights in UG-COPYRIGHT-2026 and, for TikTok's Commercial Music Library, PREMIUM-TT-MUSIC-2026. Facebook access in Uganda follows UG-FACEBOOK-ACCESS-2026: status unstable, verify at the handover date before telling a Ugandan client to rely on Facebook.
+**Currentness notes.** Platform template sizes, video durations, caption lengths, analytics metric names and menu paths, boost objectives and the UGX–USD conversion below have no register record: verify each at handover and do not state them as current platform rules. Related records: Meta ads specifications (feed 4:5, Stories and Reels 9:16, safe zones) are in register META-CREATIVE-SPECS-2026; Meta Ads Manager objectives in META-ODAX-OBJECTIVES-2026 (the boost button's own objective list is not recorded); Instagram's five-hashtag cap in INSTAGRAM-HASHTAG-LIMIT-PRIMARY; music rights in UG-COPYRIGHT-2026 and, for TikTok's Commercial Music Library, PREMIUM-TT-MUSIC-2026. Facebook access in Uganda follows UG-FACEBOOK-ACCESS-2026: status unstable, verify at the handover date before telling a Ugandan client to rely on Facebook.
 
 **Release checklist**
 
@@ -290,7 +290,7 @@ Before submitting any caption for approval, check:
 | TikTok | 100–150 characters | Caption is secondary to the video |
 | WhatsApp broadcast | Under 150 words | Read on mobile — keep paragraphs short |
 
-Lengths are house guidance, not platform rules: verify before stating (no register record). Instagram captions are reported to be capped at five hashtags (register INSTAGRAM-HASHTAG-LIMIT-2025), so trim the standard set for Instagram.
+Lengths are house guidance, not platform rules: verify before stating (no register record). Instagram captions are capped at five hashtags (register INSTAGRAM-HASHTAG-LIMIT-PRIMARY), so trim the standard set for Instagram.
 
 ---
 

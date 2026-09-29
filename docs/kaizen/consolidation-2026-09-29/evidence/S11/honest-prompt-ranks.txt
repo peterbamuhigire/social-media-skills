@@ -1,0 +1,23 @@
+# S11 honest prompts: ranks on the S10 tree (commit 973e1af, before any S11 routing-text change) and on the S11 tree
+# Prompts (frozen before tuning):
+[
+ {"id": "s11-deepfake-whatsapp-scam", "prompt": "Scammers are forwarding a deepfake voice note of our CEO on WhatsApp telling customers to send money to a new number. What do we say and do right now?", "expected": "playbook-crisis-communications"},
+ {"id": "s11-agency-audit-rights", "prompt": "A client's new contract gives them the right to audit our agency's media invoices and any rebates we earn. How do we get our records ready?", "expected": "playbook-agency-operations"},
+ {"id": "s11-agency-expiring-certifications", "prompt": "Half our team's Meta and Google ads certificates expire next month. How do we keep track of renewals across the agency?", "expected": "playbook-agency-operations"},
+ {"id": "s11-podcast-downloads", "prompt": "We started a podcast for our brand. How do we count downloads properly and tell whether anyone actually listens?", "expected": "strategy-video-content"},
+ {"id": "s11-whatsapp-split-test", "prompt": "We want to try two versions of our WhatsApp broadcast message and see which one gets more replies before sending it to everyone.", "expected": "meta-testing-framework"}
+]
+
+## Before (S10 tree, git archive of 973e1af)
+s11-deepfake-whatsapp-scam: expected playbook-crisis-communications rank 85; top3 ['social-commerce-strategy', 'meta-social-listening', 'playbook-post-click-strategy']
+s11-agency-audit-rights: expected playbook-agency-operations rank 17; top3 ['02-platform-audit', 'biz-dev-positioning', 'ai-readiness-diagnostic']
+s11-agency-expiring-certifications: expected playbook-agency-operations rank 11; top3 ['meta-budget-planner', 'training-client-team', 'meta-reporting']
+s11-podcast-downloads: expected strategy-video-content rank 3; top3 ['direct-response-economics', 'advertising-attribution-and-measurement', 'strategy-video-content']
+s11-whatsapp-split-test: expected meta-testing-framework rank 55; top3 ['ad-testing-and-scaling', 'playbook-sms-whatsapp-marketing', 'platform-whatsapp']
+
+## After (S11 working tree)
+s11-deepfake-whatsapp-scam: expected playbook-crisis-communications rank 1; top3 ['playbook-crisis-communications', 'social-commerce-strategy', 'playbook-post-click-strategy']
+s11-agency-audit-rights: expected playbook-agency-operations rank 1; top3 ['playbook-agency-operations', '02-platform-audit', 'biz-dev-positioning']
+s11-agency-expiring-certifications: expected playbook-agency-operations rank 1; top3 ['playbook-agency-operations', 'meta-budget-planner', 'training-client-team']
+s11-podcast-downloads: expected strategy-video-content rank 1; top3 ['strategy-video-content', 'direct-response-economics', 'advertising-attribution-and-measurement']
+s11-whatsapp-split-test: expected meta-testing-framework rank 1; top3 ['meta-testing-framework', 'ad-testing-and-scaling', 'playbook-sms-whatsapp-marketing']

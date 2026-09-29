@@ -51,7 +51,7 @@ For international clients, donor organisations, or any client producing content 
 **EU AI Act obligations relevant to AI-assisted content production** (corrected 29 Sep 2026: the transparency duties are in Article 50 of Regulation (EU) 2024/1689, applying from 2 Aug 2026, per the European Commission Article 50 FAQ, register `EU-AI-ACT-ART50-FAQ`; the draft "Article 4" and "Article 28b(4)" numbering used by the original source is withdrawn):
 - **Article 50(4), deepfakes:** AI-generated or manipulated images, audio or video that resemble real people, places or events and would falsely appear authentic must be disclosed clearly at first exposure; machine-readable marking alone is not enough.
 - **Article 50(4), public-interest text:** AI-generated text published to inform the public on matters of public interest must be labelled unless it has passed human review or editorial control by a person with authority over publication.
-- **Human oversight:** keep the named-reviewer rule as the agency standard (ICC Code 2024 accountability, register `PREMIUM-ICC-2026`).
+- **Human oversight:** keep the named-reviewer rule as the agency standard (ICC Code 2024 accountability, register `ICC-CODE-2024-TEXT`).
 - Apply the risk-based disclosure table in [AI transparency and provenance](ai-transparency-and-provenance.md#3-risk-based-disclosure-decision-table) for everything else.
 
 This note applies when: the client distributes content to EU audiences; the client receives EU donor funding with content compliance requirements; or the client operates a cross-border business with EU-facing channels. For legal certainty in EU-facing contexts, obtain advice from a qualified solicitor familiar with the EU AI Act.

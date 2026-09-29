@@ -58,7 +58,7 @@ Factual reporting from the Kaizen currentness registers (2026-09-23 and 2026-09-
 7. Betting, alcohol, health, financial or child-directed content: check the sector regulator first; Tanzania bars gambling promotion online.
 8. Record source ID, access date and the check outcome in the evidence log; escalate unresolved items to counsel.
 
-**ICC Code 2024 (self-regulatory, not legislation; register `ICC-CODE-2024-TEXT`, landing page `PREMIUM-ICC-2026`).** Use it as the floor where no national rule exists (Uganda, Tanzania, Rwanda):
+**ICC Code 2024 (self-regulatory, not legislation; register `ICC-CODE-2024-TEXT`).** Use it as the floor where no national rule exists (Uganda, Tanzania, Rwanda):
 
 - Scope: "influencers" include individuals, organisations and machine-created or controlled avatars, so a virtual or AI influencer is covered; creators and brand ambassadors are covered whatever they are called, including small accounts (Definitions).
 - Art. 18.2: influencer content must be immediately identifiable as marketing; disclose the brand connection each time it is shared; disclose affiliate links; a disclosure buried in a string of hashtags, in "see more" or in terms and conditions is not sufficient; creators must not claim a sponsorship that does not exist.

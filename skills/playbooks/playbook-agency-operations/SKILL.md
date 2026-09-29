@@ -1,6 +1,6 @@
 ---
 name: playbook-agency-operations
-description: 'Use when an agency needs to run its own business: client onboarding, project and approval flow, invoicing and cash flow, team roles, quality control, growth stages, or white-label and sub-contracted delivery; produces the agency operating manual and partner terms; not for one client''s scope and renewal (use `playbook-client-retainer-management`).'
+description: 'Use when an agency needs to run its own business: onboarding, approvals, invoicing, team roles and certifications, QC, client audits of media billing, growth, or white-label and sub-contracted delivery; produces the agency operating manual and partner terms; not for one client''s scope and renewal (use `playbook-client-retainer-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -16,6 +16,7 @@ Produces the agency's own operating manual (onboarding, retainers, approvals, in
 - A new client is signing on: 30-day onboarding checklist, communication channels and the first publishing cycle.
 - The agency needs a project management system, a content approval protocol, a quality-control checklist and a reporting rhythm that work across every client.
 - Invoicing rules, cash-flow controls, margins, client-concentration limits and the tax obligations to check.
+- A client contract lets the client inspect our media bills, rebates and principal-media deals, or our staff's Google and Meta certificates are lapsing: records, disclosures and a renewal register must stand up to scrutiny.
 - Our team of two to ten people needs role definitions, delegation rules, hiring stages and a growth roadmap, including AI revenue models such as database reactivation.
 - Another agency asks for content delivered white-label under its brand, or work is being sub-contracted out: pricing, NDA, briefing standard, payment terms and exit.
 

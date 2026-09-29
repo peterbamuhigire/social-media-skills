@@ -139,7 +139,7 @@ Apply this guide every time a post is scheduled; mixing sets wrongly across plat
 
 `#[PrimaryBranded]` `#[NicheTag1]` `#[NicheTag2]` `#[CommunityTag1]` `#[LocationTag]`
 
-Instagram cap: Instagram allows at most five hashtags in a post or reel caption, announced by @creators on 18 Dec 2025 (register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`; secondary report `INSTAGRAM-HASHTAG-LIMIT-2025`). The larger tier lists in Sections 1–4 are a pool to rotate from, not a per-post count. Confirm the cap on the live app before quoting it to a client.
+Instagram cap: Instagram allows at most five hashtags in a post or reel caption, announced by @creators on 18 Dec 2025 (register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`, which also records the secondary report). The larger tier lists in Sections 1–4 are a pool to rotate from, not a per-post count. Confirm the cap on the live app before quoting it to a client.
 
 ### Section 6: Hashtags to avoid
 

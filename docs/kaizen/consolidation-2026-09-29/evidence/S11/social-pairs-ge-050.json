@@ -1,0 +1,322 @@
+[
+ {
+  "score": 0.7404,
+  "skills": [
+   "proposal-skills/hospitality-hotel-restaurant",
+   "social-media-skills/hospitality-hotel-restaurant"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.7262,
+  "skills": [
+   "chwezi-design-engine/hospitality-hotel-restaurant",
+   "social-media-skills/hospitality-hotel-restaurant"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.7223,
+  "skills": [
+   "social-media-skills/platform-whatsapp",
+   "social-media-skills/playbook-sms-whatsapp-marketing"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.7012,
+  "skills": [
+   "business-plan-skills/east-african-english",
+   "social-media-skills/east-african-english"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.685,
+  "skills": [
+   "social-media-skills/07-email-marketing-strategy",
+   "social-media-skills/email-copywriter"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.6575,
+  "skills": [
+   "chwezi-dev-engine/hospitality-hotel-restaurant-systems",
+   "social-media-skills/hospitality-hotel-restaurant"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6521,
+  "skills": [
+   "social-media-skills/biz-dev-positioning",
+   "social-media-skills/marketing-foundations-stp-positioning"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.6518,
+  "skills": [
+   "social-media-skills/paid-search-advertising",
+   "social-media-skills/playbook-paid-social-advertising"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.6486,
+  "skills": [
+   "business-plan-skills/hospitality-hotel-restaurant",
+   "social-media-skills/hospitality-hotel-restaurant"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6446,
+  "skills": [
+   "proposal-skills/east-african-english",
+   "social-media-skills/east-african-english"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6304,
+  "skills": [
+   "social-media-skills/french-native-copy",
+   "website-skills/french-native-copy"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6294,
+  "skills": [
+   "business-plan-skills/east-african-english",
+   "social-media-skills/language-standards"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6281,
+  "skills": [
+   "social-media-skills/ai-generative-search-optimisation",
+   "social-media-skills/seo-geo-optimisation"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.6197,
+  "skills": [
+   "chwezi-dev-engine/ai-prompt-engineering",
+   "social-media-skills/prompt-engineering-library"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.6144,
+  "skills": [
+   "social-media-skills/strategy-video-content",
+   "social-media-skills/training-smartphone-video-production"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5981,
+  "skills": [
+   "social-media-skills/east-african-english",
+   "social-media-skills/language-standards"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5927,
+  "skills": [
+   "social-media-skills/13-campaign-brief",
+   "social-media-skills/creative-brief-and-big-idea"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.592,
+  "skills": [
+   "business-plan-skills/language-standards",
+   "social-media-skills/language-standards"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5917,
+  "skills": [
+   "social-media-skills/advertising-strategy-and-budget",
+   "social-media-skills/meta-budget-planner"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5829,
+  "skills": [
+   "proposal-skills/language-standards",
+   "social-media-skills/language-standards"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5808,
+  "skills": [
+   "proposal-skills/east-african-english",
+   "social-media-skills/language-standards"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5753,
+  "skills": [
+   "social-media-skills/east-african-english",
+   "website-skills/east-african-english"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5681,
+  "skills": [
+   "social-media-skills/language-standards",
+   "website-skills/east-african-english"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5604,
+  "skills": [
+   "social-media-skills/swahili-native-copy",
+   "website-skills/swahili-native-copy"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5585,
+  "skills": [
+   "business-plan-skills/language-standards",
+   "social-media-skills/east-african-english"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5571,
+  "skills": [
+   "social-media-skills/playbook-social-media-policy",
+   "social-media-skills/policy-ai-content-ethics"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5549,
+  "skills": [
+   "chwezi-sdlc-documentation/hospitality-operating-model-srs",
+   "social-media-skills/hospitality-hotel-restaurant"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5537,
+  "skills": [
+   "social-media-skills/blog-writer",
+   "website-skills/blog-writer"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5496,
+  "skills": [
+   "social-media-skills/hospitality-hotel-restaurant",
+   "website-skills/hospitality-website-product"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5434,
+  "skills": [
+   "social-media-skills/05-social-media-strategy",
+   "social-media-skills/06-digital-marketing-strategy"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5353,
+  "skills": [
+   "social-media-skills/skill-writing",
+   "website-skills/skill-writing"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5321,
+  "skills": [
+   "social-media-skills/04-brand-voice-intake",
+   "social-media-skills/brand-voice-ai-training"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5283,
+  "skills": [
+   "business-plan-skills/blog-writer",
+   "social-media-skills/blog-writer"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5282,
+  "skills": [
+   "social-media-skills/biz-dev-lawful-prospecting-outreach",
+   "social-media-skills/playbook-social-selling"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5166,
+  "skills": [
+   "social-media-skills/biz-dev-credentials",
+   "social-media-skills/biz-dev-proposal"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5138,
+  "skills": [
+   "business-plan-skills/demand-forecasting",
+   "social-media-skills/demand-forecasting"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.512,
+  "skills": [
+   "social-media-skills/prompt-engineering-library",
+   "social-media-skills/training-ai-foundations"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5077,
+  "skills": [
+   "business-plan-skills/digital-marketing-strategy",
+   "social-media-skills/06-digital-marketing-strategy"
+  ],
+  "scope": "cross"
+ },
+ {
+  "score": 0.5067,
+  "skills": [
+   "social-media-skills/ad-copy-and-hook-lab",
+   "social-media-skills/caption-writer"
+  ],
+  "scope": "within"
+ },
+ {
+  "score": 0.5051,
+  "skills": [
+   "social-media-skills/training-client-team",
+   "social-media-skills/training-social-media-fundamentals"
+  ],
+  "scope": "within"
+ }
+]

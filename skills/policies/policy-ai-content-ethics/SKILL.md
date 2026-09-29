@@ -106,7 +106,7 @@ Without the client's regulatory environment or a current legal source, return th
 - The five ethical principles appear as a table cited to Ltifi (2025) and Johnsen (2024).
 - Prohibited uses name fake testimonials, deepfakes, bot engagement, fabricated beneficiary stories, filter-bubble risk and copyright/ownership uncertainty.
 - The Disclosure clause carries the Proof of Human signal and the virtual-influencer disclosure requirement.
-- Every AI-assisted asset has a recorded disclosure decision (threshold met or not, label applied or not) and marketer accountability is stated per the ICC Code 2024 (register `PREMIUM-ICC-2026`).
+- Every AI-assisted asset has a recorded disclosure decision (threshold met or not, label applied or not) and marketer accountability is stated per the ICC Code 2024 (register `ICC-CODE-2024-TEXT`).
 - The data and privacy clause bars both PII and confidential business information from cloud AI tools, names the Uganda Data Protection and Privacy Act 2019 and cites the Samsung incident (Venkatesan and Lecinski, 2026).
 - Human review is stated in both the policy and the per-piece checklist; AI output is never published without human approval.
 - Sector guidance covers at least health and finance with specific, actionable instructions, plus every other sector relevant to the client.

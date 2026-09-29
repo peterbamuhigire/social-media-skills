@@ -82,7 +82,7 @@ Module timing (totals 150 minutes):
 
 ## Currentness notes
 
-- Instagram hashtag counts: the worked examples ask for 2–3 hashtags, within Instagram's reported five-hashtag cap on posts and Reels (register INSTAGRAM-HASHTAG-LIMIT-2025, partial support).
+- Instagram hashtag counts: the worked examples ask for 2–3 hashtags, within Instagram's five-hashtag cap on posts and Reels (register INSTAGRAM-HASHTAG-LIMIT-PRIMARY; rollout to every account NOT_ASSESSED).
 - Character guidance in the moved modules (captions under 150 characters, SMS under 160, subject lines under 50) is house practice, not platform rule: verify before stating as a platform limit (no register record).
 - Model and tool behaviour (ChatGPT, Gemini, Claude) changes often: verify before stating features, tiers or versions as current (no register record).
 

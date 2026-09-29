@@ -98,7 +98,7 @@ Where AI generated only supporting or draft elements and the final published wor
 
 ### Human oversight (agency standard)
 
-Whatever the law requires, the agency keeps a named human reviewer with the authority to reject or override AI output for every content deliverable. This is an agency standard and an ICC Code 2024 accountability expectation (register `PREMIUM-ICC-2026`), not a claim about a specific AI Act article.
+Whatever the law requires, the agency keeps a named human reviewer with the authority to reject or override AI output for every content deliverable. This is an agency standard and an ICC Code 2024 accountability expectation (register `ICC-CODE-2024-TEXT`), not a claim about a specific AI Act article.
 
 ## Part 4 — Provenance tracking and watermarking
 

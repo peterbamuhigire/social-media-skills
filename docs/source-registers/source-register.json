@@ -683,26 +683,6 @@
       "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
     },
     {
-      "id": "PREMIUM-ICC-2026",
-      "domain": "legal",
-      "jurisdiction": "International self-regulatory guidance; not legislation",
-      "title": "ICC Advertising and Marketing Communications Code",
-      "publisher": "iccwbo.org",
-      "tier": 1,
-      "url": "https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/",
-      "verified_on": "2026-09-22",
-      "review_every_days": 30,
-      "next_review": "2026-10-22",
-      "use_for": [
-        "2024 update; How does self-regulation work"
-      ],
-      "as_of": "2026-09-22",
-      "freshness_class": "context-bound",
-      "support_status": "verified",
-      "uncertainty": "Not legislation or universal legal certification.",
-      "verification_note": "root source-content inspection; narrow content check, not account or outcome certification."
-    },
-    {
       "id": "PREMIUM-TT-MUSIC-2026",
       "domain": "platform",
       "jurisdiction": "Exact public source and stated claim",
@@ -1875,28 +1855,6 @@
       "support_status": "partial",
       "uncertainty": "Secondary law-firm report; the PDPO decision text was not read. Not legal advice.",
       "verification_note": "Read live 2026-09-29 (benchmark E15): entities handling personal data of Ugandan citizens must register (reported fee UGX 100,000); no advance approval per transfer, but records of the legal basis, safeguards and justification for cross-border transfers must be kept for inspection; a lawful transfer needs consent or an equivalent-protection destination."
-    },
-    {
-      "id": "INSTAGRAM-HASHTAG-LIMIT-2025",
-      "domain": "platform",
-      "jurisdiction": "Global; Instagram",
-      "title": "Instagram implements new limits on hashtag use",
-      "publisher": "Social Media Today (secondary report of an Instagram @creators statement on Threads)",
-      "tier": 3,
-      "url": "https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/",
-      "verified_on": "2026-09-29",
-      "review_every_days": 91,
-      "next_review": "2026-12-29",
-      "use_for": [
-        "Instagram hashtag counts in captions and style guides"
-      ],
-      "publication_date": "2025-12-18",
-      "accessed_on": "2026-09-29",
-      "scope": "Hashtag cap on Instagram posts and Reels",
-      "freshness_class": "time-sensitive",
-      "support_status": "partial",
-      "uncertainty": "Secondary report; the Instagram statement itself and the completion of the gradual rollout were not read. Caption-writer and hashtag references written before this record still cite 5-10 tags (S08/S10 follow-up).",
-      "verification_note": "Read live 2026-09-29: Instagram said it will gradually limit captions on posts and Reels to five hashtags (reported 18 Dec 2025), after about a year of testing."
     },
     {
       "id": "IPA-LONG-SHORT-2013",
@@ -3231,29 +3189,6 @@
       "verification_note": "Read live 2026-09-29: licensing by Bank of Uganda for payment service providers, electronic money issuers and payment system operators; non-bank e-money matched by a trust account; links to the Data Protection and Privacy Act 2019; dormant-account rules."
     },
     {
-      "id": "IAB-AI-DISCLOSURE-2026",
-      "domain": "market",
-      "jurisdiction": "Global (US-led industry self-regulation)",
-      "title": "AI Transparency and Disclosure Framework",
-      "publisher": "IAB (Interactive Advertising Bureau)",
-      "tier": 1,
-      "url": "https://www.iab.com/guidelines/ai-transparency-and-disclosure-framework/",
-      "verified_on": "2026-09-29",
-      "review_every_days": 181,
-      "next_review": "2027-03-29",
-      "use_for": [
-        "risk-based AI disclosure principle",
-        "history of the IAB framework before v2"
-      ],
-      "publication_date": "2026-01-15",
-      "accessed_on": "2026-09-29",
-      "scope": "Advertising and marketing communications; voluntary industry framework; operational detail superseded by v2 (18 Aug 2026)",
-      "freshness_class": "context-bound",
-      "support_status": "partial",
-      "uncertainty": "Landing page only; the full v1 PDF sits behind an IAB login and was not read. Use v2 for operational thresholds.",
-      "verification_note": "Read live 2026-09-29: landing page dated 15 Jan 2026 states disclosure is required only when AI materially affects authenticity, identity or representation in ways that could mislead consumers; routine production, background tools and clearly stylised content do not need disclosure; \"targeted disclosure, not universal labeling\"."
-    },
-    {
       "id": "IAB-AI-DISCLOSURE-V2-2026",
       "domain": "market",
       "jurisdiction": "Global (US-led industry self-regulation)",
@@ -3269,7 +3204,8 @@
         "label methods and placement",
         "C2PA provenance assertions",
         "advertiser and agency accountability for AI disclosure",
-        "reported platform AI label policies and non-EU AI labelling laws"
+        "reported platform AI label policies and non-EU AI labelling laws",
+        "history of the IAB framework before v2 (v1 landing page, 15 Jan 2026)"
       ],
       "publication_date": "2026-08-18",
       "accessed_on": "2026-09-29",
@@ -3277,7 +3213,10 @@
       "freshness_class": "context-bound",
       "support_status": "verified",
       "uncertainty": "Framework verified. Its summaries of platform policies (Meta, TikTok, Google) and of laws (EU, New York, California, APAC) are IAB statements, not primary readings: treat as secondary. IAB custom C2PA assertions are described as being defined, not final.",
-      "verification_note": "Read live 2026-09-29: landing page and the 42-page PDF (https://www.iab.com/wp-content/uploads/2026/08/IAB_AI_Trasparency_Disclosure_Framework_August_2026.pdf) read. Two-layer model: C2PA machine layer plus advertiser consumer-facing disclosure; disclosure required only where AI materially risks misleading a reasonable consumer about authenticity, identity or representation; per-content-type thresholds (prompt-generated images and video, synthetic avatars, deceased-person voices and twins, living-person fabricated events, conversational agents; text generally not); text label or Unicode sparkle U+2728; placement and audio rules; custom assertions com.iab.threshold and com.iab.disclosure; advertiser accountability not delegable, may be shared with the agency; AI Disclosure Lead within 60 days; phased roadmap to 24 months."
+      "verification_note": "Read live 2026-09-29: landing page and the 42-page PDF (https://www.iab.com/wp-content/uploads/2026/08/IAB_AI_Trasparency_Disclosure_Framework_August_2026.pdf) read. Two-layer model: C2PA machine layer plus advertiser consumer-facing disclosure; disclosure required only where AI materially risks misleading a reasonable consumer about authenticity, identity or representation; per-content-type thresholds (prompt-generated images and video, synthetic avatars, deceased-person voices and twins, living-person fabricated events, conversational agents; text generally not); text label or Unicode sparkle U+2728; placement and audio rules; custom assertions com.iab.threshold and com.iab.disclosure; advertiser accountability not delegable, may be shared with the agency; AI Disclosure Lead within 60 days; phased roadmap to 24 months. Folded 29 Sep 2026 (Social Kaizen S11): former companion record IAB-AI-DISCLOSURE-2026 (AI Transparency and Disclosure Framework; IAB (Interactive Advertising Bureau); https://www.iab.com/guidelines/ai-transparency-and-disclosure-framework/; verified_on 2026-09-29; status partial) is merged here and its citations re-pointed. The folded record was tier 1 with a 181-day review cadence. Its note read: Read live 2026-09-29: landing page dated 15 Jan 2026 states disclosure is required only when AI materially affects authenticity, identity or representation in ways that could mislead consumers; routine production, background tools and clearly stylised content do not need disclosure; \"targeted disclosure, not universal labeling\".",
+      "folded_ids": [
+        "IAB-AI-DISCLOSURE-2026"
+      ]
     },
     {
       "id": "EU-AI-ACT-ART50-FAQ",
@@ -3824,15 +3763,19 @@
       "review_every_days": 91,
       "next_review": "2026-12-29",
       "use_for": [
-        "Instagram hashtag cap in captions, style guides and prompts"
+        "Instagram hashtag cap in captions, style guides and prompts",
+        "secondary corroboration of the gradual rollout (Social Media Today, 18 Dec 2025)"
       ],
       "publication_date": "2025-12-18",
       "accessed_on": "2026-09-29",
       "scope": "Hashtag cap on Instagram posts and reels",
       "freshness_class": "time-sensitive",
       "support_status": "verified",
-      "uncertainty": "Social post, not a Help Center article; the carousel detail was not read and completion of any gradual rollout across all accounts is NOT_ASSESSED. Whether tags in comments count is not stated. Companion to secondary record INSTAGRAM-HASHTAG-LIMIT-2025.",
-      "verification_note": "Read live 2026-09-29: the @creators post dated 18 Dec 2025 says that, starting that day, Instagram will allow up to 5 hashtags in a reel or post. The Social Media Today report quotes Instagram saying the cap will roll out gradually and that fewer, more targeted hashtags (up to 5) can improve performance."
+      "uncertainty": "Social post, not a Help Center article; the carousel detail was not read and completion of any gradual rollout across all accounts is NOT_ASSESSED. Whether tags in comments count is not stated. The secondary Social Media Today report (formerly INSTAGRAM-HASHTAG-LIMIT-2025) is folded into this record.",
+      "verification_note": "Read live 2026-09-29: the @creators post dated 18 Dec 2025 says that, starting that day, Instagram will allow up to 5 hashtags in a reel or post. The Social Media Today report quotes Instagram saying the cap will roll out gradually and that fewer, more targeted hashtags (up to 5) can improve performance. Folded 29 Sep 2026 (Social Kaizen S11): former companion record INSTAGRAM-HASHTAG-LIMIT-2025 (Instagram implements new limits on hashtag use; Social Media Today (secondary report of an Instagram @creators statement on Threads); https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/; verified_on 2026-09-29; status partial) is merged here and its citations re-pointed. The folded record was tier 3 (secondary report) with a 91-day review cadence. Its note read: Read live 2026-09-29: Instagram said it will gradually limit captions on posts and Reels to five hashtags (reported 18 Dec 2025), after about a year of testing.",
+      "folded_ids": [
+        "INSTAGRAM-HASHTAG-LIMIT-2025"
+      ]
     },
     {
       "id": "META-UNORIGINAL-CONTENT-2025",
@@ -3873,15 +3816,20 @@
         "influencer disclosure (Art. 18.2)",
         "minor influencers (Art. 18.3)",
         "virtual and AI influencers (definitions)",
-        "children and teens (Chapter E)"
+        "children and teens (Chapter E)",
+        "compliance screening at planning; 2024 update; how self-regulation works (from the folded landing-page record)",
+        "marketer accountability for AI-produced communications and truthfulness of AI-altered content (Art. 5): cited before S11 without a recorded check of those sections; NOT_ASSESSED"
       ],
       "publication_date": "2024-09",
       "accessed_on": "2026-09-29",
       "scope": "Code text: definitions, Art. 7, Art. 18, Chapter E",
       "freshness_class": "context-bound",
       "support_status": "verified",
-      "uncertainty": "Self-regulatory code, not law; national codes and statutes prevail. Companion to PREMIUM-ICC-2026 (landing page).",
-      "verification_note": "Read live 2026-09-29: the 11th edition (September 2024) defines influencers to include individuals, organisations and machine-created or controlled avatars; Art. 18.2 requires influencer marketing to be immediately identifiable, the connection disclosed each time it is shared and affiliate links disclosed, and says disclosures buried in hashtags, 'see more' or terms are not sufficient; Art. 18.3 requires a contract with explicit parent or guardian consent for minor influencers, disclosure of compensation and age-appropriate content, and refers to Chapter E."
+      "uncertainty": "Self-regulatory code, not law; national codes and statutes prevail. The full text was read for definitions, Art. 7, Art. 18 and Chapter E only. The responsibility section and Art. 5 were not read: those uses were cited to the landing-page record without a recorded check and are NOT_ASSESSED until read.",
+      "verification_note": "Read live 2026-09-29: the 11th edition (September 2024) defines influencers to include individuals, organisations and machine-created or controlled avatars; Art. 18.2 requires influencer marketing to be immediately identifiable, the connection disclosed each time it is shared and affiliate links disclosed, and says disclosures buried in hashtags, 'see more' or terms are not sufficient; Art. 18.3 requires a contract with explicit parent or guardian consent for minor influencers, disclosure of compensation and age-appropriate content, and refers to Chapter E. Folded 29 Sep 2026 (Social Kaizen S11): former companion record PREMIUM-ICC-2026 (ICC Advertising and Marketing Communications Code; iccwbo.org; https://iccwbo.org/business-solutions/the-icc-advertising-and-marketing-communications-code/; verified_on 2026-09-22; status verified) is merged here and its citations re-pointed. The folded record was tier 1 with a 30-day review cadence (next review had been 2026-10-22). Its note read: root source-content inspection; narrow content check, not account or outcome certification.",
+      "folded_ids": [
+        "PREMIUM-ICC-2026"
+      ]
     },
     {
       "id": "UG-DATA-EXCISE",
