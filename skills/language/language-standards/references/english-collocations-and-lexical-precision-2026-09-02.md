@@ -1,6 +1,6 @@
 # English Output Overlay - Social Media
 
-[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-skills\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
+[Owning skill](../SKILL.md) | Canonical study: `C:\wamp64\www\digital-research-engine\docs\continuous-improvement\english-collocations-and-lexical-precision-2026-09-02.md`
 
 - Default to British English and neutral East African professional English unless the channel or audience requires another standard.
 - Be conversational without being careless. One real audience, one useful idea, one honest action, and one recognisable point of view.
