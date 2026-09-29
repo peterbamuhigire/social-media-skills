@@ -1,6 +1,6 @@
 ---
 name: biz-dev-lawful-prospecting-outreach
-description: Use when an agency or client needs a lawful B2B prospecting system covering sourcing and cleaning contact lists, consent and objection handling, cold and warm outreach sequences, speed-to-lead and partner introductions; use biz-dev-video-outreach for personalised video audits and biz-dev-reactivation-campaign for past customers.
+description: Use when an agency or client needs a lawful B2B prospecting system covering sourcing and cleaning contact lists, consent and objection handling, cold and warm outreach sequences, speed-to-lead and partner introductions; use biz-dev-video-outreach for personalised video audits and 07-email-marketing-strategy for win-back of past customers.
 metadata:
   portable: true
   compatible_with:
@@ -23,7 +23,7 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 ## Do Not Use When
 
 - The deliverable is a personalised video audit for a named prospect; use `biz-dev-video-outreach`.
-- The contacts are past customers to win back; use `biz-dev-reactivation-campaign`.
+- The contacts are past customers to win back; use `07-email-marketing-strategy` (win-back and reactivation reference).
 - The work is consented marketing to an opted-in list (newsletters, broadcasts); use `07-email-marketing-strategy` or `playbook-sms-whatsapp-marketing`.
 - The request is to send messages now; this skill plans and drafts. Sending needs explicit authority.
 
@@ -105,7 +105,7 @@ If the legal position for a market is unconfirmed, deliver the plan for business
 - [Data-protection and platform checks for outreach](references/data-protection-checks-for-outreach.md) — read before any list is used or message sent.
 - [Direct marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md) — release check for every message.
 - [Personalised video outreach](../biz-dev-video-outreach/SKILL.md) — neighbour route.
-- [Reactivation campaign](../biz-dev-reactivation-campaign/SKILL.md) — neighbour route for past customers.
+- [Win-back and reactivation](../../pipeline/07-email-marketing-strategy/references/win-back-and-reactivation.md) — neighbour route for past customers.
 - [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
 <!-- dual-compat-end -->
 

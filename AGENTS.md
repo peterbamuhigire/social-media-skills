@@ -266,7 +266,7 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `platforms/` | `platform-*` per-channel plans |
 | `playbooks/` | `playbook-*` execution SOPs |
 | `policies/` | `policy-*` governance and compliance |
-| `strategy/` | `strategy-*` plus `owned-media-strategy`, `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
+| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
 | `advertising/` | Advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
@@ -376,7 +376,7 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 | `content-writing-standards` | `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md` | General content writing standards (formerly the category-level `skills/content-writing/SKILL.md`) |
 | `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
 | `content-ideas` | `skills/content-writing/content-ideas/` | Generate content and blog topic ideas and briefs (absorbed `blog-idea-generator`) |
-| `platform-linkedin-company-pages` | `skills/platforms/platform-linkedin-company-pages/` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
+| `platform-linkedin` | `skills/platforms/platform-linkedin/` | LinkedIn personal and Company Page work, including Company Page setup, growth, Sub-Pages and Events (absorbed `platform-linkedin-company-pages`) |
 | `advertising-strategy-and-budget` | `skills/advertising/advertising-strategy-and-budget/` | Entry point for advertising strategy, budget triangulation, measurement architecture and agency–client governance |
 | `direct-marketing-ethics-filter` | `skills/content-writing/references/direct-marketing-ethics-filter.md` | Canonical ethics filter for ads, offers, outreach and influencer work |
 | `anti-ai-slop` | `skills/ai-marketing/anti-ai-slop/` | MANDATORY pre-ship guardrail — ship-gate checklist run on every generated social output so it cannot read as AI slop |

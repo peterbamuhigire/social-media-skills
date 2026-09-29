@@ -1,0 +1,40 @@
+# Preservation map — ai-influencer-strategy → 08-influencer-marketing-strategy
+
+Filled from [preservation-map-template.md](../preservation-map-template.md) for Social Kaizen S05-T06. See [merge-runbook.md](../merge-runbook.md), step 2.
+
+Source: skills/ai-marketing/ai-influencer-strategy/SKILL.md @ 8eacccb + S04 working tree (tree cda737c) (209 lines; reads Aug–Sep 2026: 4; fan-in 1)
+Destination reference: skills/pipeline/08-influencer-marketing-strategy/references/ai-assisted-influencer-discovery-and-virtual-creators.md (abbreviated `AIV` below)
+
+| # | Source item (heading / decision row / anti-pattern / citation / reference file) | Destination (file § section) | Status (MOVED / MERGED-WITH-EXISTING / DROPPED-DUPLICATE-OF <target §>) | Reviewer tick |
+|---|---|---|---|---|
+| 1 | Shared contract scaffolding: Use When, Do Not Use When, Required Inputs table (3 generic rows), Capability and Permission Boundaries, Degraded Mode, Decision Rules rows 2–3 (missing fact → stop; partial evidence → qualified draft), Workflow steps 1–6, Outputs, Evidence Produced, Quality Standards bullets 1–4, Anti-Patterns bullets 1–5 | 08-influencer-marketing-strategy/SKILL.md same-named sections | DROPPED-DUPLICATE-OF target SKILL.md `Use When` … `Anti-Patterns` (same templated contract: required-input table with stop rule, `Capability and permission boundary` read-only default with separate authority for publish/spend, `Degraded mode` "never convert an unavailable check into a pass", `Decision rules` row 2 "A material input is missing or contradictory — Stop that decision…", 6-step `Workflow` ending in the anti-slop ship gate, `Quality Standards` British English/market, `Anti-Patterns` on missing access and live-account changes; only the deliverable name differs) | ticked |
+| 2 | Decision Rules row 1: lowest viable automation level with human approval gate, when data readiness / AI maturity support it | AIV § When to use this reference (route AI-maturity questions to ai-readiness-diagnostic) | MERGED-WITH-EXISTING (human-approval gate also in target SKILL.md § Capability and permission boundary) | ticked |
+| 3 | References: ai-readiness-diagnostic as nearest routing comparison; AGENTS.md link | AIV § When to use this reference (ai-readiness-diagnostic link) | MOVED (AGENTS.md link DROPPED-DUPLICATE-OF target SKILL.md § References anti-slop / legal release gate links, which carry the same engine-wide gates) | ticked |
+| 4 | Citation line: Ltifi (Ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence* | AIV § When to use this reference ("Principal source", publisher CRC Press added, verified 2026-09-29) | MOVED | ticked |
+| 5 | See also: 08-influencer-marketing-strategy (full framework); meta-social-proof-system (proof integration) | AIV § When to use this reference (links to parent references and meta-social-proof-system) | MOVED | ticked |
+| 6 | Required Inputs (8 items: name, industry, country/city default UG/EA, primary goal examples, target audience via 03-audience-personas, tier preference with 4 bands, budget range sets tool access, human or virtual) | AIV § Inputs (table) | MOVED | ticked |
+| 7 | AI-Powered Influencer Identification: AI scanning criteria; longlist of 20–50 then human judgement | AIV § Procedure › 1 | MOVED | ticked |
+| 8 | Tool table (6 rows: Meta Audience Insights, HypeAuditor, Modash, Heepsy, TikTok Creator Marketplace, Manual audit + Phlanx with cost and best-for) | AIV § Procedure › 1 table (verify-at-use note added) | MOVED | ticked |
+| 9 | Limited-budget rule: Meta Audience Insights + manual audit; paid tools justified above UGX 5,000,000 | AIV § Decision rules rows 1–2 | MOVED | ticked |
+| 10 | Manual longlist process (5 steps) | AIV § Procedure › 1 "Manual longlist process" | MOVED | ticked |
+| 11 | Fraudulent Engagement Detection intro (widespread incl. EA; detect before committing budget) | AIV § Procedure › 2 intro | MOVED | ticked |
+| 12 | Red-flag table (6 signals: growth spikes 10,000+ in 24–48 h; 0.1–0.5% ER at 100K; comment-quality index; geography mismatch 80%+ South Asia/Eastern Europe; spikes on old posts; 10–20 comments per 100 likes, below 1:100) | AIV § Procedure › 2 table | MOVED (partly overlaps target SKILL.md § 7 "Bought followers" 0.1% example and § 2 comment quality; full table is new) | ticked |
+| 13 | Manual vetting checklist (4 bullets: 20 comments, geography via HypeAuditor free/Social Blade, 10 random followers, 6-month consistency) | AIV § Procedure › 2 "Manual vetting checklist" | MOVED | ticked |
+| 14 | Rejection threshold (<1% ER at 100K+; geography match <60%) | AIV § Procedure › 2 + § Decision rules rows 3–4 | MOVED | ticked |
+| 15 | Human Influencers: strengths (3), risks (3), best for | AIV § Procedure › 3 comparison table, Human column | MOVED | ticked |
+| 16 | Virtual / CGI Influencers (Lil Miquela, Shudu): strengths (3), risks (uncanny valley with Ltifi 2024 citation and realistic-or-stylised rule; sarcasm/cynicism esp. Gen X and Boomers; production cost), best for | AIV § Procedure › 3 comparison table, Virtual column | MOVED | ticked |
+| 17 | The Parasocial Interaction Scale for Virtual Influencers (Ltifi, 2024): 4 dimensions with targets; success condition; 10–20 member panel before production | AIV § Procedure › 4 + § Decision rules row 6 | MOVED | ticked |
+| 18 | Decision Matrix (7 factors human vs virtual) | AIV § Procedure › 3 "Decision matrix" | MOVED | ticked |
+| 19 | EA default recommendation (human, local micro/nano 1K–100K; rationale) | AIV § Procedure › 3 "EA default recommendation" + § Decision rules row 7 | MOVED | ticked |
+| 20 | Campaign Design Principles 1 (brief not script; message, claim accuracy, disclosures, off-limits) | AIV § Procedure › 5 item 1 (link to parent SKILL.md § 4 brief template) | MOVED | ticked |
+| 21 | Campaign Design Principles 2 (authentic integration; food-blogger meal-prep example) | AIV § Procedure › 5 item 2 | MOVED | ticked |
+| 22 | Campaign Design Principles 3 (disclosure: no statute UG/KE/TZ, register UG-01, KE-01, TZ-01, 2026-09-24; indirect rules; disclosure reference; FTC/ASA best practice; "#ad"/"#sponsored" in primary language in caption) | AIV § Procedure › 5 item 3 (register IDs kept; UG-KE-INFLUENCER-DISCLOSURE-2026 and UG-INFLUENCER-CONSUMER-2026 added as pointers) | MOVED (link re-pointed to sibling reference influencer-term-sheet-and-disclosure.md) | ticked |
+| 23 | Campaign Design Principles 4 (content rights for paid social repurposing; lawyer) | AIV § Procedure › 5 item 4 + § Decision rules row 8 | MOVED | ticked |
+| 24 | Campaign Design Principles 5 (UTM links; reach, engagement, clicks, conversions; measurement-tracking-plan) | AIV § Procedure › 5 item 5 (linked) | MOVED | ticked |
+| 25 | Quality Criteria (8 items) | AIV § Release checklist (8 items) | MOVED | ticked |
+| 26 | Unique anti-patterns: the domain text has no separate anti-pattern list; its implied prohibitions (proceeding past rejection thresholds, assuming the human/virtual choice, almost-human CGI, burying disclosure in hashtags) | AIV § Decision rules rows 3–7, § Procedure › 3 uncanny-valley rule, § Procedure › 5 item 3, § Release checklist item 3 | MOVED | ticked |
+| 27 | Reference files (`references/`) | none — source has no `references/` folder | n/a | ticked |
+
+Unique facts with register IDs carried: UG-01, KE-01, TZ-01 (Kaizen register, 2026-09-24, as cited in source); pointers added to UG-KE-INFLUENCER-DISCLOSURE-2026 and UG-INFLUENCER-CONSUMER-2026 (freshness re-checked: no — dated in register). Tool costs/coverage carry a verify-at-use note (no register record). Publisher of Ltifi (2024) verified live: CRC Press (routledge.com / taylorfrancis.com, accessed 2026-09-29).
+Items dropped as duplicates (must name the equivalent target text): 2
+Reviewer: independent review agent (Claude Opus 5.5, read-only, S05 review) — verdict ACCEPT_WITH_DOCUMENTED_LIMITATIONS (Ltifi year 2024 versus 2025 elsewhere; citation backlog) — 2026-09-29. The "ticked" column records the merge worker's self-check; the reviewer confirmed the rows.

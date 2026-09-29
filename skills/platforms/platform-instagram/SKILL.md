@@ -13,6 +13,8 @@ metadata:
 ## Use When
 - Create or revise a Instagram-specific presence, growth or publishing plan.
 - Translate a confirmed audience, offer and objective into channel decisions.
+- Diagnose why Instagram follower growth or reach has stalled and build a phase-based growth experiment plan for Reels, hashtags, collabs and broadcast channels (formerly `platform-instagram-growth`).
+- Plan the Instagram feed grid, mood board, colour palette, editing preset and visual standards brief for a designer (formerly `platform-instagram-visual-system`).
 
 ## Do Not Use When
 - The task is cross-channel operating procedure; use the closest `playbook-*` skill.
@@ -38,6 +40,8 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
+| Follower growth or reach has stalled, or a growth plan is requested | Place the account on the phase ladder, diagnose the plateau and run one-lever experiments with [growth diagnosis](references/growth-diagnosis-and-experiments.md) | Adding volume into a suppressed or mis-targeted account |
+| The client needs a feed grid or visual standards brief | Write the planning brief with [grid and visual system](references/grid-and-visual-system.md); route visual execution to design-system-skills | Unbriefed creators or consultant-made visual assets |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -72,6 +76,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [growth-diagnosis-and-experiments](references/growth-diagnosis-and-experiments.md) — read when follower growth or reach has stalled or a phase-based growth plan is needed.
+- [grid-and-visual-system](references/grid-and-visual-system.md) — read when briefing a feed grid, mood board, palette, editing preset or visual standards document.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
@@ -83,8 +89,8 @@ and destination for buyer comprehension. Verify current searchable fields,
 profile limits, link options and account features; do not claim only two fields
 are indexed or that a profile change guarantees discovery.
 
-Route visual decisions through design-system-skills and the neighbouring
-`platform-instagram-visual-system` skill when needed. Use intentional art
+Route visual decisions through design-system-skills and brief them with
+[the grid and visual system reference](references/grid-and-visual-system.md) when needed. Use intentional art
 direction, readable type, truthful product detail and an identifiable voice.
 Do not impose a rigid alternating grid, one filter or a luxury colour formula.
 

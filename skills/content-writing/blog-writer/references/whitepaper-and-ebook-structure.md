@@ -141,7 +141,7 @@ What you will learn:
 3. Email to the existing list — subject line + 3-sentence body + download link.
 4. WhatsApp broadcast — one-sentence hook + shortened link (Bitly or similar).
 
-For the nurture sequence that follows a gated download, hand off to [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md). For how the document fits the client's wider owned-media ecosystem, use [owned-media-strategy](../../../strategy/owned-media-strategy/SKILL.md). To place the document in a campaign sequence of articles, see [series-and-launch-engine.md](series-and-launch-engine.md).
+For the nurture sequence that follows a gated download, hand off to [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md). For how the document fits the client's wider owned-media ecosystem, use [peso-integrated-strategy](../../../strategy/peso-integrated-strategy/references/owned-media-assets.md) (owned-media assets). To place the document in a campaign sequence of articles, see [series-and-launch-engine.md](series-and-launch-engine.md).
 
 ## Donor / investor variant
 

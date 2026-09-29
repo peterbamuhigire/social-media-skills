@@ -93,7 +93,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 
 Designs a hub-and-spoke channel architecture — defining the conversion hub, assigning platform roles, mapping the customer traffic flow, and allocating content production effort. Based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) and adapted for the Uganda/East Africa market.
 
-Cross-reference: `05-social-media-strategy` (overall strategy context), `10-content-pillars` (what content to produce per platform), `owned-media-strategy` (hub development and owned channel depth).
+Cross-reference: `05-social-media-strategy` (overall strategy context), `10-content-pillars` (what content to produce per platform), `peso-integrated-strategy` (owned-media assets: hub development and owned channel depth).
 
 ---
 

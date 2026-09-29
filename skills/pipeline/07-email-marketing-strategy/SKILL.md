@@ -21,6 +21,9 @@ Assume Mailchimp or Brevo as the email platform. Note differences between the tw
 
 - Use this skill for designing a permission-based email programme, lifecycle and measurement plan.
 - Confirm that `06-digital-marketing-strategy` is not the closer route before proceeding.
+- Win back a dormant past-customer list with a customer reactivation campaign: gratitude message, exclusive returning-customer offer, referral close and WhatsApp win-back sequence (formerly `biz-dev-reactivation-campaign`).
+- Build and run an email funnel operations playbook: welcome sequence schedule, steady-state cadence, CTA placement, mobile email design, subject-line A/B testing log and list health review (formerly `playbook-email-funnel`).
+- Design a lead magnet system: free checklist, report, quiz or webinar opt-in offer, website pop-up and exit-intent placements, WhatsApp trigger-message delivery and double opt-in (formerly `playbook-lead-magnet-system`).
 
 ## Do Not Use When
 
@@ -63,6 +66,9 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 | Audience, consent basis, list condition, offer, sending capability and objectives is current and attributable | Produce the full email marketing strategy and lifecycle sequence map and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `06-digital-marketing-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client holds a dormant past-customer list it has stopped contacting | Build the four-part win-back campaign and sign-off brief with [win-back-and-reactivation](references/win-back-and-reactivation.md); send Message 1 only to numbers without opt-in. | Cold-ad spend while a warm list sits unused; messaging without consent. |
+| The strategy is agreed and the team must build and run the funnel | Produce the operations brief with [email-funnel-build-sequence](references/email-funnel-build-sequence.md) (add [launch-sequence-operations](references/launch-sequence-operations.md) for a timed launch). | A strategy nobody can operate; promotion before onboarding is live. |
+| The list is small or growing slowly and there is no specific opt-in offer | Design the lead magnet, placements and double opt-in with [lead-magnets-and-list-building](references/lead-magnets-and-list-building.md). | Generic newsletter sign-ups and unconsented list additions. |
 
 ## Workflow
 
@@ -98,6 +104,10 @@ Given verified audience, the skill produces a email marketing strategy and lifec
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [win-back-and-reactivation](references/win-back-and-reactivation.md) — read when a dormant past-customer list needs a reactivation campaign.
+- [email-funnel-build-sequence](references/email-funnel-build-sequence.md) — read when building and operating the funnel after the strategy is agreed.
+- [launch-sequence-operations](references/launch-sequence-operations.md) — read when the funnel serves a timed offer, event, product drop or cohort.
+- [lead-magnets-and-list-building](references/lead-magnets-and-list-building.md) — read when designing the opt-in offer, placements and double opt-in.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

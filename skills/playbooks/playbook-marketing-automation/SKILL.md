@@ -161,7 +161,7 @@ Apply this timing structure to all new sequences. Adapt the content for the spec
 | Deeper value | Day 4–7 | A related insight, case study, or practical tip — no promotion |
 | Soft introduction | Day 8–14 | Introduce the next logical offer — not a hard sell; a signpost |
 | Direct offer | Day 15–30 | A specific invitation to take the next step; clear CTA |
-| Steady-state | Day 31 onwards | Educational content, product updates, community content — see `playbook-email-funnel` |
+| Steady-state | Day 31 onwards | Educational content, product updates, community content — see `07-email-marketing-strategy` (email funnel build sequence) |
 
 ---
 

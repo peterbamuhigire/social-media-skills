@@ -1,6 +1,6 @@
 ---
 name: 09-campaign-strategy
-description: "Use when planning one focused launch, offer, awareness drive or event campaign. Produces single-campaign strategy and strategic one-page brief; use `13-campaign-brief` when that neighbouring contract is the closer match."
+description: "Use when planning one focused launch, offer, awareness drive, event, or contest and giveaway campaign. Produces single-campaign strategy and strategic one-page brief; use `13-campaign-brief` when that neighbouring contract is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -21,6 +21,7 @@ A campaign is a time-bound, focused effort with a specific objective. It is dist
 
 - Use this skill for planning one focused launch, offer, awareness drive or event campaign.
 - Confirm that `13-campaign-brief` is not the closer route before proceeding.
+- The client wants a social media contest, giveaway or prize draw: entry mechanic, prize in UGX, Meta and WhatsApp promotion rules, T&Cs, WhatsApp mini-contest and winner announcement (formerly `playbook-social-media-contests`).
 
 ## Do Not Use When
 
@@ -63,6 +64,7 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 | Approved objective, audience, offer, dates, budget and channel evidence is current and attributable | Produce the full single-campaign strategy and strategic one-page brief and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `13-campaign-brief` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The campaign includes a contest, giveaway or prize draw | Design it with [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md), including T&Cs and lottery or gaming checks. | An unfair, non-compliant or unlicensed promotion. |
 
 ## Workflow
 
@@ -100,6 +102,7 @@ Given verified approved objective, the skill produces a single-campaign strategy
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md)
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
+- [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md) — read when the campaign includes a contest, giveaway, prize draw or hashtag challenge.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

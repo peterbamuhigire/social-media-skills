@@ -1875,6 +1875,28 @@
       "support_status": "partial",
       "uncertainty": "Secondary law-firm report; the PDPO decision text was not read. Not legal advice.",
       "verification_note": "Read live 2026-09-29 (benchmark E15): entities handling personal data of Ugandan citizens must register (reported fee UGX 100,000); no advance approval per transfer, but records of the legal basis, safeguards and justification for cross-border transfers must be kept for inspection; a lawful transfer needs consent or an equivalent-protection destination."
+    },
+    {
+      "id": "INSTAGRAM-HASHTAG-LIMIT-2025",
+      "domain": "platform",
+      "jurisdiction": "Global; Instagram",
+      "title": "Instagram implements new limits on hashtag use",
+      "publisher": "Social Media Today (secondary report of an Instagram @creators statement on Threads)",
+      "tier": 3,
+      "url": "https://www.socialmediatoday.com/news/instagram-implements-new-limits-on-hashtag-use/808309/",
+      "verified_on": "2026-09-29",
+      "review_every_days": 91,
+      "next_review": "2026-12-29",
+      "use_for": [
+        "Instagram hashtag counts in captions and style guides"
+      ],
+      "publication_date": "2025-12-18",
+      "accessed_on": "2026-09-29",
+      "scope": "Hashtag cap on Instagram posts and Reels",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Secondary report; the Instagram statement itself and the completion of the gradual rollout were not read. Caption-writer and hashtag references written before this record still cite 5-10 tags (S08/S10 follow-up).",
+      "verification_note": "Read live 2026-09-29: Instagram said it will gradually limit captions on posts and Reels to five hashtags (reported 18 Dec 2025), after about a year of testing."
     }
   ]
 }

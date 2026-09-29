@@ -21,6 +21,7 @@ Do not prescribe ranking formulas, profile-completion multipliers, universal pos
 ## Use When
 - Create or revise a LinkedIn-specific presence, growth or publishing plan.
 - Translate a confirmed audience, offer and objective into channel decisions.
+- Set up or grow a LinkedIn Company Page, admin roles, follower invitations, Showcase or Product Pages, LinkedIn Events or Live, and a company page content plan (formerly `platform-linkedin-company-pages`).
 
 ## Do Not Use When
 - The task is cross-channel operating procedure; use the closest `playbook-*` skill.
@@ -46,6 +47,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
+| The work is the organisation's Company Page, sub-pages or events | Apply [company pages, showcase and events](references/company-pages-showcase-and-events.md) and amplify through willing employees | Faceless page publishing and fragmented sub-pages |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -80,6 +82,7 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [company-pages-showcase-and-events](references/company-pages-showcase-and-events.md) — read when setting up or growing a Company Page, Showcase or Product Pages, or LinkedIn Events.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

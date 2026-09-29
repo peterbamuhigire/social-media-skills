@@ -1,6 +1,6 @@
 ---
 name: peso-integrated-strategy
-description: Use when the main deliverable concerns paid, earned, shared, and owned channel coordination; use strategy-channel-architecture when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns paid, earned, shared, and owned channel coordination, including an owned-media plan for website, email list, WhatsApp opt-in and SMS assets; use strategy-channel-architecture when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,6 +14,7 @@ metadata:
 
 - Use this skill for paid, earned, shared, and owned channel coordination.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Audit and grow the audience assets the client owns — website, blog, email list, WhatsApp opt-in list, SMS list — to cut dependence on Facebook and other rented platforms (formerly `owned-media-strategy`).
 
 ## Do Not Use When
 
@@ -64,6 +65,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | Choice condition | Action | Failure or risk avoided |
 |---|---|---|
 | The brief requires cross-channel orchestration and budget roles | Build a PESO system with handoffs; use channel architecture for platform-role selection alone | A list of channels with no integration or ownership |
+| The Owned pillar needs its own asset plan (audit, email and WhatsApp list building, consent, blog, owned rhythm) or the client has under 500 email subscribers and no WhatsApp opt-in list | Build it with [owned-media-assets](references/owned-media-assets.md) before committing Paid budget | Paid and Shared traffic with no consented owned asset to capture it |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [owned-media-assets](references/owned-media-assets.md) — read when the Owned pillar needs an asset audit, email or WhatsApp list-building and consent plan, blog-to-social pipeline or owned publishing rhythm.
 <!-- dual-compat-end -->
 
 ## Required Input

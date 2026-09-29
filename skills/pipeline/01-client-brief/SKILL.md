@@ -1,6 +1,6 @@
 ---
 name: 01-client-brief
-description: "Use when turning confirmed discovery answers into the full brief and one-page client card. Produces approved client brief and at-a-glance card; use `00-client-intake` when that neighbouring contract is the closer match."
+description: "Use when starting a new client engagement or turning discovery answers into the full brief and one-page client card: ten-question intake, targeted follow-up questions and the approved brief. Produces approved client brief and at-a-glance card; use `02-platform-audit` once the brief is approved."
 metadata:
   portable: true
   compatible_with:
@@ -16,18 +16,19 @@ Produce two outputs: (1) a full client brief document and (2) a one-page client 
 ## Use When
 
 - Use this skill for turning confirmed discovery answers into the full brief and one-page client card.
-- Confirm that `00-client-intake` is not the closer route before proceeding.
+- A new client needs a kickstart intake: ten standard questions for an intake form or discovery call, a draft brief with [TO CONFIRM] gaps, then targeted follow-up questions (formerly `00-client-intake`).
+- Confirm that `02-platform-audit` or `04-brand-voice-intake` is not the closer route before proceeding.
 
 ## Do Not Use When
 
-- Use `00-client-intake` when its narrower output is requested.
+- Use `02-platform-audit` when the brief is approved and the task is auditing profiles; use `04-brand-voice-intake` for the full brand voice guide.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---:|---|
-| Completed 00-client-intake answers and unresolved follow-up responses | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
+| Completed intake answers (ten-question bank or Part A questionnaire) and unresolved follow-up responses | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
 | Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
 
 ## Outputs
@@ -56,13 +57,14 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 
 | Choice | Action | Failure or risk avoided |
 |---|---|---|
-| Completed 00-client-intake answers and unresolved follow-up responses is current and attributable | Produce the full approved client brief and at-a-glance card and cite the evidence used. | Decisions based on stale or unrelated evidence. |
+| Completed intake answers (ten-question bank or Part A questionnaire) and unresolved follow-up responses is current and attributable | Produce the full approved client brief and at-a-glance card and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `00-client-intake` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The engagement is new and no intake answers exist yet, or the client will not complete the full questionnaire | Run the two-phase kickstart in [intake-question-bank](references/intake-question-bank.md): ten standard questions, an immediate draft brief with [TO CONFIRM] markers, then ready-frontier follow-up questions. | A stalled engagement or a brief built on unconfirmed gaps. |
+| The requested outcome belongs to `02-platform-audit` or `04-brand-voice-intake` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `00-client-intake` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `02-platform-audit` or `04-brand-voice-intake` if its contract is closer.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -76,24 +78,26 @@ The output is client-specific, uses British English and the stated market/curren
 ## Anti-Patterns
 
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the approved client brief and at-a-glance card without completed 00-client-intake answers and unresolved follow-up responses. Fix: stop the affected decision or issue a clearly bounded partial output.
+- Producing the approved client brief and at-a-glance card without completed intake answers and unresolved follow-up responses. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `00-client-intake` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing the platform audit (`02-platform-audit`) or brand voice guide (`04-brand-voice-intake`) into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
 
-Given verified completed 00-client-intake answers and unresolved follow-up responses, the skill produces a approved client brief and at-a-glance card with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
+Given verified completed intake answers and unresolved follow-up responses, the skill produces a approved client brief and at-a-glance card with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
 
 ## Read next
 
-- [`00-client-intake`](../00-client-intake/SKILL.md) for the neighbouring contract.
+- [`02-platform-audit`](../02-platform-audit/SKILL.md) once the brief is approved.
+- [`04-brand-voice-intake`](../04-brand-voice-intake/SKILL.md) for the full brand voice guide.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [intake-question-bank](references/intake-question-bank.md) — read when starting a new engagement, sending a short intake form or running a first discovery call, or writing follow-up questions for [TO CONFIRM] gaps.
 - [UX strategy and product lenses](references/ux-strategy-and-product-lenses.md) — read at intake when the brief involves a digital product or website-led campaign, or when stakeholders disagree about "good design".
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 

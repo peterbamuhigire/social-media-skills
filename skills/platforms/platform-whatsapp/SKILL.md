@@ -15,6 +15,7 @@ metadata:
 ## Use When
 - Create or revise a Whatsapp-specific presence, growth or publishing plan.
 - Translate a confirmed audience, offer and objective into channel decisions.
+- Set up WhatsApp Business operations: profile, greeting and away messages, quick replies, broadcast lists, catalogue, customer service protocol, escalation and team rota (formerly `playbook-whatsapp-business`).
 
 ## Do Not Use When
 - The task is cross-channel operating procedure; use the closest `playbook-*` skill.
@@ -40,6 +41,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
+| The client needs day-to-day WhatsApp Business operations or structured customer service | Set up labels, templates, SLA and escalation with [app operations](references/whatsapp-business-app-operations.md) before any broadcast | Marketing noise overwhelming customer care |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -76,6 +78,7 @@ Use British English and the specified market context. Recommendations must be ex
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - [Current-source register](../../../docs/source-registers/README.md)
 - [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
+- [whatsapp-business-app-operations](references/whatsapp-business-app-operations.md) — read when setting up the WhatsApp Business profile, automated messages, catalogue, service protocol or team rota.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

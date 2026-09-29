@@ -390,7 +390,7 @@ Before producing the master strategy document, verify upstream artifacts contain
 |---|---|---|
 | **Business Strategy** | `01-client-brief` | Value proposition declared; revenue stream identified |
 | **Value Innovation** | `02-platform-audit` | Differentiation vs competitors named with specifics |
-| **Validated User Research** | `03-audience-personas` (or `ai-synthetic-personas`) | Personas cite real data sources, not pure hypothesis |
+| **Validated User Research** | `03-audience-personas` (including synthetic persona hypotheses) | Personas cite real data sources, not pure hypothesis |
 | **Killer UX Design** | `04-brand-voice-intake` + content pillars | Voice and pillars actually distinct from category baseline |
 
 If any tenet is missing, return to the upstream stage before producing strategy. Do not paper over a missing tenet with a stronger headline; the strategy will fail downstream.

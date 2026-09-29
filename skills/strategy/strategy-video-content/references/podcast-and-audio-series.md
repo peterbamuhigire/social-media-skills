@@ -201,7 +201,7 @@ Include these in every podcast strategy for a Ugandan or East African client:
 
 | Skill | When to use |
 |---|---|
-| [owned-media-strategy](../../owned-media-strategy/SKILL.md) (the source's companion; merges into `peso-integrated-strategy` in S05) and [peso-integrated-strategy](../../peso-integrated-strategy/SKILL.md) | Positioning the podcast within a broader owned media or PESO/POEM channel strategy |
+| [peso-integrated-strategy](../../peso-integrated-strategy/SKILL.md) and its [owned-media assets reference](../../peso-integrated-strategy/references/owned-media-assets.md) (formerly the source's companion `owned-media-strategy`) | Positioning the podcast within a broader owned media or PESO/POEM channel strategy |
 | [meta-content-repurposing](../../../meta-analytics-ops/meta-content-repurposing/SKILL.md) | A detailed repurposing workflow for each episode across all platforms |
 | [strategy-personal-brand](../../strategy-personal-brand/SKILL.md) | The podcast is primarily a personal brand vehicle for a founder or subject-matter expert |
 | [11-content-calendar](../../../pipeline/11-content-calendar/SKILL.md) | Scheduling episode production, launch days and social distribution into a monthly content calendar |

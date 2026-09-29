@@ -107,7 +107,7 @@ Ask for the following before generating any deliverable:
 3. **Country / city** (defaults to Uganda / East Africa)
 4. **Primary goal** (e.g. increase website conversion rate, reduce sales objections, build credibility for a new product)
 5. **Existing proof available** (list any: testimonials, certifications, awards, media mentions, client logos, review platform ratings)
-6. **Target audience** (B2C or B2B; generational mix if known — see `strategy-multigenerational-digital`)
+6. **Target audience** (B2C or B2B; generational mix if known — see `03-audience-personas` (generational segment lens))
 7. **Key conversion points** (where do prospects currently drop off — pricing page, proposal stage, checkout, first WhatsApp message?)
 
 ---
@@ -139,7 +139,7 @@ Recommendations from recognised authorities in the client's field: an industry a
 Recommendations from public figures with large, relevant audiences.
 
 **For EA clients:** local celebrities (musicians, athletes, media personalities, respected business leaders) often outperform international names because their audiences trust their judgement on locally relevant purchases.
-**Caution:** See `08-influencer-marketing-strategy` and `ai-influencer-strategy` for vetting process. Do not deploy celebrity endorsements without verifying audience alignment and engagement authenticity.
+**Caution:** See `08-influencer-marketing-strategy` (including its AI-assisted discovery and fake-follower reference) for the vetting process. Do not deploy celebrity endorsements without verifying audience alignment and engagement authenticity.
 
 ### 4. Crowd Proof (Large Numbers)
 Statements that use volume to signal popularity and safety: "Over 500 businesses served", "Trusted by 12,000 subscribers", "4.8 stars from 300 reviews".

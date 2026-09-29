@@ -17,6 +17,8 @@ Develop 2–4 audience personas for the client. Personas are the strategic found
 
 - Use this skill for developing research-grounded audience personas after discovery and before channel planning.
 - Confirm that `04-brand-voice-intake` is not the closer route before proceeding.
+- The client has no budget or time for primary research and wants AI-generated synthetic personas, a synthetic focus group to test a campaign concept, or rapid hypothesis validation with a disclosure footnote (formerly `ai-synthetic-personas`).
+- The audience spans Gen Z, Millennials, Gen X and Baby Boomers and the client needs a multigenerational digital strategy: generational trust triggers, platform allocation by age cohort, content format by generation (formerly `strategy-multigenerational-digital`).
 
 ## Do Not Use When
 
@@ -59,6 +61,8 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 | Approved client brief plus primary or cited secondary audience evidence is current and attributable | Produce the full persona cards and comparison matrix and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `04-brand-voice-intake` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| Primary research is unavailable but personas are still needed | Build disclosed synthetic hypotheses and validate them with [synthetic-persona-hypotheses](references/synthetic-persona-hypotheses.md); commission research instead above UGX 50 million at stake. | Hypotheses presented as research findings. |
+| Personas span three or more generational cohorts | Calibrate trust, platform and format per cohort with [generational-segment-lens](references/generational-segment-lens.md). | One trust approach applied to every age group. |
 
 ## Workflow
 
@@ -95,6 +99,8 @@ Given verified approved client brief plus primary or cited secondary audience ev
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Persona discipline](references/persona-discipline.md) — read when building, choosing or defending personas, or validating a provisional persona with problem interviews.
+- [synthetic-persona-hypotheses](references/synthetic-persona-hypotheses.md) — read when primary research is unavailable and AI-synthesised personas or a synthetic focus group are needed.
+- [generational-segment-lens](references/generational-segment-lens.md) — read when the audience spans several generations and trust, channel, format or tone must be calibrated per cohort.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -316,7 +322,7 @@ For each persona, specify: (1) which digital services and platforms they are lik
 - Generation X: institutional credentials and third-party endorsements
 - Baby Boomers: personal service access and traditional authority signals
 
-Consult `strategy-multigenerational-digital` for the full generational trust spectrum when the client's audience spans three or more generational cohorts. Do not apply a single trust-building approach uniformly across a multi-generational persona set.
+Consult [generational-segment-lens](references/generational-segment-lens.md) for the full generational trust spectrum when the client's audience spans three or more generational cohorts. Do not apply a single trust-building approach uniformly across a multi-generational persona set.
 
 ---
 

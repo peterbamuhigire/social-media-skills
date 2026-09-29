@@ -1,6 +1,6 @@
 ---
 name: 08-influencer-marketing-strategy
-description: "Use when planning a creator or influencer programme with fit, due diligence, rights and measurement. Produces influencer strategy, selection criteria and activation plan; use `09-campaign-strategy` when that neighbouring contract is the closer match."
+description: "Use when planning a creator, influencer or customer UGC programme with fit, AI discovery, fake-follower checks, human or virtual choice, rights and measurement. Produces influencer strategy, selection criteria and activation plan; use `09-campaign-strategy` when that neighbouring contract is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -21,6 +21,8 @@ This skill covers strategy and execution guidance only. It does not produce lega
 
 - Use this skill for planning a creator or influencer programme with fit, due diligence, rights and measurement.
 - Confirm that `09-campaign-strategy` is not the closer route before proceeding.
+- The client wants AI tools to find influencers, screen out fake followers and bot engagement, or decide between a human and a virtual CGI influencer (formerly `ai-influencer-strategy`).
+- The client wants customers to create content: a UGC strategy with a UGC audit, branded hashtag, customer photo and testimonial collection, permissions log, and curation and reposting of customer content (formerly `playbook-ugc-strategy`).
 
 ## Do Not Use When
 
@@ -63,6 +65,8 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 | Campaign objective, audience, budget, creator evidence and usage-rights needs is current and attributable | Produce the full influencer strategy, selection criteria and activation plan and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `09-campaign-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| Creators are found or vetted with AI tools, fraud is suspected, or a virtual influencer is proposed | Apply the tool tiers, fraud thresholds and Parasocial Interaction Scale in [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md). | Paying for purchased audiences or an uncanny-valley virtual character. |
+| The programme uses customer-created content | Run the audit, collection tiers, permissions log and curation and republishing workflow in [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md). | Republishing customer content without documented consent. |
 
 ## Workflow
 
@@ -102,6 +106,8 @@ Given verified campaign objective, the skill produces a influencer strategy, sel
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
 - [Creator due diligence, typology and pricing](references/creator-due-diligence-and-pricing.md) — read when shortlisting, vetting or budgeting creators.
 - [Influencer term sheet, brief and disclosure register](references/influencer-term-sheet-and-disclosure.md) — read before any offer, brief, contract hand-off or go-live.
+- [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md) — read when using AI discovery tools, screening fraudulent engagement, or weighing a human against a virtual influencer.
+- [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md) — read when building a customer UGC programme, permissions log or curation and republishing workflow.
 - [Creator monetisation](../../strategy/strategy-creator-monetisation/SKILL.md) — the creator-side counterpart.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 

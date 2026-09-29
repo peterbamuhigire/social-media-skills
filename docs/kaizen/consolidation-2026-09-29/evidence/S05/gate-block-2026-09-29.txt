@@ -1,0 +1,123 @@
+=== python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json
+skills=132 compliant=132 failures=0
+
+exit=0
+=== python -X utf8 scripts/routing_smoke_test.py --min-rank1 91 --lint-fixtures
+routing fixtures=117 passed=117 top_3_precision=1.000 threshold=1.000
+precision@1=111/117 (94.9%) registered_floor=91.0% (lexical proxy, not live routing)
+fixture lint: 0 finding(s)
+exit=0
+=== python -X utf8 scripts/check_skill_aliases.py
+skill aliases: routes=60 findings=0 active=132 cap=120 window=open-until-S07
+exit=0
+=== python -X utf8 -B -m pytest -q tests
+.................................................      [100%]
+49 passed, 18 subtests passed in 6.95s
+exit=0
+=== python -X utf8 -m unittest discover -s tests -p test_*.py
+.................................................
+----------------------------------------------------------------------
+Ran 49 tests in 6.650s
+
+OK
+exit=0
+=== python -X utf8 scripts/check_source_freshness.py
+source freshness: PASS (91 records within review windows; as of 2026-09-29; claim support NOT ASSESSED)
+exit=0
+=== python -X utf8 scripts/source_ingestion_guardrail.py
+source-ingestion-guardrail: C:\wamp64\www\social-media-skills
+findings: 0
+exit=0
+=== git diff --check
+warning: in the working copy of '.claude-plugin/marketplace.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.claude-plugin/plugin.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/continuous-improvement/kaizen-wave-1-2026-08-11.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/kaizen/consolidation-2026-09-29/execution-log.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/quality-gates/legal-market-release-gate.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/skill-aliases.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/source-registers/source-register.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'quality-baseline.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/ad-copy-and-hook-lab/references/format-copy-fitting.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/ad-testing-and-scaling/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/ad-to-site-journey-handoff/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/ad-to-site-journey-handoff/references/measurement-and-ownership-spec.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/ad-to-site-journey-handoff/references/ux-engagement-diagnostics.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/media-planning/references/scheduling-weighting-and-post-buy.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/paid-search-advertising/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/advertising/paid-search-advertising/references/search-build-specification.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/ai-marketing/ai-use-case-mapping/references/predictive-analytics-use-cases.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/business-development/biz-dev-lawful-prospecting-outreach/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/content-writing/blog-writer/references/whitepaper-and-ebook-structure.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/content-writing/direct-response-funnel-copy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/content-writing/direct-response-funnel-copy/references/funnel-architecture-and-scripts.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/meta-analytics-ops/meta-algorithm-guide/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/meta-analytics-ops/meta-reporting/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/meta-analytics-ops/meta-roi-framework/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/meta-analytics-ops/meta-social-listening/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/meta-analytics-ops/meta-social-metrics-framework/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/01-client-brief/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/01-client-brief/references/ux-strategy-and-product-lenses.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/03-audience-personas/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/03-audience-personas/references/persona-discipline.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/04-brand-voice-intake/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/05-social-media-strategy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/06-digital-marketing-strategy/references/digital-planning-lenses.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/07-email-marketing-strategy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/08-influencer-marketing-strategy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/09-campaign-strategy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/pipeline/12-website-content-plan/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/platforms/platform-google-business-profile/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/platforms/platform-instagram/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/platforms/platform-linkedin/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/platforms/platform-whatsapp/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/playbooks/playbook-marketing-automation/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/playbooks/playbook-paid-social-advertising/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/strategy/peso-integrated-strategy/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/strategy/strategy-b2b-customer-community/SKILL.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'skills/strategy/strategy-video-content/references/podcast-and-audio-series.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tests/routing-fixtures.json', LF will be replaced by CRLF the next time Git touches it
+exit=0
+=== python -X utf8 scripts/render_host_files.py --check --workspace-root .. --engine ../social-media-skills
+checked 1 repositories; findings 0; not assessed 0
+exit=0
+=== node scripts/generate-plugin-manifest.js --check-marketplace --workspace-root ..
+ok     suite: chwezi-suite: no count in description (not checked)
+ok     suite: srs: 159 skills
+ok     suite: business-plan: 134 skills
+ok     suite: website: 62 skills
+ok     suite: social: 132 skills
+ok     suite: linux: 45 skills
+ok     suite: proposal: 115 skills
+ok     suite: engineering: 165 skills
+ok     suite: accounting: 108 skills
+ok     suite: design-system: 101 skills
+ok     suite: research: 59 skills
+ok     suite: windows-admin: 20 skills
+ok     srs-skills: srs: 159 skills
+ok     business-plan-skills: business-plan: 134 skills
+ok     website-skills: website: 62 skills
+ok     social-media-skills: social: 132 skills
+ok     linux-skills: linux: 45 skills
+ok     proposal-skills: proposal: 115 skills
+ok     chwezi-dev-engine: engineering: 165 skills
+ok     chwezi-accounting-doctrine: accounting: 108 skills
+ok     design-system-skills: design-system: 101 skills
+ok     digital-research-engine: research: 59 skills
+ok     windows-admin-engine-skills: windows-admin: 20 skills
+marketplace check: 23 ok, 0 drift, 0 not assessed
+exit=0
+=== python -X utf8 scripts/validate-runtime-skill-budget.py --collisions --ownership evals/routing/ownership.yaml
+PASS: skills=1110 cross>=0.75: 20 cross>=0.5: 186 undeclared>=0.75: 0 (lexical proxy; not live routing (see agent-skills issue #620))
+exit=0
+=== python -X utf8 scripts/validate-routing-baseline.py
+PASS: routing baseline ratchet (5 engines + portfolio; lexical proxy, not live routing)
+exit=0
+=== python -X utf8 scripts/validate-no-book-extractions.py
+PASS: book-extraction check roots=12 findings=0
+exit=0
+=== python -X utf8 scripts/render_host_files.py --check --workspace-root /c/wamp64/www
+checked 12 repositories; findings 0; not assessed 0
+exit=0
+=== python -X utf8 scripts/lexical_routing.py --collisions
+exit=0

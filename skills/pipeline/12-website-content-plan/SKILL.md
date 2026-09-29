@@ -17,6 +17,7 @@ Produce four outputs: (1) 12 blog post briefs, (2) an editorial calendar table, 
 
 - Use this skill for planning 90 days of website and blog content without designing or building the site.
 - Confirm that `11-content-calendar` is not the closer route before proceeding.
+- Turn the questions customers ask staff, in DMs, search and sales calls into a monthly question engine, FAQ library, Big 5 content priorities and assignment selling (formerly `playbook-question-engine`).
 
 ## Do Not Use When
 
@@ -58,6 +59,7 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Approved personas, voice guide, business priorities and current content inventory is current and attributable | Produce the full website content plan, article briefs and internal-link map and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| Topics must come from real customer questions (FAQ library, Big 5, sales-call objections) | Run the monthly harvest, clustering and Big 5 scoring in [buyer-question-content-plan](references/buyer-question-content-plan.md) before writing briefs | Briefs built on what the business wants to say rather than what buyers ask |
 | The requested outcome belongs to `11-content-calendar` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Workflow
@@ -94,6 +96,7 @@ Given verified approved personas, the skill produces a website content plan, art
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [buyer-question-content-plan](references/buyer-question-content-plan.md) — read when content topics, an FAQ library or sales enablement must come from customer questions (five sources, Big 5, assignment selling).
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

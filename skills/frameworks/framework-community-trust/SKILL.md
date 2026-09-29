@@ -229,7 +229,7 @@ Consult these related skills when building the full client deliverable:
 - `05-social-media-strategy/SKILL.md` — the overarching strategy skill; use framework-community-trust as the trust-sequencing layer within the broader strategy
 - `10-content-pillars/SKILL.md` — map LKT stages to content pillars once the diagnostic is complete
 - `playbook-reputation-management/SKILL.md` — required reading for the rapid review generation tactic in Section 5; contains the WhatsApp review request template
-- `playbook-ugc-strategy/SKILL.md` — consult when Advocacy-stage metrics indicate an audience ready to produce user-generated content
+- `08-influencer-marketing-strategy` (UGC reference) — consult when Advocacy-stage metrics indicate an audience ready to produce user-generated content
 
 **Key references:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.

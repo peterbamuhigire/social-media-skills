@@ -11,7 +11,7 @@ metadata:
 
 Produce a complete Word-of-Mouth marketing programme. Apply Uganda/East Africa context throughout. Default to Uganda unless the client specifies otherwise. Use British English throughout. All objectives must be SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
 
-This skill addresses organic advocacy only. For paid creator partnerships, use `08-influencer-marketing-strategy`. For UGC collection systems, use `playbook-ugc-strategy`. For community trust sequencing, use `framework-community-trust`.
+This skill addresses organic advocacy only. For paid creator partnerships, use `08-influencer-marketing-strategy`. For UGC collection systems, use `08-influencer-marketing-strategy` (UGC reference). For community trust sequencing, use `framework-community-trust`.
 
 ---
 
@@ -364,7 +364,7 @@ Output is high quality when it meets all of the following:
 - **WOM vs. viral distinction:** The output correctly applies WOM seeding logic — targeted, relationship-based, durable — and does not conflate it with viral content or paid influencer strategy
 - **Dark social acknowledgement:** The tracking plan addresses WhatsApp dark social with specific proxy measurement methods, not a dismissal of unmeasurable channels
 - **EA community network specificity:** The talker and connector analysis references real Uganda/EA network types (church, SACCO, boda-boda, market associations) where relevant to the client's audience
-- **Cross-skill coherence:** The playbook correctly references `framework-community-trust`, `meta-social-listening`, `measurement-tracking-plan`, `08-influencer-marketing-strategy`, and `playbook-ugc-strategy` without duplicating their content
+- **Cross-skill coherence:** The playbook correctly references `framework-community-trust`, `meta-social-listening`, `measurement-tracking-plan`, and `08-influencer-marketing-strategy` (including UGC) without duplicating their content
 
 ---
 

@@ -1,6 +1,6 @@
 # Persona Discipline — Build, Choose and Keep Personas Honest
 
-Read this when building or reviewing personas, choosing a primary persona, defending a persona against feature or message creep, or validating a new offer's audience before strategy work. Parent skill: [`03-audience-personas`](../SKILL.md). Synthetic personas follow the extra controls in `ai-synthetic-personas`.
+Read this when building or reviewing personas, choosing a primary persona, defending a persona against feature or message creep, or validating a new offer's audience before strategy work. Parent skill: [`03-audience-personas`](../SKILL.md). Synthetic personas follow the extra controls in [synthetic persona hypotheses](synthetic-persona-hypotheses.md).
 
 ## 1. Stories are the deliverable
 

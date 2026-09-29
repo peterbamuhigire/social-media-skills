@@ -1,0 +1,42 @@
+# Preservation map — playbook-profile-optimisation → 02-platform-audit
+
+Filled from [preservation-map-template.md](../preservation-map-template.md) for Social Kaizen S05-T02. See [merge-runbook.md](../merge-runbook.md), step 2.
+
+Source: skills/playbooks/playbook-profile-optimisation/SKILL.md @ 8eacccb + S04 working tree (tree cda737c) (385 lines; reads Aug–Sep 2026: 0; fan-in 1)
+Destination reference: skills/pipeline/02-platform-audit/references/profile-optimisation-fixes.md (abbreviated `POF` below)
+
+| # | Source item (heading / decision row / anti-pattern / citation / reference file) | Destination (file § section) | Status (MOVED / MERGED-WITH-EXISTING / DROPPED-DUPLICATE-OF <target §>) | Reviewer tick |
+|---|---|---|---|---|
+| 1 | Shared contract scaffolding: Use When, Do Not Use When, Capability and Permission Boundaries, Degraded Mode, Workflow steps 1–5, Outputs, Evidence Produced, Quality Standards paragraph | 02-platform-audit/SKILL.md same-named sections | DROPPED-DUPLICATE-OF target SKILL.md `Use When` … `Quality Standards` (same templated playbook contract: read-only review and planning, explicit authority for publishing/spend/production changes, `not assessed` degraded mode, verify-then-anti-slop workflow, observable acceptance conditions; the target's Outputs/Evidence rows "Every recommendation traces to an input, names an owner or next action …" and "Decision and source register" are equivalent to the source's playbook and decision/verification record). Source-specific points are carried: the "labelled scenario, not fabricated client evidence" rule as POF § Templates scenario note; the release-gate result as POF § Checklist | ticked |
+| 2 | Required Inputs table (3 rows: objective/audience/success measure; current workflow, assets, performance evidence; roles, budget, timing, approval limits) with If-absent actions | POF § Inputs rows 10–12 | MOVED | ticked |
+| 3 | Decision Rules row 1: profile must serve discovery and conversion → clear category, proof, one next action | POF § Decision rules row 1 | MOVED | ticked |
+| 4 | Decision Rules rows 2–4: complete inputs → execution-ready; incomplete → narrowest qualified draft and gap list; publish/spend/contact/change → explicit approval | POF § Decision rules rows 8–10 | MOVED (also equivalent to target § Decision rules rows 1–2 and § Capability and permission boundary) | ticked |
+| 5 | Anti-Patterns 1–5 (invented facts; copying a pattern unchanged; volatile details from memory; inaccessible account treated as healthy; publishing from planning authority) | POF § When to use this reference (verification paragraph) + § Checklist items 9–11 | MOVED (items 4–5 also equivalent to target § Anti-Patterns bullets 3 and 5) | ticked |
+| 6 | Anti-Pattern 6: actions without owner, timing or acceptance | POF § Procedure step 3 closing line + § Checklist item 11 | MOVED | ticked |
+| 7 | References: anti-AI-slop gate; East African English standard; "verify time-sensitive claims" | POF § Procedure step 1 (east-african-english link) + § When to use this reference (verification paragraph) | MOVED (anti-slop link DROPPED-DUPLICATE-OF target § References "Anti-AI slop production gate", present verbatim) | ticked |
+| 8 | Required Input (9 items: business name, industry with SACCO example, country/city default Uganda/Kampala, primary goal options, active platforms list of 8, current bios or "not reviewed", brand assets, WhatsApp number with +256 example, website URL) | POF § Inputs rows 1–9 | MOVED | ticked |
+| 9 | Universal Principles › Profile Photo (logo vs founder headshot; min 400×400px; outer 15% cropped on mobile; no text; same image across platforms) | POF § Procedure step 1 "Profile photo" + § Decision rules rows 2–3 | MOVED | ticked |
+| 10 | Universal Principles › Cover / Banner Image (brand promise; name and tagline; CTA/value statement examples; consistency; refresh as free advertising panel) | POF § Procedure step 1 "Cover / banner image" | MOVED | ticked |
+| 11 | Universal Principles › Username / Handle (exact trading name; `.ug`/`.kampala`/`.africa` suffix, avoid `_official`/`_real`/years; claim everywhere, squatting; keyword in display name for Instagram, TikTok) | POF § Procedure step 1 "Username / handle" + § Decision rules row 6 | MOVED | ticked |
+| 12 | Universal Principles › Bio Copy — WHO-WHAT-WHO-CTA formula with four skincare examples; avoid "passionate", "innovative", "dedicated"; east-african-english register | POF § Procedure step 1 "Bio copy" | MOVED | ticked |
+| 13 | Universal Principles › Link Placement (wa.me for service businesses; aggregator for several destinations, 4–5 options listed; update during campaigns) | POF § Decision rules rows 4–5 + § Procedure step 1 "Link placement" | MOVED | ticked |
+| 14 | Platform-by-Platform Audit Checklist intro (Done / Needs Update / Missing) | POF § Procedure step 2 intro | MOVED | ticked |
+| 15 | Instagram table (9 rows) + 4 notes (Business vs Creator; display name indexed, @kampalaskincare example; three-line bio; Highlights categories and single-noun labels) | POF § Procedure step 2 Instagram | MOVED | ticked |
+| 16 | Facebook Page table (10 rows) + 4 notes (vanity URL path, non-transferable; action button "Send WhatsApp Message", alternatives; complete About fields, indexed by Google; pinned post quarterly) | POF § Procedure step 2 Facebook Page | MOVED | ticked |
+| 17 | LinkedIn Company Page table (10 rows) + 3 notes (first 156 characters as meta description; Specialities up to 20, broad and specific examples; Featured section on personal profiles) | POF § Procedure step 2 LinkedIn Company Page | MOVED | ticked |
+| 18 | WhatsApp Business table (10 rows) + 3 notes (About as one-line promise, catering example; wa.me format and example; Catalogue 3–5 offerings, "Price on enquiry", warmer leads) | POF § Procedure step 2 WhatsApp Business | MOVED | ticked |
+| 19 | TikTok table (7 rows incl. 1,000-follower link threshold for personal accounts) + 3 notes (80-character hook examples; Business account benefits; first 6–9 video thumbnails as portfolio) | POF § Procedure step 2 TikTok | MOVED | ticked |
+| 20 | X / Twitter table (9 rows) + 3 notes (bio indexed, accountants example; pinned post; Professional account Category label) | POF § Procedure step 2 X / Twitter | MOVED | ticked |
+| 21 | YouTube Channel table (8 rows) + 3 notes (first 150 characters; safe area 1,546×423 in 2,560×1,440; trailer three questions under 90 seconds, subscribe CTA) | POF § Procedure step 2 YouTube channel | MOVED | ticked |
+| 22 | Google Business Profile: cross-reference platform-google-business-profile + minimum table (9 rows) | POF § Procedure step 2 Google Business Profile (link to platform-google-business-profile) | MOVED | ticked |
+| 23 | Action-Prioritised Improvement Plan: Priority 1 (48 hours, 6 items) | POF § Procedure step 3 Priority 1 + § Decision rules row 7 | MOVED | ticked |
+| 24 | Priority 2 (one week, 8 items incl. follower-threshold caveat on name changes) | POF § Procedure step 3 Priority 2 | MOVED | ticked |
+| 25 | Priority 3 (one month, 6 items incl. quarterly review) | POF § Procedure step 3 Priority 3 | MOVED | ticked |
+| 26 | Deliverable Format (Profile Audit Report; Action Plan with bio rewrites and cover-image briefs; PDF/Google Doc; plain language; paste-ready bios) | POF § Templates | MOVED | ticked |
+| 27 | Quality Criteria (8 items: coverage; specific findings with example; ready-to-publish bios; evidence-based tiers; character limits list; consistent voice; Uganda/EA defaults; no graphic design outputs) | POF § Checklist items 1–8 | MOVED (character limits also restated in POF § Templates reference line) | ticked |
+| 28 | Citations / author-year sources | none in source | n/a — source cites no author, book or register ID | ticked |
+| 29 | Reference files (`references/`) | none — source has no `references/` folder | n/a | ticked |
+
+Unique facts with register IDs carried: none (source cites no source-register IDs; freshness re-checked: NOT_ASSESSED). POF labels all platform specifications (character limits, image sizes, account-type features, the TikTok 1,000-follower link threshold, menu paths) "verify before stating (no register record)".
+Items dropped as duplicates (must name the equivalent target text): 2 (row 1 whole; row 7 partly — the anti-slop link)
+Reviewer: independent review agent (Claude Opus 5.5, read-only, S05 review) — verdict ACCEPT — 2026-09-29. The "ticked" column records the merge worker's self-check; the reviewer confirmed the rows.

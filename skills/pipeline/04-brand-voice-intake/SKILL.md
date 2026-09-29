@@ -17,6 +17,7 @@ Produce one standalone brand document. This is the definitive tone and identity 
 
 - Use this skill for defining verbal and visual direction after the audience is understood.
 - Confirm that `03-audience-personas` is not the closer route before proceeding.
+- The client needs a complete social media brand style guide for the team running its accounts: emoji policy, hashtag rules, image and video standards, content approval workflow, breaking-news content pause protocol, and grammar, UGX and date formatting rules (formerly `playbook-social-media-brand-style-guide`).
 
 ## Do Not Use When
 
@@ -59,6 +60,7 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 | Approved client brief, personas and existing brand assets is current and attributable | Produce the full brand voice guide and visual identity brief and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `03-audience-personas` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs an operational style guide for whoever runs its accounts, not only a voice guide and designer brief | Produce the nine-section guide in [social-brand-style-guide](references/social-brand-style-guide.md), reusing this skill's voice outputs. | Operators publishing without approval, pause or formatting rules. |
 
 ## Workflow
 
@@ -94,6 +96,7 @@ Given verified approved client brief, the skill produces a brand voice guide and
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [social-brand-style-guide](references/social-brand-style-guide.md) — read when the client wants a complete social media style guide with approval workflow, content pause protocol, emoji, hashtag, media and grammar rules.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Corpus Cross-Reference

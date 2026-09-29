@@ -13,6 +13,7 @@ metadata:
 ## Use When
 - Create or revise a Google Business Profile-specific presence, growth or publishing plan.
 - Translate a confirmed audience, offer and objective into channel decisions.
+- Win more walk-in customers near one or more premises with local and proximity marketing — geo-targeted ads, location tags and check-ins, neighbourhood WhatsApp groups, multi-branch listings (formerly `playbook-location-based-marketing`).
 
 ## Do Not Use When
 - The task is cross-channel operating procedure; use the closest `playbook-*` skill.
@@ -37,6 +38,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | The business has no customer-facing premises | Configure a service area and hide the address | Misrepresentation or unwanted visits |
 | Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
+| The goal is footfall around physical premises or branches, beyond the listing itself | Add the location asset checklist, geo-targeted paid, location-tagged content, WhatsApp hyperlocal and multi-branch steps from [location-based-and-proximity-marketing](references/location-based-and-proximity-marketing.md) | A complete listing with no local demand plan, or branches that stay invisible |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
 
 ## Workflow
@@ -72,6 +74,7 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [location-based-and-proximity-marketing](references/location-based-and-proximity-marketing.md) — read when the client wants local footfall or runs several branches (geo-targeted ads, location tags, WhatsApp groups, per-branch reporting).
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

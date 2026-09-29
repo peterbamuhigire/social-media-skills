@@ -12,7 +12,7 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 151
+  current_active_skill_count: 132
   # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
   # (active count 110), after which cap-exceeded is enforced strictly.
   consolidation_until: S07
@@ -62,3 +62,22 @@ inactive_skill_aliases:
   skills/meta-analytics-ops/meta-lead-scoring: skills/meta-analytics-ops/meta-sales-marketing-alignment
   skills/meta-analytics-ops/meta-sentiment-analysis: skills/meta-analytics-ops/meta-social-listening
   skills/playbooks/playbook-sentiment-listening: skills/meta-analytics-ops/meta-social-listening
+  skills/pipeline/00-client-intake: skills/pipeline/01-client-brief
+  skills/business-development/biz-dev-social-media-audit-offer: skills/pipeline/02-platform-audit
+  skills/playbooks/playbook-profile-optimisation: skills/pipeline/02-platform-audit
+  skills/ai-marketing/ai-synthetic-personas: skills/pipeline/03-audience-personas
+  skills/strategy/strategy-multigenerational-digital: skills/pipeline/03-audience-personas
+  skills/playbooks/playbook-social-media-brand-style-guide: skills/pipeline/04-brand-voice-intake
+  skills/business-development/biz-dev-reactivation-campaign: skills/pipeline/07-email-marketing-strategy
+  skills/playbooks/playbook-email-funnel: skills/pipeline/07-email-marketing-strategy
+  skills/playbooks/playbook-lead-magnet-system: skills/pipeline/07-email-marketing-strategy
+  skills/ai-marketing/ai-influencer-strategy: skills/pipeline/08-influencer-marketing-strategy
+  skills/playbooks/playbook-ugc-strategy: skills/pipeline/08-influencer-marketing-strategy
+  skills/playbooks/playbook-social-media-contests: skills/pipeline/09-campaign-strategy
+  skills/playbooks/playbook-question-engine: skills/pipeline/12-website-content-plan
+  skills/strategy/owned-media-strategy: skills/strategy/peso-integrated-strategy
+  skills/playbooks/playbook-location-based-marketing: skills/platforms/platform-google-business-profile
+  skills/platforms/platform-instagram-growth: skills/platforms/platform-instagram
+  skills/platforms/platform-instagram-visual-system: skills/platforms/platform-instagram
+  skills/platforms/platform-linkedin-company-pages: skills/platforms/platform-linkedin
+  skills/playbooks/playbook-whatsapp-business: skills/platforms/platform-whatsapp

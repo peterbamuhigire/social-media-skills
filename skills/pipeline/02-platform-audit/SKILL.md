@@ -1,6 +1,6 @@
 ---
 name: 02-platform-audit
-description: "Use when auditing active social profiles and named competitors before strategy work. Produces platform audit, benchmark and prioritised quick wins; use `meta-content-audit` when that neighbouring contract is the closer match."
+description: "Use when auditing active social profiles and named competitors before strategy work, running a free audit to win a prospect, or fixing profile bios, covers and links. Produces platform audit, benchmark and prioritised quick wins; use `meta-content-audit` when that neighbouring contract is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -16,6 +16,8 @@ Produce three sections of audit output followed by a 6-slide deck outline. Base 
 ## Use When
 
 - Use this skill for auditing active social profiles and named competitors before strategy work.
+- The consultant wants a free 30-minute social media audit of a prospect as a lead offer: five-area score out of 50, wins and gaps one-pager, and the scripted transition to a paid retainer (formerly `biz-dev-social-media-audit-offer`).
+- The client wants every profile optimised: bio rewrites with WHO-WHAT-WHO-CTA, cover images, handles, link in bio, WhatsApp button and a 48-hour / one-week / one-month fix plan (formerly `playbook-profile-optimisation`).
 - Confirm that `meta-content-audit` is not the closer route before proceeding.
 
 ## Do Not Use When
@@ -58,6 +60,8 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Approved client brief, platform access or exports, and named competitors is current and attributable | Produce the full platform audit, benchmark and prioritised quick wins and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The prospect has not signed and the audit is a free lead offer | Run the five-area, 30-minute audit and findings one-pager in [audit-as-lead-offer](references/audit-as-lead-offer.md), then hand over to `biz-dev-proposal`. | Giving the full paid audit away, or a pitch with no scripted route to paid work. |
+| Profile-completeness gaps need element-level fixes and paste-ready bios | Apply the platform checklists and three-tier plan in [profile-optimisation-fixes](references/profile-optimisation-fixes.md). | Vague "improve your bio" advice and arbitrary priorities. |
 | The requested outcome belongs to `meta-content-audit` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Workflow
@@ -94,6 +98,9 @@ Given verified approved client brief, the skill produces a platform audit, bench
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [audit-as-lead-offer](references/audit-as-lead-offer.md) — read when a free audit is used to win a prospect before any brief exists.
+- [proposal-frameworks](references/proposal-frameworks.md) — read when writing the audit offer or findings persuasively (NOSE, Primacy Principle, Go/No-Go).
+- [profile-optimisation-fixes](references/profile-optimisation-fixes.md) — read when profile gaps need a per-platform checklist, bio rewrites and a prioritised fix plan.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
