@@ -1,6 +1,6 @@
 ---
 name: biz-dev-credentials
-description: Use when Agency Credentials Generator is needed to produce a credentials pack for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when Agency Credentials Generator is needed to produce a credentials pack or a standalone client case study for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **credentials pack** and the supplied brief falls within agency credentials generator.
+- Turn one client's results into a client case study: a one-page success story with before-and-after metrics and a testimonial, plus a three-slide deck (formerly `biz-dev-case-study`).
 
 ## Do Not Use When
 - Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| One client result needs its own standalone case study (one-page write-up and three-slide deck) | Apply the [case study method](references/case-study-method.md): real metrics, consented name or one anonymised descriptor, never a fabricated quote. | A vague success story or an invented testimonial. |
 
 ## Workflow
 1. Confirm the exact credentials pack, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
@@ -71,6 +73,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
+- [case-study-method](references/case-study-method.md) — read when one client result needs a standalone one-page case study and three-slide deck.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

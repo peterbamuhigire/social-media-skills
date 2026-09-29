@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/playbooks/playbook-agency-operations through docs/skill-aliases.yml; content preserved in playbook-agency-operations/references/white-label-and-partner-delivery.md. Retained for historical content.
 # White-Label & Sub-Contracting Partnerships Playbook
 
 <!-- dual-compat-start -->

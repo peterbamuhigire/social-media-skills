@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/business-development/biz-dev-positioning through docs/skill-aliases.yml; content preserved in biz-dev-positioning/references/practitioner-positioning.md. Retained for historical content.
 # Practitioner Positioning
 
 <!-- dual-compat-start -->

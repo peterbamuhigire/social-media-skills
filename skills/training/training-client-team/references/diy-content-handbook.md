@@ -1,4 +1,48 @@
-Parent: [training-diy-content](../SKILL.md)
+# DIY Content Creation Handbook
+
+Parent: [training-client-team](../SKILL.md)
+
+Moved from skills/training/training-diy-content/references/ on 2026-09-29 (Social Kaizen S07); preservation map: [training-diy-content.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/training-diy-content.md). The handbook method from the retired skill's SKILL.md (inputs, decision rule, quality criteria) is folded into the first section below, so this file is the complete destination.
+
+## When to use this reference
+
+The parent workbook trains staff in a two-hour workshop with a facilitator. Use this handbook instead, or as the take-away after that workshop, when the client will plan, create, review and publish content independently after handover: a self-contained document the business owner and staff keep, print or save to their phones.
+
+| # | Condition | Action | Failure avoided |
+|---|---|---|---|
+| 1 | The client will work independently after handover | Document repeatable checks and examples that do not require a facilitator | A workshop outline delivered as an unusable handbook |
+| 2 | A placeholder (brand colours, fonts, calendar location, hashtag set, contacts) is not supplied | Leave the handbook in draft and list the missing items; do not invent them | Generic text in a client handover |
+| 3 | A platform size, length, metric name or boost setting has no register record | Mark it "verify before stating (no register record)" and check it at handover | Out-of-date platform rules presented as fact |
+
+**How to generate it.** Collect the inputs below, then generate the cover page and each of the seven sections in full, replacing every bracketed placeholder with the client's details. Write in a warm, jargon-free tone: the readers are business owners and staff who are not marketing specialists, and they will use the handbook without the consultant present.
+
+**Inputs** (ask for these before generating the handbook):
+
+- **Client name**: trading name of the business.
+- **Industry**: sector (for example retail, food and beverage, professional services).
+- **Country / city**: default Uganda/East Africa.
+- **Primary goal**: what the client wants to achieve through DIY content management.
+- **Platforms used**: which platforms the business is active on.
+- **Scheduling tool name**: for example Buffer, Hootsuite or Meta Business Suite.
+- **Content calendar location**: folder link, Google Drive path or shared drive name.
+- **Consultant contact details**: name, WhatsApp number, email address.
+- **Brand voice 3 words**: the three tone descriptors from the brand voice guide.
+- **Banned vocabulary list**: words or phrases not to use in captions.
+- **Standard hashtag set**: the agreed hashtag bank from the hashtag strategy.
+
+**Currentness notes.** Platform template sizes, video durations, caption lengths, analytics metric names and menu paths, boost objectives and the UGX–USD conversion below have no register record: verify each at handover and do not state them as current platform rules. Related records: Meta ads specifications (feed 4:5, Stories and Reels 9:16, safe zones) are in register META-CREATIVE-SPECS-2026; Meta Ads Manager objectives in META-ODAX-OBJECTIVES-2026 (the boost button's own objective list is not recorded); Instagram's reported five-hashtag cap in INSTAGRAM-HASHTAG-LIMIT-2025; music rights in UG-COPYRIGHT-2026 and, for TikTok's Commercial Music Library, PREMIUM-TT-MUSIC-2026. Facebook access in Uganda follows UG-FACEBOOK-ACCESS-2026: status unstable, verify at the handover date before telling a Ugandan client to rely on Facebook.
+
+**Release checklist**
+
+- [ ] All bracketed placeholders are replaced with the client's specific details; no generic text remains.
+- [ ] Platform template sizes in Section 1 are accurate (verified at handover) and include all platforms the client uses.
+- [ ] Brand voice words, banned vocabulary and hashtag set are inserted into Section 4 and the caption checklist.
+- [ ] Content calendar location in Section 3 is filled in with the actual link or folder path.
+- [ ] Consultant contact details in Section 7 are complete and correct.
+- [ ] Tone is warm and encouraging, appropriate for a non-specialist business owner.
+- [ ] British English spelling throughout.
+- [ ] The handbook is self-contained: the client can use it without further explanation from the consultant.
+
 
 ## Output: Complete DIY Handbook
 
@@ -43,7 +87,7 @@ Canva is a free design tool that lets you create professional-looking graphics w
 | WhatsApp Status | Vertical | 1080 × 1920 px |
 | YouTube thumbnail | Landscape | 1280 × 720 px |
 
-In Canva: click **Create a design** → **Custom size** → enter the dimensions above.
+Sizes: verify before stating (no register record). In Canva: click **Create a design** → **Custom size** → enter the dimensions above.
 
 **Staying On-Brand**
 
@@ -102,7 +146,7 @@ Watch through and identify any long pauses. Split the clip at the pause (tap the
 Tap **Text** → **Auto Captions**. CapCut will transcribe the speech automatically. Review every line — correct any errors before exporting. Captions make videos accessible and significantly improve watch time.
 
 **Step 5 — Add music**
-Tap **Audio** → **Sounds** → browse CapCut's built-in library. Select royalty-free music only — do not use songs from Spotify, YouTube, or personal music apps as this creates copyright issues when publishing. Set the music volume to approximately 20% so it does not overpower the speaking voice.
+Tap **Audio** → **Sounds** → browse CapCut's built-in library. Select royalty-free music only — do not use songs from Spotify, YouTube, or personal music apps as this creates copyright issues when publishing. Check music rights before commercial use (registers UG-COPYRIGHT-2026; PREMIUM-TT-MUSIC-2026 for TikTok's Commercial Music Library). Set the music volume to approximately 20% so it does not overpower the speaking voice.
 
 **Transitions**
 
@@ -123,7 +167,7 @@ Tap **Export** (top right) → select **1080p** resolution → **MP4 format** �
 | YouTube | Landscape (horizontal) | 1920 × 1080 | Never upload vertical to YouTube |
 | WhatsApp Status | Portrait (vertical) | 1080 × 1920 | Keep under 30 seconds |
 
-In CapCut, set the canvas ratio at the start of a new project: tap the ratio icon → select **9:16** (vertical) or **16:9** (horizontal) before importing footage.
+Dimensions and duration limits: verify before stating (no register record). In CapCut, set the canvas ratio at the start of a new project: tap the ratio icon → select **9:16** (vertical) or **16:9** (horizontal) before importing footage.
 
 **5-Step Video Edit Checklist**
 
@@ -246,6 +290,8 @@ Before submitting any caption for approval, check:
 | TikTok | 100–150 characters | Caption is secondary to the video |
 | WhatsApp broadcast | Under 150 words | Read on mobile — keep paragraphs short |
 
+Lengths are house guidance, not platform rules: verify before stating (no register record). Instagram captions are reported to be capped at five hashtags (register INSTAGRAM-HASHTAG-LIMIT-2025), so trim the standard set for Instagram.
+
 ---
 
 ### Section 5: When and How to Boost Posts
@@ -258,7 +304,7 @@ Boost posts that are already performing well organically. A post with existing l
 
 **Recommended Budget**
 
-Start with UGX 50,000–100,000 (approximately $14–28 USD) per boost, run for 5–7 days. This is sufficient to meaningfully extend your reach without overspending on a single post.
+Start with UGX 50,000–100,000 (house starting guidance, not a platform minimum; USD equivalent: verify the exchange rate at handover, no register record) per boost, run for 5–7 days. This is sufficient to meaningfully extend your reach without overspending on a single post.
 
 **Targeting Settings**
 
@@ -275,6 +321,8 @@ When setting up a boost, select:
 | Drive WhatsApp enquiries | Messages |
 | Send people to your website | Website traffic |
 
+Boost objective names change: verify in the app at handover (no register record for the boost menu; Ads Manager objectives: META-ODAX-OBJECTIVES-2026).
+
 **Duration**
 
 5–7 days per boost is sufficient. Longer does not necessarily produce better results.
@@ -289,7 +337,7 @@ When setting up a boost, select:
 
 ### Section 6: How to Read Platform Analytics
 
-You do not need to become a data analyst. You need to notice 3 things: is reach going up, staying flat, or going down?
+Metric names (for example Impressions) and menu paths change: verify before stating (no register record). You do not need to become a data analyst. You need to notice 3 things: is reach going up, staying flat, or going down?
 
 **Facebook Insights**
 

@@ -1,6 +1,6 @@
 ---
 name: biz-dev-pricing-menu
-description: Use when Services and Pricing Menu Generator is needed to produce a priced service menu for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when Services and Pricing Menu Generator is needed to produce a priced service menu or a risk-free first-engagement test offer for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **priced service menu** and the supplied brief falls within services and pricing menu generator.
+- A prospect will not commit to a retainer and the consultant wants a risk-free "first date" test campaign offer with a result guarantee, pay-per-appointment or revenue-share fee, a one-page offer document and an expectations sign-off (formerly `biz-dev-beyond-agency-offer`).
 
 ## Do Not Use When
 - Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| A new prospect will not yet commit to a retainer | Build a 7–10-day risk-reversed test offer from the risk-reversed entry offer reference (one of five structures, one-page offer, expectations sign-off), then move a successful test onto a menu programme. | Discounting the menu to win a sceptical first client, or promising outcomes instead of putting the fee at risk. |
 
 ## Workflow
 1. Confirm the exact priced service menu, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
@@ -72,6 +74,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
 - [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md) — read for the paths table, cost-to-serve sheet and programme design behind the prices.
+- [Risk-reversed entry offer](references/risk-reversed-entry-offer.md) — read when a prospect needs a low-risk first engagement (result guarantee, pay-per-appointment, revenue share or deferred fee) before any retainer.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

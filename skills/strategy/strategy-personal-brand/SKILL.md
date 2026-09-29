@@ -1,6 +1,6 @@
 ---
 name: strategy-personal-brand
-description: Use when the main deliverable concerns individual positioning, authority, platform presence, content, and monetisation; use biz-dev-practitioner-positioning when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns individual positioning, authority, platform presence, content, and monetisation; use biz-dev-positioning when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -17,7 +17,7 @@ metadata:
 
 ## Do Not Use When
 
-- Use `biz-dev-practitioner-positioning` when that neighbouring workflow owns the main decision or deliverable.
+- Use `biz-dev-positioning` (agency and practitioner positioning, formerly `biz-dev-practitioner-positioning`) when that neighbouring workflow owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +30,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `biz-dev-practitioner-positioning`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `biz-dev-positioning`.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.

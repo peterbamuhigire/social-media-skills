@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/business-development/biz-dev-credentials through docs/skill-aliases.yml; content preserved in biz-dev-credentials/references/case-study-method.md. Retained for historical content.
 # Client Case Study Generator
 
 <!-- dual-compat-start -->

@@ -22,7 +22,7 @@ Turn a client's business goal into the marketing decisions every channel, advert
 
 ## Do Not Use When
 
-- The deliverable is the agency's own positioning statement or credentials; use `biz-dev-positioning` or `biz-dev-practitioner-positioning`.
+- The deliverable is the agency's own positioning statement or credentials; use `biz-dev-positioning` (which also covers individual practitioner positioning).
 - The deliverable is a full business plan or bankable marketing-plan document; hand the decisions over to business-plan-skills.
 - The question is which acquisition channels to test; use `traction-channel-bullseye` after positioning is agreed.
 - Required customer evidence or decision authority is absent and cannot be obtained; stop and return the intake gap.

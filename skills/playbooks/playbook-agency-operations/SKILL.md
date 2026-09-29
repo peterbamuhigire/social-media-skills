@@ -1,6 +1,6 @@
 ---
 name: playbook-agency-operations
-description: Use when designing or improving a Agency Operations operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Agency Operations operating playbook, including white-label and sub-contracted partner delivery, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,7 @@ metadata:
 ## Use When
 - Build or improve a repeatable Agency Operations workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Set up, price or exit a white-label or sub-contracting arrangement where we deliver content under another agency's brand, with an NDA, briefing standard and payment terms (formerly `playbook-white-label-partnerships`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -35,6 +36,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | Work repeatedly misses review or deadline gates | Change capacity, ownership or scope before adding clients | Retainer growth that breaks delivery |
+| Delivery runs through a white-label or sub-contracting partner, or ownership, attribution or client access is ambiguous | Resolve it in the partner agreement before work starts, using [white-label and partner delivery](references/white-label-and-partner-delivery.md) | Hidden accountability, unpaid work and client conflict |
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
@@ -442,3 +444,4 @@ Link to these related skills when producing output. Read the linked skill before
 - [Agency growth roadmap](references/agency-growth-roadmap.md) — read when planning growth stages, niche, programmes, pricing, hiring and retention rituals
 - [Agency economics and governance](references/agency-economics-and-governance.md) — read when setting margins, client concentration limits, team structure, creative reviews, meetings and asset management
 - [Client retainer management](../playbook-client-retainer-management/SKILL.md) — scope, check-ins and value-first renewal
+- [White-label and partner delivery](references/white-label-and-partner-delivery.md) — read when evaluating, pricing, contracting, briefing or exiting a white-label or sub-contracting partnership with another agency

@@ -270,7 +270,7 @@ Obtain written client approval of the disclosure approach before any video is se
 
 ## Related skills
 
-- [biz-dev-video-outreach](../../../business-development/biz-dev-video-outreach/SKILL.md) (the source's companion; the consolidation map folds it into `biz-dev-lawful-prospecting-outreach` in S07) and [biz-dev-lawful-prospecting-outreach](../../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md) — the prospecting and outreach sequence (messaging strategy, follow-up cadence, CRM tracking, lawful contact) that avatar outreach videos feed into.
+- [Personalised video outreach](../../../business-development/biz-dev-lawful-prospecting-outreach/references/personalised-video-outreach.md) (the source's companion, formerly `biz-dev-video-outreach`, folded into `biz-dev-lawful-prospecting-outreach` in S07) and [biz-dev-lawful-prospecting-outreach](../../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md) — the prospecting and outreach sequence (messaging strategy, follow-up cadence, CRM tracking, lawful contact) that avatar outreach videos feed into.
 - [brand-voice-ai-training](../../../ai-marketing/brand-voice-ai-training/SKILL.md) — establish brand voice parameters before scripting avatars; the brand voice brief feeds the register instructions in each script.
 - [playbook-content-production](../../../playbooks/playbook-content-production/SKILL.md) — the full content production workflow that avatar social videos sit within.
 

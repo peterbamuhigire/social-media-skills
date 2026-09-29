@@ -1,6 +1,6 @@
 ---
 name: training-client-team
-description: Use when the main deliverable concerns a two-hour operational social-media handover workshop and workbook; use training-social-media-fundamentals when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns a two-hour operational social-media handover workshop and workbook, or a DIY content handbook for independent use after handover; use training-social-media-fundamentals when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,6 +14,7 @@ metadata:
 
 - Use this skill for a two-hour operational social-media handover workshop and workbook.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Use it when a client needs a self-contained DIY content handbook to plan, create in Canva and CapCut, caption, boost and review their own posts after handover (formerly `training-diy-content`).
 
 ## Do Not Use When
 
@@ -64,6 +65,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | Choice condition | Action | Failure or risk avoided |
 |---|---|---|
 | A strategy exists and staff need assigned operating competence | Train against the real workflow, roles, and escalation routes | Generic training cannot be applied after the workshop |
+| The client will work independently after handover | Produce the DIY handbook in [diy-content-handbook.md](references/diy-content-handbook.md) with repeatable checks that need no facilitator | A workshop outline is delivered as an unusable handbook |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [diy-content-handbook.md](references/diy-content-handbook.md) — read when the client will create and publish content without the consultant after handover (Canva, CapCut, calendar, captions, boosting, analytics, when to call the consultant).
 <!-- dual-compat-end -->
 
 ## How to Use This Skill

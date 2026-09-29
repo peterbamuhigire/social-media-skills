@@ -1,6 +1,6 @@
 ---
 name: biz-dev-lawful-prospecting-outreach
-description: Use when an agency or client needs a lawful B2B prospecting system covering sourcing and cleaning contact lists, consent and objection handling, cold and warm outreach sequences, speed-to-lead and partner introductions; use biz-dev-video-outreach for personalised video audits and 07-email-marketing-strategy for win-back of past customers.
+description: Use when an agency or client needs a lawful B2B prospecting system covering sourcing and cleaning contact lists, consent and objection handling, cold and warm outreach sequences, personalised video audits, speed-to-lead and partner introductions; use 07-email-marketing-strategy for win-back of past customers.
 metadata:
   portable: true
   compatible_with:
@@ -19,10 +19,10 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 - A plan proposes buying, scraping or "borrowing" contact lists.
 - Leads reply but are not called back quickly, or follow-up relies on guilt and pressure.
 - A joint-venture or referral partner could introduce the business to its audience.
+- A consultant wants to record a personalised video audit of one named prospect's website, Facebook Page or Instagram and send it as outreach with follow-ups (formerly `biz-dev-video-outreach`).
 
 ## Do Not Use When
 
-- The deliverable is a personalised video audit for a named prospect; use `biz-dev-video-outreach`.
 - The contacts are past customers to win back; use `07-email-marketing-strategy` (win-back and reactivation reference).
 - The work is consented marketing to an opted-in list (newsletters, broadcasts); use `07-email-marketing-strategy` or `playbook-sms-whatsapp-marketing`.
 - The request is to send messages now; this skill plans and drafts. Sending needs explicit authority.
@@ -31,7 +31,7 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Target niche and ideal-customer criteria | Agency or client owner; `biz-dev-practitioner-positioning` | Yes | Stop; agree the niche first |
+| Target niche and ideal-customer criteria | Agency or client owner; `biz-dev-positioning` | Yes | Stop; agree the niche first |
 | Proposed list sources and how each was collected | Client or list owner | Yes | Treat every unknown source as unusable |
 | Data-protection status (registration, lawful basis, privacy notice) | Client data-protection owner | Yes before any sending | Draft the plan only; mark compliance `not assessed` |
 | Proof assets (verified results, case studies, content offer) | Client, with consent records | Conditional | Use the content-offer play only; no result claims |
@@ -44,7 +44,7 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 3. Clean the list through at least five fit filters; split roles so one person researches and another calls.
 4. Choose the play sequence (High-value-job question → One-company-per-area only if the policy is real → Content offer) and draft plain-text messages with opt-out wording.
 5. Set the cadence: at most three value-adding touches, across at least three of four channels where lawful, with suppression after an objection.
-6. Define speed-to-lead: who answers, within what window, and the screen-video fallback.
+6. Define speed-to-lead: who answers, within what window, and the screen-video fallback. For a personalised video audit of a named prospect, follow the video outreach reference: 2–3 observations, permission before WhatsApp, at most two follow-ups.
 7. Review drafts against the ethics filter and anti-slop gate; correct any fake scarcity, guilt or unverified claim and rerun.
 8. Hand over the plan, message library, suppression process and weekly tracking sheet.
 
@@ -104,7 +104,7 @@ If the legal position for a market is unconfirmed, deliver the plan for business
 - [Outreach plays, cadence and scripts](references/outreach-plays-and-scripts.md) — read when drafting messages, sequences and partner approaches.
 - [Data-protection and platform checks for outreach](references/data-protection-checks-for-outreach.md) — read before any list is used or message sent.
 - [Direct marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md) — release check for every message.
-- [Personalised video outreach](../biz-dev-video-outreach/SKILL.md) — neighbour route.
+- [Personalised video outreach](references/personalised-video-outreach.md) — read when recording a video audit of one named prospect and writing its message and follow-ups.
 - [Win-back and reactivation](../../pipeline/07-email-marketing-strategy/references/win-back-and-reactivation.md) — neighbour route for past customers.
 - [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
 <!-- dual-compat-end -->

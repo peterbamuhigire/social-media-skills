@@ -248,7 +248,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `design-system-skills` | No standalone deck route is active |
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
 | `advertising/` skills (plain names) | Advertising strategy, media, creative, copy, search, testing, attribution | advertising-strategy-and-budget, media-planning, ad-copy-and-hook-lab |
-| `training-` | Training guides | training-client-team, training-diy-content |
+| `training-` | Training guides | training-client-team (absorbed `training-diy-content`), training-ai-foundations |
 | Plain name | Utility / generation | caption-writer, content-ideas, blog-writer |
 
 ### Skill Categories

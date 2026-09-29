@@ -1,4 +1,6 @@
-Parent: [training-ai-prompt-writing](../SKILL.md)
+Parent: [training-ai-foundations](../SKILL.md)
+
+Moved from skills/training/training-ai-prompt-writing/references/ on 2026-09-29 (Social Kaizen S07); preservation map: [training-ai-prompt-writing.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/training-ai-prompt-writing.md). Module context, required input and quality criteria: [prompt-writing-module.md](prompt-writing-module.md).
 
 ## Module 3: Copywriting Frameworks in Prompts (45 minutes)
 

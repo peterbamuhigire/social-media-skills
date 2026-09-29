@@ -1,6 +1,6 @@
 # Social Media Skills Engine
 
-The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 117 routed skills for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
+The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 110 routed skills for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
 
 The engine works to named standards rather than house opinion. Personal-data and direct-marketing work is checked against the Uganda Data Protection and Privacy Act 2019 and its 2021 Regulations, with the Kenyan, Rwandan and Tanzanian data-protection laws held in a dated source register (`docs/source-registers/source-register.json`, 63 records under a freshness gate); advertising claims against the Uganda Communications Commission Advertising Standards 2019 and the ICC Advertising and Marketing Communications Code; influencer disclosure against the FTC Endorsement Guides and ASA/CAP guidance; platform mechanics against the Meta, WhatsApp, TikTok, LinkedIn and Google policy pages in the same register; and web accessibility against WCAG 2.2. Method draws on named practitioner texts, among them Chaffey's RACE, Bodnar and Cohen's social ROI formula, Weinberg and Mares's Bullseye and Kotler's segmentation and positioning (full list under References). Every deliverable passes an anti-slop and human-review gate. The engine is for agency owners, account leads, strategists, media planners, copywriters, paid-media specialists, in-house marketing teams and founders who need reviewable, evidence-backed marketing decisions. It plans, specifies, writes, audits and reports; spending money, changing live ad accounts, publishing and contacting people always require explicit client authority.
 
@@ -54,13 +54,13 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 
 ## Capabilities
 
-117 active `SKILL.md` files across 15 category folders under `skills/` (a sixteenth, `frameworks/`, holds only inactive aliases since S06). The former category-level standards file `skills/content-writing/SKILL.md` is now an inactive alias; its standards live in `premium-commercial-writing`. Skills retired by the 2026-09-29 consolidation stay on disk as inactive `ALIAS.md` files; [docs/skill-aliases.yml](docs/skill-aliases.yml) routes each one to the active skill that now holds its content.
+110 active `SKILL.md` files across 15 category folders under `skills/` (a sixteenth, `frameworks/`, holds only inactive aliases since S06). The former category-level standards file `skills/content-writing/SKILL.md` is now an inactive alias; its standards live in `premium-commercial-writing`. Skills retired by the 2026-09-29 consolidation stay on disk as inactive `ALIAS.md` files; [docs/skill-aliases.yml](docs/skill-aliases.yml) routes each one to the active skill that now holds its content.
 
 | Category | Skills |
 |---|---:|
 | `advertising` | 9 |
 | `ai-marketing` | 6 |
-| `business-development` | 10 |
+| `business-development` | 6 |
 | `content-writing` | 7 |
 | `frameworks` | 0 (inactive aliases only) |
 | `language` | 4 |
@@ -68,13 +68,13 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `meta-utility` | 3 |
 | `pipeline` | 13 |
 | `platforms` | 8 |
-| `playbooks` | 18 |
+| `playbooks` | 17 |
 | `policies` | 1 |
 | `sectors` | 2 |
 | `seo-discovery` | 2 |
 | `strategy` | 15 |
-| `training` | 6 |
-| **Total** | **117** |
+| `training` | 4 |
+| **Total** | **110** |
 
 | Category | Skill | What it does |
 |---|---|---|
@@ -93,15 +93,11 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `ai-marketing` | `ai-use-case-mapping` | Maps and prioritises AI use cases across the marketing workflow. |
 | `ai-marketing` | `anti-ai-slop` | Applies the engine's anti-slop writing rules to any deliverable. |
 | `ai-marketing` | `brand-voice-ai-training` | Encodes a brand voice into AI instructions, examples and checks. |
-| `business-development` | `biz-dev-beyond-agency-offer` | Designs a low-risk first engagement offer for new agency clients. |
-| `business-development` | `biz-dev-case-study` | Writes evidence-backed client case studies with permissions. |
 | `business-development` | `biz-dev-credentials` | Assembles an agency credentials pack from verifiable proof. |
 | `business-development` | `biz-dev-lawful-prospecting-outreach` | Builds lawful B2B prospecting: lists, consent, sequences and speed-to-lead. |
 | `business-development` | `biz-dev-positioning` | Defines agency niche, positioning and differentiation. |
-| `business-development` | `biz-dev-practitioner-positioning` | Positions an individual practitioner with a proof architecture. |
 | `business-development` | `biz-dev-pricing-menu` | Builds a priced services menu with scope and packages. |
 | `business-development` | `biz-dev-proposal` | Drafts client proposals and statements of work. |
-| `business-development` | `biz-dev-video-outreach` | Plans personalised video audit outreach to prospects. |
 | `business-development` | `eac-call-for-applications-campaign` | Donor-compliant call-for-applications campaigns across the East African Community. |
 | `content-writing` | `blog-writer` | Writes publication-ready blog posts to the engine's standards. |
 | `content-writing` | `caption-writer` | Writes platform-fit social captions with calls to action. |
@@ -168,7 +164,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `playbooks` | `playbook-social-media-policy` | Playbook for drafting an organisational social media policy. |
 | `playbooks` | `playbook-social-selling` | Social selling playbook for relationship-led sales. |
 | `playbooks` | `playbook-viral-content-design` | Playbook for designing shareable content with evidence limits. |
-| `playbooks` | `playbook-white-label-partnerships` | White-label partnership playbook for agencies. |
 | `policies` | `policy-ai-content-ethics` | Drafts or reviews an organisational AI content ethics policy. |
 | `sectors` | `healthcare` | Healthcare marketing: patient-safe content, trust and misinformation response. |
 | `sectors` | `hospitality-hotel-restaurant` | Hospitality marketing for hotels, lodges, restaurants, venues and catering. |
@@ -190,9 +185,7 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `strategy` | `strategy-video-content` | Cross-platform organic video formats, hooks, series and scripts. |
 | `strategy` | `traction-channel-bullseye` | Chooses acquisition channels to test and fund from nineteen traction channels. |
 | `training` | `training-ai-foundations` | Beginner AI literacy training for marketing teams. |
-| `training` | `training-ai-prompt-writing` | Practical prompt-writing training with exercises. |
 | `training` | `training-client-team` | Two-hour social-media handover workshop and workbook. |
-| `training` | `training-diy-content` | Self-contained client handbook for creating and publishing content. |
 | `training` | `training-smartphone-video-production` | Hands-on smartphone video shooting, sound, light and editing. |
 | `training` | `training-social-media-fundamentals` | Beginner social-media concepts, safety and measurement. |
 

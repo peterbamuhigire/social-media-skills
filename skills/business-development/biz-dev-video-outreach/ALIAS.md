@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/business-development/biz-dev-lawful-prospecting-outreach through docs/skill-aliases.yml; content preserved in biz-dev-lawful-prospecting-outreach/references/personalised-video-outreach.md. Retained for historical content.
 # Personalised Video Audit Outreach
 
 <!-- dual-compat-start -->

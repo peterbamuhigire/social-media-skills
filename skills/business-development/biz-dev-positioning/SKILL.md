@@ -1,6 +1,6 @@
 ---
 name: biz-dev-positioning
-description: Use when Business Development — Positioning is needed to produce a positioning statement and proof architecture for social-media or digital-marketing work; use `biz-dev-proposal` when its narrower outcome is requested.
+description: Use when Business Development — Positioning is needed to produce a positioning statement and proof architecture, including a consultant's own practice, for social-media or digital-marketing work; use `biz-dev-proposal` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **positioning statement and proof architecture** and the supplied brief falls within business development — positioning.
+- Position my own consultancy practice as a social media consultant: pick my niche, sharpen my USP, collect testimonials, plan LinkedIn thought leadership and build a referral system (formerly `biz-dev-practitioner-positioning`).
 
 ## Do Not Use When
 - Use `biz-dev-proposal` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The subject is the consultant's own practice, not a client firm | Apply [practitioner positioning](references/practitioner-positioning.md): niche and viability tests, first-person USP, proof schedule, LinkedIn plan and referral system. | Firm-level positioning that never reaches the consultant's WhatsApp, calls or proposals. |
 
 ## Workflow
 1. Confirm the exact positioning statement and proof architecture, consumer, market, channel and approval boundary; route to `biz-dev-proposal` if it is the closer match.
@@ -71,6 +73,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [biz-dev-proposal](../biz-dev-proposal/SKILL.md) is the nearest routing comparison for this skill.
+- [practitioner-positioning](references/practitioner-positioning.md) — read when a consultant is positioning their own practice: niche, USP testing, social proof schedule, LinkedIn plan and referrals.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
 

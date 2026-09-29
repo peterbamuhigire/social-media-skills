@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/training/training-client-team through docs/skill-aliases.yml; content preserved in training-client-team/references/diy-content-handbook.md. Retained for historical content.
 # DIY Content Creation Handbook
 
 <!-- dual-compat-start -->

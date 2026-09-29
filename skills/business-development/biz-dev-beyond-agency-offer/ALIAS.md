@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/business-development/biz-dev-pricing-menu through docs/skill-aliases.yml; content preserved in biz-dev-pricing-menu/references/risk-reversed-entry-offer.md. Retained for historical content.
 # The Risk-Free "First Date" Engagement Offer
 
 <!-- dual-compat-start -->

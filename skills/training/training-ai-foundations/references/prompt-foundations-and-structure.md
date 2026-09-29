@@ -1,4 +1,6 @@
-Parent: [training-ai-prompt-writing](../SKILL.md)
+Parent: [training-ai-foundations](../SKILL.md)
+
+Moved from skills/training/training-ai-prompt-writing/references/ on 2026-09-29 (Social Kaizen S07); preservation map: [training-ai-prompt-writing.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/training-ai-prompt-writing.md). Module context, required input and quality criteria: [prompt-writing-module.md](prompt-writing-module.md).
 
 ## Module 1: Why Prompt Quality Matters (30 minutes)
 
@@ -55,7 +57,7 @@ Ask participants: "What is the worst AI output you have seen or produced? What d
 
 ## Module 2: The Alpha-Beta-Gamma-Delta-Epsilon Framework (45 minutes)
 
-*Based on Upadhyay (2024), *Generative AI for Marketing*, Chapter 3.*
+Based on Upadhyay, M.A. (2024) *Generative AI for Marketing*, Packt.
 
 ### Learning Objective
 

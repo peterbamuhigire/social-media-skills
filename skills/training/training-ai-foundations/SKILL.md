@@ -1,6 +1,6 @@
 ---
 name: training-ai-foundations
-description: Use when the main deliverable concerns beginner AI literacy for marketing teams, safe use, limitations, and supervised practice; use training-ai-prompt-writing when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns beginner AI literacy or follow-on prompt-writing training for marketing teams, safe use, limitations, and supervised practice; use training-client-team when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,10 +14,11 @@ metadata:
 
 - Use this skill for beginner AI literacy for marketing teams, safe use, limitations, and supervised practice.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Use it when a marketing team needs hands-on prompt-writing training: building, critiquing and iterating prompts with the Alpha-Beta-Gamma-Delta-Epsilon structure and copywriting frameworks such as PAS and AIDA (formerly `training-ai-prompt-writing`).
 
 ## Do Not Use When
 
-- Use `training-ai-prompt-writing` when that neighbouring workflow owns the main decision or deliverable.
+- Use `training-client-team` when an operational social-media handover workshop or DIY content handbook owns the main decision or deliverable; use `content-writing/prompt-engineering-library` when the deliverable is a prompt template library rather than training.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +31,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `training-ai-prompt-writing`.
+1. Confirm the decision, consumer, market, and evidence boundary; decide whether the team needs foundations, the prompt-writing follow-on module, or both in sequence.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
@@ -64,6 +65,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | Choice condition | Action | Failure or risk avoided |
 |---|---|---|
 | Learners lack a shared AI mental model | Teach literacy and risk before prompt technique | Prompt recipes create confidence without judgement |
+| Learners understand basic AI limits and need repeatable prompting practice | Deliver the prompt-writing module from [prompt-writing-module.md](references/prompt-writing-module.md) with worked exercises, human review and verified facts | Participants copy prompts without checking outputs |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [prompt-writing-module.md](references/prompt-writing-module.md) — read when the team needs the follow-on prompt-writing session (Alpha-Beta-Gamma-Delta-Epsilon, copywriting frameworks, iterative refinement); it routes to [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md) and [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md).
 <!-- dual-compat-end -->
 
 ## How to Use This Skill
@@ -137,7 +140,7 @@ Load [tools-and-human-review.md](references/tools-and-human-review.md) for this 
 
 ## Related Skills
 
-- `training-ai-prompt-writing` — next-level training on the Alpha-Beta-Gamma-Delta-Epsilon prompt structure and copywriting frameworks; deliver this session after AI Foundations
+- [prompt-writing-module.md](references/prompt-writing-module.md) — next-level training on the Alpha-Beta-Gamma-Delta-Epsilon prompt structure and copywriting frameworks; deliver this session after AI Foundations
 - `anti-ai-slop` (humanising rewrite passes) — full quality control process, editing checklist, and banned vocabulary reference for AI-generated content
 - `brand-voice-ai-training` — how to train AI tools on a specific brand voice
 - `prompt-engineering-library` — ready-made prompt templates for common marketing content types

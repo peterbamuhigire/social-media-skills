@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/training/training-ai-foundations through docs/skill-aliases.yml; content preserved in training-ai-foundations/references/prompt-writing-module.md. Retained for historical content.
 # AI Prompt Writing for Marketing Teams — Training Guide
 
 <!-- dual-compat-start -->

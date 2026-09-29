@@ -27,7 +27,7 @@ class EngineQualityTests(unittest.TestCase):
     def test_active_count_agrees_and_respects_cap(self):
         # S01-T09: the count is no longer hard-coded. quality-baseline.json, the alias
         # registry and the filesystem must agree, and the count must be within hard_cap
-        # unless the registry declares the consolidation window (removed in S07).
+        # strictly: the S02-S07 consolidation window was removed in S07 (S07-T-CAP).
         import yaml
         baseline = json.loads((ROOT / "quality-baseline.json").read_text(encoding="utf-8"))
         registry = yaml.safe_load((ROOT / "docs" / "skill-aliases.yml").read_text(encoding="utf-8"))
@@ -35,8 +35,9 @@ class EngineQualityTests(unittest.TestCase):
         active = len(list((ROOT / "skills").rglob("SKILL.md")))
         self.assertEqual(active, baseline["active_skill_count"])
         self.assertEqual(active, policy["current_active_skill_count"])
-        if active > policy["hard_cap"]:
-            self.assertTrue(policy.get("consolidation_until"), "active count exceeds hard_cap outside a consolidation window")
+        # S07-T-CAP: the consolidation window is closed; the cap is enforced strictly.
+        self.assertNotIn("consolidation_until", policy, "the S02-S07 consolidation window closed in S07")
+        self.assertLessEqual(active, policy["hard_cap"], "active count exceeds hard_cap")
 
     def test_validator_flags_alias_links_and_cap(self):
         # S01-T07 synthetic negatives: links to a retired alias, and a cap breach.
