@@ -2,6 +2,7 @@ schema_version: "1.0"
 engine_id: social-media-skills
 display_name: Digital Marketing and Advertising (social-media-skills)
 contract_version: "1.0"
+version: "1.1.0"
 router:
   path: AGENTS.md
 skills:
@@ -26,3 +27,10 @@ source_of_truth:
   router: AGENTS.md
   skills: skills/**/SKILL.md
   references: references/**
+invariants:
+  - id: british-english
+    phrase: "Use British English throughout unless the target market or requested language requires otherwise."
+  - id: book-extraction-ban
+    phrase: "Never store book extractions or book summaries in this repository (owner rule, 2026-09-23)."
+  - id: not-assessed
+    phrase: "Missing source, rights, platform, render, approval, or performance evidence is `NOT ASSESSED`, never a pass."
