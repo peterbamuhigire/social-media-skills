@@ -9,7 +9,7 @@ metadata:
 ---
 # Social Media Policy
 
-> **Consultant note:** This document is a starting framework based on established professional practice. It does not constitute legal advice. Advise the client to have this policy reviewed by their legal counsel and aligned with their existing employment contracts before issuing it to staff. In Uganda and East Africa, ensure alignment with the Computer Misuse Act (2011, amended 2022) and any applicable sector-specific regulations.
+> **Consultant note:** This document is a starting framework based on established professional practice. It does not constitute legal advice. Advise the client to have this policy reviewed by their legal counsel and aligned with their existing employment contracts before issuing it to staff. In Uganda, align with the Computer Misuse Act 2011 as it stands after the Constitutional Court ruling of 17 March 2026: the Computer Misuse (Amendment) Act 2022 is void, several provisions of the principal Act and criminal libel were struck, and the remainder of the principal Act remains in force (register UG-CMA-2022-VOID-2026; verify the exact section list against the judgment on ULII before relying on it). Across East Africa, align with any applicable sector-specific regulations.
 
 ---
 

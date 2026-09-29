@@ -170,7 +170,7 @@ Funk (2013) identifies staff certification as a foundational governance control:
 |---|---|---|
 | 1. Brand voice and tone | Organisation's tone of voice, messaging hierarchy, what to say and what to avoid | Self-study + written test |
 | 2. Crisis protocol | Escalation path, response timelines, holding statement templates, what not to do | Workshop + scenario exercise |
-| 3. Legal and compliance | Computer Misuse Act (Uganda, 2011/2022); defamation risk; copyright and image rights; disclosure rules | Self-study + written test |
+| 3. Legal and compliance | Uganda Computer Misuse Act 2011 as it stands after the 17 Mar 2026 ruling (the 2022 Amendment Act is void; several provisions and criminal libel were struck; verify the section list on ULII, register UG-CMA-2022-VOID-2026); defamation risk (criminal libel struck in Uganda; civil liability and other speech offences remain); copyright and image rights; disclosure rules | Self-study + written test |
 | 4. Platform mechanics | How each active platform works: scheduling, admin settings, Stories vs. feed, DM management | Practical exercise |
 | 5. Approval workflow | The content approval process end to end: draft → review → approval → publishing → reporting | Practical exercise |
 

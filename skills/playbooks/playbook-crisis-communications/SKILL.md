@@ -38,6 +38,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| The market faces an election, national event or platform block (for example Uganda) | Add the shutdown contingency: offline holding statements, an SMS or radio fallback and a paid-media pause rule (see [internet shutdown contingency](references/internet-shutdown-contingency.md)) | Going silent when mobile internet or social media is suspended |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -75,6 +76,7 @@ For health or NGO crises involving misinformation, impersonation, or account
   targeting, load [institutional health communication and infodemic response](../../sectors/healthcare/references/institutional-health-communication-and-infodemic-response.md).
 
 ## References
+- [Internet shutdown and platform-block contingency](references/internet-shutdown-contingency.md) — read when the plan covers an election period, a national event or a platform that may be blocked.
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.

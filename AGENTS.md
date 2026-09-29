@@ -137,6 +137,10 @@ If two skills overlap:
 2. Use cross-cutting language or writing skills alongside it.
 3. Consult companion skills named in the chosen skill's `References` section before inventing new structure.
 
+### Retired skill routes
+
+A retired skill keeps its folder, but its `SKILL.md` is renamed `ALIAS.md` and is inactive. Never execute an `ALIAS.md`: look up its folder in `docs/skill-aliases.yml` (`inactive_skill_aliases`) and use the active owner it routes to; the retired skill's unique content lives in that owner's `references/`. The active catalogue is capped at 120 skills (`active_skill_policy.hard_cap`), checked by `scripts/check_skill_aliases.py` (Social Kaizen 2026-09-29, decision D-SK-03, dev-engine parity).
+
 ## How To Execute A Skill
 
 1. Read the selected skill's frontmatter and opening purpose text.
@@ -305,7 +309,7 @@ If another market is specified, replace those assumptions rather than keeping Ug
 | Platform | Role in EA |
 |---|---|
 | WhatsApp | Dominant messaging channel in East Africa; no source measures its share of smartphone users, so state no percentage unless it is a named, dated figure with its base (best-attributed: Pew 2023 adults, 8-country median 73%; Yazi unattributed internet-user estimates) and check the client's own audience data (register MK-03, WA-01, 2026-09-24) |
-| Facebook | Broad reach and community; in Uganda, Meta ad-reach figures were measured while Facebook was blocked — treat them as a floor (register MK-02) |
+| Facebook | Broad reach and community. In Uganda the status is unstable; verify access at the campaign date (access reported restored on 13 Jun 2026 after the January 2021 block, no UCC statement found; register UG-FACEBOOK-ACCESS-2026). Meta ad-reach figures for Uganda were measured during the block, so treat them as a floor (register MK-02) |
 | Instagram | Urban, 18–35, aspirational content |
 | TikTok | Fast-growing, 16–30, entertainment-first |
 | YouTube | Research, tutorial, long-form video |

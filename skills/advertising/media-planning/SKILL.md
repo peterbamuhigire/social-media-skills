@@ -85,6 +85,7 @@ If audience or rate data is unavailable, return a qualified plan: medium roles, 
 | Competitors avoid a medium entirely | Test before assuming it is an untapped opportunity | Buying a medium that does not pay |
 | Delivery claims come only from the seller | Require audit, logs or platform exports | Paying for undelivered spots or impressions |
 | Uganda Meta ad-reach figures used for sizing | Treat as a floor, not the audience size | Under-planning because the figure reflects a blocked-platform period (register MK-02) |
+| The flight overlaps an election or national event, or relies on a platform whose access is unstable (Facebook in Uganda) | Verify access at the booking date, add a pause rule and a non-internet medium (radio, SMS, outdoor), and flag outage days in the post-buy | Paying for undelivered impressions during a shutdown (registers UG-INTERNET-SHUTDOWN-2026, UG-FACEBOOK-ACCESS-2026) |
 
 ## Quality Standards
 

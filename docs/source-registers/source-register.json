@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-29",
   "records": [
     {
       "id": "GOOGLE-AI-SEARCH-GUIDE-2026",
@@ -1037,7 +1037,7 @@
       "freshness_class": "time-sensitive",
       "support_status": "verified",
       "uncertainty": "Ad reach is not users; not comparable year on year.",
-      "verification_note": "Kaizen register MK-01/MK-02: published 8 Nov 2025. Uganda Meta ad reach was measured while Facebook was blocked - use it as a floor, not an audience size. No WhatsApp ad-reach figure exists (MK-03 NOT_ASSESSED)."
+      "verification_note": "Kaizen register MK-01/MK-02: published 8 Nov 2025. Uganda Meta ad reach was measured while Facebook was blocked - use it as a floor, not an audience size. No WhatsApp ad-reach figure exists (MK-03 NOT_ASSESSED). Facebook access in Uganda since 13 Jun 2026: status unstable; verify at the campaign date (UG-FACEBOOK-ACCESS-2026, added 2026-09-29)."
     },
     {
       "id": "UG-DIGITAL-TAX-ADS-2026",
@@ -1266,6 +1266,292 @@
       "support_status": "verified",
       "uncertainty": "Undated page fetched live 2026-09-25; session self-report for the active model.",
       "verification_note": "Kaizen register MR-01 to MR-03: Claude Haiku 4.5 retirement not sooner than 2026-10-15; Fable 5.1, Opus 5.5 and Sonnet 5 later. Engine skills stay model-agnostic; no skill names Haiku 4.5. Codex/OpenAI pins are out of scope for Claude sessions."
+    },
+    {
+      "id": "UG-CMA-2022-VOID-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Constitutional Court declares the Computer Misuse (Amendment) Act 2022 void and strikes criminal defamation",
+      "publisher": "Committee to Protect Journalists (CPJ); CIPESA",
+      "tier": 2,
+      "url": "https://cpj.org/2026/03/uganda-declares-criminal-defamation-unconstitutional-strikes-down-cybercrime-law/",
+      "verified_on": "2026-09-29",
+      "review_every_days": 60,
+      "next_review": "2026-11-28",
+      "use_for": [
+        "Uganda cyber-law citations in policies, governance training and influencer checks"
+      ],
+      "publication_date": "2026-03-19",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; judgment of 17 Mar 2026 in Consolidated Constitutional Petitions 34, 37 and 42 of 2022 (reported as Alternative Digitalk Ltd and others v Attorney General [2026] UGCC 3)",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Secondary reports only (CPJ 19 Mar 2026; CIPESA 18 Mar 2026, https://cipesa.org/2026/03/cipesa-welcomes-the-annulment-of-sections-of-ugandas-computer-misuse-act/). The judgment on ULII was not readable on 2026-09-29 (automated access blocked): NOT_ASSESSED. Appeal and any re-enactment bill: NOT_ASSESSED.",
+      "verification_note": "Read live 2026-09-29. Five-justice Constitutional Court, unanimous, 17 Mar 2026: the whole Computer Misuse (Amendment) Act 2022 is void because Parliament passed it without ascertaining quorum (Rule 24(3) of the Rules of Procedure; Articles 88-89 of the Constitution). Penal Code ss.162-163 (criminal libel) struck. The principal Computer Misuse Act 2011 otherwise remains in force. Not legal advice."
+    },
+    {
+      "id": "UG-CMA-SECTIONS-STRUCK-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Court nullifies provisions of the Computer Misuse law over rights violations",
+      "publisher": "Daily Monitor (Nation Media Group); The Independent (Uganda)",
+      "tier": 3,
+      "url": "https://www.monitor.co.ug/uganda/news/national/court-nullifies-10-provisions-of-computer-misuse-law-over-rights-violations-5393654",
+      "verified_on": "2026-09-29",
+      "review_every_days": 60,
+      "next_review": "2026-11-28",
+      "use_for": [
+        "section list for the Uganda Computer Misuse Act after the 2026 ruling"
+      ],
+      "publication_date": "2026-03-18",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; provisions of the Computer Misuse Act, 2023 revised edition numbering",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Monitor counts 10 provisions without listing them; The Independent (https://www.independent.co.ug/court-castrates-computer-misuse-act-2022-amendment-declared-illegal/) lists ss.11, 23, 26, 27, 28, 29. Section numbers per secondary reports; judgment NOT_ASSESSED.",
+      "verification_note": "Read live 2026-09-29: the court found some provisions overly broad, vague and ambiguous (Articles 29 and 41) and issued a permanent injunction against enforcing them; reported sections ss.11, 23, 26, 27, 28 and 29 of the 2023 edition (data interception, information about children, ridicule or hostility, unsolicited information, malicious information, anonymous communication). Verify against the judgment before client use."
+    },
+    {
+      "id": "UG-CMA-AG-DIRECTIVE-2026",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Attorney General halts arrests and prosecutions under the nullified Computer Misuse provisions",
+      "publisher": "Daily Monitor; The Observer (Uganda)",
+      "tier": 3,
+      "url": "https://www.monitor.co.ug/uganda/news/national/ag-halts-arrests-based-on-nullified-computer-misuse-law-5403596",
+      "verified_on": "2026-09-29",
+      "review_every_days": 60,
+      "next_review": "2026-11-28",
+      "use_for": [
+        "enforcement status of the struck Computer Misuse provisions"
+      ],
+      "publication_date": "2026-03-26",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; Attorney General communication of 18 Mar 2026 as reported 26-27 Mar 2026",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Secondary reports (Monitor 26 Mar 2026; Observer 27 Mar 2026, https://observer.ug/news/govt-concedes-defeat-halts-enforcement-of-nullified-computer-misuse-act-provisions/). Whether any appeal was later filed or a new bill tabled: NOT_ASSESSED.",
+      "verification_note": "Read live 2026-09-29: the Attorney General directed that no new arrests be made and pending prosecutions under ss.11, 23, 26-29 and Penal Code s.162 be terminated, advised against appealing, and recommended re-enactment by Parliament with proper procedure. Existing convictions stand."
+    },
+    {
+      "id": "UG-CMA-S25-2023",
+      "domain": "legal",
+      "jurisdiction": "Uganda",
+      "title": "Constitutional Court declares section 25 (offensive communication) of the Computer Misuse Act void",
+      "publisher": "Daily Monitor",
+      "tier": 3,
+      "url": "https://www.monitor.co.ug/uganda/news/national/court-declares-section-25-of-computer-misuse-null-and-void-4081782",
+      "verified_on": "2026-09-29",
+      "review_every_days": 181,
+      "next_review": "2027-03-29",
+      "use_for": [
+        "history of struck Computer Misuse provisions"
+      ],
+      "publication_date": "2023-01-11",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; ruling of 11 Jan 2023 (reported as Andrew Karamagi and Robert Shaka v Attorney General)",
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "Secondary report; judgment not opened.",
+      "verification_note": "Read live 2026-09-29: five justices unanimously found s.25 (using a computer to wilfully disturb the peace of another; up to 5 years) vague and overbroad."
+    },
+    {
+      "id": "UG-FACEBOOK-ACCESS-2026",
+      "domain": "platform",
+      "jurisdiction": "Uganda",
+      "title": "Uganda finally unblocks Facebook after 6 years",
+      "publisher": "Pulse Uganda",
+      "tier": 3,
+      "url": "https://www.pulse.ug/story/uganda-finally-unblocks-facebook-after-6-years-2026061306180735122",
+      "verified_on": "2026-09-29",
+      "review_every_days": 30,
+      "next_review": "2026-10-29",
+      "use_for": [
+        "Facebook status in Uganda for router defaults, platform-facebook and media planning"
+      ],
+      "publication_date": "2026-06-13",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; consumer access to Facebook without a VPN from 13 Jun 2026",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Trade press and one minister's post only; the article states no UCC statement confirmed whether the lifting is permanent. No later official confirmation found on 2026-09-29 (searches returned no UCC or wire-service source). Official status NOT_ASSESSED: do not assert Facebook as blocked or as open.",
+      "verification_note": "Read live 2026-09-29: users on several networks reported normal access without a VPN on 13 Jun 2026; Minister of Local Government Balaam Barugahara welcomed the 'unfreezing'. Facebook had been blocked since January 2021. Engine wording: status unstable; verify at the campaign date."
+    },
+    {
+      "id": "UG-INTERNET-SHUTDOWN-2026",
+      "domain": "platform",
+      "jurisdiction": "Uganda",
+      "title": "UCC public update: restoration of public internet access, 18 January 2026",
+      "publisher": "Uganda Communications Commission",
+      "tier": 1,
+      "url": "https://www.ucc.co.ug/public-update-18th-january-2026-press-briefing-to-update-the-country/",
+      "verified_on": "2026-09-29",
+      "review_every_days": 91,
+      "next_review": "2026-12-29",
+      "use_for": [
+        "internet-shutdown contingency in crisis communications and media planning"
+      ],
+      "publication_date": "2026-01-18",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; the 2026 general-election suspension of public internet access",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "The UCC page confirms the restoration and rationale but not the start date or what stayed restricted; the start date (13 Jan 2026) comes from trade press (UG-SOCIAL-RESTORATION-2026). The full press-briefing PDF was not read.",
+      "verification_note": "Read live 2026-09-29: UCC directed restoration of public internet access effective 18 Jan 2026 after the general elections, describing the temporary restriction as a proportionate measure against misinformation, electoral interference and incitement, with essential services protected."
+    },
+    {
+      "id": "UG-SOCIAL-RESTORATION-2026",
+      "domain": "platform",
+      "jurisdiction": "Uganda",
+      "title": "Muhoozi confirms social media restoration",
+      "publisher": "Pulse Uganda",
+      "tier": 3,
+      "url": "https://www.pulse.ug/story/muhoozi-confirms-social-media-restoration-2026012608092445999",
+      "verified_on": "2026-09-29",
+      "review_every_days": 91,
+      "next_review": "2026-12-29",
+      "use_for": [
+        "duration of the 2026 election social-media restriction"
+      ],
+      "publication_date": "2026-01-26",
+      "accessed_on": "2026-09-29",
+      "scope": "Uganda; social-media restriction 13-26 Jan 2026",
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "Trade press; no UCC statement for the social-media restoration was found.",
+      "verification_note": "Read live 2026-09-29: UCC ordered a nationwide suspension of mobile internet and data services on 13 Jan 2026, ahead of the 15 Jan 2026 general election; on 26 Jan 2026 the Chief of Defence Forces announced that all social media would be fully restored that day."
+    },
+    {
+      "id": "KE-BCLB-GAMBLING-ADS-2025",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "State bans use of celebrities and influencers in gambling adverts",
+      "publisher": "The Star (Kenya)",
+      "tier": 3,
+      "url": "https://www.the-star.co.ke/news/2025-05-30-state-bans-use-of-celebs-influencers-in-gambling-ads",
+      "verified_on": "2026-09-29",
+      "review_every_days": 91,
+      "next_review": "2026-12-29",
+      "use_for": [
+        "gambling and betting briefs involving creators in Kenya"
+      ],
+      "publication_date": "2025-05-30",
+      "accessed_on": "2026-09-29",
+      "scope": "Kenya; BCLB advertising directive of 29 May 2025",
+      "freshness_class": "time-sensitive",
+      "support_status": "partial",
+      "uncertainty": "Secondary report; the BCLB directive text was not read (earlier attempts blocked). Whether it was later revised: NOT_ASSESSED.",
+      "verification_note": "Read live 2026-09-29: BCLB directive bans celebrities, influencers and content creators in gambling adverts; adverts go to BCLB for approval and then to KFCB for classification; placement limits near schools and places of worship; age and responsible-gambling messages required; no testimonials or gambling-as-income depictions."
+    },
+    {
+      "id": "KE-ASBK-CODE-2003",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "Code of Advertising Practice and Direct Marketing (Part I)",
+      "publisher": "Advertising Standards Body of Kenya",
+      "tier": 1,
+      "url": "https://advertisingstandards.or.ke/wp-content/uploads/2022/02/ASC-CAP-Part-I.pdf",
+      "verified_on": "2026-09-29",
+      "review_every_days": 181,
+      "next_review": "2027-03-29",
+      "use_for": [
+        "Kenya advertising-code checks for recognisability, testimonials and substantiation"
+      ],
+      "publication_date": "2003-04-01",
+      "accessed_on": "2026-09-29",
+      "scope": "Kenya; self-regulatory code, April 2003 edition as hosted by ASBK",
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "The PDF is the April 2003 edition; whether ASBK applies a later edition is NOT_ASSESSED. Self-regulatory, not statute.",
+      "verification_note": "Read live 2026-09-29 (PDF text extracted): contents include substantiation (10.1), testimonials (13.0), advertisements aimed at children (21.0) and recognition of an advertisement (24.0); produced by the Marketing Society of Kenya and the Association of Practitioners in Advertising."
+    },
+    {
+      "id": "KE-CA-POLITICAL-BULK-SMS-2017",
+      "domain": "legal",
+      "jurisdiction": "Kenya",
+      "title": "Guidelines on prevention of dissemination of undesirable bulk and premium-rate political messages and political social-media content",
+      "publisher": "Communications Authority of Kenya and National Cohesion and Integration Commission",
+      "tier": 1,
+      "url": "https://www.ca.go.ke/sites/default/files/2023-06/Guidelines-on-Prevention-of-Dissemination-of-Undesirable-Bulk-and-Premium-Rate-Political-Messages-and-Political-Social-Media-Content-Via-Electronic-Networks-1.pdf",
+      "verified_on": "2026-09-29",
+      "review_every_days": 181,
+      "next_review": "2027-03-29",
+      "use_for": [
+        "Kenya political bulk SMS and political social-media content"
+      ],
+      "publication_date": "2017-07-01",
+      "accessed_on": "2026-09-29",
+      "scope": "Kenya; political bulk and premium-rate messages and political social-media content only (July 2017 guideline, hosted 2023-06)",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Scope is political content; it is not a general commercial bulk-SMS rule. The effective-date field in the PDF is blank.",
+      "verification_note": "Read live 2026-09-29 (PDF text extracted): clause 10.1 bars unsolicited bulk or premium-rate content and requires express opt-in and a functional opt-out; clause 9.2 limits bulk content to 08:00-17:00; clause 8.2 requires the sender's name; clause 7 requires 48-hour pre-vetting by the network; clause 13.5 requires disclosure of sponsored political content."
+    },
+    {
+      "id": "TZ-PDPA-REGISTRATION-2026",
+      "domain": "legal",
+      "jurisdiction": "Tanzania",
+      "title": "Data controllers and processors registration in Tanzania begins",
+      "publisher": "Victory Attorneys & Consultants (legal alert)",
+      "tier": 3,
+      "url": "https://victoryattorneys.co.tz/2024/03/28/legal-alert-data-controllers-processors-registration-in-tanzania-begins-as-the-personal-data-protection-commission-becomes-fully-operational/",
+      "verified_on": "2026-09-29",
+      "review_every_days": 91,
+      "next_review": "2026-12-29",
+      "use_for": [
+        "Tanzania data-controller registration before campaigns that collect personal data"
+      ],
+      "publication_date": "2024-03-28",
+      "accessed_on": "2026-09-29",
+      "scope": "Tanzania; Personal Data Protection Act 2022 registration duty (s.14 as quoted in secondary sources)",
+      "freshness_class": "context-bound",
+      "support_status": "partial",
+      "uncertainty": "Law-firm alert; the PDPC copy of the Act failed on 2026-09-29 (certificate mismatch, then 404) and TanzLII returned 403. Statute text NOT_ASSESSED; existing record TZ-PDPA remains the primary pointer.",
+      "verification_note": "Read live 2026-09-29: no person may collect or process personal data without registering with the PDPC as a data controller or processor; certificates are valid for 5 years; registration runs through the PDPC RCMIS system."
+    },
+    {
+      "id": "RW-DPP-REGISTRATION-2026",
+      "domain": "legal",
+      "jurisdiction": "Rwanda",
+      "title": "Registration guide for data controller and processor",
+      "publisher": "NCSA Data Protection and Privacy Office",
+      "tier": 1,
+      "url": "https://dpo.gov.rw/fileadmin/DPO/ComplianceTools/registration-guide-for-data-controller-and-processor.pdf",
+      "verified_on": "2026-09-29",
+      "review_every_days": 181,
+      "next_review": "2027-03-29",
+      "use_for": [
+        "Rwanda data-controller and processor registration"
+      ],
+      "publication_date": "2022-03-31",
+      "accessed_on": "2026-09-29",
+      "scope": "Rwanda; Law No 058/2021 of 13/10/2021, article 29",
+      "freshness_class": "context-bound",
+      "support_status": "verified",
+      "uncertainty": "Official regulator guide; the guide's own publication date is not stated (the date recorded is the office's establishment, 31 Mar 2022).",
+      "verification_note": "Read live 2026-09-29 (PDF text extracted): article 29 requires anyone who intends to be a data controller or processor to register with the supervisory authority; registration with the NCSA Data Protection and Privacy Office is mandatory, including for some controllers not established in Rwanda that process data there."
+    },
+    {
+      "id": "TZ-TCRA-ONLINE-CONTENT-AMEND-2021",
+      "domain": "legal",
+      "jurisdiction": "Tanzania",
+      "title": "The Electronic and Postal Communications (Online Content) (Amendment) Regulations, 2021",
+      "publisher": "Tanzania Communications Regulatory Authority",
+      "tier": 1,
+      "url": "https://www.tcra.go.tz/news/the-electronic-and-postal-communications-online-content-amendment-regulations-20",
+      "verified_on": "2026-09-29",
+      "review_every_days": 181,
+      "next_review": "2027-03-29",
+      "use_for": [
+        "Tanzania online-content licensing checks"
+      ],
+      "publication_date": "2021-08-23",
+      "accessed_on": "2026-09-29",
+      "scope": "Tanzania; amendment regulations published 23 Aug 2021 (page updated 28 Jul 2026)",
+      "freshness_class": "context-bound",
+      "support_status": "not_assessed",
+      "uncertainty": "The page lists only a draft PDF; the amendments' content was not read. TZ-ONLINE-CONTENT-2020 remains the working record for the licence duty.",
+      "verification_note": "Read live 2026-09-29: the TCRA page exists and links a draft of 18 Aug 2021; content NOT_ASSESSED."
     }
   ]
 }

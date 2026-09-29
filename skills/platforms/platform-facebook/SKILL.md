@@ -38,6 +38,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
 | Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
 | A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
+| The plan targets Uganda | State Facebook's status as unstable and verify access on the campaign date; keep a WhatsApp, Instagram or SMS fallback for any time-critical message (register UG-FACEBOOK-ACCESS-2026: access reported restored on 13 Jun 2026 after the January 2021 block, no UCC statement found) | Asserting that Facebook is either blocked or open on stale evidence |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
