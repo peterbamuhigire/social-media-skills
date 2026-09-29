@@ -1,6 +1,6 @@
 ---
 name: playbook-chatbot-strategy
-description: Use when designing or improving a Chatbot Strategy operating playbook, including WhatsApp LLM chatbot design, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when a business wants automated replies in WhatsApp, Messenger or Instagram DMs, or an AI chatbot that answers customers in local languages; produces the go/no-go decision, conversation flows, FAQ replies and human-handoff rules; not for running the WhatsApp Business channel itself (use `platform-whatsapp`).
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Chatbot Strategy workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Design a WhatsApp chatbot that uses an LLM to answer customers in local languages and hands complaints to a human agent (formerly `ai-whatsapp-chatbot-design`).
+- The inbox fills with the same questions every day: is a chatbot worth it, or will saved replies do?
+- Design a Messenger or Instagram DM bot in ManyChat: welcome message, conversation tree, FAQ answers and quick-reply buttons.
+- WhatsApp Business automation, from greeting and away messages to flows on the WhatsApp Business API.
+- Build a WhatsApp chatbot that uses an LLM to answer customers in Luganda, Swahili or English from a knowledge base and passes complaints to a person.
+- Write the human-handoff triggers, escalation rules and a pre-launch quality checklist for the bot.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `platform-whatsapp` for the WhatsApp Business channel plan: profile, catalogue, Status and broadcast calendar.
+- `playbook-marketing-automation` for triggered email, SMS and WhatsApp sequences across the customer lifecycle.
+- `playbook-community-management` for how staff answer comments, reviews and inbox complaints by hand.
+- Stop before switching on a live bot, connecting customer data or messaging customers without the client's written approval and a Uganda DPPA 2019 consent check; deliver the flows for sign-off.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: skill-slug
-description: Use when the requested deliverable needs this exact workflow; use neighbouring-skill when that route owns the primary decision.
+description: 'Use when <client-language trigger - the deliverable and the situation>; produces <named artefact>; not for <neighbour job> (use `neighbour-skill-id`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,11 +15,12 @@ State the procedure's specific purpose in one or two sentences.
 <!-- dual-compat-start -->
 ## Use When
 
-- Name concrete positive triggers.
+- 3-6 concrete triggers in the words a client or account manager would use (S08 formula; no templated phrasing).
 
 ## Do Not Use When
 
-- Name the nearest neighbouring route and unsafe stop conditions.
+- `neighbour-skill-id` for <its job> (name 2-4 real neighbours by id).
+- Stop condition: <what is missing or unauthorised, and what is returned instead>.
 
 ## Required Inputs
 

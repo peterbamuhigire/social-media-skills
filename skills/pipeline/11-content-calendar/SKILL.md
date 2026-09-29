@@ -1,6 +1,6 @@
 ---
 name: 11-content-calendar
-description: "Use when scheduling approved pillars and campaigns across a 90-day period. Produces 90-day content calendar with owners and production cues; use `10-content-pillars` when that neighbouring contract is the closer match."
+description: Use when approved themes and campaigns need turning into dated posts for the next three months, with local holidays, seasonal hooks and campaign windows; produces the 90-day content calendar with owners and production cues; not for setting up the weekly workflow that makes the posts (use `playbook-content-production`).
 metadata:
   portable: true
   compatible_with:
@@ -15,13 +15,17 @@ Produce a 90-day master content calendar across three monthly tables. Each table
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for scheduling approved pillars and campaigns across a 90-day period.
-- Confirm that `10-content-pillars` is not the closer route before proceeding.
+- Pillars, themes and campaigns are agreed and the team needs a dated, post-by-post plan of what goes out on which platform, month by month.
+- The schedule must include Ugandan and East African public holidays and observances such as Independence Day, international awareness days and industry seasonal hooks.
+- Campaign windows need blocking out so promotions and always-on posts do not clash.
+- The client wants a weekly rhythm template, a posting schedule showing each post's approval status, and a pre-publish check that samples posts before they go live.
 
 ## Do Not Use When
 
-- Use `10-content-pillars` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `playbook-content-production` for the drafting, design, approval and batching workflow.
+- `10-content-pillars` when the recurring themes are not yet agreed.
+- `12-website-content-plan` for blog and website articles.
+- Stop before scheduling or publishing to live accounts; hand over the calendar for client approval.
 
 ## Required Inputs
 

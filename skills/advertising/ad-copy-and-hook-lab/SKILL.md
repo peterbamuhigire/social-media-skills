@@ -1,6 +1,6 @@
 ---
 name: ad-copy-and-hook-lab
-description: Use when writing or testing ad headlines, hooks, primary text, offers, proof lines and guarantees for paid social, search, print, radio or outdoor; use creative-brief-and-big-idea for the platform idea and caption-writer for organic captions.
+description: 'Use when a paid ad needs its words: headlines, video hooks, primary text, offers, proof and guarantees for Meta, TikTok, Google search, radio or outdoor; produces a headline and hook bank, fitted ad copy and a claim register; not for organic post captions (use `caption-writer`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,18 +15,18 @@ Generate, screen and test advertising copy from an approved brief: offer first, 
 <!-- dual-compat-start -->
 ## Use When
 
-- An approved brief or concept needs headlines, video hooks, primary text, descriptions, calls to action or end-card lines.
-- A campaign needs a headline bank and a test plan for the top candidates.
-- An offer needs to be built or repaired before copy (promise, proof, sweetener, risk reversal, real deadline).
-- Existing ads need a copy diagnosis: weak hook, buried offer, no proof, clever-but-unclear, or unsafe claims.
-- Responsive search ad assets, lead-ad forms or click-to-WhatsApp opening messages need writing.
+- The concept is approved and the ads now need headlines, opening hooks, primary text, descriptions, calls to action or end-card lines.
+- We need a bank of headlines with the three strongest marked for testing.
+- The offer feels weak: build the promise, proof, sweetener, risk reversal and a genuine deadline before any copy is written.
+- Our current ads are not converting; diagnose the copy for a weak hook, a buried offer, missing proof or claims we cannot back.
+- Responsive search ad assets, lead-form wording or click-to-WhatsApp opening messages need writing.
 
 ## Do Not Use When
 
-- There is no approved brief or platform idea; use `creative-brief-and-big-idea` first.
-- The deliverable is organic captions or community posts; use `caption-writer`.
-- The deliverable is a long-form sales letter, VSL or funnel sequence; use `direct-response-funnel-copy`.
-- The claim cannot be substantiated or the category is regulated and unchecked; stop and route to the legal/market release gate.
+- `caption-writer` for organic captions and community posts.
+- `creative-brief-and-big-idea` when there is no approved brief or platform idea yet.
+- `direct-response-funnel-copy` for long-form sales letters, VSLs or funnel sequences.
+- Stop when a claim cannot be substantiated or a regulated category is unchecked; return the claim register to the legal/market release gate.
 
 ## Required Inputs
 

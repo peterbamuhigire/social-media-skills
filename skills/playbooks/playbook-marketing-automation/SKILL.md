@@ -1,6 +1,6 @@
 ---
 name: playbook-marketing-automation
-description: Use when designing or improving a Marketing Automation operating playbook, AI automation roadmap or agentic workflow with roles, ordered actions, human checkpoints, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a business wants follow-ups to run themselves: trigger-based email, SMS and WhatsApp sequences, no-code automations in Zapier, Make or ManyChat, or agentic AI workflows with human checkpoints; produces the automation brief, sequence map and build plan; not for designing a conversational bot (use `playbook-chatbot-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,14 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Marketing Automation workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Design an autonomous or agentic AI marketing workflow (PRAL loop, BDI decision boundary, OODA cycle) with human-in-the-loop escalation triggers, for example brand sentiment monitoring or complaint routing (formerly `ai-agentic-marketing-workflows`).
-- Assess automation maturity, qualify which marketing tasks to automate and produce a week-by-week no-code automation build plan (Zapier, Make, ManyChat) with a maintenance schedule (formerly `playbook-ai-automation-workflow`).
+- Map what happens automatically after sign-up, first purchase, an abandoned cart or a quiet spell: acquisition, engagement, purchase and lifecycle triggers.
+- Set message timing rules, personalisation tokens and a quarterly review of every running sequence.
+- Assess how mature our automation is, decide which tasks are worth automating and plan a week-by-week no-code build in Zapier, Make or ManyChat with a maintenance schedule.
+- Design an AI agent workflow (PRAL loop, BDI decision boundary, OODA cycle) that monitors brand sentiment or routes complaints, with human-in-the-loop escalation.
+- Automate WhatsApp follow-ups for East African customers through the WhatsApp Business API.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-chatbot-strategy` for bot conversation flows, FAQ answers and human handoff in the inbox.
+- `07-email-marketing-strategy` for the email programme, list building and lifecycle strategy.
+- `meta-tools-stack-evaluation` for choosing or replacing the software stack.
+- Stop before switching on live sequences, connecting customer lists or letting an agent act without a human checkpoint and the client's written approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

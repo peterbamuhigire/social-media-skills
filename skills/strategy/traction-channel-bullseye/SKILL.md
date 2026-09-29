@@ -1,6 +1,6 @@
 ---
 name: traction-channel-bullseye
-description: Use when choosing which acquisition channels a business should test and fund, from all nineteen traction channels, with capped parallel tests and a critical path; use strategy-channel-architecture to assign roles inside channels already chosen.
+description: 'Use when a business asks where its customers should come from, or wants TikTok before comparing options: rank all nineteen traction channels, run three capped parallel tests and fund the winner; produces the bullseye ranking, test cards and a critical path; not for roles within channels already chosen (use `strategy-channel-architecture`).'
 metadata:
   portable: true
   compatible_with:
@@ -19,13 +19,14 @@ Choose where customers will come from by considering every recognised acquisitio
 - A marketing or advertising plan needs a defensible channel section with cost and volume assumptions.
 - Growth has flattened and the current channel is saturating or decaying.
 - A new market, segment or product needs its first customers.
+- Channels such as radio, SEO, sales agents, partnerships, referrals and events have never been compared with social media.
 
 ## Do Not Use When
 
-- The channels are already chosen and the task is role, flow and effort within them; use `strategy-channel-architecture`.
-- The task is scheduling and weighting paid media inside a chosen mix; use `advertising/media-planning`.
-- Positioning and target are not agreed; run `marketing-foundations-stp-positioning` first.
-- A regulated or contractual route is mandatory (for example a public tender); follow that route instead.
+- `strategy-channel-architecture` for roles, flows and effort inside channels already chosen.
+- `media-planning` for scheduling and weighting paid media inside a chosen mix.
+- `marketing-foundations-stp-positioning` when positioning and target are not yet agreed.
+- Stop when a regulated or contractual route is mandatory (for example a public tender); follow that route instead.
 
 ## Required Inputs
 

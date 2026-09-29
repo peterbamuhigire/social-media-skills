@@ -1,6 +1,6 @@
 ---
 name: seo-geo-optimisation
-description: Use when the main deliverable is page-level generative-search citation readiness; use ai-generative-search-optimisation for the wider social, profile, reputation, and measurement decision.
+description: Use when one page, article, FAQ or landing page should be easier for Google and AI answer engines such as ChatGPT or Perplexity to find, understand and cite; produces the page-level readiness audit, revised brief or copy, metadata checklist and measurement note; not for a brand-wide AI search programme (use `ai-generative-search-optimisation`).
 metadata:
   portable: true
   compatible_with:
@@ -17,20 +17,17 @@ not a separate guaranteed ranking system.
 <!-- dual-compat-start -->
 ## Use When
 
-- A brief names one page, article, landing page, FAQ, profile-linked destination,
-  or canonical resource that should be easier for search and AI systems to find,
-  understand, or cite.
-- The work needs a page-level content, entity, technical, source, or measurement
-  review after the broader strategy is set.
+- A named page, article, FAQ or fees page never comes up in search results or when people ask ChatGPT or Google's AI answers, and the client wants that one page fixed.
+- Page copy needs clearer answers, sources, entity details and a single next action.
+- Titles, meta descriptions, structured data and canonical tags on one page need checking against the page's job.
+- The team wants to measure whether a page change moved clicks or citations.
 
 ## Do Not Use When
 
-- Use `ai-generative-search-optimisation` for a programme-wide AI-search,
-  social-profile, reputation, or prompt-tracking decision.
-- Do not proceed with a current platform, market, legal, regulated, or performance
-  claim until it is verified in the source register.
-- Do not publish, change a live property, collect data, or spend without explicit
-  authority and the relevant release gate.
+- `ai-generative-search-optimisation` for a programme-wide AI search, social profile, reputation or prompt-tracking decision.
+- `12-website-content-plan` for a 90-day website content plan.
+- `blog-writer` for writing a new article from scratch.
+- Stop before editing a live page or promising rankings or AI citations; deliver recommendations for the site owner.
 
 ## Required Inputs
 

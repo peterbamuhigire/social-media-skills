@@ -1,6 +1,6 @@
 ---
 name: policy-ai-content-ethics
-description: Use when drafting or reviewing an organisational Ai Content Ethics policy, including AI copyright/IP and cultural bias audits, with roles, approval boundaries, enforcement and evidence. Use playbook-social-media-policy for rollout operations and specialist counsel for legal advice.
+description: 'Use when an organisation needs rules for AI-made posts, images and ads: disclosure, SynthID watermarks, copyright ownership, bias checks on AI images of East Africans, EU AI Act notes and sector limits; produces the AI content policy, bias audit sign-off and IP record; not for staff social media conduct (use `playbook-social-media-policy`).'
 metadata:
   portable: true
   compatible_with:
@@ -10,14 +10,17 @@ metadata:
 # AI Content Ethics Policy
 <!-- dual-compat-start -->
 ## Use When
-- Draft, revise or assess an organisational Ai Content Ethics policy.
-- Define accountable roles, approval thresholds, records and exception handling.
-- Audit AI-generated images, personas or copy for Western cultural bias and East African misrepresentation before delivery, with qualified reviewer sign-off (formerly `ai-cultural-bias-audit`).
-- Set AI intellectual property and copyright policy: who owns AI-assisted deliverables, whether they can be registered, disclosure and provenance records (formerly `policy-ai-ip-and-copyright`).
+- The team uses ChatGPT, Claude, Midjourney or Canva AI for client work and needs a written policy on what is allowed, disclosed and approved.
+- Decide how AI-assisted posts and ads are labelled, watermarked with SynthID or similar, and recorded for provenance.
+- Audit AI-generated images, personas or copy for Western cultural bias and misrepresentation of East Africans before delivery, with a qualified reviewer signing off.
+- Work out who owns AI-assisted deliverables, whether they can be registered for copyright and what the contract should say.
+- Set tighter AI rules for health, finance, NGO or donor, and political or public-sector clients, and note EU AI Act duties for cross-border work.
 
 ## Do Not Use When
-- The request is policy rollout or staff workflow; use `playbook-social-media-policy`.
-- The request needs a binding legal opinion; refer the stated issue to qualified counsel.
+- `playbook-social-media-policy` for staff conduct on social media and posting governance.
+- `playbook-content-production` for the day-to-day AI drafting workflow.
+- `anti-ai-slop` for humanising an AI-assisted draft.
+- Stop short of a binding legal opinion on copyright or regulation; refer the stated issue to qualified counsel.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

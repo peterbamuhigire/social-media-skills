@@ -1,6 +1,6 @@
 ---
 name: skill-writing
-description: Use when creating or upgrading portable social-media skills with routing, contracts and validation under the canonical chwezi-dev-engine skill-writing standard; use `skill-safety-audit` when a read-only safety review is the closer match.
+description: 'Use when a social or digital-marketing skill in this engine must be created, split, merged or upgraded: frontmatter, routing description, Use When, contracts, references and routing fixtures under the canonical standard; produces the skill directory and passing fixtures; not for a read-only safety review (use `skill-safety-audit`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,9 +13,16 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 Pointer stub. The canonical standard is `chwezi-dev-engine/skills/sdlc-meta/skill-writing` ([canonical on GitHub](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/skills/sdlc-meta/skill-writing/SKILL.md); local path `C:\wamp64\www\chwezi-dev-engine\skills\sdlc-meta\skill-writing\SKILL.md`). Load it first; this file keeps a portable minimum and this engine's delta.
 <!-- dual-compat-start -->
 ## Use When
-- Creating or upgrading a portable social-media skill, its routing fixtures, contracts or validation.
+- A new social, advertising or content job needs its own skill: a SKILL.md with frontmatter, a routed description, trigger sections and test prompts (fixtures).
+- An existing skill's description, Use When or Do Not Use When no longer routes correctly and must be rewritten.
+- Two skills overlap and one must absorb the other, with references moved and aliases kept.
+- Validators or routing fixtures fail after an edit and the skill must be brought back to standard.
+
 ## Do Not Use When
-- Use `skill-safety-audit` for a read-only safety review; do not publish, spend or change a live account.
+- `skill-safety-audit` for a read-only safety review before adoption or release.
+- `kaizen-improvement-system` for a wider audit of the engine's quality.
+- Stop before committing or releasing the skill until validators pass and the maintainer approves.
+
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---:|---|

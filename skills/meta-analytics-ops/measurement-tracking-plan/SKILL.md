@@ -1,6 +1,6 @@
 ---
 name: measurement-tracking-plan
-description: Use when a client needs a privacy-safe tracking plan before launch - event and key-event map, UTM convention, Consent Mode v2 and CMP, server-side tagging, Conversions API and enhanced conversions, GA4 BigQuery export; produces a tracking plan and QA log; not for attribution models or incrementality (use `advertising-attribution-and-measurement`).
+description: 'Use when a site or campaign is about to launch and needs privacy-safe tracking: key events, UTM naming, Consent Mode v2 and CMP, server-side tagging, Conversions API, GA4 BigQuery export; produces the tracking plan, consent design, UTM register and QA log; not for attribution or incrementality (use `advertising-attribution-and-measurement`).'
 metadata:
   portable: true
   compatible_with:
@@ -14,17 +14,17 @@ Decide what a client's website, app, WhatsApp and CRM touchpoints must record, u
 <!-- dual-compat-start -->
 ## Use When
 - A campaign or site is about to launch and nobody has written down which events, key events and parameters must fire, or who owns them.
-- The client asks for Consent Mode v2, a cookie banner or consent management platform (CMP), or wants to know what happens to measurement when visitors refuse cookies.
-- Conversions reported by Meta or Google look low or duplicated and the fix is signal quality: Conversions API with Pixel deduplication, enhanced conversions, server-side Google Tag Manager.
-- The analyst wants raw GA4 events in BigQuery, or needs to know the export limits and cost before promising a dashboard.
-- Standardise UTM naming, a campaign link register and WhatsApp dark-social tagging so every social link lands in GA4 under the right source, medium and campaign (formerly `meta-utm-tracking`).
-- Review analytics privacy: cookie consent, GA4 retention and Google signals, data minimisation register, WhatsApp contact data, deletion requests and cross-border records under Uganda's DPPA 2019 or Kenya's DPA 2019 (formerly `meta-analytics-privacy`).
+- The client asks for Consent Mode v2, a cookie banner or consent management platform (CMP), or what happens to measurement when visitors refuse cookies.
+- Conversions reported by Meta or Google look low or duplicated and the fix is signal quality: Conversions API with Pixel deduplication, enhanced conversions or server-side Google Tag Manager.
+- The analyst wants raw GA4 events in BigQuery, or needs the export limits and cost before promising a dashboard.
+- Social links land in GA4 as direct traffic and the team needs UTM naming rules, a campaign link register and WhatsApp dark-social tagging.
+- Analytics privacy needs reviewing: cookie consent, GA4 retention and Google signals, data minimisation, WhatsApp contact data and deletion requests under Uganda's DPPA 2019 or Kenya's DPA 2019.
 
 ## Do Not Use When
-- Choosing an attribution model, setting break-even ROAS or designing a holdout or geo test: use `advertising-attribution-and-measurement`.
-- Building the monthly report or dashboard layout: use `meta-reporting`; defining the KPI dictionary itself: use `meta-social-metrics-framework`.
-- Writing the landing-page build handoff (page, form and journey specification for developers): use `ad-to-site-journey-handoff`.
-- Giving a legal opinion, drafting a privacy policy or a DPIA: stop and refer to qualified data-protection counsel; this skill states implementation positions only.
+- `advertising-attribution-and-measurement` for choosing an attribution model, break-even ROAS or a holdout or geo test.
+- `meta-reporting` for the monthly report or dashboard layout, and `meta-social-metrics-framework` for the KPI dictionary.
+- `ad-to-site-journey-handoff` for the landing-page, form and journey specification handed to developers.
+- Stop before giving a legal opinion, drafting a privacy policy or DPIA, or installing tags; refer to data-protection counsel and hand the plan to the site owner.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

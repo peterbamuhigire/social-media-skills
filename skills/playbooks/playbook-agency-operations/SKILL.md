@@ -1,6 +1,6 @@
 ---
 name: playbook-agency-operations
-description: Use when designing or improving a Agency Operations operating playbook, including white-label and sub-contracted partner delivery, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when an agency needs to run its own business: client onboarding, project and approval flow, invoicing and cash flow, team roles, quality control, growth stages, or white-label and sub-contracted delivery; produces the agency operating manual and partner terms; not for one client''s scope and renewal (use `playbook-client-retainer-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Agency Operations workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Set up, price or exit a white-label or sub-contracting arrangement where we deliver content under another agency's brand, with an NDA, briefing standard and payment terms (formerly `playbook-white-label-partnerships`).
+- A new client is signing on: 30-day onboarding checklist, communication channels and the first publishing cycle.
+- The agency needs a project management system, a content approval protocol, a quality-control checklist and a reporting rhythm that work across every client.
+- Invoicing rules, cash-flow controls, margins, client-concentration limits and the tax obligations to check.
+- Our team of two to ten people needs role definitions, delegation rules, hiring stages and a growth roadmap, including AI revenue models such as database reactivation.
+- Another agency asks for content delivered white-label under its brand, or work is being sub-contracted out: pricing, NDA, briefing standard, payment terms and exit.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-client-retainer-management` for one client's scope, scope creep, monthly check-ins and renewal.
+- `playbook-daily-operations-routine` for a manager's daily and weekly working blocks across accounts.
+- `biz-dev-pricing-menu` for the priced service menu offered to prospects.
+- Stop before signing contracts, sending invoices or committing to a white-label partner without the agency owner's written approval; deliver the draft terms for sign-off.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: playbook-viral-content-design
-description: Use when designing or improving a Viral Content Design operating playbook, including audacious or contrarian content, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when content needs to be shared, not just seen: why posts spread, six shareable structures, platform-specific virality, East African triggers, and bold or contrarian takes with an audacity score and risk screen; produces the shareable-content brief and bold-idea risk screen; not for a general bank of post topics (use `content-ideas`).'
 metadata:
   portable: true
   compatible_with:
@@ -22,13 +22,17 @@ the POEM model (Paid/Owned/Earned) for how organic content fits within a broader
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Viral Content Design workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Make safe, forgettable content bolder: score it on an audacity index, design contrarian takes and a talk trigger, and screen the risk (formerly `playbook-audacious-content`).
+- Posts get views but no shares; explain what makes content spread and redesign around it.
+- Build posts on proven shareable structures: the unexpected reversal, number list, shared struggle, behind-the-curtain, hot take and practical toolkit.
+- Adapt for TikTok, Facebook, Instagram Reels and WhatsApp forwarding, with East African seasonal and cultural triggers.
+- Make safe, forgettable content bolder: score it on an audacity index, design contrarian takes and a talk trigger, and screen the risk.
+- Check a bold idea against ethical limits before it goes out.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `content-ideas` for a prioritised list of post and article topics.
+- `11-content-calendar` for scheduling the posts.
+- `ad-copy-and-hook-lab` for paid ad hooks and headlines.
+- Stop before publishing content that mocks people, spreads unverified claims or stages fake controversy; return it with the risk-screen notes.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: playbook-social-selling
-description: Use when designing or improving a Social Selling operating playbook, including employee advocacy and high-value executive outreach, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when followers are not turning into clients: authority posts, soft and hard calls to action, DM and enquiry handling, LinkedIn messages, employee advocacy, or high-ticket offers to executives; produces the social selling sequence, DM scripts and advocacy programme; not for cold lists and outreach (use `biz-dev-lawful-prospecting-outreach`).'
 metadata:
   portable: true
   compatible_with:
@@ -22,14 +22,17 @@ Use Kennedy's market-message-offer discipline and Wiebe's voice-of-customer disc
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Social Selling workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Get staff sharing company posts on their own LinkedIn, Facebook or WhatsApp through an employee advocacy programme with monthly content packs, incentives and posting guidelines (formerly `playbook-employee-advocacy`).
-- Sell a premium or high-ticket offer to senior, affluent or enterprise buyers through LinkedIn authority, lead magnets, nurture and executive outreach (formerly `premium-social-selling`).
+- Regular posting brings few enquiries; build an educate, proof, soft ask, offer and hard ask sequence.
+- Scripts for answering enquiries and DMs and moving buyers to WhatsApp to close.
+- Write a LinkedIn connection and message sequence and a daily routine for the founder.
+- Get staff sharing or reposting company updates on their own LinkedIn, Facebook or WhatsApp through an employee advocacy programme with monthly content packs, incentives and posting guidelines.
+- Sell a premium or high-ticket offer to senior, affluent or enterprise buyers through LinkedIn authority, lead magnets, nurture and executive outreach.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `biz-dev-lawful-prospecting-outreach` for sourcing contact lists, consent and cold outreach sequences.
+- `platform-linkedin` for the LinkedIn channel plan.
+- `social-commerce-strategy` for catalogue and Mobile Money selling of products in chat.
+- Stop before sending messages from a client's or employee's personal account without their written consent; deliver the scripts for them to send.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

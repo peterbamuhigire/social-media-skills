@@ -1,6 +1,6 @@
 ---
 name: 01-client-brief
-description: "Use when starting a new client engagement or turning discovery answers into the full brief and one-page client card: ten-question intake, targeted follow-up questions and the approved brief. Produces approved client brief and at-a-glance card; use `02-platform-audit` once the brief is approved."
+description: Use when a new client is signing on and you need the intake questions, a discovery-call guide and a written picture of their business, goals and gaps; produces the approved client brief and one-page client card; not for the production handover of an approved campaign (use `13-campaign-brief`).
 metadata:
   portable: true
   compatible_with:
@@ -15,14 +15,17 @@ Produce two outputs: (1) a full client brief document and (2) a one-page client 
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for turning confirmed discovery answers into the full brief and one-page client card.
-- A new client needs a kickstart intake: ten standard questions for an intake form or discovery call, a draft brief with [TO CONFIRM] gaps, then targeted follow-up questions (formerly `00-client-intake`).
-- Confirm that `02-platform-audit` or `04-brand-voice-intake` is not the closer route before proceeding.
+- A new client has signed and we need to know their business, audience, competitors, goals, tone and budget before any strategy work.
+- The consultant needs a ten-question kickstart intake to send as a form or use as a discovery-call guide.
+- Discovery answers are in but patchy, so the brief must mark [TO CONFIRM] gaps and list targeted follow-up questions.
+- The account team wants a one-page at-a-glance card that sums up the client for everyone working on the account.
 
 ## Do Not Use When
 
-- Use `02-platform-audit` when the brief is approved and the task is auditing profiles; use `04-brand-voice-intake` for the full brand voice guide.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `13-campaign-brief` for the execution brief of a single approved campaign.
+- `02-platform-audit` once intake is approved and the next job is reviewing profiles and competitors.
+- `04-brand-voice-intake` for the full voice guide and visual direction.
+- Stop before drafting strategy or content while core intake answers are missing; return the questionnaire and the gap list instead.
 
 ## Required Inputs
 

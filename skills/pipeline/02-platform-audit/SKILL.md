@@ -1,6 +1,6 @@
 ---
 name: 02-platform-audit
-description: "Use when auditing active social profiles and named competitors before strategy work, running a free audit to win a prospect, or fixing profile bios, covers and links. Produces platform audit, benchmark and prioritised quick wins; use `meta-content-audit` when that neighbouring contract is the closer match."
+description: Use when a client's social profiles need reviewing before strategy, a free audit is offered to win a prospect, or bios, covers, handles and links need fixing; produces the scored platform audit, rival benchmark and prioritised quick wins; not for a deep study of rivals' content and positioning (use `meta-competitor-analysis`).
 metadata:
   portable: true
   compatible_with:
@@ -15,15 +15,17 @@ Produce three sections of audit output followed by a 6-slide deck outline. Base 
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for auditing active social profiles and named competitors before strategy work.
-- The consultant wants a free 30-minute social media audit of a prospect as a lead offer: five-area score out of 50, wins and gaps one-pager, and the scripted transition to a paid retainer (formerly `biz-dev-social-media-audit-offer`).
-- The client wants every profile optimised: bio rewrites with WHO-WHAT-WHO-CTA, cover images, handles, link in bio, WhatsApp button and a 48-hour / one-week / one-month fix plan (formerly `playbook-profile-optimisation`).
-- Confirm that `meta-content-audit` is not the closer route before proceeding.
+- We need to know how complete, active and on-brand each of the client's social profiles is before we write strategy.
+- The client wants a side-by-side benchmark of their pages against two or three named competitors, with estimates flagged.
+- The agency wants to offer a prospect a free 30-minute social audit as a lead offer, scored across five areas out of 50, with a wins-and-gaps one-pager and a path to a paid retainer.
+- Every profile needs tidying: bio rewrites using WHO-WHAT-WHO-CTA, cover images, handles, link in bio and the WhatsApp button, on a 48-hour, one-week and one-month fix plan.
 
 ## Do Not Use When
 
-- Use `meta-content-audit` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `meta-competitor-analysis` for a deeper study of rivals' content, messaging and positioning gaps.
+- `meta-content-audit` for a keep, stop or test review of the client's own past posts.
+- `01-client-brief` when the client has not yet completed intake.
+- Stop before logging into, editing or publishing to a live profile without the client's written permission; deliver the fix list for approval.
 
 ## Required Inputs
 

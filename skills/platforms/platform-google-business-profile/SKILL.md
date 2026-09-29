@@ -1,6 +1,6 @@
 ---
 name: platform-google-business-profile
-description: Use when creating a Google Business Profile channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: Use when a local business wants to appear in Google Maps and 'near me' searches or win more walk-in customers across its branches; produces the Google Business Profile plan with set-up checklist, photo, post, Q&A and review routines and local footfall tactics; not for page-level search or AI citation work (use `seo-geo-optimisation`).
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Google Business Profile-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
-- Win more walk-in customers near one or more premises with local and proximity marketing — geo-targeted ads, location tags and check-ins, neighbourhood WhatsApp groups, multi-branch listings (formerly `playbook-location-based-marketing`).
+- The business does not appear in Google Maps or 'near me' searches and the listing needs setting up, verifying or completing.
+- The client wants a routine for photos, Google posts, Q&A and replying to reviews on the listing.
+- Several branches need their own listings, consistent details and per-branch reporting on calls, directions and visits.
+- The client wants more walk-in customers near its premises through geo-targeted ads, location tags and check-ins, and neighbourhood WhatsApp groups.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `seo-geo-optimisation` for making a website page easier for search engines and AI to find and cite.
+- `strategy-ewom-reviews` for a wider review generation and referral programme.
+- `playbook-reputation-management` for handling a run of negative reviews or complaints.
+- Stop before claiming, editing or verifying a listing without the owner's access and consent; never post or buy fake reviews.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

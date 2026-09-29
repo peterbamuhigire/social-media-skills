@@ -1,6 +1,6 @@
 ---
 name: advertising-strategy-and-budget
-description: Use when setting advertising objectives, a four-level measurement plan, a triangulated budget with floor and ceiling, allocation phases, a decision memo or agency governance terms; use media-planning for schedules and weights, meta-budget-planner for whole-marketing allocation.
+description: Use when a client asks how much to spend on advertising, on what, and how success will be judged; covers objectives, a triangulated budget with floor and ceiling, phased allocation, decision memos and agency terms; produces an advertising budget recommendation; not for splitting a total marketing budget (use `meta-budget-planner`).
 metadata:
   portable: true
   compatible_with:
@@ -15,18 +15,17 @@ Turn a business problem into an advertising strategy the client can approve: one
 <!-- dual-compat-start -->
 ## Use When
 
-- A client asks "how much should we spend on advertising, on what, and how will we know it worked?"
-- An advertising plan, annual media budget, launch budget or competitive-response budget is needed.
-- A budget change, competitive intrusion or campaign pivot needs a decision memo the client can approve quickly.
-- The agency–client arrangement needs defining: account planning, briefing rules, decision rights, compensation model and agency evaluation.
+- How much should we spend on advertising, on what, and how will we know it worked?
+- We need an annual advertising budget, a launch budget or money to answer a competitor's push.
+- A budget cut, a rival's heavy spend or a campaign pivot needs a short decision memo the MD can approve quickly.
+- The agency relationship needs terms: account planning, briefing rules, who decides what, fees or commission, and how the agency is reviewed.
 
 ## Do Not Use When
 
-- The job is splitting a confirmed total marketing budget across all functions (content, tools, staff); use [meta-budget-planner](../../meta-analytics-ops/meta-budget-planner/SKILL.md).
-- The job is scheduling, weights, reach and frequency; use [media-planning](../media-planning/SKILL.md).
-- The job is attribution design or reading results; use [advertising-attribution-and-measurement](../advertising-attribution-and-measurement/SKILL.md).
-- The job is a full business or marketing plan document; route to business-plan-skills. Tax, VAT and accounting treatment of ad spend route to chwezi-accounting-doctrine.
-- Stop if no one with budget authority is named: return a draft only.
+- `meta-budget-planner` for splitting a confirmed total marketing budget across content, tools and staff.
+- `media-planning` for schedules, weights, reach and frequency.
+- `advertising-attribution-and-measurement` for attribution design or reading results; full business plans go to business-plan-skills and VAT or accounting treatment of ad spend to chwezi-accounting-doctrine.
+- Stop if no one with budget authority is named; return a draft only.
 
 ## Required Inputs
 

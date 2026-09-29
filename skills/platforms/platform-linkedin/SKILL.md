@@ -1,6 +1,6 @@
 ---
 name: platform-linkedin
-description: Use when creating a LinkedIn channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a firm or professional wants LinkedIn to build reputation and leads: Company Page set-up and growth, Showcase Pages, Events and Live, founder and staff profiles, and a thirty-day pilot; produces the LinkedIn channel plan; not for sales outreach or employee advocacy programmes (use `playbook-social-selling`).'
 metadata:
   portable: true
   compatible_with:
@@ -19,13 +19,16 @@ Do not prescribe ranking formulas, profile-completion multipliers, universal pos
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a LinkedIn-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
-- Set up or grow a LinkedIn Company Page, admin roles, follower invitations, Showcase or Product Pages, LinkedIn Events or Live, and a company page content plan (formerly `platform-linkedin-company-pages`).
+- The firm's LinkedIn presence is weak and it wants a plan for what the company and its leaders should post.
+- A Company Page needs setting up or growing: admin roles, follower invitations, Showcase or Product Pages, LinkedIn Events or Live, and a page content plan.
+- Founder or partner profiles need reviewing so they support the company's authority.
+- The client wants a thirty-day LinkedIn pilot with clear measures before committing more time.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `playbook-social-selling` for sales outreach, employee advocacy and high-ticket selling on LinkedIn.
+- `strategy-personal-brand` for building one individual's personal brand.
+- `playbook-paid-social-advertising` for LinkedIn ad campaigns.
+- Stop before posting, messaging or changing a Company Page or profile without the owner's authority.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

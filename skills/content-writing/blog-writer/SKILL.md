@@ -1,6 +1,6 @@
 ---
 name: blog-writer
-description: Use when Blog Writer is needed to produce a publication-ready copy (blog article, whitepaper or eBook) for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when a topic or brief is agreed and the client needs the finished long-form piece, such as a sourced blog article, whitepaper or eBook lead magnet; produces publication-ready article copy with SEO frontmatter, or a gated document with executive summary and download landing page; not for choosing topics (use `content-ideas`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within blog writer.
-- Write a whitepaper or eBook (gated lead magnet, donor or investor document) with an executive summary, structured sections and a landing page for the download (formerly `content-whitepaper-ebook`).
+- We have the topic and search keywords and need the full article written with headings, cited sources and a meta description, ready to paste into WordPress or hand to the web developer.
+- An existing post reads thin or generic and needs rewriting with sources, examples and a proper structure.
+- We need a whitepaper or eBook as a gated lead magnet, with an executive summary, clear sections and a landing page for the download.
+- A donor report or investor document needs writing for an outside reader, with a Theory of Change where it applies.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `content-ideas` for topic lists and briefs before anything is written.
+- `12-website-content-plan` for a 90-day website and blog plan with article briefs and an internal-link map.
+- `caption-writer` for the social posts that promote the article.
+- Stop before publishing any statistic, quote or case figure without a traceable source; flag it rather than invent it.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

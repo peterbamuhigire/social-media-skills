@@ -1,6 +1,6 @@
 ---
 name: training-smartphone-video-production
-description: Use when the main deliverable concerns hands-on smartphone shooting, sound, light, framing, editing, and platform export; use strategy-video-content when that neighbouring workflow owns the primary decision.
+description: 'Use when staff or a client team must film and edit on their own phones: light, sound, framing, camera settings, editing in CapCut or InShot, export for Reels, TikTok and YouTube, and uploading on low data; produces the phone filming training guide with practice drills; not for deciding what videos to make (use `strategy-video-content`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for hands-on smartphone shooting, sound, light, framing, editing, and platform export.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Our videos are dark, shaky or have noisy sound and we have no budget for a crew.
+- Staff need to know which cheap kit to add (lapel mic, tripod, ring light) to the phones they already have.
+- Teach framing, camera settings and vertical versus horizontal shooting for each platform.
+- Show how to edit simply on the phone, then export and upload on slow or costly data.
 
 ## Do Not Use When
 
-- Use `strategy-video-content` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `strategy-video-content` for video series, hooks, scripts and what to publish.
+- `training-client-team` for the wider social-media handover workshop.
+- `training-social-media-fundamentals` for beginners' social-media basics.
+- Stop before filming customers, patients or children without recorded consent or release forms.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: creative-brief-and-big-idea
-description: Use when writing or interrogating a strategic creative brief, finding the insight, generating and screening campaign ideas, or running a creative review; use ad-copy-and-hook-lab for line-level ad copy and 13-campaign-brief for the production brief.
+description: 'Use when a campaign, launch or rebrand needs thinking before concepts: the strategic creative brief, the insight and a platform idea, or screening and critiquing concepts; produces a one-page brief, insight statement, idea cards and a concept screen record; not for the production brief with assets, sizes and dates (use `13-campaign-brief`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,19 +15,18 @@ Turn a business problem into a single-minded strategic brief, a tested insight a
 <!-- dual-compat-start -->
 ## Use When
 
-- A campaign, launch or brand refresh needs a strategic creative brief before any concept or copy is written.
-- A client or team has a brief that produced weak work and needs it interrogated and rewritten.
-- Several concepts exist and need a structured screen (effectiveness scale, idea card, responsible-creative check) before a client sees them.
-- A creative review meeting, critique session or client presentation of concepts needs a protocol and feedback language.
-- The team must decide campaign structure (template-led "triplets" or varied "cousins") and copy–image construction.
+- Before anyone writes copy or designs, the launch or brand refresh needs a single-minded strategic brief.
+- Our last brief produced weak work; interrogate it and rewrite it.
+- We have several concepts; screen them on the effectiveness scale with idea cards and a responsible-creative check before the client sees them.
+- Run the creative review or client presentation of concepts with a clear protocol and feedback language.
+- Decide the campaign structure, template-led triplets or varied cousins, and how copy and image work together.
 
 ## Do Not Use When
 
-- The need is headlines, hooks, primary text or offer wording for a known concept; use `ad-copy-and-hook-lab`.
-- The need is the production-ready brief (deliverables, dimensions, owners, dates); use `13-campaign-brief`.
-- The need is the overall campaign plan, budget and channel mix; use `09-campaign-strategy` and `advertising-strategy-and-budget`.
-- Visual design, art direction execution, typography or layout; hand off to `design-system-skills`.
-- Evidence of the audience or business problem is absent and nobody can supply it; return the discovery questions instead.
+- `13-campaign-brief` for the production-ready brief with deliverables, dimensions, owners and dates.
+- `ad-copy-and-hook-lab` for headlines, hooks and offer wording on a known concept.
+- `09-campaign-strategy` for the overall campaign plan and channel mix; visual execution goes to design-system-skills.
+- Stop when nobody can supply evidence of the audience or business problem; return the discovery questions instead of a brief.
 
 ## Required Inputs
 

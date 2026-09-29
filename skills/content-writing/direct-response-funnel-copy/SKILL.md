@@ -1,6 +1,6 @@
 ---
 name: direct-response-funnel-copy
-description: Use when Direct-Response Funnel Copy Skill (Brunson + Kennedy) is needed to produce a publication-ready copy, including direct-mail letters, for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: 'Use when a client wants copy that sells: launch funnels, offer ladders, long sales letters or pages, email and WhatsApp sales sequences, webinar scripts and direct-mail letters; produces funnel copy with offer, proof and honest urgency, plus mailing-list selection; not for short ad headlines or hooks (use `ad-copy-and-hook-lab`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within direct-response funnel copy skill (brunson + kennedy).
-- Write a direct mail letter, postcard or self-mailer with a P.S., and choose which mailing-list customers to send it to first using FRAT scoring and a cost-per-piece check (formerly `direct-mail-writer`).
+- The client wants a social, email or WhatsApp campaign that sells a course, coaching programme, event, membership or high-ticket service.
+- We need a funnel that moves buyers from a free offer to a low-price entry and up to the core and premium offers.
+- A long sales page or sales letter, webinar script or launch sequence needs writing with a clear offer, guarantee and a deadline that is true.
+- Our funnel gets leads but few sales and we need to find the weak step and rewrite it.
+- We are sending a direct mail letter, postcard or self-mailer and need the P.S., list selection by FRAT scoring and a cost-per-piece check.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `ad-copy-and-hook-lab` for short paid ad headlines, hooks and primary text.
+- `email-copywriter` for a single newsletter or promotional email.
+- `05-social-media-strategy` for brand-building work with no conversion goal.
+- Stop where regulated claims (financial, health or education results) appear until legal review clears them; never use fake scarcity or invented testimonials.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

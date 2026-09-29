@@ -1,6 +1,6 @@
 ---
 name: 07-email-marketing-strategy
-description: "Use when designing a permission-based email programme, lifecycle and measurement plan. Produces email marketing strategy and lifecycle sequence map; use `06-digital-marketing-strategy` when that neighbouring contract is the closer match."
+description: Use when a client wants to build, grow or revive an email list, including lead magnets, welcome and win-back sequences and a lapsed-customer reactivation push; produces the email marketing strategy and lifecycle sequence map; not for writing the finished emails themselves (use `email-copywriter`).
 metadata:
   portable: true
   compatible_with:
@@ -19,16 +19,18 @@ Assume Mailchimp or Brevo as the email platform. Note differences between the tw
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for designing a permission-based email programme, lifecycle and measurement plan.
-- Confirm that `06-digital-marketing-strategy` is not the closer route before proceeding.
-- Win back a dormant past-customer list with a customer reactivation campaign: gratitude message, exclusive returning-customer offer, referral close and WhatsApp win-back sequence (formerly `biz-dev-reactivation-campaign`).
-- Build and run an email funnel operations playbook: welcome sequence schedule, steady-state cadence, CTA placement, mobile email design, subject-line A/B testing log and list health review (formerly `playbook-email-funnel`).
-- Design a lead magnet system: free checklist, report, quiz or webinar opt-in offer, website pop-up and exit-intent placements, WhatsApp trigger-message delivery and double opt-in (formerly `playbook-lead-magnet-system`).
+- The client has customer emails but never sends anything, and needs a plan for list growth, segmentation, newsletters, sequences, promotions and how to judge results.
+- Customers have not bought in a year or more and the client wants to win them back: a thank-you message, a comeback or returning-customer offer, a refer-a-friend ask and a WhatsApp win-back follow-up sequence.
+- The email funnel needs running rules: welcome sequence timing, steady cadence, CTA placement, mobile layout and a subject-line A/B test log.
+- The client wants a lead magnet such as a free checklist, report, quiz or webinar, with website pop-ups, exit-intent placements, WhatsApp delivery and double opt-in.
+- A timed launch, event or product drop needs its own email sequence plan.
 
 ## Do Not Use When
 
-- Use `06-digital-marketing-strategy` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `email-copywriter` for the finished subject lines and email copy.
+- `playbook-marketing-automation` for building triggers and workflows in the automation tool.
+- `06-digital-marketing-strategy` when email is one channel in a wider digital plan.
+- Stop before mailing any list without proof of consent and an unsubscribe route under Uganda's DPPA 2019 or the law that applies.
 
 ## Required Inputs
 

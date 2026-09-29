@@ -1,6 +1,6 @@
 ---
 name: demand-forecasting
-description: Use when the main deliverable concerns demand forecasts, stockout timing, reorder decisions, and duplicate-safe operational-data analysis; use meta-budget-planner when that neighbouring workflow owns the primary decision.
+description: Use when a retailer, pharmacy or distributor needs to know how fast stock sells, when items run out and what to reorder, or a sales-and-stock report duplicates products; produces the forecast by product and branch, stockout dates, reorder points and suggested orders; not for splitting the marketing budget (use `meta-budget-planner`).
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for demand forecasts, stockout timing, reorder decisions, and duplicate-safe operational-data analysis.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- The owner asks how many days each product has before it runs out, per shop or branch.
+- Reorder points, safety stock and suggested order quantities are needed from sales and stock data.
+- A sales and stock query or report shows the same product several times because tables are joined before aggregation.
+- Promotions, returns, voids or stockout days are distorting the demand figures.
+- The forecast needs back-testing with WAPE, bias and missed stockouts before anyone trusts it.
 
 ## Do Not Use When
 
-- Use `meta-budget-planner` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `meta-budget-planner` for dividing the marketing budget and working back from a revenue target.
+- `social-commerce-strategy` for catalogue, WhatsApp ordering and fulfilment content.
+- Stop when sales or stock history is missing or duplicated; flag the gap instead of guessing demand.
 
 ## Required Inputs
 

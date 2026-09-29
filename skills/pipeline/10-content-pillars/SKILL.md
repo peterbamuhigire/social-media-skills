@@ -1,6 +1,6 @@
 ---
 name: 10-content-pillars
-description: "Use when defining three to five audience-linked themes before calendar production. Produces content pillar map and reference card; use `11-content-calendar` when that neighbouring contract is the closer match."
+description: Use when a brand's feed lacks direction and it needs three to five standing themes linked to audience needs and business goals, with each theme's percentage of the mix; produces the content pillar map and one-page reference card; not for scheduling posts across the coming months (use `11-content-calendar`).
 metadata:
   portable: true
   compatible_with:
@@ -15,13 +15,17 @@ Produce two outputs: (1) a full content pillar set with detailed guidance per pi
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for defining three to five audience-linked themes before calendar production.
-- Confirm that `11-content-calendar` is not the closer route before proceeding.
+- Posting feels random and the client wants a few recurring themes that link audience needs to business goals.
+- The team needs to know what percentage of output each theme takes and which platforms suit it best.
+- Each theme needs hero, hub and hygiene roles, example post types, starter ideas and what not to post.
+- The social manager wants a one-page reference card to check every post against.
 
 ## Do Not Use When
 
-- Use `11-content-calendar` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `11-content-calendar` for dated posts across the next 90 days.
+- `content-ideas` for a large bank of individual post ideas.
+- `05-social-media-strategy` when platforms and goals are not yet decided.
+- Stop before setting themes while the audience or brand voice is unapproved; list what must be confirmed first.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: playbook-crisis-communications
-description: Use when designing or improving a Crisis Communications operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when something has gone wrong in public (a viral complaint, media attention, a scandal, a platform blocked at election time) and the brand must respond fast; produces severity levels, holding statements, response timelines, a one-page crisis card and post-crisis review; not for slow review repair (use `playbook-reputation-management`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,18 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Crisis Communications workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
+- A customer's video or post is spreading fast and a reporter wants a comment: how serious is it and who responds in the first hour?
+- A damaging news story is about to air or print and a statement is needed today.
+- Write holding statements and a first-30-minute checklist before anything goes wrong.
+- Platform actions on Facebook, Instagram, WhatsApp, X and LinkedIn during an incident, and what must not be done.
+- Prepare for an internet shutdown or platform block around an election or national event.
+- The storm has passed and a post-crisis review with lessons learned is due.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-reputation-management` for rebuilding ratings, reviews and search results over weeks.
+- `playbook-community-management` for routine complaints handled within normal response times.
+- `playbook-pr-publicity` for proactive press releases and media pitching.
+- Stop before publishing any statement, deleting posts or naming individuals without legal and client sign-off; deliver the draft holding statement and the approval request.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: 05-social-media-strategy
-description: "Use when producing the master social-media strategy after onboarding and audit. Produces board-ready social-media strategy and implementation priorities; use `06-digital-marketing-strategy` when that neighbouring contract is the closer match."
+description: 'Use when intake and the audit are complete and the client needs one overarching plan for its social channels: which platforms and why, goals, pillars, posting mix, community and KPIs; produces the board-ready social strategy and implementation priorities; not for a plan spanning email, search, web and paid (use `06-digital-marketing-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -47,13 +47,17 @@ A healthy content plan addresses all three. A plan heavy on M (promotional) with
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for producing the master social-media strategy after onboarding and audit.
-- Confirm that `06-digital-marketing-strategy` is not the closer route before proceeding.
+- The brief, audit, personas and voice are approved and the client wants one strategy document for its social channels.
+- The board or MD wants to know which platforms to prioritise (Instagram, TikTok, Facebook, LinkedIn or X), why, and what targets and success look like in numbers for the social team.
+- The plan needs posting frequency and content mix by platform, a community approach and a test-and-learn rhythm.
+- The client's social presence must also hold up in AI search and answer engines, with trust and participation built into the plan.
 
 ## Do Not Use When
 
-- Use `06-digital-marketing-strategy` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `06-digital-marketing-strategy` when email, search, website, influencer and paid channels must sit in one integrated plan.
+- `strategy-channel-architecture` for platform roles and audience flow between channels only.
+- `09-campaign-strategy` for one launch or promotion rather than the ongoing programme.
+- Stop before committing budget or promising follower or sales targets without baseline data; state the assumption and the baseline needed.
 
 ## Required Inputs
 

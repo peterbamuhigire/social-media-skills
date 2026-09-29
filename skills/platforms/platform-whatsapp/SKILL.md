@@ -1,6 +1,6 @@
 ---
 name: platform-whatsapp
-description: Use when creating a Whatsapp channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a business wants to run WhatsApp Business well: profile, catalogue, greeting and away messages, broadcast lists, Status, groups, opt-in and a service rota; produces the WhatsApp channel plan with a 30-day broadcast calendar and message templates; not for bulk SMS or API messaging campaigns (use `playbook-sms-whatsapp-marketing`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Whatsapp-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
-- Set up WhatsApp Business operations: profile, greeting and away messages, quick replies, broadcast lists, catalogue, customer service protocol, escalation and team rota (formerly `playbook-whatsapp-business`).
+- The client wants WhatsApp to be a trusted direct channel and needs its role, opt-in and opt-out rules agreed.
+- WhatsApp Business needs setting up: profile, greeting and away messages, quick replies, broadcast lists, catalogue, a customer service protocol, escalation and a team rota.
+- The client wants a 30-day broadcast calendar, a Status plan and ready-to-send message templates.
+- Customer groups or communities on WhatsApp need rules, moderation and a clear purpose.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `playbook-sms-whatsapp-marketing` for bulk SMS and WhatsApp Business API campaigns.
+- `playbook-chatbot-strategy` for automated chat flows and bots.
+- `playbook-community-management` for community management across several channels.
+- Stop before messaging anyone who has not opted in or sending broadcasts without client authority; Uganda DPPA 2019 consent rules apply.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

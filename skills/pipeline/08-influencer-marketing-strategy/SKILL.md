@@ -1,6 +1,6 @@
 ---
 name: 08-influencer-marketing-strategy
-description: "Use when planning a creator, influencer or customer UGC programme with fit, AI discovery, fake-follower checks, human or virtual choice, rights and measurement. Produces influencer strategy, selection criteria and activation plan; use `09-campaign-strategy` when that neighbouring contract is the closer match."
+description: Use when a brand wants creators, influencers or its own customers to promote it, including vetting for fake followers, AI discovery tools, virtual influencers and UGC; produces the influencer strategy, selection criteria, term sheet and activation plan; not for a creator building their own income (use `strategy-creator-monetisation`).
 metadata:
   portable: true
   compatible_with:
@@ -19,15 +19,17 @@ This skill covers strategy and execution guidance only. It does not produce lega
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for planning a creator or influencer programme with fit, due diligence, rights and measurement.
-- Confirm that `09-campaign-strategy` is not the closer route before proceeding.
-- The client wants AI tools to find influencers, screen out fake followers and bot engagement, or decide between a human and a virtual CGI influencer (formerly `ai-influencer-strategy`).
-- The client wants customers to create content: a UGC strategy with a UGC audit, branded hashtag, customer photo and testimonial collection, permissions log, and curation and reposting of customer content (formerly `playbook-ugc-strategy`).
+- A brand wants local content creators or influencers to promote a product and needs who to pick, tiers, fit criteria, outreach, briefs, usage rights and measures.
+- Creators need vetting (are their follower numbers real?), pricing, deal terms and a term sheet with ad disclosure before any offer is made.
+- The client wants AI tools to find influencers, screen out fake followers and bot engagement, or weigh a human creator against a virtual CGI influencer.
+- The client wants customers posting photos, videos and reviews of its products (UGC) that the brand can reshare: a branded hashtag, testimonial collection, a permissions log and reposting rules.
 
 ## Do Not Use When
 
-- Use `09-campaign-strategy` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `strategy-creator-monetisation` for a creator's own rate card, revenue streams and brand partnerships.
+- `09-campaign-strategy` for the wider campaign that a creator activation sits inside.
+- `strategy-ewom-reviews` for reviews, referrals and word-of-mouth programmes.
+- Stop before contacting, contracting or paying any creator without client authority and a signed disclosure and rights agreement.
 
 ## Required Inputs
 

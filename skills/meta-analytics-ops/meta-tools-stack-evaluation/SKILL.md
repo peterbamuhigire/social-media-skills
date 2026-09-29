@@ -1,6 +1,6 @@
 ---
 name: meta-tools-stack-evaluation
-description: "Use when evaluating the marketing technology or AI tool stack for workflow fit, duplication, EA access, governance and total cost, or scoring AI vendors. Produces martech/AI stack recommendation, vendor scorecards and migration priorities; use `meta-budget-planner` when budget allocation is the closer match."
+description: Use when a client asks which marketing or AI tools to keep, cut or buy (scheduling, design, analytics, email, CRM, AI writers), scored for fit, overlap, East African payment access, data governance and cost; produces the stack recommendation, AI vendor scorecards and trial briefs; not for AI maturity scoring (use `ai-readiness-diagnostic`).
 metadata:
   portable: true
   compatible_with:
@@ -19,16 +19,18 @@ Produce a structured, client-specific martech tools recommendation calibrated to
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for evaluating the wider marketing technology stack for workflow fit, duplication and total cost.
-- Use it for AI marketing tool audits (fit, access, cost, governance) and for scored AI vendor due diligence on a named shortlist.
-- Confirm that `meta-budget-planner` is not the closer route before proceeding.
-- Score candidate AI tools on the eight-factor vendor evaluation scorecard and write a 30-day experiment brief for each tool worth trialling (formerly `ai-vendor-evaluation`).
-- Audit the AI marketing tools in use for fit, East African payment access, cost and data governance, and recommend an AI tool stack by budget profile (formerly `meta-ai-tools-audit`).
+- The client pays for overlapping tools such as Hootsuite, Canva Pro, Mailchimp or several AI writers and wants to know which to keep, cut or replace, and the total monthly subscription cost.
+- A small team needs a recommended stack for a zero, Starter or Growth budget, free tiers first.
+- The AI tools in use (ChatGPT, Jasper, Canva's AI features) need auditing for fit, whether they can be paid for from Uganda or Kenya with a local card, cost, and whether customer data is safe with them.
+- A shortlist of AI vendors must be scored on an eight-factor scorecard, with a 30-day trial brief for each one worth testing.
+- Migration priorities are needed before switching platforms so no data or workflow is lost.
 
 ## Do Not Use When
 
-- Use `meta-budget-planner` when allocating a confirmed marketing budget across channels, not choosing tools, is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `ai-readiness-diagnostic` for scoring how ready the team, data and processes are for AI.
+- `ai-use-case-mapping` for deciding which marketing tasks AI should do.
+- `meta-budget-planner` for dividing the whole marketing budget across channels.
+- Stop before signing up, entering payment details or granting a tool access to client accounts; recommend only.
 
 ## Required Inputs
 

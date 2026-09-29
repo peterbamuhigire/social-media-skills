@@ -1,6 +1,6 @@
 ---
 name: ai-readiness-diagnostic
-description: Use when AI Readiness Diagnostic is needed to produce a scored diagnostic, data foundation audit or plan, or AI Marketing Canvas roadmap for social-media or digital-marketing work; use `ai-use-case-mapping` when its narrower outcome is requested.
+description: Use when a client asks how ready they are for AI in marketing, or their customer data is too messy for AI; produces a scored 41-item readiness diagnostic, a data foundation audit and 90-day plan with Uganda DPPA 2019 consent, and an AI Marketing Canvas roadmap; not for choosing which tasks AI should do (use `ai-use-case-mapping`).
 metadata:
   portable: true
   compatible_with:
@@ -11,14 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **scored diagnostic** and the supplied brief falls within ai readiness diagnostic.
-- Audit messy customer data (WhatsApp chats, Facebook DMs, Excel sheets, CRM) with the data hygiene checklist and a 30-day remediation plan before buying AI tools (formerly `ai-data-foundation-audit`).
-- Build a 90-day data foundation plan: data asset inventory, data quality scorecard, minimum viable customer schema and Uganda Data Protection and Privacy Act 2019 consent (formerly `ai-data-foundation-plan`).
-- Complete the AI Marketing Canvas across acquisition, retention, growth and advocacy and turn it into a 12-month quarterly AI roadmap (formerly `ai-marketing-canvas-assessment`).
+- Are we ready for AI? Score our marketing maturity across data, team, tools and processes before we buy anything.
+- Our customer data sits in WhatsApp chats, Facebook DMs, Excel sheets and an old CRM; run the hygiene checklist and a 30-day clean-up plan before connecting AI tools.
+- A larger client needs a 90-day data foundation plan: data asset inventory, quality scorecard, minimum viable customer schema and Uganda Data Protection and Privacy Act 2019 consent.
+- Complete the AI Marketing Canvas across acquisition, retention, growth and advocacy and turn it into a 12-month quarterly AI roadmap.
 
 ## Do Not Use When
-- Use `ai-use-case-mapping` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `ai-use-case-mapping` for deciding which marketing tasks AI should take on and in what order.
+- `meta-tools-stack-evaluation` for comparing and scoring specific AI tools or vendors.
+- `training-ai-foundations` for teaching the team to use AI.
+- Stop before any AI tool is connected to customer data that lacks a lawful basis, consent or an accountable owner; deliver the remediation plan instead.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

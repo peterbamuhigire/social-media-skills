@@ -1,6 +1,6 @@
 ---
 name: paid-search-advertising
-description: Use when planning, specifying, auditing or reporting Google Ads search, Performance Max or Demand Gen campaigns, keyword and intent research, RSA assets or search conversion tracking; use playbook-paid-social-advertising for Meta, TikTok and LinkedIn ads.
+description: 'Use when a client wants to appear on Google when people search: Google Ads search, Performance Max or Demand Gen plans, keyword and intent maps, RSA assets, account audits and conversion tracking; produces a search build specification and prioritised fix list; not for Meta, TikTok or LinkedIn ads (use `playbook-paid-social-advertising`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,18 +15,18 @@ Plan and specify Google Ads programmes that harvest existing demand: intent-led 
 <!-- dual-compat-start -->
 ## Use When
 
-- A client needs a search advertising plan, account structure, keyword map or build specification.
-- An existing Google Ads account needs a read-only audit and a prioritised fix list.
-- RSA assets, sitelinks, callouts or search-theme inputs need writing for a campaign.
-- The team must decide whether Search, Performance Max or Demand Gen fits an objective.
-- Search is being used to test propositions or keywords before investing in SEO or product builds.
+- We need a Google search advertising plan, account structure, keyword map or build specification.
+- Audit our existing Google Ads account read-only and give a fix list ranked by money at risk.
+- Write RSA headlines and descriptions, sitelinks, callouts or search-theme inputs for a campaign.
+- Should this objective run on Search, Performance Max or Demand Gen?
+- Test propositions or keywords with search ads before investing in SEO or a product build.
 
 ## Do Not Use When
 
-- The work is Meta, TikTok or LinkedIn advertising; use `playbook-paid-social-advertising`.
-- The work is organic search or AI-search visibility; use `seo-geo-optimisation` or `ai-generative-search-optimisation`.
-- The deliverable is landing-page implementation; hand off through `ad-to-site-journey-handoff` to website-skills.
-- The request is to change bids, budgets or campaigns in a live account without written authority; stop at an approval-ready specification.
+- `playbook-paid-social-advertising` for Meta, TikTok or LinkedIn advertising.
+- `seo-geo-optimisation` or `ai-generative-search-optimisation` for organic search or AI-search visibility.
+- `ad-to-site-journey-handoff` for the landing-page brief handed to website-skills.
+- Stop at an approval-ready specification when asked to change bids, budgets or campaigns in a live account without written authority.
 
 ## Required Inputs
 

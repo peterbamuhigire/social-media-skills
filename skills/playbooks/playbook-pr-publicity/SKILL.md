@@ -1,6 +1,6 @@
 ---
 name: playbook-pr-publicity
-description: Use when designing or improving a PR, publicity, media-pitching and newsjacking operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a client wants press, radio or TV coverage: story angles, news releases, a publicity kit, journalist pitching, newsjacking and tracking earned media; produces the PR plan, pitch pack and media contact log; not for responding to hostile coverage or a crisis (use `playbook-crisis-communications`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,14 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Pr Publicity workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Newsjack a breaking story, such as a Bank of Uganda rate decision, with rapid expert commentary set up from Google Alerts and checked for GEO and AI search citation (formerly `playbook-geo-newsjacking`).
-- Pitch Ugandan journalists at Daily Monitor, New Vision or NBS TV by email or WhatsApp and amplify earned media coverage across social channels (formerly `playbook-pr-media-integration`).
+- News such as a launch, award or milestone deserves newspaper, radio or TV coverage: story angle, news release and publicity kit.
+- Pitch journalists at Daily Monitor, New Vision or NBS TV by email or WhatsApp, keep a media contact log and share the coverage on our social channels.
+- Newsjack breaking news, such as a Bank of Uganda rate decision, with fast expert comment set up from Google Alerts that journalists and AI search can cite.
+- Plan a year-round publicity calendar of story hooks.
+- Track earned media and report it without treating advertising value equivalents as results.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-crisis-communications` for responding to hostile media or a story already damaging the brand.
+- `strategy-csr-purpose-communications` for purpose, CSR and community-impact messaging.
+- `ai-generative-search-optimisation` for wider visibility in AI answers beyond news commentary.
+- Stop before sending a release, pitching a journalist or quoting a spokesperson without the client's sign-off on facts and quotes.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: strategy-creator-monetisation
-description: Use when the main deliverable concerns creator revenue options, eligibility, rate cards, partnerships, and owned products; use playbook-social-selling when that neighbouring workflow owns the primary decision.
+description: 'Use when a creator, influencer or artist asks how to earn from an audience: YouTube Partner Programme and TikTok eligibility, affiliate links, digital products, brand deals and rate cards; produces the creator income plan with pricing and a pitch; not for building a personal reputation (use `strategy-personal-brand`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for creator revenue options, eligibility, rate cards, partnerships, and owned products.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- A creator wants to know which income routes are open in East Africa and what each realistically pays.
+- We must check YouTube Partner Programme, TikTok or Facebook payout eligibility before setting subscriber targets.
+- A creator needs a rate card, a distribution fee plus talent fee price for brand work, and polite ways to decline poor offers.
+- The audience could buy an ebook, course, template or paid community through Mobile Money.
+- Affiliate programmes and disclosure wording are needed for product recommendations.
 
 ## Do Not Use When
 
-- Use `playbook-social-selling` (including high-value, formerly `premium-social-selling`) when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `strategy-personal-brand` for an individual's positioning, reputation and authority.
+- `08-influencer-marketing-strategy` for brands hiring, vetting and paying creators.
+- `playbook-social-selling` for relationship selling and high-value outreach.
+- Stop before promising income figures or relying on platform payout rules not verified against current platform terms.
 
 ## Required Inputs
 

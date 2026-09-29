@@ -1,6 +1,6 @@
 ---
 name: biz-dev-positioning
-description: Use when Business Development — Positioning is needed to produce a positioning statement and proof architecture, including a consultant's own practice, for social-media or digital-marketing work; use `biz-dev-proposal` when its narrower outcome is requested.
+description: 'Use when an agency or consultant needs its own positioning: niche, differentiating promise (USP), spoken pitch, mission and the proof behind them; produces the positioning statement, proof architecture and practice-building plan; not for a client brand''s segmentation and value proposition (use `marketing-foundations-stp-positioning`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **positioning statement and proof architecture** and the supplied brief falls within business development — positioning.
-- Position my own consultancy practice as a social media consultant: pick my niche, sharpen my USP, collect testimonials, plan LinkedIn thought leadership and build a referral system (formerly `biz-dev-practitioner-positioning`).
+- Our agency sounds like every other agency and we need to decide who we serve and what we promise.
+- We need a differentiating promise, a 30-second spoken pitch, and a mission and vision we can back with proof.
+- We are choosing a niche by sector or service and want the checks done before we commit.
+- I am a freelance social media consultant positioning my own practice: niche, USP testing, testimonials, LinkedIn thought leadership and a referral system.
 
 ## Do Not Use When
-- Use `biz-dev-proposal` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `marketing-foundations-stp-positioning` for a client brand's segmentation, targeting and value proposition.
+- `strategy-personal-brand` for an individual's public profile, content and monetisation as a creator or executive.
+- `biz-dev-credentials` for the credentials document and case studies that present the positioning.
+- Stop before claiming awards, results or client names the practice cannot evidence; mark them as proof gaps.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

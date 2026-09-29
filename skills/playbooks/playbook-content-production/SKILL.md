@@ -1,6 +1,6 @@
 ---
 name: playbook-content-production
-description: Use when designing or improving a Content Production operating playbook, including AI-assisted drafting, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a team must make the photos, videos and graphics for social: shoot and design briefs, shot lists, batch shoot days, quality standards, or an AI-assisted drafting workflow with prompts and disclosure; produces the production briefs, shoot checklist and AI content workflow; not for deciding what goes out when (use `11-content-calendar`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,18 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Content Production workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Set up an AI content workflow: ChatGPT, Claude or Canva prompts, a brand context block, quality checks and an AI disclosure policy before posts are scheduled (formerly `playbook-ai-content-workflow`).
+- Decide how posts get made each week: who drafts, who designs, who approves and when photo shoots are batched.
+- A photography, video or graphic design brief with shot lists, dimensions, lighting and brand elements for the photographer, videographer or designer.
+- Plan a batch shoot day so one session gives several weeks of posts, with a shoot checklist and the editing and scheduling that follow.
+- Decide how the team uses ChatGPT, Claude or Canva to draft captions and ideas: a brand context block, prompts, checks on AI-drafted copy and an AI disclosure rule.
+- Posts look inconsistent; every asset needs a quality standard to pass before it is scheduled.
+- Reacting to trends quickly without losing the brand voice or skipping approval.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `11-content-calendar` for the dated 90-day schedule of posts.
+- `training-smartphone-video-production` for teaching staff to shoot and edit on a phone.
+- `caption-writer` for writing the captions themselves.
+- Stop before publishing AI-generated or identifiable customer material without disclosure, consent and the client's approval; deliver the assets for review.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

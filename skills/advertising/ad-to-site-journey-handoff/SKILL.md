@@ -1,6 +1,6 @@
 ---
 name: ad-to-site-journey-handoff
-description: Use when an ad, email or social campaign sends people to a website or landing page and the landing-page brief, message match, UTM and conversion-event definitions, consent and ownership must be handed to website-skills; use playbook-post-click-strategy for link-in-bio and WhatsApp flows.
+description: Use when ads, email or social posts send people to a website or landing page and the web team needs a brief; produces a landing-page brief with message match, a UTM and conversion-event spec, consent rules and an ownership RACI for website-skills; not for link-in-bio, DM or WhatsApp journeys (use `playbook-post-click-strategy`).
 metadata:
   portable: true
   compatible_with:
@@ -15,18 +15,18 @@ Define the contract between a marketing campaign and the website that receives i
 <!-- dual-compat-start -->
 ## Use When
 
-- A paid, email or organic campaign will send traffic to a landing page or website section.
-- A client asks "why do our ads get clicks but no enquiries?" and the destination is suspect.
-- A new landing page, offer page or lead-magnet page must be briefed to a web team or to website-skills.
-- UTM conventions, conversion events or consent handling need defining before launch.
-- Ownership of copy, build, tags, QA, go-live and reporting between agency, client and developer is unclear.
+- A paid, email or organic campaign is about to send traffic to a landing page or a section of the website.
+- Our ads get clicks but no enquiries, and we suspect the page they land on.
+- A new offer page, lead-magnet page or landing page must be briefed to the web developer or to website-skills.
+- UTM tags, conversion events and cookie consent need agreeing for this journey before launch.
+- Nobody is clear who owns the copy, build, tags, QA, go-live and reporting between agency, client and developer.
 
 ## Do Not Use When
 
-- Traffic goes to Instagram/TikTok link-in-bio, WhatsApp chat or DMs without a web page; use `playbook-post-click-strategy`.
-- The deliverable is page build, code, performance engineering or design; hand off to website-skills and design-system-skills.
-- The need is a full website content plan; use `12-website-content-plan`.
-- The need is UTM governance across all campaigns; use `measurement-tracking-plan` (this skill applies it to one journey).
+- `playbook-post-click-strategy` when traffic goes to link-in-bio, WhatsApp chat or DMs with no web page.
+- `measurement-tracking-plan` for UTM and tagging rules across every campaign.
+- `12-website-content-plan` for a full website content plan; page build, code and design go to website-skills and design-system-skills.
+- Stop before tags go live or the page collects personal data without consent handling and client sign-off; return the go/no-go record.
 
 ## Required Inputs
 

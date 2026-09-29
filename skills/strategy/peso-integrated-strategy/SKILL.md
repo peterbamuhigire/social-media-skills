@@ -1,6 +1,6 @@
 ---
 name: peso-integrated-strategy
-description: Use when the main deliverable concerns paid, earned, shared, and owned channel coordination, including an owned-media plan for website, email list, WhatsApp opt-in and SMS assets; use strategy-channel-architecture when that neighbouring workflow owns the primary decision.
+description: Use when ads, press coverage, shares and owned assets (website, email list, WhatsApp opt-in, SMS) run in silos or the brand leans on rented Facebook reach; produces the PESO plan with an owned-media audit and hand-offs between pillars; not for giving each platform its role and audience flow (use `strategy-channel-architecture`).
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for paid, earned, shared, and owned channel coordination.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Audit and grow the audience assets the client owns — website, blog, email list, WhatsApp opt-in list, SMS list — to cut dependence on Facebook and other rented platforms (formerly `owned-media-strategy`).
+- Our paid, earned, shared and owned activity is run by different people and never reinforces itself.
+- Press coverage fades after a day because nobody amplifies it with ads, posts or the newsletter.
+- We depend on Facebook reach and want audiences we own: website, blog, email list, WhatsApp opt-in list and SMS list.
+- An owned-media audit must decide which asset to build first and how social traffic joins the list with consent.
+- Leadership wants one integrated communications plan showing which pillar leads each objective.
 
 ## Do Not Use When
 
-- Use `strategy-channel-architecture` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `strategy-channel-architecture` for platform roles, the conversion hub and hub-and-spoke audience flows.
+- `playbook-pr-publicity` for story angles, press materials and journalist pitching.
+- `07-email-marketing-strategy` for the detailed email programme and lifecycle sequences.
+- Stop before adding contacts to email, SMS or WhatsApp lists without recorded opt-in consent; deliver the consent plan first.
 
 ## Required Inputs
 

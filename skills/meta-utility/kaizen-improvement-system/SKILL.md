@@ -1,6 +1,6 @@
 ---
 name: kaizen-improvement-system
-description: Use when auditing or improving the social-media engine or any campaign, content system, strategy, report, training asset, or marketing product it produces.
+description: Use when a campaign, content system, strategy, report or training product keeps underperforming or needs a structured post-mortem, or when this social-media engine needs a quality review; produces a scored audit, blocker list, plan to 95/100 and a logged improvement experiment; not for humanising a single draft (use `anti-ai-slop`).
 metadata:
   portable: true
   compatible_with:
@@ -14,13 +14,17 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.
 <!-- dual-compat-start -->
 ## Use When
 
-- Auditing this engine or a social/digital-marketing product after planning, production, publication, or reporting.
-- Turning audience feedback, platform changes, performance evidence, or client review into a tested improvement.
+- A campaign, report or content system has finished and the client wants an honest review of what to fix before the next round.
+- Client feedback, audience reactions, platform changes or results must be turned into a tested improvement rather than a guess.
+- A deliverable scores below standard and needs a plan from its current score to 95 out of 100.
+- The social-media engine or one of its skills needs an audit and a standardised learning record.
 
 ## Do Not Use When
 
-- Only one creative asset needs a normal anti-slop gate.
-- Current platform, market, legal, or policy claims lack source-register verification.
+- `anti-ai-slop` for cleaning up one AI-assisted draft so it reads as human.
+- `meta-testing-framework` for designing the experiment itself.
+- `ai-slop-audit` for an evidence-backed audit of AI-generated content.
+- Stop when current platform, market, legal or policy claims lack a dated source-register entry; verify them first.
 
 ## Required Inputs
 

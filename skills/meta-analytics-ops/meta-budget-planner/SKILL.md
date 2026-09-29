@@ -1,6 +1,6 @@
 ---
 name: meta-budget-planner
-description: "Use when allocating a confirmed marketing budget across channels, production, tools and contingency. Produces marketing budget plan, allocation rationale and bottom-up revenue plan with CAC ceiling; use `meta-roi-framework` when that neighbouring contract is the closer match."
+description: Use when a client asks how to split a confirmed marketing budget across channels, content production, tools and contingency, or how many leads a revenue target needs; produces the budget allocation plan and bottom-up revenue plan with a CAC ceiling; not for setting the paid-media budget (use `advertising-strategy-and-budget`).
 metadata:
   portable: true
   compatible_with:
@@ -13,14 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for allocating a confirmed marketing budget across channels, production, tools and contingency.
-- Confirm that `meta-roi-framework` is not the closer route before proceeding.
-- Build a bottom-up revenue plan: work back from a revenue target through funnel conversion rates to the leads, opportunities and inquiries needed per channel, with a CAC ceiling, weighted pipeline forecast and deal velocity targets (formerly `meta-revenue-planning`).
+- The marketing budget is confirmed, say UGX 1.5 to 5 million a month, and the owner asks how to divide it across channels, production, tools and a reserve.
+- The client wants to know which budget tier fits them and what Starter, Growth or Scale spending buys.
+- Work back from next year's sales or revenue target to the enquiries, deals and opportunities each channel must bring in, the most we can afford to pay to win a customer (CAC ceiling), a weighted pipeline forecast and deal velocity targets.
+- A quarterly budget review should move money from weak channels to proven ones.
 
 ## Do Not Use When
 
-- Use `meta-roi-framework` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `advertising-strategy-and-budget` for paid-media objectives, the ad budget floor and ceiling and spend release phases.
+- `meta-roi-framework` for proving the return on money already spent.
+- `media-planning` for the media schedule, flighting and weights.
+- Stop before committing, moving or spending money; deliver the plan for the client's approval.
 
 ## Required Inputs
 

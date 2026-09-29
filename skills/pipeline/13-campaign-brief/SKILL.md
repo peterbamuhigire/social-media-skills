@@ -1,6 +1,6 @@
 ---
 name: 13-campaign-brief
-description: "Use when translating an approved campaign strategy into an executable team or supplier brief. Produces operational campaign brief with owners, deliverables and approvals; use `09-campaign-strategy` when that neighbouring contract is the closer match."
+description: Use when an approved campaign must be handed to the team, agency or suppliers with every asset, spec, deadline and sign-off spelled out; produces the operational campaign brief with deliverables, owners, deadlines and approvals; not for finding the insight and creative idea (use `creative-brief-and-big-idea`).
 metadata:
   portable: true
   compatible_with:
@@ -17,13 +17,17 @@ Produce one complete campaign brief document. This is the operational handover d
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for translating an approved campaign strategy into an executable team or supplier brief.
-- Confirm that `09-campaign-strategy` is not the closer route before proceeding.
+- Campaign strategy is approved and designers, videographers, printers or content creators need one handover document listing each asset to make, its sizes, the deadline and who signs it off.
+- Each deliverable needs specifications, platform sizes, copy, and brand do's and don'ts.
+- The team needs a timeline with deadlines, owners and an approval chain before work starts.
+- Content claims, sources and image or music rights must be recorded before assets go out.
 
 ## Do Not Use When
 
-- Use `09-campaign-strategy` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `creative-brief-and-big-idea` for the insight, the creative idea and the creative review.
+- `09-campaign-strategy` when the campaign's objective, message and channels are not yet decided.
+- `ad-copy-and-hook-lab` for writing the ad headlines and hooks themselves.
+- Stop before issuing the brief to suppliers or committing spend without the named approver's sign-off.
 
 ## Required Inputs
 

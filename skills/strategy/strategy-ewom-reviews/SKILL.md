@@ -1,6 +1,6 @@
 ---
 name: strategy-ewom-reviews
-description: Use when the main deliverable concerns proactive review generation, testimonials and social proof, word-of-mouth and referral programmes, advocacy, and electronic word of mouth; use playbook-reputation-management when that neighbouring workflow owns the primary decision.
+description: 'Use when a business wants more reviews, testimonials and recommendations: asking happy customers, a social-proof register, superfans and referral rewards via WhatsApp codes or Mobile Money; produces the reviews and word-of-mouth plan; not for damage control after public criticism (use `playbook-reputation-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,15 +12,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for proactive review generation, referral conditions, advocacy, and electronic word of mouth.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Collect, verify and place testimonials, reviews, certifications and other social proof on the website, proposals and WhatsApp sales chats, and keep a proof asset register (formerly `meta-social-proof-system`).
-- Design a word-of-mouth programme with superfans, Connectors, Mavens and Salespeople, WhatsApp referral codes and Mobile Money referral rewards (formerly `playbook-word-of-mouth-strategy`).
+- Satisfied customers stay silent; we want more Google, Facebook, TripAdvisor or Jumia reviews without faking or buying them.
+- Testimonials, results, certifications and endorsements need collecting, permission checks and placing on the website, proposals and WhatsApp sales chats, with a proof asset register.
+- We want superfans and a referral programme: Connectors, Mavens and Salespeople, WhatsApp referral codes and Mobile Money rewards.
+- We need to measure electronic word of mouth (eWOM) and advocacy, not just follower counts.
 
 ## Do Not Use When
 
-- Use `playbook-reputation-management` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `playbook-reputation-management` for responding to bad reviews, complaints and criticism.
+- `08-influencer-marketing-strategy` for paid creator and influencer programmes.
+- `strategy-customer-value-journey` for the full funnel from awareness to advocacy.
+- Stop before fabricating, buying or gating reviews, or offering incentives that break platform or consumer-protection rules.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: skill-safety-audit
-description: "Use when reviewing a skill or skill bundle for unsafe instructions before adoption or release. Produces read-only skill safety report with evidence and disposition; use `skill-writing` when that neighbouring contract is the closer match."
+description: 'Use when a third-party or new skill, prompt pack or bundle must be checked before it is adopted or released: installers, secret harvesting, hidden network actions and shadow dependencies; produces a read-only safety report with evidence and an adopt, fix or reject decision; not for authoring or upgrading a skill (use `skill-writing`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,16 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for reviewing a skill or skill bundle for unsafe instructions before adoption or release.
-- Confirm that `skill-writing` is not the closer route before proceeding.
+- A downloaded or shared skill is about to be added to the engine and nobody has read its scripts.
+- A skill asks for credentials, API keys, installs, piped download commands or network calls that need explaining.
+- Bundled references or scripts may hide actions the SKILL.md does not declare.
+- A release gate needs a documented safety decision for each skill.
 
 ## Do Not Use When
 
-- Use `skill-writing` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `skill-writing` for creating or upgrading a skill and its routing fixtures.
+- `kaizen-improvement-system` for improving a skill's quality rather than its safety.
+- Stop at reading: never run, install or execute the audited skill's scripts.
 
 ## Required Inputs
 

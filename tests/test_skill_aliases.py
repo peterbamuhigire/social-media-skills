@@ -129,13 +129,16 @@ class AliasCheckerTests(unittest.TestCase):
         self.write_baseline(3)
         self.assertIn("cap-exceeded", self.codes())
 
-    def test_cap_tolerated_inside_consolidation_window(self):
+    def test_removed_consolidation_window_no_longer_relaxes_the_cap(self):
+        # S08: the S02-S07 `consolidation_until` branch was removed; a re-added key is ignored.
         self.policy.update(hard_cap=1, consolidation_until="S07", current_active_skill_count=3)
         for name in ("extra-a", "extra-b"):
             self.skill(name)
         self.write_registry()
         self.write_baseline(3)
-        self.assertNotIn("cap-exceeded", self.codes())
+        self.assertIn("cap-exceeded", self.codes())
+        _, stats = aliases.check(self.root)
+        self.assertNotIn("window", stats)
 
     def test_count_mismatch(self):
         self.write_baseline(2)

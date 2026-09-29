@@ -1,6 +1,6 @@
 ---
 name: hospitality-hotel-restaurant
-description: Use when creating social strategy, content, campaigns, reputation management, or digital marketing for hotels, resorts, lodges, inns, guest houses, restaurants, bars, venues, catering, or food-service businesses.
+description: Use when a hotel, lodge, resort, guest house, restaurant, bar, café, venue or caterer needs social content, campaigns, review replies or more direct bookings; produces the hospitality social plan with guest-journey pillars, review playbook and booking measurement; not for a campaign for a non-hospitality brand (use `09-campaign-strategy`).
 metadata:
   portable: true
   compatible_with: [claude-code, codex]
@@ -12,11 +12,18 @@ Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
 <!-- dual-compat-start -->
 ## Use When
 
-- Social strategy, campaigns, content, reputation or digital marketing is for a hospitality or food-service business.
+- A hotel, lodge or guest house wants more direct bookings and fewer OTA commissions from social and WhatsApp.
+- A restaurant, bar or café needs posts about menus, food, events and offers that drive reservations or orders.
+- A venue or caterer is selling weddings, meetings or conference packages online.
+- Guest reviews on Google, TripAdvisor or booking sites need replies and a reputation routine.
+- Menus, prices, location and policies must match across the website, Google Business Profile and social profiles.
 
 ## Do Not Use When
 
-- The brief is generic corporate social work with no hospitality journey; use the core campaign route.
+- `09-campaign-strategy` for a single launch or offer campaign for a brand outside hospitality.
+- `platform-google-business-profile` for setting up or fixing the listing itself.
+- `strategy-ewom-reviews` for a review-generation or referral programme outside hospitality.
+- Stop before posting guest photos or UGC without documented rights, or quoting prices and availability the operator has not confirmed.
 
 ## Required Inputs
 

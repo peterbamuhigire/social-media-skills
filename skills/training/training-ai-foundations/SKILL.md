@@ -1,6 +1,6 @@
 ---
 name: training-ai-foundations
-description: Use when the main deliverable concerns beginner AI literacy or follow-on prompt-writing training for marketing teams, safe use, limitations, and supervised practice; use training-client-team when that neighbouring workflow owns the primary decision.
+description: 'Use when a marketing team is new to ChatGPT, Claude or Gemini and needs training: what AI can and cannot do, safe use of client data, checking outputs, and a follow-on prompt-writing workshop; produces the AI training guide with supervised exercises; not for a reusable prompt template library (use `prompt-engineering-library`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for beginner AI literacy for marketing teams, safe use, limitations, and supervised practice.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Use it when a marketing team needs hands-on prompt-writing training: building, critiquing and iterating prompts with the Alpha-Beta-Gamma-Delta-Epsilon structure and copywriting frameworks such as PAS and AIDA (formerly `training-ai-prompt-writing`).
+- Staff are using AI tools without guidance and need a beginner session on how they work, their limits and hallucinations.
+- We need rules for safe use: client confidentiality, Uganda DPPA 2019 personal data, disclosure and human review.
+- A team that knows the basics needs a hands-on prompt-writing workshop using the Alpha-Beta-Gamma-Delta-Epsilon structure and PAS and AIDA copy frameworks.
+- Managers want supervised practice and proof that trainees can critique and improve prompts.
 
 ## Do Not Use When
 
-- Use `training-client-team` when an operational social-media handover workshop or DIY content handbook owns the main decision or deliverable; use `content-writing/prompt-engineering-library` when the deliverable is a prompt template library rather than training.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `prompt-engineering-library` for a reusable library of text, image, audio and video prompt templates.
+- `training-client-team` for a social-media handover workshop or DIY content handbook.
+- `policy-ai-content-ethics` for the organisation's AI content policy.
+- Stop before exercises put real client personal data into public AI tools; use synthetic examples instead.
 
 ## Required Inputs
 

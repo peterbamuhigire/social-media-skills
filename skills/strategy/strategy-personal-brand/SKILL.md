@@ -1,6 +1,6 @@
 ---
 name: strategy-personal-brand
-description: Use when the main deliverable concerns individual positioning, authority, platform presence, content, and monetisation; use biz-dev-positioning when that neighbouring workflow owns the primary decision.
+description: 'Use when an individual (executive, doctor, lawyer, artist, speaker) wants to be known for something: personal positioning, reputation, presence on LinkedIn, Facebook or X, bios and income routes; produces the personal brand plan with bios and a posting rhythm; not for an agency''s or practice''s positioning (use `biz-dev-positioning`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for individual positioning, authority, platform presence, content, and monetisation.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- A CEO, doctor, lawyer or pastor wants a public profile separate from the organisation's brand.
+- Someone needs a personal positioning statement and reputation plan to be invited to speak or quoted by the media.
+- We must choose between LinkedIn, Facebook, X and WhatsApp Status and set a routine a busy person can keep.
+- Bios, speaker introductions, elevator pitches, or a press kit and one-sheet for brand partnerships are needed.
+- The person wants to turn authority into income through speaking, consulting, courses or partnerships.
 
 ## Do Not Use When
 
-- Use `biz-dev-positioning` (agency and practitioner positioning, formerly `biz-dev-practitioner-positioning`) when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `biz-dev-positioning` for an agency's or consulting practice's positioning and proof.
+- `strategy-creator-monetisation` for detailed creator income routes and rate cards.
+- `platform-linkedin` for the LinkedIn channel operating plan.
+- Stop before posting on the person's accounts or publishing credential claims that have not been verified with them.
 
 ## Required Inputs
 

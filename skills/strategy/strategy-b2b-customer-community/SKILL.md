@@ -1,6 +1,6 @@
 ---
 name: strategy-b2b-customer-community
-description: Use when a B2B client or the agency itself needs a retention-first customer strategy covering grading accounts by value, affordable contact plans, account penetration, at-risk alerts, lead handling and key-account plans; use playbook-client-retainer-management for day-to-day retainer delivery.
+description: 'Use when a B2B firm must keep and grow existing customers: grade accounts by value, affordable contact levels, at-risk alerts, selling into more sites and buyers, and key-account plans; produces the grading and contact matrix and key-account plans; not for day-to-day retainer delivery (use `playbook-client-retainer-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -23,10 +23,10 @@ Build a business-to-business marketing system that keeps and grows the best cust
 
 ## Do Not Use When
 
-- The task is scope, change requests and monthly check-ins for an existing retainer; use `playbook-client-retainer-management`.
-- The task is lead scoring rules or sales–marketing service levels only; use `meta-sales-marketing-alignment` (lead scoring model and service levels).
-- The deliverable is a formal tender response; hand over to proposal-skills.
-- The client has no customers yet; use `marketing-foundations-stp-positioning` and `traction-channel-bullseye`.
+- `playbook-client-retainer-management` for scope, change requests and monthly check-ins on an existing retainer.
+- `meta-sales-marketing-alignment` for lead-scoring rules and sales-marketing service levels only.
+- `marketing-foundations-stp-positioning` or `traction-channel-bullseye` when the client has no customers yet.
+- Stop when there is no reliable customer list or revenue data to grade from; return the data request. Formal tenders go to proposal-skills.
 
 ## Required Inputs
 

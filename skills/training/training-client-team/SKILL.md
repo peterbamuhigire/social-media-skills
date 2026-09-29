@@ -1,6 +1,6 @@
 ---
 name: training-client-team
-description: Use when the main deliverable concerns a two-hour operational social-media handover workshop and workbook, or a DIY content handbook for independent use after handover; use training-social-media-fundamentals when that neighbouring workflow owns the primary decision.
+description: 'Use when the agency hands social media to the client''s own staff: a two-hour workshop on who posts what, approvals, replies and reporting, or a DIY handbook for making Canva and CapCut posts alone; produces the handover workbook or DIY content handbook; not for beginners'' lessons (use `training-social-media-fundamentals`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for a two-hour operational social-media handover workshop and workbook.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Use it when a client needs a self-contained DIY content handbook to plan, create in Canva and CapCut, caption, boost and review their own posts after handover (formerly `training-diy-content`).
+- Our engagement is ending and the client team must run the approved strategy themselves.
+- Staff need to know what they can and cannot post, the approval workflow and how to reply to customer messages.
+- The team needs the basics of the scheduling tool (Meta Business Suite, Buffer) and how to report performance each month.
+- A client wants a keep-forever DIY content handbook: plan, design in Canva, edit in CapCut, write captions, boost posts and read analytics without the consultant.
 
 ## Do Not Use When
 
-- Use `training-social-media-fundamentals` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `training-social-media-fundamentals` for beginners learning how social media marketing works.
+- `training-smartphone-video-production` for hands-on phone filming and editing skills.
+- `playbook-social-media-policy` for the formal governance policy, roles and escalation.
+- Stop before transferring admin access, passwords or ad accounts without written authorisation from the account owner.
 
 ## Required Inputs
 

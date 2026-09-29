@@ -1,6 +1,6 @@
 ---
 name: premium-commercial-writing
-description: Use when Premium Commercial Writing is needed to produce a premium commercial writing deliverable, content writing standards or brochure copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when copy must read as expert and worth a premium fee, or the team needs house editorial rules or brochure copy; produces premium rewrites or critiques of pages, articles and offers, content writing standards (headlines, lede, Fog Index, you/we ratio) and panel-by-panel brochure copy; not for sales funnels (use `direct-response-funnel-copy`).
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **premium commercial writing deliverable** and the supplied brief falls within premium commercial writing.
-- Apply the house content writing standards to web page or article copy: headline rules, the lede, Fog Index readability, you/we ratio, features versus benefits and scannable formatting (formerly the category file `content-writing`).
-- Write brochure copy, for example a trifold brochure panel by panel, with a benefit headline on the cover and one call to action (formerly `copywriting-brochure`).
+- A web page, profile, proposal or article reads cheap, generic or wordy and needs lifting so a high-value buyer finds it credible.
+- We want a margin-note critique of a draft with proof gaps, weak claims and vague benefits marked.
+- The team needs house writing rules for web and article copy: headlines, the lede, Fog Index readability, you/we ratio, features against benefits and scannable layout.
+- We need brochure copy, such as a trifold panel by panel, with a benefit headline on the cover and one call to action.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `direct-response-funnel-copy` for sales pages, launch sequences and offer ladders that must convert.
+- `anti-ai-slop` for stripping AI tells out of a draft.
+- `seo-geo-optimisation` for page-level generative-search citation readiness.
+- Stop before adding proof, awards, prices or results the client has not supplied; flag the gap rather than inflate the claim.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

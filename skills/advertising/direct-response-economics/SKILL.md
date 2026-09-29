@@ -1,6 +1,6 @@
 ---
 name: direct-response-economics
-description: Use when a response campaign (flyer, SMS, WhatsApp, lead ads, direct mail, catalogue) needs a pro-forma P&L, orders-per-thousand break-even, list rating, roll-out ladder, lead requirement or inquiry economics; use advertising-attribution-and-measurement for attribution and incrementality.
+description: Use when a client asks whether a flyer, SMS, WhatsApp broadcast, lead-ad, catalogue or direct-mail campaign will pay; produces a campaign P&L with orders-per-thousand break-even, a list and test plan, a roll-out ladder and a lead requirement; not for multi-channel attribution or incrementality (use `advertising-attribution-and-measurement`).
 metadata:
   portable: true
   compatible_with:
@@ -15,17 +15,17 @@ Prove, before spending, that a response campaign can make money: what each order
 <!-- dual-compat-start -->
 ## Use When
 
-- A client plans a flyer, SMS, WhatsApp broadcast, lead-ad, catalogue or direct-mail campaign and asks "will it pay?"
-- A test result must be turned into retest, extend, balance or roll-out decisions.
-- Sales capacity needs converting into a lead requirement and media reach.
-- A campaign must decide how to handle enquiries and what to put in outgoing orders (back end).
+- We plan a flyer drop, SMS blast, WhatsApp broadcast, lead-ad, catalogue or direct-mail pack; will it pay?
+- The test came back; decide whether to retest, extend, balance or roll out to the full list.
+- Our sales team can handle so many calls a week; how many leads and how much media reach do we need?
+- Plan how enquiries are handled, what goes in with the order and which back-end offers follow.
+- Rate which contact lists and media are worth testing first.
 
 ## Do Not Use When
 
-- The question is multi-channel attribution or incrementality; use [advertising-attribution-and-measurement](../advertising-attribution-and-measurement/SKILL.md).
-- The copy itself is needed; use [direct-response-funnel-copy](../../content-writing/direct-response-funnel-copy/SKILL.md) (direct-mail letters: [direct-mail-letters-and-packs](../../content-writing/direct-response-funnel-copy/references/direct-mail-letters-and-packs.md)) or [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md).
-- Company-level pricing, margins or accounting treatment are in question; route to chwezi-accounting-doctrine.
-- Stop if the contact list has no lawful basis for marketing use (see Decision Rules).
+- `advertising-attribution-and-measurement` for multi-channel attribution or incrementality.
+- `direct-response-funnel-copy` or `ad-copy-and-hook-lab` for the letter, message or ad copy itself; company pricing, margins and accounting go to chwezi-accounting-doctrine.
+- Stop if the contact list has no lawful basis for marketing under Uganda DPPA 2019 or the local equivalent; fix consent before any send or spend.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: caption-writer
-description: Use when Caption Writer is needed to produce a publication-ready copy, hashtag set or hashtag strategy for social-media or digital-marketing work; use `email-copywriter` when its narrower outcome is requested.
+description: Use when an approved brief needs publish-ready social captions, first lines and hashtags for Instagram, Facebook, TikTok, LinkedIn, X or WhatsApp; produces caption sets in three lengths and a hashtag strategy with tags to avoid; not for paid ad headlines or hooks (use `ad-copy-and-hook-lab`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within caption writer.
-- Build a hashtag strategy: branded, niche, community and location hashtags per platform (Instagram, TikTok, LinkedIn, X), tag counts and banned or risky tags to avoid (formerly `hashtag-strategy`).
+- The post, photo or video is approved and we need the organic post copy written for this week on Instagram, Facebook, TikTok, LinkedIn, X or a WhatsApp broadcast, not paid ads.
+- We want short, medium and long options with different opening lines so the client can choose.
+- Our posts need a hashtag strategy: branded, niche, community and location tags per platform, how many to use and which banned or risky tags to avoid.
+- Our captions come out generic or AI-sounding and need rewriting in the brand voice with a clear call to action.
 
 ## Do Not Use When
-- Use `email-copywriter` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `ad-copy-and-hook-lab` for paid ad headlines, primary text and hooks.
+- `email-copywriter` for newsletters and promotional emails.
+- `content-ideas` for deciding what to post in the first place.
+- Stop before posting or scheduling to a live account; deliver the drafts for client approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

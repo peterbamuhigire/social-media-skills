@@ -1,6 +1,6 @@
 ---
 name: email-copywriter
-description: Use when Email Copywriter is needed to produce a publication-ready copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when a client needs a specific email written, such as a newsletter, promotional offer, welcome or reactivation email; produces send-ready email copy with subject lines, preview text, body and call to action; not for designing the email programme, lifecycle sequences or list strategy (use `07-email-marketing-strategy`).
 metadata:
   portable: true
   compatible_with:
@@ -11,11 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within email copywriter.
+- We need this month's newsletter written for our customers or members.
+- A sale, launch or event needs a promotional email with a clear offer and one call to action.
+- New subscribers should get a welcome email that sets expectations and makes a first offer.
+- Lapsed customers need a reactivation email to bring them back.
+- Our open rates are low and we want subject line and preview text options to test.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `07-email-marketing-strategy` for the lifecycle programme, segmentation and measurement plan.
+- `direct-response-funnel-copy` for multi-step sales sequences inside a launch funnel.
+- `caption-writer` for social post copy.
+- Stop before sending or scheduling in Mailchimp or any email platform, and before emailing anyone who has not opted in.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

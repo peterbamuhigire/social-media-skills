@@ -1,6 +1,6 @@
 ---
 name: swahili-native-copy
-description: Use when Swahili Native Copy (Social) is needed to produce a publication-ready copy for social-media or digital-marketing work; use `east-african-english` when its narrower outcome is requested.
+description: Use when social posts, ads, captions or WhatsApp messages must be written in Kiswahili for Kenya, Tanzania or eastern DRC in respectful standard Kiswahili, not Sheng; produces publish-ready Kiswahili copy with a native-review note; not for the multilingual tone policy (use `language-standards`).
 metadata:
   portable: true
   compatible_with:
@@ -17,11 +17,16 @@ The reader is an educated professional with advanced Kiswahili comprehension. Us
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within swahili native copy (social).
+- A campaign in Kenya or Tanzania needs Kiswahili posts, captions or ad lines that read naturally, not as a literal translation.
+- Copy must use Kiswahili sanifu understood across Nairobi and Dar es Salaam, avoiding Sheng and coastal dialects.
+- Booking, price, signage, food or farming messages need the right Kiswahili terms and shilling formats.
+- A Kiswahili draft needs a native reviewer's check before the client approves it.
 
 ## Do Not Use When
-- Use `east-african-english` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `language-standards` for the cross-language tone and grammar rulebook.
+- `east-african-english` when the copy is in English.
+- `french-native-copy` when the audience is francophone Africa.
+- Stop before publishing Kiswahili copy without native review; deliver it marked as awaiting review.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

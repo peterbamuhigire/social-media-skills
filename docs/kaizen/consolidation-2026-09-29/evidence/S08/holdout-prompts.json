@@ -1,0 +1,305 @@
+{
+ "note": "Independent holdout written by a separate agent from skill titles, Outputs tables and the benchmark only (no descriptions, Use When or fixtures). Not tuned on and not in tests/routing-fixtures.json; lexical proxy only. Social Kaizen S08, 29 Sep 2026.",
+ "prompts": [
+  {
+   "id": "h01",
+   "prompt": "We need ten punchy headlines and opening lines for Facebook ads selling our solar lamp in Kampala, each within character limits and every claim backed by proof.",
+   "expected": "ad-copy-and-hook-lab"
+  },
+  {
+   "id": "h02",
+   "prompt": "Our three ad variants have run for two weeks in Nairobi. Which one actually won, and how quickly can we raise spend on it without wrecking cost per lead?",
+   "expected": "ad-testing-and-scaling"
+  },
+  {
+   "id": "h03",
+   "prompt": "Meta claims our ads drove 400 sales but the tills don't agree. Can you design a geo holdout test to prove what the ads genuinely added?",
+   "expected": "advertising-attribution-and-measurement"
+  },
+  {
+   "id": "h04",
+   "prompt": "Work out where our UGX 80 million goes across radio, billboards and online over eight weeks, with reach, frequency and a flowchart schedule for the launch.",
+   "expected": "media-planning"
+  },
+  {
+   "id": "h05",
+   "prompt": "Set up a Google Ads campaign for our Nairobi law firm so we appear when people search for lawyers: keywords by intent, negatives, ad groups and conversion tracking.",
+   "expected": "paid-search-advertising"
+  },
+  {
+   "id": "h06",
+   "prompt": "Before the designers start, I want a one-page document with a real consumer insight and three genuinely different campaign concepts for our new maize flour brand.",
+   "expected": "creative-brief-and-big-idea"
+  },
+  {
+   "id": "h07",
+   "prompt": "When people ask ChatGPT or Google's AI Mode for the best hotel in Entebbe, we never appear. How do we get our business cited in those AI answers?",
+   "expected": "ai-generative-search-optimisation"
+  },
+  {
+   "id": "h08",
+   "prompt": "Score how ready our twelve-person marketing department really is to adopt AI across skills, data and governance, and tell us plainly where the gaps are.",
+   "expected": "ai-readiness-diagnostic"
+  },
+  {
+   "id": "h09",
+   "prompt": "These twenty LinkedIn posts from our freelancer read as if a chatbot wrote them. Grade each one and show me the evidence of what is generic filler.",
+   "expected": "ai-slop-audit"
+  },
+  {
+   "id": "h10",
+   "prompt": "Which marketing tasks at our agency should we hand to AI tools, and which should stay with people? Map them by value, effort and risk.",
+   "expected": "ai-use-case-mapping"
+  },
+  {
+   "id": "h11",
+   "prompt": "I want to cold-message restaurant owners in Kampala by WhatsApp and email to win retainers. How do we build the list and cadence without breaching the data protection law?",
+   "expected": "biz-dev-lawful-prospecting-outreach"
+  },
+  {
+   "id": "h12",
+   "prompt": "Draw up our agency's service packages with prices in UGX, bronze to gold, so prospects stop asking for bespoke quotes every single time.",
+   "expected": "biz-dev-pricing-menu"
+  },
+  {
+   "id": "h13",
+   "prompt": "The Kenyan coffee cooperative liked our pitch. Now write the formal document with scope, deliverables, timeline, fees in KES and terms for them to sign.",
+   "expected": "biz-dev-proposal"
+  },
+  {
+   "id": "h14",
+   "prompt": "The East African Community is inviting young entrepreneurs to apply for a grant programme. We need a campaign that drives quality applications across the partner states before the deadline.",
+   "expected": "eac-call-for-applications-campaign"
+  },
+  {
+   "id": "h15",
+   "prompt": "Write a 1,200-word article for our website on how Ugandan farmers can store maize to avoid aflatoxin, useful enough to rank on Google and actually be read.",
+   "expected": "blog-writer"
+  },
+  {
+   "id": "h16",
+   "prompt": "Give me the text to go under these six Instagram photos of our new Kololo café menu: short, warm, with hashtags and a nudge to book a table.",
+   "expected": "caption-writer"
+  },
+  {
+   "id": "h17",
+   "prompt": "We've completely run out of things to post. Can you brainstorm thirty fresh angles for a Nairobi gym and rank them by what's most likely to work?",
+   "expected": "content-ideas"
+  },
+  {
+   "id": "h18",
+   "prompt": "Write the copy for our online course sales funnel: squeeze page, long sales letter, order bump and one-time upsell offer, in a hard-selling style.",
+   "expected": "direct-response-funnel-copy"
+  },
+  {
+   "id": "h19",
+   "prompt": "Draft the three welcome emails new subscribers get after downloading our budgeting guide, including subject lines, preview text and body copy.",
+   "expected": "email-copywriter"
+  },
+  {
+   "id": "h20",
+   "prompt": "Our posts sound American. Rewrite them so they read naturally to Ugandan and Kenyan audiences, with local expressions and spelling, but still professional.",
+   "expected": "east-african-english"
+  },
+  {
+   "id": "h21",
+   "prompt": "We're expanding into Kigali and Bujumbura. Please write our launch posts in natural, idiomatic French that doesn't read like a translation from English.",
+   "expected": "french-native-copy"
+  },
+  {
+   "id": "h22",
+   "prompt": "Write Facebook posts in Kiswahili for our M-Pesa cashback promotion in Dar es Salaam, sounding like a native speaker rather than Google Translate.",
+   "expected": "swahili-native-copy"
+  },
+  {
+   "id": "h23",
+   "prompt": "Before the campaign starts, set up the GA4 events, Consent Mode, conversions API deduplication and a UTM naming convention for our site, and say who owns each tag.",
+   "expected": "measurement-tracking-plan"
+  },
+  {
+   "id": "h24",
+   "prompt": "Why has our organic reach on Facebook and Instagram collapsed this year? Explain how the feeds decide what gets shown and give us a checklist before posting.",
+   "expected": "meta-algorithm-guide"
+  },
+  {
+   "id": "h25",
+   "prompt": "We have UGX 15 million a month for all marketing. How should we split it between ads, content production, tools and staff, and why?",
+   "expected": "meta-budget-planner"
+  },
+  {
+   "id": "h26",
+   "prompt": "Compare our social pages with the three biggest rival supermarkets in Kampala and show where they're beating us and which openings we could grab.",
+   "expected": "meta-competitor-analysis"
+  },
+  {
+   "id": "h27",
+   "prompt": "Go back through the last six months of our posts and tell us what worked, what flopped, and what we should keep, fix or stop.",
+   "expected": "meta-content-audit"
+  },
+  {
+   "id": "h28",
+   "prompt": "Please prepare this month's written report for the client covering reach, engagement and leads, with honest caveats and what we'll change next month.",
+   "expected": "meta-reporting"
+  },
+  {
+   "id": "h29",
+   "prompt": "The board keeps asking whether social media actually pays. Build a return-on-investment model with assumptions and break-even so we can justify the spend.",
+   "expected": "meta-roi-framework"
+  },
+  {
+   "id": "h30",
+   "prompt": "Set up monitoring so we know whenever people talk about our bank or its competitors online, with search queries, a log and an escalation route.",
+   "expected": "meta-social-listening"
+  },
+  {
+   "id": "h31",
+   "prompt": "New client onboarding: a Jinja dairy wants to start marketing online. Capture their goals, budget, audience, competitors and constraints in one signed-off starting document.",
+   "expected": "01-client-brief"
+  },
+  {
+   "id": "h32",
+   "prompt": "Before we pitch, review the prospect's existing Facebook, Instagram and TikTok accounts, benchmark them against peers and list the quick wins.",
+   "expected": "02-platform-audit"
+  },
+  {
+   "id": "h33",
+   "prompt": "Who exactly are we talking to? Build profiles of three typical customers for our Kampala microfinance app, with needs, objections and media habits.",
+   "expected": "03-audience-personas"
+  },
+  {
+   "id": "h34",
+   "prompt": "Our insurance company needs a board-ready plan for its organic social channels over the next year: objectives, which platforms, KPIs and priorities.",
+   "expected": "05-social-media-strategy"
+  },
+  {
+   "id": "h35",
+   "prompt": "We want Ugandan TikTok creators for our energy drink launch. How do we choose them, pay them fairly and make sure every post is disclosed as an ad?",
+   "expected": "08-influencer-marketing-strategy"
+  },
+  {
+   "id": "h36",
+   "prompt": "Plan what we post every day for the next three months, with owners and production deadlines, working from the themes we already agreed last week.",
+   "expected": "11-content-calendar"
+  },
+  {
+   "id": "h37",
+   "prompt": "The Christmas campaign strategy is approved. Now the team needs the operational document: deliverables, owners, deadlines and who signs off each piece.",
+   "expected": "13-campaign-brief"
+  },
+  {
+   "id": "h38",
+   "prompt": "How should our Nairobi accounting firm run its company page and the partners' profiles on LinkedIn to win corporate clients?",
+   "expected": "platform-linkedin"
+  },
+  {
+   "id": "h39",
+   "prompt": "Our fashion boutique wants to grow on TikTok from zero followers. What content, posting rhythm and in-app features should we use?",
+   "expected": "platform-tiktok"
+  },
+  {
+   "id": "h40",
+   "prompt": "Set up WhatsApp Business for our hardware shops in Kampala: catalogue, quick replies, labels, customer opt-ins and what template messages will cost us.",
+   "expected": "platform-whatsapp"
+  },
+  {
+   "id": "h41",
+   "prompt": "Our car repair garage in Ntinda doesn't show up when people search 'mechanic near me' on Google Maps. Sort out our listing, photos, reviews and posts.",
+   "expected": "platform-google-business-profile"
+  },
+  {
+   "id": "h42",
+   "prompt": "Plan our cookery school's channel on YouTube: series ideas, thumbnails, upload schedule and how to grow subscribers from Kampala and the diaspora.",
+   "expected": "platform-youtube"
+  },
+  {
+   "id": "h43",
+   "prompt": "A video of a customer finding a fly in our soda has gone viral across Kampala. What do we post in the next hour, and who approves it?",
+   "expected": "playbook-crisis-communications"
+  },
+  {
+   "id": "h44",
+   "prompt": "Our page gets hundreds of comments and DMs a day and replies take days. Set response times, tone rules and escalation steps for the moderators.",
+   "expected": "playbook-community-management"
+  },
+  {
+   "id": "h45",
+   "prompt": "Build our Meta and TikTok paid campaigns for the MTN MoMo cashback offer: campaign structure, audiences, Advantage+ guardrails and pixel set-up.",
+   "expected": "playbook-paid-social-advertising"
+  },
+  {
+   "id": "h46",
+   "prompt": "One of our monthly clients keeps adding extra work without paying for it. How do we manage scope creep, monthly reviews and renewals properly?",
+   "expected": "playbook-client-retainer-management"
+  },
+  {
+   "id": "h47",
+   "prompt": "Get our fintech launch covered in the Daily Monitor, Nation and tech blogs: press release, media list, pitching plan and how to measure coverage.",
+   "expected": "playbook-pr-publicity"
+  },
+  {
+   "id": "h48",
+   "prompt": "We have 20,000 customer phone numbers. Plan bulk text and WhatsApp broadcasts for our Nairobi shops, keeping opt-in, opt-out and frequency lawful.",
+   "expected": "playbook-sms-whatsapp-marketing"
+  },
+  {
+   "id": "h49",
+   "prompt": "Write our agency's rules for using AI-generated images and text in client work: when to disclose, how to label, consent and human approval checks.",
+   "expected": "policy-ai-content-ethics"
+  },
+  {
+   "id": "h50",
+   "prompt": "We run a private clinic in Ntinda. What can we safely post about treatments without breaching patient confidentiality or spreading medical misinformation?",
+   "expected": "healthcare"
+  },
+  {
+   "id": "h51",
+   "prompt": "Our lakeside lodge near Jinja needs a social plan to fill rooms in the low season: food, experiences, guest photos and direct booking pushes.",
+   "expected": "hospitality-hotel-restaurant"
+  },
+  {
+   "id": "h52",
+   "prompt": "Our online shop keeps running out of school shoes every January. Predict weekly sales so we know when to reorder and how many pairs.",
+   "expected": "demand-forecasting"
+  },
+  {
+   "id": "h53",
+   "prompt": "Audit this one service page on our site: title tag, meta description, headings, schema, and whether Google's AI Overviews could quote it. Then rewrite the brief.",
+   "expected": "seo-geo-optimisation"
+  },
+  {
+   "id": "h54",
+   "prompt": "We sell fabrics through Instagram DMs and it's chaos. Design a proper selling set-up: catalogue, WhatsApp orders, MTN MoMo payment and delivery around Kampala.",
+   "expected": "social-commerce-strategy"
+  },
+  {
+   "id": "h55",
+   "prompt": "Our startup has only ever tried Facebook ads. Help us list every possible way to acquire customers, rank them and choose three cheap tests.",
+   "expected": "traction-channel-bullseye"
+  },
+  {
+   "id": "h56",
+   "prompt": "I'm a Kampala tax consultant who wants to be known as the go-to expert. How should I build my own profile, authority and content online?",
+   "expected": "strategy-personal-brand"
+  },
+  {
+   "id": "h57",
+   "prompt": "How can we get more happy customers to leave genuine Google reviews and refer friends, without paying for fake ones or breaking advertising rules?",
+   "expected": "strategy-ewom-reviews"
+  },
+  {
+   "id": "h58",
+   "prompt": "Before any campaigns, help us decide which customer segments to target for our solar home systems and how to position ourselves against rival brands.",
+   "expected": "marketing-foundations-stp-positioning"
+  },
+  {
+   "id": "h59",
+   "prompt": "Our sales staff will film product videos on their phones. Run a hands-on session covering lighting, sound, framing and simple editing apps.",
+   "expected": "training-smartphone-video-production"
+  },
+  {
+   "id": "h60",
+   "prompt": "Our marketing team has never used AI tools. Design a beginner course explaining what ChatGPT can and can't do and how to use it safely.",
+   "expected": "training-ai-foundations"
+  }
+ ]
+}

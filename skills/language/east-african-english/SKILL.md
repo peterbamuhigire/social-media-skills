@@ -1,6 +1,6 @@
 ---
 name: east-african-english
-description: Use when East African English — Language & Tone Skill is needed to produce a east african english deliverable for social-media or digital-marketing work; use `language-standards` when its narrower outcome is requested.
+description: Use when English social posts, ads, captions or campaign copy for Uganda, Kenya, Tanzania or Rwanda must read warm, courteous and globally clear in British spelling; produces the edited copy with a tone note per country; not for the tone policy spanning English, French and Kiswahili (use `language-standards`).
 metadata:
   portable: true
   compatible_with:
@@ -15,11 +15,16 @@ English content targets East Africa primarily (Uganda, Kenya, Tanzania, Rwanda) 
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **east african english deliverable** and the supplied brief falls within east african english — language & tone skill.
+- Our English posts or ads sound too American, cold, stiff or salesy and should read friendly and polite, like a courteous East African business, in British spelling.
+- One campaign runs for Ugandan, Kenyan and Tanzanian customers and the wording must suit each country without slang that only one market follows.
+- Captions, calls to action, WhatsApp broadcasts or landing microcopy need checking for dates, spelling and phrases a reader in Nairobi or Kigali would find odd.
+- A reviewer wants the English tightened: precise verbs, natural collocations, balanced sentences and no hype.
 
 ## Do Not Use When
-- Use `language-standards` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `language-standards` for the tone and grammar rulebook that governs English, French and Kiswahili together.
+- `swahili-native-copy` when the copy must be written in Kiswahili.
+- `caption-writer` when new captions must be drafted from a brief rather than existing English fixed.
+- Stop before publishing or sending the edited copy; return it with the tone note for client approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

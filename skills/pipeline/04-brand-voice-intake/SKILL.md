@@ -1,6 +1,6 @@
 ---
 name: 04-brand-voice-intake
-description: "Use when defining verbal and visual direction after the audience is understood. Produces brand voice guide and visual identity brief; use `03-audience-personas` when that neighbouring contract is the closer match."
+description: Use when a brand needs to sound and look consistent on social, from tone and vocabulary to emoji, hashtag and image rules, or the team wants a social media style guide; produces the brand voice guide, visual identity brief and style guide; not for defining what makes the brand distinct (use `ecommerce-brand-differentiation`).
 metadata:
   portable: true
   compatible_with:
@@ -15,14 +15,17 @@ Produce one standalone brand document. This is the definitive tone and identity 
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for defining verbal and visual direction after the audience is understood.
-- Confirm that `03-audience-personas` is not the closer route before proceeding.
-- The client needs a complete social media brand style guide for the team running its accounts: emoji policy, hashtag rules, image and video standards, content approval workflow, breaking-news content pause protocol, and grammar, UGX and date formatting rules (formerly `playbook-social-media-brand-style-guide`).
+- Every writer on the team uses a different register and the client wants one agreed tone with words to use and avoid.
+- Tone needs adjusting per platform, for example warmer on Instagram and more formal on LinkedIn, without losing the brand.
+- A designer needs a visual direction brief covering colours, imagery, typography cues and what the brand must never look like.
+- Several people post for the brand and each does it differently: the team needs a social media style guide or rulebook covering emojis, hashtags, photo and video standards, who approves posts, when to pause posting after bad news, and grammar, UGX and date formats.
 
 ## Do Not Use When
 
-- Use `03-audience-personas` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `ecommerce-brand-differentiation` for positioning, naming and what sets the brand apart from rivals.
+- `03-audience-personas` when the audience is not yet understood.
+- `brand-voice-ai-training` for turning the approved voice into prompts and context blocks for AI tools.
+- Stop before inventing brand values, logos or claims the client has not confirmed; mark them for approval.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: biz-dev-pricing-menu
-description: Use when Services and Pricing Menu Generator is needed to produce a priced service menu or a risk-free first-engagement test offer for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when an agency must decide what to charge or how to package its services, or a wary prospect needs a low-risk first engagement; produces a tiered service menu with add-ons, a private pricing rationale and objection guide, and a risk-reversed test offer; not for one client's full scope and terms (use `biz-dev-proposal`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **priced service menu** and the supplied brief falls within services and pricing menu generator.
-- A prospect will not commit to a retainer and the consultant wants a risk-free "first date" test campaign offer with a result guarantee, pay-per-appointment or revenue-share fee, a one-page offer document and an expectations sign-off (formerly `biz-dev-beyond-agency-offer`).
+- We don't know what to charge and want Starter, Growth and Premium packages with clear inclusions and add-ons, priced in UGX or KES.
+- We need a private rationale for our rates: cost to serve, how to justify them, answers to price objections and when to walk away.
+- Clients keep choosing the cheapest tier and we want a path to move them up.
+- A prospect will not sign a retainer and we want a risk-free test campaign offer: result guarantee, pay-per-appointment, revenue share or deferred fee, with a one-page offer and an expectations sign-off.
 
 ## Do Not Use When
-- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `biz-dev-proposal` for a full proposal and statement of work for one named client.
+- `direct-response-economics` for break-even, margin and allowable cost-per-acquisition maths on a client's product.
+- `biz-dev-positioning` for the niche and promise the prices should reflect.
+- Stop before publishing prices or guarantees the consultant has not approved; never promise a result the offer terms cannot back.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

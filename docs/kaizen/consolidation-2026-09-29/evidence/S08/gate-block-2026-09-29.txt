@@ -1,0 +1,51 @@
+# Social Kaizen S08 gate block, 29 Sep 2026 (lexical proxy, not live routing)
+## social-media-skills
+$ python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json
+skills=110 compliant=110 failures=0
+
+exit=0
+$ python -X utf8 scripts/routing_smoke_test.py --min-rank1 92 --lint-fixtures
+routing fixtures=359 passed=359 top_3_precision=1.000 threshold=1.000
+precision@1=337/359 (93.9%) registered_floor=92.0% (lexical proxy, not live routing)
+owned negatives=110 passed=110 failed=0
+fixture lint: 0 finding(s)
+exit=0
+$ python -X utf8 scripts/check_skill_aliases.py
+skill aliases: routes=82 findings=0 active=110 cap=120
+exit=0
+$ python -X utf8 -B -m pytest -q tests
+61 passed, 18 subtests passed in 19.91s
+$ python -X utf8 -m unittest discover -s tests -p test_*.py
+Ran 61 tests in 12.229s
+
+OK
+$ python -X utf8 scripts/check_source_freshness.py
+source freshness: PASS (91 records within review windows; as of 2026-09-29; claim support NOT ASSESSED)
+exit=0
+$ python -X utf8 scripts/source_ingestion_guardrail.py
+source-ingestion-guardrail: social-media-skills
+findings: 0
+exit=0
+$ git diff --check
+exit=0
+## chwezi-engine-agents
+$ python -X utf8 scripts/render_host_files.py --check --workspace-root .. --engine ../social-media-skills
+checked 1 repositories; findings 0; not assessed 0
+exit=0
+$ python -X utf8 scripts/render_host_files.py --check --workspace-root ..
+checked 12 repositories; findings 0; not assessed 0
+exit=0
+$ node scripts/generate-plugin-manifest.js --check-marketplace --workspace-root ..
+marketplace check: 23 ok, 0 drift, 0 not assessed
+exit=0
+$ python -X utf8 scripts/validate-runtime-skill-budget.py --collisions --ownership evals/routing/ownership.yaml
+PASS: skills=1088 cross>=0.75: 15 cross>=0.5: 158 undeclared>=0.75: 0 (lexical proxy; not live routing (see agent-skills issue #620))
+exit=0
+$ python -X utf8 scripts/validate-routing-baseline.py
+PASS: routing baseline ratchet (5 engines + portfolio; lexical proxy, not live routing)
+exit=0
+$ python -X utf8 scripts/validate-no-book-extractions.py
+PASS: book-extraction check roots=12 findings=0
+exit=0
+$ python -X utf8 -B -m pytest -q tests
+162 passed in 79.64s (0:01:19)

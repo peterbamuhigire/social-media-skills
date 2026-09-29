@@ -1,6 +1,6 @@
 ---
 name: biz-dev-credentials
-description: Use when Agency Credentials Generator is needed to produce a credentials pack or a standalone client case study for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when a prospect asks for your agency profile, company credentials or proof of past work before a pitch; produces a credentials document, an eight-slide deck outline and one-page client case studies with a three-slide version; not for a costed scope of work for one client (use `biz-dev-proposal`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **credentials pack** and the supplied brief falls within agency credentials generator.
-- Turn one client's results into a client case study: a one-page success story with before-and-after metrics and a testimonial, plus a three-slide deck (formerly `biz-dev-case-study`).
+- A prospect or procurement team has asked for our agency profile or company credentials before they shortlist us.
+- We need a written agency overview with our founding story, services, approach, team profiles and three client success stories, plus a slide deck to present it.
+- One client's results should become a standalone case study: a one-page success story with before-and-after metrics and a testimonial, and a three-slide version.
+- Our proof is scattered and we need testimonials, logos, awards and numbers gathered, checked for permission and ranked by strength.
 
 ## Do Not Use When
-- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `biz-dev-proposal` for a costed proposal and statement of work for one named client.
+- `biz-dev-positioning` for deciding the agency's niche, promise and proof architecture before the credentials are written.
+- `biz-dev-pricing-menu` for service tiers, packages and rate cards.
+- Stop before naming any client, result, logo or testimonial the client has not approved for publication; list it as a permission gap instead.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

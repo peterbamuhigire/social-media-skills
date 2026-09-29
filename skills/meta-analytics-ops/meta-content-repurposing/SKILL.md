@@ -1,6 +1,6 @@
 ---
 name: meta-content-repurposing
-description: "Use when turning a proven source asset into channel-appropriate derivatives without duplicating it blindly, including an AI-assisted recycling pipeline or evergreen library refresh and rotation. Produces content repurposing map and production sequence, or evergreen register and 90-day rotation; use `11-content-calendar` for the master calendar."
+description: Use when one proven blog, video, podcast or webinar must become many platform-ready pieces, or old posts should be refreshed and rotated as evergreen; produces the repurposing map, an AI-assisted ten-asset pipeline or a 90-day evergreen rotation; not for judging past post performance (use `meta-content-audit`).
 metadata:
   portable: true
   compatible_with:
@@ -13,15 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for turning a proven source asset into channel-appropriate derivatives without duplicating it blindly.
-- Also use it to run an AI-assisted ten-asset recycling pipeline from one long-form source, or to identify, refresh and schedule evergreen content from an existing library (see References).
-- Run a proven blog post or video through an AI prompt pipeline that recycles it into ten platform-ready assets (formerly `ai-content-recycling-pipeline`).
-- Score past posts for evergreen value, refresh them and build a 90-day evergreen rotation calendar (formerly `meta-evergreen-content-strategy`).
+- A strong article, video, podcast or webinar should be cut into reels, carousels, quote cards, threads and WhatsApp messages.
+- The client wants one long piece turned into ten platform-ready assets with AI prompts and a human quality check in under an hour.
+- Old posts that still answer real questions should be scored, refreshed and put on a 90-day rotation.
+- An interview or session is about to be recorded and should be captured so it can be reused widely.
 
 ## Do Not Use When
 
-- Use `11-content-calendar` when the master publishing calendar itself is the deliverable; this skill supplies its repurposing and evergreen slots.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `meta-content-audit` for judging which past posts worked and what to retire.
+- `11-content-calendar` for the master publishing calendar.
+- `blog-writer` for writing a new long-form article from scratch.
+- Stop before reusing material the client has no rights to adapt; flag it for permission.
 
 ## Required Inputs
 

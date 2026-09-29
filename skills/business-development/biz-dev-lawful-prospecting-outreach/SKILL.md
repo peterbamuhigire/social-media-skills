@@ -1,6 +1,6 @@
 ---
 name: biz-dev-lawful-prospecting-outreach
-description: Use when an agency or client needs a lawful B2B prospecting system covering sourcing and cleaning contact lists, consent and objection handling, cold and warm outreach sequences, personalised video audits, speed-to-lead and partner introductions; use 07-email-marketing-strategy for win-back of past customers.
+description: Use when an agency or B2B firm wants to start or fix cold and warm outreach by email, phone, LinkedIn or WhatsApp, or is tempted to buy or scrape contact lists; produces a list-governance sheet, outreach scripts and cadence, video-audit outreach and a speed-to-lead plan; not for staff LinkedIn advocacy (use `playbook-social-selling`).
 metadata:
   portable: true
   compatible_with:
@@ -15,17 +15,18 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 <!-- dual-compat-start -->
 ## Use When
 
-- An agency or B2B client wants to start or fix cold or warm outreach by email, phone, LinkedIn or WhatsApp.
-- A plan proposes buying, scraping or "borrowing" contact lists.
-- Leads reply but are not called back quickly, or follow-up relies on guilt and pressure.
-- A joint-venture or referral partner could introduce the business to its audience.
-- A consultant wants to record a personalised video audit of one named prospect's website, Facebook Page or Instagram and send it as outreach with follow-ups (formerly `biz-dev-video-outreach`).
+- We want to start cold or warm outreach to businesses by email, phone, LinkedIn or WhatsApp and need the scripts and a follow-up sequence.
+- Someone has proposed buying, scraping or borrowing a contact list and we need to know whether it is lawful under Uganda's DPPA 2019, Kenya's Data Protection Act or GDPR.
+- Leads reply but nobody calls them back quickly, or our follow-ups rely on guilt and pressure.
+- A referral or joint-venture partner could introduce us to their customers and we need the approach and the ask.
+- A consultant wants to record a personalised video audit (a short screen recording, for example on Loom) of one prospect's website, Facebook Page or Instagram and send it with follow-ups to book a sales call.
 
 ## Do Not Use When
 
-- The contacts are past customers to win back; use `07-email-marketing-strategy` (win-back and reactivation reference).
-- The work is consented marketing to an opted-in list (newsletters, broadcasts); use `07-email-marketing-strategy` or `playbook-sms-whatsapp-marketing`.
-- The request is to send messages now; this skill plans and drafts. Sending needs explicit authority.
+- `playbook-social-selling` for staff LinkedIn profiles, employee advocacy and executive social presence.
+- `07-email-marketing-strategy` for win-back of past customers or newsletters to an opted-in list.
+- `playbook-sms-whatsapp-marketing` for broadcasts to contacts who have already opted in.
+- Stop if any contact source has no lawful basis or no opt-out route and drop it; draft only, because sending needs explicit client authority.
 
 ## Required Inputs
 

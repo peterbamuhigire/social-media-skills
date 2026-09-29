@@ -1,6 +1,6 @@
 ---
 name: playbook-daily-operations-routine
-description: Use when designing or improving a Daily Operations Routine operating playbook, including its weekly and monthly PDCA review cadence, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a social media manager handling several clients needs a working day and week: client load, morning monitoring, production and client-contact blocks, tools, and weekly and monthly Plan-Do-Check-Act reviews; produces the daily and weekly routine and PDCA log; not for running the agency business (use `playbook-agency-operations`).'
 metadata:
   portable: true
   compatible_with:
@@ -18,13 +18,17 @@ above it lives in [PDCA review cadence](references/pdca-review-cadence.md).
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Daily Operations Routine workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Set up a daily, weekly and monthly Plan-Do-Check-Act review routine with optimisation triggers and a PDCA log (formerly `strategy-pdca-workflow-design`).
+- One manager looks after several client accounts: how many can be carried, and how should the day be split?
+- Set a morning monitoring block: incident check, response queue and a quick analytics look before production starts.
+- A weekly day-by-day priority list and a tools stack for scheduling and monitoring many accounts.
+- A weekly and monthly Plan-Do-Check-Act review with optimisation triggers and a PDCA log of every change.
+- Agree WhatsApp norms for talking with clients during working hours in East Africa.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-agency-operations` for agency onboarding, invoicing, team structure and partner delivery.
+- `11-content-calendar` for the schedule of posts itself.
+- `meta-reporting` for the monthly performance report to the client.
+- Stop when the client load exceeds the capacity limit in the plan; flag the overload to the account owner instead of scheduling more work.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

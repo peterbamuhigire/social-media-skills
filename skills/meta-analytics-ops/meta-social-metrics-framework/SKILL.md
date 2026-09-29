@@ -1,6 +1,6 @@
 ---
 name: meta-social-metrics-framework
-description: "Use when selecting business, funnel and operational metrics with owners and decision uses. Produces social metrics framework and KPI dictionary; use `meta-reporting` when that neighbouring contract is the closer match."
+description: 'Use when a client does not know which numbers matter or reports vanity metrics: choose business, channel-health and benchmark KPIs with owners, targets and who sees what; produces the social metrics framework and KPI dictionary; not for the monthly performance write-up (use `meta-reporting`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for selecting business, funnel and operational metrics with owners and decision uses.
-- Confirm that `meta-reporting` is not the closer route before proceeding.
+- The team reports likes and followers but leadership wants measures tied to sales, leads or enquiries.
+- Each KPI needs a definition, owner, data source, target and the decision it informs.
+- Reporting must differ by audience: weekly for the team, monthly for the owner, quarterly for the board.
+- A retainer needs a measurement plan with one metric that matters, lines in the sand and stage metrics.
+- Funnel conversion rates and velocity should be added to show where leads stall.
 
 ## Do Not Use When
 
-- Use `meta-reporting` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `meta-reporting` for the monthly written report, dashboard spec or quarterly review.
+- `measurement-tracking-plan` for the events, tags and consent set-up that feed the KPIs.
+- `meta-roi-framework` for return on investment and business cases.
+- Stop before setting a target with no baseline data; mark it provisional.
 
 ## Required Inputs
 

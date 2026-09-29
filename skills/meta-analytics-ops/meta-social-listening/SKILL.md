@@ -1,6 +1,6 @@
 ---
 name: meta-social-listening
-description: "Use when setting up an ongoing listening query, evidence log, cadence and escalation path, or scoring conversation data for sentiment, net sentiment score and share of voice. Produces social listening plan, query set, intelligence log, sentiment dashboard and report; use `meta-competitor-analysis` for full competitor benchmarking."
+description: 'Use when a brand wants to know what people say about it and its rivals online: listening queries, sentiment and net sentiment score, share of voice, alert thresholds and escalation; produces the listening plan, sentiment dashboard and monthly insight report; not for answering a live complaint wave (use `playbook-reputation-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,14 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for setting up an ongoing listening query, evidence log, cadence and escalation path.
-- Score supplied comments, mentions and reviews for sentiment, net sentiment score (NSS), share of voice (SOV) against competitors and ranked conversation themes, ending in a monthly sentiment report with a named action (formerly `meta-sentiment-analysis`).
-- Run sentiment listening as a weekly operation: tool stack by budget, crisis-trigger keywords, Mobile Money complaint terms, real-time sentiment dashboard, crisis alert thresholds and a Monday/Wednesday/Friday routine (formerly `playbook-sentiment-listening`).
+- The client wants to hear what customers, critics and rivals say about the brand across social, reviews and news.
+- Comments, mentions and Google or Facebook reviews need scoring for sentiment (positive, negative, neutral and net sentiment score), share of voice against rivals in the conversation, and ranked themes, in a monthly report.
+- A weekly listening routine is needed: tools by budget, crisis-trigger keywords, Mobile Money complaint terms, alert thresholds and a Monday/Wednesday/Friday check.
+- Findings must feed content, product or service decisions through an intelligence log.
 
 ## Do Not Use When
 
-- Use `meta-competitor-analysis` when full competitor benchmarking, rather than listening-derived share of voice, is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `playbook-reputation-management` for responding to complaints and repairing reviews.
+- `meta-competitor-analysis` for full competitor benchmarking beyond conversation share.
+- `playbook-crisis-communications` for running the response once a crisis is declared.
+- Stop before collecting personal data beyond public posts or monitoring in breach of platform terms.
 
 ## Required Inputs
 

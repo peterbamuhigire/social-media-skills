@@ -1,6 +1,6 @@
 ---
 name: prompt-engineering-library
-description: Use when Prompt Engineering Library is needed to produce a reusable prompt library (text, image, audio, video) for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when a team wants reusable AI prompts for marketing work across text, image, voice, video and music tools; produces a prompt library with fill-in templates by task, Midjourney, DALL-E and Firefly image prompts with negative prompts, and ElevenLabs, HeyGen and Suno prompts; not for teaching staff to use AI (use `training-ai-foundations`).
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **reusable prompt library** and the supplied brief falls within prompt engineering library.
-- Write AI image prompts (Midjourney, DALL-E, Firefly) with negative prompts, seeds and culturally accurate East African subjects (formerly `image-prompt-engineer`).
-- Build a prompt library for AI audio, voice-over, avatar video and music tools such as ElevenLabs, HeyGen and Suno (formerly `prompt-library-image-audio-video`).
+- Our team gets bland or made-up answers from ChatGPT or Claude and wants tested prompt templates for captions, blog briefs, emails, personas and reports.
+- We need prompts built per job role, or engagement questions that invite audience replies.
+- We need AI image prompts for Midjourney, DALL-E or Firefly with negative prompts, seeds and accurate East African people and settings.
+- The campaign needs prompts for voice-overs, avatar videos and music in tools such as ElevenLabs, HeyGen and Suno, with consent and disclosure checks.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `training-ai-foundations` for teaching beginners AI literacy and prompt writing in workshops.
+- `brand-voice-ai-training` for training an AI on the brand voice or building a brand knowledge base.
+- `caption-writer` for the finished captions themselves.
+- Stop before generating a real person's likeness or voice without written consent, and label AI-generated media where platforms or law require it.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

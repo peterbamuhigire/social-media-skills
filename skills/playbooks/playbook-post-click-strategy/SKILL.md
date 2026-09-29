@@ -1,6 +1,6 @@
 ---
 name: playbook-post-click-strategy
-description: Use when designing or improving a Post Click Strategy operating playbook, including e-commerce and WhatsApp conversion diagnosis, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when people click but do not buy: link-in-bio, WhatsApp click-to-chat, lead magnet delivery, mobile landing pages, post-click tracking, or a shop or WhatsApp enquiry path that loses buyers before payment; produces the conversion path audit and fix list; not for briefing a web team on a new page (use `ad-to-site-journey-handoff`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,13 +11,18 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Post Click Strategy workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Diagnose why online-shop or WhatsApp enquiries do not become paid orders, recover abandoned enquiries and prioritise conversion tests (formerly `ecommerce-conversion-optimisation`).
+- Posts get clicks but few sales; the journey from social post to paid order needs reviewing.
+- Fix the link-in-bio on Instagram or TikTok so every click lands somewhere useful.
+- An ad or post opens a WhatsApp chat instead of a website and buyers drop off after the tap; fix the reply scripts and follow-up.
+- Make WhatsApp the sales channel: click-to-chat links, pre-filled opening messages and a three-message qualification sequence.
+- Deliver a lead magnet through social and track it with UTM parameters and conversion events.
+- Work out why online-shop carts or WhatsApp enquiries do not become paid orders (Mobile Money, delivery, trust), win back abandoned enquiries and rank conversion tests.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `ad-to-site-journey-handoff` for the landing-page brief and tracking handover to website-skills.
+- `social-commerce-strategy` for setting up catalogue, DM selling and Mobile Money checkout from scratch.
+- `measurement-tracking-plan` for the full event map, consent mode and server-side tagging.
+- Stop before changing a live shop, checkout or ad destination without the client's approval; deliver the audit and the ranked fixes.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

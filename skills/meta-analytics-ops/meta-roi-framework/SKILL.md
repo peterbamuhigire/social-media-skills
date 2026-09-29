@@ -1,6 +1,6 @@
 ---
 name: meta-roi-framework
-description: "Use when calculating campaign or channel return from attributable value and acquisition cost, comparing retention cohorts and LTV by channel, or building a board business case for social investment. Produces ROI model with assumptions, attribution limits and break-even analysis; use `meta-budget-planner` for spend allocation."
+description: 'Use when a board, finance director or funder asks whether social media pays: return by channel, lifetime value, acquisition cost, retention cohorts and an investment case; produces the ROI model with break-even analysis or the executive business case; not for ad attribution or holdout tests (use `advertising-attribution-and-measurement`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,15 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for calculating campaign or channel return from attributable value and acquisition cost.
-- The client wants acquisition or retention cohorts compared by channel, Week-4 retention, decay curves or cohort LTV from GA4 Cohort Exploration (formerly `meta-cohort-analysis`).
-- A sceptical board, CEO, finance committee or donor needs an executive business case for social media investment: revenue at risk from competitors, follower valuation, A&U study, NPS and budget tiers (formerly `meta-social-media-roi-business-case`).
-- Confirm that `meta-budget-planner` (spend allocation) or `meta-reporting` (periodic performance report) is not the closer route before proceeding.
+- Finance wants the return per campaign or channel from attributable value and acquisition cost, with a 12-month projection.
+- Do customers who came through TikTok, Facebook or Google stay and buy again for longer? Group them by channel and month joined: Week-4 retention, decay curves and lifetime value from GA4 Cohort Exploration.
+- Directors or a sceptical board think social media is a waste of money and want the business case for investing: revenue lost to growing competitors, follower value, an A&U study, NPS and budget tiers.
+- The team asks when content spend breaks even and whether customer value covers acquisition cost.
 
 ## Do Not Use When
 
-- Use `meta-budget-planner` when the request is budget allocation or pacing rather than return; use `meta-reporting` for the periodic performance report.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `advertising-attribution-and-measurement` for credit models, allowable CPA and holdout or geo tests on ads.
+- `meta-budget-planner` for dividing the budget across channels.
+- `meta-reporting` for the periodic performance report.
+- Stop when attributable revenue or cost data is missing; state the assumption and never present projections as results.
 
 ## Required Inputs
 

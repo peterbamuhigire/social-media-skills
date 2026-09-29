@@ -1,6 +1,6 @@
 ---
 name: social-commerce-strategy
-description: Use when the main deliverable concerns catalogue, WhatsApp ordering, Instagram DM selling, Mobile Money, fulfilment, and commerce content; use playbook-social-selling when that neighbouring workflow owns the primary decision.
+description: 'Use when a business sells straight from social media: product catalogue, WhatsApp orders, Instagram DM selling, Mobile Money payment, delivery and shoppable posts; produces the social shop set-up with order flow, payment confirmation and DM scripts; not for diagnosing why clicks do not become orders (use `playbook-post-click-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for catalogue, WhatsApp ordering, Mobile Money, fulfilment, and commerce content.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Script Instagram DM sales conversations (opener, qualifying questions, UGX offer, objections) and move serious buyers to WhatsApp to close (formerly `playbook-instagram-dm-sales`).
+- We sell through Facebook, Instagram, TikTok or WhatsApp and need a catalogue, pricing and ordering flow that works.
+- Customers pay with MTN MoMo, Airtel Money or M-Pesa and we need a payment confirmation and fulfilment routine.
+- Orders arrive in scattered chats; we need a simple order tracker and delivery process.
+- Instagram DMs ask "how much?" and go cold: script the opener, qualifying questions, UGX offer and objection replies, then move buyers to WhatsApp to close.
+- Product posts must sell: shoppable content, product videos and margin-safe pricing.
 
 ## Do Not Use When
 
-- Use `playbook-social-selling` (skills/playbooks/playbook-social-selling; premium or high-ticket buyers: its high-value social selling reference) when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `playbook-post-click-strategy` for finding where visitors drop off between the click and the order.
+- `playbook-social-selling` for relationship selling, employee advocacy and high-value B2B outreach.
+- `ecommerce-export-marketing-advisory` for reaching buyers in other countries.
+- Stop before changing a live catalogue, prices or payment settings, or messaging customers, without explicit client authority; deliver the draft for approval.
 
 ## Required Inputs
 

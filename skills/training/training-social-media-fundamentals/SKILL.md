@@ -1,6 +1,6 @@
 ---
 name: training-social-media-fundamentals
-description: Use when the main deliverable concerns beginner social-media concepts, channel roles, audience behaviour, safety, and measurement; use training-client-team when that neighbouring workflow owns the primary decision.
+description: 'Use when beginners (owners, new staff, SACCO or youth groups) must learn how social media marketing works: what each platform is for, algorithms, followers versus engagement, safety and what to track; produces the beginners'' training guide; not for handing an agreed strategy to client staff (use `training-client-team`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for beginner social-media concepts, channel roles, audience behaviour, safety, and measurement.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Business owners or new staff have never used social media for business.
+- People confuse followers with results and need the basics of algorithms, the 80/20 content rule and engagement.
+- A platform primer is needed: what Facebook, Instagram, TikTok, WhatsApp, LinkedIn and X are each for in Uganda.
+- Beginners must stay safe online: scams, account security and what not to post.
+- Trainees need the few numbers worth tracking and the most common beginner mistakes.
 
 ## Do Not Use When
 
-- Use `training-client-team` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `training-client-team` for handing an approved strategy and daily operations to the client's staff.
+- `training-smartphone-video-production` for phone filming and editing skills.
+- `05-social-media-strategy` when the group needs an actual strategy rather than training.
+- Stop before creating or logging into trainees' accounts on their behalf; teach them to do it themselves.
 
 ## Required Inputs
 

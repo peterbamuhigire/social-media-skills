@@ -1,6 +1,6 @@
 ---
 name: ecommerce-export-marketing-advisory
-description: Use when the main deliverable concerns export-market selection, cross-border trust, channel conversion, partnerships, and CAC-bounded campaigns; use ecommerce-brand-differentiation when that neighbouring workflow owns the primary decision.
+description: 'Use when a seller wants buyers abroad: first export market, cross-border trust and proof, marketplace and partner routes, and campaigns capped by acquisition cost; produces the export marketing plan with buyer personas and a trust checklist; not for selling at home via WhatsApp or Instagram (use `social-commerce-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for export-market selection, cross-border trust, channel conversion, partnerships, and CAC-bounded campaigns.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- We want to sell abroad (diaspora, the wider EAC, Europe, the Gulf or the US) and must pick the first export market on evidence.
+- Overseas buyers do not trust a Ugandan or Kenyan web shop; we need certifications, reviews, shipping and returns proof.
+- Our cross-border website, Amazon, Etsy or Alibaba listing gets visits from abroad but few orders.
+- We need importers, distributors or retail partners and outreach messages to reach them.
+- Export campaigns must stay under a customer acquisition cost (CAC) ceiling we can afford.
 
 ## Do Not Use When
 
-- Use `ecommerce-brand-differentiation` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `social-commerce-strategy` for domestic selling through WhatsApp, Instagram, Mobile Money and local delivery.
+- `ecommerce-brand-differentiation` for naming, packaging and standing out from look-alike sellers.
+- `playbook-post-click-strategy` for diagnosing checkout and landing-page conversion.
+- Stop before stating customs, tariff, certification or export-compliance facts without current verified sources; flag them for the client's trade adviser.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: platform-tiktok
-description: Use when creating a TikTok channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a brand is deciding whether and how to use TikTok: account choice, native short-video ideas, sounds and music rights, creator participation, and when to put money behind posts; produces the TikTok channel plan with a pilot and measures; not for a video approach across several platforms (use `strategy-video-content`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a TikTok-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
+- The client is unsure whether TikTok fits its audience and offer and wants a clear decision.
+- The brand needs native TikTok video ideas grounded in evidence, not reposted adverts.
+- Sounds, music rights, duets, stitches and creator participation need rules before the account goes live.
+- The client wants to know when a TikTok post is worth paid testing and how results will be judged.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `strategy-video-content` for video formats, series and scripts shared across platforms.
+- `training-smartphone-video-production` for teaching staff to film and edit on a phone.
+- `playbook-paid-social-advertising` for full TikTok ad campaigns.
+- Stop before posting, using licensed music or paying for promotion without client authority and confirmed rights.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

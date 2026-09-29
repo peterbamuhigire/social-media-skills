@@ -43,6 +43,59 @@ MANDATORY = (
 )
 FM_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 
+# S08 (Social Kaizen 2026-09-29): templated routing text carries no routing signal, because the
+# routing harness scores exactly the name, description and `Use When`. These phrases come from the
+# four description templates and the generated `Use When` / `Do Not Use When` bodies measured at
+# baseline (01-baseline.md section 2). Enforced from S08-T11.
+DESCRIPTION_TEMPLATES = (
+    "is needed to produce",
+    "operating playbook with roles, ordered actions",
+    "channel plan covering account setup",
+    "main deliverable concerns",
+    "when its narrower outcome is requested",
+    "neighbouring contract",
+    "neighbouring workflow",
+)
+USE_WHEN_TEMPLATES = (
+    re.compile(r"requested outcome is specifically a", re.I),
+    re.compile(r"build or improve a repeatable", re.I),
+    re.compile(r"requested deliverable needs the domain decisions", re.I),
+    re.compile(r"turn an approved objective into roles, controls, handoffs", re.I),
+    re.compile(r"translate a confirmed audience, offer and objective into channel decisions", re.I),
+    re.compile(r"create or revise an? \S+-specific presence", re.I),
+    re.compile(r"is not the closer route", re.I),
+    re.compile(r"(?m)^\s*[-*]\s+use this skill (?:for|when)\b", re.I),
+    re.compile(r"when its narrower output is the real deliverable", re.I),
+    re.compile(r"use the closest `(?:playbook|platform|strategy)-\*` skill", re.I),
+)
+# Description formula (S08 section 5): "Use when <trigger>; produces <artefact>; not for <job> (use `<id>`)."
+DESCRIPTION_NEIGHBOUR = re.compile(r"not for\b.*\(use `([a-z0-9][a-z0-9-]*)`", re.I | re.S)
+BACKTICK_ID = re.compile(r"`([a-z0-9][a-z0-9-]*[a-z0-9])`")
+ENGINE_ID_SUFFIXES = ("-skills", "-engine", "-doctrine", "-agents")
+
+
+def template_findings(description: str, use_when: str, do_not_use: str) -> list[str]:
+    """Return the S08 routing-text findings for one skill.
+
+    description_template  a description template phrase is present
+    description_formula   no "produces" or no "not for ... (use `<id>`)" clause
+    use_when_template     a generated `Use When` / `Do Not Use When` phrase is present, `Use When`
+                          has fewer than 3 or more than 6 bullets, or `Do Not Use When` names fewer
+                          than 2 neighbour ids
+    """
+    findings: list[str] = []
+    lowered = description.lower()
+    if any(phrase in lowered for phrase in DESCRIPTION_TEMPLATES):
+        findings.append("description_template")
+    if not DESCRIPTION_NEIGHBOUR.search(description) or "produces" not in lowered:
+        findings.append("description_formula")
+    use_bullets = re.findall(r"(?m)^\s*[-*]\s+\S", use_when)
+    neighbours = set(BACKTICK_ID.findall(do_not_use))
+    if (any(pattern.search(use_when) or pattern.search(do_not_use) for pattern in USE_WHEN_TEMPLATES)
+            or not 3 <= len(use_bullets) <= 6 or len(neighbours) < 2):
+        findings.append("use_when_template")
+    return findings
+
 
 def args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
@@ -169,6 +222,8 @@ def assess(path: Path, root: Path) -> list[str]:
     for name in REQUIRED_HEADINGS:
         if sections[name] is None or not sections[name].strip():
             findings.append("missing_" + re.sub(r"\W+", "_", name.lower()).strip("_"))
+    if isinstance(desc, str):
+        findings.extend(template_findings(desc, sections.get("Use When") or "", sections.get("Do Not Use When") or ""))
     inputs = sections.get("Required Inputs") or ""
     if "|" not in inputs or not re.search(r"source|provider|produced by", inputs, re.I) or not re.search(r"absent|missing|fallback|if unavailable", inputs, re.I):
         findings.append("input_contract")
@@ -239,6 +294,24 @@ def main() -> int:
         if len(paths) > 1:
             for relative in paths:
                 results[relative] = sorted(set(results[relative] + ["duplicate_name"]))
+    # S08: the neighbour named in a description's "not for ... (use `<id>`)" clause must be an active skill.
+    for relative in list(results):
+        if relative.startswith("@engine/"):
+            continue
+        match = FM_RE.match((root / relative).read_text(encoding="utf-8", errors="replace").replace("\r\n", "\n"))
+        try:
+            description = (yaml.safe_load(match.group(1)) or {}).get("description", "") if match else ""
+        except (yaml.YAMLError, AttributeError):
+            continue
+        neighbour = DESCRIPTION_NEIGHBOUR.search(description) if isinstance(description, str) else None
+        if neighbour and neighbour.group(1) not in names:
+            results[relative] = sorted(set(results[relative] + ["description_neighbour_unknown"]))
+        # Every skill id named in `Do Not Use When` must also be active, so a merge must re-point it.
+        # Engine ids (`*-skills`, `*-engine`, `*-doctrine`) name other repositories and are skipped.
+        body = (root / relative).read_text(encoding="utf-8", errors="replace").replace("\r\n", "\n")[match.end():] if match else ""
+        named = BACKTICK_ID.findall(section(body, "Do Not Use When") or "")
+        if any(ident not in names for ident in named if not ident.endswith(ENGINE_ID_SUFFIXES)):
+            results[relative] = sorted(set(results[relative] + ["do_not_use_neighbour_unknown"]))
     for required in MANDATORY:
         if not (root / required).exists():
             results[f"@engine/{required}"] = ["missing_mandatory_resource"]
@@ -254,11 +327,10 @@ def main() -> int:
     }
     policy = alias_policy(root)
     cap = policy.get("hard_cap")
+    # The cap is strict: the S02-S07 `consolidation_until` window closed in S07 and its branch was
+    # removed in S08, so the key is ignored if it is ever re-added.
     if type(cap) is int and len(files) > cap:
-        payload["catalogue_cap"] = {"hard_cap": cap, "actual": len(files),
-                                    "consolidation_until": policy.get("consolidation_until")}
-        if not policy.get("consolidation_until"):
-            payload["catalogue_cap_exceeded"] = {"hard_cap": cap, "actual": len(files)}
+        payload["catalogue_cap_exceeded"] = {"hard_cap": cap, "actual": len(files)}
     if options.baseline:
         baseline = json.loads(options.baseline.read_text(encoding="utf-8"))
         expected = baseline.get("failure_counts", {})

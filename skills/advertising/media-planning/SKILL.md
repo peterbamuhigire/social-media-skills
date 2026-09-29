@@ -1,6 +1,6 @@
 ---
 name: media-planning
-description: Use when building or reviewing a media plan with reach, frequency, GRPs/TRPs, target CPM, scheduling (flighting, pulsing, continuity), medium selection, geographic weighting and post-buy reconciliation; use advertising-strategy-and-budget to set the total budget first.
+description: 'Use when a campaign needs a media plan: channel mix, reach and frequency, GRPs/TRPs, target CPM, flighting or pulsing, and regional or seasonal weights across radio, TV, outdoor and digital; produces the media plan, flowchart and post-buy reconciliation; not for setting the total budget (use `advertising-strategy-and-budget`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,16 +15,16 @@ Decide where, when and how often the target audience should meet the message, at
 <!-- dual-compat-start -->
 ## Use When
 
-- A campaign needs a media plan: channel mix, weights, schedule, budget by medium and delivery targets.
-- A client asks "radio or Facebook?", "how often should people see this?" or "is this station worth the money?".
-- A post-buy review must compare planned and actual delivery.
-- Geographic or seasonal weighting of an advertising budget is needed.
+- The campaign needs a media plan: which channels, what weight, which weeks and how much per medium.
+- Radio or Facebook? How often should people see this? Is this station worth the money?
+- Compare what was booked against what actually ran, and agree make-goods for the shortfall.
+- Weight the budget by region or season, for example heavier in Kampala or around Christmas.
 
 ## Do Not Use When
 
-- The total budget or objectives are not yet set; use [advertising-strategy-and-budget](../advertising-strategy-and-budget/SKILL.md).
-- The task is choosing which acquisition channels to test at all; use [traction-channel-bullseye](../../strategy/traction-channel-bullseye/SKILL.md).
-- The task is platform campaign build (objectives, ad sets, specs); use [playbook-paid-social-advertising](../../playbooks/playbook-paid-social-advertising/SKILL.md) or [paid-search-advertising](../paid-search-advertising/SKILL.md).
+- `advertising-strategy-and-budget` when the total budget or objectives are not yet set.
+- `traction-channel-bullseye` for choosing which acquisition channels to test at all.
+- `playbook-paid-social-advertising` or `paid-search-advertising` for platform campaign builds and ad sets.
 - Stop before any booking, insertion order or spend without the client's written authority.
 
 ## Required Inputs

@@ -14,7 +14,8 @@ Findings (exit 1 on any):
   alias-chain           route target is itself a retired alias
   alias-active-conflict a directory holds both SKILL.md and ALIAS.md
   alias-banner-missing  ALIAS.md lacks the "> Inactive alias." banner naming its target
-  cap-exceeded          active SKILL.md count above hard_cap (outside a consolidation window)
+  cap-exceeded          active SKILL.md count above hard_cap (strict since S07; the S02-S07
+                        `consolidation_until` window was removed in S08 and is ignored if re-added)
   count-mismatch        registry count, filesystem count and quality-baseline.json disagree
 """
 
@@ -64,7 +65,7 @@ def banner_line(alias_file: Path) -> str | None:
 def check(root: Path) -> tuple[list[Finding], dict]:
     findings: list[Finding] = []
     registry_path = root / REGISTRY
-    stats: dict = {"routes": 0, "active": 0, "cap": None, "window": None}
+    stats: dict = {"routes": 0, "active": 0, "cap": None}
     if not registry_path.is_file():
         return [Finding("alias-registry", REGISTRY.as_posix(), "alias registry is missing")], stats
     try:
@@ -90,8 +91,7 @@ def check(root: Path) -> tuple[list[Finding], dict]:
         skill_dirs.update(p.parent.relative_to(root).as_posix() for p in base.rglob("SKILL.md"))
         alias_dirs.update(p.parent.relative_to(root).as_posix() for p in base.rglob("ALIAS.md"))
     routes = {str(k).strip().rstrip("/"): str(v).strip().rstrip("/") for k, v in routes.items()}
-    window = policy.get("consolidation_until")
-    stats.update(routes=len(routes), active=len(skill_dirs), cap=hard_cap, window=window)
+    stats.update(routes=len(routes), active=len(skill_dirs), cap=hard_cap)
 
     for both in sorted(skill_dirs & alias_dirs):
         findings.append(Finding("alias-active-conflict", both, "directory holds both SKILL.md and ALIAS.md"))
@@ -110,7 +110,7 @@ def check(root: Path) -> tuple[list[Finding], dict]:
                 findings.append(Finding("alias-banner-missing", source,
                                         f"first body line must start with '{BANNER}' and name `{target}`"))
 
-    if len(skill_dirs) > hard_cap and not window:
+    if len(skill_dirs) > hard_cap:
         findings.append(Finding("cap-exceeded", "skills", f"{len(skill_dirs)} active skills exceed hard_cap {hard_cap}"))
 
     counts = {"filesystem": len(skill_dirs), "registry": policy.get("current_active_skill_count")}
@@ -134,8 +134,7 @@ def main() -> int:
     if options.json:
         print(json.dumps({**stats, "findings": [asdict(f) for f in findings]}, indent=2))
     else:
-        window = f" window=open-until-{stats['window']}" if stats.get("window") else ""
-        print(f"skill aliases: routes={stats['routes']} findings={len(findings)} active={stats['active']} cap={stats['cap']}{window}")
+        print(f"skill aliases: routes={stats['routes']} findings={len(findings)} active={stats['active']} cap={stats['cap']}")
         for finding in findings:
             print(f"- {finding.code}: {finding.path}: {finding.message}")
     return 1 if findings else 0

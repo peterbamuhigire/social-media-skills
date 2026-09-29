@@ -1,6 +1,6 @@
 ---
 name: ai-use-case-mapping
-description: Use when AI Use Case Mapping is needed to produce a AI use case mapping deliverable, AI growth system design, predictive social analytics plan or AI co-thinking strategy for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when a client asks where AI can help their marketing, wants AI tied to revenue, needs social forecasts or wants AI as a strategy thinking partner; produces a prioritised AI use-case map with a 90-day sequence, an AI growth system design and a predictive analytics plan; not for scoring AI readiness or data (use `ai-readiness-diagnostic`).
 metadata:
   portable: true
   compatible_with:
@@ -11,14 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **AI use case mapping deliverable** and the supplied brief falls within ai use case mapping.
-- Design an AI growth system that ties content, lead scoring and service copilots to revenue and retention, with governance and hard rules (formerly `ai-growth-systems-design`).
-- Plan predictive social analytics: churn prediction, post performance forecasts and RFM segmentation from Meta Business Suite exports (formerly `ai-predictive-analytics-social`).
-- Use AI as a strategy co-thinker, not a co-pilot: stakeholder and red-flag dialogue, MVOSSTE prompts, jobs-to-be-done framing and campaign risk mapping (formerly `ai-strategy-co-thinker`).
+- Our team knows AI could help but not where; list our marketing tasks and rank which ones AI should take first in the next 90 days.
+- Design an AI growth system that links content, lead scoring and a WhatsApp service copilot to revenue and retention, with governance and hard rules.
+- Forecast which posts will perform, predict follower churn and build RFM segments from our Meta Business Suite exports.
+- Use AI as a strategy co-thinker rather than a co-pilot: stakeholder and red-flag dialogue, MVOSSTE prompts, jobs-to-be-done framing and campaign risk mapping.
 
 ## Do Not Use When
-- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `ai-readiness-diagnostic` for a scored readiness, data foundation or AI Marketing Canvas assessment.
+- `playbook-marketing-automation` for building the automations and agent workflows.
+- `meta-tools-stack-evaluation` for choosing between AI tools and vendors.
+- Stop before promising forecast accuracy or revenue gains, or using customer data without consent; label every estimate and assumption.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: ad-testing-and-scaling
-description: Use when designing ad tests, reading results, deciding what to scale, kill or refresh, boosting proven organic posts, building retargeting pools, or rolling a winning ad out across budgets and markets; use meta-testing-framework for general experiment statistics and creative-brief-and-big-idea for concept screening.
+description: Use when ads need testing before the main budget goes out, results must be read to scale, kill or refresh, organic reach has dropped and proven posts need boosting, or a retargeting pool is needed; produces test cards, a results read-out and a scale plan; not for general experiment statistics (use `meta-testing-framework`).
 metadata:
   portable: true
   compatible_with:
@@ -15,19 +15,19 @@ Test small and many before spending the bulk of a budget, decide with pre-agreed
 <!-- dual-compat-start -->
 ## Use When
 
-- A campaign needs a test plan before the main budget is committed.
-- Test results need reading and a scale, extend, iterate or kill decision.
-- A winning ad or audience needs a controlled roll-out across budget, markets or channels.
-- Performance is decaying (fatigue, rising cost) and the team needs a refresh plan.
-- A retargeting or re-engagement pool (web, video, WhatsApp, SMS, lead-form) needs designing.
-- Facebook or Instagram organic reach has declined and the client needs an organic-then-amplify plan: which posts to boost, boost budget bands in UGX, a WhatsApp owned audience and expectation-setting scripts (formerly `strategy-organic-paid-hybrid`).
+- We want to try a few ad angles cheaply before committing the main campaign budget.
+- The test results are in: tell us which ads to pause or switch off, which to refresh, and which to scale, extend or iterate on.
+- One ad or audience is winning and we want to raise daily spend or roll it out to more markets or channels without resetting learning.
+- Cost per lead or per result keeps climbing and people have seen the ads too often; we need a refresh plan against creative fatigue.
+- Design retargeting or re-engagement pools from site visitors, video viewers, WhatsApp contacts, SMS lists or lead forms.
+- Hardly anyone sees our Facebook or Instagram posts since organic reach collapsed: pick the proven posts worth boosting, a monthly boost budget in UGX or Kenyan shillings, a WhatsApp owned audience and the words to explain paid boosting to the client.
 
 ## Do Not Use When
 
-- The question is statistical design for any marketing experiment (sample size, significance, guardrails in general); use `meta-testing-framework`.
-- The concepts themselves need screening; use `creative-brief-and-big-idea`.
-- Copy variants need writing; use `ad-copy-and-hook-lab`.
-- Changing live budgets or pausing campaigns is requested without authority; deliver the decision memo and stop.
+- `meta-testing-framework` for sample size, significance and guardrails in any marketing experiment.
+- `creative-brief-and-big-idea` for screening campaign concepts before they become ads.
+- `ad-copy-and-hook-lab` for writing the copy variants.
+- Stop before changing live budgets, pausing campaigns or boosting posts without account authority; deliver the decision memo instead.
 
 ## Required Inputs
 

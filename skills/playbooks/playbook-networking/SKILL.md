@@ -1,6 +1,6 @@
 ---
 name: playbook-networking
-description: Use when designing or improving a Networking operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a consultant, founder or agency wants more work through people they meet: choosing events, an event routine, follow-up, referrals, a referral group and connector strategy; produces the relationship and referral plan with a follow-up system; not for cold outreach to contact lists (use `biz-dev-lawful-prospecting-outreach`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Networking workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Most clients arrive by word of mouth: should events and introductions lead the growth plan?
+- Plan which business events, chamber meetings or conferences to attend and what to do before, during and after each one.
+- Past clients and partners should refer more often, with a simple ask and a thank-you routine.
+- Start or join a referral group and agree how members pass leads to each other.
+- Build a follow-up system, a map of connectors and a personal board of advisers.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `biz-dev-lawful-prospecting-outreach` for cold outreach sequences, contact-list sourcing and consent handling.
+- `playbook-social-selling` for turning an online audience into a sales pipeline.
+- `strategy-personal-brand` for an individual's positioning and authority content.
+- Stop before adding event contacts to any mailing or WhatsApp list without their consent; keep the follow-up personal.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

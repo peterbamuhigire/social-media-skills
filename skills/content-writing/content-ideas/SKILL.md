@@ -1,6 +1,6 @@
 ---
 name: content-ideas
-description: Use when Content Ideas Generator is needed to produce a prioritised idea set, including blog and article topic briefs, for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when a brand is stuck on what to post or write about and wants fresh angles; produces a prioritised bank of 30 post ideas with platform, format and pillar, recurring evergreen series, and blog or article topic briefs with keywords and buyer stage; not for scheduling ideas across dates (use `11-content-calendar`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **prioritised idea set** and the supplied brief falls within content ideas generator.
-- Generate blog post topic ideas with short topic briefs, target keywords, buyer stage and a blog content calendar (formerly `blog-idea-generator`).
+- We have run out of things to post and need a bank of ideas mapped to our pillars and platforms.
+- We want a few recurring series the team can repeat every week without starting from scratch.
+- The client needs blog or article topics with short briefs, a target keyword and buyer stage, sorted into SEO drivers, authority builders and thought leadership.
+- A slow month, launch or season needs new angles from ideation frameworks rather than recycled posts.
 
 ## Do Not Use When
-- Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `11-content-calendar` for putting approved ideas on dates with owners and production cues.
+- `blog-writer` for writing a chosen article in full.
+- `playbook-viral-content-design` for engineering a single piece for shareability.
+- Stop before presenting trends, statistics or competitor examples as fact without a source; mark unsourced ideas as hypotheses.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

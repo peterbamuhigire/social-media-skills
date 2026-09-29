@@ -1,6 +1,6 @@
 ---
 name: marketing-foundations-stp-positioning
-description: Use when a client's digital marketing or advertising programme needs segmentation, targeting, positioning, marketing-mix and value-proposition decisions before channels or creative; use biz-dev-positioning for the agency's own positioning and business-plan-skills for full plan documents.
+description: 'Use when a client''s marketing has no clear who or why: segmentation and targeting, a positioning statement, value proposition and 4Ps marketing-mix checks before channel or creative work; produces the foundation sheet with positioning and message themes; not for the agency''s own positioning (use `biz-dev-positioning`).'
 metadata:
   portable: true
   compatible_with:
@@ -17,15 +17,16 @@ Turn a client's business goal into the marketing decisions every channel, advert
 
 - A campaign, advertising plan, content strategy or website brief needs an agreed segment, target, positioning statement and value proposition first.
 - A client says "everyone is our audience", lists ten benefits, or wants to rebrand without a stated reason.
+- Nobody has chosen which segments to serve or where the brand should sit against competitors and rivals.
 - Creative keeps failing because the brief carries no single message or no reason to believe.
-- A retainer review must diagnose whether weak results come from positioning, offer, price or channel.
+- A retainer review must diagnose whether weak results come from positioning, offer, price or channel, or the 4Ps (product, price, place, promotion) fight the position.
 
 ## Do Not Use When
 
-- The deliverable is the agency's own positioning statement or credentials; use `biz-dev-positioning` (which also covers individual practitioner positioning).
-- The deliverable is a full business plan or bankable marketing-plan document; hand the decisions over to business-plan-skills.
-- The question is which acquisition channels to test; use `traction-channel-bullseye` after positioning is agreed.
-- Required customer evidence or decision authority is absent and cannot be obtained; stop and return the intake gap.
+- `biz-dev-positioning` for the agency's own positioning statement or credentials, including an individual practitioner's practice.
+- `traction-channel-bullseye` for deciding which acquisition channels to test once positioning is agreed.
+- `ecommerce-brand-differentiation` for standing out as an online shop through naming, packaging and community.
+- Stop when customer evidence or decision authority is absent and cannot be obtained; return the intake gap. Full business-plan documents go to business-plan-skills.
 
 ## Required Inputs
 

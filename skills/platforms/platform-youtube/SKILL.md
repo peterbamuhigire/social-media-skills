@@ -1,6 +1,6 @@
 ---
 name: platform-youtube
-description: Use when creating a Youtube channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a brand wants a YouTube channel people find through search: set-up, video types, titles and descriptions for YouTube search, Shorts, Community posts and upload rhythm; produces the YouTube channel plan with a 30-day content plan and KPIs; not for video formats shared across all platforms (use `strategy-video-content`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Youtube-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
+- The client wants to start or revive a YouTube channel and needs set-up, branding and playlists sorted.
+- Videos are not found in search and need titles, descriptions, tags and thumbnails planned for YouTube SEO.
+- The client wants a video mix, Shorts and Community posts at an upload cadence it can sustain.
+- A 30-day upload plan and YouTube-specific KPIs are needed, with blog angles drawn from each video.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `strategy-video-content` for video formats, podcasts or AI-avatar video across platforms.
+- `training-smartphone-video-production` for filming and editing skills.
+- `platform-tiktok` for short video planned for TikTok first.
+- Stop before uploading, changing channel settings or switching on monetisation without the channel owner's authority.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

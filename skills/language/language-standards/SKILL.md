@@ -1,6 +1,6 @@
 ---
 name: language-standards
-description: Use when Language Standards — Multi-Language Tone & Grammar is needed to produce a language quality specification for social-media or digital-marketing work; use `east-african-english` when its narrower outcome is requested.
+description: 'Use when an agency or brand needs one tone and grammar rulebook for social and ad copy across English, French and Kiswahili: spelling, dates, numbers, courtesy, words to avoid and CTAs; produces the multilingual copy style specification; not for editing English posts for East African readers (use `east-african-english`).'
 metadata:
   portable: true
   compatible_with:
@@ -10,11 +10,16 @@ metadata:
 # Language Standards — Multi-Language Tone & Grammar
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **language quality specification** and the supplied brief falls within language standards — multi-language tone & grammar.
+- Writers produce English, French and Kiswahili (Swahili) posts in different styles and the client wants one set of rules for all three.
+- A new market launch needs agreed spelling, date and number formats and call-to-action button wording in each language.
+- The team keeps using hype and AI-sounding phrases in every language and needs a banned-words and redundant-phrase list.
+- Translated campaign copy needs checking for register, text expansion and whether an in-country reviewer is required.
 
 ## Do Not Use When
-- Use `east-african-english` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `east-african-english` for editing English posts and ads for East African readers.
+- `french-native-copy` or `swahili-native-copy` for writing the French or Kiswahili campaign copy itself.
+- Stop short of certifying translation accuracy, publishing or spending; name the in-country reviewer still required and return the draft for client approval.
+
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---:|---|
@@ -478,16 +483,11 @@ Kiswahili communication culture emphasizes relationships:
 
 # When This Skill Applies
 
-**Cross-cutting** — applies to all visible website text, meta descriptions, alt text, form labels, error messages, email templates, and microcopy in all enabled languages.
-
-**Extended reference:** `references/business-english-advanced.md` — phrase banks (meetings, presentations, apologies, formal correspondence), a selection of ESL grammar rules, register-switching guidance, and anti-jargon rewrites.
+**Cross-cutting** — applies to all visible website text, meta descriptions, alt text, form labels, error messages, email templates, and microcopy in all enabled languages. **Extended reference:** `references/business-english-advanced.md` — phrase banks (meetings, presentations, apologies, formal correspondence), a selection of ESL grammar rules, register-switching guidance, and anti-jargon rewrites.
 
 ## Integration with Other Skills
 - **Native-copy execution skills (mandatory for French & Kiswahili)**: this skill owns the cross-language tone policy, but native-quality execution belongs to the dedicated skills. Route to **`french-native-copy`** for any French caption/ad/bio and **`swahili-native-copy`** for any Kiswahili one; use **`east-african-english`** for English. Do not produce French or Kiswahili copy by raw translation — the native-copy skills are required for those languages and carry the deeper grammar, idiom, register, and typography references.
-- **i18n**: Determines which language versions are built
-- **page-builder**: Applies language standards when creating content
-- **seo**: Uses language standards for meta tags, titles, descriptions
-- **sector-strategies**: Industry-specific tone within language standards
+- **Website build, SEO metadata and sector tone** (i18n, page-builder, seo and sector-strategies live in the website-skills engine, not here): they apply these standards to built pages, meta tags and sector copy.
 
 ## Quality Standards
 Before publishing any page, verify:

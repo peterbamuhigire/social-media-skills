@@ -1,6 +1,6 @@
 ---
 name: playbook-reputation-management
-description: Use when designing or improving a Reputation Management operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a brand''s standing online is weak or under attack: poor Google or Facebook ratings, negative reviews, damaging search results or local gossip; produces the reputation audit and score, review-response protocol and 90-day recovery plan; not for proactive review and referral programmes (use `strategy-ewom-reviews`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Reputation Management workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Audit what people see when they search the company name: ratings, reviews, press and forums, with a reputation score and red flags.
+- Angry customers are posting after a service failure or billing mistake: reply templates for negative and positive reviews, who answers, and when to bring in legal or PR.
+- Push down damaging search results with stronger content and Google Business Profile authority.
+- Plan a recovery: stabilise in the first two weeks, run a review drive, publish positive content and keep monitoring by month three.
+- Handle East African specifics: reviews sent by WhatsApp, Facebook recommendations versus Google reviews, local press, and Uganda DPPA 2019 limits on using customer data.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `strategy-ewom-reviews` for review generation, testimonials and referral programmes when nothing is wrong.
+- `playbook-crisis-communications` for a fast-moving incident with media attention.
+- `meta-social-listening` for setting up ongoing mention and sentiment monitoring.
+- Stop before posting fake or paid-for reviews, threatening reviewers or asking platforms to remove content without evidence and client approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

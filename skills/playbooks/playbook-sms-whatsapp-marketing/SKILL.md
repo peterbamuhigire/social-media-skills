@@ -1,6 +1,6 @@
 ---
 name: playbook-sms-whatsapp-marketing
-description: Use when designing or improving a Sms Whatsapp Marketing operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a business wants to send offers and reminders to opted-in customers by WhatsApp broadcast or SMS: campaign calendars, templates, automated sequences, catalogue promotion, opt-in and opt-out, delivery metrics; produces the broadcast and SMS campaign plan with message copy; not for setting up WhatsApp Business (use `platform-whatsapp`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,12 +15,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Sms Whatsapp Marketing workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Choose between SMS and WhatsApp for a promotion and decide which suits each kind of message.
+- Plan a month of WhatsApp broadcast campaigns using the five-part message formula, for example for a Kampala retail shop.
+- Write welcome, abandoned-enquiry and re-engagement sequences on the WhatsApp Business API.
+- Write short SMS promotions and reminders sent through Africa's Talking or another bulk gateway.
+- Collect opt-ins, honour STOP requests and report delivery, reads, replies and sales each month.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `platform-whatsapp` for the WhatsApp Business account, profile, catalogue and channel plan.
+- `playbook-chatbot-strategy` for inbound bot replies.
+- `07-email-marketing-strategy` for the email programme.
+- Stop before sending to any number without recorded opt-in under the Uganda DPPA 2019 or the client's approval of the message and send date.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

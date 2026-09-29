@@ -1,6 +1,6 @@
 ---
 name: meta-competitor-analysis
-description: "Use when comparing named competitors to find evidence-backed positioning and content gaps. Produces competitor comparison and opportunity register; use `02-platform-audit` when that neighbouring contract is the closer match."
+description: 'Use when a client asks how named rivals compare on social: what they post, how often, their ads, tone and positioning, and where the openings are; produces the competitor comparison table, gap analysis and opportunity register; not for auditing the client''s own profiles (use `02-platform-audit`).'
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for comparing named competitors to find evidence-backed positioning and content gaps.
-- Confirm that `02-platform-audit` is not the closer route before proceeding.
+- The client names three to five rivals (competing banks, telcos, retailers or schools) and wants to know what they post, their themes, formats and messages, posting frequency and audience response.
+- The team needs to see which competitors run paid ads now, from the Meta Ad Library and other public sources.
+- Find the angles, positioning or content gaps none of the competitors are using yet, before the strategy is written.
+- A competitive matrix is needed for a pitch or a quarterly review.
 
 ## Do Not Use When
 
-- Use `02-platform-audit` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `02-platform-audit` for auditing the client's own profiles, bios and quick fixes.
+- `meta-social-listening` for ongoing share of voice and sentiment from conversation data.
+- `marketing-foundations-stp-positioning` for choosing the client's own positioning.
+- Stop before stating a competitor figure without a dated public source; mark it not assessed.
 
 ## Required Inputs
 

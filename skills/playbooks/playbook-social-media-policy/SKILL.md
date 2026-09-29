@@ -1,6 +1,6 @@
 ---
 name: playbook-social-media-policy
-description: Use when designing or improving a Social Media Policy operating playbook, including governance roles, RACI, escalation and agency access, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when an organisation needs rules for how staff and agencies use social media: conduct, confidential information, disclosure, approvals and consequences, plus a RACI, certification, escalation levels and account access; produces the staff policy and governance model; not for rules on AI-made content (use `policy-ai-content-ethics`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,13 +15,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Social Media Policy workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Set up social media governance: a RACI for who posts and approves, staff certification, escalation levels, a command centre and agency access controls (formerly `playbook-social-media-governance`).
+- Staff post about work on personal accounts; clear dos and don'ts, prohibited content and disciplinary consequences are needed.
+- Decide who may speak for the company, how customer enquiries on personal channels are handled and what employees must disclose.
+- Set an approval process for employee-generated content and an annual policy review with staff acknowledgement.
+- Build governance: a RACI for who posts and approves, staff certification before access, escalation levels, a command centre and agency password controls.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `policy-ai-content-ethics` for AI disclosure, AI copyright ownership and cultural bias checks.
+- `playbook-crisis-communications` for an incident already under way.
+- `playbook-social-selling` for encouraging staff to share company posts.
+- Stop short of legal advice; the client's counsel must review the policy against employment contracts before it is issued.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

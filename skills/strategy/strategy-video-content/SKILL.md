@@ -1,6 +1,6 @@
 ---
 name: strategy-video-content
-description: Use when the main deliverable concerns cross-platform organic video formats, hooks, series, scripts, and learning loops, including podcasts and AI-avatar video; use training-smartphone-video-production when that neighbouring workflow owns the primary decision.
+description: Use when a brand's Reels, TikToks, Shorts or YouTube videos are not working, or it is weighing a podcast or AI-avatar videos (HeyGen, Synthesia); produces the organic video plan with series formats, hooks, scripts and a test loop; not for teaching staff to film and edit on phones (use `training-smartphone-video-production`).
 metadata:
   portable: true
   compatible_with:
@@ -12,15 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for cross-platform organic video formats, hooks, series, scripts, and learning loops.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Plan AI avatar or personalised video (HeyGen, Synthesia, voice cloning) for outreach or client report videos, with consent and AI disclosure (formerly `ai-avatar-personalised-video`).
-- Decide whether to start a podcast or audio series, then choose the format, recording equipment and hosting and plan the first episodes (formerly `platform-podcast-strategy`).
+- Our Reels, TikToks, YouTube Shorts or Facebook videos get low views and people scroll past in the first seconds.
+- We need a recurring video series, hook formulas and short- and long-form scripts.
+- Sales teams want videos that answer buyer questions (the Selling 7) and on-camera tips.
+- We are considering AI avatar or personalised videos (HeyGen, Synthesia, voice cloning) for outreach or client reports, with consent and AI disclosure.
+- Should we start a podcast or audio series: format, recording equipment, hosting and the first episodes?
 
 ## Do Not Use When
 
-- Use `training-smartphone-video-production` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `training-smartphone-video-production` for hands-on phone filming, sound, light and editing skills.
+- `platform-youtube` or `platform-tiktok` for the full channel operating plan.
+- `strategy-experiential-marketing` for live streams and webinars.
+- Stop before cloning a voice or likeness without written consent, or publishing AI-generated video without disclosure.
 
 ## Required Inputs
 

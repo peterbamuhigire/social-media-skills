@@ -1,6 +1,6 @@
 ---
 name: platform-instagram
-description: Use when creating a Instagram channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a brand needs to run Instagram well: formats and Reels cadence, feed grid and visual look, DMs, stalled follower growth or reach, and measurement; produces the Instagram channel plan with growth experiments and a visual standards brief; not for paid ad campaigns (use `playbook-paid-social-advertising`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,14 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Instagram-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
-- Diagnose why Instagram follower growth or reach has stalled and build a phase-based growth experiment plan for Reels, hashtags, collabs and broadcast channels (formerly `platform-instagram-growth`).
-- Plan the Instagram feed grid, mood board, colour palette, editing preset and visual standards brief for a designer (formerly `platform-instagram-visual-system`).
+- The client wants a clear mix of Reels, Stories and carousels, how often to post each, and the Instagram numbers that matter.
+- Follower growth or reach has stalled and the client wants a diagnosis and a phase-based test plan for Reels, hashtags, collabs and broadcast channels.
+- The feed needs a planned grid, mood board, colour palette and editing preset, with a visual standards brief for the designer.
+- Instagram DMs, shopping links and profile proof need to turn interest into sales or bookings.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `playbook-paid-social-advertising` for Instagram and Meta ad campaigns.
+- `strategy-video-content` for a video approach shared across several platforms.
+- `caption-writer` for the captions themselves.
+- Stop before posting, starting collabs or changing the live account without client authority; deliver the plan for approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

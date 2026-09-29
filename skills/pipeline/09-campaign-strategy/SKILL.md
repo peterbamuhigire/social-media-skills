@@ -1,6 +1,6 @@
 ---
 name: 09-campaign-strategy
-description: "Use when planning one focused launch, offer, awareness drive, event, or contest and giveaway campaign. Produces single-campaign strategy and strategic one-page brief; use `13-campaign-brief` when that neighbouring contract is the closer match."
+description: Use when a client wants one focused push such as a product launch, offer, awareness drive, event, contest or giveaway; produces the single-campaign strategy with channel plan, timeline, budget and a one-page strategic summary; not for the supplier handover of an approved campaign (use `13-campaign-brief`).
 metadata:
   portable: true
   compatible_with:
@@ -19,14 +19,17 @@ A campaign is a time-bound, focused effort with a specific objective. It is dist
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for planning one focused launch, offer, awareness drive or event campaign.
-- Confirm that `13-campaign-brief` is not the closer route before proceeding.
-- The client wants a social media contest, giveaway or prize draw: entry mechanic, prize in UGX, Meta and WhatsApp promotion rules, T&Cs, WhatsApp mini-contest and winner announcement (formerly `playbook-social-media-contests`).
+- The client has one launch, offer, awareness drive or event and needs objective, audience, core message, channels and timeline.
+- The campaign needs a paid amplification plan, budget split and success measures agreed before production.
+- The client wants a contest, giveaway or prize draw: entry mechanic, prize in UGX, Meta and WhatsApp promotion rules, terms and conditions, a WhatsApp mini-contest and the winner announcement.
+- A hashtag challenge or seasonal promotion needs a clear concept and a content production list.
 
 ## Do Not Use When
 
-- Use `13-campaign-brief` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `13-campaign-brief` for the execution brief handed to the team or suppliers once strategy is approved.
+- `creative-brief-and-big-idea` for finding the insight and screening creative ideas.
+- `05-social-media-strategy` for the always-on programme rather than one campaign.
+- Stop before launching a prize promotion without checking the lottery and gaming rules and platform terms that apply; flag the legal review.
 
 ## Required Inputs
 

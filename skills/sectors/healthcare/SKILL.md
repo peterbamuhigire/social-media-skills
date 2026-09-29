@@ -1,6 +1,6 @@
 ---
 name: healthcare
-description: Use when the main deliverable concerns healthcare trust, patient-safe content, misinformation response, and East African health-sector communication; use policy-ai-content-ethics when that neighbouring workflow owns the primary decision.
+description: Use when a hospital, clinic, pharmacy, health NGO or insurer in East Africa needs social content, patient trust, misinformation replies or complaint handling; produces the health-sector social plan, patient-safe content rules and response protocol; not for hotels, restaurants or spa resorts (use `hospitality-hotel-restaurant`).
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for healthcare trust, patient-safe content, misinformation response, and East African health-sector communication.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- A hospital, clinic, pharmacy, diagnostic lab or health NGO wants a social media plan patients will trust.
+- Health posts must avoid unverified clinical claims, patient photos or records, and follow consent and privacy rules.
+- False health rumours, miracle-cure claims or vaccine myths are spreading and need a calm, sourced reply plan.
+- Complaints, trolls or a patient-safety incident on social need a response and escalation protocol.
+- Doctors, nurses and staff need rules for what they may post about work on their own accounts.
 
 ## Do Not Use When
 
-- Use `policy-ai-content-ethics` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `hospitality-hotel-restaurant` for hotels, restaurants, venues and spa or wellness resorts.
+- `policy-ai-content-ethics` for the organisation's AI content ethics policy.
+- `playbook-crisis-communications` for running a declared organisation-wide crisis.
+- Stop before publishing any clinical claim, patient story or image without clinician sign-off and documented consent.
 
 ## Required Inputs
 

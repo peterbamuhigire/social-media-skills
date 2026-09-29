@@ -1,6 +1,6 @@
 ---
 name: advertising-attribution-and-measurement
-description: Use when deciding which conversions count for credit, choosing an attribution model, designing holdout or geo incrementality tests, setting break-even ROAS and allowable CPA, or reconciling advertising results; use meta-roi-framework for full ROI business cases and measurement-tracking-plan for tags, consent and UTM naming.
+description: Use when a client asks which ads really work, disputes platform results or needs proof advertising caused sales; covers attribution models, holdout and geo lift tests, break-even ROAS and allowable CPA; produces a measurement plan, economics sheet and reconciliation report; not for a board ROI business case (use `meta-roi-framework`).
 metadata:
   portable: true
   compatible_with:
@@ -15,19 +15,18 @@ Decide what counts as a result, how credit is assigned across channels, how to p
 <!-- dual-compat-start -->
 ## Use When
 
-- A campaign needs conversion events, definitions and a measurement plan before launch.
-- A client asks "which channel is working?" or disputes platform-reported results.
-- An incrementality test (holdout, geo, lift study) must be designed or read.
-- Allowable cost per acquisition, break-even ROAS or cost-per-lead ceilings are needed.
-- Offline or WhatsApp sales must be connected to advertising, including halo effects.
+- Before launch, agree which conversions count, how each is defined and who owns the data.
+- Which channel is actually working? The platforms' numbers do not match our CRM or till.
+- Design or read an incrementality test: a holdout group, a geo split or a platform lift study.
+- Set the most we can pay per sale or lead: allowable CPA, break-even ROAS and cost-per-lead ceilings.
+- Connect offline, shop-floor or WhatsApp sales back to the advertising, including halo effects on other channels.
 
 ## Do Not Use When
 
-- The task is a full ROI business case or investment justification; use [meta-roi-framework](../../meta-analytics-ops/meta-roi-framework/SKILL.md).
-- The task is the tracking plan itself (event map, Consent Mode v2, Conversions API or enhanced conversions set-up, UTM naming, BigQuery export); use [measurement-tracking-plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md).
-- The task is dashboard layout; use [meta-reporting](../../meta-analytics-ops/meta-reporting/SKILL.md).
-- The task is statistical test design for creative variants; use [ad-testing-and-scaling](../ad-testing-and-scaling/SKILL.md) and [meta-testing-framework](../../meta-analytics-ops/meta-testing-framework/SKILL.md).
-- Stop if personal data would be processed without a lawful basis and authority.
+- `meta-roi-framework` for a full ROI business case or investment justification.
+- `measurement-tracking-plan` for the event map, Consent Mode v2, Conversions API, UTM naming and BigQuery export.
+- `meta-reporting` for dashboard layout and the monthly report.
+- Stop if customer data would be matched or processed without a lawful basis and client authority.
 
 ## Required Inputs
 

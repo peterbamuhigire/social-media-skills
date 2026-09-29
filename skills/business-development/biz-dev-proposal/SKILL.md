@@ -1,6 +1,6 @@
 ---
 name: biz-dev-proposal
-description: Use when Service Proposal and Statement of Work Generator is needed to produce a client proposal for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when a prospect has shared a brief or had a discovery call and wants to know what you will do, by when and for how much; produces a send-ready service proposal and statement of work with scope, deliverables, timeline, investment and terms; not for a general agency profile (use `biz-dev-credentials`).
 metadata:
   portable: true
   compatible_with:
@@ -11,11 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **client proposal** and the supplied brief falls within service proposal and statement of work generator.
+- A prospect liked the discovery call and wants a written proposal for social media or digital marketing work.
+- We need a statement of work that fixes scope, deliverables, timeline, milestones and payment terms before we start.
+- A retainer renewal or upsell needs a fresh scope and investment section.
+- Our proposals go unanswered and we want a sharper executive summary, stronger proof, clear next steps and a follow-up plan.
 
 ## Do Not Use When
-- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `biz-dev-credentials` for an agency profile or case studies sent before any brief.
+- `biz-dev-pricing-menu` for the standard packages and rates the proposal quotes from.
+- `biz-dev-lawful-prospecting-outreach` for finding and contacting prospects before a brief exists.
+- Stop before inventing client facts, prices or terms the agency has not confirmed; formal government or donor tenders and EOIs go to the proposal-skills engine.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

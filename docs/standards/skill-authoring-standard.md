@@ -7,6 +7,7 @@ This repository uses the July 2026 portable composition contract. The standard a
 - Keep `SKILL.md` at or below 500 lines and move long curricula, catalogues, schemas, and case material into directly linked `references/` files.
 - Use YAML keys supported by the canonical contract: `name`, `description`, `license`, `allowed-tools`, and `metadata`. The directory-matching `name`, single-line `description`, and portable `metadata` are mandatory here.
 - Begin descriptions with `Use when`, keep them at or below 350 characters, and distinguish the closest neighbouring route.
+- Follow the routing-text formula (Social Kaizen S08): `Use when <client-language trigger>; produces <named artefact>; not for <neighbour job> (use `<neighbour-id>`).` `Use When` holds 3-6 triggers in the client's words; `Do Not Use When` names 2-4 neighbours by id plus one stop condition. The validator enforces this as `description_template`, `description_formula`, `use_when_template`, `description_neighbour_unknown` and `do_not_use_neighbour_unknown`; each "not for" neighbour needs an owned-negative fixture (`negative_for`) in `tests/routing-fixtures.json`.
 - Enclose the portable contract between `<!-- dual-compat-start -->` and `<!-- dual-compat-end -->`.
 
 ## Required contracts

@@ -1,6 +1,6 @@
 ---
 name: anti-ai-slop
-description: Use when Anti AI Slop is needed to produce a anti AI slop deliverable or humanise an AI-assisted draft for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when social or marketing copy is being drafted with AI help and must read human and local, or an AI-written caption, email, blog or proposal needs humanising; produces the drafted or rewritten copy with the ship-gate checklist; not for grading finished work (use `ai-slop-audit`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **anti AI slop deliverable** and the supplied brief falls within anti ai slop.
-- Humanise AI-written captions, emails, blogs or proposals so they sound like a real local copywriter wrote them, not ChatGPT, before the client sees them (formerly `ai-content-humaniser`).
+- Keep our posts, captions, slides and image briefs free of stock AI phrases while they are being written.
+- ChatGPT wrote these captions, emails, blogs or proposals; rewrite them so a real local copywriter could have written them before the client sees them.
+- Give writers or sub-agents a drop-in guardrail block and the banned vocabulary list to follow on every brief.
+- Localise AI drafts with real market detail: UGX prices, Mobile Money, WhatsApp-first habits and named local references.
+- Run the ship-gate checklist on a draft before delivering or publishing it.
 
 ## Do Not Use When
-- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `ai-slop-audit` for a scored audit report on finished work.
+- `brand-voice-ai-training` for teaching an AI tool the brand's own voice.
+- `east-african-english` for regional English usage and spelling.
+- Stop when a statistic, price, brand or quote cannot be verified against a named source; flag it rather than let it ship.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

@@ -1,6 +1,6 @@
 ---
 name: ai-generative-search-optimisation
-description: Use when an AI-search or generative-search visibility deliverable is required for social-media or digital-marketing work; use ai-readiness-diagnostic for a broader AI maturity assessment.
+description: Use when a brand wants to be found and cited in AI answers (ChatGPT, Perplexity, Gemini, Google AI Overviews) as well as search, across social profiles, reviews, content and website; produces an SEO and AI-search visibility audit or plan, action briefs and a measurement record; not for one page or article (use `seo-geo-optimisation`).
 metadata:
   portable: true
   compatible_with:
@@ -21,18 +21,18 @@ the study scope and use the findings as test hypotheses, never as platform laws.
 <!-- dual-compat-start -->
 ## Use When
 
-- The deliverable is an AI-search visibility plan, audit, content system, or
-  measurement loop for a social or digital-marketing engagement.
-- The work must connect social profiles, native content, off-site reputation,
-  website destinations, and customer action.
+- We never show up when customers ask ChatGPT, Perplexity, Gemini or Google's AI answers about our category.
+- The client talks about SEO, AEO, GEO or AIO and wants a programme-level plan that separates what is supportable from hype.
+- Tie social profiles, native content, reviews and off-site reputation to the website and the action customers take next.
+- Set up a measurement loop that keeps prompt observations, referrals, self-reported source and qualified enquiries apart.
+- Check that the business name, offer and facts are consistent across owned and third-party sources so AI tools describe us correctly.
 
 ## Do Not Use When
 
-- Use `ai-readiness-diagnostic` for a general AI maturity, data, team, or
-  deployment assessment.
-- Use `seo-discovery/seo-geo-optimisation` for one page or article only.
-- Do not publish, send, spend, alter a live account, collect personal data, or
-  claim a certification without explicit authority and the relevant release gate.
+- `seo-geo-optimisation` for one page or article.
+- `ai-readiness-diagnostic` for a general AI maturity, data or team assessment.
+- `paid-search-advertising` for paid Google Ads visibility.
+- Stop before promising inclusion, ranking or citations, changing robots or firewall rules, or publishing without authority; record unverified claims as NOT_ASSESSED.
 
 ## Required Inputs
 

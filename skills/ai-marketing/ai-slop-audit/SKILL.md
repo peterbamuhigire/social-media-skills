@@ -1,6 +1,6 @@
 ---
 name: ai-slop-audit
-description: Use when AI Slop Audit is needed to produce an evidence-backed audit report for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when a finished caption, post, carousel, ad, campaign, calendar, email, deck, AI image or video needs checking for AI-generated tells before it moves on or ships; produces a graded audit report with a genericness score, blocking findings and a fix list; not for guardrails applied while drafting (use `anti-ai-slop`).
 metadata:
   portable: true
   compatible_with:
@@ -11,11 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **evidence-backed audit report** and the supplied brief falls within ai slop audit.
+- Does this caption, carousel, email or ad copy look like a bot or ChatGPT wrote it? Tell us why it feels off and what gives it away.
+- A campaign, content calendar, blog, email sequence or deck outline is finished; check it before we move to the next piece.
+- Review an AI-generated image or video for the tells that make it look fake or generic.
+- Grade it A to F with a genericness score, cite each finding, say whether it can ship, and keep the good parts.
+- Run the final gate before anything from the engine is published or sent to the client.
 
 ## Do Not Use When
-- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `anti-ai-slop` for guardrails applied while drafting and for humanising a draft.
+- `policy-ai-content-ethics` for cultural bias, AI disclosure and copyright policy.
+- `premium-commercial-writing` for general editorial standards and brochure copy.
+- Stop the next asset or iteration when the verdict is F (blocked) until the blocking findings are fixed; never invent evidence for a finding.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

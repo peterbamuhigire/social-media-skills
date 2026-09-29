@@ -1,6 +1,6 @@
 ---
 name: meta-sales-marketing-alignment
-description: "Use when defining shared lifecycle stages, ownership, handover rules and review cadence. Produces sales-marketing service-level agreement, KPI map and lead-scoring model; use `meta-roi-framework` when that neighbouring contract is the closer match."
+description: Use when sales and marketing disagree about lead quality, follow-up or targets and need shared lifecycle stages, handover rules, a lead score and a joint review; produces the sales-marketing SLA, KPI ownership map and lead-scoring model; not for finding and contacting new prospects (use `biz-dev-lawful-prospecting-outreach`).
 metadata:
   portable: true
   compatible_with:
@@ -17,14 +17,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for defining shared lifecycle stages, ownership, handover rules and review cadence.
-- Confirm that `meta-roi-framework` is not the closer route before proceeding.
-- Design and calibrate a lead scoring model with sales: explicit fit and behavioural points, score decay, MQL threshold, BANT qualification and CRM set-up (formerly `meta-lead-scoring`).
+- Sales complains about lead quality and marketing complains about follow-up; both need agreed stages and definitions.
+- Handover rules are missing: when a lead passes to sales, how fast sales responds and what happens if nobody does.
+- The client wants a lead scoring model built with sales: fit and behaviour points, score decay, MQL threshold, BANT qualification and CRM set-up.
+- An owner-managed business needs one CRM as the source of truth and a monthly joint review meeting.
 
 ## Do Not Use When
 
-- Use `meta-roi-framework` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `biz-dev-lawful-prospecting-outreach` for sourcing contact lists and running cold or warm outreach.
+- `playbook-marketing-automation` for building nurture workflows in the automation tool.
+- `meta-roi-framework` for calculating return on marketing spend.
+- Stop before changing live CRM fields or scoring rules without the sales owner's sign-off.
 
 ## Required Inputs
 

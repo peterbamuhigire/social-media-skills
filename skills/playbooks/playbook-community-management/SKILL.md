@@ -1,6 +1,6 @@
 ---
 name: playbook-community-management
-description: Use when designing or improving a Community Management operating playbook with roles, ordered actions, controls and measures, including social customer service, Like-Know-Trust sequencing and niche WhatsApp or Facebook group communities. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a brand''s comments, DMs and groups need looking after: response times, reply templates, social customer service, Like-Know-Trust content, or a WhatsApp or Facebook Group community; produces the response guide, saved replies and community health scorecard; not for repairing a damaged rating (use `playbook-reputation-management`).'
 metadata:
   portable: true
   compatible_with:
@@ -11,15 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Community Management workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
-- Build a Like-Know-Trust community trust framework: diagnose the audience stage, apply the 10-4-1 content mix and trust-acceleration tactics (formerly `framework-community-trust`).
-- Set up social media customer service for WhatsApp, Messenger and comment inboxes: complaint scripts, query triage, saved replies and staff training (formerly `playbook-social-customer-service`).
-- Launch a niche micro-community on WhatsApp, a Facebook Group or LinkedIn with house rules, founding members and a member value proposition (formerly `strategy-micro-communities`).
+- Response-time targets and reply templates for enquiries, complaints, delivery problems, abusive comments and reviews on the brand's pages.
+- Customer service in WhatsApp, Messenger and comment inboxes: triage, complaint scripts, saved replies and staff training.
+- Followers like posts but never enquire; find where they sit on Like-Know-Trust and plan a 10-4-1 content mix to build trust.
+- Launch a niche group on WhatsApp, a Facebook Group or LinkedIn with house rules, founding members and a reason for members to stay.
+- A monthly scorecard for engagement and conversation quality, with clear rules on when to escalate to the client.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `playbook-reputation-management` for a reputation audit, review generation and recovery once ratings have been damaged.
+- `playbook-crisis-communications` when a post has gone viral for the wrong reasons or the media are calling.
+- `playbook-chatbot-strategy` for automated inbox replies and bot flows.
+- Stop before deleting comments, banning members or replying publicly to a sensitive complaint without the client's approval; escalate and deliver a draft reply.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

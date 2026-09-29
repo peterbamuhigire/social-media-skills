@@ -1,6 +1,6 @@
 ---
 name: strategy-customer-value-journey
-description: Use when the main deliverable concerns full-funnel content across awareness, engagement, subscription, conversion, retention, and advocacy; use 10-content-pillars when that neighbouring workflow owns the primary decision.
+description: Use when followers never become buyers or repeat customers and posts need mapping to each stage from first awareness to purchase, return and referral; produces the customer value journey map with entry offers and stage metrics; not for the brand's standing themes (use `10-content-pillars`).
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for full-funnel content across awareness, engagement, subscription, conversion, retention, and advocacy.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- We get likes and followers but few enquiries, sign-ups or sales.
+- We need a lead magnet or low-price entry offer and a path to bigger purchases (ascension offers).
+- Customers buy once and disappear; we need retention and referral content.
+- Map where WhatsApp, email and social each sit in the funnel from awareness to advocacy, including an experience map or user journey.
+- Audit current content by funnel stage, fill the gaps and set a measure for each stage.
 
 ## Do Not Use When
 
-- Use `10-content-pillars` when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `10-content-pillars` for the three to five recurring themes content returns to.
+- `11-content-calendar` for scheduling approved content across 90 days.
+- `strategy-ewom-reviews` for review, testimonial and referral programmes.
+- Stop when there is no offer or sales data to map against; return the intake gap instead of inventing stages.
 
 ## Required Inputs
 

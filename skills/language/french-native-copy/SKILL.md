@@ -1,6 +1,6 @@
 ---
 name: french-native-copy
-description: Use when French Native Copy (Social) is needed to produce a publication-ready copy for social-media or digital-marketing work; use `east-african-english` when its narrower outcome is requested.
+description: Use when social posts, ads or captions must be written or adapted in French for francophone Africa (DRC, Senegal, Côte d'Ivoire, Cameroon) in a formal vous register with FCFA and OHADA context; produces publish-ready French copy with a native-review note; not for the multilingual tone policy (use `language-standards`).
 metadata:
   portable: true
   compatible_with:
@@ -17,11 +17,16 @@ The reader is an educated professional with advanced French comprehension. Use f
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within french native copy (social).
+- A campaign needs French posts, captions or ad lines for Kinshasa, Dakar, Abidjan, Douala or Bujumbura, not for readers in France.
+- English social copy must be adapted into natural French rather than translated word for word, keeping the formal vous register.
+- Prices, dates and institutions must follow francophone African usage: FCFA, BCEAO or BEAC, OHADA and local mobile money names.
+- A French draft needs a native reviewer's check on grammar, gender agreement and identity details before the client sees it.
 
 ## Do Not Use When
-- Use `east-african-english` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `language-standards` for the cross-language tone and grammar rulebook.
+- `east-african-english` when the copy stays in English for East African readers.
+- `swahili-native-copy` when the target language is Kiswahili.
+- Stop before publishing French copy that no native reviewer has checked; deliver it marked as awaiting review.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

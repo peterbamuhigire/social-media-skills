@@ -1,6 +1,6 @@
 ---
 name: platform-facebook
-description: Use when creating a Facebook channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: Use when a business wants Facebook to bring real enquiries rather than empty likes, across its Page, Facebook groups and Messenger; produces the Facebook channel plan with page set-up, post and community choices, enquiry handling and a pilot review; not for building paid Meta ad campaigns (use `playbook-paid-social-advertising`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a Facebook-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
+- Followers react to posts but few send messages, call or order, and the client wants a plan that turns followers into enquiries.
+- Page posts, Facebook groups, Reels and Messenger need clear roles, formats and a posting rhythm for a Ugandan or East African audience.
+- Enquiries from comments and Messenger need a handover to sales or WhatsApp with agreed response times.
+- The client wants a short pilot to prove what works on Facebook before any money goes into boosting.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `playbook-paid-social-advertising` for Meta ad campaigns, audiences, budgets and tracking.
+- `strategy-channel-architecture` for deciding whether Facebook should be a priority channel.
+- `playbook-community-management` for day-to-day moderation and replies across channels.
+- Stop before posting, boosting or changing Page settings without the client's authority; deliver the plan and changes for approval.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

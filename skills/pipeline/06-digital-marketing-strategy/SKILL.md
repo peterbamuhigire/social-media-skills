@@ -1,6 +1,6 @@
 ---
 name: 06-digital-marketing-strategy
-description: "Use when integrating social, email, search, web, influencer and paid channels into one plan. Produces board-ready digital marketing strategy and 12-month roadmap; use `05-social-media-strategy` when that neighbouring contract is the closer match."
+description: Use when a client wants a single integrated plan for all its online marketing, bringing together social, website, SEO, email, influencers and paid media; produces the board-ready digital marketing strategy with a 12-month roadmap and channel budget; not for a plan covering social channels only (use `05-social-media-strategy`).
 metadata:
   portable: true
   compatible_with:
@@ -24,12 +24,16 @@ Add Kennedy's systems lens before selecting tactics:
 ---
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill for integrating social, email, search, web, influencer and paid channels into one plan.
-- Confirm that `05-social-media-strategy` is not the closer route before proceeding.
+- Marketing is spread across social, website, email, search and ads with no single plan tying them to business goals.
+- The board wants a twelve-month roadmap with budget, lifecycle coverage and the order in which channels are built.
+- A B2B client needs a demand-generation sequence across LinkedIn, website content, email nurture and paid search.
+- The annual channel-mix review is due and the client needs scenarios for what to cut, keep or grow.
 
 ## Do Not Use When
-- Use `05-social-media-strategy` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `05-social-media-strategy` when the plan covers social channels only.
+- `peso-integrated-strategy` for coordinating paid, earned, shared and owned media.
+- `advertising-strategy-and-budget` for the paid media plan and budget split.
+- Stop before quoting channel costs, reach or return figures that have not been verified; flag them as estimates.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

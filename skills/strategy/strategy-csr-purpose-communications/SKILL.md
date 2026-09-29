@@ -1,6 +1,6 @@
 ---
 name: strategy-csr-purpose-communications
-description: Use when the main deliverable concerns CSR, community-impact, environmental, and purpose communication, or a digital transparency and consumer-trust audit; use playbook-reputation-management when a live crisis owns the primary decision.
+description: Use when a company wants to talk about its community work, sustainability or purpose without greenwashing, or needs a trust audit of price openness, reviews and data consent; produces the CSR communication plan with messaging and a digital transparency report; not for winning press coverage (use `playbook-pr-publicity`).
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for CSR, community-impact, environmental, and purpose communication.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Audit digital transparency — published pricing, open reviews, honest negative feedback and data consent — to build online consumer trust (formerly `framework-digital-transparency`).
+- We fund schools, health camps or tree planting and want social content that tells the story honestly.
+- We worry our sustainability or impact claims look like greenwashing or charity selfies.
+- Beneficiary stories need consent and dignity rules before anything is posted.
+- Customers doubt us (hidden prices, only five-star reviews shown, unclear data consent) and we need a digital transparency audit and trust report.
+- A purpose statement and messaging framework must link the cause to what the business actually does.
 
 ## Do Not Use When
 
-- Use `playbook-reputation-management` when a live reputational crisis owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `playbook-pr-publicity` for press releases, story angles and journalist pitching.
+- `playbook-reputation-management` when criticism of the company's conduct is already live.
+- `strategy-ewom-reviews` for collecting more reviews and testimonials.
+- Stop before publishing impact figures or beneficiary images without verified evidence and recorded consent.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: playbook-paid-social-advertising
-description: Use when planning, specifying, auditing or reporting paid social campaigns on Meta, TikTok or LinkedIn, including objectives, audiences, budgets, creative briefs, tracking and optimisation rules; use paid-search-advertising for Google Ads and ad-testing-and-scaling for boosting organic winners.
+description: 'Use when a client wants Meta, TikTok or LinkedIn ads planned, audited or reported: objectives, audiences, budget split, click-to-WhatsApp and lead forms, pixel tracking and rules for switching off losers; produces the paid social plan, build specification, audit or monthly report; not for Google search ads (use `paid-search-advertising`).'
 metadata:
   portable: true
   compatible_with:
@@ -16,16 +16,17 @@ Plan and specify paid social campaigns end to end: objective, audience temperatu
 ## Use When
 
 - A client needs a paid social plan or build specification for Meta (Facebook, Instagram, Messenger, WhatsApp destinations), TikTok or LinkedIn.
-- An existing paid social account needs a read-only audit, a diagnostic or an optimisation plan.
-- A monthly paid social report or a scale, pause or refresh recommendation is required.
-- Click-to-WhatsApp or lead-form campaigns need designing for an East African business.
+- An existing paid social account needs a read-only audit, a diagnosis of weak results or an optimisation plan.
+- The client wants a monthly paid social report and a recommendation on what to scale, pause or refresh.
+- Click-to-WhatsApp or lead-form campaigns need designing for an East African business, with audience temperature and budget split.
+- Sponsored posts or Reels and Stories ads need ad sets, custom audiences, a budget in UGX or KES, pixel and Conversions API tracking, and a rule for switching off losing ads.
 
 ## Do Not Use When
 
-- The work is Google Ads search, Performance Max or Demand Gen; use `paid-search-advertising`.
-- The question is overall budget, media mix or channel choice across media; use `advertising-strategy-and-budget` and `media-planning`.
-- The need is concepts or copy; use `creative-brief-and-big-idea` and `ad-copy-and-hook-lab`.
-- The request is to change live campaigns, budgets or audiences without written authority; stop at an approval-ready specification.
+- `paid-search-advertising` for Google Ads search, Performance Max or Demand Gen.
+- `advertising-strategy-and-budget` and `media-planning` for overall budget, media mix or channel choice across media.
+- `ad-copy-and-hook-lab` for headlines, hooks and primary text.
+- Stop before changing live campaigns, budgets or audiences without written authority; deliver an approval-ready specification.
 
 ## Required Inputs
 

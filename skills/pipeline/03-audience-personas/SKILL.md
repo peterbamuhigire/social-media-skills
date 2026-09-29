@@ -1,6 +1,6 @@
 ---
 name: 03-audience-personas
-description: "Use when developing research-grounded audience personas after discovery and before channel planning. Produces persona cards and comparison matrix; use `04-brand-voice-intake` when that neighbouring contract is the closer match."
+description: Use when a client needs to know who its customers are and how they behave online, including synthetic personas when there is no research budget or an audience spanning several generations; produces persona cards and a comparison matrix; not for choosing target segments and positioning (use `marketing-foundations-stp-positioning`).
 metadata:
   portable: true
   compatible_with:
@@ -15,15 +15,17 @@ Develop 2–4 audience personas for the client. Personas are the strategic found
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for developing research-grounded audience personas after discovery and before channel planning.
-- Confirm that `04-brand-voice-intake` is not the closer route before proceeding.
-- The client has no budget or time for primary research and wants AI-generated synthetic personas, a synthetic focus group to test a campaign concept, or rapid hypothesis validation with a disclosure footnote (formerly `ai-synthetic-personas`).
-- The audience spans Gen Z, Millennials, Gen X and Baby Boomers and the client needs a multigenerational digital strategy: generational trust triggers, platform allocation by age cohort, content format by generation (formerly `strategy-multigenerational-digital`).
+- The strategy needs two to four evidence-based portraits of real customer types before channels or content are chosen.
+- Client data is thin, so each persona must separate what research shows from assumptions, with problem interviews to validate them.
+- There is no budget or time for primary research, so the client wants AI synthetic personas or a synthetic focus group to test a campaign concept, with a disclosure note.
+- The audience spans Gen Z, Millennials, Gen X and Baby Boomers and needs trust triggers, platform mix and content formats set per generation.
 
 ## Do Not Use When
 
-- Use `04-brand-voice-intake` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `marketing-foundations-stp-positioning` for choosing segments, targeting, positioning and the marketing mix.
+- `04-brand-voice-intake` for how the brand should sound and look once the audience is known.
+- `meta-social-listening` for ongoing monitoring of what audiences say online.
+- Stop before presenting synthetic or assumed persona traits as research findings; label every assumption and its source.
 
 ## Required Inputs
 

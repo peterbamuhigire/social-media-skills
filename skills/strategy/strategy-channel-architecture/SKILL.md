@@ -1,6 +1,6 @@
 ---
 name: strategy-channel-architecture
-description: Use when the main deliverable concerns platform roles, audience flows, hub-and-spoke routing, and effort allocation; use peso-integrated-strategy when that neighbouring workflow owns the primary decision.
+description: 'Use when a brand is on several platforms without clear jobs for each: assign platform roles, choose the conversion hub, map how audiences move between channels and split team effort; produces the hub-and-spoke channel map with an effort allocation table; not for choosing which acquisition channels to test (use `traction-channel-bullseye`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for platform roles, audience flows, hub-and-spoke routing, and effort allocation.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- We post identical content everywhere and cannot say what Facebook, Instagram, TikTok, LinkedIn or WhatsApp is each for.
+- We need a conversion hub (website, WhatsApp Business or landing page) and a traffic flow map from every spoke to it.
+- A small team is stretched across too many platforms and must decide where effort and posting frequency go.
+- Content should flow from one core piece to the other platforms instead of being made separately for each.
 
 ## Do Not Use When
 
-- Use `peso-integrated-strategy` when that neighbouring workflow owns the main decision or deliverable.
-- Use `traction-channel-bullseye` first when nobody has yet tested whether social media (or which channel family) should be an inner-circle acquisition channel at all.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `traction-channel-bullseye` for deciding whether social media or another channel family should be tested at all.
+- `peso-integrated-strategy` for coordinating paid, earned, shared and owned media and growing owned audiences.
+- `05-social-media-strategy` for the full social-media strategy document.
+- Stop when the business goal or the list of active accounts is unknown; request the channel audit before assigning roles.
 
 ## Required Inputs
 

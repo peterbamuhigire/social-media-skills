@@ -1,6 +1,6 @@
 ---
 name: brand-voice-ai-training
-description: Use when Brand Voice AI Training is needed to produce a brand voice AI training deliverable or RAG brand knowledge base for social-media or digital-marketing work; use `ai-readiness-diagnostic` when its narrower outcome is requested.
+description: Use when AI tools write off-brand or generic copy for a client and need teaching the brand's voice and facts; produces a brand context block with few-shot examples and a RAG brand knowledge base of products, UGX prices, policies and personas; not for defining the brand voice itself (use `04-brand-voice-intake`).
 metadata:
   portable: true
   compatible_with:
@@ -11,12 +11,17 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **brand voice AI training deliverable** and the supplied brief falls within brand voice ai training.
-- Set up a RAG brand knowledge base (for example in Claude Projects) with the product catalogue, UGX prices, policies and personas so AI drafts stay accurate and on-brand (formerly `ai-rag-brand-knowledge-base`).
+- ChatGPT, Claude or Gemini writes our posts in a bland global tone; make it sound like our brand.
+- Build a brand context block to paste before every AI prompt, with voice adjectives, we-are-not pairs, always and never words and emoji rules.
+- Create few-shot examples for captions, emails, WhatsApp Status and DM replies from the client's best existing content.
+- Set up a RAG brand knowledge base in Claude or ChatGPT Projects, CustomGPT or Notion AI with the product catalogue, UGX prices, policies and personas so AI drafts stay accurate.
+- The AI keeps getting prices or policies wrong; set up a maintenance routine for the knowledge base.
 
 ## Do Not Use When
-- Use `ai-readiness-diagnostic` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `04-brand-voice-intake` for defining the brand voice and visual direction in the first place.
+- `prompt-engineering-library` for reusable task prompts for images, audio and video.
+- `anti-ai-slop` for humanising a single AI draft.
+- Stop before uploading customer personal data, confidential pricing or unverified facts into an AI tool without client authority.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

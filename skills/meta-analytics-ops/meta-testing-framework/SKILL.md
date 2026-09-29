@@ -1,6 +1,6 @@
 ---
 name: meta-testing-framework
-description: "Use when designing controlled marketing experiments with hypotheses, guardrails and decision rules. Produces marketing test plan, register and result interpretation; use `meta-algorithm-guide` when that neighbouring contract is the closer match."
+description: 'Use when a client wants to know whether one caption, format, audience or offer truly beats another: hypotheses, one variable at a time, sample size, significance and decision rules; produces the test plan, test register and result interpretation; not for scaling or killing live paid ads (use `ad-testing-and-scaling`).'
 metadata:
   portable: true
   compatible_with:
@@ -18,13 +18,18 @@ content and campaigns in Uganda and East Africa.
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for designing controlled marketing experiments with hypotheses, guardrails and decision rules.
-- Confirm that `meta-algorithm-guide` is not the closer route before proceeding.
+- The team wants to prove what works rather than guess: which hook, format, language (Swahili or English) or offer wins.
+- A test needs a hypothesis, one changed variable such as caption style or format, guardrail metrics, a sample size and run length, and a rule for calling the winner.
+- Results from a Meta Ads Manager A/B test or an organic post comparison need reading correctly, including negative results.
+- A monthly testing calendar is needed that avoids holiday and school-fees periods in Uganda and East Africa.
+- Learning from finished tests must be logged and fed into the next campaign.
 
 ## Do Not Use When
 
-- Use `meta-algorithm-guide` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `ad-testing-and-scaling` for deciding which live ads to scale, kill or refresh and how to raise budgets.
+- `meta-algorithm-guide` for the platform ranking reference and posting-time schedule.
+- `advertising-attribution-and-measurement` for incrementality, holdout or geo tests on ad spend.
+- Stop before declaring a winner on a sample too small to call; report it as inconclusive.
 
 ## Required Inputs
 

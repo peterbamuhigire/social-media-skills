@@ -1,6 +1,6 @@
 ---
 name: 12-website-content-plan
-description: "Use when planning 90 days of website and blog content without designing or building the site. Produces website content plan, article briefs and internal-link map; use `11-content-calendar` when that neighbouring contract is the closer match."
+description: Use when a client's website or blog needs a 90-day content plan built from search intent and the questions customers ask, without building the site; produces the website content plan, twelve article briefs, FAQ library and internal-link map; not for writing the finished articles (use `blog-writer`).
 metadata:
   portable: true
   compatible_with:
@@ -15,14 +15,17 @@ Produce four outputs: (1) 12 blog post briefs, (2) an editorial calendar table, 
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for planning 90 days of website and blog content without designing or building the site.
-- Confirm that `11-content-calendar` is not the closer route before proceeding.
-- Turn the questions customers ask staff, in DMs, search and sales calls into a monthly question engine, FAQ library, Big 5 content priorities and assignment selling (formerly `playbook-question-engine`).
+- The website blog is stale and the client wants a quarter's worth of articles planned around search intent and personas.
+- Each article needs a brief with reader, keyword theme, key questions, structure, word count and call to action.
+- Pages need an internal linking structure and lead magnet or content upgrade ideas.
+- The questions customers ask staff, in DMs, in search and on sales calls should become a monthly question engine, FAQ library, Big 5 content priorities and assignment selling.
 
 ## Do Not Use When
 
-- Use `11-content-calendar` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `blog-writer` for the finished article, whitepaper or eBook text.
+- `seo-geo-optimisation` for making one page ready for search and AI citation.
+- `11-content-calendar` for dated social posts.
+- Stop at planning: do not design, build or edit the website; hand site work to the website engine.
 
 ## Required Inputs
 

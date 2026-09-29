@@ -45,7 +45,7 @@ Run it after each commit that changes skills, and in full at the end of every ph
 ```powershell
 # Engine root
 python -X utf8 scripts\validate_skill_engine.py --baseline quality-baseline.json      # failures=0; count = baseline; no catalogue_cap_exceeded
-python -X utf8 scripts\routing_smoke_test.py --min-rank1 91 --lint-fixtures            # top-3 = 1.000; p@1 >= floor; lint 0
+python -X utf8 scripts\routing_smoke_test.py --min-rank1 92 --lint-fixtures            # top-3 = 1.000; p@1 >= floor (92 from S08); lint 0; owned negatives pass
 python -X utf8 scripts\check_skill_aliases.py                                         # routes <-> ALIAS.md lockstep; targets active; count and cap
 python -X utf8 -B -m pytest -q tests                                                  # all pass
 python -X utf8 -m unittest discover -s tests -p "test_*.py"                           # the CI form

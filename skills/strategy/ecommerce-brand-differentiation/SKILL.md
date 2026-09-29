@@ -1,6 +1,6 @@
 ---
 name: ecommerce-brand-differentiation
-description: Use when the main deliverable concerns e-commerce positioning, category distinction, naming direction, packaging logic, and community proof; use playbook-post-click-strategy (conversion diagnosis) when that neighbouring workflow owns the primary decision.
+description: 'Use when an online shop sells what everyone else sells and competes only on price: category angle, store or product name, packaging and unboxing, visual cues and a buyer community; produces the e-commerce differentiation brief; not for conversion diagnosis (use `playbook-post-click-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,13 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for e-commerce positioning, category distinction, naming direction, packaging logic, and community proof.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Our online shop sells the same products as dozens of Jumia, Kilimall or Instagram sellers and we only ever win on price.
+- We want to own a niche or category (Blue Ocean, a soleness statement) instead of fighting on discounts.
+- We need a shop or product name shortlist checked for meaning, pronunciation and domain availability.
+- Packaging and unboxing should do marketing work: colour, typography and inserts that buyers photograph and share.
+- A small base of repeat buyers could become a community of true fans who vouch for the brand.
 
 ## Do Not Use When
 
-- Use `playbook-post-click-strategy` (conversion diagnosis and CRO, formerly `ecommerce-conversion-optimisation`) when that neighbouring workflow owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `playbook-post-click-strategy` for checkout, cart and WhatsApp order conversion problems.
+- `social-commerce-strategy` for catalogues, WhatsApp ordering, Mobile Money payment and delivery set-up.
+- `marketing-foundations-stp-positioning` for segmentation and positioning of a business that is not an online store.
+- Stop before presenting a name or visual identity as final without trademark, domain and competitor checks; deliver a shortlist for the client to decide.
 
 ## Required Inputs
 

@@ -1,6 +1,6 @@
 ---
 name: strategy-experiential-marketing
-description: Use when the main deliverable concerns strategic live, virtual and hybrid experiences for launches, activations, events, pop-ups, webinars and live streams; use strategy-video-content when recorded video or podcast content owns the primary decision.
+description: 'Use when a brand wants people to experience it in person or online: launch events, activations, pop-ups, sampling, webinars, Facebook Live or Zoom sessions and hybrid broadcasts; produces the experience plan with run sheet, promotion calendar and follow-up; not for a whole multi-channel campaign (use `09-campaign-strategy`).'
 metadata:
   portable: true
   compatible_with:
@@ -12,14 +12,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for strategic live and hybrid experiences for launches, activations, events, and pop-ups.
-- Use it when the requested deliverable needs the domain decisions and acceptance checks below.
-- Plan and run a webinar, Facebook Live, YouTube Live or Zoom webinar with a promotion calendar, run sheet, technical checklist and post-event replay follow-up (formerly `playbook-webinars-live-events`).
+- We are launching a product and want a pop-up, roadshow, sampling or activation that people photograph and share.
+- An event needs designing for the senses and for participation, with buzz beforehand and follow-up afterwards.
+- We are running a webinar, Facebook Live, YouTube Live or Zoom webinar and need a promotion calendar, run sheet, technical checklist for power and data cuts, and replay follow-up.
+- A hybrid event must serve people in the room and those watching online.
+- We must show event impact beyond attendance: leads, shares, sentiment and sales.
 
 ## Do Not Use When
 
-- Use `strategy-video-content` when recorded video or podcast content, not a live experience, owns the main decision or deliverable.
-- Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
+- `09-campaign-strategy` for planning a full campaign where an event is only one part.
+- `strategy-video-content` for recorded video or podcast content rather than a live experience.
+- `playbook-pr-publicity` for media coverage of the event.
+- Stop before booking venues, paying suppliers or going live without explicit client authority, permits and a safety check.
 
 ## Required Inputs
 

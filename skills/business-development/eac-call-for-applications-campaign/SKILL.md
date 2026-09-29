@@ -1,6 +1,6 @@
 ---
 name: eac-call-for-applications-campaign
-description: Use when EAC Call for Applications Campaign is needed to produce a campaign pack for social-media or digital-marketing work; use `biz-dev-positioning` when its narrower outcome is requested.
+description: Use when a donor, programme or accelerator opens a call for applications, expression of interest or beneficiary intake across EAC states; produces the announcement, applicant guidelines and FAQ, channel and partner-kit copy, a dissemination evidence log and fairness checklist; not for a commercial launch (use `09-campaign-strategy`).
 metadata:
   portable: true
   compatible_with:
@@ -11,11 +11,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Use this skill when the requested outcome is specifically a **campaign pack** and the supplied brief falls within eac call for applications campaign.
+- A donor-funded programme, grant or accelerator is opening applications and needs the announcement and applicant guidelines.
+- We need WhatsApp, LinkedIn, Facebook, email and partner-kit copy, in English and French where Burundi or DRC applicants matter.
+- Applicants will ask questions and we need an FAQ and a query-response protocol so everyone gets the same answer.
+- The donor or programme manager wants evidence that outreach was fair, accessible and reached all eight EAC states.
 
 ## Do Not Use When
-- Use `biz-dev-positioning` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
-- Do not use it to publish, send, spend, alter a live account, or make unsupported legal, platform, performance, or certification claims.
+- `09-campaign-strategy` for a commercial launch, offer or awareness drive with no beneficiary selection.
+- `playbook-sms-whatsapp-marketing` for ongoing broadcasts to an opted-in list.
+- `13-campaign-brief` for a creative brief handed to a production team.
+- Stop if eligibility and award criteria are not confirmed, and never invent partner directories, channel statistics or association names.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

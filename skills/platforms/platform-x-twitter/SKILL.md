@@ -1,6 +1,6 @@
 ---
 name: platform-x-twitter
-description: Use when creating a X Twitter channel plan covering account setup, content, community and measurement for Uganda or East Africa. Use a playbook for cross-channel operations and a strategy skill for channel selection.
+description: 'Use when a brand, leader or organisation wants a voice on X (Twitter) with journalists, opinion leaders, policy and NGO audiences: whether X fits, profile, threads, polls and joining live conversations; produces the X channel plan with a 30-day plan and KPIs; not for press releases or media pitching (use `playbook-pr-publicity`).'
 metadata:
   portable: true
   compatible_with:
@@ -15,12 +15,16 @@ metadata:
 
 <!-- dual-compat-start -->
 ## Use When
-- Create or revise a X Twitter-specific presence, growth or publishing plan.
-- Translate a confirmed audience, offer and objective into channel decisions.
+- The client wants to know whether X is worth the effort for its audience before committing time.
+- A leader, NGO, B2B firm or professional practice wants to reach journalists, opinion leaders and public servants on X.
+- The team needs thread outlines, tweets, single-post and poll ideas, and a posting rhythm for X (Twitter).
+- The client wants to join live conversations and trending debates on X without damaging its reputation.
 
 ## Do Not Use When
-- The task is cross-channel operating procedure; use the closest `playbook-*` skill.
-- The task is choosing channels or business direction; use `strategy-channel-architecture`.
+- `playbook-pr-publicity` for press releases, media pitching and earned coverage.
+- `playbook-crisis-communications` when a live issue or backlash needs a response.
+- `strategy-channel-architecture` for deciding which platforms to use overall.
+- Stop before posting on political or contested topics without the client's approved position and sign-off.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

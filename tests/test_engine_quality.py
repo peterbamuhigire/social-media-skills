@@ -84,10 +84,12 @@ class EngineQualityTests(unittest.TestCase):
             command = [sys.executable, "-X", "utf8", str(ROOT / "scripts" / "validate_skill_engine.py"), "--root", str(root), "--json"]
             payload = json.loads(subprocess.run(command, capture_output=True, text=True, encoding="utf-8").stdout)
             self.assertIn("catalogue_cap_exceeded", payload)
+            # S08: the dormant `consolidation_until` branch was removed; a re-added key no longer
+            # tolerates a cap breach.
             registry.write_text(yaml.safe_dump({"active_skill_policy": {"hard_cap": 0, "consolidation_until": "S07"}}), encoding="utf-8")
             payload = json.loads(subprocess.run(command, capture_output=True, text=True, encoding="utf-8").stdout)
-            self.assertNotIn("catalogue_cap_exceeded", payload)
-            self.assertIn("catalogue_cap", payload)
+            self.assertIn("catalogue_cap_exceeded", payload)
+            self.assertNotIn("catalogue_cap", payload)
 
     def test_fixture_types_cover_release_paths(self):
         fixtures = json.loads((ROOT / "tests" / "routing-fixtures.json").read_text(encoding="utf-8"))["fixtures"]

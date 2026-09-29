@@ -1,6 +1,6 @@
 ---
 name: meta-algorithm-guide
-description: "Use when building or refreshing a platform-ranking reference from current evidence, or testing posting times and frequency against account data. Produces platform algorithm guide, pre-publication checklist and evidence-led posting schedule; use `11-content-calendar` to populate the editorial calendar."
+description: Use when a client asks why organic reach fell, what Facebook, Instagram, TikTok, YouTube, LinkedIn or X currently rank, or when and how often to post in EAT; produces the platform ranking guide, pre-publication checklist and posting-time schedule; not for designing controlled experiments (use `meta-testing-framework`).
 metadata:
   portable: true
   compatible_with:
@@ -17,13 +17,18 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for building or refreshing a platform-ranking reference from current evidence.
-- The client asks when to post and how often: best posting times in EAT, posting frequency per platform, a 4-week posting-time test and a weekly posting schedule (formerly `meta-posting-optimisation`).
+- Organic reach or views have fallen, for example halved on the Facebook page, and the client wants to know what each platform's feed rewards and penalises right now and which posting habits to drop.
+- The team wants a checklist to run before every post: format, opening seconds, watch time, links and engagement bait.
+- The client asks when to post and how often on each platform, in East Africa Time, and wants a weekly posting schedule.
+- A four-week posting-time test should replace guesses about the best hours and frequency.
+- The ranking reference is out of date after a platform change and must be refreshed from dated sources.
 
 ## Do Not Use When
 
-- Use `11-content-calendar` when a confirmed posting schedule needs populating into the editorial calendar.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `meta-testing-framework` for a controlled experiment with hypothesis, sample size and decision rule.
+- `11-content-calendar` for filling the editorial calendar once the posting schedule is agreed.
+- `platform-instagram` (or the matching platform skill) for a full channel operating plan.
+- Stop before stating a ranking signal without a dated source; mark it unverified.
 
 ## Required Inputs
 

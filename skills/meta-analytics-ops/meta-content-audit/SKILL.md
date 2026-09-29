@@ -1,6 +1,6 @@
 ---
 name: meta-content-audit
-description: "Use when reviewing an existing content history to decide what to keep, stop, test or improve. Produces content audit and prioritised improvement plan; use `meta-competitor-analysis` when that neighbouring contract is the closer match."
+description: Use when a client wants past posts reviewed to see what worked, what flopped and what to keep, update or retire, by platform and content pillar; produces the content audit with top and bottom posts, pillar coverage, tone rating and a 30-day fix list; not for auditing profiles and account set-up (use `02-platform-audit`).
 metadata:
   portable: true
   compatible_with:
@@ -13,13 +13,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for reviewing an existing content history to decide what to keep, stop, test or improve.
-- Confirm that `meta-competitor-analysis` is not the closer route before proceeding.
+- The client has months or years of posts and wants them rated by reach and engagement: which themes underperformed, which posts earned results and which wasted effort.
+- Posts need sorting into keep, update, retire (delete) or test decisions before anything is reused or a new plan is written.
+- Pillar balance, tone consistency or narrative quality looks uneven and needs rating against the brand voice.
+- A read-only review of a content library is required from exported platform data, without touching live accounts.
 
 ## Do Not Use When
 
-- Use `meta-competitor-analysis` when its narrower output is requested.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `02-platform-audit` for auditing profiles, bios, links and account set-up.
+- `meta-competitor-analysis` for comparing named rivals.
+- `meta-content-repurposing` for turning the best posts into new formats.
+- Stop when no dated platform export is supplied; request it rather than estimating performance.
 
 ## Required Inputs
 

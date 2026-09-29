@@ -1,6 +1,6 @@
 ---
 name: playbook-client-retainer-management
-description: Use when designing or improving a Client Retainer Management operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: 'Use when a monthly client relationship needs managing: scope, scope creep, change requests, monthly check-ins, performance-review triggers, renewal and price rises; produces the scope sheet, change-request log, check-in agenda and renewal plan; not for grading a portfolio of B2B customers (use `strategy-b2b-customer-community`).'
 metadata:
   portable: true
   compatible_with:
@@ -21,12 +21,17 @@ leading causes of retainer loss. This playbook prevents all three.
 
 <!-- dual-compat-start -->
 ## Use When
-- Build or improve a repeatable Client Retainer Management workflow for a client or delivery team.
-- Turn an approved objective into roles, controls, handoffs and measurable actions.
+- A new retainer is starting: deliverables, platforms, revision rounds, response times, approvals and exclusions agreed in writing before work begins.
+- The client keeps asking for extra work outside the agreement; a polite, written change-request process is needed.
+- Plan the monthly client check-in and decide what should trigger a performance review when results or the relationship slip.
+- The retainer ends in four weeks: prepare the renewal, the price at renewal and a value-first renewal conversation.
+- A client has not renewed, or the agency missed a commitment, and the relationship needs resetting.
 
 ## Do Not Use When
-- The task is a single-channel presence plan; use the closest `platform-*` skill.
-- The task is upstream positioning or channel choice; use the closest `strategy-*` skill.
+- `strategy-b2b-customer-community` for grading many business customers, account penetration and key-account plans.
+- `playbook-agency-operations` for agency-wide onboarding, invoicing, team roles and white-label partners.
+- `biz-dev-proposal` for the proposal and statement of work that wins a new client.
+- Stop before sending a price change, contract amendment or termination notice without the account owner's approval; deliver the draft and the conversation script.
 
 ## Required Inputs
 | Artefact | Source/provider | Required? | If absent |

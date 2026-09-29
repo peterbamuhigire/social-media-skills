@@ -1,6 +1,6 @@
 ---
 name: meta-reporting
-description: "Use when producing a monthly written performance report, a decision-led dashboard specification or a quarterly 7 Ps marketing-mix review from verified platform and campaign data. Produces the report, dashboard spec or scored mix review with actions and caveats; use `05-social-media-strategy` to rewrite the strategy itself."
+description: Use when a client needs the monthly performance write-up, a Looker Studio dashboard specification or a quarterly 7 Ps review of social's contribution from verified data; produces the written report, dashboard spec or scored mix review with actions and caveats; not for choosing which KPIs to track (use `meta-social-metrics-framework`).
 metadata:
   portable: true
   compatible_with:
@@ -17,15 +17,17 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 
-- Use this skill for producing a monthly written performance report from verified platform and campaign data.
-- Specifying a decision-led marketing dashboard, metric hierarchy, RAG scorecard or mobile reporting layout in Looker Studio (formerly `meta-dashboard-design`).
-- Reviewing social media's contribution across the 7 Ps marketing mix at a quarterly review, with a scored one-page summary out of 35 (formerly `meta-social-marketing-mix-review`).
-- Confirm that `05-social-media-strategy` is not the closer route when the client wants the strategy rewritten.
+- At month end the client wants a written account of results by platform, top posts, what worked, what did not, paid results and next month's tests.
+- The managing director wants a dashboard layout: metric hierarchy, RAG scorecard, chart choices and a phone-friendly view in Looker Studio.
+- Every quarter, score how social media supports each of the 7 Ps (product, price, place, promotion, people, process, physical evidence) on a one-page summary out of 35.
+- A new account needs a baseline, or a fall in results needs a cause-of-decline review.
 
 ## Do Not Use When
 
-- Use `05-social-media-strategy` when the client wants a new or rewritten strategy rather than a report or review.
-- Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
+- `meta-social-metrics-framework` for deciding which KPIs to track, their owners and targets.
+- `05-social-media-strategy` when the client wants the strategy rewritten.
+- `meta-roi-framework` when the question is return on investment or a business case.
+- Stop when platform data is unverified or missing; label the gaps rather than filling them.
 
 ## Required Inputs
 
