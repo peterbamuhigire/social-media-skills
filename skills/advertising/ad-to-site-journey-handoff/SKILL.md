@@ -93,7 +93,7 @@ Without access to the site, analytics or named owners, return the narrowest qual
 - One page, one job, one primary call to action; secondary routes (call, WhatsApp) support the same job.
 - The page restates the ad's promise in its first view and proves it.
 - Contact routes visible where buyers expect to speak to a person (in East Africa a WhatsApp click-to-chat plus a dialable number, with a response-time promise).
-- Performance and accessibility acceptance targets are stated for the web team to own: Core Web Vitals LCP ≤2.5 s, INP ≤200 ms, CLS ≤0.1 at the 75th percentile of field data (CW-01); WCAG 2.2 AA as the accessibility target (CW-05); stress-test at the WebPageTest "3G" profile as a worst case (CW-04). Checked 2026-09-23.
+- Performance and accessibility acceptance targets are stated for the web team to own: Core Web Vitals LCP ≤2.5 s, INP ≤200 ms, CLS ≤0.1 at the 75th percentile of field data, mobile and desktop separately (CW-01; register `WEBDEV-CORE-WEB-VITALS`, re-read 2026-09-29; INP replaced FID on 12 Mar 2024, register `WEBDEV-INP-CWV-2024`); WCAG 2.2 AA as the accessibility target (CW-05); stress-test at the WebPageTest "3G" profile as a worst case (CW-04). Checked 2026-09-23.
 - Measurement definitions are written before build, not after.
 
 ## Anti-Patterns

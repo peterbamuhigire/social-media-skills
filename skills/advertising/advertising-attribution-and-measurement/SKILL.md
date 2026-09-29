@@ -1,6 +1,6 @@
 ---
 name: advertising-attribution-and-measurement
-description: Use when a client asks which ads really work, disputes platform results or needs proof advertising caused sales; covers attribution models, holdout and geo lift tests, break-even ROAS and allowable CPA; produces a measurement plan, economics sheet and reconciliation report; not for a board ROI business case (use `meta-roi-framework`).
+description: Use when a client asks which ads really work, disputes platform results or needs proof advertising caused sales; covers attribution models, holdout and geo lift tests, break-even ROAS and allowable CPA; produces a measurement plan, economics sheet and reconciliation report; not for a marketing mix model (use `marketing-mix-modelling`).
 metadata:
   portable: true
   compatible_with:
@@ -24,6 +24,7 @@ Decides what counts as a result, how credit is assigned across channels, how to 
 ## Do Not Use When
 
 - `meta-roi-framework` for a full ROI business case or investment justification.
+- `marketing-mix-modelling` for a multi-year model of every channel's contribution, Meridian or Robyn, and cross-channel budget allocation.
 - `measurement-tracking-plan` for the event map, Consent Mode v2, Conversions API, UTM naming and BigQuery export.
 - `meta-reporting` for dashboard layout and the monthly report.
 - Stop if customer data would be matched or processed without a lawful basis and client authority.
@@ -44,7 +45,7 @@ Decides what counts as a result, how credit is assigned across channels, how to 
 2. Audit tracking: what fires, where, deduplication across pixel and server events, consent handling, CRM matching. Record gaps.
 3. Set the economics: break-even ROAS, allowable CPA and the lead-cost waterfall (see [economics and incrementality](references/economics-and-incrementality.md)).
 4. Choose an attribution view for day-to-day optimisation and state its bias; never present one model as the truth.
-5. Choose an incrementality method for the causal question: holdout, geo test, platform lift study or time-series read.
+5. Choose an incrementality method for the causal question: holdout, geo test, platform lift study or time-series read; rank it on the IAB causal-strength ladder, power the design and choose markets (see [geo power and incrementality hierarchy](references/geo-power-and-incrementality-hierarchy.md)).
 6. Plan reconciliation: platform-reported vs analytics vs CRM or POS, with the expected gaps explained.
 7. Build the reporting rules: denominators, windows, what is modelled, what is observed.
 8. Run the quality and anti-slop gates; correct and rerun. Withhold any claimed result without attributable evidence.
@@ -120,6 +121,7 @@ Without access to ad accounts or CRM data, return the narrowest qualified result
 
 - [Conversion events and attribution models](references/conversion-events-and-attribution-models.md): read when defining events or choosing a model.
 - [Economics and incrementality](references/economics-and-incrementality.md): read when setting allowable costs or designing tests.
+- [Geo power and incrementality hierarchy](references/geo-power-and-incrementality-hierarchy.md): read when powering a geo test, choosing markets or disclosing a lift result's assumptions.
 - [Results reconciliation](references/results-reconciliation.md): read when writing any results summary.
 - [Worked example, test template and sentence bank](references/worked-example-and-templates.md): read when pre-registering a test, working an illustrative example or wording a results caveat.
 - [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md), [media planning](../media-planning/SKILL.md), [direct-response economics](../direct-response-economics/SKILL.md) and [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md): read when the budget, plan, P&L or landing-page tracking is the real question.

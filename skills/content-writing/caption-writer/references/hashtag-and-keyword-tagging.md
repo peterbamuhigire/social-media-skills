@@ -128,7 +128,7 @@ Apply this guide every time a post is scheduled; mixing sets wrongly across plat
 
 | Platform | Recommended count | Placement | Sets to combine |
 |---|---|---|---|
-| Instagram | 5–10 | End of caption or first comment | 1 branded + 2–3 niche + 2–3 community + 1 awareness |
+| Instagram | Up to 5 (platform cap) | End of caption | 1 branded + 2 niche + 1 community + 1 awareness or location |
 | Facebook | 1–3 | In the caption | 1 branded + 1 niche only; Facebook hashtags add limited value |
 | LinkedIn | 3–5 | End of post | 1 branded + 2–3 niche or community; industry-relevant only |
 | TikTok | 3–5 | In caption, naturally or at the end | 1 niche + 1 trending/broad + 1 branded |
@@ -137,7 +137,9 @@ Apply this guide every time a post is scheduled; mixing sets wrongly across plat
 
 **Building a post-specific set.** Start each post from the client's standard set and swap 2–3 tags for ones specific to the topic. Generate the standard set in the output from the tags chosen in Sections 1–4, ready to copy for each primary platform. Instagram standard set template:
 
-`#[PrimaryBranded]` `#[NicheTag1]` `#[NicheTag2]` `#[CommunityTag1]` `#[CommunityTag2]` `#[LocationTag]` `#[AwarenessTag]`
+`#[PrimaryBranded]` `#[NicheTag1]` `#[NicheTag2]` `#[CommunityTag1]` `#[LocationTag]`
+
+Instagram cap: Instagram allows at most five hashtags in a post or reel caption, announced by @creators on 18 Dec 2025 (register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`; secondary report `INSTAGRAM-HASHTAG-LIMIT-2025`). The larger tier lists in Sections 1–4 are a pool to rotate from, not a per-post count. Confirm the cap on the live app before quoting it to a client.
 
 ### Section 6: Hashtags to avoid
 

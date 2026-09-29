@@ -134,7 +134,7 @@ Complete this table at the end of each calendar month. Share it with the client 
 | Metric | Target | Actual | Rating |
 |---|---|---|---|
 | Followers — end of month | [Set target] | | G / A / R |
-| Average engagement rate | ≥3% (EA benchmark) | | G / A / R |
+| Average engagement rate | Client's own 3-month average (the older "≥3% EA benchmark" is unsourced and `NOT_ASSESSED`) | | G / A / R |
 | Comments received | — | | — |
 | DMs / messages received | — | | — |
 | Average response time | Within SLA above | | G / A / R |

@@ -80,6 +80,8 @@ Without the client's stated goals and agreed scope, return the narrowest qualifi
 | A prospect fails Wardrope criterion 2 (investment) or 3 (respects the process) | Reject; free the capacity for the right client. | A high-maintenance, low-margin relationship. |
 | The prospect is not ready for the full engagement | Offer the complimentary diagnostic (30-minute social media audit, content gap review or platform performance diagnostic) with no obligation (Bly, 2018). | Losing a warm prospect at the commitment threshold. |
 | A capacity or exclusivity deadline is proposed | Use it only when true and documented. | Manufactured urgency. |
+| The prospect runs a competitive pitch or asks for free speculative creative | Apply the Pitch Positive Pledge rules in [pitch conduct and AI clauses](references/pitch-conduct-and-ai-clauses.md) (register `IPA-PITCH-POSITIVE`): written reason, budget and decision date first; paid discovery instead of free creative. | Unpaid pitch work and burnt-out staff. |
+| The work will use generative AI or the client asks how its data is handled in AI tools | Attach the AI schedule from [pitch conduct and AI clauses](references/pitch-conduct-and-ai-clauses.md#3-generative-ai-contract-clauses): disclosure, consent, no client data in public tools, no training on client materials, ownership limits, likeness consent, labelling. | Disputes over AI use, data leakage and ownership. |
 | The proposal depends on list building or cold outreach | Route through `biz-dev-lawful-prospecting-outreach` first. | Contacting prospects without a lawful basis. |
 
 ## Quality Standards
@@ -109,6 +111,7 @@ Two more release checks (cover letter, T&Cs placeholder) are in the [build metho
 
 - [Proposal build method](references/proposal-build-method.md): read when writing the nine sections, applying the formatting rules, Kahan's scorecard, the social proof taxonomy, the free diagnostic offer, the client acquisition summary, Hell Yes or Hell No or the persuasion principles.
 - [Proposal frameworks](references/proposal-frameworks.md): read when applying NOSE, the Seven Magic Questions, the Persuasion Sandwich or Go/No-Go criteria.
+- [Pitch conduct and AI clauses](references/pitch-conduct-and-ai-clauses.md): read when handling a competitive pitch, a request for speculative work, or the generative-AI terms of the proposal.
 - [Agency client acquisition system](references/agency-client-acquisition-system.md): read for assets, outreach plays, the consultative sale and proposal follow-up.
 - [`biz-dev-lawful-prospecting-outreach`](../biz-dev-lawful-prospecting-outreach/SKILL.md): read before any list building or cold outreach.
 - [`biz-dev-pricing-menu`](../biz-dev-pricing-menu/SKILL.md): read when the standard packages and rates are needed.

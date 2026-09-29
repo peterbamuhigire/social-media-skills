@@ -113,7 +113,7 @@ Build a 12-month calendar:
 
 Review monthly and calculate:
 - **Earned impressions** = sum of reach for published coverage (state the source of each reach figure)
-- **Advertising value equivalent** = cost of equivalent paid space at rate card — report only as context, never as a measure of outcome
+- **No advertising value equivalent (AVE).** Barcelona Principles 4.0 (Principle 5) says AVEs should not be used; report outputs, outtakes and outcomes instead, per [PR evaluation](pr-evaluation.md)
 - **Share of voice** = the client's mentions ÷ all category mentions in tracked outlets
 
 ## Sources

@@ -85,6 +85,7 @@ Without documented opt-in records, return the narrowest qualified result and mar
 | Highest-value campaign | Run all three in parallel: API for opted-in WhatsApp contacts, SMS as fallback | Reach lost to a single channel |
 | Promotional frequency would exceed 2× per week (4× in a campaign fortnight) | Replace with educational or loyalty messages | Opt-outs from over-selling |
 | A contact replies STOP | Remove from all lists in the same session, acknowledge, label "Opted Out" and never re-add without fresh consent | Breach of consent and trust |
+| An API campaign needs a cost estimate or template category | Cost each delivered marketing, utility or authentication template from the East Africa ("Rest of Africa") rate card and add BSP fees; the opt-in must name the business (register `WHATSAPP-PRICING-2025`, `WHATSAPP-BUSINESS-POLICY`) | Budgets on the retired conversation model; templates recategorised as marketing |
 | An SMS runs past 160 characters | Cut it or accept two-message billing knowingly | Doubled cost per send |
 
 ## Quality Standards
@@ -112,6 +113,7 @@ Without documented opt-in records, return the narrowest qualified result and mar
 
 - [SMS and WhatsApp campaign method](references/sms-whatsapp-campaign-method.md): read when comparing channels, building the calendar, writing sequences, catalogue entries or SMS templates, setting opt-in and opt-out, or reporting metrics.
 - [`platform-whatsapp`](../../platforms/platform-whatsapp/SKILL.md): read when the WhatsApp Business account, catalogue or broadcast lists are not yet set up.
+- [WhatsApp Platform pricing and templates](../../platforms/platform-whatsapp/references/whatsapp-platform-pricing-and-templates.md): read when costing API sends, choosing template categories, checking per-user marketing limits or wording opt-in.
 - [`playbook-chatbot-strategy`](../playbook-chatbot-strategy/SKILL.md): read when the need is inbound bot replies.
 - [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when consent, data-protection or pricing claims appear in messages.
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting broadcast, sequence and SMS copy.

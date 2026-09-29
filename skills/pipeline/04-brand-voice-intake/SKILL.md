@@ -1,6 +1,6 @@
 ---
 name: 04-brand-voice-intake
-description: Use when a brand needs to sound and look consistent on social, from tone and vocabulary to emoji, hashtag and image rules, or the team wants a social media style guide; produces the brand voice guide, visual identity brief and style guide; not for defining what makes the brand distinct (use `ecommerce-brand-differentiation`).
+description: Use when a brand needs to sound and look consistent on social, from tone and vocabulary to emoji, hashtag and image rules, or the team wants a social media style guide; produces the brand voice guide, visual identity brief and style guide; not for deciding which brand cues and buying moments to own (use `brand-strategy-and-distinctive-assets`).
 metadata:
   portable: true
   compatible_with:
@@ -21,7 +21,7 @@ Produces the definitive tone and identity reference for the client account: writ
 
 ## Do Not Use When
 
-- `ecommerce-brand-differentiation` for positioning, naming and what sets the brand apart from rivals.
+- `brand-strategy-and-distinctive-assets` for which brand cues, buying moments and differentiation to build, including online shops competing on price.
 - `03-audience-personas` when the audience is not yet understood.
 - `brand-voice-ai-training` for turning the approved voice into prompts and context blocks for AI tools.
 - Stop before inventing brand values, logos or claims the client has not confirmed; mark them for approval.

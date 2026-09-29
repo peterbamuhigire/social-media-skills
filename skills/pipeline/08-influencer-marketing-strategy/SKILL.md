@@ -41,7 +41,7 @@ Produces a complete influencer marketing strategy whose tiers, engagement screen
 
 1. Ask the intake questions in [influencer-strategy-document-sections](references/influencer-strategy-document-sections.md) § Intake questions; route to `09-campaign-strategy` when the activation sits inside a wider campaign.
 2. Define the tiers with EA characteristics, including WhatsApp community admins, and label engagement figures as screening heuristics.
-3. Find and vet creators: audience match and location, the manual engagement-rate formula, content quality, platform fit and brand safety, then the due-diligence scorecard in [creator-due-diligence-and-pricing](references/creator-due-diligence-and-pricing.md); stop on any red line.
+3. Find and vet creators: audience match and location, the manual engagement-rate formula, content quality, platform fit and brand safety, then the due-diligence scorecard in [creator-due-diligence-and-pricing](references/creator-due-diligence-and-pricing.md); set the brand-suitability floor and tiers with [programmatic-and-brand-safety](../../advertising/programmatic-and-brand-safety/SKILL.md); stop on any red line.
 4. Price each shortlisted creator from distribution fee plus talent fee, with usage, exclusivity and season priced explicitly.
 5. Plan outreach by tier, then complete the term sheet, creator brief and disclosure checks in [influencer-term-sheet-and-disclosure](references/influencer-term-sheet-and-disclosure.md) before any offer.
 6. Set usage-rights terms, lawyer triggers, performance metrics and at least two attribution methods before the campaign starts.
@@ -114,6 +114,7 @@ Further checks (British English, UGX) are in [influencer-strategy-document-secti
 - [Creator due diligence, typology and pricing](references/creator-due-diligence-and-pricing.md): read when shortlisting, vetting or budgeting creators.
 - [Influencer term sheet, brief and disclosure register](references/influencer-term-sheet-and-disclosure.md): read before any offer, brief, contract hand-off or go-live.
 - [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md): read when using AI discovery tools, screening fraudulent engagement, or weighing a human against a virtual influencer.
+- [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md): read when a virtual or AI-generated influencer is used; label it in every appearance (§3).
 - [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md): read when building a customer UGC programme, permissions log or curation and republishing workflow.
 - [`09-campaign-strategy`](../09-campaign-strategy/SKILL.md): read when the creator activation sits inside a wider campaign.
 - [Creator monetisation](../../strategy/strategy-creator-monetisation/SKILL.md): read when the work is the creator-side counterpart (rate card, revenue streams).

@@ -43,7 +43,7 @@ Tests small and many before the bulk of a budget is spent, decides with pre-agre
 ## Workflow
 
 1. Confirm objective, metric, break-even line and tracking; stop if tracking fails or the line is undefined.
-2. Write a test card per test ([test design and reading](references/test-design-and-reading.md)): hypothesis, variable, cells, cap, duration, success and kill thresholds, segment read-outs, owner.
+2. Write a test card per test ([test design and reading](references/test-design-and-reading.md)): hypothesis, variable, cells, cap, duration, success and kill thresholds, segment read-outs, owner; lock it as a pre-registered card with guardrails and the SRM note ([test rigour](references/test-rigour-srm-and-preregistration.md)).
 3. Order tests by the test hierarchy (offer, then angle/hook, then format/visual, then copy length) — a working hypothesis to confirm with the client's own data, not a law.
 4. Launch only after written approval; the authorised operator runs it. Do not optimise mid-window unless a guardrail breaks.
 5. Read results against the pre-agreed line; check segment differences, brand linkage and downstream quality (leads that become customers), not just clicks.
@@ -111,6 +111,7 @@ Without platform exports, working tracking or the break-even line, return the na
 ## References
 
 - [Test design and reading](references/test-design-and-reading.md): read when writing test cards or reading results.
+- [Test rigour: SRM and pre-registration](references/test-rigour-srm-and-preregistration.md): read when locking a decision-grade creative test, checking assignment balance or reading a platform's early "winner".
 - [Scaling, fatigue and retargeting](references/scaling-fatigue-and-retargeting.md): read when deciding roll-out, refresh or pool design.
 - [Organic-to-paid amplification](references/organic-to-paid-amplification.md): read when explaining organic reach decline, deciding which organic posts to boost, or setting a monthly boost budget.
 - [Method notes and sources](references/method-notes-and-sources.md): read when building a message-angle matrix, filling a test card, running the 100-visitor funnel check, applying the retest-to-roll-out ladder or handling East African phone-number pools.

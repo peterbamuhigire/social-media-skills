@@ -53,7 +53,7 @@ The consultant's role is to make this informal conversion path faster, more cons
 
 ### TikTok
 
-- **TikTok Shop is not available in Uganda as of 2026.** Do not attempt to set it up or advise clients to do so.
+- **TikTok Shop availability in Uganda: `NOT_ASSESSED`** (the earlier "not available as of 2026" line has no dated source). Check TikTok's list of TikTok Shop markets on the campaign date before advising any set-up.
 - **TikTok commerce strategy:** Create short product demonstration videos showing the product in use, being unboxed, or being made. End every video with a clear verbal and on-screen CTA: "Order now — link in bio" or "WhatsApp us on [number]." Pin a comment with the WhatsApp link on high-performing videos. Place the WhatsApp link in the TikTok bio using a link-in-bio tool if multiple links are needed.
 
 ## Section 3 — Payment Infrastructure

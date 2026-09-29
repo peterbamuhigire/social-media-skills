@@ -47,7 +47,7 @@ Turns a business problem into a single-minded strategic brief, a tested insight 
 5. Write an idea card per concept, including the Lodestar line, press-release test and three channel sketches ([concept screen and critique](references/concept-screen-and-critique.md)).
 6. Screen internally: effectiveness scale, idea-quality grid, acceptance questions and responsible-creative interrogation. Kill anything scoring 1–4; send 5 back for a sharper hook; advance 6–7.
 7. Decide campaign structure and copy–image construction ([campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md)); hand visual execution to `chwezi-design-engine`.
-8. Plan the test pack: message test before execution test; brand-linkage check.
+8. Plan the test pack: message test before execution test; brand-linkage check; record the emotional or rational choice with its evidence, the distinctive assets shown early, and whether a paid pre-test is proportionate ([creative effectiveness and pre-testing](references/creative-effectiveness-and-pretesting.md)).
 9. Run the review with the critique protocol; record decisions, likely negative reactions and sign-off. If the review drifts to taste or changes the brief, stop and return to the brief; rerun the affected steps.
 
 ## Seven-point creative effectiveness scale
@@ -117,6 +117,7 @@ Without audience evidence, brand documents or a named decision-maker, return the
 - [Brief and insight method](references/brief-and-insight-method.md): read when writing or repairing a brief and building the insight.
 - [Concept screen and critique](references/concept-screen-and-critique.md): read when preparing internal screening, client presentation or feedback sessions.
 - [Campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md): read when deciding campaign templates and headline/visual relationships.
+- [Creative effectiveness and pre-testing](references/creative-effectiveness-and-pretesting.md): read when choosing emotional or rational creative, placing distinctive assets early, deciding on a vendor pre-test or preparing the post-campaign review.
 - [Core method in brief](references/core-method-in-brief.md): read when you need the brief's core fields, the Lodestar and benefit rules, the East Africa adaptation or the worked scenario.
 - [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md): read when line-level copy is needed; [13-campaign-brief](../../pipeline/13-campaign-brief/SKILL.md): read when a production brief is needed.
 - [Creative review gate](../../../docs/quality-gates/creative-review-gate.md) and [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when concepts go to review or touch a regulated category.

@@ -98,6 +98,7 @@ Without the Brand Context Block or representative fixtures, return the narrowest
 | A prompting technique (prompt trail, multiple versions, chain-of-thought, iterative refinement) is proposed for production | Keep it only if a baseline comparison on representative fixtures shows a material benefit; ask for concise assumptions and checks rather than private chain-of-thought. | Ritual prompting with unmeasured cost. |
 | A platform, model, pricing, policy or performance claim lacks a current verified source | Remove it or label it `NOT_ASSESSED`. | Stale tool advice presented as fact. |
 | A prompt would generate a real person's likeness or voice | Stop until written consent is recorded. | Deepfake liability and reputational harm. |
+| A prompt produces image, video, voice or avatar output that will run as an ad or post | Add the disclosure line to the prompt record: threshold met or not under the risk-based table, label wording ("AI-generated", or "AI-generated voice" for audio) and C2PA status, per [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md#3-risk-based-disclosure-decision-table) (register `IAB-AI-DISCLOSURE-V2-2026`). | High-volume AI creative published without a labelling decision. |
 
 ## Quality Standards
 
@@ -126,6 +127,7 @@ Without the Brand Context Block or representative fixtures, return the narrowest
 - [Text prompt templates by task](references/text-prompt-templates-by-task.md): read when building caption, blog brief, email subject line, persona, platform selection, community response, report narrative or funnel-stage prompts, or showing the before/after comparison.
 - [Image prompt patterns](references/image-prompt-patterns.md): read when the library must include AI image prompts (eight-layer anatomy, negative prompts, platform syntax, cultural accuracy review).
 - [Image, audio and video prompt library](references/image-audio-video-prompt-library.md): read when the library must cover voice-over, podcast, avatar or personalised video, or music prompts and AI media disclosure.
+- [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md): read when deciding whether prompt output needs an AI label, and which platform label rules (Meta "AI info", TikTok) apply.
 - [Role prompt packs and engagement question banks](references/role-prompt-packs-and-engagement-questions.md): read when building prompts per job role or audience questions that invite replies.
 - [Team prompt operating system](references/team-prompt-operating-system.md): read when turning client prompts into managed team assets.
 - [`caption-writer`](../caption-writer/SKILL.md): read when the client wants finished captions rather than prompts.

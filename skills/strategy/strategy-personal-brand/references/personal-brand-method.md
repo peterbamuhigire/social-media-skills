@@ -121,7 +121,7 @@ Apply this quick reference to identify the correct platform priority and content
 | Client Type | Primary Platform | Secondary | Content Focus | Key Insight |
 |---|---|---|---|---|
 | Professional/Consultant | LinkedIn | WhatsApp Status | Expertise, case studies, opinion | Inbound leads from content; links go in comments, not post body |
-| Executive/Corporate Leader | LinkedIn | X/Twitter | Industry commentary, team culture, vision | Personal profile reaches 10× more than company page |
+| Executive/Corporate Leader | LinkedIn | X/Twitter | Industry commentary, team culture, vision | Personal profiles often out-reach the company page (the "10×" figure is unsourced, `NOT_ASSESSED`; compare the client's own analytics) |
 | Politician/Public Official | Facebook | WhatsApp Broadcast + X/Twitter | Policy made accessible, constituency work, vision | LinkedIn audience = journalists/NGOs/donors, not voters |
 | Performing Artist (music, acting) | TikTok/Instagram | YouTube | Creative process, personality, cultural identity | Target commercial buyers (event bookers, brands) on LinkedIn too |
 | Athlete/Sports Personality | Instagram | TikTok + YouTube | Training, behind-the-scenes, values, off-field story | Build brand *during* peak years; post-career leverage requires an audience built in advance |

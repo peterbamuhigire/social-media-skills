@@ -123,6 +123,6 @@ Output from this skill meets the standard if it:
 ## Related skills and sources
 
 - [`playbook-post-click-strategy` conversion diagnosis](../../../playbooks/playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md) — Detailed CRO methodology: 5-step optimisation process, A/B testing, KPI dashboards
-- [`ecommerce-brand-differentiation`](../../ecommerce-brand-differentiation/SKILL.md) — Full brand positioning framework: 7C Canvas, Soleness, Blue Ocean Strategy, naming, and community building
+- [`brand-strategy-and-distinctive-assets`](../../brand-strategy-and-distinctive-assets/SKILL.md) ([e-commerce differentiation](../../brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md)) — Full brand positioning framework: 7C Canvas, Soleness, Blue Ocean Strategy, naming, and community building
 
 **Key sources:** Larsson, T. (2016) *Ecommerce Evolved*; Harris, A. (2016) *Small Business Big Money Online*; Verma, N. (2019) *Checkout*; Kim, W.C. and Mauborgne, R. (2015) *Blue Ocean Strategy*.

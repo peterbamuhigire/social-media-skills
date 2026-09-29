@@ -33,7 +33,7 @@ Apply these conventions when generating captions. Do not blend conventions acros
 - Use line breaks between paragraphs — Instagram compresses unbroken text
 - Conversational or aspirational tone depending on the brand
 - Optimal length: 125–150 characters for maximum reach; up to 300 words for educational or storytelling content
-- Hashtags: 5–10, placed at the end of the caption or noted as suitable for first comment; mix niche, community, and 1–2 branded tags
+- Hashtags: up to 5, placed at the end of the caption; mix niche, community and 1 branded tag. Instagram allows at most five hashtags in a post or reel caption (@creators, 18 Dec 2025; register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`). Whether tags placed in a first comment count or help discovery is `NOT_ASSESSED`; do not use a first comment to exceed the cap
 - No more than 2 emojis in the hook line
 
 ### Facebook
@@ -125,8 +125,8 @@ For each caption request, output in this structure:
 [hashtag set]
 
 **NOTES FOR THIS POST:**
-- [Any platform-specific recommendation — e.g. "For Instagram, consider placing hashtags in the first comment to keep the caption clean"]
-- [Any timing recommendation if relevant — e.g. "Post between 7–9pm EAT for highest Facebook reach among Kampala audiences"]
+- [Any platform-specific recommendation — e.g. "For Instagram, keep to five hashtags or fewer at the end of the caption"]
+- [Any timing recommendation if relevant — e.g. "Post in the client's evening peak shown in Meta Business Suite insights; confirm the window from the account's own data, not a general rule"]
 - [Flag if the brief contained ambiguity — e.g. "CTA was not specified — assumed WhatsApp link. Confirm before scheduling."]
 
 ## Example Application (Uganda — Food and Beverage)

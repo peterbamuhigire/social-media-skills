@@ -83,6 +83,7 @@ Without an account baseline or approved cases, return the narrowest qualified re
 | The work is the organisation's Company Page, sub-pages or events | Apply [company pages, showcase and events](references/company-pages-showcase-and-events.md) and amplify through willing employees | Faceless page publishing and fragmented sub-pages |
 | The consultant has no approved client case studies | Use a clearly labelled educational diagnostic, explain its limits and link to a service page describing scope and acceptance | A demonstration turned into a claimed client win |
 | The client is an artist, creative or public figure | Show verified work, credits and commissioning scope, or accurate sourced public information within platform restrictions | Reusing consulting sales copy and assuming reach or endorsement rights |
+| The client judges LinkedIn only on this month's leads | Plan a broad-reach brand layer for the out-of-market majority beside lead generation (95:5, register `LINKEDIN-B2B-95-5`; see [long/short balance and reach](../../strategy/brand-strategy-and-distinctive-assets/references/long-short-balance-and-reach.md)) | Chasing the few in-market buyers while memory among the rest fades |
 | The pilot review shows weak results | Decide to continue, revise the proposition, improve the destination, reduce cadence or stop; diagnose before increasing volume | Publishing more into an unexplained failure |
 
 ## Quality Standards

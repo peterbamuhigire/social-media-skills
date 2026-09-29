@@ -106,6 +106,8 @@ Without the signed agreement's deliverables list, return the narrowest qualified
 
 - [Retainer operating procedures](references/retainer-operating-procedures.md): read when running intake, defining scope, handling scope creep or change requests, running check-ins, acting on triggers, preparing renewal or offboarding.
 - [Value-first renewal and relationship health](references/value-first-renewal-and-relationship-health.md): read before renewals, relationship resets, after a missed commitment, or when designing the client council.
+- [Remuneration models and evidence](../../business-development/biz-dev-pricing-menu/references/remuneration-models-evidence.md): read when a renewal changes how the agency is paid, or the client proposes payment by results.
+- [Commercial governance and contracts](../playbook-agency-operations/references/commercial-governance-and-contracts.md): read when the renewal changes contract terms, audit rights, media-buying transparency or the AI schedule.
 - [`biz-dev-proposal`](../../business-development/biz-dev-proposal/SKILL.md): read when defining scope at proposal stage or producing the revised renewal proposal.
 - [`playbook-agency-operations`](../playbook-agency-operations/SKILL.md): read when the issue is agency-wide process rather than one client.
 - [`playbook-daily-operations-routine`](../playbook-daily-operations-routine/SKILL.md): read when the fix is day-to-day execution discipline.

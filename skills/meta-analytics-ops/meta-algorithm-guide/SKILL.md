@@ -99,7 +99,7 @@ Without dated platform guidance or the client's native analytics, return the nar
 - Recommending posting times from global benchmark articles. Fix: read native analytics and run the 4-week test in [posting-time and frequency tests](references/posting-time-and-frequency-tests.md).
 - Stating a ranking signal as current from memory or an undated blog. Fix: cite a dated first-party source or label it unverified.
 - Engagement bait ("Like if you agree", "Tag 3 friends to win"). Fix: give the audience a genuine reason to comment, save or share.
-- Hashtag stuffing (30 tags on every post). Fix: stay within 3–5 on LinkedIn and up to 10 on Instagram, all relevant.
+- Hashtag stuffing (30 tags on every post). Fix: stay within 3–5 on LinkedIn and at most 5 on Instagram, the platform cap since 18 Dec 2025 (register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`), all relevant.
 - Posting and going offline straight away. Fix: respond to every comment within 30 minutes of posting.
 - Giving one "post X times a week" instruction across all channels. Fix: set frequency per platform at the level full quality can hold.
 - Publishing or scheduling on a live account during review. Fix: hand the guide and schedule over; posting needs separate authority.

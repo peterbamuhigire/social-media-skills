@@ -77,7 +77,7 @@ Instagram's algorithm operates separately across Feed, Reels, Stories, and Explo
 Instagram's algorithm evaluates a post's early performance in the first **30 minutes** after publication. High engagement in this window signals the algorithm to push the post to a wider audience. Low early engagement suppresses reach. Post when the target audience is most active (see Section 6).
 
 **Instagram-specific notes:**
-- Relevance, Recency, and Resonance (the "3 Rs") are Instagram's own published ranking criteria for Feed.
+- Relevance, Recency, and Resonance (the "3 Rs") are a textbook summary (Chaffey and Ellis-Chadwick, 2022), not criteria Instagram has been confirmed to publish; `NOT_ASSESSED` against Instagram's own ranking explanations, so present them as a planning lens only.
 - Reels between 15–30 seconds outperform longer formats for completion rate in bandwidth-constrained markets.
 - Carousels generate repeat views (users swipe back) — this dwell time signals quality.
 - Do not post a Reel and then post a static image within 2 hours — Instagram favours spacing posts to prevent self-competition.
@@ -96,7 +96,7 @@ TikTok uses the most transparent ranking model of the major platforms. Its prima
 6. **Follows from the video** — indicates the content converted a non-follower
 
 **TikTok distribution model:**
-TikTok shows every video to a small test cohort (typically 300–500 users). If completion rate exceeds threshold, it is shown to progressively larger cohorts. This means a new account with zero followers can achieve massive reach on a single video — follower count is not a gating factor.
+TikTok first shows a video to a small test audience (the cohort size is not published by TikTok; "300–500 users" figures in older guides are `NOT_ASSESSED`). If completion rate exceeds threshold, it is shown to progressively larger cohorts. This means a new account with zero followers can achieve massive reach on a single video — follower count is not a gating factor.
 
 **TikTok-specific notes:**
 - Keep videos under 45 seconds for EA audiences — data costs mean users rarely watch long-form TikTok on mobile data.
@@ -128,7 +128,7 @@ Organising videos into series playlists signals topical authority to YouTube's a
 - Thumbnails drive CTR — test two thumbnail variants where possible.
 - The first 30 seconds determine whether a viewer stays. Front-load the value.
 - Low-bandwidth EA audiences often watch YouTube on mobile data — keep videos under 10 minutes for educational content; longer only if the audience is Wi-Fi-dominant (corporate, campus).
-- Shorts (under 60 seconds) are ranked separately and drive channel discovery — use them to attract new subscribers who then watch long-form content.
+- Shorts (up to 3 minutes since 15 Oct 2024, per YouTube Help; register `YOUTUBE-SHORTS-LENGTH-2024`) are ranked separately and drive channel discovery — use them to attract new subscribers who then watch long-form content.
 - Consistent upload schedule (same day and time each week) trains YouTube's recommendation engine to push content at predicted release times.
 
 ### 2.5 LinkedIn
@@ -144,7 +144,7 @@ LinkedIn uses three layered graphs to rank content: the **identity graph** (who 
 | Dwell time | LinkedIn tracks how long users pause on a post |
 | Content format | Native posts > articles > documents > links > polls |
 | Hashtag relevance | Use 3–5 relevant hashtags — more than 5 suppresses reach |
-| Creator mode | Accounts with Creator Mode active get broader distribution |
+| Creator mode | Legacy claim that Creator Mode widens distribution: `NOT_ASSESSED` (LinkedIn help page not readable on 29 Sep 2026); do not advise it as a reach lever |
 | Native documents (PDFs) | Carousel-style document posts generate high dwell time |
 
 **LinkedIn-specific notes:**
@@ -229,7 +229,7 @@ X uses a ranked feed (For You) and a chronological feed (Following). The For You
 
 ### 6.2 Data Costs and Video Consumption
 
-Mobile data costs in Uganda remain a significant barrier to video consumption. 1 GB of data costs approximately UGX 3,000–5,000 on most networks (2026 rates).
+Mobile data costs in Uganda remain a significant barrier to video consumption. The retail price of 1 GB varies by network and bundle; the older "UGX 3,000–5,000 (2026 rates)" figure has no source and is `NOT_ASSESSED`, so quote current operator bundle prices on the planning date. Data also carries a 12% excise duty (register `UG-DATA-EXCISE`, partial).
 
 **Implications for content:**
 - Keep TikTok and Instagram Reels under 45 seconds — longer videos consume more data and are abandoned before completion, hurting the completion rate signal.
@@ -259,7 +259,7 @@ Avoid the following. Each behaviour either directly suppresses reach or trains t
 | Clickbait headlines | YouTube, X, LinkedIn | CTR drops when viewer does not stay — algorithm penalises mismatch |
 | Buying followers or likes | All | Inflates metrics without engagement; signals low-quality content to algorithm |
 | Posting in bursts then going silent | All | Inconsistency reduces algorithmic trust and scheduling priority |
-| Hashtag stuffing (30 tags on every post) | Instagram, LinkedIn | Instagram reduced hashtag weight significantly in 2024; LinkedIn caps effective reach above 5 tags |
+| Hashtag stuffing (30 tags on every post) | Instagram, LinkedIn | Instagram allows at most five hashtags in a post or reel caption (announced 18 Dec 2025, register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`); LinkedIn guidance of 3–5 tags is house practice, verify before stating |
 | Reposting competitors' viral content without adding value | TikTok, X | Flagged as low-effort duplication |
 | Ignoring comments | All | Non-response to comments signals low engagement depth; algorithm deprioritises |
 
@@ -284,7 +284,7 @@ Use this checklist before every post goes live. Adapt to platform as indicated.
 **Algorithm signals**
 - [ ] Is there a reason for the audience to comment, save, or share (not engagement bait)?
 - [ ] Are outbound links in the first comment, not the post body? (LinkedIn, Facebook, X)
-- [ ] Are hashtags relevant, specific, and within the platform limit (3–5 for LinkedIn, up to 10 for Instagram)?
+- [ ] Are hashtags relevant, specific, and within the platform limit (3–5 for LinkedIn; at most 5 for Instagram, register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`)?
 - [ ] Is the posting time within the platform's peak activity window for EAT? (see Section 6.1)
 
 **Penalised behaviours — confirm none are present**

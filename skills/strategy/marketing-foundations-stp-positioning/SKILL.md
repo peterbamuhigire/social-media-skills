@@ -25,7 +25,7 @@ Turn a client's business goal into the marketing decisions every channel, advert
 
 - `biz-dev-positioning` for the agency's own positioning statement or credentials, including an individual practitioner's practice.
 - `traction-channel-bullseye` for deciding which acquisition channels to test once positioning is agreed.
-- `ecommerce-brand-differentiation` for standing out as an online shop through naming, packaging and community.
+- `brand-strategy-and-distinctive-assets` for mental and physical availability, distinctive assets and standing out as an online shop ([e-commerce differentiation](../brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md)).
 - Stop when customer evidence or decision authority is absent and cannot be obtained; return the intake gap. Full business-plan documents go to business-plan-skills.
 
 ## Required Inputs

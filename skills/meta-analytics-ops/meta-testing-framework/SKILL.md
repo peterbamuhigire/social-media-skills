@@ -45,7 +45,7 @@ The intake list is in [testing method](references/testing-method.md) § Required
 1. Confirm the intake and name the audience problem and the decision the test informs; stop and route to `ad-testing-and-scaling`, `meta-algorithm-guide` or `advertising-attribution-and-measurement` when the request is scaling live ads, posting-time reference or incrementality.
 2. Apply the practical-significance filter: if a realistic positive result cannot move COCA by a meaningful margin, deprioritise the test (Bodnar and Cohen, 2012).
 3. Pick the element by priority (hook, format, CTA, audience, posting time, caption length, hashtags) and change one variable only.
-4. Fill Template A, B or C with hypothesis, control, variant, budget split, duration, primary metric, guardrails and a numeric decision rule before launch.
+4. Fill Template A, B or C with hypothesis, control, variant, budget split, duration, primary metric, guardrails and a numeric decision rule before launch; for a decision-grade test or a lifecycle holdout, pre-register it, size it by minimum detectable effect and power, and plan the sample-ratio-mismatch check with [trustworthy experiments](references/trustworthy-experiments-srm-power-holdouts.md).
 5. Check each variant on mobile (legible without expanding, thumb-reachable CTA, watchable with sound off) and for audience empathy, accessibility and cultural fit before any performance reading.
 6. Run for 7 days to 4 weeks without stopping early or editing the creative; if the client asks for an edit, stop the test, record it inconclusive and restart.
 7. Read the results against the sample thresholds and confidence rule, log every test (including inconclusive ones) in the tracking sheet with anomalies in Notes, and correct distorted rounds by rerunning outside blackout periods.
@@ -131,6 +131,7 @@ Without a baseline and access to platform results, return the narrowest qualifie
 ## References
 
 - [Testing method](references/testing-method.md): read when applying the principles, choosing what to test, filling a template, keeping the tracking sheet, reading results, building the calendar or adapting to EA budgets and small accounts.
+- [Trustworthy experiments](references/trustworthy-experiments-srm-power-holdouts.md): read when pre-registering a test, setting MDE and power, checking sample-ratio mismatch, setting stopping rules or designing a lifecycle holdout.
 - [Kaizen campaign learning loop](references/kaizen-campaign-learning-loop.md): read when closing a test and setting the next baseline.
 - [Narrative, audience empathy, and content quality audit](../meta-content-audit/references/narrative-empathy-and-content-quality.md): read when checking variants before performance interpretation.
 - [`meta-algorithm-guide`](../meta-algorithm-guide/SKILL.md): read for posting-time and frequency tests and the ranking reference.

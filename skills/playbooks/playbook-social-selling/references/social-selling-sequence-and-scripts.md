@@ -116,7 +116,7 @@ Use this sequence as a repeating content arc — one full cycle every 2–4 week
 - Pose a yes/no question: "Have you ever [experienced the problem]? Yes or No below."
 - Use the "would you like to know more?" pivot: end an educational post with "If you want to go deeper on this, comment below and I will share more."
 
-**Why this works:** Soft CTAs generate comments and DMs, which boost algorithmic reach, AND they surface warm prospects who self-identify as having the problem. A single "Comment 'CHECKLIST'" post can generate 20–40 DMs from a modest following.
+**Why this works:** Soft CTAs generate comments and DMs, which boost algorithmic reach, AND they surface warm prospects who self-identify as having the problem. A single "Comment 'CHECKLIST'" post can generate a burst of DMs (the source's "20–40 from a modest following" is unsourced and `NOT_ASSESSED`).
 
 **Follow up every response.** Every comment, every poll response, every DM is a potential client. Assign someone to respond to all engagement within 4 hours during business hours.
 
@@ -255,7 +255,7 @@ Treat them as information about what the content, proof, or offer still has not 
 
 ## 7. Conversion Rate Benchmarks
 
-Set realistic expectations with clients before the playbook is deployed.
+Set realistic expectations with clients before the playbook is deployed. The table below is an undated engine heuristic with no source or register record (`NOT_ASSESSED`); present it as a planning range, never a promise, and replace it with the client's own enquiry log after two months.
 
 | Follower Count | Expected Monthly Enquiries (Organic) | Time to First Social Sale |
 |---|---|---|

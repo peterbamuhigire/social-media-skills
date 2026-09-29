@@ -184,7 +184,18 @@ Include these in every podcast strategy for a Ugandan or East African client:
 - **Language:** English is the primary language for Uganda's professional podcast audience. Consider one Luganda-language episode per quarter to extend reach to a wider local audience and signal cultural authenticity; apply [east-african-english](../../../language/east-african-english/SKILL.md) to English scripts and show notes.
 - **Power reliability:** keep recording sessions to 60 minutes or less. Power fluctuations and outages in Uganda can interrupt recordings; recommend a UPS (uninterruptible power supply) or a battery-powered recording set-up for clients recording in home offices.
 - **Platform priority:** prioritise Spotify distribution and link sharing in all promotions; Apple Podcasts penetration in Uganda is low. WhatsApp remains the most reliable channel for episode distribution to existing contacts.
-- **Audience-size expectations:** podcast audiences in Uganda are growing but remain smaller than social media audiences. A successful Ugandan podcast with a professional target audience may reach 200–1,000 downloads per episode within the first year — a strong outcome in this market. Frame success around authority, content assets and lead quality, not raw download numbers.
+- **Audience-size expectations:** podcast audiences in Uganda are growing but remain smaller than social media audiences. Treat any download expectation for a Ugandan professional podcast (house estimate: 200–1,000 per episode in the first year) as an unsourced planning assumption, `NOT_ASSESSED` (no register record); set the client's own baseline from its first eight episodes. Frame success around authority, content assets and lead quality, not raw download numbers.
+
+## Procedure 8 — Measurement (downloads, listeners and outcomes)
+
+Podcast numbers are only comparable when they are counted the same way. The industry reference is the IAB Tech Lab *Podcast Measurement Technical Guidelines* v2.2 (register `IAB-TECHLAB-PODCAST-2-2`; primary PDF read 29 Sep 2026). In the engine's words, the guidelines filter raw file requests before counting a download: repeat requests from the same source are de-duplicated within a 24-hour window, invalid and automated traffic is removed, and log data such as status codes, bytes served, referrer and user agent are used to decide what counts. A host may claim compliance only after IAB Tech Lab certification and listing on the Tech Lab website.
+
+1. Ask the hosting provider in writing whether its download figures are IAB Tech Lab certified for v2.2, and check the Tech Lab compliance list. Record the answer; if not certified, label all download figures "host-reported, not certified".
+2. Report downloads per episode at fixed ages (for example 7 and 30 days after release) so episodes are compared like with like; never add up figures from different hosts or counting methods.
+3. Report listening depth from the platforms' own creator dashboards (Spotify, Apple Podcasts, YouTube Studio for video episodes) as platform-reported and not comparable across platforms.
+4. Treat downloads as delivery (rung 1 of the ladder in [effectiveness-ladder review](../../../meta-analytics-ops/meta-reporting/references/effectiveness-ladder-review.md)); report the outcomes the show exists for: enquiries mentioning the show, WhatsApp community joins, guest-referred leads, speaking invitations, a unique episode code or link.
+5. For sponsored episodes, give sponsors certified downloads where available, the episode-age basis, and any promo-code or link results; never quote an unverified audience size.
+6. Radio is often the larger audio channel in Uganda; plan radio in `media-planning` and do not borrow podcast download figures to describe radio reach.
 
 ## Checklist — release criteria
 
@@ -195,6 +206,7 @@ Include these in every podcast strategy for a Ugandan or East African client:
 - [ ] The social content multiplication plan is a table, with platforms and notes adapted to the client's active channels.
 - [ ] The EA data-cost barrier is addressed: "download on Wi-Fi" guidance and Spotify-first distribution.
 - [ ] At least 5 growth tactics are selected and adapted to the client's industry and audience, not copied verbatim.
+- [ ] Download figures state whether the host is IAB Tech Lab certified and the episode age; outcomes beyond downloads are named.
 - [ ] Guest consent and recording-release controls are in place for interview and panel formats; publication waits for client approval.
 
 ## Related skills
@@ -210,3 +222,4 @@ Include these in every podcast strategy for a Ugandan or East African client:
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley. [POEM model; ROI formula]
 - Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. [RACE framework; owned media strategy]
+- IAB Tech Lab (2024) *Podcast Measurement Technical Guidelines* v2.2, register `IAB-TECHLAB-PODCAST-2-2`. [Download counting, filtering and certification]

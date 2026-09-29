@@ -82,6 +82,7 @@ Without the client's payment and fulfilment set-up, return the narrowest qualifi
 | The sale can be completed or handed off from social channels | Design the order-to-payment workflow before scaling content | Demand generation overwhelms an informal order process |
 | Sales start in Instagram DMs for a service or consultant offer | Script the 5-stage DM sequence and WhatsApp move per [DM conversation selling](references/dm-conversation-selling.md) | Unscripted, pushy or automated DMs that lose warm prospects |
 | The client wants Facebook Shop or Instagram Shopping checkout, or TikTok Shop, in Uganda | Present Shop and Shopping as a catalogue and price list, route purchases to WhatsApp, and do not set up TikTok Shop (not available in Uganda as of 2026) | Promising a checkout that does not exist |
+| Click-to-WhatsApp ads feed the WhatsApp order flow on the Business Platform (API) | Reply inside the 24-hour window so the free entry point window opens (up to 7 days, all messages free; ad-originated chats on the Android or iOS app only), and close the order within it (register `WHATSAPP-PRICING-2025`) | Paying for follow-ups the ad entry made free, or losing the lead after the window |
 | A first-time or unknown customer asks for cash on delivery | Decline; reserve cash on delivery for trusted repeat customers or orders below UGX 50,000 | Non-collection losses |
 | Orders exceed 20 per day | Move from the Google Sheet to an order management tool | Missed deliveries and payment disputes |
 | Annual turnover approaches UGX 150 million | Flag VAT registration with the Uganda Revenue Authority and recommend receipt-generating payment links | Tax non-compliance |
@@ -107,16 +108,17 @@ Without the client's payment and fulfilment set-up, return the narrowest qualifi
 - Deceptive scarcity ("Only 5 left" when stock is plentiful). Fix: post accurate stock counts only.
 - Spreading content and paid spend evenly across the range. Fix: concentrate on the top 20% of products that earn 80% of revenue.
 - Ignoring scam fears among Ugandan buyers. Fix: build trust signals: a verified Page, a Google Business Profile, visible testimonials and a consistent posting history.
-- Competing on price alone. Fix: choose a brand intangible and write a Soleness statement; route the full work to `ecommerce-brand-differentiation`.
+- Competing on price alone. Fix: choose a brand intangible and write a Soleness statement; route the full work to `brand-strategy-and-distinctive-assets`.
 
 ## References
 
 - [Social shop set-up and operations](references/social-shop-setup-and-operations.md): read when running the intake, setting up platform commerce, choosing payment methods, writing the order and payment workflow, planning commerce content, building the order tracker or applying EA delivery, VAT and trust rules.
 - [Pricing, conversion and differentiation](references/pricing-conversion-and-differentiation.md): read when setting prices, choosing products, matching traffic temperature and buyer modality, reducing friction, segmenting buyers or choosing a point of difference.
 - [DM conversation selling](references/dm-conversation-selling.md): read when prospects arrive through Instagram DMs and must be qualified and moved to WhatsApp to close.
-- [`platform-whatsapp`](../../platforms/platform-whatsapp/SKILL.md): read when configuring the WhatsApp Business catalogue, broadcasts and auto-replies.
+- [Commerce media and marketplaces](references/commerce-media-and-marketplaces.md): read when selling or advertising on Jumia, Jiji or a retail media network, checking vendor-reported sales against IAB/MRC retail-media guidelines and incrementality, sizing mobile-money checkout, or screening a payments-licence question.
+- [`platform-whatsapp`](../../platforms/platform-whatsapp/SKILL.md): read when configuring the WhatsApp Business catalogue, broadcasts and auto-replies; its [Platform pricing and templates](../../platforms/platform-whatsapp/references/whatsapp-platform-pricing-and-templates.md) reference: read when costing API messages or the click-to-WhatsApp free entry point window.
 - [`playbook-post-click-strategy`](../../playbooks/playbook-post-click-strategy/SKILL.md): read when visitors drop off between the click and the order.
-- [`ecommerce-brand-differentiation`](../ecommerce-brand-differentiation/SKILL.md): read when the shop needs full positioning, naming, packaging and community work.
+- [`brand-strategy-and-distinctive-assets`](../brand-strategy-and-distinctive-assets/SKILL.md): read when the shop needs full positioning, naming, packaging and community work (e-commerce content in its [e-commerce differentiation](../brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md) reference).
 - [`east-african-english`](../../language/east-african-english/SKILL.md): read when writing catalogue descriptions, WhatsApp templates and CTA copy.
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting posts, scripts and catalogue copy.
 <!-- dual-compat-end -->

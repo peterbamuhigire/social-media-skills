@@ -19,13 +19,13 @@ Ask the client for the following before generating any deliverable:
 
 ## Section 1 — Why Healthcare Social Media Demands a Different Approach
 
-The stakes of healthcare communication are uniquely high: misinformation about medications, vaccines, and treatments can cause direct patient harm. In East Africa, smartphone penetration is growing rapidly, and 80% of internet users search online for health information (Stukus et al., 2019). Most will encounter social media before they reach a clinic.
+The stakes of healthcare communication are uniquely high: misinformation about medications, vaccines, and treatments can cause direct patient harm. In East Africa, smartphone penetration is growing rapidly, and many internet users search online for health information (the "80%" figure in Stukus et al., 2019, is a US figure and `NOT_ASSESSED` for East Africa). Most will encounter social media before they reach a clinic.
 
 Three structural forces make healthcare social media different from every other sector:
 
 **The Illusory Truth Effect** — Repeated exposure to false information increases perceived credibility regardless of accuracy (Stukus et al., 2019). Vaccine misinformation shared frequently will be believed even after clinical correction. Proactive, credible, regular content is the only effective counter-measure.
 
-**The Health Literacy Gap** — Only 12% of US adults are health-literate; the figure is substantially lower across EA. Communication that assumes medical knowledge will fail. Every post must pass a plain-language test: "Can a standard Form 4 student understand this?"
+**The Health Literacy Gap** — Assume low health literacy (no dated East African figure was found; the often-quoted "12% of US adults" is a US survey figure, `NOT_ASSESSED` here and not transferable to EA). Communication that assumes medical knowledge will fail. Every post must pass a plain-language test: "Can a standard Form 4 student understand this?"
 
 **The Absent Voice Problem** — Patients are already building health communities online whether healthcare professionals participate or not (Stukus et al., 2019; Rogers, 2011). Absence does not mean privacy — it means the professional's voice is replaced by unverified sources.
 
@@ -74,7 +74,7 @@ Apply Rogers' (2011) five customer network strategies — **Access, Engage, Cust
 - Think like a public health educator, not an advertiser: content must inform, not sell
 - Use digital storytelling: map clinical information to reporter questions (Who? What? When? Why? How?) to explain conditions, treatments, and prevention in narrative form (Stukus et al., 2019)
 - Apply the **5-second rule**: a post must communicate its value to a new reader within 5 seconds
-- Healthcare video content receives 1,200% more shares than text and image combined (Stukus et al., 2019) — prioritise short explainer videos (60–90 seconds) on WhatsApp Status and YouTube
+- Prioritise short explainer videos (60–90 seconds) on WhatsApp Status and YouTube; the "1,200% more shares" figure attributed to Stukus et al. (2019) is doubtful and `NOT_ASSESSED`, so do not quote it
 
 **CUSTOMISE — Serve Different Patient Needs**
 - Segment content by condition, demographic, and language (English + Luganda or Swahili for broad public health content)
@@ -112,7 +112,7 @@ Apply Rogers' (2011) five customer network strategies — **Access, Engage, Cust
 
 **X/Twitter — Individual medical professionals and public health advocacy**
 - Ideal for building professional credibility, engaging with medical peers, and advocating on health policy
-- Use conference hashtags to extend reach — hashtags double engagement on X/Twitter (Stukus et al., 2019)
+- Use conference hashtags to extend reach (the "hashtags double engagement" claim attributed to Stukus et al., 2019, is `NOT_ASSESSED`)
 - Time management: maximum 60 minutes per day split across 3–4 sessions
 - Always assume any post is "on the record" — equivalent to speaking to a journalist
 
@@ -150,7 +150,7 @@ Only share third-party health content that meets all 5 criteria:
 - Uses fear or emotional manipulation rather than evidence
 - Cannot be verified in 30 seconds via PubMed, WHO, or MOH Uganda website
 
-**Content Calendar**: Planning 2+ weeks in advance and aligning with national health days (World Health Day, World Malaria Day, World AIDS Day, World Mental Health Day) increases content effectiveness by 60% compared with ad hoc posting (Stukus et al., 2019).
+**Content Calendar**: Planning 2+ weeks in advance and aligning with national health days (World Health Day, World Malaria Day, World AIDS Day, World Mental Health Day) usually beats ad hoc posting (the "60% more effective" figure attributed to Stukus et al., 2019, is `NOT_ASSESSED`).
 
 
 ## Sources

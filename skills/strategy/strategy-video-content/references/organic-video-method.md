@@ -89,7 +89,7 @@ Apply the WILMA test to the script before filming, not after editing. Emotional 
 | **Description** | First 200 characters appear in search results — lead with keywords, then the value proposition |
 | **Posting cadence** | 1× per week minimum for growth; 2× per week if production capacity allows |
 
-**Shorts (under 60 seconds):**
+**Shorts (up to three minutes since 15 Oct 2024; register YOUTUBE-SHORTS-LENGTH-2024):**
 Shorts have a separate algorithm. Post Shorts in addition to long-form — they do not cannibalise long-form views. Repurpose the strongest 45–60 second clip from each long-form video as a Short.
 
 ### Facebook Video

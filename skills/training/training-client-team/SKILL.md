@@ -106,6 +106,7 @@ Without confirmed approver contacts and the approved strategy, return the narrow
 - [handover-workbook-modules.md](references/handover-workbook-modules.md): read when running the workshop intake or writing the cover page, Modules 1–7, the reporting template and the exercises.
 - [diy-content-handbook.md](references/diy-content-handbook.md): read when the client will create and publish content without the consultant after handover (Canva, CapCut, calendar, captions, boosting, analytics, when to call the consultant).
 - [`training-smartphone-video-production`](../training-smartphone-video-production/SKILL.md): read when staff need a full phone filming and editing session beyond Module 3.
+- [Certification and competency register](../../playbooks/playbook-agency-operations/references/certification-and-competency-register.md): read when client staff should follow the workshop with free Meta or Google certifications, or the agency records their completion.
 - [`playbook-social-media-policy`](../../playbooks/playbook-social-media-policy/SKILL.md): read when the posting rules must become a formal governance policy.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting module copy and acknowledgement messages.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read when scoring the finished workbook or handbook before release.

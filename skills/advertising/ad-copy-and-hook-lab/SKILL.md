@@ -85,6 +85,7 @@ Without verified offer facts, proof or current specs, return the narrowest quali
 | Pun or clever line without a benefit | Test it only against a plain benefit line; never ship it untested | Lower response from a line nobody understands |
 | Scarcity, deadline or "new" not literally true | Remove it | Consumer-protection breach and lost trust |
 | Testimonial lacks consent or attribution | Do not use it; never put quotation marks around your own words | Misleading endorsement |
+| Video ad script or AI-generated variants in the set | Run the ABCD check and the AI provenance and disclosure rule in [ABCD video craft and AI volume](references/abcd-video-craft-and-ai-volume.md) | Late branding, no call to action, or undisclosed synthetic creative |
 | Premium or corporate audience | Keep the structure; drop hype register (capitals, triple exclamation marks, "get rich") | Damaging premium positioning |
 
 ## Quality Standards
@@ -109,7 +110,9 @@ Without verified offer facts, proof or current specs, return the narrowest quali
 ## References
 
 - [Headline and hook families](references/headline-and-hook-families.md): read when running a headline sprint or building a hook bank.
+- [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md): read when generated variants include synthetic people, voices or realistic scenes that may need a label (§3, §6).
 - [Offer, proof and guarantee kit](references/offer-proof-and-guarantee-kit.md): read when the offer or proof is weak, before any copy.
+- [ABCD video craft and AI volume](references/abcd-video-craft-and-ai-volume.md): read when writing video hooks and end cards, or producing many variants with AI tools.
 - [Format copy fitting](references/format-copy-fitting.md): read when fitting copy to search, social, radio, OOH and WhatsApp formats.
 - [Craft notes and sources](references/craft-notes-and-sources.md): read when matching the opening to awareness, writing longer primary text or radio scripts, adjusting to a premium register or adapting for East Africa.
 - [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md): read when screening every candidate line (mandatory screen).

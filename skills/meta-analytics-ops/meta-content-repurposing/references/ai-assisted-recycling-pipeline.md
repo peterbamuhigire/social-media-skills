@@ -54,7 +54,7 @@ Extract the most surprising or counterintuitive insight from this article. Write
 **Asset 2 — Instagram caption (50–80 words plus hashtags)**
 
 ```
-Write an Instagram caption based on this article. Start with an emotional hook (not a question). Keep it under 80 words. Add 10 relevant hashtags at the end — a mix of branded, niche, and community tags for [industry] in Uganda.
+Write an Instagram caption based on this article. Start with an emotional hook (not a question). Keep it under 80 words. Add up to 5 relevant hashtags at the end — a mix of branded, niche, and community tags for [industry] in Uganda.
 ```
 
 **Asset 3 — LinkedIn post (150–200 words)**
@@ -127,7 +127,7 @@ These are practical working limits for the pipeline, not platform maxima; verify
 - [ ] Does the tone match the client's brand voice?
 - [ ] Is there a local Uganda/East Africa reference or example where appropriate?
 - [ ] Has it been read aloud (for spoken-word assets: TikTok, WhatsApp, podcast)?
-- [ ] Are hashtags relevant and not overused?
+- [ ] Are hashtags relevant and not overused (Instagram: at most 5 per post or reel caption, register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`)?
 - [ ] Has a human reviewed and approved it — never published directly from AI output?
 - [ ] Has it passed the repository [`anti-ai-slop`](../../../ai-marketing/anti-ai-slop/SKILL.md) ship gate? A blocking factual, cultural, safety or permission defect stops release.
 

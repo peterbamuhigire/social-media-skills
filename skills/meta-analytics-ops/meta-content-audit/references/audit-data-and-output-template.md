@@ -71,7 +71,7 @@ For each platform in scope, produce the following summary table:
 | Highest single engagement rate | |
 | Lowest single engagement rate | |
 
-**Benchmark guidance for Uganda / East Africa:**
+**Benchmark guidance for Uganda / East Africa** (engine house heuristics: no source, no date and no register record; `NOT_ASSESSED` as market benchmarks. Use them only to screen when the client has no baseline, say so in the audit, and prefer the client's own trailing average):
 - Facebook: 1–3% engagement rate is average; above 3% is strong
 - Instagram: 2–4% is average; above 5% is strong
 - LinkedIn: 0.5–2% is average; above 2% is strong

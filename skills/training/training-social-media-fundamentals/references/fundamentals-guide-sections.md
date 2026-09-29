@@ -87,7 +87,7 @@ Uganda's digital landscape has changed dramatically in the past five years. Your
 
 **The numbers**
 
-- Facebook: approximately 3.2 million users in Uganda — the largest social platform in the country, used across all income levels and age groups
+- Facebook: a large Ugandan audience across income levels and age groups; the older "3.2 million users" figure is undated and `NOT_ASSESSED` (DataReportal ad-reach, register `DATAREPORTAL-UG-KE-2026`, was measured while Facebook was blocked, so treat it as a floor). Access has been unstable: check it on the training date (register `UG-FACEBOOK-ACCESS-2026`)
 - WhatsApp: the dominant messaging channel in East Africa (state no percentage; check the client's own audience data, register WA-01, 2026-09-24) — the primary channel for direct customer communication
 - Instagram: growing fast among urban Ugandans aged 18–35, particularly in Kampala, Jinja, and Mbarara
 - TikTok: rapidly expanding among 16–30-year-olds, with entertainment-first content driving high engagement

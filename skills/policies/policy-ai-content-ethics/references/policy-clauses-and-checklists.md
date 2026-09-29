@@ -48,9 +48,11 @@ Add to the policy's risk register or prohibited uses:
 ## Section 2E — EU AI Act Cross-Border Compliance Note
 
 For international clients, donor organisations, or any client producing content for European audiences, add the following cross-border compliance note:
-**EU AI Act obligations relevant to AI-assisted content production** (article numbers below follow a draft text and must be verified; see the numbering note in [ai-ip-and-copyright-policy](ai-ip-and-copyright-policy.md) — in Regulation (EU) 2024/1689 the transparency duty is Article 50):
-- **Article 4 — Labelling obligation:** AI-generated content distributed to EU audiences must carry appropriate labelling identifying it as AI-generated where this is not obvious to the recipient.
-- **Article 28b(4) — Human oversight mandate:** High-risk AI systems must include human oversight provisions. For content production, this means documented human review and approval before publication.
+**EU AI Act obligations relevant to AI-assisted content production** (corrected 29 Sep 2026: the transparency duties are in Article 50 of Regulation (EU) 2024/1689, applying from 2 Aug 2026, per the European Commission Article 50 FAQ, register `EU-AI-ACT-ART50-FAQ`; the draft "Article 4" and "Article 28b(4)" numbering used by the original source is withdrawn):
+- **Article 50(4), deepfakes:** AI-generated or manipulated images, audio or video that resemble real people, places or events and would falsely appear authentic must be disclosed clearly at first exposure; machine-readable marking alone is not enough.
+- **Article 50(4), public-interest text:** AI-generated text published to inform the public on matters of public interest must be labelled unless it has passed human review or editorial control by a person with authority over publication.
+- **Human oversight:** keep the named-reviewer rule as the agency standard (ICC Code 2024 accountability, register `PREMIUM-ICC-2026`).
+- Apply the risk-based disclosure table in [AI transparency and provenance](ai-transparency-and-provenance.md#3-risk-based-disclosure-decision-table) for everything else.
 
 This note applies when: the client distributes content to EU audiences; the client receives EU donor funding with content compliance requirements; or the client operates a cross-border business with EU-facing channels. For legal certainty in EU-facing contexts, obtain advice from a qualified solicitor familiar with the EU AI Act.
 
@@ -187,7 +189,7 @@ Consult the following skills where relevant:
   communication standards that AI tools must be briefed against before
   drafting client content.
 **Key citations used in this skill:**
-- Ching, V. and Mothi, D. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act Articles 4 and 28b(4).
+- Ching, V. and Mothi, D. (2025) — AI attribution/disclosure standard; IP and copyright guidance; SynthID watermarking; training data bias risk; EU AI Act (source cited draft Articles 4 and 28b(4); corrected to Article 50, see [AI transparency and provenance](ai-transparency-and-provenance.md)).
 - Johnsen, R. (2024) *AI Ethics in Practice*
 - Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing* (verify: not found in publisher or library catalogues, 29 Sep 2026)
 - Schaefer, M. (2025) *Belonging to the Brand*

@@ -54,7 +54,7 @@ Turns genuine news into earned coverage in newspapers, radio, TV and AI answers,
 | Publicity kit | Journalists | All eight components at the stated lengths, delivered as one PDF or folder. |
 | Query letter and media target list | Client PR lead | One printed page with a genuine hook; named outlets or outlet types for the sector and geography. |
 | 12-month publicity calendar | Client owner | Names real, specific news moments with lead times; two or three per quarter at least. |
-| Earned media tracking log and monthly review | Client owner | Earned impressions and share of voice calculated with sources; AVE shown only as context. |
+| Earned media tracking log and monthly review | Client owner | Earned impressions and share of voice calculated with sources; outcomes per the evaluation plan; no AVE. |
 
 ## Evidence Produced
 
@@ -81,7 +81,7 @@ Without verified facts and a signed-off spokesperson, return the narrowest quali
 | A story is major | Offer one outlet a 48–72-hour exclusive. | Losing the best placement to a scattered send. |
 | A journalist is on deadline | Answer immediately; otherwise follow up once by phone about 48 hours after sending. | Lost coverage, or pestering. |
 | The target is print | Allow three to four weeks' lead time. | Missing the edition. |
-| Reporting results | Report earned impressions and share of voice; show advertising value equivalent only as context, never as an outcome. | Inflated, misleading results. |
+| Reporting results or setting PR objectives | Build the evaluation plan and report outputs, outtakes, outcomes and impact per [PR evaluation](references/pr-evaluation.md) (Barcelona Principles 4.0, AMEC Integrated Evaluation Framework); never report an advertising value equivalent. | Inflated, misleading results. |
 
 ## Quality Standards
 
@@ -108,6 +108,7 @@ Without verified facts and a signed-off spokesperson, return the narrowest quali
 - [Publicity kit and release method](references/publicity-kit-and-release-method.md): read when filtering news, writing the release, building the kit, writing the query letter, using the media-relations checklist, the calendar or the tracking formulas, or citing Hahn (2003), Edwards, Edwards and Douglas (1991) or Pinskey (1997).
 - [Newsjacking and AI citation](references/newsjacking-and-ai-citation.md): read when responding to breaking news with expert commentary, alerts, GEO checks and a trigger calendar.
 - [PR media integration](references/pr-media-integration.md): read when building a Ugandan media list, pitching by email or WhatsApp, amplifying coverage or keeping a media contacts log.
+- [PR evaluation](references/pr-evaluation.md): read when setting PR objectives, building the evaluation plan, writing the monthly earned-media review or answering a request for AVE.
 - [`playbook-crisis-communications`](../playbook-crisis-communications/SKILL.md): read when coverage turns hostile.
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before sending a release that makes firsts, data or regulated claims.
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting releases, pitches and opinion pieces.

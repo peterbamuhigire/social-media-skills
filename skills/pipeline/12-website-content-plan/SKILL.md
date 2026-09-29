@@ -77,7 +77,7 @@ Without approved personas or access to the current website, return the narrowest
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | The site fails Priorities 1, 2 or 7 | Brief the client on the fixes first; do not drive traffic to it. | Content spend lost to a site that does not convert. |
-| The site loads in more than 3 seconds | Flag speed as a prerequisite action (40% of visitors abandon beyond 3 seconds per Sheridan, 2019). | High traffic plus high bounce giving low return. |
+| The site fails Core Web Vitals "good" (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1 at the 75th percentile; register `WEBDEV-CORE-WEB-VITALS`) or feels slow on a mid-range phone | Flag speed as a prerequisite action and hand the fix to the web team via [website-skills](https://github.com/peterbamuhigire/website-skills). | High traffic plus high bounce giving low return. |
 | The site does not address all Big 5 categories | Prioritise articles filling those gaps before other blog content. | Buyers leaving with unanswered pre-contact questions. |
 | Topics must come from real customer questions (FAQ library, Big 5, sales-call objections) | Run the monthly harvest, clustering and Big 5 scoring in [buyer-question-content-plan](references/buyer-question-content-plan.md) before writing briefs. | Briefs built on what the business wants to say rather than what buyers ask. |
 | One topic area would exceed 40% of articles | Redistribute, or record the specific justification. | A plan clustered on one topic. |

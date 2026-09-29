@@ -34,7 +34,9 @@ Lifetime value logic (Stutts (2021) *The Undefeated Marketing System*, Lioncrest
 | Geo test | Matched areas: ads on vs off (or high vs low weight) | Offline, WhatsApp or radio sales | Match areas on history; seasonality |
 | Platform lift study | Platform randomises exposure and measures lift | Available and eligible for the account | Check current availability and thresholds |
 | Time-series read | Compare against a baseline period | No other option | Weakest evidence; label it |
-| Marketing-mix model (MMM-lite) | Regression of weekly sales on spend by channel, price, season | Two or more years of weekly data | Needs clean paid, owned and earned series; open-source tools exist — check current versions |
+| Marketing-mix model | Model of weekly sales on spend by channel, price, season | Two or more years of weekly data | Route to [marketing-mix-modelling](../../marketing-mix-modelling/SKILL.md) for Meridian or Robyn, data readiness and calibration |
+
+For power analysis, market selection and the IAB causal-strength ladder, see [geo power and incrementality hierarchy](geo-power-and-incrementality-hierarchy.md).
 
 Pre-register: hypothesis, test and control, duration, primary metric, guard-rail metric, line in the sand and action if hit or missed (Croll and Yoskovitz (2013) *Lean Analytics*, O'Reilly).
 

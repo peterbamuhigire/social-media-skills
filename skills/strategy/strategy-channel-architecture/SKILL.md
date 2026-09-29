@@ -93,7 +93,7 @@ Without the client's active-account list and weekly production hours, return the
 | The named website hub has not been updated in six months or has no clear call to action | Recommend WhatsApp Business or a landing page as the hub and note the reason | Sending traffic to a dead end |
 | The client is on more platforms than there are roles | Deprioritise some platforms to Minimal effort | Two roles on one platform, or none done well |
 | More than three platforms are proposed at High or Medium effort | Cut to three and move the rest to Low or Minimal | Nothing remarkable on any platform |
-| The primary audience is 16–30 in Uganda | Make TikTok the lead discovery platform | Missing the fastest-growing discovery channel for that audience |
+| The primary audience is 16–30 in Uganda | Test TikTok as the lead discovery platform (growth ranking `NOT_ASSESSED`) | Missing a leading discovery channel for that audience |
 | The client cannot commit to one YouTube video a week, or targets retail consumers on X/Twitter | Do not make YouTube or X a priority platform unless the commitment or audience data supports it | Effort on channels that cannot grow |
 | Content is about to be cross-posted unchanged | Adapt format and copy per platform from one pillar piece | Identical posts that ignore each platform's norms |
 

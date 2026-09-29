@@ -58,7 +58,7 @@ Tier tables, benchmarks, formulas, report contents, the SMART structure and the 
 - SOV = Brand Mentions ÷ Total Market Mentions (brand + all tracked competitors) × 100.
 - NSS = (Positive Mentions − Negative Mentions) ÷ Total Mentions × 100; full method in `meta-social-listening`.
 - ROI = (TLV − COCA) ÷ COCA (Bodnar and Cohen, 2012) for board reporting.
-- Strong ER for EA SMEs: Facebook 2–5%, Instagram 3–6%, TikTok 5–10%, LinkedIn 1–3% (company pages).
+- Strong ER for EA SMEs: Facebook 2–5%, Instagram 3–6%, TikTok 5–10%, LinkedIn 1–3% (company pages); undated house heuristics with no register record, used only as a screen when no client baseline exists.
 - Funnel CVR benchmarks (Kahan, 2022): visitor-to-lead >5%, inquiry-to-lead ~3%, lead-to-opportunity ~25%, opportunity-to-deal ~40%.
 
 ## Outputs

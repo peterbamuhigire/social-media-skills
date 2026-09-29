@@ -212,7 +212,7 @@ SMS reaches non-smartphone users, delivers to any mobile number, and achieves 90
 
 | Metric | How to measure | Target |
 |---|---|---|
-| Delivery rate | Sent ÷ delivered (two grey ticks = delivered) | 95%+ |
+| Delivery rate | Delivered ÷ sent (two grey ticks = delivered) | 95%+ |
 | Estimated open rate | Read ÷ delivered × 100 (two blue ticks = read) | 85%+ |
 | Reply rate | Replies ÷ sends × 100 | 5–15% for well-targeted broadcasts |
 | Conversion rate | Purchases or enquiries ÷ broadcast size × 100 | 2–5% |

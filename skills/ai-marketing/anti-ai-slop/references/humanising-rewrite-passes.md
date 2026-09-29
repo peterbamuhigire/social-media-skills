@@ -221,7 +221,7 @@ One well-researched piece can become 10 platform-ready assets in under 60 minute
 Platform adaptation checklist:
 
 - [ ] Facebook: conversational, question or call to action, link preview works.
-- [ ] Instagram: emotional hook first, hashtags at the end or in a comment, no clickable links in the caption.
+- [ ] Instagram: emotional hook first, at most five hashtags at the end of the caption (register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`), no clickable links in the caption.
 - [ ] LinkedIn: insight or lesson first, professional register, invites discussion.
 - [ ] TikTok/Reels: hook in the first 3 seconds, spoken register, suggest trending audio.
 - [ ] WhatsApp Status: under 700 characters, image-first, direct call to action.

@@ -122,6 +122,7 @@ Without a mobile walk-through of the client's current path, return the narrowest
 - [E-commerce and WhatsApp conversion diagnosis](references/ecommerce-and-whatsapp-conversion-diagnosis.md): read when an existing shop or WhatsApp sales path loses buyers before payment, or the client needs buyer modalities, test prioritisation, enquiry recovery or an e-commerce KPI dashboard.
 - [`measurement-tracking-plan`](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md): read for full UTM parameter conventions and a UTM builder template.
 - [`ad-to-site-journey-handoff`](../../advertising/ad-to-site-journey-handoff/SKILL.md): read when a web team needs a landing-page brief.
+- [Trustworthy experiments](../../meta-analytics-ops/meta-testing-framework/references/trustworthy-experiments-srm-power-holdouts.md): read before calling a landing-page or checkout A/B test (pre-registration, sample-ratio-mismatch check, guardrail metrics).
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when writing captions, pre-filled messages and reply scripts.
 - [East African English standard](../../language/east-african-english/SKILL.md): read when checking tone and local examples.
 <!-- dual-compat-end -->

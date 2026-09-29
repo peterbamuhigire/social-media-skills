@@ -51,7 +51,7 @@ The full intake list is in the [caption build method](references/caption-build-m
 
 | Platform | Length | Hashtags | Key rule |
 |---|---|---|---|
-| Instagram | 125–150 characters for reach; up to 300 words for education or story | 5–10 at the end or first comment | Hook inside the first 125 characters; no more than 2 emojis in the hook line. |
+| Instagram | 125–150 characters for reach; up to 300 words for education or story | Up to 5, in the caption (Instagram cap, register `INSTAGRAM-HASHTAG-LIMIT-PRIMARY`) | Hook inside the first 125 characters; no more than 2 emojis in the hook line. |
 | Facebook | 40–80 characters for reach; up to 250 words for story or event | 1–3 maximum | Warm, neighbourly; put any link in the caption text. |
 | LinkedIn | 150–300 words for engagement; 50–100 words for reach | 3–5, industry-relevant | First 2 lines carry the post; 0–2 purposeful emojis. |
 | TikTok | 100–150 characters | 3–5 (niche, trending or broad, branded) | CTA drives comments. |

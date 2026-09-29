@@ -29,7 +29,8 @@ Ask for these before producing a deliverable (in addition to the parent's requir
 | 2 | The business has fewer than 50 orders a month | Use a manual WhatsApp tracking sheet as the minimum viable tracking; add HotJar, Meta Pixel and GA4 only as volume grows | Buying tools the team will not maintain |
 | 3 | Volume is too small for a significance test | Accept a winner only with at least a 20% relative improvement sustained over 2 weeks | Declaring a winner from noise |
 | 4 | A recovery or re-engagement message would fall outside the 24-hour customer-service window or go to someone who has not opted in | Use an approved template to opted-in contacts only, and honour any opt-out (Uganda: register UG-DPPA-S26-DIRECT-MARKETING-2026) | Policy breach and number restriction |
-| 5 | The recommendation is about brand positioning rather than the transaction path | Hand over to `ecommerce-brand-differentiation` | Fixing the wrong layer |
+| 5 | The recommendation is about brand positioning rather than the transaction path | Hand over to `brand-strategy-and-distinctive-assets` (e-commerce differentiation in its `references/ecommerce-differentiation.md`) | Fixing the wrong layer |
+| 6 | A website A/B or split test is planned | Specify a third-party testing tool that integrates with GA4, or a server-side split owned by the web team; Google Optimize and Optimize 360 closed on 30 Sep 2023 and Google named AB Tasty, Optimizely and VWO as GA4 integration partners (register `GOOGLE-OPTIMIZE-SUNSET-2023`; examples, not endorsements). At low volume, use decision rule 3 instead of a paid tool | Briefing a retired tool, or buying a tool the traffic cannot support |
 
 ## The diagnostic system
 
@@ -173,7 +174,7 @@ Apply the RASTA standard to all client reporting (Phillips, 2015): Relevant, Acc
 ## Related skills
 
 - [social-commerce-strategy](../../../strategy/social-commerce-strategy/SKILL.md): East African social-commerce operations and platform set-up.
-- [ecommerce-brand-differentiation](../../../strategy/ecommerce-brand-differentiation/SKILL.md): brand positioning and intangibles.
+- [brand-strategy-and-distinctive-assets](../../../strategy/brand-strategy-and-distinctive-assets/SKILL.md): brand positioning and intangibles; e-commerce differentiation in its [e-commerce differentiation reference](../../../strategy/brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md).
 - [measurement-tracking-plan](../../../meta-analytics-ops/measurement-tracking-plan/SKILL.md): UTM, Pixel and consent set-up.
 
 ## Sources
@@ -181,3 +182,4 @@ Apply the RASTA standard to all client reporting (Phillips, 2015): Relevant, Acc
 - Harris, A. (2016) *Small Business Big Money Online*: Marketing Optimization System, four buyer modalities, five-step process.
 - Larsson, T. (2016) *Ecommerce Evolved*: conversion tactics, traffic temperature, retargeting, flash sales, ride-alongs.
 - Phillips, J. (2015) *Ecommerce Analytics*: KPI frameworks, dashboards, RASTA reporting.
+- Register `GOOGLE-OPTIMIZE-SUNSET-2023` (Google Optimize Help, read 2026-09-29): Optimize closure and GA4 testing integrations.

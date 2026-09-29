@@ -97,6 +97,8 @@ Without sales, margin, competitor or cost data, return the narrowest qualified r
 | Website, stock or response capacity not ready | Delay launch or add an operations fix to the plan | Advertising blamed for operational failure |
 | Client asks for "more research" instead of a decision | Recommend at 60–80% confidence with a test and contingency | Paralysis and missed windows |
 | A figure has no source | Label it assumption or remove it | Invented benchmarks in a client document |
+| The brand-building versus activation split is undecided | Start near 60:40 (about 50:50 in B2B) as a starting point, adjust for launch stage, cash needs, purchase cycle and channel, and record why (registers `IPA-LONG-SHORT-2013`, `LINKEDIN-B2B-5-PRINCIPLES`; method in `brand-strategy-and-distinctive-assets`) | A databank average applied as a rule, or all money in activation |
+| Objectives stop at clicks, reach or engagement | Set each objective on the effectiveness ladder with at least one commercial measure and its window (register `WARC-EFFECTIVENESS-CODE-2020`) | Declaring success on lead indicators |
 
 ## Quality Standards
 
@@ -123,5 +125,6 @@ Without sales, margin, competitor or cost data, return the narrowest qualified r
 - [Decision memo and agency governance](references/decision-memo-and-agency-governance.md): read when writing memos or setting compensation models and agency–client rules.
 - [Core method, worked example and handoffs](references/core-method-and-handoffs.md): read when building the objective hierarchy, handing outputs to neighbour skills, drafting client sentences or running the readiness checklist.
 - [Media planning](../media-planning/SKILL.md), [attribution and measurement](../advertising-attribution-and-measurement/SKILL.md), [direct-response economics](../direct-response-economics/SKILL.md) and [creative brief and big idea](../creative-brief-and-big-idea/SKILL.md): read when handing the budget, measurement plan or single message downstream.
+- [Brand strategy and distinctive assets](../../strategy/brand-strategy-and-distinctive-assets/references/long-short-balance-and-reach.md): read when setting the brand:activation split or reach to out-of-market buyers.
 - [Marketing budget planner](../../meta-analytics-ops/meta-budget-planner/SKILL.md): read when the question is the whole marketing budget; [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the category is regulated.
 <!-- dual-compat-end -->

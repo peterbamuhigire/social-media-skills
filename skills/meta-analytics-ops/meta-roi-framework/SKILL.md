@@ -23,6 +23,7 @@ Builds the social media ROI model (lifetime value, acquisition cost by channel, 
 
 - `advertising-attribution-and-measurement` for credit models, allowable CPA and holdout or geo tests on ads.
 - `meta-budget-planner` for dividing the budget across channels.
+- `marketing-mix-modelling` for a multi-year model of each channel's contribution to sales and cross-channel budget allocation (Meridian or Robyn).
 - `meta-reporting` for the periodic performance report.
 - Stop when attributable revenue or cost data is missing; state the assumption and never present projections as results.
 

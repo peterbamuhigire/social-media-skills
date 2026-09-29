@@ -83,6 +83,7 @@ Without account access, current help-centre checks or keyword tools, return the 
 | No working conversion tracking | Build tracking first; launch only for measured tests | Optimising for clicks and wasting budget |
 | Brand terms mixed with generic terms | Separate brand and non-brand campaigns | Brand clicks masking poor generic performance |
 | Performance Max proposed without feeds, assets or conversion volume | Start with Search on core intent; add PMax once signals exist | Opaque spend with no learning |
+| The client sells physical products and wants Shopping, free listings or Performance Max with a feed | Build and audit the Merchant Center feed with [shopping and feeds](references/shopping-and-feeds.md): required attributes, GTIN rules and diagnostics; target Uganda, Kenya or Tanzania only (Rwanda is not a supported Shopping country) (register `MERCHANT-CENTER-PRODUCT-DATA`) | Disapproved products, invented GTINs and campaigns aimed at an unsupported country |
 | Standalone Display campaign requested | Plan new display work in Demand Gen (AD-05, Display moving into Demand Gen from June 2026) | Building on a format being retired |
 | Search terms show irrelevant queries | Add negatives and tighten themes before raising budget | Paying for the wrong intent |
 | CPA above break-even for the agreed window | Diagnose query, ad, landing page and offer in that order; pause if unresolved | Scaling a losing campaign |
@@ -111,6 +112,7 @@ Without account access, current help-centre checks or keyword tools, return the 
 - [Search build specification](references/search-build-specification.md): read when structuring a new account or campaign.
 - [Search optimisation and audit](references/search-optimisation-and-audit.md): read when auditing an existing account or running weekly optimisation.
 - [Campaign types, search testing and East Africa notes](references/campaign-types-and-east-africa.md): read when choosing a campaign type, testing propositions with search ads, or adapting the programme for East Africa.
+- [Shopping and feeds](references/shopping-and-feeds.md): read when building or auditing a Merchant Center feed, fixing GTIN or diagnostics issues, or checking Shopping availability in East Africa.
 - [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md): read when writing RSA assets; [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md): read when briefing landing pages.
 - [Advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md) and [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md): read when setting break-even CPA or specifying tracking and consent.
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when ad claims or regulated categories need clearance; [source register](../../../docs/source-registers/source-register.json): read when checking the dated register entries (AD-05, CW-10, PL-01, PL-02).

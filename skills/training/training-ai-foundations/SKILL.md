@@ -109,6 +109,8 @@ Without confirmed team experience level and tool access, return the narrowest qu
 - [prompt-writing-module.md](references/prompt-writing-module.md): read when the team needs the follow-on prompt-writing session (Alpha-Beta-Gamma-Delta-Epsilon, copywriting frameworks, iterative refinement); it routes to [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md) and [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md).
 - [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md): read when writing prompt-writing Modules 1–2.
 - [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md): read when writing prompt-writing Modules 3–4 and worked prompt examples.
+- [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md): read when teaching when AI output must be labelled, how platform AI labels work and who is accountable for AI output.
+- [Certification and competency register](../../playbooks/playbook-agency-operations/references/certification-and-competency-register.md): read when recording AI training or pointing trainees to Meta's AI and Performance Marketing badge.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md): read when teaching humanising rewrite passes, the editing checklist and banned vocabulary.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read when scoring the finished training guide before release.
 - [`brand-voice-ai-training`](../../ai-marketing/brand-voice-ai-training/SKILL.md): read when the team must train AI tools on a specific brand voice.

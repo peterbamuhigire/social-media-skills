@@ -65,3 +65,12 @@ Awareness → understanding → consideration → purchase → repurchase → lo
 ## 6. Stakeholder side-effects
 
 Record effects on staff morale, dealers and distributors, investors or members. A campaign that swamps an unprepared branch damages the brand.
+
+## 7. Effectiveness ladder and brand:activation balance
+
+Added in Social Kaizen S10 (29 Sep 2026) to close benchmark rows SL01-C1 and SL01-C2.
+
+- **Ladder objectives.** Hurman and Field's Creative Effectiveness Ladder (Cannes Lions and WARC, 2020; register `WARC-EFFECTIVENESS-CODE-2020`) ranks effects from least to most commercially valuable: influential idea, behaviour breakthrough, sales spike, brand builder, commercial triumph, enduring icon. Map each level of the four-level plan to a rung: message and media measures are lead indicators; the business level must name a commercial rung (sales spike, commercial triumph or enduring icon) and its window (about three months, about twelve months, three years or more). Detail: [brand tracking](../../../strategy/brand-strategy-and-distinctive-assets/references/brand-tracking.md).
+- **Brand versus activation.** Binet and Field's IPA analysis (2013; register `IPA-LONG-SHORT-2013`) found the most very large effects when about 60% of budget built the brand and about 40% drove activation; later IPA work put it near 62:38 (register `IPA-LONG-SHORT-NEXT-CHAPTER`) and their B2B work near 50:50 (register `LINKEDIN-B2B-5-PRINCIPLES`). Use these as starting points only, adjusted for launch stage, cash needs, purchase cycle and channel, and record the reason in the budget reconciliation table. Detail: [long/short balance and reach](../../../strategy/brand-strategy-and-distinctive-assets/references/long-short-balance-and-reach.md).
+
+Sources: register IDs `WARC-EFFECTIVENESS-CODE-2020`, `IPA-LONG-SHORT-2013`, `IPA-LONG-SHORT-NEXT-CHAPTER`, `LINKEDIN-B2B-5-PRINCIPLES`.

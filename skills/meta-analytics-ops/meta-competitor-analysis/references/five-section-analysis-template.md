@@ -65,7 +65,7 @@ Repeat this block for every competitor, then include the client's own content st
 
 - **Meta Ad Library** (facebook.com/ads/library): Search by competitor page name. Shows all currently active Facebook and Instagram ads. No account required. Filter by country (select Uganda or the relevant market).
 - **TikTok Creative Center** (ads.tiktok.com/business/creativecenter): Shows top-performing ads by category and region. Useful for spotting competitors running TikTok paid activity.
-- **LinkedIn Ad Library**: Available via any LinkedIn company page under "Posts > Ads". Shows active sponsored content.
+- **LinkedIn Ad Library**: LinkedIn runs a public Ad Library searchable by advertiser or keyword; the older "company page > Posts > Ads" path may be out of date. Access path and coverage `NOT_ASSESSED` on 29 Sep 2026 (the page blocked automated reading); confirm in a browser before briefing.
 - **Google Display Network**: Search "[competitor name] ad" in Google Images to surface display banner ads. For traffic intelligence, use SimilarWeb free tier (similarweb.com) to estimate referral sources.
 
 **Important caveat:** Data from these sources is indicative, not exact. Ad spend figures are not disclosed. The presence or absence of ads confirms activity only — it does not reveal budget, targeting, or performance.

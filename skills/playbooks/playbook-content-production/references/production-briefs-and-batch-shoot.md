@@ -125,6 +125,8 @@ Complete this brief for each designed asset and share it with the graphic design
 
 ### Standard Dimensions by Platform
 
+Platform specifications change. Only the Meta feed and Stories/Reels figures are registered (register `META-CREATIVE-SPECS-2026`: feed 4:5, Stories/Reels 9:16 at 1440 × 2560 with safe zones); every other row is an undated house figure (`NOT_ASSESSED`), so confirm it on the platform's help page on the brief date. Visual execution routes to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine).
+
 | Platform / Placement | Dimensions |
 |---|---|
 | Facebook feed (landscape) | 1200 × 630 px |
@@ -132,7 +134,7 @@ Complete this brief for each designed asset and share it with the graphic design
 | Instagram feed (portrait) | 1080 × 1350 px |
 | Instagram Stories / Reels cover | 1080 × 1920 px |
 | LinkedIn feed | 1200 × 627 px |
-| WhatsApp broadcast image | 800 × 800 px (square performs best) |
+| WhatsApp broadcast image | 800 × 800 px (house figure; "square performs best" is unsourced) |
 | TikTok thumbnail | 1080 × 1920 px |
 | YouTube thumbnail | 1280 × 720 px |
 | Facebook / LinkedIn cover photo | 1640 × 924 px |
@@ -168,7 +170,7 @@ Complete this brief for each designed asset and share it with the graphic design
 
 ## 4. Batch Production Workflow
 
-Batch production reduces content creation cost by 60–80% compared to ad hoc shoots. One well-planned shoot day can produce 4–6 weeks of content. Follow this workflow.
+Batch production usually costs less than ad hoc shoots (the source's "60–80% saving" is unsourced and `NOT_ASSESSED`; measure the client's own cost per usable asset instead). One well-planned shoot day can produce 4–6 weeks of content. Follow this workflow.
 
 ### Step 1 — Prepare (Day Before the Shoot)
 - Open the content calendar and confirm which content types are needed for the next 4–6 weeks

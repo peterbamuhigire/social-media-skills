@@ -24,7 +24,7 @@ Turns an e-commerce diagnostic and unit-economics model into a practical export-
 ## Do Not Use When
 
 - `social-commerce-strategy` for domestic selling through WhatsApp, Instagram, Mobile Money and local delivery.
-- `ecommerce-brand-differentiation` for naming, packaging and standing out from look-alike sellers.
+- `brand-strategy-and-distinctive-assets` for naming, packaging and standing out from look-alike sellers.
 - `playbook-post-click-strategy` for diagnosing checkout and landing-page conversion.
 - Stop before stating customs, tariff, certification or export-compliance facts without current verified sources; flag them for the client's trade adviser.
 
@@ -108,7 +108,7 @@ Without unit-economics guardrails or a named market, return the narrowest qualif
 - [Export marketing plan template](references/export-marketing-plan-template.md): read when laying out plan sections, personas, the channel plan, budget, partner outreach and KPIs.
 - [Trust and conversion review](references/trust-and-conversion-review.md): read when checking trust signals and the conversion journey, and before citing any buyer-behaviour statistic.
 - [`social-commerce-strategy`](../social-commerce-strategy/SKILL.md): read when the work is domestic selling through WhatsApp, Instagram, Mobile Money and local delivery.
-- [`ecommerce-brand-differentiation`](../ecommerce-brand-differentiation/SKILL.md): read when naming, packaging or standing out from look-alike sellers is the problem.
+- [`brand-strategy-and-distinctive-assets`](../brand-strategy-and-distinctive-assets/SKILL.md) ([e-commerce differentiation](../brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md)): read when naming, packaging or standing out from look-alike sellers is the problem.
 - [`playbook-post-click-strategy`](../../playbooks/playbook-post-click-strategy/SKILL.md): read when checkout or landing-page conversion needs diagnosis.
 - [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before any compliance, certification or comparative claim is released.
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting messaging and outreach.

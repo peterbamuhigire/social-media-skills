@@ -40,7 +40,7 @@ Interactive tools on the website that guide buyers through decisions without req
 Customer testimonials, journey videos, reviews, Net Promoter Scores, and case studies must be visible throughout the website — not only on a dedicated testimonials page that few visitors find. Include social proof near every CTA, pricing disclosure, and service description. The content plan must include at least two customer journey stories per quarter.
 
 **Priority 7 — Site Speed**
-40% of visitors abandon a website that takes more than 3 seconds to load (Sheridan, 2019). The average business website loads in 8–12 seconds. Before producing content, confirm the client's site loads within 3 seconds. If it does not, flag this as a prerequisite action. Slow sites make all content investment less effective: high traffic + high bounce rate = low return.
+Sheridan (2019) reports that 40% of visitors abandon a website that takes more than 3 seconds to load and that the average business site takes 8–12 seconds; these are secondary, undated figures (`NOT_ASSESSED`), so do not quote them to a client as current. Before producing content, check the site against the current Core Web Vitals "good" thresholds (LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1 at the 75th percentile of page loads; register `WEBDEV-CORE-WEB-VITALS`) using the field data in PageSpeed Insights or Search Console. If it does not, flag this as a prerequisite action. Slow sites make all content investment less effective: high traffic + high bounce rate = low return.
 
 Use this checklist to brief the client before commencing content production. Do not attempt to drive traffic to a site that fails Priorities 1, 2, or 7.
 

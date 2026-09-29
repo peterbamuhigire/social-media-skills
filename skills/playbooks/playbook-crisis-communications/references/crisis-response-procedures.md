@@ -208,6 +208,20 @@ Generate this as a standalone section the client can print and keep accessible. 
 - Do not blame the customer publicly
 - Do not let multiple people respond with different messages
 
+## 8. Benchmark: CIPR crisis phases
+
+The CIPR Crisis Communications Network guide *Crisis Communication and Social Media* (2024) organises social media crisis work into five stages: mitigate, prepare, ramp-up, manage and recover. It notes that teams now aim for a first response within about 15 minutes rather than a "golden hour", and it includes an example social media appendix for a crisis plan (register `CIPR-CRISIS-SOCIAL-2024`). Check this plan against those stages:
+
+| CIPR stage | Where this plan covers it |
+|---|---|
+| Mitigate | Listening terms, known risk calendar (elections, national events), pre-bunking of likely false narratives ([synthetic media and deepfake protocol](synthetic-media-and-deepfake-protocol.md)) |
+| Prepare | Intake, severity levels, holding statements, quick card, named approver, [internet shutdown contingency](internet-shutdown-contingency.md) |
+| Ramp-up | First 30-minute checklist, pausing scheduled posts, alerting the approver |
+| Manage | Level timelines, platform actions, what not to do, incident log |
+| Recover | Post-crisis review and handover to `playbook-reputation-management` |
+
+Where the client's first-response target is slower than the CIPR benchmark, record the reason (team size, approval chain, connectivity) rather than promising a time the team cannot meet.
+
 ## Quality Criteria
 
 Output meets production standard when it satisfies all of the following:

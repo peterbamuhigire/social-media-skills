@@ -4,7 +4,7 @@ Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`)
 
 ## Section 6 — Compliance and Privacy Standards
 
-Healthcare social media in Uganda is governed by the **Uganda Data Protection and Privacy Act 2019** (DPPA) and the **Uganda Medical and Dental Practitioners Act** professional conduct standards. For international best practice, apply HIPAA (USA) de-identification principles.
+Healthcare social media in Uganda is governed by the **Uganda Data Protection and Privacy Act 2019** (DPPA) and the **Uganda Medical and Dental Practitioners Act** professional conduct standards (Act year, revised-edition chapter and current UMDPC advertising rules `NOT_ASSESSED` on 29 Sep 2026; confirm with the Uganda Medical and Dental Practitioners Council or counsel before release). For international best practice, apply HIPAA (USA) de-identification principles.
 
 **4 Principles of Patient De-identification** (Stukus et al., 2019)
 Before sharing any clinical case, patient story, or health data, apply all four tests:

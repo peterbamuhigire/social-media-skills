@@ -80,15 +80,11 @@ The Writers Guild of America's 2023 agreement with the studios (cited in the sou
 
 ## Part 3 — Disclosure obligations
 
-> **Verification flag:** the article numbers below follow the source. In the final published EU AI Act (Regulation (EU) 2024/1689) the transparency and labelling duties sit in Article 50 and Article 4 covers AI literacy; "Article 28b(4)" is draft numbering. Verify the current article before citing it to a client.
+> **Corrected 29 Sep 2026 (Social Kaizen S10-T09):** the source this policy was built from cited "Article 4 (labelling)" and "Article 28b(4) (human oversight)" from a draft numbering. In the EU AI Act as adopted, the transparency and labelling duties are in Article 50, which applies from 2 Aug 2026 (European Commission Article 50 FAQ, register `EU-AI-ACT-ART50-FAQ`; Regulation text on EUR-Lex `NOT_ASSESSED`). Use [AI transparency and provenance](ai-transparency-and-provenance.md#7-eu-ai-act-article-50-eu-facing-work-only) for the current duties and the risk-based disclosure table; do not cite the draft numbers to a client.
 
-### EU AI Act — Article 4 (labelling obligation, as cited)
+### EU AI Act — Article 50 (transparency duties, summary)
 
-Providers and deployers of AI systems must ensure that AI-generated content is labelled as such when it is likely to be perceived by an audience as authentic human-created content. This applies to:
-
-- synthetic images, audio and video (deepfakes and AI-generated media);
-- AI-generated text presented as human-authored;
-- AI-generated personas presented as real individuals.
+For EU-facing work, a deployer (the brand or agency using the AI tool) must disclose deepfakes (synthetic images, audio or video resembling real people, places or events that would falsely appear authentic) clearly at first exposure, and must label AI-generated text published to inform the public on matters of public interest unless it has passed human editorial control. AI personas presented as real individuals fall under the deepfake and chatbot duties. Details and exemptions: [AI transparency and provenance](ai-transparency-and-provenance.md).
 
 ### Agency standard — specific, not vague, disclosure
 
@@ -100,9 +96,9 @@ Where AI generated only supporting or draft elements and the final published wor
 
 > *"AI tools were used in the drafting process. All published content has been reviewed, edited, and approved by [Agency Name]."*
 
-### EU AI Act — Article 28b(4) (human oversight mandate, as cited)
+### Human oversight (agency standard)
 
-For high-risk AI applications, humans must retain meaningful oversight and the ability to override AI decisions. The agency's editorial review process is designed to satisfy this requirement for all content deliverables.
+Whatever the law requires, the agency keeps a named human reviewer with the authority to reject or override AI output for every content deliverable. This is an agency standard and an ICC Code 2024 accountability expectation (register `PREMIUM-ICC-2026`), not a claim about a specific AI Act article.
 
 ## Part 4 — Provenance tracking and watermarking
 
@@ -152,7 +148,7 @@ Refer the client to a qualified IP solicitor when:
 - [ ] Uses plain professional language a non-lawyer client can read and act on.
 - [ ] Makes the agency's standard of human creative contribution explicit and measurable.
 - [ ] Applies the WGA 2023 authorship standard as a professional benchmark clients can recognise.
-- [ ] Specifies disclosure language precise enough to meet the EU AI Act labelling obligation.
+- [ ] Specifies disclosure language and a risk-based labelling decision consistent with EU AI Act Article 50 for EU-facing work and the IAB framework thresholds ([AI transparency and provenance](ai-transparency-and-provenance.md)).
 - [ ] Includes a provenance protocol with named tools and a clear retention period.
 - [ ] Distinguishes clearly between what the agency can advise on and what requires a qualified IP solicitor.
 - [ ] Is formatted as a document the agency can hand directly to a client without further editing.
@@ -163,7 +159,7 @@ Refer the client to a qualified IP solicitor when:
 - UK Copyright, Designs and Patents Act 1988, Section 9(3).
 - US Copyright Act, Title 17, §102(a).
 - EU Directive 2019/790 on Copyright in the Digital Single Market.
-- EU Artificial Intelligence Act (2024), Articles 4 and 28b(4) (as cited; see verification flag).
+- EU Artificial Intelligence Act, Regulation (EU) 2024/1689, Article 50 (source cited draft Articles 4 and 28b(4); corrected 29 Sep 2026, register `EU-AI-ACT-ART50-FAQ`).
 - Writers Guild of America (2023) *Minimum Basic Agreement* — AI provisions.
 - US Copyright Office (2023) *Copyright and Artificial Intelligence* — guidance documents.
 - Google DeepMind (2023) *SynthID* — watermarking standard for AI-generated audio and images.

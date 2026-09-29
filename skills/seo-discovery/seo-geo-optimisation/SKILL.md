@@ -83,6 +83,9 @@ Without the page, source evidence, network, render, or deployment context, retur
 | The fact is a proven entity, offer, author, location, review, or date | Represent only the visible, verified fact in metadata or schema | Misleading structured data |
 | The observation is a citation, referral, lead, or sale | Report the exact outcome and its attribution limit | Conflated “AI rank” |
 | A page is indexed but duplicated, stale, inaccessible, or inaccurate | Repair the specific failure, recheck, and retain the rollback path | Citation of the wrong or unsafe page |
+| The plan mass-produces pages, hosts third-party or sponsored content on the client's domain, or buys an expired domain to rank | Screen it against Google's spam policies (scaled content abuse, site reputation abuse, expired domain abuse; register `GOOGLE-SPAM-POLICIES`) and drop or redesign any part whose main purpose is to manipulate ranking | Manual action or ranking loss for the whole site |
+| The client wants to limit what Search or AI Overviews show from a page | Record a deliberate choice of `nosnippet`, `data-nosnippet`, `max-snippet` or `noindex` with its owner and trade-off; Google-Extended governs Gemini training and grounding use, not Search or AI Overviews inclusion (registers `GOOGLE-AI-FEATURES-2025`, `GOOGLE-EXTENDED-2026`) | Blocking the wrong crawler, or losing Search visibility by accident |
+| Page speed or Core Web Vitals fail ("good" = LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1 at the 75th percentile; register `WEBDEV-CORE-WEB-VITALS`) | Record the failing metric and hand the fix to the build owner via [website-skills](https://github.com/peterbamuhigire/website-skills); this skill does not change code | Content edits presented as a speed fix |
 
 ## Quality Standards
 

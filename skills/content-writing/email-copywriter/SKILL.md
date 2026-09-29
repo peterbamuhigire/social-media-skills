@@ -111,6 +111,7 @@ Without a confirmed email type, segment or opt-in basis, return the narrowest qu
 - [Human, professional phrase bank](../references/human-professional-phrase-bank.md): read when shaping sentence patterns for emails, posts, ads, pages, rate cards and plans.
 - [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md): read before releasing any selling email; the screen is mandatory.
 - [`07-email-marketing-strategy`](../../pipeline/07-email-marketing-strategy/SKILL.md): read when the lifecycle programme, segmentation or measurement plan is in question.
+- [Deliverability and lifecycle holdouts](../../pipeline/07-email-marketing-strategy/references/deliverability-and-lifecycle-holdouts.md): read when copy must carry a visible unsubscribe link, sender identity or one-click unsubscribe for Gmail and Yahoo bulk-sender rules.
 - [`premium-commercial-writing`](../premium-commercial-writing/SKILL.md): read when the email sells a premium or high-ticket offer.
 - [`caption-writer`](../caption-writer/SKILL.md): read when routing is unclear; it is the nearest neighbour.
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting and before client delivery.

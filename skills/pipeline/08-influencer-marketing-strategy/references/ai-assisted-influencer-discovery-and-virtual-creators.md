@@ -109,6 +109,8 @@ Address the choice explicitly; never assume it.
 
 **EA default recommendation:** for the great majority of EA clients, human influencers, particularly local micro and nano creators (1K–100K followers), produce stronger results than virtual ones. EA audiences are relationship-oriented, digital trust is still maturing, and virtual influencers have not yet established parasocial credibility in most EA markets. State this rationale in the deliverable.
 
+**Disclosure applies to virtual influencers too.** The ICC Code 2024 defines influencers to include machine-created or controlled avatars, so Article 18.2 identification rules bind a virtual or AI character exactly as they bind a person (register `ICC-CODE-2024-TEXT`; see [influencer-term-sheet-and-disclosure](influencer-term-sheet-and-disclosure.md)).
+
 ### 4. Test a virtual character with the Parasocial Interaction Scale (Ltifi, 2024)
 
 Audiences judge virtual influencers on four dimensions. Assess each before recommending a virtual-influencer campaign:

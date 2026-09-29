@@ -102,6 +102,7 @@ Without a confirmed reader, search intent or traceable sources, return the narro
 - Treating missing access, evidence or native-language review as approval. Fix: mark the check `not assessed` and narrow the result.
 - Publishing, sending, spending or changing a live account from drafting authority alone. Fix: obtain explicit action-specific authority and retain the approval record.
 - Drafting from a keyword list or a single search result. Fix: complete the three-wave article study and write to the verified reader gap.
+- Mass-producing near-identical articles (AI or templated) or placing sponsored third-party articles on a client's strong domain to rank. Fix: each article must add value for a reader; Google treats these as scaled content abuse and site reputation abuse (register `GOOGLE-SPAM-POLICIES`), so route the plan through `seo-geo-optimisation`.
 
 ## References
 

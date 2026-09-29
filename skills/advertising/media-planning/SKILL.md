@@ -1,6 +1,6 @@
 ---
 name: media-planning
-description: 'Use when a campaign needs a media plan: channel mix, reach and frequency, GRPs/TRPs, target CPM, flighting or pulsing, and regional or seasonal weights across radio, TV, outdoor and digital; produces the media plan, flowchart and post-buy reconciliation; not for setting the total budget (use `advertising-strategy-and-budget`).'
+description: 'Use when a campaign needs a media plan: channel mix, reach and frequency, GRPs/TRPs, target CPM, flighting or pulsing, and regional or seasonal weights across radio, TV, outdoor and digital; produces a media plan, flowchart and post-buy reconciliation; not for programmatic, CTV or DOOH buying and brand safety (use `programmatic-and-brand-safety`).'
 metadata:
   portable: true
   compatible_with:
@@ -23,6 +23,7 @@ Decides where, when and how often the target audience should meet the message, a
 ## Do Not Use When
 
 - `advertising-strategy-and-budget` when the total budget or objectives are not yet set.
+- `programmatic-and-brand-safety` for DSP, private-deal, CTV, digital-screen (DOOH) and digital-audio buying, supply-path and fee checks, viewability, invalid traffic and brand-safety settings; classic outdoor, broadcast TV and FM radio stay here.
 - `traction-channel-bullseye` for choosing which acquisition channels to test at all.
 - `playbook-paid-social-advertising` or `paid-search-advertising` for platform campaign builds and ad sets.
 - Stop before any booking, insertion order or spend without the client's written authority.
@@ -125,5 +126,8 @@ Without audited audience or rate data, return the narrowest qualified result and
 - [East African media mix notes](references/east-african-media-mix.md): read when the market is Uganda, Kenya or the wider EAC.
 - [Planning sequence, worked example and handoffs](references/planning-sequence-and-handoffs.md): read when walking the planning sequence, handing plan lines downstream, drafting plan sentences or running the acceptance checklist.
 - [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md), [attribution and measurement](../advertising-attribution-and-measurement/SKILL.md) and [direct-response economics](../direct-response-economics/SKILL.md): read when the budget, response measurement or break-even is the real question.
+- [Media-buying transparency and audit rights](../../playbooks/playbook-agency-operations/references/commercial-governance-and-contracts.md#3-transparency-and-audit-rights-media-buying): read when inventory is bought on a principal or non-transparent basis, or the contract needs audit rights.
+- [Brand reach and the long/short balance](../../strategy/brand-strategy-and-distinctive-assets/references/long-short-balance-and-reach.md): read when the plan must reach light and out-of-market buyers (95:5) or set brand-building weight against activation.
+- [Programmatic and brand safety](../programmatic-and-brand-safety/SKILL.md): read when a plan line is bought programmatically, is CTV, digital screens or digital audio, or needs brand-safety and fraud controls.
 - [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when outdoor permits or a regulated category are involved.
 <!-- dual-compat-end -->

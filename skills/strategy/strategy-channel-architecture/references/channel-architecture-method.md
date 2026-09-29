@@ -193,7 +193,7 @@ Produce a completed version of this diagram using the client's actual platforms,
 Apply these standing recommendations unless the client's data contradicts them.
 
 - **WhatsApp Broadcast** is the highest-ROI retention channel in EA — prioritise building this list from Day 1, even if the client is not yet using it. Every other platform should include a CTA to join the broadcast list.
-- **TikTok** is the fastest-growing discovery channel for 16–30 audiences in Uganda as of 2025. If the primary audience falls in this range, TikTok should be the lead discovery platform.
+- **TikTok** is treated by the engine as a leading discovery channel for 16–30 audiences in Uganda (an undated 2025 house judgement; growth ranking `NOT_ASSESSED`). If the primary audience falls in this range, test TikTok as the lead discovery platform, and check current ad reach in register `DATAREPORTAL-UG-KE-2026` before committing budget.
 - **Facebook Groups** outperform Pages for engagement in EA. If the client has or could build a community, invest in a Group rather than relying solely on the Page.
 - **X/Twitter** is relevant only if the client targets journalists, policymakers, NGO networks, or opinion leaders. Do not recommend it for retail or consumer brands unless the audience data supports it.
 - **YouTube** requires a minimum commitment of one video per week to grow. Do not recommend YouTube as a priority platform unless the client can make and sustain this commitment.

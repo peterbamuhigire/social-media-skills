@@ -79,7 +79,7 @@ Without evidence and consent records for each CSR activity, return the narrowest
 |---|---|---|
 | Impact evidence is incomplete or disputed | Publish only substantiated scope and commission evidence review. | Greenwashing or overstated community benefit. |
 | A claim fails the journalist test ("could the client produce evidence tomorrow?") | Do not publish; advise the client to create the evidence first. | Challenge from the Monitor, the Observer, NBS Television or NGO networks. |
-| Content features a child under 18 without documented parental or guardian consent | Do not photograph, film, name or publish, in any format. | Legal liability under the Children Act (Cap. 59) and reputational damage. |
+| Content features a child under 18 without documented parental or guardian consent | Do not photograph, film, name or publish, in any format. | Legal liability under Uganda's child-protection law (Children Act; section `NOT_ASSESSED`) and reputational damage. |
 | The CSR activity has no logical link to the business's operations | Reframe towards the harms or dependencies the business actually has, or present it plainly as CSR, not purpose. | Performative CSR that audiences see through. |
 | Targets were missed | Report the shortfall and the reason alongside the next commitment. | A progress report that reads as spin. |
 | The trust gap is in the digital customer experience (unclear pricing, curated reviews, consent) rather than a CSR programme | Audit clarity, openness and objectivity with [digital-transparency-framework](references/digital-transparency-framework.md) before recommending. | Assumed transparency and unlawful data collection. |

@@ -20,7 +20,7 @@ Before generating this strategy, collect the following from the client:
 
 ## EA Market Context
 
-YouTube in Uganda and the wider East African market is used primarily for research, tutorials, and entertainment. It is the dominant platform for "how to" searches in English and Swahili. Data costs mean shorter videos (5–12 minutes) perform better than long-form for most topics — audiences will not sit through padding. Shorts (under 60 seconds) are growing rapidly and have their own independent algorithm.
+YouTube in Uganda and the wider East African market is used primarily for research, tutorials, and entertainment. It is the dominant platform for "how to" searches in English and Swahili. Data costs mean shorter videos (5–12 minutes) perform better than long-form for most topics — audiences will not sit through padding. Shorts (up to three minutes since 15 Oct 2024; register `YOUTUBE-SHORTS-LENGTH-2024`) are growing rapidly and have their own independent algorithm.
 
 The Hero/Hub/Hygiene content model (YouTube/Google) applies directly here: Hero content drives peak awareness (big campaigns, viral potential), Hub content keeps subscribers engaged (regular series), and Hygiene content answers evergreen search queries (tutorials, FAQs). Most East African business channels should prioritise Hygiene first — build the searchable library, then layer in Hub series once an audience forms.
 
@@ -140,10 +140,10 @@ Use YouTube's scheduled upload feature to maintain consistency even when product
 ## 5. YouTube Shorts Strategy
 
 **What Shorts are**
-Shorts are vertical videos under 60 seconds with their own algorithm, their own subscriber shelf on the channel homepage, and their own audience discovery pathway. They grow independently from long-form videos and attract a different — typically younger — audience segment.
+Shorts are vertical or square videos of up to 3 minutes (since 15 Oct 2024, per YouTube Help; register `YOUTUBE-SHORTS-LENGTH-2024`) with their own algorithm, their own subscriber shelf on the channel homepage, and their own audience discovery pathway. They grow independently from long-form videos and attract a different — typically younger — audience segment.
 
 **Content for Shorts**
-- Repurpose TikTok and Instagram Reels content as Shorts (ensure vertical format: 1080×1920px, under 60 seconds)
+- Repurpose TikTok and Instagram Reels content as Shorts (ensure vertical format: 1080×1920px, up to 3 minutes; register `YOUTUBE-SHORTS-LENGTH-2024`)
 - Create Shorts as "trailers" for long-form videos: take the most interesting 30–45 seconds from a tutorial and post as a Short with "Full video in the description"
 - Quick tips that work as standalone content — one tip per Short
 

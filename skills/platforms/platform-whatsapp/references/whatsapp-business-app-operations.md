@@ -31,7 +31,7 @@ WhatsApp is the dominant messaging channel in East Africa and the main channel f
 | Situation | Action | Failure avoided |
 |---|---|---|
 | One or two people answer messages | WhatsApp Business app (free) | Paying for tooling the volume does not need |
-| Automation at scale, or three or more people answering | WhatsApp Business Platform (API) through a verified business and an approved Business Solution Provider, with a multi-agent inbox (legacy threshold; verify eligibility and pricing) | Shared-phone bottlenecks and missed messages |
+| Automation at scale, or three or more people answering | WhatsApp Business Platform (API) through a verified business and an approved Business Solution Provider, with a multi-agent inbox (legacy threshold; verify eligibility; message pricing in [whatsapp-platform-pricing-and-templates.md](whatsapp-platform-pricing-and-templates.md)) | Shared-phone bottlenecks and missed messages |
 | More than one person but staying on the app | Shared device run by a designated daily lead | Unowned conversations |
 | Number about to be promoted anywhere | Configure greeting, away message and quick replies, and test them first | Unanswered first contact |
 | Number about to be publicised | Document the service protocol first | Inconsistent, missed and delayed responses |

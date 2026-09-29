@@ -81,6 +81,7 @@ Without the consultant's approved price ranges and cost to serve, return the nar
 | Justifying the rate against an in-house hire | Use a current, dated local salary source plus training, management time and tools; if none is available, ask the client what the role would cost. | Quoting a remembered salary range. |
 | The client has sales data | Use Bodnar and Cohen's (2012) ROI formula: (Total Lead Value − Cost of Customer Acquisition) ÷ Cost of Customer Acquisition. | Arguing on cost instead of value. |
 | The enquiry shows a walk-away signal (guaranteed follower or sales numbers, daily promotional posts only, three agencies in 12 months, constant same-day demands, no agreement or deposit) | Decline or disengage. | A future dispute and reputational damage. |
+| The client proposes payment by results, commission on media or a "results only" fee, or the pay model is under review | Choose the model with [remuneration models and evidence](references/remuneration-models-evidence.md): base fee covering cost-to-serve plus a capped, measurable bonus; cite ISBA 2024 (27% said PBR improved agency performance, register `ISBA-REMUNERATION-2024`) as a caution, not a benchmark. | Cash-flow risk from fees tied to outcomes the agency does not control. |
 | A Starter client reaches month 3 | Present a results summary, name one gap Growth would close, and offer a 90-day Growth trial. | A generic upsell or an open-ended ask. |
 
 ## Quality Standards
@@ -109,6 +110,7 @@ The ninth release check (Starter-to-Growth upsell guidance) is in the [build met
 
 - [Pricing menu build method](references/pricing-menu-build-method.md): read when writing the tiers, add-ons, pricing notes, menu design rules, rate justification, objection responses, upgrade path or walk-away signals.
 - [Risk-reversed entry offer](references/risk-reversed-entry-offer.md): read when a prospect needs a low-risk first engagement (result guarantee, pay-per-appointment, revenue share or deferred fee) before any retainer.
+- [Remuneration models and evidence](references/remuneration-models-evidence.md): read when choosing between retainer, fixed fee, unit, commission, payment-by-results, value-based or hybrid pay, or reviewing a pay model at renewal.
 - [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md): read for the paths table, cost-to-serve sheet and programme design behind the prices.
 - [`biz-dev-positioning`](../biz-dev-positioning/SKILL.md): read when the niche and promise the prices reflect are not settled.
 - [`biz-dev-proposal`](../biz-dev-proposal/SKILL.md): read when one named client needs a full scope and terms.

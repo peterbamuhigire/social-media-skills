@@ -82,6 +82,7 @@ Without a confirmed budget ceiling or channel cost evidence, return the narrowes
 | Budget is at Starter tier | Focus all paid spend on one platform (Facebook is the default for Uganda/EA) and add no second paid channel until organic engagement is consistent. | Thin spend that proves nothing. |
 | A channel has spent more than 15% above plan in the monthly review | Pause and investigate before continuing. | Silent overspend. |
 | A channel's ROI is below zero | Pause and diagnose; optimise at 0–1.0, maintain and test scaling at 1.0–3.0, consider more budget above 3.0. | Scaling a channel that loses money. |
+| The client asks how their budget compares with other companies | Use a dated, cited peer benchmark such as the Gartner 2025 CMO Spend Survey (register `GARTNER-CMO-SPEND-2025`; Secondary, Vendor research; figures `NOT_ASSESSED` until the release is read) as context only; state its sample, regions and firm sizes and never set the budget from it. | Copying a large-company budget ratio onto an East African SME. |
 | A channel decision rests on less than 90 days of data | Wait for full data before adding or removing the channel. | Reallocating on noise. |
 
 ## Quality Standards

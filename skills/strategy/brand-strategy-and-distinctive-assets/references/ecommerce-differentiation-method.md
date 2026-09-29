@@ -1,6 +1,16 @@
 # E-commerce differentiation method
 
-Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`); text unchanged. Read when running the intake, choosing the strategic quadrant and intangible type, writing the Soleness statement, building the positioning map or Blue Ocean grid, testing names, setting colour, typography and packaging direction, or planning the buyer community.
+Merged from `skills/strategy/ecommerce-brand-differentiation` on 2026-09-29 at 3416d0b (file moved from its `references/differentiation-method.md`); preservation map: [ecommerce-brand-differentiation.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/ecommerce-brand-differentiation.md). Parent: [brand-strategy-and-distinctive-assets](../SKILL.md); the decision layer for this method is [e-commerce differentiation](ecommerce-differentiation.md).
+
+**Currentness and routing notes (added 29 Sep 2026; text below otherwise unchanged).**
+
+- Visual direction: the colour table, hex/RGB instruction and typography line in Section 5 are kept as historical direction only. Visual execution, colour and any typeface choice route to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine); this engine makes no positive typeface claim.
+- Figures: "25% of brands" (Section 1) and the packaging percentages (Section 5) come second-hand via Verma (2019). They were not re-verified on 29 Sep 2026; treat them as illustrative, never as targets or current market facts (`NOT_ASSESSED`).
+- Uganda labelling: the ingredient and batch/expiry requirement in Section 5 has no source-register record; confirm with the Uganda National Bureau of Standards or the client's adviser before stating it as law (`NOT_ASSESSED`).
+- "Distinctive" in this method means different from rivals in the buyer's reasons to choose. Whether a name, colour or pack is a *distinctive asset* is measured on fame × uniqueness in the [distinctive asset audit](distinctive-asset-audit.md) (register `EBI-DISTINCTIVE-ASSETS`).
+- Blue Ocean Strategy is dated 2005 in Section 3 and 2015 in Sources: the first edition is 2005 and the expanded edition 2015 (Harvard Business Review Press).
+
+Earlier history: moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`); text unchanged. Read when running the intake, choosing the strategic quadrant and intangible type, writing the Soleness statement, building the positioning map or Blue Ocean grid, testing names, setting colour, typography and packaging direction, or planning the buyer community.
 
 ## Intake questions
 
@@ -161,7 +171,7 @@ Always choose a primary colour and one or two accent colours. Define the hex/RGB
 
 ### Typography
 
-Select one primary font family and apply it consistently. For EA social commerce: sans-serif fonts read more clearly on mobile screens. Define a hierarchy — one weight for headlines, one for body text — and apply it to every designed asset, caption overlay, and packaging label.
+Select one primary font family and apply it consistently. Typeface choice is briefed to the design engine (https://github.com/peterbamuhigire/chwezi-design-engine); this skill makes no typeface recommendation. Define a hierarchy — one weight for headlines, one for body text — and apply it to every designed asset, caption overlay, and packaging label.
 
 ### Packaging as Marketing
 
@@ -220,3 +230,4 @@ Output from this skill meets the standard if it:
 - Kelly, K. (2008) '1,000 True Fans'. True fan community model
 - [`social-commerce-strategy`](../../social-commerce-strategy/SKILL.md): EA social commerce operations and platform setup.
 - [`playbook-post-click-strategy` conversion diagnosis](../../../playbooks/playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md): CRO methodology, buyer modalities, and A/B testing.
+- Source-register IDs: `EBI-DISTINCTIVE-ASSETS` (routing note added 29 Sep 2026); the book sources above are concept inputs, not register records.

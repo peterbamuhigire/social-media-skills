@@ -84,6 +84,7 @@ Without a named client approver, return the narrowest qualified result and mark 
 | Media involvement grows during a Level 2 event | Re-classify to Level 3. | Under-resourcing an escalating crisis. |
 | The market faces an election, national event or platform block (for example Uganda) | Add the shutdown contingency: offline holding statements, an SMS or radio fallback and a paid-media pause rule (see [internet shutdown contingency](references/internet-shutdown-contingency.md)). | Going silent when mobile internet or social media is suspended. |
 | A health or NGO crisis involves misinformation, impersonation or account targeting | Load [institutional health communication and infodemic response](../../sectors/healthcare/references/institutional-health-communication-and-infodemic-response.md). | Treating an infodemic as an ordinary complaint. |
+| A fake video, cloned voice note, AI image or impersonating account about the client or its leaders is circulating | Run the [synthetic media and deepfake protocol](references/synthetic-media-and-deepfake-protocol.md): detect, verify provenance before any statement, respond, report to platforms, escalate to counsel; treat as Level 3 if it names a person, alleges a crime or touches an election. | Amplifying the fake, or calling genuine content fake. |
 | Comments turn abusive or coordinated | Hide (Instagram Hidden Words) or turn off comments on that post; delete only clear hate speech or harassment and document each action. | A Streisand effect from deleting legitimate criticism. |
 
 ## Quality Standards
@@ -111,6 +112,8 @@ Without a named client approver, return the narrowest qualified result and mark 
 
 - [Crisis response procedures](references/crisis-response-procedures.md): read when running intake, following a level's timeline, adapting holding statements, applying platform actions, running the post-crisis review or building the quick card.
 - [Internet shutdown and platform-block contingency](references/internet-shutdown-contingency.md): read when the plan covers an election period, a national event or a platform that may be blocked.
+- [Synthetic media and deepfake protocol](references/synthetic-media-and-deepfake-protocol.md): read when a deepfake, cloned voice, AI-generated image or impersonation is circulating, or the client's own AI content is challenged.
+- [CIPR crisis phases benchmark](references/crisis-response-procedures.md#8-benchmark-cipr-crisis-phases): read when checking the plan against the CIPR *Crisis Communication and Social Media* guide (2024; register `CIPR-CRISIS-SOCIAL-2024`).
 - [Institutional health communication and infodemic response](../../sectors/healthcare/references/institutional-health-communication-and-infodemic-response.md): read when a health or NGO crisis involves misinformation, impersonation or account targeting.
 - [`playbook-community-management`](../playbook-community-management/SKILL.md): read when using the standard complaint template at Level 1.
 - [`playbook-reputation-management`](../playbook-reputation-management/SKILL.md): read after the crisis when ratings and search results need rebuilding.

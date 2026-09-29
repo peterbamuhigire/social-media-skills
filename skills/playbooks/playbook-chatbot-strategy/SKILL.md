@@ -79,6 +79,7 @@ Without the client's weekly message volume and top questions, return the narrowe
 | The user asks for a sensitive, disputed or out-of-scope decision (complaint, refund, custom order, pricing negotiation) | Hand off to a named human route. | Confident automated harm. |
 | The bot runs on WhatsApp and must answer open-ended questions with an LLM | Apply the three-layer design (rules, LLM, human escalation) in [whatsapp-chatbot-design](references/whatsapp-chatbot-design.md). | Ungrounded LLM answers and missing human handoff. |
 | A WhatsApp Business API provider is needed for a Uganda client | Prefer Africa's Talking over Twilio; allow 2–4 weeks for business verification. | USD billing, no local support and a missed launch date. |
+| The bot answers on the WhatsApp Business Platform (API) | Keep bot replies inside the 24-hour customer service window the user opened; send only approved templates after it closes, and from 1 Oct 2026 budget for service replies above 1,000 a month per number (register `WHATSAPP-PRICING-2025`) | A bot that cannot reply after 24 hours, or an unbudgeted message bill |
 | An answer runs past 300 characters | Split it into two shorter messages. | Messages that fail to load on slow mobile data. |
 
 ## Quality Standards
@@ -106,6 +107,7 @@ Without the client's weekly message volume and top questions, return the narrowe
 - [WhatsApp chatbot design](references/whatsapp-chatbot-design.md): read when designing a WhatsApp chatbot with an LLM layer, social presence cues, HITL escalation triggers, a knowledge-base input and containment KPIs.
 - [`playbook-community-management`](../playbook-community-management/SKILL.md): read when setting the human side of inbox replies, tone and escalation alongside automated flows.
 - [`platform-whatsapp`](../../platforms/platform-whatsapp/SKILL.md): read when the full WhatsApp channel strategy (broadcasts, catalogue, Status) is needed beyond automation.
+- [WhatsApp Platform pricing and templates](../../platforms/platform-whatsapp/references/whatsapp-platform-pricing-and-templates.md): read when setting the customer service window, template use after it closes, or message costs for an API bot.
 - [`playbook-sms-whatsapp-marketing`](../playbook-sms-whatsapp-marketing/SKILL.md): read when planning outbound broadcast and SMS campaigns that complement inbound flows.
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when writing welcome, FAQ and handoff copy.
 - [East African English standard](../../language/east-african-english/SKILL.md): read when setting tone and greetings for East African customers.

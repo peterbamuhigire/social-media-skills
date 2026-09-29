@@ -111,7 +111,7 @@ Apply these alongside the main deliverable skill when relevant:
 
 ## Routing Rules
 
-For integrated digital marketing, start with `skills/pipeline/06-digital-marketing-strategy/SKILL.md` and its premium growth operating contract. For advertising (strategy, budget, media, creative, copy, paid search, paid social, testing, attribution), start with `skills/advertising/advertising-strategy-and-budget/SKILL.md` and route to the specific `advertising/` skill; paid social execution specifications live in `skills/playbooks/playbook-paid-social-advertising/SKILL.md`; the website handoff is `skills/advertising/ad-to-site-journey-handoff/SKILL.md`. For channel choice across all acquisition channels use `strategy/traction-channel-bullseye`; for segmentation and positioning use `strategy/marketing-foundations-stp-positioning`. Scope includes research, positioning, search, paid media, social, content, email, permissioned messaging, conversion, CRM, retention and measurement. Route builds and visual production to their canonical engines; planning text alone is not execution evidence. For professional consulting acquisition, connect `platform-linkedin` to website proof and CRM opportunity acceptance.
+For integrated digital marketing, start with `skills/pipeline/06-digital-marketing-strategy/SKILL.md` and its premium growth operating contract. For advertising (strategy, budget, media, creative, copy, paid search, paid social, testing, attribution), start with `skills/advertising/advertising-strategy-and-budget/SKILL.md` and route to the specific `advertising/` skill (marketing mix modelling to `skills/advertising/marketing-mix-modelling/SKILL.md`; programmatic, CTV, DOOH and brand safety to `skills/advertising/programmatic-and-brand-safety/SKILL.md`; brand building and distinctive assets to `skills/strategy/brand-strategy-and-distinctive-assets/SKILL.md`); paid social execution specifications live in `skills/playbooks/playbook-paid-social-advertising/SKILL.md`; the website handoff is `skills/advertising/ad-to-site-journey-handoff/SKILL.md`. For channel choice across all acquisition channels use `strategy/traction-channel-bullseye`; for segmentation and positioning use `strategy/marketing-foundations-stp-positioning`. Scope includes research, positioning, search, paid media, social, content, email, permissioned messaging, conversion, CRM, retention and measurement. Route builds and visual production to their canonical engines; planning text alone is not execution evidence. For professional consulting acquisition, connect `platform-linkedin` to website proof and CRM opportunity acceptance.
 Use the skill whose directory name and `description` most closely match the deliverable. Prefixes matter:
 
 - `biz-dev-`: credentials, proposals, pricing, outreach, practitioner positioning
@@ -127,7 +127,7 @@ Use the skill whose directory name and `description` most closely match the deli
 - `ai-`, `brand-voice-`, `prompt-`: AI strategy, prompting, automation, evaluation
 - `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`: direct content generation (hashtag strategy is part of `caption-writer`)
 - `framework-`, `peso-`, `owned-media-`, `social-commerce-`, `strategy-`: strategic frameworks and specialist strategy modules
-- `advertising/`: advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff
+- `advertising/`: advertising strategy and budget, media planning, programmatic and brand safety, marketing mix modelling, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff
 - `business-development/eac-call-for-applications-campaign`: donor-compliant calls for applications, EOIs, applicant FAQs, partner dissemination kits, fairness protocols, and evidence logs across EAC markets
 - `strategy/ecommerce-export-marketing-advisory`: export marketing plans for e-commerce companies, cross-border trust/proof layers, conversion reviews, CAC-bounded campaign outlines, and partner outreach
 
@@ -266,8 +266,8 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `platforms/` | `platform-*` per-channel plans |
 | `playbooks/` | `playbook-*` execution SOPs |
 | `policies/` | `policy-*` governance and compliance |
-| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
-| `advertising/` | Advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
+| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `brand-strategy-and-distinctive-assets`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
+| `advertising/` | Advertising strategy and budget, media planning, programmatic and brand safety, marketing mix modelling, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
 | `sectors/` | Sector-specific social media skills — `healthcare` (first); future: financial services, education, hospitality, NGO |

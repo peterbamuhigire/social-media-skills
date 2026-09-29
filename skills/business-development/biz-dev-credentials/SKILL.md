@@ -79,6 +79,7 @@ Without measurable, approved client results, return the narrowest qualified resu
 | The prospect is in a known sector (for example financial services) | Organise proof by client type and industry and put same-sector proof first. | A general mix that fails to convince this buyer. |
 | A superlative ("the best", "leading", "premier", "world-class") appears | Support it with a number or a named client result, or remove it (Sant: Fluff/Guff/Geek/Weasel Test). | Noise that reads as self-praise. |
 | Deciding what opens the pack | Lead with the most impressive client result; place credentials after the client's need is established (Sant: NOSE, Primacy Principle). | Opening with history the buyer does not care about. |
+| Platform certifications or qualifications are to be listed | List only in-date credentials held by named staff, checked against the [certification and competency register](../../playbooks/playbook-agency-operations/references/certification-and-competency-register.md); never a lapsed certificate or a Partner badge the agency does not hold. | An overstated credential found by the prospect. |
 | A client has not approved publication of its name, logo or testimonial | Anonymise with one descriptor and list it as a permission gap. | Unauthorised disclosure of a client. |
 | The Brand Asset Scorecard shows low-scoring criteria | Emphasise the strengths and offer the gaps as consultancy opportunities. | A deck that ignores what the prospect needs. |
 
@@ -107,6 +108,7 @@ Without measurable, approved client results, return the narrowest qualified resu
 - [Credentials build method](references/credentials-build-method.md): read when asking the intake questions, writing the six sections and eight slides, applying the formatting rules, the social proof taxonomy, the Brand Asset Scorecard or the persuasion principles.
 - [Case study method](references/case-study-method.md): read when one client result needs a standalone one-page case study and three-slide deck.
 - [Proposal frameworks](references/proposal-frameworks.md): read when applying NOSE, the Primacy Principle, the Fluff/Guff/Geek/Weasel Test or Hatton's Physical Evidence.
+- [Certification and competency register](../../playbooks/playbook-agency-operations/references/certification-and-competency-register.md): read when listing Google Ads, Meta or IPA credentials in the pack.
 - [`biz-dev-positioning`](../biz-dev-positioning/SKILL.md): read when the niche, promise or proof architecture is not settled.
 - [`biz-dev-proposal`](../biz-dev-proposal/SKILL.md): read when the prospect wants a costed scope of work.
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the overview, bios and slide copy.

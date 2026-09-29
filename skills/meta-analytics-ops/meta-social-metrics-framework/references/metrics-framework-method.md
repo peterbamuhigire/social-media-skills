@@ -84,7 +84,7 @@ ER = (Likes + Comments + Shares + Saves) ÷ Reach × 100
 | TikTok | 5–10% (higher due to smaller follower bases) |
 | LinkedIn | 1–3% (company pages) |
 
-Use these benchmarks when the client has no historical baseline. State benchmarks numerically; do not say "industry average" without a figure.
+These are undated engine heuristics with no source or register record (`NOT_ASSESSED` as market data). Use them only when the client has no historical baseline, label them as heuristics in the report, and replace them with the client's own baseline after three months. State benchmarks numerically; do not say "industry average" without a figure.
 
 ---
 

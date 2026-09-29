@@ -2,6 +2,8 @@
 
 Merged from skills/meta-analytics-ops/meta-ai-tools-audit on 2026-09-29 at 7c60138; preservation map: [meta-ai-tools-audit.md](../../../../docs/kaizen/consolidation-2026-09-29/preservation/meta-ai-tools-audit.md)
 
+Price status (29 Sep 2026): every USD and UGX price in this reference is a (Vendor) list price copied from undated sources; none was re-read on 29 Sep 2026, so each is `NOT_ASSESSED` and illustrative, never a quotation. Open the vendor pricing page on the proposal date, record the date, and convert to UGX at that day's rate. Where a free tier is claimed, confirm it still exists (for example, Brand24 and Mention offered trials only, no free plan, on 29 Sep 2026; registers `BRAND24-PRICING-2026`, `MENTION-PRICING-2026`).
+
 ## When to use this reference
 
 Use it when the stack evaluation must cover AI marketing tools: auditing the AI tools a client already uses, or recommending an AI tool stack by function, calibrated to Uganda and East African budgets, payment infrastructure and team capacity. It maps every tool by function, rates EA accessibility explicitly and delivers a recommended stack for the client's budget profile. It draws on Johnsen (2024) and Upadhyay (2024).

@@ -226,7 +226,7 @@ For Uganda/EA: Kampala is typically the highest-density and highest-intent urban
 | TikTok | Hero TikTok video | [Days] | [Interest-based] | |
 | Total | | | | |
 
-Minimum effective boost spend on Facebook/Instagram in Uganda: approximately UGX 20,000–50,000 per day for meaningful reach (2,000–5,000 people). Below this threshold, results are negligible.
+Minimum effective boost spend on Facebook/Instagram in Uganda: the engine's older house heuristic is about UGX 20,000–50,000 per day for 2,000–5,000 people reached; it has no source or date (`NOT_ASSESSED`). Before stating a minimum, read the estimated daily reach that Ads Manager shows for the client's real audience, placement and budget, and quote that estimate with its date.
 
 ---
 

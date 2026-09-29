@@ -44,7 +44,7 @@ Produces the written monthly report a business owner can read without digital ma
 3. Build one KPI table per active platform with last month, this month, target, RAG status and change %, removing tables for inactive platforms.
 4. Write the period summary (what happened, the most significant achievement or challenge, the strategic implication), following Insight → Context → Recommendation in every section.
 5. Write top 3 posts, what worked (3 bullets), what did not work (2 bullets with fixes), next month's tests (2–3) and paid performance, then 3–5 recommendations tied to this month's data.
-6. For a standing dashboard use [dashboard specification](references/dashboard-specification.md); for a quarterly review, baseline or decline diagnosis use [quarterly marketing mix review](references/quarterly-marketing-mix-review.md).
+6. For a standing dashboard use [dashboard specification](references/dashboard-specification.md); for a quarterly review, baseline or decline diagnosis use [quarterly marketing mix review](references/quarterly-marketing-mix-review.md); at campaign end, or when outcomes, brand tracking or Google AI-feature traffic must be reported, use [effectiveness-ladder review](references/effectiveness-ladder-review.md) and report the highest rung proved.
 7. Run the quality standards and the anti-slop gate; correct any RAG status, unsupported recommendation or missing footer and rerun the check. Withhold the report while it rests on corrupted or unverified data.
 
 ## Outputs
@@ -110,6 +110,7 @@ Without verified platform exports and agreed targets, return the narrowest quali
 - [Monthly report template](references/monthly-report-template.md): read when collecting intake, applying the reporting principles (Kahan (2022) funnel CVR benchmarks, first-touch revenue by channel, mobile standard), writing the report sections, platform tables, footer, or the RACE framework (Chaffey and Ellis-Chadwick, 2022).
 - [Dashboard specification](references/dashboard-specification.md): read when specifying a client dashboard: chart choice, mobile-first layout, RAG scorecard, tool choice, vanity-metric flags.
 - [Quarterly marketing mix review](references/quarterly-marketing-mix-review.md): read when running a quarterly 7 Ps diagnostic, new-account baseline or cause-of-decline review.
+- [Effectiveness-ladder review](references/effectiveness-ladder-review.md): read when running a post-campaign review, reporting outcomes on the ladder, pointing to brand tracking or reporting Google AI-feature traffic from Search Console.
 - [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md): read when assembling the evidence behind the report or handing over for a deck.
 - [`meta-social-metrics-framework`](../meta-social-metrics-framework/SKILL.md): read when KPIs, owners or targets are not yet agreed.
 - [`05-social-media-strategy`](../../pipeline/05-social-media-strategy/SKILL.md): read when the review shows the strategy needs rewriting.

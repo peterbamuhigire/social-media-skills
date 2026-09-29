@@ -244,14 +244,14 @@ Branded hashtags are permanent. Community hashtags are refreshed monthly. Campai
 
 | Platform | Recommended | Maximum | Notes |
 |---|---|---|---|
-| Instagram | 3–5 | 5 | End of caption; cap per INSTAGRAM-HASHTAG-LIMIT-2025 (partial), confirm live; the original skill's figures were 5–10 recommended / 30 maximum |
+| Instagram | 3–5 | 5 | End of caption; cap of five per INSTAGRAM-HASHTAG-LIMIT-PRIMARY (Instagram @creators, 18 Dec 2025); the original skill's figures were 5–10 recommended / 30 maximum and are withdrawn |
 | Facebook | 2–3 | 5 | Fewer hashtags perform better on Facebook |
 | LinkedIn | 3–5 | 5 | Industry and professional topic hashtags only |
 | TikTok | 3–5 | 8 | Include at least one trending hashtag where relevant |
 | X / Twitter | 1–2 | 2 | Embedded in the sentence where possible |
 | WhatsApp | 0 | 0 | No hashtags in WhatsApp messages |
 
-Currency warning: Instagram said in December 2025 that it would gradually cap captions on posts and Reels at five hashtags (Social Media Today, 18 Dec 2025, reporting an Instagram @creators statement; register INSTAGRAM-HASHTAG-LIMIT-2025, partial). Until the primary statement is confirmed, set Instagram to a maximum of 5 in the client's guide and confirm on the live platform before release.
+Currency warning: Instagram said in December 2025 that it would gradually cap captions on posts and Reels at five hashtags (Social Media Today, 18 Dec 2025, reporting an Instagram @creators statement; register INSTAGRAM-HASHTAG-LIMIT-2025, partial). The primary statement is now confirmed (register INSTAGRAM-HASHTAG-LIMIT-PRIMARY, read 29 Sep 2026): set Instagram to a maximum of 5 in the client's guide. Whether the gradual rollout has reached every account is `NOT_ASSESSED`; check the client's account before release.
 
 **6.5 Hashtag research process** — before adding a new hashtag to the rotation:
 

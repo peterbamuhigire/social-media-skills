@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+> Inactive alias. Route to skills/strategy/brand-strategy-and-distinctive-assets through docs/skill-aliases.yml; content preserved in brand-strategy-and-distinctive-assets/references/ecommerce-differentiation.md. Retained for historical content.
+
 # Ecommerce Brand Differentiation
 
 Turns an online shop that competes only on price into a brand buyers choose on purpose: a strategic quadrant, an intangible type, a Soleness statement, names, packaging and a buyer community. Only 25% of brands are perceived as genuinely distinctive by their customers (Verma, 2019).

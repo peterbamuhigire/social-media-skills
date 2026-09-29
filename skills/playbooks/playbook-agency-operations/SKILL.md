@@ -80,6 +80,8 @@ Without the owner's team size, client count and retainer range, return the narro
 | Client has not approved content by the stated deadline | Reschedule the items to the following week; bill revisions beyond two rounds at UGX 30,000 per post. | Publishing unapproved work and unpaid scope creep. |
 | A tax threshold, VAT or withholding figure is requested | Route to `chwezi-accounting-doctrine` and current URA or KRA guidance; state no figure from memory. | Wrong tax advice after a Finance Act change. |
 | A dormant contact list is proposed for database reactivation | Apply the compliance gate first: lawful basis, opt-out in every message, registration where required (PL-01, PL-02). | Unlawful messaging and platform bans. |
+| A contract is drafted or renewed, or the agency buys media for a client | Apply [commercial governance and contracts](references/commercial-governance-and-contracts.md): CSFA 2025 and ANA 2023 as reference models, audit rights, written opt-in for any non-transparent or principal media, disclosed rebates, the AI schedule (registers `ISBA-IPA-CSFA-2025`, `ANA-MEDIA-CONTRACT-2023`). | Hidden margins, audit disputes and unlicensed AI use. |
+| Someone runs a client ad account, or credentials go into a pitch | Check the [certification and competency register](references/certification-and-competency-register.md): current Google Ads (one-year validity) and Meta certifications, reminder 30 days before expiry (registers `GOOGLE-ADS-CERTIFICATIONS`, `META-CERTIFICATION`). | Lapsed or overstated credentials. |
 | Monthly CRR falls below 90% | Run a retention review before new acquisition spend (engine policy). | Filling a leaking bucket. |
 
 ## Quality Standards
@@ -109,6 +111,8 @@ Without the owner's team size, client count and retainer range, return the narro
 - [Agency growth roadmap](references/agency-growth-roadmap.md): read when planning growth stages, niche, programmes, pricing, hiring and retention rituals.
 - [Agency economics and governance](references/agency-economics-and-governance.md): read when setting margins, client concentration limits, team structure, creative reviews, meetings and asset management.
 - [White-label and partner delivery](references/white-label-and-partner-delivery.md): read when evaluating, pricing, contracting, briefing or exiting a white-label or sub-contracting partnership with another agency.
+- [Commercial governance and contracts](references/commercial-governance-and-contracts.md): read when drafting agency–client agreements, audit and transparency terms, principal-media disclosure or AI terms, and when explaining which UK/US frameworks are reference models for East Africa.
+- [Certification and competency register](references/certification-and-competency-register.md): read when tracking Google Ads, Meta and IPA credentials, planning effectiveness training or mapping staff to the CIM 2024 competencies.
 - [`01-client-brief`](../../pipeline/01-client-brief/SKILL.md): read when capturing client context at Day 1–3 of onboarding.
 - [`meta-reporting`](../../meta-analytics-ops/meta-reporting/SKILL.md): read when producing monthly and quarterly reports.
 - [`meta-roi-framework`](../../meta-analytics-ops/meta-roi-framework/SKILL.md): read when calculating return on retainer for quarterly and annual reviews.

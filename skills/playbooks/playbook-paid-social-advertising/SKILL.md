@@ -110,9 +110,11 @@ Without account access, current platform checks or working tracking, return the 
 ## References
 
 - [Paid social planning method](references/paid-social-planning-method.md): read when asking the intake questions, mapping goals to objectives, setting the 50/30/20 temperature split, budgets and pacing, click-to-WhatsApp ads, the monthly report structure, or the Cooper (2019) and Marshall (2024) sources and register list.
+- [AI transparency and provenance](../../policies/policy-ai-content-ethics/references/ai-transparency-and-provenance.md): read when an ad uses AI-generated or AI-altered people, voices or scenes (disclosure table §3, platform labels §6).
 - [Meta campaign build spec](references/meta-campaign-build-spec.md): read when choosing objectives, structure, audiences, tracking and specs on Meta.
 - [Paid social diagnostics and reporting](references/paid-social-diagnostics-and-reporting.md): read for weekly optimisation, kill/scale decisions and monthly reports.
 - [TikTok and LinkedIn paid notes](references/tiktok-and-linkedin-paid-notes.md): read when either platform is in scope.
+- [Long/short balance and reach](../../strategy/brand-strategy-and-distinctive-assets/references/long-short-balance-and-reach.md): read when B2B paid social must reach out-of-market buyers (95:5, register `LINKEDIN-B2B-95-5`) as well as the in-market few, or when splitting brand and activation budgets.
 - [Ad testing and scaling](../../advertising/ad-testing-and-scaling/SKILL.md), [ad copy and hook lab](../../advertising/ad-copy-and-hook-lab/SKILL.md) and [creative brief and big idea](../../advertising/creative-brief-and-big-idea/SKILL.md): read when writing the test plan, ad copy or creative briefs.
 - [Ad-to-site journey handoff](../../advertising/ad-to-site-journey-handoff/SKILL.md), [post-click strategy](../playbook-post-click-strategy/SKILL.md) and [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md): read when specifying the destination and tracking.
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md), [creative review gate](../../../docs/quality-gates/creative-review-gate.md) and [anti-AI-slop gate](../../ai-marketing/anti-ai-slop/SKILL.md): read before releasing any plan with special-category, disclosure or copy claims.

@@ -22,7 +22,7 @@ A landing page is a page that is not the home page, built to elicit one key acti
 | Form spec | Fields actually used by sales; one qualifying question if needed; consent text; privacy link; no pre-ticked boxes |
 | Thank-you / confirmation state | What happens next, when, by whom; conversion fires here |
 | Mandatories | Legal lines, disclosures, regulated-category text |
-| Mobile and speed acceptance | CW-01 Core Web Vitals targets and CW-04 stress profile; owned and reported by the web team |
+| Mobile and speed acceptance | Core Web Vitals "good" at the 75th percentile of page loads, mobile and desktop separately: LCP ≤ 2.5 s, INP ≤ 200 ms, CLS ≤ 0.1 (CW-01; register `WEBDEV-CORE-WEB-VITALS`; INP replaced FID on 12 Mar 2024, register `WEBDEV-INP-CWV-2024`), plus the CW-04 stress profile; owned, built and reported by the web team via [website-skills](https://github.com/peterbamuhigire/website-skills) |
 | Accessibility acceptance | WCAG 2.2 AA (CW-05); captions, alt text, contrast |
 | Languages | Transcreated versions and reviewers |
 | Variants for testing | Which element varies (headline, proof order, offer) |

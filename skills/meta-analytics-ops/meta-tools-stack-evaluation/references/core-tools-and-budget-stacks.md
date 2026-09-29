@@ -2,6 +2,8 @@
 
 Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`); text unchanged. Read when running the seven-question intake, applying the five tool stack principles, looking up the core tool tables (scheduling, design, analytics, email, CRM, project management), choosing the zero, Starter or Growth stack, applying the five-question tool test, or laying out the tools evaluation document.
 
+Price status (29 Sep 2026): every USD and UGX price in this reference is a (Vendor) list price copied from undated sources; none was re-read on 29 Sep 2026, so each is `NOT_ASSESSED` and illustrative, never a quotation. Open the vendor pricing page on the proposal date, record the date, and convert to UGX at that day's rate. Where a free tier is claimed, confirm it still exists (for example, Brand24 and Mention offered trials only, no free plan, on 29 Sep 2026; registers `BRAND24-PRICING-2026`, `MENTION-PRICING-2026`).
+
 ## Required Input
 
 Ask for all of the following before generating any output:

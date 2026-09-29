@@ -12,9 +12,10 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 110
+  current_active_skill_count: 112
   # The S02-S07 consolidation window (key `consolidation_until`) closed in S07 at 110 active
-  # skills; from now on cap-exceeded is enforced strictly (S07-T-CAP).
+  # skills; from now on cap-exceeded is enforced strictly (S07-T-CAP). S10 added three NEW skills
+  # (G01-G03) and merged ecommerce-brand-differentiation into the brand skill: 110 + 3 - 1 = 112.
   do_not_move_or_delete_skill_directories_from_registry_work: true
 inactive_alias_file: ALIAS.md
 # Keys and values are skill directories relative to the repository root, for example
@@ -102,3 +103,4 @@ inactive_skill_aliases:
   skills/playbooks/playbook-white-label-partnerships: skills/playbooks/playbook-agency-operations
   skills/training/training-ai-prompt-writing: skills/training/training-ai-foundations
   skills/training/training-diy-content: skills/training/training-client-team
+  skills/strategy/ecommerce-brand-differentiation: skills/strategy/brand-strategy-and-distinctive-assets

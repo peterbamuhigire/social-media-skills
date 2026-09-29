@@ -150,16 +150,14 @@ Conduct manual searches on each platform weekly. This is the most reliable way t
 
 ---
 
-### Brand24 or Mention (Freemium)
+### Brand24 or Mention (paid, trial only)
 
-Use Brand24 (brand24.com) or Mention (mention.com) for automated mention tracking. Both offer free tiers adequate for small clients starting out.
+Use Brand24 (brand24.com) or Mention (mention.com) for automated mention tracking once the client can pay for it. On 29 Sep 2026 neither offered a permanent free plan: Brand24 offers a 14-day trial with no card and Mention a free trial (registers `BRAND24-PRICING-2026`, `MENTION-PRICING-2026`). For a small client with no tool budget, use the free starter stack (Google Alerts, Talkwalker Alerts, native platform search) instead.
 
-**Brand24 free tier:** monitors up to 3 keywords; shows a limited number of recent mentions. Set up: brand name, primary competitor name, primary industry keyword.
-
-**Mention free tier:** 250 mentions per month. Set up the same 3 keywords.
+**Keywords for a trial or paid project:** brand name, primary competitor name, primary industry keyword. (Older "free tier" limits for Brand24 and Mention in the source are withdrawn: neither tool offered a free plan on 29 Sep 2026.)
 
 **Setup steps (Brand24 example):**
-1. Create a free account at brand24.com
+1. Start the 14-day trial at brand24.com (use it to prove value before the client buys)
 2. Click "New project"
 3. Enter the client business name as the project name
 4. Add keyword 1: exact brand name (with quotation marks for exact match)
@@ -169,7 +167,7 @@ Use Brand24 (brand24.com) or Mention (mention.com) for automated mention trackin
 8. Connect the dashboard email notifications to the client or agency email
 9. Review the dashboard weekly
 
-**Budget note:** Paid tiers for Brand24 start at approximately $49 per month (approximately UGX 180,000). Flag this to the client. For most small EA clients, the free tier combined with native platform search is sufficient until monthly social media revenue warrants the upgrade.
+**Budget note (Vendor list prices, read 29 Sep 2026; register `BRAND24-PRICING-2026`):** Brand24 plans started at USD 199 a month billed annually (USD 249 billed monthly); the older "USD 49 a month" figure is withdrawn. Convert to UGX at the rate on the quotation date. For most small EA clients the free starter stack plus native platform search is sufficient until social revenue justifies the subscription.
 
 ---
 
