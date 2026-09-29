@@ -2,7 +2,7 @@ schema_version: "1.0"
 engine_id: social-media-skills
 display_name: Digital Marketing and Advertising (social-media-skills)
 contract_version: "1.0"
-version: "1.1.0"
+version: "1.2.0"
 router:
   path: AGENTS.md
 skills:
