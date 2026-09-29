@@ -67,7 +67,7 @@ Follow with a tone-scale statement, marking the brand's position with **[HERE]**
 Formal ←————————[HERE]————————→ Informal
 ```
 
-**1.2 Brand voice summary.** One paragraph (5–7 sentences) every new team member reads before writing a word for this client. Describe the voice as a person: who they are, what they say, what they never say. It must be impossible to apply to a different brand without rewriting. (Same requirement as the parent SKILL.md "Brand Voice Summary Paragraph"; reuse that paragraph if it exists.)
+**1.2 Brand voice summary.** One paragraph (5–7 sentences) every new team member reads before writing a word for this client. Describe the voice as a person: who they are, what they say, what they never say. It must be impossible to apply to a different brand without rewriting. (Same requirement as [voice-guide-section-templates.md § Brand Voice Summary Paragraph](voice-guide-section-templates.md); reuse that paragraph if it exists.)
 
 ### SECTION 2: PLATFORM-BY-PLATFORM TONE GUIDE
 
@@ -83,7 +83,7 @@ Rules:
 Example post: [Worked example using this client's actual product or service — not a generic placeholder]
 ```
 
-Default tone per platform (three rules each in the guide, against two in the parent SKILL.md Section 2):
+Default tone per platform (three rules each in the guide, against two in [voice-guide-section-templates.md § Section 2: Platform Tone Adjustments](voice-guide-section-templates.md)):
 
 | Platform | Default tone and rules |
 |---|---|
@@ -102,7 +102,7 @@ Default tone per platform (three rules each in the guide, against two in the par
 |---|---|
 | [Term] | [One-line rationale] |
 
-**3.2 Words and phrases to avoid** — 10–15 terms: overused marketing clichés, off-brand language, competitor terms and anything that conflicts with the tone attributes. Always include the standard East African avoid list: "groundbreaking", "revolutionary", "game-changing", "amazing", "awesome", "unleash", "skyrocket" (the same list as the parent SKILL.md Section 3).
+**3.2 Words and phrases to avoid** — 10–15 terms: overused marketing clichés, off-brand language, competitor terms and anything that conflicts with the tone attributes. Always include the standard East African avoid list: "groundbreaking", "revolutionary", "game-changing", "amazing", "awesome", "unleash", "skyrocket" (the same list as [voice-guide-section-templates.md § Section 3: Vocabulary List](voice-guide-section-templates.md)).
 
 | Word or phrase | Why to avoid |
 |---|---|
@@ -176,7 +176,7 @@ Open with a one-sentence emoji philosophy (e.g. "This brand uses emojis function
 - **Stories and Reels:** [Logo in corner / No watermark — platform adds brand tag automatically]
 - **Video intro/outro:** [Duration — e.g. 2-second branded end card on all videos over 60 seconds]
 
-**5.3 Colour palette** (same six roles as the parent SKILL.md "Colour Palette Usage"; fill with the client's actual codes):
+**5.3 Colour palette** (same six roles as [voice-guide-section-templates.md § Colour Palette Usage](voice-guide-section-templates.md); fill with the client's actual codes):
 
 | Colour role | Hex code or description | When to use |
 |---|---|---|

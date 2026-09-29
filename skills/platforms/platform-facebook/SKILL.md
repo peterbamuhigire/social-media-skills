@@ -9,6 +9,8 @@ metadata:
 ---
 # Facebook Presence Plan
 
+Plans a Facebook Page, groups and Messenger around real enquiries the team can serve, for the client owner and delivery team.
+
 <!-- dual-compat-start -->
 ## Use When
 - Followers react to posts but few send messages, call or order, and the client wants a plan that turns followers into enquiries.
@@ -23,120 +25,90 @@ metadata:
 - Stop before posting, boosting or changing Page settings without the client's authority; deliver the plan and changes for approval.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Client objective, audience and offer | Approved brief or client interview | Yes | Stop and request the missing decision; do not invent it |
-| Current account and content evidence | Native account export, screenshots or supplied audit | Conditional | Mark the account baseline unassessed and qualify recommendations |
-| Current platform rules and feature limits | Official Facebook help or policy source | Conditional | Omit volatile specifications or flag them for live verification |
+| Objective, audience, service area, offer and buying path | Approved brief or client interview | Yes | Stop; do not infer platform penetration or customer behaviour from a regional stereotype. |
+| Page export, insights or screenshots and existing assets | Page admin or supplied audit | Conditional | Mark the Page baseline `not assessed` and return a set-up plan with labelled assumptions. |
+| Team capacity, working hours and response owner | Client operations lead | Yes | Cap the plan at one reviewable learning cycle and name the gap. |
+| Current Page controls, CTA options and connected messaging (Messenger, WhatsApp) | Official Facebook help or the Page itself | Conditional | Omit dimensions and feature claims or flag them for live verification. |
+| Uganda access status on the campaign date | Register UG-FACEBOOK-ACCESS-2026 and a same-day check | If the plan targets Uganda | Treat access as unstable and route time-critical messages to WhatsApp, Instagram or SMS. |
+
+## Workflow
+
+1. Confirm objective, market, decision owner and permission boundary; stop if the objective or owner is missing, or if the job is paid Meta campaigns.
+2. Review the Page description, contact and service details, proof assets and primary next step against the account evidence; preserve working assets.
+3. Choose formats and decide whether a group is justified, using the [Page, community and enquiry method](references/facebook-page-community-and-enquiry-method.md) and [the channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md).
+4. Design the enquiry route (website, telephone, Messenger or WhatsApp) with recipient, confirmation, failure recovery, working hours, response commitment and a response decision tree; test it end to end.
+5. For a Uganda plan, verify access on the campaign date against UG-FACEBOOK-ACCESS-2026 and name the fallback channel for every time-critical message.
+6. Build the thirty-day pilot to agreed capacity: each unit's audience question, source, format, creative direction, owner, destination and review date.
+7. Check paid readiness (objective, audience, offer, policy, tracking, destination, budget authority, sales/service readiness) before any boost is proposed.
+8. Run the quality and anti-slop gates; correct any failed check and rerun it before handing the plan over for approval.
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Facebook channel plan: Page review, format and group choices, posting rhythm | Client owner and delivery team | Each choice ties to the named audience, objective and account evidence; no fixed content ratio or reach guarantee. |
+| Enquiry and service handoff map with response decision tree | Sales or service lead | Route tested end to end; recipient, hours, response commitment and escalation named. |
+| Thirty-day pilot and paid-readiness checklist | Client owner; `playbook-paid-social-advertising` | Every unit has an owner, destination and review date; paid items list the unmet readiness conditions. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Platform verification log (feature, source, date, Uganda access check) | Table in the plan | Every volatile control or access claim has a dated source or is marked `not assessed`. |
+| Enquiry-route test record | Checklist with test date and result | Shows the message reached the named recipient and the confirmation fired. |
+| Pilot review record | Table: qualified enquiries, service outcomes, accepted opportunities, contribution, reach | Attention and sales outcomes reported separately. |
 
 ## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Unpublishing a live Page, boosting and changing Page settings are never routine set-up steps.
 
 ## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Facebook channel plan plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+Without Page evidence or a confirmed response owner, return the narrowest qualified result and mark the affected checks `not assessed`. A set-up plan, enquiry-route design and pilot template can still be delivered with assumptions labelled.
 
 ## Decision Rules
+
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A peer-to-peer community is the primary need | Use a Group with named moderation rules; retain the Page as the official identity | Mixing official notices with unmanaged member discussion |
-| Account is absent or not accessible | Produce a setup plan with assumptions labelled | False optimisation against invented history |
-| Evidence shows an established account | Prioritise measured gaps and retained strengths | Destructive reset of working assets |
-| A rule, limit or feature is time-sensitive | Verify against the official platform source before stating it | Stale platform advice |
+| No Page exists or admin access is unavailable | Produce a Page set-up plan with assumptions labelled | False optimisation against invented history |
+| Page evidence shows an established audience | Prioritise measured gaps and retain what already works | Destructive reset of working assets |
+| A Page control, CTA, dimension or messaging feature is time-sensitive | Verify it against official Facebook help before stating it | Stale platform advice |
 | The plan targets Uganda | State Facebook's status as unstable and verify access on the campaign date; keep a WhatsApp, Instagram or SMS fallback for any time-critical message (register UG-FACEBOOK-ACCESS-2026: access reported restored on 13 Jun 2026 after the January 2021 block, no UCC statement found) | Asserting that Facebook is either blocked or open on stale evidence |
-
-## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply [the channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md), the platform decisions below and the verified account evidence; draft a capacity-based plan with an accountable conversion path.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
-
-## Outputs
-| Artefact | Consumer | Acceptance condition |
-|---|---|---|
-| Facebook channel plan | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
-
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| Posts produce messages the team cannot answer accurately (stock, delivery, price) | Repair catalogue/service information and response ownership before increasing reach | Paying for attention the operation cannot convert |
+| A complaint, safety, legal or reputational issue arrives | Acknowledge and investigate; protect private details; escalate; moderate abuse and spam consistently | Public mishandling and synthetic-warmth replies |
+| Boosting is proposed | Verify every paid-readiness condition and separate a creative test from an offer test | Spend before the offer and service are ready |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- Page review covers description, contact/service information, proof assets and primary next step, with each change sourced.
+- Format and group choices state the reader's job they serve; no fixed content ratio, reach ceiling or universal link penalty appears.
+- Any group has membership, privacy, topics, promotion rules, escalation and a named moderator.
+- The enquiry route records recipient, confirmation, failure recovery, working hours and response commitment, and collects only necessary information.
+- Posting times come from account evidence or a bounded test; no weekly quota is presented as an algorithm requirement.
+- Uganda plans cite UG-FACEBOOK-ACCESS-2026 and name a fallback channel for time-critical messages.
+- Reports separate qualified enquiries, service outcomes, accepted opportunities and contribution from reach and interactions.
+- British English; worked examples are labelled scenarios, not client evidence.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Treating group membership as a prospect list. Fix: participate within each group's rules and invite people to the Page or enquiry route.
+- Removing legitimate criticism because it mentions a competitor. Fix: moderate only abuse and spam, consistently and by published rules.
+- Claiming a message came from the post it followed. Fix: report the enquiry as observed and state the attribution limit.
+- Choosing a scheduling tool on assumed reach penalties. Fix: require current authorised integration evidence.
+- Stating that Facebook is blocked or open in Uganda from memory. Fix: check UG-FACEBOOK-ACCESS-2026 and verify on the campaign date.
+- Forcing humour or a comment prompt into every caption. Fix: give the context the content needs and stop.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Facebook Page, community and enquiry method](references/facebook-page-community-and-enquiry-method.md): read when reviewing the Page, choosing formats or groups, designing the enquiry handoff, or building the pilot and paid-readiness check.
+- [Channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md): read when planning production, creators, community, paid readiness and commercial measurement.
+- [`playbook-paid-social-advertising`](../../playbooks/playbook-paid-social-advertising/SKILL.md): read when the plan moves to paid Meta campaigns.
+- [`platform-whatsapp`](../platform-whatsapp/SKILL.md): read when WhatsApp is the enquiry handoff or the Uganda fallback channel.
+- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the plan states Facebook's access status in Uganda.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting captions and replies.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when setting reply tone and spelling.
 <!-- dual-compat-end -->
-
-## Page, community and conversion plan
-
-Confirm the business identity, audience, service area, objective, source assets,
-existing account evidence, team capacity and buying path. Do not infer local
-platform penetration or customer behaviour from a regional stereotype.
-
-Review the Page's accurate description, current contact/service information,
-proof assets and primary next step. Verify current controls, dimensions, CTA
-availability and connected messaging options before specifying setup. Preserve
-working assets; do not unpublish a live Page as a routine setup instruction.
-
-## Creative and community choices
-
-Choose image, video, link, Story, event or discussion formats according to the
-reader's job and production evidence. Use original demonstrations, accurate
-offer details, permissioned cases and useful answers. A caption should give
-the context the content needs; it need not force humour or a comment prompt.
-Reject fixed content ratios, guaranteed reach ceilings and universal link penalties.
-
-Create a group only when members have a recurring purpose and a moderator can
-support it. Define membership, privacy, topics, promotion rules and escalation.
-Participate in existing groups within their rules; membership is not a prospect
-list. Do not remove legitimate criticism simply because it mentions a competitor.
-
-## Enquiry and service handoff
-
-Choose website, telephone, Messenger or WhatsApp from audience preference and
-actual operating capacity. Verify current product availability and authorised
-connections. Test the whole enquiry route and record recipient, confirmation,
-failure recovery, working hours and response commitment. Collect only necessary
-information. A message arriving after a post is not proof that the post caused it.
-
-Use a response decision tree: answer routine questions; acknowledge and investigate
-complaints; protect private details; escalate safety, legal or reputational issues;
-moderate abuse/spam consistently. Promise a next action you can honour, not an
-automatic resolution. Adapt replies to the issue rather than using synthetic warmth.
-
-## Pilot, paid readiness and reporting
-
-Build a thirty-day plan only to the agreed capacity, with each unit's audience
-question, source, format, creative direction, owner, destination and review.
-Choose posting times from available account evidence and a bounded test. No
-minimum weekly quota is an algorithm requirement. Scheduling-tool choices need
-current authorised integration evidence, not assumed reach penalties.
-
-Before paid activity, verify objective, audience, offer, policy, tracking,
-destination, budget authority and sales/service readiness. Separate a test of
-creative from a test of the offer. Report qualified enquiries, service outcomes,
-accepted opportunities and contribution alongside reach and interactions.
-
-## Worked example and acceptance
-
-A retail post produces many messages but the team cannot quote stock or delivery
-accurately. Repair catalogue/service information and response ownership before
-increasing reach. The plan passes when an operator can fulfil the promised next
-step, each claim is sourced, and the report distinguishes attention from sales.
-
-## Operational reference
-
-- [Channel creative and service lab](../../pipeline/06-digital-marketing-strategy/references/channel-creative-and-service-lab.md) — production, creators, community, paid readiness and commercial measurement.

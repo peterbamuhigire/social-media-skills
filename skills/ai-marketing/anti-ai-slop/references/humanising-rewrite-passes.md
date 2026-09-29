@@ -260,8 +260,8 @@ A humanised piece is ready when:
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson.
-- Ching, J. and Mothi, N. (2025): cultural bias audit; IP and copyright guidance; transparency spectrum; "ineffable something" test citing Tyler Cowen (2024).
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+- Ching, V. and Mothi, D. (2025): cultural bias audit; IP and copyright guidance; transparency spectrum; "ineffable something" test citing Tyler Cowen (2024).
 - Evelyn, A. (2025): hallucination management gate.
 - Johnsen, S. (2024): AI as creative partner.
 - Ltifi, M. (2024): uncanny valley in text; micro-moment register matching.

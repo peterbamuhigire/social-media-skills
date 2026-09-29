@@ -4,7 +4,7 @@ This repository uses the July 2026 portable composition contract. The standard a
 
 ## Entrypoint contract
 
-- Keep `SKILL.md` at or below 500 lines and move long curricula, catalogues, schemas, and case material into directly linked `references/` files.
+- Keep `SKILL.md` at or below 300 lines (the `line_budget` validator finding, Social Kaizen S09, D-SK-06) and aim for 120-220 lines; the catalogue median must stay at or below 200. Move procedures longer than about 25 lines, catalogues, schemas, examples, platform tables and case material into directly linked `references/` files, each linked with a "read when" note. Decision rows, quality checks and anti-patterns stay in `SKILL.md`.
 - Use YAML keys supported by the canonical contract: `name`, `description`, `license`, `allowed-tools`, and `metadata`. The directory-matching `name`, single-line `description`, and portable `metadata` are mandatory here.
 - Begin descriptions with `Use when`, keep them at or below 350 characters, and distinguish the closest neighbouring route.
 - Follow the routing-text formula (Social Kaizen S08): `Use when <client-language trigger>; produces <named artefact>; not for <neighbour job> (use `<neighbour-id>`).` `Use When` holds 3-6 triggers in the client's words; `Do Not Use When` names 2-4 neighbours by id plus one stop condition. The validator enforces this as `description_template`, `description_formula`, `use_when_template`, `description_neighbour_unknown` and `do_not_use_neighbour_unknown`; each "not for" neighbour needs an owned-negative fixture (`negative_for`) in `tests/routing-fixtures.json`.
@@ -19,6 +19,29 @@ Inputs name the artefact, source/provider, requirement, and missing-input behavi
 Analysis, audit, critique, review, planning, and diagnostics default to read-only. Publishing, outreach, spend, production mutation, destructive work, personal-data processing, and certification claims require explicit authority. Degraded mode returns the narrowest useful qualified result and marks unavailable checks `not assessed`.
 
 Decision tables name the condition, action, and failure or risk avoided. Workflows include ordered decisions, stop conditions, and correction or rerun behaviour. Anti-patterns contain at least five concrete failures, each paired with `Fix:`.
+
+## Lean template and budgets (D-SK-06)
+
+Every active skill follows [the lean template](../templates/SKILL.template.md): the twelve contract sections above, written as domain decisions, with depth one link away in `references/`. Generic contract prose repeated from skill to skill is not allowed; only the canonical sentences below may repeat verbatim.
+
+| Measure | Budget |
+|---|---|
+| `SKILL.md` length | 120-220 lines; catalogue median at or below 200; hard ceiling 300 (`line_budget`) |
+| Required Inputs / Outputs / Evidence Produced rows | at most 6 / 5 / 4 |
+| Workflow | 5-9 domain steps; one names the stop condition, one the correction and rerun |
+| Decision Rules | 4-8 domain rows |
+| Quality Standards | 4-8 observable checks |
+| Anti-Patterns | 5-7 domain failures, each with `Fix:` |
+| Shared-line ratio | gated median at or below 12 % (`scripts/measure_skill_scaffolding.py --max-median 12`) |
+
+**Canonical sentences (the allow-list).** These are allowed verbatim in every skill and are excluded from the shared-line ratio:
+
+- Capability and Permission Boundaries: "Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority." A skill may add one domain sentence after it.
+- Degraded Mode: "Without <the domain's critical input>, return the narrowest qualified result and mark the affected checks `not assessed`." followed by one domain clause.
+
+The meter also excludes the structural lines the validator requires: frontmatter keys, the dual-compat markers, headings, table separator rows and the four contract table header rows (`| Artefact | Source/provider | Required? | If absent |`, `| Artefact | Consumer | Acceptance condition |`, `| Evidence | Format | Acceptance condition |`, `| Condition | Action | Failure or risk avoided |`). Its `raw` figure, which counts every line, is reported alongside for comparison with the plan-time baseline.
+
+**Moving content to `references/`.** A move keeps every decision rule, figure, citation and register ID. The reference starts with a provenance line ("Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026)"), and each moved block is recorded in the phase's preservation log. Nothing is deleted except generic contract prose that the canonical sentences or the domain-specific contract sections replace.
 
 ## Source material and copyright
 

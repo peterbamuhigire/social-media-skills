@@ -36,7 +36,7 @@ Ask for the following before producing any output:
 
 ## Principles
 
-**The 90/90 rule (Bly, 2018).** 90% of list subscribers who will ever buy do so within 90 days of joining. The welcome and early nurture period, the first 12 weeks, is therefore the highest-value part of the programme. The SKILL.md `7A` section sets the matching cadence; this reference applies it to the build.
+**The 90/90 rule (Bly, 2018).** 90% of list subscribers who will ever buy do so within 90 days of joining. The welcome and early nurture period, the first 12 weeks, is therefore the highest-value part of the programme. The [strategy-document-sections.md § 7A. Strategic Email Programme Principles](strategy-document-sections.md) section sets the matching cadence; this reference applies it to the build.
 
 **Content-to-sales ratio.** At least 50% of all emails sent must be pure content (education, insight, entertainment or community) with no promotional intent at all. Past that point unsubscribe rates rise and list health deteriorates. The ratio builds trust, which is the precondition for conversion.
 
@@ -56,7 +56,7 @@ Design and test this sequence before the lead magnet is promoted.
 | Day 14 | Soft offer | An invitation or low-commitment next step (free consultation, webinar, resource); not a direct purchase push |
 | Day 30 | Direct ask | One question: "What is your biggest challenge with [topic]?" Replies inform future content and qualify prospects |
 
-After day 30 the subscriber moves to the steady-state cadence. This build schedule is an alternative to the Day 0–10 welcome series in SKILL.md `3. Welcome Sequence`: use the SKILL.md series where the purchase cycle is short and the offer is ready early; use this 30-day series where the sale is considered and replies are needed to qualify prospects. Record which one was chosen and why.
+After day 30 the subscriber moves to the steady-state cadence. This build schedule is an alternative to the Day 0–10 welcome series in [strategy-document-sections.md § 3. Welcome Sequence](strategy-document-sections.md): use that series where the purchase cycle is short and the offer is ready early; use this 30-day series where the sale is considered and replies are needed to qualify prospects. Record which one was chosen and why.
 
 ### 2. Set the steady-state cadence
 
@@ -112,7 +112,7 @@ Log every test. After 10 tests, identify the winning pattern and make it the def
 
 ### 6. Track the six KPIs from the first send
 
-Set client-specific targets before launch; do not wait for data to accumulate. Review all six monthly. Never report open rate on its own: without CTR and conversion it is vanity data. Targets and definitions match SKILL.md `7. KPIs and Target Benchmarks` (Bly, 2018); the signal column below is the operating addition.
+Set client-specific targets before launch; do not wait for data to accumulate. Review all six monthly. Never report open rate on its own: without CTR and conversion it is vanity data. Targets and definitions match [strategy-document-sections.md § 7. KPIs and Target Benchmarks](strategy-document-sections.md) (Bly, 2018); the signal column below is the operating addition.
 
 | KPI | Target | What it signals |
 |---|---|---|
@@ -128,7 +128,7 @@ Set client-specific targets before launch; do not wait for data to accumulate. R
 1. Bounce rate: flag any send above 1%; if bounces spike, investigate where new subscribers are coming from.
 2. Opt-out rate: flag any send above 0.1%; review that send's content and subject line.
 3. Inactive subscribers: identify contacts with no opens in the past 90 days.
-4. Re-engagement: send a three-email sequence to inactive contacts before removing them: "We miss you", "Here is our best content", "Last chance — shall we remove you?" (the SKILL.md `6. Reactivation Sequence` gives full copy structure).
+4. Re-engagement: send a three-email sequence to inactive contacts before removing them: "We miss you", "Here is our best content", "Last chance — shall we remove you?" ([strategy-document-sections.md § 6. Reactivation Sequence](strategy-document-sections.md) gives full copy structure).
 5. Hard bounces: remove within 24 hours of notification; never send to a confirmed hard bounce.
 
 Bounce and opt-out rates must be within target before the following month's sends begin.

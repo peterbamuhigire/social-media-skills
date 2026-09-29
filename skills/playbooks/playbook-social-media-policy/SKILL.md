@@ -9,9 +9,7 @@ metadata:
 ---
 # Social Media Policy
 
-> **Consultant note:** This document is a starting framework based on established professional practice. It does not constitute legal advice. Advise the client to have this policy reviewed by their legal counsel and aligned with their existing employment contracts before issuing it to staff. In Uganda, align with the Computer Misuse Act 2011 as it stands after the Constitutional Court ruling of 17 March 2026: the Computer Misuse (Amendment) Act 2022 is void, several provisions of the principal Act and criminal libel were struck, and the remainder of the principal Act remains in force (register UG-CMA-2022-VOID-2026; verify the exact section list against the judgment on ULII before relying on it). Across East Africa, align with any applicable sector-specific regulations.
-
----
+Drafts the staff-facing social media policy (conduct, confidentiality, disclosure, approvals, consequences and acknowledgement) and, where needed, the governance behind it, as a starting framework for the client's legal counsel to review.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -27,266 +25,93 @@ metadata:
 - Stop short of legal advice; the client's counsel must review the policy against employment contracts before it is issued.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
-| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
-| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
+| Client company name and country/city | Client | Yes | Default the jurisdiction to Uganda/East Africa; stop if the company name is unknown. |
+| Designated social media approver (name and job title) | Client leadership | Yes | Leave the approval section as a marked gap; do not issue the policy. |
+| HR contact name for violations and discipline | Client HR | Yes | Hold the consequences section as a draft for HR to complete. |
+| Official customer contact channel (WhatsApp number or email) | Client | Yes | Mark the enquiry-handling script incomplete; do not invent a number. |
+| Policy effective date and existing employment contracts or HR policy | Client HR or counsel | Yes | Mark consequences as a guide only, pending alignment with contracts. |
+| Account ownership, agency access and escalation roles | Client operations | For governance | Deliver the staff policy only and list the governance gaps. |
+
+## Workflow
+
+1. Collect the required inputs; stop if the company name, approver or HR contact is missing.
+2. Place the consultant's legal note before the policy body and confirm the jurisdiction's current law position before relying on it.
+3. Draft the policy from the [staff policy template](references/staff-policy-template.md): purpose and scope, encouraged behaviours, prohibited activities, customer enquiries via personal channels, disclosure, approval process, consequences, review and acknowledgement.
+4. Replace every placeholder with the client's actual names and contact details and tailor the disclosure examples to the client's business type.
+5. Where the organisation needs RACI, certification, escalation levels, a command centre or agency controls, build them with [governance roles, access and approvals](references/governance-roles-access-and-approvals.md).
+6. Route clauses that depend on law, employment terms or a collective agreement to qualified review.
+7. Check the draft against the quality standards and the anti-slop gate; correct any failed item and rerun the check before hand-off to counsel.
+
+## Legal standing of the template
+
+This document is a starting framework based on established professional practice. It does not constitute legal advice. Advise the client to have this policy reviewed by their legal counsel and aligned with their existing employment contracts before issuing it to staff. In Uganda, align with the Computer Misuse Act 2011 as it stands after the Constitutional Court ruling of 17 March 2026: the Computer Misuse (Amendment) Act 2022 is void, several provisions of the principal Act and criminal libel were struck, and the remainder of the principal Act remains in force (register UG-CMA-2022-VOID-2026; verify the exact section list against the judgment on ULII before relying on it). Across East Africa, align with any applicable sector-specific regulations.
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Staff social media policy document | Client HR, legal counsel, then all staff | Sections 1–8 complete with the client's names; legal note before the body; no visible placeholders. |
+| Employee acknowledgement form | Client HR | Standalone, signable section with name, job title, signature and date. |
+| Governance model (reporting line, RACI, certification, escalation, SMCC, agency controls) | Client leadership | Every high-risk account and approval step has an accountable owner. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Law and register check | Note citing UG-CMA-2022-VOID-2026 and the disclosure registers KE-01, UG-01, TZ-01 with check dates | Current position confirmed from the source or marked `not assessed`; never stated as legal advice. |
+| Counsel review record | Dated sign-off or open-item list | The policy is not issued to staff until counsel has reviewed it against employment contracts. |
 
 ## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Issuing the policy to staff, changing account access or passwords and starting disciplinary action are client HR and counsel decisions.
 
 ## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Social Media Policy playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+Without counsel review and the client's employment contracts, return the narrowest qualified result and mark the affected checks `not assessed`. A complete draft policy with the legal note, marked as not yet issuable, can still be delivered.
 
 ## Decision Rules
+
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A clause depends on law, employment terms or collective agreement | Route it for qualified review before adoption | Presenting operational guidance as settled law |
 | No one owns a high-risk account or approval step, or the organisation needs RACI, escalation, certification or agency controls | Stop rollout, assign an accountable role and apply [governance roles, access and approvals](references/governance-roles-access-and-approvals.md) | Orphaned access and decisions |
-| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
-| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
-| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
-
-## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Social Media Policy playbook.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
-
-## Outputs
-| Artefact | Consumer | Acceptance condition |
-|---|---|---|
-| Social Media Policy playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
-
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| The Ugandan legal basis for conduct rules is cited | Cite the Computer Misuse Act 2011 as it stands after 17 March 2026 and verify the section list on ULII | Relying on a voided amendment or struck provision |
+| An employee post references the company | Require disclosure of the employment relationship; check the jurisdiction register before stating any statute | Hidden endorsement and misleading-representation risk |
+| A customer contacts staff on a personal account | Acknowledge, direct to the official channel, do not resolve personally, notify the manager | Personal accounts turning into unofficial service desks |
+| A post uses company branding or unreleased news | Route to the designated approver, with a reply within 24 hours (48 hours on a Friday or public holiday) | Unapproved announcements |
+| A violation occurs | Classify as minor, moderate or serious and involve the HR contact in all formal proceedings | Disproportionate or contract-inconsistent discipline |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- Every section uses the client's actual company name, approver name and contact details; no visible placeholder text in the delivered version.
+- Prohibited activities are specific and unambiguous: each item names a concrete action or content type, not a vague principle.
+- The customer-enquiry section gives word-for-word example language employees can use, not only a description.
+- The disclosure section includes worked examples relevant to the client's business type.
+- The consequences table clearly separates minor, moderate and serious violations with proportionate responses.
+- The consultant's legal disclaimer is present and positioned before the policy body.
+- The employee acknowledgement is a standalone, signable section.
+- British English throughout; no American spellings in the delivered document.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Issuing the template as legal advice. Fix: keep the legal note and have counsel review it against employment contracts before issue.
+- Vague prohibitions such as "be sensible online". Fix: list the concrete content types, as in the confidential-information list.
+- Restricting employees' lawful personal opinions. Fix: limit the policy to how the company is represented and what company information may be shared.
+- Letting staff move a customer or their data into a private channel. Fix: use the official route, request only the minimum information and document who owns the handoff.
+- Allowing fake reviews, customer impersonation or anonymous promotional accounts. Fix: prohibit them outright as a serious violation.
+- Fixing consequences without HR. Fix: treat the severity table as a guide aligned to the client's disciplinary procedure.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- [governance-roles-access-and-approvals](references/governance-roles-access-and-approvals.md) — read when the client needs the governance behind the policy: reporting line, RACI, certification, escalation levels, SMCC, agency SLAs, after-action reviews or a social media business plan.
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Staff policy template](references/staff-policy-template.md): read when collecting the policy inputs and drafting the policy document, scripts, consequences table and acknowledgement.
+- [Governance roles, access and approvals](references/governance-roles-access-and-approvals.md): read when the client needs the governance behind the policy: reporting line, RACI, certification, escalation levels, SMCC, agency SLAs, after-action reviews or a social media business plan.
+- [Influencer term sheet and disclosure register](../../pipeline/08-influencer-marketing-strategy/references/influencer-term-sheet-and-disclosure.md): read when checking the KE-01, UG-01 and TZ-01 disclosure register entries.
+- [`policy-ai-content-ethics`](../../policies/policy-ai-content-ethics/SKILL.md): read when the rules concern AI-made content.
+- [`playbook-crisis-communications`](../playbook-crisis-communications/SKILL.md): read when an incident is already under way.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before any legal or regulatory claim leaves the draft.
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the policy wording.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when setting tone and spelling for staff-facing text.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Collect the following before generating the policy document:
-
-- **Client company name** — used throughout the policy document
-- **Designated social media approver** — name and job title (the person staff submit content requests to)
-- **Official customer contact channel** — WhatsApp number or email address referenced in staff guidance
-- **Policy effective date**
-- **HR contact name** — the person staff approach for questions about violations or the disciplinary process
-- **Country/city** — defaults to Uganda/East Africa if not specified
-
----
-
-## [COMPANY NAME] SOCIAL MEDIA POLICY
-
-**Effective Date:** [Date]
-**Policy Owner:** [HR Contact Name], [Title]
-**Approved by:** [Authorising Director/Owner Name], [Title]
-**Next Review Date:** [One year from effective date]
-
----
-
-## 1. Purpose and Scope
-
-### Purpose
-
-This policy exists to protect [Company Name]'s reputation, protect employees from unintended consequences of online activity, and provide clear guidance on what is and is not acceptable when using social media in connection with the company.
-
-Social media creates significant opportunities for [Company Name] — to build its brand, attract customers, and showcase its work and its people. It also creates risks when misused. This policy sets the boundaries within which all staff are encouraged to engage confidently and professionally online.
-
-### Who This Policy Applies To
-
-This policy applies to:
-- All permanent and contract employees of [Company Name]
-- Freelancers, consultants, and agency partners who are engaged by [Company Name] and who may discuss the company online
-- Any individual who identifies themselves as being associated with [Company Name] on any public platform
-
-### What This Policy Covers
-
-- Personal social media accounts (Facebook, Instagram, X/Twitter, TikTok, Snapchat, and any other public-facing platforms)
-- Professional profiles (LinkedIn and similar platforms)
-- Any online forum, WhatsApp group, or community where the employee's connection to [Company Name] is known or disclosed
-- Any content — posts, comments, stories, shares, voice notes in public groups, reviews — published online
-
-This policy does not restrict employees' lawful personal opinions. It sets boundaries on how [Company Name] is represented and what company information may be shared.
-
----
-
-## 2. Encouraged Behaviours
-
-[Company Name] wants its team members to be proud advocates of the company's work. The following activities are actively encouraged:
-
-- **Share company achievements publicly.** When [Company Name] wins an award, launches a new product, or achieves a milestone, employees are encouraged to share this news on their personal channels with pride.
-- **Engage with official company posts.** Like, comment on, and share posts from [Company Name]'s official accounts. Authentic engagement from real team members has more impact than paid advertising.
-- **Build a professional network on LinkedIn.** A strong LinkedIn presence reflects well on both the individual and the company. Employees are encouraged to keep their profiles updated and connect with professionals in their sector.
-- **Share job openings.** When [Company Name] is recruiting, employees are encouraged to share the vacancy with their networks.
-- **Write recommendations for colleagues.** LinkedIn recommendations build the credibility of the team and the company.
-- **Respond positively to customers who reach out via personal channels.** If a customer contacts an employee directly on their personal social media to ask about [Company Name], the employee should respond warmly and direct the customer to the official channel (see Section 4).
-
----
-
-## 3. Prohibited Activities
-
-The following activities are prohibited. Violations may result in disciplinary action (see Section 7).
-
-### Confidential Business Information
-Do not share any of the following, regardless of the platform or audience:
-- Financial data, pricing structures, or commercial terms
-- Client names, contact details, or account information
-- Supplier agreements, contracts, or negotiations
-- Unreleased products, services, or campaign plans
-- Internal communications, performance data, or staff matters
-
-### Client and Customer Information
-Do not share client images, client logos, client case studies, or any client-identifying information without written consent from the client. This applies even when the intent is positive (e.g. sharing a photo from a client event).
-
-### Negative Commentary
-Do not post negative, critical, or disparaging comments about clients, suppliers, competitors, or members of the public that could be linked back to [Company Name]. If you have a professional grievance, raise it through internal channels.
-
-### Discriminatory or Offensive Content
-Do not post content that could reasonably be perceived as discriminatory, harassing, or offensive on the basis of gender, ethnicity, religion, age, disability, or any other characteristic. This applies to original content and to content shared or endorsed.
-
-### Unauthorised Use of Company Branding
-Do not use [Company Name]'s logo, trademark, brand colours, or visual identity on personal social media accounts without written approval from [Designated Approver Name].
-
-### Speaking on Behalf of the Company
-Do not present yourself as an official spokesperson for [Company Name] unless you have been explicitly authorised to do so. Do not respond to media enquiries, public complaints, or crises via your personal account.
-
-### Legal Matters
-Do not post, comment on, or share any content related to ongoing or potential legal matters involving [Company Name]. Direct all such enquiries to [HR Contact Name].
-
-### Activity During Working Hours
-Do not use personal social media during working hours in a way that interferes with job performance or client service. [Company Name] is not seeking to monitor employees' personal device use, but visible misuse during work time will be addressed through the line management process.
-
----
-
-## 4. Handling Customer Enquiries via Personal Channels
-
-If a customer, prospective customer, or member of the public contacts you through your personal social media account regarding [Company Name]:
-
-**Step 1 — Acknowledge politely.**
-"Hello — thank you for getting in touch. I can see this is about [Company Name]. I want to make sure you get the right help."
-
-**Step 2 — Direct to the official channel.**
-"Please contact our team directly on [WhatsApp number / email address] and they will assist you promptly."
-
-**Step 3 — Do not attempt to resolve the matter personally.**
-Do not offer refunds, make commitments, share internal information, or give your personal opinion on how the company has handled a previous matter. Even with the best intentions, doing so creates confusion and potential liability.
-
-**Step 4 — Do not share personal opinions about the company.**
-If a customer expresses frustration, acknowledge their feeling without validating a complaint or offering editorial commentary on how [Company Name] operates.
-
-**Step 5 — Notify the relevant manager.**
-If a customer has made a complaint through your personal channel, inform your line manager or [Company Name]'s social media manager so it can be followed up through the official process.
-
-**Boundary rule:** public acknowledgement is not permission to move a person or their data into a private channel. Use the official route, request only the minimum necessary information, and document who owns the handoff. Personal accounts must not become unofficial service desks or spokesperson channels.
-
----
-
-## 5. Disclosure Requirements
-
-When an employee posts content that references [Company Name] — whether reviewing a product, commenting on the company's work, or sharing company news — they must disclose their employment relationship. This is international best practice and builds credibility with audiences. No dedicated Kenyan, Ugandan or Tanzanian influencer or employee-disclosure statute was found (register KE-01, UG-01, TZ-01, 2026-09-24); misleading-representation law and advertising codes still apply, so keep the disclosure and check the jurisdiction register in `../../pipeline/08-influencer-marketing-strategy/references/influencer-term-sheet-and-disclosure.md` (not legal advice; confirm with counsel).
-
-**Disclosure examples:**
-- "I work at [Company Name] — but this is my personal view."
-- "Proud to be part of the team behind this — [Company Name] launched today."
-- "Full disclosure: I work here! That said, I genuinely recommend this product."
-
-**Never post a false review.** Employees must not post fake customer reviews, pretend to be a customer, or create anonymous accounts to promote [Company Name]. This is a breach of platform terms of service and, in many jurisdictions, constitutes consumer fraud.
-
----
-
-## 6. Approval Process for Employee-Generated Content
-
-When an employee wishes to post content that uses [Company Name] branding, announces company news not yet made public, or requires official endorsement:
-
-1. Employee drafts the proposed post.
-2. Employee sends the draft to [Designated Approver Name] via [preferred channel — e.g. WhatsApp or email].
-3. [Designated Approver Name] responds within 24 hours (or 48 hours if the request is submitted on a Friday or public holiday).
-4. If approved: employee may post as drafted.
-5. If not approved: [Designated Approver Name] provides a brief reason and, where possible, an alternative approach.
-
-For straightforward shares of existing official [Company Name] content (e.g. re-sharing a company post on Instagram), no approval is required.
-
----
-
-## 7. Consequences of Policy Violations
-
-Violations of this policy are treated as conduct matters and handled in accordance with [Company Name]'s standard disciplinary procedure.
-
-| Severity | Violation Type | Consequence |
-|---|---|---|
-| Minor | First-time, unintentional breach with no external impact | Informal discussion with line manager; documented |
-| Moderate | Repeat breach or a first breach with reputational risk | Formal written warning via HR; [HR Contact Name] leads the process |
-| Serious | Sharing confidential data, defamation, impersonation, fake reviews | Disciplinary action up to and including dismissal; potential legal action |
-
-**Important:** consequences must align with the client's existing employment contracts and HR policy. The classification above is a guide only. [HR Contact Name] must be involved in all formal proceedings.
-
-Employees who are uncertain whether a planned post complies with this policy should seek guidance from [Designated Approver Name] before posting.
-
----
-
-## 8. Policy Review
-
-This policy will be reviewed annually, or earlier if:
-- A significant social media platform change affects how any section applies
-- A legal or regulatory change in Uganda or the relevant jurisdiction requires an update
-- An incident occurs that reveals a gap in this policy's coverage
-
-**Next scheduled review date:** [Insert date — one year from effective date]
-
-Review is the responsibility of [HR Contact Name] in consultation with [Designated Approver Name].
-
----
-
-## Employee Acknowledgement
-
-Complete and return this section to [HR Contact Name] by [date].
-
----
-
-I confirm that I have read and understood the [Company Name] Social Media Policy dated [Effective Date]. I understand the expectations and responsibilities set out in this policy and agree to comply with them.
-
-**Full Name:** ___________________________________
-
-**Job Title:** ___________________________________
-
-**Signature:** ___________________________________
-
-**Date:** ___________________________________
-
----
-
-## Quality Criteria
-
-Output meets production standard when it satisfies all of the following:
-
-- Every section of the policy document uses the client's actual company name, approver name, and contact details — no visible placeholder text in the delivered version
-- Prohibited activities are specific and unambiguous — each item describes a concrete action or content type, not a vague principle
-- The customer enquiry handling section provides word-for-word example language employees can use, not just a description of what to do
-- The disclosure requirements section includes worked examples relevant to the client's business type
-- The consequences table distinguishes clearly between minor, moderate, and serious violations with proportionate responses
-- The consultant's legal disclaimer is present and clearly positioned before the policy body
-- The employee acknowledgement section is formatted as a standalone, signable section
-- All content uses British English throughout; no American spellings appear in the delivered document

@@ -30,7 +30,7 @@ An **audience** receives content passively: Page followers, newsletter subscribe
 
 A **community** is a group of people with shared interests who interact with each other, not only with the brand. The brand facilitates and members create value for one another: a question from one member is answered by five others before the brand responds; a success story inspires three more members to try something new. The brand does not fully control the conversation, which is what makes the community credible. Growth is measured in engagement depth, member retention and peer-to-peer interaction.
 
-Why it matters in East Africa: in Uganda and across the region community is a cultural norm, not a marketing tactic. People trust networks, referrals and shared group membership far more than brand advertising; a Ugandan consumer is more likely to act on a recommendation from someone in their WhatsApp group than on a sponsored post. A genuine community earns trust no advertising budget can replicate. The POEM model (Chaffey, 2024) classifies a community as owned media, but a thriving community generates earned media (peer-to-peer advocacy) at scale.
+Why it matters in East Africa: in Uganda and across the region community is a cultural norm, not a marketing tactic. People trust networks, referrals and shared group membership far more than brand advertising; a Ugandan consumer is more likely to act on a recommendation from someone in their WhatsApp group than on a sponsored post. A genuine community earns trust no advertising budget can replicate. The POEM model (Chaffey and Ellis-Chadwick, 2022) classifies a community as owned media, but a thriving community generates earned media (peer-to-peer advocacy) at scale.
 
 ## Decision rules
 
@@ -145,6 +145,6 @@ Report community returns with the ROI formula (TLV − COCA) ÷ COCA (Bodnar and
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Kotler, P. et al. (2023) *Marketing Management*. 16th edn. Harlow: Pearson.
 - Registers: UG-FACEBOOK-ACCESS-2026; WHATSAPP-USAGE-EA-2026; WHATSAPP-BUSINESS-POLICY.

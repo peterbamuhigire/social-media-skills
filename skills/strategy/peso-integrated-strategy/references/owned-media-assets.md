@@ -4,9 +4,9 @@ Merged from skills/strategy/owned-media-strategy on 2026-09-29 at cda737c (S04 t
 
 ## When to use this reference
 
-Read this reference when the Owned pillar of the PESO strategy needs its own plan: an audit of the website, email list, WhatsApp opt-in list, SMS list, blog and other assets the client controls; list-building tactics; email and WhatsApp consent and hygiene rules; a blog-to-social pipeline; and an owned-media publishing rhythm. It expands SKILL.md Section 3 principle 1 ("Owned first") and the Section 5 EA guidance on email and WhatsApp into an executable asset plan. For email programme design in depth (segmentation, welcome and reactivation flows) hand over to [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md); for WhatsApp and SMS execution, to [playbook-sms-whatsapp-marketing](../../../playbooks/playbook-sms-whatsapp-marketing/SKILL.md).
+Read this reference when the Owned pillar of the PESO strategy needs its own plan: an audit of the website, email list, WhatsApp opt-in list, SMS list, blog and other assets the client controls; list-building tactics; email and WhatsApp consent and hygiene rules; a blog-to-social pipeline; and an owned-media publishing rhythm. It expands [peso-method.md § Section 3](peso-method.md) principle 1 ("Owned first") and the [peso-method.md § Section 5](peso-method.md) EA guidance on email and WhatsApp into an executable asset plan. For email programme design in depth (segmentation, welcome and reactivation flows) hand over to [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md); for WhatsApp and SMS execution, to [playbook-sms-whatsapp-marketing](../../../playbooks/playbook-sms-whatsapp-marketing/SKILL.md).
 
-Sources: Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson (POEM and RACE; publisher and co-author Ellis-Chadwick to verify); Bly, R. W. (2018) *The Digital Marketing Handbook: A Step-by-Step Guide to Creating Websites That Sell*, Entrepreneur Press (lead-magnet list building and double opt-in); Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley; Kotler, P. et al. (2023) *Marketing Management*, Pearson.
+Sources: Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. (POEM and RACE; publisher and co-author Ellis-Chadwick to verify); Bly, R. W. (2018) *The Digital Marketing Handbook: A Step-by-Step Guide to Creating Websites That Sell*, Entrepreneur Press (lead-magnet list building and double opt-in); Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley; Kotler, P. et al. (2023) *Marketing Management*, Pearson.
 
 ## Inputs
 
@@ -21,7 +21,7 @@ Sources: Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Pra
 
 ## Why owned media comes first
 
-Apply the POEM model (Paid / Owned / Earned; Chaffey, 2024) from the start. Owned media — channels the business controls entirely — is the base that paid and earned activity should drive audiences back to. Without it, every shilling spent on paid social builds equity in someone else's platform.
+Apply the POEM model (Paid / Owned / Earned; Chaffey and Ellis-Chadwick, 2022) from the start. Owned media — channels the business controls entirely — is the base that paid and earned activity should drive audiences back to. Without it, every shilling spent on paid social builds equity in someone else's platform.
 
 - **Platform dependency risk.** Facebook, TikTok and Instagram can change algorithms, suspend accounts, restrict organic reach or close without notice. A business with 50,000 Facebook followers and no email or WhatsApp opt-in list can lose its whole audience overnight through no fault of its own. The source states that algorithm changes in 2023–2024 cut organic reach on Facebook pages to under 2% for many business accounts (verify before stating; no register record). An email list, WhatsApp opt-in list and blog archive belong to the business and cannot be taken away by a platform update.
 - **The two lists are the most valuable long-term digital assets.** They give direct, permission-based access to people who asked to hear from the business. Unlike a following, the contacts can be exported, moved between tools and reached whatever a third-party platform decides. Where data costs and connectivity vary, a well-run WhatsApp broadcast list or email newsletter reaches people more reliably than a boosted Facebook post that may never appear in the feed.
@@ -142,7 +142,7 @@ Blog-to-social pipeline — each published post yields, at no extra research cos
 
 ### 7. Set the owned-media publishing rhythm
 
-Owned media needs its own rhythm, coordinated with but separate from social activity. Under the RACE framework (Chaffey, 2024), social media reaches new audiences; owned media acts, converts and engages them over time.
+Owned media needs its own rhythm, coordinated with but separate from social activity. Under the RACE framework (Chaffey and Ellis-Chadwick, 2022), social media reaches new audiences; owned media acts, converts and engages them over time.
 
 | Channel | Frequency | Content type | Relationship to social media |
 |---|---|---|---|
@@ -162,7 +162,7 @@ Owning the audience only happens through working list-building mechanics. Define
 2. **Lead magnet** — a free, high-value offer exchanged for a contact detail (price guide, "how to choose" checklist, local market insight report, practical how-to template for Ugandan and EA markets). It must solve a real, specific problem, not be a disguised catalogue.
 3. **Landing page** — one purpose, one CTA (the form); no navigation links or competing offers; a headline stating the specific benefit; fields for first name + email address (and/or WhatsApp number where relevant); a trust signal: "No spam. Unsubscribe any time."
 4. **Double opt-in confirmation** — straight after submission, an automated email asks the subscriber to confirm by clicking a link.
-5. **Welcome sequence** — once confirmed, the subscriber enters the automated five-email onboarding flow in [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md) § 3 Welcome Sequence; the full lead-magnet implementation guide (landing-page copy templates, lead-magnet format selection by industry) also routes there.
+5. **Welcome sequence** — once confirmed, the subscriber enters the automated five-email onboarding flow in [07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md) ([strategy-document-sections.md § 3. Welcome Sequence](../../../pipeline/07-email-marketing-strategy/references/strategy-document-sections.md)); the full lead-magnet implementation guide (landing-page copy templates, lead-magnet format selection by industry) also routes there.
 
 Double opt-in applies to every list, email or WhatsApp. It:
 
@@ -173,7 +173,7 @@ Double opt-in applies to every list, email or WhatsApp. It:
 Monthly list hygiene:
 
 - Remove all hard bounces within 24 hours of each send.
-- Run a re-engagement campaign ([07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md) § 6 Reactivation Sequence) for subscribers inactive 90+ days before removing them from the active list.
+- Run a re-engagement campaign ([07-email-marketing-strategy](../../../pipeline/07-email-marketing-strategy/SKILL.md) ([strategy-document-sections.md § 6. Reactivation Sequence](../../../pipeline/07-email-marketing-strategy/references/strategy-document-sections.md))) for subscribers inactive 90+ days before removing them from the active list.
 - Suppress — do not delete — non-responders after reactivation, in case another channel can reach them.
 - Never buy, rent or import a third-party list: it lacks the consent the Uganda Act requires, and its very low engagement damages sender reputation for every later send.
 
@@ -185,6 +185,6 @@ Monthly list hygiene:
 - [ ] WhatsApp and email opt-in language cites the Uganda Data Protection and Privacy Act 2019 consent requirement and includes an opt-out.
 - [ ] Blog-to-social pipeline shows one post a month producing content across five or more channels.
 - [ ] List-building tactics are EA-relevant (in-store sign-up, WhatsApp-to-email bridge, local lead magnets); webinar gating and similar Western defaults are not primary.
-- [ ] Owned-first principle stated: owned channels are the destination all other activity drives towards, consistent with POEM (Chaffey, 2024).
+- [ ] Owned-first principle stated: owned channels are the destination all other activity drives towards, consistent with POEM (Chaffey and Ellis-Chadwick, 2022).
 - [ ] No WhatsApp percentage, platform limit, price or reach figure is stated without verification.
 - [ ] Nothing is sent, published or collected without explicit authority.

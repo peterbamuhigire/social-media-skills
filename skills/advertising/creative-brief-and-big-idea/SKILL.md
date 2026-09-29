@@ -10,7 +10,7 @@ metadata:
 
 # Creative Brief and Big Idea
 
-Turn a business problem into a single-minded strategic brief, a tested insight and a platform idea that can run across channels, then screen and review the work against agreed criteria rather than taste.
+Turns a business problem into a single-minded strategic brief, a tested insight and a platform idea that can run across channels, then screens and reviews the work against agreed criteria rather than taste.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -50,9 +50,13 @@ Turn a business problem into a single-minded strategic brief, a tested insight a
 8. Plan the test pack: message test before execution test; brand-linkage check.
 9. Run the review with the critique protocol; record decisions, likely negative reactions and sign-off. If the review drifts to taste or changes the brief, stop and return to the brief; rerun the affected steps.
 
+## Seven-point creative effectiveness scale
+
+Paraphrased from Landa 2022: 1 destructive; 2 pedestrian; 3 off-brand; 4 not an idea; 5 on-brand but not attention-getting; 6 attention-getting short term; 7 strategically creative (builds the brand, moves behaviour, earns media). Advance only 6–7. The full method is in [core method in brief](references/core-method-in-brief.md).
+
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Strategic creative brief (one page) | Creative team, media planner, client approver | All core fields complete; passes the five-question test; names one decision-maker and review dates. |
 | Insight statement with evidence note | Strategist and client | States the human truth, brand truth and the evidence source/date, or is labelled provisional. |
@@ -71,11 +75,11 @@ Turn a business problem into a single-minded strategic brief, a tested insight a
 
 ## Capability and Permission Boundaries
 
-Read and search supplied briefs, research and brand material. Brief writing, ideation, screening and review planning are drafting work. Commissioning production, contacting research participants, publishing or spending media requires explicit client authority. Personal data from listening or interviews must be handled under the client's lawful basis; use themes, not identities.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Brief writing, ideation, screening and review planning are drafting work; commissioning production or contacting research participants is not, and personal data from listening or interviews is handled under the client's lawful basis as themes, not identities.
 
 ## Degraded Mode
 
-If audience evidence, brand documents or the decision-maker are unavailable, return the narrowest useful qualified result: a draft brief with gaps, a provisional insight labelled `not assessed`, and a research plan. Never present a hypothesis as a validated insight or an unscored concept as approved.
+Without audience evidence, brand documents or a named decision-maker, return the narrowest qualified result and mark the affected checks `not assessed`. A draft brief with gaps, a provisional insight and a research plan can still be delivered; never present a hypothesis as a validated insight or an unscored concept as approved.
 
 ## Decision Rules
 
@@ -110,49 +114,13 @@ If audience evidence, brand documents or the decision-maker are unavailable, ret
 
 ## References
 
-- [Brief and insight method](references/brief-and-insight-method.md) — read when writing or repairing a brief and building the insight.
-- [Concept screen and critique](references/concept-screen-and-critique.md) — read before internal screening, client presentation or feedback sessions.
-- [Campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md) — read when deciding campaign templates and headline/visual relationships.
-- [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md) for line-level copy; [13-campaign-brief](../../pipeline/13-campaign-brief/SKILL.md) for production briefs.
-- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md) and [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md).
-- [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md).
-- [AI cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md) for the responsible-creative check.
+- [Brief and insight method](references/brief-and-insight-method.md): read when writing or repairing a brief and building the insight.
+- [Concept screen and critique](references/concept-screen-and-critique.md): read when preparing internal screening, client presentation or feedback sessions.
+- [Campaign structure and copy–image rules](references/campaign-structure-and-copy-image.md): read when deciding campaign templates and headline/visual relationships.
+- [Core method in brief](references/core-method-in-brief.md): read when you need the brief's core fields, the Lodestar and benefit rules, the East Africa adaptation or the worked scenario.
+- [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md): read when line-level copy is needed; [13-campaign-brief](../../pipeline/13-campaign-brief/SKILL.md): read when a production brief is needed.
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md) and [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when concepts go to review or touch a regulated category.
+- [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md): read when screening concepts for manipulative tactics.
+- [AI cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md): read when running the responsible-creative check.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting brief lines and idea cards.
 <!-- dual-compat-end -->
-
-## Core method in brief
-
-### The brief (Kelley & Sheehan)
-
-Core fields: project scope and problem; business and communication goals; target audience (demographics and mindset, ideally a named archetype); current perceptions; value proposition or positioning; core message (one sentence); timeline. Optional: KPIs, competitors, past learnings. Add from Landa's practitioner interviews: what must be accomplished (not what must be designed), audience misconceptions, pitfalls to avoid, permitted deviation from current positioning, evaluation criteria with weights, named final decision-maker, feedback deadlines, disclosed budget including a separate production-asset line.
-
-Five-question brief test: single-minded? logical (the story flows from it)? contains a compelling insight or brand truth? specific to this brand? commits to a point of view?
-
-Three-sentence strategy story: "The consumer wants [X]. The obstacle is [Y]. This brand can deliver [X] because [reason to believe]."
-
-### The idea
-
-- Insight = truth about people + truth about the brand; fixed insights anchor a brand for years, dynamic insights flex with the audience's situation.
-- Lodestar (platform) idea: one sentence of what people should think or feel plus the mechanism; prove flexibility with sketches in three channels; write the press release culture would publish (for East Africa also the one-image-plus-two-lines WhatsApp forward).
-- Every unit offers the audience a benefit: social good, utility, information, temptation, entertainment or shareworthiness. Reject "the brand talks about itself".
-- Story spine: human driver (safety, status, belonging, convenience…), brand role matching the audience's self-image (guide, guardian, helper, coach…), plot archetype.
-
-### The screen
-
-Seven-point creative effectiveness scale (paraphrased from Landa 2022): 1 destructive; 2 pedestrian; 3 off-brand; 4 not an idea; 5 on-brand but not attention-getting; 6 attention-getting short term; 7 strategically creative (builds the brand, moves behaviour, earns media). Advance only 6–7.
-
-### East Africa adaptation
-
-- Listening sources include WhatsApp groups (consent and ethics), Facebook community groups, radio call-in shows, Ugandan X and Kenyans on X, and offline observation (taxi parks, markets, chama and SACCO meetings, school-fees season).
-- Image-driven or emblematic constructions travel across languages and literacy levels; for radio the "image" is sound design.
-- Transcreate rather than translate; use in-community reviewers for Luganda, Kiswahili, Runyankore, Luo and other language executions.
-- Avoid poverty imagery, tribal humour, colourism and party symbolism in election periods; see the responsible-creative checklist.
-
-### Worked scenario (labelled, not client evidence)
-
-A honey-based energy drink wants women 35+ in Kampala and Nairobi. Directive: persuade busy women who see energy drinks as "chemicals, not for someone like me" to try a natural lift. Insight: they want a sweet lift in the working day but distrust the category. Lodestar: "Nature's energy, made for your afternoon." Channel sketches: breakfast-radio sound piece, WhatsApp Status series, market-stall sampling. Press-release test: "Beekeepers' co-op honey drink wins over office workers who never drank energy drinks." Test pack: two benefit statements to 40 target women by WhatsApp poll (directional, not normed), then execution test on a small paid split.
-
-## Sources
-
-- Landa, R. (2022) *Strategic Creativity: A Business Field Guide to Advertising, Branding, and Design*. Routledge.
-- Kelley, L.D. and Sheehan, K.B. (c. 2021–22) *Advertising Management in a Digital Environment: Text and Cases*. Routledge.
-- Wallas, G. (1926) *The Art of Thought*; Young, J.W. (1940) *A Technique for Producing Ideas* (via Landa).

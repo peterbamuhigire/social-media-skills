@@ -62,10 +62,10 @@ Decide what a client's website, app, WhatsApp and CRM touchpoints must record, u
 | Assumption and gap log | Table | Consent, legal and account assumptions named with an owner and the evidence that would close each |
 
 ## Capability and Permission Boundaries
-Read and search only; analysis is read-only. Publishing, spend, live account changes, tag or container publishing, uploading customer data, changing consent settings and any personal-data processing need explicit, action-specific client authority. Legal conclusions route to qualified counsel.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Tag or container publishing, uploading customer data and changing consent settings need the same authority, and legal conclusions route to qualified counsel.
 
 ## Degraded Mode
-Without a tag inventory or account access, return the narrowest qualified result: a target-state plan, the consent design and a data request, with every current-state check marked `not assessed`. Never report a tag as firing, or a consent signal as passed, without a recorded test.
+Without a tag inventory or account access, return the narrowest qualified result and mark the affected checks `not assessed`. A target-state plan, the consent design and a data request can still be delivered, with every current-state check marked `not assessed`; never report a tag as firing, or a consent signal as passed, without a recorded test.
 
 ## Decision Rules
 | Condition | Action | Failure or risk avoided |
@@ -98,13 +98,19 @@ Without a tag inventory or account access, return the narrowest qualified result
 - Presenting modelled conversions as observed counts. Fix: label modelled figures and state the consent-mode eligibility status.
 
 ## References
-- [Event taxonomy and tracking plan](references/event-taxonomy-and-tracking-plan.md) — read when writing the event map, data layer and QA log.
-- [Consent Mode v2 and CMP](references/consent-mode-and-cmp.md) — read when designing consent defaults, choosing basic or advanced mode or a CMP.
-- [Server-side tagging, Conversions API and enhanced conversions](references/server-side-capi-and-enhanced-conversions.md) — read when events are sent from a server, deduplicated or matched with hashed data.
-- [GA4 BigQuery export](references/ga4-bigquery-export.md) — read when raw-event access, export limits or cost matter.
-- [UTM convention and campaign register](references/utm-convention-and-campaign-register.md) — read when setting link naming, the link builder routine and WhatsApp dark-social tagging.
-- [Consent, retention and sharing review](references/consent-retention-and-sharing-review.md) — read when reviewing cookie consent, GA4 privacy settings, data minimisation, WhatsApp contact data and legal-referral triggers.
-- [Advertising attribution and measurement](../../advertising/advertising-attribution-and-measurement/SKILL.md) (models, economics, incrementality); [meta-reporting](../meta-reporting/SKILL.md); [meta-social-metrics-framework](../meta-social-metrics-framework/SKILL.md); [ad-to-site journey handoff](../../advertising/ad-to-site-journey-handoff/SKILL.md).
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md) during drafting; [AI slop audit](../../ai-marketing/ai-slop-audit/SKILL.md) at release.
-- [Current-source register](../../../docs/source-registers/README.md); [legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md); [measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md).
+- [Event taxonomy and tracking plan](references/event-taxonomy-and-tracking-plan.md): read when writing the event map, data layer and QA log.
+- [Consent Mode v2 and CMP](references/consent-mode-and-cmp.md): read when designing consent defaults, choosing basic or advanced mode or a CMP.
+- [Server-side tagging, Conversions API and enhanced conversions](references/server-side-capi-and-enhanced-conversions.md): read when events are sent from a server, deduplicated or matched with hashed data.
+- [GA4 BigQuery export](references/ga4-bigquery-export.md): read when raw-event access, export limits or cost matter.
+- [UTM convention and campaign register](references/utm-convention-and-campaign-register.md): read when setting link naming, the link builder routine and WhatsApp dark-social tagging.
+- [Consent, retention and sharing review](references/consent-retention-and-sharing-review.md): read when reviewing cookie consent, GA4 privacy settings, data minimisation, WhatsApp contact data and legal-referral triggers.
+- [Advertising attribution and measurement](../../advertising/advertising-attribution-and-measurement/SKILL.md): read when the question is attribution models, economics or incrementality.
+- [meta-reporting](../meta-reporting/SKILL.md): read when the tracked data feeds a monthly report or dashboard.
+- [meta-social-metrics-framework](../meta-social-metrics-framework/SKILL.md): read when defining the KPI dictionary the events serve.
+- [Ad-to-site journey handoff](../../advertising/ad-to-site-journey-handoff/SKILL.md): read when the landing-page, form and journey specification goes to developers.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the plan.
+- [AI slop audit](../../ai-marketing/ai-slop-audit/SKILL.md): read at release.
+- [Current-source register](../../../docs/source-registers/README.md): read when citing a platform limit or rule by register ID.
+- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the plan touches consent, personal data or legal claims.
+- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md): read when assembling the QA and evidence pack.
 <!-- dual-compat-end -->

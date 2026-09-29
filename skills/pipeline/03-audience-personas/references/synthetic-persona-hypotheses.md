@@ -35,7 +35,7 @@ Ask for the following before generating any persona:
 
 ## Uganda / East Africa calibration
 
-Apply this demographic and behavioural context when building prompts, adjusted for the client's country and city. It overlaps with the parent SKILL.md section "Uganda / East Africa Consumer Behaviour"; the income bands and the trust and language notes are specific to synthetic prompting.
+Apply this demographic and behavioural context when building prompts, adjusted for the client's country and city. It overlaps with the section "Uganda / East Africa Consumer Behaviour" in [persona-build-method.md](persona-build-method.md); the income bands and the trust and language notes are specific to synthetic prompting.
 
 **Income bands (UGX per month; engine house bands, not a UBOS statistic; check against UBOS-NSI-2026 before quoting):**
 
@@ -203,5 +203,5 @@ If the output cannot satisfy all three caveats, it is not ready to ship: return 
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford University Press.
 - Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*. Harvard Business Review Press.
 - Randazzo, G.W. (2024) *Winning Marketing Strategies Using Generative AI*. Business Expert Press.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Branson, S. (2020) *UX/UI Design: Introduction Guide to Intuitive Design and User-Friendly Experience* (discipline caveats; full note in [persona discipline](persona-discipline.md)).

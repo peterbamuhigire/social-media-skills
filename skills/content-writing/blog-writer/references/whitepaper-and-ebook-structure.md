@@ -10,7 +10,7 @@ The output is paste-ready body copy organised by section and written to PDF-read
 
 ## Inputs
 
-Ask for all ten before generating any content (these replace the blog-length inputs in `SKILL.md` § Required Input for this job):
+Ask for all ten before generating any content (these replace the blog-length inputs in [article-build-method.md § Required Input](article-build-method.md) for this job):
 
 1. **Client business name** — the trading name as it should appear on the document.
 2. **Industry** — the sector (for example agri-finance, health NGO, professional services, FMCG).
@@ -52,7 +52,7 @@ When the client is unsure, ask: "After reading this document, do you want the re
 | Lead magnet or gated download | The lead-generation pack: email-gate recommendation, landing page copy block and four-channel launch brief |
 | Donor report or investor document | The donor/investor variant in full: formal register, impact metrics table, framework citations, Theory of Change, participant language, citation proofread, financial accountability (donor) |
 | Conference handout or media pitch support | The base template only, with the thesis stated in the Introduction and Conclusion |
-| Blog repurposing of the finished document | Return to `SKILL.md` § Article Structure and cut the document into articles |
+| Blog repurposing of the finished document | Return to [article-build-method.md § Article Structure](article-build-method.md) and cut the document into articles |
 
 ## Procedure
 
@@ -96,7 +96,7 @@ Generate each chapter in order. The introduction sets the reader's expectations;
 
 ## Long-form writing standards
 
-Apply these on top of the `east-african-english` standards and the article standards in `SKILL.md` § Writing Standards.
+Apply these on top of the `east-african-english` standards and the article standards in [article-build-method.md § Writing Standards](article-build-method.md).
 
 - **Executive Summary is written last, positioned first.** Complete every other section, then write the Executive Summary as a standalone 300–400 word synthesis. Never draft it first.
 - **Cite every statistic.** If the client cannot provide data, draw from publicly available East African sources: Uganda Bureau of Statistics (UBOS), World Bank Uganda open data, GSMA *Mobile Economy* Africa reports, Statista (note that a subscription is required), Meta Audience Insights, TikTok for Business Africa data. Record each in the source/assumption register and check the release date before use.

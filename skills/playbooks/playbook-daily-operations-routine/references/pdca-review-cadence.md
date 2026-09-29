@@ -35,7 +35,7 @@ Ask for these before generating the manual (in addition to the parent's inputs w
 | 5 | One post clearly outperforms all others | Analyse and replicate its format, topic and timing | Losing a proven pattern |
 | 6 | One platform consistently underperforms the others | Consider reducing posting frequency or deprioritising the platform | Effort spent where it returns least |
 | 7 | Primary metric (enquiries or leads) drops for 2 consecutive months | Review the whole content-to-conversion path and find where the drop-off occurs | Fixing content when the loss is after the click |
-| 8 | Several triggers fire at once, or a trigger looks like a crisis | Use the parent SKILL.md § 2 incident check and escalate through `playbook-crisis-communications` | Treating a crisis as an optimisation task |
+| 8 | Several triggers fire at once, or a trigger looks like a crisis | Use the [daily-routine-method.md § Section 2](daily-routine-method.md) incident check and escalate through `playbook-crisis-communications` | Treating a crisis as an optimisation task |
 
 Rows 2–7 call for an Act decision straight away; do not wait for the monthly review. "Benchmark" means the benchmark agreed in the metrics framework for that platform and market; the source gave no figure, and none has a register record, so set it from the client's own baseline.
 

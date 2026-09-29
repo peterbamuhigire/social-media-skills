@@ -213,5 +213,5 @@ Apply throughout the canvas and roadmap:
 ## Sources
 
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford Business Books.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.

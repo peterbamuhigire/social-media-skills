@@ -45,9 +45,9 @@ If roles, budget, timing or approval limits are missing, produce a draft only: d
 
 ## Why WOM is the primary growth channel in East Africa
 
-In Uganda and across East Africa, community trust precedes purchase. Advertising meets scepticism; recommendation by a known and respected person is the dominant decision signal. The source attributes to Chaffey (2024) the point that household spending decisions are routinely deferred until a trusted contact has validated the choice (verify before stating as research evidence to a client). The Like-Know-Trust arc every customer travels is owned by `playbook-community-management`; WOM is the mechanism that moves people through that arc at scale without proportional cost.
+In Uganda and across East Africa, community trust precedes purchase. Advertising meets scepticism; recommendation by a known and respected person is the dominant decision signal. The source attributes to Chaffey and Ellis-Chadwick (2022) the point that household spending decisions are routinely deferred until a trusted contact has validated the choice (verify before stating as research evidence to a client). The Like-Know-Trust arc every customer travels is owned by `playbook-community-management`; WOM is the mechanism that moves people through that arc at scale without proportional cost.
 
-Under the POEM model (Paid / Owned / Earned; Chaffey, 2024), WOM sits in Earned media: the hardest to manufacture and the highest in credibility. A single recommendation from a trusted community figure can outperform weeks of paid advertising in the same market.
+Under the POEM model (Paid / Owned / Earned; Chaffey and Ellis-Chadwick, 2022), WOM sits in Earned media: the hardest to manufacture and the highest in credibility. A single recommendation from a trusted community figure can outperform weeks of paid advertising in the same market.
 
 WOM marketing is not passive. It is a designed system: identify the right talkers, give them a compelling topic, equip them with tools, show up in the conversations, and measure the result. This reference applies the five-pillar WOM framework (Word of Mouth Marketing Association, as synthesised by Funk, 2011) throughout.
 
@@ -245,6 +245,6 @@ A WOM programme for the client owner and delivery team that uses named inputs, a
 
 - Funk, T. (2011) *Social Media Playbook for Business*, Praeger (publisher added at merge; verify) — five-pillar WOM framework (Talkers, Topics, Tools, Taking Part, Tracking), synthesising the Word of Mouth Marketing Association.
 - Gladwell, M. (2000) *The Tipping Point*, Little, Brown (publisher added at merge; verify) — Connector, Maven and Salesperson taxonomy.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson — POEM model; credibility of earned media.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. — POEM model; credibility of earned media.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley — Like-Know-Trust framework; ROI formula.
 - Kotler, P. et al. (2023) *Marketing Management*, Pearson (publisher added at merge; verify) — consumer decision-making and community trust.

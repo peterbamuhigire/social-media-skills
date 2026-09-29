@@ -9,9 +9,7 @@ metadata:
 ---
 # East African English — Language & Tone Skill
 
-## Target Audience (Standard)
-
-English content targets East Africa primarily (Uganda, Kenya, Tanzania, Rwanda) but must be **globally readable** by any English speaker worldwide. The reader is an educated professional with advanced English comprehension — often reading English as L2 or L3. The test: a business professional in London, Lagos, Nairobi, or Kigali must understand every sentence without confusion. Use East African warmth and courtesy but avoid local slang or references only one country's readers would understand.
+English content targets East Africa primarily (Uganda, Kenya, Tanzania, Rwanda) but must be **globally readable**: a business professional in London, Lagos, Nairobi, or Kigali must understand every sentence without confusion. The reader is an educated professional with advanced English comprehension, often reading English as L2 or L3; use East African warmth and courtesy but avoid local slang or references only one country's readers would understand.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -27,249 +25,91 @@ English content targets East Africa primarily (Uganda, Kenya, Tanzania, Rwanda) 
 - Stop before publishing or sending the edited copy; return it with the tone note for client approval.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Source copy, target language or register, market, audience and protected terminology | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified east african english deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Market, language variety and audience register are confirmed | Use the named regional standard and preserve meaning, terminology and voice. | Literal or culturally misplaced copy presented as native-quality language. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+|---|---|---|---|
+| The draft or brief being written | Requester or approved brief | Yes | Stop; this skill edits existing English and routes new captions to `caption-writer`. |
+| Target country (Uganda, Kenya, Tanzania, Rwanda) | Client or brief | Recommended | Apply neutral East African business English, a balanced blend of the three country tones. |
+| Channel and copy type (caption, CTA, WhatsApp broadcast, landing microcopy, email) | Brief | Yes | Edit as a social caption and flag channel-specific limits `not assessed`. |
+| Brand voice, offer facts, protected terms and approvals | Client source pack or authorised owner | Conditional | Keep the client's facts unchanged; never invent names, prices, dates or results. |
 
 ## Workflow
-1. Confirm the exact east african english deliverable, consumer, market, channel and approval boundary; route to `language-standards` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete east african english deliverable; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| East african english deliverable | Requester, client reviewer or delivery team | The east african english deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+1. Confirm the draft, target country, channel and approval owner; route to `language-standards` for a multilingual policy question, `swahili-native-copy` for Kiswahili, and stop if there is no draft or brief.
+2. Apply British spelling and day-month-year dates from the [style guide](references/east-african-english-style-guide.md) (17 February 2026, never February 17, 2026).
+3. Set the tone by country: Uganda warm and relational, Kenya confident and business-oriented, Tanzania calm and measured; neutral East African style when no country is named.
+4. Soften directives and CTAs to the courteous East African form, and replace hype words with measured professional vocabulary.
+5. Check collocations and lexical precision with the [English collocation overlay](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md): preserve genuine local detail and warmth, but never manufacture dialect, slang, intimacy or mistakes, and check each phrase in its channel and audience context.
+6. Read the result against the benchmark paragraph and the quality checks; correct any sentence a reader in London, Lagos, Nairobi or Kigali would stumble on and rerun the read-through.
+7. Run the `anti-ai-slop` ship gate and return the edited copy with a tone note per country; stop before publishing or sending.
 
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+## Core characteristics
 
-## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested east african english deliverable, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## References
-- [language-standards](../language-standards/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-<!-- dual-compat-end -->
-
-All website copy, headings, calls to action, descriptions, and microcopy must follow this style guide. This is the foundational language standard applied before and during every content-writing step.
-
-## Required Input
-Start with the draft or brief being written. Confirm the target country when known; otherwise apply neutral East African business English by default.
-
-## Core Characteristics
-1. **Clear and direct.** Sentences are straightforward, grammatically careful, and logically structured. No slang in professional communication.
+1. **Clear and direct.** Sentences are straightforward, grammatically careful and logically structured. No slang in professional communication.
 2. **Formal and respectful.** Politeness is essential. Communication shows courtesy and humility.
 3. **British English spelling.** organisation, programme, centre, colour, travelling (double "l").
 4. **Professionally indirect.** Avoid bluntness. Soften directives with courteous phrasing.
 5. **Measured confidence.** Confident without arrogance. No dramatic or exaggerated language.
 
-## British English Standards
-### Spelling
-Always use British spelling:
+## Outputs
 
-| Correct | Incorrect |
-|---------|-----------|
-| organisation | organization |
-| programme | program |
-| centre | center |
-| colour | color |
-| travelling | traveling |
-| specialise | specialize |
-| honour | honor |
-| favourite | favorite |
-| analyse | analyze |
-| defence | defense |
-| licence (noun) | license (noun) |
-| catalogue | catalog |
-| enquiry | inquiry |
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Edited English copy | Client reviewer; community manager | British spelling, day-month-year dates, courteous CTAs and no hype words or slang. |
+| Tone note per country | Client reviewer | States the country tone applied (or neutral East African style) and the main edits made. |
+| Open-items note | Approver | Lists facts, dates or claims the editor could not verify and any action needing authority. |
 
-### Dates
-Write dates in day-month-year order:
+## Evidence Produced
 
-- 17 February 2026
-- 17th February 2026
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Before-and-after edit log | Table: original phrase, edited phrase, rule applied | Every hype word, American spelling, blunt directive and date format change is traceable to a rule. |
 
-Never use month-first American format (February 17, 2026).
+## Capability and Permission Boundaries
 
-## Tone by Country Context
-When the client is based in a specific country, adjust the tone slightly:
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Editing English copy within the supplied brief is permitted; sending it is not.
 
-### Uganda — Warm and Relational
-- Very polite and appreciative
-- Frequent use of "kindly"
-- Emphasis on harmony and goodwill
+## Degraded Mode
 
-> We highly appreciate your support in this matter.
-> Kindly be informed that the funds have been received.
+Without a confirmed target country or brand voice, return the narrowest qualified result and mark the affected checks `not assessed`. Copy edited to neutral East African business English, with spelling, dates and CTAs corrected, can still be delivered.
 
-### Kenya — Confident and Business-Oriented
-- Efficient and practical
-- Clear timelines and expectations
-- Professional firmness
+## Decision Rules
 
-> Please share the signed agreement by Friday, 21 February 2026.
-> The project remains on schedule.
-
-### Tanzania — Calm and Measured
-- Formal and slightly conservative
-- Respectful and patient rhythm
-- Influenced by Swahili sentence structure
-
-> We kindly request your guidance on the next steps.
-> The matter is under review, and we shall revert shortly.
-
-When no specific country is indicated, use the **neutral East African style** — a balanced blend of all three.
-
-## Courteous Phrases to Use
-These are natural and expected in East African business English:
-
-- Kindly find attached…
-- We kindly request…
-- Please be advised that…
-- We would like to inform you…
-- Thank you for your continued support.
-- We look forward to your response.
-- We appreciate your partnership.
-- Should you require any further clarification, please do not hesitate to contact us.
-
-## Vocabulary Standards
-### Preferred Professional Words
-Use simple, professional vocabulary:
-
-- facilitate, implement, undertake, liaise, coordinate
-- engage, support, enhance, review, confirm
-- advise, revert (meaning "respond" — widely accepted in East Africa)
-- significant, important, strategic, beneficial, valuable
-
-### Words and Phrases to Avoid
-Never use exaggerated marketing language:
-
-| Avoid | Use Instead |
-|-------|-------------|
-| groundbreaking | significant |
-| revolutionary | innovative |
-| game-changing | strategic |
-| amazing | commendable |
-| awesome | excellent |
-| incredible | remarkable |
-| unleash | enable |
-| skyrocket | improve significantly |
-| supercharge | strengthen |
-| crushing it | performing well |
-
-Also avoid:
-
-- American slang and casual abbreviations (FYI, ASAP, BTW)
-- Overly creative marketing language
-- Dramatic emotional tone
-- Complex academic vocabulary
-- Excessive exclamation marks
-
-Instead of abbreviations, write in full:
-
-> Please respond as soon as possible.
-
-## Sentence Style
-### Use Full, Balanced Sentences
-- No fragments or telegram-style copy
-- Moderate length — not too short, not too complex
-- Logical structure with clear subject-verb-object order
-
-Good:
-
-> The team has completed the initial assessment and will submit the final report by the end of the week.
-
-### Professional Indirectness
-Soften directives. Never sound blunt or commanding.
-
-| Too Blunt | East African Style |
-|-----------|--------------------|
-| Send the report today. | Kindly submit the report by close of business today. |
-| You are wrong. | There appears to be a misunderstanding regarding the figures provided. |
-| We need payment now. | We kindly request that the outstanding balance be settled at your earliest convenience. |
-| Fix this immediately. | We would appreciate your urgent attention to this matter. |
-
-### CTAs and Website Microcopy
-Apply the same respectful tone to buttons, links, and short UI text:
-
-| Generic | East African Style |
-|---------|--------------------|
-| Buy Now | Place Your Order |
-| Sign Up | Register Today |
-| Get Started | Begin Your Journey |
-| Learn More | Find Out More |
-| Contact Us | Get in Touch |
-| Download | Download the Brochure |
-
-Avoid aggressive sales language. CTAs should be inviting, not pushy.
-
-## Openings and Closings (for letters, emails, contact forms)
-### Openings
-- Dear Sir/Madam,
-- Dear Mr. Otieno,
-- Greetings,
-- We refer to the above subject matter.
-
-### Closings
-- Yours faithfully, (when you do not know the recipient)
-- Yours sincerely, (when you know the recipient)
-- Kind regards,
-- Best regards,
-
-Often followed by:
-
-> We look forward to your favourable response.
-
-## Reference Paragraph — Neutral East African Business Style
-Use this as a benchmark for tone and rhythm:
-
-> We wish to inform you that the training programme will commence on 3 March 2026 at our Nairobi office. Kindly confirm your availability at your earliest convenience. Should you require any further clarification, please do not hesitate to contact us. We appreciate your continued partnership and look forward to working together.
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Client is based in Uganda | Very polite and appreciative; frequent "kindly"; emphasis on harmony and goodwill. | Copy that reads cold to a Ugandan customer. |
+| Client is based in Kenya | Efficient and practical; clear timelines and expectations; professional firmness. | Vague copy that Kenyan business readers find evasive. |
+| Client is based in Tanzania | Formal and slightly conservative; respectful, patient rhythm influenced by Swahili sentence structure. | Abrupt copy that reads as disrespectful. |
+| No country is indicated, or one campaign covers several | Use the neutral East African style, a balanced blend of all three; drop slang only one market follows. | Wording that suits one country and confuses the others. |
+| A directive or CTA sounds blunt ("Send the report today", "Buy Now") | Rewrite in the courteous form ("Kindly submit the report by close of business today", "Place Your Order"). | Pushy tone that damages the relationship. |
+| A required fact or approval is missing | Stop that claim; request it or leave an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 
 ## Quality Standards
-- British English spelling is consistent throughout the deliverable.
-- Tone stays professional, respectful, and recognisably East African rather than American, slang-heavy, or globally generic.
-- CTAs, directives, and service language remain courteous without becoming weak or vague.
 
-## When This Skill Applies
-- **All visible website text** — headings, body copy, service descriptions, about pages, CTAs
-- **Meta descriptions and SEO text**
-- **Alt text for images** (clear, descriptive, respectful)
-- **Error messages and form labels** (polite, never terse)
-- **Any generated email templates or contact responses**
+- British English spelling is consistent throughout the deliverable; dates are day-month-year.
+- Tone stays professional, respectful and recognisably East African rather than American, slang-heavy or globally generic.
+- CTAs, directives and service language remain courteous without becoming weak or vague.
+- Every sentence is understandable to a business professional in London, Lagos, Nairobi or Kigali.
+- No exaggerated marketing words, American abbreviations (FYI, ASAP, BTW), excessive exclamation marks or telegram-style fragments.
+- Collocations are natural and precise; no manufactured dialect, slang, intimacy or mistakes.
+- Names, figures, quotations and platform rules are verified before use, and the `anti-ai-slop` ship gate is passed; a blocking factual, cultural, safety or permission defect stops release.
 
-This skill runs alongside every other skill. The design-system chooses how text looks; this skill governs what it says and how it sounds.
-## English collocation and lexical-precision overlay
+## Anti-Patterns
 
-Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md). Preserve genuine local detail and warmth, but never manufacture dialect, slang, intimacy, or mistakes. Check the phrase in the channel and audience context.
+- Using month-first American dates (February 17, 2026). Fix: write 17 February 2026.
+- Leaving hype words such as groundbreaking, game-changing or skyrocket. Fix: swap them for the measured word in the style guide's avoid list.
+- Writing "Buy Now" or "Sign Up" CTAs. Fix: use inviting forms such as "Place Your Order" or "Register Today".
+- Adding local slang to sound authentic. Fix: keep genuine local detail and warmth only; never manufacture dialect.
+- Writing fragments or telegram-style copy. Fix: use full, balanced sentences with clear subject-verb-object order.
+- Adding a price, result, quotation or cultural claim without a traceable source. Fix: verify it, or qualify or remove it.
+- Publishing or sending the edited copy from editing authority alone. Fix: return it with the tone note for client approval.
+
+## References
+
+- [East African English style guide](references/east-african-english-style-guide.md): read when checking spelling, dates, country tone examples, courteous phrases, the vocabulary avoid list, sentence style, CTAs, letter openings and closings, or the benchmark paragraph.
+- [English collocation and lexical-precision overlay](../language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md): read when tightening verbs, collocations and word choice.
+- [`language-standards`](../language-standards/SKILL.md): read when the tone and grammar policy spans English, French and Kiswahili.
+- [`swahili-native-copy`](../swahili-native-copy/SKILL.md): read when the copy must be written in Kiswahili.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read before release.
+- [Repository agent guide](../../../AGENTS.md): read when the engine-wide market, safety and anti-slop gates apply.
+<!-- dual-compat-end -->

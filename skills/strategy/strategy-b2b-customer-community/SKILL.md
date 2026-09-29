@@ -49,9 +49,19 @@ Build a business-to-business marketing system that keeps and grows the best cust
 7. Design acquisition last: look-alikes of the best customers, allowable cost per lead, captive-universe lists and closed-loop lead handling.
 8. Review quarterly; rerun grading when revenue mix or cost to serve changes.
 
+## Seven self-diagnostic questions (open every B2B plan with these)
+
+1. Have we written down who counts as a customer?
+2. Have we segmented on needs and behaviour?
+3. Do we know why each segment buys from us?
+4. Do we know each customer's economic value?
+5. Is there a value-based contact plan per grade?
+6. What share of customers defect each year?
+7. What product and buyer penetration do we have per account, and how many referrals came last quarter?
+
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Active-customer definition and base classification | Client owner, finance | Definition approved; counts per status reconcile to the source list |
 | Grade and contact matrix | Sales, account and marketing leads | Each grade's contact cost is within its expense-to-revenue ceiling |
@@ -69,11 +79,11 @@ Build a business-to-business marketing system that keeps and grows the best cust
 
 ## Capability and Permission Boundaries
 
-Read and search supplied customer data and evidence. Analysis and planning are read-only. Contacting customers, surveys, list matching or CRM changes need explicit authority, a lawful basis and registration where the law requires it. Commercial offers to clients need approver sign-off.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Contacting customers, surveys, list matching or CRM changes also need a lawful basis and registration where the law requires it, and commercial offers to clients need approver sign-off.
 
 ## Degraded Mode
 
-Without transaction data, deliver the definition draft, grading method, workshop design and a key-account plan template with every value marked `not assessed`. Never invent revenue or margin per account.
+Without transaction data, return the narrowest qualified result and mark the affected checks `not assessed`. The active-customer definition draft, grading method, workshop design and a key-account plan template can still be delivered; never invent revenue or margin per account.
 
 ## Decision Rules
 
@@ -104,21 +114,12 @@ Without transaction data, deliver the definition draft, grading method, workshop
 
 ## References
 
-- [Customer grading, contact economics and lifecycle](references/customer-grading-and-contact-economics.md) — read for definitions, grading, contact matrix, cube, market-at-risk, assimilation and acquisition waterfall.
-- [Key-account planning and negotiation](references/key-account-planning-and-negotiation.md) — read for strategic accounts, relationship reviews, sponsors and renewal negotiation.
-- [Client retainer management](../../playbooks/playbook-client-retainer-management/SKILL.md) — neighbour for retainer delivery.
-- [Lawful prospecting and outreach](../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md) — consent rules for any contact list.
-- [Attribution and measurement](../../advertising/advertising-attribution-and-measurement/SKILL.md) — cost-per-lead and allowable-cost links.
+- [Customer grading, contact economics and lifecycle](references/customer-grading-and-contact-economics.md): read when writing definitions, grading accounts, building the contact matrix, account cube, market-at-risk, assimilation or acquisition waterfall.
+- [Key-account planning and negotiation](references/key-account-planning-and-negotiation.md): read when planning strategic accounts, relationship reviews, sponsors and renewal negotiation.
+- [Client retainer management](../../playbooks/playbook-client-retainer-management/SKILL.md): read when the work is retainer delivery (neighbour route).
+- [Lawful prospecting and outreach](../../business-development/biz-dev-lawful-prospecting-outreach/SKILL.md): read before any contact list is used, for consent rules.
+- [Attribution and measurement](../../advertising/advertising-attribution-and-measurement/SKILL.md): read when linking cost per lead to allowable cost.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting client-facing plans and contact content.
 <!-- dual-compat-end -->
-
-## Seven self-diagnostic questions (open every B2B plan with these)
-
-1. Have we written down who counts as a customer?
-2. Have we segmented on needs and behaviour?
-3. Do we know why each segment buys from us?
-4. Do we know each customer's economic value?
-5. Is there a value-based contact plan per grade?
-6. What share of customers defect each year?
-7. What product and buyer penetration do we have per account, and how many referrals came last quarter?
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

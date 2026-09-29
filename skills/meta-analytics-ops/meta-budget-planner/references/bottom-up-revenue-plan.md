@@ -83,7 +83,7 @@ Rule (Kahan, 2022): customer acquisition cost (CAC) must not exceed 25% of custo
 3. Calculate actual CAC: total quarterly marketing budget ÷ new clients needed.
 4. Confirm actual CAC is below the ceiling before presenting the budget to the client or board.
 
-This ceiling sits alongside the Bodnar and Cohen (2012) ROI check in the SKILL.md `Section 6 — ROI Tracking`: the cap limits what the plan may spend per client; the ROI formula judges each channel's return once it runs.
+This ceiling sits alongside the Bodnar and Cohen (2012) ROI check in [budget-tiers-and-allocation.md § Section 6 — ROI Tracking](budget-tiers-and-allocation.md): the cap limits what the plan may spend per client; the ROI formula judges each channel's return once it runs.
 
 ## Weighted pipeline
 

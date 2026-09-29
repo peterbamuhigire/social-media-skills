@@ -4,9 +4,9 @@ Merged from skills/playbooks/playbook-location-based-marketing on 2026-09-29 at 
 
 ## When to use this reference
 
-Read this reference when a client with one or more physical premises wants more footfall from people nearby, not only a complete Google Business Profile. Typical requests: "get more walk-in customers in Ntinda", "local marketing plan for our branches", "geo-targeted ads around the shop", "use WhatsApp groups in our estate", "location tags and check-ins". The GBP setup, optimisation, photo, post, Q&A, review, metric and local SEO sections of [SKILL.md](../SKILL.md) remain the baseline; this reference adds the location-level asset checklist, neighbourhood-specific GBP tactics, geo-targeted paid media, location-tagged content, WhatsApp hyperlocal tactics and multi-branch operation.
+Read this reference when a client with one or more physical premises wants more footfall from people nearby, not only a complete Google Business Profile. Typical requests: "get more walk-in customers in Ntinda", "local marketing plan for our branches", "geo-targeted ads around the shop", "use WhatsApp groups in our estate", "location tags and check-ins". The GBP setup, optimisation, photo, post, Q&A, review, metric and local SEO sections, now in [gbp-setup-optimisation-and-review-method.md](gbp-setup-optimisation-and-review-method.md) (linked from [SKILL.md](../SKILL.md)), remain the baseline; this reference adds the location-level asset checklist, neighbourhood-specific GBP tactics, geo-targeted paid media, location-tagged content, WhatsApp hyperlocal tactics and multi-branch operation.
 
-Sources (publishers added at merge; verify; Chaffey co-author Ellis-Chadwick to confirm): Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson (POEM model, RACE framework); Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley (10-4-1 rule, ROI formula); Kotler, P. et al. (2023) *Marketing Management*, Pearson (customer discovery behaviour and local market segmentation).
+Sources (publishers added at merge; verify; the Chaffey and Ellis-Chadwick edition was confirmed on 29 Sep 2026): Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. (POEM model, RACE framework); Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley (10-4-1 rule, ROI formula); Kotler, P. et al. (2023) *Marketing Management*, Pearson (customer discovery behaviour and local market segmentation).
 
 ## How local discovery works in East Africa
 
@@ -64,16 +64,16 @@ Mark every asset Exists / Incomplete / Missing, then set the action.
 | Website — address visible, Google Map embedded | Medium | | |
 | Foursquare / Yelp listing (if relevant to the sector) | Low | | |
 
-Treat Essential rows as preconditions. Note: this location checklist sets 10 photos as the Essential floor, above the SKILL.md 10-point score's minimum of 8 and its 9-photo minimum viable set; use the higher figure when footfall is the objective.
+Treat Essential rows as preconditions. Note: this location checklist sets 10 photos as the Essential floor, above the 10-point score's minimum of 8 in [gbp-setup-optimisation-and-review-method.md § 2](gbp-setup-optimisation-and-review-method.md) and its 9-photo minimum viable set; use the higher figure when footfall is the objective.
 
 ### 2. Add neighbourhood tactics on top of the GBP baseline
 
-Run SKILL.md Sections 1–8 first, then add:
+Run Sections 1–8 of [gbp-setup-optimisation-and-review-method.md](gbp-setup-optimisation-and-review-method.md) first, then add:
 
-- **Geo-targeted keywords.** Put the neighbourhood and city in the business description and in individual service descriptions. "The best bakery in Ntinda, Kampala" does better in local search than "the best bakery in Uganda": searches near an area weight results towards it, and a generic national description loses that advantage. (Keep superlatives out of the actual description field — SKILL.md §7 of the completeness score.)
+- **Geo-targeted keywords.** Put the neighbourhood and city in the business description and in individual service descriptions. "The best bakery in Ntinda, Kampala" does better in local search than "the best bakery in Uganda": searches near an area weight results towards it, and a generic national description loses that advantage. (Keep superlatives out of the actual description field — §7 of the completeness score in [gbp-setup-optimisation-and-review-method.md § 2](gbp-setup-optimisation-and-review-method.md).)
 - **Local posts.** Publish GBP updates on location-specific events: neighbourhood market days, promotions timed to nearby schools or churches, public events within the target radius. Posts show directly in local results and on the Maps listing, cost nothing, and competitors often ignore them.
-- **Location Q&A seeding.** Add location-specific questions and answers proactively, alongside the ten universal starters in SKILL.md §5: "Where are you located in Kampala?" (full address plus a landmark); "Is there parking at your Ntinda branch?" (a specific answer); "Do you deliver to Kira Road?" (delivery radius plus WhatsApp contact). Seeded answers keep misinformation out of the public field and cut basic location enquiries. (Q&A availability on GBP is time-sensitive: verify at use — no register record.)
-- **Street-level landmark photos.** Besides exterior, interior and product/service photos (SKILL.md §3), add photos of nearby junctions, landmarks or boda-boda stages that help customers navigate where addresses are poorly signposted.
+- **Location Q&A seeding.** Add location-specific questions and answers proactively, alongside the ten universal starters in [gbp-setup-optimisation-and-review-method.md § 5](gbp-setup-optimisation-and-review-method.md): "Where are you located in Kampala?" (full address plus a landmark); "Is there parking at your Ntinda branch?" (a specific answer); "Do you deliver to Kira Road?" (delivery radius plus WhatsApp contact). Seeded answers keep misinformation out of the public field and cut basic location enquiries. (Q&A availability on GBP is time-sensitive: verify at use — no register record.)
+- **Street-level landmark photos.** Besides exterior, interior and product/service photos ([gbp-setup-optimisation-and-review-method.md § 3](gbp-setup-optimisation-and-review-method.md)), add photos of nearby junctions, landmarks or boda-boda stages that help customers navigate where addresses are poorly signposted.
 
 ### 3. Plan geo-targeted paid media (POEM: Paid; only with spend authority)
 
@@ -136,3 +136,7 @@ For WhatsApp Business set-up, broadcasts and group marketing in depth, use [play
 - [ ] All three primary EA discovery channels — Google Search, WhatsApp referral and Facebook location tags — have specific tactics.
 - [ ] Time-sensitive platform features (Q&A, TikTok targeting, local search ads, Facebook Locations) are verified or flagged.
 - [ ] British English throughout ([East African English standard](../../../language/east-african-english/SKILL.md)).
+
+## Where the SKILL.md sections now live
+
+Added in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`). The set-up, optimisation, photo, post, Q&A, review, metric and local SEO sections cited above as "SKILL.md §1–§8" (including the 10-point score's 8-photo minimum and the 9-photo minimum viable set) moved, text unchanged, to [gbp-setup-optimisation-and-review-method.md](gbp-setup-optimisation-and-review-method.md), keeping their section numbers.

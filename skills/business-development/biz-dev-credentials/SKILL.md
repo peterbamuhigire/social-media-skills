@@ -9,6 +9,8 @@ metadata:
 ---
 # Agency Credentials Generator
 
+Builds the agency's credentials pack for a prospect or procurement team: a written credentials document, an eight-slide deck outline and, where one result deserves it, a one-page case study with a three-slide version. Proof comes only from approved, traceable client results.
+
 <!-- dual-compat-start -->
 ## Use When
 - A prospect or procurement team has asked for our agency profile or company credentials before they shortlist us.
@@ -23,229 +25,90 @@ metadata:
 - Stop before naming any client, result, logo or testimonial the client has not approved for publication; list it as a permission gap instead.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified credentials pack; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| One client result needs its own standalone case study (one-page write-up and three-slide deck) | Apply the [case study method](references/case-study-method.md): real metrics, consented name or one anonymised descriptor, never a fabricated quote. | A vague success story or an invented testimonial. |
+|---|---|---|---|
+| Agency name, tagline, founder name and background (history, experience, why the agency was founded) | Agency owner | Yes | Ask before generating; do not invent a founding story or year. |
+| Services offered (up to 6) in plain English | Agency owner | Yes | Ask; list only services the agency actually delivers. |
+| Three client results, each with a measurable outcome (anonymised is acceptable) | Consultant, client reports or platform exports | Yes | Ask for numbers; a story without a metric is held as a gap, never written as "significant improvement". |
+| Team members: name, role, 3-sentence bio, key expertise areas | Agency owner | Yes | Ask; profile only the people supplied. |
+| Contact details (phone, email, website, address or city) and country/city | Agency owner | Yes | Ask for contacts; country/city defaults to Kampala, Uganda. |
+| Client permissions for names, logos, testimonials and data | Client consent records | Yes, before release | Anonymise with one consistent descriptor and list the permission gap. |
 
 ## Workflow
-1. Confirm the exact credentials pack, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete credentials pack; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Confirm the prospect, the buying decision the pack must support and the approval boundary; route to `biz-dev-positioning` if the niche and promise are not yet decided, or to `biz-dev-proposal` if a costed scope is wanted.
+2. Ask the intake questions in the [build method](references/credentials-build-method.md#required-input); stop until every missing item is supplied or recorded as a gap.
+3. Gather and rank the proof against the six social proof sources (Bly, 2018); check permission for each named client, logo, testimonial and screenshot; stop any claim whose consent or evidence is missing.
+4. Where useful, score the agency on the 16-criterion Brand Asset Scorecard (Killian, in Hahn, 2003) to decide which strengths to emphasise and which gaps to acknowledge.
+5. Write the six credentials sections in order, leading with the strongest client outcome, then the eight-slide deck outline in the exact slide format; for one standalone result, follow the [case study method](references/case-study-method.md).
+6. Test every superlative and result against the Fluff/Guff/Geek/Weasel Test and the Quality Standards below; correct each failing line (add the number, name the client result, or cut it) and rerun the check.
+7. Run the `anti-ai-slop` ship gate, then deliver the pack with its proof and permission register and the next approval step; a blocking factual or permission defect stops release.
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Credentials pack | Requester, client reviewer or delivery team | The credentials pack addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Written credentials document (six sections: overview and founding story, services, approach, three success stories, team profiles, contact and next steps) | Prospect or procurement team | No section skipped; continuous prose with no superlatives; each story has a specific metric. |
+| Eight-slide deck outline | Presenter | Every slide carries Headline, 3–5 Bullets, Speaker Notes and Visual Direction. |
+| One-page case study and three-slide version (when requested) | Prospect, proposal or website owner | Follows the case study method and its release checklist. |
+| Permission gap list | Agency owner | Every unapproved client name, logo, testimonial or figure is listed, not published. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Social proof register (six sources) | Table: source, evidence held, placement, consent status | Evidence exists for at least four of six sources, or the gap is flagged to the consultant. |
+| Brand Asset Scorecard (when used) | 16-row table scored 1–10 with total | Total banded 130–160 strong, 90–129 functional, below 90 investment required. |
+| Claim and consent log | Table: claim, source, date, approval | Every result, quote and logo traces to a source and a consent record, or is marked unverified. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Naming a client, quoting them or showing their account data needs that client's recorded permission.
+
+## Degraded Mode
+
+Without measurable, approved client results, return the narrowest qualified result and mark the affected checks `not assessed`. The overview, services, approach, team profiles and deck skeleton can still be delivered, with success-story slots held as visible placeholders.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| One client result needs its own standalone case study (one-page write-up and three-slide deck) | Apply the [case study method](references/case-study-method.md): real metrics, consented name or one anonymised descriptor, never a fabricated quote. | A vague success story or an invented testimonial. |
+| Evidence exists for fewer than four of the six social proof sources | Flag the missing sources to the consultant and ship with the gap shown. | A credentials document padded with embellished or vague claims. |
+| The prospect is in a known sector (for example financial services) | Organise proof by client type and industry and put same-sector proof first. | A general mix that fails to convince this buyer. |
+| A superlative ("the best", "leading", "premier", "world-class") appears | Support it with a number or a named client result, or remove it (Sant: Fluff/Guff/Geek/Weasel Test). | Noise that reads as self-praise. |
+| Deciding what opens the pack | Lead with the most impressive client result; place credentials after the client's need is established (Sant: NOSE, Primacy Principle). | Opening with history the buyer does not care about. |
+| A client has not approved publication of its name, logo or testimonial | Anonymise with one descriptor and list it as a permission gap. | Unauthorised disclosure of a client. |
+| The Brand Asset Scorecard shows low-scoring criteria | Emphasise the strengths and offer the gaps as consultancy opportunities. | A deck that ignores what the prospect needs. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- Agency overview is factual, confident, and free of superlatives or vague claims.
+- Each client success story contains at least one specific metric (number, percentage, or concrete outcome).
+- Team bios are professional and informative; each is distinct in voice and content.
+- Deck outline follows the exact format specified in CLAUDE.md with no missing fields.
+- Services are described in plain English a non-specialist business owner would understand.
+- Methodology references the RACE framework (Chaffey and Ellis-Chadwick, 2022) at the appropriate step.
+- Contact and next steps section includes a clear, courteous call to action.
+- British English spelling throughout; no American variants.
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested credentials pack, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+- Writing "significant improvement" in a success story. Fix: use the real number from the input, or hold the story as a gap.
+- Padding team bios with "passionate about" or "dedicated to". Fix: keep the three-sentence format: background, what they bring, one relevant detail.
+- Opening with the founding year and history. Fix: lead with the strongest outcome; the founding year is irrelevant to the client's decision.
+- Presenting a general catalogue of past activity. Fix: frame each credential as proof for a specific outcome this prospect wants.
+- Writing a testimonial the client never gave, or naming a client without consent. Fix: use the placeholder and the anonymised descriptor, and record the permission gap.
+- Treating the document's look as secondary. Fix: its quality, design and accuracy are Physical Evidence (Hatton) of the service; check every figure and name before release.
 
 ## References
-- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
-- [case-study-method](references/case-study-method.md) — read when one client result needs a standalone one-page case study and three-slide deck.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+
+- [Credentials build method](references/credentials-build-method.md): read when asking the intake questions, writing the six sections and eight slides, applying the formatting rules, the social proof taxonomy, the Brand Asset Scorecard or the persuasion principles.
+- [Case study method](references/case-study-method.md): read when one client result needs a standalone one-page case study and three-slide deck.
+- [Proposal frameworks](references/proposal-frameworks.md): read when applying NOSE, the Primacy Principle, the Fluff/Guff/Geek/Weasel Test or Hatton's Physical Evidence.
+- [`biz-dev-positioning`](../biz-dev-positioning/SKILL.md): read when the niche, promise or proof architecture is not settled.
+- [`biz-dev-proposal`](../biz-dev-proposal/SKILL.md): read when the prospect wants a costed scope of work.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the overview, bios and slide copy.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
-
-Produce two outputs from a single set of inputs: (1) a written credentials document and (2) an 8-slide deck outline. Both are ready to share or present without major editing. Apply East African English and professional register throughout.
-
-## Required Input
-Ask for the following before generating anything:
-
-- **Agency name** — trading name and any tagline
-- **Founder name and background** — professional history, relevant experience, what prompted founding the agency
-- **Services offered** — list of services (up to 6); plain-English descriptions
-- **Three client results** — anonymised is acceptable; must include a measurable outcome for each
-- **Team members** — for each: name, role, 3-sentence bio, key expertise areas
-- **Contact details** — phone, email, website, physical address or city
-- **Country/city** — defaults to Kampala, Uganda if not specified
-
-If any of these are missing, ask for them before proceeding.
-
-## Output 1: Written Credentials Document
-Generate each section in order. Do not skip sections.
-
-### 1. Agency Overview and Founding Story
-Write 3–4 sentences. Cover: what the agency does, who it serves, when it was founded, and why. Tone must be confident but not boastful — let the facts speak. Reference the founder's background naturally. Do not use superlatives ("the best", "leading", "premier").
-
-> Example register: "Meridian Social was founded in 2021 by [Founder Name], a communications professional with eight years' experience across corporate and NGO sectors in Uganda. The agency specialises in social media strategy and content management for small and medium-sized businesses seeking measurable growth. [Agency Name] brings together strategic rigour and practical execution — giving clients senior-level thinking without the overhead of an in-house team."
-
-### 2. Services Offered
-List 4–6 services. For each service:
-- **Service name** (bold)
-- One sentence describing what it is
-- One sentence on who it is for or what problem it solves
-
-Do not use jargon. Write as if explaining to a capable but non-specialist business owner.
-
-### 3. Approach and Methodology
-Describe how the agency works in 3–4 numbered steps. Each step has a title and 1–2 sentences. Frame this as a repeatable process that gives the client confidence. Reference the RACE framework (Chaffey, 2024) at the appropriate step — typically the planning or strategy phase.
-
-Example step structure:
-1. **Discovery** — ...
-2. **Strategy** — ...
-3. **Execution** — ...
-4. **Review** — ...
-
-### 4. Client Success Stories (Three)
-For each story, use this format:
-
-**Client [A/B/C] — [Industry or anonymised descriptor, e.g. "Kampala-based retail brand"]**
-- **Problem:** One sentence. Specific challenge.
-- **Approach:** One sentence. What was done.
-- **Result:** One sentence. Specific metric or outcome. Use real numbers from the input. Never write "significant improvement".
-
-### 5. Team Profiles
-For each team member:
-
-**[Full Name]**
-*[Role/Title]*
-[3-sentence bio: sentence 1 — professional background; sentence 2 — what they bring to clients; sentence 3 — a relevant personal or professional detail that adds colour without being informal.]
-**Expertise:** [3–5 key areas, comma-separated]
-
-### 6. Contact and Next Steps
-Include:
-- Full contact details as provided
-- A short paragraph (2–3 sentences) inviting the prospective client to get in touch. Warm, professional, not pushy.
-- A clear call to action: "We would welcome the opportunity to discuss your goals. Kindly reach out via [contact method] to arrange a conversation."
-
-## Output 2: 8-Slide Deck Outline
-Generate immediately after the written document. Use the exact slide format from CLAUDE.md:
-
-**Slide N — [Slide Title]**
-**Headline:** [The one thing the audience must remember]
-**Bullets:**
-- [3–5 bullets maximum]
-**Speaker Notes:** [What the presenter says — context and depth not shown on the slide]
-**Visual Direction:** [Layout, imagery, colour, chart type]
-
-### Slide Structure
-**Slide 1 — Cover**
-Agency name, tagline, presenter name, date. Clean and professional.
-
-**Slide 2 — Who We Are**
-Founding story and agency overview. Headline should convey what makes the agency the right partner.
-
-**Slide 3 — What We Do**
-Services offered. Group into logical clusters if more than 4.
-
-**Slide 4 — How We Work**
-The methodology. 3–4 steps as a visual flow.
-
-**Slide 5 — Results We Have Delivered**
-Three case study snapshots — one per client story. Metric-led headline.
-
-**Slide 6 — Who We Work With**
-Ideal client profile: sectors, business sizes, maturity. Helps the prospect self-identify.
-
-**Slide 7 — What Working With Us Looks Like**
-Onboarding process, communication norms, typical engagement structure. Sets expectations.
-
-**Slide 8 — Let's Talk**
-Contact details, next step prompt, Q&A invitation.
-
-## Formatting Rules
-- Use markdown headings and bold for section titles
-- Credentials document: continuous prose with clear section breaks
-- Deck outline: strict slide-by-slide format, no deviations
-- No bullet points in the prose sections of the credentials document — write in full sentences
-- Keep team bios in the specified format; do not pad with vague phrases ("passionate about", "dedicated to")
-
-## Social Proof Standards
-### Social Proof Taxonomy (Bly, 2018)
-A credentials document must present all six social proof sources. Organise proof by client type and industry where possible — a financial services prospect is more convinced by financial services social proof than by a general mix across sectors.
-
-| Source | What to Include | Placement in Credentials Document |
-|---|---|---|
-| **Client testimonials** | Named testimonials with photo (where consented), name, title, and organisation. Quote must reference a specific outcome, not general satisfaction. | Section 4 — Client Success Stories; or a dedicated testimonials page |
-| **Specific case study results** | Numbers, percentages, and currency values from prior engagements. "Significant improvement" is not a result. | Section 4 — one specific metric per story |
-| **Crowd proof** | Total number of clients served, total campaigns run, total posts published, years in operation. Specific numbers carry more weight than vague claims. | Section 1 — Agency Overview, or a dedicated "By the Numbers" callout |
-| **Expert endorsements** | Referrals from named professionals, media features, speaking invitations, industry body memberships. Third-party endorsement from a recognised source outweighs ten self-claims. | Section 3 — Approach, or alongside team profiles |
-| **Award badges and media features** | Platform certifications, industry awards, press mentions (Daily Monitor, NTV, Business Daily, etc.). Display as logos or named references. | Section 1, or a visual "As Seen In / Recognised By" strip |
-| **Process credentials** | Documented methodology, tools used, quality control steps. Demonstrates that results are reproducible, not accidental. | Section 3 — Approach and Methodology |
-
-When compiling the credentials document, verify that evidence exists for at least four of the six sources before finalising. Flag any source with insufficient evidence to the consultant — a credentials document with gaps is better than one with embellished or vague claims.
-
-## Brand Asset Scorecard
-*Killian, B., in Hahn (2003)*
-
-Use this 16-criterion scorecard to assess brand health before building a credentials deck. Rate each criterion 1–10. Low scores reveal gaps the credentials should address or acknowledge.
-
-| # | Criterion | Score (1–10) | Notes |
-|---|---|---|---|
-| 1 | Brand Name | | |
-| 2 | Packaging / visual identity | | |
-| 3 | Reach and frequency | | |
-| 4 | Ad / content quality | | |
-| 5 | Promotions and offers | | |
-| 6 | Consistency across channels | | |
-| 7 | Distribution / availability | | |
-| 8 | Newsworthiness | | |
-| 9 | Likeability | | |
-| 10 | Trade / partner support | | |
-| 11 | Sales team capability | | |
-| 12 | User / customer profile clarity | | |
-| 13 | Product / service performance | | |
-| 14 | Repurchasing / retention rate | | |
-| 15 | Actionable research / data | | |
-| 16 | Perceived value | | |
-
-**Scoring:** 130–160 = strong brand; 90–129 = functional but gaps present; below 90 = significant brand investment required.
-
-When completing a credentials deck for a prospect client, use this scorecard to identify the brand strengths to emphasise and the gaps to offer as consultancy opportunities.
-
-## Persuasion Frameworks
-Apply frameworks from `references/proposal-frameworks.md` when generating this document.
-
-Key principles for credentials documents:
-- Credentials are Evidence (E in Sant's NOSE) — they belong after the client's need is established, not as the opener
-- Lead with outcomes, not history — the most impressive client result appears first; the founding year is irrelevant to the client's decision (Sant: Primacy Principle)
-- The credentials document is Physical Evidence (Hatton) — its quality, design, and accuracy signal the quality of the service it represents
-- Eliminate Fluff: every superlative must be supported by a number or a named client result — "world-class" without evidence is noise (Sant: Fluff/Guff/Geek/Weasel Test)
-- Frame credentials as proof for a specific outcome the prospective client wants, not as a general catalogue of past activity
-
-Read `references/proposal-frameworks.md` for the full framework guide.
-
-## Quality Criteria
-- Agency overview is factual, confident, and free of superlatives or vague claims
-- Each client success story contains at least one specific metric (number, percentage, or concrete outcome)
-- Team bios are professional and informative; each is distinct in voice and content
-- Deck outline follows the exact format specified in CLAUDE.md with no missing fields
-- Services are described in plain English a non-specialist business owner would understand
-- Methodology references the RACE framework (Chaffey, 2024) at the appropriate step
-- Contact and next steps section includes a clear, courteous call to action
-- British English spelling throughout; no American variants

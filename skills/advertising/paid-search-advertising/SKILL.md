@@ -10,7 +10,7 @@ metadata:
 
 # Paid Search Advertising
 
-Plan and specify Google Ads programmes that harvest existing demand: intent-led keyword architecture, responsive search ads, Performance Max and Demand Gen used for the right job, clean conversion tracking, and landing pages that match the query. Output is a build specification and optimisation plan; changes to live accounts require explicit client authority.
+Plans and specifies Google Ads programmes that harvest existing demand: intent-led keyword architecture, responsive search ads, Performance Max and Demand Gen used for the right job, clean conversion tracking, and landing pages that match the query. Output is a build specification and optimisation plan; changes to live accounts require explicit client authority.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -52,7 +52,7 @@ Plan and specify Google Ads programmes that harvest existing demand: intent-led 
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Search build specification | Authorised account operator, client approver | Campaigns, ad groups or asset groups, keywords, negatives, budgets, bidding approach, assets, URLs and tracking listed; volatile behaviour flagged as checks |
 | Keyword and intent map | Strategist, website team | Themes by intent with source tool and date; no invented volumes |
@@ -70,11 +70,11 @@ Plan and specify Google Ads programmes that harvest existing demand: intent-led 
 
 ## Capability and Permission Boundaries
 
-Read and search supplied exports, websites and live help pages. Audits and plans are read-only. Creating or editing campaigns, budgets, bids, conversion settings or tags, and spending money, require explicit written client authority and a named operator. Uploading customer lists requires a lawful basis and consent under the client's data-protection obligations (PL-01, PL-02 for Uganda and Kenya).
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Creating or editing campaigns, budgets, bids, conversion settings or tags also needs a named operator, and uploading customer lists requires a lawful basis and consent under the client's data-protection obligations (PL-01, PL-02 for Uganda and Kenya).
 
 ## Degraded Mode
 
-Without account access, current help-centre checks or keyword tools, return the narrowest useful qualified specification: intent themes without volumes, structure without bids, and all platform-behaviour lines marked `not assessed`. Never state a CPC, CTR, conversion rate or Quality Score benchmark from memory.
+Without account access, current help-centre checks or keyword tools, return the narrowest qualified result and mark the affected checks `not assessed`. Intent themes without volumes and structure without bids can still be delivered, with all platform-behaviour lines marked; never state a CPC, CTR, conversion rate or Quality Score benchmark from memory.
 
 ## Decision Rules
 
@@ -108,33 +108,11 @@ Without account access, current help-centre checks or keyword tools, return the 
 
 ## References
 
-- [Search build specification](references/search-build-specification.md) — read when structuring a new account or campaign.
-- [Search optimisation and audit](references/search-optimisation-and-audit.md) — read for existing accounts and weekly optimisation.
-- [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md) for RSA assets; [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md) for landing pages.
-- [Advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md); [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md).
-- [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md); [source register](../../../docs/source-registers/source-register.json).
+- [Search build specification](references/search-build-specification.md): read when structuring a new account or campaign.
+- [Search optimisation and audit](references/search-optimisation-and-audit.md): read when auditing an existing account or running weekly optimisation.
+- [Campaign types, search testing and East Africa notes](references/campaign-types-and-east-africa.md): read when choosing a campaign type, testing propositions with search ads, or adapting the programme for East Africa.
+- [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md): read when writing RSA assets; [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md): read when briefing landing pages.
+- [Advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md) and [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md): read when setting break-even CPA or specifying tracking and consent.
+- [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when ad claims or regulated categories need clearance; [source register](../../../docs/source-registers/source-register.json): read when checking the dated register entries (AD-05, CW-10, PL-01, PL-02).
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting any ad text.
 <!-- dual-compat-end -->
-
-## Campaign-type guide (register AD-05, checked 2026-09-23)
-
-| Type | What it is | Use for | Watch |
-|---|---|---|---|
-| Search with responsive search ads | Text ads on search results; 3–15 headlines of up to 30 characters, 2–4 descriptions of up to 90 characters, two 15-character paths | Known intent, local services, B2B lead generation | Query relevance, message match |
-| Performance Max | One campaign across Search, YouTube, Display, Discover, Gmail and Maps; now supports negative keywords, brand exclusions, search themes and channel performance reporting | E-commerce with feeds, lead generation with strong conversion signals | Brand cannibalisation; review channel reporting; exclusions |
-| Demand Gen | YouTube (including Shorts), Discover, Gmail, Maps and the display network; video action campaigns have been upgraded to it; standalone Display is being folded in (announced 2026-05-26; migration tool from June 2026) | Visual demand generation, retargeting-style reach | Judge on assisted and view-through outcomes carefully; incrementality |
-
-## Using search to test before building
-
-Weinberg & Mares (2014) describe running small search tests on candidate propositions and keywords before building content or products: if a proposition converts on paid search, organic effort on it is more likely to pay. Use the same method for SEO priorities and service launches (localised example: test "O-level maths revision" vs "A-level physics crash course" vs "PLE coaching" ads to see which proposition has cheaper qualified demand before hiring tutors).
-
-## East Africa adaptation
-
-- Many local categories (schools, clinics, hotels, property, B2B services) have search demand with limited competition; verify on the day rather than assuming low costs.
-- Use click-to-call and WhatsApp destinations where the business converts by conversation; track calls and WhatsApp clicks as conversion actions.
-- Mobile-first landing pages; test under a throttled Slow 4G/3G profile as a constrained-network stress test, not as a measured median; every source found for Uganda is higher (UCC operator averages 5-16 Mbps, SpeedOf.Me median 8.4 Mbps; register CW-04, MK-04, NET-05).
-- Ugandan invoices for non-resident digital services may attract 18% VAT unless a TIN is registered (PL-05, partial); budget impact goes to `chwezi-accounting-doctrine` for verification.
-
-## Sources
-
-- Weinberg, G. and Mares, J. (2014) *Traction*, S-curves Publishing — SEM tests, CPA formula, demand harvesting vs generation.
-- Currentness register 2026-09-23: AD-05 (Google Ads formats), CW-10 (Consent Mode v2 and GA4), CW-04/MK-04 (throttling profiles), PL-05 (Uganda tax, route to finance engine).

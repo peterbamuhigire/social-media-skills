@@ -6,7 +6,7 @@ Merged from skills/business-development/biz-dev-reactivation-campaign on 2026-09
 
 Read this reference when the client holds a dormant list of past customers (email addresses, WhatsApp numbers, phone numbers or a mix) that it has stopped contacting, and wants a customer reactivation campaign pack: a four-message win-back sequence, a WhatsApp adaptation, a one-page campaign brief for sign-off and a results report.
 
-It differs from the SKILL.md `6. Reactivation Sequence`. That section is a three-email housekeeping series for subscribers who have gone quiet on an active list, ending in suppression. This reference is a commercial campaign aimed at past buyers the business itself stopped talking to, built on gratitude, value, an exclusive offer and a referral close.
+It differs from [strategy-document-sections.md § 6. Reactivation Sequence](strategy-document-sections.md). That section is a three-email housekeeping series for subscribers who have gone quiet on an active list, ending in suppression. This reference is a commercial campaign aimed at past buyers the business itself stopped talking to, built on gratitude, value, an exclusive offer and a referral close.
 
 The core idea to put in front of the client: most businesses chase new customers while ignoring the people who have already bought from them. Fihn (2025) calls a dormant customer list a "trash can asset": invisible, undervalued, and often worth more than the whole active marketing budget. His illustration is Carl, a lawyer who had seen no results from $15,000 of Facebook advertising and then generated $100,000 in 48 hours from one reactivation sequence sent to his 25-year customer list. Present it as the author's case, not as a forecast for the client.
 

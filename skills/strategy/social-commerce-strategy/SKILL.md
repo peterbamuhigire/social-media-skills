@@ -9,6 +9,8 @@ metadata:
 ---
 # Social Commerce Strategy
 
+Makes conversation-led commerce work: a customer sees a product on social media, messages on WhatsApp, pays by Mobile Money (MTN MoMo or Airtel Money) and receives delivery, with no formal e-commerce website needed. The consultant's job is to make that path faster, more consistent and more professional from discovery to payment confirmation.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,364 +31,92 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to catalogue, WhatsApp ordering, Mobile Money, fulfilment, and commerce content | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Business name, industry, country/city and product type (physical, digital or service; perishable or not; value per transaction) | Client owner | Yes | Stop; ask the [intake questions](references/social-shop-setup-and-operations.md) before designing an order flow. |
+| Current sales channels and active platforms (Facebook, Instagram, TikTok, WhatsApp Business) | Client and account review | Yes | Default to WhatsApp Business plus one discovery platform and label it provisional. |
+| Payment infrastructure in place (MTN MoMo, Airtel Money, Pesapal, Paystack, Flutterwave, bank transfer, cash on delivery) | Client owner | Yes | Recommend MTN MoMo and Airtel Money as the first step; mark fee figures to confirm with each provider. |
+| Fulfilment capacity (own delivery, self-pickup, delivery partner; Kampala and upcountry) | Client operations | Yes | Plan self-pickup plus one named Kampala courier; mark upcountry delivery `not assessed`. |
+| Product costs, prices and order history | Client records | Conditional | Apply the 3X rule as a check only; mark margin and basket analysis `not assessed`. |
+| Primary goal (order volume, less friction, upcountry reach, cash to digital) | Client owner | Yes | Ask; do not optimise for volume by default. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-social-selling`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm the intake answers and that the sale can be completed or handed off from social channels; stop and route to `playbook-post-click-strategy` if the question is why clicks do not become orders.
+2. Map the journey with RACE (Chaffey and Ellis-Chadwick, 2022): Reach, Act (WhatsApp enquiry or catalogue view), Convert (Mobile Money payment confirmed), Engage (follow-up and repeat order).
+3. Set up platform commerce per platform: catalogue for discovery and price transparency, WhatsApp as checkout, TikTok videos with a WhatsApp CTA.
+4. Choose payment methods and write the six-step payment confirmation workflow and the WhatsApp order template.
+5. Design the order tracker and the scaling trigger, then the delivery zones, fees and partners.
+6. Plan commerce content (five posts per week on the primary platform, three on the secondary, every post with a CTA) and, where sales start in Instagram DMs, the 5-stage DM sequence from [DM conversation selling](references/dm-conversation-selling.md).
+7. Check pricing, product selection, buyer tiers and a point of difference with [pricing, conversion and differentiation](references/pricing-conversion-and-differentiation.md).
+8. Review the set-up against the Quality Standards and the anti-slop gate; correct any failed item and rerun the check, then hand over as a draft for approval before any live catalogue, price or payment change.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Catalogue, whatsapp ordering, mobile money, fulfilment, and commerce content deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Social shop set-up per platform (catalogue, links, auto-replies, Stories and TikTok CTAs) | Client owner or whoever runs the accounts | States the Uganda checkout limitation and routes every purchase to WhatsApp. |
+| Order flow: WhatsApp order template and six-step payment confirmation workflow | Staff handling orders | Numbered steps a business owner can follow immediately; the order number is shared at payment confirmation. |
+| Order tracker with columns and scaling trigger | Owner and dispatch staff | All ten columns defined; the move to a tool is set at 20+ orders per day. |
+| Commerce content plan and DM scripts | Content lead; sales staff | At least five commerce content types, each with why it works in EA; every post carries a specific CTA. |
+| Pricing, buyer-tier and differentiation notes | Client owner | 3X rule and 7 product selection criteria applied; one-time, repeat and whale tiers each have an action. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Payment provider and fee register | Table: provider, fee, date checked | Fees are shown as approximate and dated; unverified fees are marked. |
+| Platform availability check | Table: feature, country, date checked | Checkout, TikTok Shop and Link sticker availability recorded with the check date. |
+| Assumption register | Table in the set-up document | Order volumes, margins and delivery fees without client data are labelled. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Changing a live catalogue, prices or payment settings, or messaging customers, waits for that authority; customer photos and testimonials need the customer's permission.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without the client's payment and fulfilment set-up, return the narrowest qualified result and mark the affected checks `not assessed`. A WhatsApp order template, a payment confirmation workflow built on MTN MoMo and Airtel Money, an order tracker and a content plan can still be delivered.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
 | The sale can be completed or handed off from social channels | Design the order-to-payment workflow before scaling content | Demand generation overwhelms an informal order process |
 | Sales start in Instagram DMs for a service or consultant offer | Script the 5-stage DM sequence and WhatsApp move per [DM conversation selling](references/dm-conversation-selling.md) | Unscripted, pushy or automated DMs that lose warm prospects |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The client wants Facebook Shop or Instagram Shopping checkout, or TikTok Shop, in Uganda | Present Shop and Shopping as a catalogue and price list, route purchases to WhatsApp, and do not set up TikTok Shop (not available in Uganda as of 2026) | Promising a checkout that does not exist |
+| A first-time or unknown customer asks for cash on delivery | Decline; reserve cash on delivery for trusted repeat customers or orders below UGX 50,000 | Non-collection losses |
+| Orders exceed 20 per day | Move from the Google Sheet to an order management tool | Missed deliveries and payment disputes |
+| Annual turnover approaches UGX 150 million | Flag VAT registration with the Uganda Revenue Authority and recommend receipt-generating payment links | Tax non-compliance |
+| A product fails the 3X rule or the UGX 90,000 minimum retail price | Re-price, bundle or drop it from the range | Selling at a loss after delivery costs |
+| A post says "DM for price" or claims false scarcity | State the price; use accurate stock counts only | Lost trust in a relationship-led market |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- EA payment infrastructure is covered with provider names, approximate fees and a clear recommendation, with MTN MoMo and Airtel Money as the primary methods and the reason stated.
+- The WhatsApp order workflow is a numbered, step-by-step process a business owner can follow immediately.
+- The Facebook Shop and Instagram Shopping checkout limitation in Uganda is noted with the WhatsApp alternative.
+- The order system has specific column headings and the 20+ orders per day scaling trigger.
+- At least five commerce content types are listed with why each works in EA.
+- EA delivery partners (SafeBoda, Glovo, DHL Uganda, Posta Uganda) are named and upcountry fulfilment is addressed; the UGX 150 million VAT threshold and trust signals are flagged.
+- Product decisions apply the 3X rule and the 7 selection criteria; buyers are segmented into one-time, repeat and whale tiers with an action each.
+- The brand intangible type is identified and a Soleness statement produced; the full checklist is in [pricing, conversion and differentiation](references/pricing-conversion-and-differentiation.md).
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Treating the lack of in-app checkout as a barrier. Fix: make WhatsApp the checkout with a standard order process, consistent response times and reliable payment confirmation.
+- Processing an order before payment is confirmed. Fix: ask for the Mobile Money screenshot and confirm receipt first.
+- Hiding prices behind "DM for price". Fix: state the price in the caption or on-screen text.
+- Deceptive scarcity ("Only 5 left" when stock is plentiful). Fix: post accurate stock counts only.
+- Spreading content and paid spend evenly across the range. Fix: concentrate on the top 20% of products that earn 80% of revenue.
+- Ignoring scam fears among Ugandan buyers. Fix: build trust signals: a verified Page, a Google Business Profile, visible testimonials and a consistent posting history.
+- Competing on price alone. Fix: choose a brand intangible and write a Soleness statement; route the full work to `ecommerce-brand-differentiation`.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
-- [dm-conversation-selling](references/dm-conversation-selling.md) — read when prospects arrive through Instagram DMs and must be qualified and moved to WhatsApp to close.
+- [Social shop set-up and operations](references/social-shop-setup-and-operations.md): read when running the intake, setting up platform commerce, choosing payment methods, writing the order and payment workflow, planning commerce content, building the order tracker or applying EA delivery, VAT and trust rules.
+- [Pricing, conversion and differentiation](references/pricing-conversion-and-differentiation.md): read when setting prices, choosing products, matching traffic temperature and buyer modality, reducing friction, segmenting buyers or choosing a point of difference.
+- [DM conversation selling](references/dm-conversation-selling.md): read when prospects arrive through Instagram DMs and must be qualified and moved to WhatsApp to close.
+- [`platform-whatsapp`](../../platforms/platform-whatsapp/SKILL.md): read when configuring the WhatsApp Business catalogue, broadcasts and auto-replies.
+- [`playbook-post-click-strategy`](../../playbooks/playbook-post-click-strategy/SKILL.md): read when visitors drop off between the click and the order.
+- [`ecommerce-brand-differentiation`](../ecommerce-brand-differentiation/SKILL.md): read when the shop needs full positioning, naming, packaging and community work.
+- [`east-african-english`](../../language/east-african-english/SKILL.md): read when writing catalogue descriptions, WhatsApp templates and CTA copy.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting posts, scripts and catalogue copy.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Ask the client for the following before generating any deliverable:
-
-1. **Client business name and industry** — e.g., "Nakazibwe Skincare, beauty and personal care"
-2. **Country/city** — default is Uganda/East Africa if not specified
-3. **Type of products or services** — physical goods, digital products, or services? Perishable or non-perishable? High-value or low-value per transaction?
-4. **Current sales channels** — physical shop, website with payments, WhatsApp sales, market stall, or a combination?
-5. **Platforms they are active on** — Facebook, Instagram, TikTok, WhatsApp Business, or others?
-6. **Payment infrastructure in place** — MTN Mobile Money, Airtel Money, Pesapal, Paystack, Flutterwave, bank transfer, cash on delivery, or none yet?
-7. **Fulfilment capacity** — can they deliver to customers? Self-pickup only? Do they use a delivery partner?
-8. **Primary goal** — e.g., increase order volume, reduce friction in the purchase process, scale to upcountry customers, move from cash to digital payments
-
----
-
-## Section 1 — Social Commerce in East Africa
-
-Social commerce in Uganda and East Africa does not follow the Western model of Facebook Shops or Instagram Shopping with integrated checkout. The dominant model is **conversation-led commerce**: a customer sees a product on social media, sends a WhatsApp message, negotiates, pays via Mobile Money (MTN MoMo or Airtel Money), and receives delivery. This model is effective, scalable with the right systems, and does not require a formal e-commerce website. The absence of in-app checkout is not a barrier — it is simply a different conversion path that suits the EA market's preference for personalised, trust-based transactions.
-
-The consultant's role is to make this informal conversion path faster, more consistent, and more professional — reducing friction at every step from discovery to payment confirmation. Apply the RACE framework (Chaffey, 2024) to map the journey: **Reach** (content that surfaces the product), **Act** (the WhatsApp enquiry or catalogue view), **Convert** (Mobile Money payment confirmed), **Engage** (post-purchase follow-up and repeat order). Each section of this strategy addresses one or more stages of that journey.
-
----
-
-## Section 2 — Platform Commerce Setup
-
-### Facebook
-
-- **Facebook Shop:** Set up via Meta Commerce Manager. Upload the product catalogue with product names, descriptions, pricing in UGX, and product images. The catalogue becomes a browsable shop tab on the Facebook Page.
-- **Limitation in Uganda:** In-app checkout is not enabled in Uganda. Every transaction must route to WhatsApp or Messenger for completion. Do not present Facebook Shop as a checkout — present it as a product catalogue and price list.
-- **Recommendation:** Use Facebook Shop for discovery and price transparency. Pin the WhatsApp contact number prominently on the Page. Set up an auto-reply in Messenger directing enquiries to WhatsApp.
-- **Facebook Marketplace:** Relevant for consumer goods in Uganda. List products with accurate location (e.g., Kampala, Ntinda), clear price in UGX, and a WhatsApp number as the contact method. Marketplace reaches buyers actively searching for products in their area.
-
-### Instagram
-
-- **Instagram Shopping:** Link the Instagram account to the Facebook product catalogue via Meta Commerce Manager. Tag products in feed posts and Stories to allow viewers to tap through to the product details.
-- **Same checkout limitation as Facebook:** No in-app checkout in Uganda. All purchase intent routes to WhatsApp DM.
-- **Instagram Stories for commerce:** Use Stories for time-sensitive offers — price reveals, "DM to order" call-to-action stickers, countdown timers for limited stock. The Link sticker in Stories (available to all accounts) can route directly to a WhatsApp chat link (`wa.me/[number]`).
-- **Recommendation:** Use Instagram product tags for discovery; use Stories for urgency-driven offers and direct conversion to WhatsApp.
-
-### WhatsApp Business
-
-- **WhatsApp Catalogue:** Set up the product catalogue inside the WhatsApp Business app. Maximum 500 products, each with an image, name, price in UGX, description, and product code. Share the catalogue link in broadcast messages, the business profile, and auto-replies.
-- **Standardise the order process** using a WhatsApp order form template. When a customer initiates an order, send them a structured message:
-
-  > *To complete your order, please confirm:*
-  > *1. Your full name*
-  > *2. Items and quantities*
-  > *3. Delivery address (or confirm self-pickup)*
-  > *4. Payment method (MTN MoMo / Airtel Money)*
-
-- **Payment via WhatsApp:** Request the customer's Mobile Money number or send payment instructions (business MoMo number and the amount). Ask the customer to screenshot their payment confirmation and send it to WhatsApp. Confirm receipt before processing the order.
-- **Broadcast lists:** Use WhatsApp broadcast lists to announce new stock, promotions, and restock alerts. Segment lists by product interest or location where possible.
-
-### TikTok
-
-- **TikTok Shop is not available in Uganda as of 2026.** Do not attempt to set it up or advise clients to do so.
-- **TikTok commerce strategy:** Create short product demonstration videos showing the product in use, being unboxed, or being made. End every video with a clear verbal and on-screen CTA: "Order now — link in bio" or "WhatsApp us on [number]." Pin a comment with the WhatsApp link on high-performing videos. Place the WhatsApp link in the TikTok bio using a link-in-bio tool if multiple links are needed.
-
----
-
-## Section 3 — Payment Infrastructure
-
-Payment options for EA social commerce, in order of customer trust and ease of use:
-
-| Method | Provider | Fee | Best For |
-|---|---|---|---|
-| MTN Mobile Money | MTN Uganda | ~1.5% merchant fee | Uganda — highest penetration; first choice |
-| Airtel Money | Airtel Uganda | ~1.5% merchant fee | Uganda — secondary; always offer alongside MTN |
-| Pesapal | Pesapal | 2.5–3.5% | Accepts MoMo + cards; generates payment link; good for customers who want a receipt |
-| Paystack | Paystack | 1.5% + capped | Cards + bank transfer; better for higher-value orders above UGX 500,000 |
-| Flutterwave | Flutterwave | 1.4% | Pan-Africa; cards + MoMo; useful for regional customers outside Uganda |
-| Cash on delivery | N/A | 0% | High risk of non-collection; reserve for trusted repeat customers or orders below UGX 50,000 |
-| Bank transfer | Client's bank | Varies | High-value B2B transactions only |
-
-**Recommendation for most Uganda SME clients:** Accept MTN MoMo and Airtel Money as the primary payment methods — they cover the vast majority of the transacting population. Add Pesapal for customers who prefer to pay by card or need an automated receipt. Avoid cash on delivery for first-time or unknown customers.
-
-### Payment Confirmation Workflow
-
-Apply this six-step workflow for every WhatsApp order:
-
-1. Customer sends order via WhatsApp using the order template.
-2. Business confirms item availability and sends the total price in UGX, including any delivery fee.
-3. Customer sends Mobile Money payment to the business number, or pays via Pesapal link sent by the business.
-4. Customer screenshots the Mobile Money confirmation message and sends it to WhatsApp.
-5. Business confirms receipt and sends estimated delivery time or pickup instructions.
-6. Upon delivery or collection, business sends a follow-up WhatsApp message confirming completion and inviting a review or repeat order.
-
----
-
-## Section 4 — Content Strategy for Social Commerce
-
-Commerce-led accounts require higher posting frequency than brand-awareness accounts. Apply a minimum of **5 posts per week on the primary platform** and **3 posts per week on the secondary platform**. Every post must include a clear, specific CTA — "DM to order", "WhatsApp us on [number]", or "Link in bio."
-
-Use the following content types to drive conversions:
-
-1. **Product demo videos** (TikTok, Instagram Reels, Facebook) — show the product in use in a real context. End with a verbal and on-screen CTA. These are the highest-converting content type for physical goods in the EA market.
-
-2. **Price revelation posts** — state the price clearly in the caption or on-screen text. EA audiences distrust "DM for price" — it signals overpricing or inconsistency. Stating the price removes a key barrier to enquiry.
-
-3. **Testimonial posts** — with the customer's permission, screenshot a satisfied WhatsApp message or review and post it as a social proof asset. Add the product name and a CTA. These build trust with new buyers who have not purchased before.
-
-4. **Stock scarcity posts** — "Only 5 left" and "Restocking Friday" perform strongly in EA markets. Use these genuinely; deceptive scarcity damages trust irreparably in relationship-led markets.
-
-5. **Unboxing and packaging posts** — show the care taken in preparing an order. Reassures online buyers about product quality and professionalism, especially for first-time customers.
-
-6. **Process videos** — show how the product is made, sourced, or prepared, or how the service is delivered. Builds trust for new buyers who cannot physically inspect the product before purchase.
-
-Apply the **10-4-1 rule** (Bodnar and Cohen, 2012) to the content mix: for every 10 shared or educational posts, include 4 original brand posts and 1 direct promotional or sales post. Commerce accounts may adjust this to a 5-3-2 ratio (5 product-focused, 3 educational or trust-building, 2 direct promotional) to reflect the commercial purpose of the account.
-
----
-
-## Section 5 — Order Management System
-
-Social commerce at scale requires a structured order management system. Untracked orders result in missed deliveries, payment disputes, and lost customer trust.
-
-### Minimum Viable System (free, no-code)
-
-Set up a Google Sheet with the following columns:
-
-| Column | Purpose |
-|---|---|
-| Order # | Sequential reference number — share with customer as their order reference |
-| Date | Date the order was placed |
-| Customer Name | Full name as given on WhatsApp |
-| WhatsApp Number | Customer's WhatsApp number |
-| Items Ordered | Product name(s) and quantity |
-| Total (UGX) | Total including delivery fee |
-| Payment Method | MTN MoMo / Airtel Money / Pesapal / Other |
-| Payment Status | Pending / Confirmed / Refunded |
-| Delivery Status | Processing / Dispatched / Delivered / Cancelled |
-| Notes | Delivery address, special instructions, follow-up needed |
-
-Share the order number with every customer at the point of payment confirmation. This reduces "what happened to my order?" messages and builds confidence in the business's professionalism.
-
-### Scaling Up
-
-When order volume exceeds 20 per day, introduce a dedicated order management tool:
-
-- **Zoho Commerce** (free tier) — supports catalogue, orders, and basic fulfilment tracking
-- **WooCommerce** (self-hosted on WordPress) — full control; requires web hosting; refer to the web development team
-- **Duka** or local EA platforms — research current local options at the time of engagement, as the EA e-commerce platform landscape changes rapidly
-
----
-
-## Section 6 — EA-Specific Considerations
-
-- **Mobile Money is the infrastructure.** A client that does not accept MTN MoMo and Airtel Money is excluding the majority of Uganda's transacting population. Set this up before anything else.
-- **WhatsApp as checkout works.** The absence of formal in-app checkout is not a barrier — WhatsApp commerce is proven and trusted in the EA market. The requirement is discipline: a standardised order process, consistent response times, and reliable payment confirmation.
-- **Delivery partners in Uganda:** For Kampala, use SafeBoda, Glovo, or independent boda boda riders for same-day delivery. For upcountry orders, use DHL Uganda, Posta Uganda, or a local courier agent. Confirm delivery fees per zone and communicate them to customers before order confirmation.
-- **VAT and receipts:** Businesses with annual turnover above UGX 150 million are required to register for VAT with the Uganda Revenue Authority. Flag this threshold to clients whose social commerce volume is growing. Pesapal and Paystack generate receipts automatically — recommend these to clients who need to issue receipts for compliance or customer confidence.
-- **Scam awareness:** Ugandan online buyers are increasingly cautious following a rise in social media fraud. A verified Facebook Page (blue badge), a Google Business Profile, visible customer testimonials, and a consistent posting history all reduce purchase friction for new customers. Address trust signals explicitly in the strategy.
-- **Language and tone:** Apply the EA professional register when writing catalogue descriptions, WhatsApp templates, and CTA copy. Refer to the `east-african-english` skill for tone and register standards.
-
----
-
-## Section 7 — Product Pricing and Margin Management
-
-Apply the **3X Rule** (Larsson, 2016): price every product at a minimum of 3× its production or procurement cost. Target **60% gross margin** (sales price minus cost of goods sold). Track **operating margin (EBITDA)** as the primary daily financial metric — it reflects true business health before non-cash adjustments.
-
-**7 Product Selection Criteria:** Before adding any product to the range, evaluate it against all seven:
-
-| Criterion | Standard |
-|---|---|
-| Niche-specific | Serves a clearly defined audience segment |
-| Durable | Survives shipping and storage without damage |
-| Moderate-to-high quality | Supports a fair price and generates positive reviews |
-| In-demand | Confirmed buyer interest (social engagement, search data) |
-| Minimum retail price | UGX 90,000+ (approx. USD $25) to support viable margins after delivery |
-| Solid margins | Meets the 3X rule; minimum 60% gross margin |
-| Lightweight | Lower shipping cost; easier for boda boda and courier delivery |
-
-**Recurring Income Models:** For businesses selling consumables (skincare, food, supplements, cleaning products), evaluate a subscription or bulk-buy model: consumable auto-replenishment, buyer's clubs (loyalty pricing for members), or micro-continuity (low monthly fee for exclusive access or early stock alerts). Apply the **10X Rule**: always deliver at least 10× the perceived value of any subscription charge.
-
----
-
-## Section 8 — Conversion Optimisation
-
-**Traffic Temperature (Larsson, 2016):** Match communication strategy to audience familiarity.
-
-| Temperature | Who They Are | Communication | Goal |
-|---|---|---|---|
-| Cold | No prior awareness | Paid content, organic reach, retargeting pixel | Place on retargeting list or capture WhatsApp/email |
-| Warm | Aware but not yet purchased | Retargeting, DM follow-ups, broadcast messages | Convert first purchase |
-| Hot | Has purchased at least once | Personalised upsells, VIP broadcast list, loyalty offers | Increase frequency and basket size |
-
-**4 Buyer Modalities (Harris, 2016):** Adapt content tone to decision-making style.
-
-| Modality | Style | Copy Approach |
-|---|---|---|
-| Competitive | Fast + logical | Lead with results, specifications, performance claims |
-| Spontaneous | Fast + emotional | Lead with urgency, excitement, FOMO |
-| Methodical | Slow + logical | Provide ingredient lists, comparison tables, detailed FAQs |
-| Humanistic | Slow + emotional | Share founder story, testimonials, community impact |
-
-EA audiences trend Humanistic and Spontaneous. Lead with trust signals and emotional resonance; provide logical detail for purchases above UGX 200,000.
-
-**Friction Reduction Checklist:**
-- Bounce rate target: below 55% on product landing pages and catalogue pages
-- Exit intent: a pop-up or pinned Story offering a discount captures WhatsApp numbers from visitors about to leave
-- Enquiry abandonment: follow up via WhatsApp within 30 minutes for customers who enquired but did not confirm
-- Mobile first: 85%+ of EA social commerce traffic is mobile; all product images and payment links must function on 2G/3G
-- Free delivery threshold: set free delivery at approximately 20% above average order value to lift basket size
-
-**Urgency Mechanics:**
-- 24-hour flash sales with a countdown timer visible in Stories
-- "Only [N] remaining" posts (accurate stock count only — deceptive scarcity destroys trust in EA markets)
-- Phone number visible on every product post; voice calls salvage hesitant buyers and declined-payment situations
-
----
-
-## Section 9 — Customer Data Intelligence
-
-**Customer Segmentation:** Track every buyer and assign to one of three tiers.
-
-| Tier | Definition | Action |
-|---|---|---|
-| One-time buyers | Single purchase, no repeat | Trigger a reactivation WhatsApp message 30 days after purchase |
-| Repeat buyers | 2+ purchases | Add to loyalty broadcast list; offer early access to new stock |
-| Whales | Top 1–5% by total spend | Personal check-in from the owner; VIP pricing or exclusive bundles |
-
-**Basket Analysis:** Review order data monthly for:
-- **Most purchased products** → concentrate content and any paid spend on these, not the full range
-- **Purchase bundles** → products commonly ordered together → create bundle offers or use one as a front-end entry and upsell the companion
-
-**80/20 Principle:** In most EA social commerce businesses, 80% of revenue comes from 20% of products. Identify top performers and invest marketing effort there, not equally across the range.
-
-**Competitor Intelligence:** Become a customer of two or three competitors. Document their WhatsApp response time, order process, packaging quality, product quality, and post-purchase follow-up. Use what works; identify the gaps they leave and fill them.
-
----
-
-## Section 10 — Brand Differentiation
-
-In a saturated social commerce market, price competition destroys margin. Build a clear point of differentiation using brand **intangibles** — emotional and story-based qualities that competitors cannot replicate even if they copy the product (Verma, 2019).
-
-**9 Intangible Differentiation Types:**
-
-| Type | Application in EA Commerce |
-|---|---|
-| Story-driven | Founder origin story — why you started, what problem you solved personally |
-| Purpose-driven | A social mission embedded in the business (e.g., employing women from a specific community) |
-| Giveback | A percentage of each sale donated to a named cause, or a one-for-one model |
-| Surprise | Delight at unboxing — handwritten note, unexpected extra item, personalised packaging |
-| Personalisation | Made-to-order, customised with the customer's name, colour, or preference |
-| Simplification | Removing complexity competitors leave in: one SKU, one price, no confusing tiers |
-| Sustainability | Locally sourced ingredients, recycled packaging, reduced waste |
-| Optimism/Hope | Brand identity built around aspiration and a better future for the customer |
-| Curation | A carefully selected range chosen specifically for this customer's values and needs |
-
-**Soleness Statement (Verma, 2019):** Write one positioning sentence and embed it into all platform bios, WhatsApp status, and marketing copy:
-
-> *For [target customer] who [main need], [Brand Name] is the [category] that [key benefit]. Unlike [primary competitor], our product [functional difference] and our brand [emotional difference].*
-
-**Blue Ocean Check (Kim and Mauborgne, 2005):** Before finalising the strategy, work through these four questions with the client:
-- **Eliminate** — what complexity or standard practice in your category can you remove entirely?
-- **Reduce** — what can you do less of (delivery wait, SKU count, ordering steps)?
-- **Raise** — what can you do significantly better (packaging quality, response speed, after-sales care)?
-- **Create** — what has your category never offered that your customers actually want?
-
-**Brand Benefits Pyramid (Verma, 2019):** Frame all content at the emotional and self-expressive levels, not just the functional:
-1. **Functional benefits** (base) — what the product does (moisturises skin, saves time, reduces cost)
-2. **Emotional benefits** (middle) — how it makes the customer feel (confident, respected, cared for)
-3. **Self-expressive benefits** (top) — what it says about who the customer is (ambitious, conscious, community-minded)
-
----
-
-## Quality Criteria
-
-Output from this skill meets the standard if it:
-
-- Covers EA payment infrastructure with specific provider names, approximate fees, and a clear recommendation for the client's context
-- Includes the WhatsApp order workflow as a numbered, step-by-step process that a business owner can follow immediately
-- Notes the Facebook Shop and Instagram Shopping checkout limitation in Uganda and provides a clear alternative workflow
-- States Mobile Money (MTN MoMo and Airtel Money) as the primary payment method and explains why
-- Includes an order management system with specific column headings and a scaling trigger (20+ orders per day)
-- Lists at least five commerce-specific content types with a description of why each works in the EA market
-- Names EA delivery partners (SafeBoda, Glovo, DHL Uganda, Posta Uganda) and addresses upcountry fulfilment
-- Flags the VAT registration threshold (UGX 150 million) and the trust signal requirements for EA online buyers
-- Applies the 3X pricing rule and 7 product selection criteria when advising on product range decisions
-- Segments customer data into one-time/repeat/whale tiers with a clear action for each
-- Identifies the client's brand intangible type and produces a Soleness statement
-
----
-
-## References
-
-These platform-specific and strategy skills provide deeper implementation guidance:
-
-- `platform-whatsapp/SKILL.md` — WhatsApp Business setup, broadcast strategy, catalogue management, and auto-reply configuration
-- `platform-facebook/SKILL.md` — Facebook Page optimisation, Meta Commerce Manager, and Facebook Marketplace
-- `platform-instagram/SKILL.md` — Instagram Shopping, Stories strategy, and product tagging
-- `platform-tiktok/SKILL.md` — TikTok content strategy, bio link setup, and commerce-led video formats
-- `playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md` — Detailed CRO methodology: 5-step optimisation process, A/B testing, KPI dashboards
-- `ecommerce-brand-differentiation/SKILL.md` — Full brand positioning framework: 7C Canvas, Soleness, Blue Ocean Strategy, naming, and community building
-
-**Key sources:** Larsson, T. (2016) *Ecommerce Evolved*; Harris, A. (2016) *Small Business Big Money Online*; Verma, N. (2019) *Checkout*; Kim, W.C. and Mauborgne, R. (2015) *Blue Ocean Strategy*.

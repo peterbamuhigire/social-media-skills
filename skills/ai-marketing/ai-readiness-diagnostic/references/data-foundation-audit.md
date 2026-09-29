@@ -27,7 +27,7 @@ Use it when the readiness diagnostic shows a Data Foundation gap (Domain 1 score
 
 ## Why data quality is step 1
 
-Three independent sources reach the same conclusion: data quality is the single most important prerequisite for any AI marketing investment (Venkatesan and Lecinski, 2026; Lamplugh, 2024; Ltifi, 2025). AI tools amplify what they receive — clean data produces better outputs; dirty data produces worse outputs at speed.
+Three independent sources reach the same conclusion: data quality is the single most important prerequisite for any AI marketing investment (Venkatesan and Lecinski, 2026; Lamplugh, 2024; Ltifi, 2024). AI tools amplify what they receive — clean data produces better outputs; dirty data produces worse outputs at speed.
 
 For East African clients the data challenge is structural. Customer data is fragmented across WhatsApp chat histories, Facebook Page DMs, manual Excel spreadsheets, phone contacts and verbal records. Before any AI tool can add value, this fragmentation must be addressed.
 
@@ -143,4 +143,4 @@ Do not connect any AI tool until the Week 4 governance step is complete. A tool 
 
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn. Stanford University Press (listed in the source skill as Stanford University Press; the diagnostic cites Stanford Business Books, the Press's business imprint).
 - Lamplugh, M. (2024) *The AI Marketing Playbook*, 2nd edn. Mercury Learning.
-- Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of Artificial Intelligence*. CRC Press.
+- Ltifi, M. (ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence*. CRC Press.

@@ -10,7 +10,7 @@ metadata:
 
 # Advertising Attribution and Measurement
 
-Decide what counts as a result, how credit is assigned across channels, how to prove that advertising caused the change, and what the business can afford to pay for each result. The skill designs and reads measurement; installing tags, changing tracking or processing customer data needs explicit authority.
+Decides what counts as a result, how credit is assigned across channels, how to prove that advertising caused the change, and what the business can afford to pay for each result. The skill designs and reads measurement; installing tags, changing tracking or processing customer data needs explicit authority.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -49,9 +49,22 @@ Decide what counts as a result, how credit is assigned across channels, how to p
 7. Build the reporting rules: denominators, windows, what is modelled, what is observed.
 8. Run the quality and anti-slop gates; correct and rerun. Withhold any claimed result without attributable evidence.
 
+## Core formulas
+
+| Measure | Formula | Note |
+|---|---|---|
+| ROAS | Attributable revenue ÷ ad spend | State the attribution view |
+| Break-even ROAS | 1 ÷ gross margin % | 40% margin → 2.5 |
+| Allowable CPA | Gross margin per sale (or chosen share of LTV) ÷ target return multiple | Agree the share of LTV with finance |
+| CPA | CPC ÷ conversion rate | UGX 1,500 CPC at 5% → UGX 30,000 (illustrative) |
+| Lifetime value (simple) | Average order value × purchases per year × years retained × margin | Use cohorts where possible |
+| Time to customer break-even | CAC ÷ monthly contribution per customer | Cash planning |
+| Effective CAC with referral | Paid spend ÷ (paid customers ÷ (1 − K)) for K below 1 | K = invitations per user × acceptance rate |
+| Echo effect % | Incremental untraced sales ÷ traced campaign sales | Needs a baseline period |
+
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Measurement plan | Client analyst, media team, web owner | Conversion events defined with trigger, source, owner and deduplication rule |
 | Economics sheet | Client decision-maker | Break-even ROAS, allowable CPA and cost-per-lead ceilings shown with inputs |
@@ -68,11 +81,11 @@ Decide what counts as a result, how credit is assigned across channels, how to p
 
 ## Capability and Permission Boundaries
 
-Read and search authorised exports and documents. Analysis is read-only. Installing or changing tags, enabling server-side tracking, uploading customer lists, changing attribution settings or processing personal data requires explicit authority and a lawful basis. Legal conclusions route to qualified counsel.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Installing or changing tags, enabling server-side tracking, uploading customer lists or changing attribution settings also needs a lawful basis, and legal conclusions route to qualified counsel.
 
 ## Degraded Mode
 
-Without access to accounts or CRM data, return the measurement design, the economics template and a data request. Mark every result `not assessed`. Never report platform-claimed conversions as business results without reconciliation.
+Without access to ad accounts or CRM data, return the narrowest qualified result and mark the affected checks `not assessed`. The measurement design, the economics template and a data request can still be delivered; never report platform-claimed conversions as business results without reconciliation.
 
 ## Decision Rules
 
@@ -105,48 +118,10 @@ Without access to accounts or CRM data, return the measurement design, the econo
 
 ## References
 
-- [Conversion events and attribution models](references/conversion-events-and-attribution-models.md) — read when defining events or choosing a model.
-- [Economics and incrementality](references/economics-and-incrementality.md) — read when setting allowable costs or designing tests.
-- [Results reconciliation](references/results-reconciliation.md) — read before any results summary.
-- [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md); [media planning](../media-planning/SKILL.md); [direct-response economics](../direct-response-economics/SKILL.md); [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md).
-- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md).
+- [Conversion events and attribution models](references/conversion-events-and-attribution-models.md): read when defining events or choosing a model.
+- [Economics and incrementality](references/economics-and-incrementality.md): read when setting allowable costs or designing tests.
+- [Results reconciliation](references/results-reconciliation.md): read when writing any results summary.
+- [Worked example, test template and sentence bank](references/worked-example-and-templates.md): read when pre-registering a test, working an illustrative example or wording a results caveat.
+- [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md), [media planning](../media-planning/SKILL.md), [direct-response economics](../direct-response-economics/SKILL.md) and [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md): read when the budget, plan, P&L or landing-page tracking is the real question.
+- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md): read when assembling evidence for a results claim.
 <!-- dual-compat-end -->
-
-## Core formulas
-
-| Measure | Formula | Note |
-|---|---|---|
-| ROAS | Attributable revenue ÷ ad spend | State the attribution view |
-| Break-even ROAS | 1 ÷ gross margin % | 40% margin → 2.5 |
-| Allowable CPA | Gross margin per sale (or chosen share of LTV) ÷ target return multiple | Agree the share of LTV with finance |
-| CPA | CPC ÷ conversion rate | UGX 1,500 CPC at 5% → UGX 30,000 (illustrative) |
-| Lifetime value (simple) | Average order value × purchases per year × years retained × margin | Use cohorts where possible |
-| Time to customer break-even | CAC ÷ monthly contribution per customer | Cash planning |
-| Effective CAC with referral | Paid spend ÷ (paid customers ÷ (1 − K)) for K below 1 | K = invitations per user × acceptance rate |
-| Echo effect % | Incremental untraced sales ÷ traced campaign sales | Needs a baseline period |
-
-## Worked example (illustrative figures)
-
-A Nairobi bakery sells cakes by WhatsApp. Average order KES 2,400, gross margin 45%, customers reorder about four times a year and stay about two years. Break-even ROAS = 1 ÷ 0.45 ≈ 2.2. First-order margin KES 1,080; lifetime margin about KES 8,600. The team sets an allowable first-order CPA of KES 1,500 (above first-order margin, justified by lifetime value and approved by the owner). Measurement: each ad uses a keyword ("CAKE-TT" for TikTok, "CAKE-FB" for Facebook); staff label WhatsApp chats; a two-week holdout pauses ads in one delivery zone to read the incremental difference.
-
-## Test pre-registration template
-
-| Field | Entry |
-|---|---|
-| Question | Does [channel/change] cause more [value event] in [segment]? |
-| Hypothesis | [Change] will raise [metric] by at least [x] over [period] |
-| Design | Holdout / geo / lift study / time series |
-| Test and control | [areas or audiences]; how matched |
-| Primary metric and source | [metric], [system of record] |
-| Guard-rail | [e.g. complaint rate, refund rate, response time] |
-| Line in the sand | [target] — source: model maths / client history / own trend |
-| Action if hit / missed | [scale] / [stop or redesign] |
-| Duration and read date | [dates] |
-
-## Sentence bank
-
-- "This result is correlation, not proof; the geo test starting [date] will separate the advertising effect from the season."
-- "Break-even ROAS for this product is [x] because gross margin is [y]%; any channel above it is paying for itself on first order."
-- "Platforms each claim the same sale; we report the CRM count as the business result."
-
-Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

@@ -6,7 +6,7 @@ Merged from skills/platforms/platform-instagram-growth on 2026-09-29 at cda737c 
 
 Read this reference when the client's question is about growth rather than presence: follower growth has stalled, reach has fallen, the account needs a phase-appropriate growth plan, or the team wants an experiment plan for Reels, hashtags, collaborations or broadcast channels. The parent [SKILL.md](../SKILL.md) still governs evidence, permissions and measurement; this reference supplies the growth diagnosis, the phase ladder and the experiment options.
 
-Evidence status. The phase ladder, growth rates, engagement-rate bands, reach ratios, format and signal hierarchies, timing windows and hashtag counts below are carried from legacy practitioner guidance (mainly Hietaniemi 2020, Butow and Walker 2025, Chaffey 2024). None has a source-register record. Treat every number as a diagnostic hypothesis to test against the client's own account baseline, never as a universal target or a platform rule, and verify current Instagram behaviour before stating it to a client (verify before stating; no register record). The parent skill's rule stands: no universal save, completion, follower-growth or profile-to-click rate is a success standard. Follower volume that rises while saves, replies or enquiries fall is not success; correct the content or targeting instead.
+Evidence status. The phase ladder, growth rates, engagement-rate bands, reach ratios, format and signal hierarchies, timing windows and hashtag counts below are carried from legacy practitioner guidance (mainly Hietaniemi 2020, Butow and Walker 2025, Chaffey and Ellis-Chadwick 2022). None has a source-register record. Treat every number as a diagnostic hypothesis to test against the client's own account baseline, never as a universal target or a platform rule, and verify current Instagram behaviour before stating it to a client (verify before stating; no register record). The parent skill's rule stands: no universal save, completion, follower-growth or profile-to-click rate is a success standard. Follower volume that rises while saves, replies or enquiries fall is not success; correct the content or targeting instead.
 
 ## Inputs
 
@@ -97,7 +97,7 @@ Account growth is not linear; each phase has its own dynamics and priorities. Id
 
 ### Ranking signals (legacy model; verify current behaviour)
 
-- The "3 Rs" (Chaffey 2024): **relevance** (does the content match what the viewer engages with; post within one niche), **recency** (newer posts rank higher; a consistent schedule on the same days helps the account be indexed reliably) and **resonance** (saves, shares and comment depth signal more than passive likes).
+- The "3 Rs" (Chaffey and Ellis-Chadwick 2022): **relevance** (does the content match what the viewer engages with; post within one niche), **recency** (newer posts rank higher; a consistent schedule on the same days helps the account be indexed reliably) and **resonance** (saves, shares and comment depth signal more than passive likes).
 - Legacy 2024–2025 signal order, highest first: shares to Stories or DMs; saves (educational carousels, checklists, how-to posts); comments (a question or thread outweighs a five-word comment); likes (many likes with few saves or shares gives limited reach).
 - Legacy format order for non-follower reach: Reels (the main discovery tool); carousels (high dwell time; may be shown to followers again if they did not swipe through); static images (limited non-follower reach; use for grid cohesion and follower engagement); Stories (followers only; a retention tool, not a growth tool).
 - 2024 changes reported by the source: original content prioritised over reposts and aggregation (Butow and Walker 2025); Explore surfaces photos and video to new audiences, rarely designed graphics or text-heavy carousel covers. Verify both before stating.
@@ -145,7 +145,7 @@ Legacy rules: avoid tags over 5 million posts for small accounts; 8–15 tags pe
 - Micro-influencer exchange: accounts of 1,000–20,000 followers in the same niche and geography; mutual Stories shoutout or joint Reel, usually unpaid at similar sizes; track spikes in Insights (Followers > From collaborations; verify the path).
 - Stories mentions: reshare customer, partner and peer mentions at once; tag relevant accounts in Stories rather than feed posts, where over-tagging is said to be penalised.
 - Live with a guest ("Go Live With"): notifies both audiences; for Q&A, launches and event coverage; announce 24–48 hours ahead with a countdown sticker; 20–35 minutes for EA audiences because of data costs.
-- Creator fees, rights and disclosures follow the parent skill's § Discovery and creator partnerships.
+- Creator fees, rights and disclosures follow [instagram-format-discovery-and-sales-method.md § Discovery and creator partnerships](instagram-format-discovery-and-sales-method.md).
 
 ### Community engagement
 
@@ -203,7 +203,7 @@ For consultancy blog posts aimed at owners who want to grow Instagram accounts, 
 ## Sources
 
 - Butow, E. and Walker, C. (2025) *Instagram for Business For Dummies* (3rd ed.), Wiley (publisher added at merge; verify).
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Hietaniemi, J. (2020) *Secret Strategies for Instagram Growth* (publisher not stated in the legacy source).
 - Walsh Phillips, K. (2023) *Ultimate Guide to Instagram for Business* (2nd ed.) (publisher not stated in the legacy source).
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley.

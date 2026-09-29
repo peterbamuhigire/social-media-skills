@@ -168,7 +168,7 @@ Here is what it means for [INDUSTRY] businesses in [COUNTRY]: [LINK]
 — [CLIENT NAME] team
 ```
 
-The source cites Chaffey's (2024) RACE framework as the basis for this sequencing.
+The source cites Chaffey and Ellis-Chadwick's (2022) RACE framework as the basis for this sequencing.
 
 ### 6. East African trigger calendar
 
@@ -219,7 +219,7 @@ Classify each trigger Priority 1, 2 or 3 using the decision rules above.
 ## Sources
 
 - Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing Teams*. neuroflash. (GEO freshness signals; AI search citation dynamics.)
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson. (RACE framework applied to distribution sequencing.)
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. (RACE framework applied to distribution sequencing.)
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley. (Content publication and distribution principles.)
 - David Meerman Scott is credited with coining "newsjacking" (attribution as given in the source; no work cited).
 - Register: GOOGLE-AI-SEARCH-GUIDE-2026, UG-FACEBOOK-ACCESS-2026, WHATSAPP-BUSINESS-POLICY in [source-register.json](../../../../docs/source-registers/source-register.json).

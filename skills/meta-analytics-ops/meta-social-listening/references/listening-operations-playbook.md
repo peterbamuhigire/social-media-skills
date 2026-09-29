@@ -6,7 +6,7 @@ Merged from skills/playbooks/playbook-sentiment-listening on 2026-09-29 at 8eacc
 
 Read this reference when the client needs listening run as a repeatable operation with AI sentiment scoring on top: a tool stack matched to budget, a keyword set that includes crisis triggers, weekly NSS reporting, a real-time dashboard specification, a sentiment-to-decision table, and a Monday / Wednesday / Friday / monthly routine with named owners. Typical goals are brand health monitoring, competitor tracking, crisis prevention and content inspiration.
 
-The parent [SKILL.md](../SKILL.md) is the foundation (keyword taxonomy, free tool setup, cadence, listening log). This reference adds AI sentiment scoring, NSS reporting and the decision framework on top of it; use them together, not as alternatives. For the full monthly scoring method (manual classification, NSS bands for EA service businesses, share of voice, theme extraction, monthly report) use [sentiment-and-share-of-voice-method.md](sentiment-and-share-of-voice-method.md).
+The listening programme in [listening-programme-method.md](listening-programme-method.md) is the foundation (keyword taxonomy, free tool setup, cadence, listening log). This reference adds AI sentiment scoring, NSS reporting and the decision framework on top of it; use them together, not as alternatives. For the full monthly scoring method (manual classification, NSS bands for EA service businesses, share of voice, theme extraction, monthly report) use [sentiment-and-share-of-voice-method.md](sentiment-and-share-of-voice-method.md).
 
 ## Why listening needs sentiment
 
@@ -72,7 +72,7 @@ Configurations:
 
 Build the taxonomy before configuring any tool, with the client at onboarding (20–30 minutes; it prevents weeks of missed intelligence).
 
-- **Brand, competitor and industry terms** — use the Category 1–3 tables in the parent SKILL.md § 1 Keyword Taxonomy. This playbook adds an abbreviation-style misspelling ("KFB Kampala") to the brand list and names the brand hashtag as the primary brand hashtag. Monitor competitor sentiment alongside brand sentiment: a competitor negative spike is an intelligence signal, not background noise (see step 5).
+- **Brand, competitor and industry terms** — use the Category 1–3 tables in [listening-programme-method.md § 1. Keyword Taxonomy](listening-programme-method.md). This playbook adds an abbreviation-style misspelling ("KFB Kampala") to the brand list and names the brand hashtag as the primary brand hashtag. Monitor competitor sentiment alongside brand sentiment: a competitor negative spike is an intelligence signal, not background noise (see step 5).
 - **Crisis triggers** — add this category for every client:
 
 | Trigger type | Example keywords | Client's version |
@@ -193,6 +193,10 @@ Write in British English with the East African usage rules in [east-african-engl
 ## Sources
 
 - Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning and Information.
-- Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of AI*. CRC Press.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Ltifi, M. (ed.) (2024) *Advances in Digital Marketing in the Era of AI*. CRC Press.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. John Wiley and Sons.
+
+## Section locations after S09
+
+Added in Social Kaizen S09 (29 Sep 2026). The parent SKILL.md sections this playbook names (§ 1 Keyword Taxonomy and its Category 1–3 tables, the free tool setup, the cadence and the listening log) moved, text unchanged, to [listening-programme-method.md](listening-programme-method.md) under the same headings.

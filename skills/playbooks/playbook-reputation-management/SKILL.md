@@ -9,6 +9,8 @@ metadata:
 ---
 # Reputation Management Playbook
 
+Audits, defends and rebuilds how a brand looks online (ratings, reviews, search results and local press) for Ugandan and East African businesses, from a weighted reputation score through to a 90-day recovery plan.
+
 <!-- dual-compat-start -->
 ## Use When
 - Audit what people see when they search the company name: ratings, reviews, press and forums, with a reputation score and red flags.
@@ -24,347 +26,104 @@ metadata:
 - Stop before posting fake or paid-for reviews, threatening reviewers or asking platforms to remove content without evidence and client approval.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
-| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
-| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
+| Business name, industry and country/city | Client | Yes | Default the market to Uganda/East Africa; stop if the business cannot be identified. |
+| Current star ratings and review counts on Google Business Profile, Facebook and other active review profiles | Client; incognito search and platform pages | Yes | Run the audit checklist from public pages and mark any platform you cannot see `not assessed`. |
+| Negative press, viral complaints and incidents in the last 24 months, with how they were handled | Client; local press search | Yes | Search the five local outlets and record "none found" with the date searched. |
+| Focus: Proactive, Reactive or Recovery | Client lead | Yes | Derive it from the weighted score (below 3.9 means Recovery) and label it provisional. |
+| Lawful basis and consent record for customer contact data | Client data owner | For review outreach | Hold all review-request outreach; deliver the audit and response protocols only. |
+| Response owners, named contacts and approval limits | Delivery owner | For execution | Produce templates as drafts with placeholder owners; do not post replies. |
+
+## Workflow
+
+1. Ask the intake questions and confirm the focus (Proactive, Reactive or Recovery); stop if the business, market or response owner is missing. See [the method](references/reputation-audit-and-recovery-method.md#required-input).
+2. Run the audit checklist across Google Business Profile, Facebook, other directories and page-1 search results before recommending anything.
+3. Calculate the weighted score (GBP 50 %, Facebook 30 %, other platforms 20 %), read it against the bands below and tick the red flags.
+4. Build the proactive layer: WhatsApp review requests, positive-review replies, GBP authority actions and the monthly reputation content mix.
+5. Build the reactive layer: the complaint decision tree, negative-review protocol, suppression list where negative results rank on page 1, escalation thresholds and the do-not-do list.
+6. Where the score is below 3.9 or a significant incident has occurred, lay out the 90-day recovery plan (Week 1–2, Week 3–4, Month 2, Month 3) with owners and dates.
+7. Check every outreach step against Uganda DPA 2019 consent and every reply against platform review policies; stop and escalate to legal or `playbook-crisis-communications` when a threshold is met.
+8. Run the quality and anti-slop gates; correct any failed template or action and rerun the check before hand-off.
+
+## Score bands
+
+| Weighted score | Reading | Response |
+|---|---|---|
+| 4.5–5.0 | Strong | Maintenance and volume growth |
+| 4.0–4.4 | Acceptable | Targeted improvement |
+| 3.5–3.9 | Weak | Proactive recovery required |
+| Below 3.5 | Critical | Launch the reputation recovery plan |
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Reputation audit table with weighted score and red flags | Client owner | Every platform in scope has a rating, count and date or is marked `not assessed`; red flags ticked before any recommendation. |
+| Review request and response templates (WhatsApp request, positive reply, 1-star reply) | Client response team | British English with an East African tone; personalised fields marked; no public offer of compensation. |
+| Complaint, escalation and suppression protocol | Client owner; legal or PR adviser when triggered | Each escalation threshold names its trigger and the owner who takes over. |
+| 90-day recovery plan or maintenance cadence | Client owner and delivery team | Each task has a responsible party, channel and timeline; plan depth matches the stated focus. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Page-1 search baseline (titles and URLs) with the search date | Table or screenshots | Recorded in Week 1 and re-run at month 3 for comparison. |
+| Review outreach tracker | Spreadsheet: name, date sent, date reviewed, platform | No contact is listed without a recorded lawful basis. |
+| Escalation and evidence log for coordinated attacks or false claims | Dated log with screenshots | Evidence is preserved before any report or response. |
 
 ## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Posting replies, sending review requests and reporting content to platforms each need that authority separately.
 
 ## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Reputation Management playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
+
+Without current ratings and page-1 search results, return the narrowest qualified result and mark the affected checks `not assessed`. The response templates, do-not-do list and escalation thresholds can still be delivered as drafts.
 
 ## Decision Rules
+
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A damaging claim is credible and unresolved | Preserve evidence, respond proportionately and move resolution to the right owner | Defensive deletion that compounds distrust |
-| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
-| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
-| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
-
-## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Reputation Management playbook.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
-
-## Outputs
-| Artefact | Consumer | Acceptance condition |
-|---|---|---|
-| Reputation Management playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
-
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| A public complaint appears | Acknowledge publicly within 2 hours, move to a private channel, resolve within 24 hours where possible, close publicly | A visible unanswered complaint that lowers trust more than the complaint itself |
+| Weighted score below 3.9 or a significant public incident | Run the full 90-day recovery plan and fix the operational root cause first | A recovery that fails because the cause is still live |
+| A negative result ranks on page 1 of Google for the business name | Start the prioritised suppression list and track weekly; expect 60–120 days | Promising quick removal of search results |
+| False factual claims in press or on a high-traffic platform, or defamation | Engage a lawyer before responding publicly; do not counter publicly | Legal exposure from a public rebuttal |
+| Several 1-star reviews in a short window from accounts with no other activity | Treat as a coordinated attack: document evidence and report to Google | Answering fake accounts one by one |
+| Crisis with media coverage | Hand over to `playbook-crisis-communications` immediately | Managing a media crisis through review-response protocols |
+| Review outreach is proposed | Confirm Uganda DPA 2019 lawful basis and consent; never offer incentives or use bought lists | Privacy breach and review-policy violation |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- A completed audit table with a weighted score and documented red flags comes before any recommendation.
+- At least one customised WhatsApp review request and one Google review response template, both in British English with an East African tone.
+- Proactive and reactive components are balanced to the stated focus: a recovery-stage client gets the full 90-day plan; a maintenance-stage client gets a content cadence and review system.
+- Uganda DPA 2019 is named explicitly wherever review outreach is recommended, with a clear compliance checkpoint.
+- Specific local publications and platforms for the Ugandan/EA context are named, not generic global examples.
+- A concrete, prioritised suppression list is included whenever negative search results are identified.
+- Escalation thresholds are explicit: the consultant knows exactly when to move from social media response to legal or PR intervention.
+- Every action item is assignable, with a responsible party, a channel and a timeline.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Arguing with a reviewer or complainant in a public thread. Fix: acknowledge, move to a private channel and close publicly once resolved.
+- Offering a refund, discount or free service in a public reply. Fix: make any compensation offer privately.
+- Deleting a Facebook complaint comment. Fix: leave it and respond; deletion is logged, can be screenshotted first and signals guilt.
+- Asking friends, staff or associates to post positive reviews to counter negative ones. Fix: run the genuine review drive; counter-posting is review manipulation and breaks platform policies.
+- Ignoring a negative review in the hope it disappears. Fix: answer it with the negative-review protocol.
+- Offering incentives, discounts or gifts in exchange for reviews. Fix: ask within 24–48 hours of a positive experience, with one follow-up only.
+- Sending the same pasted reply to every review. Fix: vary the language and reference the reviewer's specific comment.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Reputation audit, defence and recovery method](references/reputation-audit-and-recovery-method.md): read when running the audit, drafting templates, planning suppression, building the recovery plan or applying Uganda and East African specifics.
+- [`playbook-crisis-communications`](../playbook-crisis-communications/SKILL.md): read when an incident involves media coverage, coordinated attacks or a business-threatening public controversy.
+- [`meta-social-listening`](../../meta-analytics-ops/meta-social-listening/SKILL.md): read when setting up ongoing monitoring of brand mentions, keywords and competitor activity.
+- [`platform-google-business-profile`](../../platforms/platform-google-business-profile/SKILL.md): read when doing detailed GBP setup, post strategy and Q&A management.
+- [`strategy-ewom-reviews`](../../strategy/strategy-ewom-reviews/SKILL.md): read when nothing is wrong and the need is proactive review and referral programmes.
+- [`blog-writer`](../../content-writing/blog-writer/SKILL.md): read when drafting suppression and case-study blog posts.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when replies or plans make legal, privacy or defamation claims.
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting templates and replies.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when setting tone for WhatsApp and review replies.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Ask the client for all of the following before generating any deliverable:
-
-1. **Business name and industry** — trading name and sector (e.g., hospitality, healthcare, retail, financial services)
-2. **Country/city** — default is Uganda/East Africa; specify if different
-3. **Current online reputation status** — current star rating on Google Business Profile (GBP) and Facebook, number of reviews on each platform, any negative press coverage or viral complaints
-4. **Primary review platforms in use** — Google, Facebook, TripAdvisor, Jumia, Zocdoc, industry directories; list all active profiles
-5. **Past reputation incidents** — describe any incidents in the last 24 months and how they were handled (or not handled)
-6. **Proactive vs reactive focus** — does the client primarily need to build reputation from scratch, defend against active attacks, or recover from damage? (Proactive / Reactive / Recovery)
-
----
-
-## Section 1 — Reputation Audit
-
-### 1.1 Audit Checklist
-
-Run this audit before recommending any action. Document findings in a simple table.
-
-**Google Business Profile**
-- Record current star rating and total review count
-- Note the date of the most recent review
-- Check for unanswered reviews — flag any older than 7 days
-- Search `[business name] + [city]` in an incognito browser window; screenshot page 1 results
-- Check GBP Q&A section for unanswered questions
-
-**Facebook**
-- Record Facebook Page recommendation score (out of 5) and total recommendation count
-- Check for unresolved public complaints in comments or reviews tab
-- Note whether Facebook recommendations are enabled or disabled
-
-**Other Platforms**
-- Check TripAdvisor, Jumia Food, Zocdoc, or sector-specific directories relevant to the client's industry
-- Record rating and review volume on each
-
-**Search Results**
-- Search `[business name] reviews`, `[business name] complaints`, `[business name] scam` in incognito
-- Record the title and URL of every result on page 1
-
-### 1.2 Reputation Score Calculation
-
-Calculate a weighted average reputation score across platforms:
-
-| Platform | Weight | Score (out of 5) | Weighted Score |
-|---|---|---|---|
-| Google Business Profile | 50% | — | — |
-| Facebook | 30% | — | — |
-| Other platforms (average) | 20% | — | — |
-| **Overall Score** | 100% | — | **Sum** |
-
-**Interpretation:**
-- 4.5–5.0 — Strong; focus on maintenance and volume growth
-- 4.0–4.4 — Acceptable; targeted improvement needed
-- 3.5–3.9 — Weak; proactive recovery required
-- Below 3.5 — Critical; launch reputation recovery plan (Section 4)
-
-### 1.3 Red Flags Checklist
-
-Flag any of the following as immediate priorities:
-
-- [ ] Overall weighted score below 4.0
-- [ ] Negative result (complaint, article, forum post) appearing in the top 5 Google hits
-- [ ] Unanswered complaint on any public platform older than 7 days
-- [ ] Three or more 1-star reviews in the last 90 days
-- [ ] A negative Facebook recommendation with 20+ reactions or 10+ comments
-- [ ] Any news article from Daily Monitor, New Vision, or Nile Post linking the business to wrongdoing
-
----
-
-## Section 2 — Proactive Reputation Building
-
-### 2.1 Review Generation System
-
-**Timing:** Ask for a review within 24–48 hours of a confirmed positive experience — after a completed service, successful delivery, or positive customer interaction. Do not ask at the point of sale.
-
-**Channel:** WhatsApp is the primary channel for review requests in Uganda. Use a personal, friendly message — not a broadcast or group message.
-
-**WhatsApp Review Request Template (British English, EA tone):**
-
-> Hello [Customer First Name], thank you so much for choosing [Business Name] — we really appreciate your trust in us. We hope everything met your expectations. If you have a moment, we would be very grateful if you could leave us a quick review on Google. It only takes about a minute and it really helps other customers find us. Here is the link: [GBP short link]. Thank you again — we look forward to serving you again soon!
-
-Personalise the opening line to reference the specific service or product the customer received. Do not paste a generic message.
-
-**Follow-up:** If no review is left after 5 days, send one follow-up message only. Do not send more than two messages total.
-
-**Do not:** Offer incentives, discounts, or gifts in exchange for reviews. This violates Google's review policies and Uganda's emerging consumer protection standards.
-
-### 2.2 Positive Review Response Protocol
-
-Respond to every positive review within 48 hours. Keep responses to 1–2 sentences. Follow this formula: acknowledge the specific thing they praised → thank them → invite return.
-
-**Example:**
-> Thank you so much, [Name] — we are delighted the [specific service] met your expectations. We look forward to welcoming you back soon!
-
-Do not copy-paste the same response to every review. Vary the language and reference the reviewer's specific comment.
-
-### 2.3 GBP Authority Building
-
-- Publish one GBP post per week — alternate between offers, updates, and educational content
-- Seed the Q&A section with 3–5 questions customers frequently ask; answer each with a full, keyword-rich response
-- Upload fresh photos monthly — interior, staff, products, completed work
-- Ensure the business description includes the primary service keywords and the city/district
-
-### 2.4 Reputation Content Strategy
-
-Apply the POEM model (Chaffey, 2024) to classify content: Owned channels carry testimonials and case studies; Earned coverage amplifies authority.
-
-**Content types to produce monthly:**
-- 1 customer testimonial post (quote card or short video — text only brief; no design or video production in scope)
-- 1 case study or before/after story (blog post via `blog-writer` skill)
-- 1 community involvement or CSR post (sponsorship, local event, staff volunteer activity)
-- 1 employee spotlight (builds human trust signals)
-
-**For B2B clients:** Publish one LinkedIn article per month on an industry topic. Submit one opinion piece per quarter to a local publication (Daily Monitor business section, CEO East Africa, or relevant trade publication). This builds earned media authority.
-
----
-
-## Section 3 — Reactive Reputation Defence
-
-### 3.1 Complaint Response Decision Tree
-
-Follow this sequence for every public complaint — on Facebook, Google, X/Twitter, or any public forum:
-
-1. **Acknowledge publicly within 2 hours** — post a brief, empathetic public reply confirming the complaint has been seen
-2. **Move to private channel** — invite the customer to continue via WhatsApp DM or email; provide a direct contact name, not a generic address
-3. **Resolve privately** — investigate and resolve the issue within 24 hours where possible; keep the customer updated
-4. **Close publicly** — once resolved, post a brief public follow-up: "We are glad we were able to resolve this for [Name]. Thank you for your patience."
-
-Do not let a public complaint sit without a public acknowledgement for more than 2 hours during business hours.
-
-### 3.2 Negative Review Response Protocol
-
-Apply this sequence when responding to a 1- or 2-star review:
-
-1. **Lead with empathy** — acknowledge the experience without admitting liability
-2. **Avoid defensiveness** — do not explain, justify, or counter-claim in the public response
-3. **Offer a resolution pathway** — invite the reviewer to contact a named person directly
-4. **Keep it brief** — 3–4 sentences maximum in the public response
-
-**Sample 1-Star Google Review Response (British English, EA tone):**
-
-> Thank you for taking the time to share your experience, [Name/valued customer]. We are truly sorry to hear that your visit did not meet your expectations — this is not the standard we hold ourselves to. We would very much like to make this right. Please reach out to [Contact Name] directly on [WhatsApp number or email] so we can resolve this for you personally.
-
-Never mention specific details of the complaint in the public response. Never offer refunds, discounts, or compensation in a public reply.
-
-### 3.3 Suppression Strategy
-
-When a negative result (article, forum post, complaint thread) ranks on page 1 of Google for the business name, create and publish positive content to push it down. This is a long-term strategy — expect 60–120 days for results.
-
-**Suppression content to produce (in order of priority):**
-1. Optimise and expand the GBP listing — Google prioritises its own properties
-2. Publish 2–3 long-form blog posts optimised for `[business name]` + service keywords (use `blog-writer` skill)
-3. Claim and fully populate all major directory listings: Yellow Pages Uganda, Mocality, LinkedIn company page, Facebook Page, YouTube channel
-4. Issue a press release on a neutral or positive business development and distribute to Nile Post, CEO East Africa, and Uganda Business News
-5. Create social profile pages on platforms the business does not yet use — these rank in Google quickly
-
-Track page 1 results weekly. Update the client monthly on ranking changes.
-
-### 3.4 Escalation: When to Engage Legal or PR
-
-Escalate beyond standard social media response in the following situations:
-
-- **False factual claims** (not just negative opinion) appearing in press or on a high-traffic platform — engage a lawyer before responding publicly
-- **Coordinated attack** — multiple 1-star reviews posted within a short window from accounts with no other activity; report to Google and document evidence
-- **Defamation** — written statements that are demonstrably false and damaging to the business — refer to a solicitor; do not attempt to counter publicly
-- **Crisis with media coverage** — hand over to `playbook-crisis-communications` immediately; do not manage a media crisis through standard response protocols
-
-### 3.5 Do-Not-Do List
-
-- Never argue with a reviewer or complainant in a public thread
-- Never offer compensation (refund, discount, free service) in a public reply — move this to a private channel first
-- Never delete a Facebook complaint comment — Facebook logs this and it can be screenshotted before deletion; it signals guilt
-- Never ask friends, staff, or associates to post positive reviews to counter negative ones — this is review manipulation and violates platform policies
-- Never ignore a negative review in the hope it disappears — unanswered negative reviews lower trust more than the review itself
-
----
-
-## Section 4 — Reputation Recovery Plan
-
-Use this plan for any client whose weighted reputation score is below 3.9 or who has experienced a significant public incident.
-
-### Week 1–2: Audit and Stabilise
-
-- Complete the full audit from Section 1; document all findings
-- Respond to every unanswered review and complaint across all platforms using the protocols in Section 3
-- Fix any internal service or operational issue that caused the complaints — a reputation recovery that does not address the root cause will fail
-- Brief the client team on the complaint response protocol and do-not-do list
-
-### Week 3–4: Review Generation Blitz
-
-- Identify 30–50 satisfied customers from the last 6 months using sales records, WhatsApp chat history, or loyalty data
-- Confirm compliance with Uganda DPA 2019 before outreach (see Section 5)
-- Send personalised WhatsApp review requests using the template in Section 2.1
-- Target: minimum 15 new genuine reviews within 30 days
-- Track responses in a simple spreadsheet: name, date sent, date reviewed, platform
-
-### Month 2: Positive Content Campaign
-
-- Publish 3 blog posts optimised for the business name and primary service keywords (use `blog-writer` skill)
-- Publish 10 social media posts across Facebook and Instagram: 3 testimonials, 2 case studies, 2 team/culture posts, 2 community involvement posts, 1 milestone or achievement
-- Seed GBP Q&A with 5 new questions and answers
-- Submit one press release to a local publication on a positive development
-
-### Month 3: Authority and Monitoring
-
-- Pitch one opinion article to a local business publication (Daily Monitor, CEO East Africa)
-- Audit all directory listings and update any outdated information
-- Run the page 1 Google check again and compare against the Week 1 baseline
-- Present a month-3 reputation report to the client: score change, review volume, page 1 results, outstanding issues
-- Set up an ongoing monitoring cadence (see `meta-social-listening/SKILL.md`)
-
----
-
-## Section 5 — EA-Specific Considerations
-
-### 5.1 Uganda DPA 2019 Compliance
-
-The Uganda Data Protection and Privacy Act 2019 requires consent before using customer personal data for marketing or outreach purposes. Before sending review request messages:
-
-- Confirm the business has a lawful basis for holding customer contact data
-- Ensure customers were informed at the point of data collection that their details may be used for follow-up communication
-- Do not purchase or use third-party contact lists for review outreach
-
-When in doubt, advise the client to consult a data protection officer or legal adviser before proceeding.
-
-### 5.2 WhatsApp as the Primary Review Channel
-
-WhatsApp reaches more Ugandan consumers than any other messaging platform. Use it as the default channel for review requests. Key rules:
-
-- Send from a named personal or business number — not a broadcast list for review requests
-- Keep the message conversational; formal or corporate language reduces response rates in the EA context
-- Include the GBP or Facebook review link as a plain URL — many users are on slower connections and prefer direct links over QR codes
-
-**Ready-to-use WhatsApp template** (copy and personalise):
-> Hello [Name]! We hope you are keeping well. We really appreciate that you chose [Business Name] for [service/product]. If you would not mind sharing your experience with others, a quick Google review would mean a lot to us: [link]. It only takes a minute. Thank you so much — we value your support!
-
-### 5.3 Facebook Recommendations vs Google Reviews
-
-In Uganda, Facebook recommendations carry significant weight — often more than Google reviews among the mass market. Treat both platforms with equal urgency.
-
-- Enable Facebook recommendations on the Page if they are currently disabled
-- Respond to all Facebook recommendations and comments, positive and negative
-- Encourage customers who are not Google users to leave a Facebook recommendation instead
-
-### 5.4 Offline Word-of-Mouth
-
-In many EA markets, a business's offline reputation — what community members, market traders, and local leaders say in person — feeds directly into its digital reputation. Negative offline perception often materialises as a wave of negative online reviews.
-
-- Ask clients about any known offline reputation issues (community disputes, local press stories, market gossip)
-- Address offline issues through community engagement, not only digital channels
-- Positive offline reputation generates unsolicited positive reviews — invest in service quality as the foundation of all reputation work
-
-### 5.5 Local Press Monitoring
-
-Monitor the following outlets weekly for any mention of the client's business:
-
-- Daily Monitor (`monitor.co.ug`)
-- New Vision (`newvision.co.ug`)
-- Nile Post (`nilepost.co.ug`)
-- Chimp Reports (`chimpreports.com`)
-- CEO East Africa (`ceo.co.ug`)
-
-Set up Google Alerts for the business name and key personnel names. If a negative article appears, escalate to the response protocol in Section 3.1 immediately and consider engaging the `playbook-crisis-communications` skill.
-
----
-
-## Quality Criteria
-
-Output produced using this skill meets the standard when it:
-
-- Includes a completed reputation audit table with a weighted score and documented red flags before any recommendations are made
-- Provides at least one customised WhatsApp review request template and one Google review response template, both in British English with an appropriate EA tone
-- Balances proactive and reactive components proportionally to the client's stated focus — a recovery-stage client receives a full 90-day plan; a maintenance-stage client receives a content cadence and review system
-- References the Uganda DPA 2019 explicitly when review outreach is recommended, with a clear compliance checkpoint
-- Names specific local publications and platforms relevant to the Ugandan/EA context rather than generic global examples
-- Includes a concrete suppression strategy with a prioritised content list when negative search results are identified
-- Specifies escalation thresholds clearly — the consultant knows exactly when to move from social media response to legal or PR intervention
-- Produces action items that are specific and assignable: each task has a responsible party, a channel, and a timeline
-
----
-
-## References
-
-- **Crisis escalation:** See `playbook-crisis-communications/SKILL.md` — invoke when a reputation incident involves media coverage, coordinated attacks, or a business-threatening public controversy
-- **Social listening setup:** See `meta-social-listening/SKILL.md` — invoke to establish ongoing monitoring of brand mentions, keywords, and competitor activity
-- **GBP optimisation:** See `platform-google-business-profile/SKILL.md` — invoke for detailed GBP setup, post strategy, and Q&A management
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice* — POEM model, RACE framework
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book* — ROI formula, content ratios

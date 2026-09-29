@@ -9,12 +9,7 @@ metadata:
 ---
 # Influencer Marketing Strategy Generator
 
-Produce a complete influencer marketing strategy document. Apply Uganda/East Africa ecosystem context throughout — tier definitions, engagement benchmarks, and outreach norms must reflect local market realities, not global averages. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
-
-This skill covers strategy and execution guidance only. It does not produce legal contracts. Refer the client to a lawyer for formal influencer agreements.
-
----
-
+Produces a complete influencer marketing strategy whose tiers, engagement screens and outreach norms reflect Uganda/East African market realities, not global averages. It covers strategy and execution guidance only; formal influencer agreements go to a lawyer.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -34,387 +29,96 @@ This skill covers strategy and execution guidance only. It does not produce lega
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Campaign objective, audience, budget, creator evidence and usage-rights needs | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Client name, industry and sub-sector, country/city | Client brief or `01-client-brief` | Yes | Default the location to Kampala, Uganda; return the intake questions for the rest. |
+| Target audience (age range, gender split, location, key interests) | `03-audience-personas` or client | Yes | Describe a provisional audience and score creator audience fit `not assessed`. |
+| Campaign objective (awareness, product trial, event, sales or community growth) | Client lead | Yes | Stop tier and fee decisions; ask for the primary objective. |
+| Budget per month or per campaign, in UGX by default, split into barter value and cash fees | Client | Yes | Plan nano and barter options only and draft fee ranges without figures. |
+| Platforms in scope (Instagram, TikTok, YouTube, Facebook, X/Twitter, WhatsApp) | Client or channel plan | Yes | Default to where the persona spends time and label it provisional. |
+| Creator long-list with dated audience-insight screenshots | Research, rosters, inbound pitches | For selection | Build the list by manual discovery; hold any shortlist until insights arrive. |
+
+## Workflow
+
+1. Ask the intake questions in [influencer-strategy-document-sections](references/influencer-strategy-document-sections.md) § Intake questions; route to `09-campaign-strategy` when the activation sits inside a wider campaign.
+2. Define the tiers with EA characteristics, including WhatsApp community admins, and label engagement figures as screening heuristics.
+3. Find and vet creators: audience match and location, the manual engagement-rate formula, content quality, platform fit and brand safety, then the due-diligence scorecard in [creator-due-diligence-and-pricing](references/creator-due-diligence-and-pricing.md); stop on any red line.
+4. Price each shortlisted creator from distribution fee plus talent fee, with usage, exclusivity and season priced explicitly.
+5. Plan outreach by tier, then complete the term sheet, creator brief and disclosure checks in [influencer-term-sheet-and-disclosure](references/influencer-term-sheet-and-disclosure.md) before any offer.
+6. Set usage-rights terms, lawyer triggers, performance metrics and at least two attribution methods before the campaign starts.
+7. Check the strategy against the quality standards; correct failing sections and rerun the check.
+8. Run the anti-slop and legal release gates and hand the strategy to the client lead; withhold release while a disclosure, rights or evidence defect remains.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Influencer strategy, selection criteria and activation plan | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Influencer strategy document (seven sections plus creator-economy principles) | Client lead | All seven sections present and client-specific; engagement figures labelled as heuristics. |
+| Vetted creator shortlist with scorecards and fee build-ups | Client lead; campaign owner | Each creator has a dated scorecard, no red line breached, and a fee split into its component lines. |
+| Term sheet and creator brief per micro or macro creator | Client's lawyer; creator | Term sheet complete before lawyer drafting; brief fill-in-the-blanks ready with disclosure and usage terms. |
+| Measurement plan | Client lead | Targets set before launch; UTM links and unique discount codes assigned per creator. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Creator vetting record | Table: creator, dated insights, engagement calculation, red-flag checks | Every figure is dated and calculated from the creator's own posts, not self-reported. |
+| Disclosure and jurisdiction register | Table citing register IDs (AD-09, AD-10, KE-01, UG-01, TZ-01) | Unverified jurisdictions stay `NOT_ASSESSED`; no disclosure claim passes without a cited row. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Contacting, contracting, gifting product to or paying any creator needs that authority plus a signed disclosure and rights agreement.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without dated creator audience insights or a confirmed budget, return the narrowest qualified result and mark the affected checks `not assessed`. Tier definitions, selection criteria, outreach and brief templates and a measurement plan can still be delivered.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified influencer strategy, selection criteria and activation plan. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Campaign objective, audience, budget, creator evidence and usage-rights needs is current and attributable | Produce the full influencer strategy, selection criteria and activation plan and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `09-campaign-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| A creator's engagement falls below the tier's red-flag threshold (nano below 3%, micro below 2%, macro below 0.5%) or looks bought | Walk away; cross-check with HypeAuditor or modash.io only if budget allows. | Paying for purchased audiences. |
+| The creator's audience is mainly outside the campaign geography | Do not commit; ask for audience location data first. | Spend reaching people who cannot buy. |
 | Creators are found or vetted with AI tools, fraud is suspected, or a virtual influencer is proposed | Apply the tool tiers, fraud thresholds and Parasocial Interaction Scale in [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md). | Paying for purchased audiences or an uncanny-valley virtual character. |
 | The programme uses customer-created content | Run the audit, collection tiers, permissions log and curation and republishing workflow in [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md). | Republishing customer content without documented consent. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `09-campaign-strategy` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the influencer strategy, selection criteria and activation plan, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| A macro deal with cash fees above UGX 1 million, paid-ad usage rights, a multi-month retainer or an exclusivity clause | Complete the term sheet and involve a lawyer before signing. | Unenforceable or disputed rights and fees. |
+| Content goes live | Require an up-front "Ad" or "Paid partnership" label plus the platform's branded-content tool; keep Rwanda, Kenya BCLB and UCC items as `NOT_ASSESSED` checks. | Undisclosed advertising and regulator or platform action. |
+| Content is not posted within 48 hours of the agreed date | Apply the brief's catch-up clause: reclaim product or withhold payment. | Paying for undelivered content. |
+| The activation belongs to a wider campaign | Route to `09-campaign-strategy` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- Tier definitions label EA engagement figures as unsourced screening heuristics, not benchmarks, and WhatsApp group admins are explicitly identified as a nano-influencer category relevant to the EA context.
+- Selection uses the creator due-diligence scorecard (bought audience, undisclosed past ads, hateful content and safety risk are red lines); the 3R check is not attributed to Hennessy.
+- Pricing is built from distribution fee + talent fee, with usage, exclusivity and season priced explicitly; the term sheet is completed before lawyer drafting.
+- Disclosure guidance cites the register (AD-09, AD-10) and keeps Uganda/Kenya items as checks.
+- Audience match criteria include a clear instruction to verify audience location before committing, and the engagement rate calculation method is specified and can be performed manually without paid tools.
+- The outreach message template sounds personal and human, not corporate, and the campaign brief template is complete and fill-in-the-blanks ready for immediate use.
+- Usage rights guidance explicitly notes it is not legal advice and specifies when to involve a lawyer.
+- Performance metrics include at least two trackable attribution methods (UTM links and discount codes), and the red flags section addresses bought followers with a concrete detection method.
+
+Further checks (British English, UGX) are in [influencer-strategy-document-sections](references/influencer-strategy-document-sections.md) § Quality checklist.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the influencer strategy, selection criteria and activation plan without campaign objective. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `09-campaign-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified campaign objective, the skill produces a influencer strategy, selection criteria and activation plan with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`09-campaign-strategy`](../09-campaign-strategy/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Choosing a creator on follower count alone. Fix: screen in Hennessy's order and score authentic fit and the five influence mechanisms (Falls, 2021).
+- Sending a generic campaign brief as the first contact. Fix: open with a short, personal message that names a specific post; use WhatsApp or Instagram DM.
+- Chasing a silent creator repeatedly. Fix: send one brief follow-up after 5 days, then move on; never more than two contact attempts.
+- Boosting creator content as a paid ad under a post-only deal. Fix: negotiate and pay for paid-advertising usage rights separately.
+- Buying one sponsored post and expecting endorsement. Fix: where budget allows, plan 3–4 touchpoints across 4–6 weeks.
+- Promising that micro-creators will outperform larger ones. Fix: test with tracked codes and links and let the client's data decide.
+- Contacting, gifting or paying creators during planning. Fix: hand over the plan; outreach and payment need separate authority.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
-- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
-- [Creator due diligence, typology and pricing](references/creator-due-diligence-and-pricing.md) — read when shortlisting, vetting or budgeting creators.
-- [Influencer term sheet, brief and disclosure register](references/influencer-term-sheet-and-disclosure.md) — read before any offer, brief, contract hand-off or go-live.
-- [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md) — read when using AI discovery tools, screening fraudulent engagement, or weighing a human against a virtual influencer.
-- [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md) — read when building a customer UGC programme, permissions log or curation and republishing workflow.
-- [Creator monetisation](../../strategy/strategy-creator-monetisation/SKILL.md) — the creator-side counterpart.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Ask for all of the following before generating the strategy document:
-
-- **Client name** — trading name
-- **Industry and sub-sector** — e.g. "FMCG — personal care", "hospitality — restaurant chain"
-- **Country/city** — defaults to Kampala, Uganda if not specified
-- **Target audience** — reference personas from 03-audience-personas if available; otherwise describe: age range, gender split, location, key interests
-- **Campaign objective** — brand awareness / product trial / event promotion / sales / community growth / all: state primary objective
-- **Budget for influencer marketing** — monthly or per-campaign; specify currency (default UGX); distinguish between barter value and cash fees
-- **Platforms in scope** — select from: Instagram, TikTok, YouTube, Facebook, X/Twitter, WhatsApp
-
----
-
-## Document Structure
-
-Generate all seven sections in order. Use markdown headings. Do not omit any section.
-
-### 1. Influencer Tier Definitions
-
-Apply EA-specific context for all tier definitions. Global benchmarks do not apply directly — EA audiences have different trust dynamics and platform usage patterns.
-
-**Nano-influencers (1,000–10,000 followers)**
-EA characteristics:
-- High trust: audiences often know the influencer personally or through a shared community (school, church, neighbourhood, profession)
-- High engagement: typical engagement rate 5–10%; audiences interact as though talking to a friend
-- Low or no cost: product barter, free experience, or small cash fee is the norm
-- Best for: hyperlocal campaigns, community-specific products, word-of-mouth amplification in a specific city or town, new brand awareness among a tight demographic
-- Platforms: Instagram, TikTok, Facebook personal pages, WhatsApp group admins (500+ engaged members in a specific community — treat these as nano-influencers even without a formal profile)
-- Key risk: limited content quality; may require more creative direction
-
-**Micro-influencers (10,000–100,000 followers)**
-EA characteristics:
-- Best balance of reach and engagement for most EA campaigns: typical engagement rate 3–6%
-- Known face in their niche (beauty, food, parenting, fitness, business/professional, faith)
-- Moderate cost: combination of product barter and cash fee; rates vary widely — negotiate based on deliverables and content reuse rights
-- Best for: brand awareness in a specific niche, product launches, testimonial-style content, sustained always-on partnerships
-- Platforms: Instagram (primary for lifestyle), TikTok (fast-growing for entertainment and tutorial content), YouTube (for tutorial reviews and unboxing, especially tech and beauty)
-- Key risk: audience overlap between similar-niche micro-influencers — vet carefully to avoid redundancy
-
-**Macro-influencers (100,000+ followers)**
-EA characteristics:
-- High reach but lower engagement: typical engagement rate 1–3% (follower-to-engagement ratio dilutes at scale)
-- Includes local celebrities, national TV personalities, prominent YouTubers, and cross-border EA creators
-- Significant cost: cash fees required; product barter alone is rarely sufficient
-- Best for: brand launches targeting broad awareness, national campaigns, major product launches requiring reach over engagement depth
-- Key consideration: macro influencer content can feel less authentic in markets where personal trust drives purchase decisions — weigh reach against credibility for your category
-- Platforms: Instagram, YouTube, TikTok (newer macro cohort), Facebook (for older demographics)
-
-**WhatsApp community admins (special category)**
-In Uganda and broader EA, WhatsApp group admins with 500+ engaged members (e.g. alumni groups, professional networks, faith communities, neighbourhood groups, mama groups) function as micro-influencers with extremely high trust and direct access. Engage them as nano/micro equivalents. Content takes the form of personal endorsements or forwarded messages rather than produced content.
-
----
-
-### 2. Identifying the Right Influencers
-
-**Audience match criteria:**
-Before reaching out to any influencer, verify:
-- Their audience demographics match the target persona (ask for a screenshot of audience insights — Instagram and TikTok provide this in creator accounts)
-- Their audience is primarily Uganda/EA-based (or the relevant geography for this campaign)
-- Their content niche is relevant to the product or service category
-- Their audience size is realistic for the tier claimed — follower counts can be inflated
-
-**Engagement rate screening heuristics** (engine-authored for East Africa, unsourced and undated — use only as a first screen; replace with platform-specific current data and the creator's own trend before any decision):
-
-| Tier | Followers | Expected Engagement Rate | Red Flag Threshold |
-|---|---|---|---|
-| Nano | 1K–10K | 5–10% | Below 3% |
-| Micro | 10K–100K | 3–6% | Below 2% |
-| Macro | 100K+ | 1–3% | Below 0.5% |
-
-Calculate engagement rate manually: (Total likes + comments on last 10 posts) ÷ (Followers × 10) × 100. Do not rely on self-reported figures.
-
-**Content quality assessment:**
-- Consistency: do they post regularly (at least weekly)? Gaps longer than 3 weeks suggest unreliability.
-- Quality: is the content well-produced? For nano/micro, basic phone video is acceptable; for macro, expect professional or near-professional production.
-- Authenticity: do captions sound genuine, or are they clearly template-written? Engaged audiences respond to real voice.
-- Comments quality: are comments genuine interactions or generic emoji reactions? Purchased engagement produces shallow comments ("Nice!", fire emojis with no substance).
-
-**Platform fit:**
-- Match the influencer's primary platform to where the target audience spends time
-- Do not engage a primarily TikTok creator for a campaign targeting Facebook-dominant audiences
-- YouTube creators are best for long-form product reviews, tutorials, and unboxing — plan lead time accordingly (video production cycles are longer)
-
-**Brand safety check:**
-- Review the influencer's last 90 days of content: any controversial topics, political statements, or sensitive brand associations?
-- Check comment sections: is there evidence of harassment, divisive debates, or inflammatory responses from the influencer?
-- Is there any history of failed paid partnerships (not disclosing ads, fake reviews, public complaints from brands)?
-- If in doubt, do not proceed. A poor partnership is harder to undo than a missed opportunity.
-
-**Where to find influencers in Uganda/EA:**
-- Manual search on Instagram: search relevant hashtags (#KampalaFood, #UgandanBeauty, #UgandaBusiness) and review who is posting consistently with genuine engagement
-- Manual search on TikTok: search for content in the relevant category; check for Ugandan or EA creators by location tag or language cues
-- Facebook groups and communities: identify group admins in relevant communities (parenting groups, professional groups, regional interest groups)
-- Ask existing customers: your customers may follow — or be — influencers in their own networks
-- No formal EA creator directory currently exists at scale — manual discovery is the primary method
-
----
-
-### 3. Outreach Approach
-
-**The first message:**
-Keep the first outreach message short, personal, and specific. Never send a generic campaign brief as the first contact. Structure:
-1. One sentence showing you know their content — reference a specific post or series
-2. One sentence on what the brand does and who it serves
-3. One clear proposition: what you want to explore and what you are offering
-4. A simple ask: are they open to a conversation?
-
-Template (adapt to fit the influencer and brand):
-
-> "Hi [Name], I've been following your [content type, e.g. 'home cooking videos'] and especially enjoyed [specific post]. I work with [Brand Name], a [brief description, e.g. 'Kampala-based food brand']. We'd love to explore a potential partnership — we're offering [product barter / fee / experience]. Would you be open to a quick conversation?"
-
-Keep the tone warm and peer-to-peer. Avoid corporate language. Use WhatsApp DM or Instagram DM — email is rarely effective for influencer outreach in EA.
-
-**What to offer by tier:**
-
-| Tier | Typical Offer |
-|---|---|
-| Nano | Product barter; free experience; gift hamper; no cash fee expected |
-| Micro | Product barter + cash fee (build the fee with the distribution-fee + talent-fee method in the pricing reference; no fixed local rate is verified) |
-| Macro | Cash fee (negotiate); product provided in addition |
-| WhatsApp admins | Product sample or small cash fee; reciprocal promotion in your channels |
-
-Agree the deliverables, timeline, and any usage rights expectations before sending product or payment. Even for barter deals, confirm expectations in writing (WhatsApp message is acceptable for nano-level; formal brief for micro and above).
-
-**Following up:**
-If no response after 5 days, send one follow-up message. Keep it brief — one sentence. If still no response, move on. Do not persist beyond two contact attempts.
-
----
-
-### 4. Campaign Brief Template for Influencers
-
-Use this template for all micro and macro influencer engagements. Adapt for nano — a simplified WhatsApp message is sufficient for nano-level barter deals.
-
----
-
-**[Client/Brand Name] — Influencer Campaign Brief**
-
-**Campaign name:** [Short working title]
-**Brand overview:** [2–3 sentences: what the brand does, who it serves, what makes it different]
-**Campaign objective:** [Single sentence — what this campaign must achieve]
-**Key message:** [The one thing the audience must remember after seeing this content]
-**Target audience:** [Brief description — age, location, interests]
-**Campaign dates:** [Start date — End date, day-month-year format]
-
-**Content deliverables:**
-
-| Deliverable | Platform | Format | Quantity | Due Date |
-|---|---|---|---|---|
-| [e.g. Instagram Reel] | Instagram | [Specs: 9:16, 30–60 seconds] | [e.g. 1] | [Date] |
-| [e.g. Instagram Story] | Instagram | [Specs: 9:16, static or video] | [e.g. 3 frames] | [Date] |
-| [e.g. TikTok video] | TikTok | [Specs: 9:16, 30–90 seconds] | [e.g. 1] | [Date] |
-
-**Do's:**
-- [e.g. Show the product in use in a natural, everyday setting]
-- [e.g. Use the campaign hashtag: #[Hashtag]]
-- [e.g. Tag @[BrandHandle] in the caption and in the video]
-- [e.g. Include the brand's unique discount code: [CODE]]
-
-**Don'ts:**
-- [e.g. Do not compare our product to competitors by name]
-- [e.g. Do not mention price — we will handle pricing communication separately]
-- [e.g. Do not use a filter that significantly alters the product's appearance]
-
-**Disclosure:** Clearly disclose this as a paid partnership or gifted collaboration, up front, using the platform's branded-content tools **and** a plain label such as "Ad" or "Paid partnership with [Brand]". Platform tools alone may not be sufficient (US FTC Endorsement Guides, revised 2023; UK CAP/ASA and CMA influencer guide — Kaizen register AD-09, checked 2026-09-23). No dedicated influencer disclosure statute was found for Kenya, Uganda or Tanzania (register KE-01, UG-01, TZ-01, 2026-09-24), yet indirect duties exist; run the jurisdiction register and pre-campaign checklist in the disclosure reference (not legal advice; confirm with counsel), apply the FTC/ASA standard as best practice, and keep Rwanda, Kenya BCLB and UCC items as `NOT_ASSESSED` checks.
-
-**Usage rights:** By accepting this partnership, you grant [Brand Name] the right to repurpose your content on our owned social media channels for a period of [6 months / 12 months] from the date of publication. We will always credit your handle when repurposing. [Note: for formal usage rights transfer, refer to a lawyer to draft appropriate contract language.]
-
-**Reporting requirements:** Please share native analytics screenshots (reach, impressions, engagement) within 7 days of posting. If a unique link or discount code was provided, share click or redemption data.
-
-**Questions:** Contact [Name] via [WhatsApp / Instagram DM / Email] at [Contact Details].
-
----
-
-### 5. Content Usage Rights Guidance
-
-This guidance is not legal advice. Refer the client to a lawyer for formal contracts.
-
-**What to ask for:**
-When commissioning influencer content, ask explicitly for the right to repurpose the content on the brand's owned channels (Instagram, Facebook, website, email). This should be agreed before posting, not after.
-
-**Standard timeframes:**
-- 6 months: standard for most nano/micro partnerships; sufficient for most campaign cycles
-- 12 months: appropriate for hero content (launch videos, brand testimonials) or evergreen content you intend to use across multiple campaigns
-
-**How to request it:**
-Include usage rights language in the written brief (see Section 4 template). For nano-level barter deals, a WhatsApp message confirming the terms is acceptable. For micro and above, request written acceptance of the brief.
-
-**What you cannot do without explicit permission:**
-- Edit or alter the influencer's content in ways that change the meaning or message
-- Use the content in paid advertising (boosted posts or paid ads) without a separate usage rights agreement — this typically involves an additional fee
-- Repurpose content beyond the agreed timeframe
-
-**When to involve a lawyer:**
-- Any macro-level partnership with cash fees above UGX 1 million
-- Any agreement that involves paid advertising usage rights
-- Any multi-month retainer arrangement
-- Any exclusivity clause (preventing the influencer from working with competitors)
-
----
-
-### 6. Performance Metrics
-
-Track the following metrics for every influencer campaign. Set targets before the campaign starts.
-
-| Metric | What It Measures | How to Track |
-|---|---|---|
-| Reach | Number of unique accounts that saw the content | Native analytics screenshot from influencer |
-| Impressions | Total number of times content was seen (including repeat views) | Native analytics screenshot |
-| Engagement rate | Quality of audience interaction (likes + comments + saves ÷ reach) | Calculate manually |
-| Link clicks | Number of clicks to the brand's link | UTM-tagged link in bio or Linktree |
-| Discount code redemptions | Direct sales attributed to the influencer | Track unique code in point-of-sale or e-commerce |
-| Story swipe-ups / link stickers | Direct traffic from Stories | Native analytics |
-| New followers gained | Follower growth on brand channels during campaign period | Manual count: before and after |
-| Attributed enquiries | DMs or enquiries mentioning the influencer or campaign | Manual count |
-
-**Attribution tools:**
-- UTM links: create a unique UTM-tagged link for each influencer (use Google Campaign URL Builder). Track via Google Analytics.
-- Discount codes: assign each influencer a unique code (e.g. SARAH15, JAMES20). Track redemptions in your sales records or e-commerce platform.
-- Direct ask: include "How did you hear about us?" in your sales or enquiry process. Some of the best attribution in EA is still manual.
-
----
-
-### 7. Red Flags to Avoid
-
-**Bought followers:**
-Compare follower count to engagement rate. An account with 50,000 followers and 50 likes per post (0.1% engagement) has bought followers. Walk away. Cross-check with a free tool such as HypeAuditor or modash.io if budget allows; otherwise calculate manually using the benchmarks in Section 2.
-
-**Misaligned audience:**
-An influencer with 80,000 followers based primarily in Nigeria is not the right partner for a Kampala-only campaign. Always ask for audience location data before committing.
-
-**Brand safety risks:**
-Avoid influencers who post content that is consistently inflammatory, divisive, or associated with controversial positions — even if their niche is relevant. The brand association risk is real, and disengagement mid-campaign is costly.
-
-**History of controversial brand partnerships:**
-Search the influencer's name + the word "review" or "ad" to identify any past partnerships that generated public complaints. One incident can be contextual; a pattern is a warning sign.
-
-**No-shows and late delivery:**
-For first-time partnerships, ask for proof of past campaign delivery (screenshots of previous brand posts). Establish a clear deadline in the brief and include a catch-up clause: if content is not posted within 48 hours of the agreed date, the brand reserves the right to reclaim product or withhold payment.
-
-**Over-claiming results:**
-Be cautious of influencers who guarantee specific sales numbers or reach figures before a campaign. Legitimate influencers share what their typical metrics look like; they do not promise outcomes they cannot control.
-
----
-
-## The Creator Economy — Structural Principles (Hund, 2023; Falls, 2021; Hennessy, 2018)
-
-### Why Influencer Marketing Works When It Works
-
-Influencer marketing derives its effectiveness from parasocial trust — the one-sided relationship that audiences build with creators they follow consistently. Audiences trust recommendations from a creator they watch daily more than they trust a brand advertisement, because the creator has earned that trust through consistent, authentic presence over time. The moment influencer content appears manufactured or out-of-character for that creator, the parasocial trust breaks — and brand association produces negative rather than positive effects.
-
-**The authenticity imperative (Falls, 2021):** The single most important criterion when selecting an influencer is not reach or engagement rate — it is authentic fit. A creator who genuinely uses a product produces content that audiences recognise as real. A creator promoting a product they have never touched produces content audiences also recognise — and dismiss. Authentic fit requires that the brand seek creators who are already in the natural habitat of the product or service category.
-
-**The buyer's selection lens (Hennessy, 2018, *Influencer*, Citadel Press):** Hennessy, who cast creators for a large magazine publisher, describes the order in which a buyer screens a creator: follower count, then engagement rate (including engagement on sponsored versus organic posts), then audience age, sex and location, then special skills and content quality (can they produce what the brief needs?), then professionalism and ease of working together (response speed, delivery history, conduct). Follower count alone never decides. The full 15-line scorecard is in [`references/creator-due-diligence-and-pricing.md`](references/creator-due-diligence-and-pricing.md).
-
-**Reach, resonance and relevance (3R):** a widely used industry shorthand of uncertain origin (often associated with influencer-platform vendors). It does **not** come from Hennessy. Use it as a summary check after the scorecard:
-
-| Consideration | Primary question |
-|---|---|
-| **Reach** | Does this creator's audience include enough members of our target persona to justify the investment? |
-| **Resonance** | Do followers act on this creator's recommendations — not just like and scroll? Evidence: saves, shares, replies, clicks, code redemptions |
-| **Relevance** | Is the creator's content category a natural home for our product or service, with recent posts in that category? |
-
-A creator weak on resonance or relevance is a poor investment whatever the reach. Do not claim that a micro-creator "will consistently outperform" a larger one; test with tracked codes and links and let the client's data decide.
-
-### The Influencer Industry Structure (Hund, 2023)
-
-The influencer industry is now professionalised at the macro level and semi-professional at the micro level. Understand the business structure before negotiating:
-
-- **Creator's perspective:** Influencers are running media businesses. Their content is their IP, their audience is their asset, and their sponsorship income is tied directly to the value they deliver to that audience. Brands that ask for excessive creative control, unusually short deadlines, or content that does not fit the creator's established voice will receive poor results — because the creator's audience will not respond to content that breaks from their established voice.
-
-- **Long-term partnerships outperform one-post deals:** A creator who mentions a brand once is an advertisement. A creator who integrates a brand naturally across four weeks of content becomes an endorsement. Audiences build brand familiarity through repeated, contextually appropriate exposure — not a single sponsored post. Wherever budget allows, structure campaigns as a minimum of 3–4 touchpoints across 4–6 weeks.
-
-- **Content usage rights negotiation:** Influencer-created content typically belongs to the creator. Usage rights for branded channels, paid advertising, and extended time periods must be negotiated and paid for separately from the post fee. In Uganda/EA, this is often not formalised — state rights expectations clearly in the written brief before content is produced, not after.
-
-### Winfluence — The Influence Continuum (Falls, 2021)
-
-Falls proposes the Influence Continuum: at one end, transient influencers (celebrities with broad but shallow reach); at the other end, relevant influencers (niche experts with narrow but deep impact). For most EA marketing objectives, content on the Relevant end of the continuum — micro and nano creators who are genuine authorities in their category — produces better commercial outcomes than celebrity association.
-
-**The five influence mechanisms (Falls, 2021):**
-1. **Authority** — expertise that makes followers trust the recommendation
-2. **Acumen** — business and product knowledge that makes endorsements credible
-3. **Access** — the creator's exclusive position (behind-the-scenes, first to know, personal experience)
-4. **Agility** — responsiveness to trends and timely relevance
-5. **Audience Match** — the degree to which the creator's audience mirrors the target persona
-
-Evaluate every potential partner against all five. An influencer who scores high on only one or two mechanisms is a weak investment.
-
----
-
-## Quality Criteria
-
-- Tier definitions label EA engagement figures as unsourced screening heuristics, not benchmarks
-- Selection uses the creator due-diligence scorecard (bought audience, undisclosed past ads, hateful content and safety risk are red lines); the 3R check is not attributed to Hennessy
-- Pricing is built from distribution fee + talent fee, with usage, exclusivity and season priced explicitly; the term sheet is completed before lawyer drafting
-- Disclosure guidance cites the register (AD-09, AD-10) and keeps Uganda/Kenya items as checks
-- Audience match criteria include a clear instruction to verify audience location before committing
-- Engagement rate calculation method is specified and can be performed manually without paid tools
-- Outreach message template sounds personal and human — not corporate
-- Campaign brief template is complete and fill-in-the-blanks ready for immediate use
-- Usage rights guidance explicitly notes it is not legal advice and specifies when to involve a lawyer
-- Performance metrics include at least two trackable attribution methods (UTM links and discount codes)
-- Red flags section addresses bought followers with a concrete detection method
-- WhatsApp group admins are explicitly identified as a nano-influencer category relevant to the EA context
-- British English spelling throughout; monetary values in UGX where referenced
+- [Influencer strategy document method](references/influencer-strategy-document-sections.md): read when asking the intake questions or writing the tier, identification, outreach, brief, usage-rights, metrics and red-flag sections and the creator-economy principles.
+- [Creator due diligence, typology and pricing](references/creator-due-diligence-and-pricing.md): read when shortlisting, vetting or budgeting creators.
+- [Influencer term sheet, brief and disclosure register](references/influencer-term-sheet-and-disclosure.md): read before any offer, brief, contract hand-off or go-live.
+- [ai-assisted-influencer-discovery-and-virtual-creators](references/ai-assisted-influencer-discovery-and-virtual-creators.md): read when using AI discovery tools, screening fraudulent engagement, or weighing a human against a virtual influencer.
+- [ugc-creator-and-customer-content](references/ugc-creator-and-customer-content.md): read when building a customer UGC programme, permissions log or curation and republishing workflow.
+- [`09-campaign-strategy`](../09-campaign-strategy/SKILL.md): read when the creator activation sits inside a wider campaign.
+- [Creator monetisation](../../strategy/strategy-creator-monetisation/SKILL.md): read when the work is the creator-side counterpart (rate card, revenue streams).
+- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before go-live and whenever disclosure or rights claims are made.
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md): read when approving creator drafts.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

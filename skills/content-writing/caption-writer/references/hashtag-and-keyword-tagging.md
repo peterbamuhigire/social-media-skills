@@ -4,7 +4,7 @@ Merged from skills/content-writing/hashtag-strategy on 2026-09-29 at 7c60138; pr
 
 ## When to use this reference
 
-Read this reference when the client wants more than the hashtag line under a single caption: a standing, client-specific hashtag strategy document, a tiered tag set per platform, a "tags to avoid" list, or a monthly hashtag review. For a one-off caption, the hashtag counts in the SKILL.md `Platform-Specific Rules` and the `EA-Specific Hashtag Communities` list are enough; use the standard set this reference produces once one exists for the client.
+Read this reference when the client wants more than the hashtag line under a single caption: a standing, client-specific hashtag strategy document, a tiered tag set per platform, a "tags to avoid" list, or a monthly hashtag review. For a one-off caption, the hashtag counts in [caption-build-method.md § Platform-Specific Rules](caption-build-method.md) and the [EA-Specific Hashtag Communities](caption-build-method.md) list are enough; use the standard set this reference produces once one exists for the client.
 
 Produce the whole strategy document in one output: the cover plus all seven sections below. Use the client's industry, location and audience to select and justify every hashtag. Do not produce generic lists. For Uganda and East Africa clients, give priority to the EA-specific tags listed in each section where they fit.
 
@@ -124,7 +124,7 @@ Present the final 5 with a note on when to use each.
 
 ### Section 5: Platform-specific usage guide
 
-Apply this guide every time a post is scheduled; mixing sets wrongly across platforms reduces performance. The counts match the caption rules in SKILL.md `Platform-Specific Rules`; the "sets to combine" column is the extra detail this reference adds.
+Apply this guide every time a post is scheduled; mixing sets wrongly across platforms reduces performance. The counts match the caption rules in [caption-build-method.md § Platform-Specific Rules](caption-build-method.md); the "sets to combine" column is the extra detail this reference adds.
 
 | Platform | Recommended count | Placement | Sets to combine |
 |---|---|---|---|

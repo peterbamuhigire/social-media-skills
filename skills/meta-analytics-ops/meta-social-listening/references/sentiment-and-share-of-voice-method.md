@@ -6,7 +6,7 @@ Merged from skills/meta-analytics-ops/meta-sentiment-analysis on 2026-09-29 at 8
 
 Read this reference when the client already has, or has supplied, conversation data (comments, DMs, mentions, reviews, exports) and wants it scored: sentiment classification, a Net Sentiment Score (NSS), share of voice (SOV) against named competitors, ranked conversation themes, and a monthly sentiment report that ends in a named strategic action. Typical goals are brand health tracking, competitor benchmarking, campaign evaluation and a crisis response debrief.
 
-This is the analytical half of listening. The listening programme in the parent [SKILL.md](../SKILL.md) and the operating routine in [listening-operations-playbook.md](listening-operations-playbook.md) produce the raw data; this reference says how to score, calculate and interpret it and how to turn the findings into decisions. The two are complementary, not alternatives.
+This is the analytical half of listening. The listening programme in [listening-programme-method.md](listening-programme-method.md) and the operating routine in [listening-operations-playbook.md](listening-operations-playbook.md) produce the raw data; this reference says how to score, calculate and interpret it and how to turn the findings into decisions. The two are complementary, not alternatives.
 
 ## Inputs
 
@@ -228,4 +228,8 @@ Populate every field from the NSS, SOV and theme outputs of the same session. Do
 
 - Funk, T. (2013) *Advanced Social Media Marketing*. Apress.
 - Schaffer, N. (2013) *Maximize Your Social*. Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+
+## Section locations after S09
+
+Added in Social Kaizen S09 (29 Sep 2026). The listening programme that this reference calls "the parent SKILL.md" (keyword taxonomy, tool setup, cadence, listening log) now sits, text unchanged, in [listening-programme-method.md](listening-programme-method.md); the SKILL.md keeps the contract and decision rules.

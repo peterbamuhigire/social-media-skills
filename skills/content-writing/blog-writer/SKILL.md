@@ -9,6 +9,8 @@ metadata:
 ---
 # Blog Writer
 
+Writes a complete, professional blog post, whitepaper or eBook from an agreed brief: a finished markdown article ready to paste into a CMS, share with a client or hand to a web developer. Apply `east-african-english` for language and tone throughout.
+
 <!-- dual-compat-start -->
 ## Use When
 - We have the topic and search keywords and need the full article written with headings, cited sources and a meta description, ready to paste into WordPress or hand to the web developer.
@@ -23,155 +25,102 @@ metadata:
 - Stop before publishing any statistic, quote or case figure without a traceable source; flag it rather than invent it.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+|---|---|---|---|
+| Client business name, industry and country/city | Client brief | Yes | Default the market to Uganda/East Africa; ask for the business and industry before writing. |
+| Topic or working title, target reader (role, situation, problem) and search intent (learn, compare or decide) | Approved brief or `content-ideas` output | Yes | Stop and ask; do not guess intent. |
+| 3–5 key questions the article must answer, and the call to action | Client or account manager | Yes | Draft the questions from the verified SERP gaps and return them for approval before writing. |
+| Word count target and tone | Client | No | Default to 1,200–1,800 words and a professional tone. |
+| Brand voice, offer and service facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions in the gap note; never invent client names, prices, results or approvals in the article. |
+| Statistics, quotations, case figures and research used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag each unsourced claim. |
 
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| The brief is a whitepaper, eBook, gated lead magnet, donor report or investor document rather than a single article | Apply the whitepaper/eBook decision rule, section templates and use-case variants in `references/whitepaper-and-ebook-structure.md`. | Padding a blog template into a thesis-free brochure or a reader-problem-free catalogue. |
+The full intake question list is in the [article build method](references/article-build-method.md#required-input).
 
 ## Workflow
-1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. For every article, run and retain the digital-research-engine's three-wave SEO/SERP study: map 3–7 intent clusters, read the accessible top five results per cluster, and record content, evidence and AI-answer gaps; mark inaccessible results `UNASSESSED`.
-4. Select the domain method and record the material decision behind it before drafting. Treat search results and competitor copy as competitive evidence, not proof.
-5. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
-6. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-7. Deliver the artefact with the dated research record, evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Confirm the article, reader, market, channel and call to action; route to `caption-writer` for social posts or to `content-ideas` if the topic is not yet chosen.
+2. Inventory the supplied facts, source provenance and missing inputs; stop if the objective, audience or authority is unknowable.
+3. Run and retain the digital-research-engine's three-wave SEO/SERP study for every article: map 3–7 intent clusters, read the accessible top five results per cluster, and record content, evidence and AI-answer gaps; mark inaccessible results `UNASSESSED`. Treat search results and competitor copy as competitive evidence, not proof.
+4. Choose the format and record the decision before drafting: a single article follows the [article build method](references/article-build-method.md); a whitepaper, eBook, gated lead magnet, donor report or investor document follows the [whitepaper and eBook structure](references/whitepaper-and-ebook-structure.md).
+5. Write the frontmatter block, then the opening hook, nut paragraph, 4–7 H2 sections (one key question each, H3s for distinct sub-topics), a practical takeaway and a full-circle conclusion with a non-pushy call to action.
+6. Place the primary and secondary keywords, mark 2–3 internal links as `[LINK: suggested anchor text → page type]` and suggest 1–2 authoritative external sources; add social cut-downs only if requested.
+7. Run the `anti-ai-slop` humanising passes and the quality checks below; correct any failed passage by narrowing, sourcing or qualifying it, then rerun the checks until they pass.
+8. Deliver the article with the dated research record, source register, assumptions, unassessed checks and the next approval step.
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Frontmatter block (title under 60 characters, meta description under 155 characters with keyword and location, primary and 2–3 secondary keywords, read time at 200 words/min) | Web developer or CMS editor | Every field is filled; title and meta description contain the primary keyword. |
+| Finished article in markdown | Client reviewer | Every H2 answers a named key question; at least one actionable section; the conclusion reconnects to the opening with a call to action. |
+| Whitepaper or eBook with executive summary and download landing page | Client; lead-capture owner | Follows the section template for its use case and states a thesis. |
+| Social cut-downs (LinkedIn 150 words, Facebook 80 words, X/Twitter opener 280 characters), only if requested | `caption-writer`; social team | Each is written for its platform, not pasted from the article. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Three-wave SEO/SERP research record | Dated table: intent cluster, results read, gaps | Every cluster lists the results read or marks them `UNASSESSED`. |
+| Source and assumption register | Inline table or linked source note | Every statistic, quotation and case figure traces to a named source, or is flagged. |
+| Release checklist | Checklist against the quality standards | Unavailable checks are marked `not assessed`, never passed. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Drafting is permitted within the supplied brief; claiming certification or posting to the client's CMS needs separate authority.
+
+## Degraded Mode
+
+Without a confirmed reader, search intent or traceable sources, return the narrowest qualified result and mark the affected checks `not assessed`. An outline with frontmatter, H2 questions and flagged claim slots can still be delivered for approval.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The reader's channel and commitment level are known (cold search visitor, subscriber, prospect) | Choose the hook, structure and call to action native to that reader and site. | An article that could be pasted unchanged onto any site or brand. |
+| A statistic, quotation, case figure or approval is missing | Stop that claim; request it or leave an explicit placeholder flagged in the source register. | Fabricated facts, implied consent or unauthorised publication. |
+| The SERP study or source pack is partial but a useful article is possible | Deliver a qualified draft listing the gaps, unread clusters and the next verification step. | Treating an unassessed search gap or claim as covered. |
+| The brief is a whitepaper, eBook, gated lead magnet, donor report or investor document rather than a single article | Apply the whitepaper/eBook decision rule, section templates and use-case variants in `references/whitepaper-and-ebook-structure.md`. | Padding a blog template into a thesis-free brochure or a reader-problem-free catalogue. |
+| The opening uses a story or scenario | Follow it immediately with a nut paragraph stating what the article covers and why it matters. | A reader who does not know why they are reading. |
+| The piece is premium thought leadership or lead generation | Also apply `premium-commercial-writing`: message spine, clear point of view, visible mechanism, proof density and an answer both readers and AI-search systems can extract. | Competent but forgettable copy. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- The opening hook is a recognisable scenario, surprising fact, real question or short story; it never opens with a definition or generic statement.
+- Every H2 section answers a real question the target reader would have; at least one section gives a checklist, decision framework or step-by-step.
+- The primary keyword sits naturally in the title, first 100 words, at least one H2 and the conclusion; no keyword stuffing.
+- British spelling; 90%+ active voice; no sentence over 35 words; paragraphs of 2–4 sentences; at least 2 clear positions taken.
+- No banned vocabulary, filler phrases or weak modifiers from the [writing standards](references/article-build-method.md#writing-standards).
+- Tone matches the client's industry and the East African professional register; names, figures, quotations and platform rules are verified before use.
+- The article reads as written by a human with genuine expertise and passes the `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-- Drafting from a keyword list or a single search result. **Fix:** complete the three-wave article study and write to the verified reader gap.
+
+- Writing before the objective and audience are known. Fix: stop and obtain the missing brief fields.
+- Reusing a neighbouring skill's template because the headings look similar. Fix: route by the requested publication-ready copy, not vocabulary overlap.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. Fix: verify it or qualify/remove it.
+- Treating missing access, evidence or native-language review as approval. Fix: mark the check `not assessed` and narrow the result.
+- Publishing, sending, spending or changing a live account from drafting authority alone. Fix: obtain explicit action-specific authority and retain the approval record.
+- Drafting from a keyword list or a single search result. Fix: complete the three-wave article study and write to the verified reader gap.
 
 ## References
-- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-- [whitepaper-and-ebook-structure](references/whitepaper-and-ebook-structure.md) — read when the deliverable is a whitepaper, eBook, gated lead magnet, donor report or investor document.
+
+- [Article build method](references/article-build-method.md): read when asking the intake questions, laying out the frontmatter and body, or applying the writing, SEO, social cut-down and human-authenticity rules.
+- [Whitepaper and eBook structure](references/whitepaper-and-ebook-structure.md): read when the deliverable is a whitepaper, eBook, gated lead magnet, donor report or investor document.
+- [Human voice standards](references/human-voice-standards.md): read when the article risks sounding generic or AI-generated; run the voice checklist.
+- [Writing craft](references/writing-craft.md): read when working on sentence structure, opening hook techniques or paragraph rhythm.
+- [Editorial standards](references/editorial-standards.md): read when checking punctuation, capitalisation and grammar in the proofing pass.
+- [Storytelling](references/storytelling.md): read when the opening or case material uses a story or personal experience.
+- [Reader experience](references/reader-experience.md): read when treating the article as a product experience for clarity and value delivery.
+- [Article design](references/article-design.md): read when designing the article page.
+- [Content strategy](references/content-strategy.md): read when deciding the strategic purpose of the article and who it serves.
+- [Ideation and research](references/ideation-and-research.md): read when generating topic ideas or planning the article research.
+- [Topic ideas](references/topic-ideas.md): read when a project-specific topic list is needed.
+- [Series and launch engine](references/series-and-launch-engine.md): read when the article must support discovery, warming, proof or a timed campaign.
+- [`east-african-english`](../../language/east-african-english/SKILL.md): read when calibrating tone, the British English spelling list and courteous phrasing.
+- [`premium-commercial-writing`](../premium-commercial-writing/SKILL.md): read when the piece needs premium positioning, proof density, value framing and SEO/GEO-aware authority structure.
+- [`caption-writer`](../caption-writer/SKILL.md): read when routing is unclear; it is the nearest neighbour.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting and before client delivery.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the article makes legal, health, financial or market claims.
 <!-- dual-compat-end -->
-
-Generate a complete, professional blog post from a brief. The output is a finished article in markdown — ready to paste into a CMS, share with a client, or hand to a web developer.
-
-## Required Input
-Ask for these before writing:
-
-1. **Client business name and industry**
-2. **Country / city** (default: Uganda/East Africa)
-3. **Article topic or working title**
-4. **Target reader** — who is this for? (job role, situation, problem they have)
-5. **Search intent** — are they looking to learn, compare, or decide?
-6. **Key questions** the article must answer (3–5)
-7. **Word count target** (default: 1,200–1,800 words)
-8. **Call to action** — what should the reader do at the end?
-9. **Tone** — professional / conversational / authoritative (default: professional)
-
-If any input is missing, ask before writing. Do not guess intent.
-
-## Article Structure
-Generate in this order:
-
-### Frontmatter block
-```
-Title: [SEO-optimised title, under 60 characters, primary keyword included]
-Meta description: [Under 155 characters, includes primary keyword and location]
-Primary keyword: [The main search phrase this article targets]
-Secondary keywords: [2–3 related phrases]
-Estimated read time: [X min read at 200 words/min]
-```
-
-### Article body
-1. **Opening hook** (1–2 paragraphs) — do not open with a definition or generic statement. Use one of: a specific scenario the reader recognises, a surprising fact, a question that surfaces a real problem, or a short story with a lesson.
-2. **Nut paragraph** — if the opening uses a story or scenario, follow it immediately with a grounding paragraph that states what the article covers and why it matters.
-3. **Body sections** — 4–7 H2 sections. Each section answers one of the key questions provided. Use H3 subheadings where a section has distinct sub-topics.
-4. **Practical takeaways** — at least one section must give the reader something concrete to act on (a checklist, a decision framework, a step-by-step).
-5. **Conclusion** — reconnect to the opening (full-circle structure). End with a natural, non-pushy CTA.
-
-## Writing Standards
-Apply the `east-african-english` skill for language and tone. Also:
-
-- **British spelling** — organisation, programme, colour, analyse, recognise
-- **Active voice** — 90%+ of sentences. Passive only when the actor is unknown.
-- **Sentence variety** — mix short (8–12 words) and medium (20–28 words). No sentence over 35 words.
-- **One idea per paragraph** — 2–4 sentences each.
-- **Concrete and specific** — use numbers, named places, real examples. No vague abstractions.
-- **No AI vocabulary** — never use: delve, tapestry, landscape (metaphorical), leverage, navigate (metaphorical), foster, realm, game-changer, revolutionary, groundbreaking.
-- **No filler phrases** — cut: "in order to" → "to", "due to the fact that" → "because", "it is important to note that" → state it directly.
-- **No weak modifiers** — cut: really, very, quite, basically, actually, somewhat.
-- **Take positions** — at least 2 clear opinions or recommendations per article. "I recommend" not "one might consider".
-- **Commit, do not hedge** — "This approach works for SMEs" not "This could potentially be a viable option".
-
-For premium thought leadership or lead-generation articles, also apply `premium-commercial-writing`: build a message spine before drafting, state a clear point of view, make the mechanism visible, add proof density, and structure the article so both readers and AI-search systems can extract the main answer.
-
-## SEO Requirements
-- Primary keyword in: title, first 100 words, at least one H2, and the conclusion.
-- Secondary keywords distributed naturally through body. Never keyword-stuff.
-- Internal linking suggestions: note 2–3 places where the client could link to related pages (service pages, about, contact) — mark as `[LINK: suggested anchor text → page type]`.
-- External links: suggest 1–2 authoritative sources to cite where data or claims need backing.
-
-## Platform Adaptation Notes
-If the article will be shared as social content after publication, include at the end:
-
-**Social cut-downs:**
-- LinkedIn post (150 words) — professional tone, key insight as the hook
-- Facebook post (80 words) — warmer, question-led
-- X/Twitter thread opener (280 characters) — bold claim or surprising fact
-
-Only include this section if the user requests it.
-
-## Human Authenticity Gate
-All content produced using this skill must pass through the `anti-ai-slop` humanising rewrite passes before client delivery. AI-generated or AI-assisted blog drafts must meet the Golden Rule: every article must look, feel, and sound as if it was crafted by the most skilled human writer with genuine expertise in the subject and deep knowledge of the East African reader. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
-
-## Quality Criteria
-Good output meets all of these:
-
-- [ ] Opening hook captures attention without being generic or clichéd
-- [ ] Every H2 section answers a real question the target reader would have
-- [ ] At least one section provides a concrete, actionable takeaway
-- [ ] No banned vocabulary or filler phrases
-- [ ] Primary keyword placed naturally in title, opening, at least one H2, and conclusion
-- [ ] British spelling throughout
-- [ ] Conclusion reconnects to the opening and includes a clear CTA
-- [ ] Tone matches the client's industry and the East African professional register
-- [ ] Article reads as written by a human with genuine expertise, not as generated content
-
-## References
-| File | When to Read |
-|---|---|
-| `references/human-voice-standards.md` | If the article risks sounding generic or AI-generated — run the voice checklist |
-| `references/writing-craft.md` | For sentence structure, opening hook techniques, paragraph rhythm |
-| `references/editorial-standards.md` | For punctuation, capitalisation, and grammar rules |
-| `east-african-english/SKILL.md` | For tone calibration, British English spelling list, courteous phrasing |
-| `premium-commercial-writing/SKILL.md` | For premium positioning, proof density, value framing, and SEO/GEO-aware authority structure |

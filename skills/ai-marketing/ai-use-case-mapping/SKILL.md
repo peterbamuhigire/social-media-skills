@@ -9,6 +9,8 @@ metadata:
 ---
 # AI Use Case Mapping
 
+Maps a client's marketing activities onto the 2×2 AI Use Case Framework (Venkatesan and Lecinski, 2026) and turns a vague sense that "AI could help" into a scored, prioritised shortlist the marketing manager can start within 90 days.
+
 <!-- dual-compat-start -->
 ## Use When
 - Our team knows AI could help but not where; list our marketing tasks and rank which ones AI should take first in the next 90 days.
@@ -23,351 +25,101 @@ metadata:
 - Stop before promising forecast accuracy or revenue gains, or using customer data without consent; label every estimate and assumption.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
+|---|---|---|---|
+| Business name, industry and sub-sector, country/city and the single primary marketing goal for the next 6 months | Client or approved brief | Yes | Ask before generating; default the location to Uganda/Kampala only when it is not stated. |
+| Current marketing activities (every recurring task) | Client marketing lead | Yes | Apply the standard 12-activity starter list and remove tasks the client does not perform. |
+| Current AI tools in use, even informal (ChatGPT for captions, Canva Magic Write) | Client team | Yes | Record as zero and score Current AI Use 0 for every activity. |
+| Team size and technical comfort (Low / Medium / High) | Client | Yes | Assume Low and keep every use case free of developer, API or data-science skills. |
+| Social data exports (Meta Business Suite) and CRM volume | Client | Conditional (forecasting or segmentation) | Mark predictive use cases deferred; fewer than 3 months of data never supports a forecast. |
+
+## Workflow
+
+1. Confirm the goal, market and approval boundary; route to `ai-readiness-diagnostic` if the client first needs a scored maturity or data assessment.
+2. Establish the activity list (client list or the 12-activity starter list) and map each activity to a quadrant, one row per quadrant opportunity, using the [mapping method](references/use-case-mapping-method.md).
+3. Score each activity for Current AI Use (0–2) and Opportunity (1–5) and assign priority with the rules below.
+4. Build the priority matrix and the quadrant summaries; if a quadrant is empty, add at least one standard example activity and mark it as a suggested addition.
+5. Select the Top 5 High-priority use cases and 3 to defer, each deferral with a reason and a revisit trigger; stop any use case that needs customer data without consent or promises forecast accuracy or revenue.
+6. Sequence the Top 5 into the 90-day plan (Q1 first, then Q2, then Q3/Q4) with a named owner and success metric per phase.
+7. Where the brief asks for it, extend into a growth system, a predictive analytics plan or a co-thinking session with the linked references.
+8. Check the map against the Quality Standards; correct any rating not derived from the formula or any tool without a cost indication, rerun the check, then run the `anti-ai-slop` ship gate before delivery; a blocking factual, cultural, safety or permission defect stops release.
+
+## Priority scoring
+
+- **Current AI Use (0–2):** 0 = no AI in use; 1 = partial (occasional ChatGPT, one automated step); 2 = full, systematic integration.
+- **Opportunity Score (1–5):** the mean of Volume, Repetition, Data availability and Time cost (each 1–5; time cost 1 = under 30 minutes, 5 = over 5 hours a week), rounded.
+- **Priority:** High = Opportunity 4–5 AND Current AI Use 0; Medium = Opportunity 3–4 OR Current AI Use 1; Low = Opportunity 1–2 OR Current AI Use 2.
+- **Quick win threshold:** achievable within 4 weeks with free or low-cost tools under UGX 100,000/month; flag anything above it.
+- **ROI on AI tool investment:** (TLV − COCA) ÷ COCA (Bodnar and Cohen, 2012).
+
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Priority matrix (Activity, Quadrant, Current AI Use, Opportunity Score, Priority) with quadrant summaries | Client marketing manager | All four quadrants populated; every rating traces to the scoring formula. |
+| Top 5 use cases and 3 deferred use cases | Client marketing manager | Each Top 5 entry has why now, what to do, named EA-accessible tool with cost, 4-week metric and effort; each deferral has a reason and revisit trigger. |
+| 90-day implementation sequence | Client lead and `playbook-marketing-automation` | Each 30-day phase names an owner and a success metric. |
+| Growth system design, predictive analytics plan or co-thinking record (when requested) | Strategist | Built from the linked reference, with estimates and assumptions labelled. |
+
+## Evidence Produced
+
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Scoring sheet | Table: activity, four opportunity factors, mean, current use, priority | Priorities reconcile with the formula. |
+| Tool and cost register | Table: tool, tier, cost in UGX or USD, payment route, source date | Every tool has a free tier or a Visa, Mastercard or MTN Mobile Money via Payoneer route and a cost indication. |
+| Assumption and deferral log | List | Every estimate, data gap and deferral trigger is labelled. |
 
 ## Capability and Permission Boundaries
-Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Building the automations belongs to `playbook-marketing-automation` after approval.
 
 ## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified AI use case mapping deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
+
+Without a confirmed activity list and current AI tool inventory, return the narrowest qualified result and mark the affected checks `not assessed`. A starter-list matrix with provisional scores and the East African default opportunities can still be delivered, labelled provisional.
 
 ## Decision Rules
-| Choice | Action | Failure or risk avoided |
+
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| An activity spans two quadrants | Create a row per quadrant opportunity; for the headline assignment use the quadrant with the highest-value AI opportunity. | Hiding a customer-facing risk inside an internal use case. |
+| A Top 5 use case needs a paid tool above UGX 100,000/month | Flag it clearly and justify it, or defer it. | Quick wins the client cannot afford. |
+| A use case faces customers (Q2) | Activate only after the Q1 foundations are in place, in Days 31–60. For every use case, choose the lowest viable automation level that data readiness, AI maturity and risk support, and define its human approval gate. | Customer-facing AI launched before the team can run it. |
+| AI drafts responses in Luganda or Swahili | Require human review of every AI-generated local-language response before publishing. | Mistranslation and lost audience trust. |
+| Local quantitative data is scarce | Synthesise qualitative signals, flag the scarcity and never present AI-synthesised insight as equal to primary research. | False market certainty. |
 | Chosen use cases must work together as a growth system tied to revenue, retention or conversion | Apply the growth principle, pattern table and hard rules in [ai-growth-systems-design](references/ai-growth-systems-design.md). | AI that produces more content without moving a funnel metric. |
 | The client wants forecasts (churn, content performance, campaign revenue, segments) from social data | Run the analytics-stage check, use-case match, RFM and predictive calendar in [predictive-analytics-use-cases](references/predictive-analytics-use-cases.md). | Predictions from under 3 months of data or tools beyond the client's budget. |
 | The strategic answer is not yet clear before mapping or recommending | Use the Co-Thinker dialogue, MVOSSTE, JTBD and risk-mapping prompts in [ai-strategy-co-thinking-prompts](references/ai-strategy-co-thinking-prompts.md). | Delivering unreviewed AI strategy options as the consultant's recommendation. |
 
-## Workflow
-1. Confirm the exact AI use case mapping deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete AI use case mapping deliverable; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
-
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Ai use case mapping deliverable | Requester, client reviewer or delivery team | The AI use case mapping deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
-
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
-
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- All four quadrants are populated; where the client's list misses one, at least one suggested activity is added and marked as such.
+- Every High, Medium and Low rating is derived from the Opportunity Score formula, not intuition or assumption.
+- All Top 5 use cases are achievable within 4 weeks with free or sub-UGX 100,000/month tools; any exception is flagged and justified.
+- East African context runs throughout: WhatsApp as the primary customer channel, Africa's Talking for SMS/WhatsApp API use, Mobile Money as a payment and communications touchpoint, and local data scarcity acknowledged.
+- Every deferred item has a clear reason and a time- or milestone-bound revisit trigger.
+- Every tool is named and EA-accessible: a free tier or payable via Visa, Mastercard or MTN Mobile Money via Payoneer, with a cost indication.
+- The output is actionable by a non-technical marketing manager; no developer skills, API access or data-science knowledge is assumed unless the team profile supports it.
+- The 90-day sequence names a responsible person and a success metric for every phase.
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested AI use case mapping deliverable, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+- Rating priority by gut feel. Fix: compute the four-factor Opportunity Score and apply the priority rules.
+- Leaving a quadrant empty because the client did not list it. Fix: add a standard example activity and mark it as a suggested addition.
+- Starting with a customer-facing chatbot. Fix: begin with Q1 internal quick wins and activate Q2 once they are embedded.
+- Dismissing a high-opportunity use case without explanation. Fix: record the deferral reason and the milestone for revisiting it (for example when CRM data reaches 1,000+ contacts).
+- Promising forecast accuracy or revenue gains. Fix: label every estimate and assumption and state the data period behind it.
+- Publishing AI-drafted Luganda or Swahili replies unchecked. Fix: route each through a native-speaker review before it goes out.
 
 ## References
-- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-- [ai-growth-systems-design](references/ai-growth-systems-design.md) — read when the use-case map must become an AI growth system with patterns, data foundation, governance and a 30/60/90-day roadmap.
-- [predictive-analytics-use-cases](references/predictive-analytics-use-cases.md) — read when a client needs social media forecasts, RFM segmentation or a predictive content calendar.
-- [ai-strategy-co-thinking-prompts](references/ai-strategy-co-thinking-prompts.md) — read when AI should act as a strategy co-thinker (dialogue sequence, MVOSSTE, JTBD, campaign risk mapping, prompt footnoting).
+
+- [Use-case mapping method](references/use-case-mapping-method.md): read when building the activity list, assigning quadrants, scoring, writing the Top 5 and deferrals, sequencing the 90 days or applying the East African default opportunities.
+- [ai-growth-systems-design](references/ai-growth-systems-design.md): read when the use-case map must become an AI growth system with patterns, data foundation, governance and a 30/60/90-day roadmap.
+- [predictive-analytics-use-cases](references/predictive-analytics-use-cases.md): read when a client needs social media forecasts, RFM segmentation or a predictive content calendar.
+- [ai-strategy-co-thinking-prompts](references/ai-strategy-co-thinking-prompts.md): read when AI should act as a strategy co-thinker (dialogue sequence, MVOSSTE, JTBD, campaign risk mapping, prompt footnoting).
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md): read when maturity or data readiness is unknown.
+- [prompt-engineering-library](../../content-writing/prompt-engineering-library/SKILL.md): read when activating Q1 quick wins with client-specific prompts.
+- [playbook-marketing-automation](../../playbooks/playbook-marketing-automation/SKILL.md): read when approved Q2 use cases need workflow automation.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+- [Anti-AI slop production gate](../anti-ai-slop/SKILL.md): read when writing use-case descriptions and the 90-day plan.
 <!-- dual-compat-end -->
-
-## Purpose
-Produce a structured, evidence-based map of AI opportunities for a client's
-marketing activities using the 2×2 AI Use Case Framework. The output moves the
-client from a vague awareness that "AI could help" to a concrete, prioritised
-shortlist of use cases they can begin implementing within 90 days.
-
-Source framework: Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing
-Canvas* (2nd ed.). Stanford Business Books.
-
-## Required Input
-Before generating any deliverable, ask the client for:
-
-1. **Business name** — exact trading name of the organisation
-2. **Industry** — sector and sub-sector (e.g. retail FMCG, professional
-   services, NGO, hospitality)
-3. **Country / city** — location and primary market (defaults to Uganda/Kampala)
-4. **Primary marketing goal** — the single most important objective for the
-   next 6 months (e.g. grow WhatsApp enquiries, improve content consistency,
-   reduce reporting time)
-5. **Current marketing activities** — list every recurring marketing task the
-   team performs. If the client cannot provide a list, apply the standard
-   12-activity starter list in Step 1.
-6. **Current AI tools in use** — list any AI tools already in use, even
-   informally (e.g. ChatGPT for captions, Canva Magic Write). If none, record
-   as zero.
-7. **Team size and technical comfort level** — number of people managing
-   marketing; rate their comfort with new software as Low / Medium / High.
-
-## The 2×2 AI Use Case Framework
-Source: Venkatesan and Lecinski (2026).
-
-The framework classifies every AI use case on two axes:
-
-- **Vertical axis — Value type:**
-  - **Productivity** — efficiency, cost reduction, speed, volume handling
-  - **Growth** — revenue, engagement, new capability, competitive advantage
-- **Horizontal axis — Audience:**
-  - **Internal** — staff, operations, workflows, team processes
-  - **External** — customers, prospects, public-facing communications
-
-This produces four quadrants:
-
-| | **Internal** | **External** |
-|---|---|---|
-| **Productivity** | Q1 — Internal Productivity | Q2 — External Productivity |
-| **Growth** | Q3 — Internal Growth | Q4 — External Growth |
-
-### Quadrant 1 — Internal Productivity
-AI used to make internal marketing operations faster and cheaper.
-
-Examples:
-- AI-generated first drafts (briefs, captions, email copy)
-- Automated reporting and dashboard summaries
-- AI-powered content repurposing (one post → multiple formats)
-- Meeting notes and action-item extraction
-- Competitor monitoring alerts
-- Prompt libraries for team-wide use
-
-### Quadrant 2 — External Productivity
-AI used to make customer interactions more efficient at scale.
-
-Examples:
-- AI chatbots for FAQs (Messenger, WhatsApp)
-- Automated response templates for comments and DMs
-- Personalised email sequences triggered by behaviour
-- WhatsApp broadcast automation with audience segmentation
-- SMS reminders and follow-ups via Africa's Talking
-
-### Quadrant 3 — Internal Growth
-AI used to grow capability, insight, or competitive advantage internally.
-
-Examples:
-- AI-powered audience segmentation from CRM data
-- Sentiment analysis to inform content strategy
-- Predictive analytics for campaign planning
-- AI-assisted A/B test design
-- Competitive intelligence aggregation
-
-### Quadrant 4 — External Growth
-AI used to drive revenue and engagement directly with customers.
-
-Examples:
-- Personalised content recommendations
-- Dynamic ad creative testing
-- AI influencer matching and brief generation
-- Real-time personalisation on landing pages
-- Loyalty programme personalisation
-
-## Step 1 — Establish the Activity List
-If the client provides a full activity list, use it. If not, apply the standard
-12-activity starter list:
-
-1. Content creation (captions, blogs, emails)
-2. Content scheduling and publishing
-3. Community management and response
-4. Customer service (comments, DMs, complaints)
-5. Campaign planning and briefing
-6. Audience research and persona development
-7. Competitor monitoring
-8. Performance reporting
-9. Paid advertising management
-10. Influencer identification and briefing
-11. Email marketing
-12. WhatsApp / SMS communications
-
-Add any client-specific activities not covered by the list. Remove any
-activities the client does not perform.
-
-## Step 2 — Map Each Activity to a Quadrant
-For each activity, assign it to the quadrant that best describes its primary AI
-opportunity. Note that a single activity may have opportunities in more than one
-quadrant — if so, create a separate row per quadrant opportunity.
-
-Quadrant assignment rules:
-- Ask: does this AI application help internal operations, or does it face the
-  customer directly?
-- Ask: does it save time/cost (Productivity), or does it generate new revenue
-  or capability (Growth)?
-- When an activity spans two quadrants, assign it to the quadrant where the
-  highest-value AI opportunity sits.
-
-## Step 3 — Score Each Activity
-Rate each activity on two dimensions:
-
-**Current AI Use (0–2):**
-- 0 = No AI in use for this activity
-- 1 = Partial AI use (e.g. occasional ChatGPT, one automated step)
-- 2 = Full AI integration (systematic, consistent AI throughout this activity)
-
-**Opportunity Score (1–5):**
-Assess based on these four factors — sum them, then divide by four and round:
-- **Volume** — how many times per week/month does this task occur? (1 = rare,
-  5 = daily or multiple times daily)
-- **Repetition** — how standardised is the task? (1 = highly variable,
-  5 = near-identical every time)
-- **Data availability** — does the client have data to feed an AI tool?
-  (1 = no data, 5 = rich, structured data available)
-- **Time cost** — how many hours per week does this task consume?
-  (1 = under 30 minutes, 5 = over 5 hours)
-
-**Priority:**
-- **High** — Opportunity Score 4–5 AND Current AI Use 0
-- **Medium** — Opportunity Score 3–4 OR Current AI Use 1
-- **Low** — Opportunity Score 1–2 OR Current AI Use 2
-
-## Step 4 — Build the Priority Matrix
-Output the completed matrix in this format:
-
-| Activity | Quadrant | Current AI Use | Opportunity Score | Priority |
-|---|---|---|---|---|
-| [activity name] | [Q1 / Q2 / Q3 / Q4] | [0 / 1 / 2] | [1–5] | [High / Med / Low] |
-
-Ensure all four quadrants are represented. If the client's activity list
-produces an empty quadrant, add at least one standard example activity from
-that quadrant and mark it as a suggested addition.
-
-## Step 5 — Quadrant Summary
-After the matrix, produce a one-paragraph summary per quadrant:
-
-- State how many activities fall in each quadrant.
-- Identify which quadrant has the most High-priority opportunities.
-- Note any quadrant that is notably underdeveloped (few or no High-priority
-  items) — this may indicate a strategic blind spot.
-- Recommend which quadrant to address first, with a one-line rationale.
-
-## Step 6 — Top 5 Priority Use Cases
-Select the five activities rated High priority. Present each in this format:
-
-**Use Case [N]: [Activity Name] — [Quadrant]**
-
-- **Why now:** [One sentence on the business case — what is being lost by not
-  doing this today]
-- **What to do:** [Specific AI application — name the action, not just the
-  category]
-- **Recommended tool:** [Named tool available and accessible in East Africa —
-  include free/paid tier and approximate cost in UGX or USD]
-- **Expected result:** [Measurable outcome achievable within 4 weeks — state
-  the metric]
-- **Effort to implement:** Low / Medium / High
-
-Quick wins must be achievable within 4 weeks using free or low-cost tools
-(under UGX 100,000/month). Flag any use case that requires a paid tool above
-this threshold clearly.
-
-## Step 7 — 3 Use Cases to Defer
-Identify three activities that score High on Opportunity but are not suitable
-for immediate implementation. For each, provide:
-
-- **Activity:** [Name]
-- **Reason for deferral:** [One of: technical complexity, data not yet available,
-  team skill gap, tool cost not yet justified, requires a prior workflow to be
-  in place first]
-- **When to revisit:** [Milestone or timeframe — e.g. "After 90-day quick wins
-  are embedded" or "When CRM data reaches 1,000+ contacts"]
-
-## Step 8 — 90-Day Implementation Sequence
-Sequence the Top 5 priority use cases into a realistic 90-day plan. Use the
-following structure:
-
-**Days 1–30 — Foundation (Quick Wins)**
-- Implement use cases that require no new tools or only free-tier tools.
-- Focus on Q1 (Internal Productivity) first — these build team confidence
-  and reduce daily friction without customer-facing risk.
-
-**Days 31–60 — External Activation**
-- Implement Q2 (External Productivity) use cases — chatbots, auto-responses,
-  WhatsApp automation.
-- Require that Q1 foundations are in place before customer-facing AI is activated.
-
-**Days 61–90 — Growth Layer**
-- Begin Q3 and Q4 use cases that require data, testing, or higher tool investment.
-- Review Days 1–60 performance before committing budget to Growth-quadrant tools.
-
-State clearly which team member owns each action and what the success metric is
-for each 30-day phase.
-
-## EA-Specific Opportunities
-Apply these as default suggestions for East African clients unless the client's
-context makes them irrelevant:
-
-- **WhatsApp broadcast automation (Q2 — High priority for most EA clients):**
-  Most EA businesses manage broadcasts manually. Automation via ManyChat or
-  Africa's Talking saves 3–5 hours per week and improves segmentation.
-- **AI caption writing (Q1 — virtually universal gap):** Nearly every client
-  writes captions manually. A structured prompt library (see:
-  `prompt-engineering-library`) with a Brand Context Block reduces caption
-  production time by 60–80%.
-- **Automated comment responses in Luganda / Swahili (Q2 — emerging opportunity):**
-  AI-assisted response templates in local languages improve response rates and
-  audience trust. Flag the need for human review of all AI-generated local-
-  language responses before publishing.
-- **Mobile Money payment confirmation messages (Q2):** Automated SMS or
-  WhatsApp confirmations via Africa's Talking reduce customer service volume
-  and increase trust at point of payment.
-- **AI-generated market research summaries (Q3):** Where local quantitative
-  data is scarce, AI can synthesise qualitative signals — social listening,
-  review aggregation, WhatsApp conversation patterns — into usable audience
-  insight. Flag data scarcity explicitly; do not present AI-synthesised insight
-  as equivalent to primary research.
-
-## Quality Criteria
-Output from this skill meets the standard when:
-
-1. **All four quadrants are populated** — no quadrant is left empty; if the
-   client's activity list does not cover a quadrant, at least one suggested
-   activity is added and marked as such.
-2. **Priority ranking is evidence-based** — every High, Medium, and Low rating
-   is derived from the Opportunity Score formula, not intuition or assumption.
-3. **Quick wins are genuinely quick** — all Top 5 use cases are achievable
-   within 4 weeks and use free or sub-UGX 100,000/month tools; any exception
-   is flagged and justified.
-4. **EA context is reflected throughout** — WhatsApp features as the primary
-   customer channel; Africa's Talking is cited for SMS/WhatsApp API use;
-   Mobile Money is acknowledged as a payment and communications touchpoint;
-   data scarcity in local markets is not ignored.
-5. **Deferred items include a clear reason and a revisit trigger** — no use
-   case is dismissed without explanation; deferral is always time-bound or
-   milestone-bound.
-6. **Tool recommendations are named and EA-accessible** — every tool cited
-   has a free tier or is payable via Visa, Mastercard, or MTN Mobile Money
-   via Payoneer; no tool is recommended without a cost indication.
-7. **Output is actionable by a non-technical marketing manager** — no
-   assumption of developer skills, API access, or data science knowledge
-   unless the client's team profile explicitly supports it.
-8. **The 90-day sequence is owned and measurable** — every phase names a
-   responsible person and a success metric; the plan is a working document,
-   not a wish list.
-
-## Cross-References
-- **`ai-readiness-diagnostic` (AI Marketing Canvas scoring reference)** — use for full AI marketing maturity
-  assessment and strategic canvas before or after this use case mapping exercise.
-- **`prompt-engineering-library`** — use for ready-made, client-specific prompts
-  to activate Q1 (Internal Productivity) quick wins immediately.
-- **`playbook-marketing-automation` (AI automation recipes reference)** — use for detailed workflow automation
-  planning once Q2 (External Productivity) use cases are approved.
-- **`playbook-content-production`** (AI-assisted production workflow reference) — use for content production automation
-  planning, particularly for Q1 caption and blog use cases.
-
-## References
-- Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas* (2nd ed.).
-  Stanford Business Books. [2×2 AI Use Case Framework — cited in Steps 2–8]
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.
-  Pearson. [RACE framework; channel strategy context]
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
-  [ROI formula: (TLV − COCA) ÷ COCA — apply when calculating expected return
-  on AI tool investment]

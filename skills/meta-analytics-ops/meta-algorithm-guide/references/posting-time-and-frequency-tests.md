@@ -6,7 +6,7 @@ Merged from skills/meta-analytics-ops/meta-posting-optimisation on 2026-09-29 at
 
 Read this reference when a client asks "when should we post, and how often?" and needs a client-specific weekly posting schedule (day, time in EAT, platform, format, content pillar and direction) rather than the general ranking-signal guidance in the SKILL.md.
 
-"Best time to post" articles report global averages that are wrong for most individual accounts and systematically wrong for Ugandan and East African audiences, who use social media at different times from US or UK users. The answer comes from the client's own analytics, backed by East African market context and a 4-week structured test, not from published studies. The SKILL.md §5 frequency benchmarks and §6.1 peak times are general comparators; where this reference and those tables differ, the client's own test result decides.
+"Best time to post" articles report global averages that are wrong for most individual accounts and systematically wrong for Ugandan and East African audiences, who use social media at different times from US or UK users. The answer comes from the client's own analytics, backed by East African market context and a 4-week structured test, not from published studies. The §5 frequency benchmarks and §6.1 peak times (moved from SKILL.md to [platform-ranking-reference.md](platform-ranking-reference.md) in S09) are general comparators; where this reference and those tables differ, the client's own test result decides.
 
 ## Inputs
 

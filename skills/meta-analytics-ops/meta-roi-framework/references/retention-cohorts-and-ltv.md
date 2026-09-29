@@ -4,7 +4,7 @@ Merged from skills/meta-analytics-ops/meta-cohort-analysis on 2026-09-29 at 8eac
 
 ## When to use this reference
 
-Read this reference when the ROI question needs more than one average customer value: the client wants to know which acquisition channel brings back repeat customers, whether a campaign produced one-time buyers or a loyal base, or which month's intake has earned the most per customer. Aggregate totals (total sessions, total revenue) hide that difference; a cohort analysis shows which channels produce high-LTV customers and which produce one-transaction visitors. Feed the per-channel results into the SKILL.md `CLV by Acquisition Cohort` step and the TLV:COCA ratio.
+Read this reference when the ROI question needs more than one average customer value: the client wants to know which acquisition channel brings back repeat customers, whether a campaign produced one-time buyers or a loyal base, or which month's intake has earned the most per customer. Aggregate totals (total sessions, total revenue) hide that difference; a cohort analysis shows which channels produce high-LTV customers and which produce one-transaction visitors. Feed the per-channel results into the `CLV by Acquisition Cohort` step in [roi-model-method.md](roi-model-method.md) and the TLV:COCA ratio.
 
 Method source: Raaz (c.2023) *Web Analytics Blueprint*. Before building the table or choosing a churn formula, read § Reading cohorts in [OMTM, lines in the sand and stage metrics](../../meta-social-metrics-framework/references/omtm-lines-in-the-sand-and-stage-metrics.md) (the three-view cohort reveal and churn denominators).
 

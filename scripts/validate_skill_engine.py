@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import statistics
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -42,6 +43,9 @@ MANDATORY = (
     "docs/world-class-exemplars/campaign-exemplars.md",
 )
 FM_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+# S09 (Social Kaizen 2026-09-29, D-SK-06): the lean-template ceiling. It replaces the July 2026
+# 500-line `line_limit`; the catalogue median (target <= 200) is reported as `median_skill_lines`.
+LINE_BUDGET = 300
 
 # S08 (Social Kaizen 2026-09-29): templated routing text carries no routing signal, because the
 # routing harness scores exactly the name, description and `Use When`. These phrases come from the
@@ -257,8 +261,8 @@ def assess(path: Path, root: Path) -> list[str]:
         findings.append("reference_contract")
     if any(not local_link_exists(path, target, root) for target in markdown_links(body)):
         findings.append("broken_relative_link")
-    if len(raw.splitlines()) > 500:
-        findings.append("line_limit")
+    if len(raw.splitlines()) > LINE_BUDGET:
+        findings.append("line_budget")
     if any(marker in raw for marker in MOJIBAKE):
         findings.append("encoding_noise")
     if any(snippet in body for snippet in RUNNER_SPECIFIC):
@@ -316,12 +320,15 @@ def main() -> int:
         if not (root / required).exists():
             results[f"@engine/{required}"] = ["missing_mandatory_resource"]
     counts = Counter(finding for findings in results.values() for finding in findings)
+    line_counts = [len(path.read_text(encoding="utf-8", errors="replace").splitlines()) for path in files]
     payload = {
         "standard": "july-2026-zero-debt",
         "active_roots": options.active_root,
         "active_skill_count": len(files),
         "template_count": len(list((root / "docs" / "templates").glob("*.md"))) if (root / "docs" / "templates").exists() else 0,
         "fully_compliant": sum(not value for value in results.values()),
+        "line_budget": LINE_BUDGET,
+        "median_skill_lines": statistics.median(line_counts) if line_counts else 0,
         "failure_counts": dict(sorted(counts.items())),
         "results": {key: value for key, value in results.items() if value},
     }
@@ -340,7 +347,7 @@ def main() -> int:
             payload["baseline_mismatch"] = {"expected": expected, "actual": payload["failure_counts"]}
         if baseline.get("active_skill_count") != len(files):
             payload["catalogue_count_mismatch"] = {"expected": baseline.get("active_skill_count"), "actual": len(files)}
-    print(json.dumps(payload, indent=2) if options.json else f"skills={len(files)} compliant={payload['fully_compliant']} failures={sum(counts.values())}\n" + "\n".join(f"{name}: {count}" for name, count in sorted(counts.items())))
+    print(json.dumps(payload, indent=2) if options.json else f"skills={len(files)} compliant={payload['fully_compliant']} failures={sum(counts.values())} median_lines={payload['median_skill_lines']}\n" + "\n".join(f"{name}: {count}" for name, count in sorted(counts.items())))
     if "catalogue_cap_exceeded" in payload and not options.json:
         print(f"catalogue_cap_exceeded: {payload['catalogue_cap_exceeded']['actual']} active > hard_cap {payload['catalogue_cap_exceeded']['hard_cap']} (docs/skill-aliases.yml)")
     return 1 if counts or "baseline_error" in payload or "baseline_mismatch" in payload or "catalogue_count_mismatch" in payload or "catalogue_cap_exceeded" in payload else 0

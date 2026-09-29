@@ -177,7 +177,7 @@ Populate all 13 weeks, with at least 2 evergreen slots each week (matching the 4
 
 - **10-4-1 rule** (Bodnar and Cohen, 2012) — calibrate the evergreen share within the full content mix.
 - **Hero/Hub/Hygiene** (YouTube/Google) — classify evergreen content: Hygiene content (FAQ, how-to, explainer) maps directly to the evergreen library; Hub content (regular series) may have partial evergreen value; Hero content (campaigns, announcements) is time-sensitive and stays out of the rotation.
-- **RACE** (Chaffey, 2024) — check that the library covers every customer-journey stage: Reach (awareness posts), Act (educational and how-to posts), Convert (process guides, what-to-expect posts) and Engage (community and trust-building posts).
+- **RACE** (Chaffey and Ellis-Chadwick, 2022) — check that the library covers every customer-journey stage: Reach (awareness posts), Act (educational and how-to posts), Convert (process guides, what-to-expect posts) and Engage (community and trust-building posts).
 
 ## 7. Acceptance checklist
 
@@ -194,5 +194,5 @@ Populate all 13 weeks, with at least 2 evergreen slots each week (matching the 4
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Macarthy, A. (2022) *500 Social Media Marketing Tips*. 6th edn.

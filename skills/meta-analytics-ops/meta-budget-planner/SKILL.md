@@ -9,6 +9,7 @@ metadata:
 ---
 # Meta Budget Planner
 
+Splits a confirmed monthly marketing budget across channels, content production, tools and contingency, and ties it to revenue through a bottom-up plan and a CAC ceiling. Amounts are in UGX and calibrated for the Uganda/East Africa market as of 2026; confirm exchange rates, tool subscription costs and freelance rates before presenting any plan.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -28,310 +29,91 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Approved budget ceiling, objectives and channel evidence | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Total monthly digital marketing budget (UGX or USD) | Client owner or finance lead | Yes | Stop the allocation; if a revenue target exists, build the bottom-up revenue plan first and let its CAC ceiling set the budget. |
+| One SMART objective for the next 6 months | Client brief | Yes | Return the objective question; do not allocate against "general growth". |
+| Current channels and monthly spend per channel, including zero-spend channels | Client or ad-account exports | Yes | Rank channels as low priority (no prior evidence of paid return) and keep the paid mix to one platform. |
+| Cost per result from previous paid activity and organic reach per channel | Client-authorised platform exports | If available | Mark the ranking provisional and fund a small test (UGX 50,000–200,000) before scaling. |
+| Revenue target, average deal value and historical conversion rates | Client finance or sales lead | For a revenue plan | Apply the Kahan (2022) benchmarks labelled as benchmarks, not client results. |
+| Team size, constraints and non-negotiables | Client lead | Yes | Record "not stated" and flag any fixed line (for example a WhatsApp Business API subscription) as an assumption. |
+
+## Workflow
+
+1. Ask the intake questions ([budget tiers and allocation method](references/budget-tiers-and-allocation.md) § Intake questions); stop if there is no confirmed budget or objective, and route paid-media floors and phases to `advertising-strategy-and-budget`.
+2. When the budget must come from a revenue target, build the [bottom-up revenue plan](references/bottom-up-revenue-plan.md) first and carry its CAC ceiling forward.
+3. State the five budget principles and show how each changes this client's allocation.
+4. Match the client to a tier (Starter, Growth or Scale); present the lower tier as the base when the budget falls between tiers and note what the higher tier adds.
+5. Apply the four-step channel allocation framework to the client's actual channels, then price content production from the EA rate table.
+6. Calculate ROI per channel with the client's own figures (or a labelled worked example) and check actual CAC against the ceiling.
+7. Build the monthly, quarterly and annual review cadence with a named owner for each review.
+8. Run the quality standards and the anti-slop gate; correct any line that does not map to the objective or breaches the CAC ceiling and rerun the check before hand-over. Deliver the plan for approval; never commit, move or spend money.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Marketing budget plan and allocation rationale | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Budget allocation plan (tier table, channel ranking, content budget, contingency) | Client owner or finance approver | UGX amount and percentage on every line; every line maps to the objective or is flagged for removal. |
+| Bottom-up revenue plan with CAC ceiling | Client owner; sales lead | Funnel maths, channel inquiry targets and CAC ≤ CLV × 0.25 shown; benchmarks labelled. |
+| Review cadence | Named budget owner | Monthly, quarterly and annual reviews with owners and reallocation triggers. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| ROI and CAC workings | Table per channel: TLV, COCA, ROI, CAC ceiling | Client figures and benchmark figures labelled separately; formula cited (Bodnar and Cohen, 2012; Kahan, 2022). |
+| Rate and exchange-rate log | Table: item, rate, source, date | Every UGX rate and the UGX 3,700 = USD 1 estimate confirmed with the client or suppliers, or marked unconfirmed. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. The plan goes to the client for approval; committing, moving or spending money is the client's decision.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without a confirmed budget ceiling or channel cost evidence, return the narrowest qualified result and mark the affected checks `not assessed`. The tier comparison, the channel ranking logic and a bottom-up revenue plan on labelled benchmarks can still be delivered.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified marketing budget plan and allocation rationale. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Approved budget ceiling, objectives and channel evidence is current and attributable | Produce the full marketing budget plan and allocation rationale and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The client needs the budget derived from a revenue target, a funnel-based lead volume plan or a weighted pipeline forecast | Build the revenue plan with [bottom-up-revenue-plan](references/bottom-up-revenue-plan.md) first; cap the budget at its CAC ceiling (CAC ≤ CLV × 0.25). For customer value, use CLV (revenue × transactions × years, Kahan 2022) when purchase frequency is known and the simpler TLV (revenue × lifespan, Bodnar and Cohen 2012) otherwise; name the formula used. | An activity budget with no link to revenue, or a budget that buys customers at a loss. |
 | The requested outcome belongs to `meta-roi-framework` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
-| The client needs the budget derived from a revenue target, a funnel-based lead volume plan or a weighted pipeline forecast | Build the revenue plan with [bottom-up-revenue-plan](references/bottom-up-revenue-plan.md) first; cap the budget at its CAC ceiling (CAC ≤ CLV × 0.25). | An activity budget with no link to revenue, or a budget that buys customers at a loss. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-roi-framework` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the marketing budget plan and allocation rationale, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| A channel is untested | Run small paid experiments (UGX 50,000–200,000 per test) and commit no more than 30% of the paid budget to it in the first month. | Large spend on an unproven channel or creative. |
+| Ranking channels for paid budget | Put a minimum of 70% of the paid budget into the highest-priority channel and keep no more than three channels in the paid mix. | Spreading across four or more channels, which makes measurement impossible. |
+| Budget is at Starter tier | Focus all paid spend on one platform (Facebook is the default for Uganda/EA) and add no second paid channel until organic engagement is consistent. | Thin spend that proves nothing. |
+| A channel has spent more than 15% above plan in the monthly review | Pause and investigate before continuing. | Silent overspend. |
+| A channel's ROI is below zero | Pause and diagnose; optimise at 0–1.0, maintain and test scaling at 1.0–3.0, consider more budget above 3.0. | Scaling a channel that loses money. |
+| A channel decision rests on less than 90 days of data | Wait for full data before adding or removing the channel. | Reallocating on noise. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- All three tier templates are present with UGX amounts and percentages on every line; the client's tier is identified and highlighted.
+- The channel allocation framework is applied step by step to the client's actual channels and stated objective, not presented as a generic template.
+- The content production table uses EA market rates in UGX with freelance versus agency guidance matched to the client's tier.
+- The ROI formula (Bodnar and Cohen, 2012) is cited, defined and applied with the client's own figures where available, or with worked examples where they are unknown.
+- A monthly, quarterly and annual review cadence has named responsibilities and specific reallocation triggers.
+- Owned before paid is applied: at least one owned-channel line (email, WhatsApp or blog) at Tier 2 and above.
+- Every budget line maps to the stated objective; any line that cannot be justified is flagged for removal or deprioritisation.
+- Actual CAC is confirmed below the CAC ceiling before the plan goes to the client or board.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the marketing budget plan and allocation rationale without approved budget ceiling. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-roi-framework` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified approved budget ceiling, the skill produces a marketing budget plan and allocation rationale with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`meta-roi-framework`](../meta-roi-framework/SKILL.md) for the neighbouring contract.
-- [Bottom-up revenue plan](references/bottom-up-revenue-plan.md) when the budget must be derived from a revenue target.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Allocating a budget with no link to revenue. Fix: work back from the revenue target to required leads and cap spend at the CAC ceiling.
+- Paying to amplify weak content. Fix: fund content production first, then amplify the posts with the strongest organic engagement.
+- Scaling paid media before building owned assets. Fix: include an email or WhatsApp list-building line at every tier.
+- Carrying last year's allocation forward. Fix: reset from the objective at the annual review.
+- Recommending Google Ads for a client without a functional website and conversion tracking. Fix: hold that line until tracking exists.
+- Drafting influencer contract terms inside the budget plan. Fix: refer influencer contracts to a legal professional.
+- Presenting benchmark conversion rates as the client's own. Fix: label Kahan (2022) figures as benchmarks until client data replaces them.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Ask for the following before generating the budget plan:
-
-1. **Client business name and industry** — e.g., "Nakawa Organics — retail food & beverage"
-2. **Country/city** — default is Uganda/East Africa if not specified
-3. **Total monthly digital marketing budget** — state in UGX or USD; ask for both if the client is unsure of the exchange rate
-4. **Primary business objective for the next 6 months** — must be a single, SMART objective (e.g., "Increase online sales leads by 40% by September 2026")
-5. **Current channels and current spend on each** — list every channel (Facebook, WhatsApp, Google, email, etc.) and what they are currently spending per month on each, including zero-spend channels they are active on
-6. **Team size** — how many in-house staff handle social media and digital marketing, or is the account fully agency-managed?
-7. **Budget constraints or non-negotiables** — e.g., "We must continue running Facebook Ads", "We cannot spend on influencers", "The WhatsApp Business API subscription is fixed at UGX 120,000/month"
-
----
-
-## Section 1 — Budget Planning Principles
-
-Apply these five principles before building the plan. State each principle explicitly in the output and show how it affects the client's allocation.
-
-### Principle 1: Objective drives allocation
-
-Every budget line must connect directly to the stated business objective. If a line item cannot be justified by the objective, remove it. A client whose objective is lead generation has no business spending on brand awareness influencer posts until leads are flowing. Allocate ruthlessly.
-
-### Principle 2: Owned before paid
-
-Invest in building owned assets — the email subscriber list, the WhatsApp opt-in list, the blog archive — before scaling paid media spend. Owned assets compound over time; paid reach stops the moment the budget stops. Following the POEM model (Paid/Owned/Earned), owned channels form the foundation. Allocate a minimum budget line for email/WhatsApp list building at every tier.
-
-### Principle 3: Test before scaling
-
-Run small paid experiments (UGX 50,000–200,000 per test) before committing to large ad spends on any single channel or creative format. Use the `meta-testing-framework` skill for structured test design. Never commit more than 30% of the paid budget to an untested channel in the first month.
-
-### Principle 4: Content is the multiplier
-
-Paid amplification of weak content wastes money. Allocate budget for content production first; then amplify the content that earns the strongest organic engagement. A UGX 1,000,000 ad spend behind a poor creative will underperform a UGX 300,000 ad spend behind a strong one.
-
-### Principle 5: Measure returns
-
-Apply the ROI formula to justify every channel allocation — **ROI = (TLV − COCA) ÷ COCA** — where TLV is Total Lifetime Value and COCA is Cost of Customer Acquisition (Bodnar and Cohen, 2012). An ROI above zero means the channel is profitable. An ROI of 2.0 means every UGX 1 spent generates UGX 3 back (original cost plus two times return). Cross-reference with `meta-roi-framework` for a full per-channel model.
-
----
-
-## Section 2 — Budget Tier Templates
-
-Match the client to the appropriate tier based on their stated monthly budget. Present the relevant tier table in full. If the client's budget falls between tiers, present the lower tier as the base and note what the higher tier adds.
-
-All amounts are in UGX. USD approximations use an exchange rate of UGX 3,700 = USD 1 (2026 estimate — confirm the current rate with the client).
-
----
-
-### Tier 1 — Starter (UGX 500,000 – 1,500,000/month | approx. USD 130–400)
-
-Suitable for: sole traders, early-stage SMEs, businesses new to paid digital marketing.
-
-| Category | Item | Monthly UGX | % |
-|---|---|---|---|
-| Content production | Copywriting + graphics (basic) | 300,000 | 25% |
-| Paid social | Facebook/Instagram boost budget | 300,000 | 25% |
-| Tools | Canva Pro or equivalent | 60,000 | 5% |
-| Community management | Time cost (if agency) | 540,000 | 45% |
-| **Total** | | **1,200,000** | **100%** |
-
-**Notes for Tier 1:**
-- At this budget level, focus all paid spend on one platform only — Facebook is the default for Uganda/EA given audience size.
-- Community management is the largest line because response time and engagement quality are the primary growth lever at this scale.
-- Do not add a second paid channel until organic content is producing consistent engagement and the Facebook boost is generating measurable results.
-
----
-
-### Tier 2 — Growth (UGX 1,500,000 – 5,000,000/month | approx. USD 400–1,350)
-
-Suitable for: established SMEs ready to invest in consistent content output and managed paid campaigns.
-
-| Category | Item | Monthly UGX | % |
-|---|---|---|---|
-| Content production | Copywriting, graphics, 2 short videos | 700,000 | 20% |
-| Paid social | Facebook/Instagram Ads (managed) | 1,000,000 | 29% |
-| SEO / blog | 1 blog post per month | 200,000 | 6% |
-| Email marketing | MailChimp subscription + copywriting | 150,000 | 4% |
-| Tools | Canva Pro + scheduling tool | 120,000 | 3% |
-| Community management | Time cost (agency) | 1,000,000 | 29% |
-| Analytics + reporting | Monthly report preparation | 300,000 | 9% |
-| **Total** | | **3,470,000** | **100%** |
-
-**Notes for Tier 2:**
-- Introduce email marketing at this tier — begin building the owned list before increasing ad spend further.
-- The blog post supports SEO and provides content to repurpose across social channels (Hero/Hub/Hygiene model).
-- Analytics line is non-negotiable: without a monthly report, reallocation decisions at the quarterly review have no evidence base.
-
----
-
-### Tier 3 — Scale (UGX 5,000,000 – 15,000,000/month | approx. USD 1,350–4,000)
-
-Suitable for: growth-stage businesses, funded startups, and organisations running multi-channel digital marketing programmes.
-
-| Category | Item | Monthly UGX | % |
-|---|---|---|---|
-| Content production | Full content suite (copy, graphics, 4 videos) | 2,000,000 | 18% |
-| Paid social — Facebook/Instagram | Managed campaigns | 3,000,000 | 27% |
-| Google Ads | Search + display | 1,000,000 | 9% |
-| Influencer / creator fees | 1–2 micro-influencer partnerships | 800,000 | 7% |
-| Email + WhatsApp marketing | Tool subscription + production | 300,000 | 3% |
-| SEO / blog | 2 posts per month + SEO audit | 500,000 | 5% |
-| Tools | Full martech stack | 300,000 | 3% |
-| Strategy + account management | Senior consultant time | 2,000,000 | 18% |
-| Analytics + reporting | Monthly + quarterly reports | 500,000 | 5% |
-| Contingency (testing) | A/B tests, new channel exploration | 600,000 | 5% |
-| **Total** | | **11,000,000** | **100%** |
-
-**Notes for Tier 3:**
-- The contingency line (5%) is mandatory — it funds structured tests before any new channel is added to the permanent mix.
-- Influencer fees at this level should target micro-influencers (5,000–50,000 followers) with high engagement rates in the client's sector. Refer influencer contracts to a legal professional — do not draft terms as part of this skill.
-- Google Ads is appropriate only where the client has a functional website with conversion tracking enabled.
-
----
-
-## Section 3 — Channel Allocation Decision Framework
-
-Use this four-step framework to decide which channels receive paid budget. Apply it to every client regardless of tier.
-
-**Step 1: List active channels.**
-List every channel the client is currently active on — paid and organic. Include WhatsApp, Facebook, Instagram, TikTok, YouTube, LinkedIn, X/Twitter, email, and Google as applicable.
-
-**Step 2: Assess each channel on three criteria.**
-For each channel, identify:
-- Current organic reach (average post reach or impressions per month)
-- Cost per result from any previous paid activity (cost per lead, cost per click, cost per purchase)
-- Fit with the primary objective (direct fit / indirect fit / no fit)
-
-**Step 3: Rank channels using this priority logic.**
-- **Highest priority:** channels where previous paid activity produced a cost per result below the client's acceptable acquisition threshold
-- **Medium priority:** channels with strong organic reach where paid amplification would multiply results
-- **Low priority:** channels with low organic reach and no prior evidence of paid return
-
-**Step 4: Allocate paid budget by rank.**
-Allocate a minimum of 70% of the total paid budget to the highest-priority channel. Include no more than three channels in the paid mix at one time. Spreading budget across four or more channels simultaneously makes measurement impossible and performance unreliable.
-
----
-
-## Section 4 — Content Production Budget Guide
-
-Apply these EA market rate ranges when advising on content production costs. All rates are in UGX as of 2026. Confirm current rates with local suppliers before presenting to the client.
-
-| Item | Freelance / Junior Rate | Agency / Mid Rate | Notes |
-|---|---|---|---|
-| Social media caption (per post) | 10,000–20,000 | 25,000–50,000 | Per post, per platform |
-| Static graphic design (per post) | 15,000–30,000 | 40,000–80,000 | Per image |
-| Short video / Reel (15–60 sec) | 100,000–200,000 | 250,000–500,000 | Script + edit; no filming |
-| Blog post (800–1,200 words) | 50,000–100,000 | 150,000–300,000 | Includes SEO optimisation |
-| Monthly content package (20 posts + graphics) | 400,000–600,000 | 800,000–1,500,000 | Common retainer scope |
-| Photography session (2 hours) | 100,000–200,000 | 300,000–600,000 | Product or lifestyle shoot |
-
-**Guidance on content budget decisions:**
-- For Tier 1 clients, recommend a monthly content package from a junior freelancer to keep costs within budget.
-- For Tier 2 and above, recommend agency/mid-rate production for video — quality difference is significant and affects paid performance.
-- Photography sessions should be planned quarterly, not monthly, to manage costs. Batch 8–12 weeks of visual assets in a single session.
-
----
-
-## Section 5 — Budget Review Cadence
-
-Build a review schedule into every budget plan. Recommend the client assigns a named person responsible for each review.
-
-**Monthly review (every 4 weeks):**
-- Compare actual spend against the planned budget line by line
-- Review cost per result for each active paid channel
-- Flag any channel that has spent more than 15% above plan — pause and investigate before continuing
-- Check that content production deliverables have been received and approved
-
-**Quarterly review (every 3 months):**
-- Assess whether the SMART objective is on track
-- Reallocate budget from underperforming channels to top performers — apply the channel allocation decision framework (Section 3) with three months of live data
-- Review whether the current tier is still appropriate — upgrade if the business has grown; reduce if the budget has contracted
-- Assess owned asset growth: email list size, WhatsApp opt-in list size, organic reach trends
-
-**Annual review (every 12 months):**
-- Full budget reset — start from the objective, not from the previous year's allocation
-- Revisit the tier level based on 12-month business performance
-- Add or remove channels based on full-year data only — do not make channel decisions on less than 90 days of data
-- Benchmark rates against current EA market prices; update the content production guide accordingly
-
----
-
-## Section 6 — ROI Tracking
-
-Connect every budget line to a measurable return using the Bodnar and Cohen (2012) framework.
-
-**Formula: ROI = (TLV − COCA) ÷ COCA**
-
-- **TLV (Total Lifetime Value):** average revenue per customer × average customer lifespan in months/years
-- **COCA (Cost of Customer Acquisition):** total digital marketing spend in the period ÷ number of new customers acquired in the same period
-
-**How to apply this in the budget plan:**
-
-1. Ask the client for their average order value or monthly revenue per client.
-2. Ask how long a typical customer stays (repeat purchase rate or contract length).
-3. Calculate TLV: e.g., a client spending UGX 150,000/month for an average of 8 months has a TLV of UGX 1,200,000.
-4. Calculate COCA from the monthly budget: e.g., UGX 1,200,000/month in marketing ÷ 6 new customers = UGX 200,000 COCA.
-5. Calculate ROI: (1,200,000 − 200,000) ÷ 200,000 = **5.0** — every UGX 1 spent returns UGX 6 (cost plus five times return).
-
-**Interpretation benchmarks:**
-- ROI < 0: the channel is losing money — pause and diagnose before continuing
-- ROI 0–1.0: the channel is marginally profitable — optimise before scaling
-- ROI 1.0–3.0: healthy return — maintain and test incremental scaling
-- ROI > 3.0: strong return — consider increasing budget allocation to this channel
-
-Cross-reference with `meta-roi-framework` for a full per-channel ROI model and attribution methodology.
-
----
-
-## Quality Criteria
-
-Good output from this skill meets all of the following standards:
-
-- All three tier templates are present in the output, with UGX amounts and percentage allocations for every line item; the client's appropriate tier is identified and highlighted
-- The channel allocation decision framework is applied step-by-step using the client's actual channels and stated objective — not presented as a generic template
-- The content production rate table uses EA market rates in UGX and includes guidance on freelance versus agency rates appropriate to the client's tier
-- The ROI formula (Bodnar and Cohen, 2012) is cited, defined, and applied with the client's own figures where available, or with worked examples where figures are unknown
-- A monthly, quarterly, and annual review cadence is included with named responsibilities and specific triggers for reallocation
-- The owned-before-paid principle is explicitly applied — the plan includes at least one owned-channel budget line (email, WhatsApp, or blog) at Tier 2 and above
-- Every budget line maps to the client's stated objective — any line that cannot be justified is flagged for removal or deprioritisation
-
----
-
-## References
-
-Consult these linked skills when building or extending the budget plan:
-
-- [bottom-up-revenue-plan](references/bottom-up-revenue-plan.md) — read when the plan must start from a revenue target: funnel maths, channel inquiry targets, CAC cap, weighted pipeline, velocity and monthly funnel review.
-- `meta-roi-framework/SKILL.md` — full per-channel ROI model and attribution methodology; read when the client needs a detailed return calculation per channel
-- `meta-testing-framework/SKILL.md` — structured test design for paid experiments; read before designing any new paid channel test
-- `09-campaign-strategy/SKILL.md` — campaign-level strategy and objective setting; read when the client's objective needs to be refined into campaign-level tactics
-- `peso-integrated-strategy/SKILL.md` — PESO (Paid/Earned/Shared/Owned) channel integration; read when the client requires a fully integrated channel strategy before the budget plan is finalised
-
----
-
-*Rates and platform data are calibrated for the Uganda/East Africa market as of 2026. Confirm current exchange rates, tool subscription costs, and freelance market rates before presenting any budget plan to a client.*
+- [Budget tiers and allocation method](references/budget-tiers-and-allocation.md): read when asking intake questions, stating the five principles, presenting tier tables, ranking channels, pricing content, setting the review cadence or calculating ROI (TLV and COCA definitions).
+- [Bottom-up revenue plan](references/bottom-up-revenue-plan.md): read when the plan must start from a revenue target: funnel maths, channel inquiry targets, CAC cap (CLV definition), weighted pipeline, velocity and monthly funnel review.
+- [`meta-roi-framework`](../meta-roi-framework/SKILL.md): read when the client needs a full per-channel ROI model and attribution methodology.
+- [`meta-testing-framework`](../meta-testing-framework/SKILL.md): read before designing any new paid channel test.
+- [`09-campaign-strategy`](../../pipeline/09-campaign-strategy/SKILL.md): read when the objective needs refining into campaign-level tactics.
+- [`peso-integrated-strategy`](../../strategy/peso-integrated-strategy/SKILL.md): read when a fully integrated Paid/Earned/Shared/Owned channel strategy is needed before the budget is finalised.
+- [`advertising-strategy-and-budget`](../../advertising/advertising-strategy-and-budget/SKILL.md): read when the question is the paid-media budget floor, ceiling or spend release phases.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the plan.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

@@ -339,7 +339,7 @@ n8n self-hosted on a local server with the Claude API is the most cost-effective
 
 - Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd ed. Stanford Business Books.
 - Sweenor, D. and Mulkers, T. (2024) *AI-Powered Business Intelligence*. O'Reilly Media.
-- Nayebi, H. (2025) *Generative AI for Product and Marketing Teams*. Packt Publishing.
+- Nayebi, H. (2025) *Generative AI for Product and Marketing Teams*. Packt Publishing. (verify: not found in publisher or library catalogues, 29 Sep 2026)
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Uganda Data Protection and Privacy Act 2019.

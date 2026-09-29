@@ -10,6 +10,8 @@ metadata:
 
 # E-Commerce Export Marketing Advisory
 
+Turns an e-commerce diagnostic and unit-economics model into a practical export-marketing plan: market-specific messaging, cross-border trust and proof, localised channels, conversion fixes, partnership outreach and budgets held under CAC guardrails. It serves a company that wants to enter or grow in another EAC market or export market through digital channels, where every recommendation must fit the company's margin, CAC, logistics and payment reality.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -30,133 +32,86 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to export-market selection, cross-border trust, channel conversion, partnerships, and CAC-bounded campaigns | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Named target market (another EAC country or an export market) and customer segment | Client owner | Yes | Stop; no plan without a named market. |
+| Company diagnostic: product/category, current channels, customer evidence, analytics and conversion data | Client systems or a prior e-commerce diagnostic | Yes | Build personas as labelled hypotheses and plan a pilot to test them. |
+| Unit-economics guardrails: acceptable CAC, contribution margin, discount limits, route viability | Client finance or the unit-economics model | Yes before any paid or discount plan | Stop paid acquisition and discounting; deliver organic, partner and trust work only. |
+| Payment, logistics, returns, compliance, language and customer-support constraints | Client operations; trade adviser | Yes | Mark the trust layer `not assessed` for each missing constraint; flag customs, tariff and certification facts for the trade adviser. |
+| Channel, penetration or market-size statistics | Dated, cited sources via the digital research engine | Conditional | State the assumption and test it in the pilot; never cite an undated figure. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `ecommerce-brand-differentiation`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm one target market (or separate plans per market) and the unit-economics verdict; stop if no market is named or paid acquisition is asked for without known CAC and margin limits.
+2. Define the target-market buyer and the cross-border trust problem.
+3. Build personas from evidence: need, proof required, buying objections, payment preference, delivery expectations, language and support expectations.
+4. Design the trust-and-proof layer: reviews, secure-payment signals, delivery promises, returns policy, authenticity proof, certifications, local partner cues and the customer-support route.
+5. Review conversion leaks in the digital journey (mobile UX, product pages, checkout, payment options, shipping clarity, proof, support, remarketing) with the [trust and conversion review](references/trust-and-conversion-review.md).
+6. Write market-entry messaging and value propositions localised to country, language, currency and norms.
+7. Plan channels and campaigns within CAC and contribution-margin guardrails; draft partnership outreach (marketplaces, logistics firms, payment providers, local agents, sector bodies, influencers) only where it fits the route economics.
+8. Define KPIs the company can track with its own tools and lay out the 90-day execution in the [plan template](references/export-marketing-plan-template.md); correct any section that fails the Quality Standards and rerun the check before hand-off.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Export-market selection, cross-border trust, channel conversion, partnerships, and cac-bounded campaigns deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Export marketing plan (market choice, positioning, channel plan, 90-day execution) | Client owner | Specific to one market or clearly separated by market; every channel row has budget, CAC guardrail, KPI and owner. |
+| Cross-border customer personas | Marketing lead and copywriters | Each persona states need, trust barrier, payment preference, delivery expectation, proof required and main objection with response. |
+| Trust-and-proof checklist and digital-channel conversion review | Web or marketplace owner | Every trust question and conversion area is answered or marked `not assessed`. |
+| CAC-bounded campaign outline and partnership outreach messages | Marketing lead; client approver | Budget stays inside the CAC and margin guardrails; outreach drafts await approval before sending. |
+| KPI and implementation tracker | Client owner | Only KPIs the company can measure with its actual tools. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Market and statistic source register | Table: claim, source, date | Every channel penetration, market-size or platform statistic is sourced and dated, or labelled an assumption. |
+| Unit-economics check | Table linking each campaign to CAC and contribution margin | No campaign budget exceeds its guardrail. |
+| Compliance flag list | List for the trade adviser | Customs, tariff, certification and export-compliance points are flagged, not asserted. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Partner outreach messages are drafts until the client approves and sends them.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without unit-economics guardrails or a named market, return the narrowest qualified result and mark the affected checks `not assessed`. Trust-layer and conversion reviews, persona hypotheses and a partner shortlist can still be delivered, with no paid budget.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Market, fulfilment, compliance, or unit-economics evidence is missing | Return a qualified readiness gap and stop before claiming market viability | Spending on acquisition before the export offer can be fulfilled profitably |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| No target market is named | Stop and ask for one; do not write generic regional advice | Generic regional expansion advice |
+| Market, fulfilment, compliance or unit-economics evidence is missing | Return a qualified readiness gap and stop before claiming market viability | Spending on acquisition before the export offer can be fulfilled profitably |
+| Unit economics are unknown and the plan involves paid acquisition or discounting | Remove paid and discount lines until CAC and margin limits exist | Campaigns that lose money on every order |
+| The task is only a domestic social-media content calendar | Route to the pipeline calendar or `social-commerce-strategy` | Export framing applied to home-market work |
+| A statistic has no current source | State the assumption and test it in the pilot | Plans built on stale or invented figures |
+| Customs, tariff or certification facts are needed | Flag them for the client's trade adviser | Stating compliance facts without verified sources |
 
 ## Quality Standards
-
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
-
-## Anti-Patterns
-
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
-
-## References
-
-- [export-marketing-plan-template.md](references/export-marketing-plan-template.md)
-- [trust-and-conversion-review.md](references/trust-and-conversion-review.md)
-<!-- dual-compat-end -->
-
-Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
-
-## Overview
-
-Use this skill to turn an e-commerce diagnostic and unit-economics model into a practical export-marketing plan. It focuses on market-specific messaging, cross-border trust, proof, localised channels, conversion improvements, partnership outreach, and budgets tied to CAC guardrails.
-
-## Use When
-
-- A company wants to enter or grow in another EAC market or export market through digital channels.
-- You need an export marketing plan, campaign outline, conversion review, trust/proof checklist, or partner outreach pack.
-- The marketing recommendation must fit the company's margin, CAC, logistics, and payment reality.
-
-## Do Not Use When
-
-- No target market is named.
-- Unit economics are unknown and the recommendation involves paid acquisition or discounting.
-- The task is only a domestic social-media content calendar.
-
-## Required Inputs
-
-- Company diagnostic, target market, current channels, product/category, customer evidence, analytics, and conversion data.
-- Unit-economics guardrails: acceptable CAC, contribution margin, discount limits, and route viability.
-- Payment, logistics, returns, compliance, language, and customer-support constraints.
-
-## Workflow
-
-1. Define the target-market buyer and cross-border trust problem.
-2. Build customer personas around evidence: need, proof required, buying objections, payment preference, delivery expectations, language, and support expectations.
-3. Design the trust-and-proof layer: reviews, secure-payment signals, delivery promises, returns policy, authenticity proof, certifications, local partner cues, and customer support route.
-4. Review conversion leaks in the digital journey: mobile UX, product pages, checkout, payment options, shipping clarity, proof, support, and remarketing.
-5. Write market-entry messaging and value propositions localised to country, language, currency, and norms.
-6. Plan channels and campaigns within CAC and margin guardrails.
-7. Draft partnership outreach for marketplaces, logistics firms, payment providers, local agents, sector bodies, and influencers only where they fit the route economics.
-8. Define KPIs the company can actually track.
-
-## Quality Bar
 
 - The plan is specific to one target market or clearly separated by market.
 - Trust signals match known buyer objections and route risks.
 - Campaign budget respects CAC and contribution-margin guardrails.
 - Channel recommendations are measurable with the company's actual tools.
-- Any channel penetration, market-size, or platform statistic is sourced and dated.
+- Any channel penetration, market-size or platform statistic is sourced and dated.
+- Copy is localised for language, currency, proof and norms; British English in the deliverable and the anti-slop gate passed.
 
 ## Anti-Patterns
 
-- Generic regional expansion advice.
-- Paid campaigns without CAC limits.
-- Ignoring delivery, returns, payment, and trust barriers.
-- Copy that is not localised for language, currency, proof, or norms.
-- KPIs the company has no way to measure.
-
-## Outputs
-
-- Export marketing plan.
-- Cross-border customer personas.
-- Trust-and-proof checklist.
-- Digital-channel conversion review.
-- CAC-bounded campaign outline.
-- Partnership outreach messages.
-- KPI and implementation tracker.
+- Generic regional expansion advice. Fix: name the market and build the plan from that market's buyer evidence.
+- Paid campaigns without CAC limits. Fix: set the CAC and contribution-margin guardrail per channel before budgeting.
+- Ignoring delivery, returns, payment and trust barriers. Fix: run the trust-layer questions before any campaign.
+- Copy that is not localised for language, currency, proof or norms. Fix: localise the value proposition per market.
+- KPIs the company has no way to measure. Fix: check each KPI against the analytics and funnel events that exist.
 
 ## References
 
-- [references/export-marketing-plan-template.md](references/export-marketing-plan-template.md): Plan sections, personas, channel plan, budget, and KPIs.
-- [references/trust-and-conversion-review.md](references/trust-and-conversion-review.md): Trust signals and conversion-review checklist.
+- [Export marketing plan template](references/export-marketing-plan-template.md): read when laying out plan sections, personas, the channel plan, budget, partner outreach and KPIs.
+- [Trust and conversion review](references/trust-and-conversion-review.md): read when checking trust signals and the conversion journey, and before citing any buyer-behaviour statistic.
+- [`social-commerce-strategy`](../social-commerce-strategy/SKILL.md): read when the work is domestic selling through WhatsApp, Instagram, Mobile Money and local delivery.
+- [`ecommerce-brand-differentiation`](../ecommerce-brand-differentiation/SKILL.md): read when naming, packaging or standing out from look-alike sellers is the problem.
+- [`playbook-post-click-strategy`](../../playbooks/playbook-post-click-strategy/SKILL.md): read when checkout or landing-page conversion needs diagnosis.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before any compliance, certification or comparative claim is released.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting messaging and outreach.
+<!-- dual-compat-end -->
+
+Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.

@@ -9,11 +9,7 @@ metadata:
 ---
 # French Native Copy (Social)
 
-## Target Markets (Standard)
-
-French content from this engine targets **francophone Africa**, not France. Primary markets: DRC, Congo-Brazzaville, Burundi, Senegal, Mali, Côte d'Ivoire, Togo, Cameroon, Gabon, Madagascar, Bénin, Burkina Faso, Niger, Guinea, Djibouti, Comoros.
-
-The reader is an educated professional with advanced French comprehension. Use formal `vous` register. Reference OHADA, BCEAO/BEAC, FCFA — not France-specific institutions. Never assume the reader is in Paris.
+French execution layer for the social engine: it owns how French reads for **francophone Africa**, not France, while `language-standards` owns the cross-language tone policy. The reader is an educated professional with advanced French comprehension; never assume the reader is in Paris.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -29,80 +25,101 @@ The reader is an educated professional with advanced French comprehension. Use f
 - Stop before publishing French copy that no native reviewer has checked; deliver it marked as awaiting review.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Source copy, target language or register, market, audience and protected terminology | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Market, language variety and audience register are confirmed | Use the named regional standard and preserve meaning, terminology and voice. | Literal or culturally misplaced copy presented as native-quality language. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+|---|---|---|---|
+| Source material the French must convey: approved English caption or brief, brand voice, or raw client facts | Requester or approved brief | Yes | Stop; do not adapt an English caption the client has not approved. |
+| Audience and market: France, francophone Africa (and which country), Canada or mixed; this sets vocabulary, register defaults and currency/date conventions | Client or brief | Yes | Default to francophone Africa broadly (FCFA, OHADA) and record the country as unconfirmed. |
+| Register decision: `vous` (default) or `tu` (youth/lifestyle) | Brief or brand voice | Yes | Use formal `vous` and hold it across the post and its replies. |
+| Platform and post type (caption, hook, ad, bio) | Brief | Yes | Draft a caption-length version and mark platform limits `not assessed`. |
+| Offer facts, prices, names and protected terminology | Client source pack or authorised owner | Conditional | Use a visible placeholder such as `[PRIX]`; never invent a price, result or name. |
+| Fluent French reviewer | Client or agency | Yes before release | Deliver the copy marked awaiting review, with `native_review: not-assessed`. |
 
 ## Workflow
-1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `east-african-english` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Confirm the source material, market, register, platform and approval owner; route to `east-african-english` or `swahili-native-copy` if the copy should not be in French, and stop if the objective or audience is unknowable.
+2. Fix the market conventions before drafting: francophone Africa by default (formal `vous`; OHADA, BCEAO/BEAC, FCFA and local mobile money names, not France-specific institutions), or the market the requester names.
+3. Choose `vous` or `tu` with [register and address](references/register-and-address.md) and record the choice.
+4. Adapt, do not translate: rebuild hooks, connectors and CTAs with [idiom and hooks](references/idiom-and-hooks.md) and sector terms with [vocabulary by theme](references/vocabulary-by-theme.md).
+5. Proofread against [grammar pitfalls](references/grammar-pitfalls.md), [anglicisms to avoid](references/anglicisms-to-avoid.md) and [typography and formatting](references/typography-and-formatting.md): agreement, partitives, spacing, prices and dates.
+6. Run the back-translation test (French to English); where meaning drifts, correct the French and rerun the test until it holds.
+7. Run the `anti-ai-slop` ship gate, complete the [identity and register review](references/identity-and-register-review.md) record, and hand over the copy with its native-review state; stop before publication while review is outstanding.
+
+## Market standard and sources
+
+- Primary markets (standard): DRC, Congo-Brazzaville, Burundi, Senegal, Mali, Côte d'Ivoire, Togo, Cameroon, Gabon, Madagascar, Bénin, Burkina Faso, Niger, Guinea, Djibouti, Comoros. Target `Afrique francophone` broadly (Côte d'Ivoire, Sénégal, Cameroun, RDC, Guinée, Mali, Burkina, Gabon, Bénin, Togo…) with `FCFA` currency and OHADA/SYSCOHADA frameworks where relevant, not France-centric or Québécois vocabulary; `language-standards` holds the full geographic policy.
+- Website and long-form French live in the website engine's sister skill (`content-copy/french-native-copy`).
+- Source material distilled from: Annie Heminway, *Practice Makes Perfect — Complete French Grammar*; Boulares & Frérot, *Grammaire progressive du français — Niveau avancé*; *Learn French II — Parallel Text*; and the *French–English Bilingual Visual Dictionary* (DK).
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Publish-ready French copy per platform and post type | Client reviewer; community manager | Register, agreement, typography and market conventions pass the checks below; no invented facts. |
+| Native-review note (identity and register record) | Approver | Names the market, `vous`/`tu` choice, reviewer and review date, or states `not-assessed`. |
+| Adaptation note | Client reviewer | Lists placeholders, adapted idioms and any claim still awaiting a source or authority. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Back-translation check | French line beside its English back-translation | Meaning matches the approved source without distortion. |
+| Native-review record | YAML record from the identity and register review | Missing reviewer or date is recorded as `NOT_ASSESSED`, never as a pass. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Drafting French copy within the supplied brief is permitted; certifying native quality is not.
+
+## Degraded Mode
+
+Without a fluent French reviewer or a confirmed market, return the narrowest qualified result and mark the affected checks `not assessed`. A francophone-Africa `vous` draft with placeholders and a back-translation can still be delivered, marked awaiting review.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Market not named, or named as francophone Africa | Use `vous`, FCFA, BCEAO/BEAC and OHADA references; no France-specific institutions. | Paris-centric copy that African readers reject. |
+| Requester names France, Canada or another market | Replace the default market guidance with that market's conventions and record the change. | Imposing African defaults on a different audience. |
+| Youth or lifestyle brand and the client approves `tu` | Use `tu` and make every verb, pronoun and possessive agree with it throughout the post and replies. | Mixed register that reads as careless translation. |
+| English source relies on an idiom or pun | Rebuild the idea in native French rather than calque it. | Literal or culturally misplaced copy presented as native-quality language. |
+| A price, result or approval is missing | Stop that claim; request it or leave a visible placeholder. | Fabricated facts, implied consent or unauthorised publication. |
+| Copy names a person, organisation or community | Keep the minimum identity record; add legal name or pronunciation only when purpose and consent require it. | Collecting identity data without need. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- A French native reader finds nothing that signals translation: no calques, no anglicisms, no English word order or punctuation spacing.
+- Register is consistent across the post and its replies; every verb, pronoun and possessive agrees with the chosen `tu`/`vous`.
+- Every adjective agrees in gender and number; partitives are correct and collapse to `de` after negation or quantity.
+- Typography follows French rules; prices read `12 500 FCFA` or `1 250,00 €`, not `€1,250.00`.
+- Hashtags and discovery phrases are what a French speaker actually searches, not transposed English.
+- The copy passes the back-translation test: French to English reproduces the intended meaning without distortion.
+- Names, figures, quotations and platform rules are verified before use; notes to the client are in British English.
+- The `anti-ai-slop` ship gate is run; a blocking factual, cultural, safety or permission defect stops release.
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+- Translating the English caption word for word. Fix: adapt the hook, connectors and CTA with the idiom reference.
+- Switching between `tu` and `vous` inside a post or its replies. Fix: record the register choice first and check every verb and possessive against it.
+- Formatting prices the English way (`€1,250.00`). Fix: use French spacing and decimal commas (`12 500 FCFA`, `1 250,00 €`).
+- Referencing Paris institutions for an Abidjan or Kinshasa audience. Fix: use FCFA, BCEAO/BEAC, OHADA and local mobile money names.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. Fix: verify it, or qualify or remove it.
+- Treating missing native-language review as approval. Fix: mark the check `not assessed` and deliver the copy as awaiting review.
+- Publishing, sending or changing a live account from drafting authority alone. Fix: obtain explicit action-specific authority and keep the approval record.
 
 ## References
-- [east-african-english](../east-african-english/SKILL.md) is the nearest routing comparison for this skill.
-- [Identity and register review](references/identity-and-register-review.md) minimises French identity fields and records the native-review state.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+
+- [Register and address](references/register-and-address.md): read when fixing `tu`/`vous`, softening requests or setting a formal-but-warm tone.
+- [Idiom and hooks](references/idiom-and-hooks.md): read when the French is correct but flat, or when drafting hooks, CTAs and hashtags.
+- [Grammar pitfalls](references/grammar-pitfalls.md): read when proofreading articles, agreement, negation, pronouns or verb constructions.
+- [Anglicisms to avoid](references/anglicisms-to-avoid.md): read when French feels off without an obvious grammar error.
+- [Typography and formatting](references/typography-and-formatting.md): read when finalising spacing, punctuation, prices and dates.
+- [Vocabulary by theme](references/vocabulary-by-theme.md): read when a sector term and its gender are needed.
+- [Identity and register review](references/identity-and-register-review.md): read when the copy names a person, organisation or community, or when recording native review.
+- [`language-standards`](../language-standards/SKILL.md): read when the cross-language tone policy or the full geographic policy is in question.
+- [`east-african-english`](../east-african-english/SKILL.md): read when the copy should stay in English for East African readers.
+- [`swahili-native-copy`](../swahili-native-copy/SKILL.md): read when the target language is Kiswahili.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read before release.
+- [Repository agent guide](../../../AGENTS.md): read when the engine-wide market, safety and anti-slop gates apply.
 <!-- dual-compat-end -->
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178.
-
-This is the French execution layer for the social engine. It owns *how French reads*; `language-standards` owns the cross-language tone policy. For website/long-form French, the sister skill lives in the website engine (`content-copy/french-native-copy`).
-
-## Required Input
-- The source material the French copy must convey: approved English caption/brief, the brand voice, or raw client facts.
-- The audience and market: France, Francophone Africa (and which country), Canada, or mixed. This sets vocabulary, register defaults, currency/date conventions.
-- The register decision: `vous` (default) or `tu` (youth/lifestyle). The platform and post type (caption, hook, ad, bio).
-
-## Quality standards
-- A French native reader finds nothing that signals translation: no calques, no anglicisms, no English word order or punctuation spacing.
-- Register is consistent across the post and its replies; every verb, pronoun, possessive agrees with the chosen `tu`/`vous`.
-- Every adjective agrees in gender and number; partitives correct and collapse to `de` after negation/quantity.
-- Typography follows French rules; prices read `12 500 FCFA` or `1 250,00 €`, not `€1,250.00`.
-- Hashtags and discovery phrases are what a French speaker actually searches, not transposed English.
-- The copy passes the back-translation test: French → English reproduces the intended meaning without distortion.
-
-## Notes
-- Francophone Africa is the default French market: target `Afrique francophone` broadly (Côte d'Ivoire, Sénégal, Cameroun, RDC, Guinée, Mali, Burkina, Gabon, Bénin, Togo…), `FCFA` currency, OHADA/SYSCOHADA frameworks where relevant — not France-centric or Québécois vocabulary. See `language-standards` for the full geographic policy.
-- Source material distilled from: Annie Heminway, *Practice Makes Perfect — Complete French Grammar*; Boulares & Frérot, *Grammaire progressive du français — Niveau avancé*; *Learn French II — Parallel Text*; and the *French–English Bilingual Visual Dictionary* (DK).

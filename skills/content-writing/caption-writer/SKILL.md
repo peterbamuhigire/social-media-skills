@@ -9,6 +9,8 @@ metadata:
 ---
 # Caption Writer
 
+Writes organic social captions in three labelled variations (Short, Medium, Long) with distinct hooks, one call to action and platform-correct hashtags, for client approval before scheduling. Apply British English and `east-african-english` throughout.
+
 <!-- dual-compat-start -->
 ## Use When
 - The post, photo or video is approved and we need the organic post copy written for this week on Instagram, Facebook, TikTok, LinkedIn, X or a WhatsApp broadcast, not paid ads.
@@ -23,256 +25,104 @@ metadata:
 - Stop before posting or scheduling to a live account; deliver the drafts for client approval.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
+|---|---|---|---|
+| Client or brand name, industry and country/city | Client brief | Yes | Default the market to Uganda/East Africa; ask for the brand and industry before writing. |
+| Platform and content type (photo, video, carousel, text post, Reel, Story, broadcast) | Content calendar or account manager | Yes | Stop and ask; conventions differ too much by platform to guess. |
+| Topic, key message (one sentence each), primary goal and one CTA | Approved post brief or `11-content-calendar` row | Yes | Draft the key message from the brief, state the assumed CTA in the post notes and ask for confirmation before scheduling. |
+| Tone, mandatory keywords, product names or campaign lines, and banned vocabulary | `04-brand-voice-intake` or client | No | Use the brand's published posts as the tone sample and apply the engine's banned-word list. |
+| Visual, offer facts, prices, results and permissions | Client source pack or authorised owner | Conditional | Hold the claim or visual; never invent names, prices, results or consent. |
+| Standing hashtag set for the client | [Hashtag and keyword tagging](references/hashtag-and-keyword-tagging.md) output | No | Build the set from the East African community lists for this post and recommend a full strategy. |
 
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| The client needs a standing hashtag strategy (branded, niche, community and awareness tiers, tags to avoid, monthly review) rather than one caption's tags | Build it with [hashtag-and-keyword-tagging](references/hashtag-and-keyword-tagging.md), then draw each caption's set from its standard set. | Generic, untargeted tag lists pasted under every post. |
+The full intake list is in the [caption build method](references/caption-build-method.md#required-input).
 
 ## Workflow
-1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `email-copywriter` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
-7. Check the caption against the audience's situation, narrative job, first-line information hierarchy, readability, one-action CTA, accessibility needs, and factual/permission register before release.
+
+1. Confirm the platform, content type, goal and approval boundary; route to `email-copywriter` for email or to `ad-copy-and-hook-lab` for paid ads.
+2. Inventory the supplied facts, visuals, permissions and missing inputs; stop if the goal, audience or authority to post is unknowable.
+3. Apply the chosen platform's conventions from the [caption build method](references/caption-build-method.md#platform-specific-rules); do not blend conventions across platforms.
+4. Write three variations (Short, Medium, Long), each with a distinct hook strategy (for example bold statement, question-led, story-led), one CTA and a platform-appropriate hashtag set drawn from the client's standard set or the East African community lists.
+5. For premium, executive, high-ticket or trust-sensitive posts apply `premium-commercial-writing`; for persuasion-led posts also apply its buyer-psychology reference (belief sequence, proof rules, readiness-matched CTA).
+6. Check each caption against the audience's situation, narrative job, first-line information hierarchy, readability, one-action CTA, accessibility needs (alternative description) and the factual and permission register; correct any failure and rerun the check.
+7. Run the `anti-ai-slop` humanising passes and the direct-marketing ethics filter for selling captions, then deliver in the output format with post notes (placement, timing, ambiguities to confirm before scheduling).
+
+## Platform conventions at a glance
+
+| Platform | Length | Hashtags | Key rule |
+|---|---|---|---|
+| Instagram | 125–150 characters for reach; up to 300 words for education or story | 5–10 at the end or first comment | Hook inside the first 125 characters; no more than 2 emojis in the hook line. |
+| Facebook | 40–80 characters for reach; up to 250 words for story or event | 1–3 maximum | Warm, neighbourly; put any link in the caption text. |
+| LinkedIn | 150–300 words for engagement; 50–100 words for reach | 3–5, industry-relevant | First 2 lines carry the post; 0–2 purposeful emojis. |
+| TikTok | 100–150 characters | 3–5 (niche, trending or broad, branded) | CTA drives comments. |
+| WhatsApp broadcast | Under 150 words | None | Warm personal greeting; one action only. |
+| X / Twitter | 240–280 characters; thread for longer (1/, 2/) | 1–2, woven into the text | Open with a take or observation, not an announcement. |
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Three labelled caption variations (Short, Medium, Long) per request | Client approver; scheduler | Each differs in length and hook strategy; one CTA each; hashtag count and placement match the platform. |
+| Post notes | Client approver | Placement, timing and every assumption (for example an assumed CTA) are listed for confirmation before scheduling. |
+| Standing hashtag strategy document, when requested | Social team | Built with the hashtag reference: tiered sets, tags to avoid and a monthly review. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Claim, visual and permission register | Inline table | Every price, result, quotation and visual has a source or permission status, or is held. |
+| Release checklist | Checklist against the quality standards | Unavailable checks (native-language review, alternative description) are marked `not assessed`. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Drafting is permitted within the supplied brief; posting or scheduling to a live account needs separate approval.
+
+## Degraded Mode
+
+Without a confirmed platform, key message or CTA, return the narrowest qualified result and mark the affected checks `not assessed`. Hook options and a draft caption for the most likely platform can still be delivered, with every assumption listed in the post notes.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The platform and content type are confirmed | Apply only that platform's length, hook, hashtag and emoji rules. | Copy that could be pasted unchanged onto any channel or brand. |
+| The client needs a standing hashtag strategy (branded, niche, community and awareness tiers, tags to avoid, monthly review) rather than one caption's tags | Build it with [hashtag-and-keyword-tagging](references/hashtag-and-keyword-tagging.md), then draw each caption's set from its standard set. | Generic, untargeted tag lists pasted under every post. |
+| The brief omits the CTA or contains an ambiguity | Assume the most likely single action, flag it in the post notes and ask for confirmation before scheduling. | A post scheduled with an action the client never chose. |
+| A price, result, quotation or visual lacks a source or permission | Hold that element or leave a visible placeholder in the register. | Fabricated claims or unauthorised use of an image or person. |
+| The post supports a premium offer, executive audience, high-ticket service or trust-sensitive category | Apply `premium-commercial-writing`: create value, show proof or judgement, and ask for a next step without sounding desperate or discount-led. | Discount-led copy that cheapens the offer. |
+| The caption sells | Use readiness-matched CTAs and run the direct-marketing ethics filter; never use fake scarcity, fabricated consensus or unsupported "brain" claims. | Manipulative copy and downstream refunds or complaints. |
+| The post uses AI-generated content | Route it through the disclosure and human-review rules. | Undisclosed AI content and platform or regulatory action. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-- Prefer concrete audience context, a purposeful sequence of hook/proof/choice/consequence, and plain language over decorative persuasion. If the post uses AI, route through its disclosure and human-review rules.
+
+- Each variation genuinely differs in length and approach; three different hook strategies, not three versions of one opener, and the hook works as a standalone sentence.
+- One CTA per caption, clear and specific, matching platform convention.
+- Hashtag count and placement match the platform rules.
+- British English (organisation, colour, programme, behaviour, analyse, recognise, centre, enquiry); active voice; no banned vocabulary or filler phrases from the [caption quality standards](references/caption-build-method.md#caption-quality-standards).
+- Tone matches the brand descriptor, or `04-brand-voice-intake` where provided; names, figures, quotations and platform rules are verified before use.
+- Premium or high-ticket captions show specificity, proof and value before asking for action; the sequence runs hook, proof, choice, consequence in plain language rather than decorative persuasion.
+- Output follows the labelled format, ready to copy, and passes the `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-- Treating a strong hook as sufficient when the audience cannot understand the offer or next step. **Fix:** rewrite the information hierarchy and test the CTA on the target mobile format.
-- Using a visual or claim without permission, alternative description, or source status. **Fix:** stop the post or supply the missing evidence.
+
+- Treating a strong hook as sufficient when the audience cannot understand the offer or next step. Fix: rewrite the information hierarchy and test the CTA on the target mobile format.
+- Using a visual or claim without permission, alternative description or source status. Fix: stop the post or supply the missing evidence.
+- Reusing the same hook across the three variations, or padding one caption into three lengths. Fix: give each variation its own structure and tone.
+- Blending platform conventions (LinkedIn buzzwords, stacked hashtags on X, hashtags on WhatsApp). Fix: apply only the chosen platform's rules.
+- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. Fix: verify it or qualify/remove it.
+- Publishing, scheduling or changing a live account from drafting authority alone. Fix: obtain explicit action-specific authority and retain the approval record.
 
 ## References
-- [email-copywriter](../email-copywriter/SKILL.md) is the nearest routing comparison for this skill.
-- [hashtag-and-keyword-tagging](references/hashtag-and-keyword-tagging.md) — read when the client needs a full hashtag strategy document, tiered tag sets, a tags-to-avoid list or a monthly hashtag performance review.
-- [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — post and ad sentence patterns (three-line power paragraph).
-- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling captions and ads.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+
+- [Caption build method](references/caption-build-method.md): read when asking the intake questions, applying full platform rules, picking East African hashtag communities, laying out the output or reviewing the Nakibuuka Kitchen worked example.
+- [Hashtag and keyword tagging](references/hashtag-and-keyword-tagging.md): read when the client needs a full hashtag strategy document, tiered tag sets, a tags-to-avoid list or a monthly hashtag performance review.
+- [CTA and platform hooks](references/cta-and-platform-hooks.md): read when caption performance depends on stronger openers, cleaner hooks or better CTA wording.
+- [Human, professional phrase bank](../references/human-professional-phrase-bank.md): read when shaping post and ad sentence patterns (three-line power paragraph).
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md): read before releasing any selling caption or ad; the screen is mandatory.
+- [Buyer psychology and social selling](../premium-commercial-writing/references/buyer-psychology-and-social-selling.md): read when the post is persuasion-led.
+- [`premium-commercial-writing`](../premium-commercial-writing/SKILL.md): read when the post supports a premium, executive, high-ticket or trust-sensitive offer.
+- [`email-copywriter`](../email-copywriter/SKILL.md): read when routing is unclear; it is the nearest neighbour.
+- [`east-african-english`](../../language/east-african-english/SKILL.md): read when calibrating tone and British spelling for East African audiences.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting and before client delivery.
 <!-- dual-compat-end -->
-
-## How to Use This Skill
-Collect the Required Input below. Generate 3 caption variations per request — labelled Short, Medium, and Long — each with a distinct approach, appropriate hashtag set, and platform-specific formatting. Apply British English throughout. Do not reuse the same hook across variations — each must be genuinely different in structure and tone.
-
-When the post supports a premium offer, executive audience, high-ticket service, or trust-sensitive category, apply `premium-commercial-writing` before finalising. The caption should create value, show proof or judgement, and ask for a next step without sounding desperate or discount-led.
-
-For persuasion-led posts, also load `../premium-commercial-writing/references/buyer-psychology-and-social-selling.md`. Use its belief sequence, proof rules, readiness-matched CTA, and downstream-quality guardrails; never use fake scarcity, fabricated consensus, or unsupported “brain” claims.
-
-## Required Input
-Ask for the following before writing:
-
-- **Client name / brand name** — the business publishing the post
-- **Industry** — sector (e.g. food and beverage, retail, professional services)
-- **Country / city** — default Uganda/East Africa
-- **Primary goal** — what the caption should achieve (awareness / engagement / enquiries / sales)
-- **Platform** — Instagram / Facebook / LinkedIn / TikTok / WhatsApp broadcast / X (Twitter)
-- **Content type** — photo / video / carousel / text post / Reel / Story
-- **Topic** — what the post is about (one sentence)
-- **Key message** — the single most important thing the audience should take away (one sentence)
-- **CTA** — what the audience should do after reading (one clear action)
-- **Tone** — professional / conversational / aspirational / educational (or specific brand tone words)
-- **Any keywords or phrases to include** — mandatory phrases, product names, or campaign lines
-- **Any banned vocabulary** — from 04-brand-voice-intake if available
-
-## Platform-Specific Rules
-Apply these conventions when generating captions. Do not blend conventions across platforms.
-
-### Instagram
-- Hook in the first line — the first 125 characters appear before the "more" cut; everything depends on this line
-- Use line breaks between paragraphs — Instagram compresses unbroken text
-- Conversational or aspirational tone depending on the brand
-- Optimal length: 125–150 characters for maximum reach; up to 300 words for educational or storytelling content
-- Hashtags: 5–10, placed at the end of the caption or noted as suitable for first comment; mix niche, community, and 1–2 branded tags
-- No more than 2 emojis in the hook line
-
-### Facebook
-- Warm, community-focused tone; question-based CTAs perform well ("Have you tried this? Let us know below")
-- Optimal length: 40–80 characters for highest organic reach; up to 250 words for storytelling or event posts
-- If the post includes a link, include it in the caption text — not only in the link preview
-- Hashtags: 1–3 maximum; Facebook hashtags add limited discoverability — use sparingly
-- Write as if speaking to a neighbour, not an audience
-
-### LinkedIn
-- Professional, evidence-based, direct
-- First 2 lines carry the entire weight — they appear before the "see more" cut; make them count
-- No emoji overuse — 0–2 per post, purposeful only
-- Optimal length: 150–300 words for engagement; 50–100 words for reach-focused posts
-- Hashtags: 3–5 maximum, placed at the end; industry-relevant only — never generic tags
-- No buzzwords — no "synergy", "leverage", "game-changing", "disruptive"
-
-### TikTok
-- Punchy, casual, hooks the first scroll — caption is secondary to the video but still matters
-- Optimal length: 100–150 characters
-- CTA drives comments: "Comment 'YES' if this resonates" / "Tell me in the comments"
-- Hashtags: 3–5 — 1 niche + 1 trending or broad + 1 branded; placed at end or woven naturally into text
-- Conversational tone; can be playful — match the energy of the video
-
-### WhatsApp Broadcast
-- Personal and direct — write as if to one person you know
-- Open with "Hi [first name]" or equivalent warm greeting
-- Short paragraphs — one idea per paragraph; easy to read on a small screen
-- No hashtags
-- One clear action: reply / click link / visit store — not multiple options
-- Optimal length: under 150 words; every word must earn its place
-
-### X / Twitter
-- Punchy, take a position, conversational
-- 240–280 characters for a single post; use thread format for longer content (indicate thread breaks with 1/, 2/, etc.)
-- 1–2 hashtags maximum; weave them naturally into the text — do not stack them at the end
-- Hook with a take or observation, not an announcement
-- Conversational, opinionated, direct — not corporate
-
-## Caption Quality Standards
-Apply to every variation before outputting:
-
-- Hook must work as a standalone sentence that creates curiosity or compels action
-- One CTA per caption — never two competing actions
-- British English: organisation, colour, programme, behaviour, analyse, recognise, centre, enquiry
-- No banned vocabulary: leverage, game-changing, groundbreaking, revolutionary, delve, tapestry
-- No filler phrases: "in today's world", "it's important to note", "at the end of the day", "we are excited to announce"
-- Consistent with brand tone (from 04-brand-voice-intake if provided)
-- Active voice throughout — not "great service is offered by us" but "we offer great service"
-
-## EA-Specific Hashtag Communities
-Suggest relevant tags from this list when generating hashtag sets for Uganda/EA clients:
-
-**Uganda-specific:** #UgandaTwitter #MadeInUganda #KampalaLife #UgandaEntrepreneur #BuyUgandaBuildUganda #DiscoverUganda #KampalaEats #KampalaFashion #UgandaFood #UgandaTech
-
-**East Africa regional:** #EastAfricaBusiness #NairobiTwitter #EastAfricaCreatives #NairobiBusiness #DarEsSalaamBusiness #EastAfricaHealth #MadeInKenya
-
-**Pan-African:** #AfricanEntrepreneur #MadeInAfrica #AfricanWomenInBusiness #AfricaRising #SMEAfrica #StartupAfrica #BlackOwnedBusiness #SocialEnterprise
-
-Select and combine: 1–2 local/city tags + 1–2 niche industry tags + 1–2 community tags for most platforms. Adjust count to match platform conventions above.
-
-## Output Format
-For each caption request, output in this structure:
-
-**CAPTION — [Platform] | [Content Type] | [Brand Name]**
-
-**SHORT VARIATION**
-*Approach: [describe the hook strategy — e.g. question-led / bold statement / curiosity gap]*
-
-[Caption text — short version]
-
-*Hashtags:*
-[hashtag set appropriate to platform and count]
-
-**MEDIUM VARIATION**
-*Approach: [describe the hook strategy — different from Short]*
-
-[Caption text — medium version]
-
-*Hashtags:*
-[hashtag set]
-
-**LONG VARIATION**
-*Approach: [describe the hook strategy — different from Short and Medium]*
-
-[Caption text — long version]
-
-*Hashtags:*
-[hashtag set]
-
-**NOTES FOR THIS POST:**
-- [Any platform-specific recommendation — e.g. "For Instagram, consider placing hashtags in the first comment to keep the caption clean"]
-- [Any timing recommendation if relevant — e.g. "Post between 7–9pm EAT for highest Facebook reach among Kampala audiences"]
-- [Flag if the brief contained ambiguity — e.g. "CTA was not specified — assumed WhatsApp link. Confirm before scheduling."]
-
-## Example Application (Uganda — Food and Beverage)
-**Brief:** Platform: Instagram | Content type: Photo | Topic: New seasonal menu launch | Key message: Fresh, locally sourced ingredients | CTA: Visit the restaurant this weekend | Tone: Warm, aspirational | Brand: Nakibuuka Kitchen
-
-**SHORT VARIATION**
-*Approach: Bold statement — leads with the product benefit, not the announcement*
-
-Fresh food tastes different when it travels 12 kilometres, not 1,200.
-
-Our new seasonal menu is here — every ingredient sourced within Central Uganda. Come taste the difference this weekend.
-
-🔗 Reserve your table via the link in bio.
-
-*Hashtags:*
-#NakibuukaKitchen #KampalaEats #MadeInUganda #UgandaFood #FarmToTable
-
-**MEDIUM VARIATION**
-*Approach: Question-led — draws the reader into a shared experience before revealing the offer*
-
-When did you last eat a meal where you knew exactly where every ingredient came from?
-
-Our new seasonal menu answers that question. Every vegetable, every grain, every cut of meat — sourced from farms within Central Uganda. Fresher. Better. Ours.
-
-The menu changes with the season. This one is available until the end of April.
-
-Visit us at [location] this weekend. Reservations via the link in bio.
-
-*Hashtags:*
-#NakibuukaKitchen #KampalaEats #UgandaFood #MadeInUganda #FarmToTable #KampalaLife #DiscoverUganda
-
-**LONG VARIATION**
-*Approach: Story-led — opens with a behind-the-scenes narrative before the offer*
-
-Every Thursday morning, our kitchen team drives out to Wakiso District.
-
-Not to shop at a supermarket. To collect directly from the farmers we have worked with for three years — the people who grow our tomatoes, harvest our plantain, and raise the free-range poultry that has been on our menu since we opened.
-
-This week, we launched our new seasonal menu. It is the freshest one we have made.
-
-Every dish reflects what is ready right now — not what is convenient. That means the flavours change. The menu changes. And the meals you eat here in April will taste different from the ones you enjoyed in January.
-
-We think that is exactly as it should be.
-
-Come and eat with us this weekend. Bring someone who has not been before.
-
-Reservations: link in bio. Walk-ins welcome before 1pm.
-
-*Hashtags:*
-#NakibuukaKitchen #KampalaEats #UgandaFood #MadeInUganda #FarmToTable #KampalaLife #DiscoverUganda #UgandaEntrepreneur
-
-## Human Authenticity Gate
-All content produced using this skill must pass through the `anti-ai-slop` humanising rewrite passes before client delivery. AI-generated or AI-assisted captions must meet the Golden Rule: every caption must look, feel, and sound as if it was crafted by the most skilled human copywriter with deep knowledge of the target audience and their cultural context. Generic, flat, or culturally misaligned output is not acceptable regardless of how efficiently it was produced.
-
-## Quality Criteria
-- [ ] Each variation genuinely differs in length and approach — not the same caption padded or shortened
-- [ ] Hook line of each variation is distinct and compelling — three different strategies, not three versions of the same opener
-- [ ] CTA is clear, specific, and matches platform convention (one action only)
-- [ ] Hashtag count and placement match the platform rules specified in this skill
-- [ ] No banned vocabulary in any variation
-- [ ] British English spelling throughout all variations
-- [ ] Tone matches the brand descriptor provided in the brief
-- [ ] Output format follows the structure above — labelled, consistent, ready to copy
-- [ ] Premium or high-ticket captions show specificity, proof, and value before asking for action

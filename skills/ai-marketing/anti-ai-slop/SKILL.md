@@ -9,6 +9,8 @@ metadata:
 ---
 # Anti AI Slop
 
+The guardrail every social output passes before it ships. Detection lives in the companion `ai-slop-audit` skill; this skill governs **production**: writing the caption, planning the campaign and briefing the image so slop never appears in the first place.
+
 <!-- dual-compat-start -->
 ## Use When
 - Keep our posts, captions, slides and image briefs free of stock AI phrases while they are being written.
@@ -24,118 +26,28 @@ metadata:
 - Stop when a statistic, price, brand or quote cannot be verified against a named source; flag it rather than let it ship.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified anti AI slop deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| An AI-assisted draft already exists and must be humanised before client delivery | Run the humanising rewrite passes (quality risks, uncanny valley, Human Voice Checklist, content-type edits, East Africa localisation, Proof of Human, sign-off) in [humanising-rewrite-passes](references/humanising-rewrite-passes.md). | Light polish that leaves AI fingerprints, unverified claims or Western defaults. |
+|---|---|---|---|
+| Client business name and industry (whose brand voice the output carries) | Brief or client source pack | Yes | Stop; a caption that could belong to any brand has no intent. |
+| Country/city of the audience | Brief | Yes | Default to Uganda / East Africa and state the default. |
+| Primary goal of the output | Brief | Yes | Ask; without it no real CTA can be tied to a real channel. |
+| Output type: caption, post, thread, carousel, campaign, ad copy, email, deck outline, or image/video brief | Requester | Yes | Classify from the request and load that domain block. |
+| Language: English, French or Kiswahili | Brief | Yes | Default to English; route FR through `language/french-native-copy` and Kiswahili through `language/swahili-native-copy`. |
+| Verified facts: statistics, prices, named brands, quotes, platform figures, each with a named source | Client source pack or cited source | Conditional | Flag the claim and hold it out of the draft; never invent a figure to fill the gap. |
 
 ## Workflow
-1. Confirm the exact anti AI slop deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select one post, asset, or content unit and record the material decision behind it before drafting; do not fill a calendar as one opaque batch.
-4. Inspect the surrounding brand, campaign, source, rights, and channel context, then produce the smallest complete unit with facts traceable and placeholders visibly unresolved.
-5. Test the unit against the decision table, domain quality criteria, moderation risk, and anti-slop gate; make one concrete refinement and recover by narrowing or qualifying unsupported portions.
-6. Deliver the revised unit with evidence, assumptions, unassessed checks, approval boundary, and the next measurement or verification step.
 
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Anti ai slop deliverable | Requester, client reviewer or delivery team | The anti AI slop deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+1. Confirm the inputs; route FR and Kiswahili output to the native-copy skills and load the domain avoidance block for the output type from the [guardrails reference](references/guardrails-and-overlays.md).
+2. Select one post, asset or content unit (not a calendar as one opaque batch), record the material decision behind it and inspect the surrounding brand, campaign, source, rights and channel context; then draft it, applying the seven guardrails and the banned list continuously: the moment a banned word, generic placeholder, unverified figure, brand or price, or template default appears, fix it in place.
+3. Verify every statistic, citation, quote, named brand, platform figure and price against a named source and cite it at the point of claim; stop the claim if it cannot be verified and flag it rather than let it ship.
+4. For an existing AI draft, run the humanising rewrite passes (quality risks, uncanny valley, Human Voice Checklist, content-type edits, East Africa localisation, Proof of Human, sign-off).
+5. Apply ME1-ME7 across the sequence and AS1-AS7 to visuals, decks and short-form copy, recording the evidence mode.
+6. Test the unit against the decision rules, moderation risk and the ship gate; make one concrete refinement, and if any box is unticked, correct the draft and rerun the gate until every box is ticked.
+7. Deliver the unit with sources, assumptions, unassessed checks and the approval boundary; run `ai-slop-audit` at the checkpoint, and an F blocks the next asset.
 
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+## Slop definition and the seven universal guardrails
 
-## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested anti AI slop deliverable, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## Responsibility overlay
-
-Treat the 25 signs as channel-aware editing prompts, not AI-authorship evidence. Every post,
-carousel, ad, and CTA must have a named audience, channel job, supported promise, source/date when
-needed, and an honest next action. Label hypothetical customers and generated scenarios; never
-invent testimonials, urgency, platform rules, engagement results, or cultural insight. Apply ME1-ME7
-across the sequence, audit visual choices separately, and mark missing evidence `NOT_ASSESSED`.
-
-- Shared standard: [`AI-slop responsible publishing`](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
-
-## References
-
-- [humanising-rewrite-passes](references/humanising-rewrite-passes.md) — read when reviewing and rewriting an existing AI draft (caption, blog, email, strategy document, proposal) for human voice, localisation and sign-off.
-- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-<!-- dual-compat-end -->
-
-## Machine-error editorial gate (cross-engine Kaizen)
-
-Apply Digital Research's `docs/continuous-improvement/machine-errors-editorial-gate-2026-09-03.md`
-to captions, carousels, campaign briefs, image prompts, and community replies:
-
-| ID | Social-media adaptation |
-|---|---|
-| ME1 | Does each post or slide add a distinct point rather than repeat the previous card? |
-| ME2 | Is the hook/contrast real, or a repeated content template? |
-| ME3 | Can the audience act without another restatement or CTA recap? |
-| ME4 | Does urgency match the verified event, offer, or risk? |
-| ME5 | Is the place, person, price, or example real and approved? |
-| ME6 | Has the same hook, triplet, emoji, or CTA become a mannerism? |
-| ME7 | Does the asset earn attention with a useful claim, instruction, or decision? |
-
-### Impeccable-derived AS overlay
-
-Use AS1-AS7 for social visuals, campaign decks, landing-page handoffs, and short-form copy. In
-visual campaigns, purple gradients, glassmorphism, neon glow, AI-beige defaults, decorative
-editorial scaffolding, and decorative motion are no-ship choices. Functional status, accessibility,
-data, or approved brand reasons must be explicit.
-
-| ID | Social-media overlay test |
-|---|---|
-| AS1 | Is the visual/copy template chosen for this audience and campaign rather than generator default? |
-| AS2 | Do badges, chips, icon tiles, metrics, or numbered labels clarify the message or decorate it? |
-| AS3 | Do carousel cards and spacing distinguish ideas, or repeat one card template? |
-| AS4 | Does motion or glow communicate a state, message, or task and respect reduced motion? |
-| AS5 | Are imagery, examples, icons, and claims purposeful, approved, and traceable? |
-| AS6 | Are buzzwords, em-dash cadence, aphoristic contrasts, and theatrical framing recurring? |
-| AS7 | Is the rendered post readable, contrasted, complete, and free of clipped or missing content? |
-
-Record `cli`, `browser`, `llm_only`, or `human_review`; unavailable evidence is `NOT_ASSESSED`.
-
-Cut carousel slides that only paraphrase earlier slides. Preserve repetition required by an approved
-accessibility, safety, legal, or campaign-frequency requirement and record the reason.
-
-The guardrail every social output passes before it ships. Detection lives in the companion `ai-slop-audit` skill; this skill governs **production** — writing the caption, planning the campaign, briefing the image so slop never appears in the first place.
-
-## Real-time application (this is a LIVE constraint, not only a final gate)
-Apply these rules **continuously, as you write** — to every caption, post, slide, line, and image-brief sentence at the moment it is drafted, not only in one pass at the end. The moment you reach for a banned word, a generic placeholder, an unverified figure, brand, or price, or a template default, stop and correct it in place. The ship-gate checklist at the end is the final confirmation, not the first time these rules are consulted. If you are mid-draft and notice slop accumulating — every caption opening the same way, a UGX figure you have not verified, a carousel where each slide restates the last — fix it then; do not defer to a cleanup pass.
-
-## What "AI slop" is (so you know what you are preventing)
 **AI slop** is low-quality content produced in quantity by generative AI and pushed at people who did not ask for it (Merriam-Webster 2025 Word of the Year, verified). Its three diagnostic properties (Kommers et al., *"Why Slop Matters"*, arXiv 2601.06060, verified):
 
 1. **Superficial competence** — looks fine on the surface, no substance underneath.
@@ -146,7 +58,6 @@ The human tell named in every domain studied: **absence of intent** — the sens
 
 On social specifically: slop is the engagement-bait carousel with five identical "tips", the LinkedIn post that opens "In today's fast-paced digital landscape", the ad that promises to "elevate your brand", the AI image with seven-fingered hands. Audiences scroll past it. Platform algorithms increasingly suppress it.
 
-## The seven universal guardrails (apply to EVERY output)
 | # | Marker to prevent | Avoidance rule you MUST follow |
 |---|---|---|
 | **U1** | Genericness / averaging | Every post, slide, or section carries ≥1 concrete, named, market-specific element — a real local example, a UGX price, a named place, a dated figure, a stated decision — that a generic template could not produce. Forbid tool defaults. |
@@ -158,6 +69,7 @@ On social specifically: slop is the engagement-bait carousel with five identical
 | **U7** | Mechanical uniformity | Vary sentence length and structure. No rule-of-three reflex, no "it's not X, it's Y" formula, no em-dash flood, no every-caption-the-same-shape carousel. |
 
 ## Banned / high-risk vocabulary (the lexical tells)
+
 These words and constructions are statistically over-produced by LLMs (FSU/COLING-2025; PubMed "delve" +400%). **Do not use them as default register.** A word here is allowed only when it is the genuinely precise term, never as filler. This list merges the canonical anti-slop lexicon with the former `ai-content-humaniser` banned list; [humanising-rewrite-passes](references/humanising-rewrite-passes.md) uses it for its vocabulary sweep.
 
 - **Words:** delve, tapestry, realm, landscape (as metaphor), navigate (as metaphor), leverage, foster, harness, synergy, embark, robust, vibrant, holistic, seamless / seamlessly, intricate, commendable, meticulous, pivotal, underscore, testament, resonate, elevate, paramount, unwavering, multifaceted, comprehensive, revolutionary, groundbreaking, game-changer, beacon, crucial, vital, cutting-edge, innovative, empower, unlock, journey (as metaphor), dynamic.
@@ -166,27 +78,6 @@ These words and constructions are statistically over-produced by LLMs (FSU/COLIN
 - **Weak hedges (strengthen or cut):** "may potentially", "could possibly", "one might consider", "it could be argued that", "in some cases".
 - **Constructions:** the "it's not just X, it's Y" antithesis; reflexive rule-of-three lists; em-dash used to manufacture drama; relentless triplet adjectives ("robust, scalable, and reliable"); the engagement-bait opener ("Unpopular opinion:", "Let that sink in").
 - **French equivalents** (for Francophone Africa output, see `language/french-native-copy`): "plongeons dans", "il est important de noter que", "force est de constater", "dans un monde en constante évolution", "par ailleurs / de plus / en outre" as filler connectors, "au cœur de", "pierre angulaire", "incontournable" as default praise.
-
-## Drop-in guardrail block (inherit in dependent skills and sub-agent briefs)
-```
-ANTI-SLOP GUARDRAIL (inherit in every output):
-1. SPECIFICITY FLOOR — every post / slide / section carries >=1 concrete, named,
-   market-specific element. No tool defaults, no placeholder copy.
-2. VERIFY-BEFORE-EMIT — no statistic, citation, quote, named brand, platform
-   figure, or price ships unverified; cite at point of claim; flag uncertainty.
-3. AUTHORED VOICE — state a point of view / recommendation; no relentless
-   positivity, no sycophancy; allow trade-offs.
-4. COVER THE HARD PARTS — objections, edge cases, the audience that won't buy,
-   risks, the negative-comment / crisis response.
-5. BREAK THE TEMPLATE — vary rhythm and structure; forbid default aesthetics and
-   the banned-vocabulary list above.
-```
-
-## Domain-specific avoidance (load the relevant block for the output type)
-- **Written content — EN (captions, posts, threads, carousels, ad copy, email, blog):** no focal-word clusters; vary sentence length (mix 3–10-word lines with 20–35-word lines for burstiness); ≤1 em-dash per paragraph; no "in conclusion"; one specific local detail per piece (a Kampala neighbourhood, a named local brand, a UGX price, a dated platform figure); a stated point of view, not false balance; a direct CTA tied to the real channel ("Send a WhatsApp to 0700 000 000 before Friday", not "Learn more"); first line earns the tap to expand. Carousels: each slide must add a distinct point, not restate the previous one.
-- **Written content — FR (Francophone Africa):** never raw-translate from English; write natively per `language/french-native-copy`; avoid the French banned list above; match register and idiom to the target Francophone market, not metropolitan-France defaults.
-- **Image/video briefs for social:** describe real, culturally accurate specimens — named setting, real local context, specific wardrobe and lighting, not generic "African" placeholders; check the brief forces anatomy/text/physics correctness (hands, eyes, teeth, legible on-pack text, plausible geometry); avoid the "AI sheen" (over-smooth skin, plastic bokeh, symmetrical everything); for video, flag lip-sync, "boiling", and frame-to-frame drift; require provenance/disclosure (C2PA / SynthID labelling and a specific "AI-generated [element], art-directed by [team]" line) where it matters, per `policy-ai-content-ethics` (AI IP and copyright policy) and `ai-cultural-bias-audit`.
-- **Campaign / strategy text:** add a genuine strategic choice (where to play / how to win), not generic "raise awareness and drive engagement"; transparent, real numbers; no deceptive AI-capability or reach claims; plan the objection and the crisis path.
 
 ## Ship gate (run before delivering or publishing ANY output)
 - [ ] Every post / slide / section has ≥1 concrete, named, market-specific element (U1/U2).
@@ -201,30 +92,71 @@ ANTI-SLOP GUARDRAIL (inherit in every output):
 
 If any box is unticked, the output is not ready to ship.
 
-## Required Input
-Before applying the guardrail, confirm:
+## Outputs
 
-1. **Client business name** — whose brand voice does this output carry?
-2. **Industry** — what sector?
-3. **Country / city** — where is the audience? (Default: Uganda / East Africa)
-4. **Primary goal** — what is this output meant to achieve?
-5. **Output type** — caption, post, thread, carousel, campaign, ad copy, email, deck outline, or image/video brief?
-6. **Language** — English, French, or Kiswahili? (Route FR through `language/french-native-copy`, Kiswahili through `language/swahili-native-copy`.)
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Drafted or humanised copy or brief (caption, post, thread, carousel, campaign, ad, email, deck outline, image/video brief) | Client reviewer or publishing owner | Carries ≥1 concrete, named, market-specific element per unit, a point of view and a real CTA tied to a real channel. |
+| Completed ship-gate checklist | Delivery lead and `ai-slop-audit` | Every box ticked; any unticked box holds the output back. |
+| Source and flag note | Approver | Every stat, price, brand and quote has a named source or is flagged as unverified and held out. |
 
-## Quality Criteria
-The output meets the standard when:
+## Evidence Produced
 
-1. **Specificity floor met** — every post, slide, or section carries at least one concrete, named, market-specific element no template could produce.
-2. **No fabrication** — every statistic, citation, brand, platform figure, and price is verified against a named source; nothing is invented to sound authoritative.
-3. **Banned vocabulary absent** — a word-search confirms no list item appears as filler register, in EN or FR.
-4. **Authored voice present** — the piece states a clear point of view or recommendation, not false balance or relentless positivity.
-5. **Hard parts covered** — objections, edge cases, risks, and the negative-comment / crisis path are addressed, not only the launch happy-path.
-6. **Burstiness present** — sentence length and structure vary; no rule-of-three reflex, no antithesis formula, no em-dash flood.
-7. **Localised** — UGX, Mobile Money, WhatsApp-first, and real local references are used for the default Uganda / East Africa market (or the named market's equivalents).
-8. **Ship gate passed** — every box above is ticked before delivery.
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Ship-gate record | Ticked checklist per unit | No unticked box on delivered output. |
+| Claim source register | Table: claim, source, date | Each verified claim cites its source at the point of claim. |
+| Overlay record | ME1-ME7 and AS1-AS7 rows with evidence mode (`cli`, `browser`, `llm_only`, `human_review`) | Unavailable evidence is `NOT_ASSESSED`. |
 
-## See also
-- `ai-slop-audit` — the detection / evaluation / audit companion (analyse any artefact for slop).
-- [humanising-rewrite-passes](references/humanising-rewrite-passes.md) — the humanisation QC process (formerly `ai-content-humaniser`); its banned list is merged here.
-- `language/east-african-english`, `language/language-standards`, `language/french-native-copy`, `language/swahili-native-copy` — apply house style and native-language standards on top.
-- `policy-ai-content-ethics` ([AI IP and copyright policy](../../policies/policy-ai-content-ethics/references/ai-ip-and-copyright-policy.md), [cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md)) — provenance, disclosure, and bias checks for image/video output.
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Drafting and rewriting within the supplied brief are permitted; delivery to the client or a live channel is not publication authority.
+
+## Degraded Mode
+
+Without verified facts for the claims in the brief, return the narrowest qualified result and mark the affected checks `not assessed`. The draft can still be delivered with those claims held out and flagged, the guardrails applied and the ship gate showing which boxes remain open.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| A banned word is the genuinely precise term | Allow it once, never as filler; otherwise rewrite directly rather than swap in a synonym from the same register. | Lexical tells or mangled precision. |
+| A statistic, price, brand or quote cannot be verified against a named source | Stop that claim and flag it; do not let it ship. | Confident wrongness (U3). |
+| An AI-assisted draft already exists and must be humanised before client delivery | Run the humanising rewrite passes (quality risks, uncanny valley, Human Voice Checklist, content-type edits, East Africa localisation, Proof of Human, sign-off) in [humanising-rewrite-passes](references/humanising-rewrite-passes.md). | Light polish that leaves AI fingerprints, unverified claims or Western defaults. |
+| Output is for Francophone Africa | Write natively per `language/french-native-copy`; never raw-translate from English; match the target market, not metropolitan-France defaults. | Translation artefacts and the French tells. |
+| An image or video brief is requested | Describe real, culturally accurate specimens and require provenance/disclosure (C2PA / SynthID labelling and a specific "AI-generated [element], art-directed by [team]" line) per `policy-ai-content-ethics` and `ai-cultural-bias-audit`. | Generic "African" placeholders and undisclosed AI imagery. |
+| A visual uses purple gradients, glassmorphism, neon glow, AI-beige defaults, decorative editorial scaffolding or decorative motion | Treat it as no-ship unless a functional status, accessibility, data or approved brand reason is explicit. | Generator-default visuals. |
+| A carousel slide only paraphrases an earlier slide | Cut it, unless an approved accessibility, safety, legal or campaign-frequency requirement needs the repetition; record the reason. | Padded, repetitive carousels. |
+| A hypothetical customer or generated scenario is used | Label it; never invent testimonials, urgency, platform rules, engagement results or cultural insight. | Deceptive social proof. |
+
+## Quality Standards
+
+- Specificity floor met: every post, slide or section carries at least one concrete, named, market-specific element no template could produce.
+- No fabrication: every statistic, citation, brand, platform figure and price is verified against a named source; nothing is invented to sound authoritative.
+- Banned vocabulary absent: a word-search confirms no list item appears as filler register, in EN or FR.
+- Authored voice present: the piece states a clear point of view or recommendation, not false balance or relentless positivity.
+- Hard parts covered: objections, edge cases, risks and the negative-comment / crisis path are addressed, not only the launch happy path.
+- Burstiness present: sentence length and structure vary; no rule-of-three reflex, no antithesis formula, no em-dash flood.
+- Localised: UGX, Mobile Money, WhatsApp-first and real local references are used for the default Uganda / East Africa market (or the named market's equivalents).
+- Ship gate passed: every box is ticked before delivery.
+
+## Anti-Patterns
+
+- Deferring slop to a final clean-up pass. Fix: correct each banned word, placeholder or unverified figure the moment it appears.
+- Treating the 25 signs as proof a human did not write it. Fix: use them as channel-aware editing prompts, not AI-authorship evidence.
+- Swapping a banned word for a synonym from the same register. Fix: rewrite the sentence to be direct.
+- A generic "Learn more" CTA. Fix: tie it to the real channel ("Send a WhatsApp to 0700 000 000 before Friday").
+- Generic "African" placeholders in image briefs. Fix: name the setting, wardrobe, lighting and real local context, and force anatomy, text and physics correctness.
+- Filling a calendar as one opaque batch. Fix: draft and gate one unit at a time.
+- Relentless positivity with no trade-off. Fix: state a recommendation and the audience that will not buy.
+
+## References
+
+- [Guardrails, domain blocks and overlays](references/guardrails-and-overlays.md): read when applying real-time rules, the drop-in guardrail block for sub-agent briefs, the EN, FR, image/video or campaign avoidance block, the ME1-ME7 and AS1-AS7 overlays, the responsibility overlay or the see-also routes.
+- [humanising-rewrite-passes](references/humanising-rewrite-passes.md): read when reviewing and rewriting an existing AI draft (caption, blog, email, strategy document, proposal) for human voice, localisation and sign-off.
+- [`ai-slop-audit`](../ai-slop-audit/SKILL.md): read at each checkpoint and when a graded audit of finished work is needed.
+- [AI IP and copyright policy](../../policies/policy-ai-content-ethics/references/ai-ip-and-copyright-policy.md) and [cultural bias audit protocol](../../policies/policy-ai-content-ethics/references/cultural-bias-audit-protocol.md): read when briefing image or video output.
+- [AI-slop responsible publishing standard](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md): read when a claim, testimonial or scenario may be deceptive.
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md): read when the request is about AI maturity rather than copy.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->

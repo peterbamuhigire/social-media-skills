@@ -9,19 +9,8 @@ metadata:
 ---
 # Digital Marketing Strategy Generator
 
-Produce the boardroom-level digital marketing strategy document. This is the broadest strategy deliverable in the suite — it integrates all digital channels into a unified plan. Every section must be populated with client-specific content. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
+Produces the boardroom-level digital marketing strategy, the broadest strategy deliverable in the suite, integrating all digital channels into a unified plan with every section populated with client-specific content. Apply British English throughout and default to Uganda/East Africa context unless the client specifies otherwise.
 
-Use paid, owned and earned media and the customer journey as organising lenses where helpful. Framework labels never substitute for customer evidence, a channel investment decision or a delivery plan.
-
-Add Kennedy's systems lens before selecting tactics:
-
-- avoid dependence on a single platform or traffic source
-- distinguish acquisition, conversion, retention, and referral mechanisms
-- define the lead-generation offer separately from the core sale
-- treat the website, email list, and customer database as strategic assets, not optional extras
-- when the client sells premium, high-ticket, luxury/affluent, executive, or enterprise offers, load `skills/playbooks/playbook-social-selling/references/high-value-social-selling.md` (formerly `premium-social-selling`) before finalising positioning, content, lead generation, outreach, email nurture, or conversion strategy
-
----
 <!-- dual-compat-start -->
 ## Use When
 - Marketing is spread across social, website, email, search and ads with no single plan tying them to business goals.
@@ -36,83 +25,29 @@ Add Kennedy's systems lens before selecting tactics:
 - Stop before quoting channel costs, reach or return figures that have not been verified; flag them as estimates.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Approved brief, channel evidence, revenue model, objectives and budget | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
-
-## Outputs
-| Artefact | Consumer | Acceptance condition |
-|---|---|---|
-| Board-ready digital marketing strategy and 12-month roadmap | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
-
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
-
-<!-- dual-compat-end -->
-
-## Capability and permission boundary
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
-
-## Degraded mode
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified board-ready digital marketing strategy and 12-month roadmap. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
-
-## Decision rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Approved brief, channel evidence, revenue model, objectives and budget is current and attributable | Produce the full board-ready digital marketing strategy and 12-month roadmap and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `05-social-media-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+|---|---|---|---|
+| Approved client brief with business goals and revenue model | `01-client-brief`; client finance lead | Yes | Stop channel selection; return the goal and revenue-model questions. |
+| Customer evidence, including contradictory findings | Personas, CRM, sales and service records, research | Yes | Label the positioning provisional and propose a bounded research step before scaling spend. |
+| Current channel evidence (social, website, email, search, paid) with dates | `02-platform-audit`; account exports; analytics | Yes | Mark the channel `not assessed`; do not quote reach, cost or return for it. |
+| Budget covering production, labour, fees, tools and media | Client | Yes | Present conditional scenarios instead of a fixed budget split. |
+| Sales capacity, fulfilment limits and the finance model | Client operations and finance | Yes | Withhold forecasts and state the reconciliation still needed. |
+| Offer tier (premium, high-ticket, luxury/affluent, executive or enterprise) | Client brief | If applicable | Treat as standard; load the high-value social selling reference once the tier is confirmed. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `05-social-media-strategy` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply [the premium growth operating contract](references/premium-growth-operating-contract.md): customer research, offer, channel choices, creative, website/CRM handoff, economics, experiments and service review. Follow the decision table when evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the board-ready digital marketing strategy and 12-month roadmap, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+1. Confirm the decision, consumer, market and period; stop and route to `05-social-media-strategy` when the plan covers social channels only, or to `peso-integrated-strategy` or `advertising-strategy-and-budget` when those contracts are closer.
+2. Read the [premium growth operating contract](references/premium-growth-operating-contract.md) before choosing tactics or promising returns: customer research, offer, channel choices, creative, website/CRM handoff, economics, experiments and service review.
+3. Apply Kennedy's systems lens before selecting tactics: avoid dependence on a single platform or traffic source; distinguish acquisition, conversion, retention and referral mechanisms; define the lead-generation offer separately from the core sale; treat the website, email list and customer database as strategic assets, not optional extras.
+4. For premium, high-ticket, luxury/affluent, executive or enterprise offers, load `skills/playbooks/playbook-social-selling/references/high-value-social-selling.md` (formerly `premium-social-selling`) before finalising positioning, content, lead generation, outreach, email nurture or conversion strategy.
+5. Use paid, owned and earned media and the customer journey as organising lenses where helpful, with [digital planning lenses](references/digital-planning-lenses.md) for lifecycle coverage, scenarios and the B2B demand-generation sequence; framework labels never substitute for customer evidence, a channel investment decision or a delivery plan.
+6. Build the nine-part strategy pack below and run the economics and evidence checks; correct any unreconciled budget, duplicated conversion or unsourced platform mechanic and rerun the affected section.
+7. Run the anti-slop ship gate; route website builds, visual production and finance review to their canonical engines, and withhold release while a blocking factual, permission or evidence defect remains.
 
-## Quality Standards
+## Strategy pack contents
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
-
-## Anti-Patterns
-
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the board-ready digital marketing strategy and 12-month roadmap without approved brief. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `05-social-media-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified approved brief, the skill produces a board-ready digital marketing strategy and 12-month roadmap with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`05-social-media-strategy`](../05-social-media-strategy/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
-
-## References
-
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Social operating system and pragmatics reference](references/social-operating-system-and-pragmatics.md)
-- [Digital planning lenses](references/digital-planning-lenses.md) — lifecycle coverage, impact-before-budget, scenario planning, B2B demand-generation sequence and annual channel-mix review.
-- [Channel creative and service lab](references/channel-creative-and-service-lab.md) — native production, community, rights and measurable outcomes across Facebook, Instagram and TikTok.
-
-## Integrated marketing deliverable
-
-Read [premium growth operating contract](references/premium-growth-operating-contract.md)
-before choosing tactics or promising returns. This engine owns the integrated
-digital-marketing strategy, including search, paid media, social, email,
-permissioned messaging, content, conversion, CRM, retention and referral.
-Route website builds, visual production and finance review to their canonical engines.
-
-Produce a decision-ready pack:
+This engine owns the integrated digital-marketing strategy, including search, paid media, social, email, permissioned messaging, content, conversion, CRM, retention and referral. Produce a decision-ready pack:
 
 1. Executive decision and customer evidence, including contradictory findings.
 2. Positioning, offer, proof and credible alternatives, including internal/AI-assisted delivery.
@@ -124,31 +59,43 @@ Produce a decision-ready pack:
 8. Bounded experiments, stop rules, first implementation cycle and conditional roadmap.
 9. Applicable standards/policies, unresolved evidence and release decision.
 
-Scale the horizon to the brief. A twelve-month roadmap is conditional, with
-regular evidence reviews; it does not promise a fixed month for search rankings,
-leads or revenue. Select content cadence, budget split and nurture frequency
-from audience need and team capacity. Do not prescribe universal percentages.
+## Outputs
 
-## Economics and evidence checks
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Boardroom-level digital marketing strategy pack (nine parts) | Client board; `05-social-media-strategy`; `07-email-marketing-strategy`; `09-campaign-strategy` | Every section client-specific; every selected channel has a buyer job, destination, owner, cost and decision measure. |
+| Conditional roadmap (twelve months where the brief warrants it) | Client lead; delivery team | Scaled to the brief, with regular evidence reviews; no fixed month promised for search rankings, leads or revenue. |
+| Service review | Client lead | States what to change, stop, retain and investigate next. |
 
-Use contribution and matching cohorts for acquisition economics. Separate ROAS,
-attributed contribution, incremental ROI, lifetime contribution and cash payback.
-Do not equate annual revenue with lifetime profit, combine inconsistent periods,
-sum duplicated platform conversions, or claim incrementality from attribution.
-The reference contains a reproducible synthetic loss case despite positive ROAS.
+## Evidence Produced
 
-## AI and service quality
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Economics workbook | Table: ROAS, attributed contribution, incremental ROI, lifetime contribution, cash payback, by matching cohort and period | Measures kept separate; periods consistent; no duplicated platform conversions summed. |
+| Channel evidence register | Table: channel, source, date, account-checked or withheld | Current platform mechanics are sourced, account-checked or explicitly withheld. |
+| AI-use register | Table: task, permitted inputs, reviewer, expected improvement, failure mode, evaluation, fallback | Every AI use listed with useful output and correction time measured. |
 
-For each AI use, name the task, permitted inputs, reviewer, expected improvement,
-failure mode, evaluation and fallback. Measure useful output and correction time;
-do not promise that an AI tool produces superior commercial results. Customer
-data, copyrighted assets and confidential work require authorised handling.
+## Capability and Permission Boundaries
 
-Sell inspectable value: customer insight, a considered choice, distinctive
-creative, reliable implementation, measurement and learning. Premium fees require
-a credible delivery scope and buyer evidence; luxury language is not proof.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Customer data, copyrighted assets and confidential work require authorised handling.
 
-## Quality criteria
+## Degraded Mode
+
+Without verified channel evidence and a revenue model, return the narrowest qualified result and mark the affected checks `not assessed`. A journey diagnosis, a selected/deferred channel shortlist and a bounded first experiment can still be delivered, with every cost, reach or return figure flagged as an estimate.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Acquisition economics are being judged | Use contribution and matching cohorts; separate ROAS, attributed contribution, incremental ROI, lifetime contribution and cash payback. | Positive ROAS hiding a loss (the reference contains a reproducible synthetic loss case). |
+| Revenue, periods or conversions come from different sources | Do not equate annual revenue with lifetime profit, combine inconsistent periods, sum duplicated platform conversions, or claim incrementality from attribution. | Inflated returns shown to the board. |
+| Content cadence, budget split or nurture frequency is needed | Select from audience need and team capacity; do not prescribe universal percentages. | A plan the team cannot deliver. |
+| An AI tool is proposed for a task | Name the task, permitted inputs, reviewer, expected improvement, failure mode, evaluation and fallback; do not promise that an AI tool produces superior commercial results. | Unmeasured AI claims and data leakage. |
+| The client asks for premium fees or premium positioning | Require a credible delivery scope and buyer evidence; sell inspectable value (customer insight, a considered choice, distinctive creative, reliable implementation, measurement and learning). Luxury language is not proof. | A premium promise the service cannot support. |
+| Channel costs, reach or return figures are unverified | Flag them as estimates or withhold them. | Fabricated precision in the board pack. |
+| The plan covers social channels only | Route to `05-social-media-strategy` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+
+## Quality Standards
 
 - Every selected channel has a buyer job, destination, owner, cost and decision measure.
 - Budget includes production, labour, fees, tools and media without double counting.
@@ -157,3 +104,26 @@ a credible delivery scope and buyer evidence; luxury language is not proof.
 - Each creative unit passes specificity, evidence, rights, accessibility and native-format review.
 - Client-account actions require explicit execution authority.
 - The service review states what to change, stop, retain and investigate next.
+- British English throughout; Uganda/East Africa context by default unless the client specifies otherwise.
+
+## Anti-Patterns
+
+- Treating every channel as an acquisition tool. Fix: map acquisition, conversion, retention and referral mechanisms separately.
+- Building the plan on one platform or traffic source. Fix: make the website, email list and customer database the strategic assets.
+- A fixed-date roadmap that promises rankings, leads or revenue by a set month. Fix: make it conditional with regular evidence reviews.
+- Summing platform-reported conversions across channels. Fix: de-duplicate and state the attribution limitations.
+- Letting a framework label stand in for a decision. Fix: tie each lens to customer evidence, a channel investment decision or a delivery plan.
+- Promising that AI tooling beats human work commercially. Fix: measure useful output and correction time and name the fallback.
+
+## References
+
+- [Premium growth operating contract](references/premium-growth-operating-contract.md): read before choosing tactics or promising returns, and for the synthetic loss case.
+- [Digital planning lenses](references/digital-planning-lenses.md): read when drafting diagnosis and channel sections: lifecycle coverage, impact-before-budget, scenario planning, the B2B demand-generation sequence and the annual channel-mix review.
+- [Channel creative and service lab](references/channel-creative-and-service-lab.md): read when planning native production, community, rights and measurable outcomes across Facebook, Instagram and TikTok.
+- [Social operating system and pragmatics reference](references/social-operating-system-and-pragmatics.md): read when the social layer needs affordance cards and conversation controls.
+- [Demand generation and social operating system](references/demand-generation-and-social-operating-system.md): read when the strategy needs practical demand creation rather than a list of channels.
+- [High-value social selling](../../playbooks/playbook-social-selling/references/high-value-social-selling.md): read when the offer is premium, high-ticket, luxury/affluent, executive or enterprise.
+- [`05-social-media-strategy`](../05-social-media-strategy/SKILL.md): read when the plan covers social channels only.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

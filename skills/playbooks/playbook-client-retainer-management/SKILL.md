@@ -9,15 +9,7 @@ metadata:
 ---
 # Playbook: Client Retainer Management
 
-A practical operating guide for managing retainer-based client relationships.
-Scope creep, communication breakdown, and poor renewal handling are the three
-leading causes of retainer loss. This playbook prevents all three.
-
-**Cross-reference:** `biz-dev-proposal` (scope definition at proposal stage),
-`playbook-agency-operations` (team-level processes), `playbook-daily-operations-routine`
-(day-to-day execution discipline).
-
----
+Scope creep, communication breakdown and poor renewal handling are the three leading causes of retainer loss; this playbook prevents all three with a scope sheet, change-request log, check-in agenda, review triggers and a value-first renewal plan.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -34,326 +26,90 @@ leading causes of retainer loss. This playbook prevents all three.
 - Stop before sending a price change, contract amendment or termination notice without the account owner's approval; deliver the draft and the conversation script.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
-| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
-| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
-
-## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
-
-## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Client Retainer Management playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
-
-## Decision Rules
-| Condition | Action | Failure or risk avoided |
-|---|---|---|
-| Repeated requests exceed the agreed service boundary | Document the pattern and agree a scope or fee change | Silent scope creep |
-| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
-| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
-| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| Client name and industry | Account owner | Yes | Ask before drafting; scripts cannot be tailored without it. |
+| Retainer start and end dates | Signed agreement | Yes | Treat the renewal date as unknown and start renewal preparation now. |
+| Current deliverables, listed with quantities | Signed agreement or statement of work | Yes | Build the six-element scope sheet first; do not judge creep against a vague scope. |
+| Primary pain point (scope creep, non-communication, pricing disputes, renewal negotiation) | Account owner | Yes | Deliver the standard sequence (scope, change requests, check-in, renewal). |
+| Relationship health (good, strained, crisis) | Account owner | Yes | Assume strained and include the reset script. |
+| Change-request log, monthly reports and baseline metrics | Account records | For renewal | Mark the value recap `not assessed` and gather results before pricing. |
 
 ## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Client Retainer Management playbook.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
+
+1. Run the intake questions and set priority: a strained or crisis relationship goes to the review triggers and reset script first; an end date within six weeks goes to renewal first. Stop if the deliverables or end date cannot be confirmed.
+2. Write or repair the scope sheet with all six elements (deliverables with quantities, platforms, revision rounds, response time, approval process, exclusions), using the [retainer operating procedures](references/retainer-operating-procedures.md).
+3. Classify current extra requests against the scope-creep table and the EA patterns, and answer each with the change-request protocol and script.
+4. Start or update the change-request log (date, request, status, agreed fee, notes) and confirm each approved change in writing.
+5. Set the 30-minute monthly check-in agenda and the voice-note summary; name any performance-review trigger that has fired and schedule the unscheduled review.
+6. Six weeks before the end date, prepare the renewal: results against baseline, scope additions, low-value deliverables, a revised proposal, three equal-value packages and a concession worksheet ([value-first renewal](references/value-first-renewal-and-relationship-health.md)).
+7. Check every script for tone and every fee for a source; correct and rerun the quality checks, then hand drafts and scripts to the account owner for approval before anything is sent.
 
 ## Outputs
+
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Client Retainer Management playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+| Six-element scope sheet | Account owner and client | Every deliverable has a quantity; unlisted platforms are out of scope; exclusions named. |
+| Change-request log and scripts | Account manager | Each approved change has a date, status and agreed fee; scripts are positive and firm. |
+| Monthly check-in agenda and review-trigger list | Account manager | Timed 30-minute agenda with four segments; triggers are observable signals with named actions. |
+| Renewal plan (value recap, three packages, concession worksheet, scripts) | Account owner | Opens with value against baseline; no unsourced "standard increase" percentage. |
+| Offboarding checklist for non-renewal | Account manager | Five-working-day asset handover and word-for-word handover message included. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| Change-request log | Living table | Referenced at the monthly check-in and at renewal; no verbal-only approvals. |
+| Value recap against baseline | Table with sources | Each result names its metric, period and source, or is marked `not assessed`. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Price changes, contract amendments and termination notices go out only with the account owner's approval.
+
+## Degraded Mode
+
+Without the signed agreement's deliverables list, return the narrowest qualified result and mark the affected checks `not assessed`. The six-element scope template, change-request script, check-in agenda and reset script can still be delivered.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Repeated requests exceed the agreed service boundary | Document the pattern and agree a scope or fee change. | Silent scope creep. |
+| A request falls outside the deliverables list | Acknowledge positively, quote the fee or offer to include it at renewal; never "I'll do it this once". | A precedent that extra work is free. |
+| A performance-review trigger fires (primary metric down 2 consecutive months, client silent 2+ weeks, approvals stalled 14 days, invoices 45 days overdue) | Hold an unscheduled review before the next invoice; do not wait for the monthly check-in. | A retainer lost without warning. |
+| Client asks for a lower price without reducing scope | Counter with a reduced price paired with fewer deliverables. | Margin erosion. |
+| The agency misses a commitment | Run the trust-recovery protocol within 24 hours. | Lost trust compounding into non-renewal. |
+| Retainer end date is six weeks away | Start renewal and communicate any price change now; set it from cost-to-serve, value delivered and market, not a remembered percentage. | A weak last-minute negotiation. |
+| Client cancels the check-in twice in a row | Treat it as a non-communication trigger and request a review. | Relationship drift. |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- The scope sheet covers all six elements: deliverables, platforms, revision rounds, response time, approval process and exclusions.
+- The scope-creep table lists at least six common EA request types, each with a scripted or recommended response.
+- The change-request protocol includes a word-for-word script, positive in tone and firm on boundaries.
+- The monthly check-in is a timed 30-minute agenda with four named segments and a purpose for each.
+- Review triggers are specific, observable signals with named actions.
+- Renewal is a six-week process opening with value against an agreed baseline, equal-value options and conditional concessions.
+- Offboarding includes a word-for-word handover message and a five-working-day asset handover deadline; the full criteria list, including the client-council and trust-recovery items for high-grade retainers, is in the procedures reference.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Writing "social media management" or "and other platforms as agreed" in scope. Fix: name every deliverable with a quantity and every platform.
+- Letting WhatsApp "quick things" pile up unbilled. Fix: log each request and route anything outside scope through the change-request protocol.
+- Accepting new approvers added to the chain without discussion. Fix: restate the approval process in writing and agree who signs off.
+- Sending a renewal proposal without a meeting. Fix: schedule the 30-minute conversation first, then send the document.
+- Apologising for a price increase. Fix: tie the new price to results achieved and forward value.
+- Scaling back effort after a client decides not to renew. Fix: deliver through the final day and hand over all assets within five working days.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- [Value-first renewal and relationship health](references/value-first-renewal-and-relationship-health.md) — read before renewals, relationship resets, after a missed commitment, or when designing the client council.
-- [B2B customer community and key accounts](../../strategy/strategy-b2b-customer-community/SKILL.md) — grading clients and key-account plans.
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Retainer operating procedures](references/retainer-operating-procedures.md): read when running intake, defining scope, handling scope creep or change requests, running check-ins, acting on triggers, preparing renewal or offboarding.
+- [Value-first renewal and relationship health](references/value-first-renewal-and-relationship-health.md): read before renewals, relationship resets, after a missed commitment, or when designing the client council.
+- [`biz-dev-proposal`](../../business-development/biz-dev-proposal/SKILL.md): read when defining scope at proposal stage or producing the revised renewal proposal.
+- [`playbook-agency-operations`](../playbook-agency-operations/SKILL.md): read when the issue is agency-wide process rather than one client.
+- [`playbook-daily-operations-routine`](../playbook-daily-operations-routine/SKILL.md): read when the fix is day-to-day execution discipline.
+- [B2B customer community and key accounts](../../strategy/strategy-b2b-customer-community/SKILL.md): read when grading clients and planning key accounts.
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting client scripts and messages.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when setting tone for East African clients.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Before generating any output, ask for the following:
-
-1. **Client name and industry** — who is this retainer for?
-2. **Retainer start date and end date** — when does the current agreement run?
-3. **Current deliverables** — what is explicitly in scope (list every deliverable)?
-4. **Primary pain point** — select one: scope creep / non-communication / pricing
-   disputes / renewal negotiation
-5. **Relationship health** — select one: good / strained / crisis
-
-Use these inputs to tailor the output to the specific situation. If the relationship
-is strained or in crisis, prioritise Sections 5 and the reset conversation script.
-If the retainer end date is within six weeks, prioritise Section 6.
-
----
-
-## Section 1: Defining Scope Before Work Begins
-
-Scope creep starts before the contract is signed — when the scope is vague. Prevent
-it at the proposal stage (see `biz-dev-proposal`).
-
-**A complete retainer scope definition includes six named elements:**
-
-### 1. Deliverables List
-Name every deliverable with a quantity. Vague language creates disputes.
-
-- Good: "5 Instagram posts per week, 1 Facebook post per day, 1 monthly report,
-  1 strategy review call per quarter."
-- Avoid: "social media management."
-
-### 2. Platform List
-Name each platform explicitly. Any platform not listed is out of scope by default.
-Do not write "and other platforms as agreed" — this invites scope creep.
-
-### 3. Revision Rounds
-State how many rounds of revisions are included per deliverable. Standard is two
-rounds. Round three is a change request and is billed separately.
-
-### 4. Response Time
-Define community management hours precisely:
-"Respond to comments and DMs Monday–Friday, 8am–6pm EAT within 2 hours."
-Out-of-hours response is not included unless explicitly stated and priced.
-
-### 5. Approval Process
-State how long the client has to approve content before publication. Recommended:
-24 hours. State what happens if the client does not reply — standard position is
-that the consultant publishes after 24 hours, unless the client opts for a
-mandatory-approval process (which must then be reflected in the timeline).
-
-### 6. Exclusions
-Name what is NOT included. Common exclusions:
-- Paid advertising management (bidding, targeting, creative testing)
-- Graphic design beyond approved templates
-- Video production or video editing
-- PR outreach or media relations
-- Website updates or web development
-- Photography or event coverage
-
----
-
-## Section 2: Scope Creep Recognition
-
-Scope creep is any work requested that is not in the deliverables list. Recognise
-it early — the longer it goes unaddressed, the harder it is to correct.
-
-**Common scope creep requests in the East African context:**
-
-| Request Type | Example | Response |
-|---|---|---|
-| Platform add-on | "Can you also manage our TikTok?" | Change request: quote additional fee |
-| Volume increase | "Can we do 2 extra posts this week for the promotion?" | Change request: quote fee or defer to next month |
-| New service | "Can you design our new flyer?" | Decline politely; graphic design is out of scope |
-| Urgent out-of-hours | "Can you post this now? It's 9pm." | Remind of working hours; schedule for first thing tomorrow |
-| Reporting expansion | "Can you add more detail to the monthly report?" | Accommodate once; add to scope at renewal |
-| Ad-hoc strategy calls | "Can we have a quick call?" | Count against the quarterly call inclusion; additional calls are billable |
-| Translation request | "Can you do a version in Luganda?" | Change request if only English was agreed in scope |
-
-**EA-specific patterns to watch for:**
-- WhatsApp messages requesting "quick things" that accumulate into significant
-  unbilled work across the month
-- Clients adding family members or colleagues to the content approval chain without
-  prior discussion — this extends turnaround times and creates conflicting feedback
-- Requests for content in Luganda or Swahili when the agreed scope specified English only
-- New campaigns added mid-month without a conversation about capacity or additional cost
-- Clients sharing competitor content in a group chat with an implied expectation to replicate it
-
----
-
-## Section 3: Change Request Protocol
-
-When a request falls outside the agreed scope, use this protocol consistently.
-Consistency is what distinguishes a professional agency from a freelancer who says
-yes to everything and then resents it.
-
-### Step 1: Acknowledge the request positively
-Never make the client feel wrong for asking. Acknowledge the idea, then redirect.
-
-**Script (WhatsApp or email):**
-
-> "Thanks for the idea — I think this could work really well. This falls outside
-> our current agreement, but I'd be happy to add it. The additional cost would be
-> [UGX X] for [deliverable]. Would you like me to go ahead, or shall we include
-> this in the renewal next month?"
-
-### Step 2: Never say the following
-- "That's not in my job description." — sounds defensive and damages the relationship.
-- "You're asking too much." — unprofessional and accusatory.
-- "I'll do it this once." — sets the precedent that extra work is free, and
-  the client will ask again.
-
-### Step 3: Document every approved change request in writing
-
-Confirm via WhatsApp message after verbal agreement. Maintain a running log:
-
-| Date | Request | Status | Agreed Fee | Notes |
-|---|---|---|---|---|
-| [Date] | TikTok management (3 posts/week) | Approved | UGX 350,000/month | Starts Month 4 |
-| [Date] | Extra posts for Eid campaign (4 posts) | Approved | UGX 80,000 one-off | Published 9 April |
-
-Keep this log as a living document. Reference it at the monthly check-in and at
-renewal.
-
----
-
-## Section 4: Monthly Check-In Structure
-
-A structured monthly check-in prevents relationship drift and gives scope issues
-a formal channel — so they do not accumulate as WhatsApp grievances.
-
-**Monthly check-in agenda (30 minutes maximum):**
-
-| Time | Agenda Item | Purpose |
-|---|---|---|
-| 0–10 min | Results review | Walk through the monthly report; name 1 win and 1 area for improvement |
-| 10–20 min | Client priorities | "What's your biggest business focus next month? Any campaigns, events, or launches?" |
-| 20–25 min | Scope review | "We've been delivering [X]. Is there anything you'd like to adjust for next month?" |
-| 25–30 min | Action items | Agree on 2–3 specific actions; confirm who owns each |
-
-**Format guidance:**
-- In-person or WhatsApp call preferred in EA — email check-ins are frequently
-  ignored or deprioritised.
-- Send a WhatsApp voice note summary immediately after the call to confirm what
-  was agreed. This creates a record without requiring the client to read a formal document.
-- If the client cancels the check-in twice in a row, treat this as a non-communication
-  trigger (see Section 5).
-
----
-
-## Section 5: Performance Review Triggers
-
-These situations require an unscheduled review conversation. Do not wait for the
-next monthly check-in — early action protects both the client relationship and the
-retainer.
-
-| Trigger | Action |
-|---|---|
-| Primary metric (enquiries/leads) drops for 2 consecutive months | Request an emergency strategy review; proactively surface the issue before the client raises it |
-| Client posts content outside the agreed approval process | Clarify the process in writing immediately; risks include inconsistent brand voice and content conflicts |
-| Client is unresponsive for 2 or more weeks | Send a formal review request via WhatsApp and email; unresponsiveness is a retainer risk and must be named |
-| Client requests a price reduction without proposing a scope reduction | Prepare a counter-proposal pairing the reduced price with a corresponding reduction in deliverables |
-| Client relationship feels adversarial or mistrustful | Request a reset meeting; name the dynamic professionally without blame |
-| The agency misses a commitment (deadline, post window, report) | Run the trust-recovery protocol within 24 hours (see reference) |
-| Content approvals stall for 14 days, the marketing contact changes, the client's own ad spend drops, or invoices pass 45 days overdue | Treat as early warning; hold a value review before the next invoice |
-
-**Reset meeting script:**
-
-> "I want to make sure we're working well together — I think there may be some
-> things worth discussing openly. Can we schedule 30 minutes to do a relationship
-> check-in? I want to make sure this retainer is working for both of us."
-
-Name the dynamic professionally. Avoidance makes adversarial relationships worse.
-
----
-
-## Section 6: Retainer Renewal
-
-Renewals must be initiated six weeks before the retainer end date. Raising renewal
-at the last minute signals poor planning and weakens the consultant's negotiating position.
-
-### Renewal Preparation (4 Weeks Before End Date)
-
-Complete these four steps before the renewal conversation:
-
-1. **Compile results for the full period.** Pull primary metric trends, campaign
-   highlights, and wins. Frame these as outcomes for the client's business, not
-   as a list of tasks completed.
-
-2. **Identify scope additions to propose.** What new services would benefit this
-   client in the next period? This is the expansion opportunity.
-
-3. **Identify low-value deliverables.** What has been in scope but produced little
-   demonstrable result? Propose adjusting or replacing these — this demonstrates
-   strategic thinking, not just execution.
-
-4. **Prepare a revised proposal.** Updated scope, updated pricing, clear rationale.
-   Use `biz-dev-proposal` to generate the formal document.
-
-### Pricing at Renewal
-
-Set any price change from the agency's cost-to-serve sheet, the value delivered and the market, not from a remembered "standard" percentage. Communicate it six weeks in advance, not on the day of renewal.
-
-Frame the increase in terms of results and forward value:
-
-> "Over the past year we've achieved [result]. For next year, the investment will
-> be [new price], which includes [new addition or quality improvement]. I've put
-> together a proposal — can we schedule 30 minutes to go through it?"
-
-Do not apologise for the increase. A price increase tied to demonstrated results
-is professional and justified.
-
-### Value-First Renewal Negotiation
-
-Open with results against the agreed baseline and next year's plan before any price. Present three packages of equal value to the agency that differ in scope, support and risk-sharing (MESO), trade concessions only on "if you…, then we…" terms, and hold a short post-settlement session after signing to look for improvements that help both sides. Full procedure, scripts and the concession worksheet are in [`references/value-first-renewal-and-relationship-health.md`](references/value-first-renewal-and-relationship-health.md).
-
-### Renewal Conversation Script
-
-> "I'd love to continue working together. I've put together a review of what we've
-> achieved this year and a proposal for next year. Can we schedule 30 minutes to
-> go through it?"
-
-Schedule the meeting before sending the proposal document. A proposal sent without
-a conversation is easier to decline.
-
-### If the Client Does Not Renew
-
-Handle the offboarding professionally. East African professional communities are
-small — word travels.
-
-1. Complete all contracted deliverables through the final day of the retainer period.
-   Do not scale back effort because the relationship is ending.
-2. Hand over all assets within five working days of the final date: content files,
-   brand assets, login credentials (where held), strategy documents, and reports.
-3. Send a formal offboarding message:
-
-   > "It's been a pleasure working with you. Attached is everything you'll need
-   > for a smooth handover. Please don't hesitate to reach out if you have any
-   > questions during the transition."
-
-4. Do not speak negatively about the client in professional circles.
-5. Log the experience: what worked, what did not, what to change in the next
-   retainer agreement. Use this to improve the scope definition at the next
-   proposal stage.
-
----
-
-## Quality Criteria
-
-Output from this skill meets the standard when:
-
-- The scope definition checklist covers all six named elements: deliverables,
-  platforms, revision rounds, response time, approval process, and exclusions
-- The scope creep table lists at least six common EA request types, each with a
-  specific scripted or recommended response
-- The change request protocol includes a word-for-word script that is positive
-  in tone and professionally firm on boundaries
-- The monthly check-in is structured as a timed 30-minute agenda with four named
-  segments and a clear purpose for each
-- Performance review triggers are defined as specific, observable signals with
-  specific named actions — not general advice
-- Renewal preparation is framed as a six-week process, not a last-minute conversation
-- The offboarding process is included for non-renewals, with a word-for-word
-  handover message and a five-working-day asset handover deadline
-- Renewal opens with value against an agreed baseline, uses equal-value options and conditional concessions, and contains no unsourced "standard increase" percentage
-- The client-council or value-workshop step and the trust-recovery protocol are included for retainers above the agency's defined grade threshold

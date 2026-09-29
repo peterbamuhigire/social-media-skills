@@ -2,7 +2,7 @@
 
 Create and revise skills under `skills/<category>/<skill-name>/`. Read [the authoring standard](docs/standards/skill-authoring-standard.md) and copy [the skill template](docs/templates/SKILL.template.md); do not create an active skill directly under `skills/`.
 
-Preserve the skill's domain knowledge. Frontmatter and marker repairs may be mechanical, but inputs, decisions, examples, evidence, degraded behaviour, safety boundaries, and acceptance conditions require domain judgement. Keep `SKILL.md` at or below 500 lines and link extracted references back to the parent entrypoint.
+Preserve the skill's domain knowledge. Frontmatter and marker repairs may be mechanical, but inputs, decisions, examples, evidence, degraded behaviour, safety boundaries, and acceptance conditions require domain judgement. Keep `SKILL.md` at or below 300 lines (the lean template, D-SK-06) and link extracted references back to the parent entrypoint.
 
 Before opening or merging a change, run:
 

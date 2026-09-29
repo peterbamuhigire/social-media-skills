@@ -176,7 +176,7 @@ For high-volume idea generation. Take any topic category, apply two angles:
 - Angle 1: "The Complete Guide to [Topic]" (comprehensive)
 - Angle 2: "Top [N] Tips for [Topic]" (listicle/actionable)
 
-61 categories available (see `references/content-formats.md` for the full list).
+The source listed 61 topic categories, which were not carried into this engine (verify against the source before quoting the number); use the 20 formats in [content-formats.md](content-formats.md) as the category list.
 
 ---
 
@@ -222,7 +222,7 @@ Find your distinctive angle:
 
 ## Headline Patterns (Enhanced)
 
-In addition to the 10 templates in `sales-copywriting/references/headline-mastery.md`, these blog-specific patterns work well:
+In addition to the headline families in [headline-and-hook-families.md](../../../advertising/ad-copy-and-hook-lab/references/headline-and-hook-families.md) (the source's `sales-copywriting/references/headline-mastery.md` does not exist in this engine), these blog-specific patterns work well:
 
 | Pattern | Template |
 |---------|----------|
@@ -241,7 +241,7 @@ In addition to the 10 templates in `sales-copywriting/references/headline-master
 Always generate 3 headline options per article. Each incorporates: the topic, the unique angle, the audience appeal.
 
 ### 4 U's Test (AWAI)
-Score each headline on Useful, Unique, Urgent, Ultra-specific (1-4 each). Publish only if 3+ dimensions score 3+. See `sales-copywriting/references/headline-mastery.md`.
+Score each headline on Useful, Unique, Urgent, Ultra-specific (1-4 each). Publish only if 3+ dimensions score 3+. See [headline-and-hook-families.md](../../../advertising/ad-copy-and-hook-lab/references/headline-and-hook-families.md).
 
 ---
 

@@ -9,6 +9,8 @@ metadata:
 ---
 # Cross-Platform Organic Video Strategy
 
+Plans organic video across TikTok, Reels, YouTube, Facebook and WhatsApp Status for East African businesses: platform roles, hooks, scripts, series, sales videos and the monthly learning loop.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,390 +31,90 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to cross-platform organic video formats, hooks, series, scripts, and learning loops | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Client name, business type (product / service / B2B / B2C), industry and primary offering | Client | Yes | Ask; hook examples cannot be written for an unnamed offer. |
+| Country/city and primary goal (awareness, lead generation, sales conversion, community, authority) | Client | Yes | Default to Uganda / East Africa and plan for awareness with labelled assumptions. |
+| Platforms in scope (TikTok, Instagram Reels, YouTube, Facebook, WhatsApp Status) | Client lead | Yes | Blueprint TikTok, Facebook and WhatsApp Status and mark the rest `not assessed`. |
+| Production capacity (hours per week, smartphone only or camera and mic) and on-camera talent (owner, owner + staff, dedicated creator) | Client | Yes | Plan smartphone-only, owner-presented Hub content at the lowest cadence. |
+| Existing videos and what performed best | Native analytics (YouTube Studio, TikTok Analytics, Meta Business Suite) | If any | Start a 14-day baseline before setting targets. |
+| Written consent and disclosure plan for any AI avatar, cloned voice or likeness | The person filmed or cloned; client | If AI video is in scope | Stop; no voice or likeness is cloned without written consent. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `training-smartphone-video-production`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm the need is editorial and channel strategy, not camera training (`training-smartphone-video-production`), a full channel plan (`platform-youtube`, `platform-tiktok`) or a live stream (`strategy-experiential-marketing`); run the intake in the [organic video method](references/organic-video-method.md).
+2. Set platform roles under the three laws (Stop, Hold, Convert; platform-native first; share or solve, don't shill at 80/20) and write a blueprint for each platform in scope.
+3. Write hooks with the [Pattern Interrupt] + [Specific Promise] + [Urgency or Curiosity Trigger] formula, at least three for the client's industry, and draft short- and long-form scripts.
+4. Test every script before filming against the WILMA test and Handley's six story characteristics; rewrite any script that triggers no WILMA response.
+5. For sales enablement, plan the Selling 7 in priority order (Video 1, then 6, then 3 and 4, then 2, 5 and 7) and brief presenters on the on-camera rules.
+6. Assign Hero, Hub or Hygiene to every video type at a frequency the capacity allows, and map one repurposing chain; for AI avatars apply the [AI avatar reference](references/ai-avatar-and-personalised-video.md) and stop without written consent and disclosure, and for podcasts apply the [podcast reference](references/podcast-and-audio-series.md).
+7. Set the monthly video metrics and the 14-day review rule; correct any benchmark stated without its organic label and rerun the check, then run the anti-slop gate and hand over.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Cross-platform organic video formats, hooks, series, scripts, and learning loops deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Platform-by-platform video blueprint | Content producer | Covers every platform in scope with its algorithm, format and EA audience behaviour; no generic section. |
+| Hook bank and short- and long-form scripts | Presenter; editor | At least three industry-specific hooks; each script passes WILMA before filming. |
+| Selling 7 plan and on-camera rules (when sales enablement is in scope) | Sales lead | Videos ordered by priority with length and placement. |
+| Hero/Hub/Hygiene video calendar and repurposing chain | Content producer; `11-content-calendar` | Every video type tiered; one worked chain shows one video becoming 6–8 outputs. |
+| Video analytics table and review rule | Client lead | Metrics labelled as organic benchmarks, reviewed monthly, with the 14-day rule. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| WILMA and story-characteristic check per script | Checklist | At least one WILMA response recorded before filming. |
+| Platform specification register (format, length, cadence, date checked) | Table | Each specification is checked against the platform's current help pages or marked `not assessed`. |
+| Consent and AI-disclosure record (when AI video is used) | Signed consent and disclosure text | Present before any volume production. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Cloning a voice or likeness needs the person's written consent, and AI-generated video needs disclosure.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without the client's platforms in scope and production capacity, return the narrowest qualified result and mark the affected checks `not assessed`. The hook formula, script templates, WILMA test and a smartphone-only Hub series can still be delivered.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| The need is editorial and channel strategy rather than camera training | Choose platform roles and repeatable series before production detail | A production tutorial substitutes for a content strategy |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
-| The brief calls for an AI avatar presenter, cloned voice, or personalised avatar video at scale | Apply [ai-avatar-and-personalised-video.md](references/ai-avatar-and-personalised-video.md): tool selection, avatar brief, avatar script rules, distribution, and written disclosure and likeness consent before volume production | Undisclosed synthetic media or a likeness used without consent |
-| The series is a podcast or other episodic audio show | Apply [podcast-and-audio-series.md](references/podcast-and-audio-series.md): the Yes/No fit test, format, minimum set-up, 12-episode plan, and EA distribution | A podcast launched without the capacity or audience to sustain it |
+| The need is editorial and channel strategy rather than camera training | Choose platform roles and repeatable series before production detail. | A production tutorial substitutes for a content strategy. |
+| More than 20 % of planned videos are promotional | Rebalance to 80 % solve, entertain or educate and 20 % sell. | Algorithmic suppression within 4–6 weeks. |
+| A script triggers no WILMA response | Rewrite it before filming. | Videos that are scrolled past. |
+| Footage is landscape-only but the platform is vertical | Shoot for, or adapt to, the primary platform's native format before repurposing. | A portrait crop that does not perform. |
+| A video is under 14 days old | Keep it running; pull it only if it fails to reach 30 % of the account's average views after 14 days. | Judging on the first 48-hour algorithm test alone. |
+| The brief calls for an AI avatar presenter, cloned voice, or personalised avatar video at scale | Apply [ai-avatar-and-personalised-video.md](references/ai-avatar-and-personalised-video.md): tool selection, avatar brief, avatar script rules, distribution, and written disclosure and likeness consent before volume production. | Undisclosed synthetic media or a likeness used without consent. |
+| The series is a podcast or other episodic audio show | Apply [podcast-and-audio-series.md](references/podcast-and-audio-series.md): the Yes/No fit test, format, minimum set-up, 12-episode plan, and EA distribution. | A podcast launched without the capacity or audience to sustain it. |
+| Authority is limited to analysis or planning, or evidence is contradictory | Deliver a read-only plan and approval checklist; pause the affected recommendation and request the source. | Unauthorised publication or advice built on an unresolved premise. |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- Includes a platform-by-platform video blueprint covering all platforms in the client's scope — no platform is covered with generic advice; each section is specific to that platform's algorithm, format, and EA audience behaviour.
+- Applies the WILMA test explicitly — the strategy document includes the test and instructs the client to apply it to each piece of content before publishing.
+- Provides at least three complete hook examples specific to the client's industry and product/service type.
+- Includes at least one worked repurposing chain showing how a single video becomes 6–8 cross-platform outputs.
+- Assigns the Hero / Hub / Hygiene tier to every video type recommended, with realistic production frequency matched to the client's stated capacity.
+- Includes the video analytics table with the five key metrics, labelled as organic benchmarks.
+- All content defaults to Uganda / East Africa market context — equipment recommendations reference local prices, posting times reference EAT, and audience behaviour notes reflect the EA platform landscape.
+- British English is used throughout — no American spellings; `ai-marketing/anti-ai-slop` is applied during drafting and release is blocked on an F from `ai-marketing/ai-slop-audit`.
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Optimising the hook only. Fix: design for the hold and the convert as well.
+- Opening with "Hey guys, welcome back." Fix: start with a bold statement, question or surprising visual in the first 0–3 seconds.
+- More than one CTA per video. Fix: one action, clearly stated.
+- Relying on sound in Facebook feed video. Fix: add captions and a hook that works without audio in the first 3 seconds.
+- Stopping filming mid-sentence after a mistake. Fix: apply the Don't Stop, Can Do It Again and 3-Second Smile rules.
+- Posting YouTube links to Facebook instead of native uploads. Fix: upload video natively.
+- Publishing AI-generated video without disclosure. Fix: disclose and hold written likeness consent before production.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
-- [ai-avatar-and-personalised-video](references/ai-avatar-and-personalised-video.md) — read when the video uses an AI avatar or cloned voice (Synthesia, HeyGen, Tavus, D-ID, Elai.io), including personalised outreach, client report and onboarding videos.
-- [podcast-and-audio-series](references/podcast-and-audio-series.md) — read when the client wants a podcast or episodic audio series, from the fit decision to launch-day distribution and growth.
+- [Organic video method](references/organic-video-method.md): read when running the intake, writing platform blueprints, hooks and scripts, applying WILMA and the story characteristics, planning the Selling 7 and on-camera rules, building the calendar and repurposing chain, or setting analytics.
+- [AI avatar and personalised video](references/ai-avatar-and-personalised-video.md): read when the video uses an AI avatar or cloned voice (Synthesia, HeyGen, Tavus, D-ID, Elai.io), including personalised outreach, client report and onboarding videos.
+- [Podcast and audio series](references/podcast-and-audio-series.md): read when the client wants a podcast or episodic audio series, from the fit decision to launch-day distribution and growth.
+- [`training-smartphone-video-production`](../../training/training-smartphone-video-production/SKILL.md): read when the team needs hands-on filming, sound, light and editing skills.
+- [`platform-youtube`](../../platforms/platform-youtube/SKILL.md) and [`platform-tiktok`](../../platforms/platform-tiktok/SKILL.md): read when a full channel operating plan is needed.
+- [AGENTS.md](../../../AGENTS.md): read when routing to a neighbour skill or engine.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when writing hooks, scripts and captions.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Before generating this strategy, collect the following:
-
-- **Client name** and business type (product / service / B2B / B2C)
-- **Industry** and primary offering
-- **Country / city** (default: Uganda / East Africa)
-- **Primary goal** — awareness / lead generation / sales conversion / community building / authority
-- **Platforms in scope** (TikTok, Instagram Reels, YouTube, Facebook, WhatsApp Status — select all that apply)
-- **Content production capacity** — hours per week and devices available (smartphone only, or also a camera and mic?)
-- **On-camera talent** — owner only, owner + staff, or a dedicated creator?
-- **Existing video presence** — any videos already published? What performed best?
-
----
-
-## Strategic Foundation
-
-### The Three Laws of Organic Video
-
-**Law 1 — Stop, then Hold, then Convert**
-Every video must earn three things in sequence: (1) a pause from a scrolling thumb (the hook), (2) continued watching to the end (the hold), and (3) an action after watching (the convert). A video that stops the scroll but loses the viewer at 5 seconds has failed Laws 2 and 3. Optimise all three — not just the hook.
-
-**Law 2 — Platform-Native First**
-A vertical video shot for TikTok may work on Reels. A horizontal YouTube tutorial cannot simply be posted to TikTok. Every piece of video content must be shot for — or adapted to — the primary platform's native format before being repurposed. Do not shoot landscape-only and expect a portrait crop to perform.
-
-**Law 3 — Share or Solve, Don't Shill**
-Apply Handley (2012): every video must either *solve a real problem* the audience has or *create content the audience wants to share*. Videos that exist only to promote the brand get skipped. The 80/20 principle: 80% of video content solves, entertains, or educates; 20% sells. Clients who invert this ratio will see algorithmic suppression within 4–6 weeks.
-
----
-
-## The WILMA Test (Waters, 2019)
-
-Before publishing any video, run the WILMA test. A video that triggers at least one WILMA response is worth posting. A video that triggers none should be rewritten.
-
-| Letter | Response | Prompt |
-|---|---|---|
-| **W** | Wow | Does this surprise or astonish the viewer? |
-| **I** | Inspirational | Does this motivate the viewer to do or believe something? |
-| **L** | LOL | Does this make the viewer laugh or smile? |
-| **M** | Moving | Does this create emotional resonance — warmth, empathy, or feeling? |
-| **A** | Agree | Does this express a view the viewer immediately endorses and wants to share? |
-
-Apply the WILMA test to the script before filming, not after editing. Emotional content is shared; informational content is saved; promotional content is scrolled past.
-
----
-
-## Platform-by-Platform Video Blueprint
-
-### TikTok
-
-**Algorithm logic:** TikTok distributes based on completion rate, shares, and comments. A 70%+ completion rate gets pushed to new audiences. Completion rate matters more than follower count — a 500-follower account with 75% completion outperforms a 50,000-follower account with 20% completion.
-
-| Element | Guidance |
-|---|---|
-| **Format** | 9:16 vertical, 1080×1920px |
-| **Optimal length** | 21–34 seconds (highest average completion) or 60–90 seconds (for educational content that commands attention) |
-| **Hook window** | First 1.5 seconds must stop the scroll — start mid-action, with a bold statement, or with a surprising visual |
-| **Caption style** | Bold text overlays throughout; spoken word + text captions = maximum retention |
-| **Sound** | Trending audio boosts algorithmic discovery; original audio builds brand identity; use both strategically |
-| **Posting cadence** | 1× per day (growth) or 4–5×/week (maintenance); consistency matters more than frequency |
-| **Primary purpose** | Awareness, entertainment, and virality; not the primary selling platform |
-
-**EA-specific note:** TikTok penetration is highest in the 16–30 demographic in Uganda. Content in English with Luganda or Swahili phrases outperforms English-only in discoverability and share rate.
-
----
-
-### Instagram Reels
-
-**Algorithm logic:** Reels are distributed to non-followers (Explore tab and Reels feed). Unlike feed posts, Reels reach people who do not yet follow the account. This makes Reels the primary organic growth engine on Instagram.
-
-| Element | Guidance |
-|---|---|
-| **Format** | 9:16 vertical, 1080×1920px; safe zone for UI overlays: keep key text within central 1080×1350px |
-| **Optimal length** | 15–30 seconds for maximum reach; up to 90 seconds for educational value |
-| **Hook window** | First 2 seconds; begin speaking or showing action before the audio kicks in |
-| **Caption** | Write the Reel caption for the non-follower who discovers the account through Reels — treat it as a first impression |
-| **Posting cadence** | 3–5 Reels per week for growth; combine with Stories (daily) and feed posts (3×/week) |
-| **Hashtags** | 3–5 targeted hashtags; mix: 1 broad (1M+), 2 niche (50K–500K), 2 local (#KampalaFashion, #UgandaBusiness) |
-
----
-
-### YouTube (Long-form and Shorts)
-
-**Algorithm logic:** YouTube is a search engine. Long-form video ranks on YouTube Search and Google Search — this is the highest-value SEO opportunity available without paid advertising. Shorts have a separate, TikTok-like discovery algorithm.
-
-**Long-form (5–15 minutes):**
-
-| Element | Guidance |
-|---|---|
-| **Format** | 16:9 horizontal, 1080p minimum |
-| **Title formula** | [Keyword] + [Benefit or Intrigue]: "How to Start a Business in Uganda in 2025 (Without Capital)" |
-| **Thumbnail rule** | 80% of clicks come from the thumbnail — include a face, a bold number or word, and high contrast. No busy text. |
-| **Structure** | Hook (0–30 sec) → promise what they'll get → deliver in chapters → CTA at end |
-| **Chapters** | Add timestamps in the description for every main section; chapters boost retention and improve search ranking |
-| **Description** | First 200 characters appear in search results — lead with keywords, then the value proposition |
-| **Posting cadence** | 1× per week minimum for growth; 2× per week if production capacity allows |
-
-**Shorts (under 60 seconds):**
-Shorts have a separate algorithm. Post Shorts in addition to long-form — they do not cannibalise long-form views. Repurpose the strongest 45–60 second clip from each long-form video as a Short.
-
----
-
-### Facebook Video
-
-**Algorithm logic:** Facebook deprioritises most organic reach, but native video (uploaded directly, not linked from YouTube) performs significantly better than links. Facebook Watch rewards watch time and meaningful interactions (comments over likes).
-
-| Element | Guidance |
-|---|---|
-| **Format** | Square (1:1, 1080×1080px) for feed; 9:16 for Stories and Reels |
-| **Optimal length** | 1–3 minutes for feed video; under 30 seconds for Stories |
-| **Captions** | Essential — 85% of Facebook video is watched without sound (Waters, 2019) |
-| **Hook** | First 3 seconds must work without audio — bold title card or action visible from the start |
-| **Posting cadence** | 3–4 videos per week on Facebook; supplement with non-video posts on remaining days |
-
----
-
-### WhatsApp Status
-
-| Element | Guidance |
-|---|---|
-| **Format** | 9:16 vertical; under 16MB per clip for reliable delivery on mobile data |
-| **Maximum length** | 30 seconds per clip; link to longer video in the accompanying text |
-| **Purpose** | Warm, personal, behind-the-scenes; the most intimate video format in the EA toolkit |
-| **Cadence** | Daily or near-daily Status posting keeps the brand top-of-mind without the algorithm |
-| **Conversion** | Always include a reply invitation: "Reply YES to get the full guide" or "WhatsApp us [number] to order" |
-
----
-
-## Hook Writing Framework
-
-The hook is the most important sentence in any video. Apply this three-part structure.
-
-**Hook formula:**
-
-```
-[Pattern Interrupt] + [Specific Promise] + [Urgency or Curiosity Trigger]
-```
-
-**Pattern interrupt options:**
-- Start mid-sentence or mid-action
-- Open with a bold, controversial statement
-- Show the end result first ("By the end of this video, you'll know exactly how to...")
-- Ask a question that the viewer immediately answers in their head
-- State a number ("3 things most people get wrong about...")
-
-**Specific promise:** name exactly what the viewer will learn, gain, or feel
-**Urgency / curiosity trigger:** "before you do X", "most people don't know this", "this is why X isn't working"
-
-**Hook examples by content type:**
-
-| Content type | Hook example |
-|---|---|
-| Tutorial | "Stop doing this with your cooking oil — it's costing you money every week." |
-| Business insight | "I interviewed 50 Kampala business owners. Here's the one thing every profitable one does." |
-| Product demonstration | "This is what happens when you add [ingredient] to [product] — we didn't expect this." |
-| Behind-the-scenes | "Here's what our first week of business actually looked like — not what we planned." |
-| Opinion | "Hot take: your social media manager is not the reason you're not getting clients." |
-
----
-
-## Video Script Templates
-
-### Short-Form Script (15–60 seconds)
-
-```
-[HOOK — 0–3 seconds]
-Bold statement, question, or surprising visual. No intro. No "Hey guys, welcome back."
-
-[BRIDGE — 3–8 seconds]
-One sentence expanding on the hook. Why this matters to the viewer right now.
-
-[CONTENT — 8–50 seconds]
-The actual value: 3 tips, a demonstration, a result, or a short story. One idea per video.
-No tangents. No padding. If it does not serve the hook, cut it.
-
-[CTA — final 3–5 seconds]
-One action only. "Follow for more", "Comment [WORD] and I'll DM you the guide",
-or "WhatsApp us [number] to order."
-```
-
-### Long-Form Script (5–15 minutes)
-
-```
-[HOOK — 0–30 seconds]
-State the problem and the promise. Tell the viewer exactly what they'll have by the end.
-
-[CREDIBILITY — 30–60 seconds]
-One sentence establishing why this person is qualified to speak on this topic.
-Not a lengthy bio — one specific credential or result.
-
-[CONTENT BLOCK 1 — ~3 minutes]
-First major point with example, demonstration, or story.
-
-[PATTERN INTERRUPT — between blocks]
-A visual change, B-roll clip, or question to the camera: keeps the viewer re-engaged.
-
-[CONTENT BLOCK 2 — ~3 minutes]
-Second major point.
-
-[CONTENT BLOCK 3 — ~3 minutes]
-Third major point, or the "here's how to apply this" practical section.
-
-[CTA + CLOSE — final 1–2 minutes]
-Restate what was covered. One CTA (subscribe / WhatsApp / book a call / link in description).
-Do not add a second CTA — one action, clearly stated.
-```
-
----
-
-## The Selling 7 — Sales-Enabling Video Framework (Sheridan, 2019)
-
-Beyond organic content, every business needs a set of videos that actively enable the sales process. These seven types answer the questions that salespeople answer repeatedly in conversations and meetings — freeing sales staff and pre-qualifying prospects before they ever speak to the business.
-
-**Video 1 — The 80 Percent Video**
-One video that answers the 70–80% of questions every sales conversation covers. Produced by filming a real sales person explaining what they would say to a new prospect. Length: 5–8 minutes. Benefit: prospects who watch this before the first meeting arrive already informed, shortening the sales cycle by 30–50%. Distribute via email before discovery calls and on the website's homepage.
-
-**Video 2 — Bio Videos for Email Signatures**
-A 30–60 second personal introduction video for every team member's email signature. "Hi, I'm [Name] at [Company]. I look forward to speaking with you about [topic]." Every email becomes a handshake. Average result: 25–30 additional profile views per month per email address. Particularly effective in B2B and professional services.
-
-**Video 3 — Product/Service Fit Videos**
-Short videos (2–3 minutes) answering "Is this the right fit for me?" — covering who the product or service is for, who it is NOT for, and under what circumstances. Reduces mismatched enquiries; increases the close rate on qualified enquiries. Place prominently on service pages.
-
-**Video 4 — Landing Page Videos**
-A 60–90 second video on any page with a form or conversion point. A human face and voice explaining what the visitor will receive by signing up, booking, or enquiring. Documented to increase form conversion rates by up to 80% (Sheridan, 2019). The video should specifically address hesitation — "You might be wondering if..." — before the viewer types it into their search bar.
-
-**Video 5 — Cost and Pricing Videos**
-A 2–3 minute video explaining pricing honestly — ranges, what drives the price up or down, and what is not included. Companion to any written pricing content. Positions the business as the transparent authority in the category. Reduces the "how much does this cost?" question in every subsequent sales call.
-
-**Video 6 — Customer Journey Videos**
-Testimonials filmed as a narrative journey: what the customer's situation was before, what they experienced during, and the outcome achieved. Three minutes maximum. The customer speaks to camera — not a quote displayed on screen. These are the most powerful social proof assets a business can possess and should be placed at every decision-stage touchpoint.
-
-**Video 7 — "Claims We Make" Videos**
-Every business claims to be "experienced", "trusted", "passionate", or "the best". These claims are invisible on paper. A video that shows evidence — behind-the-scenes processes, quality checks, certifications, team expertise — turns abstract claims into visible proof. Use on the "About Us" page and in proposal emails.
-
-**The Selling 7 prioritisation order for most EA businesses:** Start with Video 1 (highest sales leverage), then Video 6 (social proof drives decision), then Video 3 and 4 (reduce friction on website). Videos 2, 5, and 7 follow once the core set is in place.
-
----
-
-## On-Camera Performance Rules (Sheridan, 2019)
-
-The biggest barrier to video content is on-camera anxiety. Apply these three rules to every filming session.
-
-**The Don't Stop Rule:** Never stop filming mid-sentence because of a mistake. Finish the thought, pause, breathe, and repeat the sentence from the beginning of that thought. Stopping constantly kills momentum and makes editing extremely difficult. Treat the camera like a conversation.
-
-**The Can Do It Again Rule:** For every shot, immediately film a second take. Not because the first was bad — because two takes give the editor a choice and the presenter a chance to improve a detail. The second take is almost always better than the first.
-
-**The 3-Second Smile Rule:** Before speaking to camera, pause for exactly three seconds and smile. This eliminates the "frozen startled face" that appears in the first second of most amateur video. It gives the editor a natural in-point and settles the presenter before they begin.
-
-**Personalised Video for Email:** Short personalised videos (60–90 seconds) recorded for a specific prospect before sending a follow-up email increases open rates by 20–40% when the subject line reads "I recorded a quick video for you, [Name]" (Sheridan, 2019). Use free tools like Vidyard Goboard or Loom. One personalised video replaces three follow-up emails in relationship-building effectiveness.
-
----
-
-## Video Content Calendar Logic
-
-Apply the Hero / Hub / Hygiene model (YouTube / Google) across the video calendar:
-
-| Tier | Type | Frequency | Purpose |
-|---|---|---|---|
-| **Hero** | Campaign video, product launch, brand film | 1× per quarter | Maximum effort; maximum reach; designed to be shared |
-| **Hub** | Weekly series, recurring format (e.g. "Monday tip") | 1–2× per week | Builds habitual viewing; the core of the content calendar |
-| **Hygiene** | FAQs, how-tos, product explainers, evergreen tutorials | 2–3× per month | Searchable; drives traffic independently of posting schedule |
-
-**Repurposing chain (Nemo, 2017):**
-Every long-form video becomes:
-1. A YouTube video (full length)
-2. A YouTube Short (best 45–60 second clip)
-3. An Instagram Reel (same clip, adapted caption)
-4. A TikTok video (same clip or slightly adapted)
-5. A WhatsApp Status clip (30-second highlight)
-6. A quote graphic (strongest single line from the script)
-7. A blog post or LinkedIn article (transcript adapted to text)
-8. An email newsletter section (summary with link to full video)
-
-One filming session → 8 content pieces → 3–4 weeks of cross-platform posting.
-
----
-
-## Analytics and Optimisation
-
-Track these video-specific metrics monthly. Use platform-native analytics (YouTube Studio, TikTok Analytics, Meta Business Suite).
-
-| Metric | What it tells you | Target |
-|---|---|---|
-| **Average view duration** | Whether the content holds attention after the hook | 50%+ for short-form; 40%+ for long-form |
-| **Completion rate** | Whether the video fully delivered on its promise | 60–70% for short-form |
-| **Shares per view** | Whether the content passed the WILMA test | Track trend; shares > likes signals viral potential |
-| **Comments (not likes)** | Depth of engagement; audience relationship quality | Any real question or conversation counts |
-| **Click-through rate (CTR) on thumbnails** | Whether title + thumbnail are compelling | YouTube: 4–8% is good; under 2% = rewrite the title |
-| **Profile/page visits from video** | Whether video is converting viewers to followers | Track alongside follower growth rate |
-
-**Optimisation rule:** Run every video for 14 days before assessing performance. The first 48 hours are the algorithm test; days 3–14 show the sustained performance. Only pull a video from the calendar if it fails to reach 30% of the account's average views after 14 days.
-
----
-
-## Six Story Characteristics (Handley, 2012)
-
-Apply to video scripts before filming. A great video script is always:
-
-1. **True** — grounded in real experience, real data, or real client stories
-2. **Relevant** — speaks to a specific problem the audience recognises as their own
-3. **Human** — has a real person at the centre; audiences connect with people, not brands
-4. **Passionate** — the creator visibly cares about the topic; flatness on camera kills credibility
-5. **Original** — a distinct perspective, not a rephrase of what three other accounts already posted
-6. **Surprising** — contains at least one moment the viewer did not expect
-
----
-
-## Quality Criteria
-
-Output from this skill meets the standard when it:
-
-1. Includes a platform-by-platform video blueprint covering all platforms in the client's scope — no platform is covered with generic advice; each section is specific to that platform's algorithm, format, and EA audience behaviour
-2. Applies the WILMA test explicitly — the strategy document includes the test and instructs the client to apply it to each piece of content before publishing
-3. Provides at least three complete hook examples specific to the client's industry and product/service type
-4. Includes at least one worked repurposing chain showing how a single video becomes 6–8 cross-platform outputs
-5. Assigns the Hero / Hub / Hygiene tier to every video type recommended, with realistic production frequency matched to the client's stated capacity
-6. Includes the video analytics table with the five key metrics, labelled as organic benchmarks
-7. All content defaults to Uganda / East Africa market context — equipment recommendations reference local prices, posting times reference EAT, and audience behaviour notes reflect the EA platform landscape
-8. British English is used throughout — no American spellings

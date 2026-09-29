@@ -57,7 +57,7 @@ The most common mistake is trying to serve everyone. The most effective East Afr
 2. In which do you produce the best results?
 3. Which clients pay the best and respect your expertise the most?
 
-The right niche is the overlap of all three (decision rule 1 where they diverge). The parent skill's Part 3 selection grid and narrowing layers can then sharpen it.
+The right niche is the overlap of all three (decision rule 1 where they diverge). The Part 3 selection grid and narrowing layers in [positioning-method.md § Part 3 — Defining the Niche](positioning-method.md) can then sharpen it.
 
 **Market viability test** (adapted from Nelson, 2019). Test the candidate niche against four questions:
 

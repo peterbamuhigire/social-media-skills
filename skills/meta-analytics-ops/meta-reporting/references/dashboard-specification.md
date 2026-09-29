@@ -84,7 +84,7 @@ Alternative for non-Google environments: a structured Google Sheets dashboard wi
    - Amber: within 10% below target
    - Red: more than 10% below target
 
-   Show metric name, current value, previous period value, percentage change and RAG status. Note: the written monthly report in the SKILL.md uses a 15% amber band; state which threshold applies in each deliverable and keep the dashboard and report consistent for the same client.
+   Show metric name, current value, previous period value, percentage change and RAG status. Note: the written monthly report (SKILL.md; template moved to [monthly-report-template.md](monthly-report-template.md) in S09) uses a 15% amber band; state which threshold applies in each deliverable and keep the dashboard and report consistent for the same client.
 2. **Trend charts (middle section).** Two or three line charts showing weekly performance over the past 12 weeks. Suggested metrics: total reach or sessions; engagement rate or goal completion rate; lead volume or revenue.
 3. **Channel breakdown (middle section).** One horizontal bar chart comparing performance by traffic source or platform. It answers: "Which channel is working hardest this month?"
 4. **Key insight and recommendation (bottom section).** Two sentences in plain language: sentence 1, what the data shows this month in summary; sentence 2, the single most important action to take next month. This is the section the client is most likely to read. Write it last, after reviewing all the data.

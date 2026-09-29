@@ -10,7 +10,7 @@ metadata:
 
 # Ad-to-Site Journey Handoff
 
-Define the contract between a marketing campaign and the website that receives its traffic: what the landing page must say and do, how every click is tagged and every conversion counted, who owns each piece, and when the journey is ready to go live. This engine writes the brief and the measurement definitions; website-skills builds the page.
+Defines the contract between a campaign and the website that receives its traffic: what the landing page must say and do, how every click is tagged and every conversion counted, who owns each piece, and when the journey is ready to go live. This engine writes the brief and the measurement definitions; website-skills builds the page.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -51,7 +51,7 @@ Define the contract between a marketing campaign and the website that receives i
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Landing-page brief | Website team / website-skills, designer | Every field complete; headline and offer match the ads; one primary action |
 | Measurement spec | Tag owner, analyst | UTM table, event list with triggers, conversion values and consent rules defined |
@@ -70,11 +70,11 @@ Define the contract between a marketing campaign and the website that receives i
 
 ## Capability and Permission Boundaries
 
-Read and search ads, pages and analytics exports. Writing briefs, specs and audits is drafting and read-only with respect to live systems. Editing websites, installing tags, changing consent tools, publishing pages or launching traffic requires explicit authority from the client and the website owner. Form data collection must follow the client's lawful basis and privacy notice.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Editing websites, installing tags, changing consent tools, publishing pages or launching traffic also needs the website owner's authority, and form data collection must follow the client's lawful basis and privacy notice.
 
 ## Degraded Mode
 
-If the site, analytics or owners are unavailable, return the narrowest useful qualified package: the brief and measurement spec with unassessed checks marked `not assessed`, plus a discovery list. Never mark tracking or consent as working without a test record.
+Without access to the site, analytics or named owners, return the narrowest qualified result and mark the affected checks `not assessed`. The brief and measurement spec can still be delivered with a discovery list; never mark tracking or consent as working without a test record.
 
 ## Decision Rules
 
@@ -108,36 +108,11 @@ If the site, analytics or owners are unavailable, return the narrowest useful qu
 
 ## References
 
-- [Landing-page brief template](references/landing-page-brief-template.md) — read when briefing any destination page.
-- [Destination UX heuristics](references/destination-ux-heuristics.md) — read when auditing or briefing a page's usability and trust.
-- [Measurement and ownership spec](references/measurement-and-ownership-spec.md) — read when defining UTMs, events, consent and the RACI.
-- [UX engagement diagnostics](references/ux-engagement-diagnostics.md) — read when the destination needs UX work the client has not scoped: design paradigm, scope level, production path, maturity ladder, team roles and briefing points before handoff.
-- [Post-click strategy](../../playbooks/playbook-post-click-strategy/SKILL.md); [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md); [advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md).
-- [12-website-content-plan](../../pipeline/12-website-content-plan/SKILL.md); [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md).
+- [Landing-page brief template](references/landing-page-brief-template.md): read when briefing any destination page.
+- [Destination UX heuristics](references/destination-ux-heuristics.md): read when auditing or briefing a page's usability and trust.
+- [Measurement and ownership spec](references/measurement-and-ownership-spec.md): read when defining UTMs, events, consent and the RACI.
+- [UX engagement diagnostics](references/ux-engagement-diagnostics.md): read when the destination needs UX work the client has not scoped: design paradigm, scope level, production path, maturity ladder, team roles and briefing points before handoff.
+- [Handoff package and brand-slice audit](references/handoff-package-and-brand-slice.md): read when assembling the package for website-skills or running the brand-slice audit before spend.
+- [Post-click strategy](../../playbooks/playbook-post-click-strategy/SKILL.md), [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md) and [advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md): read when the journey has no web page, needs account-wide tagging rules, or the conversion definition is disputed.
+- [12-website-content-plan](../../pipeline/12-website-content-plan/SKILL.md): read when the job is a full website content plan; [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when page claims, proof or data collection need clearance.
 <!-- dual-compat-end -->
-
-## Handoff package to website-skills
-
-| Item | Owner in this engine | Receiver | Format |
-|---|---|---|---|
-| Landing-page brief | Strategist / copywriter | Website-skills page build | Brief template (reference) |
-| Copy deck for the page | Copywriter (`ad-copy-and-hook-lab`, `premium-commercial-writing`) | Web content editor | Structured copy with headings and CTA labels |
-| Proof and asset list with consent status | Account lead | Web team | Table with file names, consent record IDs |
-| Measurement spec (UTMs, events, values, consent) | Analyst | Tag owner / developer | Spec table |
-| Acceptance checks (speed, accessibility, mobile) | Web team owns results | Agency reviews | Test report with dates |
-| Go/no-go gate | Account lead chairs | Client approver signs | Checklist |
-| Post-launch learning loop | Analyst | Web team | Monthly funnel review and fix list |
-
-Visual design, type and layout go to `chwezi-design-engine`; code, performance and hosting stay with website-skills. This engine does not specify fonts, colours or implementation.
-
-## Brand-slice audit (Stutts 2021)
-
-The brand is every "slice": ad message, landing page, photos, uniforms, phone and WhatsApp scripts, packaging, reviews. Before spend, check that each of the two or three value themes in the ads is visibly present on every slice the buyer meets next, and that trust proof sits where the buyer first looks. Refuse to launch paid media when a critical slice fails (a documented pattern: many leads, few conversions, because the site contradicted the ads).
-
-## Sources
-
-- Levy, J. (2015) *UX Strategy*, O'Reilly — landing-page experiments and funnel matrix.
-- Branson, S. (2020) *UX/UI Design: Introduction Guide to Intuitive Design and User-Friendly Experience*; Deacon, P.B. (2020) *UX and UI Design Strategy*; Fekeshazi, Z. (c. 2017) *Product Managers' Guide to UX Design*, UX Studio; Synechron (2018) *Bridge the User Experience Gap in Enterprise Applications for Financial Services & Insurance*.
-- Stutts, P. (2021) *The Undefeated Marketing System*, Scribe/Lioncrest.
-- Wiebe, J. (2011) *Copy Hackers: 6 Persuasion Strategies* — human-contact and pricing cues.
-- Currentness register 2026-09-23: CW-01, CW-04, CW-05, CW-10, MK-04.

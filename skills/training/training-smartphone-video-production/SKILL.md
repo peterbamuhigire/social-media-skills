@@ -9,6 +9,8 @@ metadata:
 ---
 # Smartphone Video Production Training Guide
 
+Produces a skimmable, jargon-free phone filming guide for Uganda and East African field conditions (Android phones, equatorial sun, noisy markets, patchy data), putting light and audio before kit and effects.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -28,321 +30,84 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to hands-on smartphone shooting, sound, light, framing, editing, and platform export | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Client business name, industry and country/city | Client lead | Yes | Default to Uganda/Kampala and use generic retail, NGO or hospitality examples. |
+| Primary goal: what the team will film (product demos, testimonials, behind-the-scenes, tutorials) | Client lead or `strategy-video-content` output | Yes | Cover talking-head and product shots and ask before adding specialist drills. |
+| Platforms in use (TikTok, Reels, WhatsApp Status, YouTube, Facebook) | Client lead | Yes | Teach 9:16 vertical first and keep the full platform table. |
+| Team skill level (complete beginners, some experience, confident) | Client lead or pre-session check | Yes | Assume complete beginners and explain every technical term on first use. |
+| Smartphone models in use (Samsung, Tecno, Itel, Infinix, iPhone) | Participants | If known | Give generic Android menu paths and have trainees find the setting on their own phones. |
+| Consent or release forms for any customer, patient or child on camera | Client owner | If people are filmed | Film staff, products and spaces only. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `strategy-video-content`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Run the intake in [phone-video-training-guide.md](references/phone-video-training-guide.md) and route "what should we film" questions to `strategy-video-content`.
+2. Set the East African field-conditions context, then write Section 1 on equipment already owned and cheap add-ons, with UGX prices.
+3. Write Sections 2–3 (lighting, audio) as the priority topics, each with a free fix before any purchase.
+4. Write Sections 4–6 (framing, camera settings, platform formats) matched to the platforms in use.
+5. Write Sections 7–8 (phone editing in CapCut, InShot or VN; export; low-bandwidth upload) and Section 9 on common mistakes.
+6. Add a capture-to-export practice drill on the trainees' own phones; stop any drill that would film customers, patients or children without recorded consent.
+7. Check the guide against the Quality Standards and `anti-ai-slop`, block release on an F from `ai-slop-audit`; correct any failing section and rerun the check before hand-off.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Hands-on smartphone shooting, sound, light, framing, editing, and platform export deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Phone filming training guide, Sections 1–9 | Client staff and trainer | Every instruction can be applied at the next shoot with no purchase needed for the core guidance. |
+| Capture-to-export practice drill | Trainees | Each trainee films, tests audio, edits and exports one 1080p, 30fps, H.264 clip on their own phone. |
+| Platform format and file-size table | Staff uploading content | Matches only the platforms in use, with orientation, length and upload size targets. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Practice clip record | Clip per trainee with a short checklist (light, audio, framing, export) | Each clip is reviewed against the checklist, not only "shot". |
+| Platform and price check | Table of specs, file limits and UGX prices with date checked | Each figure is dated or marked `not assessed`. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Filming identifiable customers, patients or children needs recorded consent or a release form.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without the team's platforms and phone models, return the narrowest qualified result and mark the affected checks `not assessed`. The lighting, audio, framing and common-mistakes sections can still be delivered, as they need no specific device or platform.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
 | Learners need production competence with available phones and field conditions | Practise a complete capture-to-export exercise using the actual device constraints | Advice assumes professional gear or reliable studio conditions |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| Budget allows one upgrade | Recommend a lapel microphone (UGX 15,000–40,000) before a ring light or gimbal | Money spent on kit while audio still ruins the video |
+| Filming outdoors between 10am and 3pm | Move to open shade, wait for cloud or film at golden hour (7–9am or 4–6pm) | Harsh shadows that editing cannot fix |
+| Storage or upload data is limited | Shoot 1080p, not 4K; compress to the platform file-size target and upload on Wi-Fi | Stalled uploads and failed posts |
+| Speech includes Luganda or Swahili | Add captions manually with the Text tool, not auto-captions | Wrong captions on local-language speech |
+| A platform spec, file limit or UGX price conflicts with a current source | Keep the guide figure, flag it for the trainer to confirm on the day, and mark it `not assessed` | Trainees exporting to a spec the platform no longer accepts |
+| A drill would post practice clips to the client's live accounts | Keep clips on the phone or a shared folder; posting needs client authority | Unapproved practice footage published |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- **Locally grounded**: all equipment prices are in UGX, all examples reflect Uganda/EA shooting conditions, and app recommendations work on the Android devices most EA creators use.
+- **Immediately actionable**: every instruction can be applied on the next filming session with no additional purchases required for the core guidance.
+- **Platform-specific**: framing, orientation, length, and export settings are matched precisely to each platform the client uses.
+- **Audio and lighting prioritised**: the guide makes clear that lighting and audio deliver the highest return on a beginner's attention; equipment and effects are secondary.
+- **Jargon-free**: all technical terms (EIS, aspect ratio, bitrate, H.264) are explained in plain language on first use.
+- **Honest about constraints**: upload limitations, storage limitations, and low-bandwidth conditions are addressed directly with practical workarounds, not glossed over.
+- **Concise and skimmable**: section headings, tables, and short paragraphs allow a busy team member to find specific guidance quickly without reading the full document; British English throughout.
+- **Error-prevention focused**: the Common Mistakes section addresses the specific failures most likely to occur in EA field conditions, not generic global advice.
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Filming with the window or light source behind the subject. Fix: always face the light.
+- Neglecting audio. Fix: use a lapel microphone and record a 10-second test with earphones before every session.
+- Rotating the phone mid-recording. Fix: set vertical or horizontal before pressing record.
+- Using digital zoom. Fix: walk closer, or accept the wider sharp framing.
+- Over-editing with spinning transitions and layered effects. Fix: simple cuts and clean text overlays.
+- Recommending a DSLR, gimbal or studio lights to a team with phones. Fix: start with the rear camera, a tripod or stack of books, and window light.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
+- [phone-video-training-guide.md](references/phone-video-training-guide.md): read when running intake or writing the field-conditions context and Sections 1–9, including the platform format table, export settings and file-size targets.
+- [`strategy-video-content`](../../strategy/strategy-video-content/SKILL.md): read when the team must decide what videos to make, hooks and scripts.
+- [`training-client-team`](../training-client-team/SKILL.md): read when phone filming is one module of a wider handover workshop.
+- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the guide copy.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read when scoring the finished phone video guide before release.
+- [AGENTS.md](../../../AGENTS.md): read when checking repository-wide doctrine.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Before generating this training guide, ask for:
-
-1. **Client business name** — to personalise examples and context
-2. **Industry** — so examples and scenarios reflect their actual content (e.g. retail, NGO, hospitality)
-3. **Country/city** — defaults to Uganda/Kampala if not specified
-4. **Primary goal** — what this team will primarily film (e.g. product demos, testimonials, behind-the-scenes, tutorials)
-5. **Platforms in use** — which platforms the team posts to (TikTok, Reels, WhatsApp Status, YouTube, Facebook)
-6. **Team skill level** — complete beginners, some experience, or confident but wanting to improve
-7. **Smartphone models in use** (if known) — helps tailor settings guidance (Samsung, Tecno, Itel, Infinix, or iPhone)
-
----
-
-## Context: East African Field Conditions
-
-This guide is written for the realities of content creation in Uganda and East Africa:
-
-- Most creators use Android smartphones: Samsung, Tecno, Itel, Infinix
-- Shooting environments include bright equatorial sun, noisy outdoor markets, dim interiors, and limited storage
-- Internet is patchy; large file uploads are difficult on mobile data
-- Content is consumed on mobile, often on low bandwidth
-- Short-form video dominates: Reels, TikTok, and WhatsApp Status are the primary formats
-
----
-
-## Section 1 — Equipment You Already Have (and What to Add Cheaply)
-
-**You do not need a DSLR, a gimbal, a ring light, or a studio to make good video.** Start with what you have.
-
-**The essentials:**
-
-- **Any smartphone with a rear camera.** The rear-facing camera is always significantly better than the front (selfie) camera. Use it for all serious filming. Use the front camera only for casual vlogging when you must see yourself.
-- **A stable surface or tripod.** Shaky footage looks unprofessional. A phone holder or mini-tripod costs UGX 10,000–30,000 from electronics shops in Kampala (Kikuubo, Kisementi, or any phone accessories stall). A stack of books works as a free alternative.
-- **Light.** A window is free. A ring light costs UGX 30,000–80,000 and makes a clear difference indoors. See Section 2 for free lighting solutions first.
-- **A lapel (clip-on) microphone.** Available at electronics shops for UGX 15,000–40,000. Plugs into the 3.5mm jack or USB-C port. Transforms audio quality immediately. This is the single most cost-effective upgrade you can make.
-
-**What you do not need yet:**
-- A gimbal (phone stabiliser) — your hands and a tripod are enough for static or slow shots
-- Professional lights — window light and affordable ring lights cover most use cases
-- A DSLR or mirrorless camera — a modern smartphone shoots better video than mid-range cameras from five years ago
-
----
-
-## Section 2 — Lighting: The Single Most Important Factor
-
-Poor lighting cannot be fixed in editing. Good lighting makes a budget phone look professional.
-
-**The "face the light" rule:**
-Always position the subject so the light source is in front of them, not behind. A window or light source behind the subject creates a silhouette — the subject goes dark. Move the subject so they face the window or light.
-
-**Using window light:**
-- Position the subject at a 45-degree angle to the window — light hits one side of the face, creating gentle shadow on the other. This is the classic "Rembrandt" effect used by professionals.
-- Direct face-on to the window gives flat, even light — good for tutorials and talking-head videos.
-- Avoid filming directly in front of a window unless the subject is between the camera and the window *and* you have compensated exposure (see Section 5).
-
-**Outdoors — avoiding harsh midday sun:**
-- Equatorial sun between 10am and 3pm is harsh, high, and creates deep shadows under eyes and nose.
-- Film during golden hour: **7–9am or 4–6pm** in Uganda. Light is warm, soft, and flattering.
-- If you must film at midday: move into open shade (under a tree, building overhang, or covered corridor). The light is still bright but diffused and shadow-free.
-- Alternatively, position the subject with their back to the sun and expose for the face — the background will be slightly brighter but the subject will be correctly lit.
-- Wait for cloud cover if available — clouds act as a natural diffuser and produce beautiful soft light.
-
-**Indoor lighting hack:**
-Open all windows. Turn on every available light in the room. The combination of natural and artificial light reduces murkiness. Avoid mixing cool fluorescent and warm incandescent light if you can — pick one colour temperature or the footage will look inconsistent.
-
----
-
-## Section 3 — Audio: What Ruins Most Videos
-
-Viewers will tolerate slightly shaky or low-resolution video. They will click away from poor audio. Audio is non-negotiable.
-
-**Wind noise outdoors:**
-- Wind hitting a built-in microphone creates a loud rumbling sound that drowns out the speaker.
-- Turn your back to the wind so the wind hits the back of the device, not the microphone.
-- A lapel microphone clipped under a collar or inside a shirt placket is naturally shielded from wind. Most lapel mics include a small foam windscreen — use it.
-
-**Background noise:**
-- Close doors and windows before filming indoors.
-- Avoid filming near generators, air conditioning units, busy roads, or active kitchens.
-- Schedule important recordings for quieter times — early morning or late afternoon.
-- Soft furnishings (curtains, sofas, rugs, foam) absorb echo. Hard walls create reverb. Film in furnished rooms where possible.
-
-**Distance from the microphone:**
-- Built-in phone mic: stay within arm's reach of the phone (60–80cm). Further than one metre and audio degrades noticeably.
-- Lapel mic: clip to the collar, lapel, or upper chest — 15–20cm from the mouth. Do not clip near rustling fabric.
-
-**Always test audio before the full take:**
-Record 10 seconds. Play it back with earphones. Listen for wind, hum, echo, and background noise. Fix the problem before filming — not after.
-
-**The clap test:**
-If filming multiple clips to edit together, clap once clearly at the start of each recording. The visual spike in the audio waveform makes it easy to sync clips during editing. This is a professional habit even on a smartphone.
-
----
-
-## Section 4 — Framing and Composition
-
-How you position the subject in frame communicates professionalism before the subject says a word.
-
-**The rule of thirds:**
-Enable the grid overlay in your camera settings (usually under Settings > Grid Lines or Shooting Methods > Grid). The grid divides the frame into nine equal rectangles. Position the subject's eyes on the upper horizontal line. Position people or key objects along the vertical lines rather than dead centre. This creates a more natural, balanced image.
-
-**Headroom:**
-Leave a small amount of space between the top of the subject's head and the top of the frame. Too much headroom looks amateurish. No headroom looks cramped. One to two centimetres on a phone screen is sufficient.
-
-**Background awareness:**
-What is behind the subject communicates as loudly as the subject themselves.
-- A cluttered, dirty, or chaotic background creates an unprofessional impression, regardless of what is being said.
-- A plain wall, a neat office, a branded backdrop, or a deliberately chosen environment all add credibility.
-- Scan the background before pressing record. Move the subject or rearrange the background if needed.
-
-**Vertical vs. horizontal orientation:**
-Decide before you press record — never rotate mid-recording.
-- **9:16 vertical** — TikTok, Instagram Reels, WhatsApp Status, Facebook Stories
-- **1:1 square** — Instagram feed posts, Facebook feed
-- **4:5 portrait** — Instagram feed (slightly taller than square; performs well)
-- **16:9 horizontal** — YouTube, Facebook Watch, presentations
-
-**Camera height and eye level:**
-Place the camera at eye level with the subject or very slightly above. Looking slightly down into the lens is flattering. Never place the camera below the subject looking upward — it is unflattering and looks unintentional. Use a tripod, a stack of books, or prop the phone against an object to reach the correct height.
-
----
-
-## Section 5 — Camera Settings for Better Footage
-
-**Lock focus and exposure:**
-Before pressing record, tap on the subject's face on the screen. On most Android phones, a box will appear around the face. Long-press on the face to lock both focus (AF) and exposure (AE) — this prevents the camera from automatically refocusing or brightening/darkening mid-recording. Look for "AE/AF Lock" text on screen to confirm.
-
-**Exposure adjustment:**
-After locking, a sun or brightness slider often appears. Drag it down if the image is blown out (overexposed in bright sun) or up if it is too dark indoors.
-
-**Resolution:**
-- Shoot in **1080p (Full HD)**. This is the correct balance of quality, file size, and upload speed for East African conditions.
-- Do not shoot in 4K unless you have ample storage and fast Wi-Fi for uploads. 4K files are four times larger than 1080p and most platforms compress them anyway.
-- Set this in Camera Settings > Video Quality or Video Resolution.
-
-**Stabilisation:**
-- Enable Electronic Image Stabilisation (EIS) if your phone offers it (found in Camera Settings or Video Settings). This reduces shake without a gimbal.
-- Hold the phone with both hands. Tuck your elbows against your body. This creates a natural stabiliser.
-- For moving shots (walking with the camera), bend your knees slightly and move smoothly. Never run with a handheld phone and expect stable footage.
-
-**Zoom:**
-Never use digital zoom. Pinching to zoom on a smartphone crops and degrades the image quality. Always walk closer to the subject instead. If you cannot get closer, accept the wider framing — a wider, sharp image is better than a close, pixelated one.
-
----
-
-## Section 6 — Shooting for Platform Formats
-
-Set the correct orientation and frame before pressing record. Match every video to its destination platform.
-
-| Platform | Orientation | Aspect Ratio | Target Length | Key Notes |
-|---|---|---|---|---|
-| TikTok | Vertical | 9:16 | 15–60 sec | Hook in first 2 seconds; captions recommended |
-| Instagram Reels | Vertical | 9:16 | 15–90 sec | Hook in first 2 seconds; trending audio helps reach |
-| Instagram Feed | Portrait or Square | 4:5 or 1:1 | Up to 60 sec | Clean thumbnail frame essential |
-| WhatsApp Status | Vertical | 9:16 | Max 30 sec per clip | Compress to under 16MB for fast delivery |
-| YouTube | Horizontal | 16:9 | 5–15 min tutorials; 1–3 min Shorts | Chapters and descriptions aid search |
-| Facebook Feed | Square or Horizontal | 1:1 or 16:9 | 1–3 min | Add captions — most viewed without sound |
-
-**The hook rule for short-form:**
-The first two seconds determine whether a viewer keeps watching or scrolls past. Open with a bold statement, a surprising image, a question, or an action — not a slow intro, a logo, or someone saying "Hello everyone, welcome back."
-
----
-
-## Section 7 — Simple Editing on Your Phone
-
-All of the following apps are free, available on Android, and do not require internet after installation.
-
-**CapCut** (recommended for beginners)
-- Trim clips, add text overlays, music, transitions, and sound effects
-- Auto-captions: generates captions automatically in English with reasonable accuracy — correct any errors manually
-- For Luganda or Swahili phrases, add captions manually using the Text tool
-- Built-in templates for Reels and TikTok formats
-- Export: select 1080p, 30fps, H.264
-
-**InShot** (simple and fast)
-- Ideal for quick crops, speed adjustments, and adding background music
-- Straightforward interface; good for single-clip edits
-
-**VN Video Editor** (for multi-clip edits)
-- More advanced timeline editing
-- Good for tutorials, testimonials, and interviews that require cutting between multiple clips
-- Colour grading tools for adjusting brightness, contrast, and saturation
-
-**Adding captions:**
-Captions are not optional — they are essential on Facebook and recommended everywhere else, as a significant share of social video is watched without sound. Use CapCut's auto-caption feature for English, then review for errors. Add manual text captions for any local language phrases.
-
-**Export settings:**
-- Format: MP4
-- Codec: H.264
-- Resolution: 1080p
-- Frame rate: 30fps
-- Avoid "export for social media" compression presets in some apps — they can reduce quality below what TikTok and Reels accept well. Export at full 1080p and let the platform compress.
-
----
-
-## Section 8 — Uploading on Low Bandwidth
-
-Large files stall on mobile data. Plan uploads to avoid frustration and failed posts.
-
-**File size targets:**
-- TikTok and Instagram Reels: under 50MB (the platforms re-compress anyway)
-- WhatsApp Status: under 16MB per clip for reliable delivery
-- YouTube Shorts: under 100MB
-- Full YouTube videos: upload on Wi-Fi; no strict limit but 500MB–1GB per 10-minute video at 1080p
-
-**Compression before uploading:**
-- Use CapCut's export quality settings to reduce file size — lower the bitrate slightly (e.g. from "Recommended" to one step below) if the file is too large.
-- HandBrake is available for Android via alternative app stores and gives precise control over file size.
-
-**Upload strategy:**
-- Upload on Wi-Fi wherever possible — a café, office, or home connection.
-- Use platform scheduling tools (TikTok, Meta Business Suite) to queue posts overnight when Wi-Fi is available.
-- TikTok and Instagram are more tolerant of lower bitrates than YouTube. If data is limited, prioritise posting to these platforms first.
-
----
-
-## Section 9 — Common Mistakes to Avoid
-
-**Filming with the window or light source behind the subject.**
-The subject becomes a dark silhouette. Always face the light.
-
-**Moving the camera while talking.**
-Without a gimbal, handheld movement during a speaking video looks unprofessional. Use a tripod or stable surface. If you must move the camera, do it intentionally and smoothly — or cut between static shots.
-
-**Rotating the phone mid-recording.**
-Once you press record, the orientation is set. Rotating the phone creates a skewed or black-bar result. Always set vertical or horizontal before you begin.
-
-**Neglecting audio.**
-Bad audio destroys good video. Invest in a lapel microphone. Test audio before every recording session. Wind noise, echo, and background hum are all preventable.
-
-**Over-editing with excessive effects and transitions.**
-Multiple spinning transitions, colour flashes, and layered effects distract from the content. Simple cuts and clean text overlays look more professional than over-produced amateur edits. Less is more.
-
-**Using digital zoom.**
-Walk closer. Never pinch to zoom.
-
-**Skipping the test recording.**
-Always record 10 seconds and review it — check framing, focus, exposure, and audio — before filming the full take. This saves significant time.
-
----
-
-## Quality Criteria
-
-Good output from this skill meets all of the following standards:
-
-1. **Locally grounded** — all equipment prices are in UGX, all examples reflect Uganda/EA shooting conditions, and app recommendations work on the Android devices most EA creators use.
-2. **Immediately actionable** — every instruction can be applied on the next filming session with no additional purchases required for the core guidance.
-3. **Platform-specific** — framing, orientation, length, and export settings are matched precisely to each platform the client uses.
-4. **Audio and lighting prioritised** — the guide makes clear that lighting and audio deliver the highest return on a beginner's attention; equipment and effects are secondary.
-5. **Jargon-free** — all technical terms (EIS, aspect ratio, bitrate, H.264) are explained in plain language on first use.
-6. **Honest about constraints** — upload limitations, storage limitations, and low-bandwidth conditions are addressed directly with practical workarounds, not glossed over.
-7. **Concise and skimmable** — section headings, tables, and short paragraphs allow a busy team member to find specific guidance quickly without reading the full document.
-8. **Error-prevention focused** — the Common Mistakes section addresses the specific failures most likely to occur in EA field conditions, not generic global advice.

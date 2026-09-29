@@ -50,7 +50,7 @@ Turn a client's business goal into the marketing decisions every channel, advert
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Segment and target decision table | Strategist, media planner, client approver | Each segment has evidence source/date, qualification result and a keep/drop decision |
 | Positioning statement with proof | Creative, copy and advertising teams | Passes the seven tests; reason to believe is checkable; no failure mode present |
@@ -66,11 +66,11 @@ Turn a client's business goal into the marketing decisions every channel, advert
 
 ## Capability and Permission Boundaries
 
-Read and search supplied files and authorised evidence. Analysis and planning are read-only. Surveys, interviews, list matching or any personal-data processing need explicit client authority and a lawful basis; publishing, spend and live-account changes need separate explicit authority.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Surveys, interviews and list matching also need a lawful basis before they start.
 
 ## Degraded Mode
 
-Without customer evidence, deliver a provisional foundation sheet with hypotheses marked `not assessed`, a customer-insight sprint plan (interviews, short survey, CRM analysis) and a re-test date. Never present a hypothesis segment as validated.
+Without customer evidence, return the narrowest qualified result and mark the affected checks `not assessed`. A provisional foundation sheet with hypotheses, a customer-insight sprint plan (interviews, short survey, CRM analysis) and a re-test date can still be delivered; never present a hypothesis segment as validated.
 
 ## Decision Rules
 
@@ -101,32 +101,14 @@ Without customer evidence, deliver a provisional foundation sheet with hypothese
 
 ## References
 
-- [Positioning and marketing-mix toolkit](references/positioning-and-mix-toolkit.md) — read when writing the statement, running the tests, mapping perceptions or setting the mix.
-- [Customer insight and value-theme method](references/customer-insight-and-value-themes.md) — read when building the evidence base or choosing message themes.
-- [Agency positioning](../../business-development/biz-dev-positioning/SKILL.md) — neighbour route for the agency's own position.
-- [Traction channel bullseye](../traction-channel-bullseye/SKILL.md) — next step for channel choice.
-- [Creative brief and big idea](../../advertising/creative-brief-and-big-idea/SKILL.md) — consumer of the message sheet.
-- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
+- [Positioning and marketing-mix toolkit](references/positioning-and-mix-toolkit.md): read when writing the statement, running the tests, mapping perceptions or setting the mix.
+- [Customer insight and value-theme method](references/customer-insight-and-value-themes.md): read when building the evidence base or choosing message themes.
+- [Foundation sheet and worked example](references/foundation-sheet-and-worked-example.md): read when filling the one-page hand-off sheet or showing the method on a labelled scenario.
+- [Agency positioning](../../business-development/biz-dev-positioning/SKILL.md): read when the position is the agency's own (neighbour route).
+- [Traction channel bullseye](../traction-channel-bullseye/SKILL.md): read when positioning is agreed and channel choice is next.
+- [Creative brief and big idea](../../advertising/creative-brief-and-big-idea/SKILL.md): read when handing the message sheet to creative.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read before releasing comparative or superiority claims.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the statement and message sheet.
 <!-- dual-compat-end -->
-
-## Foundation sheet (one page)
-
-| Field | Content |
-|---|---|
-| Business objective | Metric, baseline (source, date), target, deadline, place |
-| Primary target | Needs, behaviour, current alternative, location, reachable through |
-| Secondary target (optional) | As above, with trigger to activate |
-| Excluded this period | Group and reason (margin, capacity, distance, law) |
-| Choice set | Named competitors, substitutes, "do nothing" |
-| Positioning statement | For [target and mindset], [Brand] is the [frame of reference] that [single promise], because [checkable proof]. |
-| Value themes (2–3) | Theme · proof · why distinct |
-| Five F's line | For [target], [Brand] means [primary F] and [secondary F]. |
-| Mix decisions | Offer, price position, place/route, promotion role, people, process, physical evidence |
-| Value discipline | Operational excellence, product leadership or customer intimacy, with threshold standards on the other two |
-| Open assumptions | Assumption · test · owner · date |
-
-## Worked example (labelled scenario, not client evidence)
-
-A Kampala pest-control firm has run "50% off" posters for years. Interviews with 12 households in Muyenga and Kololo (scenario data) suggest affluent owners read discounts as "cheap and risky" and value child- and pet-safe treatment, uniformed staff and a local owner. Primary target: home-owning families in named parishes who already pay for garden and security services. Position: "For Kampala families who want a pest-free home without risking their children or pets, [Firm] is the locally owned service that treats with pet-safe products and uniformed, vetted technicians, because every treatment follows [named certification — to verify]." Value themes: safety for family, visible professionalism, quarterly bundle convenience. Mix change: replace discounts with a quarterly bundle payable by mobile money in instalments. Everything else (price per room, years in business) moves to FAQ.
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

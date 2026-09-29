@@ -40,7 +40,7 @@ Ask for all of the following before producing the playbook:
 
 ### 1. Set the case: why UGC works in East Africa
 
-In Uganda and East Africa, peer recommendation is the strongest commercial signal available. A customer's photo of a meal, a WhatsApp screenshot from a satisfied buyer or a Facebook post by a happy client carries more persuasive weight than any brand-produced advertisement. The research is consistent worldwide (Chaffey, 2024), but where brand advertising is less trusted and word of mouth is the default way people discover things, UGC is the highest-converting content type available (the original skill's claim; no data source). In the POEM model (Paid / Owned / Earned), UGC sits firmly in Earned: the most credible channel and the hardest to manufacture.
+In Uganda and East Africa, peer recommendation is the strongest commercial signal available. A customer's photo of a meal, a WhatsApp screenshot from a satisfied buyer or a Facebook post by a happy client carries more persuasive weight than any brand-produced advertisement. The research is consistent worldwide (Chaffey and Ellis-Chadwick, 2022), but where brand advertising is less trusted and word of mouth is the default way people discover things, UGC is the highest-converting content type available (the original skill's claim; no data source). In the POEM model (Paid / Owned / Earned), UGC sits firmly in Earned: the most credible channel and the hardest to manufacture.
 
 UGC also solves the production problem for clients with small budgets. Turning customers into content producers yields a continuing stream of authentic material at near-zero cost and builds the community and advocacy that grow social presence without matching ad spend. For Ugandan small and medium enterprises, where production budgets are tight but smartphone penetration is high, UGC is a primary content channel, not a supplementary tactic.
 
@@ -138,7 +138,7 @@ Negative UGC found at any step goes to [playbook-reputation-management](../../..
 - **Camera-phone quality:** most Ugandan customers shoot on mid-range Android smartphones. Quality is adequate for every social platform when the subject is well lit and in focus. Do not reject UGC for device quality alone.
 - **Language:** Ugandan customers may post in English, Luganda, Swahili or a natural mix of the three. Republish in the original language where possible, since it reflects the authentic community voice. Where the original is not English, add a short English translation in the caption or a bracketed note: "[Translation: This chicken is unbelievable!]"
 - **Religious and cultural sensitivity:** Uganda has large Muslim and Christian communities, and norms around gender, public behaviour and hospitality are specific. Review all UGC for religious imagery, political symbols or culturally loaded content before publishing. When in doubt, do not publish.
-- **Peer recommendation as trust infrastructure:** in East African markets, peer recommendation is the main way people discover new products and services (Chaffey, 2024). Every published piece of UGC is a trust signal, not just content; curate accordingly, putting quality and authenticity ahead of volume.
+- **Peer recommendation as trust infrastructure:** in East African markets, peer recommendation is the main way people discover new products and services (Chaffey and Ellis-Chadwick, 2022). Every published piece of UGC is a trust signal, not just content; curate accordingly, putting quality and authenticity ahead of volume.
 
 ## Release checklist
 
@@ -153,7 +153,7 @@ Negative UGC found at any step goes to [playbook-reputation-management](../../..
 
 ## Sources
 
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley.
 - Kotler, P. et al. (2023) *Marketing Management*, Pearson.
 - Uganda Data Protection and Privacy Act (2019) — register UG-DPPA-2019.

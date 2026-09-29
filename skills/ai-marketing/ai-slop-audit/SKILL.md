@@ -9,6 +9,8 @@ metadata:
 ---
 # AI Slop Audit
 
+The detector. Given any social artefact, it decides how strongly it reads as AI slop, names exactly why, and says how to fix each finding; production-side prevention is the companion `anti-ai-slop` skill.
+
 <!-- dual-compat-start -->
 ## Use When
 - Does this caption, carousel, email or ad copy look like a bot or ChatGPT wrote it? Tell us why it feels off and what gives it away.
@@ -24,137 +26,40 @@ metadata:
 - Stop the next asset or iteration when the verdict is F (blocked) until the blocking findings are fixed; never invent evidence for a finding.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
-
-## Capability and Permission Boundaries
-Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified evidence-backed audit report; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+|---|---|---|---|
+| The artefact itself: caption, post, thread, carousel, ad copy, campaign, calendar, blog, email, deck, profile/bio, image or video | Requester (pasted text, file, rendered post or URL) | Yes | Stop; no audit without the artefact, and never infer findings from a description. |
+| Artefact type(s): written EN, written FR, image, video or multi-asset campaign | Requester, or read from the artefact | Yes | Classify from the artefact and state the classification in the report. |
+| Client business name and industry | Brief or requester | Yes | Judge specificity only against what the artefact claims and mark on-brand fit `not assessed`. |
+| Country/city of the audience | Brief | Yes | Default to Uganda / East Africa and state the default. |
+| Intended channel and goal | Brief | Yes | Judge the CTA generically and mark channel fit `not assessed`. |
+| Render, provenance or source evidence (C2PA data, rendered frames, links behind claims) | Requester or file metadata | Conditional (visuals, cited claims) | Mark the affected check `NOT_ASSESSED`; mark non-visual checks `not_applicable`. |
 
 ## Workflow
-1. Confirm the exact evidence-backed audit report, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete evidence-backed audit report; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Evidence-backed audit report | Requester, client reviewer or delivery team | The evidence-backed audit report addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+1. Confirm the artefact and inputs, then identify the artefact type(s) and load the matching checklists from the [audit method](references/audit-method.md); for a campaign or calendar, plan to audit each post and asset, then the set as a whole.
+2. Run the automated gates (focal-word density, em-dash and rule-of-three patterns, opener clichés, mechanical formatting, citations and statistics, image and video checks); any [BLOCK] hit fails the artefact outright.
+3. Compute the 0–100 genericness score from burstiness, focal-word density, duplication across the set and template similarity, and name its drivers.
+4. Run the human-judgement review: substance, intent, specificity, hard parts, localisation, visuals and the artefact-specific checks.
+5. Apply the ME1-ME7 machine-error checks at post, slide, caption and campaign-sequence level, and AS1-AS7 with evidence mode (`cli`, `browser`, `llm_only`, `human_review`) for visuals and rendered posts.
+6. Grade A, B, C or F and write the report: blocking findings, slop findings by severity, what's good, recommended next step, each finding with quoted evidence and a concrete fix.
+7. If the verdict is F, stop: the next asset or iteration does not start until the blocking findings are fixed.
+8. After fixes, rerun the audit on the corrected artefact and log the new verdict; run it again at each checkpoint and as the final gate before publishing.
 
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+## Yardstick and verified evidence
 
-## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested evidence-backed audit report, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## Responsibility audit
-
-Do not call a post AI-written because it has emojis, repeated openers, three-part phrasing, or a
-familiar cadence. Cite the exact unit and audience-value loss for style findings. Verify claims,
-dates, links, testimonials, platform limits, and performance numbers; distinguish internal links
-from evidence citations. Separate stylistic concerns from deception, cultural harm, provenance,
-and garbled visual text. Unavailable review evidence is `NOT_ASSESSED`.
-
-- Shared standard: [`AI-slop responsible publishing`](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md)
-
-## References
-- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-<!-- dual-compat-end -->
-
-## Machine-error audit extension
-
-Report ME1-ME7 at post, slide, caption, and campaign-sequence level. Cite the repeated or inflated
-unit and state the missing audience value. Do not treat a repeated safety warning, accessibility
-label, or approved campaign message as slop; record it as a functional exception.
-
-### Impeccable-derived overlay audit
-
-For social visuals, campaign decks, landing-page handoffs, and rendered posts, report AS1-AS7 with
-evidence mode and concrete location. Purple gradients, glassmorphism, neon glow, AI-beige defaults,
-decorative editorial scaffolding, and decorative motion are blocking visual findings unless a
-functional state, accessibility need, data encoding, or approved brand reason is recorded. Mark
-non-visual checks `not_applicable` and unavailable render evidence `NOT_ASSESSED`.
-
-The detector. Given any social artefact, it decides how strongly it reads as AI slop, names exactly why, and says how to fix each finding. Production-side prevention is the companion `anti-ai-slop` skill.
-
-## When this runs
-**Cadence — run after EACH major iteration of work.** This is the default mode: whenever a meaningful unit of social work is completed — a drafted caption or post, a finished thread or carousel, a completed campaign or content calendar, a deck outline, a significant revision — run this audit on what was just produced before moving on. Log the verdict. If the verdict is **F (Blocked)**, do not progress to the next asset or iteration until the blocking findings are fixed. Treat it like a test suite that runs at every checkpoint, not a one-time final review.
-
-Also auto-run when the user asks to **analyse, review, evaluate, audit, critique, score, or de-slop** any of: a caption, post, thread, carousel, ad copy, full campaign, content calendar, blog or article, email or email sequence, deck outline, profile/bio, an AI image, or an AI video — or asks "is this AI slop / does this look AI-generated / why does this feel off?". Also run as the final gate before publishing any engine output. The companion `anti-ai-slop` skill runs continuously *during* drafting; this audit runs *at each checkpoint* to catch what slipped through.
-
-## What slop is (the yardstick)
 Low-quality content produced in quantity by AI and pushed at people who did not ask for it (Merriam-Webster 2025 Word of the Year, verified). Three diagnostic properties (Kommers et al., *"Why Slop Matters"*, arXiv 2601.06060, verified): **superficial competence, asymmetric effort, mass producibility**. The human tell: **absence of intent**. You are measuring how strongly an artefact exhibits these.
 
-## Audit method — layered, cheapest first
-### Step 1 — Identify artefact type and load the right checklist
-Map the artefact to one or more domains: written content (EN/FR), image, video. A campaign or content calendar usually spans several — audit each post and each asset, then the set as a whole (do all twelve captions share one template?).
+The threat is documented, not rhetorical. Cite these where a client questions why the audit matters; do not embellish them or add unsourced figures:
 
-### Step 2 — Automated gates ((auto), machine-checkable) — any hit is hard evidence
-Run every applicable check; a hit on a **blocking** marker ([BLOCK]) fails the artefact outright.
+- Spracklen et al., USENIX Security 2025 (verified): 19.7% of package references suggested by code-generating models were hallucinated — the "slopsquatting" supply-chain risk, relevant whenever AI output names a tool, plugin, or integration to install.
+- Veracode (verified): 45% of AI-generated code samples introduced a known vulnerability; cross-site scripting failures in 86% of relevant cases; log-injection failures in 88%. Treat any AI-suggested embed, pixel, or script with the same suspicion.
 
-**Written content (captions, posts, threads, carousels, ad copy, blog, email)**
-- (auto) Focal-word density — delve/tapestry/realm/navigate/underscore/pivotal/intricate/leverage/elevate/seamless etc. >2 per 500 words (for short captions: any single banned word is a flag).
-- (auto) Em-dash density >1 per paragraph; reflexive rule-of-three; "it's not X, it's Y" repetition; uniform 15–25-word sentences (low burstiness); identical-shape carousel slides.
-- (auto) Transition / opener clichés ("in today's fast-paced world", "in today's digital age", "let's dive in", "in conclusion", "Unpopular opinion:", "Let that sink in").
-- (auto) Mechanical formatting: Title-Case headers, excess bold, decorative-emoji flood, leftover tool markup ("oaicite", "contentReference", "As an AI language model").
-- [BLOCK] (auto) Broken/fake citations or fabricated stats: dead URLs, invalid DOI/ISBN, made-up platform figures, "studies show" with no named study, utm_source params copied into the body.
-- French (per `language/french-native-copy`): "plongeons dans", "il est important de noter que", "force est de constater", "dans un monde en constante évolution", filler connectors ("par ailleurs / de plus / en outre"), raw-translation artefacts.
+These belong in the *evidence* column, not as decorative statistics. Use them only when on point.
 
-**Image (for social)**
-- (auto) Missing/contradictory C2PA provenance; SynthID absence (Google-only — absence != authentic, so do not treat absence as proof either way); ELA/JPEG-forensics anomalies; the "AI sheen" (over-smooth skin, plastic bokeh, uncanny symmetry).
-- [BLOCK] (auto) Garbled text-in-image (illegible on-pack copy, invented logos, nonsense signage) on any asset meant to publish.
+## Grades
 
-**Video (for social)**
-- (auto) Frame-to-frame "boiling", lip-sync drift, morphing hands/objects, impossible motion; missing disclosure where the platform or `policy-ai-content-ethics` (AI IP and copyright policy) requires it.
-
-### Step 3 — Structural score ((auto)) -> 0–100 "genericness"
-Combine burstiness (sentence-length variation), focal-word density, duplication across a set, and template-similarity into a single genericness score. Higher = more slop-like. Report the score and its drivers (e.g. "78 — every caption opens with a question, banned-word density 5/500, three slides restate each other").
-
-### Step 4 — Human-judgement review ((human)) — the checklist no tool replaces
-- (human) **Substance:** what does this assert, teach, or decide that required real work? If nothing — slop.
-- (human) **Intent / authored voice:** is there a point of view, or is it relentlessly positive and viewpoint-free?
-- (human) **Specificity:** real named examples, places, people, numbers, UGX prices — or generic placeholders and "African" stand-ins?
-- (human) **Hard parts:** are objections, the audience that won't buy, the risk, the negative-comment / crisis path handled?
-- (human) **Localisation:** UGX, Mobile Money, WhatsApp-first, real local references for the default Uganda / East Africa market (or named market) — or Western defaults (credit cards, "swipe up", US examples)?
-- (human) **Visuals:** anatomy (hands/eyes/teeth), "AI sheen", garbled text-in-image, impossible geometry, video "boiling"/lip-sync.
-- (human) **Domain-specific (per artefact):**
-  - *Caption / post:* engagement-bait, no lived experience, clichéd hook, no real CTA tied to a real channel.
-  - *Carousel:* slides that restate one another, no through-line, decorative-only final slide with no CTA.
-  - *Campaign / strategy:* generic "raise awareness and engage", fabricated market stats, no authored strategic choice, "studies show" without a named study.
-  - *Blog/article:* definition-opener, decontextualised statistic, no East African example, sections that restate their heading.
-  - *Ad copy:* inflated superlatives, deceptive reach/AI claims, unverifiable promises, no specific offer.
-  - *Image/video brief:* generic "African" placeholders, no named setting, no provenance/disclosure plan.
-
-## Scoring & verdict
 Aggregate into a grade:
 
 | Grade | Meaning | Trigger |
@@ -164,61 +69,70 @@ Aggregate into a grade:
 | **C — Slopy** | Multiple automated hits or weak substance/intent | rework before ship |
 | **F — Blocked** | Any [BLOCK] blocker (fabricated stat/citation, garbled publishable image text, deceptive claim) OR no substance at all | do not ship |
 
-## Output format (the audit report)
-```
-# AI Slop Audit — <artefact name> — <date>
-Verdict: <A/B/C/F>   Genericness score: <0-100>
-Artefact type(s): <...>
+## Outputs
 
-## Blocking findings (X) — must fix
-- [marker] <what was found> · evidence: <quoted line / slide no. / colour / frame ref / URL> · fix: <concrete action>
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| AI slop audit report (verdict, genericness score, blocking findings, slop findings, what's good, next step) | Content owner and client reviewer | Every finding cites evidence from the artefact and carries a concrete fix; any [BLOCK] forces an F. |
+| Verdict log entry for the checkpoint | Delivery lead and the next workflow | Records artefact, date, grade and whether progression is blocked. |
 
-## Slop findings (by severity)
-- [marker] <finding> · evidence: <...> · fix: <...>
+## Evidence Produced
 
-## What's good (so it isn't stripped in the fix)
-- <substantive, specific, authored elements worth keeping>
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Finding evidence | Quoted line, slide number, colour value, frame reference or URL per finding | No finding without evidence; inferences marked "(inference)". |
+| Genericness score with drivers | Score 0–100 and named drivers in the report header | Drivers are measurable (for example banned-word density per 500 words). |
+| Overlay record | ME1-ME7 and AS1-AS7 rows with evidence mode | Unavailable render evidence is `NOT_ASSESSED`; non-visual checks are `not_applicable`. |
 
-## Recommended next step
-- <rework / targeted fixes / ship>
-```
+## Capability and Permission Boundaries
 
-## Discipline (anti-hallucination — applies to the audit itself)
-- Every finding cites concrete evidence from the artefact (a quoted line, a slide number, a colour value, a frame reference, a URL). No finding without evidence.
-- Do not invent a flaw to pad the report. "This artefact is clean" is a valid, wanted verdict.
-- Mark inferences "(inference)"; never present a guess as a measured fact.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. The audit reports findings and fixes; it does not rewrite or publish the artefact.
 
-## Why slop is a real risk worth auditing (verified evidence)
-The threat is documented, not rhetorical. Cite these where a client questions why the audit matters; do not embellish them or add unsourced figures:
+## Degraded Mode
 
-- Spracklen et al., USENIX Security 2025 (verified): 19.7% of package references suggested by code-generating models were hallucinated — the "slopsquatting" supply-chain risk, relevant whenever AI output names a tool, plugin, or integration to install.
-- Veracode (verified): 45% of AI-generated code samples introduced a known vulnerability; cross-site scripting failures in 86% of relevant cases; log-injection failures in 88%. Treat any AI-suggested embed, pixel, or script with the same suspicion.
+Without the artefact or its render and source evidence, return the narrowest qualified result and mark the affected checks `not assessed`. The written-content gates can still be run on supplied text, with image, video and citation checks recorded as `NOT_ASSESSED` and no grade above the evidence seen.
 
-These belong in the *evidence* column, not as decorative statistics. Use them only when on point.
+## Decision Rules
 
-## Required Input
-Before auditing, confirm:
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Any [BLOCK] hit (fabricated statistic or citation, garbled publishable image text, deceptive claim) or no substance at all | Grade F and block progression to the next asset or submission. | Shipping fabricated or deceptive content. |
+| The only signals are emojis, repeated openers, three-part phrasing or a familiar cadence | Do not call the post AI-written; cite the exact unit and the audience-value loss as a style finding. | False authorship accusations. |
+| A repeated safety warning, accessibility label or approved campaign message recurs | Record it as a functional exception, not slop. | Stripping required repetition. |
+| A visual uses purple gradients, glassmorphism, neon glow, AI-beige defaults, decorative editorial scaffolding or decorative motion | Report a blocking visual finding unless a functional state, accessibility need, data encoding or approved brand reason is recorded. | Generator-default visuals shipping. |
+| SynthID is absent from an image | Do not treat absence as proof either way (Google-only). | Misreading provenance. |
+| The artefact is a campaign or calendar | Audit each post and asset, then the set (do all twelve captions share one template?). | Missing set-level uniformity. |
+| The artefact is clean | Report "This artefact is clean" honestly. | Invented flaws that erode trust in the audit. |
+| A claim, date, link, testimonial, platform limit or performance number appears | Verify it and distinguish internal links from evidence citations; unverifiable items are `NOT_ASSESSED` or a [BLOCK] if fabricated. | Treating a plausible figure as verified. |
 
-1. **Artefact** — paste or point to the caption, post, carousel, campaign, blog, email, deck, image, or video to audit.
-2. **Artefact type(s)** — written EN / written FR / image / video / multi-asset campaign.
-3. **Client business name and industry** — to judge whether specifics are real and on-brand.
-4. **Country / city** — to judge localisation. (Default: Uganda / East Africa.)
-5. **Intended channel and goal** — to judge fit and CTA.
+## Quality Standards
 
-## Quality Criteria
-The audit meets the standard when:
+- Every finding is evidenced with a quoted line, slide number, colour value, frame reference or URL from the artefact.
+- No fabricated flaws: nothing is raised that is not actually present, and a clean verdict is reported honestly when earned.
+- A 0–100 genericness score is given and its main drivers named.
+- Blocking and non-blocking findings are separated; any [BLOCK] blocker is called out distinctly and forces an F.
+- Each finding has a concrete fix, a specific action, not "improve this".
+- What's good is preserved: substantive, authored elements are named so a fix does not strip them.
+- Localisation is judged: the report states whether the artefact fits the Uganda / East Africa (or named) market.
+- Verified evidence only: the Merriam-Webster, Kommers, Spracklen, and Veracode figures are used verbatim and only when on point; no new statistics are invented.
 
-1. **Every finding is evidenced** — each carries a quoted line, slide number, colour value, frame reference, or URL from the artefact.
-2. **No fabricated flaws** — nothing is raised that is not actually present; a clean verdict is reported honestly when earned.
-3. **Genericness scored with drivers** — a 0–100 score is given and its main drivers named.
-4. **Blocking vs non-blocking separated** — any [BLOCK] blocker is called out distinctly and forces an F.
-5. **Each finding has a concrete fix** — a specific action, not "improve this".
-6. **What's good is preserved** — substantive, authored elements are named so a fix does not strip them.
-7. **Localisation judged** — the report states whether the artefact fits the Uganda / East Africa (or named) market.
-8. **Verified evidence only** — the Merriam-Webster, Kommers, Spracklen, and Veracode figures are used verbatim and only when on point; no new statistics are invented.
+## Anti-Patterns
 
-## See also
-- `anti-ai-slop` — prevention companion (write, plan, and brief so slop never appears).
-- `anti-ai-slop` (humanising rewrite passes) — broader humanisation QC; complementary checklist and banned list.
-- `meta-content-audit` — performance/quality audit of a content set (different lens: engagement, not authenticity).
-- `language/east-african-english`, `language/french-native-copy` — apply house style and native-language standards when judging written output.
+- Running the audit once at the end. Fix: run it after each major iteration and log the verdict each time, like a test suite at every checkpoint.
+- Presenting a guess as a measured fact. Fix: mark inferences "(inference)".
+- Padding the report with invented flaws. Fix: raise only what is present; "This artefact is clean" is a valid, wanted verdict.
+- Stripping the strong parts while fixing slop. Fix: list what's good so the rewrite keeps it.
+- Grading one caption from a set in isolation. Fix: audit each asset and the set as a whole for shared templates.
+- Letting a C or F artefact move on because the deadline is close. Fix: an F blocks progression; a C needs rework before ship.
+- Using the Spracklen or Veracode figures as decoration. Fix: cite them only where a client questions why the audit matters.
+
+## References
+
+- [Audit method](references/audit-method.md): read when running the cadence, the layered checks by artefact type, the ME1-ME7 and AS1-AS7 overlays, the report template, the responsibility audit or the see-also routes.
+- [`anti-ai-slop`](../anti-ai-slop/SKILL.md): read when fixing findings or humanising the draft (prevention companion and banned list).
+- [`policy-ai-content-ethics`](../../policies/policy-ai-content-ethics/SKILL.md): read when a finding involves disclosure, copyright or cultural bias.
+- [AI-slop responsible publishing standard](https://github.com/peterbamuhigire/chwezi-dev-engine/blob/main/references/ai-slop-responsible-publishing-standard-2026-09-11.md): read when separating style findings from deception, cultural harm or provenance.
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md): read when the audited asset is finished creative going to release.
+- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md): read when the question is AI maturity rather than an artefact.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide cadence rule and anti-slop gates.
+<!-- dual-compat-end -->

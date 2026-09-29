@@ -56,7 +56,7 @@ If roles, budget, timing or approval limits are missing, produce a draft only: d
 
 The source rates Facebook Live the most accessible format for Uganda because viewers can watch on slow 3G/4G without buffering; apply that only once Facebook access is confirmed (evidence status above).
 
-Position the event with the RACE framework (Chaffey, 2024):
+Position the event with the RACE framework (Chaffey and Ellis-Chadwick, 2022):
 
 - **Reach:** promotional posts and paid boosting to attract new audiences;
 - **Act:** registration or RSVP as the first conversion step;
@@ -71,7 +71,7 @@ Position the event with the RACE framework (Chaffey, 2024):
 - Confirm all speakers; send a calendar invitation with a one-page briefing covering topic scope, session length and technical requirements.
 - Choose the platform and create the event page: a Facebook Event, Eventbrite (free tier available; verify) or a simple landing page.
 - Write the event description, 150 words maximum: who it is for, what attendees will learn, and exactly how to join (link, app or dial-in).
-- Set a SMART objective (Chaffey, 2024), for example "Register 200 attendees by D-1 and retain 60% for at least 30 minutes of the live session."
+- Set a SMART objective (Chaffey and Ellis-Chadwick, 2022), for example "Register 200 attendees by D-1 and retain 60% for at least 30 minutes of the live session."
 
 **Week 3 (21 days out)**
 
@@ -114,7 +114,7 @@ Fill in client-specific copy for each entry.
 | D-0 (at go-live) | Facebook | Go-live post | "We are LIVE now — join here: [link]" |
 | D+1 | All channels | Recording share | Replay link, three highlights and the next CTA |
 
-Classify each channel with the POEM model (Chaffey, 2024): Facebook Page posts and WhatsApp broadcasts are Owned; organic shares and word of mouth are Earned; boosted posts are Paid. If the client has budget, recommend a small paid boost on the D-7 and D-1 posts (source range UGX 30,000–50,000 per post; verify before stating; spend needs explicit authority).
+Classify each channel with the POEM model (Chaffey and Ellis-Chadwick, 2022): Facebook Page posts and WhatsApp broadcasts are Owned; organic shares and word of mouth are Earned; boosted posts are Paid. If the client has budget, recommend a small paid boost on the D-7 and D-1 posts (source range UGX 30,000–50,000 per post; verify before stating; spend needs explicit authority).
 
 ### 4. Prepare the run sheet
 
@@ -218,5 +218,5 @@ A webinar or live-event playbook for the client owner and delivery team that use
 
 ## Sources
 
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, 8th edn, Pearson — RACE framework, POEM model, SMART objectives.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. — RACE framework, POEM model, SMART objectives.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley.

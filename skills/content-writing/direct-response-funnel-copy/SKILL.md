@@ -9,6 +9,8 @@ metadata:
 ---
 # Direct-Response Funnel Copy Skill (Brunson + Kennedy)
 
+Designs direct-response campaigns that produce measurable sales, applications or sign-ups, applying the value ladder and funnel logic (Brunson) and sales-letter discipline with the five propositions (Kennedy). This is a conversion-economics skill: every asset serves a funnel step with a target and a test.
+
 <!-- dual-compat-start -->
 ## Use When
 - The client wants a social, email or WhatsApp campaign that sells a course, coaching programme, event, membership or high-ticket service.
@@ -24,193 +26,102 @@ metadata:
 - Stop where regulated claims (financial, health or education results) appear until legal review clears them; never use fake scarcity or invented testimonials.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified publication-ready copy; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| The deliverable is a direct-mail letter, postcard, self-mailer or letter-style email/WhatsApp broadcast to a list | Apply the four prerequisites, two-list process, Three Tells, letter structure, FRAT list scoring, $20 Rule and test design in [direct-mail letters and packs](references/direct-mail-letters-and-packs.md). | A mailing sent to the wrong list, in a format the transaction value cannot pay for, or rolled out untested. |
+|---|---|---|---|
+| Funnel-design answers: who the buyer is, where they gather, what attracts them, which offer the funnel sells | Client workshop or brief | Yes | Stop; ask the funnel-design questions before any copy is written. |
+| Offer range: entry, core, back-end and any recurring option | Client or `biz-dev-pricing-menu` | Yes | Map what exists and state which ladder steps are missing; do not invent offers or prices. |
+| Traffic today: owned list sizes, paid spend, organic reach | Client analytics and CRM | Yes | Mark the traffic plan `not assessed` and size the funnel test on stated assumptions. |
+| Revenue goal (UGX or stated currency) and period | Client lead | Yes | Stop the revenue maths; deliver the funnel map without targets. |
+| Current conversion data: ad → lead, lead → customer, average order value | Client export | No | Use labelled assumptions and replace them after the small-batch test. |
+| Brand voice from `04-brand-voice-intake`; testimonials, results and guarantees with consent | Client source pack | Conditional | Hold any testimonial, result or guarantee without consent or evidence. |
 
 ## Workflow
-1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete publication-ready copy; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Answer the funnel-design questions in writing; all copy is built against them ([funnel architecture](references/funnel-architecture-and-scripts.md) §1). Stop if the brief has no conversion goal, offer or call to action and route to `05-social-media-strategy`.
+2. Work the revenue maths backwards from the goal to entry buyers and visitors; if the numbers cannot close, change the offer or model before writing.
+3. Map the offer ladder (free → low-cost → core → premium → recurring) and give every post, email and broadcast one ladder step to serve; classify traffic as rented, borrowed or owned and plan the consented route into owned lists (WhatsApp opt-in in most East African cases).
+4. Set the public voice: one persona stance with a true backstory, admitted weaknesses and a clear point of view, within the agreed brand voice.
+5. Design the offer and Kennedy's five propositions before copy ([offer and price integrity](references/offer-proposition-and-price-integrity.md)).
+6. Draft the main long-form asset with the persuasion arc ([long-copy system](references/long-copy-sales-letter-system.md) for drafting and editing), or the direct-mail letter with [direct-mail letters and packs](references/direct-mail-letters-and-packs.md); then the five-message story sequence or three-message follow-up, the post-purchase offer and, where relevant, the live-presentation script and two-call close.
+7. Specify honest urgency (real deadlines and limits with reasons), run the [ethics filter](../references/direct-marketing-ethics-filter.md) and the [pre-release copy checklist](references/galletti-27-points.md); stop any asset that fails.
+8. Plan the small-batch funnel test with pre-set targets per step before any spend is scaled; recover by fixing the weakest step and rerunning the test.
+
+The full eleven-step method, script toolkit, offer and trust layer, integrations and East Africa notes are in [funnel method and toolkit](references/funnel-method-and-toolkit.md).
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Publication-ready copy | Requester, client reviewer or delivery team | The publication-ready copy addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Funnel-design answers, revenue maths and offer-ladder diagram (steps, prices, margin per step, upgrade triggers) | Client lead; `09-campaign-strategy` | Every funnel step has a target rate and volume; the ladder has at least three steps and a clear upgrade path. |
+| Persona brief and main long-form asset (sales letter, video script or landing copy) | Client approver; landing-page builder | The asset follows the persuasion arc with the five propositions visible. |
+| Launch sequence, ongoing nurture calendar (12 or more notes) and post-purchase offer script | `07-email-marketing-strategy`; WhatsApp broadcast owner | Scripted message by message, each tied to one ladder step. |
+| Urgency specification with reasons and small-batch test plan with per-step targets | Client lead; `advertising/direct-response-economics` | At least two genuine urgency mechanics, each provable; targets set before spend. |
+| Integration notes | `13-campaign-brief` | Name the assets, channels and test gates the campaign brief must carry. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Claim, testimonial and urgency register | Inline table | Every result, testimonial, deadline and limit has evidence, consent or a stated reason. |
+| Ethics-filter and pre-release checklist record | Checklist per asset | Each asset shows a pass, or the failing item and the fix. |
+| Revenue-maths workings | Table: traffic → leads → entry buyers → core and recurring buyers | Assumptions labelled; replaced by test data when available. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Sending broadcasts or mailings to a list also needs the list's consent basis on record.
+
+## Degraded Mode
+
+Without the funnel-design answers, offer range or revenue goal, return the narrowest qualified result and mark the affected checks `not assessed`. A funnel map with the weak step identified and draft copy for one ladder step can still be delivered.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The revenue maths cannot close at realistic conversion rates | Change the offer or model before writing any copy. | Polished copy for a funnel that cannot pay back. |
+| Regulated claims (financial, health or education results) appear | Stop those claims until legal review clears them. | Regulatory action and client liability. |
+| A hard-sell register conflicts with the voice agreed in `04-brand-voice-intake` | Keep the agreed voice; adapt the persuasion arc to it or return the conflict to the client. | Copy that damages the brand it sells for. |
+| A deadline, limit or scarcity claim is not true and provable | Remove it; use only real mechanics with the reason why, and never extend a deadline publicly. | Fake scarcity and destroyed future urgency. |
+| High-consideration or B2B buyer | Use the three-message follow-up (full offer → "did this reach you?" with the top objection answered → final honest notice). | A single send with no follow-up. |
+| The funnel ends in a call, chat or meeting | Apply the consultative stages before, during and after the conversation. | Scripted pressure that loses the qualified buyer. |
+| The deliverable is a direct-mail letter, postcard, self-mailer or letter-style email/WhatsApp broadcast to a list | Apply the four prerequisites, two-list process, Three Tells, letter structure, FRAT list scoring, $20 Rule and test design in [direct-mail letters and packs](references/direct-mail-letters-and-packs.md). | A mailing sent to the wrong list, in a format the transaction value cannot pay for, or rolled out untested. |
+| Scaling is proposed before the small-batch test meets its targets | Hold the spend; fix the weakest step and rerun the test. | Paying for expensive qualified clicks into a broken funnel. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
 
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested publication-ready copy, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## References
-- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-<!-- dual-compat-end -->
-
-## Overview
-Design direct-response campaigns that produce measurable sales, applications or sign-ups — not just awareness. The skill applies named frameworks with brief attribution — the value ladder and funnel logic (Brunson), sales-letter discipline and the five propositions (Kennedy) — through the engine's own workflow, templates and ethics filter, across social campaigns, email, WhatsApp broadcasts and long-form landing content.
-
-This is a **conversion-economics** skill: every asset serves a funnel step with a target and a test.
-
-## Use When
-- The client wants a social, email or WhatsApp campaign that *sells*, not one that only posts.
-- Launching a course, coaching programme, high-ticket service, membership, event, webinar or book.
-- Building a lead funnel that moves buyers up an offer ladder (free → low-cost → core → premium → recurring).
-- Diagnosing a funnel that converts poorly (small-batch test, lead-progression review).
-- Designing WhatsApp or email broadcast sequences for launch, evergreen selling or reactivation.
-- High-ticket selling where awareness content alone will not close.
-
-## Do Not Use When
-- The brief is brand-building with no conversion goal (use `05-social-media-strategy` and `10-content-pillars`).
-- A hard-sell register conflicts with the voice agreed in `04-brand-voice-intake`.
-- Regulation forbids the claims involved (financial services, health, other regulated categories) until legal review clears them.
-
-## Required Inputs
-- **Funnel-design answers:** who the buyer is, where they gather, what attracts them, which offer the funnel sells.
-- **Offer range:** entry offer, core offer, back-end and any recurring option (or state what is missing).
-- **Traffic today:** owned list sizes, paid spend, organic reach.
-- **Brand voice** from `04-brand-voice-intake`.
-- **Revenue goal** (UGX or stated currency) and period.
-- **Current conversion data:** ad → lead, lead → customer, average order value (or labelled assumptions).
-
-## Workflow
-1. **Answer the funnel-design questions** in writing; all copy is built against them ([funnel architecture](references/funnel-architecture-and-scripts.md) §1).
-2. **Work the revenue maths backwards** from the goal to entry buyers and visitors; if the numbers cannot close, change the offer or model before writing.
-3. **Map the offer ladder**; give every post, email and broadcast one ladder step to serve.
-4. **Classify traffic** as rented, borrowed or owned and plan the consented route into owned lists (WhatsApp opt-in in most East African cases).
-5. **Set the public voice**: one persona stance with a true backstory, admitted weaknesses and a clear point of view.
-6. **Design the offer and propositions** before copy ([offer and price integrity](references/offer-proposition-and-price-integrity.md)).
-7. **Draft the main long-form asset** with the persuasion arc ([funnel architecture](references/funnel-architecture-and-scripts.md) §3; [long-copy system](references/long-copy-sales-letter-system.md) for the drafting and editing stages).
-8. **Draft the sequences**: a five-message story sequence after opt-in, or a three-message follow-up for high-consideration and B2B buyers; then ongoing notes.
-9. **Draft the post-purchase offer** and, where relevant, the live-presentation script and two-call close.
-10. **Specify honest urgency** (real deadlines and limits with reasons) and run the [ethics filter](../references/direct-marketing-ethics-filter.md); stop any asset that fails it.
-11. **Plan the small-batch funnel test** with pre-set targets per step before any spend is scaled; recover by fixing the weakest step and rerunning.
-
-## Script Toolkit (choose by job)
-
-| Job | Pattern | Where it lives |
-|---|---|---|
-| Long sales letter, video script, webinar pitch, one-page broadcast | Persuasion arc: stop the reader → desire and stalled attempts → one promise → who is speaking → the mechanism → evidence → offer → value then price → risk reversal → honest urgency → result and action → after-action and P.S. | [Funnel architecture](references/funnel-architecture-and-scripts.md) §3 |
-| Launch after opt-in | Five-message story sequence (welcome → story to the obstacle → the realisation → unexpected benefits → offer with real deadline) | Same, §3 |
-| High-consideration or B2B follow-up | Three messages: full offer → "did this reach you?" with top objection answered → final honest notice (after Kennedy) | Same, §3; [long-copy system](references/long-copy-sales-letter-system.md) stage 7 |
-| Ongoing nurture | Rotate a real incident, a lesson and a how-to, each with a light product link | Same, §3 |
-| Straight after purchase | One named add-on, offered once, easy to decline | Same, §3 |
-| Webinar or live session | Perfect Webinar structure (Brunson) with closing moves chosen by the buyer's objection | Same, §3 |
-| High-ticket application | Two calls: qualify with four commitments (time, learning, investment, decision-maker), then confirm and close | Same, §3 |
-| Call or meeting-led sale | Consultative stages before, during and after the conversation | [Consultative sales](references/consultative-sales-and-positioning.md) |
-
-## Offer and Trust Layer
-- **Propositions:** build Kennedy's five propositions (distinctive reason to choose, value beyond price, hard-to-refuse offer, safety, experience) into every long-form asset.
-- **P.S. lines:** one to three, each with one job — restate offer and deadline, add a bonus, answer the top objection, or add a consented testimonial.
-- **Honest selectivity:** state real qualification criteria ("for owners already selling weekly"); never manufacture exclusivity.
-- **Price handling:** change the comparison, cost per use, substantiated value stacks, instalments (mobile money where permitted), discounts only in exchange for something, and an open admission of price.
-- **Honest concession:** name the obvious weakness first ("We are not the cheapest; here is why") to pre-empt scepticism.
-
-## Honest Urgency
-Use only mechanics that are true and provable, with the reason why (see the ethics filter). Where genuine limits exist, combine two:
-- A specific deadline (date, time, time zone).
-- A proven limited quantity or cohort size.
-- An early-response bonus with its own sub-deadline.
-- A real consequence of waiting (the price does rise; the offer is withdrawn).
-- A strong, honoured guarantee.
-
-## Integration With Other Skills
-| Skill | Integration |
-|---|---|
-| `04-brand-voice-intake` | The public persona must respect the brand voice |
-| `05-social-media-strategy` | This skill builds the direct-response layer; strategy defines the awareness layer above it |
-| `07-email-marketing-strategy` | Story, follow-up and nurture sequences slot in directly |
-| `09-campaign-strategy` | This skill handles copy; campaign strategy handles the mix |
-| `playbook-chatbot-strategy` (WhatsApp chatbot design reference) | WhatsApp is usually the main owned channel in East Africa |
-| `biz-dev-proposal`, `07-email-marketing-strategy` (win-back) | The same methods apply to B2B proposals and win-back |
-| `premium-commercial-writing` | Premium layer for proof density, value framing, price integrity and high-ticket tone |
-| `advertising/direct-response-economics` | Break-even targets for the small-batch test |
-
-## Quality Bar
-- Funnel-design questions answered specifically.
-- Revenue maths worked backwards; every funnel step has a target rate and volume.
-- Offer ladder has at least three steps and a clear upgrade path.
-- Traffic sources classified, with a consented plan to move buyers into owned lists.
+- Funnel-design questions answered specifically; revenue maths worked backwards with a target rate and volume for every step.
+- Offer ladder has at least three steps and a clear upgrade path; traffic sources are classified with a consented plan to move buyers into owned lists.
 - Persona stance declared and consistent across assets.
-- Main long-form asset follows the persuasion arc, adapted to channel and awareness.
+- Main long-form asset follows the persuasion arc, adapted to channel and awareness, with the five propositions visible and an honest concession.
 - Launch sequence scripted message by message.
-- Five propositions visible in the long-form asset.
 - At least two genuine urgency mechanics, each with its reason.
 - Small-batch funnel test planned before spend is scaled.
-- Ethics filter passed for every asset.
+- Ethics filter passed for every asset; British English; names, figures and quotations verified; the `anti-ai-slop` gate passed.
 
-## Common Failures
-- An "awareness campaign" with no conversion goal, offer or call to action.
-- Posts ending with a link but no explicit next step.
-- Long copy with no honest concession (reads as hype).
-- A value stack with no clear price moment, or values that were never real prices.
-- Deadlines extended publicly (destroys future urgency).
-- Boosting a post "to see what happens" instead of building a funnel.
-- A premium offer given away free "for marketing".
-- A single send with no follow-up sequence.
+## Anti-Patterns
 
-## Deliverables
-- Funnel-design answers.
-- Revenue maths from traffic to entry buyers to core and recurring buyers.
-- Offer-ladder diagram (steps, prices, margin per step, upgrade triggers).
-- Persona brief (stance, backstory, admitted weaknesses, point of view, voice rules).
-- Main long-form asset (sales letter, video script or landing copy).
-- Launch sequence (five-message story sequence or three-message follow-up).
-- Ongoing nurture calendar (12 or more notes).
-- Post-purchase offer script.
-- Urgency specification with reasons.
-- Small-batch test plan with per-step targets.
-- Integration notes for `13-campaign-brief`.
+- An "awareness campaign" with no conversion goal, offer or call to action. Fix: route to `05-social-media-strategy` or set the goal and offer first.
+- Posts ending with a link but no explicit next step. Fix: state one action and what happens after it.
+- Long copy with no honest concession, so it reads as hype. Fix: name the obvious weakness first ("We are not the cheapest; here is why").
+- A value stack with no clear price moment, or values that were never real prices. Fix: substantiate each value and make the price moment explicit.
+- Deadlines extended publicly. Fix: honour the deadline; it protects future urgency.
+- Boosting a post "to see what happens" instead of building a funnel. Fix: plan the small-batch test with per-step targets.
+- A premium offer given away free "for marketing", or a single send with no follow-up sequence. Fix: keep the premium priced and script the follow-up.
 
 ## References
-- [Funnel architecture and scripts](references/funnel-architecture-and-scripts.md) — read when making funnel-design decisions and drafting the persuasion arc, sequences, post-purchase offer, live-presentation closes or call close.
-- [Long-copy sales letter system](references/long-copy-sales-letter-system.md) — read when researching the reader, drafting, editing and testing any long sales asset or sequence.
-- [Offer, proposition and price integrity](references/offer-proposition-and-price-integrity.md) — read when designing the offer, the propositions, discount rules or the price section.
-- [Consultative sales and positioning](references/consultative-sales-and-positioning.md) — read when the funnel ends in a call, chat or meeting.
-- [Direct-mail letters and packs](references/direct-mail-letters-and-packs.md) — read when writing a direct-mail letter, insert, postcard or self-mailer, choosing a mailing list, checking cost per piece or designing a mail test.
-- [Direct-mail pre-release copy checklist](references/galletti-27-points.md) — read when finalising any direct-mail letter, sales letter, email or WhatsApp broadcast before release.
-- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — apply to every asset before release.
-- **Premium commercial writing layer:** see `../premium-commercial-writing/SKILL.md` when direct-response copy must stay credible and premium-fee worthy.
 
-## Uganda / East Africa Notes
-- **WhatsApp is usually the main owned channel.** Opt-in lists often outperform email for consumer offers in the region — an unverified practitioner heuristic; test against the client's own data.
-- **Story sequences map well to a five-day WhatsApp broadcast:** voice notes for the story messages, text plus image for the benefit messages, and a combined text, voice and image call to action at the end.
-- **Three-message follow-up** works on LinkedIn, email or WhatsApp for B2B decision-makers.
-- **Test before you scale:** qualified clicks are expensive; do not scale a broken funnel.
-- **Study what already works:** Kenyan, Nigerian and South African offer pages and ad libraries — structure only, never wording.
-- **Cohort limits** ("50 seats, closes 30 November") tied to a real event or venue suit many Ugandan buyers — only when true.
-- **Payment:** mobile money (MTN, Airtel) is expected; a card-only checkout is a likely barrier — test and measure rather than assume a figure.
+- [Funnel method and toolkit](references/funnel-method-and-toolkit.md): read when you need the full eleven-step method, script toolkit, offer and trust layer, honest urgency mechanics, integrations, deliverable list or Uganda / East Africa notes.
+- [Funnel architecture and scripts](references/funnel-architecture-and-scripts.md): read when making funnel-design decisions and drafting the persuasion arc, sequences, post-purchase offer, live-presentation closes or call close.
+- [Long-copy sales letter system](references/long-copy-sales-letter-system.md): read when researching the reader, drafting, editing and testing any long sales asset or sequence.
+- [Offer, proposition and price integrity](references/offer-proposition-and-price-integrity.md): read when designing the offer, the propositions, discount rules or the price section.
+- [Consultative sales and positioning](references/consultative-sales-and-positioning.md): read when the funnel ends in a call, chat or meeting.
+- [Direct-mail letters and packs](references/direct-mail-letters-and-packs.md): read when writing a direct-mail letter, insert, postcard or self-mailer, choosing a mailing list, checking cost per piece or designing a mail test.
+- [Direct-mail pre-release copy checklist](references/galletti-27-points.md): read when finalising any direct-mail letter, sales letter, email or WhatsApp broadcast before release.
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md): read before releasing every asset; the filter is mandatory.
+- [`premium-commercial-writing`](../premium-commercial-writing/SKILL.md): read when direct-response copy must stay credible and premium-fee worthy.
+- [`caption-writer`](../caption-writer/SKILL.md): read when only the promoting social posts are needed.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when financial, health or education claims appear.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting any asset.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+<!-- dual-compat-end -->

@@ -4,7 +4,7 @@ Merged from skills/meta-analytics-ops/meta-lead-scoring on 2026-09-29 at 8eacccb
 
 ## When to use this reference
 
-Read this reference when the client needs a full lead-scoring design document rather than the short starter model in the SKILL.md `Lead Scoring Foundation`: explicit (fit) and implicit (behaviour) scoring tables, score decay, a threshold calibrated with sales, a BANT check before handover and CRM set-up notes. The SKILL.md prerequisites still apply: the CRM must be adopted before scoring goes live, and the handover SLA governs what happens after a lead crosses the threshold.
+Read this reference when the client needs a full lead-scoring design document rather than the short starter model in [alignment-method.md § Lead Scoring Foundation](alignment-method.md): explicit (fit) and implicit (behaviour) scoring tables, score decay, a threshold calibrated with sales, a BANT check before handover and CRM set-up notes. The SKILL.md prerequisites still apply: the CRM must be adopted before scoring goes live, and the handover SLA governs what happens after a lead crosses the threshold.
 
 Lead scoring is a numerical model that gives each lead points on two dimensions:
 
@@ -39,7 +39,7 @@ Ask for the following before generating any output:
 | Setting the threshold | Agree it with sales before go-live; never set it in isolation. | A model imposed by marketing that sales ignores. |
 | A lead crosses the threshold but fails BANT | Return it to nurture; do not forward it to sales. | Handing sales high-score leads with no budget, authority, need or timeframe. |
 | The client is an East Africa SME with thin CRM data | Start with 5–8 criteria, beginning with the four highest-signal behaviours (starter model below); add criteria as data quality improves. | A complex model the data cannot support. |
-| No CRM is in use | Recommend a simple shared spreadsheet model in the CRM implementation notes (and see the SKILL.md `CRM as Single Source of Truth`). | Scoring that lives in one person's inbox. |
+| No CRM is in use | Recommend a simple shared spreadsheet model in the CRM implementation notes (and see [alignment-method.md § CRM as Single Source of Truth](alignment-method.md)). | Scoring that lives in one person's inbox. |
 
 The point values, the 60-point and 40-point thresholds and the decay schedule are practitioner starting points, not measured East Africa benchmarks. Verify before stating (no register record); calibrate them with the client's own conversion data.
 
@@ -133,7 +133,7 @@ The model is not a formula. It is a calibration conversation between marketing a
 | **Need** | Is there a stated or clearly implied business problem the product or service addresses? | Explicit need = pass; vague interest = return to nurture |
 | **Timeframe** | Is there a defined decision date, project deadline or urgency signal? | Defined timeframe = pass; open-ended = lower priority |
 
-A lead that crosses the threshold and passes all four dimensions is a Marketing Qualified Lead (MQL), ready for handover under the SKILL.md `Lead Handover SLA`.
+A lead that crosses the threshold and passes all four dimensions is a Marketing Qualified Lead (MQL), ready for handover under [alignment-method.md § Lead Handover SLA](alignment-method.md).
 
 ### East Africa starter model
 
@@ -145,7 +145,7 @@ A lead that crosses the threshold and passes all four dimensions is a Marketing 
 | Requested a consultation or quote | 40 |
 | **Suggested threshold** | **40 points** |
 
-At 40 points a single consultation request triggers immediate sales follow-up, as it should, and two or more moderate signals together also cross the threshold. Review and expand the model at the 60-day calibration. The SKILL.md `Lead Scoring Foundation` adds WhatsApp-specific signals (question in reply to a broadcast, price-list request) that fit this starter model.
+At 40 points a single consultation request triggers immediate sales follow-up, as it should, and two or more moderate signals together also cross the threshold. Review and expand the model at the 60-day calibration. The [alignment-method.md § Lead Scoring Foundation](alignment-method.md) adds WhatsApp-specific signals (question in reply to a broadcast, price-list request) that fit this starter model.
 
 ## Output: lead scoring design document
 
@@ -173,3 +173,7 @@ At 40 points a single consultation request triggers immediate sales follow-up, a
 Kahan, R. (2022) *High-Velocity Digital Marketing: 7 Proven Strategies to Send Your Revenue Soaring Using Today's Best Digital Practices*. Amplify Publishing.
 
 Zahay, D. et al. (2024) *Digital Marketing Management: A Handbook for the Current (or Future) CEO*. 3rd edn. Business Expert Press.
+
+## Section locations after S09
+
+Added in Social Kaizen S09 (29 Sep 2026). The SKILL.md sections this reference names (`Lead Scoring Foundation`, `CRM as Single Source of Truth`, `Lead Handover SLA`) moved, text unchanged, to [alignment-method.md](alignment-method.md) under the same headings; the handover SLA table and the 50-point starter MQL threshold are also summarised in the SKILL.md.

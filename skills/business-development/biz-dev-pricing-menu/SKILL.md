@@ -9,6 +9,8 @@ metadata:
 ---
 # Services and Pricing Menu Generator
 
+Produces two documents from one set of inputs: a client-facing services menu (three tiers, add-ons, pricing notes) and a consultant-only pricing rationale guide, plus a risk-reversed test offer when a prospect will not yet sign a retainer. Prices default to UGX with a USD equivalent.
+
 <!-- dual-compat-start -->
 ## Use When
 - We don't know what to charge and want Starter, Growth and Premium packages with clear inclusions and add-ons, priced in UGX or KES.
@@ -23,268 +25,93 @@ metadata:
 - Stop before publishing prices or guarantees the consultant has not approved; never promise a result the offer terms cannot back.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Commercial brief, target buyer, offer, proof and requested next step | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified priced service menu; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Buyer problem, proof strength and commercial objective align | Choose the offer and proof sequence that supports the requested buying decision. | A generic sales asset with unsupported claims or the wrong ask. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| A new prospect will not yet commit to a retainer | Build a 7–10-day risk-reversed test offer from the risk-reversed entry offer reference (one of five structures, one-page offer, expectations sign-off), then move a successful test onto a menu programme. | Discounting the menu to win a sceptical first client, or promising outcomes instead of putting the fee at risk. |
+|---|---|---|---|
+| Consultant name (personalises Document 2) | Consultant | Yes | Ask; leave `[Consultant Name]` visible until supplied. |
+| Country, for pricing currency | Consultant | Yes | Default to Uganda: UGX pricing with USD equivalent. |
+| Services the consultant actually provides | Consultant | Yes | Ask; do not list a service the consultant does not deliver. |
+| Current client load (number of active clients) | Consultant | Yes | Omit capacity notes and flag the gap. |
+| Years of experience | Consultant | Yes | Write the rate justification without experience claims. |
+| Cost-to-serve sheet, approved price ranges and any guarantee terms | Consultant; `playbook-agency-operations` growth roadmap; finance engine margin check | Conditional | Show the indicative ranges as unapproved drafts and mark margin `not assessed`. |
 
 ## Workflow
-1. Confirm the exact priced service menu, consumer, market, channel and approval boundary; route to `biz-dev-positioning` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete priced service menu; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Confirm who the menu is for and the approval boundary; route a one-client scope to `biz-dev-proposal`, product break-even maths to `direct-response-economics`, and an unsettled niche to `biz-dev-positioning`.
+2. Ask the intake questions in the [build method](references/pricing-menu-build-method.md#required-input); stop until the services and country are confirmed.
+3. Draft Document 1: introductory paragraph, the Starter, Growth and Premium tiers with inclusions, exclusions and monthly investment, the add-on list and the pricing notes.
+4. Apply the menu design rules before publishing Document 1: at most three core programmes, aligned rows, buyer-situation tier names, one true badge, a named contact and WhatsApp route below the table.
+5. Price from the cost-to-serve sheet and value delivered, then check margin with the finance engine; pair each programme's fast-signal component with a slow-compounding one.
+6. Draft Document 2 (internal only): rate justification, the five objection responses, the Starter-to-Growth path and the walk-away signals.
+7. If the prospect will not commit to a retainer, build the 7–10-day [risk-reversed entry offer](references/risk-reversed-entry-offer.md) instead of discounting.
+8. Check both documents against the Quality Standards and the `anti-ai-slop` gate; correct any unsourced salary or market figure, untrue badge or unbacked guarantee and rerun the check. Stop before publishing prices or guarantees the consultant has not approved.
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Priced service menu | Requester, client reviewer or delivery team | The priced service menu addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Document 1: `# Services Menu — [Agency Name]` (three tiers, add-ons, pricing notes) | Prospects and clients | A client can self-select without a conversation; exclusions are specific; exchange-rate caveat present. |
+| Document 2: `# Pricing Rationale Guide — For [Consultant Name]` | Consultant only | Marked internal-use only; five objections, upgrade path and walk-away signals present. |
+| Risk-reversed test offer: one-page offer and expectations sign-off (when needed) | Wary prospect | One of five structures chosen; the fee, not an outcome promise, carries the risk. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Price basis note | Table: tier or add-on, cost to serve, value rationale, margin check | Every price traces to the cost-to-serve sheet or is labelled indicative and unapproved. |
+| Figure source log | Table: figure, source, date | Salary, exchange-rate and market figures carry a current, dated source or are removed. |
+| Menu design check | Checklist | The six menu design rules marked pass or fail. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Prices and guarantees go out only after the consultant approves them.
+
+## Degraded Mode
+
+Without the consultant's approved price ranges and cost to serve, return the narrowest qualified result and mark the affected checks `not assessed`. The tier structure, inclusions, exclusions and Document 2 guidance can still be delivered, with the indicative UGX ranges labelled as unapproved.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| A new prospect will not yet commit to a retainer | Build a 7–10-day risk-reversed test offer from the risk-reversed entry offer reference (one of five structures, one-page offer, expectations sign-off), then move a successful test onto a menu programme. | Discounting the menu to win a sceptical first client, or promising outcomes instead of putting the fee at risk. |
+| Pushed on price | Explore scope reduction first ("start with the Starter package and add platforms once we have proven the results"); if discounting, trade term length, prepayment or case-study rights and show old price, new price and saving with the real reason. | Eroding the rate card with silent discounts. |
+| More than three core programmes, or unrelated items in one table | Keep three core programmes (Nelson, 2019); move audits, training and add-ons to a separate list or tab. | A menu the buyer cannot compare. |
+| A badge or "most chosen" claim is proposed | Use one badge only, and only if literally true. | A false claim on the price page. |
+| Justifying the rate against an in-house hire | Use a current, dated local salary source plus training, management time and tools; if none is available, ask the client what the role would cost. | Quoting a remembered salary range. |
+| The client has sales data | Use Bodnar and Cohen's (2012) ROI formula: (Total Lead Value − Cost of Customer Acquisition) ÷ Cost of Customer Acquisition. | Arguing on cost instead of value. |
+| The enquiry shows a walk-away signal (guaranteed follower or sales numbers, daily promotional posts only, three agencies in 12 months, constant same-day demands, no agreement or deposit) | Decline or disengage. | A future dispute and reputational damage. |
+| A Starter client reaches month 3 | Present a results summary, name one gap Growth would close, and offer a 90-day Growth trial. | A generic upsell or an open-ended ask. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- All three tiers are clearly differentiated in scope, volume, and price; a client can self-select without a conversation.
+- "What is NOT included" sections are honest and specific, not defensive in tone.
+- Add-ons are priced individually so clients can build their own package.
+- Pricing notes include the exchange rate caveat as specified.
+- Objection responses are conversational, confident, and non-defensive, not scripts to be read verbatim.
+- Red flags list is practical and actionable; each item has a clear reason.
+- Document 2 is clearly marked as internal-use only.
+- The menu has no more than three core programmes, aligned rows, one true badge, a contact route under the table and no unsourced salary or market figures.
+
+The ninth release check (Starter-to-Growth upsell guidance) is in the [build method](references/pricing-menu-build-method.md#additional-release-check).
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested priced service menu, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+- Showing a single option or naming tiers "Basic/Pro". Fix: three aligned options named by the buyer's situation or outcome, with the preferred programme in the middle.
+- Burying the price where the buyer expects it. Fix: in conversation go problem, cost to profit, solution, price; on a premium site show ranges on an "Investment" page.
+- Treating Nelson's anecdote that clients chose his top package unprompted as a planning rate. Fix: plan from cost to serve and value; treat it as one agency's anecdote.
+- Treating "leading with the dearest plan raises revenue per visitor" as a rule. Fix: test it as a hypothesis (Wiebe, 2011).
+- Promising guaranteed follower counts or sales. Fix: put the fee at risk through a risk-reversed offer, never the outcome.
+- Accepting a one-month trial of the full retainer. Fix: recommend a three-month minimum with clear milestones.
 
 ## References
-- [biz-dev-positioning](../biz-dev-positioning/SKILL.md) is the nearest routing comparison for this skill.
-- [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md) — read for the paths table, cost-to-serve sheet and programme design behind the prices.
-- [Risk-reversed entry offer](references/risk-reversed-entry-offer.md) — read when a prospect needs a low-risk first engagement (result guarantee, pay-per-appointment, revenue share or deferred fee) before any retainer.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+
+- [Pricing menu build method](references/pricing-menu-build-method.md): read when writing the tiers, add-ons, pricing notes, menu design rules, rate justification, objection responses, upgrade path or walk-away signals.
+- [Risk-reversed entry offer](references/risk-reversed-entry-offer.md): read when a prospect needs a low-risk first engagement (result guarantee, pay-per-appointment, revenue share or deferred fee) before any retainer.
+- [Agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md): read for the paths table, cost-to-serve sheet and programme design behind the prices.
+- [`biz-dev-positioning`](../biz-dev-positioning/SKILL.md): read when the niche and promise the prices reflect are not settled.
+- [`biz-dev-proposal`](../biz-dev-proposal/SKILL.md): read when one named client needs a full scope and terms.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the client-facing menu copy.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
-
-Produce two separate, clearly labelled documents from one set of inputs. Document 1 is for the client; Document 2 is for the consultant's eyes only. Apply East African English throughout Document 1. Document 2 may use a more direct, internal register.
-
-## Required Input
-Ask for the following before generating:
-
-- **Consultant name** — for personalising Document 2
-- **Country** — for pricing currency (defaults to Uganda; UGX pricing with USD equivalent)
-- **Services offered** — confirm which services the consultant actually provides
-- **Current client load** — how many active clients (affects capacity notes)
-- **Years of experience** — informs confidence of rate justification in Document 2
-
-## Document 1: Client-Facing Services Menu
-Label this section clearly: `# Services Menu — [Agency Name]`
-
-### Introductory Paragraph
-2–3 sentences. State what the agency does, who it serves, and that packages are designed to match different stages of business growth. Professional, warm, not salesy.
-
-### Three Service Tiers
-Generate all three tiers. Present each tier in the format below.
-
-#### Starter Package
-**Ideal for:** Small businesses and startups establishing their social media presence for the first time.
-
-**Platforms covered:** Choose 1–2 platforms based on the client's industry. Default recommendation for Uganda: Facebook + Instagram.
-
-**Monthly content volume:**
-- Facebook: 12 posts per month (3 per week)
-- Instagram: 8 posts per month (2 per week)
-
-**What is included:**
-- Monthly content calendar (planned 2 weeks in advance)
-- Caption writing for all posts
-- Hashtag research and tagging
-- Basic monthly report (reach, engagement, follower growth)
-- 1 strategy check-in call per month (30 minutes)
-- Response management: business hours only (Mon–Fri, 8am–5pm)
-
-**What is NOT included:**
-- Graphic design or photography
-- Paid advertising management
-- WhatsApp or LinkedIn management
-- Crisis communications support
-- Video content scripting
-
-**Monthly investment:** UGX 800,000 – 1,200,000 (approx. USD 215 – 325)
-
-#### Growth Package
-**Ideal for:** Established businesses ready to scale their social media consistently and connect it to business goals.
-
-**Platforms covered:** 2–3 platforms. Default for Uganda: Facebook + Instagram + WhatsApp (broadcast list management).
-
-**Monthly content volume:**
-- Facebook: 16 posts per month (4 per week)
-- Instagram: 12 posts per month (3 per week)
-- WhatsApp broadcast: 4 messages per month
-
-**What is included:**
-- Monthly content calendar with content pillars applied (Hero/Hub/Hygiene model)
-- Caption writing and hashtag strategy
-- Basic graphic briefs (consultant writes briefs; client or designer executes)
-- Community management: responses within 4 business hours
-- Monthly performance report with commentary and recommendations
-- 2 strategy sessions per month (45 minutes each)
-- Quarterly content audit
-
-**What is NOT included:**
-- Graphic design execution
-- Paid advertising management
-- Video production or scripting
-- LinkedIn or TikTok management (available as add-on)
-
-**Monthly investment:** UGX 2,000,000 – 3,000,000 (approx. USD 540 – 810)
-
-#### Premium Package
-**Ideal for:** Organisations requiring full social media management, senior strategic input, and multi-platform presence.
-
-**Platforms covered:** Up to 4 platforms. Recommended: Facebook + Instagram + LinkedIn + WhatsApp.
-
-**Monthly content volume:**
-- Facebook: 20 posts per month
-- Instagram: 16 posts per month
-- LinkedIn: 8 posts per month
-- WhatsApp broadcast: 8 messages per month
-
-**What is included:**
-- Full content strategy (reviewed quarterly)
-- Monthly content calendar across all platforms
-- Caption writing, hashtag strategy, and graphic briefs
-- Community management: responses within 2 business hours, including Saturdays
-- Comprehensive monthly report with SMART metrics and trend analysis
-- Weekly check-in (30 minutes) + monthly strategy session (60 minutes)
-- Quarterly strategy review and planning session
-- 1 training session per quarter for client team (online)
-- Crisis communications protocol (document provided on onboarding)
-
-**What is NOT included:**
-- Graphic design execution or photography
-- Paid advertising management or budget oversight
-- Video production
-
-**Monthly investment:** UGX 4,500,000 – 6,500,000 (approx. USD 1,215 – 1,755)
-
-### Add-On Services
-Present as a clean list. Each add-on has a name, one-sentence description, and indicative price.
-
-**One-Off Strategy Projects**
-A standalone social media strategy document for a single platform or campaign. Includes situation analysis, objectives, content pillars, and 90-day action plan.
-*Investment: UGX 1,500,000 – 2,500,000 (approx. USD 405 – 675)*
-
-**Additional Content — Posts**
-Extra posts beyond your package volume, fully written and ready to publish.
-*Investment: UGX 35,000 – 60,000 per post (approx. USD 10 – 16)*
-
-**Graphic Briefs Package**
-Written creative briefs for 8 additional graphics per month, suitable for passing to a designer or using with Canva.
-*Investment: UGX 250,000 per month (approx. USD 68)*
-
-**Training Workshop — Half Day (3 hours)**
-Practical training for your team on social media content creation, scheduling, or community management. Delivered online or in person in Kampala.
-*Investment: UGX 1,200,000 (approx. USD 325)*
-
-**Training Workshop — Full Day (6 hours)**
-Comprehensive training on social media strategy, content planning, or platform-specific skills.
-*Investment: UGX 2,000,000 (approx. USD 540)*
-
-**Reporting-Only Retainer**
-Monthly performance report with commentary — for clients who manage their own content but want professional analysis.
-*Investment: UGX 500,000 per month (approx. USD 135)*
-
-### Pricing Notes
-- All prices are quoted in Ugandan Shillings. USD equivalents are indicative and based on prevailing exchange rates.
-- Prices shown are ranges; final pricing depends on scope, platform complexity, and client requirements.
-- A 50% deposit is required to commence; the balance is invoiced monthly in advance.
-- Packages are reviewed annually. Current pricing is valid through [insert review date].
-
-### Menu Design Rules (apply before publishing Document 1)
-
-- **Three core programmes at most** (Nelson, 2019). Put one-off audits, training and add-ons on a separate list or tab so unrelated items are not mixed in one table.
-- **Choice architecture** (Wiebe, 2011, *Copy Hackers: 6 Persuasion Strategies*): never show a single option; align rows so the same features appear in the same order and words in every column; name tiers by the buyer's situation or outcome, not "Basic/Pro"; place the programme you most want to sell in the middle; use one badge only, and only if true ("Most chosen by clinics" must be literally true); put a named contact and WhatsApp route directly below the table. Treat claims such as "leading with the dearest plan raises revenue per visitor" as hypotheses to test, not rules.
-- **Price presentation order:** in conversation, problem → cost to the client's profit → solution → price. On a premium agency website, sell outcomes and proof on the home page and show ranges on an "Investment" page; never bury the price where it is expected.
-- **Discounts:** show the old price, new price and saving together, give the real reason, and prefer trading something (term length, prepayment, case-study rights) over cutting price.
-- **Every programme pairs a fast-signal component with a slow-compounding one** so the client sees early results (see [agency growth roadmap](../../playbooks/playbook-agency-operations/references/agency-growth-roadmap.md)).
-- **Price from the cost-to-serve sheet and value delivered**, then check margin with the finance engine. Nelson observed that a sizeable share of his clients chose his top package unprompted; that is one agency's anecdote, not a planning rate.
-
-## Document 2: Consultant-Only Pricing Rationale Guide
-Label this section clearly: `# Pricing Rationale Guide — For [Consultant Name]`
-
-Add a note at the top: *This document is for internal use only. Do not share with clients.*
-
-### How to Justify Your Rates
-Frame every pricing conversation around value delivered, not time spent or costs incurred. Clients who focus only on price are usually not yet convinced of the value.
-
-**Value-based framing approach:**
-
-1. **Anchor to the client's goal first.** Before quoting, confirm what outcome the client wants (more leads, brand awareness, sales). Then connect your service to that outcome: "Our Growth package is designed for businesses that want consistent, strategic content tied to real business targets — not just posting for the sake of it."
-
-2. **Quantify the alternative.** Compare the retainer with the client's real cost of an in-house hire (salary from a current, dated local salary source, plus training, management time and tools). Do not quote a remembered salary range; if no current source is available, ask the client what the role would cost them.
-
-3. **Reference what's included.** Walk through the deliverables list item by item. Clients often do not realise how much is covered. "This includes your content calendar, all captions, community management, and a monthly report with recommendations — every month."
-
-4. **Use the ROI formula where appropriate.** If the client has sales data, reference Bodnar and Cohen's (2012) ROI formula: (Total Lead Value − Cost of Customer Acquisition) ÷ Cost of Customer Acquisition. Even modest social media-driven leads can justify the investment.
-
-5. **Avoid discounting immediately.** If pushed on price, explore scope reduction first: "We could start with the Starter package and add platforms once we have proven the results."
-
-### Common Client Objections and Responses
-**Objection 1: "Your prices are too high for us."**
-Response: "I understand budget is always a consideration. May I ask — what were you expecting to invest? That helps me understand whether there is a package that fits, or whether we need to adjust the scope. I want to find something that works rather than just discounting."
-
-**Objection 2: "We can get someone cheaper on social media."**
-Response: "Absolutely — there are many freelancers at lower price points. The difference is in what you are buying: strategy, consistency, and accountability. Many of my clients came to me after a cheaper option produced inconsistent results. I am happy to walk you through exactly what this package delivers so you can compare like for like."
-
-**Objection 3: "Can we just do it ourselves?"**
-Response: "You certainly can — and for some businesses, that works well. I actually offer a training workshop if you would prefer to build the internal capability. The question is whether your team has the time and strategic expertise to do it consistently. Most business owners find that in practice, it falls off when things get busy."
-
-**Objection 4: "We want to try one month first."**
-Response: "I appreciate the caution. Social media results compound over time — a single month rarely shows the full picture. I typically recommend a three-month minimum to give the strategy time to work. What I can do is structure the first three months with clear milestones so you have defined points to evaluate the results."
-
-**Objection 5: "We do not have a budget for this right now."**
-Response: "Thank you for being candid. When would be a better time to revisit this? I am happy to schedule a follow-up in [timeframe] when you are ready. In the meantime, I can share our Reporting-Only Retainer as a lower-cost way to stay connected to your performance data."
-
-### How to Move a Client from Starter to Growth
-- At month 3, present a results summary showing what has been achieved on the Starter package.
-- Identify one specific gap that the Growth package would address (e.g., response management, WhatsApp, additional platforms).
-- Frame it as a natural next step, not an upsell: "Based on what we have achieved, I think you are now ready to build on this."
-- Introduce WhatsApp broadcast as the easiest add-on — high engagement, familiar to the client's audience, low creative burden.
-- Offer a 90-day Growth trial rather than asking for an open-ended commitment.
-
-### When to Walk Away from an Enquiry
-Decline or disengage when:
-
-- **The client wants guaranteed follower counts or sales numbers.** No ethical consultant can guarantee specific metrics. This expectation signals either misaligned expectations or a future dispute.
-- **The client wants to post daily promotional content only.** This approach does not work and will produce poor results. If they are unwilling to discuss content strategy, the engagement will fail and damage your reputation.
-- **They have already worked with three agencies in 12 months and "none of them worked out."** The pattern suggests the problem is not the agencies.
-- **They expect immediate availability and same-day turnarounds consistently.** This client will breach the boundaries that allow you to serve all clients well.
-- **They are unwilling to sign a basic agreement or pay a deposit.** This is a standard professional protection, not negotiable.
-
-## Quality Criteria
-- All three tiers are clearly differentiated in scope, volume, and price; a client can self-select without a conversation
-- "What is NOT included" sections are honest and specific — not defensive in tone
-- Add-ons are priced individually so clients can build their own package
-- Pricing notes include the exchange rate caveat as specified
-- Objection responses are conversational, confident, and non-defensive — not scripts to be read verbatim
-- Upsell guidance is specific to the Starter-to-Growth journey; not generic sales advice
-- Red flags list is practical and actionable; each item has a clear reason
-- Document 2 is clearly marked as internal-use only
-- The menu has no more than three core programmes, aligned rows, one true badge, a contact route under the table and no unsourced salary or market figures

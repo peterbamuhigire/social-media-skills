@@ -9,6 +9,8 @@ metadata:
 ---
 # AI Foundations for Marketing Teams — Training Guide
 
+Produces a facilitator-ready, four-module AI literacy guide (about 150 minutes) that frames AI as augmented intelligence and ends with supervised practice; the prompt-writing workshop follows as a second session.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -28,177 +30,89 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to beginner AI literacy for marketing teams, safe use, limitations, and supervised practice | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Client business name, industry, country/city and primary goal | Client lead | Yes | Default to Uganda / East Africa; ask for the goal and hold the guide until it is stated. |
+| Team size and prior AI experience (none / basic / intermediate) | Client lead or pre-session survey | Yes | Assume no experience and deliver foundations before any prompt-writing module. |
+| Primary platforms used (e.g. Facebook, Instagram, WhatsApp) | Client lead | Yes | Use Facebook, Instagram and WhatsApp and label the platform table provisional. |
+| Training format and time available (2-hour express / half-day / 4 weekly sessions) | Client lead | Yes | Plan the 150-minute half-day and mark cuts for a 2-hour express. |
+| Tool access: Android, free tier, 3G connection for the five hands-on tools | Facilitator check before the session | Yes | Mark unverified tools `not assessed` and run those segments as demonstrations. |
+| Synthetic practice material (no real client personal data) | Facilitator | Yes | Write synthetic briefs; never paste client personal data into public tools. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; decide whether the team needs foundations, the prompt-writing follow-on module, or both in sequence.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Run the intake in [training-guide-plan.md](references/training-guide-plan.md) and decide whether the team needs foundations, the prompt-writing follow-on module, or both in sequence.
+2. Verify tool access (Android, free tier, 3G) and prepare synthetic exercise material; stop before any exercise would put real client personal data into a public AI tool.
+3. Write the Training Overview block with the four sources, then open with the augmented-intelligence frame and junior assistant analogy from [foundations-and-limits.md](references/foundations-and-limits.md).
+4. Generate Modules 1–2 (what AI is; what it can and cannot do, with the EA platform table) from [foundations-and-limits.md](references/foundations-and-limits.md), adding the Co-Pilot vs Co-Thinker and Three Waves segments.
+5. Generate Modules 3–4 (five hands-on tools; the human quality standard) and the exercises summary from [tools-and-human-review.md](references/tools-and-human-review.md).
+6. If the team is ready, schedule the follow-on session from [prompt-writing-module.md](references/prompt-writing-module.md) after this guide, never before it.
+7. Check the guide against the Quality Standards, apply `anti-ai-slop` and block release on an F from `ai-slop-audit`; correct any failing section and rerun the affected check before hand-off to the facilitator.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Beginner ai literacy for marketing teams, safe use, limitations, and supervised practice deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Facilitator-ready training guide, four modules, about 150 minutes | Client facilitator or marketing manager | A non-technical manager can run it without extra preparation; client name, industry, platforms and city appear throughout. |
+| Supervised exercise set (Co-Pilot/Co-Thinker audit, Three Waves, tool practice, 3-step edit) | Trainees and facilitator | Each exercise uses synthetic or approved material and has a stated debrief question. |
+| Follow-on prompt-writing session plan (when chosen) | Facilitator | Scheduled after foundations and built from the prompt-writing module. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Tool-access check | Table: tool, Android, free tier, 3G, date checked | Every hands-on tool is verified or marked `not assessed`. |
+| Trainee critique record | Before/after prompt or edited output per trainee | Shows each trainee critiqued and improved an output using the 3-step edit. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Exercises use synthetic data; any use of client data in AI tools needs a Uganda DPPA 2019 check and client sign-off.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without confirmed team experience level and tool access, return the narrowest qualified result and mark the affected checks `not assessed`. The augmented-intelligence frame, Modules 1–2 and the human quality standard can still be delivered as a classroom session without live tools.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
 | Learners lack a shared AI mental model | Teach literacy and risk before prompt technique | Prompt recipes create confidence without judgement |
 | Learners understand basic AI limits and need repeatable prompting practice | Deliver the prompt-writing module from [prompt-writing-module.md](references/prompt-writing-module.md) with worked exercises, human review and verified facts | Participants copy prompts without checking outputs |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| An exercise would use real client or customer personal data | Replace it with synthetic data; escalate any real-data use for DPPA 2019 review | Personal data leaked into public AI tools |
+| A hands-on tool fails on Android, free tier or 3G | Swap to a demonstration or a lighter alternative and note bandwidth guidance | A session stalled by access the team does not have |
+| The client asks for a tool, feature or tier claim to be stated as current | Verify it on the date of training or mark it `not assessed`; the guide teaches judgement, not a tool catalogue | Out-of-date AI tool claims taught as fact |
+| The client wants trainees to publish AI drafts during the session | Keep outputs as reviewed drafts; publishing needs the approval rule and client authority | Unreviewed AI copy on live client accounts |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- Augmented intelligence framing is used consistently throughout (AI assists humans, it does not replace them); the junior assistant analogy is included.
+- All three AI types (Mechanical / Thinking / Feeling) are explained with Uganda/East Africa marketing examples.
+- The "What AI cannot do" section is specific and EA-calibrated, not a generic global list; Luganda/Swahili limitations and cultural intelligence gaps are named explicitly.
+- All 5 hands-on tools (ChatGPT, Gemini, Canva, FeedHive, Otter.ai) are verified as accessible on Android, free tier, and 3G connection; bandwidth guidance is included.
+- The human quality standard section includes the banned vocabulary list, the 5 signs of AI text, and the 3-step edit process.
+- Platform AI applications are presented as a table with EA-specific notes per channel, not a single generic list.
+- Output is structured so a non-technical marketing manager can facilitate the session without additional preparation.
+- British English spelling throughout; imperative language used in all instructions; Uganda/East Africa, EAT, UGX and WhatsApp-first assumptions stated where they apply.
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Teaching prompt recipes before the team shares a mental model of AI limits. Fix: run foundations first and schedule the prompt-writing module after it.
+- Using real customer lists or client files in live exercises. Fix: use synthetic briefs and keep real-data use behind a DPPA 2019 check.
+- Presenting a generic global "what AI cannot do" list. Fix: name Luganda/Swahili limits and local cultural intelligence gaps.
+- Assuming every trainee has a laptop, paid tier and fast connection. Fix: verify Android, free tier and 3G access and plan demonstrations as a fallback.
+- Treating the Co-Pilot mode as the whole of AI use. Fix: run the Co-Pilot vs Co-Thinker audit so the team practises thought-partner work.
+- Letting AI output go out unread because it "looks fine". Fix: teach the 3-step edit and the approval rule, and record each trainee's edited output.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
-- [prompt-writing-module.md](references/prompt-writing-module.md) — read when the team needs the follow-on prompt-writing session (Alpha-Beta-Gamma-Delta-Epsilon, copywriting frameworks, iterative refinement); it routes to [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md) and [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md).
+- [training-guide-plan.md](references/training-guide-plan.md): read when running intake, writing the Training Overview block or teaching Co-Pilot/Co-Thinker and the Three Waves.
+- [foundations-and-limits.md](references/foundations-and-limits.md): read when writing the core frame and Modules 1–2.
+- [tools-and-human-review.md](references/tools-and-human-review.md): read when writing Modules 3–4, the banned vocabulary and the exercises summary.
+- [prompt-writing-module.md](references/prompt-writing-module.md): read when the team needs the follow-on prompt-writing session (Alpha-Beta-Gamma-Delta-Epsilon, copywriting frameworks, iterative refinement); it routes to [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md) and [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md).
+- [prompt-foundations-and-structure.md](references/prompt-foundations-and-structure.md): read when writing prompt-writing Modules 1–2.
+- [copy-frameworks-and-practice.md](references/copy-frameworks-and-practice.md): read when writing prompt-writing Modules 3–4 and worked prompt examples.
+- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md): read when teaching humanising rewrite passes, the editing checklist and banned vocabulary.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read when scoring the finished training guide before release.
+- [`brand-voice-ai-training`](../../ai-marketing/brand-voice-ai-training/SKILL.md): read when the team must train AI tools on a specific brand voice.
+- [`prompt-engineering-library`](../../content-writing/prompt-engineering-library/SKILL.md): read when trainees need ready-made prompt templates for common marketing content types.
+- [`training-client-team`](../training-client-team/SKILL.md): read when the team needs general social media training for content creation and community management.
+- [AGENTS.md](../../../AGENTS.md): read when checking repository-wide doctrine.
 <!-- dual-compat-end -->
-
-## How to Use This Skill
-
-Collect the Required Input below. Then generate the full training guide across four modules, substituting all bracketed placeholders with the client's specific details. Output is a complete, facilitator-ready training document, not a slide deck. This repository has no active standalone slide-deck route; if slides are commissioned, hand the approved content to `chwezi-design-engine`.
-
----
-
-## Required Input
-
-Ask for the following before generating the training guide:
-
-- **Client business name** — trading name of the business
-- **Industry** — sector (e.g. FMCG, hospitality, professional services, healthcare)
-- **Country / city** — default Uganda / East Africa
-- **Primary goal** — what the client wants the team to achieve after training
-- **Team size and prior AI experience** — number of participants; experience level: none / basic / intermediate
-- **Primary platforms used** — which platforms the business is active on (e.g. Facebook, Instagram, WhatsApp)
-- **Training format** — in-person / virtual / self-guided handout
-- **Time available** — 2-hour express / half-day full / spread across 4 weekly sessions
-
----
-
-## Output: Complete Training Guide
-
-Generate the following four modules in full. Use the client's name, industry, platforms, and city throughout. Write in plain English — no jargon. Tone: practical, encouraging, honest.
-
----
-
-## Training Overview
-
-**Programme:** AI Foundations for Marketing Teams
-**Total Duration:** Approximately 2.5 hours (150 minutes) — or adapt to time available
-**Audience:** Marketing and communications staff with no prior AI experience
-**Format:** [Insert training format]
-**Prepared for:** [Client Business Name]
-**Industry:** [Industry]
-**Primary Sources:** Anderson, D. (2022) *AI in Digital Marketing Training Guide* (Self-published); Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of AI* (CRC Press); Farri, O. and Rosani, M. (2025) *Co-Intelligence: Working and Learning with AI*; Nayebi, H. (2025) *AI-First Marketing*
-
----
-
-## Foundations and limits curriculum
-
-Load [foundations-and-limits.md](references/foundations-and-limits.md) for this part of the training curriculum.
-
-## Tools and human-review curriculum
-
-Load [tools-and-human-review.md](references/tools-and-human-review.md) for this part of the training curriculum.
-
-## Related Skills
-
-- [prompt-writing-module.md](references/prompt-writing-module.md) — next-level training on the Alpha-Beta-Gamma-Delta-Epsilon prompt structure and copywriting frameworks; deliver this session after AI Foundations
-- `anti-ai-slop` (humanising rewrite passes) — full quality control process, editing checklist, and banned vocabulary reference for AI-generated content
-- `brand-voice-ai-training` — how to train AI tools on a specific brand voice
-- `prompt-engineering-library` — ready-made prompt templates for common marketing content types
-- `training-client-team` — general social media team training workbook for content creation and community management
-
----
-
-## Co-Pilot vs Co-Thinker (Farri and Rosani, 2025)
-
-The most important distinction for any marketing team new to AI:
-
-**Co-Pilot mode** — AI handles speed tasks:
-- Summarising documents and reports
-- Drafting first versions of captions, emails, and briefs
-- Generating slide content from bullet points
-- Taking notes in meetings
-- Formatting data into tables
-
-**Co-Thinker mode** — AI acts as a thought partner for reflection-heavy work:
-- Pressure-testing campaign strategy logic
-- Mapping stakeholder perspectives the team may have overlooked
-- Identifying assumptions in a brief that should be validated
-- Framing the client's core marketing challenge as a solvable problem
-- Generating alternative strategic options for evaluation
-
-**When to use which:** Use Co-Pilot when you know what you want and need it done faster. Use Co-Thinker when you are not yet sure what the right answer is. Most marketing teams default to Co-Pilot only — they are leaving the most valuable AI capability unused.
-
-**Training exercise:** Ask participants to list their last five AI interactions. Classify each as Co-Pilot or Co-Thinker. Discuss: what proportion were Co-Thinker? What would they have done differently?
-
----
-
-## The Three Waves of AI in Marketing (Nayebi, 2025)
-
-Help participants understand where they and their clients currently sit:
-
-**Wave 1 — Automation (Most EA businesses today)**
-Rules-based tools that follow fixed instructions. Examples: scheduled social posts, auto-reply chatbots, email drip sequences. No learning or adaptation. Reliable but rigid.
-
-**Wave 2 — Predictive ML (Growing in EA)**
-Systems that learn from data and predict future behaviour. Examples: audience segmentation models, engagement rate prediction, A/B test optimisation, sentiment analysis. Requires sufficient data. Improves over time.
-
-**Wave 3 — Agentic AI (Horizon for EA)**
-Autonomous agents that perceive their environment, reason about it, decide on actions, and learn from outcomes — without waiting for a human prompt. Examples: a content agent that monitors trending topics and drafts posts for approval; a campaign agent that detects low engagement and automatically triggers a response.
-
-**Training exercise:** Ask participants to identify one marketing activity in their business at each wave level. Where is the gap between Wave 1 and Wave 2? What data or tools would be needed to close that gap?
-
----
-
-## Quality Criteria
-
-- Augmented intelligence framing is used consistently throughout — AI assists humans, it does not replace them; the junior assistant analogy is included
-- All three AI types (Mechanical / Thinking / Feeling) are explained with Uganda/East Africa marketing examples
-- The "What AI cannot do" section is specific and EA-calibrated — not a generic global list; Luganda/Swahili limitations and cultural intelligence gaps are named explicitly
-- All 5 hands-on tools (ChatGPT, Gemini, Canva, FeedHive, Otter.ai) are verified as accessible on Android, free tier, and 3G connection; bandwidth guidance is included
-- The human quality standard section includes the banned vocabulary list, the 5 signs of AI text, and the 3-step edit process
-- Platform AI applications are presented as a table with EA-specific notes per channel — not a single generic list
-- Output is structured so a non-technical marketing manager can facilitate the session without additional preparation
-- British English spelling throughout; imperative language used in all instructions

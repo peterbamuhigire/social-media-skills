@@ -10,7 +10,7 @@ Scope limits:
 
 - Operational automation only. Content production automation belongs to [`playbook-content-production` AI-assisted production workflow](../../playbook-content-production/references/ai-assisted-production-workflow.md); paid advertising automation is out of scope entirely.
 - Autonomous agents (PRAL/BDI architecture, Wave 3 agents): use [agentic-workflows-and-human-checkpoints.md](agentic-workflows-and-human-checkpoints.md).
-- Trigger maps and nurture sequence timing stay in the main playbook.
+- Trigger maps and nurture sequence timing stay in [trigger-and-sequence-design.md](trigger-and-sequence-design.md).
 
 Source framework: Upadhyay (2024) *Generative AI for Marketing*, Kogan Page — a 10-step automation workflow and 8 task qualification factors.
 
@@ -252,7 +252,7 @@ The roadmap meets the standard when it:
 
 - Upadhyay, N. (2024) *Generative AI for Marketing*. Kogan Page. Maturity stages, 8 task qualification factors and the 10-step automation workflow (Steps 1, 2 and 4).
 - Erné, R. (2024) *AI-Powered Marketing*. Two-layer no-code stack (Zapier/Make + Claude/ChatGPT).
-- Farri, O. and Rosani, M. (2025) *Multi-Agent Systems for Marketing*, as cited in the retired source. Multi-agent architecture patterns. Note: [agentic-workflows-and-human-checkpoints.md](agentic-workflows-and-human-checkpoints.md) cites Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*, Harvard Business Review Press; reconcile before external citation.
-- Nayebi, M. (2025) *Human-in-the-Loop AI*, as cited in the retired source. HITL escalation protocols and agent orchestration. Note: the agentic reference cites Nayebi, F. (2025) *Foundations of Agentic AI for Retail*, Gradient Divergence; reconcile before external citation.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Farri, O. and Rosani, M. (2025) *Multi-Agent Systems for Marketing* (verify: not found in publisher or library catalogues, 29 Sep 2026), as cited in the retired source. Multi-agent architecture patterns. Note: [agentic-workflows-and-human-checkpoints.md](agentic-workflows-and-human-checkpoints.md) cites Farri, E. and Rosani, G. (2025) *HBR Guide to Generative AI for Managers*, Harvard Business Review Press (verified 29 Sep 2026). The in-text "Farri and Rosani, 2025" is not yet matched to a verified title (S13 citation backlog).
+- Nayebi, M. (2025) *Human-in-the-Loop AI* (verify: not found in publisher or library catalogues, 29 Sep 2026), as cited in the retired source. HITL escalation protocols and agent orchestration. Note: the agentic reference cites Nayebi, F. (2025) *Foundations of Agentic AI for Retail*, Gradient Divergence (partly verified 29 Sep 2026: author Fatih Nayebi). The in-text "Nayebi, 2025" is not yet matched to a verified title (S13 citation backlog).
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.

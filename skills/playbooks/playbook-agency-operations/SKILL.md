@@ -9,6 +9,8 @@ metadata:
 ---
 # Agency Operations Playbook
 
+Produces the agency's own operating manual (onboarding, retainers, approvals, invoicing, QC, reporting, team, growth) and partner terms for white-label or sub-contracted delivery, calibrated to a Uganda and East Africa practice of one to ten people.
+
 <!-- dual-compat-start -->
 ## Use When
 - A new client is signing on: 30-day onboarding checklist, communication channels and the first publishing cycle.
@@ -24,428 +26,94 @@ metadata:
 - Stop before signing contracts, sending invoices or committing to a white-label partner without the agency owner's written approval; deliver the draft terms for sign-off.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
-| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
-| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
-
-## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
-
-## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Agency Operations playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
-
-## Decision Rules
-| Condition | Action | Failure or risk avoided |
-|---|---|---|
-| Work repeatedly misses review or deadline gates | Change capacity, ownership or scope before adding clients | Retainer growth that breaks delivery |
-| Delivery runs through a white-label or sub-contracting partner, or ownership, attribution or client access is ambiguous | Resolve it in the partner agreement before work starts, using [white-label and partner delivery](references/white-label-and-partner-delivery.md) | Hidden accountability, unpaid work and client conflict |
-| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
-| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
-| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| Agency name, team size (solo, 2–5, 5–10) and new or existing operation | Agency owner | Yes | Ask the intake questions; do not size tools or roles until answered. |
+| Client count and typical retainer range (UGX) | Owner's invoices or client list | Yes | Build on a stated assumption and label every money figure illustrative. |
+| Tools in use (project management, invoicing, communication) | Owner or delivery lead | Yes | Recommend the tool for the stated team size and mark current state unassessed. |
+| Primary challenge (client management, cash flow, team coordination or quality control) | Owner | Yes | Deliver the standard manual without an expanded section and ask again. |
+| Partner or sub-contractor terms, brief and end-client data handling | Partner agency or owner | If white-label | Stop partner work; return the evaluation checklist from the white-label reference. |
+| Current tax figures and revenue-authority guidance | `chwezi-accounting-doctrine`; URA or KRA | If tax is asked | State no figure; route the question to the finance engine. |
 
 ## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Agency Operations playbook.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
+
+1. Run the intake questions and calibrate: size tools by team size, expand the section for the primary challenge, and note whether systems are being built or refined. Stop if the owner or objective is missing.
+2. Build the 30-day onboarding checklist (Day 1–3, 4–7, 8–14, 15–30), retainer tiers, billing protocol and contract essentials from [agency operating procedures](references/agency-operating-procedures.md).
+3. Set the project management tool, weekly workflow, content approval protocol (48-hour approval, two revision rounds) and the nine-item quality-control checklist.
+4. Write invoicing and cash-flow rules (mandatory invoice fields, Day 8/15/30 chase, one-month float) and the tax note that routes every figure to the finance engine.
+5. Set the reporting rhythm and, for teams of two or more, role definitions, delegation rules and performance standards.
+6. For growth, retention, AI services or margins, apply [AI revenue and the seven-figure model](references/ai-revenue-and-seven-figure-model.md), the [growth roadmap](references/agency-growth-roadmap.md) and [economics and governance](references/agency-economics-and-governance.md); for partner delivery, use [white-label and partner delivery](references/white-label-and-partner-delivery.md).
+7. Check every tax threshold, platform specification and benchmark against a register claim ID or a stated check; correct any unsupported figure and rerun the quality and anti-slop gates before handing the draft to the owner for sign-off.
 
 ## Outputs
+
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Agency Operations playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+| Agency operating manual (onboarding, retainers, approvals, invoicing, QC, reporting, team) | Agency owner and delivery team | Every procedure names an owner, a deadline and a check; tiers carry UGX ranges and inclusions. |
+| Growth and retention plan (Five Ones, CRR target, org structure, AI upsell where relevant) | Agency owner | CRR targets labelled engine policy; Nelson's figures cited as his experience. |
+| Draft partner terms for white-label or sub-contracted work | Agency owner, then legal counsel | Pricing, NDA, brief standard, payment terms and exit present; marked draft for sign-off. |
+| Assumption and gap register | Agency owner | Each assumed money figure, unverified rate and unassessed check has an owner or next action. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| Figure and claim register | Table in the manual | Each tax figure, platform spec and benchmark carries a register ID (for example AD-08, PL-05) or a stated check. |
+| Quality Criteria checklist result | Completed checklist | All applicable criteria in the procedures reference ticked or marked `not assessed`. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Signing contracts, sending invoices and committing to a partner need the agency owner's written approval.
+
+## Degraded Mode
+
+Without the owner's team size, client count and retainer range, return the narrowest qualified result and mark the affected checks `not assessed`. The onboarding checklist, approval protocol, QC checklist and reporting rhythm can still be delivered as standard templates.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Work repeatedly misses review or deadline gates | Change capacity, ownership or scope before adding clients. | Retainer growth that breaks delivery. |
+| Delivery runs through a white-label or sub-contracting partner, or ownership, attribution or client access is ambiguous | Resolve it in the partner agreement before work starts, using [white-label and partner delivery](references/white-label-and-partner-delivery.md). | Hidden accountability, unpaid work and client conflict. |
+| No signed agreement or first payment (50% upfront for new clients) | Do not begin work. | Unpaid delivery and weak cash flow. |
+| Client has not approved content by the stated deadline | Reschedule the items to the following week; bill revisions beyond two rounds at UGX 30,000 per post. | Publishing unapproved work and unpaid scope creep. |
+| A tax threshold, VAT or withholding figure is requested | Route to `chwezi-accounting-doctrine` and current URA or KRA guidance; state no figure from memory. | Wrong tax advice after a Finance Act change. |
+| A dormant contact list is proposed for database reactivation | Apply the compliance gate first: lawful basis, opt-out in every message, registration where required (PL-01, PL-02). | Unlawful messaging and platform bans. |
+| Monthly CRR falls below 90% | Run a retention review before new acquisition spend (engine policy). | Filling a leaking bucket. |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- The 30-day onboarding checklist has day-by-day tasks in four phases (Day 1–3, 4–7, 8–14, 15–30).
+- Retainer tiers appear in a table with UGX ranges, inclusions and target client type for all four tiers; client-owned ad spend is shown as pass-through.
+- The approval protocol states the 48-hour rule and the two-revision-rounds policy.
+- An invoicing tool is justified by team size and the nine mandatory invoice fields are listed.
+- The tax note routes every figure to the finance engine instead of quoting thresholds.
+- The nine-item QC checklist is a tickable list, and the reporting rhythm covers all four report types with frequency, owner and format.
+- No tax threshold, platform specification or benchmark appears without a register claim ID or a stated check; the full criteria list is in the procedures reference.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Starting work on a verbal yes. Fix: signed agreement and first payment received before Day 1 tasks begin.
+- Collecting approvals image by image on WhatsApp. Fix: one Google Doc or Notion page per batch with caption, platform, date and image brief.
+- Quoting VAT or income-tax thresholds from memory. Fix: route to the finance engine and the current revenue-authority guidance.
+- Delegating to "the team" in a WhatsApp group. Fix: one owner, a due date and an expected output in the project management tool.
+- Presenting Nelson's retention figures or illustrative UGX scenarios as benchmarks. Fix: cite them as his experience or label them illustrative.
+- Messaging a client's dormant database because it is "our data". Fix: pass the compliance gate and WhatsApp template and opt-in rules first.
+- Accepting white-label work without written terms. Fix: agree pricing, NDA, brief standard, payment terms and exit before starting.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Agency operating procedures](references/agency-operating-procedures.md): read when running intake, onboarding, retainers, contracts, tools, invoicing, tax, QC, reporting or team set-up.
+- [AI revenue and the seven-figure model](references/ai-revenue-and-seven-figure-model.md): read when pitching AI services, applying the Five Ones, retention rituals, the CRR formula or org structure.
+- [Agency growth roadmap](references/agency-growth-roadmap.md): read when planning growth stages, niche, programmes, pricing, hiring and retention rituals.
+- [Agency economics and governance](references/agency-economics-and-governance.md): read when setting margins, client concentration limits, team structure, creative reviews, meetings and asset management.
+- [White-label and partner delivery](references/white-label-and-partner-delivery.md): read when evaluating, pricing, contracting, briefing or exiting a white-label or sub-contracting partnership with another agency.
+- [`01-client-brief`](../../pipeline/01-client-brief/SKILL.md): read when capturing client context at Day 1–3 of onboarding.
+- [`meta-reporting`](../../meta-analytics-ops/meta-reporting/SKILL.md): read when producing monthly and quarterly reports.
+- [`meta-roi-framework`](../../meta-analytics-ops/meta-roi-framework/SKILL.md): read when calculating return on retainer for quarterly and annual reviews.
+- [`playbook-social-media-policy`](../playbook-social-media-policy/SKILL.md): read when setting internal content governance for QC.
+- [Client retainer management](../playbook-client-retainer-management/SKILL.md): read when handling one client's scope, check-ins and value-first renewal.
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting client-facing copy or the manual itself.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when proofreading content in QC.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Ask for the following before generating any output:
-
-1. **Consultant/agency name** — trading name or personal brand
-2. **Team size** — solo, 2–5 people, or 5–10 people
-3. **Current client count and typical retainer value range (UGX)** — e.g. "3 clients, UGX 1.2M–2.5M/month"
-4. **Tools currently in use** — project management (Trello, Asana, etc.), invoicing (Wave, Excel, etc.), communication (WhatsApp, email, Slack)
-5. **Primary challenge** — client management, cash flow, team coordination, or quality control
-6. **New or existing operation** — starting from scratch, or systematising an established practice
-
-Use these inputs to calibrate the output: adjust tool recommendations by team size, flag the primary challenge section for expanded guidance, and note whether the consultant needs to build systems or refine existing ones.
-
----
-
-## Section 1 — Client Onboarding Checklist
-
-Complete this checklist for every new client engagement. Target: all items done within 30 days of signing.
-
-### Day 1–3: Foundations
-
-- [ ] Signed contract or engagement letter in place **before any work begins**
-- [ ] Invoice for first month's retainer sent — require 50% payment before Day 3
-- [ ] Access obtained: Facebook Page admin, Instagram account, Google Analytics, Google Business Profile, and any existing ad accounts
-- [ ] Brand assets received: logo files (PNG + SVG), brand colours (hex codes), fonts, and photo library
-- [ ] Complete the `01-client-brief` skill to capture full client context
-- [ ] Complete the `02-platform-audit` skill to document the baseline
-
-### Day 4–7: Communication Setup
-
-- [ ] Introduce yourself to the client's internal point of contact via WhatsApp and email
-- [ ] Agree communication protocol:
-  - Urgent matters → WhatsApp (response within 4 hours, EAT business hours)
-  - Non-urgent matters → email (response within 24 hours)
-  - Content approvals → Google Doc or Notion — never WhatsApp image by image
-- [ ] Set up shared Google Drive: `Agency/[Client Name]/` with subfolders: `Content`, `Reports`, `Strategy`, `Assets`
-- [ ] Add client point of contact to the shared Drive folder with Commenter access
-
-### Day 8–14: Strategy and Planning
-
-- [ ] Complete the `03-audience-personas` skill
-- [ ] Complete the `04-brand-voice-intake` skill
-- [ ] Draft Month 1 content calendar and send for client approval
-- [ ] Confirm approval workflow in writing: client approves all content **48 hours before publishing**; two revision rounds included per package
-
-### Day 15–30: First Publishing Cycle
-
-- [ ] Publish first two weeks of content per the approved calendar
-- [ ] Send Week 2 check-in message: brief status update, flag any blockers or client feedback needed
-- [ ] Run quality control checklist (Section 5) on all content before publishing
-- [ ] Prepare Month 1 report using the `meta-reporting` skill — deliver on or before the last day of the month
-
----
-
-## Section 2 — Retainer Structure
-
-Standard retainer tiers for a Uganda/East Africa consultancy. Adjust pricing based on client size, industry complexity, and scope.
-
-| Tier | Services Included | Monthly UGX | Best For |
-|---|---|---|---|
-| **Essential** | 12 posts/month, 1 platform, monthly report | 800,000 – 1,200,000 | SMEs starting out |
-| **Growth** | 20 posts/month, 2 platforms, ad management up to UGX 500K budget, monthly report | 1,500,000 – 2,500,000 | Growing SMEs |
-| **Premium** | 30 posts/month, 3 platforms, ad management up to UGX 2M budget, strategy, monthly + quarterly report | 3,000,000 – 5,000,000 | Established businesses |
-| **Enterprise** | Full-suite: strategy, content, ads, influencer coordination, PR integration, weekly reporting | 6,000,000+ | Large businesses, NGOs, multinationals |
-
-**Note:** Ad budgets listed above are client-owned spend passed through — they are not included in the retainer fee. Document this distinction explicitly in the contract.
-
-### Billing Protocol
-
-- Invoice on the **1st of each month** for that month's retainer
-- New clients: require **50% upfront** for the first month before work begins
-- Accepted payment methods: MTN MoMo Business, Airtel Money Business, bank transfer, or Pesapal payment link
-- Charge additional revisions at **UGX 30,000 per post** beyond the two rounds included in the package
-
-### Contract Essentials
-
-Include all of the following in every engagement agreement:
-
-- **Statement of work** — list exactly what is included (post count, platforms, reports)
-- **Exclusions** — list what is not included (graphic design, video production, paid ad spend, web work)
-- **Term length** — minimum 3 months recommended; month-to-month attracts a 15% premium
-- **Termination clause** — 30 days' written notice required from either party
-- **IP ownership** — client owns all content produced under the retainer
-- **Late payment clause** — 1.5% per month on invoices overdue beyond 30 days
-- **Revision policy** — two rounds included; additional rounds billed at the stated rate
-
----
-
-## Section 3 — Project Management System
-
-### Tool Selection by Team Size
-
-| Team Size | Recommended Tool | Configuration |
-|---|---|---|
-| Solo | Trello (free) or Notion (free) | One board per client; columns: To Do / In Progress / Awaiting Approval / Scheduled / Published |
-| 2–5 people | Asana (free tier) or ClickUp (free) | Task assignment, due dates, client folders, comment threads |
-| 5–10 people | Monday.com or ClickUp paid | Timeline view, workload management, automations |
-
-### Weekly Workflow Template
-
-Apply this schedule each week for every active client:
-
-| Day | Activity |
-|---|---|
-| **Monday** | Content creation — write captions, brief graphic designer, draft copy |
-| **Tuesday** | Internal review and editing — apply quality control checklist (Section 5) |
-| **Wednesday** | Send to client for approval — use Google Doc or Notion; set 48-hour deadline |
-| **Thursday** | Schedule approved content; begin creation for the following week |
-| **Friday** | Monitor engagement, respond to comments, compile performance data |
-
-### Content Approval Protocol
-
-- Send all content in a single Google Doc or Notion page — include caption, platform, publishing date, and image brief on each row
-- Frame the approval request clearly: "Please review and approve by [date] so we can schedule on time. Items not approved by this date will be rescheduled to the following week."
-- Two revision rounds are included per content package — document this in the retainer agreement
-- Additional revisions beyond two rounds are billed at UGX 30,000 per post — invoice separately at month end
-
----
-
-## Section 4 — Invoicing and Cash Flow
-
-### Recommended Invoicing Tools
-
-- **Wave** (free) — web-based invoicing and basic accounting; supports UGX; suitable for solo to 5-person teams
-- **Zoho Invoice** (free up to 5 clients) — professional templates, automated payment reminders
-- **Excel or Google Sheets** — acceptable for solo operators; ensure invoice numbers are sequential
-
-### Invoice Contents (Mandatory)
-
-Every invoice must include:
-
-1. Invoice number (sequential: INV-2026-001, INV-2026-002, etc.)
-2. Invoice date and payment due date (standard: 14 days from invoice date)
-3. Client name, trading name, and physical or postal address
-4. Your agency name, address, and contact details
-5. Line-by-line description of services rendered and the period covered
-6. Amount per line item and subtotal
-7. Any applicable taxes
-8. Total amount due
-9. Payment methods and account numbers (MTN MoMo, Airtel Money, bank details, Pesapal link)
-
-### Cash Flow Rules
-
-- Never begin work without a signed agreement **and** first payment received
-- Chase overdue invoices in this sequence:
-  - **Day 8 after due date:** WhatsApp reminder — friendly, factual
-  - **Day 15:** Email with invoice attached — reference invoice number and amount
-  - **Day 30:** Formal letter — state that work may be paused pending settlement
-- Maintain a float equivalent to **one month of operating costs** at all times
-- Keep business and personal bank accounts separate — even when operating as a sole trader
-
-### Tax Obligations (check, do not assume)
-
-- Income-tax thresholds, VAT registration thresholds, withholding tax on services and record-retention periods change with each Finance Act. Route every tax figure to `chwezi-accounting-doctrine` and the current URA (or KRA) guidance before stating it; this playbook does not supply tax figures.
-- Register with the relevant revenue authority, file returns on time and keep every invoice, receipt and payment record.
-- Ad invoices from non-resident platforms may carry VAT where no TIN is registered (Kaizen register PL-05, partial; confirm with the finance engine before budgeting).
-- This playbook is operational guidance, not legal or tax advice.
-
----
-
-## Section 5 — Quality Control Checklist
-
-Apply this checklist to every piece of content before sending to the client for approval. No content leaves the agency without passing all items.
-
-- [ ] Spelling and grammar checked — use Grammarly or a manual proofread against the `east-african-english` skill standards
-- [ ] Brand voice consistent with the `04-brand-voice-intake` document for this client
-- [ ] No banned vocabulary, Americanisms, or tonal mismatches (see `east-african-english` skill)
-- [ ] All factual claims verified — no invented statistics, no unattributed data
-- [ ] Hashtags reviewed — no broken, banned, or irrelevant hashtags; use the few that serve discovery and check each platform's current guidance rather than a fixed count
-- [ ] All included URLs tested — links open correctly and lead to the intended destination
-- [ ] Image dimensions match the current platform specification — for Meta paid placements, 4:5 feed and 9:16 Stories/Reels with the published safe zones (Kaizen register AD-08, checked 2026-09-23); check organic and other-platform specs in the platform's help centre
-- [ ] Caption length suits the platform — keep the key message before the truncation point shown in the live preview; do not rely on remembered character limits
-- [ ] CTA included and unambiguous — every post must tell the audience what to do next
-
----
-
-## Section 6 — Client Reporting Rhythm
-
-Maintain a consistent reporting cadence for every active client. Use the `meta-reporting` skill for monthly and quarterly report content; route approved evidence to `chwezi-design-engine` if presentation design is required.
-
-| Report | Frequency | Delivered By | Format |
-|---|---|---|---|
-| Performance snapshot | Weekly (optional for Growth tier and above) | Account manager | WhatsApp voice note or brief text message |
-| Monthly report | Monthly — by the 5th of the following month | Account manager | Google Slides or PDF via email |
-| Quarterly review | Quarterly | Senior consultant | Meeting + slide deck |
-| Annual review | Annually | Senior consultant | Full-day strategy session + written summary |
-
-### Reporting Standards
-
-- All reports must include: period covered, key metrics vs. prior period, top-performing content (with reason), what did not work, and recommended actions for the next period
-- Use percentage changes and absolute numbers — not vanity metrics alone
-- Apply the RACE framework (Chaffey, 2024) to structure metrics: Reach, Act, Convert, Engage
-- Cross-reference `meta-roi-framework` skill to calculate return on retainer investment where the client has conversion data
-
----
-
-## Section 7 — Team Management (2–10 People)
-
-Apply this section when the operation has more than one person. Skip for solo practitioners.
-
-### Role Definitions (Minimum Viable Team)
-
-| Role | Responsibilities |
-|---|---|
-| Account Manager | Client communication, content approval coordination, reporting, relationship management |
-| Content Creator | Caption writing, content calendar management, scheduling |
-| Graphic Designer | Visual assets — static posts, Stories, covers (design files, not strategy) |
-| Ads Specialist | Paid media planning, campaign build specifications, test design, optimisation recommendations and reporting (see the `advertising/` skills); changes to live ad accounts and spend only with the client's explicit written authority |
-
-### Delegation Rules
-
-- Every task must have one owner — not "the team"
-- Assign tasks with a due date and expected output, not just a topic
-- Use the project management tool (Section 3) for all task assignment — avoid informal WhatsApp delegation for work tasks
-- Hold a 15-minute Monday morning team huddle: each person states what they are delivering that week
-
-### Performance Standards
-
-- Internal content deadlines are always **24 hours before** the client-facing deadline — build in buffer
-- Late internal submissions (missing the internal deadline by more than 2 hours without notice) are flagged and discussed in the weekly huddle
-- Apply Section 5 quality control checklist before any content moves from Content Creator to Account Manager
-
----
-
----
-
-## Section 8 — AI Revenue Models: Database Reactivation and Android Upsell Stack
-
-This section applies the Wardrope (2024) ROYA framework for agencies that want to add AI-powered revenue streams alongside or within social media retainers.
-
-### The Database Reactivation (DBR) Model
-
-Every business client has a dormant contact database — past enquiries, lapsed customers, event registrants — that represents the fastest source of new revenue. The DBR model reactivates this database using AI-personalised SMS/WhatsApp before spending on paid lead generation.
-
-**Compliance gate:** a dormant list may only be messaged where the client has a lawful basis for that contact, an opt-out in every message and, where required, data-protection registration (Uganda DPPA s.26 objection right; Kenya DPA consent plus free opt-out — Kaizen register PL-01, PL-02). Check WhatsApp Business template and opt-in rules first. See `business-development/biz-dev-lawful-prospecting-outreach`.
-
-**ROYA 8-Step Process (Wardrope, 2024):**
-
-| Step | Action |
-|---|---|
-| 1. Approach | Re-engage the client's old contacts with a low-friction personalised message |
-| 2. Coffee Date | Qualify interested contacts via a short Zoom or WhatsApp call |
-| 3. Close | Confirm interest and move to booking |
-| 4. Android Build | Configure the AI response system (HighLevel CRM + ChatGPT integration) |
-| 5. Prince Charming Kiss | Send a 2-sentence reactivation SMS/WhatsApp to the dormant list |
-| 6. Sales Call | Human follow-up for warm responders |
-| 7. Profit | Revenue closed and anchor payments collected |
-| 8. Repeat | Cycle continues; build to fresh lead generation only after DBR is optimised |
-
-**Key principle (Wardrope, 2024):** Sell First, Build Later. Demonstrate the value of the AI system to the client using a live demo on the OpenAI Playground before building the full pipeline. Reduces sales cycle and eliminates the need for a finished product before closing.
-
-### AI Upsell Stack (Escalation Sequence)
-
-Start with the foundational DBR service; upsell to each subsequent module only after the previous one is proven:
-
-1. **Database Reactivation** — AI-personalised messages to dormant contacts (foundation service)
-2. **Fresh Leads Pipeline** — AI qualification of new inbound leads from paid channels
-3. **Speed To Lead** — instant AI response to opt-in within 5 minutes of enquiry
-4. **Out-of-Hours Android** — 24/7 AI chat coverage when the sales team is offline
-5. **Document Collection Android** — AI-guided collection of application forms, KYC documents, or intake information
-
-### Deal Structures (Wardrope, 2024)
-
-Offer these structures based on client risk appetite. Zero Risk deals remove the price objection entirely:
-
-| Structure | Terms | Best for |
-|---|---|---|
-| Zero Risk Performance | Agency earns 50% rev share; client pays nothing upfront | Clients who need proof before commitment |
-| Zero-ish Risk | Client covers tool costs (SMS, OpenAI subscription); agency earns backend % | Low-trust new relationships |
-| Frontend + Backend | Monthly licence fee + backend revenue share | Established relationships |
-| Chunky Retainer | Fixed monthly fee (typically $5K–$25K equivalent); no backend | Clients who prefer predictability |
-| Deductible Deposit | Commitment deposit (refunded against backend earnings) | High-value deals requiring build investment |
-
-**AI Delivery Stack:** HighLevel CRM (pipelines, SMS, workflows) → Zapier or Make.com (connects ChatGPT to HighLevel) → OpenAI/ChatGPT subscription. For Ugandan/EA deployments, adapt SMS delivery to Africa's Talking or Infobip; WhatsApp messaging via WhatsApp Business API.
-
-### 5 Selling Principles (Wardrope, 2024)
-
-Apply when pitching any AI or social media service:
-
-1. **Widen the Yes Hole** — performance-based or zero-risk deals remove the price objection entirely
-2. **Be Ready to Walk Away** — scarcity and confidence command premium positioning
-3. **We Are the Prize** — the client should be qualifying themselves for the agency, not vice versa
-4. **Hell Yes or Hell No** — do not accept lukewarm deals; low-commitment clients drain capacity
-5. **Show, Don't Tell** — live demos (OpenAI Playground, content previews) close faster than decks
-
----
-
-## Section 9 — Seven-Figure Agency Model: Growth, Retention and Scale
-
-Principles from Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC. Full procedures (growth-stage ladder, MRR gap and paths table in UGX, niche test, fast-plus-slow programme design, cost-to-serve sheet, org-chart exercise, kickoff kit, monthly review agenda) are in [`references/agency-growth-roadmap.md`](references/agency-growth-roadmap.md). Agency economics and governance (client P&L, time capture, margin gate, concentration limits, creative management, account pods, meeting cost, digital asset management) are in [`references/agency-economics-and-governance.md`](references/agency-economics-and-governance.md).
-
-### Rule of Five Ones (Nelson, 2019, credited by him to Taki Moore and Clay Collins)
-
-| One | Focus |
-|---|---|
-| One target market | One niche — specific enough to name (e.g. "private clinics in Kampala") |
-| One lead generation strategy | One method mastered before adding a second; choose one that can scale |
-| One conversion mechanism | One sales process applied consistently |
-| One programme | One core productised programme; no custom scope for each client |
-| One year of focus | Hold the above for 12 months; each extra niche or programme multiplies complexity |
-
-**Recurring revenue principle:** build around recurring programmes. Where a website or other project is needed, wrap it as the set-up phase of a recurring programme or pair it with a mandatory care or growth retainer rather than selling isolated projects. Collect by automated recurring payment (standing order, mobile-money merchant pull or direct debit); payment method is part of the business model.
-
-### Client Retention — Kickoff, Rhythm, Seed the Vision (Nelson, 2019)
-
-Nelson reports that clients leave mainly because of **perceived indifference**, not poor results.
-
-**Kickoff:** client set-up sheet; a 30–90 minute launch call run by the account manager with the writer present; a 60–90 day weekly welcome sequence from different people (founder, account manager, service lead); physical welcome items (printed binder, a locally made gift, a handwritten note); something physical at least quarterly.
-
-**Rhythm:** a monthly live review call — rapport, work done, results, next 30/60/90 days, seasonal questions, client homework, confirm next call; follow up last month's homework first. Log every contact attempt. Expect the "where is my return?" question around days 90–120 and change gear: show leading indicators and early wins, which is why every programme pairs a fast-signal component with a slow-compounding one.
-
-**Seed the vision:** every meeting ends with the next 30/60/90 days and the client's seasonal priorities (school terms, festive seasons, Eid, harvest, tourism high season, budget reading).
-
-**CRR formula:** ((Clients at end of period − New clients acquired) ÷ Clients at start of period) × 100. Nelson reports his agency averaging about 97% monthly retention and treats roughly 5–8% monthly attrition as natural. **Engine policy (not Nelson's):** target at least 95% monthly CRR and treat below 90% as a leaking bucket that needs a retention review before new acquisition spend.
-
-### Organisational Structure
-
-| Role | Function |
-|---|---|
-| Visionary (Owner) | Strategy, key relationships, business development, culture |
-| Integrator (COO) | Operations, systems, team accountability, process ownership |
-| Account Manager | Client communication, retention, reporting, growth opportunities |
-| Content / Delivery | Execution of the core programme (content, advertising, search, AI systems) |
-| Finance / Admin | Invoicing, collections, contractor management |
-
-The Visionary/Integrator split comes from Gino Wickman's EOS (*Traction*, 2011), recommended by Nelson. Nelson's own hiring sequence was operations first (every client launched the same way), then account management, which freed the founders to sell. Use the org-chart exercise in the growth-roadmap reference to choose the next two hires; do not pause sales when overloaded — build capacity.
-
-### Agency Value Proposition in the AI Era (Vallaeys, 2019)
-
-Saying "we use AI" is no longer a differentiator. Every agency has access to the same AI tools. The differentiator is *how* the agency deploys AI to solve client-specific problems.
-
-**Value proposition principle:** "We leverage AI and automation in ways that bring your unique business data and context into the equation — producing results that generic tools cannot replicate." This framing positions the agency as a power user, not a reseller of off-the-shelf software.
-
-**Kasparov Principle (Vallaeys, 2019):** A weaker human with a better process beats a stronger human with an inferior process. Build repeatable systems — then hire people who can execute and improve those systems, not rock-star individuals who operate outside them. Great processes outperform great people operating without processes.
-
-**Insight Broker staffing model (Vallaeys, 2019):** The new value-add role in a digital agency is not the programmer or the media buyer — it is the Insight Broker: someone who understands what causes results, can explain it to clients in plain language, and knows which levers to adjust. Hire for attitude first; aptitude is trainable. A high-attitude learner who follows process consistently outperforms a high-aptitude individual who resists structure.
-
----
-
-## Quality Criteria
-
-Output from this skill is considered complete and of acceptable quality when it meets all of the following:
-
-- The 30-day onboarding checklist is present with day-by-day tasks grouped into four phases (Day 1–3, 4–7, 8–14, 15–30)
-- Retainer tiers are presented in a table with UGX price ranges, inclusions, and target client type for all four tiers
-- The content approval protocol specifies the 48-hour turnaround rule and the two-revision-rounds policy
-- An invoicing tool is recommended and justified by team size; mandatory invoice fields are listed
-- The tax note routes every figure to the finance engine and current revenue-authority guidance instead of quoting thresholds
-- The quality control checklist contains all nine items and is formatted as a tickable list
-- The reporting rhythm table covers all four report types with frequency, owner, and format
-- Section 8 AI revenue models are included when the client is building or considering AI-augmented services
-- Section 9 retention system (Kickoff, Rhythm, Seed the Vision) is applied for any agency with 3+ clients; CRR targets are labelled as engine policy, with Nelson's reported figures cited as his experience
-- No tax threshold, platform specification or benchmark appears without a register claim ID or a stated check
-
----
-
-## References
-
-Link to these related skills when producing output. Read the linked skill before cross-referencing its deliverables in this playbook.
-
-- [`01-client-brief/SKILL.md`](../../pipeline/01-client-brief/SKILL.md) — client context capture; required at Day 1–3 of onboarding
-- [`meta-reporting/SKILL.md`](../../meta-analytics-ops/meta-reporting/SKILL.md) — monthly and quarterly report generation; required for Section 6
-- [`playbook-social-media-policy/SKILL.md`](../playbook-social-media-policy/SKILL.md) — internal content governance; relevant to Section 5 quality control
-- [`meta-roi-framework/SKILL.md`](../../meta-analytics-ops/meta-roi-framework/SKILL.md) — ROI calculation for retainer justification; relevant to quarterly and annual reviews
-- [Agency growth roadmap](references/agency-growth-roadmap.md) — read when planning growth stages, niche, programmes, pricing, hiring and retention rituals
-- [Agency economics and governance](references/agency-economics-and-governance.md) — read when setting margins, client concentration limits, team structure, creative reviews, meetings and asset management
-- [Client retainer management](../playbook-client-retainer-management/SKILL.md) — scope, check-ins and value-first renewal
-- [White-label and partner delivery](references/white-label-and-partner-delivery.md) — read when evaluating, pricing, contracting, briefing or exiting a white-label or sub-contracting partnership with another agency

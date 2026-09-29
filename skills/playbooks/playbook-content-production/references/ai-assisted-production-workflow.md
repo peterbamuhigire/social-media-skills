@@ -309,7 +309,7 @@ Citations are carried as the retired source gave them; forms that conflict elsew
 - Upadhyay (2024) *Generative AI for Marketing*. Alpha-Beta-Gamma-Delta-Epsilon prompt structure; content maturity model. Note: the engine cites this title as Upadhyay, N. (Kogan Page), Upadhyay, S. and Upadhyay, M. A. (Packt); reconcile author initials and publisher.
 - Schaefer, M. (2025). "Proof of Human" standard and structural limits of AI (the retired source gives no title). Note: the engine cites Schaefer, M. W. (2025) *Audacious: How Humans Win in an AI Marketing World*, Schaefer Marketing Solutions, and attributes "Proof of Human" to Schaefer, M. (2023) *Belonging to the Brand*; reconcile.
 - Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing Teams*. Content pruning.
-- Ching, V. and Mothi, D. (2025) *AI for Creatives: Unlocking Expressive Digital Potential*. CRC Press. Iterative prompt improvement; AI content watermarking (SynthID). (Author initials appear as V. and D., C. and N., and J. and N. across the engine; reconcile against the book before external citation.)
+- Ching, V. and Mothi, D. (2025) *AI for Creatives: Unlocking Expressive Digital Potential*. CRC Press. Iterative prompt improvement; AI content watermarking (SynthID). (Initials verified as Vivian Ching and Dinesh Mothi on the Routledge/CRC page, 29 Sep 2026; the publisher imprint is Auerbach Publications.)
 - Mizrahi, T. (2024). Hallucination management (title not given in the retired source).
 - Evelyn, A. (2025). Hallucination Management Gate; contextual continuity (title not given in the retired source).
 

@@ -19,7 +19,7 @@ Placeholders: `<cat>` = category folder, `<source>` = retired skill, `<target>` 
    - Keep citations as Author (Year) *Title*, Publisher. Quotes stay at or under 25 words.
    - No single-book digest and no book numbering. British English.
 4. **Move** the source `references/*` with `git mv` into the target `references/`. Prefix the source name if a filename collides, and add the provenance line to each moved file.
-5. **Point the target `SKILL.md` at it.** Add one Workflow branch or Decision row and one References link with a "read when" note. Widen the description only as much as routing needs (S08 finalises it). Stay at or under 500 lines.
+5. **Point the target `SKILL.md` at it.** Add one Workflow branch or Decision row and one References link with a "read when" note. Widen the description only as much as routing needs (S08 finalises it). Stay at or under 300 lines (`line_budget`, from S09).
 6. **Retire the source.**
    - `git mv skills/<cat>/<source>/SKILL.md skills/<cat>/<source>/ALIAS.md`
    - Insert this banner as the first line below the frontmatter (the checker requires it to start with `> Inactive alias.` and to name the target path):

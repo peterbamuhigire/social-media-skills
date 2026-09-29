@@ -4,7 +4,7 @@ Merged from skills/strategy/strategy-multigenerational-digital on 2026-09-29 at 
 
 ## When to use this reference
 
-Read this reference when the client's audience spans several generations and a single trust, channel, format or tone approach would fail some of them: reaching older buyers without alienating Gen Z, lifting Gen X conversion, or building one campaign that works across all ages. It extends the short "Generational Digital Trust Spectrum" paragraph in the parent [SKILL.md](../SKILL.md) § Technology Adoption Lens, and is required when the persona set covers three or more generational cohorts.
+Read this reference when the client's audience spans several generations and a single trust, channel, format or tone approach would fail some of them: reaching older buyers without alienating Gen Z, lifting Gen X conversion, or building one campaign that works across all ages. It extends the short "Generational Digital Trust Spectrum" paragraph in [persona-build-method.md § Technology Adoption Lens](persona-build-method.md), and is required when the persona set covers three or more generational cohorts.
 
 Generational labels describe tendencies, not people. Use evidence-backed segment differences and shared needs, not stereotypes; where the client's own audience data contradicts a cohort description below, the data wins.
 

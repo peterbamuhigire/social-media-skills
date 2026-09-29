@@ -46,11 +46,11 @@ Choose where customers will come from by considering every recognised acquisitio
 4. Write a test card per channel (hypothesis, cap, duration, metric, success line, tracking method, owner); withhold any test without working tracking.
 5. Run the three tests in parallel and read weekly; stop a test early if it breaches its cap or a legal/consent check fails.
 6. Decide focus, extend or drop with reasons; hand the winner to the channel, advertising and testing skills for optimisation.
-7. Set re-run triggers (flat growth for two months, rising cost, saturation) and recover by re-running the Bullseye with the data gathered.
+7. Set rerun triggers (flat growth for two months, rising cost, saturation); when one fires, correct the assumptions with the data gathered and rerun the Bullseye.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | 19-channel idea sheet with ring ranking | Client approver and strategist | Every channel has at least one idea and a score; bias sources noted |
 | Three test cards | Delivery team and media buyer | Each card has cap, duration, metric, success line and tracking method |
@@ -66,11 +66,11 @@ Choose where customers will come from by considering every recognised acquisitio
 
 ## Capability and Permission Boundaries
 
-Read and search supplied data and authorised sources. Planning is read-only. Running tests that spend money, contact people, list on platforms or process personal data needs explicit client authority, a lawful basis and a named owner.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Running tests that spend money, contact people, list on platforms or process personal data also needs a lawful basis and a named owner; planning uses supplied data and authorised sources.
 
 ## Degraded Mode
 
-Without economics or tracking, deliver the ranked idea sheet and draft test cards marked `not assessed` for cost and focus, plus the tracking set-up list. Do not recommend a focus channel.
+Without unit economics or working tracking, return the narrowest qualified result and mark the affected checks `not assessed`. The ranked idea sheet, draft test cards (cost and focus `not assessed`) and the tracking set-up list can still be delivered; do not recommend a focus channel.
 
 ## Decision Rules
 
@@ -101,20 +101,12 @@ Without economics or tracking, deliver the ranked idea sheet and draft test card
 
 ## References
 
-- [Bullseye procedure, 19 channels and East African forms](references/bullseye-channels-and-test-cards.md) — read when brainstorming, writing test cards or deciding focus.
-- [Critical path, phases and traction maths](references/critical-path-and-traction-maths.md) — read when setting the goal, thresholds and milestone plan.
-- [Channel architecture](../strategy-channel-architecture/SKILL.md) — next step once channels are chosen.
-- [Ad testing and scaling](../../advertising/ad-testing-and-scaling/SKILL.md) — optimisation of a winning paid channel.
-- [Marketing foundations](../marketing-foundations-stp-positioning/SKILL.md) — prerequisite positioning.
+- [Bullseye procedure, 19 channels and East African forms](references/bullseye-channels-and-test-cards.md): read when brainstorming, writing test cards, deciding focus, or drafting the plan section and before-and-after wording.
+- [Critical path, phases and traction maths](references/critical-path-and-traction-maths.md): read when setting the goal, thresholds and milestone plan.
+- [Channel architecture](../strategy-channel-architecture/SKILL.md): read when channels are chosen and need roles, flows and effort (the next step).
+- [Ad testing and scaling](../../advertising/ad-testing-and-scaling/SKILL.md): read when optimising a winning paid channel.
+- [Marketing foundations](../marketing-foundations-stp-positioning/SKILL.md): read when prerequisite positioning and target are not yet agreed.
+- [Media planning](../../advertising/media-planning/SKILL.md): read when scheduling and weighting paid media inside the chosen mix.
 <!-- dual-compat-end -->
-
-## Plan section slot template
-
-"We assessed all 19 recognised acquisition channels for [business] in [location]. Three show the strongest case for [phase]: [A], [B] and [C], because [evidence]. Each will be tested for [n] weeks with a cap of UGX [x], judged on cost per [qualified outcome] against an allowable UGX [y]. The best performer receives [z]% of the year-one budget; the others are dropped or parked. We will re-run this assessment when monthly growth falls below [threshold] for two consecutive months."
-
-## Before and after
-
-- Generic: "We will use social media, radio, SEO and events to increase brand awareness."
-- Professional: "We will test three channels: Facebook lead ads in Wakiso, a two-week Luganda FM morning-show package, and a stand at a regional agricultural expo, each capped at UGX 1.5m, then fund the one with the lowest cost per qualified farmer enquiry." (Scenario figures.)
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

@@ -97,7 +97,7 @@ Score each dimension; the scores decide which ideation methods will work.
 
 Announce the choice before generating: "Based on available information, I'm using methods: [list]. Here's why: [brief rationale]." Method instructions and examples are in [ideation-frameworks.md](ideation-frameworks.md).
 
-For seasonal hooks (Method 13) in Uganda and East Africa, use the calendar in the main `content-ideas` SKILL.md (Framework 6), not US/UK defaults.
+For seasonal hooks (Method 13) in Uganda and East Africa, use the calendar in [social-idea-build-method.md](social-idea-build-method.md) (Framework 6), not US/UK defaults.
 
 ### Rule 3 — Filter every raw idea
 

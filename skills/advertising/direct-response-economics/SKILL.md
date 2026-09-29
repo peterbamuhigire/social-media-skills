@@ -10,7 +10,7 @@ metadata:
 
 # Direct-Response Economics
 
-Prove, before spending, that a response campaign can make money: what each order is worth after every variable cost, how many orders per thousand contacts are needed to break even, which lists and media are worth testing, and how to move from a small test to a full roll-out. Method adapted from Stockwell and Shaw (1994) *Direct Marketing Checklists*, NTC Business Books, rebuilt for mobile money, WhatsApp, SMS and lead ads, with a data-protection overlay the book lacked.
+Proves, before spending, that a response campaign can make money: what each order is worth after every variable cost, how many orders per thousand contacts are needed to break even, which lists and media are worth testing, and how to move from a small test to a full roll-out. Method adapted from Stockwell and Shaw (1994) *Direct Marketing Checklists*, NTC Business Books, rebuilt for mobile money, WhatsApp, SMS and lead ads, with a data-protection overlay the book lacked.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -49,9 +49,13 @@ Prove, before spending, that a response campaign can make money: what each order
 8. Plan inquiry handling and back-end revenue (see [inquiries and back end](references/inquiries-back-end-and-formats.md)).
 9. Run the quality, legal/market and anti-slop gates; correct and rerun. Withhold the plan if the list is unlawful or the break-even is unrealistic.
 
+## Break-even in one line
+
+Orders per thousand to break even = marketing cost per thousand contacts ÷ net profit per order. A worked UGX example is in [worked example, goal hierarchy and handoffs](references/worked-example-goals-and-handoffs.md).
+
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Campaign P&L and break-even sheet | Client owner, finance | Net profit per order and orders per thousand to break even shown for each medium |
 | List and medium test plan | Client and campaign team | Cells, sizes, codes, read horizon and decision ladder defined |
@@ -68,11 +72,11 @@ Prove, before spending, that a response campaign can make money: what each order
 
 ## Capability and Permission Boundaries
 
-Read and search supplied data. Analysis is read-only. Sending messages, buying or renting lists, uploading customer data to platforms, or processing personal data requires explicit authority and a lawful basis. Legal conclusions route to counsel; tax to the finance engine.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Sending messages, buying or renting lists or uploading customer data to platforms also needs a lawful basis; legal conclusions route to counsel and tax to the finance engine.
 
 ## Degraded Mode
 
-If cost or history data is missing, return the P&L template with labelled assumptions and a sensitivity table (break-even at low, expected and high cost). Mark missing inputs `not assessed`. Never present a break-even based on invented costs as a forecast.
+Without cost or response-history data, return the narrowest qualified result and mark the affected checks `not assessed`. The P&L template with labelled assumptions and a sensitivity table (break-even at low, expected and high cost) can still be delivered; never present a break-even based on invented costs as a forecast.
 
 ## Decision Rules
 
@@ -92,6 +96,7 @@ If cost or history data is missing, return the P&L template with labelled assump
 - Tests are coded per list and medium; decisions follow the ladder.
 - Lawful basis and opt-out handling are recorded for every owned or partner list.
 - Figures in UGX or the named currency; illustrative figures labelled.
+- The readiness checklist before any send or spend ([worked example, goal hierarchy and handoffs](references/worked-example-goals-and-handoffs.md)) is complete, including ranked goals and the legal/market gate for regulated offers.
 
 ## Anti-Patterns
 
@@ -104,54 +109,10 @@ If cost or history data is missing, return the P&L template with labelled assump
 
 ## References
 
-- [Campaign P&L and break-even](references/campaign-pnl-and-break-even.md) — read before any response campaign is approved.
-- [Lists, testing and roll-out](references/lists-testing-and-rollout.md) — read when choosing lists or reading tests.
-- [Inquiries, back end and formats](references/inquiries-back-end-and-formats.md) — read when planning response handling, fulfilment inserts or format choice.
-- [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md); [media planning](../media-planning/SKILL.md); [direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md).
+- [Campaign P&L and break-even](references/campaign-pnl-and-break-even.md): read when a response campaign is about to be approved.
+- [Lists, testing and roll-out](references/lists-testing-and-rollout.md): read when choosing lists or reading tests.
+- [Inquiries, back end and formats](references/inquiries-back-end-and-formats.md): read when planning response handling, fulfilment inserts or format choice.
+- [Worked example, goal hierarchy and handoffs](references/worked-example-goals-and-handoffs.md): read when working the arithmetic, ranking goals, running the readiness checklist or handing over to copy, testing or finance.
+- [Advertising strategy and budget](../advertising-strategy-and-budget/SKILL.md) and [media planning](../media-planning/SKILL.md): read when the budget or media plan is the question; [direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md): read when offers, deadlines or list use are drafted.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the offer is regulated or list consent is in doubt.
 <!-- dual-compat-end -->
-
-## Break-even in one line
-
-Orders per thousand to break even = marketing cost per thousand contacts ÷ net profit per order.
-
-## Worked example (illustrative figures, UGX)
-
-Home water-filter kit, price 150,000.
-- Cost of sales: goods 40,000 + handling 5,000 + delivery 10,000 + free spare cartridge 5,000 = 60,000.
-- Overhead 10% of price = 15,000.
-- Returns 5%: return handling (delivery back + handling = 15,000) + refurbishing (12.5% of goods = 5,000) = 20,000; chargeable 5% × 20,000 = 1,000.
-- Bad debt or cash-on-delivery refusal 3% × 150,000 = 4,500.
-- Total variable cost = 80,500. Unit profit after variable costs = 69,500; × 95% return factor = 66,025; + credit for returned goods (5% × 40,000 = 2,000) → net profit per order ≈ 68,000.
-- A5 flyer with estate door-drop ≈ 1,200 per piece → 1,200,000 per thousand → break-even ≈ 17.6 orders per thousand (1.76%).
-- Opted-in SMS at an assumed 35 per message → 35,000 per thousand → break-even ≈ 0.5 orders per thousand. Cheap media lower the break-even line, but list quality and consent decide whether the response comes.
-
-## Goal hierarchy (agree before spend)
-
-| Tier | Meaning | Example |
-|---|---|---|
-| Goal 1 | The big problem management must solve | Direct-response profit at or above company margin |
-| Goal 2 | Important supporting goals | Support upcountry agents; cheaper new-product testing |
-| Goal 3 | Useful by-products | Build an opted-in WhatsApp list; capture area data on order forms |
-
-Each goal becomes an objective with a value, a date and an approver: "Build an opted-in list of 3,000 Wakiso customers by 30 June, generating UGX 20m in repeat sales within six months, approved by the managing director."
-
-## Readiness checklist before any send or spend
-
-- [ ] Goals ranked and approved (Goal 1, 2, 3).
-- [ ] Product suitability screen passed.
-- [ ] P&L complete with returns, refusals, bad debt and premium.
-- [ ] Break-even orders per thousand computed for each medium.
-- [ ] Lawful basis recorded for every list; opt-out route in every message.
-- [ ] Test cells coded; read horizon set.
-- [ ] Inquiry response kit ready; back-end offer planned.
-- [ ] Legal/market gate run for regulated offers.
-
-## Handoffs
-
-| Output | Goes to | What is handed over |
-|---|---|---|
-| Offer, break-even and response codes | [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md) or [direct-response-funnel-copy](../../content-writing/direct-response-funnel-copy/SKILL.md) (direct-mail letters: [direct-mail-letters-and-packs](../../content-writing/direct-response-funnel-copy/references/direct-mail-letters-and-packs.md)) | Main benefit, offer terms, deadline and its true reason, codes |
-| Test results | [ad-testing-and-scaling](../ad-testing-and-scaling/SKILL.md) | Cell results and ladder decisions |
-| Margin and pricing questions | chwezi-accounting-doctrine (via the routing table) | P&L assumptions |
-
-Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

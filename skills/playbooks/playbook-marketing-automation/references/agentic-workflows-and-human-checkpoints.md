@@ -9,7 +9,7 @@ Use it when the automation brief goes beyond trigger-and-sequence automation: th
 - It assumes the client has completed [`ai-readiness-diagnostic`](../../../ai-marketing/ai-readiness-diagnostic/SKILL.md) and has a maturity wave score (1, 2 or 3). If the real deliverable is the readiness score itself, route there instead.
 - Do not recommend Wave 3 architecture to a Wave 1 client without a phased roadmap.
 - Before recommending any rollout or learning loop, apply [AI campaign trust, control, correction, and drift](ai-campaign-trust-control-correction-drift.md). For autonomy levels, tool gating, brand memory, evaluation and deployment stages, read [agentic-marketing-operating-model.md](agentic-marketing-operating-model.md).
-- Rule-based sequences, trigger maps and the task-by-task automation roadmap stay in the main playbook and [ai-automation-recipes.md](ai-automation-recipes.md).
+- Rule-based sequences, trigger maps and the task-by-task automation roadmap stay in [trigger-and-sequence-design.md](trigger-and-sequence-design.md) and [ai-automation-recipes.md](ai-automation-recipes.md).
 
 ## Inputs
 

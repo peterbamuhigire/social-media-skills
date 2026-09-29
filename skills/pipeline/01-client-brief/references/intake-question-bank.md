@@ -4,7 +4,7 @@ Merged from skills/pipeline/00-client-intake on 2026-09-29 at cda737c (S04 tree)
 
 ## When to use this reference
 
-Read this reference at the very start of a new client engagement, before the full questionnaire in the SKILL.md Part A has been sent or when the client will not complete a 43-question form. It gives a short, ten-question intake that suits a website intake form, a discovery call or a document sent to the client, and a two-phase method:
+Read this reference at the very start of a new client engagement, before the full questionnaire in [client-questionnaire-and-output-templates.md § Part A](client-questionnaire-and-output-templates.md) has been sent or when the client will not complete a 43-question form. It gives a short, ten-question intake that suits a website intake form, a discovery call or a document sent to the client, and a two-phase method:
 
 - **Phase 1** — ten coverage questions plus any existing evidence produce a draft client brief straight away.
 - **Phase 2** — map the decisions still unresolved and ask only the questions that are ready to be answered (the ready frontier).
@@ -70,7 +70,7 @@ Which platforms do you want to prioritise, and how often do you expect content t
 
 ### Phase 1 output — draft client brief
 
-Once the ten answers are in, generate the draft brief at once. Write in full sentences where appropriate and use tables for structured data. Where an answer is missing or vague, mark it **[TO CONFIRM]** so it is visible for follow-up. Use these twelve sections (they match the SKILL.md Output 1 structure, so the draft becomes the final brief after Phase 2):
+Once the ten answers are in, generate the draft brief at once. Write in full sentences where appropriate and use tables for structured data. Where an answer is missing or vague, mark it **[TO CONFIRM]** so it is visible for follow-up. Use these twelve sections (they match the [client-questionnaire-and-output-templates.md § Output 1](client-questionnaire-and-output-templates.md) structure, so the draft becomes the final brief after Phase 2):
 
 1. **Business Overview** — name, industry/sector, founding year (or approximate age), team size, location(s), and a one-paragraph summary of what the business does and who it serves.
 2. **Target Audience** — primary audience profile: age range, gender (if stated), location, income/economic segment, occupation and the core problem the business solves. Note secondary audiences if mentioned. State whether the business is B2C, B2B or both.
@@ -87,7 +87,7 @@ Once the ten answers are in, generate the draft brief at once. Write in full sen
 5. **Content Goals** — primary goal in bold; all secondary goals listed; note the trigger (why the client is acting now).
 6. **Tone of Voice** — three brand adjectives; admired brands and what the client likes about each; brands to avoid and why.
 7. **Brand Guidelines** — colours (hex codes or description), fonts, logo status, brand-guidelines status, visual style direction and any visual restrictions.
-8. **Posting Frequency and Expectations** — the client's stated expectation per platform. Flag any that are unrealistic against the Uganda/EA norms in the SKILL.md "Posting frequency guidance note" (Facebook 4–5 posts a week; Instagram 3–4; LinkedIn 2–3; TikTok 3–5 short videos; WhatsApp 1–2 broadcast messages). These are the engine's working norms, not a measured benchmark: verify before stating them to a client as market fact (no register record).
+8. **Posting Frequency and Expectations** — the client's stated expectation per platform. Flag any that are unrealistic against the Uganda/EA norms in the "Posting frequency guidance note" in [client-questionnaire-and-output-templates.md § Output 1](client-questionnaire-and-output-templates.md) (Facebook 4–5 posts a week; Instagram 3–4; LinkedIn 2–3; TikTok 3–5 short videos; WhatsApp 1–2 broadcast messages). These are the engine's working norms, not a measured benchmark: verify before stating them to a client as market fact (no register record).
 9. **Budget and Resources** — the budget band stated by the client; content resources available (photography, video, on-camera talent, writers); note what is missing.
 10. **Approval Workflow** — approver name and role, turnaround time, approval method (email, shared drive, tool) and any multiple approval stages mentioned.
 11. **Content Restrictions** — topics to avoid, competitor-mention policy, regulated-industry requirements and disclaimers, past incidents or sensitivities.

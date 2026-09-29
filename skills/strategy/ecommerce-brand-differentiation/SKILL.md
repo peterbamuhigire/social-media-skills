@@ -9,6 +9,8 @@ metadata:
 ---
 # Ecommerce Brand Differentiation
 
+Turns an online shop that competes only on price into a brand buyers choose on purpose: a strategic quadrant, an intangible type, a Soleness statement, names, packaging and a buyer community. Only 25% of brands are perceived as genuinely distinctive by their customers (Verma, 2019).
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,301 +31,101 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to e-commerce positioning, category distinction, naming direction, packaging logic, and community proof | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Business name, industry, product type and business stage (new, refreshing or established) | Client owner | Yes | Stop; ask the [intake questions](references/differentiation-method.md#intake-questions) before drafting. |
+| Primary target customer (age, gender, income, values, aspirations) and primary goal | Client brief or customer evidence | Yes | State a narrow working persona, label it an assumption and plan buyer interviews. |
+| Competitor claims and how customers describe the brand now | Client, competitor pages and shops, reviews | Yes | Mark the positioning map `not assessed`; make no superiority claim. |
+| Current brand assets (name, logo, colours, tagline, story) | Client | Conditional | Treat as a new brand and flag that existing equity was not reviewed. |
+| Capital available and competitive intensity | Client owner or finance lead | Yes | Default to the low-capital, high-competition quadrant (Intangibles) and say so. |
+| Trademark, domain (.com or .ug) and packaging-label rules | Client's adviser, registrar checks | Before any name is final | Deliver a name shortlist only, each marked "checks pending". |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-post-click-strategy`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm the problem is price-led sameness, not checkout or order friction; route conversion problems to `playbook-post-click-strategy` and stop this skill for them.
+2. Place the client on the Option Planning Quadrant Matrix (below) and pick the strategic approach.
+3. Choose one or two of the 9 intangible types that fit the client's true story; record why each fits.
+4. Write the Soleness statement and test it against the five characteristics; build the two-axis positioning map and, if no position is empty, run the Blue Ocean four actions or test for category creation.
+5. Shortlist names by the six types and score each against the five naming characteristics; flag domain and trademark checks.
+6. Set colour, typography and packaging direction with a reason tied to the position; route final visual identity work to the design engine.
+7. Plan the buyer community by growth stage (under 100, 100–500, 500+ customers) using the 1,000 True Fans model.
+8. Check the brief against the Quality Standards and the anti-slop gate; correct any failed item and rerun the check before hand-off as a client decision draft.
 
-## Outputs
+The full procedure, intangible catalogue, colour table, packaging figures and community tactics are in [the differentiation method](references/differentiation-method.md).
 
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| E-commerce positioning, category distinction, naming direction, packaging logic, and community proof deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
-
-## Evidence Produced
-
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
-
-## Capability and Permission Boundaries
-
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
-
-## Degraded Mode
-
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
-
-## Decision Rules
-
-| Choice condition | Action | Failure or risk avoided |
-|---|---|---|
-| The problem is price-led sameness rather than checkout friction | Define a defensible position and proof before visual or conversion tactics | Cosmetic differentiation without a buyer-relevant reason to choose |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
-
-## Quality Standards
-
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
-
-## Anti-Patterns
-
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
-
-## References
-
-- [AGENTS.md](../../../AGENTS.md)
-<!-- dual-compat-end -->
-
-## Required Input
-
-Ask the client for the following before generating any deliverable:
-
-1. **Client business name and industry** — e.g., "Nakawa Natural, herbal skincare"
-2. **Country/city** — default is Uganda/East Africa if not specified
-3. **Type of products or services** — physical goods, digital, or services?
-4. **Current competitive position** — what do competitors say about themselves? How do customers currently describe this brand?
-5. **Primary target customer** — who is the ideal buyer? Age, gender, income level, values, aspirations?
-6. **Current brand assets** — existing name, logo, colours, tagline, and any brand story already in use?
-7. **Business stage** — new brand (building from scratch), existing brand (refreshing or repositioning), or established brand (deepening differentiation)?
-8. **Primary goal** — e.g., stop competing on price, attract loyal repeat buyers, enter a new market segment, justify a premium price point
-
----
-
-## Section 1 — Why Brand Differentiation Matters in Ecommerce
-
-Only 25% of brands are perceived as genuinely distinctive by their customers (Verma, 2019). In ecommerce — and especially in EA social commerce — this figure is lower. When products and pricing are similar, customers default to the cheapest option. Brand differentiation creates a reason to pay a premium, generates word-of-mouth, and builds a customer base that returns without needing a discount.
-
-The goal is **Soleness**: a state in which the brand occupies a unique position in the customer's mind that no competitor has claimed. Soleness is not a product feature — it is an emotional and psychological association that makes the brand feel irreplaceable.
-
-Apply the **Option Planning Quadrant Matrix** (Verma, 2019) to choose the right approach:
+## Option Planning Quadrant
 
 | Capital Availability | High Competition | Low Competition |
 |---|---|---|
 | **Low capital** | Use **Intangibles** (story, purpose, surprise, curation) | Use **Positioning** (claim a specific market position) |
 | **High capital** | Use **Disruption** (Blue Ocean Strategy, new business model) | Use **Category Creation** (invent a new category) |
 
-Most EA SME clients operate in the lower-left quadrant: high competition, limited capital. **Intangibles** are the primary tool.
+Most EA SME clients sit in the low-capital, high-competition cell, so intangibles are the primary tool (Verma, 2019).
 
----
+## Outputs
 
-## Section 2 — The 9 Intangible Brand Types
-
-Intangibles are emotional and story-based qualities that competitors cannot copy even if they copy the product (Verma, 2019). Choose the one or two that fit the client's authentic story and market position.
-
-### 1. Story-Driven
-Build differentiation around the founder's origin story. The story must be true, specific, and personally relevant to the product.
-
-*Structure:* Initial harmony → challenge or turning point → action taken → outcome. Reference: Pressed Juicery (founder's personal journey with cold-pressed juice).
-
-*EA application:* "I started selling second-hand clothes on the road because I could not afford a shop. Eight years later, I dress the women of Kampala."
-
-### 2. Purpose-Driven
-Embed a social mission into the core of the business. Every product sold advances the mission. The mission is not a marketing layer — it is the reason the business exists.
-
-*Reference:* TOMS Shoes (one-for-one shoe donation model). *EA application:* A business that employs mothers in a specific community, trains youth tailors, or plants trees for every order placed.
-
-### 3. Giveback
-A defined percentage of every sale goes to a named cause or beneficiary. More specific than purpose-driven; the giveback is quantifiable and verifiable.
-
-*Reference:* STATE Bags (one backpack donated per purchase). *EA application:* "UGX 2,000 from every order goes to the Gulu Primary School Library."
-
-### 4. Surprise-Driven
-Design the experience to consistently exceed expectations at the moment of delivery. The surprise must be genuine, repeatable, and aligned with the brand.
-
-*Reference:* Greetabl (personalised packaging that delights at unboxing). *EA application:* A handwritten note, an unexpected small bonus product, or a personalised sticker on every parcel.
-
-### 5. Personalisation-Driven
-Offer meaningful customisation that competitors do not provide at this price point or with this level of ease.
-
-*Reference:* Anomalie (custom wedding dresses via a 15-question survey). *EA application:* Made-to-order products with the customer's name, a chosen scent, a preferred colour combination, or a custom label.
-
-### 6. Simplification-Driven
-Remove the complexity, confusion, or friction that the rest of the category takes for granted.
-
-*Reference:* Casper (eliminated the confusing mattress buying process). *EA application:* One product, one price, one size — no overwhelming choice. "We made the decision for you."
-
-### 7. Sustainability-Driven
-Build the brand around ethical sourcing, recycled materials, local production, or reduced environmental impact.
-
-*Reference:* Rothy's (shoes made from recycled plastic bottles). *EA application:* Natural, locally sourced ingredients; biodegradable packaging; support for Ugandan farmers or artisans.
-
-### 8. Optimism/Hope-Driven
-The brand identity is built around aspiration — helping customers become a better version of themselves or believe in a better future.
-
-*Reference:* BestSelf Co. (journaling and self-help products). *EA application:* A skincare brand whose positioning is not about beauty products but about the woman's confidence and ambition. "Not just skincare. Self-belief, bottled."
-
-### 9. Curation-Driven
-Differentiate through expert selection. The brand's value is not the product itself but the judgement and taste behind choosing only the best.
-
-*Reference:* Stitch Fix (personal stylist service using data and human curation). *EA application:* A boutique that carries only the 10 best African-made products in a category, curated monthly, with the buying rationale explained.
-
----
-
-## Section 3 — Competitive Positioning
-
-### The Soleness Statement
-
-Write one positioning sentence that defines the brand's unique place in the market. This sentence governs all platform bios, marketing copy, packaging, and WhatsApp status (Verma, 2019):
-
-> *For [target customer segment] who [main need or opportunity], [Brand Name] is the [product/service category] that [key emotional or functional benefit]. Unlike [primary competitor], our product [primary functional point of difference] and our brand [primary emotional point of difference].*
-
-**Test the statement against five characteristics:**
-1. **Distinctive** — does it stand out from how competitors describe themselves?
-2. **Credible** — is it genuinely true and deliverable?
-3. **Emotionally resonant** — does it connect with the customer's aspirations, not just their rational needs?
-4. **Ownable** — can this position be claimed and defended long-term?
-5. **Simple** — can a new customer understand it in 5 seconds?
-
-### Competitive Positioning Map
-
-Build a 2×2 positioning map using the two most important purchase criteria in the category (e.g., price vs. quality; accessibility vs. prestige; local vs. international). Plot all major competitors on the map. Identify:
-
-- **Crowded quadrants** — where most competitors cluster; avoid these
-- **Empty quadrants** — potential white space positions to claim
-- **Underserved segments** — customers in the market who no current competitor is speaking to well
-
-### Blue Ocean Strategy (Kim and Mauborgne, 2005)
-
-When the existing competitive map shows no clearly empty position, use the four-actions framework to reconstruct the category:
-
-| Action | Question |
-|---|---|
-| **Eliminate** | What factors that all competitors offer do customers not actually value? |
-| **Reduce** | What is overdone in the category that drives up cost without adding value? |
-| **Raise** | What do customers value highly that all competitors underdeliver on? |
-| **Create** | What does no competitor offer that a significant segment of customers would value? |
-
-The answers define a new value proposition that sits in uncontested market space.
-
-### Category Creation
-
-When no existing category fits the brand's offer, create one. A category-of-one brand has no direct competitors in the customer's mind. Criteria: must be genuinely innovative in business model, delivery method, or product design; must generate a clear label that customers will use to describe it. *Example: Threads (luxury chat commerce via WhatsApp and WeChat).*
-
----
-
-## Section 4 — Brand Naming
-
-The brand name is the most permanent creative decision. Apply six-type framework (Verma, 2019):
-
-| Type | Description | EA Example |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Founder name | Named after the founder | Nakiru Organics |
-| Symbolic name | Symbolises the brand's purpose or identity | Nyumbani (Swahili for home — homeware brand) |
-| Fictitious name | Made-up but meaningful name | Kalango (invented word evoking local identity) |
-| Invented name | Pure made-up word; unique and protectable | Vesiga, Bomelo |
-| Descriptive name | Tells you directly what the brand does | Kampala Fresh, Kinyozi King |
-| Experiential name | Built on the feeling or experience delivered | Komera (Kinyarwanda for "be strong") |
+| E-commerce differentiation brief: quadrant, intangible type, Soleness statement, positioning map | Client owner | Quadrant stated; intangible choice explained against the client's story; statement passes all five tests. |
+| Blue Ocean grid or category-creation case | Client owner and strategist | Eliminate, Reduce, Raise and Create each carry client-specific answers. |
+| Name shortlist with scores | Client owner; trademark adviser | Every name scored on Distinctive, Sound, Stickiness, Expression and Appearance; domain status recorded. |
+| Colour, typography and packaging direction | Designer; the design engine | Primary and accent colours with hex values; at least 3 packaging moves, each with its commercial reason. |
+| Community plan by growth stage | Owner and whoever runs WhatsApp | At least one tactic per stage; ambassador perks are non-cash. |
 
-**Test every candidate name against 5 characteristics:**
-1. **Distinctive** — does it stand out in a crowded name landscape?
-2. **Sound** — say it aloud; is it easy to pronounce in English and Luganda/Swahili?
-3. **Stickiness** — how many times does a person need to hear it before remembering it?
-4. **Expression** — does it communicate the brand's personality and positioning?
-5. **Appearance** — does it look good written out? Is the .com or .ug domain available?
+## Evidence Produced
 
----
-
-## Section 5 — Visual Identity Direction
-
-### Colour Psychology
-
-Colour is the first thing the eye notices and carries cultural meaning. For EA markets, apply these general associations while checking local cultural context:
-
-| Colour | Global Associations | EA Consideration |
+| Evidence | Format | Acceptance condition |
 |---|---|---|
-| Red | Energy, urgency, passion | Strong FMCG associations; avoid if positioning is premium/natural |
-| Blue | Trust, calm, professionalism | Overused in financial services; distinctive in food and lifestyle |
-| Green | Nature, health, growth | Strong resonance for natural, organic, and agricultural brands |
-| Black | Luxury, sophistication, authority | Underused in EA — opportunity for premium positioning |
-| White | Cleanliness, simplicity | Strong for medical/hygiene; reads as premium in minimalist packaging |
-| Yellow/Gold | Warmth, optimism, prosperity | High visibility; positive cultural associations across EA |
-| Purple | Royalty, wisdom, spirituality | Underused; strong for women's empowerment positioning |
+| Competitor claim and positioning-map record | Table with source and date per competitor | Every plotted position traces to an observed claim or is labelled opinion. |
+| Name-check log | Table: name, pronunciation check, domain, trademark status | Unchecked names are marked "checks pending", never "clear". |
+| Assumption register | Table in the brief | Personas, capital level and customer descriptions not backed by evidence are labelled. |
 
-Always choose a primary colour and one or two accent colours. Define the hex/RGB values and apply consistently across all platforms, packaging, and printed materials.
+## Capability and Permission Boundaries
 
-### Typography
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Registering a name or domain, or ordering packaging, is the client's decision after its own trademark and domain checks.
 
-Select one primary font family and apply it consistently. For EA social commerce: sans-serif fonts read more clearly on mobile screens. Define a hierarchy — one weight for headlines, one for body text — and apply it to every designed asset, caption overlay, and packaging label.
+## Degraded Mode
 
-### Packaging as Marketing
+Without competitor claims or customer evidence, return the narrowest qualified result and mark the affected checks `not assessed`. The quadrant choice, intangible options, a draft Soleness statement and a name shortlist marked "checks pending" can still be delivered.
 
-Packaging is a conversion tool, not just a protective layer (Verma, 2019). Key statistics:
-- 33% of purchase decisions in product categories are influenced by packaging
-- 52% of customers say they will return for a second purchase if their first order arrived in premium packaging
-- 40% of consumers share photos of packaging that is interesting or gift-like
-- 74% of young adults post pictures of their orders online — Instagram-worthy packaging is free marketing
+## Decision Rules
 
-**Packaging checklist for EA social commerce:**
-- Every parcel should carry the brand name and logo visibly on the outside
-- Include a handwritten or printed thank-you note inside
-- Add a QR code or WhatsApp number printed inside the packaging for repeat orders
-- Use consistent branded tissue paper, stickers, or bags — even at low cost
-- For food and skincare products: include ingredient information and a batch/expiry date (regulatory requirement in Uganda)
-
----
-
-## Section 6 — Community Building
-
-A brand community converts one-time buyers into advocates who market the brand for free (Verma, 2019). Apply Kevin Kelly's **1,000 True Fans** model: a business with 1,000 customers who are deeply committed fans — each spending UGX 360,000 per year — generates UGX 360 million annually. The path to 1,000 true fans is not mass marketing; it is depth of relationship.
-
-**Community-building tactics for EA social commerce:**
-
-| Tactic | Platform | How to Apply |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| VIP WhatsApp group | WhatsApp | Invite top buyers; give first access to new products and exclusive pricing |
-| Customer spotlight | Instagram/Facebook | Feature a customer photo or story monthly; always with permission |
-| Loyalty programme | WhatsApp/manual | Simple stamp-card model: 10 orders earns a free product or discount |
-| Brand ambassador programme | All platforms | Identify 5–10 existing customers who post about the brand organically; formalise the relationship with exclusive perks, not cash payment (avoids influencer contract territory — refer to a lawyer) |
-| User-generated content (UGC) | Instagram/TikTok | Run a monthly challenge or repost prompt; compile into a monthly community highlight |
+| The problem is price-led sameness rather than checkout friction | Define a defensible position and proof before visual or conversion tactics | Cosmetic differentiation without a buyer-relevant reason to choose |
+| Low capital and high competition | Lead with intangibles (story, purpose, surprise, curation) | Spending on disruption the business cannot fund |
+| The positioning map shows no empty quadrant | Run the Blue Ocean four actions; consider category creation only if the offer is new in model, delivery or design | Fighting in a crowded quadrant on price |
+| The founder story or cause cannot be verified | Choose another intangible type; never invent a story, giveback or mission | A brand claim that collapses when buyers check it |
+| A name is chosen before domain and trademark checks | Keep it on the shortlist marked "checks pending" | Rebranding after launch or a legal dispute |
+| An ambassador asks for cash payment | Offer exclusive perks only and refer paid arrangements to a lawyer | Sliding into influencer-contract territory |
+| Food or skincare packaging is specified | Include ingredient information and a batch/expiry date | Breaching Uganda labelling requirements |
 
-**Platform fit for community building:**
-- **WhatsApp groups** — best for high-trust, high-engagement community for SME brands in EA
-- **Facebook Groups** — good for older demographics and communities built around shared interests (e.g., cooking, gardening)
-- **Instagram** — best for visual, aspiration-driven brands targeting 18–35 urban audience
-- **Telegram** — growing in EA for content creators and thought-leader communities
+## Quality Standards
 
----
+- The competitive quadrant (capital availability × competition intensity) is identified with the matching approach.
+- The chosen intangible type (from the 9) is justified against this client's story and market.
+- A completed Soleness statement follows the template and passes the five tests.
+- The two-axis positioning map identifies at least one underserved white-space position; the Blue Ocean grid has client-specific answers.
+- Every proposed name is scored against all 5 naming characteristics.
+- Colour and typography direction carry a rationale tied to the position; at least 3 packaging recommendations explain their commercial reason.
+- The community plan names at least one tactic per growth stage (early: under 100; growth: 100–500; scale: 500+ customers).
+- Uganda/East Africa, British English, UGX and WhatsApp-first assumptions are explicit; the full checklist is in [the method](references/differentiation-method.md#full-quality-checklist).
 
-## Quality Criteria
+## Anti-Patterns
 
-Output from this skill meets the standard if it:
-
-- Identifies the client's competitive quadrant (capital availability × competition intensity) and recommends the corresponding strategic approach
-- Selects the most authentic intangible type from the 9 options and explains why it fits this client's specific story and market
-- Produces a completed Soleness statement using the template
-- Builds a two-axis competitive positioning map identifying at least one underserved white-space position
-- Applies the Blue Ocean four-actions framework (Eliminate/Reduce/Raise/Create) with client-specific answers
-- Evaluates or proposes a brand name against all 5 characteristics (Distinctive, Sound, Stickiness, Expression, Appearance)
-- Provides colour and typography direction with specific rationale tied to the brand's positioning
-- Includes at least 3 specific packaging recommendations and explains the commercial rationale for each
-- Defines a community-building plan with at least one specific tactic per growth stage (early: under 100 customers; growth: 100–500 customers; scale: 500+ customers)
-
----
+- Differentiating with a new logo while the offer is identical to every Jumia seller. Fix: settle the position and proof first, then the visuals.
+- Inventing a founder story or a giveback that is not real. Fix: use only true, specific stories and quantified, verifiable causes.
+- Picking a name that is hard to say in English, Luganda or Swahili. Fix: say every shortlisted name aloud and score its Sound.
+- Choosing red for a premium natural brand because it "pops". Fix: check the colour against its EA associations and the position.
+- Packaging that protects but never sells. Fix: add the visible brand name, a thank-you note and a WhatsApp number or QR code for repeat orders.
+- Deceptive or unpermitted customer spotlights. Fix: feature customers only with their permission.
+- Presenting a name or identity as final. Fix: deliver a shortlist for the client to decide after trademark, domain and competitor checks.
 
 ## References
 
-- Verma, N. (2019) *Checkout*. Soleness framework, 7C Canvas, 9 Intangible types, naming, packaging, community, Brand Benefits Pyramid
-- Kim, W.C. and Mauborgne, R. (2015) *Blue Ocean Strategy*. Four Actions Framework, value innovation
-- Ries, A. and Trout, J. (2001) *Positioning: The Battle for Your Mind*. Positioning maps, category ownership
-- Kelly, K. (2008) '1,000 True Fans'. True fan community model
-- `social-commerce-strategy/SKILL.md` — EA social commerce operations and platform setup
-- `playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md` — CRO methodology, buyer modalities, and A/B testing
+- [Differentiation method](references/differentiation-method.md): read when running the intake, choosing an intangible type, writing the Soleness statement, building the positioning map, testing names, or setting colour, packaging and community direction.
+- [`social-commerce-strategy`](../social-commerce-strategy/SKILL.md): read when catalogues, WhatsApp ordering, Mobile Money and delivery need setting up.
+- [`playbook-post-click-strategy`](../../playbooks/playbook-post-click-strategy/SKILL.md): read when the problem is checkout, cart or WhatsApp order conversion.
+- [`marketing-foundations-stp-positioning`](../marketing-foundations-stp-positioning/SKILL.md): read when the business is not an online store or segmentation is unsettled.
+- [Design engine](https://github.com/peterbamuhigire/chwezi-design-engine): read when turning the colour, typography and packaging direction into a visual identity.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the statement, names and copy.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint; an F blocks release.
+<!-- dual-compat-end -->

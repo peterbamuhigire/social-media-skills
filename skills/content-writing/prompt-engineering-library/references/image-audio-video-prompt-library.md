@@ -196,7 +196,7 @@ Keep every AI-generated asset in one campaign consistent:
 
 ## Sources
 
-- Ching, C. and Mothi, N. (2025) *AI for Creatives* — the "ineffable something" AI music quality finding (citing Cowen).
+- Ching, V. and Mothi, D. (2025) *AI for Creatives* — the "ineffable something" AI music quality finding (citing Cowen).
 - Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing Teams* — personalised video outreach performance data.
 - LetsEnhance (2024) *How to Write AI Image Prompts — From Basic to Pro*, LetsEnhance.io — image prompt anatomy.
 - European Union (2024) Artificial Intelligence Act — cited in the source as Article 4 for AI-generated content disclosure; transparency obligations are in Article 50 (verify before use).

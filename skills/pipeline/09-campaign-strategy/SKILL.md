@@ -9,12 +9,7 @@ metadata:
 ---
 # Campaign Strategy Generator
 
-Produce a complete campaign strategy document for one focused marketing campaign. Every section must be populated with client-specific content — no generic filler. Apply British English throughout. Default to Uganda/East Africa context unless the client specifies otherwise.
-
-A campaign is a time-bound, focused effort with a specific objective. It is distinct from always-on social media activity (covered in 05-social-media-strategy). This document governs one campaign only.
-
----
-
+Produces a client-specific strategy for one time-bound campaign with a specific objective, distinct from always-on social media activity (covered in `05-social-media-strategy`); defaults to Uganda/East Africa.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -34,405 +29,94 @@ A campaign is a time-bound, focused effort with a specific objective. It is dist
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Approved objective, audience, offer, dates, budget and channel evidence | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Client name, industry and sub-sector, country/city, and the business goal the campaign supports | Client brief or `01-client-brief` | Yes | Default the location to Kampala, Uganda; ask for the one-sentence business goal before writing the objective. |
+| Campaign type and start and end dates (day-month-year) | Client lead | Yes | Stop the timeline; plan phases in relative weeks marked provisional. |
+| Target persona | `03-audience-personas` or client | Yes | Ask the client to confirm the target audience before proceeding. |
+| Total budget in UGX, split into production and paid spend | Client | Yes | Plan organic channels only and mark the paid plan and budget table `not assessed`. |
+| Available channels | Client or channel plan | Yes | Plan only the channels the client confirms it can activate. |
+| Offer, main objection, available proof, primary CTA and post-click destination | Client or consultant | Yes | Stop: the campaign concept is not ready. |
+
+## Workflow
+
+1. Ask the intake questions in [campaign-strategy-document-sections](references/campaign-strategy-document-sections.md) § Intake questions; route to `05-social-media-strategy` for always-on work or `13-campaign-brief` once strategy is approved.
+2. Confirm the offer, objection, proof, CTA and destination; stop if they are unclear, because the concept is not ready.
+3. Write the SMART objective, the target persona and the concept with its core message pressure-tested against the four questions (and the `premium-commercial-writing` message spine for premium or trust-sensitive campaigns).
+4. Build the channel plan by role and cross-channel sequence, then the four-phase timeline with specific dates, using [sequence-and-proof-architecture](references/sequence-and-proof-architecture.md) for staging.
+5. List every asset with specs and owners, then write the paid amplification plan and the budget table that totals to the client's stated budget.
+6. For any contest, giveaway, prize draw or hashtag challenge, design it with [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md) and flag the legal review.
+7. Agree success metrics before launch and produce the one-page campaign brief.
+8. Check against the quality standards; correct failing sections and rerun the check, then run the anti-slop gate and hand over to `13-campaign-brief` and the client for sign-off.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Single-campaign strategy and strategic one-page brief | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Campaign strategy document (ten sections) | Client lead | All ten sections present with client-specific content; no generic filler. |
+| Channel plan, dated four-phase timeline and content production list | `11-content-calendar`; production team | Every channel has a role; every asset has specs, quantity, owner and due date. |
+| Paid amplification plan and budget table | Client lead; media buyer | Production and paid spend separated; grand total matches the stated budget or the shortfall is flagged. |
+| One-page campaign brief | `13-campaign-brief`; creative partners; client sign-off | Standalone: a designer or client could act on it without the full document. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Budget reconciliation | Table: production, paid spend, contingency, total against stated budget | Totals match or the shortfall and trade-offs are stated. |
+| KPI target register | Table: KPI, target, measurement method, agreed date | Targets are specific numbers agreed with the client before launch. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Boosting posts, building audiences or launching a prize promotion is out of scope until the client approves the plan.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without confirmed campaign dates, budget or offer, return the narrowest qualified result and mark the affected checks `not assessed`. An objective, persona fit, concept and channel roles can still be delivered as a draft for sign-off.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified single-campaign strategy and strategic one-page brief. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Approved objective, audience, offer, dates, budget and channel evidence is current and attributable | Produce the full single-campaign strategy and strategic one-page brief and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `13-campaign-brief` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The offer, objection, proof or CTA is unclear | Stop concept work and collect them first. | A campaign with nothing believable to act on. |
+| Two personas are targeted | Confirm the core message works for both and note channel or content adaptations for each. | A diluted message that fits neither. |
+| The campaign is premium, executive, high-ticket or trust-sensitive | Build the `premium-commercial-writing` message spine and put proof, value, objection handling and price integrity before the strongest ask. | A hard sell that breaks trust. |
+| Planned boost spend is below about UGX 20,000–50,000 per day on Facebook/Instagram in Uganda | Concentrate spend on fewer posts or days; below this threshold, results are negligible. | Paid spend too thin to reach 2,000–5,000 people. |
+| The budget table does not reach the stated budget or overruns it | Flag which activities to prioritise and which to reduce. | An unfundable plan. |
 | The campaign includes a contest, giveaway or prize draw | Design it with [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md), including T&Cs and lottery or gaming checks. | An unfair, non-compliant or unlicensed promotion. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `13-campaign-brief` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the single-campaign strategy and strategic one-page brief, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| The request is the execution brief for the team or suppliers | Route to `13-campaign-brief` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- The campaign objective is a complete SMART statement with a specific number, date and link to a business goal; the target persona is explicitly named and linked to 03-audience-personas where available.
+- Cross-channel sequencing shows how platforms work together, not just a list of channels.
+- The campaign timeline has specific dates (not relative weeks) derived from the client's stated campaign dates.
+- The content production list includes specs for every asset type, enough for a designer to work from.
+- Paid amplification notes include EA-specific minimum spend thresholds and audience targeting logic; the budget table distinguishes production costs from paid spend and totals to the client's stated budget.
+- Success metrics are agreed before the campaign starts; targets are specific numbers, not "increase" or "improve".
+- The one-page campaign brief is standalone and complete: a designer or client could act on it without reading the full document.
+- British English spelling throughout; EAT timezone applied to all scheduling references; premium campaigns use proof, value, objection handling and price integrity before the strongest conversion ask.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the single-campaign strategy and strategic one-page brief without approved objective. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `13-campaign-brief` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified approved objective, the skill produces a single-campaign strategy and strategic one-page brief with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`13-campaign-brief`](../13-campaign-brief/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Letting secondary objectives dilute focus. Fix: keep one primary objective as the anchor for every campaign choice.
+- Giving every channel the same job. Fix: assign roles (attention, education, proof, conversion, reminder, follow-up or retention).
+- Manufacturing urgency with artificial deadlines. Fix: use last-chance messaging only when the offer has a real close date, and state it.
+- Keeping assets that do not serve the core message. Fix: cut any asset that does not reinforce it.
+- Producing graphics or video inside this skill. Fix: supply briefs and specs and direct the client to a designer or videographer.
+- Boosting posts or launching a prize promotion during planning. Fix: hand over the plan; spend and launch need separate authority and the legal review.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md)
-- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
-- [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md) — read when the campaign includes a contest, giveaway, prize draw or hashtag challenge.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Ask for all of the following before generating the campaign strategy document:
-
-- **Client name** — trading name
-- **Industry and sub-sector** — e.g. "retail — electronics", "hospitality — event venue"
-- **Country/city** — defaults to Kampala, Uganda if not specified
-- **Campaign type** — product launch / seasonal offer / brand awareness / event promotion
-- **Campaign dates** — proposed start date and end date in day-month-year format
-- **Target persona** — reference 03-audience-personas if available; otherwise describe the primary target (age, location, key motivations, platform habits)
-- **Campaign budget** — total budget in UGX; split into: (a) production budget (content creation costs) and (b) paid spend (boosting, ads)
-- **Available channels** — list all channels the client can activate: Facebook, Instagram, TikTok, WhatsApp broadcast, email list, YouTube, LinkedIn, X/Twitter
-- **Primary business goal this campaign supports** — one sentence linking the campaign to a wider business objective
-
-If the 03-audience-personas document is available, reference it explicitly. If not, ask the client to confirm the target audience before proceeding.
-
-Also collect or infer these conversion-critical details:
-
-- the exact offer being promoted
-- the objection most likely to suppress response
-- the proof available to support the offer
-- the primary CTA and the post-click destination
-
-If those are unclear, the campaign concept is not ready.
-
----
-
-## Document Structure
-
-Generate all ten sections in order. Use markdown headings. Do not omit any section.
-
-### 1. Campaign Objective
-
-State the primary campaign objective in SMART format. One primary objective only. Secondary objectives are listed separately.
-
-**SMART objective format:**
-- **Specific:** what exactly will be achieved
-- **Measurable:** which number or metric defines success
-- **Achievable:** is this realistic given the budget and timeframe?
-- **Relevant:** how does this connect to the client's primary business goal?
-- **Time-bound:** by what date must the objective be achieved?
-
-Write the objective as a single sentence: "Achieve [measurable outcome] by [date] through [channel/approach], in order to [business goal]."
-
-Example for a product launch: "Generate 200 pre-orders for [Product Name] by [launch date + 7 days] through a coordinated Instagram and WhatsApp campaign, in order to validate market demand before the full production run."
-
-**Secondary objectives (list separately, not SMART):**
-- [e.g. Grow Instagram following by 300 new followers during campaign period]
-- [e.g. Generate 50 pieces of user-generated content via campaign hashtag]
-
-Do not allow secondary objectives to dilute focus. The primary objective must remain the decision-making anchor for every campaign choice.
-
----
-
-### 2. Target Audience
-
-Identify explicitly which persona(s) from 03-audience-personas this campaign targets. State the reasoning.
-
-If only one persona is targeted (recommended for most campaigns): name them, state their core motivation, and explain why this campaign is relevant to them.
-
-If two personas are targeted: confirm that the core message works for both. Note if any element of the channel plan or content must be adapted for each.
-
-State the following for the primary target:
-- **Primary persona name:** [e.g. "Grace — urban professional, Kampala, 28–38"]
-- **Why this campaign is for them:** [1–2 sentences linking the campaign offer or message to a known need, pain point, or aspiration from the persona profile]
-- **Where to reach them:** [primary platform(s) and time of day they are most active; apply EAT, UTC+3]
-- **What will motivate them to act:** [one sentence — the core behavioural driver: social proof / urgency / aspiration / saving money / belonging / status]
-
----
-
-### 3. Campaign Concept and Core Message
-
-Define the big idea that ties all campaign content together.
-
-**Campaign name / working title:** [Short, memorable; 3–5 words]
-
-**Tagline:** [One punchy line the audience will remember; can be used in graphics, captions, and CTAs]
-
-**The big idea:** [One sentence describing the campaign concept — what it is and why it will resonate with the target audience]
-
-**Core message:** [One sentence stating what the audience must take away from this campaign. Everything in the campaign serves this message. If an asset does not reinforce the core message, cut it.]
-
-Pressure-test the core message against four questions:
-
-1. what is being offered?
-2. who is it for?
-3. why act now rather than later?
-4. what proof or mechanism makes this believable?
-
-For premium, executive, high-ticket, or trust-sensitive campaigns, also build the `premium-commercial-writing` message spine: reader, moment, pain, outcome, point of view, mechanism, proof, objection, next step.
-
-**Tone for this campaign:** [Reference 04-brand-voice-intake if available. Note if the campaign tone differs from the always-on brand tone — e.g. a campaign for a festive seasonal offer may be more playful than the brand's standard tone]
-
-**Visual direction note:** [Brief description of the look and feel for campaign assets — not a design brief, but enough direction for a graphic designer or videographer to understand the aesthetic. Note: asset production is outside the scope of this skill.]
-
----
-
-### 4. Channel Plan
-
-Define how each channel will be used in this campaign. Show how channels work together — cross-channel sequencing is essential for campaign impact.
-
-**Cross-channel sequencing principle:**
-Build from teaser to announcement to amplification to close-out:
-1. Tease on Stories (Instagram / Facebook) — generate curiosity before the launch
-2. Announce on feed — hero content goes live at full quality
-3. Amplify with WhatsApp broadcast — reach the most engaged existing audience
-4. Follow up with email (if list available) — direct channel with highest intent audience
-5. Sustain with supporting content — keep the campaign alive across the full period
-
-**Channel plan table:**
-
-| Platform | Role in Campaign | Content Type | Frequency | Timing (EAT, UTC+3) | Notes |
-|---|---|---|---|---|---|
-| Instagram | Announce + sustain | Feed post, Reel, Stories | [e.g. Daily during launch, 3x/week sustain] | [e.g. 07:00 / 12:00 / 19:00] | Hero visual on Day 1 |
-| Facebook | Broad reach + community | Feed post, boosted post | [e.g. 3x/week] | [e.g. 08:00 / 13:00] | Boost launch post |
-| TikTok | Entertainment + awareness | Short video | [e.g. 2x/week] | [e.g. 19:00–21:00] | UGC challenge if applicable |
-| WhatsApp broadcast | Direct audience activation | Text + image message | [e.g. Day 1, Day 7, Day last] | [e.g. 09:00] | Personalised tone |
-| Email | Nurture and convert | Campaign email | [e.g. 3 emails: announce / build / last chance] | [e.g. Morning sends 07:00] | Segment to leads and customers |
-| YouTube | Tutorial or demonstration | Video | [e.g. 1 hero video] | [e.g. Publish Day 1] | If applicable |
-
-Populate only channels available to this client. Remove rows for channels not in use.
-
-Do not let every channel do the same job.
-Assign channels by role:
-
-- attention
-- education
-- proof
-- conversion
-- reminder
-- follow-up or retention
-
----
-
-### 5. Campaign Timeline
-
-Structure across four phases. Populate with specific dates using the client's stated campaign dates.
-
-**Phase 1 — Pre-launch (1–2 weeks before campaign start)**
-Goal: build anticipation; warm existing audience; tease without revealing
-- Content to publish: [list specific teasers — e.g. "countdown graphic on Stories", "behind-the-scenes video: 'something is coming'", "Instagram poll: 'Are you ready?'"]
-- Community actions: [e.g. respond to all comments on teasers within 4 hours; DM engaged followers a sneak preview]
-- Paid activity: [e.g. begin building warm Custom Audience for retargeting on Day 1 launch]
-- Milestone: [e.g. 500 Story views on teaser content; 50 poll responses; WhatsApp broadcast list at target size]
-
-**Phase 2 — Launch (Days 1–3)**
-Goal: maximum visibility; drive first wave of action
-- Content to publish: [list all launch assets — e.g. "hero feed post + Reel on Day 1", "Facebook boosted announcement", "WhatsApp broadcast at 09:00", "email to full list at 07:00"]
-- Posting frequency: highest of the entire campaign; aim to be visible across all platforms in the first 24 hours
-- Paid amplification: [specify which posts to boost and targeting notes — see Section 7]
-- Community actions: [e.g. respond to every comment within 2 hours on Day 1; screenshot and share UGC in Stories]
-- Milestone: [e.g. [X] impressions in first 48 hours; [Y] enquiries or clicks; [Z] orders or sign-ups]
-
-**Phase 3 — Sustain (Week 2 through campaign close minus 48 hours)**
-Goal: maintain momentum; deepen engagement; convert warm audiences
-- Content to publish: [e.g. customer testimonials or UGC reposts, FAQ content, objection-handling posts, behind-the-scenes, reminder posts]
-- UGC encouragement: actively invite customers to share their experience using the campaign hashtag
-- Retargeting: serve content to people who engaged with Phase 2 posts but have not yet converted
-- Email: send mid-campaign email to non-openers and non-clickers from Phase 2 send
-- Milestone: [e.g. engagement rate sustained above baseline; UGC collected from [X] customers]
-
-**Phase 4 — Close-out (Final 48 hours)**
-Goal: urgency; last-chance messaging; finalise results
-- Content to publish: [e.g. "Last 48 hours" countdown post, "Don't miss out" WhatsApp broadcast, final email: "last chance"]
-- Urgency must be genuine — do not use artificial deadlines. If the offer has a real close date, state it clearly.
-- After campaign ends: publish a results or thank-you post; acknowledge participants; share campaign outcome with the community
-- Milestone: [primary KPI target achieved or documented; all results recorded for post-campaign report]
-
----
-
-### 6. Content Production List
-
-List every asset that must be created for this campaign. Group by type. Include specs and assign responsibility.
-
-| Asset | Type | Specs | Quantity | Responsible | Due Date |
-|---|---|---|---|---|---|
-| Hero campaign graphic | Static image | 1080×1080px (feed), 1080×1920px (Stories) | 2 (feed + Stories version) | [Designer / in-house] | [Date] |
-| Campaign Reel / TikTok video | Video | 9:16, 15–60 seconds, captions on-screen | 1 | [Videographer / in-house] | [Date] |
-| Teaser graphic series | Static image | 1080×1920px Stories | 3 frames | [Designer] | [Pre-launch date] |
-| Feed post captions | Copy | 150–300 words each | [Number] posts | [Copywriter / in-house] | [Rolling] |
-| WhatsApp broadcast messages | Copy | 50–100 words each, no links in first message | 3 messages | [In-house] | [Phase dates] |
-| Email campaign copy | Copy | Subject line + body (300–500 words) + CTA | 3 emails | [Copywriter] | [Phase dates] |
-| Facebook boosted post creative | Static image or video | 1200×628px (link post), 1080×1080px (square) | 1–2 | [Designer] | [Launch date] |
-| Campaign hashtag | Copy | Brand + campaign specific | 1 | [In-house] | [Pre-launch] |
-| UGC brief (instructions for customers) | Copy | One short paragraph or 3-step instructions | 1 | [In-house] | [Launch date] |
-
-Add or remove rows based on the client's channel plan. Reference the east-african-english and content-writing skills for copywriting standards.
-
-Note: graphic design, video production, and visual asset creation are outside the scope of this skill suite. Provide briefs and specs; direct the client to a designer or videographer.
-
----
-
-### 7. Paid Amplification Plan
-
-This section covers high-level paid social strategy for this campaign. It is not a media buying plan or ad account setup guide.
-
-**Which posts to boost:**
-Prioritise for boosting:
-- The hero launch post (Day 1) — highest quality asset, clearest message
-- Any post that achieves above-average organic engagement in the first 24 hours
-- The close-out post — re-serve the campaign offer to warm audiences before the deadline
-
-**Audience targeting notes:**
-- **Primary audience:** [Age range, gender if relevant, location (city/region), key interests aligned with persona]
-- **Warm retargeting audience:** people who engaged with previous posts or visited the profile in the last 30 days (use Facebook/Instagram Custom Audience)
-- **Lookalike audience (if budget permits):** Facebook's 1% lookalike of existing page engagers or customer list — effective for reach campaigns
-
-For Uganda/EA: Kampala is typically the highest-density and highest-intent urban audience for consumer brands. Layer in Jinja, Mbarara, Entebbe, or other cities if the client operates nationally.
-
-**Budget allocation per platform (paid spend only):**
-
-| Platform | What to Boost | Duration | Audience | Allocated Spend (UGX) |
-|---|---|---|---|---|
-| Facebook | Hero launch post + close-out post | [Days] | [Primary + retargeting] | |
-| Instagram | Hero Reel + Stories | [Days] | [Primary audience] | |
-| TikTok | Hero TikTok video | [Days] | [Interest-based] | |
-| Total | | | | |
-
-Minimum effective boost spend on Facebook/Instagram in Uganda: approximately UGX 20,000–50,000 per day for meaningful reach (2,000–5,000 people). Below this threshold, results are negligible.
-
----
-
-### 8. Budget Allocation
-
-Present a complete budget summary covering both production costs and paid spend.
-
-| Channel / Activity | Production Cost (UGX) | Paid Spend (UGX) | Total (UGX) |
-|---|---|---|---|
-| Graphic design (all assets) | | — | |
-| Video production (if applicable) | | — | |
-| Copywriting | | — | |
-| Facebook / Instagram paid | — | | |
-| TikTok paid | — | | |
-| Email platform cost (incremental) | | — | |
-| Influencer fee (if applicable) | | | |
-| Contingency (10%) | | | |
-| **Total campaign budget** | | | |
-
-State clearly: total production cost / total paid spend / grand total. Verify the grand total matches the client's stated campaign budget. If there is a shortfall, flag which activities to prioritise and which to reduce.
-
----
-
-### 9. Success Metrics
-
-Define what success looks like before the campaign starts. Agree these with the client.
-
-**Primary KPI:**
-[One metric directly tied to the campaign objective. Example: "Number of product pre-orders" / "Number of event registrations" / "Number of qualified enquiries via DM or form"]
-Target: [Specific number] by [Campaign end date]
-
-**Supporting KPIs (3–4 maximum):**
-
-| KPI | Target | Measurement Method |
-|---|---|---|
-| Total campaign reach | [e.g. 30,000 unique accounts] | Native analytics |
-| Engagement rate (campaign posts) | [e.g. Above 4%] | Engagements ÷ reach |
-| WhatsApp broadcast open/read rate | [e.g. Above 60%] | Manual count |
-| Email campaign open rate | [e.g. Above 30%] | Email platform analytics |
-| Discount code redemptions | [e.g. 50 redemptions] | Sales records |
-| Website sessions from campaign | [e.g. 500 sessions] | Google Analytics UTM |
-
-**Reporting:**
-- During campaign: daily check on paid spend, reach, and engagement on launch days; every 2–3 days during sustain phase
-- Post-campaign: full report within 5 working days of campaign close. Use meta-reporting skill for report structure.
-- Document results against targets and record for future campaign benchmarking
-
----
-
-### 10. One-Page Campaign Brief
-
-Produce a summary brief for sharing with creative partners (graphic designers, videographers) or for presenting to the client for sign-off. This is a pull-out, standalone document.
-
----
-
-**[Client/Brand Name] — Campaign Brief**
-*Prepared by: [Consultant/Agency Name] | Date: [Day-Month-Year]*
-
-**Campaign name:** [Working title]
-**Campaign type:** [Launch / Seasonal / Awareness / Event]
-**Campaign dates:** [Start] — [End]
-
-**Objective:**
-[One sentence — the SMART objective from Section 1]
-
-**Target audience:**
-[2–3 sentences from Section 2 — who they are, where to reach them, what motivates them]
-
-**Core message:**
-[One sentence — the single thing the audience must take away]
-
-**Tagline / working campaign name:**
-[From Section 3]
-
-**Channels:**
-[Bullet list of active channels from Section 4]
-
-**Key dates:**
-- Pre-launch: [Date range]
-- Launch day: [Date]
-- Campaign closes: [Date]
-
-**Assets required:**
-[Bullet list of the most critical deliverables from Section 6 — hero graphic, hero video, captions, emails]
-
-**Budget:**
-Total: UGX [X] | Production: UGX [X] | Paid spend: UGX [X]
-
-**Primary KPI:**
-[From Section 9 — the one number that defines success]
-
-**Contact for questions:**
-[Consultant name, WhatsApp / email]
-
----
-
-## Quality Criteria
-
-- Campaign objective is written as a complete SMART statement with a specific number, date, and link to a business goal
-- Target persona is explicitly named and linked to 03-audience-personas where available
-- Cross-channel sequencing shows how platforms work together — not just a list of channels
-- Campaign timeline has specific dates (not relative weeks) derived from the client's stated campaign dates
-- Content production list includes specs for every asset type — enough for a designer to work from
-- Paid amplification notes include EA-specific minimum spend thresholds and audience targeting logic
-- Budget table clearly distinguishes production costs from paid spend and totals to the client's stated budget
-- Success metrics are agreed before the campaign starts — targets are specific numbers, not "increase" or "improve"
-- One-page campaign brief is standalone and complete — a designer or client could act on it without reading the full document
-- British English spelling throughout; EAT timezone applied to all scheduling references
-- Premium campaigns use proof, value, objection handling, and price integrity before the strongest conversion ask
+- [Campaign strategy document method](references/campaign-strategy-document-sections.md): read when asking the intake questions or writing any of the ten sections, including the channel table, timeline phases, production list, paid plan, budget table, KPIs and one-page brief.
+- [sequence-and-proof-architecture](references/sequence-and-proof-architecture.md): read when staging attention, education, proof, offer and close for a timed campaign, launch or event.
+- [contests-promotions-and-gaming-rules](references/contests-promotions-and-gaming-rules.md): read when the campaign includes a contest, giveaway, prize draw or hashtag challenge.
+- [`13-campaign-brief`](../13-campaign-brief/SKILL.md): read when strategy is approved and the execution brief is needed.
+- [`05-social-media-strategy`](../05-social-media-strategy/SKILL.md): read when the work is the always-on programme.
+- [`creative-brief-and-big-idea`](../../advertising/creative-brief-and-big-idea/SKILL.md): read when the insight or creative idea is not yet found.
+- [`premium-commercial-writing`](../../content-writing/premium-commercial-writing/SKILL.md): read for premium, executive, high-ticket or trust-sensitive campaigns.
+- [`meta-reporting`](../../meta-analytics-ops/meta-reporting/SKILL.md): read when structuring the post-campaign report.
+- [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md): read when checking the finished standard.
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md): read before creative sign-off.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when the campaign runs a prize promotion or makes market claims.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

@@ -139,7 +139,7 @@ For more than one person on WhatsApp, use the app on a shared device run by a de
 
 1. **Business profile copy**: description, category and hours, written to the character limit.
 2. **Automated messages**: greeting, away message and a library of 10 quick replies.
-3. **Broadcast list structure**: list names, criteria and a 4-week broadcast calendar (use the parent skill's 30-day calendar and templates).
+3. **Broadcast list structure**: list names, criteria and a 4-week broadcast calendar (use the 30-day calendar and templates in [whatsapp-channel-playbook.md § 7](whatsapp-channel-playbook.md)).
 4. **Catalogue entry template**: blank, with every required field for the client to fill.
 5. **Customer service protocol**: SLA, escalation path and complaint rule.
 6. **Team rota template**: if more than one person manages WhatsApp.
@@ -159,3 +159,7 @@ For more than one person on WhatsApp, use the app on a shared device run by a de
 
 - Pidsley, R. (2023) *Social Media Marketing for Business: Scaling an Integrated Social Media Strategy Across Your Organisation*, Kogan Page.
 - Registers: WHATSAPP-BUSINESS-POLICY; WHATSAPP-USAGE-EA-2026.
+
+## Where the parent skill's figures now live
+
+Added in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`). The "parent skill" figures compared above (60-day segments, the ceiling of 3 broadcasts a week, "contact for pricing", the 50×50px thumbnail, the 5–8 quick replies, the 30-day calendar and templates) moved, text unchanged, from `SKILL.md` to [whatsapp-channel-playbook.md](whatsapp-channel-playbook.md).

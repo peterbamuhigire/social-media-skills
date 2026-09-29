@@ -10,7 +10,7 @@ metadata:
 
 # Ad Copy and Hook Lab
 
-Generate, screen and test advertising copy from an approved brief: offer first, proof early, one message, headline and hook mechanisms, and an ethics filter that removes classic direct-response tricks that are now unlawful or off-brand.
+Generates, screens and tests advertising copy from an approved brief for the creative lead and media buyer: offer first, proof early, one message, headline and hook mechanisms, and an ethics filter that removes classic direct-response tricks that are now unlawful or off-brand.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -51,7 +51,7 @@ Generate, screen and test advertising copy from an approved brief: offer first, 
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | Offer block (4–6 short paragraphs or bullet form) | Client commercial owner, copywriter | Promise, proof, sweetener, risk reversal and reason-why are all present and true |
 | Headline and hook bank by mechanism | Creative lead, media buyer | At least five per mechanism; each screened; top three per cell marked |
@@ -69,11 +69,11 @@ Generate, screen and test advertising copy from an approved brief: offer first, 
 
 ## Capability and Permission Boundaries
 
-Read and search the brief, proof material and register. Writing and screening copy is drafting work. Uploading ads, editing live campaigns, publishing, sending messages or committing budget requires explicit client authority. Personal data in testimonials needs recorded consent.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Writing and screening copy from the brief, proof material and register is drafting work; uploading ads, editing live campaigns or sending messages is not, and personal data in testimonials needs recorded consent.
 
 ## Degraded Mode
 
-If offer facts, proof or current specs are unavailable, return the narrowest useful qualified copy: benefit-led variants without offer or proof lines, flagged `not assessed`, plus the list of evidence needed. Never fill gaps with invented numbers, quotes or deadlines.
+Without verified offer facts, proof or current specs, return the narrowest qualified result and mark the affected checks `not assessed`. Benefit-led variants without offer or proof lines can still be delivered, with the list of evidence needed; never fill gaps with invented numbers, quotes or deadlines.
 
 ## Decision Rules
 
@@ -108,50 +108,14 @@ If offer facts, proof or current specs are unavailable, return the narrowest use
 
 ## References
 
-- [Headline and hook families](references/headline-and-hook-families.md) — read for every headline sprint and hook bank.
-- [Offer, proof and guarantee kit](references/offer-proof-and-guarantee-kit.md) — read before copy when the offer or proof is weak.
-- [Format copy fitting](references/format-copy-fitting.md) — read when fitting copy to search, social, radio, OOH and WhatsApp formats.
-- [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md) — mandatory screen.
-- [Creative brief and big idea](../creative-brief-and-big-idea/SKILL.md); [ad testing and scaling](../ad-testing-and-scaling/SKILL.md); [caption writer](../../content-writing/caption-writer/SKILL.md); [direct-response funnel copy](../../content-writing/direct-response-funnel-copy/SKILL.md).
+- [Headline and hook families](references/headline-and-hook-families.md): read when running a headline sprint or building a hook bank.
+- [Offer, proof and guarantee kit](references/offer-proof-and-guarantee-kit.md): read when the offer or proof is weak, before any copy.
+- [Format copy fitting](references/format-copy-fitting.md): read when fitting copy to search, social, radio, OOH and WhatsApp formats.
+- [Craft notes and sources](references/craft-notes-and-sources.md): read when matching the opening to awareness, writing longer primary text or radio scripts, adjusting to a premium register or adapting for East Africa.
+- [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md): read when screening every candidate line (mandatory screen).
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting any client-facing line.
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when a claim, testimonial or regulated category needs clearance.
+- [Creative brief and big idea](../creative-brief-and-big-idea/SKILL.md): read when there is no approved brief.
+- [Ad testing and scaling](../ad-testing-and-scaling/SKILL.md): read when handing the shortlist over for testing.
+- [Caption writer](../../content-writing/caption-writer/SKILL.md) and [direct-response funnel copy](../../content-writing/direct-response-funnel-copy/SKILL.md): read when the job is organic captions or long-form funnel copy.
 <!-- dual-compat-end -->
-
-## Craft notes
-
-### Awareness-matched openings
-
-| Awareness | Lead with | Example slot |
-|---|---|---|
-| Unaware | Story or striking observation | "Most [audience] lose [thing] before they even [action]." |
-| Problem-aware | Name the pain precisely; not their fault | "If [specific pain] keeps happening at your [business], it isn't your fault." |
-| Solution-aware | Mechanism and proof | "Here's how [n] [peers] in [town] fixed [problem] in [time]." |
-| Product-aware | Offer, guarantee, reason to act now | "Until [date], [offer] — because [true reason]." |
-| Most aware | Direct offer and CTA | "[Product], [price], delivered in [place] within [time]." |
-
-### Choosing the first thing the reader meets
-
-Open with whichever the buyer values most right now: the offer itself, a customer's verified result, the loss they are trying to avoid, or the gain they want. Losses usually weigh more than equal gains, so test a loss-led opening against a gain-led one. Openings can be combined — for example a customer result, then the loss it removed, then the offer.
-
-### Reading-path devices for longer primary text and radio scripts
-
-The first sentence exists to get the second read. Use bridges ("Here's why this matters…", "But consider this…"), short connective fragments, and a skim path where the first line of each block carries the story. Close the loop by returning to the opening benefit in the last line.
-
-### Premium register adjustment
-
-Keep the direct-response structure (offer, proof, specificity, risk reversal); drop the carnival register. Kampala and Nairobi corporate buyers read hype as unprofessional.
-
-Before → after:
-- "Buy now! Limited offer!!!" → "The June price holds until 30 June because our print run closes that week."
-- "Our product is the best on the market." → "Tested against [n] competitors by [independent body]; results on our website."
-- "Welcome to XYZ, a leading provider of innovative marketing solutions." → "Kampala retailers we work with get [verified figure] more WhatsApp orders in 90 days. Here's the method."
-
-### East Africa notes
-
-- Click-to-WhatsApp opening messages: short, specific, low effort ("Hi, I'd like a quote for [service] in [area]").
-- Radio: say the WhatsApp number twice and name the station in the CTA only when it helps recall; state prices in UGX words and numerals for clarity.
-- Local-language variants are transcreated by fluent reviewers (`swahili-native-copy`, `french-native-copy`, `east-african-english`), not machine-translated.
-
-## Sources
-
-- Serling, B. (ed.) (2002) *How to Write Million Dollar Ads, Sales Letters & Web Marketing Pieces*, The Internet Marketing Center — contributors include Caples (via Halbert), Bly, Vitale, Kennedy, Nicholas, Petersen, Voiles, Eker, Gage, Hauptman.
-- Wiebe, J. (2011) *Copy Hackers: 6 Persuasion Strategies*, Copy Hackers — price timing and discount display.
-- Stutts, P. (2021) *The Undefeated Marketing System*, Scribe — comparative ("punch up") rules.

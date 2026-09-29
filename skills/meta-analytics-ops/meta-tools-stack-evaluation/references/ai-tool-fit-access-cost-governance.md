@@ -8,7 +8,7 @@ Use it when the stack evaluation must cover AI marketing tools: auditing the AI 
 
 - Client already has a shortlist of named AI tools for one problem and needs a scored go/no-go: use [ai-vendor-due-diligence.md](ai-vendor-due-diligence.md).
 - Marketing functions to prioritise for AI adoption are not yet decided: run [`ai-use-case-mapping`](../../../ai-marketing/ai-use-case-mapping/SKILL.md) first.
-- Non-AI martech (scheduling, design, CRM, project management): use the core tables in the parent `SKILL.md`.
+- Non-AI martech (scheduling, design, CRM, project management): use the core tables in [core-tools-and-budget-stacks.md § Section 2 — Core Tools Reference Table](core-tools-and-budget-stacks.md).
 
 ## Inputs (all six required before any output)
 
@@ -214,6 +214,10 @@ Build on Profile B when the client has a dedicated marketing team and active pro
 
 - Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning. AI tool capability classifications and marketing automation frameworks.
 - Upadhyay, M. A. (2024) *Generative AI for Marketing*. Packt. Generative AI across content, SEO, analytics and personalisation.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson. RACE framework for tool selection against marketing objectives.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. RACE framework for tool selection against marketing objectives.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley. ROI framework for tool investment decisions: (TLV − COCA) ÷ COCA.
 - Uganda Data Protection and Privacy Act 2019: applies to every tool processing customer personal data.
+
+## Section locations after S09
+
+Added in Social Kaizen S09 (29 Sep 2026). The core non-AI tool tables, budget stacks and five-question tool test that this reference calls "the core tables in the parent `SKILL.md`" moved, text unchanged, to [core-tools-and-budget-stacks.md](core-tools-and-budget-stacks.md).

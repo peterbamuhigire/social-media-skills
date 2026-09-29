@@ -14,9 +14,9 @@ source map — they do not get a lighter evidence bar just because they are shor
 Cite real, locatable sources. Name the researchers, institutions, and
 regulators whose work is drawn on. Mark anything unverifiable as **UNVERIFIED**.
 
-## `SKILL.md` files stay under 500 lines; detail moves to `references/`
+## `SKILL.md` files stay at or below 300 lines; detail moves to `references/`
 
-A skill file over 500 lines is a sign the deep material belongs in a linked
+A skill file over 300 lines (the lean-template ceiling, D-SK-06) is a sign the deep material belongs in a linked
 reference file, not that the limit should be waived.
 
 ## British English throughout — never American spellings

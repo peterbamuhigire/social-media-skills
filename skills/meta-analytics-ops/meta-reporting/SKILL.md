@@ -9,10 +9,7 @@ metadata:
 ---
 # Monthly Social Media Performance Report (Written Document)
 
-> **Note:** This skill produces the written monthly report. This repository has no active standalone deck skill. If a presentation is required, hand the verified measurement proof pack to `chwezi-design-engine`; do not claim that this engine produced a deck.
-
----
-
+Produces the written monthly report a business owner can read without digital marketing expertise, plus dashboard specifications and quarterly 7 Ps reviews through its references. This repository has no active standalone deck skill: if a presentation is required, hand the verified measurement proof pack to `chwezi-design-engine` and do not claim that this engine produced a deck.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -32,349 +29,90 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Platform exports, targets, spend, conversions and prior-period baseline | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| This month's and last month's figures for every tracked KPI per active platform | Platform native analytics exports (Meta Business Suite, LinkedIn Analytics, TikTok Business Centre, YouTube Studio, X Analytics) | Yes | Stop; label the platform `not assessed` rather than estimating figures. |
+| Agreed targets and the primary goal | Strategy document or client agreement | Yes | Report direction of change only and mark every RAG status `not assessed`. |
+| Paid ad data: spend, reach, cost per result, best ad | Ad manager exports | If paid ran | State "No paid social activity this month." |
+| Notable events or issues (launch, holiday, crisis, viral post, outage, boost) | Client and consultant | Yes | Ask before writing the summary; do not invent causes. |
+| Top 3 posts across all platforms | Consultant or analytics export | Yes | Rank from the export by engagement rate and state the basis. |
+| Client name, sector, country/city, report period and consultant name | Client brief | Yes | Default to Uganda / Kampala; leave header fields as named placeholders. |
+
+## Workflow
+
+1. Collect the intake ([monthly report template](references/monthly-report-template.md) § Intake questions); route to `05-social-media-strategy` if the client wants the strategy rewritten, and stop on any platform whose data is unverified.
+2. Run the monthly data quality audit before writing: GA4 spam and bot exclusions, tag firing in GA4 DebugView and UTM coverage rate.
+3. Build one KPI table per active platform with last month, this month, target, RAG status and change %, removing tables for inactive platforms.
+4. Write the period summary (what happened, the most significant achievement or challenge, the strategic implication), following Insight → Context → Recommendation in every section.
+5. Write top 3 posts, what worked (3 bullets), what did not work (2 bullets with fixes), next month's tests (2–3) and paid performance, then 3–5 recommendations tied to this month's data.
+6. For a standing dashboard use [dashboard specification](references/dashboard-specification.md); for a quarterly review, baseline or decline diagnosis use [quarterly marketing mix review](references/quarterly-marketing-mix-review.md).
+7. Run the quality standards and the anti-slop gate; correct any RAG status, unsupported recommendation or missing footer and rerun the check. Withhold the report while it rests on corrupted or unverified data.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Monthly performance report with actions and caveats | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Written monthly report (header, 8 sections, footer) | Client business owner | Plain English; every section follows Insight → Context → Recommendation; footer names next report date and data sources. |
+| Platform KPI tables with RAG status | Client business owner; `meta-social-metrics-framework` owner | Green only when the target is met or exceeded; one-sentence commentary per table. |
+| Dashboard specification | Managing director; analyst | Phone-readable single-column layout; RAG threshold stated. |
+| Quarterly 7 Ps summary (score out of 35) | Client leadership | Each P scored with evidence. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Data quality audit record | Checklist: spam/bot exclusions, tag firing, UTM coverage rate | Completed before the report is written; failures stated in the report. |
+| Measurement proof pack | Per [measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md) | Every figure traces to a dated export; WhatsApp estimates labelled as estimates. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. The report recommends paid changes; it never changes budgets or campaigns.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. This is read-only by default: inspect and report without changing source records, accounts, skills or campaigns. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without verified platform exports and agreed targets, return the narrowest qualified result and mark the affected checks `not assessed`. The report structure, direction-of-change commentary for the platforms with data, and a data request for the rest can still be delivered.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified monthly performance report with actions and caveats. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Platform exports, targets, spend, conversions and prior-period baseline is current and attributable | Produce the full monthly performance report with actions and caveats and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The client wants a standing dashboard, metric hierarchy or mobile reporting layout | Specify it with [dashboard-specification](references/dashboard-specification.md). | Data-dump dashboards, vanity headline metrics and unreadable mobile views. |
 | A quarterly review, new-account baseline or cause-of-decline diagnosis is requested | Score the 7 Ps with [quarterly-marketing-mix-review](references/quarterly-marketing-mix-review.md). | Monthly metrics mistaken for a diagnosis of the whole mix. |
 | The requested outcome is a new or rewritten strategy | Route to `05-social-media-strategy` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `05-social-media-strategy` if the client wants the strategy rewritten.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the monthly performance report with actions and caveats, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| Assigning RAG status in the written monthly report | Green on target; Amber slightly below (within 15% of target); Red more than 15% below. The dashboard specification uses a 10% band: state which threshold applies in each deliverable. | Inconsistent status between report and dashboard. |
+| The client runs active campaigns | Add a real-time tier: ad spend vs daily budget (real-time), reach and frequency and conversion events (same day). | Overspend found only at month end. |
+| Choosing a chart | Trends → line; comparisons → bar; proportions → donut; behaviour patterns → heatmap; conversion stages → funnel; never 3D (Raaz, c.2023). | Charts that distort proportions. |
+| The data quality audit fails | Fix the data or state the defect before any figure is reported. | A report built on corrupted data, which is worse than no report. |
+| No paid activity this month | Replace section 7 with "No paid social activity this month." | An empty paid table read as zero results. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- Period summary paragraphs are written in plain English, readable by a business owner without digital marketing expertise.
+- Every KPI table uses traffic-light status correctly: green only when the target is met or exceeded.
+- Top posts analysis explains *why* each post worked, not merely what it was.
+- "What did not work" is honest and gives a proposed fix for each item, not just an observation.
+- Each recommendation links to specific data from the report; no generic advice.
+- The paid section (where applicable) gives a clear spend-versus-result assessment and a forward recommendation.
+- The footer specifies the next report date and data sources.
+- British English throughout; no American spellings.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the monthly performance report with actions and caveats without platform exports. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `05-social-media-strategy` into this workflow. Fix: route the strategy rewrite and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified platform exports, the skill produces a monthly performance report with actions and caveats with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`05-social-media-strategy`](../../pipeline/05-social-media-strategy/SKILL.md) when the review shows the strategy needs rewriting.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Raw metric tables without interpretation. Fix: follow Insight → Context → Recommendation for every section and metric.
+- Generic wins ("video content performed well"). Fix: name the platform, the tactic and the result, with figures against target.
+- Marking a metric green when it is below target. Fix: apply the stated RAG thresholds exactly.
+- Presenting WhatsApp open rates as platform-reported. Fix: label them estimates from read receipts and log enquiries by source.
+- Using 3D charts or more than 6 charts per dashboard view. Fix: choose charts by data relationship and keep a single-column mobile layout.
+- Reporting volume without quality. Fix: include the lead score distribution chart for clients using lead scoring.
+- Claiming this engine produced a presentation deck. Fix: hand the proof pack to `chwezi-design-engine`.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md)
-- [dashboard-specification](references/dashboard-specification.md) — read when specifying a client dashboard: chart choice, mobile-first layout, RAG scorecard, tool choice, vanity-metric flags.
-- [quarterly-marketing-mix-review](references/quarterly-marketing-mix-review.md) — read when running a quarterly 7 Ps diagnostic, new-account baseline or cause-of-decline review.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Before generating the report, collect the following from the consultant:
-
-- **Client name** and trading name (if different)
-- **Industry** and sector
-- **Country / city** (default: Uganda / Kampala)
-- **Primary goal** (from the strategy document)
-- **Report period** (e.g., March 2026 — specify the full month)
-- **Consultant name** (for the report header)
-- **Platform metrics for the month** — for every active platform, provide:
-  - This month's figures for all tracked KPIs (see Section 2 for the full metric list per platform)
-  - Last month's figures for comparison
-  - Agreed targets (from the strategy document or agreed with the client)
-- **Paid ad data** (if applicable): spend, reach, cost per result, best-performing ad description
-- **Notable events or issues this month:** Anything that influenced performance — a product launch, a public holiday, a crisis, a viral post, a platform outage, a boost campaign
-- **Top posts:** Links or descriptions of the 3 highest-performing posts this month across all platforms
-
----
-
-## Reporting Principles
-
-**Data storytelling structure:** Every section of any report must follow the sequence Insight → Context → Recommendation. Presenting raw metric tables without interpretation is not acceptable. State what the data shows, explain what caused it, then recommend what to do next. This applies at section level and at individual metric level.
-
-**Chart type selection (Raaz, c.2023):** Select chart types by data relationship — not by preference. Trends → line chart; comparisons → bar chart; proportions → donut chart; user behaviour patterns → heatmap; conversion stages → funnel chart. Never use 3D charts — they distort proportions and reduce legibility.
-
-**Real-time monitoring tier:** For clients running active campaigns, add a live dashboard layer providing same-day visibility of: ad spend pacing, campaign reach, and conversion events. Metrics warranting real-time monitoring: ad spend vs. daily budget (real-time), campaign reach and frequency (same day), conversion events (same day). Metrics suitable for weekly reporting: engagement rates, follower growth, content performance. Metrics suitable for monthly reporting: ROI, COCA, CLV by cohort.
-
-**Mobile-responsive design standard:** All client dashboards must be readable on a mid-range Android smartphone without zooming or horizontal scrolling. Recommend Google Looker Studio for EA clients — free, Google-integrated, and mobile-accessible. Apply: single-column layout; minimum 14px body text; maximum 6 charts per dashboard view.
-
-**Funnel CVR benchmarks (Kahan, 2022):** Use these as standing reference benchmarks in monthly reports to assess client performance against industry norms.
-
-| Funnel Stage | Benchmark CVR |
-|---|---|
-| Visitor-to-lead | >5% |
-| Inquiry-to-lead | ~3% |
-| Lead-to-opportunity | ~25% |
-| Opportunity-to-deal | ~40% |
-
-**Revenue sourced by channel (first-touch):** Include in quarterly reports a table showing what percentage of revenue each channel sourced on a first-touch attribution basis. Columns: Channel | Inquiries sourced | % of total inquiries | Revenue attributed | % of total revenue. This prevents sales from absorbing credit for marketing-generated opportunities and provides the evidence base for budget allocation decisions (Kahan, 2022).
-
-**Monthly data quality audit:** Build a monthly data integrity check into the reporting workflow before producing any report. Verify: spam filter exclusions applied in GA4; bot traffic exclusions active; tracking tag firing confirmed via GA4 DebugView; UTM coverage rate (percentage of links using UTM parameters). A report built on corrupted data is worse than no report (Raaz, c.2023).
-
-**Lead score distribution chart:** For clients using lead scoring, include a lead quality distribution chart in monthly reports — showing the percentage of leads at high, medium, and low score bands. This is a leading indicator of campaign quality, not just campaign volume. Declining scores in the high band indicate targeting drift before it appears in revenue figures (Kahan, 2022).
-
----
-
-## Output: Complete Monthly Report
-
-Generate a complete, client-ready document using the structure below. Write in British English. Use a professional but accessible tone — this document is read by business owners, not digital marketing specialists.
-
----
-
-### Report Header
-
-**[CLIENT NAME] — Social Media Performance Report**
-**Report period:** [Month Year]
-**Prepared by:** [Consultant name]
-**Date submitted:** [Date]
-**Prepared for:** [Client contact name and title, if known]
-
----
-
-### 1. Period Summary
-
-Write three paragraphs. Each paragraph serves a specific function:
-
-**Paragraph 1 — What happened this month**
-Summarise the overall performance direction: up / stable / down. Name the platforms that drove the most activity. Reference total reach or total engagement if available. Set the tone — this paragraph tells the client immediately whether it was a good month or a challenging one, without requiring them to read the tables.
-
-**Paragraph 2 — Most significant achievement or challenge**
-Identify the single most noteworthy thing from the month. If it was a strong month: what was the standout win and why does it matter? If it was a challenging month: what was the main difficulty and what caused it? Be specific — name the platform, the metric, and the magnitude.
-
-**Paragraph 3 — Strategic implication**
-Explain what this month's performance means for the strategy going forward. Does it confirm the current approach is working? Does it suggest a pivot is needed? Link back to the client's primary goal. Keep this forward-facing — the client should finish the summary knowing what to expect or do next.
-
----
-
-### 2. Platform-by-Platform KPI Table
-
-Produce one table per active platform. Use the traffic light system:
-- Green: on target
-- Amber: slightly below target (within 15% of target)
-- Red: below target (more than 15% below target)
-
-Include a one-sentence commentary below each platform table noting the most important trend.
-
----
-
-**Facebook**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Page likes / followers | | | | | |
-| Post reach (total) | | | | | |
-| Engagement rate (avg) | | | | | |
-| Messages received | | | | | |
-
----
-
-**Instagram**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Followers | | | | | |
-| Reach (total) | | | | | |
-| Engagement rate (avg) | | | | | |
-| Saves (total) | | | | | |
-| Reel views (total) | | | | | |
-
----
-
-**LinkedIn**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Page followers | | | | | |
-| Impressions (total) | | | | | |
-| Engagement rate (avg) | | | | | |
-| Post link clicks | | | | | |
-
----
-
-**WhatsApp**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Broadcasts sent | | | | | |
-| Estimated open rate | | | | | |
-| Enquiries received via WhatsApp | | | | | |
-| Catalogue views (if applicable) | | | | | |
-
-*Note: WhatsApp Business Analytics are limited. Open rate is an estimate based on read receipts where visible. Enquiry tracking requires the client to log incoming messages by source.*
-
----
-
-**TikTok**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Followers | | | | | |
-| Total video views | | | | | |
-| Average video completion rate | | | | | |
-| Total shares | | | | | |
-
----
-
-**YouTube**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Subscribers | | | | | |
-| Total views | | | | | |
-| Watch time (hours) | | | | | |
-| Average view duration | | | | | |
-
----
-
-**X / Twitter**
-
-| Metric | Last month | This month | Target | Status | Change % |
-|---|---|---|---|---|---|
-| Followers | | | | | |
-| Impressions (total) | | | | | |
-| Engagement rate (avg) | | | | | |
-
----
-
-Only include tables for platforms the client is active on. Remove unused platform tables from the final document.
-
----
-
-### 3. Top 3 Posts This Month
-
-For each of the three highest-performing posts:
-
-**Post [N] — [Platform], [Date]**
-- **Content type:** [Image / Video / Carousel / Reel / Text]
-- **Key metric:** [Reach: X / Engagement rate: X%]
-- **Analysis:** Two sentences. Sentence one: describe what the content was and what it said. Sentence two: explain specifically why it performed well — format, hook, topic relevance, timing, emotional pull, or audience fit.
-
----
-
-### 4. What Worked This Month
-
-Three bullets. Each bullet must be specific — name the platform, the tactic, and the result. Avoid generic statements such as "video content performed well." Write instead: "Instagram Reels posted on Tuesday and Thursday mornings achieved an average engagement rate of 6.2%, above our 4% target, driven by the behind-the-scenes production content series."
-
-- [Specific win 1]
-- [Specific win 2]
-- [Specific win 3]
-
----
-
-### 5. What Did Not Work This Month
-
-Two bullets. Be honest. Name the platform, the tactic, and the likely cause of underperformance. Include a proposed fix — what will change next month as a result.
-
-- [What underperformed] → [Proposed fix]
-- [What underperformed] → [Proposed fix]
-
----
-
-### 6. What We Are Testing Next Month
-
-List 2–3 experiments planned for the coming month. For each, state:
-- What the test is (specific tactic or format)
-- The hypothesis (why this might work)
-- How success will be measured
-
-This section demonstrates strategic thinking and keeps the client informed of the approach before it is executed.
-
----
-
-### 7. Paid Social Performance
-
-*Include this section only if paid ads were running this month. If no paid activity occurred, replace this section with a single sentence: "No paid social activity this month."*
-
-| Metric | Value |
-|---|---|
-| Total spend this month | UGX / USD [amount] |
-| Total paid reach | |
-| Cost per result | UGX / USD [amount] per [result type] |
-| Best-performing ad | [Brief description — format, audience, offer] |
-
-**Recommendation for next month's paid activity:**
-One paragraph. Should the spend increase, decrease, or stay the same? Which audience or format should be prioritised? What should be changed in the creative or targeting?
-
----
-
-### 8. Recommendations for Next Month
-
-Produce 3–5 specific recommendations. Each must follow this format:
-
-**[N]. [Title]**
-- **What to do:** Specific action
-- **Why:** Evidence from this month's data that supports the recommendation
-- **Expected outcome:** What should improve and by how much (or by when)
-
-Ensure recommendations are grounded in the data from this report — not generic best practices unconnected to the client's actual results.
-
----
-
-### Report Footer
-
-**Next report date:** [First week of following month — specify date]
-**Prepared by:** [Consultant name] | [Consultant email or contact]
-**Data sources:** Platform native analytics (Meta Business Suite, LinkedIn Analytics, TikTok Business Centre, YouTube Studio, X Analytics). All metrics are platform-reported. WhatsApp metrics are partially estimated due to platform limitations.
-
----
-
-## Quality Criteria
-
-Output meets the standard if it:
-
-- Period summary paragraphs are written in plain English, readable by a business owner without digital marketing expertise
-- Every KPI table uses traffic light status correctly — green is only assigned when the target is met or exceeded
-- Top posts analysis explains *why* each post worked — not merely what the post was
-- "What did not work" section is honest and includes a proposed fix for each item, not just an observation
-- Recommendations are each linked to specific data from the report — no generic advice
-- Paid social section (where applicable) includes a clear spend-versus-result assessment and a forward recommendation
-- Report footer specifies the next report date and data sources
-- British English throughout — no American spellings
-
----
-
-## Framework Reference
-
-Apply the **RACE framework** (Chaffey, 2024) when interpreting platform data: metrics map to Reach (awareness), Act (engagement, clicks), Convert (enquiries, sales), and Engage (loyalty, repeat engagement). Note which stages are strong and which need attention.
-
-*Chaffey, D. (2024) Digital Marketing: Strategy, Implementation and Practice. 8th edn. Harlow: Pearson.*
-*Bodnar, K. and Cohen, J. (2012) The B2B Social Media Book. Hoboken: Wiley.*
+- [Monthly report template](references/monthly-report-template.md): read when collecting intake, applying the reporting principles (Kahan (2022) funnel CVR benchmarks, first-touch revenue by channel, mobile standard), writing the report sections, platform tables, footer, or the RACE framework (Chaffey and Ellis-Chadwick, 2022).
+- [Dashboard specification](references/dashboard-specification.md): read when specifying a client dashboard: chart choice, mobile-first layout, RAG scorecard, tool choice, vanity-metric flags.
+- [Quarterly marketing mix review](references/quarterly-marketing-mix-review.md): read when running a quarterly 7 Ps diagnostic, new-account baseline or cause-of-decline review.
+- [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md): read when assembling the evidence behind the report or handing over for a deck.
+- [`meta-social-metrics-framework`](../meta-social-metrics-framework/SKILL.md): read when KPIs, owners or targets are not yet agreed.
+- [`05-social-media-strategy`](../../pipeline/05-social-media-strategy/SKILL.md): read when the review shows the strategy needs rewriting.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the report.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

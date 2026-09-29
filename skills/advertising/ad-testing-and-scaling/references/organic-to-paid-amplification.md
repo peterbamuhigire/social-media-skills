@@ -49,7 +49,7 @@ Present this as a market condition, never as a client failure. Facebook organic 
 
 | Year | Approximate organic reach of a Page's follower base |
 |---|---|
-| 2012 | About 16 % (Edgerank Checker, cited in Chaffey, 2024) |
+| 2012 | About 16 % (Edgerank Checker, cited in Chaffey and Ellis-Chadwick, 2022) |
 | 2014 | About 6 %, after the first major update favouring friends-and-family content |
 | 2018 | About 2 % for large Pages; small and mid-size Pages 5–8 % depending on engagement history |
 | 2024–2026 | Stabilised at 1–4 % for most business Pages in sub-Saharan Africa; higher variance for Pages investing in video and Stories |
@@ -218,4 +218,4 @@ The repository agent guide ([AGENTS.md](../../../../AGENTS.md)) sets the engine-
 ## Sources
 
 - Bodnar, K. and Cohen, J.L. (2012) *The B2B Social Media Book*, Wiley (10-4-1 rule).
-- Chaffey, D. (2024), cited by the source for the Edgerank Checker 2012 organic reach figure; the source gives no title. Confirm the edition before citing externally.
+- Chaffey, D. and Ellis-Chadwick, F. (2022), cited by the source for the Edgerank Checker 2012 organic reach figure; the source gives no title. Confirm the edition before citing externally.

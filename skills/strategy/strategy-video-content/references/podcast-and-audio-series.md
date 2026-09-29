@@ -209,4 +209,4 @@ Include these in every podcast strategy for a Ugandan or East African client:
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley. [POEM model; ROI formula]
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, 8th edn, Pearson. [RACE framework; owned media strategy]
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. [RACE framework; owned media strategy]

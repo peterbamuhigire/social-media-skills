@@ -118,3 +118,16 @@ Never buy contact lists, links or engagement. Disclose paid endorsements (see `p
 ## Source note
 
 The Bullseye workshop and the idea of a full channel inventory are adapted from Weinberg, G. and Mares, J. (2014) *Traction*, S-curves Publishing. The grouping, tests, East African forms and working notes here are this engine's own synthesis.
+
+## Plan section wording
+
+Moved from `SKILL.md` in Social Kaizen S09 (29 Sep 2026, start commit `0e0af8a`); text unchanged. Read when writing the channel section of a marketing or advertising plan.
+
+### Plan section slot template
+
+"We assessed all 19 recognised acquisition channels for [business] in [location]. Three show the strongest case for [phase]: [A], [B] and [C], because [evidence]. Each will be tested for [n] weeks with a cap of UGX [x], judged on cost per [qualified outcome] against an allowable UGX [y]. The best performer receives [z]% of the year-one budget; the others are dropped or parked. We will re-run this assessment when monthly growth falls below [threshold] for two consecutive months."
+
+### Before and after
+
+- Generic: "We will use social media, radio, SEO and events to increase brand awareness."
+- Professional: "We will test three channels: Facebook lead ads in Wakiso, a two-week Luganda FM morning-show package, and a stand at a regional agricultural expo, each capped at UGX 1.5m, then fund the one with the lowest cost per qualified farmer enquiry." (Scenario figures.)

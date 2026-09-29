@@ -4,7 +4,7 @@ Merged from skills/playbooks/playbook-audacious-content on 2026-09-29 at 7c60138
 
 ## When to use this reference
 
-Use it when a client's content is competent but forgettable and the brief is to make it bold: contrarian takes, personal stakes, shared live moments, a Talk Trigger or "audacious" content that is unmistakably human. It sits in front of the six viral structures in the parent [SKILL.md](../SKILL.md): first score what the client already posts, then decide which bold idea is worth the risk, then pick a structure and complete the Section 4 content brief.
+Use it when a client's content is competent but forgettable and the brief is to make it bold: contrarian takes, personal stakes, shared live moments, a Talk Trigger or "audacious" content that is unmistakably human. It sits in front of the six viral structures in [viral-structures-and-platform-method.md § Section 2](viral-structures-and-platform-method.md): first score what the client already posts, then decide which bold idea is worth the risk, then pick a structure and complete the [Section 4 content brief](viral-structures-and-platform-method.md).
 
 **The core problem.** AI has commoditised content. Every brand can now produce unlimited captions, blogs and emails at scale. The result is what Schaefer (2025) calls the "pandemic of dull": a marketplace flooded with competent, forgettable content that audiences scroll past without a second thought. The brands that win produce content that is genuinely surprising, emotionally resonant and unmistakably human in origin. AI can assist in production; it cannot create audacious content on its own.
 
@@ -24,7 +24,7 @@ Collect these alongside the parent skill's Required Input (business name and ind
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A provocative claim lacks proof or brand permission | Reframe it as an evidenced opinion or drop it | Manufactured controversy |
-| A contrarian opposite is merely provocative, not both true and interesting | Discard it; keep only opposites that survive the truth test | Outrage bait (see parent Section 6) |
+| A contrarian opposite is merely provocative, not both true and interesting | Discard it; keep only opposites that survive the truth test | Outrage bait (see [viral-structures-and-platform-method.md § Section 6](viral-structures-and-platform-method.md)) |
 | Fewer than 3 existing posts have been scored | Do not generate new content yet; complete the Audacity Index first | Strategy not grounded in the client's actual weakness |
 | A Personal Stakes post uses an "I Failed" or "A customer complained" frame | Rewrite it in the "What I Learned" frame | Reading as instability or incompetence under East African respectability norms |
 | A Talk Trigger is a vague concept (for example "better customer service") or a random gift | Redesign it around one precise, real operational moment tied to the core service | Unrepeatable or irrelevant differentiator |
@@ -62,7 +62,7 @@ For each post, record the total score and the two lowest-scoring dimensions. The
 
 Develop at least one piece of content under each pillar. Go deeper on the pillar that addresses the client's weakest Audacity Index dimension.
 
-**Pillar 1: Contrarian takes.** Challenge the received wisdom in the client's category. Not for controversy's sake: genuinely counter-intuitive insights are remembered because they disrupt the audience's mental model. Pairs with the parent skill's Hot Take and Unexpected Reversal structures.
+**Pillar 1: Contrarian takes.** Challenge the received wisdom in the client's category. Not for controversy's sake: genuinely counter-intuitive insights are remembered because they disrupt the audience's mental model. Pairs with the Hot Take and Unexpected Reversal structures in [viral-structures-and-platform-method.md § Section 2](viral-structures-and-platform-method.md).
 
 Development process:
 
@@ -115,7 +115,7 @@ Output fields: the recurring moment or event to build around; the audience ritua
 
 ### Step 3: STEPPS virality analysis
 
-Apply all six conditions from Berger (2013) to the content being developed, with at least one East Africa application each. This complements the parent skill's Section 1 (what makes content spread) and Section 5 (EA-specific triggers).
+Apply all six conditions from Berger (2013) to the content being developed, with at least one East Africa application each. This complements [viral-structures-and-platform-method.md](viral-structures-and-platform-method.md) Section 1 (what makes content spread) and Section 5 (EA-specific triggers).
 
 | Condition | What it means | East Africa applications |
 |---|---|---|
@@ -173,7 +173,7 @@ Scope AI's role explicitly for every audacious content project, so the "pandemic
 - A photograph taken by the author at the relevant location.
 - A direct quotation from a real conversation, attributed by first name.
 
-Include the Proof of Human signal in the final brief for every piece rated 71 or above on the Audacity Index (add it to the parent Section 4 brief). Run AI-assisted drafts through the [humanising rewrite passes](../../../ai-marketing/anti-ai-slop/references/humanising-rewrite-passes.md) before publishing to confirm the Proof of Human standard is met.
+Include the Proof of Human signal in the final brief for every piece rated 71 or above on the Audacity Index (add it to the [Section 4 brief](viral-structures-and-platform-method.md)). Run AI-assisted drafts through the [humanising rewrite passes](../../../ai-marketing/anti-ai-slop/references/humanising-rewrite-passes.md) before publishing to confirm the Proof of Human standard is met.
 
 ## Checklist
 
@@ -198,3 +198,7 @@ Include the Proof of Human signal in the final brief for every piece rated 71 or
 - Schaefer, M. W. (2025) *Audacious: How Humans Win in an AI Marketing World*. Schaefer Marketing Solutions.
 - Berger, J. (2013) *Contagious: Why Things Catch On*. Simon & Schuster.
 - Baer, J. and Lemin, D. (2018) *Talk Triggers*. Portfolio/Penguin.
+
+## Where the parent section numbers now live
+
+Added in Social Kaizen S09 (29 Sep 2026). The parent Sections 1, 4, 5 and 6 cited above (what makes content spread, the content brief, EA-specific triggers, ethical boundaries) moved from `SKILL.md` to [viral structures, platform tactics and content brief](viral-structures-and-platform-method.md), where the numbering is unchanged.

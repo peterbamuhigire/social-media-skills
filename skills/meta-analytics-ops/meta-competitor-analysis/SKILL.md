@@ -9,6 +9,7 @@ metadata:
 ---
 # Competitor Analysis
 
+Compares the client with three to five named rivals on platforms, followers, posting frequency, content style, engagement and visible paid activity, then turns the gaps into five recommendations. Defaults to the Uganda / East Africa context unless another market is specified.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -28,215 +29,85 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Named competitors, market boundary and dated public evidence | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Competitor list (3–5): business names, handles per platform, and whether each is direct, aspirational or indirect | Client and sales team | Yes | Build the list from where buyers look ([competitive matrix](references/competitive-matrix-and-analysis.md) § 2) and confirm it with the client before analysis. |
+| Client's own stats: platforms, followers, engagement rate, posting frequency, paid ads running | Client or client-authorised insights | Yes | Fill the client row from public profiles and label every figure an estimate. |
+| Client name, industry and sub-sector, country/city, primary goal | Client brief | Yes | Default to Uganda / Kampala; ask the goal question before writing recommendations. |
+| The decision the comparison must inform | Client brief | Yes | Stop; a matrix without a decision becomes a directory. |
+| Dated public evidence (profiles, last 10 posts, ad libraries) | Public platform pages and ad libraries | Yes | Mark the cell `not assessed`; never state a competitor figure without a dated source. |
+
+## Workflow
+
+1. Collect the intake ([five-section analysis template](references/five-section-analysis-template.md) § Intake questions) and confirm the decision the analysis serves; stop if no competitors or decision can be named, and route own-profile audits to `02-platform-audit`.
+2. Fill the comparison table with the client row labelled **[CLIENT — FOR COMPARISON]** at the top, recording the source and access date for every cell.
+3. Write the content style breakdown for each competitor and the client, including what each does not talk about.
+4. Check paid activity in the Meta Ad Library, TikTok Creative Center, LinkedIn Ad Library and Google Images; record Active / Not active / Unknown with the caveat that presence confirms activity only.
+5. Categorise activity with the POEM model (Paid / Owned / Earned) and cluster rivals that play the same game ([competitive matrix](references/competitive-matrix-and-analysis.md) § 4).
+6. Identify 3–5 actionable gaps (platform, content, tone, community, speed) and write exactly 5 recommendations, each tied to a named gap or competitor insight.
+7. Run the quality standards and the anti-slop gate; correct any undated figure or generic gap and rerun the check. Withhold any comparative claim meant for publication until it has evidence and legal review.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Competitor comparison and opportunity register | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Competitor comparison table | Client lead; strategy owner | Client row first; every competitor covered with no placeholder rows; engagement labelled as an estimate. |
+| Content style analysis and paid ad activity note | Client lead | Each profile names genuine absences; ad status per platform with the tool used. |
+| Gap analysis and five strategic recommendations (opportunity register) | Client lead; `marketing-foundations-stp-positioning` or strategy writer | 3–5 client-specific gaps; 5 recommendations across at least 3 platforms, each with action, why, platform and 90-day benefit. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Source and access-date log | Table: competitor, cell, source, date | Every figure has a source and date or is marked `not assessed`; third-party traffic figures labelled estimates. |
+| Ad library screenshots or notes | Dated captures per competitor | Ad status backed by a dated capture; spend never inferred. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Use only public or legitimately obtained information: no pretexting and no approaching rivals' staff.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. This is read-only by default: inspect and report without changing source records, accounts, skills or campaigns. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without dated public evidence for a competitor, return the narrowest qualified result and mark the affected checks `not assessed`. The comparison table for the rivals that can be evidenced, the content style profiles and provisional gaps can still be delivered.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified competitor comparison and opportunity register. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Named competitors, market boundary and dated public evidence is current and attributable | Produce the full competitor comparison and opportunity register and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `02-platform-audit` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `02-platform-audit` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the competitor comparison and opportunity register, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| Engagement rate must be estimated from public data | Use visible likes and comments on the last 10 posts ÷ follower count × 100 and label it an estimate, not platform-reported data. | Presenting guesses as platform metrics. |
+| Ad library shows ads for a rival | Record the ads as active and note formats and calls to action; say nothing about budget, targeting or performance. | Inventing ad spend from presence data. |
+| All competitors crowd one platform and neglect another | Treat the neglected platform as a platform gap the client can own. | Following the field into the crowded channel. |
+| Two rivals already own the client's intended claim | Choose another claim or prove superiority with evidence. | A me-too position. |
+| Every rival shares a weakness customers complain about | Treat that weakness as the opening. | Missing the clearest gap. |
+| A gap exists only in the analyst's opinion | Test it with customers before building a campaign on it. | Campaigns built on untested assumptions. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- A client row sits at the top of the comparison table for direct benchmarking.
+- Every competitor provided is covered, with no placeholder or skipped rows.
+- Content style analysis identifies genuine absences (what competitors do *not* cover), not just what they do.
+- The paid ad section directs the consultant to free tools with specific navigation instructions, not generic advice.
+- Gaps are actionable for this client, not observations that could apply to any business.
+- Each recommendation ties to a specific gap or competitor insight; recommendations span multiple platforms with a realistic timeframe for the expected benefit.
+- Output defaults to Uganda / East Africa context unless otherwise specified.
+- Earned media evidence (shares, press, organic viral) is noted in the profiles where observed.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the competitor comparison and opportunity register without named competitors. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `02-platform-audit` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified named competitors, the skill produces a competitor comparison and opportunity register with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`02-platform-audit`](../../pipeline/02-platform-audit/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Stating a competitor's follower count or engagement without a date. Fix: record source and access date or mark it `not assessed`.
+- Reading ad-library presence as spend or performance. Fix: report activity only; spend is not disclosed.
+- Listing what rivals do and ignoring what they omit. Fix: complete the "What they do not talk about" line for every profile.
+- Generic gaps ("post more video"). Fix: name the competitor, the gap type and why the client can exploit it.
+- Recommendations with no link to the analysis. Fix: cite the gap or competitor finding behind each of the five.
+- Using a personal social login or copying rivals' creative. Fix: use a shared test account and public evidence only.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Competitive matrix and analysis procedure](references/competitive-matrix-and-analysis.md) — read when building the competitor list, the matrix columns and the findings brief.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Before generating this analysis, collect the following from the consultant:
-
-- **Client name** and trading name (if different)
-- **Industry** and sub-sector (e.g., hospitality > restaurant; financial services > microfinance)
-- **Country / city** (default: Uganda / Kampala)
-- **Primary goal** (e.g., grow brand awareness, increase enquiries, defend market position)
-- **Client's own platform stats** for direct comparison:
-  - Platforms active on
-  - Follower counts per platform
-  - Estimated engagement rate (average likes + comments ÷ reach × 100)
-  - Posting frequency (posts per week per platform)
-  - Whether paid ads are currently running
-- **Competitor list** (3–5 competitors):
-  - Business name
-  - Social media handles per platform (Facebook page name, Instagram handle, TikTok handle, LinkedIn page, etc.)
-  - Any known context (direct competitor / aspirational benchmark / indirect competitor)
-
----
-
-## Output Structure
-
-Generate all five sections below in order.
-
----
-
-### 1. Competitor Comparison Table
-
-Include one row for the client at the top, labelled **[CLIENT — FOR COMPARISON]**, before listing competitors. This allows direct visual benchmarking.
-
-| Competitor | Platforms active on | Follower counts (per platform) | Posting frequency | Content style | Avg engagement rate est. | Paid ad activity visible | Key strengths | Key weaknesses | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-| [CLIENT — FOR COMPARISON] | | | | | | | | | |
-| Competitor 1 | | | | | | | | | |
-| Competitor 2 | | | | | | | | | |
-| Competitor 3 | | | | | | | | | |
-| Competitor 4 (if applicable) | | | | | | | | | |
-| Competitor 5 (if applicable) | | | | | | | | | |
-
-**Column guidance:**
-
-- **Content style:** 2–3 words (e.g., "polished, branded", "casual, humorous", "educational, text-heavy")
-- **Avg engagement rate est.:** Use visible likes and comments on the last 10 posts ÷ follower count × 100. Note this is an estimate, not platform-reported data.
-- **Paid ad activity visible:** Yes / No / Unknown. See Section 3 for how to check.
-- **Notes:** Anything notable — recent rebrand, viral post, account dormancy, verified status.
-
----
-
-### 2. Content Style Analysis Per Competitor
-
-For each competitor (and the client), produce the following breakdown:
-
-**[Competitor Name]**
-
-- **Most-used content type:** Video / Image / Carousel / Text / Reel / Story (select the dominant format observed)
-- **Tone and voice:** Formal / Casual / Humorous / Educational / Inspirational / Promotional (select the predominant tone)
-- **Visual style:** Polished / Authentic / Branded / Minimal / User-generated (select the predominant style)
-- **Topics they dominate (3–4 themes):** List the subject areas that appear most frequently in their content
-- **What they do not talk about (gaps):** Identify topics, audiences, or formats conspicuously absent from their content
-
-Repeat this block for every competitor, then include the client's own content style for comparison.
-
----
-
-### 3. Paid Ad Activity Note
-
-**How to find competitor ad data (free tools):**
-
-- **Meta Ad Library** (facebook.com/ads/library): Search by competitor page name. Shows all currently active Facebook and Instagram ads. No account required. Filter by country (select Uganda or the relevant market).
-- **TikTok Creative Center** (ads.tiktok.com/business/creativecenter): Shows top-performing ads by category and region. Useful for spotting competitors running TikTok paid activity.
-- **LinkedIn Ad Library**: Available via any LinkedIn company page under "Posts > Ads". Shows active sponsored content.
-- **Google Display Network**: Search "[competitor name] ad" in Google Images to surface display banner ads. For traffic intelligence, use SimilarWeb free tier (similarweb.com) to estimate referral sources.
-
-**Important caveat:** Data from these sources is indicative, not exact. Ad spend figures are not disclosed. The presence or absence of ads confirms activity only — it does not reveal budget, targeting, or performance.
-
-For each competitor, note:
-- **Facebook/Instagram ads:** Active / Not active / Unknown
-- **TikTok ads:** Active / Not active / Unknown
-- **LinkedIn ads:** Active / Not active / Unknown
-- **Observation:** Any notable ad formats, themes, or calls to action visible in the ad library
-
----
-
-### 4. Gap Analysis
-
-Identify where the client can win against the field. Produce 3–5 specific opportunities drawn from the comparison data. Structure each gap as follows:
-
-**Gap type — [title]**
-What the gap is, which competitor(s) it applies to, and why the client is positioned to exploit it.
-
-Use the following gap categories as a framework (not all will apply to every client):
-
-- **Platform gap:** A platform where competitors are absent or under-active. If all competitors are focused on Facebook but no one is building a LinkedIn presence, the client can own that space in the industry.
-- **Content gap:** A topic, format, or audience segment that competitors are not serving. In Uganda/EA, common gaps include: local-language content (Luganda, Swahili), SME-focused educational content, and behind-the-scenes / process content.
-- **Tone gap:** If all competitors use formal, corporate language, authentic and conversational content will stand out. The reverse is also true in professional sectors.
-- **Community gap:** If no competitor actively responds to comments, engages in discussions, or recognises their audience publicly, a client who does this consistently builds disproportionate loyalty.
-- **Speed gap:** If competitors post 2–3 times per week and the client can consistently post 5–7 times per week with quality content, frequency becomes the differentiator.
-
----
-
-### 5. Strategic Recommendations
-
-Produce exactly 5 specific recommendations. Each recommendation must link back to a named gap or insight from the analysis. Use this format for each:
-
----
-
-**Recommendation [N]: [Title]**
-
-- **What to do:** Specific action (e.g., "Publish two Instagram Reels per week showcasing the production process")
-- **Why:** The gap or finding that makes this the right move (cite the specific competitor or gap)
-- **Platform:** Which platform(s) this applies to
-- **Expected benefit:** The measurable or observable outcome if executed consistently for 90 days
-
----
-
-Ensure recommendations span at least 3 different platforms and cover a mix of organic and (if relevant) paid tactics.
-
----
-
-## Quality Criteria
-
-Output meets the standard if it:
-
-- Includes a client row at the top of the comparison table for direct benchmarking
-- Covers every competitor provided, with no placeholder or skipped rows
-- Content style analysis identifies genuine absences (what competitors do *not* cover) — not just what they do
-- Paid ad activity section directs the consultant to free tools with specific navigation instructions, not generic advice
-- Gap analysis identifies gaps that are *actionable* for the specific client — not generic observations that could apply to any business
-- Strategic recommendations are each tied to a specific gap or competitor insight from the analysis
-- Recommendations span multiple platforms and include a realistic timeframe for expected benefit
-- All output defaults to Uganda / East Africa context unless otherwise specified
-
----
-
-## Framework Reference
-
-Apply the **POEM model** (Paid / Owned / Earned) when categorising competitor activity. Earned media (shares, press, organic viral) is often the hardest to observe but most valuable — note any evidence of it in the competitor profiles.
-
-*Bodnar, K. and Cohen, J. (2012) The B2B Social Media Book. Hoboken: Wiley.*
-*Chaffey, D. (2024) Digital Marketing: Strategy, Implementation and Practice. 8th edn. Harlow: Pearson.*
+- [Five-section analysis template](references/five-section-analysis-template.md): read when collecting intake, filling the comparison table columns, writing style breakdowns, checking ad libraries, framing gap categories (including local-language content in Luganda and Swahili), writing recommendations, or citing Bodnar and Cohen (2012) and Chaffey and Ellis-Chadwick (2022).
+- [Competitive matrix and analysis procedure](references/competitive-matrix-and-analysis.md): read when building the competitor list, the matrix columns and the findings brief.
+- [`02-platform-audit`](../../pipeline/02-platform-audit/SKILL.md): read when the client's own profiles need auditing.
+- [`meta-social-listening`](../meta-social-listening/SKILL.md): read when ongoing share of voice and sentiment are needed.
+- [Legal, privacy and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when a comparative claim will be published.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting findings and recommendations.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

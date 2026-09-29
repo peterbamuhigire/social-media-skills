@@ -253,7 +253,7 @@ Sources cited in this repository's skills, references, doctrine, continuous-impr
 - Fabian, J. *Language and Colonial Power*
 - Falls (2021) *Winfluence*
 - Farri and Rosani (2025) *HBR Guide to Generative AI for Managers*, HBR Press
-- Farri and Rosani (2025) *Multi-Agent Systems for Marketing*
+- Farri and Rosani (2025) *Multi-Agent Systems for Marketing* (verify: not found in publisher or library catalogues, 29 Sep 2026)
 - Farris, P. W., Bendle, N. T., Pfeifer, P. E. and Reibstein, D. J. *Marketing Metrics*
 - Fekeshazi, Z. (c. 2017) *Product Managers' Guide to UX Design*, UX Studio
 - Field, C. *Social Media Jobs That Pay Well*
@@ -311,8 +311,8 @@ Sources cited in this repository's skills, references, doctrine, continuous-impr
 - Levy, J. (2015) *UX Strategy: How to Devise Innovative Digital Products that People Want*, O'Reilly
 - Lima. *Fundamentals of Writing*
 - Lines, C. J. *The Great Digital Commission*
-- Ltifi, M. (ed.) *Advances in Digital Marketing in the Era of Artificial Intelligence*, CRC Press
-- Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing*
+- Ltifi, M. (ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence*, CRC Press
+- Ltifi, M. (2025) *Artificial Intelligence and Social Media Marketing* (verify: not found in publisher or library catalogues, 29 Sep 2026)
 - Luttrell, R. *Social Media: How to Engage, Share, and Connect*
 - Macarthy, A. *500 Social Media Marketing Tips*
 - Maister et al. *The Trusted Advisor*
@@ -329,12 +329,12 @@ Sources cited in this repository's skills, references, doctrine, continuous-impr
 - Miller, D. *Building a StoryBrand 2.0*
 - Mizrahi, G. (2024) *Unlocking the Secrets of Prompt Engineering*, Packt
 - Mohan, S. *Designing the AI-Driven Data Foundations*
-- Mollick, E. *Co-Intelligence*
+- Mollick, E. (2024) *Co-Intelligence: Living and Working with AI*, Portfolio
 - Mugane, J. M. *The Story of Swahili*
-- Nayebi (2025) *AI-First Marketing*
-- Nayebi (2025) *Foundations of Agentic AI for Retail*
-- Nayebi (2025) *Generative AI for Product and Marketing Teams*
-- Nayebi (2025) *Human-in-the-Loop AI*
+- Nayebi (2025) *AI-First Marketing* (verify: not found in publisher or library catalogues, 29 Sep 2026)
+- Nayebi, F. (2025) *Foundations of Agentic AI for Retail*, Gradient Divergence
+- Nayebi (2025) *Generative AI for Product and Marketing Teams* (verify: not found in publisher or library catalogues, 29 Sep 2026)
+- Nayebi (2025) *Human-in-the-Loop AI* (verify: not found in publisher or library catalogues, 29 Sep 2026)
 - Nelson, J. (2019) *The Seven Figure Agency Roadmap*, Seven Figure Agency LLC
 - Nemo, J. (2017) *Content Marketing Made Easy*, self-published
 - Nurse, D. and Spear, T. *The Swahili*

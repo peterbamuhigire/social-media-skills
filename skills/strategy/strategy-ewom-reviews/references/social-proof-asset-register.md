@@ -84,7 +84,7 @@ This protocol complements the parent skill's review-request timing at peak satis
 4. **Video option.** Offer a guided prompt: "Just record a 30-second voice note or video on your phone answering those three questions — no need to be formal."
 5. **Consent.** Confirm consent before publishing, covering name, organisation, photo and platform use. Document consent in writing; a WhatsApp message confirmation is sufficient.
 
-Never offer an incentive in exchange for a Google review (see the parent skill's Incentivised Advocacy rule).
+Never offer an incentive in exchange for a Google review (see the Incentivised Advocacy rule in [ewom-programme-method.md](ewom-programme-method.md)).
 
 ### 3. Maintain the proof asset register
 

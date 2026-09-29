@@ -9,6 +9,8 @@ metadata:
 ---
 # Brand Voice AI Training
 
+Builds the Brand Context Block, a structured prompt header pasted before every AI instruction, so Claude, ChatGPT, Gemini or any later tool writes in the client's voice instead of a bland global register. Untrained, repeated AI use smooths out the local references, signature phrases and particular warmth or edge that make a brand recognisable.
+
 <!-- dual-compat-start -->
 ## Use When
 - ChatGPT, Claude or Gemini writes our posts in a bland global tone; make it sound like our brand.
@@ -24,305 +26,90 @@ metadata:
 - Stop before uploading customer personal data, confidential pricing or unverified facts into an AI tool without client authority.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified brand voice AI training deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| The AI must also know the client's products, UGX prices, policies, audience or local calendar, or the brief asks for a RAG brand knowledge base | Build the seven-category document library and query workflow in [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md); load the Brand Context Block as one of its documents. | Generic or factually wrong AI output that no voice block can fix. |
+|---|---|---|---|
+| Client business name, industry, country/city and primary goal for consistent AI content | Client, or `04-brand-voice-intake` answers | Yes | Pull from `04-brand-voice-intake` first; default the location to Uganda/East Africa only when it is not stated. |
+| 3–5 sample pieces the client considers most "them", collected in ranked source priority | Client archive: posts and threads, longer-form pieces, outbound messages that worked, then docs/site copy | Yes | Proceed with fewer than three only by stating the thin corpus in the analysis note; never substitute a generic platform exemplar, competitor post or invented example. |
+| Voice fields: exactly 3 adjectives, 3 "We are X, not Y" pairs, 5–10 always-use and 5–10 never-use words, tone position 1–5 with one example sentence, emoji policy | Client or `04-brand-voice-intake` | Yes | Go back and ask; never leave a field blank or fill it with a placeholder. |
+| Cultural references: local-language phrases (Luganda, Swahili, Runyankole or others), slang, local events, seasons, community structures | Client | Yes | Ask explicitly; delete the CULTURAL CONTEXT field only when the client confirms none apply. |
+| Content types needing few-shot examples and 1–2 approved examples of each | Client | Yes | Skip a type only when the client does not produce it (for example no Stories or WhatsApp Status). |
+| Products, UGX prices, policies, personas and local calendar | Client source documents | Conditional (knowledge base) | Build the voice block only and mark factual accuracy `not assessed`. |
 
 ## Workflow
-1. Confirm the exact brand voice AI training deliverable, consumer, market, channel and approval boundary; route to `ai-readiness-diagnostic` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete brand voice AI training deliverable; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
+
+1. Capture the voice inputs, pulling from `04-brand-voice-intake` where it exists; collect samples in ranked source priority and stop once 3–5 strong pieces are in hand, dropping a tier only when the current one is genuinely exhausted.
+2. Analyse the samples for what the voice actually is (sentence length, questions, address, active voice, recurring phrases, hook, CTA, humour, local-language positions and what the author never does) and record an internal analysis note.
+3. Build the Brand Context Block from the [template](references/brand-context-block-method.md) with every field filled, at least three verbatim examples, and the standard AI vocabulary ban list appended after client-specific bans.
+4. Add a STYLISTIC BANS field only for highly distinctive voices; for standard SME clients keep the observation in the internal note.
+5. Source few-shot examples per content type (caption, email opening, Story/WhatsApp Status script, positive-comment and neutral-enquiry replies, long-form opening) and store them in one labelled reference document.
+6. Run the quality test and the two-method voice replication comparison; if the output fails any check, add verbatim examples, sharpen NEVER USE and the "We are X, not Y" pairs, then rerun until the block passes, and label the passing version v1.
+7. Where the AI must also know products, prices, policies or personas, build the RAG knowledge base with the block loaded as one of its documents.
+8. Store the block as `[ClientName]-brand-context-v1.txt` in the client's project folder, agree a quarterly review and hand over; stop before uploading personal data, confidential pricing or unverified facts to an AI tool without client authority.
 
 ## Outputs
-| Artefact | Consumer | Observable acceptance condition |
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Brand voice ai training deliverable | Requester, client reviewer or delivery team | The brand voice AI training deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+| Brand Context Block (versioned `.txt`) | Anyone prompting AI tools for the client | Every field filled from real inputs; three or more verbatim examples; standard ban list present in full; only the PLATFORM field changes per session. |
+| Few-shot example document | Content team | Covers every content type the client regularly produces, labelled by type. |
+| RAG brand knowledge base (when triggered) | Client content and service team | Built from the seven-category library with the block loaded as one document. |
+| Review schedule and version log | Client owner | Quarterly review agreed; previous versions kept for reverting. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+| Sample source log and analysis note | Internal note: tier of each sample, extracted patterns, what the author never does | Tier drops and a thin corpus are stated, never padded. |
+| Quality test record | Table: prompt, output, checks passed or failed, refinement, version | The passing version is recorded as v1 (or the next increment). |
+| Method 1 vs Method 2 comparison | Paired outputs with a verdict | States which method replicated the voice more accurately. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Uploading customer personal data, confidential pricing or unverified facts into an AI tool or project also needs that authority.
+
+## Degraded Mode
+
+Without real client sample content, return the narrowest qualified result and mark the affected checks `not assessed`. A block with the voice fields, the standard ban list and a flagged empty EXAMPLES OF OUR VOICE field can still be delivered, marked not ready for live client work.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The client describes a voice that the samples do not show | Build the block from what the samples actually show and record the gap in the analysis note. | An aspirational voice the AI cannot reproduce. |
+| Fewer than three genuine samples exist | Say so, proceed with the reduced set and flag the block for revisiting once more real content exists. | A padded, contaminated corpus. |
+| The best-performing post is not the most representative | Choose the piece that sounds most like the client; performance and authenticity do not always overlap. | Training on an outlier. |
+| The voice is highly distinctive (founder style, cult following, known stylistic signatures) | Add the STYLISTIC BANS field built from the "what the author never does" observations. | Structural habits the vocabulary scanner cannot catch. |
+| The quality test output feels generic | Add more verbatim examples first; this is almost always the fix. | Refining adjectives while the real gap stays. |
+| The client rebrands, launches a distinct product line or voice drift appears | Update the block, increment the version (v1 → v2) and keep the previous version. | A stale block producing textbook copy. |
+| The AI must also know the client's products, UGX prices, policies, audience or local calendar, or the brief asks for a RAG brand knowledge base | Build the seven-category document library and query workflow in [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md); load the Brand Context Block as one of its documents. | Generic or factually wrong AI output that no voice block can fix. |
 
 ## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
+
+- The Brand Context Block is complete: no field is blank or holds a placeholder, and every required input is represented.
+- EXAMPLES OF OUR VOICE holds at least three verbatim, unedited client pieces; no generic platform exemplar, competitor post or invented example appears.
+- The standard AI vocabulary ban list is present in full, with client-specific terms added above it.
+- A quality test has been run and documented, and the block refined until AI output is indistinguishable in voice from the client's approved content.
+- Few-shot examples cover every content type the client regularly produces, stored and labelled separately.
+- Local language, cultural references and EA-specific identity markers are preserved explicitly in the block, not left to the AI to infer.
+- The block is versioned, stored in the client's project folder, platform-agnostic in its fixed fields, with a review schedule agreed (quarterly minimum).
+- The analysis note records what the author never does and states any drop in sample tier or a thin corpus; the full 11-item checklist is in the [method reference](references/brand-context-block-method.md).
 
 ## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested brand voice AI training deliverable, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
+
+- Writing the block from the client's self-description alone. Fix: analyse the samples and build from what they actually show.
+- Paraphrasing or "improving" the voice examples. Fix: paste real content verbatim.
+- Two voice examples in the block. Fix: provide at least three; two produce inconsistent voice replication (Evelyn, 2025, p.71; Mizrahi, 2024).
+- Padding a thin archive with a stock "high-performing Instagram caption". Fix: state the thin corpus and revisit later.
+- Dropping local-language phrases because the AI prefers Standard English. Fix: list them in CULTURAL CONTEXT and check the test output for them.
+- Overwriting the block on each update. Fix: increment the version and keep old versions; reverting is sometimes necessary.
 
 ## References
-- [ai-readiness-diagnostic](../ai-readiness-diagnostic/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-- [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md) — read when the client needs an AI knowledge base (Claude/ChatGPT Projects, CustomGPT, Notion AI) grounded in brand, product, policy and East African market documents.
+
+- [Brand Context Block build method](references/brand-context-block-method.md): read when collecting and analysing samples, filling the template, adding STYLISTIC BANS or few-shot examples, running the quality and comparison tests, or maintaining versions.
+- [brand-knowledge-base-rag](references/brand-knowledge-base-rag.md): read when the client needs an AI knowledge base (Claude/ChatGPT Projects, CustomGPT, Notion AI) grounded in brand, product, policy and East African market documents.
+- [`04-brand-voice-intake`](../../pipeline/04-brand-voice-intake/SKILL.md): read when the brand voice itself is not yet defined.
+- [Anti-AI slop production gate](../anti-ai-slop/SKILL.md): read when testing block output and when a single AI draft needs humanising.
+- [`ai-readiness-diagnostic`](../ai-readiness-diagnostic/SKILL.md): read when the client's wider AI or data readiness is in doubt before tools are trained.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
-
-## Why This Matters
-AI tools default to a generic global register. The output is professional, grammatically correct, and completely bland. Left untrained, repeated AI use gradually smooths out a brand's authentic character — the local references, the signature phrases, the particular warmth or edge that makes a brand recognisable.
-
-The **Brand Context Block** is the solution. It is a structured prompt header, pasted before every AI instruction, that gives the tool the context it needs to write in the client's voice rather than in the voice of a marketing textbook. One well-built block transforms every AI session for this client.
-
-Without it: every session starts from scratch. Generic output. Client frustration.
-With it: consistent, on-brand content from the first line, every time.
-
-This skill works with any AI tool — Claude, ChatGPT, Gemini, or any future equivalent.
-
-## Required Inputs
-Before beginning, collect or confirm the following. If `04-brand-voice-intake` has already been completed for this client, pull the relevant answers from there rather than asking again.
-
-| Input | Detail |
-|---|---|
-| Client business name | Trading name as used publicly |
-| Industry | Sector and sub-sector |
-| Country / city | Defaults to Uganda/East Africa if not specified |
-| Primary goal | What this client most needs consistent AI content for |
-| Sample content | 3–5 pieces of existing content that feel most "them" — posts, emails, web copy, WhatsApp messages. Collect in ranked priority order (see Step 1) and never substitute a generic platform exemplar for a missing tier. |
-| Voice adjectives | Exactly 3 adjectives describing the brand voice |
-| We are / not pairs | 3 pairs: "We are [X], not [Y]" |
-| Always-use vocabulary | 5–10 words or phrases the brand always uses |
-| Never-use vocabulary | 5–10 words or phrases the brand avoids |
-| Tone position | Where on the scale: Formal ←→ Conversational |
-| Cultural references | Local language phrases, local slang, community references central to their identity |
-| Emoji policy | Yes / No / Limited (and if limited, which contexts) |
-| Content types produced | Which formats need few-shot examples: captions, emails, Stories/WhatsApp Status, DM replies, other |
-
-## Step 1 — Capture the Voice Inputs
-Ask the client for each item in the Required Inputs table above, or pull from `04-brand-voice-intake`.
-
-**On sample content:** the 3–5 pieces must be content the client themselves considers most representative — not the highest-performing post, but the one that sounds most like them. Performance and authenticity do not always overlap.
-
-**Ranked source priority.** Collect samples in this order and stop once 3–5 strong pieces are in hand; only drop to the next tier when the current one is genuinely exhausted (Source: adapted from ECC `brand-voice` skill's source-priority contract):
-
-1. Recent original social posts and threads in the client's own voice (Facebook, Instagram, LinkedIn, X, WhatsApp Status) — the closest thing to unscripted, current voice.
-2. Longer-form pieces the client wrote or approved: essays, newsletters, blog posts, launch notes.
-3. Outbound messages that worked — emails, DMs, or WhatsApp replies the client points to as effective, not just sent.
-4. Product/service docs and site copy — the most polished and least representative tier; use only to fill a genuine gap in the first three.
-
-**Never use a generic platform exemplar as source material.** A stock "high-performing Instagram caption" example, a competitor's post, or an AI-generated placeholder is not a substitute for real client content, however thin the client's own archive is. If fewer than three genuine samples exist, say so explicitly, proceed with the reduced set, and flag in the analysis note (Step 2) that the block is built on a thin corpus and should be revisited once more real content exists. Do not pad the gap with invented or borrowed-voice examples — a thin, honest corpus outperforms a padded, contaminated one.
-
-**On cultural references (EA-specific):** ask whether the brand uses local language phrases (Luganda, Swahili, Runyankole, or others depending on region), local slang, references to local events, seasons, or community structures. These are often the most distinctive elements of an East African brand voice and the first things a generic AI strips out. Preserve them explicitly.
-
-**On tone position:** use a simple five-point label to avoid ambiguity:
-
-1. Formal — professional, measured, institutional
-2. Mostly formal — professional with occasional warmth
-3. Balanced — professional but approachable
-4. Mostly conversational — warm, direct, light
-5. Conversational — casual, familiar, energetic
-
-Ask the client to pick one, then ask for a single sentence from their existing content that best represents that tone.
-
-## Step 2 — Analyse the Sample Content
-Do not rely solely on what the client tells you their voice is. Read the sample content and extract what it actually is. Clients often describe an aspirational voice, not their real one.
-
-Analyse the samples for:
-
-- **Sentence length** — are most sentences under 15 words, or longer and more considered? Count roughly.
-- **Questions vs. statements** — how frequently do they open with a question? What kind of question — rhetorical, direct, invitational?
-- **How they address the customer** — "you", "our community", first name, "fellow [identity]", or something else?
-- **Active vs. passive voice** — count active constructions vs. passive. Most strong brand voices are predominantly active.
-- **Recurring phrases** — are there phrases or sentence structures that appear more than once across the samples? These are signature patterns and must be preserved.
-- **Hook style** — how do posts open? With a claim, a question, a number, a story, a challenge?
-- **CTA style** — how do posts close? Soft invitation, direct instruction, question, emotional close?
-- **Humour or wit** — present or absent? If present, what type — self-deprecating, dry, warm, playful?
-- **Local language use** — if present, in which positions (opening hook, emphasis, sign-off) and how frequently?
-- **What the author never does** — scan the samples for structural habits that are conspicuously absent, not just words that are absent (Source: adapted from ECC `brand-voice` skill's extraction list, "what the author never does"). Examples of the kind of habit to look for: never opens with a statistic, never uses a list of three, never starts with a question, never closes with a stock sign-off phrase, never uses a particular punctuation mark for emphasis. This is a required field for every profile, standard or distinctive — for most SME clients it will be short (1–3 items); reserve the fuller `STYLISTIC BANS` treatment below for highly distinctive voices.
-
-Record findings in a short analysis note before building the block. This is internal reference — not delivered to the client.
-
-## Step 3 — Build the Brand Context Block
-The Brand Context Block is the deliverable. Produce it using the template below, populated with everything gathered in Steps 1 and 2.
-
-```
-BRAND CONTEXT — [Client Name]
-You are writing for [Business Name], a [one-sentence description] based in [location].
-
-VOICE: [Adjective 1], [Adjective 2], [Adjective 3].
-We are [X], not [Y].
-We are [X], not [Y].
-We are [X], not [Y].
-
-TONE: [Tone level 1–5 with label]. Example of our tone: "[paste one sentence from their content]"
-
-ALWAYS USE:
-- [Signature phrase or word]
-- [Signature phrase or word]
-- [Signature phrase or word]
-- [Signature phrase or word]
-- [Signature phrase or word]
-[Add up to 10 total]
-
-NEVER USE:
-- [Client-specific banned word or phrase]
-- [Client-specific banned word or phrase]
-- [Client-specific banned word or phrase]
-[Add client specifics, then append the standard ban list below]
-- delve
-- tapestry
-- landscape (when used metaphorically)
-- leverage
-- navigate (when used metaphorically)
-- foster
-- realm
-- game-changer
-- revolutionary
-- groundbreaking
-- comprehensive
-- robust
-- seamlessly
-- "in today's digital age"
-- "in the ever-evolving world of"
-- "it is worth noting"
-- "it is important to note"
-- furthermore
-- moreover
-
-AUDIENCE: [Who they are writing for — demographic, what they care about, what they already know, what language they use]
-
-PLATFORM: [Platform this session is for — Facebook / Instagram / LinkedIn / WhatsApp / X / email / other]
-
-CULTURAL CONTEXT: [Local language phrases in use, regional references, community identity markers — delete this field if none apply]
-
-EMOJI POLICY: [Yes — use freely / No — do not use / Limited — use only in [specified contexts]]
-
-EXAMPLES OF OUR VOICE:
-"[2–3 sentences from their best existing content — paste verbatim, do not edit]"
-
-TASK: [The specific content request follows here]
-```
-
-**Critical notes on the template:**
-
-- Every field is mandatory. If a client has not supplied a value, go back and ask rather than leaving it blank or inventing a placeholder.
-- The EXAMPLES OF OUR VOICE field is the most important field in the block. Paste real, verbatim content. This single section does more work than all the adjectives combined.
-- **Minimum three examples standard** (Source: Evelyn, 2025, p.71; Mizrahi, 2024): Provide a minimum of three separate examples in the EXAMPLES OF OUR VOICE field. Two examples produce inconsistent voice replication. Three or more enable the AI to reverse-engineer voice characteristics reliably — including sentence rhythm, structural habits, and register — that cannot be described in words alone. Fewer than three examples is the most common reason a Brand Context Block underperforms on live client work.
-- The PLATFORM field changes with every session. Keep the rest of the block fixed and update only this field when switching platforms.
-- The standard AI vocabulary ban list is included in every block for every client, without exception. Add client-specific banned terms on top of it.
-
-### Character-Voice Differentiation (Highly Distinctive Brands)
-Source: Donovan, S. (2019) *5,000 Writing Prompts: A Master List of Creative Exercises*. For clients with highly distinctive, idiosyncratic voices — founders who write in a recognisable personal style, brands with a cult following, or professional voices with known stylistic signatures — add an optional STYLISTIC BANS field to the Brand Context Block. This goes beyond vocabulary to structural habits the brand avoids:
-
-```
-STYLISTIC BANS:
-- Never opens with a statistic
-- Never uses a list of three where a paragraph would be stronger
-- Never starts a post with a question
-- Never closes with a sentence beginning "Remember:"
-- Never uses em dashes for dramatic pauses
-```
-
-The principle: specify what the voice does NOT do as precisely as what it does. The most distinctive voices are as defined by what they refuse as by what they embrace. Vocabulary bans catch words; stylistic bans catch habits of structure and rhythm that are invisible to the vocabulary scanner but obvious to a careful reader.
-
-Add this field to the Brand Context Block only for clients where voice distinctiveness is material to brand value; for standard SME clients, vocabulary and example-based training is sufficient in the delivered block. Regardless of client type, the "what the author never does" observation from Step 2 is always recorded in the internal analysis note — it is the raw material this field draws on when a client does warrant it, and it doubles as a cheap sense-check even when it stays internal.
-
-## Step 4 — Few-Shot Examples by Content Type
-For each content type the client regularly produces, source 1–2 approved examples in their voice. These are stored alongside the Brand Context Block and pasted into the prompt when working on that content type.
-
-**Caption example**
-One caption that performed well and that the client considers representative. Include the platform it was written for.
-
-**Email opening example**
-The first 3–4 sentences of an email the client considers on-brand. Subject line included if available.
-
-**Story / WhatsApp Status script example**
-One short script (3–5 frames or lines) for ephemeral content. If the client does not use Stories or WhatsApp Status, skip this.
-
-**Response to a comment or DM example**
-One example of how the brand replies to a positive comment and one for a neutral enquiry. Tone in replies often differs from broadcast content — capture both.
-
-**Blog or long-form opening example** (if applicable)
-First paragraph only. Enough to establish rhythm and hook style.
-
-Store all few-shot examples in a single reference document in the client's project folder, labelled clearly by content type.
-
-## Step 5 — Quality Test the Block
-Before the block is used in live client work, run a quality test.
-
-**Test prompt:** Using only the Brand Context Block (no few-shot example), ask the AI to write one piece of content the client produces regularly — a Facebook caption, an email opening, a WhatsApp message.
-
-**Compare the output against 2–3 pieces of the client's existing approved content. Ask:**
-
-- Does this feel like this brand, or does it feel generic?
-- Is the vocabulary matching — are the signature phrases appearing naturally?
-- Is the tone right for the platform and for this client's position on the scale?
-- Are the banned words absent?
-- Would the client recognise this output as theirs without being told the AI wrote it?
-- Does local language appear where appropriate, or has the AI defaulted to Standard English only?
-
-**If the output fails any of these checks:**
-
-- Add more verbatim examples to the EXAMPLES OF OUR VOICE field — this is almost always the fix.
-- Make the NEVER USE list more specific — add the exact generic phrases that appeared in the failing output.
-- Tighten the "We are X, not Y" pairs to address the specific failure mode observed.
-- Re-run the test after each refinement. Iterate until the block passes.
-
-Document which version passed the quality test. Label it v1.
-
-### Voice Replication Comparison Test
-Source: Mizrahi (2024). When testing the Brand Context Block, run two versions of the same prompt:
-
-**Method 1 — Adjectives and "We are X, not Y" only** (no EXAMPLES OF OUR VOICE field): Generate one piece of content using only the VOICE, TONE, ALWAYS USE, NEVER USE, and AUDIENCE fields.
-
-**Method 2 — Full block including examples**: Generate the same piece using the complete Brand Context Block with the EXAMPLES OF OUR VOICE field populated with three or more verbatim examples.
-
-Compare the two outputs. Document which produces more accurate voice replication. If Method 1 significantly underperforms, the block needs more examples before it is deployed on live client work. This test is the single most reliable diagnostic for a Block that is technically complete but still producing generic output.
-
-## Step 6 — Maintain and Update the Block
-The Brand Context Block is a living document, not a one-time deliverable.
-
-**Storage:** save the block as a plain text file in the client's project folder. Name it `[ClientName]-brand-context-v1.txt`. Keep all versions.
-
-**Scheduled review:** review the block quarterly, or immediately after any of the following:
-- The client rebrands (name, positioning, visual identity, or audience shift)
-- The client launches a new product line or service that requires a distinct tone
-- Voice drift is detected (see below)
-
-**Detecting voice drift:** if recent AI-assisted content is drifting toward generic — if it sounds more like a marketing textbook than like the client — the block needs updating. Signs of drift include: banned words reappearing, overly formal constructions, loss of local references, CTAs that feel transactional rather than relational.
-
-**Updating the block:**
-- Add new signature phrases as they emerge in the client's organic content.
-- Add new banned terms as generic AI patterns appear.
-- Replace EXAMPLES OF OUR VOICE with more recent content if the brand has evolved.
-- Increment the version number (v1 → v2). Keep the previous version on file in case the update makes output worse.
-
-**Do not delete old versions.** Reverting is sometimes necessary.
-
-## Quality Criteria
-Output from this skill meets the standard when:
-
-- The Brand Context Block is complete — no field is blank or contains a placeholder; every item in the Required Inputs table is represented.
-- The EXAMPLES OF OUR VOICE field contains verbatim, unedited client content — not paraphrased or improved versions.
-- The standard AI vocabulary ban list is present in full, with client-specific terms added above it.
-- A quality test has been run and documented, and the block has been refined until AI output is indistinguishable in voice from the client's approved content.
-- Few-shot examples cover every content type the client regularly produces, stored and labelled separately.
-- Local language, cultural references, and EA-specific identity markers are preserved explicitly in the block, not left to the AI to infer.
-- The block is versioned, stored in the client's project folder, and a review schedule is agreed (quarterly minimum).
-- The block is platform-agnostic in its fixed fields, with only the PLATFORM field updated per session.
-- Samples were collected in ranked source-priority order (posts/threads → essays/longer-form → outbound messages that worked → docs/site copy); any drop to a lower tier, or a thin corpus of fewer than three samples, is stated explicitly rather than padded with generic exemplars.
-- No generic platform exemplar, competitor post, or invented example appears anywhere in EXAMPLES OF OUR VOICE.
-- The analysis note records what the author never does, not only what they do; for distinctive-voice clients this feeds a STYLISTIC BANS field in the delivered block.

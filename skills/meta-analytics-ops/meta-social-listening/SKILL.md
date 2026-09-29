@@ -9,6 +9,7 @@ metadata:
 ---
 # Social Listening Programme
 
+Monitors what customers, critics and rivals say about the brand across social, reviews and news, and turns it into logged, scored and routed intelligence for Ugandan and East African clients.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -28,397 +29,97 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Brand terms, risks, competitors, languages and accessible sources | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Brand name with all known misspellings and abbreviations, founder or spokesperson name if public-facing, brand hashtag | Client at onboarding | Yes | Stop the taxonomy; the brand terms cannot be guessed. |
+| 3–5 competitor names with social handles | Client or `meta-competitor-analysis` | Yes | Monitor brand and industry terms only; mark competitor intelligence and share of voice `not assessed`. |
+| Product or service category keywords in customer language, and local language variants (Luganda, Swahili, Sheng) | Client and customer-facing staff | Yes | Use English terms, flag that Luganda and Swahili mentions will be missed, and ask a speaker to supply the top 5 names. |
+| Platforms to monitor and current monitoring set-up | Client | Yes | Default to Facebook, Instagram, TikTok, X/Twitter and Google Business Profile, starting from nothing. |
+| Tool budget and conversation data or exports for scoring | Client; dated platform exports | If sentiment scoring is wanted | Use the free tool set and manual scoring; mark automated scores `not assessed`. |
+| Client name, industry, country/city and primary goal | Client brief | Yes | Default to Uganda / Kampala; ask the goal (catch complaints early, track competitors, surface content ideas). |
+
+The intake list is in [listening programme method](references/listening-programme-method.md) § Required Input.
+
+## Workflow
+
+1. Confirm the goal and the intake; stop and route to `playbook-reputation-management` or `playbook-crisis-communications` when the request is to answer a live complaint wave or run a declared crisis.
+2. Build the five-category keyword taxonomy with the client (20–30 minutes): brand, competitor, industry, sentiment triggers and EA location terms, including Luganda or Swahili variants.
+3. Set up the four tools: Google Alerts, native platform search, Brand24 or Mention, and Google Business Profile review notifications; add crisis-trigger and Mobile Money keywords from [listening-operations-playbook](references/listening-operations-playbook.md) when the client needs weekly operations.
+4. Fix the cadence (daily 5 minutes, weekly 20 minutes, monthly 45 minutes) with a named owner for each task.
+5. Log every material mention in the listening log and answer the five weekly listening questions in writing.
+6. Score the month: sentiment, NSS, share of voice and ranked themes with [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md), naming the NSS band set used.
+7. Route findings to content, campaign, community, crisis and operations owners; turn a listening observation that may change content or service into an experiment card.
+8. Check the log and report against the quality standards; correct misclassified or unsourced entries and rerun the NSS and share-of-voice figures before release.
+
+Taxonomy tables, tool set-up steps, cadence tasks, the log template and EA considerations are in [listening programme method](references/listening-programme-method.md).
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Social listening plan, query set and intelligence log | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Listening plan: completed keyword taxonomy, tool set-up and cadence | Consultant and client lead | All five taxonomy categories hold the client's actual terms; every tool has numbered set-up steps; each cadence task has a time estimate. |
+| Listening log (Google Sheet, one tab per month) | Social media manager and client | Every row has date, platform, mention type, sentiment, summary, action taken and priority. |
+| Weekly debrief and monthly listening summary | Client lead | The five questions are answered; the monthly summary names themes and at least one action with owner and deadline. |
+| Monthly sentiment report and dashboard specification | Client; `meta-reporting` | NSS as a number with trend and volume, share of voice against named competitors, ranked themes. |
+| Routed findings | `11-content-calendar`, `10-content-pillars`, `09-campaign-strategy`, `playbook-community-management`, `playbook-crisis-communications`, client operations | Each finding names the receiving skill or owner. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Listening entry fields | Log columns: `context`, `audience`, `public/private`, `interaction type`, `confidence`, `action owner`, `decision changed`, `guardrail or escalation` | Every material entry carries them; an inaccessible source is recorded `not assessed`, not filled with a conclusion. |
+| Scoring record | Sheet of classified mentions with counts behind NSS and share of voice | A reviewer can recompute NSS and share of voice; Luganda and Swahili items show manual review. |
+| Customer-voice experiment card | YAML card per tested observation | Source scope, denominator, privacy boundary, counter-metric, guardrail, decision rule, owner and knowledge link are filled, or the card is `NOT_ASSESSED`. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Monitor public posts only, within platform terms; joining Facebook Groups or reading WhatsApp groups needs the client's agreement on which account is used.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without confirmed brand terms and access to the monitored sources, return the narrowest qualified result and mark the affected checks `not assessed`. A draft taxonomy for the client to confirm, the free tool set-up steps and the cadence can still be delivered; NSS and share of voice wait for data.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified social listening plan, query set and intelligence log. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Brand terms, risks, competitors, languages and accessible sources is current and attributable | Produce the full social listening plan, query set and intelligence log and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The same complaint theme appears three or more times across separate posts | Escalate to the client's operations team, not only the social media manager. | Treating a service or product fault as a social media problem. |
+| Negative brand mentions rise sharply, particularly one topic across several platforms in the same 48-hour window | Treat it as a Level 1 crisis trigger and escalate at once using `playbook-crisis-communications`. | A reputational threat found after it has spread. |
 | Supplied conversation data must be scored for sentiment, NSS, share of voice or themes | Apply [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md) and end with a named action, owner and deadline. | Unscored mentions, word-only sentiment and data that changes nothing. |
+| An NSS figure is reported | Use the EA service-business bands in the sentiment method for monthly and client reports, and the Johnsen (2024) weekly operating bands in the operations playbook for the weekly operating check; name the band set in every report; pair it with mention volume and the driving theme. | Two readings of one score in the same report. |
 | The client needs listening run weekly with AI sentiment, dashboard and crisis alerts | Apply [listening-operations-playbook](references/listening-operations-playbook.md) with named owners per day. | Unscheduled monitoring and missed crisis signals. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; read the sentiment references when scoring or a weekly operation is requested.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the social listening plan, query set and intelligence log, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
+| A client story appears on Sqoop, Nile Post or Chimp Reports | Put their feeds in the daily digest; treat coverage as a Level 2 crisis minimum per the operations playbook. | Local amplification outrunning the brand's own reach. |
+| The client or staff assume WhatsApp can be monitored | State that it is end-to-end encrypted and cannot be; use a monthly staff feedback form on the top 3 WhatsApp complaints or questions. | False assurance about the largest feedback channel. |
+| A listening observation may change content or service | Use the [customer-voice experiment card](references/customer-voice-experiment-card.md); sentiment or activity alone does not prove demand or impact. | Acting on a signal as if it were proof. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- The keyword taxonomy is completed with the client's actual terms across all five categories, not left as a blank template for the client.
+- All four tools have numbered, step-by-step set-up instructions, not only tool names and descriptions.
+- The cadence lists daily, weekly and monthly tasks separately, each with a time estimate and individually actionable.
+- The five listening questions are specific enough that a consultant with public social media data can answer each within 15 minutes.
+- The listening log template has column guidance and example rows and is described as a Google Sheet the client can use at once.
+- EA considerations cover multilingual monitoring with concrete Luganda examples, the WhatsApp limitation with a named practical workaround, and Facebook Groups with a named monitoring method.
+- The strategy integration explicitly connects findings to at least five other skills in the suite by slug name.
+- British English throughout, with no American spellings anywhere in the deliverable.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the social listening plan, query set and intelligence log without brand terms. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
+- Conflating listening with reporting. Fix: read what people say, not only how many said it; reach and engagement numbers belong in `meta-reporting`.
+- Treating public mentions as the whole conversation in East Africa. Fix: read them as a proxy for the private WhatsApp majority and add staff-reported WhatsApp themes.
+- Monitoring only English keywords. Fix: add the top 5 product and service names as customers say them in Luganda, Swahili or Sheng.
+- Sorting TikTok results by "Top". Fix: sort by "Latest" so historical viral content does not hide new mentions.
+- Letting findings sit in the log. Fix: route each finding to the named content, campaign, community, crisis or operations owner.
 - Reporting sentiment as a word or without volume and driving theme. Fix: follow the NSS rules in the sentiment references.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified brand terms, the skill produces a social listening plan, query set and intelligence log with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md) for full competitor benchmarking.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
+- Monitoring only mainstream media. Fix: add informal online outlets through RSS in Google Alerts or Feedly.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md) — read when scoring supplied conversation data for sentiment, NSS, share of voice or themes, or producing the monthly sentiment report.
-- [listening-operations-playbook](references/listening-operations-playbook.md) — read when setting up tools by budget, crisis-trigger keywords, the sentiment dashboard, weekly decision table or the Monday/Wednesday/Friday routine.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Collect the following before generating the listening programme:
-
-- **Client name** and trading name (if different)
-- **Industry** and sub-sector (e.g., hospitality > restaurant; retail > clothing)
-- **Country / city** (default: Uganda / Kampala)
-- **Primary goal** (e.g., catch complaints early, track competitor activity, surface content ideas)
-- **Brand name** — exact spelling plus all known misspellings and abbreviations
-- **Founder or spokesperson name** (if public-facing — leave blank if the brand is not personality-led)
-- **3–5 competitor names** — include their social media handles if known
-- **Primary product or service category keywords** — what customers call the product, not industry jargon
-- **Primary platforms to monitor** (default: Facebook, Instagram, TikTok, X/Twitter, Google Business Profile)
-- **Local language variants** of brand or product names in Luganda, Swahili, or Sheng (if applicable)
-- **Current monitoring setup** — what, if anything, is already in place
-
----
-
-## What Social Listening Is (and Is Not)
-
-Social listening is the practice of monitoring online conversations about your brand, your competitors, and your industry in order to surface intelligence you would otherwise miss. It means searching systematically for mentions of your business name, your products, your key people, and your sector — across social media platforms, news sites, blogs, forums, and review sites — and then interpreting what you find to inform decisions. Listening is active and analytical: it asks "what does this tell us?" rather than simply recording that it happened.
-
-Social listening is not the same as social media reporting. Reporting is quantitative — it measures reach, engagement rate, follower growth, and return on investment using platform analytics. Listening is qualitative: it reads the *content* of what people say, not just how many people said it. A business can have excellent reporting numbers and still be completely unaware that a forum thread is circulating a complaint about their customer service. Listening catches what the metrics miss. Do not conflate the two; they serve different purposes and require different skills.
-
-For clients in Uganda and East Africa, listening carries a particular strategic weight. The majority of customer feedback in this market travels through WhatsApp — a private, end-to-end encrypted channel that cannot be monitored externally. What reaches public platforms — Facebook comments, Google reviews, X/Twitter posts — is therefore a fraction of the total conversation. That fraction is nonetheless a meaningful proxy: if five customers complain publicly on Facebook, it is reasonable to infer that many more have shared the same frustration privately. Listening catches the visible signal and uses it to understand the invisible majority. The EA consultant who monitors consistently will always know more about their client's reputation than one who relies on the client to report problems themselves.
-
----
-
-## 1. Keyword Taxonomy
-
-Build the client's keyword list across five categories before setting up any tool. A complete taxonomy ensures no critical mentions are missed and avoids wasting time monitoring irrelevant noise.
-
-### Category 1 — Brand Terms (Must Monitor)
-
-| Keyword type | Example | Client's version |
-|---|---|---|
-| Exact business name | "Kampala Fresh Bakery" | |
-| Common misspelling 1 | "Kampala Fresh Bakary" | |
-| Common misspelling 2 | "Kla Fresh Bakery" | |
-| Product / service name | "sourdough bread Kampala" | |
-| Founder name (if public) | "Sarah Nakato bakery" | |
-| Brand hashtag | #KampalaFreshBakery | |
-
-### Category 2 — Competitor Terms
-
-| Keyword type | Example | Client's version |
-|---|---|---|
-| Competitor 1 brand name | "City Breads Uganda" | |
-| Competitor 2 brand name | "Kampala Cakes" | |
-| Competitor 3 brand name | "Bake House UG" | |
-| Competitor product name | "City Breads croissant" | |
-| Comparison search | "vs City Breads" | |
-
-### Category 3 — Industry Terms
-
-| Keyword type | Example | Client's version |
-|---|---|---|
-| Customer-language category term | "fresh bread Kampala" | |
-| Common customer question | "where to buy sourdough Kampala" | |
-| Industry hashtag | #KampalaBakery | |
-| Discovery phrase | "best bakery in Kampala" | |
-
-### Category 4 — Sentiment Triggers
-
-| Sentiment | Example search string | Client's version |
-|---|---|---|
-| Negative | "[Brand] complaint" | |
-| Negative | "[Brand] bad / scam / disappointed / problem" | |
-| Positive | "[Brand] recommend / excellent / love / happy" | |
-| Positive | "[Brand] best" | |
-
-### Category 5 — Location Terms (EA-Specific)
-
-| Keyword type | Example | Client's version |
-|---|---|---|
-| Brand + city | "[Brand] Kampala" | |
-| Brand + country | "[Brand] Uganda" | |
-| Brand + region | "[Brand] East Africa" | |
-| Industry + city (discovery) | "bakery Kampala" | |
-| Local language brand variant | "omugati" (bread in Luganda) | |
-
-Work through this table with the client at onboarding. A complete taxonomy takes 20–30 minutes to build and saves hours of wasted monitoring time.
-
----
-
-## 2. Tool Setup (Free and Low-Cost)
-
-Set up all four tools below. Each covers a different source type; together they provide sufficient coverage for an EA small-to-medium business without paid subscription costs.
-
-### Google Alerts (Free)
-
-Google Alerts monitors news sites, blogs, and the open web — not social media. It is the best free tool for catching press coverage, blog mentions, and forum posts.
-
-**Setup steps:**
-1. Go to alerts.google.com (sign in with a Google account)
-2. In the search box, type the first keyword (e.g., the exact brand name in quotation marks: "Kampala Fresh Bakery")
-3. Click "Show options"
-4. Set **How often** to "At most once a day"
-5. Set **Sources** to "Automatic"
-6. Set **Language** to "Any language" (to catch Luganda or Swahili mentions)
-7. Set **Region** to "Any region" unless the client is hyperlocal — in that case set to Uganda
-8. Set **How many** to "All results"
-9. Enter the client's email address in **Deliver to** — use a dedicated agency Gmail address, not your personal one
-10. Click "Create Alert"
-11. Repeat for: competitor brand names (one alert per competitor), founder name, top 2 industry keywords
-12. Total alerts to create: brand name + misspelling + founder name + 3 competitor names + 2 industry terms = 8–9 alerts
-
-**Limitation:** Google Alerts does not index Facebook, Instagram, TikTok, or WhatsApp. It is a supplement to platform monitoring, not a replacement.
-
----
-
-### Native Platform Search (Free)
-
-Conduct manual searches on each platform weekly. This is the most reliable way to find social mentions; it requires no tool, no account upgrade, and no budget.
-
-**Facebook:**
-- Log into a personal or agency Facebook account
-- Click the search bar and type the brand name → select "Posts" tab
-- Repeat for top competitor names and top industry terms
-- Scan the last 7 days of results for mentions, complaints, reviews, and discussions
-- Check the client's Facebook Page comments and reviews directly
-
-**Instagram:**
-- Search the brand name hashtag (e.g., #KampalaFreshBakery) — tap "Recent" to see the latest posts
-- Search the brand name as a text term — check tagged posts and mentions
-- Save the top 5 monitoring hashtags in Instagram Collections for quick weekly access
-- Check competitor handles weekly for content themes and engagement signals
-
-**TikTok:**
-- Open TikTok, tap the search icon, type the brand name
-- Sort by "Latest" to see recent content — not "Top" (which shows historical viral content)
-- Repeat for competitor names and top industry keywords
-- Note any user-generated content mentioning the client
-
-**X / Twitter:**
-- Go to x.com/search-advanced (no account needed for basic search; log in for full results)
-- Enter the brand name in "All of these words"; set "From this date" to 7 days ago
-- Run the same search for competitor names
-- Save these as bookmarked searches if using a logged-in account
-- Check daily — X is the fastest-moving platform for reputation signals in Uganda's opinion-leader community
-
-**LinkedIn:**
-- Search the brand name → click the "Content" filter to see posts mentioning the brand
-- Repeat for competitor names
-- Particularly relevant for B2B clients or businesses in the formal sector
-
----
-
-### Brand24 or Mention (Freemium)
-
-Use Brand24 (brand24.com) or Mention (mention.com) for automated mention tracking. Both offer free tiers adequate for small clients starting out.
-
-**Brand24 free tier:** monitors up to 3 keywords; shows a limited number of recent mentions. Set up: brand name, primary competitor name, primary industry keyword.
-
-**Mention free tier:** 250 mentions per month. Set up the same 3 keywords.
-
-**Setup steps (Brand24 example):**
-1. Create a free account at brand24.com
-2. Click "New project"
-3. Enter the client business name as the project name
-4. Add keyword 1: exact brand name (with quotation marks for exact match)
-5. Add keyword 2: primary competitor name
-6. Add keyword 3: primary industry keyword
-7. Set language filter to "All languages" to capture Luganda and Swahili mentions
-8. Connect the dashboard email notifications to the client or agency email
-9. Review the dashboard weekly
-
-**Budget note:** Paid tiers for Brand24 start at approximately $49 per month (approximately UGX 180,000). Flag this to the client. For most small EA clients, the free tier combined with native platform search is sufficient until monthly social media revenue warrants the upgrade.
-
----
-
-### Google Business Profile Reviews (Free)
-
-GBP reviews are one of the highest-intent feedback sources available — customers who leave a review have had a direct experience with the business.
-
-**Setup steps:**
-1. Log into the client's Google Business Profile at business.google.com
-2. Go to Settings → Notifications → enable email notifications for "New reviews"
-3. Check GBP weekly: note the current star rating, read all new reviews, and look for recurring themes
-4. Check 3–5 competitor GBP profiles weekly: search the competitor name in Google Maps and read their recent reviews for intelligence on their customer experience weaknesses
-
----
-
-## 3. Listening Cadence
-
-Build listening into the weekly workflow. Unscheduled monitoring does not happen consistently.
-
-### Daily (5 minutes)
-
-- X/Twitter Advanced Search: brand name + top competitor name — scan for new mentions from the past 24 hours
-- Google Alerts email: scan for news, blog, and web coverage — flag anything relevant to the client
-
-### Weekly (20 minutes)
-
-- Facebook native search: brand + competitor + top industry term (10 minutes)
-- Instagram hashtag and text search: brand + competitor (3 minutes)
-- TikTok search: brand + top industry keyword (3 minutes)
-- LinkedIn content search: brand + competitor (2 minutes)
-- Brand24 / Mention dashboard: review flagged mentions, check sentiment trend (2 minutes)
-- GBP reviews: read all new reviews; check 2–3 competitor GBP profiles (3 minutes)
-- Log all findings in the Listening Log (Section 5)
-
-### Monthly (45 minutes)
-
-- Full competitor social media review: feeds, follower counts, engagement estimates — use the output to update `meta-competitor-analysis`
-- Sentiment summary: count positive, neutral, and negative mentions this month versus last month — note any trend change
-- Theme extraction: identify the 3–5 topics that appeared most frequently in mentions this month
-- Share-of-voice estimate: count brand mentions versus total mentions of all monitored brands in the same category — express as a percentage
-- Complete the monthly debrief (Section 4) and share with the client
-
----
-
-## 4. Intelligence Extraction Protocol
-
-Raw mentions have no value until they are interpreted. Apply these five questions to listening data every week.
-
-**The 5 Weekly Listening Questions:**
-
-1. **What are customers praising about us this week?**
-Surface these in the log as "amplify" opportunities. Praised experiences become content: a customer complimenting the bakery's sourdough is a prompt for a Reel about the sourdough-making process. Share the finding with the content calendar (see `11-content-calendar`).
-
-2. **What complaints or frustrations appeared?**
-Log each complaint with its platform, sentiment rating, and whether it was resolved. Recurring complaints (the same theme appearing three or more times across separate posts) indicate a service or product issue — escalate to the client's operations team, not just the social media manager.
-
-3. **What are people saying about our competitors?**
-Competitor complaints are positioning opportunities. If three customers in one week complain that a competitor's delivery is slow, and the client offers faster delivery, that is a campaign angle. Feed findings into `09-campaign-strategy`.
-
-4. **What questions are people asking about our category?**
-Unanswered category questions are content gaps. A cluster of "where can I find sourdough bread in Kampala?" searches means no one is answering that question well. The client who answers it first wins the discovery. Feed findings into `11-content-calendar` as FAQ content.
-
-5. **Are there any emerging topics in our industry we should comment on?**
-New regulations, food safety news, industry trends, local events — topics gaining traction in listening are thought leadership opportunities. Feed findings into `10-content-pillars` if a theme is recurring.
-
-**Weekly debrief format:** Complete the five questions above in writing. Takes 15 minutes. Share the written debrief with the client once per month, collated as a monthly listening summary. This makes the intelligence visible and justifies the monitoring time investment.
-
----
-
-Add these fields to every material listening entry: `context`, `audience`, `public/private`, `interaction type`, `confidence`, `action owner`, `decision changed`, and `guardrail or escalation`. If the source is inaccessible, record the check as `not assessed` rather than filling the gap with a conclusion.
-
-## 5. Listening Log Template
-
-Maintain this log as a Google Sheet. Create one tab per month. Share view access with the client.
-
-| Date | Platform | Mention type | Sentiment | Summary (1 sentence) | Action taken | Priority |
-|---|---|---|---|---|---|---|
-| DD/MM/YYYY | Facebook / Instagram / GBP / TikTok / X / Other | Brand / Competitor / Industry | Positive / Neutral / Negative | | | High / Medium / Low |
-
-**Column guidance:**
-- **Mention type:** Brand = about the client; Competitor = about a named competitor; Industry = about the category with no specific brand named
-- **Sentiment:** Positive = favourable; Neutral = factual or ambiguous; Negative = complaint, criticism, or warning
-- **Action taken:** "Replied via DM", "Escalated to client", "Added to content ideas", "No action required", "Flagged for crisis monitoring"
-- **Priority:** High = requires a response or escalation within 24 hours; Medium = note and monitor; Low = logged for context
-
-**Example rows (Kampala business — bakery):**
-
-| Date | Platform | Mention type | Sentiment | Summary | Action taken | Priority |
-|---|---|---|---|---|---|---|
-| 15/03/2026 | Facebook | Brand | Negative | Customer posted that their birthday cake order arrived 2 hours late with no apology from staff | Replied publicly; escalated to client; issued DM apology with voucher | High |
-| 17/03/2026 | Google Business Profile | Competitor | Negative | 3 reviews this week on City Breads profile complaining about dry cake texture | Added "freshness guarantee" angle to next month's content brief | Medium |
-| 18/03/2026 | TikTok | Industry | Positive | Creator with 12K followers posted taste-test video of Kampala bakeries; client not featured | Identified creator; flagged to client for potential collaboration | Medium |
-
----
-
-## 6. Converting Listening Into Strategy
-
-Listening is the intelligence layer that makes every other skill in this suite more effective. Use the findings actively — do not let them sit in a log.
-
-**→ Content calendar (`11-content-calendar`):**
-Themes and questions surfaced in listening become content ideas for the following month. Add listening-derived ideas to the content brief at the monthly planning session.
-
-**→ Content pillars (`10-content-pillars`):**
-If the same theme appears in listening for three or more consecutive months, review whether it warrants its own content pillar or an adjustment to an existing one. Listening validates whether the current pillar structure reflects what the audience actually cares about.
-
-**→ Campaign strategy (`09-campaign-strategy`):**
-Competitor weaknesses identified in listening become campaign angles. A documented pattern of competitor complaints is evidence for a positioning campaign — "We do what [competitor] gets wrong."
-
-**→ Community management (`playbook-community-management`):**
-Unresolved complaints found in listening that were not responded to on the platform become community management priorities. Check the log at the start of each community management session.
-
-**→ Crisis communications (`playbook-crisis-communications`):**
-Listening is the early warning system for reputational risk. A sudden increase in negative brand mentions — particularly if the same topic appears across multiple platforms in the same 48-hour window — is a Level 1 crisis trigger. Escalate immediately using the crisis classification in `playbook-crisis-communications`.
-
-**→ Product and service feedback (client operations):**
-Listening intelligence about product frustrations, delivery problems, and service failures has operational value beyond social media. Share a monthly summary of product-related complaints with the client's operations lead. Social listening is a low-cost substitute for formal customer research in markets where research budgets are limited.
-
----
-
-## 7. EA-Specific Considerations
-
-**Multilingual monitoring:**
-Ugandan customers regularly mix English and Luganda in social media posts — this is called Luganda-English code-switching and is normal in urban Kampala. Standard keyword monitoring will miss Luganda-language mentions entirely unless you build them in. Work with the client at onboarding to identify the top 5 product and service names as customers actually say them in conversation. Examples: "omugati" (bread), "emmere" (food), "ssente" (money/payment), "omusawo" (doctor). Add these as separate keywords in Brand24 and in platform searches. Apply the same principle for Swahili in the Kenyan or Tanzanian market and Sheng for urban Nairobi audiences.
-
-**WhatsApp is unmonitorable — acknowledge this explicitly:**
-WhatsApp is the primary channel for customer feedback in Uganda, and it is end-to-end encrypted. No external tool can monitor it. Do not imply otherwise. What can be done: brief the client's customer-facing staff to flag recurring WhatsApp complaints themes monthly. Create a simple staff feedback form (a shared Google Sheet or WhatsApp Group poll) asking: "What are the top 3 complaints or questions you received via WhatsApp this month?" Incorporate the responses into the monthly listening debrief.
-
-**Facebook Groups:**
-A significant proportion of EA community and industry conversation happens in private or semi-private Facebook Groups rather than on public pages. Identify 3–5 relevant groups at onboarding — local industry groups, neighbourhood community groups, city-specific consumer groups (e.g., "Kampala Foodies", "Kampala Business Network"). Join them using an agency or client account and monitor manually each week. Note that Facebook Group content does not appear in external tool searches.
-
-**Informal and tabloid media monitoring:**
-In Uganda, informal online news outlets such as Sqoop (sqoop.co.ug), Nile Post (nilepost.co.ug), and Chimp Reports (chimpreports.com) can amplify negative stories quickly and are read widely. Add their RSS feeds to Google Alerts or Feedly (free) so that coverage appears in the daily digest. Do not rely solely on mainstream media monitoring.
-
----
-
-## Quality Criteria
-
-Output meets the standard if it:
-
-- The keyword taxonomy template is fully completed with the client's actual terms across all five categories — not left as a blank template for the client to fill in themselves
-- All four tools have step-by-step setup instructions with numbered steps, not just tool names and descriptions
-- The listening cadence specifies exact tasks, time estimates, and frequencies — daily, weekly, and monthly tasks are each listed separately and are individually actionable
-- The five listening questions are specific enough that a consultant with access to public social media data can answer each one within 15 minutes
-- The listening log template is complete with column guidance and example rows, and is explicitly described as a Google Sheet so the client can implement it immediately
-- EA-specific considerations address multilingual monitoring with concrete examples in Luganda, the WhatsApp limitation with a named practical workaround, and Facebook Groups with a named monitoring method
-- The strategy integration section explicitly connects this skill to at least five other skills in the suite by slug name
-- British English throughout — no American spellings anywhere in the deliverable
-
-For a listening observation that may change content or service, use the
-[customer-voice experiment card](references/customer-voice-experiment-card.md).
-Keep source scope, denominator, privacy boundary, counter-metric, guardrail,
-decision rule, owner and knowledge link explicit; sentiment or activity alone
-does not prove demand or impact.
+- [Listening programme method](references/listening-programme-method.md): read when building the taxonomy, setting up tools, fixing the cadence, keeping the log, routing findings or handling EA-specific channels.
+- [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md): read when scoring supplied conversation data for sentiment, NSS, share of voice or themes, or producing the monthly sentiment report.
+- [listening-operations-playbook](references/listening-operations-playbook.md): read when setting up tools by budget, crisis-trigger keywords, the sentiment dashboard, weekly decision table or the Monday/Wednesday/Friday routine.
+- [customer-voice experiment card](references/customer-voice-experiment-card.md): read when a listening observation may change content or service.
+- [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md): read when full competitor benchmarking is needed beyond conversation share.
+- [`playbook-crisis-communications`](../../playbooks/playbook-crisis-communications/SKILL.md): read when a crisis trigger fires.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when writing the debrief and monthly summary.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

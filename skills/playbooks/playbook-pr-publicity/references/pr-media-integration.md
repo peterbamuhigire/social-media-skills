@@ -28,7 +28,7 @@ Confirm all seven before drafting; do not produce the plan with any missing.
 
 Earned media — coverage in outlets such as Daily Monitor, NBS TV or The Africa Report — is the most credible channel a brand can get. Audiences in Uganda and across East Africa trust a newspaper article or television feature far more than a sponsored Facebook post, because editorial selection is third-party validation that paid media cannot buy. But earned media is short-lived: an article runs for a day, a broadcast airs once, and both fade unless the brand amplifies them. Social media extends each piece of coverage into weeks of credible, shareable content.
 
-The relationship runs both ways. An active, professional Facebook Page, a founder with a credible LinkedIn profile and consistent X engagement make a brand easier to feature: they show legitimacy, supply ready quotes and visuals, and cut the journalist's verification work. Build the social presence before pitching. Use Chaffey's (2024) POEM model — Paid, Owned, Earned — to map how channels support each other: owned social amplifies earned coverage; earned credibility strengthens owned content; paid promotion can extend coverage when organic reach falls short (see [peso-integrated-strategy](../../../strategy/peso-integrated-strategy/SKILL.md)).
+The relationship runs both ways. An active, professional Facebook Page, a founder with a credible LinkedIn profile and consistent X engagement make a brand easier to feature: they show legitimacy, supply ready quotes and visuals, and cut the journalist's verification work. Build the social presence before pitching. Use Chaffey and Ellis-Chadwick's (2022) POEM model — Paid, Owned, Earned — to map how channels support each other: owned social amplifies earned coverage; earned credibility strengthens owned content; paid promotion can extend coverage when organic reach falls short (see [peso-integrated-strategy](../../../strategy/peso-integrated-strategy/SKILL.md)).
 
 ## Decision rules
 
@@ -63,7 +63,7 @@ Pick 5–8 target outlets per campaign and match the story angle to each outlet'
 
 ### 2. Test the story against six news values
 
-Rate the client's hook strong / weak / absent on each value and recommend proceed, reframe or wait. Pitch only if you can tick at least three (the source's threshold). (The parent skill's Part 1 lists story types worth and not worth pitching; this is the scoring step.)
+Rate the client's hook strong / weak / absent on each value and recommend proceed, reframe or wait. Pitch only if you can tick at least three (the source's threshold). ([publicity-kit-and-release-method.md § Part 1](publicity-kit-and-release-method.md) lists story types worth and not worth pitching; this is the scoring step.)
 
 1. **Timeliness** — is it happening now? Tie it to a current trend, regulation, national event or season (Budget Day, school term, harvest, a new regulatory development).
 2. **Impact** — how many people does it affect? Concrete numbers (jobs created, loans disbursed, patients treated) strengthen it.
@@ -134,7 +134,7 @@ One-off pitches give one-off results; sustained relationships bring unprompted c
 - **Offer exclusives** — one journalist, 48 hours, before widening (the parent skill allows 48–72 hours for a major story).
 - **Respect editorial independence** — never seek to review or approve copy; offer factual corrections if contacted; do not negotiate tone or framing.
 
-**Media contacts log** — keep it per client and update it after every interaction; pre-fill it from any contacts given at intake. (The parent skill's Part 6 tracks coverage; this log tracks people.)
+**Media contacts log** — keep it per client and update it after every interaction; pre-fill it from any contacts given at intake. ([publicity-kit-and-release-method.md § Part 6](publicity-kit-and-release-method.md) tracks coverage; this log tracks people.)
 
 | Name | Outlet | Beat | Contact (email / WhatsApp / X) | Last contact | Notes |
 |---|---|---|---|---|---|
@@ -161,6 +161,6 @@ One-off pitches give one-off results; sustained relationships bring unprompted c
 
 ## Sources
 
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson. (POEM model.)
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. (POEM model.)
 - Kotler, P. et al. (2023) *Marketing Management*. Pearson.
 - Register: UG-FACEBOOK-ACCESS-2026, WHATSAPP-BUSINESS-POLICY in [source-register.json](../../../../docs/source-registers/source-register.json).

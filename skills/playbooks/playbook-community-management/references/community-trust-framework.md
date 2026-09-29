@@ -192,7 +192,7 @@ When the audience spans several generations, add this as a segmentation layer in
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Kotler, P. et al. (2023) *Marketing Management*. 16th edn. Harlow: Pearson.
 - Rageh, A. (Ed.) (2026) *Ethical Marketing and Consumer Trust in Digital and Sustainable Markets*. IGI Global (as cited elsewhere in this engine; verify before stating, no register record).
 - Westergaard, N. (2016) *Get Scrappy*. AMACOM (title and publisher as cited elsewhere in this engine; the source skill gave author and year only).

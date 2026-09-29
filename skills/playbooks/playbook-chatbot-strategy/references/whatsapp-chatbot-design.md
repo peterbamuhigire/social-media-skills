@@ -4,7 +4,7 @@ Merged from skills/ai-marketing/ai-whatsapp-chatbot-design on 2026-09-29 at 7c60
 
 ## When to use this reference
 
-Use it when the chatbot runs on WhatsApp (Business API or a WhatsApp chatbot platform) and must answer open-ended questions through a large language model (LLM), not only fixed menus. For a free WhatsApp Business app set-up, a quick-replies bot or a Messenger/Instagram flow, the main playbook (Sections 1–5) is enough. Apply the playbook's Section 1 threshold first: an LLM layer is only worth building once rule-based automation is justified.
+Use it when the chatbot runs on WhatsApp (Business API or a WhatsApp chatbot platform) and must answer open-ended questions through a large language model (LLM), not only fixed menus. For a free WhatsApp Business app set-up, a quick-replies bot or a Messenger/Instagram flow, [chatbot-build-guide.md § Sections 1–5](chatbot-build-guide.md) is enough. Apply the [chatbot-build-guide.md § Section 1](chatbot-build-guide.md) threshold first: an LLM layer is only worth building once rule-based automation is justified.
 
 ## Inputs
 
@@ -23,7 +23,7 @@ Country and city default to Uganda unless the requester names another market.
 
 WhatsApp is the dominant messaging channel in East Africa. No source measures WhatsApp's share of smartphone users in Uganda, Kenya, Tanzania or Rwanda, so state no percentage unless it is a named, dated figure with its base, and check the client's own audience data (register WA-01, 2026-09-24; register row `WHATSAPP-USAGE-EA-2026`).
 
-Combined with an LLM, a WhatsApp business number becomes a 24/7 sales and support agent that speaks the customer's language, remembers context, and escalates to a human when needed (Boustany, 2024; Ltifi, 2025). The competitive advantage is not automation for its own sake: it is availability and responsiveness at a cost most East African businesses can afford.
+Combined with an LLM, a WhatsApp business number becomes a 24/7 sales and support agent that speaks the customer's language, remembers context, and escalates to a human when needed (Boustany, 2024; Ltifi, 2024). The competitive advantage is not automation for its own sake: it is availability and responsiveness at a cost most East African businesses can afford.
 
 ## Decision rules
 
@@ -44,10 +44,10 @@ Combined with an LLM, a WhatsApp business number becomes a 24/7 sales and suppor
 
 ## Social presence principles
 
-Research reported in Ltifi (2025) finds that East African consumers respond significantly better to chatbots that show social presence: warmth, responsiveness and human-like interaction cues. Build these into every bot message:
+Research reported in Ltifi (2024) finds that East African consumers respond significantly better to chatbots that show social presence: warmth, responsiveness and human-like interaction cues. Build these into every bot message:
 
 - **Greet by name** where possible: "Hello Nakato! How can I help you today?"
-- **Offer local greetings** for an informal register: "Oli otya?" (Luganda) / "Habari?" (Kiswahili). The playbook's "Nkulamusizza!" welcome option also applies.
+- **Offer local greetings** for an informal register: "Oli otya?" (Luganda) / "Habari?" (Kiswahili). The "Nkulamusizza!" welcome option in [chatbot-build-guide.md § Section 3](chatbot-build-guide.md) also applies.
 - **Acknowledge emotional context:** "I understand this is frustrating — let me help you sort this out."
 - **Avoid corporate coldness:** never open with "Please select from the following options:".
 - **Mirror the customer's register:** formal for formal, casual for casual.
@@ -57,7 +57,7 @@ Research reported in Ltifi (2025) finds that East African consumers respond sign
 
 ### Step 1 — Map the top 10 customer queries
 
-Interview the client's human support team and list the 10 most common questions received on WhatsApp in the past month. These become the backbone of the Layer 1 decision trees. (The playbook's Section 3 top-5 map is the minimum for a simple FAQ bot; an LLM build uses the top 10.)
+Interview the client's human support team and list the 10 most common questions received on WhatsApp in the past month. These become the backbone of the Layer 1 decision trees. (The [chatbot-build-guide.md § Section 3](chatbot-build-guide.md) top-5 map is the minimum for a simple FAQ bot; an LLM build uses the top 10.)
 
 ### Step 2 — Design the decision tree
 
@@ -118,7 +118,7 @@ Prices are approximate starting points recorded in the source skill; verify curr
 | Twilio | Developer-friendly WhatsApp API | Requires a developer | Pay-per-message |
 | Meta Cloud API | Maximum control | Requires a developer | Pay-per-message |
 
-Match the recommendation to the client's budget and technical capacity; the playbook's Section 2 covers Africa's Talking and the free WhatsApp Business app.
+Match the recommendation to the client's budget and technical capacity; [chatbot-build-guide.md § Section 2](chatbot-build-guide.md) covers Africa's Talking and the free WhatsApp Business app.
 
 ## Measurement framework
 
@@ -146,7 +146,7 @@ Track monthly:
 ## Sources
 
 - Boustany, S. (2024) *Generative AI for Social Media Marketing*.
-- Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of Artificial Intelligence*, CRC Press.
+- Ltifi, M. (ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence*, CRC Press.
 - Lamplugh, M. (2024) *The AI Marketing Playbook*, 2nd edn, Mercury Learning.
 - Uganda Data Protection and Privacy Act, 2019.
 - Source register row `WHATSAPP-USAGE-EA-2026` (Kaizen register WA-01).

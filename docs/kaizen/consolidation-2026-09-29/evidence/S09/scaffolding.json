@@ -1,0 +1,590 @@
+{
+  "method": "line shared when verbatim (whitespace-normalised) in >= 5 % of active SKILL.md files",
+  "active_skill_count": 110,
+  "raw_median_pct": 31.2,
+  "gated_median_pct": 1.4,
+  "median_lines": 120.0,
+  "over_300_lines": 0,
+  "top_shared_lines": [
+    {
+      "skills": 23,
+      "line": "- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint."
+    },
+    {
+      "skills": 13,
+      "line": "- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates."
+    },
+    {
+      "skills": 11,
+      "line": "- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read during production."
+    },
+    {
+      "skills": 9,
+      "line": "Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com, +256 784 464178."
+    },
+    {
+      "skills": 8,
+      "line": "- [East African English standard](../../language/east-african-english/SKILL.md): read when setting tone and spelling."
+    },
+    {
+      "skills": 6,
+      "line": "| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source. | Confident advice built on an unresolved premise. |"
+    },
+    {
+      "skills": 6,
+      "line": "- [AGENTS.md](../../../AGENTS.md): read when routing to a neighbour skill or engine."
+    }
+  ],
+  "skills": {
+    "skills/advertising/ad-copy-and-hook-lab/SKILL.md": {
+      "lines": 121,
+      "raw_ratio": 30.5,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/ad-testing-and-scaling/SKILL.md": {
+      "lines": 121,
+      "raw_ratio": 30.5,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/ad-to-site-journey-handoff/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 31.5,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/advertising-attribution-and-measurement/SKILL.md": {
+      "lines": 127,
+      "raw_ratio": 30.3,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/advertising-strategy-and-budget/SKILL.md": {
+      "lines": 127,
+      "raw_ratio": 30.9,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/creative-brief-and-big-idea/SKILL.md": {
+      "lines": 126,
+      "raw_ratio": 29.6,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/direct-response-economics/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 32.2,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/media-planning/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 29.7,
+      "gated_ratio": 0.0
+    },
+    "skills/advertising/paid-search-advertising/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 31.5,
+      "gated_ratio": 0.0
+    },
+    "skills/ai-marketing/ai-generative-search-optimisation/SKILL.md": {
+      "lines": 137,
+      "raw_ratio": 29.0,
+      "gated_ratio": 1.4
+    },
+    "skills/ai-marketing/ai-readiness-diagnostic/SKILL.md": {
+      "lines": 128,
+      "raw_ratio": 29.4,
+      "gated_ratio": 1.5
+    },
+    "skills/ai-marketing/ai-slop-audit/SKILL.md": {
+      "lines": 138,
+      "raw_ratio": 28.0,
+      "gated_ratio": 0.0
+    },
+    "skills/ai-marketing/ai-use-case-mapping/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 30.0,
+      "gated_ratio": 1.5
+    },
+    "skills/ai-marketing/anti-ai-slop/SKILL.md": {
+      "lines": 162,
+      "raw_ratio": 24.2,
+      "gated_ratio": 1.1
+    },
+    "skills/ai-marketing/brand-voice-ai-training/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 32.6,
+      "gated_ratio": 1.7
+    },
+    "skills/business-development/biz-dev-credentials/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 33.0,
+      "gated_ratio": 1.7
+    },
+    "skills/business-development/biz-dev-lawful-prospecting-outreach/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 33.7,
+      "gated_ratio": 0.0
+    },
+    "skills/business-development/biz-dev-positioning/SKILL.md": {
+      "lines": 123,
+      "raw_ratio": 30.6,
+      "gated_ratio": 1.6
+    },
+    "skills/business-development/biz-dev-pricing-menu/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 32.3,
+      "gated_ratio": 1.7
+    },
+    "skills/business-development/biz-dev-proposal/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 31.9,
+      "gated_ratio": 1.6
+    },
+    "skills/business-development/eac-call-for-applications-campaign/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 34.8,
+      "gated_ratio": 3.6
+    },
+    "skills/content-writing/blog-writer/SKILL.md": {
+      "lines": 126,
+      "raw_ratio": 29.4,
+      "gated_ratio": 1.4
+    },
+    "skills/content-writing/caption-writer/SKILL.md": {
+      "lines": 128,
+      "raw_ratio": 30.4,
+      "gated_ratio": 1.5
+    },
+    "skills/content-writing/content-ideas/SKILL.md": {
+      "lines": 127,
+      "raw_ratio": 29.7,
+      "gated_ratio": 1.5
+    },
+    "skills/content-writing/direct-response-funnel-copy/SKILL.md": {
+      "lines": 127,
+      "raw_ratio": 29.1,
+      "gated_ratio": 1.4
+    },
+    "skills/content-writing/email-copywriter/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 30.9,
+      "gated_ratio": 0.0
+    },
+    "skills/content-writing/premium-commercial-writing/SKILL.md": {
+      "lines": 132,
+      "raw_ratio": 27.4,
+      "gated_ratio": 0.0
+    },
+    "skills/content-writing/prompt-engineering-library/SKILL.md": {
+      "lines": 134,
+      "raw_ratio": 27.4,
+      "gated_ratio": 0.0
+    },
+    "skills/language/east-african-english/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 32.2,
+      "gated_ratio": 0.0
+    },
+    "skills/language/french-native-copy/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 30.3,
+      "gated_ratio": 1.5
+    },
+    "skills/language/language-standards/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 29.3,
+      "gated_ratio": 0.0
+    },
+    "skills/language/swahili-native-copy/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 30.3,
+      "gated_ratio": 1.5
+    },
+    "skills/meta-analytics-ops/measurement-tracking-plan/SKILL.md": {
+      "lines": 116,
+      "raw_ratio": 28.2,
+      "gated_ratio": 0.0
+    },
+    "skills/meta-analytics-ops/meta-algorithm-guide/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 33.3,
+      "gated_ratio": 1.8
+    },
+    "skills/meta-analytics-ops/meta-budget-planner/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 31.9,
+      "gated_ratio": 1.6
+    },
+    "skills/meta-analytics-ops/meta-competitor-analysis/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 34.1,
+      "gated_ratio": 1.8
+    },
+    "skills/meta-analytics-ops/meta-content-audit/SKILL.md": {
+      "lines": 116,
+      "raw_ratio": 33.0,
+      "gated_ratio": 1.7
+    },
+    "skills/meta-analytics-ops/meta-content-repurposing/SKILL.md": {
+      "lines": 116,
+      "raw_ratio": 33.0,
+      "gated_ratio": 1.7
+    },
+    "skills/meta-analytics-ops/meta-reporting/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 32.3,
+      "gated_ratio": 1.7
+    },
+    "skills/meta-analytics-ops/meta-roi-framework/SKILL.md": {
+      "lines": 139,
+      "raw_ratio": 28.4,
+      "gated_ratio": 1.4
+    },
+    "skills/meta-analytics-ops/meta-sales-marketing-alignment/SKILL.md": {
+      "lines": 133,
+      "raw_ratio": 30.1,
+      "gated_ratio": 1.5
+    },
+    "skills/meta-analytics-ops/meta-social-listening/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 30.6,
+      "gated_ratio": 1.5
+    },
+    "skills/meta-analytics-ops/meta-social-metrics-framework/SKILL.md": {
+      "lines": 132,
+      "raw_ratio": 28.2,
+      "gated_ratio": 0.0
+    },
+    "skills/meta-analytics-ops/meta-testing-framework/SKILL.md": {
+      "lines": 141,
+      "raw_ratio": 26.1,
+      "gated_ratio": 0.0
+    },
+    "skills/meta-analytics-ops/meta-tools-stack-evaluation/SKILL.md": {
+      "lines": 134,
+      "raw_ratio": 28.8,
+      "gated_ratio": 0.0
+    },
+    "skills/meta-utility/kaizen-improvement-system/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 32.2,
+      "gated_ratio": 0.0
+    },
+    "skills/meta-utility/skill-safety-audit/SKILL.md": {
+      "lines": 161,
+      "raw_ratio": 26.3,
+      "gated_ratio": 1.4
+    },
+    "skills/meta-utility/skill-writing/SKILL.md": {
+      "lines": 77,
+      "raw_ratio": 36.5,
+      "gated_ratio": 2.4
+    },
+    "skills/pipeline/01-client-brief/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 34.8,
+      "gated_ratio": 3.6
+    },
+    "skills/pipeline/02-platform-audit/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 32.6,
+      "gated_ratio": 3.3
+    },
+    "skills/pipeline/03-audience-personas/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 32.6,
+      "gated_ratio": 3.3
+    },
+    "skills/pipeline/04-brand-voice-intake/SKILL.md": {
+      "lines": 116,
+      "raw_ratio": 33.7,
+      "gated_ratio": 1.8
+    },
+    "skills/pipeline/05-social-media-strategy/SKILL.md": {
+      "lines": 138,
+      "raw_ratio": 30.5,
+      "gated_ratio": 2.9
+    },
+    "skills/pipeline/06-digital-marketing-strategy/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 30.1,
+      "gated_ratio": 2.9
+    },
+    "skills/pipeline/07-email-marketing-strategy/SKILL.md": {
+      "lines": 123,
+      "raw_ratio": 31.6,
+      "gated_ratio": 3.1
+    },
+    "skills/pipeline/08-influencer-marketing-strategy/SKILL.md": {
+      "lines": 124,
+      "raw_ratio": 31.6,
+      "gated_ratio": 3.1
+    },
+    "skills/pipeline/09-campaign-strategy/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 32.0,
+      "gated_ratio": 3.1
+    },
+    "skills/pipeline/10-content-pillars/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 34.4,
+      "gated_ratio": 3.6
+    },
+    "skills/pipeline/11-content-calendar/SKILL.md": {
+      "lines": 110,
+      "raw_ratio": 35.3,
+      "gated_ratio": 1.9
+    },
+    "skills/pipeline/12-website-content-plan/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 33.0,
+      "gated_ratio": 3.3
+    },
+    "skills/pipeline/13-campaign-brief/SKILL.md": {
+      "lines": 140,
+      "raw_ratio": 29.1,
+      "gated_ratio": 2.7
+    },
+    "skills/platforms/platform-facebook/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 31.9,
+      "gated_ratio": 0.0
+    },
+    "skills/platforms/platform-google-business-profile/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 30.2,
+      "gated_ratio": 0.0
+    },
+    "skills/platforms/platform-instagram/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 33.3,
+      "gated_ratio": 1.8
+    },
+    "skills/platforms/platform-linkedin/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 33.0,
+      "gated_ratio": 3.3
+    },
+    "skills/platforms/platform-tiktok/SKILL.md": {
+      "lines": 111,
+      "raw_ratio": 34.1,
+      "gated_ratio": 1.8
+    },
+    "skills/platforms/platform-whatsapp/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 31.9,
+      "gated_ratio": 1.6
+    },
+    "skills/platforms/platform-x-twitter/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 33.0,
+      "gated_ratio": 1.7
+    },
+    "skills/platforms/platform-youtube/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 33.0,
+      "gated_ratio": 1.7
+    },
+    "skills/playbooks/playbook-agency-operations/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 30.2,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-chatbot-strategy/SKILL.md": {
+      "lines": 112,
+      "raw_ratio": 32.6,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-client-retainer-management/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 31.5,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-community-management/SKILL.md": {
+      "lines": 120,
+      "raw_ratio": 30.9,
+      "gated_ratio": 1.6
+    },
+    "skills/playbooks/playbook-content-production/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 30.9,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-crisis-communications/SKILL.md": {
+      "lines": 120,
+      "raw_ratio": 30.9,
+      "gated_ratio": 1.6
+    },
+    "skills/playbooks/playbook-daily-operations-routine/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 29.9,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-marketing-automation/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 30.9,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-networking/SKILL.md": {
+      "lines": 121,
+      "raw_ratio": 31.2,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-paid-social-advertising/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 31.2,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-post-click-strategy/SKILL.md": {
+      "lines": 127,
+      "raw_ratio": 28.4,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-pr-publicity/SKILL.md": {
+      "lines": 115,
+      "raw_ratio": 31.5,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-reputation-management/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 28.8,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-sms-whatsapp-marketing/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 30.5,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-social-media-policy/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 31.5,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-social-selling/SKILL.md": {
+      "lines": 130,
+      "raw_ratio": 27.9,
+      "gated_ratio": 0.0
+    },
+    "skills/playbooks/playbook-viral-content-design/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 30.5,
+      "gated_ratio": 0.0
+    },
+    "skills/policies/policy-ai-content-ethics/SKILL.md": {
+      "lines": 136,
+      "raw_ratio": 27.5,
+      "gated_ratio": 0.0
+    },
+    "skills/sectors/healthcare/SKILL.md": {
+      "lines": 124,
+      "raw_ratio": 30.9,
+      "gated_ratio": 1.6
+    },
+    "skills/sectors/hospitality-hotel-restaurant/SKILL.md": {
+      "lines": 112,
+      "raw_ratio": 31.4,
+      "gated_ratio": 1.8
+    },
+    "skills/seo-discovery/demand-forecasting/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 29.9,
+      "gated_ratio": 0.0
+    },
+    "skills/seo-discovery/seo-geo-optimisation/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 32.6,
+      "gated_ratio": 1.7
+    },
+    "skills/strategy/ecommerce-brand-differentiation/SKILL.md": {
+      "lines": 131,
+      "raw_ratio": 29.4,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/ecommerce-export-marketing-advisory/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 33.3,
+      "gated_ratio": 1.8
+    },
+    "skills/strategy/marketing-foundations-stp-positioning/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 33.3,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/peso-integrated-strategy/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 28.7,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/social-commerce-strategy/SKILL.md": {
+      "lines": 122,
+      "raw_ratio": 29.9,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/strategy-b2b-customer-community/SKILL.md": {
+      "lines": 125,
+      "raw_ratio": 30.2,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/strategy-channel-architecture/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 29.4,
+      "gated_ratio": 0.0
+    },
+    "skills/strategy/strategy-creator-monetisation/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 31.9,
+      "gated_ratio": 1.6
+    },
+    "skills/strategy/strategy-csr-purpose-communications/SKILL.md": {
+      "lines": 120,
+      "raw_ratio": 32.6,
+      "gated_ratio": 3.2
+    },
+    "skills/strategy/strategy-customer-value-journey/SKILL.md": {
+      "lines": 129,
+      "raw_ratio": 31.7,
+      "gated_ratio": 3.0
+    },
+    "skills/strategy/strategy-ewom-reviews/SKILL.md": {
+      "lines": 119,
+      "raw_ratio": 33.0,
+      "gated_ratio": 3.3
+    },
+    "skills/strategy/strategy-experiential-marketing/SKILL.md": {
+      "lines": 117,
+      "raw_ratio": 33.7,
+      "gated_ratio": 3.4
+    },
+    "skills/strategy/strategy-personal-brand/SKILL.md": {
+      "lines": 126,
+      "raw_ratio": 29.7,
+      "gated_ratio": 1.5
+    },
+    "skills/strategy/strategy-video-content/SKILL.md": {
+      "lines": 120,
+      "raw_ratio": 31.6,
+      "gated_ratio": 1.6
+    },
+    "skills/strategy/traction-channel-bullseye/SKILL.md": {
+      "lines": 112,
+      "raw_ratio": 34.1,
+      "gated_ratio": 0.0
+    },
+    "skills/training/training-ai-foundations/SKILL.md": {
+      "lines": 118,
+      "raw_ratio": 31.2,
+      "gated_ratio": 0.0
+    },
+    "skills/training/training-client-team/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 33.0,
+      "gated_ratio": 0.0
+    },
+    "skills/training/training-smartphone-video-production/SKILL.md": {
+      "lines": 113,
+      "raw_ratio": 33.0,
+      "gated_ratio": 0.0
+    },
+    "skills/training/training-social-media-fundamentals/SKILL.md": {
+      "lines": 114,
+      "raw_ratio": 32.6,
+      "gated_ratio": 0.0
+    }
+  }
+}

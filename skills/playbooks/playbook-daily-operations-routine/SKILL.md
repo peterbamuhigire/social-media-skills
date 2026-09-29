@@ -9,12 +9,7 @@ metadata:
 ---
 # Playbook: Daily Operations Routine
 
-A personalised operating manual for managing multiple social media clients without losing quality,
-responsiveness, or sanity. The body covers the physical daily routine — the specific tasks a social
-media manager executes hour by hour. The analytical improvement cycle (Plan/Do/Check/Act) that sits
-above it lives in [PDCA review cadence](references/pdca-review-cadence.md).
-
----
+A personalised operating manual for managing multiple social media clients without losing quality, responsiveness, or sanity: the hour-by-hour routine here, with the Plan/Do/Check/Act cycle above it in [PDCA review cadence](references/pdca-review-cadence.md).
 
 <!-- dual-compat-start -->
 ## Use When
@@ -31,280 +26,97 @@ above it lives in [PDCA review cadence](references/pdca-review-cadence.md).
 - Stop when the client load exceeds the capacity limit in the plan; flag the overload to the account owner instead of scheduling more work.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience and success measure | Approved client brief or accountable owner | Yes | Stop and request the missing decision |
-| Current workflow, assets and performance evidence | Team records, platform exports or supplied artefacts | Conditional | Label the baseline unassessed and use a minimum viable workflow |
-| Roles, budget, timing and approval limits | Delivery owner | Yes for execution | Produce a draft only; do not schedule, spend or publish |
-
-## Capability and Permission Boundaries
-Read supplied artefacts and search relevant evidence. Treat review, audit and planning as read-only. Editing the requested draft is allowed; publishing, messaging, production changes, personal-data processing, spending, destructive actions and certification claims require explicit authority. Use network access only for authorised verification.
-
-## Degraded Mode
-If accounts, files, network, rendering or current evidence are unavailable, return the narrowest useful qualified Daily Operations Routine playbook plus an evidence-gap list. Mark each unavailable check `not assessed`; never convert it into a pass.
-
-## Decision Rules
-| Condition | Action | Failure or risk avoided |
-|---|---|---|
-| A task is urgent but not material to an agreed objective | Batch or defer it | Reactive work displacing priority delivery |
-| Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
-| Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
-| Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
-| The team needs decision triggers, weekly and monthly reviews and a learning record, not only a task list | Apply [PDCA review cadence](references/pdca-review-cadence.md): triggers, review routine and PDCA log | A routine that repeats activity without changing underperformance |
+| Number of clients now (or target when fully operational) | Consultant | Yes | Stop; capacity cannot be judged without it. |
+| Client mix: active, light, campaign or monthly retainer | Consultant or retainer list | Yes | Treat every client as active management and label the verdict provisional. |
+| Current tools (scheduling, analytics, project management, communication) | Consultant | Yes | Recommend the free-tier minimum stack and mark tool gaps `not assessed`. |
+| Working pattern: full-time, part-time, freelance evenings and weekends | Consultant | Yes | Use the 08:00–17:30 EAT weekday blocks and state that clock times shift with the pattern. |
+| Primary pain point: too reactive, disorganised, slow to produce, or poor client communication | Consultant | Yes | Ask; do not guess which block needs most attention. |
+| Performance baseline and review records for the PDCA cycle | Platform exports or team log | For PDCA | Start the PDCA log from today and mark prior trends `not assessed`. |
 
 ## Workflow
-1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
-2. Inspect supplied evidence and verify volatile claims; record missing inputs rather than filling them with assumptions.
-3. Apply the decision rules, preserve useful existing material and draft the Daily Operations Routine playbook.
-4. Test each action against platform, privacy, safeguarding, brand and approval constraints; stop and escalate a blocking risk.
-5. Run the quality and anti-slop gates. If a check fails, correct the draft and rerun it before handoff.
+
+1. Ask the intake questions in [daily routine method](references/daily-routine-method.md) and confirm the owner and permission boundary.
+2. Total weekly hours per client type from the capacity table; subtract 20% of available hours for administration, learning and unexpected requests.
+3. If projected client hours exceed available capacity, stop and recommend reducing the load or reclassifying clients before designing the routine.
+4. Lay out the morning monitoring block (incident check, response queue, quick analytics), the client-batched production block, the single client-communication block and the afternoon deep-work block.
+5. Set the weekly day-by-day priority table and the minimum viable tools stack.
+6. Add the weekly and monthly PDCA reviews, triggers and log from [PDCA review cadence](references/pdca-review-cadence.md).
+7. Adjust clock times for part-time, other time zones, or evening and weekend work; the logic stays, only the times shift.
+8. Run the quality checks and the anti-slop gate; correct any failed item and rerun before handing the manual over.
+
+## Capacity limits for a solo consultant
+
+Uganda context, with AI assistance: 5–6 active management clients is sustainable with good systems; 8–10 light management clients is possible but requires excellent scheduling tools; beyond 10 clients quality drops, so consider hiring a junior content assistant.
 
 ## Outputs
+
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Daily Operations Routine playbook | Client owner and delivery team | Uses named inputs, assigns actions, states decisions and contains no unverified specifics |
-| Assumption and gap register | Approver or next workflow | Every missing source, unassessed check and required approval has an owner or next action |
+| Capacity summary with sustainability verdict | Consultant or account owner | Hours per client type, total hours and available capacity are shown before the routine. |
+| Time-blocked daily routine, response priority order and per-client production checklist | Consultant | Every block has clock times and named tasks fitted to the stated client mix and working pattern. |
+| Client communication protocol and WhatsApp norms | Consultant and clients | Approval window, reporting day, response time and after-hours rule are stated. |
+| Weekly rhythm table and recommended tools stack | Consultant | Each weekday has one primary task; each tool has a purpose and free-tier status. |
+| PDCA review routine and log | Consultant or account owner | Weekly and monthly reviews have triggers and every change is logged. |
 
 ## Evidence Produced
+
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and verification record | Inline table or appendix | Each material choice traces to an input, source or labelled assumption |
-| Release-gate result | Completed checklist | No blocking policy, factual, permission or anti-slop finding remains |
+| Capacity calculation | Table in the manual | Hours per client type, 20% reserve and verdict can be recomputed from the inputs. |
+| PDCA log entries | Log table from the PDCA reference | Each change records trigger, action, date and result, or is marked `not assessed`. |
+
+## Capability and Permission Boundaries
+
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Loading posts into a scheduler or publishing without an approval reply follows the retainer agreement, not this plan.
+
+## Degraded Mode
+
+Without the client count and mix, return the narrowest qualified result and mark the affected checks `not assessed`. A generic time-blocked day, response priority order and weekly rhythm can still be delivered with the capacity verdict left open.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Projected client hours exceed available capacity after the 20% reserve | Recommend reducing or reclassifying clients before producing the routine. | A routine that cannot be kept and quality that drops. |
+| The morning incident check finds a crisis indicator | Pause all other work and activate `playbook-crisis-communications`. | A crisis growing while routine work continues. |
+| Several responses are waiting | Complaints (within 2 hours) before purchasing enquiries (within 1 hour) before personal replies (2–4 hours) before positive comments (batched daily); hide or delete spam at once. | Lost sales and unresolved complaints. |
+| A client asks for work outside scope | Do not respond in the moment; log it for the next monthly review via `playbook-client-retainer-management`. | Unpaid scope creep. |
+| An approval request gets no reply in 24 hours | Follow up once, then publish as planned where the retainer allows. | A stalled content queue. |
+| A task is urgent but not material to an agreed objective | Batch or defer it. | Reactive work displacing priority delivery. |
+| The team needs triggers, reviews and a learning record, not only a task list | Apply the PDCA review cadence: triggers, review routine and PDCA log. | A routine that repeats activity without changing underperformance. |
 
 ## Quality Standards
-Use British English and the specified market context. Recommendations must be executable with the stated capacity, current claims must be verified or qualified, and acceptance conditions must be observable. A worked example must use a labelled scenario, not fabricated client evidence.
+
+- Client load capacity is calculated with specific hours per client type, producing a clear sustainability verdict before the routine is designed.
+- The morning block names the response priority order: complaints before purchasing enquiries before general comments before spam.
+- The production process names AI drafting tools and a brand voice quality-control step; AI output is never published unreviewed.
+- Client communication is batched into one daily block; WhatsApp professional norms are stated for the EA context.
+- The weekly rhythm assigns a named primary task to each day of the week.
+- EA notes cover the overnight comment backlog (20:00–23:00 data hour) and the WhatsApp voice-note preference.
+- The tools stack lists each tool with its purpose and confirms free-tier availability for the Ugandan market.
+- The output is a complete operating manual tailored to the consultant's actual client mix and working pattern, not a generic checklist.
 
 ## Anti-Patterns
-- Inventing a client fact, benchmark, budget or approval. Fix: cite the source or label the assumption and its effect.
-- Copying one channel or client pattern unchanged. Fix: tie each choice to the named audience, objective and evidence.
-- Stating volatile platform or legal details from memory. Fix: verify the current official source or omit the claim.
-- Treating an inaccessible account, file or metric as healthy. Fix: mark it `not assessed` and bound the conclusion.
-- Publishing, spending, messaging or changing production state from planning authority. Fix: obtain explicit action authority.
-- Delivering actions without owner, timing or acceptance. Fix: assign all three or return the item as an unresolved gap.
+
+- Designing the routine before calculating capacity. Fix: produce the capacity summary and verdict first.
+- Batching production by task type across clients. Fix: finish all content for Client A before Client B; each switch wastes 15–20 minutes.
+- Answering client WhatsApps as they arrive. Fix: hold one communication block and publish working hours in the status message.
+- Replying to work WhatsApps after 19:00 EAT. Fix: keep the stated working hours; late replies set an unsustainable precedent.
+- Letting the scheduling queue run empty. Fix: keep 3–5 days scheduled ahead and batch-schedule the week on Monday.
+- Publishing FeedHive or other AI suggestions unedited. Fix: run the brand-voice edit and cultural localisation check first.
+- Adding more tools than the team can maintain. Fix: pick the minimum viable stack for scheduling, tasks and client communication.
 
 ## References
-- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [East African English standard](../../language/east-african-english/SKILL.md)
-- [pdca-review-cadence](references/pdca-review-cadence.md) — read when the client needs the weekly and monthly PDCA reviews, optimisation triggers, the PDCA log or a single-account daily routine.
-- Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+
+- [Daily routine method](references/daily-routine-method.md): read when asking the intake questions, filling the capacity table, laying out time blocks, communication norms, the weekly rhythm, the tools stack or the manual format.
+- [PDCA review cadence](references/pdca-review-cadence.md): read when the client needs the weekly and monthly PDCA reviews, optimisation triggers, the PDCA log or a single-account daily routine.
+- [`playbook-crisis-communications`](../playbook-crisis-communications/SKILL.md): read when the morning incident check reveals a crisis indicator.
+- [`playbook-client-retainer-management`](../playbook-client-retainer-management/SKILL.md): read when handling scope creep and retainer boundaries.
+- [`playbook-agency-operations`](../playbook-agency-operations/SKILL.md): read when scaling from solo consultant to team operations.
+- [`prompt-engineering-library`](../../content-writing/prompt-engineering-library/SKILL.md): read when drafting with AI in the production block.
+- [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when running the humanising rewrite passes on AI first drafts.
+- [East African English standard](../../language/east-african-english/SKILL.md): read when checking tone and local references.
 <!-- dual-compat-end -->
-
-## Required Inputs
-
-Ask for the following before generating the operating manual:
-
-1. **Number of clients** currently managed, or target number when fully operational
-2. **Client mix** — how many are active management, light management, campaign, or monthly retainer
-3. **Current tools** in use (scheduling, analytics, project management, communication)
-4. **Working pattern** — full-time, part-time, freelance evenings and weekends
-5. **Primary pain point** — too reactive, disorganised, slow to produce content, or poor client communication
-
----
-
-## Section 1: Client Load Capacity Planning
-
-Before designing the routine, calculate capacity honestly. Use the table below to total the daily
-and weekly hours required across the current client mix.
-
-**Time allocation per client per day:**
-
-| Client Type | Daily Time | Weekly Time |
-|---|---|---|
-| Active management (3–5 posts/week, community management, reporting) | 45–60 min | 5–6 hours |
-| Light management (2–3 posts/week, response monitoring) | 20–30 min | 2–3 hours |
-| Campaign period (active campaign with paid ads and daily optimisation) | 90–120 min | 10–12 hours |
-| Monthly retainer (content only, no community management) | 15 min/day | 1–2 hours |
-
-**Maximum sustainable load for a solo consultant (Uganda context, with AI assistance):**
-
-- 5–6 active management clients: sustainable with good systems
-- 8–10 light management clients: possible but requires excellent scheduling tools
-- Beyond 10 clients: quality drops; consider hiring a junior content assistant
-
-Calculate the consultant's total weekly hours available. Subtract 20% for administration, learning,
-and unexpected requests. If projected client hours exceed available capacity, recommend reducing the
-client load or reclassifying clients before producing the routine.
-
----
-
-## Section 2: The Morning Monitoring Block (08:00–09:30 EAT)
-
-This block happens before any content creation. You cannot create well without knowing what happened
-overnight.
-
-### Step 1 — Incident Check (10 minutes)
-
-For each client account, check:
-
-- Any negative mentions, complaints, or crisis indicators overnight?
-- Any urgent DMs requiring immediate response?
-- Any post that significantly over- or under-performed overnight?
-- Any scheduled posts that failed to publish (tool errors are common on low-bandwidth connections)?
-
-If a crisis indicator is found: pause all other work and activate `playbook-crisis-communications`.
-
-### Step 2 — Response Queue (20–30 minutes)
-
-Prioritise responses in this order:
-
-1. Customer complaints — resolve or escalate within 2 hours of discovery
-2. Purchasing enquiries — respond within 1 hour
-3. Genuine comments requiring a personal reply — respond within 2–4 hours
-4. General positive comments — batch-respond once per day
-5. Spam and irrelevant comments — delete or hide immediately
-
-**EA response note:** In Uganda, many comments arrive overnight (20:00–23:00) when data costs are
-lower. Check for overnight comment backlog every morning before assessing the day's priority level.
-
-### Step 3 — Quick Analytics Review (10 minutes)
-
-For each active client, note:
-
-- Best-performing post from yesterday (screenshot for the weekly report)
-- Any content anomalies: sudden reach drop, unusual engagement spike
-- Scheduled content for today — confirm it is queued and ready to publish
-
----
-
-## Section 3: Content Production Block (10:00–13:00 EAT)
-
-Batch content production by client, not by task type. Produce all content for Client A before
-moving to Client B. Context-switching between clients mid-task wastes 15–20 minutes per switch.
-
-### Content Production Order Within a Client
-
-1. AI-assisted first draft — use ChatGPT or Claude (reference `prompt-engineering-library`)
-2. Brand voice edit — apply the client's voice guidelines (reference the `anti-ai-slop` humanising rewrite passes)
-3. Cultural localisation check — confirm EA context, Ugandan references where appropriate
-4. Image selection or briefing — identify what visual accompanies each post
-5. Load into scheduling tool — Buffer, FeedHive, or Hootsuite
-6. Set for client approval or direct publish — per the retainer agreement
-
-### Scheduling Tool Discipline
-
-- Never leave the content queue empty — always maintain 3–5 days of content scheduled ahead
-- Use batch scheduling: schedule the full week's content for all clients on Monday
-- If using FeedHive, use the AI content calendar feature to identify gaps; always edit AI
-  suggestions before publishing — never publish unreviewed AI output
-- Flag any post that requires a real-time hook (news event, trending topic) to be produced same-day
-
----
-
-## Section 4: Client Communication Block (13:30–14:30 EAT)
-
-All client communication happens in one dedicated block — not scattered throughout the day.
-Responding to WhatsApp messages as they arrive fractures concentration and trains clients to
-expect instant responses, which is unsustainable.
-
-### Communication Types and How to Handle
-
-- **Content approval requests:** Send via WhatsApp or the client portal; give a 24-hour approval
-  window; if no reply, follow up once, then publish as planned
-- **Weekly reporting updates:** Prepare and send every Friday; no more than 5 minutes per client
-- **Reactive updates:** If something significant happened on a client account — a post going viral,
-  a complaint, a campaign spike — brief the client the same day, not at the end of the week
-- **Scope creep requests:** Do not respond in the moment; log the request and address it in the
-  next monthly review (reference `playbook-client-retainer-management`)
-
-### WhatsApp Professional Norms for East Africa
-
-- Set a WhatsApp Business status message stating working hours, e.g.:
-  _"Working hours: Mon–Fri, 8am–6pm EAT. I respond within 2 hours during these times."_
-- Respond to client WhatsApps within 2 hours during working hours
-- Do not respond to work WhatsApps after 19:00 EAT — late responses set an unsustainable precedent
-- Use voice notes for complex explanations — EA clients prefer voice notes to long text messages
-- Use WhatsApp Business labels to tag conversations by client and urgency
-
----
-
-## Section 5: Afternoon and Weekly Rhythm
-
-### Afternoon Block (14:30–17:30 EAT)
-
-Allocate this block to deeper work that requires uninterrupted thinking:
-
-- Strategy and planning work: content calendars, strategy documents, gap analysis
-- New client onboarding tasks (reference `01-client-brief` through `04-brand-voice-intake`)
-- Reporting preparation: compiling screenshots, metrics, and commentary
-- Learning and skill development — minimum 30 minutes per day
-
-### Weekly Day-by-Day Priority
-
-| Day | Primary Task |
-|---|---|
-| Monday | Weekly monitoring review; schedule full week's content for all clients; client check-ins |
-| Tuesday | Content creation day — batch production for the following week |
-| Wednesday | Mid-week analytics check; community management focus; respond to pending approvals |
-| Thursday | Client reporting and feedback; campaign optimisation if a campaign is live |
-| Friday | End-of-week review; prepare next week's content plan; send weekly performance updates |
-
----
-
-## Section 6: Tools Stack for Multi-Client Operations
-
-| Tool | Purpose | EA Accessibility |
-|---|---|---|
-| FeedHive or Buffer | Multi-account scheduling | Yes — both have free tiers |
-| Google Sheets or Notion | Client content calendar and tracking | Yes — free |
-| Trello or Asana | Task management across clients | Yes — free tiers |
-| WhatsApp Business | Client communication | Yes — essential in Uganda |
-| ChatGPT / Claude | Content drafting and ideation | Yes — free tiers |
-| Canva | Graphics production | Yes — free tier |
-| Meta Business Suite | Facebook/Instagram analytics and scheduling | Yes — free |
-| Google Analytics 4 | Website traffic attribution from social | Yes — free |
-
-Select the minimum viable tools stack that covers scheduling, task management, and client
-communication. Adding more tools than the team can maintain consistently reduces efficiency.
-
----
-
-## Output Format
-
-Produce the operating manual as a structured document with these sections:
-
-1. **Capacity summary** — total clients, hours per week per client type, total hours, available
-   capacity, and a clear sustainability verdict
-2. **Daily routine schedule** — time-blocked day with named tasks, tailored to the consultant's
-   working pattern and client mix
-3. **Response priority order** — named list for the morning response queue
-4. **Content production checklist** — per-client production steps
-5. **Client communication protocol** — how and when to communicate with each client type
-6. **Weekly rhythm table** — day-by-day priority tasks
-7. **Recommended tools stack** — based on current tools and gaps identified
-
-Adjust all timings if the consultant works part-time or in a different time zone. If the consultant
-works evenings and weekends, restructure the blocks accordingly — the logic remains the same; only
-the clock times shift.
-
----
-
-## Cross-References
-
-- [PDCA review cadence](references/pdca-review-cadence.md) — for the analytical improvement cycle
-  (Plan/Do/Check/Act), which sits above and around this daily routine
-- `playbook-client-retainer-management` — for handling scope creep and retainer boundaries
-- `playbook-agency-operations` — for scaling from solo consultant to team operations
-- `playbook-crisis-communications` — activate immediately if the morning incident check reveals
-  a crisis indicator
-- `prompt-engineering-library` — for AI-assisted content drafting in the production block
-- `anti-ai-slop` (humanising rewrite passes) — for brand voice editing after AI first drafts
-
----
-
-## Quality Criteria
-
-- Client load capacity is calculated with specific hours per client type, producing a clear
-  sustainability verdict before the routine is designed
-- Morning block specifies a named priority order for responses: complaints before purchasing
-  enquiries before general comments before spam
-- Content production process references AI drafting tools and a brand voice quality control step
-  explicitly — AI output is never published unreviewed
-- Client communication is batched into one daily block, not scattered; WhatsApp professional norms
-  are stated clearly for the EA context
-- Weekly rhythm assigns a named primary task to each day of the week
-- EA-specific notes cover overnight comment backlog (20:00–23:00 data hour) and WhatsApp voice
-  note preference
-- Tools stack lists each tool with its purpose and confirms free-tier availability for the Ugandan
-  market
-- Output is a complete operating manual, not a generic checklist — timings and structures are
-  tailored to the consultant's actual client mix and working pattern

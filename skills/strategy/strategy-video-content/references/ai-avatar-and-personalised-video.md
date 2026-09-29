@@ -6,7 +6,7 @@ Merged from skills/ai-marketing/ai-avatar-personalised-video on 2026-09-29 at 7c
 
 Use it when a video plan calls for an AI avatar presenter rather than a person on camera: operational plans and production-ready scripts for avatar video built with Synthesia, HeyGen, Tavus, D-ID or Elai.io. It covers tool selection, avatar design to brand specification, script writing, distribution and disclosure compliance. Every deliverable is sized for the East African market by default.
 
-Keep the parent skill's formats, hooks, WILMA test and Hero / Hub / Hygiene calendar for the surrounding video strategy; this reference owns only the avatar production method. For live, human-presented personalised email video (Loom, Vidyard), stay with the parent skill's "Personalised Video for Email" rule. Consent and likeness rules below travel with every avatar deliverable.
+Keep the parent skill's formats, hooks, WILMA test and Hero / Hub / Hygiene calendar for the surrounding video strategy; this reference owns only the avatar production method. For live, human-presented personalised email video (Loom, Vidyard), stay with the "Personalised Video for Email" rule in [organic-video-method.md](organic-video-method.md). Consent and likeness rules below travel with every avatar deliverable.
 
 Performance statistics in this reference come from Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing Teams*, neuroflash. Treat them as vendor-reported figures and label them as such in client material.
 
@@ -277,4 +277,4 @@ Obtain written client approval of the disclosure approach before any video is se
 ## Sources
 
 - Roth, H. and neuroflash Team (2024/2025) *AI Strategy 2025 for Marketing Teams*, neuroflash. [Video outreach performance statistics; distribution CTR data]
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson. [Channel strategy context for distribution sequencing]
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. [Channel strategy context for distribution sequencing]

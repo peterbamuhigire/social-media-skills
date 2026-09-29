@@ -13,7 +13,7 @@ The parent [SKILL.md](../SKILL.md) writes the staff-facing social media policy (
 - The social media function is growing and needs a formal operating structure.
 - Leadership wants documented accountability before approving a larger social media budget.
 
-Evidence status. The governance structure and Social Media Command Centre follow Funk (2013); the operational and measurement layers follow Chaffey (2024). Advise the client to have the framework reviewed by legal counsel and aligned with HR policies before rollout. Legal points in the certification module follow registers UG-CMA-2022-VOID-2026 and UG-CMA-SECTIONS-STRUCK-2026; they are not legal advice. Tool tiers and features have no register record: verify before stating.
+Evidence status. The governance structure and Social Media Command Centre follow Funk (2013); the operational and measurement layers follow Chaffey and Ellis-Chadwick (2022). Advise the client to have the framework reviewed by legal counsel and aligned with HR policies before rollout. Legal points in the certification module follow registers UG-CMA-2022-VOID-2026 and UG-CMA-SECTIONS-STRUCK-2026; they are not legal advice. Tool tiers and features have no register record: verify before stating.
 
 ## Inputs
 
@@ -91,7 +91,7 @@ Who must be certified:
 |---|---|---|
 | 1. Brand voice and tone | Tone of voice, messaging hierarchy, what to say and what to avoid | Self-study and written test |
 | 2. Crisis protocol | Escalation path, response times, holding-statement templates, what not to do | Workshop and scenario exercise |
-| 3. Legal and compliance | Uganda Computer Misuse Act 2011 as it stands after the 17 March 2026 ruling (the 2022 Amendment Act is void; several provisions and criminal libel were struck; verify the section list on ULII, registers UG-CMA-2022-VOID-2026 and UG-CMA-SECTIONS-STRUCK-2026); defamation risk (criminal libel struck in Uganda; civil liability and other speech offences remain); copyright and image rights; disclosure rules (see the parent § 5) | Self-study and written test |
+| 3. Legal and compliance | Uganda Computer Misuse Act 2011 as it stands after the 17 March 2026 ruling (the 2022 Amendment Act is void; several provisions and criminal libel were struck; verify the section list on ULII, registers UG-CMA-2022-VOID-2026 and UG-CMA-SECTIONS-STRUCK-2026); defamation risk (criminal libel struck in Uganda; civil liability and other speech offences remain); copyright and image rights; disclosure rules (see [staff-policy-template.md § 5](staff-policy-template.md)) | Self-study and written test |
 | 4. Platform mechanics | How each active platform works: scheduling, admin settings, Stories versus feed, DM management | Practical exercise |
 | 5. Approval workflow | End to end: draft → review → approval → publishing → reporting | Practical exercise |
 
@@ -193,7 +193,7 @@ The AAR is the organisation's main mechanism for institutional learning; without
 
 Attendees: Social Media Manager (always); Communications Director (always); content creators involved; agency lead (if the agency was involved); Legal/Compliance (crisis AARs only).
 
-Document each AAR on the one-page template and file it in the governance folder. Track AAR actions in the monthly governance meeting until closed. If an AAR exposes a gap in the governance framework, the policy or the certification programme, update those documents within 30 days and log the version change (this also triggers the parent's § 8 policy review).
+Document each AAR on the one-page template and file it in the governance folder. Track AAR actions in the monthly governance meeting until closed. If an AAR exposes a gap in the governance framework, the policy or the certification programme, update those documents within 30 days and log the version change (this also triggers the [staff-policy-template.md § 8](staff-policy-template.md) policy review).
 
 ## Templates
 
@@ -234,7 +234,7 @@ Circulate a written summary within 48 hours; the agency drafts it and the client
 4. **Market analysis**: the social media picture in the sector and geography: platform reach for Uganda/East Africa (Facebook, WhatsApp, Instagram, TikTok, LinkedIn; cite registers DATAREPORTAL-UG-KE-2026 and WHATSAPP-USAGE-EA-2026, and check Facebook access in Uganda against UG-FACEBOOK-ACCESS-2026), target-audience digital behaviour and key industry trends.
 5. **Competitive analysis**: how 3–5 peers or direct competitors use social media: posting frequency, content types, engagement rates where visible, observable strengths and weaknesses.
 6. **SMART goals**: at least four annual goals, each Specific, Measurable, Achievable, Relevant and Time-bound (Bodnar and Cohen, 2012), each with a baseline metric, a target and a measurement method.
-7. **Platform roles**: a table giving each platform's role in the RACE framework (Chaffey, 2024): Reach, Act, Convert or Engage. This prevents duplication and clarifies investment priorities.
+7. **Platform roles**: a table giving each platform's role in the RACE framework (Chaffey and Ellis-Chadwick, 2022): Reach, Act, Convert or Engage. This prevents duplication and clarifies investment priorities.
 8. **Staffing plan**: current headcount, proposed roles, role definitions, reporting structure, each member's certification status and the training investment needed.
 9. **Operations plan**: content-calendar cadence, approval workflow, community-management rota, SMCC coverage, agency coordination and reporting schedule.
 10. **Budget**: itemised annual budget for staffing, tools and technology, content production (design, photography, video), paid amplification, training and certification, and agency or vendor fees, with a narrative justifying each line in terms of expected return.
@@ -253,5 +253,9 @@ Circulate a written summary within 48 hours; the agency drafts it and the client
 ## Sources
 
 - Funk, T. (2013) *Advanced Social Media Marketing*: governance structure, certification, Social Media Command Centre, business plan structure.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*: operational and measurement layers; RACE framework.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson. Used for: operational and measurement layers; RACE framework.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*, Wiley: SMART goal standard.
+
+## Where the parent section numbers now live
+
+Added in Social Kaizen S09 (29 Sep 2026). The parent's numbered policy sections cited above (§ 5 disclosure, § 8 policy review) moved from `SKILL.md` to [the staff policy template](staff-policy-template.md), where the numbering is unchanged.

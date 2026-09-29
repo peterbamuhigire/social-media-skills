@@ -122,7 +122,7 @@ If the agency cannot brief to this standard, charge a briefing fee for the disco
 
 Quality control:
 
-- Apply the same process as for direct clients (parent § Section 5): run the [`anti-ai-slop`](../../../ai-marketing/anti-ai-slop/SKILL.md) humanising rewrite passes on any AI-assisted output, check brand voice and verify every factual claim.
+- Apply the same process as for direct clients ([agency-operating-procedures.md § Section 5 — Quality Control Checklist](agency-operating-procedures.md)): run the [`anti-ai-slop`](../../../ai-marketing/anti-ai-slop/SKILL.md) humanising rewrite passes on any AI-assisted output, check brand voice and verify every factual claim.
 - Deliver 48 hours before the agency's deadline with the end client, leaving time for the agency's review round.
 - Keep a version log of all deliverables. Never overwrite a previous version; save each revision with a date stamp.
 - Confirm every delivery on WhatsApp with a short delivery note (template below).

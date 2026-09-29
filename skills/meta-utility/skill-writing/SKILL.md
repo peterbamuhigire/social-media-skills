@@ -45,13 +45,14 @@ Pointer stub. The canonical standard is `chwezi-dev-engine/skills/sdlc-meta/skil
 ## Quality Standards
 - Portable minimum, applied even when the canonical is unreachable: frontmatter uses only approved keys and `name` matches the folder.
 - The description starts `Use when`, stays within 350 characters and names a neighbour, with no workflow steps.
-- `SKILL.md` stays within 500 lines; deep detail sits in references one level deep, linked directly.
+- `SKILL.md` stays within 300 lines in this engine (validator `line_budget`; aim for 120-220) and follows the lean template; deep detail sits in references one level deep, linked directly with a "read when" note.
 - Every new or changed skill gets positive, negative and collision routing fixtures.
 - Bundled scripts run through their interpreter, for example `python -X utf8 scripts/<name>.py`.
 - No book extractions or copied third-party text; paraphrase and attribute.
 - British English, the imperative mood, and `NOT ASSESSED` for any check not run.
 ## Engine-Local Delta
 - Write for the stated client market and currency; never publish, spend, change a live account or certify compliance while authoring.
+- Use the [lean skill template](../../../docs/templates/SKILL.template.md) (D-SK-06): domain-specific contract rows, the two canonical sentences for capability and degraded mode, and no repeated scaffolding (`scripts/measure_skill_scaffolding.py --max-median 12`).
 - Apply [anti-AI slop](../../ai-marketing/anti-ai-slop/SKILL.md) while writing and [the slop audit](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint; follow the [local authoring standard](../../../docs/standards/skill-authoring-standard.md).
 ## Capability Contract
 Read and search are required. Editing files and running validators need explicit permission for the authoring task; publishing, deletion and release changes need separate authorisation.

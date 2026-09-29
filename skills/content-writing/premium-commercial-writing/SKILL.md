@@ -9,6 +9,8 @@ metadata:
 ---
 # Premium Commercial Writing
 
+A cross-cutting writing layer applied alongside the primary deliverable skill: it raises ordinary content into premium commercial writing with clearer positioning, stronger proof, better buyer psychology, cleaner search structure and more confident sales argumentation.
+
 <!-- dual-compat-start -->
 ## Use When
 - A web page, profile, proposal or article reads cheap, generic or wordy and needs lifting so a high-value buyer finds it credible.
@@ -23,146 +25,108 @@ metadata:
 - Stop before adding proof, awards, prices or results the client has not supplied; flag the gap rather than inflate the claim.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Content brief, channel, audience, message, format and call to action | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Draft the narrowest reviewable version and flag the missing evidence. |
-
-## Capability and Permission Boundaries
-Drafting is permitted within the supplied brief. Publishing, sending, spending, changing live accounts, or claiming certification requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified premium commercial writing deliverable; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| Any page, post, article or email needs the editorial basics (headline, lede, readability, formatting, you/we ratio, awareness stage) | Apply [content writing standards](references/content-writing-standards.md) before the premium layer. | Premium polish on copy that fails basic readability and reader focus. |
-| The asset is a brochure, trifold, booklet or print leave-behind | Follow [brochure copy](references/brochure-copy.md): single purpose, eight elements, panel plan, designer brief. | A company-history brochure with no benefit headline, proof or next step. |
+|---|---|---|---|
+| Client name, industry, location and market context; target reader, buyer role, awareness level and platform behaviour | Client brief or the paired skill's intake | Yes | Default to British English and East African market defaults; flag the missing reader before writing. |
+| Commercial job (attention, trust, lead generation, sale, price defence, search visibility, retention, referral, or investor/donor confidence) and the offer, product, service or argument | Brief or paired skill | Yes | Stop; premium copy cannot be built without a job and an offer. |
+| Proof available: data, testimonials, case results, credentials, process evidence, named clients, media, awards or first-hand experience | Client source pack | Yes | Flag the gap; qualify or cut claims rather than inflate them. |
+| Likely objections or risks, desired next step and post-click destination | Client or sales lead | Yes | Infer the likeliest objection, mark it assumed and ask for the destination. |
+| Brand voice rules, banned vocabulary and compliance limits | `04-brand-voice-intake`; client legal | Conditional | Apply the engine's banned-word list and hold regulated claims. |
+| The draft to lift or critique, when rewriting | Client or paired skill | Conditional | Build a message spine first and return it for approval. |
 
 ## Workflow
-1. Confirm the exact premium commercial writing deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete premium commercial writing deliverable; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Premium commercial writing deliverable | Requester, client reviewer or delivery team | The premium commercial writing deliverable addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+1. Classify the asset: social attention, education, authority, nurture, conversion, search discovery or sales enablement.
+2. Choose the paired skill: use the most specific skill first, then apply this skill as the premium writing layer; stop if proof, offer, reader or next step is missing and flag the gap before writing.
+3. Apply the editorial base from [content writing standards](references/content-writing-standards.md) (headline, lede, Fog Index readability, formatting, you/we ratio, awareness stage), or [brochure copy](references/brochure-copy.md) for print collateral.
+4. Build the message spine: reader, moment, pain, desired outcome, point of view, mechanism, proof, objection, next step.
+5. Select the format gate in [format-specific gates](references/format-specific-gates.md) and add the search and authority layer (direct answers, semantic depth, author and proof signals, FAQs where the format allows).
+6. Run the premium edit: cut generic claims, weak modifiers, unsupported superlatives, cheap urgency and copy any competitor could publish; load the English collocation overlay before final polish.
+7. Check commercial integrity (the CTA matches the reader's readiness; the offer supports the price or positioning), run the premium writing tests, correct any failure and rerun the tests before delivery.
 
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Source/assumption register and completed release checklist | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+## Five jobs of a premium asset
 
-## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested premium commercial writing deliverable, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## References
-- [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
-- [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — sentence patterns for posts, ads, emails, pages, rate cards and plans.
-- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling copy.
-- [Content writing standards](references/content-writing-standards.md) — read when writing or editing any page, post, article or email and you need the editorial base rules (headlines, ledes, readability, scannable formatting, templates, pre-publication checklist).
-- [Brochure copy](references/brochure-copy.md) — read when the deliverable is a brochure, trifold, booklet or other print sales collateral.
-- [Buyer psychology and social selling](references/buyer-psychology-and-social-selling.md) for ethical choice architecture, proof, memory cues, channel adaptation, and conversion guardrails.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-<!-- dual-compat-end -->
-
-Use this as a cross-cutting writing layer alongside the primary deliverable skill. It raises ordinary content into premium commercial writing: clearer positioning, stronger proof, better buyer psychology, cleaner search structure, and more confident sales argumentation.
-
-## Required Input
-Ask for or infer these before upgrading copy:
-
-- Client name, industry, location, and market context.
-- Target reader, buyer role, awareness level, and platform behaviour.
-- Commercial job: attention, trust, lead generation, sale, price defence, search visibility, retention, referral, or investor/donor confidence.
-- Offer, product, service, or argument being promoted.
-- Proof available: data, testimonials, case results, credentials, process evidence, named clients, media, awards, or first-hand experience.
-- Objections or risks the reader is likely to have.
-- Desired next step and post-click destination.
-- Brand voice rules, banned vocabulary, and compliance limits.
-
-If proof, offer, reader, or next step is missing, flag the gap before writing. Premium copy cannot be built from vague claims.
-
-## Operating Standard
-Premium commercial writing is not ornate language. It is disciplined, buyer-centred, specific, and commercially useful.
-
-Every premium asset must do five jobs:
+Premium commercial writing is not ornate language. It is disciplined, buyer-centred, specific and commercially useful. Every premium asset must:
 
 1. **Position:** make clear who the client is for, what they solve, and why they are not interchangeable.
 2. **Diagnose:** name the reader's situation better than a generic competitor would.
 3. **Prove:** support claims with concrete evidence, not adjectives.
-4. **Guide:** make the next step feel obvious, valuable, and appropriately low-friction.
-5. **Compound:** improve search, trust, sales follow-up, and future repurposing value.
+4. **Guide:** make the next step feel obvious, valuable and appropriately low-friction.
+5. **Compound:** improve search, trust, sales follow-up and future repurposing value.
 
-## Workflow
-1. **Classify the asset.** Identify whether the piece is primarily for social attention, education, authority, nurture, conversion, search discovery, or sales enablement.
-2. **Choose the paired skill.** Use the most specific skill first, then apply this skill as the premium writing layer.
-3. **Build the message spine:** reader, moment, pain, desired outcome, point of view, mechanism, proof, objection, next step.
-4. **Select the format gate.** Use `references/format-specific-gates.md` for the relevant asset type.
-5. **Add the search and authority layer.** Use direct answers, semantic depth, author/proof signals, and FAQs where the format allows.
-6. **Run the premium edit.** Cut generic claims, weak modifiers, unsupported superlatives, cheap urgency, and copy that sounds like any competitor could publish it.
-7. **Check commercial integrity.** Confirm the CTA matches the reader's readiness and the offer supports the price or positioning.
+## Outputs
 
-## Premium Writing Tests
-- **Specificity test:** Could a competitor use the same copy unchanged? If yes, rewrite.
-- **Proof test:** Does every important claim have evidence, example, mechanism, or source? If not, qualify or cut.
-- **Reader value test:** Does the reader gain useful insight before being asked to act?
-- **Price integrity test:** Does the copy increase perceived value without discount dependency?
-- **Search answer test:** Can a human or AI system extract the main answer, offer, or expertise quickly?
-- **Human voice test:** Does it sound like a skilled person with judgement, not a neutral content machine?
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Premium rewrite of the asset, or upgraded hooks, headlines, CTAs, proof blocks or offer framing | Client reviewer; the paired skill | Passes the six premium writing tests with no invented proof. |
+| Margin-note critique with recommended edits | Client or copywriter | Marks proof gaps, weak claims and vague benefits with a specific fix each. |
+| Message spine before drafting | Paired skill; client approver | All nine spine fields filled or flagged. |
+| Content writing standards or premium quality gate checklist | In-house writing team | Covers headlines, lede, Fog Index, you/we ratio, features against benefits and scannable layout. |
+| Brochure copy panel by panel, or a search/GEO-ready long-form structure | Designer; web editor | Brochure has a benefit headline on the cover and one call to action; long-form exposes an extractable main answer. |
 
-## Output Options
-Depending on the request, deliver one of:
+## Evidence Produced
 
-- a premium rewrite of the asset
-- a margin-note critique with recommended edits
-- a message spine before drafting
-- a premium quality gate checklist
-- upgraded hooks, headlines, CTAs, proof blocks, or offer framing
-- a search/GEO-ready structure for long-form content
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Proof register | Inline table: claim, evidence, source | Every important claim has evidence, example, mechanism or source, or is qualified or cut. |
+| Premium test record | Checklist of the six tests | Each test shows pass, or the rewrite made. |
 
-## Integration
-Use this skill alongside:
+## Capability and Permission Boundaries
 
-- [content writing standards](references/content-writing-standards.md) for readability and broad editorial standards.
-- `caption-writer` for social captions and post copy.
-- `blog-writer` for articles and thought leadership.
-- `blog-writer` ([whitepaper and eBook structure](../blog-writer/references/whitepaper-and-ebook-structure.md)) for long-form lead magnets and expert documents.
-- [brochure copy](references/brochure-copy.md) for brochures and print sales collateral.
-- `email-copywriter` and `platform-whatsapp` for owned-audience nurture.
-- `09-campaign-strategy` and `13-campaign-brief` for campaign message architecture.
-- `direct-response-funnel-copy` for sales pages, launch sequences, and high-ticket funnels.
-- `seo-geo-optimisation` and `ai-generative-search-optimisation` for AI-search visibility.
-- `playbook-social-selling` (high-value social selling reference) for executive, affluent, enterprise, and high-ticket buyers.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Adding awards, prices, named clients or results the client has not supplied is out of scope.
 
-## Quality Criteria
-- [ ] The copy has one clear reader, commercial job, message, and next step.
-- [ ] The opening earns attention without hype, vague trend language, or throat-clearing.
-- [ ] Benefits are tied to a mechanism and proof, not stated as unsupported promises.
-- [ ] The asset contains a distinct point of view or diagnostic insight.
-- [ ] SEO/GEO structure is applied where the format supports it.
-- [ ] Price, value, risk, or effort objections are addressed directly when relevant.
-- [ ] British English and East African market defaults are applied unless the brief says otherwise.
-- [ ] The piece sounds like a skilled human expert wrote it for a specific audience.
-## English collocation and lexical-precision overlay
+## Degraded Mode
 
-Load [`english-collocations-and-lexical-precision-2026-09-02.md`](../../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md) before final polish. Use precise, channel-native language with evidence-calibrated claims and no forced hype or slang.
+Without supplied proof and a defined reader, return the narrowest qualified result and mark the affected checks `not assessed`. A message spine and a margin-note critique naming the missing proof can still be delivered.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Any page, post, article or email needs the editorial basics (headline, lede, readability, formatting, you/we ratio, awareness stage) | Apply [content writing standards](references/content-writing-standards.md) before the premium layer. | Premium polish on copy that fails basic readability and reader focus. |
+| The asset is a brochure, trifold, booklet or print leave-behind | Follow [brochure copy](references/brochure-copy.md): single purpose, eight elements, panel plan, designer brief. | A company-history brochure with no benefit headline, proof or next step. |
+| Proof, offer, reader or next step is missing | Flag the gap before writing; never inflate a claim to fill it. | Premium-sounding copy built on vague claims. |
+| A competitor could use the copy unchanged | Rewrite with the client's specific mechanism, proof and point of view. | Interchangeable, commodity positioning. |
+| The copy relies on discounts or cheap urgency to sell | Rebuild value with [value, proof and offer architecture](references/value-proof-and-offer-architecture.md). | Price erosion and a discount-dependent brand. |
+| The deliverable is a sales page, launch sequence or high-ticket funnel | Route to `direct-response-funnel-copy` and apply this skill as the premium layer. | Brand copy that never converts. |
+| Copy persuades a buyer to act | Use the ethical choice architecture and conversion guardrails in [buyer psychology and social selling](references/buyer-psychology-and-social-selling.md) and the ethics filter. | Manipulation and unsupported claims. |
+
+## Quality Standards
+
+- The copy has one clear reader, commercial job, message and next step.
+- The opening earns attention without hype, vague trend language or throat-clearing.
+- Benefits are tied to a mechanism and proof, not stated as unsupported promises; every important claim passes the proof test.
+- The asset contains a distinct point of view or diagnostic insight and passes the specificity test.
+- The reader gains useful insight before being asked to act, and the copy increases perceived value without discount dependency.
+- SEO/GEO structure is applied where the format supports it, so a human or AI system can extract the main answer quickly.
+- Price, value, risk or effort objections are addressed directly when relevant.
+- British English and East African market defaults apply unless the brief says otherwise; the piece sounds like a skilled human expert wrote it for a specific audience and passes the `anti-ai-slop` gate.
+
+## Anti-Patterns
+
+- Mistaking ornate language for premium writing. Fix: write disciplined, buyer-centred, specific copy.
+- Stating benefits as adjectives without evidence. Fix: attach a mechanism, example or source, or cut the claim.
+- Adding a price, award, result or quotation without a traceable source. Fix: verify it or qualify/remove it.
+- Cheap urgency or unsupported superlatives in premium copy. Fix: remove them in the premium edit and let proof carry the argument.
+- Applying the premium layer before the specific paired skill. Fix: run the most specific skill first, then this layer.
+- Publishing or sending from drafting authority alone. Fix: obtain explicit action-specific authority and retain the approval record.
+
+## References
+
+- [Premium operating standard](references/premium-operating-standard.md): read when asking the full intake questions, applying the premium writing tests, choosing an output option or pairing this skill with another.
+- [Premium writing system](references/premium-writing-system.md): read when a draft is accurate but ordinary, vague, cheap-sounding, too corporate or commercially weak.
+- [Content writing standards](references/content-writing-standards.md): read when writing or editing any page, post, article or email and you need the editorial base rules (headlines, ledes, readability, scannable formatting, templates, pre-publication checklist).
+- [Format-specific gates](references/format-specific-gates.md): read before delivering copy in a given format.
+- [Search and authority layer](references/search-and-authority-layer.md): read when writing must support SEO, Generative Engine Optimisation, thought leadership or AI-search citation.
+- [Value, proof and offer architecture](references/value-proof-and-offer-architecture.md): read when copy must justify a premium price, sell a high-ticket offer, support a proposal or move buyers away from price comparison.
+- [Buyer psychology and social selling](references/buyer-psychology-and-social-selling.md): read when working on ethical choice architecture, proof, memory cues, channel adaptation and conversion guardrails.
+- [Brochure copy](references/brochure-copy.md): read when the deliverable is a brochure, trifold, booklet or other print sales collateral.
+- [English collocations and lexical precision](../../language/language-standards/references/english-collocations-and-lexical-precision-2026-09-02.md): read before final polish; use precise, channel-native language with evidence-calibrated claims and no forced hype or slang.
+- [Human, professional phrase bank](../references/human-professional-phrase-bank.md): read when shaping sentence patterns for posts, ads, emails, pages, rate cards and plans.
+- [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md): read before releasing any selling copy; the screen is mandatory.
+- [`direct-response-funnel-copy`](../direct-response-funnel-copy/SKILL.md): read when the asset must convert through a funnel.
+- [`caption-writer`](../caption-writer/SKILL.md): read when routing is unclear; it is the nearest neighbour.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when stripping AI tells and before client delivery.
+- [Repository agent guide](../../../AGENTS.md): read when a premium claim touches the engine-wide market or safety gates.
+<!-- dual-compat-end -->

@@ -4,7 +4,7 @@ Merged from skills/playbooks/playbook-lead-magnet-system on 2026-09-29 at cda737
 
 ## When to use this reference
 
-Read this reference when the client needs a lead magnet system: choosing and titling the free offer, building the website placements, designing WhatsApp and email delivery, setting up double opt-in and scheduling list hygiene. It expands the SKILL.md `1. List Building Strategy`, which names the opt-in mechanisms and expected conversion rates, into a build plan with owners.
+Read this reference when the client needs a lead magnet system: choosing and titling the free offer, building the website placements, designing WhatsApp and email delivery, setting up double opt-in and scheduling list hygiene. It expands [strategy-document-sections.md § 1. List Building Strategy](strategy-document-sections.md), which names the opt-in mechanisms and expected conversion rates, into a build plan with owners.
 
 A lead magnet is a free, high-value offer exchanged for a prospect's contact details: an email address, a WhatsApp number or both. Its purpose is an owned audience asset that no platform algorithm, account suspension or policy change can take away from the business.
 

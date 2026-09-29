@@ -4,7 +4,7 @@ Merged from skills/playbooks/playbook-question-engine on 2026-09-29 at cda737c (
 
 ## When to use this reference
 
-Read this reference when the website content plan must be fed by the questions customers actually ask, rather than by topics the business wants to talk about. Typical requests: "generate content ideas from customer questions", "build an FAQ library", "find blog topics that shorten sales calls", "set up a monthly question engine", or "use content to prepare prospects before sales meetings". It turns the Big 5 priority named in SKILL.md (Priority 2 — Honest Education) into a repeatable monthly harvest, prioritisation and publishing cycle, and it adds assignment selling for the sales team.
+Read this reference when the website content plan must be fed by the questions customers actually ask, rather than by topics the business wants to talk about. Typical requests: "generate content ideas from customer questions", "build an FAQ library", "find blog topics that shorten sales calls", "set up a monthly question engine", or "use content to prepare prospects before sales meetings". It turns the Big 5 priority named in [content-plan-build-method.md](content-plan-build-method.md) (Priority 2 — Honest Education) into a repeatable monthly harvest, prioritisation and publishing cycle, and it adds assignment selling for the sales team.
 
 Sources: Westergaard, N. (2016) *Get Scrappy*, AMACOM; Sheridan, M. (2019) *They Ask, You Answer* (revised edition), Wiley (title, edition and publisher added at merge; verify); Westergaard publisher added at merge (verify); Marcus Sheridan's River Pools case study as reported in those works.
 
@@ -97,7 +97,7 @@ Then score every cluster on two dimensions and rank those High on both first. Pr
 | Best in category / buyer's guide | Long-form article or PDF | Website, email newsletter |
 | Quick facts | Instagram carousel or Facebook post | Social media only |
 
-Carry the chosen format into the nine-element article brief in SKILL.md Section 1; the question cluster supplies element 5 (five key questions).
+Carry the chosen format into the nine-element article brief in [content-plan-build-method.md § Section 1: 12 Blog Post Briefs](content-plan-build-method.md); the question cluster supplies element 5 (five key questions).
 
 ### Step 5 — Publish and index (only with publishing authority)
 

@@ -140,6 +140,6 @@ Check the output against these criteria before delivering to the client:
 ## Sources
 - Johnsen, M. (2024) *AI in Digital Marketing*. Mercury Learning.
 - Lamplugh, M. (2024) *The AI Marketing Playbook*, 2nd edn. Mercury Learning.
-- Ltifi, M. (ed.) (2025) *Advances in Digital Marketing in the Era of Artificial Intelligence*. CRC Press.
+- Ltifi, M. (ed.) (2024) *Advances in Digital Marketing in the Era of Artificial Intelligence*. CRC Press.
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.

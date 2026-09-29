@@ -15,7 +15,7 @@ Typical triggers:
 - A competitor has recently launched a strong social media presence and the client needs to respond.
 - A donor or parent organisation asks for evidence of digital engagement as part of a grant renewal.
 
-Sources: Funk (2013) *Advanced Social Media Marketing*, Apress — primary source for the "Risk of Ignoring" framing and fan/follower valuation; Bodnar and Cohen (2012) *The B2B Social Media Book*, Wiley; Chaffey (2024) *Digital Marketing: Strategy, Implementation and Practice*, Pearson; Reichheld (2003), cited via Chaffey (2024).
+Sources: Funk (2013) *Advanced Social Media Marketing*, Apress — primary source for the "Risk of Ignoring" framing and fan/follower valuation; Bodnar and Cohen (2012) *The B2B Social Media Book*, Wiley; Chaffey and Ellis-Chadwick (2022) *Digital Marketing: Strategy, Implementation and Practice*, Pearson; Reichheld (2003), cited via Chaffey and Ellis-Chadwick (2022).
 
 ## Inputs
 
@@ -122,7 +122,7 @@ NPS measures the share of customers who would actively recommend the brand. Soci
 
 - Active social communities generate more advocates (Promoters).
 - Responsive community management turns Passives into Promoters and stops Detractors escalating.
-- Every 1-point NPS improvement correlates with measurable revenue growth (Reichheld, 2003, cited via Chaffey, 2024).
+- Every 1-point NPS improvement correlates with measurable revenue growth (Reichheld, 2003, cited via Chaffey and Ellis-Chadwick, 2022).
 
 Simple NPS survey via WhatsApp:
 
@@ -131,11 +131,11 @@ Simple NPS survey via WhatsApp:
 3. Calculate NPS = % Promoters (9–10) − % Detractors (0–6).
 4. Record the baseline; repeat quarterly.
 
-Present NPS as a financial outcome: estimate the client's average customer lifetime value (CLV); apply the rule of thumb that a 5-point NPS improvement correlates with 1.5–3% revenue growth (Chaffey, 2024); show the projected revenue effect of improving NPS from the current baseline. Label this a directional estimate and recommend tracking NPS alongside social activity to build the client's own correlation over 12–18 months. Broadcasts to customer lists need a lawful basis and consent records — see register UG-DPPA-2019.
+Present NPS as a financial outcome: estimate the client's average customer lifetime value (CLV); apply the rule of thumb that a 5-point NPS improvement correlates with 1.5–3% revenue growth (Chaffey and Ellis-Chadwick, 2022); show the projected revenue effect of improving NPS from the current baseline. Label this a directional estimate and recommend tracking NPS alongside social activity to build the client's own correlation over 12–18 months. Broadcasts to customer lists need a lawful basis and consent records — see register UG-DPPA-2019.
 
 ### Step 5 — Allocate the budget
 
-Rule of thumb: social media budget = 5–15% of total marketing spend (Chaffey, 2024). Where the client has no existing marketing budget, present the tiers:
+Rule of thumb: social media budget = 5–15% of total marketing spend (Chaffey and Ellis-Chadwick, 2022). Where the client has no existing marketing budget, present the tiers:
 
 | Tier | Monthly budget | Suitable for |
 |---|---|---|

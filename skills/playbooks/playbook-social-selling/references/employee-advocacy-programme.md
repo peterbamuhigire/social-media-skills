@@ -26,7 +26,7 @@ Ask for these before drafting any deliverable:
 
 - **Reach.** Employees' combined networks typically reach about 10 times more people than the brand's owned channels (legacy claim; verify before stating). A shared post reaches people who would never see the official content, and it arrives with the trust of a personal connection rather than the commercial intent of a brand advertisement. Worked planning example: 20 employees with 200–500 Facebook connections each give a potential reach above 10,000 people from one coordinated post, at no added ad cost.
 - **Media category.** Advocacy sits in Earned Media in the POEM model (Paid/Owned/Earned), which makes it one of the highest-return activities in a social programme.
-- **Credibility transfer in East Africa.** Professional reputation in Uganda and East Africa is deeply personal. A professional who is well regarded on LinkedIn or active in WhatsApp professional networks carries institutional credibility a brand page cannot replicate. When a senior accountant shares the firm's thought-leadership content, fellow professionals take it more seriously than any brand post. For B2B and professional-services clients this supports the Reach and Act stages of RACE (Chaffey, 2024).
+- **Credibility transfer in East Africa.** Professional reputation in Uganda and East Africa is deeply personal. A professional who is well regarded on LinkedIn or active in WhatsApp professional networks carries institutional credibility a brand page cannot replicate. When a senior accountant shares the firm's thought-leadership content, fellow professionals take it more seriously than any brand post. For B2B and professional-services clients this supports the Reach and Act stages of RACE (Chaffey and Ellis-Chadwick, 2022).
 
 ## Decision rules
 
@@ -176,5 +176,5 @@ The advocacy deliverable is ready when:
 ## Sources
 
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Registers: PREMIUM-LI-POLICY-2026 (LinkedIn Professional Community Policies); UG-FACEBOOK-ACCESS-2026 (Facebook status in Uganda, unstable).

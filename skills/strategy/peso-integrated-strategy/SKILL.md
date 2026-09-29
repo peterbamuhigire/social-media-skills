@@ -9,6 +9,8 @@ metadata:
 ---
 # PESO Integrated Communications Strategy
 
+Joins paid, earned, shared and owned media (Dietrich, 2020) into one plan that uses Shared and Paid to build audiences the brand owns, then uses Earned credibility to amplify both. Most East African SMEs are over-invested in Shared and under-invested in Owned.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,277 +31,99 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to paid, earned, shared, and owned channel coordination | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Business name, industry, country/city and the primary objective for the next 6–12 months | Client owner | Yes | Stop; a PESO plan needs one SMART objective to rank channels against. |
+| Current channels, each marked active, inactive or non-existent by pillar | Client and a quick account review | Yes | Fill the [channel map](references/peso-method.md) with the client and leave unknown cells blank as gaps. |
+| Monthly communications budget, including staff time | Client owner or finance lead | Yes | Give percentage splits only and mark UGX amounts `not assessed`. |
+| Primary audience segment | Client brief or customer evidence | Yes | Name a working segment, label it an assumption and keep the plan to three to five channels. |
+| Owned assets and list sizes (email, WhatsApp opt-in, SMS) with consent records | Client systems | Yes | Treat the Owned pillar as absent and start with the [owned-media assets](references/owned-media-assets.md) audit. |
+| Channels explicitly out of scope | Client owner | Conditional | Ask; never assume paid advertising or TikTok is approved. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `strategy-channel-architecture`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm all seven intake answers from the [PESO method](references/peso-method.md#intake-questions); stop until the objective, budget and audience are confirmed.
+2. Fill the PESO channel map with the client; identify absent Owned channels, Shared channels with strong organic reach and Earned channels that have produced results.
+3. If the client has under 500 email subscribers and no WhatsApp opt-in list, build the Owned asset plan first with [owned-media assets](references/owned-media-assets.md).
+4. Apply the six integration principles (below) and assign which pillar leads each objective.
+5. Write the strategy document from the template: priority actions per pillar with owner and timeline, integration points, budget allocation and one primary KPI.
+6. Apply the EA-specific guidance: WhatsApp Business as a priority Owned channel, EA Earned voices, boost-only-proven-posts, SMS opt-in status.
+7. Check the plan against the Quality Standards and the anti-slop gate; correct any failed item and rerun the check before the plan goes to the client as an approval draft.
+
+## PESO integration principles
+
+1. **Owned first**: build the email list and WhatsApp opt-in list before committing budget to Paid.
+2. **Earned amplifies Owned**: every press mention links to a specific Owned asset that captures leads.
+3. **Shared is the middle layer**: every Shared post moves someone one step closer to an Owned relationship.
+4. **Paid amplifies all three**: boost Earned content and proven organic posts, not only branded posts.
+5. **Measure by objective, not by channel**: every channel goal is SMART and tied to a business objective.
+6. **Sequence matters**: build Owned infrastructure → activate Shared channels → pursue Earned coverage → use Paid to amplify what is already working.
+
+The full wording, with the EA reasoning behind each principle, is in [the PESO method](references/peso-method.md).
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Paid, earned, shared, and owned channel coordination deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Completed PESO channel map | Client owner and channel leads | Every relevant EA channel has a PESO type, state and goal, or a blank marked as a gap. |
+| PESO integrated communications strategy document | Client leadership | Priority actions per pillar each carry an action, owner and timeline; integration points are specific. |
+| Budget allocation by pillar | Client owner or finance lead | Paid, Owned, Shared and Earned lines total 100%. |
+| Primary and secondary KPIs | Client owner; `meta-roi-framework` | One measurable primary KPI with a baseline and end date. |
+| Owned-media asset and consent plan | Digital team; `07-email-marketing-strategy` | Opt-in method and consent record defined before any list is contacted. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Channel audit record | The filled channel map with source and date | Reach and investment figures trace to platform data or are marked unknown. |
+| Consent status register | Table per list (email, WhatsApp, SMS) | Every list shows opt-in method and record, or is marked not ready to use. |
+| Assumption register | Table in the plan | Budget, audience and reach estimates that lack evidence are labelled. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. No contact is added to an email, SMS or WhatsApp list without recorded opt-in consent.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without the client's current channel list and budget, return the narrowest qualified result and mark the affected checks `not assessed`. The four-pillar explanation, a blank channel map for the client to fill and an Owned-first build sequence can still be delivered.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| The brief requires cross-channel orchestration and budget roles | Build a PESO system with handoffs; use channel architecture for platform-role selection alone | A list of channels with no integration or ownership |
-| The Owned pillar needs its own asset plan (audit, email and WhatsApp list building, consent, blog, owned rhythm) or the client has under 500 email subscribers and no WhatsApp opt-in list | Build it with [owned-media-assets](references/owned-media-assets.md) before committing Paid budget | Paid and Shared traffic with no consented owned asset to capture it |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The brief requires cross-channel orchestration and budget roles | Build a PESO system with hand-offs; use `strategy-channel-architecture` for platform-role selection alone | A list of channels with no integration or ownership |
+| The Owned pillar needs its own asset plan, or the client has under 500 email subscribers and no WhatsApp opt-in list | Build it with [owned-media assets](references/owned-media-assets.md) before committing Paid budget | Paid and Shared traffic with no consented owned asset to capture it |
+| The client has no website and no opt-in mechanism | Do not recommend Paid yet; build Owned infrastructure first | Paid traffic with nowhere to go and no way to be captured |
+| The client posts on Facebook daily but has no email list or opt-in | Pause or reduce Shared output temporarily and move that time to Owned | Building on rented land |
+| A post is proposed for boosting | Boost only content with at least 20–30 organic engagements | Paying to push content the audience has already ignored |
+| SMS is proposed | Establish whether it is an opted-in Owned list or a bought Paid blast; confirm opt-in compliance first | Unlawful or wasted bulk messaging |
+| Resources are limited | Run three to five channels well rather than ten poorly | Thin effort everywhere and nothing remarkable |
+| A channel cannot be linked to a measurable outcome | Question whether it belongs in the mix at this stage | Activity reported as strategy |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- All four PESO pillars are defined accurately with EA-relevant channel examples.
+- The channel map is complete, fillable and covers the major EA channels.
+- All six integration principles are stated with actionable implications, not theory.
+- Owned-first is explicit as the foundation of the plan, not an afterthought.
+- WhatsApp Business is treated as a priority Owned channel.
+- The budget allocation table is included and ready for the client to populate.
+- Dietrich, G. (2020) *Spin Sucks* is cited as the source of the PESO framework.
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Press coverage that links only to the homepage. Fix: point each Earned mention at a landing page, blog post or catalogue that captures leads.
+- Boosting branded posts while Earned proof sits unused. Fix: boost strong press mentions, testimonials and reviews that already carry social proof.
+- Treating Earned media as newspapers only. Fix: include influential Facebook pages (10,000+ followers), WhatsApp group administrators and community voices alongside Daily Monitor, New Vision, NTV Uganda and Spark TV.
+- Skipping email because clients are sceptical. Fix: frame email list growth as insurance against platform dependency.
+- Building full Meta Ads campaigns before testing boosts. Fix: in Uganda, start by boosting proven organic posts; build campaigns later.
+- Adding bought or scraped contacts to lists. Fix: deliver the consent plan first and add only opted-in contacts.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
-- [owned-media-assets](references/owned-media-assets.md) — read when the Owned pillar needs an asset audit, email or WhatsApp list-building and consent plan, blog-to-social pipeline or owned publishing rhythm.
+- [PESO method, channel map and strategy template](references/peso-method.md): read when running the intake, explaining the pillars, filling the channel map, writing the strategy document or applying EA guidance.
+- [Owned media assets](references/owned-media-assets.md): read when the Owned pillar needs an asset audit, email or WhatsApp list-building and consent plan, blog-to-social pipeline or owned publishing rhythm.
+- [`strategy-channel-architecture`](../strategy-channel-architecture/SKILL.md): read when each platform needs a role, a conversion hub and an audience flow.
+- [`playbook-pr-publicity`](../../playbooks/playbook-pr-publicity/SKILL.md): read when Earned actions need story angles, press materials and pitching.
+- [`07-email-marketing-strategy`](../../pipeline/07-email-marketing-strategy/SKILL.md): read when the Owned email programme needs lifecycle sequences.
+- [`meta-roi-framework`](../../meta-analytics-ops/meta-roi-framework/SKILL.md): read when building the KPI framework and budget justification.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the strategy document.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Ask for the following before generating any deliverable:
-
-1. **Client business name and industry** — e.g. "Kampala Fresh Produce, food retail"
-2. **Country / city** — default is Uganda / East Africa if not specified
-3. **Primary business objective for the next 6–12 months** — e.g. "grow retail customer base by 30%", "launch a B2B wholesale channel"
-4. **Current channels in use** — ask the client to identify which Paid, Earned, Shared, and Owned channels are already active, inactive, or non-existent
-5. **Monthly communications budget (rough estimate)** — total budget across all channels, including staff time if relevant
-6. **Primary audience segment** — who is the single most important audience this strategy must reach?
-7. **Any channels explicitly out of scope** — e.g. "no TikTok", "no paid advertising yet"
-
-Do not proceed past this section until all seven inputs are confirmed.
-
----
-
-## Section 1 — PESO Explained
-
-The PESO model (Dietrich, G., 2020, *Spin Sucks*) organises every communications channel into four types. Understanding the distinction is the foundation of integrated strategy.
-
-**Paid**
-Channels the brand pays to access. In the East African context this includes Facebook and Instagram Ads, Google Ads, TikTok Ads, SMS broadcast costs, and influencer fees. Paid provides reach on demand but stops the moment the budget stops.
-
-**Earned**
-Coverage and endorsement the brand did not pay for. This includes press mentions in outlets such as the Daily Monitor and New Vision, organic Google reviews, word-of-mouth referrals, shared customer testimonials, and organic PR coverage. Earned is the most credible channel because a third party is vouching for the brand — but it cannot be bought and takes time to build.
-
-**Shared**
-Social media channels, community platforms, and WhatsApp groups — content distributed through networks the brand participates in but does not fully control. Facebook, Instagram, TikTok, LinkedIn, X/Twitter, and WhatsApp groups all fall here. Algorithms, platform policies, and community norms govern what gets seen. Shared is where most EA brands invest the most time; it is rarely where they invest the most strategically.
-
-**Owned**
-Channels the brand controls entirely: the website, email list, blog, WhatsApp Business catalogue, and SMS opt-in list. If a platform shuts down tomorrow, owned assets survive. Owned is the most valuable long-term asset in any communications portfolio.
-
-**Key insight for EA clients:** Most SMEs are over-invested in Shared and under-invested in Owned. The goal of an integrated strategy is to use Shared and Paid to build Owned audiences, then use Earned credibility to amplify both.
-
----
-
-## Section 2 — PESO Channel Map
-
-Produce this table with the client during the strategy session. Fill in each row based on the inputs collected above. Leave blank what is genuinely unknown — identifying gaps is part of the value.
-
-| Channel | PESO Type | Current State (Active / Inactive / None) | Monthly Investment | Audience Reach (est.) | Content Type | Primary Goal |
-|---|---|---|---|---|---|---|
-| Facebook Page | Shared | | | | | |
-| Facebook Ads | Paid | | | | | |
-| Instagram | Shared | | | | | |
-| Instagram Ads | Paid | | | | | |
-| TikTok | Shared | | | | | |
-| WhatsApp Business | Owned | | | | | |
-| WhatsApp Broadcast | Paid / Owned | | | | | |
-| Email newsletter | Owned | | | | | |
-| Website / blog | Owned | | | | | |
-| Google Ads | Paid | | | | | |
-| Google Business Profile | Owned / Earned | | | | | |
-| Press / media coverage | Earned | | | | | |
-| Influencer partnerships | Paid / Earned | | | | | |
-| SMS | Paid / Owned | | | | | |
-| LinkedIn | Shared | | | | | |
-| X / Twitter | Shared | | | | | |
-| YouTube | Owned / Shared | | | | | |
-| Podcast | Owned | | | | | |
-
-**Guidance:** Not every channel needs to be active. The value of this map is seeing what exists, what is missing, and what should be prioritised given the client's budget and objective. A client with limited resources should operate three to five channels well rather than ten channels poorly.
-
-After completing the map, identify:
-- Which Owned channels are absent or underdeveloped (these are priority investments)
-- Which Shared channels have strong organic reach (these are candidates for Paid amplification)
-- Which Earned channels have produced results (these should be systematised and linked to Owned assets)
-
----
-
-## Section 3 — PESO Integration Principles
-
-Apply these six principles to make the PESO model work as a coherent system rather than a set of siloed channels.
-
-**1. Owned first**
-Build the email list and WhatsApp opt-in list before committing budget to Paid. Owned channels are the only ones the brand controls when a platform changes its algorithm, increases ad costs, or shuts down. A client with no email list and no opt-in database is building on rented land.
-
-**2. Earned amplifies Owned**
-A press mention is most valuable when it links to a specific Owned asset — a landing page, a blog post, a product catalogue — not just the homepage. Before pursuing Earned coverage, ensure the Owned destination is ready to receive traffic and capture leads.
-
-**3. Shared is the middle layer**
-Social media posts should direct audiences to Owned assets (website sign-up, email opt-in, WhatsApp catalogue) rather than keeping them on the platform. Every Shared post should have a purpose beyond engagement — it should move someone one step closer to an Owned relationship with the brand.
-
-**4. Paid amplifies all three**
-Boost Earned content — strong press mentions, customer testimonials, positive reviews — with Paid, not just branded posts. Boosted Earned content typically outperforms boosted branded content because social proof is already embedded in the asset. In Uganda, boosting a well-performing organic Facebook post is often more cost-effective than building a full Meta Ads campaign from scratch.
-
-**5. Measure by objective, not by channel**
-Each channel in the PESO map must be connected to a stated business objective. Apply SMART criteria (Specific, Measurable, Achievable, Relevant, Time-bound) to every channel goal. If a channel cannot be linked to a measurable outcome, question whether it belongs in the mix at this stage.
-
-**6. Sequence matters**
-Launch Owned before Earned and Shared before Paid. A client with no website and no opt-in mechanism is not ready to invest in Paid advertising — the traffic will have nowhere to go and no way to be captured. The correct sequence is: build Owned infrastructure → activate Shared channels → pursue Earned coverage → use Paid to amplify what is already working.
-
----
-
-## Section 4 — PESO Strategy Output
-
-Generate the following structured document for the client. Replace all bracketed fields with client-specific content drawn from the inputs collected.
-
-```
-PESO Integrated Communications Strategy — [Client Name]
-Period: [Month YYYY – Month YYYY]
-Prepared by: [Consultant / Agency name]
-Objective: [Primary business objective — one sentence, SMART-formatted]
-
----
-
-OWNED PRIORITY ACTIONS
-1. [Action + owner + timeline] — e.g. "Build email opt-in page on website — Digital team — by [date]"
-2. [Action + owner + timeline]
-3. [Action + owner + timeline]
-
-SHARED PRIORITY ACTIONS
-1. [Action + owner + timeline] — e.g. "Publish 3x Facebook posts per week linking to blog — Content team — ongoing from [date]"
-2. [Action + owner + timeline]
-
-EARNED PRIORITY ACTIONS
-1. [Action + owner + timeline] — e.g. "Pitch product launch story to Daily Monitor lifestyle desk — PR lead — by [date]"
-2. [Action + owner + timeline]
-
-PAID PRIORITY ACTIONS
-1. [Action + owner + timeline] — e.g. "Boost top-performing organic Facebook post each week — Digital team — from [date], UGX [budget]/week"
-2. [Action + owner + timeline]
-
----
-
-INTEGRATION POINTS
-- Paid amplifies Earned this quarter: [specific plan — e.g. "Boost any press coverage that earns 50+ organic shares within 48 hours"]
-- Shared drives traffic to Owned: [specific plan — e.g. "Every Instagram post includes a link-in-bio CTA to email sign-up page"]
-- Earned content feeds Shared channels: [specific plan — e.g. "Repurpose press mentions as quote graphics for Facebook and WhatsApp status"]
-
----
-
-BUDGET ALLOCATION
-
-| PESO Type | Monthly Budget (UGX) | % of Total |
-|---|---|---|
-| Paid (ads, boosts, SMS, influencer fees) | | |
-| Owned (website, email platform, content production) | | |
-| Shared (social media management time) | | |
-| Earned (PR outreach, relationship-building time) | | |
-| **Total** | | 100% |
-
----
-
-PRIMARY KPI: [One measurable goal that defines success for this period]
-e.g. "Grow email subscriber list from 0 to 500 by [end date]"
-e.g. "Generate 20 qualified wholesale enquiries via website contact form by [end date]"
-
-SECONDARY KPIs:
-- [Channel-specific metric 1]
-- [Channel-specific metric 2]
-- [Channel-specific metric 3]
-```
-
----
-
-## Section 5 — EA-Specific Guidance
-
-Apply the following when working with Uganda and East Africa-based clients.
-
-**Over-investment in Shared, under-investment in Owned**
-Most Uganda SME clients post on Facebook daily but have no email list, a weak or absent website, and no WhatsApp opt-in mechanism. The first strategic recommendation for the majority of EA clients will be to pause or reduce Shared output temporarily and invest that time in building Owned infrastructure.
-
-**WhatsApp Business as a priority Owned channel**
-WhatsApp Business sits across Owned and Paid depending on usage. Treat it as a priority Owned channel in EA because it is the primary channel through which customer relationships are maintained in this market. The WhatsApp Business catalogue, automated greeting messages, and broadcast lists are Owned assets. Build these before any other Owned investment if the client has not done so.
-
-**Earned media in the EA context**
-In Uganda, Earned media is not limited to traditional press. Influential Facebook pages (with 10,000+ followers), WhatsApp group administrators in key networks (trade associations, professional groups, religious communities), and respected community voices function as Earned media in the EA context even if they are not journalists. Include these alongside mainstream outlets (Daily Monitor, New Vision, NTV Uganda, Spark TV) in any Earned media plan.
-
-**Paid amplification in Uganda**
-Boosting Facebook posts — content that has already earned organic engagement — is typically more cost-effective for Uganda SME clients than building full Meta Ads campaigns with custom audiences and creative testing. Recommend boosting only content that has already demonstrated organic traction (minimum 20–30 organic engagements before boosting).
-
-**Email lists in EA: underused but high-value**
-Email marketing is underused in East Africa relative to its commercial value. In markets where social media algorithms are unreliable and WhatsApp group membership fluctuates, an email list is the most stable and controllable Owned channel. Position email list growth as a strategic priority even for clients who are sceptical — frame it as insurance against platform dependency.
-
-**SMS as a dual-purpose channel**
-SMS sits across Paid and Owned. When a client owns an opted-in SMS list, it functions as an Owned channel. When they are buying bulk SMS blasts to cold lists, it is Paid. Clarify which applies and ensure opt-in compliance is in place before recommending SMS investment.
-
----
-
-## Quality Criteria
-
-Output meets the standard when:
-
-- All four PESO pillars are defined accurately and illustrated with EA-relevant channel examples
-- The channel map is complete, fillable, and covers all major channels relevant to the EA market
-- All six integration principles are stated clearly with actionable implications, not just theory
-- The Owned-first principle is explicit and positioned as the foundation of the strategy, not an afterthought
-- WhatsApp Business is identified and treated as a priority Owned channel appropriate to the EA context
-- The budget allocation template is included and formatted so the client can populate it directly
-- Dietrich, G. (2020) *Spin Sucks* is cited as the source of the PESO framework
-
----
-
-## References
-
-Read the following skills for related frameworks before generating deliverables that overlap with their scope:
-
-- `05-social-media-strategy/SKILL.md` — social media channel strategy; use when the client needs a dedicated social media plan within the Shared pillar
-- `06-digital-marketing-strategy/SKILL.md` — broader digital marketing strategy; use when PESO intersects with SEO, paid search, and conversion optimisation
-- `meta-roi-framework/SKILL.md` — ROI measurement and reporting; use to build the KPI framework and budget justification that accompany this strategy
-- `07-email-marketing-strategy/SKILL.md` — email marketing programme design; use when developing the Owned pillar email component in detail
-
-**Primary citation:** Dietrich, G. (2020) *Spin Sucks: PR in the Digital Age*. Que Publishing.
-
-**Supporting references:**
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.

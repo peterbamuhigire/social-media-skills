@@ -9,6 +9,8 @@ metadata:
 ---
 # Customer Value Journey Strategy
 
+Maps a client's social content onto the eight-stage Customer Value Journey (Deiss / DigitalMarketer) so East African SMEs move people from first sight to referral, with WhatsApp as the main Subscribe and Convert channel.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,268 +31,26 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to full-funnel content across awareness, engagement, subscription, conversion, retention, and advocacy | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Business name, industry/sector, country/city and primary goal (sales, WhatsApp list growth, repeat purchases) | Client | Yes | Default to Uganda / Kampala; ask for the goal before choosing where to weight content. |
+| Current platforms, approximate followers and the last 30 posts | Client; platform pages | Yes | Mark the stage distribution `not assessed` and classify the failure mode from the client's description only, labelled provisional. |
+| Existing entry-point and ascension offers | Client | Yes | Design both, labelled as proposals for client pricing sign-off. |
+| Approximate customer lifetime value | Client sales records | Yes | Keep the entry-point offer free or low-cost and flag the calibration as unassessed. |
+| Offer or sales data to map against | Client | Yes | Stop and return the intake gap instead of inventing stages. |
+| Existing mechanisms: WhatsApp opt-in, post-purchase welcome, referral tracking | Client | If any | Treat each as absent (No) in the mechanism audit. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `10-content-pillars`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
-
-## Outputs
-
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Full-funnel content across awareness, engagement, subscription, conversion, retention, and advocacy deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
-
-## Evidence Produced
-
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
-
-## Capability and Permission Boundaries
-
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
-
-## Degraded Mode
-
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
-
-## Decision Rules
-
-| Choice condition | Action | Failure or risk avoided |
-|---|---|---|
-| Content is concentrated at one funnel stage | Map the missing stage, CTA, channel, and metric before adding volume | More posts reproduce the same funnel gap |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
-
-## Quality Standards
-
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
-
-## Anti-Patterns
-
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
-
-## References
-
-- [AGENTS.md](../../../AGENTS.md)
-- [Experience map and journey layout](references/experience-map-and-journey-layout.md) — read when mapping scope level, experience phases, a user journey or the suspect-to-reference funnel matrix.
-<!-- dual-compat-end -->
-
-## Framework Attribution
-
-This skill applies the **Customer Value Journey (CVJ)** framework developed by Ryan Deiss and
-DigitalMarketer. The CVJ maps every customer interaction — from first encounter to active referral
-— across 8 sequential stages. It is distinct from the RACE framework (Reach / Act / Convert /
-Engage, Chaffey 2024): RACE focuses on acquisition and conversion; the CVJ extends into
-post-purchase stages (Excite, Ascend, Advocate, Promote) that drive repeat revenue and referrals.
-For East African SMEs, these post-purchase stages are the most neglected and the highest-ROI
-opportunity.
-
----
-
-## Required Input
-
-Ask for the following before generating any deliverable:
-
-1. **Client business name** — trading name used on social media
-2. **Industry / sector** — e.g. professional services, retail, hospitality, agribusiness
-3. **Country / city** — defaults to Uganda / Kampala if not specified
-4. **Primary goal** — e.g. increase sales, grow WhatsApp subscriber list, improve repeat purchases
-5. **Current platforms** — which platforms the client is active on and approximate follower counts
-6. **Current content mix** — rough description of what they post (promotional, educational, mixed)
-7. **Existing offers** — what entry-point and ascension offers exist, or whether these need to be designed
-8. **Customer lifetime value (approximate)** — to calibrate entry-point offer strategy
-
----
-
-## The Two Most Common EA SME Failure Modes
-
-Before mapping the journey, diagnose which failure mode applies to the client.
-
-**Failure Mode 1 — All Promotional (Stuck at Convert)**
-The client posts discounts, product shots, and price lists. Reach is limited to people already
-ready to buy. No content builds awareness or nurtures interest. Follower growth is slow; engagement
-is low; every post asks for money before trust is established.
-
-**Failure Mode 2 — All Awareness (No Conversion Mechanism)**
-The client posts tips, motivational quotes, and educational content. Engagement metrics look
-healthy but sales do not follow. There is no Subscribe mechanism (no WhatsApp opt-in, no follow
-prompt) and no Convert offer. The audience consumes content and moves on.
-
-Both failure modes stem from the same root cause: treating social media as a single-stage
-activity rather than a multi-stage journey. The CVJ provides the corrective structure.
-
----
-
-## The 8 Stages of the Customer Value Journey
-
-Apply Ryan Deiss / DigitalMarketer's CVJ to understand what the customer is thinking and feeling
-at each stage, and what social media must do to move them forward.
-
-**Stage 1 — Aware**
-The customer encounters the brand for the first time. They are not looking for the client
-specifically; they are scrolling, watching, or being referred. The goal is to stop the scroll and
-create a relevant first impression. Customer mindset: *"Who is this?"*
-
-**Stage 2 — Engage**
-The customer consumes content — watches a video, reads a post, saves a tip. They are evaluating
-whether the brand is worth their continued attention. No purchase intent yet. Customer mindset:
-*"This looks useful / interesting."*
-
-**Stage 3 — Subscribe**
-The customer opts in to an ongoing relationship: follows the page, joins the WhatsApp broadcast
-list, subscribes to a newsletter, or saves the number. This is the first active commitment. In
-East Africa, WhatsApp opt-in is the highest-value subscribe action. Customer mindset:
-*"I want to hear more from this brand."*
-
-**Stage 4 — Convert**
-The customer makes a first transaction — often a low-risk, low-cost entry-point offer. The goal
-is to convert a prospect into a buyer, not to maximise profit on this transaction. Customer
-mindset: *"Let me try this."*
-
-**Stage 5 — Excite**
-Immediately post-purchase, the customer needs confirmation they made the right decision. This
-stage removes buyer's remorse, delivers a fast win, and sets expectations. Poor post-purchase
-experience kills Ascend and Advocate potential. Customer mindset: *"Did I make the right choice?"*
-
-**Stage 6 — Ascend**
-The customer has trust established through a positive first experience. They are receptive to
-higher-value offers, retainers, or premium packages. This is where revenue is made. Customer
-mindset: *"What else can this brand do for me?"*
-
-**Stage 7 — Advocate**
-The customer shares positive experience unprompted — a testimonial, a WhatsApp mention to a
-friend, a positive comment. Advocacy is organic and cannot be forced, only enabled. Customer
-mindset: *"I want others to know about this."*
-
-**Stage 8 — Promote**
-The customer actively refers new customers, participates in a referral programme, or becomes a
-brand ambassador. This is structured, incentivised advocacy. Customer mindset:
-*"I will tell people about this and here is why they should use it."*
-
----
-
-## Entry-Point Offers vs. Ascension Offers
-
-**Entry-Point Offers (Stage 4 — Convert)**
-Designed to remove friction and acquire a first-time buyer. Profit is not the objective.
-The offer must feel low-risk relative to the customer's current level of trust.
-
-Examples for the EA context:
-- Free 30-minute consultation (professional services)
-- Free WhatsApp guide or checklist (coaching, marketing, legal)
-- Low-cost trial session (fitness, tutoring, therapy)
-- Discounted first order with a minimum spend threshold (retail, food)
-- Free audit or site visit (construction, agriculture, IT services)
-
-Design rule: the entry-point offer must deliver genuine value so that Stage 5 (Excite) happens
-naturally. A cheap-feeling offer produces buyer's remorse, not advocacy.
-
-**Ascension Offers (Stage 6 — Ascend)**
-Designed to monetise established trust. Presented only after Stage 5 (Excite) is confirmed.
-Never pitch ascension offers to first-time buyers before they have had a positive experience.
-
-Examples for the EA context:
-- Monthly retainer or subscription (services)
-- Premium package or bundle (products)
-- Annual contract with a loyalty discount
-- Referral reward programme (cash, discount, free month)
-- Exclusive membership or community access
-
----
-
-## Mapping Social Media Content to the CVJ
-
-| Stage | Goal | Primary Platform / Channel | Content Type | CTA |
-|---|---|---|---|---|
-| Aware | Stop the scroll; create first impression | Facebook, TikTok, Instagram, YouTube | Short video, reel, boosted post, referral content | No hard CTA — invite to follow or watch more |
-| Engage | Build interest; demonstrate expertise | Facebook, Instagram, YouTube, LinkedIn | Educational post, how-to video, carousel, blog excerpt | "Save this", "Comment your question", "Read more" |
-| Subscribe | Capture opt-in for ongoing communication | Facebook (page follow), WhatsApp, Email | Lead magnet post, free guide offer, WhatsApp link in bio | "Join our WhatsApp list", "Follow for weekly tips" |
-| Convert | Drive first transaction | WhatsApp broadcast, Facebook, Instagram | Entry-point offer post, limited availability, social proof | "Message us to book", "Order here", "Claim your free consult" |
-| Excite | Confirm the right decision; deliver fast win | WhatsApp (1-to-1 or broadcast), Email | Welcome message, onboarding guide, quick-win tip, thank-you post | "Here is what happens next" |
-| Ascend | Present premium or repeat offer | WhatsApp, Email, Facebook Retargeting | Upgrade offer, bundle, case study, results post | "Ready for the next step?", "Upgrade your package" |
-| Advocate | Enable and capture social proof | Facebook, Instagram, WhatsApp | Testimonial request, review prompt, user-generated content repost | "Share your experience", "Tag us in your results" |
-| Promote | Activate structured referral | WhatsApp, Facebook, Email | Referral programme announcement, incentive post, ambassador content | "Refer a friend and earn…", "Share this link" |
-
----
-
-## WhatsApp in the CVJ
-
-WhatsApp is the dominant Subscribe and Convert engine in East Africa and must be treated as a
-first-class channel in the CVJ, not an afterthought.
-
-**Subscribe stage — WhatsApp opt-in**
-- Include a WhatsApp link or number in every bio, post caption, and Story CTA
-- Offer a specific reason to opt in: a free guide, a price list, a consultation booking
-- Use a welcome message that delivers the promised value immediately
-- Segment broadcast lists by interest or purchase stage where possible
-
-**Convert stage — WhatsApp broadcast**
-- Send entry-point offers to the broadcast list with clear, friction-free CTAs
-- Personalise where possible ("Hi [name]" in bulk messages increases open rates)
-- Respond to enquiries within two hours; delayed responses collapse conversion
-
-**Excite and Ascend — WhatsApp follow-up sequences**
-- Send a post-purchase welcome message within 24 hours of the first transaction
-- Include a quick-win resource (guide, checklist, tip) to deliver immediate value
-- Follow up at Day 3 and Day 7 to check in and introduce the ascension offer
-- Keep broadcast messages under 150 words; use voice notes for warmth where appropriate
-
-**Boundary:** WhatsApp broadcast management (scheduling, list hygiene, automation tools) is out
-of scope for this skill. This skill produces the content strategy and message outlines only.
-
----
-
-## CVJ Audit — Assessing the Client's Current Content
-
-Before building the plan, audit where the client's existing content sits across the 8 stages.
-
-**Step 1 — Content inventory**
-Review the last 30 posts across all active platforms. Categorise each post by CVJ stage using the
-content type column in the mapping table above.
-
-**Step 2 — Stage distribution**
-Count how many posts fall into each stage. Express as a percentage of total posts.
-
-**Step 3 — Gap identification**
-Identify stages with 0% or under 10% of content. These are the gaps the content plan must fill.
-
-**Step 4 — Mechanism audit**
-Check whether the following mechanisms exist:
-- Subscribe: Is there a WhatsApp opt-in link or follow CTA on every platform? (Yes / No)
-- Convert: Is there a current entry-point offer? Is it clearly communicated? (Yes / No)
-- Excite: Is there a post-purchase welcome sequence? (Yes / No)
-- Promote: Is there an active referral mechanism? (Yes / No)
-
-**Step 5 — Failure mode classification**
-Based on Steps 2 and 4, classify the client as Failure Mode 1 (all promotional), Failure Mode 2
-(all awareness), or Mixed (gaps in specific stages).
-
----
-
-## Building the CVJ Content Plan
-
-Apply the following recommended content ratio as a starting point. Adjust based on audit results:
-clients with a large Aware/Engage deficit should weight more heavily toward the top of the
-journey; clients with low conversion rates should weight toward Convert and Excite.
+1. Confirm the request is a full-funnel journey plan, not pillar themes (`10-content-pillars`) or a review programme (`strategy-ewom-reviews`); run the intake questions in the [CVJ method](references/cvj-method.md).
+2. Audit the last 30 posts: categorise each by CVJ stage, express the distribution as percentages and flag stages at 0 % or under 10 %; stop when there is no offer or sales data to map against.
+3. Run the mechanism audit (Subscribe opt-in, Convert offer, Excite welcome sequence, Promote referral) and classify the client as Failure Mode 1 (all promotional), Failure Mode 2 (all awareness) or Mixed.
+4. Design or confirm the entry-point offer (Stage 4) and the ascension offer (Stage 6), with ascension pitched only after Excite is confirmed.
+5. Set the content share by journey zone, adjusting it to the audit with a stated rationale, then for each gap stage write three to five industry-specific content ideas, the platform and format, the CTA to the next stage and the WhatsApp integration point.
+6. Design the referral loop (enable Advocate, activate Promote) and map primary, secondary and vanity metrics to each stage; use the [experience map layout](references/experience-map-and-journey-layout.md) when the client needs the journey drawn.
+7. Check every stage has two to three touchpoints before its CTA advances the customer; correct any single-post Aware-to-Convert jump and rerun the check, then run the anti-slop gate and hand over.
+
+## Content share by journey zone
+
+Starting ratio; adjust to audit results (large Aware/Engage deficit → weight the top; low conversion → weight Convert and Excite).
 
 | Journey Zone | Stages | Recommended Content Share |
 |---|---|---|
@@ -300,91 +60,70 @@ journey; clients with low conversion rates should weight toward Convert and Exci
 | Retention and growth | Excite + Ascend | 20% |
 | Referral | Advocate + Promote | 10% |
 
-**For each gap identified in the audit, generate:**
-1. Three to five specific content ideas for that stage, matched to the client's industry
-2. The platform and format best suited to that stage (use the mapping table)
-3. The CTA that moves the customer to the next stage
-4. The WhatsApp integration point, where applicable
+## Outputs
 
-**Content sequencing rule:** A customer cannot be moved from Aware to Convert in a single post.
-Design content flows where each stage has at least two to three touchpoints before the CTA
-advances the customer. Exception: warm referrals (arriving via Stage 8 — Promote) may enter at
-Subscribe or Convert directly.
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| CVJ audit: stage distribution, mechanism audit and failure-mode classification | Client lead | Based on the last 30 posts, with 0 % and under-10 % stages named. |
+| CVJ content plan by stage with content ideas, platform, format, CTA and WhatsApp point | Content team; `11-content-calendar` | Three to five industry-specific ideas per gap stage; ratio deviations explained. |
+| Entry-point and ascension offer outlines and WhatsApp message outlines | Client lead; sales owner | Ascension follows Excite; message outlines only, no automation. |
+| Referral loop design and stage metric map | Client lead; analytics owner | Incentivised Promote steps with source tracking; each stage names its vanity-metric trap. |
 
----
+## Evidence Produced
 
-## Referral Loop Design (Advocate and Promote)
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| 30-post stage inventory | Table: post, platform, stage | Every post has one stage and the percentages sum to 100. |
+| Mechanism audit | Yes/No table per mechanism | Each answer is observed on the live profile or marked `not assessed`. |
+| Offer and lifetime-value assumptions | Register | Each price or CLV figure names its source or is labelled an assumption. |
 
-The referral loop is the highest-ROI section of the CVJ for EA SMEs because word-of-mouth is the
-dominant trust mechanism in markets with limited consumer review infrastructure.
+## Capability and Permission Boundaries
 
-**Enabling Advocate (unprompted sharing):**
-- Deliver a result so clearly positive that sharing feels natural
-- Make it easy to share: provide a WhatsApp-forwardable message, a shareable graphic, a quote card
-- Ask for testimonials at the moment of highest satisfaction (immediately after a result is
-  achieved, not weeks later)
-- Repost and celebrate customer results publicly to signal that advocacy is valued
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. WhatsApp broadcast management (scheduling, list hygiene, automation tools) is out of scope; this skill produces the content strategy and message outlines only.
 
-**Activating Promote (structured referral):**
-- Design a referral mechanism with a specific incentive: cash reward, discount on next purchase,
-  free session, or loyalty points
-- Communicate the referral programme clearly and repeatedly — most customers do not refer because
-  they were never asked
-- Create a WhatsApp message template the customer can forward verbatim ("Tell your friend to
-  mention your name and they get X")
-- Track referral sources so the incentive can be honoured and the programme can be optimised
+## Degraded Mode
 
-**Referral loop content cadence:**
-- Post a testimonial or case study every two weeks minimum
-- Send a referral programme reminder via WhatsApp broadcast once per month
-- Acknowledge and thank referrers publicly (with permission) to reinforce the behaviour
+Without the client's recent posts and offer or sales data, return the narrowest qualified result and mark the affected checks `not assessed`. The eight-stage map, a provisional failure-mode diagnosis and offer and referral outlines can still be delivered for client confirmation.
 
----
+## Decision Rules
 
-## Metrics Per CVJ Stage
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| Content is concentrated at one funnel stage | Map the missing stage, CTA, channel, and metric before adding volume. | More posts reproduce the same funnel gap. |
+| The client posts discounts, product shots and price lists only (Failure Mode 1) | Add Aware and Engage content that builds trust before any ask. | Every post asking for money before trust is established. |
+| Engagement looks healthy but sales do not follow (Failure Mode 2) | Add a Subscribe mechanism (WhatsApp opt-in) and a Convert offer. | An audience that consumes content and moves on. |
+| A first-time buyer has not yet had a positive experience | Hold the ascension offer until Stage 5 (Excite) is confirmed. | Buyer's remorse and lost Ascend and Advocate potential. |
+| The customer arrives as a warm referral (Stage 8 — Promote) | Let them enter at Subscribe or Convert directly. | Needless nurture delaying a ready buyer. |
+| A stage is measured by a vanity metric (for example likes as a measure of conversion) | Replace it with the stage's primary metric from the metric map. | Reporting activity as progress. |
+| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source. | Confident advice built on an unresolved premise. |
+| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist. | Unauthorised publication, spend, outreach, or data use. |
 
-Map vanity metrics to their correct stage so clients understand what each number actually measures.
+## Quality Standards
 
-| Stage | Primary Metric | Secondary Metric | Vanity Metric Trap |
-|---|---|---|---|
-| Aware | Reach, impressions, new accounts reached | Video views, shares | Likes (measure engagement, not awareness) |
-| Engage | Post saves, comments, shares, watch time | Profile visits, link clicks | Total likes (does not indicate intent) |
-| Subscribe | WhatsApp opt-ins, page follows, email sign-ups | Lead magnet downloads | Follower count (measures Subscribe accumulation, not rate) |
-| Convert | First purchases, consultation bookings, enquiries that convert | Cost per acquisition | Enquiry volume (high enquiries with low conversions = friction problem) |
-| Excite | Repeat WhatsApp engagement, positive reply rate, Day-7 retention | Return visit rate | Post-purchase likes (does not measure satisfaction) |
-| Ascend | Upsell conversion rate, average order value, retainer sign-ups | Revenue per existing customer | Total revenue (does not isolate ascension performance) |
-| Advocate | Testimonials received, user-generated content tags, unprompted shares | Review volume, positive sentiment | Comment volume (not all comments are advocacy) |
-| Promote | Referrals attributed, referral conversion rate, referral revenue | Referral programme participation rate | Shares (shares do not always produce referral actions) |
+- Correctly attributes the CVJ framework to Ryan Deiss / DigitalMarketer and does not conflate it with the RACE framework or other funnel models.
+- Diagnoses the failure mode before prescribing content — the plan is specific to whether the client is over-indexed on promotional or awareness content, or has specific stage gaps.
+- Integrates WhatsApp as a primary channel at Subscribe, Convert, and Excite stages, not as an optional add-on; reflects the EA market reality.
+- Provides actionable content ideas for each gap stage, matched to the client's industry and platform mix — not generic descriptions of content types.
+- Includes a referral mechanism with specific, incentivised steps for Advocate and Promote stages; does not treat referrals as organic and unmanageable.
+- Maps metrics to stages correctly and explicitly identifies which metrics are vanity metrics at the wrong stage (e.g. likes as a measure of conversion).
+- Respects the content ratio as a starting point and adjusts it to the client's audit results with a clear rationale for any deviation.
+- Stays within scope — this skill produces content strategy and message outlines; it does not produce graphic design briefs, paid ad campaign structures, or WhatsApp automation code.
 
----
+## Anti-Patterns
 
-## Quality Criteria
-
-Output meets the standard of this skill if it:
-
-1. **Correctly attributes the CVJ framework** to Ryan Deiss / DigitalMarketer and does not
-   conflate it with the RACE framework or other funnel models.
-2. **Diagnoses the failure mode** before prescribing content — the plan is specific to whether
-   the client is over-indexed on promotional or awareness content, or has specific stage gaps.
-3. **Integrates WhatsApp as a primary channel** at Subscribe, Convert, and Excite stages, not as
-   an optional add-on; reflects the EA market reality.
-4. **Provides actionable content ideas** for each gap stage, matched to the client's industry and
-   platform mix — not generic descriptions of content types.
-5. **Includes a referral mechanism** with specific, incentivised steps for Advocate and Promote
-   stages; does not treat referrals as organic and unmanageable.
-6. **Maps metrics to stages correctly** and explicitly identifies which metrics are vanity metrics
-   at the wrong stage (e.g. likes as a measure of conversion).
-7. **Respects the content ratio** as a starting point and adjusts it to the client's audit results
-   with a clear rationale for any deviation.
-8. **Stays within scope** — this skill produces content strategy and message outlines; it does not
-   produce graphic design briefs, paid ad campaign structures, or WhatsApp automation code.
-
----
+- Treating social media as a single-stage activity. Fix: map content across all eight CVJ stages.
+- A cheap-feeling entry-point offer. Fix: make it deliver genuine value so Excite happens naturally.
+- Replying to WhatsApp enquiries after hours or days. Fix: respond within two hours; send the post-purchase welcome within 24 hours and follow up at Day 3 and Day 7.
+- Asking for testimonials weeks after the result. Fix: ask at the moment of highest satisfaction and give a forwardable WhatsApp message.
+- Assuming customers will refer without being asked. Fix: announce the referral programme clearly and repeatedly, with a monthly WhatsApp reminder.
+- Inventing a client metric, price or offer. Fix: verify it or label the decision provisional.
 
 ## References
 
-- Deiss, R. and DigitalMarketer (2023) *The Customer Value Journey*. DigitalMarketer.com
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley
-- Kotler, P. et al. (2023) *Marketing Management*. Pearson
-- [Book-driven campaign learning and retention](../../meta-utility/references/book-driven-campaign-learning-and-retention.md) - durable synthesis and current platform-policy gate.
+- [CVJ method](references/cvj-method.md): read when running the intake, explaining the eight stages, designing offers, mapping content and WhatsApp to stages, running the audit, building the plan, designing the referral loop, choosing stage metrics or citing the sources.
+- [Experience map and journey layout](references/experience-map-and-journey-layout.md): read when mapping scope level, experience phases, a user journey or the suspect-to-reference funnel matrix.
+- [Book-driven campaign learning and retention](../../meta-utility/references/book-driven-campaign-learning-and-retention.md): read when applying the durable synthesis and the current platform-policy gate.
+- [`strategy-ewom-reviews`](../strategy-ewom-reviews/SKILL.md): read when the Advocate and Promote stages need a full review, testimonial or referral programme.
+- [AGENTS.md](../../../AGENTS.md): read when routing to a neighbour skill or engine.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting content ideas and WhatsApp message outlines.
+<!-- dual-compat-end -->

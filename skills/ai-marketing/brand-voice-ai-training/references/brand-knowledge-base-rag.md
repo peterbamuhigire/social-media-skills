@@ -4,7 +4,7 @@ Merged from skills/ai-marketing/ai-rag-brand-knowledge-base on 2026-09-29 at 7c6
 
 ## When to use this reference
 
-Use it when the client needs more than a Brand Context Block: a document library that an AI tool retrieves from before it writes, so that captions, customer-service answers and strategy drafts use the client's real product names, UGX prices, policies, audience and local context. The Brand Context Block (SKILL.md Steps 1–6) fixes *how* the brand sounds; the knowledge base fixes *what* the AI knows. Most clients need both: the block is loaded as one document inside the knowledge base, and the knowledge base supplies the facts the block cannot hold.
+Use it when the client needs more than a Brand Context Block: a document library that an AI tool retrieves from before it writes, so that captions, customer-service answers and strategy drafts use the client's real product names, UGX prices, policies, audience and local context. The Brand Context Block ([brand-context-block-method.md](brand-context-block-method.md) Steps 1–6) fixes *how* the brand sounds; the knowledge base fixes *what* the AI knows. Most clients need both: the block is loaded as one document inside the knowledge base, and the knowledge base supplies the facts the block cannot hold.
 
 Typical triggers: the client uses AI for content creation, customer service (chatbot or AI-assisted replies) or strategy and planning, and outputs are generic, factually unreliable or off-brand.
 
@@ -45,7 +45,7 @@ Ask for the following before building the knowledge base (pull shared answers fr
 
 | Situation | Action | Failure avoided |
 |---|---|---|
-| Client needs consistent voice only, few facts change | Brand Context Block alone (SKILL.md Step 3) | Over-building a library nobody maintains |
+| Client needs consistent voice only, few facts change | Brand Context Block alone ([brand-context-block-method.md](brand-context-block-method.md) Step 3) | Over-building a library nobody maintains |
 | AI output repeats wrong prices, products or policies | Build the knowledge base; load the Brand Context Block as one of its documents | Factually wrong captions and customer answers |
 | Choosing a tool | Match budget, technical capacity and primary use case; default most Ugandan SMEs to Claude Projects or ChatGPT Projects | Defaulting to the most expensive platform |
 | Output is off-brand after a query | Fix and re-date the source document, then reload it; do not just re-prompt | The same error recurring next session |
@@ -153,7 +153,7 @@ Write this workflow down and share it with every team member who uses the knowle
 
 ### Step E — Maintain the knowledge base
 
-Schedule a quarterly review with a named owner, typically the social media manager or content lead. Align it with the Brand Context Block review (SKILL.md Step 6).
+Schedule a quarterly review with a named owner, typically the social media manager or content lead. Align it with the Brand Context Block review ([brand-context-block-method.md](brand-context-block-method.md) Step 6).
 
 Quarterly review checklist:
 

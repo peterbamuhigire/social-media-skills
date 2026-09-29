@@ -94,4 +94,4 @@ After the table, include:
 
 - Dallas, M. (2022) *Social Media Marketing Algorithms*
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken, NJ: Wiley
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.

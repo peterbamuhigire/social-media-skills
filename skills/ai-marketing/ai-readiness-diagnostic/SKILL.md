@@ -9,6 +9,8 @@ metadata:
 ---
 # AI Readiness Diagnostic
 
+Scores a client's AI marketing maturity across five domains with 41 yes/no items, places them on a step of the AI Marketing Canvas (Venkatesan and Lecinski, 2026) and gives a prioritised 90-day plan a non-technical business owner can act on.
+
 <!-- dual-compat-start -->
 ## Use When
 - Are we ready for AI? Score our marketing maturity across data, team, tools and processes before we buy anything.
@@ -23,159 +25,29 @@ metadata:
 - Stop before any AI tool is connected to customer data that lacks a lawful basis, consent or an accountable owner; deliver the remediation plan instead.
 
 ## Required Inputs
+
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| AI marketing use-case brief, intended human control point and success measure | Requester or approved brief | Yes | Stop and request the missing decision context. |
-| Brand voice, offer facts, constraints and approvals | Client source pack or authorised owner | Conditional | State assumptions; do not invent names, prices, results or approvals. |
-| Performance, platform or research evidence used for claims | Traceable export, URL, document or named source | Conditional | Issue a qualified finding and identify the evidence needed. |
-
-## Capability and Permission Boundaries
-Default to read-only: inspect supplied material and report findings. Editing, publishing, contacting people, spending, or changing live systems requires separate explicit authority. Minimum capabilities are read access to supplied files and search across the authorised evidence set. Use only the files, tools, accounts and evidence made available for the engagement, expose every unassessed check, and obtain explicit authority before any mutation.
-
-## Degraded Mode
-Fallback: if files, network access, platform data, language review or production tools are unavailable, return the narrowest useful qualified scored diagnostic; mark unavailable checks `not assessed` and never convert them into a pass.
-
-## Decision Rules
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Data readiness, AI maturity and risk support the proposed operating level | Choose the lowest viable automation level and define its human approval gate. | Automating an unsafe or unevaluable marketing process. |
-| A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
-| Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
-| Data Foundation scores 0–3, or the client asks for a customer-data hygiene audit before buying AI tools | Run the 20-item hygiene checklist, data map and 30-day remediation plan in [data-foundation-audit.md](references/data-foundation-audit.md). | Connecting AI tools to fragmented, duplicated or non-consented data. |
-| The client needs a 90-day data foundation build (inventory, RAG quality scorecard, customer schema, DPA 2019 consent) | Produce the plan in [data-foundation-plan.md](references/data-foundation-plan.md). | A generic schema or vague plan that never reaches a measurable data health score. |
-| The client wants the completed AI Marketing Canvas and a 12-month roadmap, not only the score | Place them with the nine-question canvas diagnostic and build the canvas and roadmap in [ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md). | Step inflation and a roadmap the client cannot execute. |
+|---|---|---|---|
+| Business name, industry, country/city, primary marketing goal and marketing team size | Client or approved brief | Yes | Ask before starting; default the location to Uganda/East Africa only when it is not stated. |
+| Answers to all 41 diagnostic questions, recorded Y or N | Walk-through with the client | Yes | Where the client is genuinely uncertain, record N and note it for follow-up; never skip or estimate an item without a recorded reason. |
+| The client's answer to "Which wave best describes your current AI marketing activity?" | Client | Conditional | Infer the wave from the AI Deployment answers and label it an inference. |
+| Customer-data sources, owners and consent records | Client CRM, spreadsheets, WhatsApp and Facebook exports | Conditional (Data Foundation 0–3 or a data audit request) | Deliver the hygiene checklist as questions and mark consent and lawful basis `not assessed`. |
+| Tool budget, payment options and current subscriptions | Client finance or marketing lead | Conditional | Recommend free tiers only and flag any paid tool as unpriced. |
 
 ## Workflow
-1. Confirm the exact scored diagnostic, consumer, market, channel and approval boundary; route to `ai-use-case-mapping` if it is the closer match.
-2. Inventory supplied facts, source provenance, constraints and missing inputs; stop if the objective, audience or authority is unknowable.
-3. Select the domain method and record the material decision behind it before drafting.
-4. Produce the smallest complete scored diagnostic; keep facts traceable and placeholders visibly unresolved.
-5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
-6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 
-## Outputs
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Scored diagnostic | Requester, client reviewer or delivery team | The scored diagnostic addresses the named audience and objective, records assumptions, and passes the skill's domain checks without invented facts. |
-| Decision and gap note | Approver or next workflow | Names the chosen route, evidence used, unresolved inputs and any action requiring authority. |
+1. Confirm the business profile and the decision the diagnostic serves; route to `ai-use-case-mapping` if the client already knows its maturity and only needs task priorities.
+2. Walk through all 41 items with the client, recording Y or N; stop and complete the intake before scoring if any item is unanswered, using the [diagnostic method](references/readiness-diagnostic-method.md).
+3. Score each domain, total the score, set the Canvas step and apply the domain gap thresholds below; convert the total to a percentage (total ÷ 41 × 100) for the Use Case Matrix.
+4. Ask the maturity-wave question (Nayebi, 2025) and use the answer to calibrate the roadmap.
+5. Write the five report sections in order: score summary table first, Canvas step diagnosis, top 3 priority gaps, 90-day action plan (three named actions per 30-day block) and recommended tools calibrated to the step.
+6. Where Data Foundation scores 0–3 or the client asks for a data audit, add the hygiene audit or the 90-day data foundation plan; where the client wants the full canvas, add the canvas and 12-month roadmap.
+7. Check the report against the Quality Standards; correct any miscounted score, generic action or out-of-market tool and rerun the check before delivery.
+8. Deliver with the unassessed items, follow-up list for uncertain answers and the next approval or verification step.
 
-## Evidence Produced
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Finding-to-source register and unassessed-check list | Inline table, checklist or linked source note | Every material claim, decision and unavailable check is traceable. |
+## Scoring bands
 
-## Quality Standards
-- Preserve the domain guidance and East African market context below; replace it only when the requester names another market.
-- Use British English unless the target language or market requires otherwise, and verify names, figures, quotations and platform rules before use.
-- Make the key choice visible, cover failure and edge cases, and keep the result ready for its named consumer.
-- Run the repository's `anti-ai-slop` ship gate; a blocking factual, cultural, safety or permission defect stops release.
-
-## Anti-Patterns
-- Writing before the objective and audience are known. **Fix:** stop and obtain the missing brief fields.
-- Reusing a neighbouring skill's template because the headings look similar. **Fix:** route by the requested scored diagnostic, not vocabulary overlap.
-- Adding a price, result, quotation, platform limit or cultural claim without a traceable source. **Fix:** verify it or qualify/remove it.
-- Treating missing access, evidence or native-language review as approval. **Fix:** mark the check `not assessed` and narrow the result.
-- Publishing, sending, spending or changing a live account from drafting authority alone. **Fix:** obtain explicit action-specific authority and retain the approval record.
-
-## References
-- [ai-use-case-mapping](../ai-use-case-mapping/SKILL.md) is the nearest routing comparison for this skill.
-- [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
-- [data-foundation-audit](references/data-foundation-audit.md) — read when auditing fragmented customer data (hygiene checklist, data map, 30-day remediation) before any AI tool is connected.
-- [data-foundation-plan](references/data-foundation-plan.md) — read when a larger client needs a 90-day data foundation plan with customer schema and Uganda DPA 2019 consent.
-- [data-product-and-ai-foundation-principles](references/data-product-and-ai-foundation-principles.md) — read when the plan must cover data-product ownership, lineage, freshness, audience boundaries or AI marketing controls.
-- [ai-marketing-canvas-scoring](references/ai-marketing-canvas-scoring.md) — read when completing the AI Marketing Canvas, four customer moments and 12-month roadmap after scoring.
-<!-- dual-compat-end -->
-
-## Purpose
-Assess a client's current AI marketing maturity across five domains, calculate
-their AI Marketing Canvas step, and produce a practical, prioritised action plan
-that reflects their actual starting point. Output is structured for a
-non-technical business owner to read and act on immediately.
-
-After completing this diagnostic, use
-[ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md) for
-full canvas completion and strategic roadmap development.
-
-## Required Inputs
-Ask for the following before beginning:
-
-- **Business name** — trading name of the client organisation
-- **Industry** — sector and nature of the business
-- **Country / city** — primary operating location (default: Uganda/East Africa)
-- **Primary marketing goal** — what the client most wants marketing to achieve
-- **Team size** — approximate number of people in the marketing function
-
-Then walk through all 41 diagnostic questions together with the client,
-recording Y (Yes) or N (No) for each item. Do not skip questions. If the client
-is genuinely uncertain, default to N and note it for follow-up.
-
-## The 41-Item Diagnostic
-### Domain 1: Data Foundation (8 items)
-1. Do you have a single, centralised customer database?
-2. Is customer data cleaned and deduplicated at least quarterly?
-3. Do you track customer behaviour across more than one channel?
-4. Do you have explicit customer consent for data collection and use?
-5. Can you segment your customers by behaviour, not just demographics?
-6. Do you have a named person responsible for data quality?
-7. Do you have a documented data governance policy?
-8. Can you link online and offline customer data?
-
-### Domain 2: Technology Stack (8 items)
-9. Do you have a CRM system in active use?
-10. Do you use a social media scheduling tool?
-11. Do you use an email marketing platform?
-12. Do you have website analytics in place (GA4 or similar)?
-13. Do you use any AI-powered content creation tools?
-14. Do you use any marketing automation (Zapier, Make, or similar)?
-15. Do you use any AI analytics or reporting tools?
-16. Do you have a documented tech stack with assigned owners?
-
-### Domain 3: Team Capability (8 items)
-17. Has your marketing team used ChatGPT or a similar LLM in the last 30 days?
-18. Does anyone on your team understand prompt engineering basics?
-19. Has your team received any AI tools training in the last 12 months?
-20. Do you have a documented AI use policy for staff?
-21. Is there a senior leader who champions AI adoption?
-22. Does your team feel comfortable experimenting with new tools?
-23. Do you regularly review how AI tools are being used?
-24. Does your team know the difference between AI-generated and human-created content?
-
-### Domain 4: AI Deployment (9 items)
-25. Do you use AI for any content creation (captions, blogs, emails)?
-26. Do you use AI for social media scheduling or posting?
-27. Do you use AI for customer segmentation or targeting?
-28. Do you use AI-powered chatbots or automated messaging?
-29. Do you use AI for sentiment analysis or social listening?
-30. Do you use AI for paid advertising optimisation?
-31. Do you use AI for performance reporting or forecasting?
-32. Do you have real-time personalisation in any marketing channel?
-33. Has AI changed how you make budget or strategy decisions?
-
-### Domain 5: Business Impact (8 items)
-34. Has AI reduced time spent on content creation by at least 25%?
-35. Have AI experiments produced measurable ROI?
-36. Has AI improved audience targeting or engagement rates?
-37. Has AI enabled you to produce more content at the same cost?
-38. Has AI created new revenue streams or business models?
-39. Do you have AI-specific KPIs in your marketing plan?
-40. Do senior stakeholders receive regular AI performance updates?
-41. Has AI changed your competitive position in your market?
-
-## Scoring
-### Step 1: Calculate domain scores
-Count the number of YES answers in each domain:
-
-| Domain | Items | Max Score |
-|---|---|---|
-| 1. Data Foundation | 1–8 | 8 |
-| 2. Technology Stack | 9–16 | 8 |
-| 3. Team Capability | 17–24 | 8 |
-| 4. AI Deployment | 25–33 | 9 |
-| 5. Business Impact | 34–41 | 8 |
-| **Total** | 1–41 | **41** |
-
-### Step 2: Identify the AI Marketing Canvas step
-| Total Score | Canvas Step |
+| Total score | Canvas step |
 |---|---|
 | 0–8 | Step 1 — Foundation |
 | 9–16 | Step 2 — Experimentation |
@@ -183,192 +55,74 @@ Count the number of YES answers in each domain:
 | 25–32 | Step 4 — Transformation |
 | 33–41 | Step 5 — Reinvention |
 
-### Step 3: Interpret domain scores
-Apply these thresholds to identify specific gap areas:
+Domain maxima: Data Foundation 8 (items 1–8), Technology Stack 8 (9–16), Team Capability 8 (17–24), AI Deployment 9 (25–33), Business Impact 8 (34–41); total 41. Gap thresholds: Data Foundation 0–3, Technology Stack 0–3, Team Capability 0–3, AI Deployment 0–4, Business Impact 0–3. Most Ugandan and East African SMEs score between 4 and 12 (Step 1 or early Step 2); this reflects the market's stage of AI adoption, not a failure.
 
-| Domain | Score | Interpretation |
+## Outputs
+
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Data Foundation | 0–3 | Critical gap — no AI programme can succeed without this |
-| Technology Stack | 0–3 | Tool gaps limit what AI can do |
-| Team Capability | 0–3 | Training is the priority before any tool investment |
-| AI Deployment | 0–4 | Experimentation is the immediate priority |
-| Business Impact | 0–3 | Either early stage or AI is not yet being measured |
+| Scored diagnostic report (score summary, Canvas step diagnosis, top 3 gaps, 90-day plan, tools) | Non-technical business owner | Readable without a consultant present; the score table comes first and each gap names its N items and first action. |
+| Data foundation audit or 90-day data foundation plan (when triggered) | Client data owner | Hygiene checklist, data map and remediation plan, or inventory, RAG quality scorecard, customer schema and DPA 2019 consent, are complete. |
+| AI Marketing Canvas and 12-month quarterly roadmap (when requested) | Client leadership | Four customer moments completed and the roadmap is calibrated to the diagnosed step. |
+| Gap and follow-up note | Consultant and `ai-use-case-mapping` | Uncertain answers, unassessed checks and actions needing authority are listed with owners. |
 
-## Output Structure
-Produce the following five sections in order.
+## Evidence Produced
 
-### Section 1: Score Summary Table
-Present a clean table showing:
-
-- Each domain name
-- Domain score (e.g., 3/8)
-- A one-word status: **Strong**, **Developing**, or **Critical**
-- Total score and Canvas step
-
-Example format:
-
-| Domain | Score | Status |
+| Evidence | Format | Acceptance condition |
 |---|---|---|
-| Data Foundation | 3/8 | Critical |
-| Technology Stack | 5/8 | Developing |
-| Team Capability | 4/8 | Developing |
-| AI Deployment | 2/9 | Critical |
-| Business Impact | 1/8 | Critical |
-| **Total** | **15/41** | **Step 2 — Experimentation** |
+| 41-item answer sheet | Table: item, domain, Y/N, note | Every item answered; each uncertain N carries a follow-up note. |
+| Score calculation | Table: domain score, total, percentage, Canvas step, matrix quadrant | Domain sums, total and step reconcile with the answer sheet. |
+| Tool recommendation register | Table: need, tool, tier, price source and date | Every tool has a tier and a dated price or is flagged unpriced. |
 
-### Section 2: Canvas Step Diagnosis
-Write one paragraph in plain English explaining:
+## Capability and Permission Boundaries
 
-- Which step the client is at and what that means in practice
-- What characterises organisations at this step
-- What is typically holding them back
-- What the realistic next step looks like
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. The diagnostic never connects an AI tool to customer data; that needs a lawful basis, consent and an accountable owner first.
 
-Be honest. If the client is at Step 1, say so directly and explain what that
-means without softening the message into vagueness.
+## Degraded Mode
 
-Source: Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*,
-2nd edn. Stanford Business Books.
+Without the client's own answers to the 41 items, return the narrowest qualified result and mark the affected checks `not assessed`. A blank answer sheet, the scoring bands and the East African starting-point context can still be delivered, but no step or score is stated.
 
-### Section 3: Top 3 Priority Gaps
-Identify the three most urgent gaps based on domain scores and individual
-question responses. Rank them most urgent first. For each gap:
+## Decision Rules
 
-- **Gap title** — name the specific weakness
-- **Why it matters** — one sentence on the business consequence
-- **What is missing** — the specific Y/N items that are N
-- **First action** — the single most important thing to do about it
-
-### Section 4: 90-Day Action Plan
-Structure three 30-day blocks. Include exactly three named, specific actions
-per block. Actions must be concrete (name a tool, name a process, name a
-person or role).
-
-**Days 1–30: Stabilise the Foundation**
-
-- Action 1
-- Action 2
-- Action 3
-
-**Days 31–60: Build Capability**
-
-- Action 1
-- Action 2
-- Action 3
-
-**Days 61–90: Begin Deployment**
-
-- Action 1
-- Action 2
-- Action 3
-
-Calibrate ambition to the client's step. A Step 1 client's 90-day plan is about
-getting basic data and tools in place — not deploying AI-powered personalisation.
-
-### Section 5: Recommended Tools
-Recommend tools appropriate to the client's current Canvas step and the East
-African market. Prioritise:
-
-1. Free tiers before paid subscriptions
-2. Tools accessible from Uganda without VPN or restricted payment
-3. UGX pricing or USD pricing with local payment options where available
-
-**Step 1–2 tool recommendations to consider:**
-
-| Need | Tool | Tier |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| CRM | HubSpot CRM | Free |
-| Email marketing | Mailchimp | Free up to 500 contacts |
-| Social scheduling | Buffer | Free (3 channels) |
-| Website analytics | Google Analytics 4 | Free |
-| AI content creation | ChatGPT (GPT-4o) | Free / Plus at ~UGX 130,000/month |
-| AI content creation | Gemini | Free |
-| Automation | Zapier | Free (5 zaps) |
-| WhatsApp automation | Africa's Talking | Pay-as-you-go, UGX-compatible |
-| SMS automation | Africa's Talking | Pay-as-you-go |
+| The client is unsure how to answer an item | Record N and note it for follow-up. | An inflated score and a roadmap the client cannot execute. |
+| The total places the client at Step 1 | Say so directly and explain what that means in practice; the 90-day plan is about basic data and tools, not AI-powered personalisation. | Softened, vague advice that hides the real starting point. |
+| Data Foundation scores 0–3, or the client asks for a customer-data hygiene audit before buying AI tools | Run the 20-item hygiene checklist, data map and 30-day remediation plan in [data-foundation-audit.md](references/data-foundation-audit.md). | Connecting AI tools to fragmented, duplicated or non-consented data. |
+| The client needs a 90-day data foundation build (inventory, RAG quality scorecard, customer schema, DPA 2019 consent) | Produce the plan in [data-foundation-plan.md](references/data-foundation-plan.md). | A generic schema or vague plan that never reaches a measurable data health score. |
+| The client wants the completed AI Marketing Canvas and a 12-month roadmap, not only the score | Place them with the nine-question canvas diagnostic and build the canvas and roadmap in [ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md). | Step inflation and a roadmap the client cannot execute. |
+| Score percentage is 0–25 %, 26–50 %, 51–75 % or 76–100 % | Scope the Use Case Matrix: Internal/Productivity only; add an External/Productivity pilot; all four quadrants with the highest-ROI cell first; full transformation with Monetisation (Canvas Step 5). For every use case, choose the lowest viable automation level that data readiness, AI maturity and risk support, and define its human approval gate. | Deploying growth-quadrant AI before the basics exist. |
+| A tool is recommended | Prefer free tiers, tools accessible from Uganda without VPN or restricted payment, and UGX or USD pricing with local payment options. | Tools the client cannot pay for or reach. |
+| The client already uses WhatsApp for customer communication | Count it toward the Technology Stack domain and formalise it via Africa's Talking or similar APIs. | Ignoring the client's strongest existing channel. |
 
-**Step 3–4 tool recommendations to consider:**
+## Quality Standards
 
-| Need | Tool | Tier |
-|---|---|---|
-| CRM with automation | HubSpot Starter | From ~USD 20/month |
-| AI writing at scale | Jasper or Copy.ai | From ~USD 39/month |
-| Social listening | Brandwatch Lite or Mention | From ~USD 29/month |
-| Reporting | Looker Studio | Free |
-| AI analytics | Polymer or Akkio | From ~USD 20/month |
-| Chatbot | Tidio or Landbot | Free tier available |
+- All 41 items are addressed; no question is skipped or estimated without a reason recorded.
+- The total score is calculated accurately and the Canvas step is stated clearly.
+- The domain breakdown reveals specific gap areas and is not reduced to a single total score.
+- The 90-day plan contains specific, named actions (a tool, a process, a person or role), not generic advice such as "improve data quality".
+- Tool recommendations match the client's step and are accessible in the East African market, with free tiers prioritised.
+- Language is honest: if the client is at Step 1, the diagnosis says so clearly and explains what that means in practical terms.
+- The output is structured so a non-technical business owner can read it without a consultant present and know exactly what to do next.
+- The score summary table is the first thing the client sees; context and explanation follow the data.
 
-Note the WhatsApp advantage: if the client is already using WhatsApp for
-customer communications, this counts toward the Technology Stack domain
-and can be formalised quickly via Africa's Talking or similar APIs.
+## Anti-Patterns
 
-## East African Market Context
-Most Ugandan and East African SMEs score between 4 and 12 on this diagnostic,
-placing them at Step 1 or early Step 2. This is not a failure — it reflects
-the market's current stage of AI adoption.
-
-Common patterns to look for:
-
-- **No CRM**: Customer contacts held in Excel spreadsheets or WhatsApp groups.
-  Recommend HubSpot Free as the immediate priority.
-- **WhatsApp already in use**: Formalise this into the tech stack. Africa's
-  Talking enables automated WhatsApp and SMS flows at low cost.
-- **Team capability gap**: Many teams have experimented with ChatGPT informally
-  but have no policy, no training, and no structured prompting practice.
-  The `training-client-team` skill provides a structured training programme.
-- **Budget sensitivity**: Lead with free tiers. Demonstrate value before
-  recommending any paid subscription.
-
-## AI Use Case Matrix (Venkatesan and Lecinski, 2026)
-Once the diagnostic score is known, map the client's AI readiness to the 2×2 Use Case Matrix:
-
-|  | **Internal** | **External** |
-|---|---|---|
-| **Productivity** | Automate internal workflows: reporting, content briefs, data analysis | Scale customer-facing functions: chatbots, FAQs, WhatsApp automation |
-| **Growth** | Build proprietary data and algorithmic advantages | Deliver personalised customer experiences at scale |
-
-**Recommendation by score:** (Convert raw score to percentage: total ÷ 41 × 100)
-- Score 0–25%: Start in Internal/Productivity quadrant only
-- Score 26–50%: Internal/Productivity + begin External/Productivity pilot
-- Score 51–75%: All four quadrants in scope; prioritise highest-ROI cell
-- Score 76–100%: Full AI transformation; consider Monetisation (Canvas Step 5)
-
-## AI Maturity Wave Assessment (Nayebi, 2025)
-Identify which wave the client currently operates in:
-
-- **Wave 1 — Automation:** Rules-based workflows, scheduled posts, canned responses, basic chatbots. Most EA SMEs are here.
-- **Wave 2 — Predictive ML:** Customer segmentation, engagement prediction, A/B test optimisation, sentiment analysis. Achievable for EA mid-market clients.
-- **Wave 3 — Agentic AI:** Autonomous agents that perceive, reason, act, and learn without human prompts. Horizon planning for EA; immediate for multinational clients.
-
-Ask the client: "Which wave best describes your current AI marketing activity?" Use their answer to calibrate the roadmap in the final section.
-
-## Quality Criteria
-- All 41 items are addressed — no question is skipped or estimated without a
-  reason recorded
-- The total score is calculated accurately and the Canvas step is stated clearly
-- Domain breakdown reveals specific gap areas and is not reduced to a single
-  total score
-- The 90-day plan contains specific, named actions — not generic advice such
-  as "improve data quality"
-- Tool recommendations match the client's step and are accessible in the East
-  African market, with free tiers prioritised
-- Language is honest: if the client is at Step 1, the diagnosis says so clearly
-  and explains what that means in practical terms
-- Output is structured so a non-technical business owner can read it without
-  a consultant present and know exactly what to do next
-- The score summary table is the first thing the client sees — context and
-  explanation follow the data
+- Reporting only the total score. Fix: show each domain score with a Strong, Developing or Critical status.
+- Recommending AI-powered personalisation to a Step 1 client. Fix: calibrate the 90-day plan to getting basic data and tools in place.
+- Filling uncertain answers with Y to be encouraging. Fix: record N and list the item for follow-up.
+- Recommending paid tools first or tools that need a VPN or foreign card. Fix: lead with free tiers and demonstrate value before any paid subscription.
+- Quoting a tool price as current without a date. Fix: record the price source and date or flag it unpriced.
+- Ignoring the informal ChatGPT use most teams already have. Fix: record it under Team Capability and route policy and training to `training-client-team`.
 
 ## References
-Venkatesan, R. and Lecinski, J. (2026) *The AI Marketing Canvas*, 2nd edn.
-Stanford Business Books.
 
-Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*.
-Pearson.
-
-Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
-
-Nayebi, F. (2025) *Foundations of Agentic AI for Retail*. Gradient Divergence.
-
-*For full canvas completion and strategic roadmap development, use
-[ai-marketing-canvas-scoring.md](references/ai-marketing-canvas-scoring.md) after completing this diagnostic.*
+- [Readiness diagnostic method](references/readiness-diagnostic-method.md): read when running the 41 questions, scoring, writing the five report sections, recommending tools, or applying the Use Case Matrix and maturity waves.
+- [data-foundation-audit](references/data-foundation-audit.md): read when auditing fragmented customer data (hygiene checklist, data map, 30-day remediation) before any AI tool is connected.
+- [data-foundation-plan](references/data-foundation-plan.md): read when a larger client needs a 90-day data foundation plan with customer schema and Uganda DPA 2019 consent.
+- [data-product-and-ai-foundation-principles](references/data-product-and-ai-foundation-principles.md): read when the plan must cover data-product ownership, lineage, freshness, audience boundaries or AI marketing controls.
+- [ai-marketing-canvas-scoring](references/ai-marketing-canvas-scoring.md): read when completing the AI Marketing Canvas, four customer moments and 12-month roadmap after scoring.
+- [ai-use-case-mapping](../ai-use-case-mapping/SKILL.md): read when the client needs task-level AI priorities after the diagnostic.
+- [Repository agent guide](../../../AGENTS.md): read when checking the engine-wide market, safety and anti-slop gates.
+- [Anti-AI slop production gate](../anti-ai-slop/SKILL.md): read when writing the diagnosis and action plan text.
+<!-- dual-compat-end -->

@@ -9,6 +9,8 @@ metadata:
 ---
 # Personal Brand Strategy
 
+Builds an individual's public profile, separate from their organisation, from positioning to reputation, platforms, authority and income, adapted to East African client types from professionals to pastors and politicians.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -29,444 +31,96 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to individual positioning, authority, platform presence, content, and monetisation | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Name, role/title and client type (Professional/Consultant, Executive, Politician, Performing Artist, Athlete, Local Celebrity, Pastor, Academic, Creative) | The individual | Yes | Ask; do not apply a generic influencer template to a professional or public figure. |
+| Industry or field, stated narrowly, and country/city | The individual | Yes | Default to Uganda/East Africa and return pillar options for the person to choose from. |
+| Current online presence: platforms, follower or connection counts, what is already published | The individual; profile review | Yes | Audit the public profiles and mark counts `not assessed`. |
+| Ranked primary goal and target audience ("who specifically must know this person?") | The individual | Yes | Plan for Visibility only and hold monetisation until the goal is ranked. |
+| Content comfort (ghost-written, voice-note-to-post, interview-to-content, self-created) and time per week | The individual | Yes | Default to voice-note-to-post, the minimum-effort workflow. |
+| Monetisation intent and model; verified credentials for bios | The individual | If monetising; before any bio | Leave P.A.I.D.S. unselected; use only credentials the person has confirmed. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `biz-dev-positioning`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm the subject is a person, not an organisation (`biz-dev-positioning`) or creator income routes (`strategy-creator-monetisation`), then run the intake and select the client-type row in the [personal brand method](references/personal-brand-method.md).
+2. Build the foundation: the Three-Strand Test (Prolific, Passionate, Profitable), Sheahan's Wall, the KNOWN framework and the "problem you personally solved" question; stop and present the foundation for approval before any content plan.
+3. Write one Brand Positioning Statement ("I help [specific avatar] with [specific problem] through [unique mechanism/credential]", or the entertainer form), test it against DCPR, and set three specific pillars and three personality attributes.
+4. For executives, consultants and founders, run the reputation audit and build the four-lever plan with one authority route from the [reputation reference](references/reputation-authority-and-network-system.md).
+5. Set platform priority from the client-type guide and the VCP sequence (Visibility, then Credibility, then Profitability), with cadences, the content workflow for a busy person and the weekly quota.
+6. Plan authority beyond content (bio in 50, 150 and 300 words, speaking, media, peer collaborations, op-eds, Personal Board of Advisors) and, if monetising, the P.A.I.D.S. stream with Craft before Scale.
+7. Set SMART 6-month measures and the monthly review; check every credential, statistic and claim with the person, correct or remove any unverified one and rerun the check before the anti-slop gate and hand-off.
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Individual positioning, authority, platform presence, content, and monetisation deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
+| Personal brand foundation: Brand DNA, BPS, DCPR result, three pillars, three attributes | The individual (approver) | One BPS sentence in the correct structure; each pillar narrow enough for "Uganda's leading voice on [X]". |
+| Reputation plan (four levers, one authority route) for executive, consultant and founder clients | The individual; chief of staff | Built from an audit; two or three tactics per lever. |
+| Platform and content plan with cadences, workflow and weekly quota | Consultant or ghost-writer; `11-content-calendar` | Platform priority matches the client-type row; quota is a floor the person's time allows. |
+| Authority and monetisation plan (bios, speaking, media, PBA, P.A.I.D.S.) | The individual | At least one external proof point per quarter; Craft before Scale. |
+| 6-month measurement table and monthly report format | The individual; `meta-reporting` | Every metric has a target and review cadence. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
+| Credential verification log | Table: claim, source, confirmed by the person | No bio or profile claim is published unconfirmed. |
+| Reputation audit (peer appraisal, reality gap, red box) | Worksheet | Completed before the four-lever plan for executive, consultant and founder clients. |
+| 6-month baseline | Table of starting values | Each value is taken from native analytics or marked `not assessed`. |
 
 ## Capability and Permission Boundaries
 
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Posting on the person's accounts, pitching journalists or inviting board members on their behalf needs their approval for each action.
 
 ## Degraded Mode
 
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
+Without the person's confirmed goal, audience and credentials, return the narrowest qualified result and mark the affected checks `not assessed`. The foundation worksheet, BPS options and a client-type platform recommendation can still be delivered for the person to confirm.
 
 ## Decision Rules
 
-| Choice condition | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| The subject is a person rather than an organisation | Select the relevant client-type branch and verify public-risk constraints | A generic influencer template harms a professional or public figure |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The subject is a person rather than an organisation | Select the relevant client-type branch and verify public-risk constraints. | A generic influencer template harms a professional or public figure. |
+| One of the three strands (Prolific, Passionate, Profitable) is missing | Rework the positioning before writing the BPS. | A brand that feels inauthentic, burns out within 12 months or earns nothing. |
+| The person wants to serve several audiences, topics or platforms at once | Apply Sheahan's Wall: one avatar, one core problem, one primary platform; expand after traction. | Diluted focus, the leading cause of personal brand failure. |
+| The plan jumps to fees, votes or partnerships first | Re-sequence to Visibility, then Credibility, then Profitability. | Personal brand campaigns that underperform. |
+| The client is a politician or public official | Lead on Facebook with WhatsApp Broadcast and X; treat LinkedIn as the journalist, NGO and donor channel; apply the anti-corruption guardrail for public-official sponsors. | Missing voters and reputational or legal risk. |
+| The person monetises before delivering results | Start with Services; productise into Scale assets only after results and testimonials exist (Marcoux, 2016). | Products launched without credibility. |
+| Sponsored content would exceed 30 % of output | Hold the 70/30 organic-to-sponsored ratio. | Falling audience trust and lower partnership value. |
+| Authority is limited to analysis or planning, or evidence is contradictory | Deliver a read-only plan and approval checklist; pause the affected recommendation and request the source. | Unauthorised publication or advice built on an unresolved premise. |
 
 ## Quality Standards
 
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
+- Client type acknowledged and applied: the client-type guidance is reflected in platform priorities, content mix, and tone — not a generic default.
+- Brand DNA verified: all three strands (Prolific, Passionate, Profitable) are confirmed before the BPS is written; Sheahan's Wall is addressed in platform and topic recommendations.
+- BPS produced and DCPR test passed: one sentence using the correct structure, specific to this individual's type, audience and market, and Distinctive, Consistent, Passonable and Relevant.
+- Three content pillars specific: each pillar is narrow enough for the individual to be introduced as Uganda's or East Africa's leading voice on that topic.
+- VCP sequence respected: Visibility and Credibility tactics are recommended before Profitability tactics (Misner's VCP Process, cited via Brown, 2016).
+- Reputation audit run for executive, consultant and founder clients, with the four-lever plan and one authority route.
+- No unsourced statistic about the return on speaking, posting or media appears; monetisation applies Craft before Scale and authority tactics name specific Ugandan/EA outlets and events.
+- Measurement table has 6-month targets and a review cadence; British English throughout, `east-african-english` tone applied, and release blocked on an F from `ai-marketing/ai-slop-audit`.
 
 ## Anti-Patterns
 
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
+- Vague bios ("experienced professional", "award-winning artist"). Fix: use Portrait View with names and numbers the person has confirmed.
+- Generic pillars such as "Digital marketing", "Finance" or "Leadership". Fix: narrow each to a market and problem, for example "SME lending and credit access in Uganda's formal banking sector".
+- Relying on willpower for consistency. Fix: set a weekly floor, batch two weeks in a 90-minute monthly session and review the top and bottom three posts monthly.
+- Using WhatsApp Status for sales messages. Fix: post one or two single-idea professional insights a week.
+- Offering journalists a general willingness to comment. Fix: pitch a specific, data-backed angle, counterintuitive finding or timely hook.
+- Putting prices in the press kit or one-sheet. Fix: follow the price-free press kit in the brand partnership guide.
+- Posting on the person's accounts or publishing unverified credentials. Fix: stop at an approval-ready draft.
 
 ## References
 
-- [AGENTS.md](../../../AGENTS.md)
-- [Reputation, authority and network system](references/reputation-authority-and-network-system.md) — read for the reputation audit, the four-lever plan, authority routes, the personal board of advisors and networking cadence.
-- [Brand partnership guide](references/brand-partnership-guide.md) — read when a creator, artist or athlete needs a press kit, one-sheet, partnership page, pitches or contract checks.
-- [Expert bio templates](references/expert-bio-templates.md) — read when writing bios, speaker introductions and elevator pitches.
+- [Personal brand method](references/personal-brand-method.md): read when running the intake, building the foundation, choosing platforms by client type, planning content, cadences and consistency, building authority, choosing P.A.I.D.S. streams, setting 6-month measures, picking blog angles or checking the full quality list.
+- [Reputation, authority and network system](references/reputation-authority-and-network-system.md): read for the reputation audit, the four-lever plan, authority routes, the personal board of advisors and networking cadence.
+- [Brand partnership guide](references/brand-partnership-guide.md): read when a creator, artist or athlete needs a press kit, one-sheet, partnership page, pitches or contract checks.
+- [Expert bio templates](references/expert-bio-templates.md): read when writing bios, speaker introductions and elevator pitches.
+- [`04-brand-voice-intake`](../../pipeline/04-brand-voice-intake/SKILL.md): read before this skill if brand voice is not yet defined; it informs the personality attributes.
+- [`platform-linkedin`](../../platforms/platform-linkedin/SKILL.md): read for detailed LinkedIn profile optimisation and individual brand strategy by type.
+- [`biz-dev-credentials`](../../business-development/biz-dev-credentials/SKILL.md): read when drafting speaker bios, media pitches and credentials documents.
+- [`11-content-calendar`](../../pipeline/11-content-calendar/SKILL.md): read when turning the pillars and cadences into a dated calendar.
+- [`08-influencer-marketing-strategy`](../../pipeline/08-influencer-marketing-strategy/SKILL.md): read when the client is a brand seeking to work with influencers, not an individual building their own brand.
+- [`meta-reporting`](../../meta-analytics-ops/meta-reporting/SKILL.md): read when structuring the monthly report.
+- [`east-african-english`](../../language/east-african-english/SKILL.md): read for tone and register in the East African professional context.
+- [AGENTS.md](../../../AGENTS.md): read when routing to a neighbour skill or engine.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting bios, posts and pitches.
 <!-- dual-compat-end -->
-
-## Required Input
-
-Ask for the following before generating any deliverable:
-
-1. **Individual's name and professional role/title**
-2. **Client type** — select the primary type: Professional/Consultant | Executive/Corporate Leader | Politician/Public Official | Performing Artist (musician, actor, comedian) | Athlete/Sports Personality | Local Celebrity/Influencer | Pastor/Religious Leader | Academic/Researcher | Creative (designer, photographer, writer, filmmaker)
-3. **Industry or field** — e.g. "Healthcare; cardiovascular disease prevention in sub-Saharan Africa" or "Music; Afrobeats and R&B, Kampala"
-4. **Country/city** — default is Uganda/East Africa if not specified
-5. **Current online presence** — platforms active on, follower/connection counts, whether any content is already being published
-6. **Primary goal** — rank in order: thought leadership / business development / political visibility / entertainment career growth / brand partnerships and endorsements / speaking engagements / media presence / fan community building
-7. **Target audience** — who specifically must know this person? (e.g. "Fellow health professionals and NGO funding bodies" or "Urban Ugandan youth aged 18–30 who follow Afrobeats")
-8. **Comfort with content creation** — ghost-written, voice-note-to-post, interview-to-content, or self-created?
-9. **Time available per week** for personal brand activity
-10. **Monetisation intent** — is the goal to generate direct revenue from the personal brand? If yes, which model: services/consultancy, speaking fees, brand partnerships, digital products, or audience monetisation?
-
----
-
-## Section 1 — Personal Brand Foundation
-
-Define these elements before producing any content plan. Present them to the client for approval before proceeding to Section 2.
-
-### 1.1 Brand DNA — The Three-Strand Test (Vaden, 2023)
-
-A personal brand is only sustainable where three strands intersect:
-
-| Strand | Question | If missing… |
-|---|---|---|
-| **Prolific** — natural talent | What are you naturally skilled at, faster or better than most people? | Brand feels inauthentic |
-| **Passionate** — genuine interest | What would you pursue even without payment? | Brand burns out within 12 months |
-| **Profitable** — market demand | What will the target market actually pay for or value? | Brand earns no commercial return |
-
-A brand built on only two strands is unstable. All three must align. The intersection is where the Brand Positioning Statement lives.
-
-**Sheahan's Wall:** the #1 reason personal brands fail is diluted focus — trying to serve multiple audiences, talk about multiple topics, or appear on every platform simultaneously. The prescription is radical specificity first: one avatar, one core problem, one primary platform. Expand only after traction is achieved.
-
-**The KNOWN Framework (Schaefer, 2017):**
-The five steps that every successful personal brand follows, in order:
-
-| Step | What happens |
-|---|---|
-| **Find your Intersection** | Identify the overlap between your unique passion, your sustainable content niche, and a market that will pay |
-| **Establish a sustainable interest** | The niche must sustain content production for years, not months — test longevity before committing |
-| **Choose the right platform for your audience** | Not the platform you prefer — the platform where your target audience already spends time |
-| **Create Content Consistently** | No personal brand survives without consistent, quality content; frequency matters less than reliability |
-| **Move from Being Known to BEING KNOWN** | Achieve the tipping point by locking in a memorable association — one thing the market calls you for |
-
-The KNOWN framework reinforces the VCP sequence: you cannot be Credible until you are Visible, and you cannot be Profitable until you are Credible. Content is the primary mechanism for moving through each stage.
-
-**Wealthy and Well-Known Principle (Vaden, 2023):**
-The only truly scalable personal brand is built around a specific problem you have personally solved. The further your content gets from your lived experience, the less resonance it has and the harder it is to sustain. "Your mess is your message" — the most credible authority is the person who solved the problem they now teach. When positioning a client, always ask: what problem did this person personally solve that others are still struggling with?
-
-### 1.2 Brand Positioning Statement (BPS)
-
-Produce one sentence using this exact structure:
-
-> "I help [specific avatar] with [specific problem] through [unique mechanism/credential]."
-
-For entertainers and public figures, adapt to: **"I [perform/create/advocate] for [specific audience] through [distinctive style or approach] — known for [one ownable characteristic]."**
-
-Rules:
-- The avatar must be specific — not "businesses" but "Ugandan SME owners in manufacturing"
-- The problem or outcome must be concrete — not "succeed" but "secure Series A funding" or "double ticket sales"
-- The mechanism must differentiate — what this person does or knows that direct peers do not
-
-**Examples by client type:**
-- Professional: "I help East African hospital administrators reduce preventable readmissions through evidence-based clinical protocols adapted to low-resource settings."
-- Politician: "I advocate for youth economic inclusion in Kampala Central by turning community feedback into concrete housing and employment policy."
-- Musician: "I create Afrobeats music rooted in Luganda storytelling — for Ugandan listeners who want to hear their own culture in a global sound."
-- Athlete: "I show young Ugandan footballers how to combine academic achievement with professional sports careers — because the two are not opposites."
-
-### 1.3 DCPR Brand Test (Brown, 2016)
-
-Before finalising positioning, verify the idea or message passes all four tests from Brown, R. (2016) *Build Your Reputation*, Capstone/Wiley:
-
-- **Distinctive** — different enough to be noticed. Not better — *different*. Test: could someone describe this person in one sentence that no one else in the field could claim?
-- **Consistent** — the same lane, style and topic held long enough to build momentum. Test: does a stranger seeing this person on LinkedIn and then on Facebook recognise the same brand?
-- **Passonable** — easy for others to pass on. Test: can someone repeat the idea accurately in one sentence after hearing it once? Avoid abstraction unless the audience is specialist.
-- **Relevant** — meaningful to a chosen audience (polarising others is acceptable). Test: would the target audience immediately understand why they should follow this person?
-
-### 1.4 Core Expertise Areas (3 Pillars)
-
-Identify exactly three topics this person can address with genuine, demonstrable authority. These become the content pillars for all platforms. Each pillar must be specific enough that the individual could credibly be introduced as "Uganda's leading voice on [X]". Reject generic pillars.
-
-| Reject | Accept |
-|---|---|
-| "Digital marketing" | "Social media strategy for Ugandan healthcare providers" |
-| "Finance" | "SME lending and credit access in Uganda's formal banking sector" |
-| "Leadership" | "Building high-performance teams in East African NGOs" |
-
-Present the three pillars as a table: Pillar name, one-sentence description, example content topic.
-
-### 1.5 Personality Attributes (3 Descriptors)
-
-Select three attributes that govern how all content should feel. Choose from:
-
-direct / warm / analytical / provocative / encouraging / formal / conversational / irreverent / authoritative / humble / entertaining / inspiring
-
-Apply the RACE framework (Chaffey, 2024) lens: the personality must work at the Reach stage (attracting strangers), the Act stage (compelling them to read or respond), and the Engage stage (sustaining a loyal following). A personality that is purely formal may Reach well in professional circles but fail to Engage over time.
-
-Present the three attributes with a one-sentence implication for content: e.g. "Analytical — back every claim with a data point or a cited source, even in short posts."
-
-### 1.6 Reputation Plan: Four Levers (Brown, 2016)
-
-For executives, consultants, founders and professionals, reputation is what people say about the person when they are not in the room. Build it on four levers, choosing two or three tactics per lever using three filters — Current (a head start exists), Aspirational (what they want to be known for) and Strengths (fits their nature):
-
-| Lever | Keywords | Example tactics |
-|---|---|---|
-| Performance | Delivery, reliability, credibility | Small kept commitments, early delivery, meeting routine, testimonials captured at thank-you moments |
-| Profile | Visibility with people who count | Local-media expert source, events with written bring-back reports, boards and panels, research interviews with senior people |
-| Positioning | Authority, contribution | One authority route (researcher, model-maker, commentator, author, community host), points of difference, back story |
-| Personal board | Network, advocates, leverage | PBA of 5 or 7, a sponsor, A/B/C/D contact cadence |
-
-Start with a reputation audit and choose one authority route; the instruments and route picker are in the reputation reference.
-
----
-
-## Section 2 — Client Type Platform Guide
-
-Apply this quick reference to identify the correct platform priority and content approach for each individual client type. Adapt the row to the individual's evidence; there is no separate playbook file per type.
-
-| Client Type | Primary Platform | Secondary | Content Focus | Key Insight |
-|---|---|---|---|---|
-| Professional/Consultant | LinkedIn | WhatsApp Status | Expertise, case studies, opinion | Inbound leads from content; links go in comments, not post body |
-| Executive/Corporate Leader | LinkedIn | X/Twitter | Industry commentary, team culture, vision | Personal profile reaches 10× more than company page |
-| Politician/Public Official | Facebook | WhatsApp Broadcast + X/Twitter | Policy made accessible, constituency work, vision | LinkedIn audience = journalists/NGOs/donors, not voters |
-| Performing Artist (music, acting) | TikTok/Instagram | YouTube | Creative process, personality, cultural identity | Target commercial buyers (event bookers, brands) on LinkedIn too |
-| Athlete/Sports Personality | Instagram | TikTok + YouTube | Training, behind-the-scenes, values, off-field story | Build brand *during* peak years; post-career leverage requires an audience built in advance |
-| Local Celebrity/Influencer | Instagram | TikTok | Lifestyle, personality, entertainment | Engagement rate beats follower count for brand partnerships; 3%+ is healthy |
-| Pastor/Religious Leader | Facebook | YouTube | Teaching, community, inspiration | WhatsApp Broadcast list is highest-trust channel for congregation |
-| Academic/Researcher | LinkedIn | Twitter/X | Insights, data, methodology, accessible writing | Op-eds in national press generate durable Google visibility |
-| Creative (designer, photographer) | Instagram | LinkedIn | Portfolio, process, client outcomes | LinkedIn reaches commercial buyers (CMOs, brand managers) that Instagram misses |
-
-**The VCP Sequence (Ivan Misner's VCP Process, as used by Brown, 2016) — applies to every client type:**
-- **Visibility first** — people must know the name before they trust the expertise
-- **Credibility second** — delivered results, endorsements, and consistent behaviour
-- **Profitability third** — referrals, fees, partnerships, votes — only reachable after credibility is established
-
-Most individuals skip straight to Profitability. This is the primary reason personal brand campaigns underperform.
-
----
-
-## Section 3 — Platform Strategy
-
-Recommend platforms in priority order based on the individual's goal and target audience. Apply the POEM model (Paid/Owned/Earned) — personal profiles are Owned media; shares and media mentions are Earned.
-
-### Priority 1 — LinkedIn (B2B, Professional, Formal Sector)
-
-**Profile optimisation:**
-- Headline: rewrite to state outcome, not title. "CEO, Kampala Tech Ltd" becomes "Helping Ugandan founders scale through digital systems | CEO, Kampala Tech Ltd"
-- About section: open with the positioning statement from Section 1.1; follow with three credibility signals (years of experience, notable client or institution, measurable result)
-- Featured section: pin the three strongest proof points — a long-form article, a media mention, a presentation or certificate
-
-**Publishing cadence:**
-- 3 posts per week: 1 insight/opinion post, 1 story/experience post, 1 practical tip post
-- 1 long-form LinkedIn Article per month (minimum 800 words); topic drawn from a core pillar
-- Connection strategy: connect with 10 new relevant people per week; personalise every request with one sentence explaining the reason
-
-**Post format guidance:**
-- Open with a single strong sentence — no preamble, no "I want to share something…"
-- Use single-sentence paragraphs for readability on mobile
-- End every post with one question to invite comments
-
-### Priority 2 — Facebook (General EA Audience, Community Trust)
-
-In Uganda and East Africa, a personal Facebook profile (not a Page) is often more effective for individual thought leadership. Ugandan audiences extend trust to the person, not the brand entity.
-
-**Publishing cadence:** 3–4 posts per week
-
-**Content mix:**
-- 40% professional insight (pillar content, adapted to a warmer register)
-- 30% personal/human content (community involvement, travel, family milestones — these build likeability and trust)
-- 30% community engagement (commenting substantively on others' posts, answering questions in Groups)
-
-**Facebook Groups:** Join and actively contribute to 3–5 relevant professional groups. Answer questions, share expertise, and reference relevant content without self-promotion. Group visibility builds credibility faster than profile-only activity.
-
-### Priority 3 — X/Twitter (Opinion Leaders, Media, NGO, Public Sector)
-
-Prioritise X/Twitter for individuals targeting journalists, policy makers, NGO professionals, academics, and public intellectuals. De-prioritise for individuals whose audience is primarily small business owners or consumers.
-
-**Publishing cadence:** 1–2 posts per day; engage with 5–10 relevant accounts daily (replies and quote-posts, not only likes)
-
-**Content approach:**
-- Express opinions clearly — hedged, tentative posts underperform on X in the East African market
-- Use threads for longer analysis: a 5-post thread on a specific topic builds more credibility than 5 disconnected posts
-- Monitor and respond to sector news in real time — timeliness is a competitive advantage on X
-
-### Supplementary — WhatsApp Status
-
-WhatsApp Status reaches existing contacts directly, with no algorithmic interference. It is highly personal and appropriate for professionals whose target audience is already in their phone — consultants, lawyers, architects, doctors, financial advisers.
-
-**Usage:** Post 1–2 professional insights per week as Status updates. Keep each update to one clear idea. Do not use Status for sales messages.
-
----
-
-## Section 4 — Content Strategy
-
-### 3.1 Content Pillars in Practice
-
-Each of the three pillars from Section 1.2 generates specific content types. For each pillar, produce:
-
-- 3 example post titles (LinkedIn-ready)
-- 1 example thread opener (X/Twitter-ready)
-- 1 example article headline (LinkedIn Articles)
-
-**Example for a pillar on "SME credit access in Uganda":**
-- Post titles: "Why your bank rejected your loan application (and what to fix before reapplying)"; "The one document Ugandan banks look at first — and most SMEs get it wrong"; "I reviewed 40 SME loan files last year. Here is what the successful ones had in common."
-- Thread opener: "Ugandan SMEs leave billions in accessible credit on the table every year. Here is why — and how to stop doing it. Thread:"
-- Article headline: "The Ugandan Entrepreneur's Guide to Getting Your First Business Loan Approved"
-
-### 3.2 Content Type Mix
-
-| Platform | Content Types |
-|---|---|
-| LinkedIn | Opinion post, story post (lesson from experience), practical tip post, case post (project or client story, anonymised if necessary) |
-| Facebook | Same mix as LinkedIn, warmer register; include proportionally more personal moments |
-| X/Twitter | Short takes, thread analyses, real-time commentary on sector news |
-| WhatsApp Status | Single-idea professional insight; concise and direct |
-
-### 3.3 Content Creation Workflow for Busy Individuals
-
-Most senior professionals cannot sustain a consistent content schedule through willpower alone. Recommend one of these three workflows based on the individual's available time and comfort level:
-
-**Voice-note-to-post (minimum effort):** The individual records a 2–3 minute voice note explaining their idea or opinion. The consultant transcribes, edits, and formats into a post. The individual reviews and approves. Elapsed time for the individual: under 5 minutes per post.
-
-**Interview-to-content (batch method):** A 20-minute monthly interview call between the individual and the consultant. The consultant asks 8–10 questions across the content pillars. From the transcript, the consultant produces 8–12 posts, 1 article, and 2–3 thread starters. The individual reviews the batch in a single sitting.
-
-**Reaction posts (lowest barrier):** The individual shares their genuine opinion on an article, report, or news development in their sector. The consultant formats and publishes. These posts tend to score high on authenticity because they are time-stamped to real events.
-
-Apply the 10-4-1 rule (Bodnar and Cohen, 2012) across the monthly content mix: for every 10 shares of others' content, publish 4 original posts, and include no more than 1 overtly promotional post.
-
----
-
-## Section 5 — Consistency System
-
-Inconsistency is the primary failure mode of personal brand programmes. Define a system, not a target.
-
-**Weekly content quota (minimum floor, not ceiling):**
-- LinkedIn: 3 posts
-- Facebook: 3 posts
-- X/Twitter: 5 posts (or 1 thread)
-- WhatsApp Status: 1–2 updates
-
-**Content batching:** At the start of each month, produce 2 weeks of content in a single 90-minute working session. Use the interview-to-content workflow to generate raw material; format and schedule in the same session.
-
-**Scheduling tools:**
-- Buffer (free plan): LinkedIn and X/Twitter scheduling
-- Meta Business Suite (free): Facebook scheduling
-- Hootsuite or Later (paid): cross-platform if budget allows
-
-**Monthly review (30 minutes):**
-- Identify the 3 posts with the highest engagement that month
-- Identify the 3 posts with the lowest engagement
-- Note the topic, format, and posting time of the top performers
-- Adjust the following month's content mix accordingly
-
-**Annual review:** Reassess the three content pillars each year. Expertise evolves; the market changes. A pillar that resonated in Year 1 may need to be replaced or refined in Year 2.
-
----
-
-## Section 6 — Authority Building Beyond Content
-
-Content builds familiarity. Authority requires proof points that exist outside the individual's own channels. Target a minimum of one external proof point per quarter.
-
-**Expert Bio construction — Names & Numbers (Vaden, 2023):**
-The expert bio is read before every speaking booking, media interview, and brand partnership decision. Use Portrait View (zoom in on specific, impressive numbers and named institutions) not Landscape View (vague general terms). Replace "experienced professional" with "conducted 300+ client engagements across 7 African countries." Replace "award-winning artist" with "winner of the 2024 Pearl of Africa Music Award, Best Afrobeats Artist." Build a 50-word, 150-word, and 300-word version. Store in `references/expert-bio-templates.md`.
-
-**Speaking:** Target 2–4 engagements per year. Speaking reaches many people at once and few peers do it, which is why Brown (2016) treats it as a powerful positioning activity; measure its effect with the client's own enquiries and invitations rather than an assumed return. Uganda's active conference seasons: finance, agri-business, technology, healthcare, education, faith. Submit speaker proposals 3–4 months in advance. Record every talk; a 60-second highlight clip generates content for weeks.
-
-**Media appearances:** Pitch to the Daily Monitor business section, New Vision, NBS TV Business Focus, NTV's business programmes, and the BBC Africa or VOA Africa for regional/international profiles. Journalists prefer a specific, data-backed angle over a general offer to comment. Pitch a counterintuitive finding, a new statistic, or a timely hook. A single media mention generates lasting Google search visibility and can be referenced in every future pitch.
-
-**Peer collaborations:** Arrange joint content with 2–3 peers of similar or higher standing. Credibility is borrowed before it is earned (Schaefer, 2017) — a guest appearance on an established platform transfers that platform's credibility to the newcomer. Cross-posting audiences is the fastest legitimate reach expansion.
-
-**Written thought leadership:** Submit op-eds to The Observer, Nile Post, The East African, and The African Report. Op-eds rank in Google and generate inbound credibility long after publication. Aim for 1–2 per year.
-
-**Personal Board of Advisors (PBA):** Assemble an odd number (5 or 7) of people with diverse levels, industries and personalities, chosen for values rather than titles, and kept separate from any personal board (Brown, 2016). Invite each formally with the compliment → explain → invite script and a light, explicit commitment (for example a quarterly lunch paid by the client, or a 20-minute call every two months) plus a planned give-back. Roles include Navigator (direction), Connector (introductions), Champion (public advocacy), Sponsor (spends their own standing to open doors — mentors advise, sponsors act, after Hewlett) and Specialist (expertise you lack). Send agendas, report back after each meeting, and refresh the board annually. Full method and anti-corruption guardrail for public-official sponsors: [`references/reputation-authority-and-network-system.md`](references/reputation-authority-and-network-system.md).
-
----
-
-## Section 7 — Monetisation Pathways (P.A.I.D.S.)
-
-For clients whose goal includes generating revenue from their personal brand, identify the correct revenue model before building the content strategy. Content strategy must align with monetisation intent (Vaden, 2023).
-
-| Stream | Description | Start when | Best for |
-|---|---|---|---|
-| **Products** | Digital products (ebooks, courses, templates, sample packs, presets) | 500+ engaged followers | Artists, creatives, coaches, educators |
-| **Affiliates** | Commission on products you genuinely recommend | Any stage; low effort | All types — only for products personally used |
-| **Investments** | Business ventures adjacent to public role | Established brand + capital | Athletes, executives, politicians |
-| **Deals** | Licensing, endorsements, speaking contracts, IP partnerships | 5K+ engaged followers | Artists, athletes, public figures |
-| **Services** | Consulting, coaching, legal, medical, advisory — trading time for money | Immediately | Professionals, consultants, academics |
-
-**The Craft and Scale sequence (Marcoux, 2016):** Begin with Services (highest margin, no upfront investment, builds credibility through delivered results). Once results and testimonials exist, productise the knowledge into Scale assets (courses, books, digital products) that generate revenue without additional time. Do not launch Scale products before demonstrating Craft.
-
-**Brand partnerships and endorsements:** Relevant for artists, athletes, and influencers. The fee formula is Distribution Fee (cost of reaching your audience) + Talent Fee (creative labour). Maintain a 70/30 ratio: 70% organic content, 30% maximum sponsored content — beyond 30%, audience trust declines and engagement drops, reducing the value of future partnerships. Full brand partnership guide, press kit structure, pitch templates, and rate card guidance are in `references/brand-partnership-guide.md`.
-
-**The Fast 50 Referral Strategy (Vaden, 2023):** The fastest path to first revenue is not social media — it is personal referrals. Identify 50 people who already know and trust you. Send them a free, high-value resource (a Trust Soldier: a guide, short video, checklist) and ask them to share it with 5 specific people who match your target audience. This bypasses the need for a large audience entirely and generates qualified leads within days.
-
----
-
-## Section 8 — Measurement
-
-All objectives must be SMART (Specific, Measurable, Achievable, Relevant, Time-bound). Set a 6-month baseline review at strategy launch.
-
-| Metric | LinkedIn | Facebook | X/Twitter | 6-Month Target |
-|---|---|---|---|---|
-| Follower / connection growth | Connections | Page followers or profile followers | Followers | +500 total across active platforms |
-| Post engagement rate | (Reactions + comments) ÷ impressions | (Reactions + comments) ÷ reach | (Likes + replies) ÷ impressions | Above 3% average |
-| LinkedIn profile views | Weekly profile views | N/A | N/A | 500+ per month |
-| Inbound enquiries from content | Track via LinkedIn DMs | Track via Messenger or profile DMs | Track via DMs | 2+ per month |
-| Speaking or media appearances | — | — | — | 1 per quarter |
-| Content output consistency | Posts published vs. quota | Posts published vs. quota | Posts published vs. quota | 80%+ of monthly quota met |
-
-Review metrics monthly. Report to the client with the three top-performing posts, three lowest-performing posts, and one recommendation for the following month. Use the `meta-reporting` skill to structure the monthly report.
-
----
-
-## Section 9 — Blog Post Angles
-
-Use with the `blog-writer` skill to attract individual clients to the consultancy's own channels.
-
-| Title | Target client |
-|---|---|
-| Why Every Professional in Uganda Needs a Personal Brand (Not Just a CV) | Working professionals new to personal branding |
-| How Ugandan Politicians Are Using Social Media to Win Votes — And What Most Get Wrong | Political clients and campaign managers |
-| The 3 Things Every Performing Artist Needs Before Approaching Brands for Sponsorship | Musicians, actors, and entertainers |
-| How to Build a Personal Brand as a Doctor, Lawyer, or Accountant in East Africa | High-trust professionals reluctant to self-promote |
-| Why Ugandan Athletes Should Start Building Their Personal Brand Before They Retire | Active athletes and their management |
-| The Difference Between Being Famous and Having a Personal Brand | Local celebrities seeking commercial sustainability |
-| How to Turn Your LinkedIn Profile Into a Client-Generating Machine | Consultants and freelancers |
-| Personal Branding for Pastors and Religious Leaders: How to Lead With Integrity Online | Faith community leaders |
-| What East African Creators Can Learn from Global Influencers (Without Losing Their Identity) | Emerging content creators |
-| The Step-by-Step Guide to Getting Your First Speaking Engagement in Uganda | Thought leaders and aspiring speakers |
-
----
-
-## Quality Criteria
-
-A high-quality output from this skill meets all of the following standards:
-
-- **Client type acknowledged and applied:** Section 2 guidance for the specific client type is reflected in platform priorities, content mix, and tone — not a generic default
-- **Brand DNA verified:** All three strands (Prolific, Passionate, Profitable) are confirmed before the BPS is written; Sheahan's Wall is addressed in platform and topic recommendations
-- **BPS produced:** One sentence using the correct structure, specific to this individual's type, audience, and East African or stated market context
-- **DCPR test passed:** The brand positioning is Distinctive, Consistent, Passonable (repeatable accurately in one sentence after one hearing) and Relevant — confirmed against each criterion
-- **Three content pillars specific:** Each pillar is narrow enough for the individual to be introduced as Uganda's or East Africa's leading voice on that topic
-- **VCP sequence respected:** Visibility and Credibility tactics are recommended before Profitability tactics — not the reverse (Misner's VCP Process, cited via Brown, 2016)
-- **Reputation audit run:** for executive, consultant and founder clients, the four-lever plan (performance, profile, positioning, personal board) is built from an audit (peer appraisal, reality gap, red box) and one authority route is chosen
-- **No unsourced statistic** about the return on speaking, posting or media appears in the deliverable
-- **Monetisation model selected:** One or more P.A.I.D.S. streams are identified and the Craft-before-Scale sequence is applied; authority-building tactics reference specific Ugandan/EA outlets, events, and mechanisms
-- **Measurement table with 6-month targets:** Every metric has a named target and review cadence; report cadence references the `meta-reporting` skill
-
----
-
-## References
-
-**Related skills:**
-
-| Skill | When to use |
-|---|---|
-| `04-brand-voice-intake/SKILL.md` | Run before this skill if brand voice is not yet defined; informs Section 1.5 personality attributes |
-| `platform-linkedin/SKILL.md` | Detailed LinkedIn profile optimisation, social selling, and individual brand strategy by type |
-| `biz-dev-credentials/SKILL.md` | Draft speaker bios, media pitches, and credentials documents for Section 6 |
-| `11-content-calendar/SKILL.md` | Build a month-by-month content calendar from the pillars and cadences defined here |
-| `08-influencer-marketing-strategy/SKILL.md` | When the client is a brand seeking to work *with* influencers (not an individual seeking to build their own brand) |
-
-**Reference files in this skill's directory (for deeper content):**
-
-| File | Contents |
-|---|---|
-| `references/reputation-authority-and-network-system.md` | Reputation audit, four-lever reputation plan, authority routes, personal board of advisors, networking operating system, leadership reputation programme |
-| `references/brand-partnership-guide.md` | Price-free press kit and one-sheet, partnership page, fee method (distribution fee + talent fee), pitch and decline templates, contract terms to check, post-campaign reporting |
-| `references/expert-bio-templates.md` | Portrait View bio templates for each client type in 50-word, 150-word, and 300-word versions |
-
----
-
-*Apply British English spelling throughout all deliverables produced by this skill (organisation, colour, programme, behaviour, analyse, strategise, recognise). Refer to the `east-african-english` skill for tone and register guidance specific to the East African professional context.*

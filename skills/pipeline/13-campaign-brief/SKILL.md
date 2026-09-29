@@ -9,10 +9,7 @@ metadata:
 ---
 # Campaign Brief Generator
 
-Produce one complete campaign brief document. This is the operational handover document — it tells the execution team exactly what to make, to what specifications, by when, and to whose approval. It does not decide the campaign strategy; that is the role of `09-campaign-strategy`. Apply the `east-african-english` skill for tone throughout. Do not generate the brief until all Required Input has been confirmed.
-
-**Distinction from 09-campaign-strategy:** Use `09-campaign-strategy` to decide WHAT campaign to run, who it is for, and what it needs to achieve. Use this skill (13-campaign-brief) to brief WHO will create the campaign content, HOW it should look and sound, and WHEN everything is due. The brief is a working document — it travels with the campaign from kickoff to sign-off.
-
+Produces the operational handover brief that tells the execution team exactly what to make, to what specifications, by when and to whose approval; `09-campaign-strategy` decides what campaign to run. Apply `east-african-english` for tone throughout.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -32,255 +29,24 @@ Produce one complete campaign brief document. This is the operational handover d
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Approved 09-campaign-strategy, production constraints, owners and deadlines | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
-
-## Outputs
-
-| Artefact | Consumer | Acceptance condition |
-|---|---|---|
-| Operational campaign brief with owners, deliverables and approvals | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
-
-## Evidence Produced
-
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
-
-<!-- dual-compat-end -->
-
-## Capability and permission boundary
-
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
-
-## Degraded mode
-
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified operational campaign brief with owners, deliverables and approvals. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
-
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
-|---|---|---|
-| Approved 09-campaign-strategy, production constraints, owners and deadlines is current and attributable | Produce the full operational campaign brief with owners, deliverables and approvals and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `09-campaign-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+|---|---|---|---|
+| Approved campaign strategy: campaign name, dates (with teaser and analysis windows), key message | `09-campaign-strategy` or client sign-off | Yes | Stop; route to `09-campaign-strategy` rather than deciding strategy here. |
+| Target persona | `03-audience-personas` | Yes | Name the persona gap; mark channel fit `NOT_ASSESSED`. |
+| Deliverables required, with quantities | Approved strategy or client lead | Yes | List only what the strategy names; do not assume every channel or format is in scope. |
+| Team and partner names and roles, first reviewer and final approver | Client lead or account manager | Yes | Use role titles and note "Assign names at kickoff meeting." |
+| Budget per deliverable type (UGX) | Client | Yes | Leave the budget lines blank with a kickoff note; do not invent rates. |
+| Brand voice guide and approved brand assets | `04-brand-voice-intake`; client | Yes | Hold the do's and don'ts and any graphic specification until the guide is supplied. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `09-campaign-strategy` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the operational campaign brief with owners, deliverables and approvals, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
-7. Complete the [reader-first content brief](references/reader-first-content-brief.md) and [content evidence and rights record](references/content-evidence-and-rights-record.md) for each production unit. Quarantine unsupported claims, missing rights, mismatched destinations or unassessed review states.
-
-## Quality Standards
-
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
-
-## Anti-Patterns
-
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the operational campaign brief with owners, deliverables and approvals without approved 09-campaign-strategy. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `09-campaign-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified approved 09-campaign-strategy, the skill produces a operational campaign brief with owners, deliverables and approvals with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`09-campaign-strategy`](../09-campaign-strategy/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
-
-## References
-
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [Reader-first content brief](references/reader-first-content-brief.md)
-- [Content evidence and rights record](references/content-evidence-and-rights-record.md)
-- [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md)
-- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md)
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Ask for the following before generating:
-
-- **Campaign name** — the internal working title of the campaign
-- **Campaign dates** — start and end date (including any pre-launch teaser period and post-campaign analysis window)
-- **Client name** — trading name of the business
-- **Target persona** — the persona name from `03-audience-personas` this campaign is aimed at
-- **Key message** — the single sentence the audience must feel or understand after seeing this campaign
-- **Deliverables required** — list all assets required (e.g., Facebook feed graphic ×4, Instagram reel ×2, WhatsApp broadcast copy ×3, caption set ×8)
-- **Team and partner names and roles** — who is responsible for what (designer, copywriter, videographer, social media manager, client-side approver)
-- **Approval contacts** — who reviews first drafts; who gives final sign-off
-- **Budget per deliverable type** — amount allocated per asset type (e.g., graphic design: UGX 500,000; video production: UGX 1,200,000)
-- **Country/city** — defaults to Kampala, Uganda
-
----
-
-## Brief Document Structure
-
-Generate all ten sections in order. Each section is clearly headed. Do not omit any section. The complete brief must read as a single, coherent document that any qualified team member could pick up and act on without further explanation.
-
----
-
-### Section 1: Campaign Background and Objective
-
-Write 3–4 sentences covering:
-- What this campaign is about — the product, service, event, or message being promoted
-- Why it is happening now — the business reason, seasonal moment, or strategic trigger
-- What success looks like — the primary outcome the campaign must achieve
-- How this campaign connects to the broader social media strategy or business goal
-
-Write in plain, direct prose. Avoid marketing clichés. A new team member must understand the full context from this section alone.
-
----
-
-### Section 2: Target Audience
-
-State:
-- **Persona name** — from `03-audience-personas`
-- **3 defining characteristics relevant to this specific campaign** — not a full persona profile; only the characteristics that affect how this campaign should look, sound, or be delivered. Examples: "Price-sensitive; responds to value framing", "Mobile-first; consumes content in 15-second windows", "Aspirational; wants to see themselves in the brand"
-
-Record evidence for the audience's use of each proposed channel and how it changes delivery. If account, survey or other audience evidence is absent, mark channel fit `NOT_ASSESSED`; do not infer preference or reach from Uganda/East Africa location alone.
-
----
-
-### Section 3: Key Message
-
-State one sentence only. This is the core message — what the audience must feel or understand after seeing this campaign. It is not the slogan or tagline; it is the strategic truth the creative must express.
-
-Format:
-> **Key message:** [One sentence]
-
-Below the key message, add a two-sentence explanation: what this message achieves for the brand, and what it asks of the audience. This guides the creative team when making execution decisions.
-
----
-
-### Section 4: Campaign Concept
-
-Describe the creative idea in 2–3 sentences. State:
-- What makes this campaign distinctive — the hook, the format, the storytelling approach
-- The creative territory (emotional, functional, humorous, documentary, testimonial, etc.)
-- Any specific creative device to be used consistently across all deliverables (e.g., a recurring character, a visual colour treatment, a campaign hashtag, a question-led structure)
-
-This section does not produce design briefs — it sets the creative direction so all deliverables feel unified.
-
----
-
-### Section 5: Deliverables List
-
-Produce a table listing every asset required. Every deliverable mentioned in the Required Input must appear in this table.
-
-| Deliverable | Platform and placement | Format | Official specification source and access date | Quantity | Due date | Owner |
-|---|---|---|---|---|---|---|
-| [Required asset from the approved strategy] | [Organic/paid placement] | [Text/image/video/etc.] | [Official source, version/page date, access date; or NOT_ASSESSED] | [Count] | [Agreed date] | [Named owner/role] |
-
-List only deliverables required by the approved strategy. Do not assume that every channel or format is in scope. Do not copy fixed dimensions, durations, file limits, text limits, or format availability from an old brief. Populate the technical specification from the official current source for the exact platform, account and placement; if it cannot be verified, omit the value and mark it `NOT_ASSESSED`.
-
----
-
-### Section 6: Content Specifications Per Deliverable
-
-#### Platform specifications and copy
-
-Do not embed default dimensions, file sizes, durations, aspect ratios, character limits, hashtag counts or "optimal" lengths in a campaign brief. They can vary by organic/paid placement, account, device, region and product change. Route current specifications through the canonical [Facebook](../../platforms/platform-facebook/SKILL.md), [Instagram](../../platforms/platform-instagram/SKILL.md), [LinkedIn](../../platforms/platform-linkedin/SKILL.md) or [TikTok](../../platforms/platform-tiktok/SKILL.md) skill, then verify the official source and intended account/placement when preparing production files. Record the source, source date or version where shown, access date, scope and recheck trigger. If a page or account cannot be checked, mark the specific specification `NOT_ASSESSED` and leave it out of the executable handoff.
-
-Write copy to carry one audience need and one communication job. Do not force a word count, hashtag quota or CTA onto every unit. Include a CTA only when it follows from the approved offer, the destination works, and a named owner can handle the response. Check the live platform limit before final production; platform limits are not copy-length recommendations.
-
-Treat accurate captions or an equivalent text alternative as a production accessibility requirement for spoken or audio-dependent video. Review automated captions for errors and test the rendered asset in its intended placement. This is an accessibility control for the deliverable, not a statement that every platform offers the same caption tool or that captions substitute for commercial, partnership or legal disclosure.
-
-For graphics, use only approved brand assets and licensed or owned media. A logo is optional unless the approved identity or brief requires it. Keep essential information in accessible copy as well as the visual, and record alt text, contrast and render review with the design owner. Never imply that a visual has been reviewed when no render exists.
-
----
-
-### Section 7: Brand Do's and Don'ts
-
-Reference the `04-brand-voice-intake` document. Produce a campaign-specific summary — not a generic list that could apply to any brand.
-
-**Do's — 5 rules for this campaign:**
-1. [Specific to client and campaign — e.g., "Use the campaign hashtag on every post across all platforms"]
-2. [Tone guidance — e.g., "Keep the tone warm and community-led; this audience responds to human stories, not corporate announcements"]
-3. [Visual guidance — e.g., "Lead every graphic with a real person — no stock photography in this campaign"]
-4. [Language guidance — e.g., "Use 'you' and 'we' — speak directly to the reader"]
-5. [Platform-specific — e.g., "On WhatsApp, open every broadcast with a personal greeting; do not start with the product offer"]
-
-**Don'ts — 5 rules for this campaign:**
-1. [Specific restriction — e.g., "Do not reference competitor pricing — legal risk and off-brand"]
-2. [Tone restriction — e.g., "Do not use pressure language: 'last chance', 'you're missing out' — this audience disengages from urgency tactics"]
-3. [Visual restriction — e.g., "Do not use the hero image on a dark background — it loses detail at mobile resolution"]
-4. [Language restriction — e.g., "Do not use the word 'cheap' — it conflicts with the premium brand positioning"]
-5. [Platform restriction — e.g., "Do not post the same caption across Facebook and Instagram unchanged — adapt the tone for each platform"]
-
----
-
-### Section 8: Timeline with Deadlines
-
-Produce a table covering the full campaign lifecycle: pre-production, production, review, approval, and live dates.
-
-| Milestone | Deliverable | Deadline | Owner |
-|---|---|---|---|
-| Campaign kickoff | Brief shared with all team members | [Date] | [Social media manager / account manager] |
-| First drafts — graphics | Static images for all platforms | [Date] | [Designer name] |
-| First drafts — copy | All captions and broadcast copy | [Date] | [Copywriter name] |
-| First drafts — video | Raw cut of all video content | [Date] | [Videographer name] |
-| Internal review | All first drafts reviewed by lead | [Date] | [Lead name] |
-| Client review — Round 1 | All materials submitted to client | [Date] | [Account manager] |
-| Revisions complete | All feedback incorporated | [Date] | [Designer / Copywriter / Videographer] |
-| Final approval | Client signs off all materials | [Date] | [Client approver name] |
-| Content scheduled | All posts scheduled in publishing tool | [Date] | [Social media manager] |
-| Campaign goes live | First post published | [Date] | [Social media manager] |
-| Campaign closes | Last post published | [Date] | [Social media manager] |
-| Post-campaign report | Performance summary delivered | [Date + 7 days] | [Analytics lead] |
-
-Populate dates from the campaign dates provided in the Required Input. If specific names are not yet confirmed, use role titles and add a note: "Assign names at kickoff meeting."
-
----
-
-### Section 9: Approval Process
-
-State clearly:
-
-- **First reviewer** — [Name and role]: reviews all first drafts within [N] working days and returns consolidated feedback (not multiple rounds of partial feedback)
-- **Final approver** — [Name and role]: gives final sign-off within [N] working days of receiving revised materials
-- **Approval method** — [e.g., shared Google Drive folder with comment access / email sign-off / Trello card / WhatsApp confirmation followed by email confirmation]
-- **If feedback is late:** If the client or approver does not respond within the agreed window, the campaign timeline moves by the same number of days. Document this in a brief note to the client. Pause production — do not guess what the client wants.
-- **Emergency sign-off:** For time-sensitive reactive posts within the campaign, the account manager may approve with a voice note confirmation from the client, followed by written confirmation within 24 hours.
-
----
-
-### Section 10: Success Metrics
-
-State one primary KPI and three supporting KPIs. For each, provide the baseline (current performance before the campaign) and the target (what the campaign must achieve).
-
-| KPI | Baseline | Target | How It Is Measured |
-|---|---|---|---|
-| **Primary KPI:** [e.g., Enquiries generated] | [e.g., 12 per month average] | [e.g., 40 during campaign period] | [e.g., WhatsApp enquiry count + form submissions] |
-| Supporting KPI 1: [e.g., Post reach] | | | |
-| Supporting KPI 2: [e.g., Engagement rate] | | | |
-| Supporting KPI 3: [e.g., Link clicks] | | | |
-
-Add a one-sentence note on how results will be reported: when the post-campaign report will be delivered, in what format, and to whom.
-
----
-
-## Quality Criteria
-
-- All ten sections are present and complete; no section is left blank or contains a placeholder without a note explaining what must be filled in at kickoff
-- Deliverables table accounts for every asset mentioned in the Required Input — nothing is omitted
-- Each technical platform specification has current official-source and intended-placement evidence, or is omitted and marked `NOT_ASSESSED`
-- Spoken or audio-dependent video has reviewed captions or an equivalent text alternative; rendered accessibility and native-size preview evidence are recorded before production approval
-- The key message is one sentence only and is clearly distinct from the campaign slogan or tagline
-- Brand do's and don'ts are campaign-specific and reference the client's actual brand voice — not generic rules applicable to any campaign
-- The timeline table covers the full lifecycle from kickoff to post-campaign report, with realistic sequencing between review and production stages
-- The approval process states what happens when feedback is late — ambiguity here is a common cause of campaign delays
-- Success metrics include baselines and targets; a KPI without a target is not a KPI
+1. Confirm the intake answers in [brief-document-sections](references/brief-document-sections.md) § Intake questions (Country/city defaults to Kampala, Uganda); stop and route to `09-campaign-strategy` if objective, message or channels are undecided.
+2. Write sections 1–4 (background and objective, target audience with channel evidence, one-sentence key message, campaign concept).
+3. Build the deliverables table and per-deliverable specifications from current official sources through the platform skills; omit and mark `NOT_ASSESSED` any specification that cannot be verified.
+4. Write campaign-specific brand do's and don'ts, the full-lifecycle timeline and the approval process, including what happens when feedback is late.
+5. Set one primary and three supporting KPIs with baselines and targets.
+6. Complete the [reader-first content brief](references/reader-first-content-brief.md) and [content evidence and rights record](references/content-evidence-and-rights-record.md) for each production unit. Quarantine unsupported claims, missing rights, mismatched destinations or unassessed review states.
+7. Record the Five Outcomes for each deliverable; return any failed deliverable to its strategy, content or design owner, correct it and rerun the gate.
+8. Run the anti-slop ship gate; stop before issuing the brief to suppliers or committing spend without the named approver's sign-off.
 
 ## Five Outcomes gate before sign-off
 
@@ -296,20 +62,79 @@ For each outcome below, record `pass`, `fail` or `NOT_ASSESSED` and cite the evi
 | 4 | **Pleasing** | Visual quality matches the approved brand direction, assessed against the actual rendered asset |
 | 5 | **Accessible** | Useful image descriptions, accurate captions or text alternatives, readable contrast checked against the applicable standard, and clear language |
 
-### How to apply at sign-off
+The sign-off wording template is in [brief-document-sections](references/brief-document-sections.md) § Five Outcomes.
 
-Add a "Five Outcomes" subsection to the campaign brief. For each outcome, record `pass`, `fail` or `NOT_ASSESSED` and cite the evidence. The affected deliverable cannot ship unless every applicable outcome passes:
+## Outputs
 
-- Useful — [pass/fail/NOT_ASSESSED], because [persona goal and asset evidence]
-- Easy — [pass/fail/NOT_ASSESSED], because [audience comprehension evidence or gap]
-- Efficient — [pass/fail/NOT_ASSESSED], because [tested delivery context and equivalent text route where needed]
-- Pleasing — [pass/fail/NOT_ASSESSED], because [approved visual reference and reviewed render]
-- Accessible — [pass/fail/NOT_ASSESSED], because [image description, caption/text alternative and applicable contrast check evidence]
+| Artefact | Consumer | Acceptance condition |
+|---|---|---|
+| Ten-section campaign brief | Designers, copywriters, videographers, printers; client approver | Any qualified team member could act on it without further explanation; no unexplained placeholders. |
+| Deliverables table with specification sources | Production team | Every required asset listed with placement, format, official source and access date (or `NOT_ASSESSED`), quantity, due date and owner. |
+| Timeline and approval process | Account manager; client approver | Kickoff to post-campaign report covered; late-feedback and emergency sign-off rules stated. |
+| Five Outcomes record per deliverable | Final approver | Every applicable outcome is `pass` with cited evidence before the deliverable ships. |
 
-If an outcome fails, return the affected deliverable to the strategy, content or design owner to close the gap. If evidence is missing, retain `NOT_ASSESSED` and withhold release.
+## Evidence Produced
 
-Accessibility evidence is part of production approval. If the asset has not been rendered or its relevant accessibility checks have not been reviewed, keep the outcome `NOT_ASSESSED` and do not present the deliverable as ready.
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Specification source log | Table: platform, placement, source, source date or version, access date, recheck trigger | Each technical value traces to a current official source or is omitted and marked `NOT_ASSESSED`. |
+| Content evidence and rights record | One record per content unit | Every claim, image and music item has a source or rights entry; gaps are quarantined. |
+| Accessibility and render review | Caption, alt text, contrast and native-size preview notes | Recorded against a rendered asset before production approval; no render means `NOT_ASSESSED`. |
 
-## Bounded example
+## Capability and Permission Boundaries
 
-See [the synthetic Ugandan small-retailer discussion example](examples/synthetic-retail-discussion-unit.md). It demonstrates channel adaptation and evidence boundaries; it is not an approved strategy, a complete campaign brief, or authority to publish.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Issuing the brief to suppliers or scheduling content needs the named approver's sign-off.
+
+## Degraded Mode
+
+Without an approved campaign strategy or current platform specifications, return the narrowest qualified result and mark the affected checks `not assessed`. Background, audience, key message, concept, timeline skeleton and approval process can still be drafted for kickoff.
+
+## Decision Rules
+
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| A technical specification cannot be verified from the official current source for the exact platform, account and placement | Omit the value, mark it `NOT_ASSESSED` and leave it out of the executable handoff. | Assets built to stale sizes, durations or limits copied from an old brief. |
+| Audience evidence for a proposed channel is absent | Mark channel fit `NOT_ASSESSED`; do not infer preference or reach from Uganda/East Africa location alone. | Channel choices built on stereotype. |
+| A unit has no approved offer, working destination or response owner | Leave the CTA out of that unit. | CTAs that lead nowhere or go unanswered. |
+| Spoken or audio-dependent video | Require reviewed captions or an equivalent text alternative, tested in the intended placement. | Inaccessible video; captions mistaken for disclosure. |
+| The client or approver misses the feedback window | Move the timeline by the same number of days, note it to the client and pause production. | Guessing what the client wants. |
+| A time-sensitive reactive post inside the campaign | Allow account-manager approval on the client's voice note, with written confirmation within 24 hours. | Missed moments or unapproved posts. |
+| A Five Outcomes check fails or lacks evidence | Block that deliverable; return it to its owner or keep `NOT_ASSESSED` and withhold release. | Shipping unreviewed or failing assets. |
+| Objective, message or channels are not yet decided | Route to `09-campaign-strategy` and hand over the verified inputs already collected. | Strategy decided inside an execution brief. |
+
+## Quality Standards
+
+- All ten sections are present and complete; no section is left blank or contains a placeholder without a note explaining what must be filled in at kickoff.
+- The deliverables table accounts for every asset mentioned in the Required Input; nothing is omitted.
+- Each technical platform specification has current official-source and intended-placement evidence, or is omitted and marked `NOT_ASSESSED`.
+- Spoken or audio-dependent video has reviewed captions or an equivalent text alternative; rendered accessibility and native-size preview evidence are recorded before production approval.
+- The key message is one sentence only and is clearly distinct from the campaign slogan or tagline.
+- Brand do's and don'ts are campaign-specific and reference the client's actual brand voice, not generic rules applicable to any campaign.
+- The timeline table covers the full lifecycle from kickoff to post-campaign report, with realistic sequencing between review and production stages, and the approval process states what happens when feedback is late (ambiguity here is a common cause of campaign delays).
+- Success metrics include baselines and targets; a KPI without a target is not a KPI.
+
+## Anti-Patterns
+
+- Copying fixed dimensions or character limits from an old brief. Fix: route specifications through the platform skills and verify the official source.
+- Forcing a word count, hashtag quota or CTA onto every unit. Fix: give each unit one audience need and one communication job.
+- Writing the slogan as the key message. Fix: state the strategic truth in one sentence, then two sentences on what it achieves and asks.
+- Implying a visual has been reviewed when no render exists. Fix: record alt text, contrast and render review with the design owner.
+- Partial, drip-fed client feedback. Fix: the first reviewer returns consolidated feedback within the agreed working days.
+- Using unlicensed images or music. Fix: use only approved brand assets and licensed or owned media, logged in the rights record.
+- Issuing the brief to suppliers before sign-off. Fix: wait for the named approver; spend needs separate authority.
+
+## References
+
+- [Campaign brief document method](references/brief-document-sections.md): read when asking the intake questions, writing the ten sections, filling the deliverables, timeline, approval and KPI tables, or recording the Five Outcomes wording.
+- [Reader-first content brief](references/reader-first-content-brief.md): read for each content unit handed from strategy to production.
+- [Content evidence and rights record](references/content-evidence-and-rights-record.md): read before approving any content unit with claims, images or music.
+- [Synthetic Ugandan small-retailer discussion example](examples/synthetic-retail-discussion-unit.md): read to see channel adaptation and evidence boundaries; it is not an approved strategy, a complete campaign brief, or authority to publish.
+- [`09-campaign-strategy`](../09-campaign-strategy/SKILL.md): read when objective, message or channels are not yet decided.
+- [`creative-brief-and-big-idea`](../../advertising/creative-brief-and-big-idea/SKILL.md): read when the insight or creative idea is missing.
+- [`ad-copy-and-hook-lab`](../../advertising/ad-copy-and-hook-lab/SKILL.md): read when the ad headlines and hooks must be written.
+- [Facebook](../../platforms/platform-facebook/SKILL.md), [Instagram](../../platforms/platform-instagram/SKILL.md), [LinkedIn](../../platforms/platform-linkedin/SKILL.md) and [TikTok](../../platforms/platform-tiktok/SKILL.md) platform skills: read when sourcing current specifications.
+- [Finished campaign exemplars](../../../docs/world-class-exemplars/campaign-exemplars.md): read when checking the finished standard.
+- [Creative review gate](../../../docs/quality-gates/creative-review-gate.md): read before creative sign-off.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read during production.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

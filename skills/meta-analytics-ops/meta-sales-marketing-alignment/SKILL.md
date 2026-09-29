@@ -9,10 +9,7 @@ metadata:
 ---
 # Sales–Marketing Alignment Framework
 
-**Source:** Kahan (2022) *High-Velocity Digital Marketing*
-
----
-
+Source: Kahan (2022) *High-Velocity Digital Marketing*. Sets shared KPIs, lead handover rules, a lead score and a monthly joint review so that marketing and sales are both held to revenue.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -32,219 +29,105 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Current funnel stages, crm ownership and response-time evidence | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| CRM system in use and adoption state (HubSpot, Zoho, Salesforce, spreadsheet, none) | Sales owner or CRM administrator | Yes | Recommend Zoho CRM (free tier up to 3 users) or HubSpot CRM (free tier, unlimited users); hold scoring and attribution work until the CRM is adopted. |
+| Current funnel stages and lead definitions | Marketing and sales leads | Yes | Draft MQL, opportunity and deal definitions for joint sign-off; mark them provisional. |
+| Sales team size, or confirmation that the owner handles all sales | Client | Yes | Apply the owner-managed business scenario and ask. |
+| Current monthly lead volume and average sales cycle length (days) | CRM export or client estimate | Yes | Record the client's estimate as an assumption; set the joint review to measure it in month 1. |
+| Response-time evidence (MQL delivery to first contact) | CRM activity log | If an SLA already exists | Mark SLA compliance `not assessed` and start logging first-contact times. |
+| Client name, industry, country/city and primary goal | Client brief | Yes | Default to Uganda / East Africa; ask for the goal (for example reduce lead wastage, improve MQL-to-deal conversion). |
+
+The intake questions are in [alignment method](references/alignment-method.md) § Required Inputs.
+
+## Workflow
+
+1. Confirm the intake and name the core problem in the client's terms (wasted leads, missing credit, attribution disputes); stop and route to `meta-roi-framework`, `biz-dev-lawful-prospecting-outreach` or `playbook-marketing-automation` when the request is theirs.
+2. Map KPI ownership (marketing-owned, sales-owned, jointly-owned) and get it agreed in writing before any reporting or scoring work.
+3. Check the three CRM conditions (100% adoption, daily updates, marketing access); stop scoring and attribution work until they are met, using a spreadsheet CRM only as a transitional tool.
+4. Write the lead handover SLA with the 4-hour rule and the escalation protocol, and share it with both teams.
+5. Set the starter lead score (fit and intent points, WhatsApp signals for EA clients, 50-point MQL threshold); build the full design with [lead-scoring-model](references/lead-scoring-model.md) when calibration, decay or BANT is needed.
+6. Set the 60-minute monthly joint review agenda and the 24-hour write-up rule.
+7. Adapt the SLA and tracking for owner-managed businesses where there is no sales team.
+8. Review conversion at each joint review; if MQLs convert below 20%, correct the threshold or criteria and rerun the scoring for the next period.
+
+KPI lists, CRM rules, the full SLA, scoring points, meeting agenda and the owner-managed scenario are in [alignment method](references/alignment-method.md).
+
+## Handover SLA and starter score
+
+| Stage | Owner | Timeline |
+|---|---|---|
+| MQL generated | Marketing | Real-time (automated delivery to CRM) |
+| First contact attempt | Sales | Within 4 hours of MQL delivery during business hours |
+| If no contact within 4 hours | Marketing (re-nurture) | Lead reverts to marketing nurture, not lost |
+| Follow-up attempts | Sales | Days 2, 4, 7 after initial contact |
+| MQL rejection (sales disputes quality) | Joint review | Within 48 hours; resolve with data |
+
+Starter MQL threshold in this skill: a lead reaching 50+ points is classified as an MQL and handed to sales. The full design in [lead-scoring-model](references/lead-scoring-model.md) proposes 60 points for a standard B2B model and 40 points for the East Africa starter model; both sets are practitioner starting points to calibrate with the client's data.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Sales-marketing service-level agreement and kpi map | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| KPI ownership map | Marketing lead, sales lead, owner | Every KPI is marketing-owned, sales-owned or jointly-owned, and both teams have signed it. |
+| Lead handover SLA with escalation protocol | Sales manager and marketing lead | States the 4-hour first contact, re-nurture on breach, follow-up days and the three-breaches escalation. |
+| Lead-scoring model (starter or full design) | Sales and marketing; CRM administrator | Fit and intent points, threshold with rationale and review date; full design follows the reference template. |
+| Monthly joint review agenda | Both teams | Six agenda items, a 60-minute slot and a written outcome within 24 hours. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| CRM prerequisite check | Table: adoption, daily updates, marketing access, each pass or `not assessed` | Scoring and attribution work starts only after all three pass. |
+| SLA compliance record | Monthly count of MQLs contacted within 4 hours and breaches per rep | Reviewed monthly; breaches trigger the escalation protocol. |
+| Threshold calibration log | Table: date, threshold, MQL-to-deal conversion, change made | Each change cites conversion data, not opinion. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Changing live CRM fields, scoring rules or automated replies needs the sales owner's sign-off.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. Planning and drafting are read-only with respect to client accounts and source records. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without an adopted CRM and current funnel stage definitions, return the narrowest qualified result and mark the affected checks `not assessed`. The KPI ownership map, a draft SLA, the joint review agenda and a CRM adoption recommendation can still be delivered; lead scoring and attribution wait.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified sales-marketing service-level agreement and KPI map. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Current funnel stages, crm ownership and response-time evidence is current and attributable | Produce the full sales-marketing service-level agreement and KPI map and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
+| The CRM is not fully adopted or marketing cannot read deal data | Stop lead scoring and attribution work; recommend a CRM and allow a spreadsheet CRM only if the client cannot commit to software within 30 days. | Scoring built on records held in inboxes, WhatsApp chats and notebooks. |
+| KPI ownership is disputed | Agree and document ownership in writing before building any report or scoring system. | The most common cause of failed alignment initiatives. |
+| A rep misses the 4-hour contact three times in a month | Marketing escalates to the sales manager; if the pattern continues, review whether the scoring model identifies qualified leads. | Leads going cold within 24 hours of initial contact. |
+| MQLs convert below 20% | Lower the threshold or revise the scoring criteria at the quarterly review. | Sales losing trust in marketing leads. |
+| The client is in East Africa and sells through WhatsApp | Add WhatsApp behavioural points: question in reply to a broadcast (+15), price-list request (+20). | Missing the strongest local intent signals. |
+| The business is owner-managed with no sales team | Apply the SLA to the owner's response on WhatsApp, email and phone; use WhatsApp Business automated replies and a simple tracking sheet. | A process designed for a sales team nobody staffs. |
+| The client needs a full lead scoring design (explicit and behavioural points, decay, calibrated threshold, BANT) rather than the starter model | Build it with [lead-scoring-model](references/lead-scoring-model.md), after the CRM prerequisites are met. The starter model in [alignment-method](references/alignment-method.md) uses a 50-point MQL threshold; the full model calibrates 60 points (B2B) or 40 (EA starter). Name the model and threshold in use and do not mix their point tables. | Uncalibrated thresholds, stale high scores and unqualified MQLs reaching sales. |
 | The requested outcome belongs to `meta-roi-framework` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
-| The client needs a full lead scoring design (explicit and behavioural points, decay, calibrated threshold, BANT) rather than the starter model | Build it with [lead-scoring-model](references/lead-scoring-model.md), after the CRM prerequisites are met. | Uncalibrated thresholds, stale high scores and unqualified MQLs reaching sales. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-roi-framework` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the sales-marketing service-level agreement and KPI map, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions.
+- KPI ownership is clearly mapped: marketing-owned, sales-owned and jointly-owned metrics are distinguished.
+- The 4-hour lead response SLA is documented with an escalation protocol for non-compliance.
+- CRM adoption is treated as a prerequisite; no lead scoring or attribution work proceeds without it.
+- The monthly joint review meeting has a documented agenda and output format.
+- WhatsApp is addressed as both an acquisition channel and a lead follow-up channel for EA clients.
+- The EA owner-managed business context is addressed as a distinct scenario with adapted recommendations.
+- The ROI formula (Bodnar and Cohen, 2012) is applied to marketing KPI reporting.
+- Language is British English throughout; imperative in all instructional sections.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the sales-marketing service-level agreement and KPI map without current funnel stages. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
+- Resolving attribution disputes by opinion. Fix: settle lead source with CRM data at the joint review.
+- Building lead scoring before the CRM is adopted. Fix: meet the three CRM conditions first.
+- Treating an uncontacted MQL as lost. Fix: return it to marketing nurture after 4 hours without contact.
+- Setting the MQL threshold once and leaving it. Fix: adjust quarterly from conversion data; recalibrate the full model at 60 days.
+- Letting each team optimise only its own metrics. Fix: hold both to jointly-owned KPIs (CLV, NPS, revenue by acquisition channel).
+- Leaving WhatsApp enquiries unacknowledged while the owner is busy. Fix: set WhatsApp Business automated replies and log every enquiry.
 - Absorbing `meta-roi-framework` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
-
-## Worked example
-
-Given verified current funnel stages, the skill produces a sales-marketing service-level agreement and KPI map with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`meta-roi-framework`](../meta-roi-framework/SKILL.md) for the neighbouring contract.
-- [Lead scoring model](references/lead-scoring-model.md) when the client needs a full scoring design.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- [lead-scoring-model](references/lead-scoring-model.md) — read when designing, calibrating or auditing a lead scoring model and MQL handover threshold.
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Inputs
-
-Ask for the following before generating any deliverable:
-
-1. **Client business name**
-2. **Industry**
-3. **Country / city** (defaults to Uganda / East Africa)
-4. **Primary goal** (e.g. reduce lead wastage, improve MQL-to-deal conversion, establish attribution clarity)
-5. **Sales team size** (number of sales staff, or confirm if owner handles all sales)
-6. **CRM system in use** (HubSpot, Zoho, Salesforce, spreadsheet, none — critical to know before recommending process changes)
-7. **Current monthly lead volume** (approximate)
-8. **Average sales cycle length** (days from first contact to signed contract or purchase)
-
----
-
-## The Core Problem
-
-Marketing generates leads; sales does not follow up promptly or considers them unqualified. Sales closes deals; marketing does not receive credit for sourcing them. Both functions optimise for their own metrics and neither is held accountable for revenue. The result: wasted leads, duplicate effort, and attribution disputes that undermine both teams.
-
----
-
-## KPI Ownership Map
-
-### Marketing-Owned KPIs
-- Website visitors per month
-- Lead volume per month (by channel)
-- Cost per lead per channel
-- Marketing Qualified Lead (MQL) volume
-- Marketing-sourced pipeline value (UGX/KES value of opportunities that marketing generated)
-- Customer Acquisition Cost (CAC)
-- Marketing ROI — apply the formula: **(Total Lifetime Value − CAC) ÷ CAC** (Bodnar and Cohen, 2012)
-
-### Sales-Owned KPIs
-- Total revenue (monthly and cumulative vs. target)
-- Pipeline coverage ratio: total pipeline value ÷ quarterly revenue target (target: 3–4×)
-- Lead-to-opportunity conversion rate
-- Opportunity-to-deal conversion rate
-- Average sales cycle length (days)
-- Average revenue per account
-
-### Jointly-Owned KPIs
-- Customer Lifetime Value (CLV)
-- Net Promoter Score (NPS)
-- Revenue by acquisition channel (first-touch attribution)
-
-Agree and document KPI ownership in writing before implementing any reporting or scoring system. Disputes about KPI ownership are the most common cause of failed alignment initiatives.
-
----
-
-## CRM as Single Source of Truth
-
-All leads, opportunities, and deal records must exist in one CRM system — not in email inboxes, WhatsApp conversations, spreadsheets, or individual sales reps' notebooks. Before implementing any lead scoring or attribution model, ensure the CRM meets three conditions:
-
-1. **100% adoption** — every sales team member logs every lead and activity. No exceptions.
-2. **Daily updates** — activity records (calls made, messages sent, meetings held) must be logged same-day.
-3. **Marketing access** — marketing must have read access to opportunity and deal data to report on marketing-sourced revenue.
-
-**For EA clients without a CRM:** Recommend Zoho CRM (free tier supports up to 3 users) or HubSpot CRM (free tier, unlimited users). Do not implement lead scoring or attribution analysis until the CRM is adopted. A spreadsheet-based CRM is acceptable as a transitional tool if the client cannot commit to a software platform within the next 30 days.
-
----
-
-## Lead Handover SLA
-
-Apply Kahan's (2022) lead handover SLA as the operational standard:
-
-| Stage | Owner | Timeline |
-|---|---|---|
-| MQL generated | Marketing | Real-time (automated delivery to CRM) |
-| First contact attempt | Sales | Within **4 hours** of MQL delivery during business hours |
-| If no contact within 4 hours | Marketing (re-nurture) | Lead reverts to marketing nurture — not lost |
-| Follow-up attempts | Sales | Days 2, 4, 7 after initial contact |
-| MQL rejection (sales disputes quality) | Joint review | Within 48 hours — resolve with data |
-
-**The 4-hour rule (Kahan, 2022):** Leads go cold within 24 hours of initial contact. Research across B2B markets consistently shows response time is the single biggest predictor of lead conversion. Document the 4-hour SLA in writing, share with both teams, and review compliance monthly.
-
-**Escalation protocol:** If a sales rep fails to contact an MQL within 4 hours three times in a month, the marketing team escalates to the sales manager. If the pattern continues, review whether the lead scoring model is correctly identifying qualified leads.
-
----
-
-## Lead Scoring Foundation
-
-Before implementing lead scoring, confirm the CRM is fully adopted (see above). Then build a simple scoring model:
-
-**Demographic score (fit):**
-- Correct industry: +10
-- Correct company size: +10
-- Decision-maker title: +15
-- Located in target geography: +5
-
-**Behavioural score (intent):**
-- Visited pricing page: +20
-- Downloaded lead magnet: +10
-- Attended webinar: +15
-- Opened 3+ emails in past 30 days: +10
-- Requested a demo or quote: +25
-
-**MQL threshold:** A lead reaching 50+ points is classified as an MQL and handed to sales. Adjust thresholds quarterly based on conversion data — if MQLs are converting at below 20%, lower the threshold or revise the scoring criteria.
-
-For the full design document (B2B/B2C fit tables, 10 behaviours, decay, 60-day calibration, BANT, EA starter model), use [lead-scoring-model](references/lead-scoring-model.md).
-
-For EA clients, include WhatsApp engagement in behavioural scoring: responding to a WhatsApp broadcast with a question (+15) or requesting a price list (+20) are strong intent signals.
-
----
-
-## Monthly Joint Review Meeting
-
-Marketing and sales must meet for 60 minutes each month. Structure:
-
-1. **Lead volume and quality (marketing presents):** MQL volume, cost per MQL, top-performing channels
-2. **Funnel conversion rates (joint review):** MQL → opportunity → deal at each stage
-3. **Revenue by channel (joint review):** Which marketing channels produced closed revenue this month?
-4. **Attribution disputes:** Resolve any disagreements about lead source with CRM data, not opinion
-5. **Scoring model review:** Are the leads marketing delivers genuinely qualified? Adjust scoring if conversion rate is below 20%
-6. **Next month targets:** Agree lead volume targets and channel allocation for the next period
-
-Document meeting outcomes in writing and share with both teams within 24 hours.
-
----
-
-## EA-Specific Context: Owner-Managed Businesses
-
-Many EA businesses do not have a formal sales team — the business owner or one account manager handles all sales enquiries. Apply the same principles:
-
-- The "alignment" is between marketing activity and the owner's follow-up behaviour
-- The 4-hour SLA applies to the owner's response to WhatsApp, email, and phone enquiries
-- Design marketing content to reduce the barrier to first contact: WhatsApp CTA buttons, pre-answered FAQs, pricing visible online
-- Use WhatsApp Business automated replies to acknowledge enquiries instantly, even when the owner cannot respond immediately
-- Track all enquiries in a simple CRM or Google Sheet — minimum fields: name, contact, source, date, status (contacted / pending / converted / lost)
-
----
-
-## Quality Criteria
-
-Output meets the standard for this skill if:
-
-- KPI ownership is clearly mapped — marketing-owned, sales-owned, and jointly-owned metrics are distinguished
-- The 4-hour lead response SLA is documented with an escalation protocol for non-compliance
-- CRM adoption is treated as a prerequisite — no lead scoring or attribution work proceeds without it
-- The monthly joint review meeting has a documented agenda and output format
-- WhatsApp is addressed as both an acquisition channel and a lead follow-up channel for EA clients
-- The EA owner-managed business context is addressed as a distinct scenario with adapted recommendations
-- The ROI formula (Bodnar and Cohen, 2012) is applied to marketing KPI reporting
-- Language is British English throughout; imperative in all instructional sections
+- [Alignment method](references/alignment-method.md): read when running the intake, listing KPIs by owner, checking CRM conditions, writing the SLA, setting starter score points, running the joint review or adapting for an owner-managed business.
+- [lead-scoring-model](references/lead-scoring-model.md): read when designing, calibrating or auditing a lead scoring model and MQL handover threshold.
+- [`meta-roi-framework`](../meta-roi-framework/SKILL.md): read when marketing ROI or CAC needs calculating for the KPI map.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the SLA and meeting documents.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

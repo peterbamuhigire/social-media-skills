@@ -4,7 +4,7 @@ Use this reference for the conceptual modules before learners handle live market
 
 ## The Core Frame: Augmented Intelligence, Not Artificial Intelligence
 
-Open every training session with this frame (Ltifi, 2025). Do not skip it.
+Open every training session with this frame (Ltifi, 2024). Do not skip it.
 
 The correct mental model for AI in marketing is **augmented intelligence** — using AI to amplify human creativity, insight, and relationships, not to replace them.
 
@@ -52,7 +52,7 @@ Why does this matter? Because it explains why AI output is often plausible-sound
 
 ### 1.2 The Three Types of AI in Marketing
 
-Explain the three AI types (Ltifi/Huang & Rust, cited in Ltifi, 2025) using marketing examples for each. All three exist in tools the team may already use.
+Explain the three AI types (Ltifi/Huang & Rust, cited in Ltifi, 2024) using marketing examples for each. All three exist in tools the team may already use.
 
 ---
 

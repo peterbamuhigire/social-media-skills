@@ -51,7 +51,7 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 
 ## Outputs
 
-| Artefact | Consumer | Observable acceptance condition |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
 | List-governance sheet | Data-protection owner and researcher | Every source has a jurisdiction, lawful basis and keep/drop decision |
 | Outreach play library | Sales or business-development lead | Plain-text messages with opt-out line; no invented results |
@@ -67,11 +67,11 @@ Design an outreach system that fills the pipeline without breaking data-protecti
 
 ## Capability and Permission Boundaries
 
-Read and search supplied lists, policies and evidence. Planning and drafting are read-only. Collecting, matching or storing personal data, sending any message, placing calls or registering accounts needs explicit client authority, a lawful basis and, where required, data-protection registration. This skill screens and escalates; it does not give legal advice.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Collecting, matching or storing personal data, sending any message, placing calls or registering accounts also needs a lawful basis and, where required, data-protection registration; this skill screens and escalates and does not give legal advice.
 
 ## Degraded Mode
 
-If the legal position for a market is unconfirmed, deliver the plan for business-address, opted-in and referral routes only, mark the rest `not assessed`, and list the checks a qualified adviser must complete.
+Without a confirmed data-protection position for each target market, return the narrowest qualified result and mark the affected checks `not assessed`. The plan for business-address, opted-in and referral routes can still be delivered, with the checks a qualified adviser must complete listed for the rest.
 
 ## Decision Rules
 
@@ -102,12 +102,12 @@ If the legal position for a market is unconfirmed, deliver the plan for business
 
 ## References
 
-- [Outreach plays, cadence and scripts](references/outreach-plays-and-scripts.md) — read when drafting messages, sequences and partner approaches.
-- [Data-protection and platform checks for outreach](references/data-protection-checks-for-outreach.md) — read before any list is used or message sent.
-- [Direct marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md) — release check for every message.
-- [Personalised video outreach](references/personalised-video-outreach.md) — read when recording a video audit of one named prospect and writing its message and follow-ups.
-- [Win-back and reactivation](../../pipeline/07-email-marketing-strategy/references/win-back-and-reactivation.md) — neighbour route for past customers.
-- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md)
+- [Outreach plays, cadence and scripts](references/outreach-plays-and-scripts.md): read when drafting messages, sequences and partner approaches.
+- [Data-protection and platform checks for outreach](references/data-protection-checks-for-outreach.md): read before any list is used or message sent.
+- [Direct marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md): read when running the release check on every message.
+- [Personalised video outreach](references/personalised-video-outreach.md): read when recording a video audit of one named prospect and writing its message and follow-ups.
+- [Win-back and reactivation](../../pipeline/07-email-marketing-strategy/references/win-back-and-reactivation.md): read when the contacts are past customers (neighbour route).
+- [Legal and market release gate](../../../docs/quality-gates/legal-market-release-gate.md): read when a message or plan states a legal or market-specific claim.
 <!-- dual-compat-end -->
 
 Acknowledgement: Shared by Peter Bamuhigire, techguypeter.com.

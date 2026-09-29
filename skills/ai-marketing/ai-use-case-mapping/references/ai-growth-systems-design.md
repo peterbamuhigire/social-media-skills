@@ -20,7 +20,7 @@ AI should improve the growth system, not just produce more content. Tie every AI
 
 
 ## Inputs
-- The completed priority matrix and Top 5 use cases from the parent skill (Steps 4–6).
+- The completed priority matrix and Top 5 use cases from [use-case-mapping-method.md § Steps 4–6](use-case-mapping-method.md).
 - The client's current audience, channels, offers, conversion path, sales handoff and reporting (see procedure step 1).
 - Data held: brand knowledge, customer segments, campaign history, content performance, CRM, web analytics and UTM records, with consent status.
 
@@ -46,12 +46,12 @@ AI should improve the growth system, not just produce more content. Tie every AI
 Choose the simplest pattern that meets the need (a prompted assistant before a RAG brand brain; a deterministic workflow before a bounded agentic one), in line with the parent skill's rule to pick the lowest viable automation level.
 
 ## Deliverables
-- AI growth opportunity map (built on the parent skill's priority matrix and quadrant summary).
+- AI growth opportunity map (built on the priority matrix and quadrant summary in [use-case-mapping-method.md § Steps 4–5](use-case-mapping-method.md)).
 - Data readiness and brand knowledge base plan.
 - AI-enabled content or marketing workflow with approval gates.
 - Measurement framework and dashboard specification.
 - Governance checklist for brand, privacy, copyright, bias and crisis risk.
-- 30/60/90-day AI growth roadmap, using the Days 1–30 / 31–60 / 61–90 structure of parent skill Step 8.
+- 30/60/90-day AI growth roadmap, using the Days 1–30 / 31–60 / 61–90 structure of [use-case-mapping-method.md § Step 8](use-case-mapping-method.md).
 
 ## Hard rules
 - Do not optimise for vanity metrics alone.

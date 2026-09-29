@@ -9,6 +9,8 @@ metadata:
 ---
 # Strategy: Channel Architecture
 
+Designs a hub-and-spoke channel architecture: the conversion hub, one role per platform, the customer traffic flow and the split of content effort, based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) adapted for Uganda and East Africa.
+
 <!-- dual-compat-start -->
 ## Use When
 
@@ -28,148 +30,25 @@ metadata:
 
 | Artefact | Source/provider | Required? | If absent |
 |---|---|---|---|
-| Objective, audience, market, and intended decision | Client or approved brief | yes | Ask for it or state a narrow working assumption |
-| Existing channel, content, commercial, or performance evidence relevant to platform roles, audience flows, hub-and-spoke routing, and effort allocation | Client systems, supplied files, or verified research | conditional | Mark the check unassessed and avoid performance claims |
-| Approval, policy, budget, access, or risk constraints | Accountable client owner | conditional | Stop before publishing, spending, collecting data, or making regulated claims |
+| Business name, industry and business type, country and city | Client owner | Yes | Default the location to Uganda/Kampala and say so; stop without the business type. |
+| Primary goal: one of awareness, leads, sales, community or retention | Client owner | Yes | Stop; roles cannot be assigned without one goal. |
+| Current platforms with approximate followers and monthly reach | Client and platform insights | Yes | Record "Unknown — recommend pulling from platform insights" and proceed with the audit. |
+| Primary target audience (age range, urban or rural location, income or professional status) | Client brief or audience data | Yes | Use a labelled working audience; do not give Instagram or TikTok a high-effort role until the audience fit is checked. |
+| Available weekly content production time (hours) | Client or team lead | Yes | Cap the plan at one High and one Medium platform and mark the time budget `not assessed`. |
+| Hub preference and its state (WhatsApp Business, website, Google Business Profile, landing page, email list, physical location) | Client; a check of the hub itself | Yes | Ask explicitly; never assume a website is the hub. |
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `peso-integrated-strategy`.
-2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
-3. Apply the domain framework in this skill and use the decision rule below at each branch.
-4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
-5. Review the deliverable against the quality and anti-slop gates; if a check fails, correct it and rerun the affected check.
-6. Hand off the artefacts, assumptions, evidence, and unresolved risks to the named consumer.
+1. Confirm the intake answers from the [channel architecture method](references/channel-architecture-method.md); stop when the business goal or the list of active accounts is unknown and request the channel audit.
+2. Check the upstream gate: if channels have not been tested against the other acquisition channels, run `traction-channel-bullseye` first.
+3. Define the conversion hub and its single primary call to action before any spoke is assigned.
+4. Audit current channels; name the strongest, the weakest and the missing channels.
+5. Assign exactly one primary role per active platform (table below) and flag any unassigned role, especially Conversion and Retention.
+6. Draw the traffic flow map across all five stages and the content flow map from one pillar piece to its derivatives; for a timed launch, add sequence roles from [launch channel sequencing](references/launch-channel-sequencing.md).
+7. Allocate effort (no more than three platforms at High or Medium), add a participation, affordance and privacy card for each High or Medium platform, and reconcile the weekly time budget with the stated hours.
+8. Check the map against the Quality Standards and the anti-slop gate; correct any failed item and rerun the check before hand-off.
 
-## Outputs
-
-| Artefact | Consumer | Observable acceptance condition |
-|---|---|---|
-| Platform roles, audience flows, hub-and-spoke routing, and effort allocation deliverable | Client decision-maker or delivery team | Names the chosen route, owners, sequence, assumptions, and measurable acceptance checks |
-| Decision and risk record | Reviewer or implementer | Links each recommendation to supplied evidence or labels it as an assumption |
-
-## Evidence Produced
-
-| Evidence | Format | Acceptance condition |
-|---|---|---|
-| Input and assumption register | Table or annotated brief | Missing and unverified items are visible, not treated as passed |
-| Release check | Completed quality checklist | All blocking findings are fixed or the deliverable is explicitly withheld |
-
-## Capability and Permission Boundaries
-
-Read and search are the minimum capabilities. Analysis and planning remain read-only. Edit only files placed in scope; publishing, outreach, spend, personal-data processing, production changes, and certification claims require explicit authority and evidence of success.
-
-## Degraded Mode
-
-If files, tools, network, current evidence, rendering, or authorised access are unavailable, return the narrowest useful qualified deliverable. Mark each unavailable check `not assessed`; never convert it into a pass or invent market facts.
-
-## Decision Rules
-
-| Choice condition | Action | Failure or risk avoided |
-|---|---|---|
-| The client is spread thinly or lacks a role for each channel | Choose a primary hub and explicit support roles | Every channel receives equal effort without a conversion path |
-| Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
-| Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
-| Channel choice has not been tested against the other acquisition channels | Gate: run `traction-channel-bullseye` (19 channels, three capped tests) before assigning social roles; record whether each social channel harvests demand or generates it | Building an elaborate social architecture on a channel that cannot reach customers at allowable cost |
-
-## Quality Standards
-
-- Keep Uganda/East Africa, British English, EAT, UGX, and WhatsApp-first assumptions explicit where they apply.
-- Tie recommendations to observed evidence, a named assumption, or a verification action.
-- Give the next operator enough detail to execute without guessing ownership, sequence, or acceptance.
-- Apply `ai-marketing/anti-ai-slop` during drafting and block release on an F from `ai-marketing/ai-slop-audit`.
-
-## Anti-Patterns
-
-- Inventing a client metric, audience fact, price, partner, or platform rule. Fix: verify it or label the decision provisional.
-- Treating a missing tool, source, render, or approval as a passed check. Fix: mark it `not assessed` and narrow the output.
-- Producing channel tactics before defining the decision and consumer. Fix: state the required outcome and handoff first.
-- Copying a global template without adapting Uganda/East Africa access, language, payment, or trust conditions. Fix: record which local assumptions apply.
-- Recommending publication, outreach, spend, data collection, or a regulated claim without authority. Fix: stop at an approval-ready draft.
-- Reporting activity as success without an acceptance condition. Fix: name the observable result and evidence source.
-
-## References
-
-- [AGENTS.md](../../../AGENTS.md)
-- [Traction channel bullseye](../traction-channel-bullseye/SKILL.md) — upstream gate for channel selection.
-<!-- dual-compat-end -->
-
-Designs a hub-and-spoke channel architecture — defining the conversion hub, assigning platform roles, mapping the customer traffic flow, and allocating content production effort. Based on Schaffer's platform role framework (*Maximize Your Social*, Wiley, 2013) and adapted for the Uganda/East Africa market.
-
-Cross-reference: `05-social-media-strategy` (overall strategy context), `10-content-pillars` (what content to produce per platform), `peso-integrated-strategy` (owned-media assets: hub development and owned channel depth).
-
----
-
-
-## Required Input
-
-Before generating any output, ask for the following. Do not proceed until all six inputs are provided.
-
-1. **Client business name** — trading name and any common abbreviation
-2. **Industry and business type** — e.g., retail clothing, professional services, restaurant, NGO, SaaS
-3. **Country and city** — defaults to Uganda/Kampala if not specified
-4. **Primary goal** — select one: awareness / leads / sales / community / retention
-5. **Current platforms** — list every platform the client is active on, with approximate follower count and monthly reach if known
-6. **Primary target audience** — age range, location (urban/rural, city), income level or professional status
-7. **Available weekly content production time** — hours per week the client or their team can dedicate to content
-8. **Hub preference** — where should enquiries and purchases be directed? (WhatsApp Business / website / Google Business Profile / landing page / email list / physical location)
-
----
-
-## Output Structure
-
-Produce the channel architecture map in six sections, in this order.
-
----
-
-### Section 1 — Hub Definition
-
-State the client's primary conversion hub clearly before any spoke assignments. The hub is the owned asset that converts — every platform drives traffic toward it.
-
-**Hub options (in order of EA priority):**
-
-| Priority | Hub | Best fit |
-|---|---|---|
-| 1 | WhatsApp Business | Service businesses, retail, any client where personal conversation drives conversion |
-| 2 | Google Business Profile | Location-based businesses — restaurants, clinics, shops, salons |
-| 3 | Landing page | Lead generation campaigns, event registrations, single-offer products |
-| 4 | Website / blog | Content-driven businesses with consistent publishing capacity |
-| 5 | Email list | Businesses with a regular newsletter, product launches, or subscription model |
-| 6 | Brick-and-mortar location | Retail clients where footfall is the primary commercial outcome |
-
-**Important EA note:** Many Ugandan and East African SMEs have no website or maintain an outdated one. Do not assume a website is the hub. Ask explicitly. If the client names a website but it has not been updated in six months or has no clear call to action, recommend WhatsApp Business or a landing page instead and note the reason.
-
-Output format for this section:
-
-```
-**Hub:** [Hub type and platform name]
-**Hub URL / Contact:** [Link, phone number, or address]
-**Rationale:** [One or two sentences explaining why this hub fits the client's goal and audience]
-**Primary Call to Action:** [The single action all spokes should drive — e.g., "Message us on WhatsApp to book", "Visit our Google Business Profile to get directions"]
-```
-
----
-
-### Section 2 — Current Channel Audit
-
-For each platform the client has provided, produce a one-row audit table. If the client cannot supply engagement rate or monthly reach, note "Unknown — recommend pulling from platform insights" and proceed.
-
-| Platform | Followers | Monthly Reach | Avg. Engagement Rate | Primary Content Type | Primary Audience | Current CTA |
-|---|---|---|---|---|---|---|
-| [Platform] | [Count] | [Reach] | [Rate] | [Type] | [Age/Location] | [Current action directed] |
-
-Below the table, identify:
-- **Strongest channel** (highest reach or engagement relative to follower count)
-- **Weakest channel** (lowest ROI on effort — candidate for deprioritisation)
-- **Missing channels** (platforms the target audience uses that the client is not on)
-
----
-
-### Section 3 — Platform Role Assignment
-
-Assign exactly one primary role to each active platform. Do not assign two roles to the same platform. If the client is on more platforms than there are roles, some platforms must be deprioritised.
-
-**Role definitions (Schaffer, 2013):**
+## Platform roles (Schaffer, 2013)
 
 | Role | Definition | Best platforms in Uganda/EA |
 |---|---|---|
@@ -179,158 +58,72 @@ Assign exactly one primary role to each active platform. Do not assign two roles
 | **Retention** | Keeps existing customers connected and loyal post-purchase | WhatsApp Broadcast, Email, Facebook Page |
 | **Advocacy** | Turns satisfied customers into active referrers | WhatsApp (referral asks), Instagram UGC, Facebook reviews, Google reviews |
 
-Output format:
+## Outputs
 
-```
-| Platform | Primary Role | Rationale |
+| Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| [Platform] | [Role] | [One sentence] |
-```
+| Hub definition (hub, URL or contact, rationale, primary CTA) | Client owner and every channel lead | Stated before any spoke role; one primary call to action. |
+| Channel audit and role assignment table | Client owner; `05-social-media-strategy` | Every active platform has exactly one primary role with a one-sentence rationale. |
+| Traffic flow map (written flow and text diagram) | Content and community leads | Covers Discovery → Engagement → Conversion → Retention → Advocacy for this client, not a copied example. |
+| Effort allocation table with weekly time budget and participation cards | Team lead | At most three High or Medium platforms; posts per week for every platform; hours reconcile. |
+| Content flow map | Content producer; `10-content-pillars` | Shows how Tier 1 pillar content becomes Tier 2 derivatives and Tier 3 native posts, all pointing to the hub. |
 
-Flag if any role is unassigned after the mapping — particularly Conversion and Retention, which are the two roles most often neglected by EA clients.
+## Evidence Produced
 
----
+| Evidence | Format | Acceptance condition |
+|---|---|---|
+| Channel audit record | Table with followers, reach, engagement rate and data date | Unknown figures are marked unknown with a request to pull platform insights. |
+| Audience-fit and penetration notes | Short table per recommended platform, with source and date | Platform recommendations rest on dated Uganda/EA data or are labelled assumptions. |
+| Consent and safeguarding notes | One line per High or Medium platform card | Public-to-private handoff owner and consent risk recorded. |
 
-### Section 4 — Traffic Flow Map
+## Capability and Permission Boundaries
 
-Map the full customer journey from first contact to post-purchase advocacy. Use the five-stage model: Discovery → Engagement → Conversion → Retention → Advocacy.
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Closing or deprioritising an account is a recommendation for the client to act on.
 
-Present this as a written flow and a visual text diagram.
+## Degraded Mode
 
-**Written flow:**
+Without the client's active-account list and weekly production hours, return the narrowest qualified result and mark the affected checks `not assessed`. A hub recommendation, the role definitions and a blank traffic-flow template for the client to complete can still be delivered.
 
-Describe what a new customer experiences at each stage — what they see, what they do, and what the brand does to move them to the next stage.
+## Decision Rules
 
-**Text diagram:**
+| Condition | Action | Failure or risk avoided |
+|---|---|---|
+| The client is spread thinly or lacks a role for each channel | Choose a primary hub and explicit support roles | Every channel receives equal effort without a conversion path |
+| Channel choice has not been tested against the other acquisition channels | Gate: run `traction-channel-bullseye` (19 channels, three capped tests) before assigning social roles; record whether each social channel harvests demand or generates it | Building an elaborate social architecture on a channel that cannot reach customers at allowable cost |
+| The named website hub has not been updated in six months or has no clear call to action | Recommend WhatsApp Business or a landing page as the hub and note the reason | Sending traffic to a dead end |
+| The client is on more platforms than there are roles | Deprioritise some platforms to Minimal effort | Two roles on one platform, or none done well |
+| More than three platforms are proposed at High or Medium effort | Cut to three and move the rest to Low or Minimal | Nothing remarkable on any platform |
+| The primary audience is 16–30 in Uganda | Make TikTok the lead discovery platform | Missing the fastest-growing discovery channel for that audience |
+| The client cannot commit to one YouTube video a week, or targets retail consumers on X/Twitter | Do not make YouTube or X a priority platform unless the commitment or audience data supports it | Effort on channels that cannot grow |
+| Content is about to be cross-posted unchanged | Adapt format and copy per platform from one pillar piece | Identical posts that ignore each platform's norms |
 
-```
-[Discovery Platform]
-       ↓
-[Content or action that triggers move]
-       ↓
-[Engagement Platform]
-       ↓
-[Content or action that triggers move]
-       ↓
-[Conversion Hub]
-       ↓
-[Post-purchase action]
-       ↓
-[Retention Platform]
-       ↓
-[Advocacy ask or trigger]
-       ↓
-[Advocacy Platform / Referral channel]
-```
+## Quality Standards
 
-**Reference examples for EA context:**
+- Every active platform has exactly one primary role; no platform has two roles and no role goes to two platforms.
+- No more than three platforms are at High or Medium effort.
+- The traffic flow map covers all five stages: Discovery → Engagement → Conversion → Retention → Advocacy.
+- The hub is defined and confirmed (method Section 1) before any spoke roles are assigned.
+- The content flow map shows how pillar content becomes derivative spoke content.
+- Platform recommendations reflect current Uganda/EA penetration data and audience characteristics.
+- The effort allocation table gives posts-per-week guidance for every platform.
+- The weekly time budget is reconciled against the client's stated available hours.
 
-*EA retail brand:*
-Facebook Reel (discovery) → Facebook Page comment or DM (engagement) → WhatsApp Business chat (conversion) → WhatsApp Broadcast list (retention) → Customer posts a story tag (advocacy)
+## Anti-Patterns
 
-*EA professional services:*
-LinkedIn post (discovery) → LinkedIn connection and message (engagement) → WhatsApp call or meeting (conversion) → Email newsletter (retention) → Referral via LinkedIn recommendation (advocacy)
-
-*EA restaurant:*
-TikTok video (discovery) → Instagram follow (engagement) → Google Business Profile booking (conversion) → WhatsApp broadcast for weekly specials (retention) → Google review (advocacy)
-
-Adapt these patterns to the client's specific industry and hub. Do not copy them verbatim.
-
----
-
-### Section 5 — Effort Allocation Table
-
-Based on role assignments and the client's available weekly production time, produce an effort allocation table. Apply the rule: **no more than three platforms at High or Medium effort**. Spreading effort across all platforms produces nothing remarkable on any platform.
-
-| Platform | Role | Effort Level | Posts / Week | Content Types |
-|---|---|---|---|---|
-| [Platform 1] | Discovery | High | 5–7 | [e.g., Reels, short videos, carousels] |
-| [Platform 2] | Engagement | Medium | 3–5 | [e.g., comments, polls, Group posts] |
-| [Platform 3] | Conversion | Low (responsive) | As needed | [e.g., WhatsApp replies, GBP updates] |
-| [Platform 4] | Retention | Low (broadcast) | 1–2 | [e.g., WhatsApp Broadcast, email] |
-| [Deprioritised] | — | Minimal | 0–1 | [Maintain presence only] |
-
-**Effort level definitions:**
-- **High** — primary growth investment; original content produced specifically for this platform
-- **Medium** — adapted or derivative content; consistent but not the primary focus
-- **Low (responsive)** — monitor and respond; no proactive posting required beyond updates
-- **Low (broadcast)** — scheduled one-way messages to an existing list; low time cost, high ROI
-- **Minimal** — profile kept active and up to date; no weekly posting commitment
-
-After the table, include a weekly time budget breakdown. Show how the client's stated available hours map to the effort levels above.
-
-### Participation, affordance and privacy check
-
-For each High or Medium effort platform, add a compact card with: audience motive (consume, control, connect, compete or create); platform affordance; participation job (identity, conversation, sharing, presence, relationships, reputation or groups); audience and public/private boundary; intended hub action; consent or safeguarding risk; and one trust or attention guardrail. A channel is not ready for high effort if its role is only "post more". Use the approved public-to-private route for personal, service or conversion conversations and record the handoff owner.
-
----
-
-### Section 6 — Content Flow Map
-
-Show how content moves from production through to distribution across spokes. The governing rule: **produce once, publish everywhere — but adapt format and copy for each platform. Never cross-post identical content.**
-
-**Three content tiers:**
-
-**Tier 1 — Pillar Content (weekly or biweekly)**
-One substantial piece of content produced per cycle. Lives on the hub or primary platform. Examples: long video, detailed blog post, in-depth LinkedIn article, recorded webinar, podcast episode.
-
-**Tier 2 — Derivative Content (3–5 pieces per pillar)**
-Shorter pieces extracted or adapted from the pillar. Posted to spoke platforms across the week. Examples: quote graphic from blog post, 60-second Reel from long video, three-slide carousel summarising the article, caption thread from a webinar insight.
-
-**Tier 3 — Platform-Native Content (as needed)**
-Quick, timely, or ephemeral posts made directly on each platform. Not derived from pillar content. Examples: Instagram Stories, WhatsApp status updates, TikTok trend participation, real-time event coverage.
-
-**Content flow diagram:**
-
-```
-PILLAR CONTENT (produced once)
-         │
-         ├──→ Tier 2: Short video clip → [Discovery platform]
-         ├──→ Tier 2: Quote graphic → [Engagement platform]
-         ├──→ Tier 2: Summary carousel → [Engagement platform]
-         ├──→ Tier 2: Key insight caption → [Secondary platform]
-         └──→ Tier 3: Native story/update → [Each active platform]
-                                   │
-                             All pieces include
-                          CTA pointing to the Hub
-```
-
-Produce a completed version of this diagram using the client's actual platforms, content types, and hub.
-
----
-
-## EA-Specific Platform Notes
-
-Apply these standing recommendations unless the client's data contradicts them.
-
-- **WhatsApp Broadcast** is the highest-ROI retention channel in EA — prioritise building this list from Day 1, even if the client is not yet using it. Every other platform should include a CTA to join the broadcast list.
-- **TikTok** is the fastest-growing discovery channel for 16–30 audiences in Uganda as of 2025. If the primary audience falls in this range, TikTok should be the lead discovery platform.
-- **Facebook Groups** outperform Pages for engagement in EA. If the client has or could build a community, invest in a Group rather than relying solely on the Page.
-- **X/Twitter** is relevant only if the client targets journalists, policymakers, NGO networks, or opinion leaders. Do not recommend it for retail or consumer brands unless the audience data supports it.
-- **YouTube** requires a minimum commitment of one video per week to grow. Do not recommend YouTube as a priority platform unless the client can make and sustain this commitment.
-- **Instagram** performs best in urban EA markets (Kampala, Nairobi, Dar es Salaam) for audiences aged 18–35 with disposable income. Verify the client's audience fits before assigning Instagram a high-effort role.
-- **LinkedIn** is relevant for B2B, formal sector, NGOs, and professional services. Engagement is lower than Facebook but lead quality is higher.
-
----
-
-## Quality Criteria
-
-Output meets the standard if all of the following are true:
-
-- Every active platform is assigned exactly one primary role — no platform has two roles, no role is assigned to two platforms
-- No more than three platforms are at High or Medium effort in the allocation table
-- The traffic flow map covers all five stages: Discovery → Engagement → Conversion → Retention → Advocacy
-- The hub is defined and confirmed in Section 1 before any spoke roles are assigned
-- The content flow map shows explicitly how pillar content becomes derivative spoke content
-- Platform recommendations reflect current Uganda/EA penetration data and audience characteristics
-- The effort allocation table includes posts-per-week guidance for every platform
-- The weekly time budget is reconciled against the client's stated available hours
-
----
+- Assuming the website is the hub. Fix: ask explicitly; many Ugandan SMEs have no website or an outdated one.
+- Leaving Conversion and Retention unassigned. Fix: flag them; they are the two roles EA clients most often neglect.
+- Copying the retail, professional-services or restaurant flow examples verbatim. Fix: adapt the pattern to the client's industry and hub.
+- A high-effort channel whose only job is "post more". Fix: complete the participation card (motive, affordance, job, boundary, hub action, risk, guardrail) first.
+- Relying on the Facebook Page alone for community. Fix: invest in a Facebook Group where the client has or could build a community.
+- Starting the WhatsApp Broadcast list late. Fix: build it from Day 1 and put a join CTA on every other platform.
 
 ## References
 
-- Schaffer, N. (2013) *Maximize Your Social*. Wiley.
-- Sobia Publication (2022) *Powerful Social Media Marketing for Beginners*. Sobia Publication.
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*. Pearson.
-- Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Wiley.
+- [Channel architecture method](references/channel-architecture-method.md): read when running the intake, filling the six output sections, drawing flow diagrams or applying the EA platform notes.
+- [Launch channel sequencing](references/launch-channel-sequencing.md): read when the architecture must support a timed campaign, launch, enrolment window or event.
+- [Traction channel bullseye](../traction-channel-bullseye/SKILL.md): read when the channel families have not yet been tested (upstream gate).
+- [`peso-integrated-strategy`](../peso-integrated-strategy/SKILL.md): read when paid, earned, shared and owned media need coordinating or the owned hub needs depth.
+- [`05-social-media-strategy`](../../pipeline/05-social-media-strategy/SKILL.md): read when the full social-media strategy document is needed.
+- [`10-content-pillars`](../../pipeline/10-content-pillars/SKILL.md): read when deciding what content to produce per platform.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting the map and rationales.
+<!-- dual-compat-end -->

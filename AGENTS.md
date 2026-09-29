@@ -170,7 +170,7 @@ A retired skill keeps its folder, but its `SKILL.md` is renamed `ALIAS.md` and i
 - Preserve the standard directory layout unless a change is clearly necessary.
 - Keep skills in `skills/<category>/<skill-name>/SKILL.md`.
 - Do not weaken Claude triggers in `description`; improve Codex compatibility by layering structure on top.
-- Keep all `SKILL.md` files under 500 lines. Move deep detail into `references/` when needed.
+- Keep every `SKILL.md` at or below 300 lines (validator `line_budget`; aim for 120-220, catalogue median at or below 200) and follow the lean template in `docs/templates/SKILL.template.md` (D-SK-06). Move deep detail into `references/` with a "read when" note.
 - Keep frontmatter within `docs/standards/skill-authoring-standard.md`; retain required `name`, `description` and portable `metadata`.
 - Use British English throughout unless the target market or requested language requires otherwise.
 - Keep outputs as text deliverables only. This repo does not produce code, web builds, graphic design, or video production.
@@ -282,7 +282,7 @@ The binding contract is `docs/standards/skill-authoring-standard.md`; use `docs/
 
 1. **Portable SKILL.md entrypoint** — every skill lives at `skills/<category>/<skill-name>/SKILL.md` with directory-matching `name`, a single-line `Use when` description, and portable Claude Code/Codex metadata. Keep deep material in linked `references/`; do not add README.md or CHANGELOG.md inside skill folders.
 2. **No skills at `skills/` root** — every skill must live inside one of the category subdirectories listed above. Pick the category whose theme best matches the skill; add a new category only when no existing one fits.
-3. **500-line hard limit** — SKILL.md must stay under 500 lines. Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
+3. **300-line hard limit** — SKILL.md must stay at or below 300 lines (Social Kaizen S09, D-SK-06; the validator reports `line_budget`). Detailed reference material goes in `references/` subfolder and is linked from SKILL.md with a note on when to read it.
 4. **British English throughout** — organisation, colour, programme, behaviour, analyse, strategise, recognise, centre, enquiry. Never American spellings.
 5. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
 6. **Composition contracts** — every skill declares sources and absent-input behaviour, outputs and acceptance, evidence, capability permissions, degraded mode, decision risks, stop/recovery workflow, quality standards, five corrected anti-patterns, and direct references.
@@ -321,7 +321,7 @@ If another market is specified, replace those assumptions rather than keeping Ug
 Apply where relevant; cite on first use:
 
 - **POEM model** (Paid/Owned/Earned) — channel classification
-- **RACE framework** (Reach/Act/Convert/Engage) — Chaffey (2024)
+- **RACE framework** (Reach/Act/Convert/Engage) — Chaffey and Ellis-Chadwick (2022)
 - **10-4-1 rule** — Bodnar and Cohen (2012): 10 shares, 4 original posts, 1 promotional
 - **Hero/Hub/Hygiene** — content tier model (YouTube/Google)
 - **Minto's Pyramid Principle** — conclusion-first slide sequencing
@@ -335,7 +335,7 @@ Apply where relevant; cite on first use:
 
 **Key references to cite:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*
-- Chaffey, D. (2024) *Digital Marketing: Strategy, Implementation and Practice*
+- Chaffey, D. and Ellis-Chadwick, F. (2022) *Digital Marketing: Strategy, Implementation and Practice*. 8th edn. Harlow: Pearson.
 - Kotler, P. et al. (2023) *Marketing Management*
 - Kennedy, D. and Marrs, J. (2011) *No B.S. Price Strategy*; Kennedy, D. (2004) *No B.S. Sales Success*; Kennedy, D. (2000) *The Ultimate Sales Letter*; Brunson, R. *DotComSecrets Ignite*
 - Kelley, L. D. and Sheehan, K. B. (c. 2021–22) *Advertising Management in a Digital Environment*, Routledge

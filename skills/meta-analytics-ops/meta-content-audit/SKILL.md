@@ -9,6 +9,7 @@ metadata:
 ---
 # Content Audit
 
+A read-only review of a client's published posts from exported platform data: performance by platform against Uganda / East Africa benchmarks, top and bottom posts, pillar coverage, tone and consistency, and five 30-day fixes. Metric findings are paired with narrative, audience-empathy and readability checks.
 
 <!-- dual-compat-start -->
 ## Use When
@@ -28,272 +29,88 @@ metadata:
 ## Required Inputs
 
 | Artefact | Source/provider | Required? | If absent |
-|---|---|---:|---|
-| Content inventory and platform performance exports for a stated period | Client, approved systems, or dated platform exports | Yes | Stop the affected decision; request it or mark the field unknown and narrow the output. |
-| Purpose, audience and approval boundary | Client brief or accountable owner | Yes | Return discovery questions; do not infer approval. |
+|---|---|---|---|
+| Post-level data for the audit period (default last 3 months, at least 30 posts per platform) | Native analytics exports completed on the data template | Yes | Stop; hand over the template and request the export rather than estimating performance. Extend to 6 months where a platform has fewer than 30 posts. |
+| Platforms to audit | Client brief | Yes | Audit only platforms with an export; mark the rest `not assessed`. |
+| Client name, industry, country/city and primary goal | Client brief | Yes | Default to Uganda / Kampala; ask the goal before prioritising fixes. |
+| Content pillars | `10-content-pillars` output | If established | Cluster posts into 3–5 topic groups and recommend them as draft pillars. |
+| Brand voice guide | `04-brand-voice-intake` output | If available | Rate tone against observed patterns and state that no guide was supplied. |
+| Representative items with renders, sources and approvals | Client content library | For the narrative audit | Mark narrative, accessibility and permission checks `not assessed`. |
+
+## Workflow
+
+1. Collect intake and the post-level data ([audit data and output template](references/audit-data-and-output-template.md) § Step 1); stop if no dated export exists, and route profile or set-up audits to `02-platform-audit`.
+2. Sort posts by engagement rate descending and build the performance summary per platform against the Uganda / EA benchmarks; flag any platform below benchmark.
+3. Analyse the top 5 posts (ties broken by absolute reach) and the bottom 3 (excluding zero-reach posts), with specific, distinct reasons and one instruction each.
+4. Check pillar coverage against the 10-4-1 rule, or cluster posts into draft pillars when none exist.
+5. Rate visual, tone and posting consistency on 1–10 with evidence-based justifications.
+6. Apply the [narrative, audience empathy and content quality audit](references/narrative-empathy-and-content-quality.md) to representative items and publish the capped audit plus the 95/100 remediation plan.
+7. Write exactly 5 priority improvements for the first 30 days, highest impact first, covering format, consistency and pillar balance.
+8. Run the quality standards and anti-slop gate; correct any finding without a data basis and rerun the check. Withhold release while a metric is invented or a missing check is shown as a pass.
 
 ## Outputs
 
 | Artefact | Consumer | Acceptance condition |
 |---|---|---|
-| Content audit and prioritised improvement plan | Client lead and next workflow owner | Every recommendation traces to an input, names an owner or next action, and marks assumptions and unassessed checks. |
+| Performance summary per platform | Client lead | Every metric row filled from supplied data and compared with the Uganda / EA benchmark. |
+| Top 5 and bottom 3 post analysis | Content team | Each post has distinct reasons and one specific replicate or avoid instruction. |
+| Pillar coverage and tone/consistency ratings | Client lead; `10-content-pillars` | Pillars over 40% or under 10% flagged; each score justified with evidence. |
+| Narrative quality audit (capped score) and 30-day improvement list | Client lead and next workflow owner | Audit score published as `min(raw score, 65)`; 5 improvements each traced to a finding. |
 
 ## Evidence Produced
 
 | Evidence | Format | Acceptance condition |
 |---|---|---|
-| Decision and source register | Table in the deliverable | Each material claim records its source/date or is labelled unverified; missing evidence never becomes a pass. |
+| Completed post-level data table | Spreadsheet or table per platform | Source export and period stated; engagement rate = engagement ÷ reach × 100. |
+| Not-assessed register | Table: check, reason, recovery evidence | Missing renders, sources, permissions or native-language reviews listed, never counted as passes. |
 
-<!-- dual-compat-end -->
+## Capability and Permission Boundaries
 
-## Capability and permission boundary
+Read and search only; analysis is read-only. Publishing, spend, live account changes, outreach and personal-data processing need explicit, action-specific client authority. Retiring or editing a post is the client's decision after the audit; the audit never deletes or changes live content.
 
-Read and search access to the supplied artefacts are required; calculation or file-rendering capability is optional. This is read-only by default: inspect and report without changing source records, accounts, skills or campaigns. Editing the deliverable requires explicit authorisation; publishing, production mutation, destructive action, spend, and certification claims require separate explicit authority and evidence.
+## Degraded Mode
 
-## Degraded mode
+Without dated post-level exports, return the narrowest qualified result and mark the affected checks `not assessed`. The data template, the benchmark table and a qualitative tone and pillar review of supplied screenshots can still be delivered, labelled as unscored.
 
-If files, platform access, network, rendering, fonts, or calculation tools are unavailable, return the narrowest useful qualified content audit and prioritised improvement plan. Mark each blocked check `not assessed`, state the consequence, and provide the exact evidence needed to resume. Never convert an unavailable check into a pass.
+## Decision Rules
 
-## Decision rules
-
-| Choice | Action | Failure or risk avoided |
+| Condition | Action | Failure or risk avoided |
 |---|---|---|
-| Content inventory and platform performance exports for a stated period is current and attributable | Produce the full content audit and prioritised improvement plan and cite the evidence used. | Decisions based on stale or unrelated evidence. |
-| A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
 | The requested outcome belongs to `meta-competitor-analysis` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
-
-## Workflow
-
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-competitor-analysis` if its contract is closer.
-2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
-3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
-4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
-5. Produce the content audit and prioritised improvement plan, decision/source register and explicit next owner. Do not mutate live systems without separate authority.
-6. Run the repository anti-slop ship gate. If a blocking factual, permission or evidence defect remains, fix it or withhold release.
-7. Apply [Narrative, audience empathy, and content quality audit](references/narrative-empathy-and-content-quality.md) to representative items and publish the capped audit plus 95/100 remediation plan.
+| A platform has fewer than 30 posts in 3 months | Extend the audit period to 6 months. | Patterns read from too small a sample. |
+| A bottom-ranked post had zero reach | Exclude it and log it as a technical issue, not a content failure. | Blaming content for a delivery fault. |
+| A pillar exceeds 40% of the mix or falls below 10% | Flag over-reliance or neglect against the 10-4-1 rule (Bodnar and Cohen, 2012). | An unbalanced, over-promotional feed. |
+| A consistency dimension scores 1–4 | Recommend addressing it before further investment in content production. | Scaling inconsistent content. |
+| Engagement is high but the offer or next step is unclear | Inspect narrative and information hierarchy before calling the content effective. | Rewarding posts that do not move the audience. |
+| A post was paid-boosted | Record "Paid boost? Yes" and name paid amplification as a factor when explaining its performance. | Crediting paid amplification to content quality. |
 
 ## Quality Standards
 
-The output is client-specific, uses British English and the stated market/currency, distinguishes observed fact from inference, exposes gaps, and gives a checkable acceptance condition. Recommendations must be feasible within the confirmed budget, capacity and permissions. Metric findings are paired with audience empathy, narrative clarity, hierarchy, readability/accessibility, evidence, permissions, AI transparency, and learning-value findings.
+- Uses only data provided by the consultant; no invented metrics or engagement rates without a stated basis.
+- Platform summaries compare against Uganda / EA benchmarks, not just internal averages.
+- Top and bottom post analysis gives specific and distinct reasons, not the same generic factors repeated.
+- Pillar coverage flags imbalances clearly with reference to the 10-4-1 rule.
+- Tone and consistency ratings are justified with evidence from the content, not assigned arbitrarily.
+- The 30-day improvements are prioritised by impact and each traces to a specific audit finding.
+- Output is direct and honest: underperformance is named, not softened.
+- Metric findings are paired with audience empathy, narrative clarity, hierarchy, readability/accessibility, evidence, permissions, AI transparency and learning-value findings.
 
 ## Anti-Patterns
 
-- Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
-- Producing the content audit and prioritised improvement plan without content inventory and platform performance exports for a stated period. Fix: stop the affected decision or issue a clearly bounded partial output.
-- Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-competitor-analysis` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
-- Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
+- Estimating performance when no export was supplied. Fix: request the dated export and hand over the data template.
+- Repeating the same generic reasons ("good visuals") for every top post. Fix: name distinct factors per post from the list in the template.
+- Softening the bottom-post diagnosis. Fix: state the likely cause plainly; honest diagnosis prevents repeated mistakes.
 - Calling content effective because engagement is high while the audience cannot understand the offer or next step. Fix: inspect the narrative and information hierarchy.
-- Treating a missing render, source, permission, or native-language review as a pass. Fix: mark it `not assessed`, state the risk, and name the recovery evidence.
-
-## Worked example
-
-Given verified content inventory and platform performance exports for a stated period, the skill produces a content audit and prioritised improvement plan with source dates and named assumptions. If that evidence cannot be accessed, it returns only the supported sections plus a recovery list; it does not fill gaps with East African defaults.
-
-## Read next
-
-- [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md) for the neighbouring contract.
-- [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
-- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
-- [`narrative-empathy-and-content-quality.md`](references/narrative-empathy-and-content-quality.md) for audience, story, visual, accessibility, and learning checks.
+- Treating a missing render, source, permission or native-language review as a pass. Fix: mark it `not assessed`, state the risk and name the recovery evidence.
+- Judging YouTube by engagement rate alone. Fix: measure watch-time completion % and click-through rate.
 
 ## References
 
-- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
-- Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
-
-## Required Input
-
-Before generating the audit output, collect the following from the consultant:
-
-- **Client name** and trading name (if different)
-- **Industry** and sub-sector
-- **Country / city** (default: Uganda / Kampala)
-- **Primary goal** (e.g., increase enquiries, grow brand awareness, improve engagement)
-- **Platforms to audit** (select all that apply: Facebook, Instagram, LinkedIn, TikTok, YouTube, X/Twitter, WhatsApp)
-- **Content data collected** using the template in Section 1 below — do not proceed without this data
-- **Content pillars** (if already established — from `10-content-pillars` skill if available)
-- **Brand voice guide** (from `04-brand-voice-intake` skill if available)
-- **Audit period:** default is the last 3 months of published content
-
----
-
-## Step 1: Data Collection Template
-
-Before running the audit, ask the consultant to collect data from each platform's native analytics. Provide this template to complete for every post in the audit period.
-
-**Recommended minimum sample:** last 3 months of content, all posts. A minimum of 30 posts per platform is required for meaningful pattern analysis. If the client has fewer than 30 posts on a platform in 3 months, extend the period to 6 months.
-
----
-
-**Post-Level Data Template**
-
-For each post, record:
-
-| Field | What to enter |
-|---|---|
-| Post date | DD/MM/YYYY |
-| Platform | Facebook / Instagram / LinkedIn / TikTok / YouTube / X / WhatsApp |
-| Content type | Image / Video / Carousel / Text / Story / Reel / Short / Broadcast |
-| Content pillar | Enter pillar name if known; leave blank if not yet established |
-| Topic / theme | 2–4 words describing the subject |
-| Reach / Impressions | Number from platform analytics |
-| Engagement | Total: likes + comments + shares + saves |
-| Engagement rate | Engagement ÷ Reach × 100 (%) |
-| Paid boost? | Yes / No |
-| Notable comments or reactions | Any comment worth noting (praise, criticism, question, complaint) |
-| Consultant note | Why do you think this post worked or underperformed? |
-
-**Where to find this data per platform:**
-- **Facebook / Instagram:** Meta Business Suite > Insights > Content
-- **LinkedIn:** Company page > Analytics > Content
-- **TikTok:** TikTok Business Centre > Analytics > Content
-- **YouTube:** YouTube Studio > Analytics > Content
-- **X/Twitter:** X Analytics > Tweets
-
-Export data as a spreadsheet where possible. Sort by engagement rate descending before handing to the audit process.
-
----
-
-## Output Structure
-
-Generate all seven sections below in order, using the data provided.
-
----
-
-### 2. Content Performance Summary by Platform
-
-For each platform in scope, produce the following summary table:
-
-**[Platform Name]**
-
-| Metric | Value |
-|---|---|
-| Total posts audited | |
-| Audit period | |
-| Average engagement rate | |
-| Above-average posts | Count and % of total |
-| Below-average posts | Count and % of total |
-| Top-performing content type | |
-| Worst-performing content type | |
-| Highest single engagement rate | |
-| Lowest single engagement rate | |
-
-**Benchmark guidance for Uganda / East Africa:**
-- Facebook: 1–3% engagement rate is average; above 3% is strong
-- Instagram: 2–4% is average; above 5% is strong
-- LinkedIn: 0.5–2% is average; above 2% is strong
-- TikTok: 4–8% is average; above 10% is strong
-- YouTube: measure by watch-time completion % and click-through rate, not engagement rate alone
-
-Note where the client sits relative to these benchmarks. If performance is below benchmark, flag it clearly.
-
----
-
-### 3. Top-Performing Content Analysis
-
-Identify the top 5 posts across all platforms (ranked by engagement rate; where rates are equal, rank by absolute reach).
-
-For each of the top 5 posts:
-
-**Post [N] — [Platform], [Date]**
-- **What the post was:** One sentence describing the content (topic, format, visual approach)
-- **Key metric:** Engagement rate and absolute engagement number
-- **Why it worked — 3 factors:** Select from: format fit, strong hook, timely topic, emotional resonance, audience relevance, clear call to action, paid amplification, comment engagement, shareability, visual quality
-- **What to replicate:** One specific and actionable instruction the team can apply to future content
-
----
-
-### 4. Worst-Performing Content Analysis
-
-Identify the bottom 3 posts across all platforms (ranked by engagement rate ascending; exclude posts with zero reach, as these indicate a technical issue rather than content failure).
-
-For each of the bottom 3 posts:
-
-**Post [N] — [Platform], [Date]**
-- **What the post was:** One sentence describing the content
-- **Key metric:** Engagement rate
-- **Why it underperformed — honest assessment:** Identify the likely cause. Common causes: wrong format for platform, no clear hook, topic irrelevant to audience, posted at poor time, overly promotional, no visual, confusing call to action, or content was simply not interesting to this audience.
-- **What to change or avoid:** One specific instruction
-
-Do not soften this section. Honest diagnosis prevents repeated mistakes.
-
----
-
-### 5. Content Pillar Coverage Analysis
-
-**If content pillars are established:**
-
-List each pillar and calculate the percentage of audited posts assigned to it.
-
-| Content pillar | Posts assigned | % of total | Status |
-|---|---|---|---|
-| Pillar 1 | | | Over-represented / Balanced / Under-represented |
-| Pillar 2 | | | |
-| Pillar 3 | | | |
-| Pillar 4 | | | |
-| Promotional (if tracked separately) | | | |
-
-A balanced content mix follows the **10-4-1 rule** (Bodnar and Cohen, 2012): for every 10 pieces of shared or educational content, 4 original posts, and 1 promotional post. Flag any pillar that exceeds 40% of the mix (over-reliance) or falls below 10% (neglected).
-
-**If no content pillars exist:**
-
-Cluster the audited posts by topic. Identify 3–5 natural categories that emerge from the data. These become the foundation for establishing pillars. Recommend these clusters as draft pillars to the client.
-
----
-
-### 6. Tone and Consistency Rating
-
-Rate the client's content on three dimensions, each on a 1–10 scale. Provide a one-sentence justification for each score.
-
-| Dimension | Score (1–10) | Justification |
-|---|---|---|
-| **Visual consistency** | | Do the posts look like they come from the same brand? (Colours, fonts, image style, logo placement) |
-| **Tone consistency** | | Do the posts sound like the same brand? (Vocabulary, sentence length, formality level, use of humour) |
-| **Posting consistency** | | Are posts distributed evenly across the period, or clustered in bursts with gaps? |
-
-**Scoring guide:**
-- 8–10: Strong and consistent — maintain
-- 5–7: Inconsistencies present but brand is recognisable — improve
-- 1–4: Significant inconsistency — address before investing further in content production
-
----
-
-### 7. Priority Improvements — First 30 Days
-
-Produce exactly 5 specific changes the client should make immediately, drawn from the audit findings. Use this format for each:
-
----
-
-**Improvement [N]: [Title]**
-
-- **What to change:** Specific, actionable instruction (not a general principle)
-- **Why:** The specific finding from this audit that supports this change (reference a post, a metric, or a pattern)
-- **Expected impact:** What should improve if this change is made consistently over 30 days
-
----
-
-Prioritise the improvements by likely impact: highest impact first. At least one improvement must address content format or type, at least one must address consistency, and at least one must address content pillar balance.
-
----
-
-## Quality Criteria
-
-Output meets the standard if it:
-
-- Uses only data provided by the consultant — does not invent metrics or estimate engagement rates without a stated basis
-- Platform performance summaries include a comparison against Uganda / EA benchmarks, not just internal averages
-- Top and bottom post analysis identifies *specific* and *distinct* reasons for performance — not the same generic factors repeated across every post
-- Content pillar coverage section flags imbalances clearly with reference to the 10-4-1 rule
-- Tone and consistency ratings are justified with evidence from the content — not assigned arbitrarily
-- 30-day improvements are genuinely prioritised (most impactful first) and each is traceable to a specific audit finding
-- Output is direct and honest — underperformance is named, not softened
-
----
-
-## Framework Reference
-
-Apply the **10-4-1 rule** (Bodnar and Cohen, 2012) when assessing content pillar balance. Apply the **RACE framework** (Chaffey, 2024) when interpreting whether content is serving the right stage of the customer journey (Reach / Act / Convert / Engage).
-
-*Bodnar, K. and Cohen, J. (2012) The B2B Social Media Book. Hoboken: Wiley.*
-*Chaffey, D. (2024) Digital Marketing: Strategy, Implementation and Practice. 8th edn. Harlow: Pearson.*
+- [Audit data and output template](references/audit-data-and-output-template.md): read when collecting intake, sharing the post-level data template and where to find data per platform, applying the Uganda / EA benchmarks, writing the seven output sections, or citing Bodnar and Cohen (2012) and Chaffey and Ellis-Chadwick (2022) (RACE framework).
+- [Narrative, audience empathy and content quality audit](references/narrative-empathy-and-content-quality.md): read when auditing audience, story, visual, accessibility and learning quality and scoring the capped audit.
+- [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md): read when named rivals must be compared.
+- [`meta-content-repurposing`](../meta-content-repurposing/SKILL.md): read when the best posts are to be turned into new formats.
+- [`02-platform-audit`](../../pipeline/02-platform-audit/SKILL.md): read when profiles, bios, links or account set-up need auditing.
+- [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md): read when drafting findings and improvements.
+- [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md): read at the release checkpoint.
+<!-- dual-compat-end -->

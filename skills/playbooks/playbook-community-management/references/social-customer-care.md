@@ -4,7 +4,7 @@ Merged from skills/playbooks/playbook-social-customer-service on 2026-09-29 at c
 
 ## When to use this reference
 
-Read this reference when the community-management work is mainly a customer-service operation run through social inboxes: WhatsApp, Messenger and public comments used for complaints, enquiries and bookings, often handled by junior staff or interns without formal training. It adds SLAs by business size, three service metrics, a five-way query triage, a public-to-private escalation protocol, complaint scripts, a saved-replies library, an empathy language guide, out-of-hours cover, staff training and a monthly service review. The parent [SKILL.md](../SKILL.md) keeps the platform SLA table, scenario templates, client escalation protocol, negative-review process and community health scorecard; where both give a figure, use the stricter one unless the client sets its own.
+Read this reference when the community-management work is mainly a customer-service operation run through social inboxes: WhatsApp, Messenger and public comments used for complaints, enquiries and bookings, often handled by junior staff or interns without formal training. It adds SLAs by business size, three service metrics, a five-way query triage, a public-to-private escalation protocol, complaint scripts, a saved-replies library, an empathy language guide, out-of-hours cover, staff training and a monthly service review. [community-response-guide.md](community-response-guide.md) keeps the platform SLA table, scenario templates, client escalation protocol, negative-review process and community health scorecard; where both give a figure, use the stricter one unless the client sets its own.
 
 Where an issue needs personal or transaction data, move it to an approved private channel and collect the minimum needed; public disclosure of customer data is the failure to avoid. Drafting scripts does not authorise sending them.
 
@@ -208,7 +208,7 @@ Identify recurring issues: which product, service or process generated most comp
 
 Feed insights back: share recurring complaint themes with product, operations or service delivery as diagnostic data, not blame; update saved replies for new common query types; update staff training for recurring staff errors; adjust SLAs if volume has outgrown capacity.
 
-Output: a one-page summary with the top three complaint themes, average response time against SLA, resolution rate, and one recommended process improvement for the next month. Feed the headline figures into the parent's Monthly Community Health Scorecard.
+Output: a one-page summary with the top three complaint themes, average response time against SLA, resolution rate, and one recommended process improvement for the next month. Feed the headline figures into the [community-response-guide.md § 6. Monthly Community Health Scorecard](community-response-guide.md).
 
 ## Release checklist
 

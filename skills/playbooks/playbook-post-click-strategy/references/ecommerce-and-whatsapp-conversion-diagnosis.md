@@ -90,7 +90,7 @@ A buyer legend (Harris, 2016) exposes the gap between what the brand intends to 
 3. Document every point of confusion, missing information or friction.
 4. Treat each friction point as a conversion opportunity.
 
-Run the walk with the parent's § 8 cold-start audit checklist.
+Run the walk with the cold-start audit checklist in [post-click-path-method.md § 8. Conversion Path Audit](post-click-path-method.md).
 
 ### 4. Map the ideal click path (M.A.P., Marketing Along a Path)
 
@@ -141,7 +141,7 @@ Source target: recover 10–20% of abandoned enquiries (verify before stating; n
 Tactics from Larsson (2016) to raise conversion rate and AOV. Uplift figures are the source's and have no register record: verify before stating.
 
 - **Retargeting.** Install the Meta Pixel on any website or link-in-bio page to capture visitors. The source claims visitors are 70% more likely to convert after seeing a retargeting ad. Show a product-specific ad to people who viewed that product page but did not enquire. Retargeting needs consent and data-protection checks (see measurement-tracking-plan).
-- **Landing pages.** A dedicated product landing page (even a single WhatsApp-linked link-in-bio page) is claimed to convert 5–10% better than sending buyers to a profile. Required elements: emotional headline; at least 3 product images; key features and benefits; at least one testimonial; price; one clear CTA. Build it to the parent's § 5 landing-page principles.
+- **Landing pages.** A dedicated product landing page (even a single WhatsApp-linked link-in-bio page) is claimed to convert 5–10% better than sending buyers to a profile. Required elements: emotional headline; at least 3 product images; key features and benefits; at least one testimonial; price; one clear CTA. Build it to the landing-page principles in [post-click-path-method.md § 5](post-click-path-method.md).
 - **Mobile checkout.** Cut the WhatsApp order form to the minimum fields (name, item, delivery address, payment method). Offer a payment link (the source names Pesapal; verify availability and fees) for customers who prefer not to complete a Mobile Money transfer by hand. Guest-checkout principle: never require registration, an account or several steps before a customer can pay.
 - **Free delivery threshold.** Set free delivery at 20% above current AOV to encourage larger baskets without much higher average fulfilment cost. Announce it in every product post: "Free delivery on orders above UGX [amount]."
 - **Loss leaders and tripwires.** A low-cost or zero-margin entry product (loss leader) wins a first-time customer; upsell the margin-positive product in the follow-up. A tripwire is a deeply discounted, genuinely valuable first offer that turns cold traffic into buyers at scale.
