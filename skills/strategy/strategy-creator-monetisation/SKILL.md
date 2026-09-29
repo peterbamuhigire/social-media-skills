@@ -1,6 +1,6 @@
 ---
 name: strategy-creator-monetisation
-description: Use when the main deliverable concerns creator revenue options, eligibility, rate cards, partnerships, and owned products; use premium-social-selling when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns creator revenue options, eligibility, rate cards, partnerships, and owned products; use playbook-social-selling when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -17,7 +17,7 @@ metadata:
 
 ## Do Not Use When
 
-- Use `premium-social-selling` when that neighbouring workflow owns the main decision or deliverable.
+- Use `playbook-social-selling` (including high-value, formerly `premium-social-selling`) when that neighbouring workflow owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +30,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `premium-social-selling`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-social-selling`.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.

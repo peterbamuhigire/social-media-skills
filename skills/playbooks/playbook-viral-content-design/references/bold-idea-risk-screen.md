@@ -153,7 +153,7 @@ East Africa examples:
 - A school: parents receive a 60-second Friday video of one specific moment from their child's week.
 - A logistics company: every delivery includes a printed card with the name of the person who packed the order.
 
-Output fields: the customer-journey moment selected; the exact Talk Trigger (what the customer experiences, described precisely); one sentence each on why it is remarkable, relevant, reasonable and repeatable; how word-of-mouth will be measured. For the wider referral programme a Talk Trigger feeds, use [playbook-word-of-mouth-strategy](../../playbook-word-of-mouth-strategy/SKILL.md).
+Output fields: the customer-journey moment selected; the exact Talk Trigger (what the customer experiences, described precisely); one sentence each on why it is remarkable, relevant, reasonable and repeatable; how word-of-mouth will be measured. For the wider referral programme a Talk Trigger feeds, use [word-of-mouth and referral design](../../../strategy/strategy-ewom-reviews/references/word-of-mouth-and-referral-design.md) in `strategy-ewom-reviews`.
 
 ### Step 5: Scope AI's role in production
 
@@ -191,7 +191,7 @@ Include the Proof of Human signal in the final brief for every piece rated 71 or
 
 - [anti-ai-slop humanising rewrite passes](../../../ai-marketing/anti-ai-slop/references/humanising-rewrite-passes.md): quality control of AI-assisted drafts before publishing; confirms Proof of Human standards are met.
 - [Parent viral content design playbook](../SKILL.md): platform-specific viral mechanics, the six structures and the content brief. STEPPS and this screen are complementary.
-- [playbook-word-of-mouth-strategy](../../playbook-word-of-mouth-strategy/SKILL.md): the full word-of-mouth and referral programme that a Talk Trigger feeds into.
+- [word-of-mouth-and-referral-design](../../../strategy/strategy-ewom-reviews/references/word-of-mouth-and-referral-design.md) (`strategy-ewom-reviews`, formerly `playbook-word-of-mouth-strategy`): the full word-of-mouth and referral programme that a Talk Trigger feeds into.
 
 ## Sources
 

@@ -1,6 +1,6 @@
 ---
 name: playbook-daily-operations-routine
-description: Use when designing or improving a Daily Operations Routine operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Daily Operations Routine operating playbook, including its weekly and monthly PDCA review cadence, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -10,9 +10,9 @@ metadata:
 # Playbook: Daily Operations Routine
 
 A personalised operating manual for managing multiple social media clients without losing quality,
-responsiveness, or sanity. This playbook differs from `strategy-pdca-workflow-design`, which covers
-the analytical improvement cycle (Plan/Do/Check/Act). This skill covers the physical daily routine —
-the specific tasks a social media manager executes hour by hour.
+responsiveness, or sanity. The body covers the physical daily routine — the specific tasks a social
+media manager executes hour by hour. The analytical improvement cycle (Plan/Do/Check/Act) that sits
+above it lives in [PDCA review cadence](references/pdca-review-cadence.md).
 
 ---
 
@@ -20,6 +20,7 @@ the specific tasks a social media manager executes hour by hour.
 ## Use When
 - Build or improve a repeatable Daily Operations Routine workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Set up a daily, weekly and monthly Plan-Do-Check-Act review routine with optimisation triggers and a PDCA log (formerly `strategy-pdca-workflow-design`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -45,6 +46,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| The team needs decision triggers, weekly and monthly reviews and a learning record, not only a task list | Apply [PDCA review cadence](references/pdca-review-cadence.md): triggers, review routine and PDCA log | A routine that repeats activity without changing underperformance |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -79,6 +81,7 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [pdca-review-cadence](references/pdca-review-cadence.md) — read when the client needs the weekly and monthly PDCA reviews, optimisation triggers, the PDCA log or a single-account daily routine.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 
@@ -273,8 +276,8 @@ the clock times shift.
 
 ## Cross-References
 
-- `strategy-pdca-workflow-design` — for the analytical improvement cycle (Plan/Do/Check/Act),
-  which sits above and around this daily routine
+- [PDCA review cadence](references/pdca-review-cadence.md) — for the analytical improvement cycle
+  (Plan/Do/Check/Act), which sits above and around this daily routine
 - `playbook-client-retainer-management` — for handling scope creep and retainer boundaries
 - `playbook-agency-operations` — for scaling from solo consultant to team operations
 - `playbook-crisis-communications` — activate immediately if the morning incident check reveals

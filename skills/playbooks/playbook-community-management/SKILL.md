@@ -1,6 +1,6 @@
 ---
 name: playbook-community-management
-description: Use when designing or improving a Community Management operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Community Management operating playbook with roles, ordered actions, controls and measures, including social customer service, Like-Know-Trust sequencing and niche WhatsApp or Facebook group communities. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,9 @@ metadata:
 ## Use When
 - Build or improve a repeatable Community Management workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Build a Like-Know-Trust community trust framework: diagnose the audience stage, apply the 10-4-1 content mix and trust-acceleration tactics (formerly `framework-community-trust`).
+- Set up social media customer service for WhatsApp, Messenger and comment inboxes: complaint scripts, query triage, saved replies and staff training (formerly `playbook-social-customer-service`).
+- Launch a niche micro-community on WhatsApp, a Facebook Group or LinkedIn with house rules, founding members and a member value proposition (formerly `strategy-micro-communities`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -38,6 +41,9 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| Page has reach and engagement but few enquiries, or the brand is new or recovering its reputation | Run the Like-Know-Trust diagnostic and sequencing in [community-trust-framework](references/community-trust-framework.md) | Selling to an audience that has no proof to act on |
+| The social inbox is a customer-service operation run by untrained or junior staff | Apply the triage, SLAs by business size, scripts, training and monthly review in [social-customer-care](references/social-customer-care.md) | Inconsistent replies and complaints going viral through mishandling |
+| Client wants to build or relaunch a niche group or private community around member value | Design it with [micro-community-design](references/micro-community-design.md) before recruiting | An unmanaged broadcast group that dies or fills with spam |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -72,6 +78,9 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [community-trust-framework](references/community-trust-framework.md) — read when diagnosing an audience's Like-Know-Trust stage or planning trust-building content.
+- [social-customer-care](references/social-customer-care.md) — read when the work is customer service in social inboxes: triage, complaint scripts, saved replies, staff training.
+- [micro-community-design](references/micro-community-design.md) — read when designing, launching or monetising a WhatsApp, Facebook Group, LinkedIn Group or private community.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

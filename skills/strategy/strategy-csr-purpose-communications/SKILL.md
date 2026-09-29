@@ -1,6 +1,6 @@
 ---
 name: strategy-csr-purpose-communications
-description: Use when the main deliverable concerns CSR, community-impact, environmental, and purpose communication; use framework-digital-transparency when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns CSR, community-impact, environmental, and purpose communication, or a digital transparency and consumer-trust audit; use playbook-reputation-management when a live crisis owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,10 +14,11 @@ metadata:
 
 - Use this skill for CSR, community-impact, environmental, and purpose communication.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Audit digital transparency — published pricing, open reviews, honest negative feedback and data consent — to build online consumer trust (formerly `framework-digital-transparency`).
 
 ## Do Not Use When
 
-- Use `framework-digital-transparency` when that neighbouring workflow owns the main decision or deliverable.
+- Use `playbook-reputation-management` when a live reputational crisis owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +31,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `framework-digital-transparency`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-reputation-management`.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
@@ -66,6 +67,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | Impact evidence is incomplete or disputed | Publish only substantiated scope and commission evidence review | Greenwashing or overstated community benefit |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The trust gap is in the digital customer experience (unclear pricing, curated reviews, consent) rather than a CSR programme | Audit clarity, openness and objectivity with [digital-transparency-framework](references/digital-transparency-framework.md) before recommending | Assumed transparency and unlawful data collection |
 
 ## Quality Standards
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [digital-transparency-framework](references/digital-transparency-framework.md) — read when auditing digital transparency, calibrating trust by generation or producing a Digital Transparency Report.
 <!-- dual-compat-end -->
 
 ## Required Input

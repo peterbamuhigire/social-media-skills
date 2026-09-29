@@ -115,7 +115,7 @@ Legacy invitation mechanics (verify all before stating): each page has 100 invit
 | Niche Community | Targeted invitations to specific job titles and industries; content tuned to a defined professional audience; engage in the 3 page-hashtag communities | 500–2,000, qualifying the audience |
 | Account-Based Marketing | Target follows at named companies; content for decision-makers at priority accounts | 2,000+ or B2B clients with a defined Ideal Client Profile |
 
-Employee amplification (legacy): each employee also has 100 credits a month, so a team of five yields 500 targeted invitations, five times the page's own capacity. Give employees a one-paragraph brief on whom to invite and a suggested message; participation stays voluntary (parent skill). For a full employee programme, use [playbook-employee-advocacy](../../../playbooks/playbook-employee-advocacy/SKILL.md).
+Employee amplification (legacy): each employee also has 100 credits a month, so a team of five yields 500 targeted invitations, five times the page's own capacity. Give employees a one-paragraph brief on whom to invite and a suggested message; participation stays voluntary (parent skill). For a full employee programme, use the [employee advocacy programme](../../../playbooks/playbook-social-selling/references/employee-advocacy-programme.md) in `playbook-social-selling`.
 
 ### 5. Sub-pages
 

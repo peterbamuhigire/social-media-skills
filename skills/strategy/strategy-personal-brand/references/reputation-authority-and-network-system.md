@@ -84,7 +84,7 @@ Route sequence: a real contribution → content → first advocates → the plat
 | 5–12 | One flagship asset; weekly posts from a topic bank; one senior research interview a month; one speaking or panel slot; two media pitches; public recommendations; events with written summaries; board recruitment |
 | 13 | Review: visibility (reach, invitations), credibility (testimonials, citations, speaking invitations), profitability (referrals, inbound opportunities, fee level) |
 
-A leader's personal reputation and the organisation's are linked; pair every retainer with message discipline and spokesperson preparation ([playbook-crisis-communications](../../../playbooks/playbook-crisis-communications/SKILL.md), [playbook-pr-media-integration](../../../playbooks/playbook-pr-media-integration/SKILL.md)).
+A leader's personal reputation and the organisation's are linked; pair every retainer with message discipline and spokesperson preparation ([playbook-crisis-communications](../../../playbooks/playbook-crisis-communications/SKILL.md), [PR media integration](../../../playbooks/playbook-pr-publicity/references/pr-media-integration.md)).
 
 ## 8. Language checks
 

@@ -1,6 +1,6 @@
 ---
 name: playbook-social-media-policy
-description: Use when designing or improving a Social Media Policy operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Social Media Policy operating playbook, including governance roles, RACI, escalation and agency access, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -17,6 +17,7 @@ metadata:
 ## Use When
 - Build or improve a repeatable Social Media Policy workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Set up social media governance: a RACI for who posts and approves, staff certification, escalation levels, a command centre and agency access controls (formerly `playbook-social-media-governance`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -39,6 +40,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A clause depends on law, employment terms or collective agreement | Route it for qualified review before adoption | Presenting operational guidance as settled law |
+| No one owns a high-risk account or approval step, or the organisation needs RACI, escalation, certification or agency controls | Stop rollout, assign an accountable role and apply [governance roles, access and approvals](references/governance-roles-access-and-approvals.md) | Orphaned access and decisions |
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
@@ -76,6 +78,7 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [governance-roles-access-and-approvals](references/governance-roles-access-and-approvals.md) — read when the client needs the governance behind the policy: reporting line, RACI, certification, escalation levels, SMCC, agency SLAs, after-action reviews or a social media business plan.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

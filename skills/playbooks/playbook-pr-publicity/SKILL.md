@@ -1,6 +1,6 @@
 ---
 name: playbook-pr-publicity
-description: Use when designing or improving a Pr Publicity operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a PR, publicity, media-pitching and newsjacking operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,8 @@ metadata:
 ## Use When
 - Build or improve a repeatable Pr Publicity workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Newsjack a breaking story, such as a Bank of Uganda rate decision, with rapid expert commentary set up from Google Alerts and checked for GEO and AI search citation (formerly `playbook-geo-newsjacking`).
+- Pitch Ugandan journalists at Daily Monitor, New Vision or NBS TV by email or WhatsApp and amplify earned media coverage across social channels (formerly `playbook-pr-media-integration`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -38,6 +40,8 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| A breaking story touches the client's expertise | Triage, produce and distribute with [newsjacking-and-ai-citation](references/newsjacking-and-ai-citation.md); pause for editorial and risk approval if the event involves harm, uncertainty or political sensitivity | Missing the news window, or exploiting a crisis |
+| The client wants coverage in named Ugandan or East African outlets | Score the hook, pitch and amplify with [pr-media-integration](references/pr-media-integration.md); verify socially useful claims before pitching | Unsupported publicity and wasted coverage |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -72,6 +76,8 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [newsjacking-and-ai-citation](references/newsjacking-and-ai-citation.md) — read when responding to breaking news with expert commentary, alerts, GEO checks and a trigger calendar.
+- [pr-media-integration](references/pr-media-integration.md) — read when building a Ugandan media list, pitching by email or WhatsApp, amplifying coverage or keeping a media contacts log.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

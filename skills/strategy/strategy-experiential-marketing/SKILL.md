@@ -1,6 +1,6 @@
 ---
 name: strategy-experiential-marketing
-description: Use when the main deliverable concerns strategic live and hybrid experiences for launches, activations, events, and pop-ups; use playbook-webinars-live-events when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns strategic live, virtual and hybrid experiences for launches, activations, events, pop-ups, webinars and live streams; use strategy-video-content when recorded video or podcast content owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,10 +14,11 @@ metadata:
 
 - Use this skill for strategic live and hybrid experiences for launches, activations, events, and pop-ups.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Plan and run a webinar, Facebook Live, YouTube Live or Zoom webinar with a promotion calendar, run sheet, technical checklist and post-event replay follow-up (formerly `playbook-webinars-live-events`).
 
 ## Do Not Use When
 
-- Use `playbook-webinars-live-events` when that neighbouring workflow owns the main decision or deliverable.
+- Use `strategy-video-content` when recorded video or podcast content, not a live experience, owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +31,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-webinars-live-events`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `strategy-video-content`; for a webinar, live stream or virtual event, apply [webinars-and-virtual-events.md](references/webinars-and-virtual-events.md).
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
@@ -66,6 +67,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | The client needs an experience concept and behaviour outcome | Define the experience promise and evidence path before logistics | A run-of-show is mistaken for an experiential strategy |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The experience is a webinar, live stream or virtual session | Apply [webinars-and-virtual-events.md](references/webinars-and-virtual-events.md); do not go live until moderation, recording consent and a failure backup have owners | A live session that fails on connectivity, power or moderation |
 
 ## Quality Standards
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [webinars-and-virtual-events.md](references/webinars-and-virtual-events.md) — read when planning or running a webinar, live stream, Zoom or Google Meet session, or a hybrid broadcast.
 <!-- dual-compat-end -->
 
 **Sources:** Hanlon and Tuten (2022) *The SAGE Handbook of Digital Marketing*, citing Schmitt (1999) and Pine and Gilmore (1998)

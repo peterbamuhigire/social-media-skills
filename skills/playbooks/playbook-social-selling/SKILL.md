@@ -1,6 +1,6 @@
 ---
 name: playbook-social-selling
-description: Use when designing or improving a Social Selling operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Social Selling operating playbook, including employee advocacy and high-value executive outreach, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -24,6 +24,8 @@ Use Kennedy's market-message-offer discipline and Wiebe's voice-of-customer disc
 ## Use When
 - Build or improve a repeatable Social Selling workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Get staff sharing company posts on their own LinkedIn, Facebook or WhatsApp through an employee advocacy programme with monthly content packs, incentives and posting guidelines (formerly `playbook-employee-advocacy`).
+- Sell a premium or high-ticket offer to senior, affluent or enterprise buyers through LinkedIn authority, lead magnets, nurture and executive outreach (formerly `premium-social-selling`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -49,6 +51,8 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
+| Staff, not only the brand or a sales lead, will share content | Run a voluntary advocacy programme per [employee advocacy](references/employee-advocacy-programme.md) | Coerced or undisclosed staff posting |
+| Buyer is senior, affluent, enterprise or high-ticket | Switch to proof-led, selective outreach per [high-value selling](references/high-value-social-selling.md) and its gate | Volume tactics damaging premium positioning |
 
 ## Workflow
 1. Confirm the consumer, objective, market, decision owner and permission boundary; stop if the objective or owner is missing.
@@ -84,6 +88,9 @@ Use British English and the specified market context. Recommendations must be ex
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
+- [employee-advocacy-programme](references/employee-advocacy-programme.md) — read when staff will share company content through their own networks.
+- [high-value-social-selling](references/high-value-social-selling.md) — read when the offer is premium or high-ticket and the buyer is senior, affluent or enterprise.
+- [premium-social-selling-gate](references/premium-social-selling-gate.md) — read when a premium social selling strategy is about to be published.
 <!-- dual-compat-end -->
 
 ## Required Input

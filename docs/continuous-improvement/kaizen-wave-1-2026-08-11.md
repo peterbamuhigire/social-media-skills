@@ -91,7 +91,7 @@ Controllers and active route guidance:
 - [`skills/playbooks/playbook-community-management/SKILL.md`](../../skills/playbooks/playbook-community-management/SKILL.md)
 - [`skills/playbooks/playbook-sentiment-listening/SKILL.md`](../../skills/playbooks/playbook-sentiment-listening/ALIAS.md)
 - [`skills/strategy/strategy-experiential-marketing/SKILL.md`](../../skills/strategy/strategy-experiential-marketing/SKILL.md)
-- [`skills/strategy/strategy-pdca-workflow-design/SKILL.md`](../../skills/strategy/strategy-pdca-workflow-design/SKILL.md)
+- [`skills/strategy/strategy-pdca-workflow-design/SKILL.md`](../../skills/strategy/strategy-pdca-workflow-design/ALIAS.md)
 - [`skills/training/training-ai-foundations/SKILL.md`](../../skills/training/training-ai-foundations/SKILL.md)
 
 Link repairs and classifications:

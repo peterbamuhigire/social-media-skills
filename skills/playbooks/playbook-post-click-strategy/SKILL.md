@@ -1,6 +1,6 @@
 ---
 name: playbook-post-click-strategy
-description: Use when designing or improving a Post Click Strategy operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Post Click Strategy operating playbook, including e-commerce and WhatsApp conversion diagnosis, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,7 @@ metadata:
 ## Use When
 - Build or improve a repeatable Post Click Strategy workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Diagnose why online-shop or WhatsApp enquiries do not become paid orders, recover abandoned enquiries and prioritise conversion tests (formerly `ecommerce-conversion-optimisation`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -35,6 +36,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | An advert promise is not repeated above the landing-page fold | Correct message match before sending traffic | Paid clicks lost to confusion |
+| Traffic exists but purchase or enquiry completion is weak | Apply [e-commerce and WhatsApp conversion diagnosis](references/ecommerce-and-whatsapp-conversion-diagnosis.md): find the highest-evidence friction, one measurable test at a time | Changing brand strategy when the loss is in the transaction path |
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
@@ -72,6 +74,7 @@ Use British English and the specified market context. Recommendations must be ex
 ## References
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
+- [ecommerce-and-whatsapp-conversion-diagnosis](references/ecommerce-and-whatsapp-conversion-diagnosis.md) — read when an existing shop or WhatsApp sales path loses buyers before payment, or the client needs buyer modalities, test prioritisation, enquiry recovery or an e-commerce KPI dashboard.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

@@ -1,6 +1,6 @@
 ---
 name: ecommerce-brand-differentiation
-description: Use when the main deliverable concerns e-commerce positioning, category distinction, naming direction, packaging logic, and community proof; use ecommerce-conversion-optimisation when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns e-commerce positioning, category distinction, naming direction, packaging logic, and community proof; use playbook-post-click-strategy (conversion diagnosis) when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -17,7 +17,7 @@ metadata:
 
 ## Do Not Use When
 
-- Use `ecommerce-conversion-optimisation` when that neighbouring workflow owns the main decision or deliverable.
+- Use `playbook-post-click-strategy` (conversion diagnosis and CRO, formerly `ecommerce-conversion-optimisation`) when that neighbouring workflow owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +30,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `ecommerce-conversion-optimisation`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-post-click-strategy`.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
@@ -321,4 +321,4 @@ Output from this skill meets the standard if it:
 - Ries, A. and Trout, J. (2001) *Positioning: The Battle for Your Mind*. Positioning maps, category ownership
 - Kelly, K. (2008) '1,000 True Fans'. True fan community model
 - `social-commerce-strategy/SKILL.md` — EA social commerce operations and platform setup
-- `ecommerce-conversion-optimisation/SKILL.md` — CRO methodology, buyer modalities, and A/B testing
+- `playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md` — CRO methodology, buyer modalities, and A/B testing

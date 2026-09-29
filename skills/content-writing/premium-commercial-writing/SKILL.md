@@ -149,7 +149,7 @@ Use this skill alongside:
 - `09-campaign-strategy` and `13-campaign-brief` for campaign message architecture.
 - `direct-response-funnel-copy` for sales pages, launch sequences, and high-ticket funnels.
 - `seo-geo-optimisation` and `ai-generative-search-optimisation` for AI-search visibility.
-- `premium-social-selling` for executive, affluent, enterprise, and high-ticket buyers.
+- `playbook-social-selling` (high-value social selling reference) for executive, affluent, enterprise, and high-ticket buyers.
 
 ## Quality Criteria
 - [ ] The copy has one clear reader, commercial job, message, and next step.

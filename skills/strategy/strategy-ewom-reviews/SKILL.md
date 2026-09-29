@@ -1,6 +1,6 @@
 ---
 name: strategy-ewom-reviews
-description: Use when the main deliverable concerns proactive review generation, referral conditions, advocacy, and electronic word of mouth; use playbook-reputation-management when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns proactive review generation, testimonials and social proof, word-of-mouth and referral programmes, advocacy, and electronic word of mouth; use playbook-reputation-management when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,6 +14,8 @@ metadata:
 
 - Use this skill for proactive review generation, referral conditions, advocacy, and electronic word of mouth.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Collect, verify and place testimonials, reviews, certifications and other social proof on the website, proposals and WhatsApp sales chats, and keep a proof asset register (formerly `meta-social-proof-system`).
+- Design a word-of-mouth programme with superfans, Connectors, Mavens and Salespeople, WhatsApp referral codes and Mobile Money referral rewards (formerly `playbook-word-of-mouth-strategy`).
 
 ## Do Not Use When
 
@@ -66,6 +68,8 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | The goal is new advocacy rather than incident response | Design ethical prompts and proof capture; route active damage control to reputation management | Manipulated reviews or a growth plan built on unresolved complaints |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The client needs proof collected, consented, placed by touchpoint or governed as a register | Apply [social-proof-asset-register.md](references/social-proof-asset-register.md): six proof sources, at least three per conversion page, consent before publishing | Unconsented, expired or single-source proof |
+| The client needs a full organic word-of-mouth or referral programme | Apply [word-of-mouth-and-referral-design.md](references/word-of-mouth-and-referral-design.md): five pillars, advocate types, referral loop, dark-social tracking; disclose every reward | Accidental referrals, undisclosed incentives or untracked WhatsApp advocacy |
 
 ## Quality Standards
 
@@ -86,6 +90,8 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [social-proof-asset-register.md](references/social-proof-asset-register.md) — read when collecting, verifying, placing or governing testimonials, endorsements, certifications and other proof.
+- [word-of-mouth-and-referral-design.md](references/word-of-mouth-and-referral-design.md) — read when designing a word-of-mouth, superfan or referral programme and its tracking.
 <!-- dual-compat-end -->
 
 **Source:** Hanlon and Tuten (2022) *The SAGE Handbook of Digital Marketing*
@@ -151,7 +157,7 @@ Identify and map the client's peak satisfaction moments — points in the custom
 - Problem resolution after a complaint
 - A milestone reached (client hits a goal with the service's help)
 
-**At each peak moment:** Ask for a review within 48 hours. Use a single-tap review link sent via WhatsApp — do not require the customer to search for the review platform or log in to a platform they do not already use. Response rates drop by approximately 80% after 48 hours.
+**At each peak moment:** Ask for a review within 48 hours. Use a single-tap review link sent via WhatsApp — do not require the customer to search for the review platform or log in to a platform they do not already use. Response rates drop by approximately 80% after 48 hours (legacy figure, no register record; verify before stating).
 
 **WhatsApp review request template:**
 "Hi [Name], I'm really glad [positive outcome]. Could I ask a quick favour? If you have 2 minutes, a Google review would mean a lot to us — here's the link: [direct link]. Just share your honest experience. Thank you!"

@@ -1,6 +1,6 @@
 # Social Media Skills Engine
 
-The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 132 routed skills for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
+The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi digital marketing and advertising engine: a library of 117 routed skills for consultancy work in Uganda and East Africa. It covers marketing foundations and positioning, channel selection, advertising strategy and budgeting, media planning, creative briefs, ad copy, paid search and paid social build specifications, content and copywriting in British, East African English, French and Kiswahili, campaign and community operations, measurement, attribution and reporting, AI-assisted marketing, agency business development and client training. Its produced outputs include client briefs and personas, social-media, digital-marketing and campaign strategies, media plans with reach and frequency calculations, advertising budgets and decision memos, creative briefs, ad copy sets, Google Ads and Meta/TikTok/LinkedIn campaign specifications, content calendars, publication-ready copy, audits, dashboards and monthly reports, ROI business cases, operating playbooks, organisational policies, proposals and training workbooks.
 
 The engine works to named standards rather than house opinion. Personal-data and direct-marketing work is checked against the Uganda Data Protection and Privacy Act 2019 and its 2021 Regulations, with the Kenyan, Rwandan and Tanzanian data-protection laws held in a dated source register (`docs/source-registers/source-register.json`, 63 records under a freshness gate); advertising claims against the Uganda Communications Commission Advertising Standards 2019 and the ICC Advertising and Marketing Communications Code; influencer disclosure against the FTC Endorsement Guides and ASA/CAP guidance; platform mechanics against the Meta, WhatsApp, TikTok, LinkedIn and Google policy pages in the same register; and web accessibility against WCAG 2.2. Method draws on named practitioner texts, among them Chaffey's RACE, Bodnar and Cohen's social ROI formula, Weinberg and Mares's Bullseye and Kotler's segmentation and positioning (full list under References). Every deliverable passes an anti-slop and human-review gate. The engine is for agency owners, account leads, strategists, media planners, copywriters, paid-media specialists, in-house marketing teams and founders who need reviewable, evidence-backed marketing decisions. It plans, specifies, writes, audits and reports; spending money, changing live ad accounts, publishing and contacting people always require explicit client authority.
 
@@ -54,7 +54,7 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 
 ## Capabilities
 
-132 active `SKILL.md` files across 16 category folders under `skills/`. The former category-level standards file `skills/content-writing/SKILL.md` is now an inactive alias; its standards live in `premium-commercial-writing`. Skills retired by the 2026-09-29 consolidation stay on disk as inactive `ALIAS.md` files; [docs/skill-aliases.yml](docs/skill-aliases.yml) routes each one to the active skill that now holds its content.
+117 active `SKILL.md` files across 15 category folders under `skills/` (a sixteenth, `frameworks/`, holds only inactive aliases since S06). The former category-level standards file `skills/content-writing/SKILL.md` is now an inactive alias; its standards live in `premium-commercial-writing`. Skills retired by the 2026-09-29 consolidation stay on disk as inactive `ALIAS.md` files; [docs/skill-aliases.yml](docs/skill-aliases.yml) routes each one to the active skill that now holds its content.
 
 | Category | Skills |
 |---|---:|
@@ -62,19 +62,19 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `ai-marketing` | 6 |
 | `business-development` | 10 |
 | `content-writing` | 7 |
-| `frameworks` | 2 |
+| `frameworks` | 0 (inactive aliases only) |
 | `language` | 4 |
-| `meta-analytics-ops` | 14 |
+| `meta-analytics-ops` | 13 |
 | `meta-utility` | 3 |
 | `pipeline` | 13 |
 | `platforms` | 8 |
-| `playbooks` | 26 |
+| `playbooks` | 18 |
 | `policies` | 1 |
 | `sectors` | 2 |
 | `seo-discovery` | 2 |
-| `strategy` | 19 |
+| `strategy` | 15 |
 | `training` | 6 |
-| **Total** | **132** |
+| **Total** | **117** |
 
 | Category | Skill | What it does |
 |---|---|---|
@@ -110,8 +110,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `content-writing` | `email-copywriter` | Writes marketing emails and sequences. |
 | `content-writing` | `premium-commercial-writing` | Writes high-value commercial copy for premium offers and audiences. |
 | `content-writing` | `prompt-engineering-library` | Maintains a reusable, tested marketing prompt library. |
-| `frameworks` | `framework-community-trust` | Applies a community-trust framework to brand communication. |
-| `frameworks` | `framework-digital-transparency` | Applies a digital transparency framework to disclosures and claims. |
 | `language` | `east-african-english` | Sets East African English conventions for local audiences. |
 | `language` | `french-native-copy` | Writes native French social copy for francophone markets. |
 | `language` | `language-standards` | Sets the engine-wide British English and language rules. |
@@ -127,7 +125,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `meta-analytics-ops` | `meta-sales-marketing-alignment` | Defines shared lifecycle stages, ownership and handover rules. |
 | `meta-analytics-ops` | `meta-social-listening` | Sets up listening queries, evidence logs, cadence and escalation. |
 | `meta-analytics-ops` | `meta-social-metrics-framework` | Selects business, funnel and operational metrics with owners. |
-| `meta-analytics-ops` | `meta-social-proof-system` | Collects, verifies and places testimonials, reviews and proof. |
 | `meta-analytics-ops` | `meta-testing-framework` | Designs controlled marketing experiments with decision rules. |
 | `meta-analytics-ops` | `meta-tools-stack-evaluation` | Evaluates the marketing technology stack for fit and total cost. |
 | `meta-utility` | `kaizen-improvement-system` | Audits and improves the engine or any deliverable it produces. |
@@ -161,36 +158,26 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `playbooks` | `playbook-content-production` | Content production playbook from brief to approved asset. |
 | `playbooks` | `playbook-crisis-communications` | Crisis communications playbook: triage, holding lines and escalation. |
 | `playbooks` | `playbook-daily-operations-routine` | Daily social-media operations routine and checklists. |
-| `playbooks` | `playbook-employee-advocacy` | Employee advocacy programme playbook with guidelines. |
-| `playbooks` | `playbook-geo-newsjacking` | Playbook for newsjacking that earns generative-search (GEO) citations. |
-| `playbooks` | `playbook-instagram-dm-sales` | Playbook for selling through Instagram direct messages. |
 | `playbooks` | `playbook-marketing-automation` | Marketing automation playbook: triggers, flows and controls. |
 | `playbooks` | `playbook-networking` | Professional networking playbook for relationship-led growth. |
 | `playbooks` | `playbook-paid-social-advertising` | Paid social on Meta, TikTok and LinkedIn: audiences, budgets, tracking and optimisation. |
 | `playbooks` | `playbook-post-click-strategy` | Post-click playbook: landing experience, follow-up and conversion. |
-| `playbooks` | `playbook-pr-media-integration` | Playbook for integrating PR and media relations with social. |
 | `playbooks` | `playbook-pr-publicity` | Publicity playbook: angles, pitching and coverage tracking. |
 | `playbooks` | `playbook-reputation-management` | Reputation management playbook: monitoring, response and recovery. |
 | `playbooks` | `playbook-sms-whatsapp-marketing` | SMS and WhatsApp marketing playbook with opt-in controls. |
-| `playbooks` | `playbook-social-customer-service` | Social customer service playbook: response times and escalation. |
-| `playbooks` | `playbook-social-media-governance` | Social media governance playbook: access, approvals and risk. |
 | `playbooks` | `playbook-social-media-policy` | Playbook for drafting an organisational social media policy. |
 | `playbooks` | `playbook-social-selling` | Social selling playbook for relationship-led sales. |
 | `playbooks` | `playbook-viral-content-design` | Playbook for designing shareable content with evidence limits. |
-| `playbooks` | `playbook-webinars-live-events` | Webinars and live events playbook: promotion, delivery and follow-up. |
 | `playbooks` | `playbook-white-label-partnerships` | White-label partnership playbook for agencies. |
-| `playbooks` | `playbook-word-of-mouth-strategy` | Word-of-mouth playbook: referral triggers and advocacy. |
 | `policies` | `policy-ai-content-ethics` | Drafts or reviews an organisational AI content ethics policy. |
 | `sectors` | `healthcare` | Healthcare marketing: patient-safe content, trust and misinformation response. |
 | `sectors` | `hospitality-hotel-restaurant` | Hospitality marketing for hotels, lodges, restaurants, venues and catering. |
 | `seo-discovery` | `demand-forecasting` | Demand forecasts, stockout timing and reorder decisions from operational data. |
 | `seo-discovery` | `seo-geo-optimisation` | Page-level SEO and generative-search citation readiness. |
 | `strategy` | `ecommerce-brand-differentiation` | E-commerce positioning, naming, packaging logic and proof. |
-| `strategy` | `ecommerce-conversion-optimisation` | Diagnoses e-commerce and WhatsApp conversion friction and prioritises tests. |
 | `strategy` | `ecommerce-export-marketing-advisory` | Export-market selection, cross-border trust and CAC-bounded campaigns. |
 | `strategy` | `marketing-foundations-stp-positioning` | Segmentation, targeting, positioning, marketing mix and value proposition. |
 | `strategy` | `peso-integrated-strategy` | Coordinates paid, earned, shared and owned channels. |
-| `strategy` | `premium-social-selling` | High-value social selling: executive outreach, nurture and authority. |
 | `strategy` | `social-commerce-strategy` | Catalogue, WhatsApp ordering, Mobile Money and fulfilment content. |
 | `strategy` | `strategy-b2b-customer-community` | Retention-first B2B account grading, contact plans and at-risk alerts. |
 | `strategy` | `strategy-channel-architecture` | Platform roles, audience flows, hub-and-spoke routing and effort. |
@@ -199,8 +186,6 @@ python -X utf8 -m unittest discover -s tests -p "test_*.py"
 | `strategy` | `strategy-customer-value-journey` | Full-funnel content from awareness to advocacy. |
 | `strategy` | `strategy-ewom-reviews` | Review generation, referrals and electronic word of mouth. |
 | `strategy` | `strategy-experiential-marketing` | Live and hybrid experiences: launches, activations and pop-ups. |
-| `strategy` | `strategy-micro-communities` | Niche WhatsApp, Facebook, LinkedIn or private communities. |
-| `strategy` | `strategy-pdca-workflow-design` | Daily, weekly and monthly Plan-Do-Check-Act operations. |
 | `strategy` | `strategy-personal-brand` | Individual positioning, authority, content and monetisation. |
 | `strategy` | `strategy-video-content` | Cross-platform organic video formats, hooks, series and scripts. |
 | `strategy` | `traction-channel-bullseye` | Chooses acquisition channels to test and fund from nineteen traction channels. |

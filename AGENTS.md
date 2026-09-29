@@ -261,12 +261,12 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 | `business-development/` | `biz-dev-*` — credentials, proposals, pricing, outreach, practitioner positioning |
 | `content-writing/` | Blog, caption, email, copywriting, direct-response, prompt libraries, hashtag, image-prompt skills |
 | `pipeline/` | Numbered onboarding-to-planning flow `00-` through `13-` |
-| `frameworks/` | `framework-*` strategic frameworks |
+| `frameworks/` | Inactive aliases only since Social Kaizen S06: `framework-community-trust` routes to `playbook-community-management` and `framework-digital-transparency` to `strategy-csr-purpose-communications` |
 | `meta-analytics-ops/` | `meta-*` analytics, reporting, measurement, audit skills |
 | `platforms/` | `platform-*` per-channel plans |
 | `playbooks/` | `playbook-*` execution SOPs |
 | `policies/` | `policy-*` governance and compliance |
-| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `premium-social-selling`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
+| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
 | `advertising/` | Advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |

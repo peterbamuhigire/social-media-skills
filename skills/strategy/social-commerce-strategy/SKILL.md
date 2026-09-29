@@ -1,6 +1,6 @@
 ---
 name: social-commerce-strategy
-description: Use when the main deliverable concerns catalogue, WhatsApp ordering, Mobile Money, fulfilment, and commerce content; use premium-social-selling when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns catalogue, WhatsApp ordering, Instagram DM selling, Mobile Money, fulfilment, and commerce content; use playbook-social-selling when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,10 +14,11 @@ metadata:
 
 - Use this skill for catalogue, WhatsApp ordering, Mobile Money, fulfilment, and commerce content.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Script Instagram DM sales conversations (opener, qualifying questions, UGX offer, objections) and move serious buyers to WhatsApp to close (formerly `playbook-instagram-dm-sales`).
 
 ## Do Not Use When
 
-- Use `premium-social-selling` when that neighbouring workflow owns the main decision or deliverable.
+- Use `playbook-social-selling` (skills/playbooks/playbook-social-selling; premium or high-ticket buyers: its high-value social selling reference) when that neighbouring workflow owns the main decision or deliverable.
 - Do not proceed when required evidence, approval, or safety review is absent; return the missing-input path instead.
 
 ## Required Inputs
@@ -30,7 +31,7 @@ metadata:
 
 ## Workflow
 
-1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `premium-social-selling`.
+1. Confirm the decision, consumer, market, and evidence boundary; distinguish the request from `playbook-social-selling`.
 2. Inspect supplied artefacts and record missing or unverified inputs before drafting.
 3. Apply the domain framework in this skill and use the decision rule below at each branch.
 4. Stop for approval before publishing, spending, contacting people, changing live systems, or making regulated claims.
@@ -64,6 +65,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | Choice condition | Action | Failure or risk avoided |
 |---|---|---|
 | The sale can be completed or handed off from social channels | Design the order-to-payment workflow before scaling content | Demand generation overwhelms an informal order process |
+| Sales start in Instagram DMs for a service or consultant offer | Script the 5-stage DM sequence and WhatsApp move per [DM conversation selling](references/dm-conversation-selling.md) | Unscripted, pushy or automated DMs that lose warm prospects |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
 
@@ -86,6 +88,7 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [dm-conversation-selling](references/dm-conversation-selling.md) — read when prospects arrive through Instagram DMs and must be qualified and moved to WhatsApp to close.
 <!-- dual-compat-end -->
 
 ## Required Input
@@ -379,7 +382,7 @@ These platform-specific and strategy skills provide deeper implementation guidan
 - `platform-facebook/SKILL.md` — Facebook Page optimisation, Meta Commerce Manager, and Facebook Marketplace
 - `platform-instagram/SKILL.md` — Instagram Shopping, Stories strategy, and product tagging
 - `platform-tiktok/SKILL.md` — TikTok content strategy, bio link setup, and commerce-led video formats
-- `ecommerce-conversion-optimisation/SKILL.md` — Detailed CRO methodology: 5-step optimisation process, A/B testing, KPI dashboards
+- `playbook-post-click-strategy/references/ecommerce-and-whatsapp-conversion-diagnosis.md` — Detailed CRO methodology: 5-step optimisation process, A/B testing, KPI dashboards
 - `ecommerce-brand-differentiation/SKILL.md` — Full brand positioning framework: 7C Canvas, Soleness, Blue Ocean Strategy, naming, and community building
 
 **Key sources:** Larsson, T. (2016) *Ecommerce Evolved*; Harris, A. (2016) *Small Business Big Money Online*; Verma, N. (2019) *Checkout*; Kim, W.C. and Mauborgne, R. (2015) *Blue Ocean Strategy*.

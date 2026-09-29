@@ -12,7 +12,7 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 132
+  current_active_skill_count: 117
   # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
   # (active count 110), after which cap-exceeded is enforced strictly.
   consolidation_until: S07
@@ -81,3 +81,18 @@ inactive_skill_aliases:
   skills/platforms/platform-instagram-visual-system: skills/platforms/platform-instagram
   skills/platforms/platform-linkedin-company-pages: skills/platforms/platform-linkedin
   skills/playbooks/playbook-whatsapp-business: skills/platforms/platform-whatsapp
+  skills/frameworks/framework-community-trust: skills/playbooks/playbook-community-management
+  skills/playbooks/playbook-social-customer-service: skills/playbooks/playbook-community-management
+  skills/strategy/strategy-micro-communities: skills/playbooks/playbook-community-management
+  skills/strategy/strategy-pdca-workflow-design: skills/playbooks/playbook-daily-operations-routine
+  skills/strategy/ecommerce-conversion-optimisation: skills/playbooks/playbook-post-click-strategy
+  skills/playbooks/playbook-geo-newsjacking: skills/playbooks/playbook-pr-publicity
+  skills/playbooks/playbook-pr-media-integration: skills/playbooks/playbook-pr-publicity
+  skills/playbooks/playbook-social-media-governance: skills/playbooks/playbook-social-media-policy
+  skills/playbooks/playbook-employee-advocacy: skills/playbooks/playbook-social-selling
+  skills/strategy/premium-social-selling: skills/playbooks/playbook-social-selling
+  skills/playbooks/playbook-instagram-dm-sales: skills/strategy/social-commerce-strategy
+  skills/frameworks/framework-digital-transparency: skills/strategy/strategy-csr-purpose-communications
+  skills/meta-analytics-ops/meta-social-proof-system: skills/strategy/strategy-ewom-reviews
+  skills/playbooks/playbook-word-of-mouth-strategy: skills/strategy/strategy-ewom-reviews
+  skills/playbooks/playbook-webinars-live-events: skills/strategy/strategy-experiential-marketing
