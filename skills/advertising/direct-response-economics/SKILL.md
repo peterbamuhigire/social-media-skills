@@ -23,7 +23,7 @@ Prove, before spending, that a response campaign can make money: what each order
 ## Do Not Use When
 
 - The question is multi-channel attribution or incrementality; use [advertising-attribution-and-measurement](../advertising-attribution-and-measurement/SKILL.md).
-- The copy itself is needed; use [direct-mail-writer](../../content-writing/direct-mail-writer/SKILL.md) or [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md).
+- The copy itself is needed; use [direct-response-funnel-copy](../../content-writing/direct-response-funnel-copy/SKILL.md) (direct-mail letters: [direct-mail-letters-and-packs](../../content-writing/direct-response-funnel-copy/references/direct-mail-letters-and-packs.md)) or [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md).
 - Company-level pricing, margins or accounting treatment are in question; route to chwezi-accounting-doctrine.
 - Stop if the contact list has no lawful basis for marketing use (see Decision Rules).
 
@@ -150,7 +150,7 @@ Each goal becomes an objective with a value, a date and an approver: "Build an o
 
 | Output | Goes to | What is handed over |
 |---|---|---|
-| Offer, break-even and response codes | [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md) or [direct-mail-writer](../../content-writing/direct-mail-writer/SKILL.md) | Main benefit, offer terms, deadline and its true reason, codes |
+| Offer, break-even and response codes | [ad-copy-and-hook-lab](../ad-copy-and-hook-lab/SKILL.md) or [direct-response-funnel-copy](../../content-writing/direct-response-funnel-copy/SKILL.md) (direct-mail letters: [direct-mail-letters-and-packs](../../content-writing/direct-response-funnel-copy/references/direct-mail-letters-and-packs.md)) | Main benefit, offer terms, deadline and its true reason, codes |
 | Test results | [ad-testing-and-scaling](../ad-testing-and-scaling/SKILL.md) | Cell results and ladder decisions |
 | Margin and pricing questions | chwezi-accounting-doctrine (via the routing table) | P&L assumptions |
 

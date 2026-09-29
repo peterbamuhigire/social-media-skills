@@ -88,8 +88,14 @@ def local_link_exists(skill: Path, target: str, root: Path) -> bool:
 
 
 def retired_dirs(root: Path, active_roots: list[str]) -> set[Path]:
-    """Skill folders retired as inactive aliases (SKILL.md renamed ALIAS.md, decision D-SK-03)."""
-    return {p.parent.resolve() for active in active_roots if (root / active).is_dir() for p in (root / active).rglob("ALIAS.md")}
+    """Skill folders retired as inactive aliases (SKILL.md renamed ALIAS.md, decision D-SK-03).
+
+    A category-level alias (for example skills/content-writing/ALIAS.md, S03-T08) sits above active
+    skills and a shared references/ folder that stay live, so its folder is not treated as retired;
+    a link to the ALIAS.md file itself is still an alias_link.
+    """
+    folders = {p.parent.resolve() for active in active_roots if (root / active).is_dir() for p in (root / active).rglob("ALIAS.md")}
+    return {folder for folder in folders if not any((child / "SKILL.md").is_file() for child in folder.iterdir() if child.is_dir())}
 
 
 def links_to_alias(path: Path, root: Path, retired: set[Path]) -> bool:

@@ -1,6 +1,6 @@
 ---
 name: meta-content-repurposing
-description: "Use when turning a proven source asset into channel-appropriate derivatives without duplicating it blindly. Produces content repurposing map and production sequence; use `meta-evergreen-content-strategy` when that neighbouring contract is the closer match."
+description: "Use when turning a proven source asset into channel-appropriate derivatives without duplicating it blindly, including an AI-assisted recycling pipeline or evergreen library refresh and rotation. Produces content repurposing map and production sequence, or evergreen register and 90-day rotation; use `11-content-calendar` for the master calendar."
 metadata:
   portable: true
   compatible_with:
@@ -14,11 +14,13 @@ metadata:
 ## Use When
 
 - Use this skill for turning a proven source asset into channel-appropriate derivatives without duplicating it blindly.
-- Confirm that `meta-evergreen-content-strategy` is not the closer route before proceeding.
+- Also use it to run an AI-assisted ten-asset recycling pipeline from one long-form source, or to identify, refresh and schedule evergreen content from an existing library (see References).
+- Run a proven blog post or video through an AI prompt pipeline that recycles it into ten platform-ready assets (formerly `ai-content-recycling-pipeline`).
+- Score past posts for evergreen value, refresh them and build a 90-day evergreen rotation calendar (formerly `meta-evergreen-content-strategy`).
 
 ## Do Not Use When
 
-- Use `meta-evergreen-content-strategy` when its narrower output is requested.
+- Use `11-content-calendar` when the master publishing calendar itself is the deliverable; this skill supplies its repurposing and evergreen slots.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -56,11 +58,12 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Approved source assets, audience and channel constraints is current and attributable | Produce the full content repurposing map and production sequence and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-evergreen-content-strategy` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client wants to identify, refresh and schedule durable posts from an existing archive (evergreen register, 90-day rotation) | Follow [evergreen-register-and-rotation](references/evergreen-register-and-rotation.md): screen, score, refresh, rotate; feed refreshed posts back into the repurposing chain. | Republishing dated content or producing everything new. |
+| One long-form written source (500–1,500 words) must become ten platform assets quickly with AI assistance | Follow [ai-assisted-recycling-pipeline](references/ai-assisted-recycling-pipeline.md): fix the human approval gate, run the ten prompts, apply platform rules and the quality gate. | Raw AI output published unreviewed or duplicated across platforms. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-evergreen-content-strategy` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; for an evergreen library or an AI-assisted ten-asset pipeline, branch to the matching reference named in the Decision rules.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -76,7 +79,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the content repurposing map and production sequence without approved source assets. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-evergreen-content-strategy` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Recycling an evergreen post without the refresh protocol. Fix: run the refresh checklist in the evergreen reference before it re-enters the chain.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -85,7 +88,7 @@ Given verified approved source assets, the skill produces a content repurposing 
 
 ## Read next
 
-- [`meta-evergreen-content-strategy`](../meta-evergreen-content-strategy/SKILL.md) for the neighbouring contract.
+- [`11-content-calendar`](../../pipeline/11-content-calendar/SKILL.md) for the master calendar the evergreen and repurposing slots feed.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
@@ -93,6 +96,8 @@ Given verified approved source assets, the skill produces a content repurposing 
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Capture for repurposing](references/capture-for-repurposing.md) — read before recording an interview or session that will be repurposed, or when designing an expert-minimum content service.
+- [ai-assisted-recycling-pipeline](references/ai-assisted-recycling-pipeline.md) — read when one long-form source must become ten platform-ready assets with AI prompts, a platform rules table and a human quality gate in under 60 minutes.
+- [evergreen-register-and-rotation](references/evergreen-register-and-rotation.md) — read when identifying, scoring, refreshing and scheduling evergreen content from an existing library into a 90-day rotation.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -308,7 +313,7 @@ Draft the WhatsApp broadcast snippet (2–3 sentences maximum).
 Load all Tier 2 and Tier 3 content into the scheduling tool (Buffer, Meta Business Suite, or the client's preferred tool). Schedule for the following week. Ensure no two posts on the same platform contain identical copy — adapt each for the platform's tone and format even if the substance is the same.
 
 **Step 5 — Friday: Review and identify next cycle**
-Review what published this week. Note the highest-performing post. Ask: could this post be the seed for a full Tier 1 piece next month? Identify any evergreen content from the archive that could be re-entered into the repurposing cycle.
+Review what published this week. Note the highest-performing post. Ask: could this post be the seed for a full Tier 1 piece next month? Identify any evergreen content from the archive that could be re-entered into the repurposing cycle (score and refresh it first using [evergreen-register-and-rotation](references/evergreen-register-and-rotation.md)).
 
 ---
 

@@ -256,7 +256,7 @@ by corporate or NGO clients.
   before naming or identifying any client.
 
 - **Contrarian takes:** Challenge a received wisdom in the industry. Reference
-  the audacious content approach in `playbook-audacious-content`. Example: "Why
+  the audacious content approach in `playbook-viral-content-design` (bold-idea risk screen reference). Example: "Why
   posting every day on Instagram is damaging Ugandan SME brands."
 
 - **EA market observations:** Commentary on a local business or marketing trend
@@ -344,7 +344,7 @@ Produce the following sections in order:
   LinkedIn, including speaking, publishing, and media positioning
 - `platform-linkedin` — use for LinkedIn platform-specific optimisation and
   algorithm guidance
-- `playbook-audacious-content` — use for the contrarian content pillar in the
+- `playbook-viral-content-design` (bold-idea risk screen reference) — use for the contrarian content pillar in the
   LinkedIn thought leadership plan
 
 ## Quality Criteria

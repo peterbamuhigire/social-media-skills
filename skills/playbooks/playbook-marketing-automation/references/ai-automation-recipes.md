@@ -8,7 +8,7 @@ Use it when the client needs an **operational automation roadmap** for their mar
 
 Scope limits:
 
-- Operational automation only. Content production automation belongs to [`playbook-ai-content-workflow`](../../playbook-ai-content-workflow/SKILL.md); paid advertising automation is out of scope entirely.
+- Operational automation only. Content production automation belongs to [`playbook-content-production` AI-assisted production workflow](../../playbook-content-production/references/ai-assisted-production-workflow.md); paid advertising automation is out of scope entirely.
 - Autonomous agents (PRAL/BDI architecture, Wave 3 agents): use [agentic-workflows-and-human-checkpoints.md](agentic-workflows-and-human-checkpoints.md).
 - Trigger maps and nurture sequence timing stay in the main playbook.
 
@@ -246,7 +246,7 @@ The roadmap meets the standard when it:
 - [ ] Distinguishes automated, semi-automated and human-only tasks, with no ambiguity about which need human intervention.
 - [ ] Includes the maintenance schedule as a standalone, actionable section, not buried in the build plan.
 - [ ] Stays culturally and operationally grounded in East Africa: WhatsApp as the primary customer channel, intermittent connectivity acknowledged, no tools unavailable or unaffordable in Uganda.
-- [ ] Avoids scope creep: operational automation only; content production automation goes to `playbook-ai-content-workflow`; paid advertising automation is out of scope.
+- [ ] Avoids scope creep: operational automation only; content production automation goes to `playbook-content-production` (AI-assisted production workflow); paid advertising automation is out of scope.
 
 ## Sources
 

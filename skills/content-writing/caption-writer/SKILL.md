@@ -1,6 +1,6 @@
 ---
 name: caption-writer
-description: Use when Caption Writer is needed to produce a publication-ready copy for social-media or digital-marketing work; use `email-copywriter` when its narrower outcome is requested.
+description: Use when Caption Writer is needed to produce a publication-ready copy, hashtag set or hashtag strategy for social-media or digital-marketing work; use `email-copywriter` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within caption writer.
+- Build a hashtag strategy: branded, niche, community and location hashtags per platform (Instagram, TikTok, LinkedIn, X), tag counts and banned or risky tags to avoid (formerly `hashtag-strategy`).
 
 ## Do Not Use When
 - Use `email-copywriter` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The client needs a standing hashtag strategy (branded, niche, community and awareness tiers, tags to avoid, monthly review) rather than one caption's tags | Build it with [hashtag-and-keyword-tagging](references/hashtag-and-keyword-tagging.md), then draw each caption's set from its standard set. | Generic, untargeted tag lists pasted under every post. |
 
 ## Workflow
 1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `email-copywriter` if it is the closer match.
@@ -75,6 +77,7 @@ Fallback: if files, network access, platform data, language review or production
 
 ## References
 - [email-copywriter](../email-copywriter/SKILL.md) is the nearest routing comparison for this skill.
+- [hashtag-and-keyword-tagging](references/hashtag-and-keyword-tagging.md) — read when the client needs a full hashtag strategy document, tiered tag sets, a tags-to-avoid list or a monthly hashtag performance review.
 - [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — post and ad sentence patterns (three-line power paragraph).
 - [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling captions and ads.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.

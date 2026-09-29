@@ -1,6 +1,6 @@
 ---
 name: direct-response-funnel-copy
-description: Use when Direct-Response Funnel Copy Skill (Brunson + Kennedy) is needed to produce a publication-ready copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when Direct-Response Funnel Copy Skill (Brunson + Kennedy) is needed to produce a publication-ready copy, including direct-mail letters, for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within direct-response funnel copy skill (brunson + kennedy).
+- Write a direct mail letter, postcard or self-mailer with a P.S., and choose which mailing-list customers to send it to first using FRAT scoring and a cost-per-piece check (formerly `direct-mail-writer`).
 
 ## Do Not Use When
 - Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The deliverable is a direct-mail letter, postcard, self-mailer or letter-style email/WhatsApp broadcast to a list | Apply the four prerequisites, two-list process, Three Tells, letter structure, FRAT list scoring, $20 Rule and test design in [direct-mail letters and packs](references/direct-mail-letters-and-packs.md). | A mailing sent to the wrong list, in a format the transaction value cannot pay for, or rolled out untested. |
 
 ## Workflow
 1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
@@ -194,6 +196,8 @@ Use only mechanics that are true and provable, with the reason why (see the ethi
 - [Long-copy sales letter system](references/long-copy-sales-letter-system.md) — read when researching the reader, drafting, editing and testing any long sales asset or sequence.
 - [Offer, proposition and price integrity](references/offer-proposition-and-price-integrity.md) — read when designing the offer, the propositions, discount rules or the price section.
 - [Consultative sales and positioning](references/consultative-sales-and-positioning.md) — read when the funnel ends in a call, chat or meeting.
+- [Direct-mail letters and packs](references/direct-mail-letters-and-packs.md) — read when writing a direct-mail letter, insert, postcard or self-mailer, choosing a mailing list, checking cost per piece or designing a mail test.
+- [Direct-mail pre-release copy checklist](references/galletti-27-points.md) — read when finalising any direct-mail letter, sales letter, email or WhatsApp broadcast before release.
 - [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — apply to every asset before release.
 - **Premium commercial writing layer:** see `../premium-commercial-writing/SKILL.md` when direct-response copy must stay credible and premium-fee worthy.
 

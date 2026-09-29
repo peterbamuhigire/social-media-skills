@@ -1,6 +1,6 @@
 ---
 name: playbook-viral-content-design
-description: Use when designing or improving a Viral Content Design operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Viral Content Design operating playbook, including audacious or contrarian content, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -24,6 +24,7 @@ the POEM model (Paid/Owned/Earned) for how organic content fits within a broader
 ## Use When
 - Build or improve a repeatable Viral Content Design workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Make safe, forgettable content bolder: score it on an audacity index, design contrarian takes and a talk trigger, and screen the risk (formerly `playbook-audacious-content`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -46,6 +47,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | Shareability depends on deception, outrage or unverified novelty | Reject the mechanism | Reach bought with trust loss |
+| Brief asks for bold, audacious or contrarian content, a Talk Trigger or a Proof of Human signal | Score the last 5 posts and screen the idea with [bold-idea-risk-screen](references/bold-idea-risk-screen.md) before choosing a structure | Manufactured controversy or forgettable "pandemic of dull" content |
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
@@ -385,6 +387,7 @@ broader content programme:
   virality mechanics covered here
 - `meta-testing-framework/SKILL.md` — for measuring whether content engineered for virality is
   actually performing — reach, share rate, save rate, and comment velocity
+- [bold-idea-risk-screen](references/bold-idea-risk-screen.md) — read when the client wants bold, audacious or contrarian content: Audacity Index, story pillars, STEPPS, Talk Trigger and AI-role scoping.
 
 **Academic references:**
 - Bodnar, K. and Cohen, J. (2012) *The B2B Social Media Book*. Hoboken: Wiley.

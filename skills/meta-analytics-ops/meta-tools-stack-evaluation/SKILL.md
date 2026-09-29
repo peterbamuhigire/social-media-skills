@@ -286,7 +286,7 @@ Produce a structured tools evaluation document with the following sections in or
 ## Related Skills
 
 - `meta-budget-planner/SKILL.md` — use when calculating total martech spend as part of a broader marketing budget
-- `playbook-ai-content-workflow/SKILL.md` — use when AI writing or content generation tools are part of the recommended stack
+- `playbook-content-production` ([AI-assisted production workflow](../../playbooks/playbook-content-production/references/ai-assisted-production-workflow.md)) — use when AI writing or content generation tools are part of the recommended stack
 - `meta-testing-framework/SKILL.md` — use when the client wants to A/B test tools before committing to a paid tier
 - `playbook-agency-operations/SKILL.md` — use when building a tools stack for an agency managing multiple clients rather than a single brand
 

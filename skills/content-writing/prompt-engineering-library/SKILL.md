@@ -1,6 +1,6 @@
 ---
 name: prompt-engineering-library
-description: Use when Prompt Engineering Library is needed to produce a reusable prompt library for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when Prompt Engineering Library is needed to produce a reusable prompt library (text, image, audio, video) for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,8 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **reusable prompt library** and the supplied brief falls within prompt engineering library.
+- Write AI image prompts (Midjourney, DALL-E, Firefly) with negative prompts, seeds and culturally accurate East African subjects (formerly `image-prompt-engineer`).
+- Build a prompt library for AI audio, voice-over, avatar video and music tools such as ElevenLabs, HeyGen and Suno (formerly `prompt-library-image-audio-video`).
 
 ## Do Not Use When
 - Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +38,8 @@ Fallback: if files, network access, platform data, language review or production
 | Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The library needs AI image prompts (Midjourney, DALL-E 3, Stable Diffusion, Flux, Firefly) | Build them with the eight-layer anatomy, negative prompts, seed record and East African cultural review in `references/image-prompt-patterns.md`. | Generic AI imagery or culturally inaccurate depiction. |
+| The library needs voice-over, podcast, avatar video or music prompts | Use the per-medium templates, disclosure table and production record in `references/image-audio-video-prompt-library.md`. | Robotic audio, stilted avatar video, thin music or undisclosed synthetic media. |
 
 ## Workflow
 1. Confirm the exact reusable prompt library, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
@@ -73,6 +77,8 @@ Fallback: if files, network access, platform data, language review or production
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 - [Role prompt packs and engagement question banks](references/role-prompt-packs-and-engagement-questions.md) — read when building prompts per job role or audience questions that invite replies.
+- [image-prompt-patterns](references/image-prompt-patterns.md) — read when the library must include AI image prompts (eight-layer anatomy, negative prompts, platform syntax, cultural accuracy review).
+- [image-audio-video-prompt-library](references/image-audio-video-prompt-library.md) — read when the library must cover voice-over, podcast, avatar or personalised video, or music prompts and AI media disclosure.
 <!-- dual-compat-end -->
 
 ## Evidence-first prompt standard

@@ -1,6 +1,6 @@
 ---
 name: content-ideas
-description: Use when Content Ideas Generator is needed to produce a prioritised idea set for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when Content Ideas Generator is needed to produce a prioritised idea set, including blog and article topic briefs, for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **prioritised idea set** and the supplied brief falls within content ideas generator.
+- Generate blog post topic ideas with short topic briefs, target keywords, buyer stage and a blog content calendar (formerly `blog-idea-generator`).
 
 ## Do Not Use When
 - Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -45,6 +46,7 @@ Fallback: if files, network access, platform data, language review or production
 5. Test the result against the decision table, domain quality criteria and anti-slop gate; recover by narrowing or qualifying unsupported portions.
 6. Deliver the artefact with evidence, assumptions, unassessed checks and the next approval or verification step.
 7. For each idea, name the audience situation, narrative job, emotional or practical tension, proof/source need, choice or CTA, format/readability risk, and the learning signal it can generate.
+8. If the brief is for a blog or long-form article programme (15–25 blog topic ideas with 200-word hybrid summaries, saved to `docs/blogs/topics.md`), follow [blog-and-article-topic-briefs.md](references/blog-and-article-topic-briefs.md) instead of the 30-idea social table.
 
 ## Outputs
 | Artefact | Consumer | Observable acceptance condition |
@@ -75,6 +77,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [blog-and-article-topic-briefs](references/blog-and-article-topic-briefs.md) — read when the client needs blog or article topic ideas and briefs rather than social post ideas; its companions are [ideation-frameworks](references/ideation-frameworks.md), [content-formats](references/content-formats.md) and [idea-sources-and-series](references/idea-sources-and-series.md).
 <!-- dual-compat-end -->
 
 ## How to Use This Skill

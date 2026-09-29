@@ -1,6 +1,6 @@
 ---
 name: blog-writer
-description: Use when Blog Writer is needed to produce a publication-ready copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when Blog Writer is needed to produce a publication-ready copy (blog article, whitepaper or eBook) for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,7 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **publication-ready copy** and the supplied brief falls within blog writer.
+- Write a whitepaper or eBook (gated lead magnet, donor or investor document) with an executive summary, structured sections and a landing page for the download (formerly `content-whitepaper-ebook`).
 
 ## Do Not Use When
 - Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +37,7 @@ Fallback: if files, network access, platform data, language review or production
 | Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| The brief is a whitepaper, eBook, gated lead magnet, donor report or investor document rather than a single article | Apply the whitepaper/eBook decision rule, section templates and use-case variants in `references/whitepaper-and-ebook-structure.md`. | Padding a blog template into a thesis-free brochure or a reader-problem-free catalogue. |
 
 ## Workflow
 1. Confirm the exact publication-ready copy, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
@@ -74,6 +76,7 @@ Fallback: if files, network access, platform data, language review or production
 ## References
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
+- [whitepaper-and-ebook-structure](references/whitepaper-and-ebook-structure.md) — read when the deliverable is a whitepaper, eBook, gated lead magnet, donor report or investor document.
 <!-- dual-compat-end -->
 
 Generate a complete, professional blog post from a brief. The output is a finished article in markdown — ready to paste into a CMS, share with a client, or hand to a web developer.

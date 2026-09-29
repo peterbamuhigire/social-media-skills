@@ -75,7 +75,7 @@ skills/
       assets/       # optional
 ```
 
-Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, `training/`, and `advertising/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (One documented exception: `skills/content-writing/SKILL.md` is a category-level standards file, not a skill.)
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, `training/`, and `advertising/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (The former category-level standards file `skills/content-writing/SKILL.md` is now the inactive alias `skills/content-writing/ALIAS.md`; its standards live in `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md`, and the shared `skills/content-writing/references/` folder stays in place.)
 
 ## Default Context
 
@@ -125,7 +125,7 @@ Use the skill whose directory name and `description` most closely match the deli
 - `training-`: client team training guides
 - `policy-`: internal or client-facing policy documents
 - `ai-`, `brand-voice-`, `prompt-`: AI strategy, prompting, automation, evaluation
-- `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`, `hashtag-strategy`: direct content generation
+- `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`: direct content generation (hashtag strategy is part of `caption-writer`)
 - `framework-`, `peso-`, `owned-media-`, `social-commerce-`, `strategy-`: strategic frameworks and specialist strategy modules
 - `advertising/`: advertising strategy and budget, media planning, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff
 - `business-development/eac-call-for-applications-campaign`: donor-compliant calls for applications, EOIs, applicant FAQs, partner dissemination kits, fairness protocols, and evidence logs across EAC markets
@@ -249,7 +249,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
 | `advertising/` skills (plain names) | Advertising strategy, media, creative, copy, search, testing, attribution | advertising-strategy-and-budget, media-planning, ad-copy-and-hook-lab |
 | `training-` | Training guides | training-client-team, training-diy-content |
-| Plain name | Utility / generation | caption-writer, hashtag-strategy, blog-post-writer |
+| Plain name | Utility / generation | caption-writer, content-ideas, blog-writer |
 
 ### Skill Categories
 
@@ -373,9 +373,9 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 |---|---|---|
 | `east-african-english` | `skills/language/east-african-english/` | Language and tone standard — British English, EA professional register |
 | `language-standards` | `skills/language/language-standards/` | Grammar, punctuation, and vocabulary rules |
-| `content-writing` | `skills/content-writing/` (category-level standards) | General content writing standards |
+| `content-writing-standards` | `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md` | General content writing standards (formerly the category-level `skills/content-writing/SKILL.md`) |
 | `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
-| `blog-idea-generator` | `skills/content-writing/blog-idea-generator/` | Generate blog topic ideas and content briefs |
+| `content-ideas` | `skills/content-writing/content-ideas/` | Generate content and blog topic ideas and briefs (absorbed `blog-idea-generator`) |
 | `platform-linkedin-company-pages` | `skills/platforms/platform-linkedin-company-pages/` | LinkedIn Company Page setup, growth, Sub-Pages, Events, and content strategy for organisations |
 | `advertising-strategy-and-budget` | `skills/advertising/advertising-strategy-and-budget/` | Entry point for advertising strategy, budget triangulation, measurement architecture and agency–client governance |
 | `direct-marketing-ethics-filter` | `skills/content-writing/references/direct-marketing-ethics-filter.md` | Canonical ethics filter for ads, offers, outreach and influencer work |

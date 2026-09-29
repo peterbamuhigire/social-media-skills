@@ -358,7 +358,7 @@ Output from this skill meets the standard when:
   to activate Q1 (Internal Productivity) quick wins immediately.
 - **`playbook-marketing-automation` (AI automation recipes reference)** — use for detailed workflow automation
   planning once Q2 (External Productivity) use cases are approved.
-- **`playbook-ai-content-workflow`** — use for content production automation
+- **`playbook-content-production`** (AI-assisted production workflow reference) — use for content production automation
   planning, particularly for Q1 caption and blog use cases.
 
 ## References

@@ -1,6 +1,6 @@
 ---
 name: playbook-content-production
-description: Use when designing or improving a Content Production operating playbook with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
+description: Use when designing or improving a Content Production operating playbook, including AI-assisted drafting, with roles, ordered actions, controls and measures. Use platform skills for channel plans and strategy skills for upstream direction.
 metadata:
   portable: true
   compatible_with:
@@ -13,6 +13,7 @@ metadata:
 ## Use When
 - Build or improve a repeatable Content Production workflow for a client or delivery team.
 - Turn an approved objective into roles, controls, handoffs and measurable actions.
+- Set up an AI content workflow: ChatGPT, Claude or Canva prompts, a brand context block, quality checks and an AI disclosure policy before posts are scheduled (formerly `playbook-ai-content-workflow`).
 
 ## Do Not Use When
 - The task is a single-channel presence plan; use the closest `platform-*` skill.
@@ -35,6 +36,7 @@ If accounts, files, network, rendering or current evidence are unavailable, retu
 | Condition | Action | Failure or risk avoided |
 |---|---|---|
 | A content item lacks source, owner or approval | Hold it out of production | Untraceable or unauthorised publishing |
+| AI tools (ChatGPT, Canva, CapCut) draft captions, ideas or repurposed posts, or AI output contains an unsupported claim or generic filler | Apply the AI-assisted production workflow: brand context block, core prompts, six-check quality control and hallucination gate; return failing output to evidence and editorial review | Fast production of generic or misleading AI content |
 | Inputs and authority are complete | Produce an execution-ready playbook | Unowned actions and hidden assumptions |
 | Evidence or tooling is incomplete | Produce the narrowest qualified draft and a gap list | Treating an unassessed check as passed |
 | Action publishes, spends, contacts people or changes production state | Require explicit approval before action | Unauthorised external impact |
@@ -73,6 +75,7 @@ Use British English and the specified market context. Recommendations must be ex
 - [Anti-AI-slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [East African English standard](../../language/east-african-english/SKILL.md)
 - [Real-time content bridge and voice contract](references/real-time-content-bridge-and-voice.md) for the listen/verify/adapt/approve/publish/measure bridge, intent-led language, and distinctive voice.
+- [ai-assisted-production-workflow](references/ai-assisted-production-workflow.md) — read when AI tools draft captions, content ideas, hashtags or repurposed posts, or when staging a client on the AI content maturity model.
 - Use the directly cited sources and companion skills in the domain guidance below; verify time-sensitive claims before use.
 <!-- dual-compat-end -->
 

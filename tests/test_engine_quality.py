@@ -61,6 +61,22 @@ class EngineQualityTests(unittest.TestCase):
             self.assertTrue(validator.links_to_alias(linked, root, folders))
             linked.write_text("# Owner\n\nNo retired links.\n", encoding="utf-8")
             self.assertFalse(validator.links_to_alias(linked, root, folders))
+            # S03-T08: a category-level alias keeps its active child skills and shared references live.
+            category = root / "skills" / "cat"
+            (owner / "SKILL.md").write_text("---\nname: owner\n---\n", encoding="utf-8")
+            (category / "ALIAS.md").write_text("---\nname: cat\n---\n\n> Inactive alias.\n", encoding="utf-8")
+            (category / "references").mkdir()
+            (category / "references" / "shared.md").write_text("shared\n", encoding="utf-8")
+            folders = validator.retired_dirs(root, ["skills"])
+            self.assertNotIn(category.resolve(), folders)
+            self.assertIn(retired.resolve(), folders)
+            linked.write_text("# Owner\n\n[shared](../references/shared.md)\n", encoding="utf-8")
+            self.assertFalse(validator.links_to_alias(linked, root, folders))
+            linked.write_text("# Owner\n\n[category](../ALIAS.md)\n", encoding="utf-8")
+            self.assertTrue(validator.links_to_alias(linked, root, folders))
+            linked.write_text("# Owner\n\n[notes](../retired/notes.md)\n", encoding="utf-8")
+            self.assertTrue(validator.links_to_alias(linked, root, folders))
+            (category / "ALIAS.md").unlink()
             (root / "docs").mkdir()
             registry = root / "docs" / "skill-aliases.yml"
             registry.write_text(yaml.safe_dump({"active_skill_policy": {"hard_cap": 0}}), encoding="utf-8")

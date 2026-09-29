@@ -12,7 +12,7 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 176
+  current_active_skill_count: 162
   # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
   # (active count 110), after which cap-exceeded is enforced strictly.
   consolidation_until: S07
@@ -36,3 +36,17 @@ inactive_skill_aliases:
   skills/playbooks/playbook-ai-automation-workflow: skills/playbooks/playbook-marketing-automation
   skills/ai-marketing/ai-cultural-bias-audit: skills/policies/policy-ai-content-ethics
   skills/policies/policy-ai-ip-and-copyright: skills/policies/policy-ai-content-ethics
+  skills/content-writing/content-whitepaper-ebook: skills/content-writing/blog-writer
+  skills/content-writing/hashtag-strategy: skills/content-writing/caption-writer
+  skills/content-writing/blog-idea-generator: skills/content-writing/content-ideas
+  skills/content-writing/direct-mail-writer: skills/content-writing/direct-response-funnel-copy
+  skills/ai-marketing/ai-content-recycling-pipeline: skills/meta-analytics-ops/meta-content-repurposing
+  skills/meta-analytics-ops/meta-evergreen-content-strategy: skills/meta-analytics-ops/meta-content-repurposing
+  skills/playbooks/playbook-ai-content-workflow: skills/playbooks/playbook-content-production
+  skills/playbooks/playbook-audacious-content: skills/playbooks/playbook-viral-content-design
+  skills/content-writing: skills/content-writing/premium-commercial-writing
+  skills/content-writing/copywriting-brochure: skills/content-writing/premium-commercial-writing
+  skills/content-writing/image-prompt-engineer: skills/content-writing/prompt-engineering-library
+  skills/content-writing/prompt-library-image-audio-video: skills/content-writing/prompt-engineering-library
+  skills/ai-marketing/ai-avatar-personalised-video: skills/strategy/strategy-video-content
+  skills/platforms/platform-podcast-strategy: skills/strategy/strategy-video-content

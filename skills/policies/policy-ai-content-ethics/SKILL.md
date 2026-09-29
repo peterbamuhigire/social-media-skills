@@ -456,7 +456,7 @@ Output meets the standard for this skill when:
 ---
 ## References
 Consult the following skills where relevant:
-- `playbook-ai-content-workflow/SKILL.md` — the operational workflow for
+- `playbook-content-production` ([AI-assisted production workflow](../../playbooks/playbook-content-production/references/ai-assisted-production-workflow.md)) — the operational workflow for
   producing AI-assisted content; read this when setting up or auditing the
   client's production process.
 - `playbook-social-media-policy/SKILL.md` — the broader social media policy

@@ -425,7 +425,7 @@ See `references/human-voice-standards.md` for the complete blacklist.
 
 ## Format-Specific Structural Templates
 
-When the blog-idea-generator assigns a format, follow the matching template below. Each template shows the section flow — adapt headings to the specific topic.
+When the `content-ideas` blog topic brief assigns a format, follow the matching template below. Each template shows the section flow — adapt headings to the specific topic.
 
 ### How-To Template
 1. **Hook** — why this skill/process matters now (pain point or opportunity)

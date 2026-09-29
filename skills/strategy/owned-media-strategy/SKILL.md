@@ -205,7 +205,7 @@ WhatsApp is the dominant messaging channel across East Africa (no source measure
 
 ## Section 5 — Blog / Content Hub Strategy
 
-A blog is the cornerstone owned media asset for clients who want organic search traffic independent of social platforms. Refer to `blog-writer/SKILL.md` for post generation and `blog-idea-generator/SKILL.md` for topic briefs.
+A blog is the cornerstone owned media asset for clients who want organic search traffic independent of social platforms. Refer to `blog-writer/SKILL.md` for post generation and `content-ideas/SKILL.md` ([blog and article topic briefs](../../content-writing/content-ideas/references/blog-and-article-topic-briefs.md)) for topic briefs.
 
 **Minimum viable blog:** 1 post per month, minimum 800 words, optimised for a specific search query relevant to the client's industry and location. Clients with limited team capacity can sustain this cadence; clients with stronger capacity should target 2–4 posts per month.
 

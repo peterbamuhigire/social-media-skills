@@ -135,7 +135,7 @@ Structure the roadmap by quarter. Every action names a tool or channel, a metric
 |---|---|---|---|
 | Q1 | Diagnose and establish | Confirm current step from the diagnostic. Complete a data audit: where customer data lives, who owns it, what is missing (see [data-foundation-audit.md](data-foundation-audit.md)). Set up or clean the customer contact list (CRM, or spreadsheet as minimum standard). Launch 1–2 low-risk AI experiments appropriate to the current step (for example AI caption writing in ChatGPT, scheduling via FeedHive or Buffer). | Baseline content output volume; time spent on content creation per week |
 | Q2 | Measure and scale one experiment | Review Q1 experiment results against baseline. Select the single most successful experiment and scale it (more frequency, more channels, or a second content type). Begin mapping the customer journey for the Retention moment. | Time saving from AI tools; engagement rate change; WhatsApp open or reply rate |
-| Q3 | Integrate and expand | Integrate AI into one more marketing function beyond content creation. For EA context, consider WhatsApp automation for retention or sentiment monitoring for advocacy. Draft and publish an internal AI use policy (see [playbook-ai-content-workflow](../../../playbooks/playbook-ai-content-workflow/SKILL.md)). | Functions using AI (target 3+); policy in place (yes/no) |
+| Q3 | Integrate and expand | Integrate AI into one more marketing function beyond content creation. For EA context, consider WhatsApp automation for retention or sentiment monitoring for advocacy. Draft and publish an internal AI use policy (see [playbook-content-production: AI-assisted production workflow](../../../playbooks/playbook-content-production/references/ai-assisted-production-workflow.md)). | Functions using AI (target 3+); policy in place (yes/no) |
 | Q4 | Review canvas progress and set Year 2 targets | Re-run the nine-question diagnostic to check step progression. Update the canvas: complete the next step's cells for any moment where Q1–Q3 work is confirmed. Set SMART objectives for Year 2 from confirmed capabilities. | Step movement (did the client advance one step?); Year 2 AI investment recommendation in UGX |
 
 ## Step 4 — Write the plain-language summary
@@ -206,7 +206,7 @@ Apply throughout the canvas and roadmap:
 
 ## Related work
 
-- Execution playbook for AI-assisted content production: [playbook-ai-content-workflow](../../../playbooks/playbook-ai-content-workflow/SKILL.md).
+- Execution playbook for AI-assisted content production: [playbook-content-production: AI-assisted production workflow](../../../playbooks/playbook-content-production/references/ai-assisted-production-workflow.md).
 - Automation and tool integration guidance: [playbook-marketing-automation](../../../playbooks/playbook-marketing-automation/SKILL.md).
 - The canvas roadmap feeds the full social media strategy: [05-social-media-strategy](../../../pipeline/05-social-media-strategy/SKILL.md).
 

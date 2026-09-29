@@ -1,6 +1,6 @@
 ---
 name: premium-commercial-writing
-description: Use when Premium Commercial Writing is needed to produce a premium commercial writing deliverable for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
+description: Use when Premium Commercial Writing is needed to produce a premium commercial writing deliverable, content writing standards or brochure copy for social-media or digital-marketing work; use `caption-writer` when its narrower outcome is requested.
 metadata:
   portable: true
   compatible_with:
@@ -12,6 +12,8 @@ metadata:
 <!-- dual-compat-start -->
 ## Use When
 - Use this skill when the requested outcome is specifically a **premium commercial writing deliverable** and the supplied brief falls within premium commercial writing.
+- Apply the house content writing standards to web page or article copy: headline rules, the lede, Fog Index readability, you/we ratio, features versus benefits and scannable formatting (formerly the category file `content-writing`).
+- Write brochure copy, for example a trifold brochure panel by panel, with a benefit headline on the cover and one call to action (formerly `copywriting-brochure`).
 
 ## Do Not Use When
 - Use `caption-writer` when its narrower output is the real deliverable; do not use this skill as a generic substitute.
@@ -36,6 +38,8 @@ Fallback: if files, network access, platform data, language review or production
 | Channel, format and audience commitment level are known | Choose the hook, structure and call to action native to that context. | Copy that could be pasted unchanged onto any channel or brand. |
 | A required fact or approval is missing | Stop that claim or action; request it or use an explicit placeholder. | Fabricated facts, implied consent or unauthorised publication. |
 | Evidence is partial but a useful draft is possible | Deliver a qualified draft with gaps and the next verification step. | Treating an unassessed requirement as passed. |
+| Any page, post, article or email needs the editorial basics (headline, lede, readability, formatting, you/we ratio, awareness stage) | Apply [content writing standards](references/content-writing-standards.md) before the premium layer. | Premium polish on copy that fails basic readability and reader focus. |
+| The asset is a brochure, trifold, booklet or print leave-behind | Follow [brochure copy](references/brochure-copy.md): single purpose, eight elements, panel plan, designer brief. | A company-history brochure with no benefit headline, proof or next step. |
 
 ## Workflow
 1. Confirm the exact premium commercial writing deliverable, consumer, market, channel and approval boundary; route to `caption-writer` if it is the closer match.
@@ -73,6 +77,8 @@ Fallback: if files, network access, platform data, language review or production
 - [caption-writer](../caption-writer/SKILL.md) is the nearest routing comparison for this skill.
 - [Human, professional phrase bank](../references/human-professional-phrase-bank.md) — sentence patterns for posts, ads, emails, pages, rate cards and plans.
 - [Direct-marketing ethics filter](../references/direct-marketing-ethics-filter.md) — mandatory screen for selling copy.
+- [Content writing standards](references/content-writing-standards.md) — read when writing or editing any page, post, article or email and you need the editorial base rules (headlines, ledes, readability, scannable formatting, templates, pre-publication checklist).
+- [Brochure copy](references/brochure-copy.md) — read when the deliverable is a brochure, trifold, booklet or other print sales collateral.
 - [Buyer psychology and social selling](references/buyer-psychology-and-social-selling.md) for ethical choice architecture, proof, memory cues, channel adaptation, and conversion guardrails.
 - [Repository agent guide](../../../AGENTS.md) defines the engine-wide market, safety and anti-slop gates.
 <!-- dual-compat-end -->
@@ -134,11 +140,11 @@ Depending on the request, deliver one of:
 ## Integration
 Use this skill alongside:
 
-- `content-writing` for readability and broad editorial standards.
+- [content writing standards](references/content-writing-standards.md) for readability and broad editorial standards.
 - `caption-writer` for social captions and post copy.
 - `blog-writer` for articles and thought leadership.
-- `content-whitepaper-ebook` for long-form lead magnets and expert documents.
-- `copywriting-brochure` for sales collateral.
+- `blog-writer` ([whitepaper and eBook structure](../blog-writer/references/whitepaper-and-ebook-structure.md)) for long-form lead magnets and expert documents.
+- [brochure copy](references/brochure-copy.md) for brochures and print sales collateral.
 - `email-copywriter` and `platform-whatsapp` for owned-audience nurture.
 - `09-campaign-strategy` and `13-campaign-brief` for campaign message architecture.
 - `direct-response-funnel-copy` for sales pages, launch sequences, and high-ticket funnels.

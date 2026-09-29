@@ -1,6 +1,6 @@
 ---
 name: strategy-video-content
-description: Use when the main deliverable concerns cross-platform organic video formats, hooks, series, scripts, and learning loops; use training-smartphone-video-production when that neighbouring workflow owns the primary decision.
+description: Use when the main deliverable concerns cross-platform organic video formats, hooks, series, scripts, and learning loops, including podcasts and AI-avatar video; use training-smartphone-video-production when that neighbouring workflow owns the primary decision.
 metadata:
   portable: true
   compatible_with:
@@ -14,6 +14,8 @@ metadata:
 
 - Use this skill for cross-platform organic video formats, hooks, series, scripts, and learning loops.
 - Use it when the requested deliverable needs the domain decisions and acceptance checks below.
+- Plan AI avatar or personalised video (HeyGen, Synthesia, voice cloning) for outreach or client report videos, with consent and AI disclosure (formerly `ai-avatar-personalised-video`).
+- Decide whether to start a podcast or audio series, then choose the format, recording equipment and hosting and plan the first episodes (formerly `platform-podcast-strategy`).
 
 ## Do Not Use When
 
@@ -66,6 +68,8 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 | The need is editorial and channel strategy rather than camera training | Choose platform roles and repeatable series before production detail | A production tutorial substitutes for a content strategy |
 | Evidence is contradictory or materially incomplete | Pause the affected recommendation and request the accountable source | Confident advice built on an unresolved premise |
 | Authority is limited to analysis or planning | Deliver a read-only plan and approval checklist | Unauthorised publication, spend, outreach, or data use |
+| The brief calls for an AI avatar presenter, cloned voice, or personalised avatar video at scale | Apply [ai-avatar-and-personalised-video.md](references/ai-avatar-and-personalised-video.md): tool selection, avatar brief, avatar script rules, distribution, and written disclosure and likeness consent before volume production | Undisclosed synthetic media or a likeness used without consent |
+| The series is a podcast or other episodic audio show | Apply [podcast-and-audio-series.md](references/podcast-and-audio-series.md): the Yes/No fit test, format, minimum set-up, 12-episode plan, and EA distribution | A podcast launched without the capacity or audience to sustain it |
 
 ## Quality Standards
 
@@ -86,6 +90,8 @@ If files, tools, network, current evidence, rendering, or authorised access are 
 ## References
 
 - [AGENTS.md](../../../AGENTS.md)
+- [ai-avatar-and-personalised-video](references/ai-avatar-and-personalised-video.md) — read when the video uses an AI avatar or cloned voice (Synthesia, HeyGen, Tavus, D-ID, Elai.io), including personalised outreach, client report and onboarding videos.
+- [podcast-and-audio-series](references/podcast-and-audio-series.md) — read when the client wants a podcast or episodic audio series, from the fit decision to launch-day distribution and growth.
 <!-- dual-compat-end -->
 
 ## Required Input
