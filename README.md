@@ -22,7 +22,7 @@ cd social-media-skills
 .\install.ps1 --scope project      # Windows PowerShell
 ```
 
-## Skills
+## Capabilities
 
 | Category | Skills | Coverage |
 |---|---:|---|

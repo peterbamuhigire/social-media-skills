@@ -84,7 +84,8 @@ class EngineQualityTests(unittest.TestCase):
         link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
         schemes = re.compile(r"^[A-Za-z][A-Za-z0-9+.-]*:")
         for path in ROOT.rglob("*.md"):
-            if ".git" in path.parts or "__pycache__" in path.parts:
+            # Vendored dependency trees are third-party content, not engine documentation.
+            if {".git", "__pycache__", "node_modules"} & set(path.parts):
                 continue
             for target in link_pattern.findall(path.read_text(encoding="utf-8")):
                 target = target.split("#", 1)[0].strip()
