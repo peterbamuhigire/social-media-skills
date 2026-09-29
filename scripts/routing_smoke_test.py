@@ -1,8 +1,21 @@
 #!/usr/bin/env python3
-"""Dependency-light lexical routing smoke test for active social-media skills."""
+"""Dependency-light lexical routing smoke test for active social-media skills.
+
+Reports top-k precision (gated by the fixture file's threshold) and precision@1.
+Options (portfolio parity with the M10-03 routing ratchet):
+  --min-rank1 PCT    fail when precision@1 (percent) falls below PCT. Without the flag the
+                     registered floor `p1_floor` in tests/routing-fixtures.json (fraction)
+                     applies, so the floor has one source of truth.
+  --lint-fixtures    also fail on duplicate fixture ids, an `expected` skill that is not in
+                     the active catalogue, an `expected` that is a retired alias, or an
+                     `alias_of` that is not a registered alias routed to `expected`.
+Optional fixture field `alias_of`: the retired skill (directory name or path) whose old job
+the prompt describes; the fixture then proves the alias still reaches its owner.
+"""
 
 from __future__ import annotations
 
+import argparse
 import json
 import math
 import re
@@ -56,24 +69,83 @@ def rank(prompt: str, docs: dict[str, Counter[str]]) -> list[str]:
     return [name for _, name in sorted(scored, key=lambda item: (-item[0], item[1]))]
 
 
-def main() -> int:
+def alias_routes() -> dict[str, str]:
+    """Registered retired-skill routes keyed by alias directory name -> owner directory name."""
+    registry = ROOT / "docs" / "skill-aliases.yml"
+    if not registry.is_file():
+        return {}
+    data = yaml.safe_load(registry.read_text(encoding="utf-8")) or {}
+    routes = data.get("inactive_skill_aliases") or {}
+    return {Path(str(src)).name: Path(str(dst)).name for src, dst in routes.items()}
+
+
+def lint_fixtures(fixtures: list[dict], docs: dict[str, Counter[str]]) -> list[str]:
+    findings: list[str] = []
+    routes = alias_routes()
+    seen: set[str] = set()
+    for fixture in fixtures:
+        fid, expected = fixture.get("id"), fixture.get("expected")
+        if fid in seen:
+            findings.append(f"LINT {fid}: duplicate fixture id")
+        seen.add(fid)
+        if expected in routes:
+            findings.append(f"LINT {fid}: expected `{expected}` is a retired alias; expect its owner `{routes[expected]}`")
+        elif expected not in docs:
+            findings.append(f"LINT {fid}: expected `{expected}` is not an active skill")
+        alias_of = fixture.get("alias_of")
+        if alias_of is not None:
+            alias_name = Path(str(alias_of)).name
+            if routes.get(alias_name) != expected:
+                findings.append(f"LINT {fid}: alias_of `{alias_of}` is not a registered alias routed to `{expected}`")
+    return findings
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--min-rank1", type=float, default=None, help="Fail when precision@1 (percent) is below this floor.")
+    parser.add_argument("--lint-fixtures", action="store_true", help="Fail on fixture ids, expected skills or alias_of fields that do not resolve.")
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    options = parse_args(argv)
     fixture_data = json.loads((ROOT / "tests" / "routing-fixtures.json").read_text(encoding="utf-8"))
     docs = catalogue()
     top_k = fixture_data["top_k"]
     passed = 0
+    rank1 = 0
     failures = []
     for fixture in fixture_data["fixtures"]:
         ranked = rank(fixture["prompt"], docs)[:top_k]
         ok = fixture["expected"] in ranked
         passed += int(ok)
+        rank1 += int(bool(ranked) and ranked[0] == fixture["expected"])
         if not ok:
             failures.append({"id": fixture["id"], "expected": fixture["expected"], "actual_top": ranked})
     total = len(fixture_data["fixtures"])
     precision = passed / total if total else 0.0
+    p_at_1 = rank1 / total if total else 0.0
     print(f"routing fixtures={total} passed={passed} top_{top_k}_precision={precision:.3f} threshold={fixture_data['threshold']:.3f}")
+    floor = fixture_data.get("p1_floor")
+    floor_text = f" registered_floor={floor * 100:.1f}%" if isinstance(floor, (int, float)) else ""
+    print(f"precision@1={rank1}/{total} ({p_at_1 * 100:.1f}%){floor_text} (lexical proxy, not live routing)")
     for failure in failures:
         print(f"FAIL {failure['id']}: expected={failure['expected']} actual={','.join(failure['actual_top'])}")
-    return 0 if precision >= fixture_data["threshold"] and not failures else 1
+    exit_code = 0 if precision >= fixture_data["threshold"] and not failures else 1
+    min_rank1 = options.min_rank1
+    if min_rank1 is None and isinstance(floor, (int, float)):
+        min_rank1 = floor * 100  # the registered floor applies even without the flag
+    if min_rank1 is not None and p_at_1 * 100 < min_rank1:
+        print(f"FAIL precision@1 {p_at_1 * 100:.1f}% is below the floor {min_rank1:g}%")
+        exit_code = 1
+    if options.lint_fixtures:
+        lint = lint_fixtures(fixture_data["fixtures"], docs)
+        print(f"fixture lint: {len(lint)} finding(s)")
+        for finding in lint:
+            print(finding)
+        if lint:
+            exit_code = 1
+    return exit_code
 
 
 if __name__ == "__main__":

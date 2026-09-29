@@ -1,6 +1,7 @@
 {
   "threshold": 1.0,
   "top_k": 3,
+  "p1_floor": 0.91,
   "fixtures": [
     {"id": "caption-positive", "type": "positive", "prompt": "Use the caption writer to draft three publish-ready Instagram captions from this approved brief", "expected": "caption-writer"},
     {"id": "blog-positive", "type": "positive", "prompt": "Draft a sourced long-form blog article, not just topic ideas", "expected": "blog-writer"},

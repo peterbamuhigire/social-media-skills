@@ -87,6 +87,42 @@ def local_link_exists(skill: Path, target: str, root: Path) -> bool:
     return resolved is not None and resolved.exists()
 
 
+def retired_dirs(root: Path, active_roots: list[str]) -> set[Path]:
+    """Skill folders retired as inactive aliases (SKILL.md renamed ALIAS.md, decision D-SK-03)."""
+    return {p.parent.resolve() for active in active_roots if (root / active).is_dir() for p in (root / active).rglob("ALIAS.md")}
+
+
+def links_to_alias(path: Path, root: Path, retired: set[Path]) -> bool:
+    """True when an active skill links to an ALIAS.md or into a retired skill folder.
+
+    Retired skills route through docs/skill-aliases.yml; active skills must link to the owner
+    (and its references) instead, so a merge cannot leave a live route pointing at an alias.
+    """
+    body = path.read_text(encoding="utf-8", errors="replace")
+    for target in markdown_links(body):
+        target = target.split("#", 1)[0].strip()
+        if not target or "://" in target or target.startswith("mailto:"):
+            continue
+        if target.replace("\\", "/").endswith("/ALIAS.md") or target == "ALIAS.md":
+            return True
+        resolved = portable_link_target(path.parent, root, target)
+        if resolved is not None and any(resolved == folder or folder in resolved.parents for folder in retired):
+            return True
+    return False
+
+
+def alias_policy(root: Path) -> dict:
+    registry = root / "docs" / "skill-aliases.yml"
+    if not registry.is_file():
+        return {}
+    try:
+        data = yaml.safe_load(registry.read_text(encoding="utf-8")) or {}
+    except yaml.YAMLError:
+        return {}
+    policy = data.get("active_skill_policy") if isinstance(data, dict) else None
+    return policy if isinstance(policy, dict) else {}
+
+
 def assess(path: Path, root: Path) -> list[str]:
     findings: list[str] = []
     raw = path.read_text(encoding="utf-8", errors="replace").replace("\r\n", "\n")
@@ -176,6 +212,12 @@ def main() -> int:
     root = options.root.resolve()
     files = sorted({path for active in options.active_root for path in (root / active).rglob("SKILL.md")})
     results = {path.relative_to(root).as_posix(): assess(path, root) for path in files}
+    retired = retired_dirs(root, options.active_root)
+    if retired:
+        for path in files:
+            if links_to_alias(path, root, retired):
+                relative = path.relative_to(root).as_posix()
+                results[relative] = sorted(set(results[relative] + ["alias_link"]))
     names: defaultdict[str, list[str]] = defaultdict(list)
     for relative in results:
         path = root / relative
@@ -204,6 +246,13 @@ def main() -> int:
         "failure_counts": dict(sorted(counts.items())),
         "results": {key: value for key, value in results.items() if value},
     }
+    policy = alias_policy(root)
+    cap = policy.get("hard_cap")
+    if type(cap) is int and len(files) > cap:
+        payload["catalogue_cap"] = {"hard_cap": cap, "actual": len(files),
+                                    "consolidation_until": policy.get("consolidation_until")}
+        if not policy.get("consolidation_until"):
+            payload["catalogue_cap_exceeded"] = {"hard_cap": cap, "actual": len(files)}
     if options.baseline:
         baseline = json.loads(options.baseline.read_text(encoding="utf-8"))
         expected = baseline.get("failure_counts", {})
@@ -214,7 +263,9 @@ def main() -> int:
         if baseline.get("active_skill_count") != len(files):
             payload["catalogue_count_mismatch"] = {"expected": baseline.get("active_skill_count"), "actual": len(files)}
     print(json.dumps(payload, indent=2) if options.json else f"skills={len(files)} compliant={payload['fully_compliant']} failures={sum(counts.values())}\n" + "\n".join(f"{name}: {count}" for name, count in sorted(counts.items())))
-    return 1 if counts or "baseline_error" in payload or "baseline_mismatch" in payload or "catalogue_count_mismatch" in payload else 0
+    if "catalogue_cap_exceeded" in payload and not options.json:
+        print(f"catalogue_cap_exceeded: {payload['catalogue_cap_exceeded']['actual']} active > hard_cap {payload['catalogue_cap_exceeded']['hard_cap']} (docs/skill-aliases.yml)")
+    return 1 if counts or "baseline_error" in payload or "baseline_mismatch" in payload or "catalogue_count_mismatch" in payload or "catalogue_cap_exceeded" in payload else 0
 
 
 if __name__ == "__main__":

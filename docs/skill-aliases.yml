@@ -1,0 +1,23 @@
+# Retired-skill route registry (Social Kaizen 2026-09-29, S01-T04; decision D-SK-03).
+# Schema follows the dev engine's docs/skill-aliases.yml (24 Sep 2026 consolidation).
+# A retired skill keeps its folder; its SKILL.md is renamed ALIAS.md in place, a banner is
+# inserted below the frontmatter, and the route below points at the active owner.
+# Checked by scripts/check_skill_aliases.py (routes, targets, banner, cap and count lockstep).
+version: 1
+source: docs/kaizen/consolidation-2026-09-29/decisions.md
+updated: 2026-09-29
+active_skill_policy:
+  active_roots:
+    - skills
+  hard_cap: 120
+  target_range: 110-118
+  close_target: 112
+  current_active_skill_count: 191
+  # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
+  # (active count 110), after which cap-exceeded is enforced strictly.
+  consolidation_until: S07
+  do_not_move_or_delete_skill_directories_from_registry_work: true
+inactive_alias_file: ALIAS.md
+# Keys and values are skill directories relative to the repository root, for example
+#   skills/content-writing/hashtag-strategy: skills/content-writing/caption-writer
+inactive_skill_aliases: {}

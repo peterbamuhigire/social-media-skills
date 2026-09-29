@@ -1,0 +1,2600 @@
+{
+  "snapshot": "Social Kaizen 2026-09-29 S01-T02 baseline",
+  "engine": "social-media-skills",
+  "start_commit": "38b6c9a18d74d8ec1eeb38d70ec06a41b226e74a",
+  "measured_on": "2026-09-29",
+  "source_plan": "Social Kaizen plan 01-baseline.md sections 1-2 (orchestrator plan package, 29 Sep 2026)",
+  "note": "Measured on the start commit plus S01 tooling only; no skill content changed. Routing figures are a lexical proxy, not live routing. Line counts use splitlines() (the validator's method): total 55,210, median 287, 27 files over 400, maximum 500. Plan 01 section 2 reported 55,401 / 288 / 28 / 501 because it counted a trailing empty line in each file (exactly +1 per file, 191 in total); files over 300 lines are 84 under both methods. Social cross-engine pairs >= 0.75 are 7 here versus 8 in plan 01: proposal-skills/blog-idea-generator fell to 0.7496 after a change in that engine; all are declared.",
+  "counts": {
+    "active_skill_md": 191,
+    "task_skills": 190,
+    "category_file": "skills/content-writing/SKILL.md",
+    "by_category": {
+      "advertising": 9,
+      "ai-marketing": 22,
+      "business-development": 12,
+      "content-writing": 15,
+      "frameworks": 2,
+      "language": 4,
+      "meta-analytics-ops": 25,
+      "meta-utility": 3,
+      "pipeline": 14,
+      "platforms": 12,
+      "playbooks": 39,
+      "policies": 2,
+      "sectors": 2,
+      "seo-discovery": 2,
+      "strategy": 22,
+      "training": 6
+    }
+  },
+  "lines": {
+    "total": 55210,
+    "median": 287,
+    "over_300": 84,
+    "over_400": 27,
+    "max": 500
+  },
+  "description_classes_from_01": {
+    "T-generic": 1,
+    "T-generic / UW-T": 52,
+    "T-platform": 12,
+    "T-playbook / UW-T": 38,
+    "T-policy": 2,
+    "semi / UW-T": 27,
+    "specific": 59
+  },
+  "headline_from_01": {
+    "templated_descriptions": 105,
+    "templated_use_when": 117,
+    "shared_scaffolding_median_pct": 30.5,
+    "zero_read_task_skills": 109,
+    "usage_source": "local scan Aug-Sep 2026 (evidence only)"
+  },
+  "fixtures": {
+    "count": 56,
+    "types": {
+      "positive": 26,
+      "collision": 20,
+      "limited-capability": 4,
+      "failure-path": 6
+    },
+    "distinct_expected_skills": 44,
+    "top_k": 3,
+    "threshold": 1.0,
+    "p1_floor": 0.91
+  },
+  "gates": [
+    {
+      "command": "-X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json",
+      "exit": 0,
+      "output": [
+        "skills=191 compliant=191 failures=0"
+      ]
+    },
+    {
+      "command": "-X utf8 scripts/routing_smoke_test.py --min-rank1 91 --lint-fixtures",
+      "exit": 0,
+      "output": [
+        "routing fixtures=56 passed=56 top_3_precision=1.000 threshold=1.000",
+        "precision@1=51/56 (91.1%) registered_floor=91.0% (lexical proxy, not live routing)",
+        "fixture lint: 0 finding(s)"
+      ]
+    },
+    {
+      "command": "-X utf8 scripts/check_skill_aliases.py",
+      "exit": 0,
+      "output": [
+        "skill aliases: routes=0 findings=0 active=191 cap=120 window=open-until-S07"
+      ]
+    },
+    {
+      "command": "-X utf8 -m unittest discover -s tests -p test_*.py",
+      "exit": 0,
+      "output": [
+        "................................................",
+        "----------------------------------------------------------------------",
+        "Ran 48 tests in 4.757s",
+        "",
+        "OK"
+      ]
+    }
+  ],
+  "collision_scan": {
+    "command": "chwezi-engine-agents: python -X utf8 scripts/validate-runtime-skill-budget.py --collisions --ownership evals/routing/ownership.yaml --collision-warn 0.6 --report-only --format json",
+    "status": "PASS",
+    "label": "lexical proxy; not live routing (see agent-skills issue #620)",
+    "thresholds": {
+      "error": 0.75,
+      "warn": 0.6
+    },
+    "undeclared_pairs_ge_error": 0,
+    "social_cross_engine_pairs": [
+      {
+        "score": 0.8422,
+        "skills": [
+          "proposal-skills/hospitality-hotel-restaurant",
+          "social-media-skills/hospitality-hotel-restaurant"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.8155,
+        "skills": [
+          "business-plan-skills/hospitality-hotel-restaurant",
+          "social-media-skills/hospitality-hotel-restaurant"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.7869,
+        "skills": [
+          "chwezi-dev-engine/hospitality-hotel-restaurant-systems",
+          "social-media-skills/hospitality-hotel-restaurant"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.7835,
+        "skills": [
+          "proposal-skills/east-african-english",
+          "social-media-skills/east-african-english"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.7686,
+        "skills": [
+          "business-plan-skills/blog-idea-generator",
+          "social-media-skills/blog-idea-generator"
+        ],
+        "declared": true,
+        "disposition": "canonical_owner"
+      },
+      {
+        "score": 0.7586,
+        "skills": [
+          "design-system-skills/hospitality-hotel-restaurant",
+          "social-media-skills/hospitality-hotel-restaurant"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.7582,
+        "skills": [
+          "social-media-skills/east-african-english",
+          "website-skills/east-african-english"
+        ],
+        "declared": true,
+        "disposition": "mirrored_domain_pack"
+      },
+      {
+        "score": 0.7496,
+        "skills": [
+          "proposal-skills/blog-idea-generator",
+          "social-media-skills/blog-idea-generator"
+        ],
+        "declared": true,
+        "disposition": "canonical_owner"
+      },
+      {
+        "score": 0.718,
+        "skills": [
+          "business-plan-skills/demand-forecasting",
+          "social-media-skills/demand-forecasting"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.71,
+        "skills": [
+          "proposal-skills/premium-commercial-writing",
+          "social-media-skills/premium-commercial-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.7007,
+        "skills": [
+          "social-media-skills/french-native-copy",
+          "website-skills/french-native-copy"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6958,
+        "skills": [
+          "social-media-skills/blog-idea-generator",
+          "website-skills/blog-idea-generator"
+        ],
+        "declared": true,
+        "disposition": "canonical_owner"
+      },
+      {
+        "score": 0.6858,
+        "skills": [
+          "linux-skills/skill-writing",
+          "social-media-skills/skill-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6855,
+        "skills": [
+          "business-plan-skills/east-african-english",
+          "social-media-skills/east-african-english"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6759,
+        "skills": [
+          "business-plan-skills/blog-writer",
+          "social-media-skills/blog-writer"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.67,
+        "skills": [
+          "social-media-skills/swahili-native-copy",
+          "website-skills/swahili-native-copy"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6683,
+        "skills": [
+          "business-plan-skills/00-client-intake",
+          "social-media-skills/00-client-intake"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6676,
+        "skills": [
+          "social-media-skills/skill-writing",
+          "website-skills/skill-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6618,
+        "skills": [
+          "digital-research-skills/skill-writing",
+          "social-media-skills/skill-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6542,
+        "skills": [
+          "chwezi-dev-engine/anti-ai-slop",
+          "social-media-skills/anti-ai-slop"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6528,
+        "skills": [
+          "chwezi-accounting-doctrine/kaizen-engine-and-product-improvement",
+          "social-media-skills/kaizen-improvement-system"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.648,
+        "skills": [
+          "business-plan-skills/kaizen-improvement-system",
+          "social-media-skills/kaizen-improvement-system"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6456,
+        "skills": [
+          "social-media-skills/hospitality-hotel-restaurant",
+          "website-skills/hospitality-website-product"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6429,
+        "skills": [
+          "business-plan-skills/language-standards",
+          "social-media-skills/east-african-english"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6414,
+        "skills": [
+          "digital-research-skills/east-african-english",
+          "social-media-skills/east-african-english"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6413,
+        "skills": [
+          "proposal-skills/kaizen-improvement-system",
+          "social-media-skills/kaizen-improvement-system"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6275,
+        "skills": [
+          "proposal-skills/skill-writing",
+          "social-media-skills/skill-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6256,
+        "skills": [
+          "social-media-skills/hospitality-hotel-restaurant",
+          "srs-skills/hospitality-operating-model-srs"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.624,
+        "skills": [
+          "business-plan-skills/language-standards",
+          "social-media-skills/language-standards"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6154,
+        "skills": [
+          "social-media-skills/language-standards",
+          "website-skills/language-standards"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6117,
+        "skills": [
+          "proposal-skills/language-standards",
+          "social-media-skills/language-standards"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6098,
+        "skills": [
+          "business-plan-skills/premium-commercial-writing",
+          "social-media-skills/premium-commercial-writing"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.6051,
+        "skills": [
+          "proposal-skills/ai-slop-audit",
+          "social-media-skills/ai-slop-audit"
+        ],
+        "declared": false,
+        "disposition": null
+      }
+    ],
+    "social_within_engine_pairs": [
+      {
+        "score": 0.8878,
+        "skills": [
+          "social-media-skills/platform-instagram",
+          "social-media-skills/platform-instagram-visual-system"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.8586,
+        "skills": [
+          "social-media-skills/platform-instagram",
+          "social-media-skills/platform-instagram-growth"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.8454,
+        "skills": [
+          "social-media-skills/playbook-ai-automation-workflow",
+          "social-media-skills/playbook-marketing-automation"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.8321,
+        "skills": [
+          "social-media-skills/ai-data-foundation-audit",
+          "social-media-skills/ai-data-foundation-plan"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.8299,
+        "skills": [
+          "social-media-skills/framework-community-trust",
+          "social-media-skills/framework-digital-transparency"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.8169,
+        "skills": [
+          "social-media-skills/biz-dev-positioning",
+          "social-media-skills/biz-dev-practitioner-positioning"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.7903,
+        "skills": [
+          "social-media-skills/platform-linkedin",
+          "social-media-skills/platform-linkedin-company-pages"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.7854,
+        "skills": [
+          "social-media-skills/biz-dev-positioning",
+          "social-media-skills/biz-dev-proposal"
+        ],
+        "declared": false,
+        "disposition": null
+      },
+      {
+        "score": 0.7623,
+        "skills": [
+          "social-media-skills/platform-instagram-growth",
+          "social-media-skills/platform-instagram-visual-system"
+        ],
+        "declared": false,
+        "disposition": null
+      }
+    ],
+    "social_skills_in_union": 191
+  },
+  "portfolio_routing_floor": "none for social-media-skills in chwezi-engine-agents/evals/routing/baseline.json (registered in S11)",
+  "skills": {
+    "advertising/ad-copy-and-hook-lab": {
+      "lines": 157,
+      "references": 3,
+      "description_chars": 242,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 17,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "playbook-paid-social-advertising (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "advertising/ad-testing-and-scaling": {
+      "lines": 157,
+      "references": 2,
+      "description_chars": 286,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 9,
+      "nearest_neighbour_unique_text": "playbook-paid-social-advertising (0.33)",
+      "cluster": "C09 (ad-testing-and-scaling)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "advertising/ad-to-site-journey-handoff": {
+      "lines": 143,
+      "references": 4,
+      "description_chars": 288,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 5,
+      "fan_in": 10,
+      "nearest_neighbour_unique_text": "playbook-paid-social-advertising (0.27)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "advertising/advertising-attribution-and-measurement": {
+      "lines": 153,
+      "references": 3,
+      "description_chars": 278,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 11,
+      "nearest_neighbour_unique_text": "paid-search-advertising (0.27)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "advertising/advertising-strategy-and-budget": {
+      "lines": 196,
+      "references": 3,
+      "description_chars": 278,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 7,
+      "nearest_neighbour_unique_text": "media-planning (0.28)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "advertising/creative-brief-and-big-idea": {
+      "lines": 159,
+      "references": 3,
+      "description_chars": 249,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "marketing-foundations-stp-positioning (0.23)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "advertising/direct-response-economics": {
+      "lines": 157,
+      "references": 3,
+      "description_chars": 289,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "ad-testing-and-scaling (0.27)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "advertising/media-planning": {
+      "lines": 168,
+      "references": 3,
+      "description_chars": 269,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "advertising-strategy-and-budget (0.28)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "advertising/paid-search-advertising": {
+      "lines": 140,
+      "references": 2,
+      "description_chars": 255,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "playbook-paid-social-advertising (0.36)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "ai-marketing/ai-agentic-marketing-workflows": {
+      "lines": 328,
+      "references": 2,
+      "description_chars": 199,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-ai-automation-workflow (0.34)",
+      "cluster": "C42 (playbook-marketing-automation)",
+      "disposition": "MERGE-INTO → `playbook-marketing-automation`"
+    },
+    "ai-marketing/ai-avatar-personalised-video": {
+      "lines": 403,
+      "references": 0,
+      "description_chars": 215,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "prompt-library-image-audio-video (0.28)",
+      "cluster": "C55 (strategy-video-content)",
+      "disposition": "MERGE-INTO → `strategy-video-content`"
+    },
+    "ai-marketing/ai-content-humaniser": {
+      "lines": 497,
+      "references": 0,
+      "description_chars": 199,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 6,
+      "fan_in": 18,
+      "nearest_neighbour_unique_text": "playbook-ai-content-workflow (0.27)",
+      "cluster": "C12 (anti-ai-slop)",
+      "disposition": "MERGE-INTO → `anti-ai-slop`"
+    },
+    "ai-marketing/ai-content-recycling-pipeline": {
+      "lines": 202,
+      "references": 0,
+      "description_chars": 209,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "meta-content-repurposing (0.23)",
+      "cluster": "C26 (meta-content-repurposing)",
+      "disposition": "MERGE-INTO → `meta-content-repurposing`"
+    },
+    "ai-marketing/ai-cultural-bias-audit": {
+      "lines": 228,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ai-content-humaniser (0.22)",
+      "cluster": "C48 (policy-ai-content-ethics)",
+      "disposition": "MERGE-INTO → `policy-ai-content-ethics`"
+    },
+    "ai-marketing/ai-data-foundation-audit": {
+      "lines": 287,
+      "references": 0,
+      "description_chars": 200,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "ai-data-foundation-plan (0.28)",
+      "cluster": "C10 (ai-readiness-diagnostic)",
+      "disposition": "MERGE-INTO → `ai-readiness-diagnostic`"
+    },
+    "ai-marketing/ai-data-foundation-plan": {
+      "lines": 346,
+      "references": 1,
+      "description_chars": 190,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "ai-data-foundation-audit (0.28)",
+      "cluster": "C10 (ai-readiness-diagnostic)",
+      "disposition": "MERGE-INTO → `ai-readiness-diagnostic`"
+    },
+    "ai-marketing/ai-generative-search-optimisation": {
+      "lines": 178,
+      "references": 1,
+      "description_chars": 187,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 6,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "seo-geo-optimisation (0.61)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "ai-marketing/ai-growth-systems-design": {
+      "lines": 115,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "ai-whatsapp-chatbot-design (0.17)",
+      "cluster": "C11 (ai-use-case-mapping)",
+      "disposition": "MERGE-INTO → `ai-use-case-mapping`"
+    },
+    "ai-marketing/ai-influencer-strategy": {
+      "lines": 209,
+      "references": 0,
+      "description_chars": 201,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "08-influencer-marketing-strategy (0.29)",
+      "cluster": "C06 (08-influencer-marketing-strategy)",
+      "disposition": "MERGE-INTO → `08-influencer-marketing-strategy`"
+    },
+    "ai-marketing/ai-marketing-canvas-assessment": {
+      "lines": 332,
+      "references": 0,
+      "description_chars": 194,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "ai-readiness-diagnostic (0.39)",
+      "cluster": "C10 (ai-readiness-diagnostic)",
+      "disposition": "MERGE-INTO → `ai-readiness-diagnostic`"
+    },
+    "ai-marketing/ai-predictive-analytics-social": {
+      "lines": 395,
+      "references": 0,
+      "description_chars": 229,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "ai-data-foundation-audit (0.27)",
+      "cluster": "C11 (ai-use-case-mapping)",
+      "disposition": "MERGE-INTO → `ai-use-case-mapping`"
+    },
+    "ai-marketing/ai-rag-brand-knowledge-base": {
+      "lines": 306,
+      "references": 0,
+      "description_chars": 213,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ai-vendor-evaluation (0.21)",
+      "cluster": "C19 (brand-voice-ai-training)",
+      "disposition": "MERGE-INTO → `brand-voice-ai-training`"
+    },
+    "ai-marketing/ai-readiness-diagnostic": {
+      "lines": 362,
+      "references": 0,
+      "description_chars": 183,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 21,
+      "nearest_neighbour_unique_text": "ai-marketing-canvas-assessment (0.39)",
+      "cluster": "C10 (ai-readiness-diagnostic)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "ai-marketing/ai-slop-audit": {
+      "lines": 218,
+      "references": 0,
+      "description_chars": 189,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 6,
+      "fan_in": 70,
+      "nearest_neighbour_unique_text": "anti-ai-slop (0.49)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "ai-marketing/ai-strategy-co-thinker": {
+      "lines": 221,
+      "references": 0,
+      "description_chars": 192,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "training-ai-foundations (0.19)",
+      "cluster": "C11 (ai-use-case-mapping)",
+      "disposition": "MERGE-INTO → `ai-use-case-mapping`"
+    },
+    "ai-marketing/ai-synthetic-personas": {
+      "lines": 265,
+      "references": 0,
+      "description_chars": 201,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "03-audience-personas (0.37)",
+      "cluster": "C03 (03-audience-personas)",
+      "disposition": "MERGE-INTO → `03-audience-personas`"
+    },
+    "ai-marketing/ai-use-case-mapping": {
+      "lines": 362,
+      "references": 0,
+      "description_chars": 197,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ai-readiness-diagnostic (0.34)",
+      "cluster": "C11 (ai-use-case-mapping)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "ai-marketing/ai-vendor-evaluation": {
+      "lines": 431,
+      "references": 0,
+      "description_chars": 188,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "meta-ai-tools-audit (0.25)",
+      "cluster": "C31 (meta-tools-stack-evaluation)",
+      "disposition": "MERGE-INTO → `meta-tools-stack-evaluation`"
+    },
+    "ai-marketing/ai-whatsapp-chatbot-design": {
+      "lines": 186,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "playbook-chatbot-strategy (0.27)",
+      "cluster": "C38 (playbook-chatbot-strategy)",
+      "disposition": "MERGE-INTO → `playbook-chatbot-strategy`"
+    },
+    "ai-marketing/anti-ai-slop": {
+      "lines": 222,
+      "references": 0,
+      "description_chars": 183,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 14,
+      "fan_in": 182,
+      "nearest_neighbour_unique_text": "ai-slop-audit (0.49)",
+      "cluster": "C12 (anti-ai-slop)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "ai-marketing/brand-voice-ai-training": {
+      "lines": 320,
+      "references": 0,
+      "description_chars": 205,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "ai-content-humaniser (0.22)",
+      "cluster": "C19 (brand-voice-ai-training)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-beyond-agency-offer": {
+      "lines": 348,
+      "references": 0,
+      "description_chars": 217,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "biz-dev-video-outreach (0.3)",
+      "cluster": "C16 (biz-dev-pricing-menu)",
+      "disposition": "MERGE-INTO → `biz-dev-pricing-menu`"
+    },
+    "business-development/biz-dev-case-study": {
+      "lines": 193,
+      "references": 1,
+      "description_chars": 196,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "biz-dev-credentials (0.38)",
+      "cluster": "C13 (biz-dev-credentials)",
+      "disposition": "MERGE-INTO → `biz-dev-credentials`"
+    },
+    "business-development/biz-dev-credentials": {
+      "lines": 244,
+      "references": 1,
+      "description_chars": 187,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "biz-dev-case-study (0.38)",
+      "cluster": "C13 (biz-dev-credentials)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-lawful-prospecting-outreach": {
+      "lines": 112,
+      "references": 2,
+      "description_chars": 330,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 11,
+      "nearest_neighbour_unique_text": "biz-dev-proposal (0.17)",
+      "cluster": "C14 (biz-dev-lawful-prospecting-outreach)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-positioning": {
+      "lines": 195,
+      "references": 0,
+      "description_chars": 218,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 12,
+      "fan_in": 13,
+      "nearest_neighbour_unique_text": "playbook-networking (0.27)",
+      "cluster": "C15 (biz-dev-positioning)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-practitioner-positioning": {
+      "lines": 365,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "biz-dev-positioning (0.24)",
+      "cluster": "C15 (biz-dev-positioning)",
+      "disposition": "MERGE-INTO → `biz-dev-positioning`"
+    },
+    "business-development/biz-dev-pricing-menu": {
+      "lines": 283,
+      "references": 0,
+      "description_chars": 197,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "playbook-agency-operations (0.23)",
+      "cluster": "C16 (biz-dev-pricing-menu)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-proposal": {
+      "lines": 265,
+      "references": 2,
+      "description_chars": 206,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 11,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "biz-dev-credentials (0.3)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "business-development/biz-dev-reactivation-campaign": {
+      "lines": 324,
+      "references": 0,
+      "description_chars": 186,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "biz-dev-beyond-agency-offer (0.22)",
+      "cluster": "C05 (07-email-marketing-strategy)",
+      "disposition": "MERGE-INTO → `07-email-marketing-strategy`"
+    },
+    "business-development/biz-dev-social-media-audit-offer": {
+      "lines": 243,
+      "references": 1,
+      "description_chars": 224,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "biz-dev-proposal (0.24)",
+      "cluster": "C02 (02-platform-audit)",
+      "disposition": "MERGE-INTO → `02-platform-audit`"
+    },
+    "business-development/biz-dev-video-outreach": {
+      "lines": 278,
+      "references": 0,
+      "description_chars": 202,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "biz-dev-beyond-agency-offer (0.3)",
+      "cluster": "C14 (biz-dev-lawful-prospecting-outreach)",
+      "disposition": "MERGE-INTO → `biz-dev-lawful-prospecting-outreach`"
+    },
+    "business-development/eac-call-for-applications-campaign": {
+      "lines": 132,
+      "references": 2,
+      "description_chars": 190,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "french-native-copy (0.11)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/blog-idea-generator": {
+      "lines": 279,
+      "references": 3,
+      "description_chars": 188,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "blog-writer (0.17)",
+      "cluster": "C21 (content-ideas)",
+      "disposition": "MERGE-INTO → `content-ideas`"
+    },
+    "content-writing/blog-writer": {
+      "lines": 170,
+      "references": 10,
+      "description_chars": 171,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 14,
+      "nearest_neighbour_unique_text": "ai-content-humaniser (0.22)",
+      "cluster": "C17 (blog-writer)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/caption-writer": {
+      "lines": 271,
+      "references": 1,
+      "description_chars": 176,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 7,
+      "fan_in": 16,
+      "nearest_neighbour_unique_text": "hashtag-strategy (0.26)",
+      "cluster": "C20 (caption-writer)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/content-ideas": {
+      "lines": 241,
+      "references": 1,
+      "description_chars": 181,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "11-content-calendar (0.25)",
+      "cluster": "C21 (content-ideas)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/content-whitepaper-ebook": {
+      "lines": 241,
+      "references": 0,
+      "description_chars": 198,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "premium-commercial-writing (0.19)",
+      "cluster": "C17 (blog-writer)",
+      "disposition": "MERGE-INTO → `blog-writer`"
+    },
+    "content-writing/copywriting-brochure": {
+      "lines": 184,
+      "references": 0,
+      "description_chars": 182,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "direct-mail-writer (0.27)",
+      "cluster": "C49 (premium-commercial-writing)",
+      "disposition": "MERGE-INTO → `premium-commercial-writing`"
+    },
+    "content-writing/direct-mail-writer": {
+      "lines": 220,
+      "references": 1,
+      "description_chars": 178,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 7,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "copywriting-brochure (0.27)",
+      "cluster": "C22 (direct-response-funnel-copy)",
+      "disposition": "MERGE-INTO → `direct-response-funnel-copy`"
+    },
+    "content-writing/direct-response-funnel-copy": {
+      "lines": 207,
+      "references": 4,
+      "description_chars": 213,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 13,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "premium-commercial-writing (0.19)",
+      "cluster": "C22 (direct-response-funnel-copy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/email-copywriter": {
+      "lines": 260,
+      "references": 1,
+      "description_chars": 176,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "07-email-marketing-strategy (0.28)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/hashtag-strategy": {
+      "lines": 279,
+      "references": 0,
+      "description_chars": 177,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "caption-writer (0.26)",
+      "cluster": "C20 (caption-writer)",
+      "disposition": "MERGE-INTO → `caption-writer`"
+    },
+    "content-writing/image-prompt-engineer": {
+      "lines": 214,
+      "references": 0,
+      "description_chars": 198,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "prompt-library-image-audio-video (0.29)",
+      "cluster": "C50 (prompt-engineering-library)",
+      "disposition": "MERGE-INTO → `prompt-engineering-library`"
+    },
+    "content-writing/premium-commercial-writing": {
+      "lines": 159,
+      "references": 5,
+      "description_chars": 202,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "premium-social-selling (0.23)",
+      "cluster": "C49 (premium-commercial-writing)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/prompt-engineering-library": {
+      "lines": 461,
+      "references": 2,
+      "description_chars": 187,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "playbook-ai-content-workflow (0.31)",
+      "cluster": "C50 (prompt-engineering-library)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "content-writing/prompt-library-image-audio-video": {
+      "lines": 245,
+      "references": 0,
+      "description_chars": 204,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "image-prompt-engineer (0.29)",
+      "cluster": "C50 (prompt-engineering-library)",
+      "disposition": "MERGE-INTO → `prompt-engineering-library`"
+    },
+    "content-writing": {
+      "lines": 459,
+      "references": 4,
+      "description_chars": 186,
+      "description_class": "T-generic",
+      "reads_aug_sep_2026": -1,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "- (0)",
+      "cluster": "C49 (premium-commercial-writing)",
+      "disposition": "MERGE-INTO → `premium-commercial-writing`"
+    },
+    "frameworks/framework-community-trust": {
+      "lines": 237,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "framework-digital-transparency (0.31)",
+      "cluster": "C39 (playbook-community-management)",
+      "disposition": "MERGE-INTO → `playbook-community-management`"
+    },
+    "frameworks/framework-digital-transparency": {
+      "lines": 239,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "framework-community-trust (0.31)",
+      "cluster": "C52 (strategy-csr-purpose-communications)",
+      "disposition": "MERGE-INTO → `strategy-csr-purpose-communications`"
+    },
+    "language/east-african-english": {
+      "lines": 270,
+      "references": 0,
+      "description_chars": 218,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 76,
+      "nearest_neighbour_unique_text": "language-standards (0.5)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "language/french-native-copy": {
+      "lines": 103,
+      "references": 7,
+      "description_chars": 193,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "language-standards (0.46)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "language/language-standards": {
+      "lines": 500,
+      "references": 3,
+      "description_chars": 224,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 8,
+      "fan_in": 9,
+      "nearest_neighbour_unique_text": "east-african-english (0.5)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "language/swahili-native-copy": {
+      "lines": 103,
+      "references": 7,
+      "description_chars": 194,
+      "description_class": "T-generic / UW-T",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "language-standards (0.28)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-ai-tools-audit": {
+      "lines": 348,
+      "references": 0,
+      "description_chars": 212,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "meta-tools-stack-evaluation (0.35)",
+      "cluster": "C31 (meta-tools-stack-evaluation)",
+      "disposition": "MERGE-INTO → `meta-tools-stack-evaluation`"
+    },
+    "meta-analytics-ops/meta-algorithm-guide": {
+      "lines": 437,
+      "references": 0,
+      "description_chars": 233,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "platform-instagram-growth (0.32)",
+      "cluster": "C24 (meta-algorithm-guide)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-analytics-privacy": {
+      "lines": 237,
+      "references": 0,
+      "description_chars": 220,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ai-data-foundation-plan (0.16)",
+      "cluster": "C23 (measurement-tracking-plan)",
+      "disposition": "MERGE-INTO → `measurement-tracking-plan`"
+    },
+    "meta-analytics-ops/meta-budget-planner": {
+      "lines": 330,
+      "references": 0,
+      "description_chars": 238,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "meta-roi-framework (0.27)",
+      "cluster": "C25 (meta-budget-planner)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-cohort-analysis": {
+      "lines": 233,
+      "references": 0,
+      "description_chars": 205,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "meta-reporting (0.19)",
+      "cluster": "C28 (meta-roi-framework)",
+      "disposition": "MERGE-INTO → `meta-roi-framework`"
+    },
+    "meta-analytics-ops/meta-competitor-analysis": {
+      "lines": 238,
+      "references": 1,
+      "description_chars": 224,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "02-platform-audit (0.3)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-analytics-ops/meta-content-audit": {
+      "lines": 295,
+      "references": 1,
+      "description_chars": 234,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "meta-reporting (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-analytics-ops/meta-content-repurposing": {
+      "lines": 353,
+      "references": 2,
+      "description_chars": 256,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 6,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "platform-podcast-strategy (0.24)",
+      "cluster": "C26 (meta-content-repurposing)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-dashboard-design": {
+      "lines": 252,
+      "references": 0,
+      "description_chars": 236,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "meta-reporting (0.33)",
+      "cluster": "C27 (meta-reporting)",
+      "disposition": "MERGE-INTO → `meta-reporting`"
+    },
+    "meta-analytics-ops/meta-evergreen-content-strategy": {
+      "lines": 294,
+      "references": 0,
+      "description_chars": 230,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "meta-content-repurposing (0.23)",
+      "cluster": "C26 (meta-content-repurposing)",
+      "disposition": "MERGE-INTO → `meta-content-repurposing`"
+    },
+    "meta-analytics-ops/meta-lead-scoring": {
+      "lines": 287,
+      "references": 0,
+      "description_chars": 227,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "meta-sales-marketing-alignment (0.3)",
+      "cluster": "C29 (meta-sales-marketing-alignment)",
+      "disposition": "MERGE-INTO → `meta-sales-marketing-alignment`"
+    },
+    "meta-analytics-ops/meta-posting-optimisation": {
+      "lines": 364,
+      "references": 0,
+      "description_chars": 231,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "meta-algorithm-guide (0.2)",
+      "cluster": "C24 (meta-algorithm-guide)",
+      "disposition": "MERGE-INTO → `meta-algorithm-guide`"
+    },
+    "meta-analytics-ops/meta-reporting": {
+      "lines": 372,
+      "references": 0,
+      "description_chars": 240,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 20,
+      "nearest_neighbour_unique_text": "meta-dashboard-design (0.33)",
+      "cluster": "C27 (meta-reporting)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-revenue-planning": {
+      "lines": 302,
+      "references": 0,
+      "description_chars": 217,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "meta-roi-framework (0.41)",
+      "cluster": "C25 (meta-budget-planner)",
+      "disposition": "MERGE-INTO → `meta-budget-planner`"
+    },
+    "meta-analytics-ops/meta-roi-framework": {
+      "lines": 385,
+      "references": 0,
+      "description_chars": 269,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 10,
+      "nearest_neighbour_unique_text": "meta-revenue-planning (0.41)",
+      "cluster": "C28 (meta-roi-framework)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-sales-marketing-alignment": {
+      "lines": 241,
+      "references": 0,
+      "description_chars": 227,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "meta-lead-scoring (0.3)",
+      "cluster": "C29 (meta-sales-marketing-alignment)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-sentiment-analysis": {
+      "lines": 363,
+      "references": 0,
+      "description_chars": 236,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "playbook-sentiment-listening (0.4)",
+      "cluster": "C30 (meta-social-listening)",
+      "disposition": "MERGE-INTO → `meta-social-listening`"
+    },
+    "meta-analytics-ops/meta-social-listening": {
+      "lines": 417,
+      "references": 1,
+      "description_chars": 237,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 11,
+      "nearest_neighbour_unique_text": "playbook-sentiment-listening (0.45)",
+      "cluster": "C30 (meta-social-listening)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-social-marketing-mix-review": {
+      "lines": 341,
+      "references": 0,
+      "description_chars": 227,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "meta-content-audit (0.18)",
+      "cluster": "C27 (meta-reporting)",
+      "disposition": "MERGE-INTO → `meta-reporting`"
+    },
+    "meta-analytics-ops/meta-social-media-roi-business-case": {
+      "lines": 376,
+      "references": 0,
+      "description_chars": 230,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "meta-roi-framework (0.28)",
+      "cluster": "C28 (meta-roi-framework)",
+      "disposition": "MERGE-INTO → `meta-roi-framework`"
+    },
+    "meta-analytics-ops/meta-social-metrics-framework": {
+      "lines": 367,
+      "references": 2,
+      "description_chars": 218,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "meta-roi-framework (0.29)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-analytics-ops/meta-social-proof-system": {
+      "lines": 225,
+      "references": 0,
+      "description_chars": 235,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "framework-community-trust (0.17)",
+      "cluster": "C53 (strategy-ewom-reviews)",
+      "disposition": "MERGE-INTO → `strategy-ewom-reviews`"
+    },
+    "meta-analytics-ops/meta-testing-framework": {
+      "lines": 459,
+      "references": 1,
+      "description_chars": 250,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 9,
+      "nearest_neighbour_unique_text": "ad-testing-and-scaling (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-analytics-ops/meta-tools-stack-evaluation": {
+      "lines": 291,
+      "references": 0,
+      "description_chars": 245,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "meta-ai-tools-audit (0.35)",
+      "cluster": "C31 (meta-tools-stack-evaluation)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "meta-analytics-ops/meta-utm-tracking": {
+      "lines": 318,
+      "references": 0,
+      "description_chars": 242,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 14,
+      "nearest_neighbour_unique_text": "playbook-post-click-strategy (0.2)",
+      "cluster": "C23 (measurement-tracking-plan)",
+      "disposition": "MERGE-INTO → `measurement-tracking-plan`"
+    },
+    "meta-utility/kaizen-improvement-system": {
+      "lines": 122,
+      "references": 1,
+      "description_chars": 155,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 5,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ai-generative-search-optimisation (0.29)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-utility/skill-safety-audit": {
+      "lines": 220,
+      "references": 0,
+      "description_chars": 237,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "skill-writing (0.12)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "meta-utility/skill-writing": {
+      "lines": 69,
+      "references": 1,
+      "description_chars": 237,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 25,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "kaizen-improvement-system (0.17)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "pipeline/00-client-intake": {
+      "lines": 253,
+      "references": 0,
+      "description_chars": 227,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "01-client-brief (0.4)",
+      "cluster": "C01 (01-client-brief)",
+      "disposition": "MERGE-INTO → `01-client-brief`"
+    },
+    "pipeline/01-client-brief": {
+      "lines": 379,
+      "references": 1,
+      "description_chars": 219,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 7,
+      "nearest_neighbour_unique_text": "00-client-intake (0.4)",
+      "cluster": "C01 (01-client-brief)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/02-platform-audit": {
+      "lines": 345,
+      "references": 0,
+      "description_chars": 225,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "meta-competitor-analysis (0.3)",
+      "cluster": "C02 (02-platform-audit)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/03-audience-personas": {
+      "lines": 345,
+      "references": 1,
+      "description_chars": 227,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 16,
+      "nearest_neighbour_unique_text": "ai-synthetic-personas (0.37)",
+      "cluster": "C03 (03-audience-personas)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/04-brand-voice-intake": {
+      "lines": 390,
+      "references": 0,
+      "description_chars": 213,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 25,
+      "nearest_neighbour_unique_text": "playbook-social-media-brand-style-guide (0.39)",
+      "cluster": "C04 (04-brand-voice-intake)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/05-social-media-strategy": {
+      "lines": 405,
+      "references": 0,
+      "description_chars": 242,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 5,
+      "fan_in": 12,
+      "nearest_neighbour_unique_text": "09-campaign-strategy (0.26)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "pipeline/06-digital-marketing-strategy": {
+      "lines": 155,
+      "references": 5,
+      "description_chars": 246,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 7,
+      "nearest_neighbour_unique_text": "premium-social-selling (0.19)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "pipeline/07-email-marketing-strategy": {
+      "lines": 434,
+      "references": 0,
+      "description_chars": 237,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "playbook-email-funnel (0.34)",
+      "cluster": "C05 (07-email-marketing-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/08-influencer-marketing-strategy": {
+      "lines": 412,
+      "references": 2,
+      "description_chars": 250,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 19,
+      "fan_in": 12,
+      "nearest_neighbour_unique_text": "strategy-creator-monetisation (0.31)",
+      "cluster": "C06 (08-influencer-marketing-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/09-campaign-strategy": {
+      "lines": 432,
+      "references": 1,
+      "description_chars": 220,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 13,
+      "nearest_neighbour_unique_text": "13-campaign-brief (0.29)",
+      "cluster": "C07 (09-campaign-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/10-content-pillars": {
+      "lines": 253,
+      "references": 0,
+      "description_chars": 209,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 12,
+      "nearest_neighbour_unique_text": "05-social-media-strategy (0.2)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "pipeline/11-content-calendar": {
+      "lines": 274,
+      "references": 0,
+      "description_chars": 218,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 6,
+      "fan_in": 16,
+      "nearest_neighbour_unique_text": "content-ideas (0.25)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "pipeline/12-website-content-plan": {
+      "lines": 267,
+      "references": 0,
+      "description_chars": 241,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "blog-writer (0.2)",
+      "cluster": "C08 (12-website-content-plan)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "pipeline/13-campaign-brief": {
+      "lines": 311,
+      "references": 2,
+      "description_chars": 250,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 11,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "09-campaign-strategy (0.29)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "platforms/platform-facebook": {
+      "lines": 137,
+      "references": 0,
+      "description_chars": 215,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "platform-tiktok (0.29)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-google-business-profile": {
+      "lines": 424,
+      "references": 0,
+      "description_chars": 230,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "playbook-location-based-marketing (0.26)",
+      "cluster": "C33 (platform-google-business-profile)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-instagram": {
+      "lines": 146,
+      "references": 0,
+      "description_chars": 216,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "platform-tiktok (0.32)",
+      "cluster": "C34 (platform-instagram)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-instagram-growth": {
+      "lines": 488,
+      "references": 0,
+      "description_chars": 223,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "meta-algorithm-guide (0.32)",
+      "cluster": "C34 (platform-instagram)",
+      "disposition": "MERGE-INTO → `platform-instagram`"
+    },
+    "platforms/platform-instagram-visual-system": {
+      "lines": 323,
+      "references": 0,
+      "description_chars": 230,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "playbook-content-production (0.23)",
+      "cluster": "C34 (platform-instagram)",
+      "disposition": "MERGE-INTO → `platform-instagram`"
+    },
+    "platforms/platform-linkedin": {
+      "lines": 179,
+      "references": 2,
+      "description_chars": 215,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "platform-facebook (0.24)",
+      "cluster": "C35 (platform-linkedin)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-linkedin-company-pages": {
+      "lines": 357,
+      "references": 0,
+      "description_chars": 229,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "platform-x-twitter (0.23)",
+      "cluster": "C35 (platform-linkedin)",
+      "disposition": "MERGE-INTO → `platform-linkedin`"
+    },
+    "platforms/platform-podcast-strategy": {
+      "lines": 287,
+      "references": 0,
+      "description_chars": 223,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-webinars-live-events (0.26)",
+      "cluster": "C55 (strategy-video-content)",
+      "disposition": "MERGE-INTO → `strategy-video-content`"
+    },
+    "platforms/platform-tiktok": {
+      "lines": 142,
+      "references": 0,
+      "description_chars": 213,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 3,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "platform-instagram (0.32)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-whatsapp": {
+      "lines": 380,
+      "references": 1,
+      "description_chars": 215,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "playbook-sms-whatsapp-marketing (0.45)",
+      "cluster": "C36 (platform-whatsapp)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-x-twitter": {
+      "lines": 388,
+      "references": 0,
+      "description_chars": 216,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "platform-linkedin-company-pages (0.23)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "platforms/platform-youtube": {
+      "lines": 358,
+      "references": 0,
+      "description_chars": 214,
+      "description_class": "T-platform",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "strategy-video-content (0.35)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-agency-operations": {
+      "lines": 444,
+      "references": 2,
+      "description_chars": 204,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 12,
+      "fan_in": 8,
+      "nearest_neighbour_unique_text": "biz-dev-pricing-menu (0.23)",
+      "cluster": "C37 (playbook-agency-operations)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-ai-automation-workflow": {
+      "lines": 416,
+      "references": 0,
+      "description_chars": 209,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "ai-agentic-marketing-workflows (0.34)",
+      "cluster": "C42 (playbook-marketing-automation)",
+      "disposition": "MERGE-INTO → `playbook-marketing-automation`"
+    },
+    "playbooks/playbook-ai-content-workflow": {
+      "lines": 460,
+      "references": 0,
+      "description_chars": 206,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "prompt-engineering-library (0.31)",
+      "cluster": "C40 (playbook-content-production)",
+      "disposition": "MERGE-INTO → `playbook-content-production`"
+    },
+    "playbooks/playbook-audacious-content": {
+      "lines": 321,
+      "references": 0,
+      "description_chars": 204,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-viral-content-design (0.21)",
+      "cluster": "C47 (playbook-viral-content-design)",
+      "disposition": "MERGE-INTO → `playbook-viral-content-design`"
+    },
+    "playbooks/playbook-chatbot-strategy": {
+      "lines": 295,
+      "references": 0,
+      "description_chars": 203,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-ai-automation-workflow (0.28)",
+      "cluster": "C38 (playbook-chatbot-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-client-retainer-management": {
+      "lines": 354,
+      "references": 1,
+      "description_chars": 213,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 5,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "playbook-agency-operations (0.22)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-community-management": {
+      "lines": 249,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "playbook-social-customer-service (0.37)",
+      "cluster": "C39 (playbook-community-management)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-content-production": {
+      "lines": 340,
+      "references": 1,
+      "description_chars": 205,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "training-smartphone-video-production (0.3)",
+      "cluster": "C40 (playbook-content-production)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-crisis-communications": {
+      "lines": 328,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 13,
+      "nearest_neighbour_unique_text": "playbook-community-management (0.3)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-daily-operations-routine": {
+      "lines": 303,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "strategy-pdca-workflow-design (0.27)",
+      "cluster": "C41 (playbook-daily-operations-routine)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-email-funnel": {
+      "lines": 251,
+      "references": 1,
+      "description_chars": 199,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "07-email-marketing-strategy (0.34)",
+      "cluster": "C05 (07-email-marketing-strategy)",
+      "disposition": "MERGE-INTO → `07-email-marketing-strategy`"
+    },
+    "playbooks/playbook-employee-advocacy": {
+      "lines": 280,
+      "references": 0,
+      "description_chars": 204,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-social-media-policy (0.22)",
+      "cluster": "C46 (playbook-social-selling)",
+      "disposition": "MERGE-INTO → `playbook-social-selling`"
+    },
+    "playbooks/playbook-geo-newsjacking": {
+      "lines": 468,
+      "references": 0,
+      "description_chars": 202,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "platform-x-twitter (0.15)",
+      "cluster": "C44 (playbook-pr-publicity)",
+      "disposition": "MERGE-INTO → `playbook-pr-publicity`"
+    },
+    "playbooks/playbook-instagram-dm-sales": {
+      "lines": 279,
+      "references": 0,
+      "description_chars": 205,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-social-selling (0.25)",
+      "cluster": "C51 (social-commerce-strategy)",
+      "disposition": "MERGE-INTO → `social-commerce-strategy`"
+    },
+    "playbooks/playbook-lead-magnet-system": {
+      "lines": 222,
+      "references": 0,
+      "description_chars": 205,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "playbook-email-funnel (0.24)",
+      "cluster": "C05 (07-email-marketing-strategy)",
+      "disposition": "MERGE-INTO → `07-email-marketing-strategy`"
+    },
+    "playbooks/playbook-location-based-marketing": {
+      "lines": 266,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "platform-google-business-profile (0.26)",
+      "cluster": "C33 (platform-google-business-profile)",
+      "disposition": "MERGE-INTO → `platform-google-business-profile`"
+    },
+    "playbooks/playbook-marketing-automation": {
+      "lines": 252,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-sms-whatsapp-marketing (0.24)",
+      "cluster": "C42 (playbook-marketing-automation)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-networking": {
+      "lines": 223,
+      "references": 0,
+      "description_chars": 197,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 16,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "biz-dev-positioning (0.27)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-paid-social-advertising": {
+      "lines": 180,
+      "references": 3,
+      "description_chars": 301,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 16,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "paid-search-advertising (0.36)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "playbooks/playbook-post-click-strategy": {
+      "lines": 420,
+      "references": 0,
+      "description_chars": 206,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 30,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "playbook-chatbot-strategy (0.24)",
+      "cluster": "C43 (playbook-post-click-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-pr-media-integration": {
+      "lines": 253,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-pr-publicity (0.29)",
+      "cluster": "C44 (playbook-pr-publicity)",
+      "disposition": "MERGE-INTO → `playbook-pr-publicity`"
+    },
+    "playbooks/playbook-pr-publicity": {
+      "lines": 223,
+      "references": 0,
+      "description_chars": 199,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 13,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-pr-media-integration (0.29)",
+      "cluster": "C44 (playbook-pr-publicity)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-profile-optimisation": {
+      "lines": 385,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "platform-youtube (0.23)",
+      "cluster": "C02 (02-platform-audit)",
+      "disposition": "MERGE-INTO → `02-platform-audit`"
+    },
+    "playbooks/playbook-question-engine": {
+      "lines": 295,
+      "references": 0,
+      "description_chars": 202,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "12-website-content-plan (0.18)",
+      "cluster": "C08 (12-website-content-plan)",
+      "disposition": "MERGE-INTO → `12-website-content-plan`"
+    },
+    "playbooks/playbook-reputation-management": {
+      "lines": 365,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 6,
+      "nearest_neighbour_unique_text": "playbook-community-management (0.27)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-sentiment-listening": {
+      "lines": 342,
+      "references": 0,
+      "description_chars": 206,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "meta-social-listening (0.45)",
+      "cluster": "C30 (meta-social-listening)",
+      "disposition": "MERGE-INTO → `meta-social-listening`"
+    },
+    "playbooks/playbook-sms-whatsapp-marketing": {
+      "lines": 331,
+      "references": 0,
+      "description_chars": 209,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "platform-whatsapp (0.45)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-social-customer-service": {
+      "lines": 364,
+      "references": 0,
+      "description_chars": 210,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-community-management (0.37)",
+      "cluster": "C39 (playbook-community-management)",
+      "disposition": "MERGE-INTO → `playbook-community-management`"
+    },
+    "playbooks/playbook-social-media-brand-style-guide": {
+      "lines": 500,
+      "references": 0,
+      "description_chars": 217,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "04-brand-voice-intake (0.39)",
+      "cluster": "C04 (04-brand-voice-intake)",
+      "disposition": "MERGE-INTO → `04-brand-voice-intake`"
+    },
+    "playbooks/playbook-social-media-contests": {
+      "lines": 372,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-ugc-strategy (0.23)",
+      "cluster": "C07 (09-campaign-strategy)",
+      "disposition": "MERGE-INTO → `09-campaign-strategy`"
+    },
+    "playbooks/playbook-social-media-governance": {
+      "lines": 400,
+      "references": 0,
+      "description_chars": 210,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-crisis-communications (0.27)",
+      "cluster": "C45 (playbook-social-media-policy)",
+      "disposition": "MERGE-INTO → `playbook-social-media-policy`"
+    },
+    "playbooks/playbook-social-media-policy": {
+      "lines": 286,
+      "references": 0,
+      "description_chars": 206,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 4,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "playbook-employee-advocacy (0.22)",
+      "cluster": "C45 (playbook-social-media-policy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-social-selling": {
+      "lines": 484,
+      "references": 0,
+      "description_chars": 201,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-instagram-dm-sales (0.25)",
+      "cluster": "C46 (playbook-social-selling)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-ugc-strategy": {
+      "lines": 249,
+      "references": 0,
+      "description_chars": 199,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "playbook-social-media-contests (0.23)",
+      "cluster": "C06 (08-influencer-marketing-strategy)",
+      "disposition": "MERGE-INTO → `08-influencer-marketing-strategy`"
+    },
+    "playbooks/playbook-viral-content-design": {
+      "lines": 392,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "playbook-audacious-content (0.21)",
+      "cluster": "C47 (playbook-viral-content-design)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "playbooks/playbook-webinars-live-events": {
+      "lines": 279,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "platform-podcast-strategy (0.26)",
+      "cluster": "C54 (strategy-experiential-marketing)",
+      "disposition": "MERGE-INTO → `strategy-experiential-marketing`"
+    },
+    "playbooks/playbook-whatsapp-business": {
+      "lines": 273,
+      "references": 0,
+      "description_chars": 204,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "platform-whatsapp (0.27)",
+      "cluster": "C36 (platform-whatsapp)",
+      "disposition": "MERGE-INTO → `platform-whatsapp`"
+    },
+    "playbooks/playbook-white-label-partnerships": {
+      "lines": 327,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-agency-operations (0.21)",
+      "cluster": "C37 (playbook-agency-operations)",
+      "disposition": "MERGE-INTO → `playbook-agency-operations`"
+    },
+    "playbooks/playbook-word-of-mouth-strategy": {
+      "lines": 377,
+      "references": 0,
+      "description_chars": 209,
+      "description_class": "T-playbook / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "strategy-ewom-reviews (0.24)",
+      "cluster": "C53 (strategy-ewom-reviews)",
+      "disposition": "MERGE-INTO → `strategy-ewom-reviews`"
+    },
+    "policies/policy-ai-content-ethics": {
+      "lines": 500,
+      "references": 0,
+      "description_chars": 229,
+      "description_class": "T-policy",
+      "reads_aug_sep_2026": 11,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "policy-ai-ip-and-copyright (0.35)",
+      "cluster": "C48 (policy-ai-content-ethics)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "policies/policy-ai-ip-and-copyright": {
+      "lines": 253,
+      "references": 0,
+      "description_chars": 231,
+      "description_class": "T-policy",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "policy-ai-content-ethics (0.35)",
+      "cluster": "C48 (policy-ai-content-ethics)",
+      "disposition": "MERGE-INTO → `policy-ai-content-ethics`"
+    },
+    "sectors/healthcare": {
+      "lines": 346,
+      "references": 1,
+      "description_chars": 237,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 19,
+      "nearest_neighbour_unique_text": "playbook-crisis-communications (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "sectors/hospitality-hotel-restaurant": {
+      "lines": 163,
+      "references": 0,
+      "description_chars": 212,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "ai-generative-search-optimisation (0.22)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "seo-discovery/demand-forecasting": {
+      "lines": 118,
+      "references": 1,
+      "description_chars": 221,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-location-based-marketing (0.11)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "seo-discovery/seo-geo-optimisation": {
+      "lines": 172,
+      "references": 1,
+      "description_chars": 188,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "ai-generative-search-optimisation (0.61)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/ecommerce-brand-differentiation": {
+      "lines": 324,
+      "references": 0,
+      "description_chars": 237,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "social-commerce-strategy (0.35)",
+      "cluster": "C18 (brand-strategy-and-distinctive-assets)",
+      "disposition": "MERGE-INTO → `brand-strategy-and-distinctive-assets`"
+    },
+    "strategy/ecommerce-conversion-optimisation": {
+      "lines": 319,
+      "references": 0,
+      "description_chars": 220,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "social-commerce-strategy (0.35)",
+      "cluster": "C43 (playbook-post-click-strategy)",
+      "disposition": "MERGE-INTO → `playbook-post-click-strategy`"
+    },
+    "strategy/ecommerce-export-marketing-advisory": {
+      "lines": 157,
+      "references": 2,
+      "description_chars": 239,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 10,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "ecommerce-conversion-optimisation (0.15)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/marketing-foundations-stp-positioning": {
+      "lines": 131,
+      "references": 2,
+      "description_chars": 288,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "creative-brief-and-big-idea (0.23)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "strategy/owned-media-strategy": {
+      "lines": 299,
+      "references": 0,
+      "description_chars": 211,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 3,
+      "nearest_neighbour_unique_text": "07-email-marketing-strategy (0.26)",
+      "cluster": "C32 (peso-integrated-strategy)",
+      "disposition": "MERGE-INTO → `peso-integrated-strategy`"
+    },
+    "strategy/peso-integrated-strategy": {
+      "lines": 298,
+      "references": 0,
+      "description_chars": 185,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "owned-media-strategy (0.24)",
+      "cluster": "C32 (peso-integrated-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/premium-social-selling": {
+      "lines": 128,
+      "references": 1,
+      "description_chars": 208,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "premium-commercial-writing (0.23)",
+      "cluster": "C46 (playbook-social-selling)",
+      "disposition": "MERGE-INTO → `playbook-social-selling`"
+    },
+    "strategy/social-commerce-strategy": {
+      "lines": 385,
+      "references": 0,
+      "description_chars": 202,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "ecommerce-brand-differentiation (0.35)",
+      "cluster": "C51 (social-commerce-strategy)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-b2b-customer-community": {
+      "lines": 124,
+      "references": 2,
+      "description_chars": 294,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "playbook-client-retainer-management (0.19)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "strategy/strategy-channel-architecture": {
+      "lines": 333,
+      "references": 1,
+      "description_chars": 204,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 15,
+      "nearest_neighbour_unique_text": "05-social-media-strategy (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-creator-monetisation": {
+      "lines": 295,
+      "references": 0,
+      "description_chars": 208,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 55,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "08-influencer-marketing-strategy (0.31)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-csr-purpose-communications": {
+      "lines": 223,
+      "references": 0,
+      "description_chars": 197,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-pr-media-integration (0.18)",
+      "cluster": "C52 (strategy-csr-purpose-communications)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-customer-value-journey": {
+      "lines": 385,
+      "references": 1,
+      "description_chars": 221,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-word-of-mouth-strategy (0.21)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-ewom-reviews": {
+      "lines": 242,
+      "references": 0,
+      "description_chars": 222,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-word-of-mouth-strategy (0.24)",
+      "cluster": "C53 (strategy-ewom-reviews)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-experiential-marketing": {
+      "lines": 247,
+      "references": 0,
+      "description_chars": 217,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "playbook-webinars-live-events (0.23)",
+      "cluster": "C54 (strategy-experiential-marketing)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-micro-communities": {
+      "lines": 289,
+      "references": 0,
+      "description_chars": 217,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "platform-linkedin-company-pages (0.18)",
+      "cluster": "C39 (playbook-community-management)",
+      "disposition": "MERGE-INTO → `playbook-community-management`"
+    },
+    "strategy/strategy-multigenerational-digital": {
+      "lines": 271,
+      "references": 0,
+      "description_chars": 183,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "framework-digital-transparency (0.28)",
+      "cluster": "C03 (03-audience-personas)",
+      "disposition": "MERGE-INTO → `03-audience-personas`"
+    },
+    "strategy/strategy-organic-paid-hybrid": {
+      "lines": 347,
+      "references": 0,
+      "description_chars": 205,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 1,
+      "fan_in": 2,
+      "nearest_neighbour_unique_text": "platform-instagram-growth (0.21)",
+      "cluster": "C09 (ad-testing-and-scaling)",
+      "disposition": "MERGE-INTO → `ad-testing-and-scaling`"
+    },
+    "strategy/strategy-pdca-workflow-design": {
+      "lines": 346,
+      "references": 0,
+      "description_chars": 192,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-daily-operations-routine (0.27)",
+      "cluster": "C41 (playbook-daily-operations-routine)",
+      "disposition": "MERGE-INTO → `playbook-daily-operations-routine`"
+    },
+    "strategy/strategy-personal-brand": {
+      "lines": 467,
+      "references": 3,
+      "description_chars": 215,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 34,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "platform-x-twitter (0.22)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/strategy-video-content": {
+      "lines": 409,
+      "references": 0,
+      "description_chars": 220,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "platform-youtube (0.35)",
+      "cluster": "C55 (strategy-video-content)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "strategy/traction-channel-bullseye": {
+      "lines": 119,
+      "references": 2,
+      "description_chars": 244,
+      "description_class": "specific",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 5,
+      "nearest_neighbour_unique_text": "ad-testing-and-scaling (0.26)",
+      "cluster": "-",
+      "disposition": "KEEP"
+    },
+    "training/training-ai-foundations": {
+      "lines": 198,
+      "references": 2,
+      "description_chars": 218,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "training-ai-prompt-writing (0.42)",
+      "cluster": "C56 (training-ai-foundations)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "training/training-ai-prompt-writing": {
+      "lines": 152,
+      "references": 2,
+      "description_chars": 202,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "training-ai-foundations (0.42)",
+      "cluster": "C56 (training-ai-foundations)",
+      "disposition": "MERGE-INTO → `training-ai-foundations`"
+    },
+    "training/training-client-team": {
+      "lines": 453,
+      "references": 0,
+      "description_chars": 204,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 4,
+      "nearest_neighbour_unique_text": "training-smartphone-video-production (0.29)",
+      "cluster": "C57 (training-client-team)",
+      "disposition": "KEEP+REWRITE"
+    },
+    "training/training-diy-content": {
+      "lines": 128,
+      "references": 1,
+      "description_chars": 214,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 0,
+      "nearest_neighbour_unique_text": "training-ai-prompt-writing (0.21)",
+      "cluster": "C57 (training-client-team)",
+      "disposition": "MERGE-INTO → `training-client-team`"
+    },
+    "training/training-smartphone-video-production": {
+      "lines": 344,
+      "references": 0,
+      "description_chars": 207,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 0,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "playbook-content-production (0.3)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    },
+    "training/training-social-media-fundamentals": {
+      "lines": 430,
+      "references": 0,
+      "description_chars": 214,
+      "description_class": "semi / UW-T",
+      "reads_aug_sep_2026": 2,
+      "fan_in": 1,
+      "nearest_neighbour_unique_text": "training-client-team (0.23)",
+      "cluster": "-",
+      "disposition": "KEEP+REWRITE"
+    }
+  }
+}
