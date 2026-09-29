@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-budget-planner through docs/skill-aliases.yml; content preserved in meta-budget-planner/references/bottom-up-revenue-plan.md. Retained for historical content.
 # Revenue Planning Framework
 
 

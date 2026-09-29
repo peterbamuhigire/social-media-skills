@@ -1,6 +1,6 @@
 ---
 name: meta-budget-planner
-description: "Use when allocating a confirmed marketing budget across channels, production, tools and contingency. Produces marketing budget plan and allocation rationale; use `meta-revenue-planning` when that neighbouring contract is the closer match."
+description: "Use when allocating a confirmed marketing budget across channels, production, tools and contingency. Produces marketing budget plan, allocation rationale and bottom-up revenue plan with CAC ceiling; use `meta-roi-framework` when that neighbouring contract is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -14,11 +14,12 @@ metadata:
 ## Use When
 
 - Use this skill for allocating a confirmed marketing budget across channels, production, tools and contingency.
-- Confirm that `meta-revenue-planning` is not the closer route before proceeding.
+- Confirm that `meta-roi-framework` is not the closer route before proceeding.
+- Build a bottom-up revenue plan: work back from a revenue target through funnel conversion rates to the leads, opportunities and inquiries needed per channel, with a CAC ceiling, weighted pipeline forecast and deal velocity targets (formerly `meta-revenue-planning`).
 
 ## Do Not Use When
 
-- Use `meta-revenue-planning` when its narrower output is requested.
+- Use `meta-roi-framework` when its narrower output is requested.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -56,11 +57,12 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Approved budget ceiling, objectives and channel evidence is current and attributable | Produce the full marketing budget plan and allocation rationale and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-revenue-planning` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The requested outcome belongs to `meta-roi-framework` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs the budget derived from a revenue target, a funnel-based lead volume plan or a weighted pipeline forecast | Build the revenue plan with [bottom-up-revenue-plan](references/bottom-up-revenue-plan.md) first; cap the budget at its CAC ceiling (CAC ≤ CLV × 0.25). | An activity budget with no link to revenue, or a budget that buys customers at a loss. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-revenue-planning` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-roi-framework` if its contract is closer.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -76,7 +78,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the marketing budget plan and allocation rationale without approved budget ceiling. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-revenue-planning` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing `meta-roi-framework` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -85,7 +87,8 @@ Given verified approved budget ceiling, the skill produces a marketing budget pl
 
 ## Read next
 
-- [`meta-revenue-planning`](../meta-revenue-planning/SKILL.md) for the neighbouring contract.
+- [`meta-roi-framework`](../meta-roi-framework/SKILL.md) for the neighbouring contract.
+- [Bottom-up revenue plan](references/bottom-up-revenue-plan.md) when the budget must be derived from a revenue target.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
@@ -320,6 +323,7 @@ Good output from this skill meets all of the following standards:
 
 Consult these linked skills when building or extending the budget plan:
 
+- [bottom-up-revenue-plan](references/bottom-up-revenue-plan.md) — read when the plan must start from a revenue target: funnel maths, channel inquiry targets, CAC cap, weighted pipeline, velocity and monthly funnel review.
 - `meta-roi-framework/SKILL.md` — full per-channel ROI model and attribution methodology; read when the client needs a detailed return calculation per channel
 - `meta-testing-framework/SKILL.md` — structured test design for paid experiments; read before designing any new paid channel test
 - `09-campaign-strategy/SKILL.md` — campaign-level strategy and objective setting; read when the client's objective needs to be refined into campaign-level tactics

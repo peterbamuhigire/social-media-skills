@@ -1,6 +1,6 @@
 ---
 name: meta-reporting
-description: "Use when producing a monthly written performance report from verified platform and campaign data. Produces monthly performance report with actions and caveats; use `meta-dashboard-design` when that neighbouring contract is the closer match."
+description: "Use when producing a monthly written performance report, a decision-led dashboard specification or a quarterly 7 Ps marketing-mix review from verified platform and campaign data. Produces the report, dashboard spec or scored mix review with actions and caveats; use `05-social-media-strategy` to rewrite the strategy itself."
 metadata:
   portable: true
   compatible_with:
@@ -18,11 +18,13 @@ metadata:
 ## Use When
 
 - Use this skill for producing a monthly written performance report from verified platform and campaign data.
-- Confirm that `meta-dashboard-design` is not the closer route before proceeding.
+- Specifying a decision-led marketing dashboard, metric hierarchy, RAG scorecard or mobile reporting layout in Looker Studio (formerly `meta-dashboard-design`).
+- Reviewing social media's contribution across the 7 Ps marketing mix at a quarterly review, with a scored one-page summary out of 35 (formerly `meta-social-marketing-mix-review`).
+- Confirm that `05-social-media-strategy` is not the closer route when the client wants the strategy rewritten.
 
 ## Do Not Use When
 
-- Use `meta-dashboard-design` when its narrower output is requested.
+- Use `05-social-media-strategy` when the client wants a new or rewritten strategy rather than a report or review.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -60,11 +62,13 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Platform exports, targets, spend, conversions and prior-period baseline is current and attributable | Produce the full monthly performance report with actions and caveats and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-dashboard-design` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client wants a standing dashboard, metric hierarchy or mobile reporting layout | Specify it with [dashboard-specification](references/dashboard-specification.md). | Data-dump dashboards, vanity headline metrics and unreadable mobile views. |
+| A quarterly review, new-account baseline or cause-of-decline diagnosis is requested | Score the 7 Ps with [quarterly-marketing-mix-review](references/quarterly-marketing-mix-review.md). | Monthly metrics mistaken for a diagnosis of the whole mix. |
+| The requested outcome is a new or rewritten strategy | Route to `05-social-media-strategy` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-dashboard-design` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `05-social-media-strategy` if the client wants the strategy rewritten.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -80,7 +84,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the monthly performance report with actions and caveats without platform exports. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-dashboard-design` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing `05-social-media-strategy` into this workflow. Fix: route the strategy rewrite and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -89,7 +93,7 @@ Given verified platform exports, the skill produces a monthly performance report
 
 ## Read next
 
-- [`meta-dashboard-design`](../meta-dashboard-design/SKILL.md) for the neighbouring contract.
+- [`05-social-media-strategy`](../../pipeline/05-social-media-strategy/SKILL.md) when the review shows the strategy needs rewriting.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
@@ -97,6 +101,8 @@ Given verified platform exports, the skill produces a monthly performance report
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md)
+- [dashboard-specification](references/dashboard-specification.md) — read when specifying a client dashboard: chart choice, mobile-first layout, RAG scorecard, tool choice, vanity-metric flags.
+- [quarterly-marketing-mix-review](references/quarterly-marketing-mix-review.md) — read when running a quarterly 7 Ps diagnostic, new-account baseline or cause-of-decline review.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

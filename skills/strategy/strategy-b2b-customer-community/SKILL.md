@@ -24,7 +24,7 @@ Build a business-to-business marketing system that keeps and grows the best cust
 ## Do Not Use When
 
 - The task is scope, change requests and monthly check-ins for an existing retainer; use `playbook-client-retainer-management`.
-- The task is lead scoring rules or sales–marketing service levels only; use `meta-lead-scoring` or `meta-sales-marketing-alignment`.
+- The task is lead scoring rules or sales–marketing service levels only; use `meta-sales-marketing-alignment` (lead scoring model and service levels).
 - The deliverable is a formal tender response; hand over to proposal-skills.
 - The client has no customers yet; use `marketing-foundations-stp-positioning` and `traction-channel-bullseye`.
 

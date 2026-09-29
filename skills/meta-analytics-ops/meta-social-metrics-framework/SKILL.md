@@ -206,7 +206,7 @@ SOV = Brand Mentions ÷ Total Market Mentions (brand + all tracked competitors) 
 NSS = (Positive Mentions − Negative Mentions) ÷ Total Mentions × 100
 ```
 
-Cross-reference `meta-sentiment-analysis` for full NSS methodology and `meta-social-listening` for tools to track mentions and SOV in the EA market.
+Cross-reference `meta-social-listening` (references/sentiment-and-share-of-voice-method.md) for full NSS methodology and `meta-social-listening` for tools to track mentions and SOV in the EA market.
 
 ---
 
@@ -362,6 +362,6 @@ Include these benchmarks as a standing reference table in monthly and quarterly 
 
 - `meta-reporting` — monthly report structure and template
 - `meta-roi-framework` — full ROI calculation, TLV and COCA definitions
-- `meta-sentiment-analysis` — NSS methodology and sentiment tracking tools
+- `meta-social-listening` — NSS methodology and sentiment tracking tools (sentiment and share-of-voice reference)
 - `meta-social-listening` — tools for tracking SOV and mentions in East Africa
 - `design-system-skills` — presentation design after the metrics and evidence are approved

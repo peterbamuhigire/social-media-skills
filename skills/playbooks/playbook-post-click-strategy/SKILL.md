@@ -286,7 +286,7 @@ UTM parameters tag the URL so analytics tools (Google Analytics, Bitly stats) ca
 ?utm_source=instagram&utm_medium=social&utm_campaign=[campaign-name]
 ```
 
-Cross-reference the `meta-utm-tracking` skill for full parameter conventions and a UTM builder template.
+Cross-reference the `measurement-tracking-plan` skill for full parameter conventions and a UTM builder template.
 
 ### WhatsApp Link Tracking
 

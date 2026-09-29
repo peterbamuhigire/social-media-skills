@@ -322,7 +322,7 @@ Both can coexist: a piece of content that goes viral is more durable if it lands
 WOM without tracking is guesswork. Build measurement into the programme from day one.
 
 **Online referral tracking:**
-- Apply UTM parameters to all referral links (cross-reference `meta-utm-tracking`): `utm_source=wom&utm_medium=referral&utm_campaign=[advocate-name]`
+- Apply UTM parameters to all referral links (cross-reference `measurement-tracking-plan`): `utm_source=wom&utm_medium=referral&utm_campaign=[advocate-name]`
 - Track link clicks, landing page visits, and conversions attributed to each referral source in Google Analytics or equivalent
 - Assign each advocate a unique code or link so individual referral performance is visible
 
@@ -364,7 +364,7 @@ Output is high quality when it meets all of the following:
 - **WOM vs. viral distinction:** The output correctly applies WOM seeding logic — targeted, relationship-based, durable — and does not conflate it with viral content or paid influencer strategy
 - **Dark social acknowledgement:** The tracking plan addresses WhatsApp dark social with specific proxy measurement methods, not a dismissal of unmeasurable channels
 - **EA community network specificity:** The talker and connector analysis references real Uganda/EA network types (church, SACCO, boda-boda, market associations) where relevant to the client's audience
-- **Cross-skill coherence:** The playbook correctly references `framework-community-trust`, `meta-social-listening`, `meta-utm-tracking`, `08-influencer-marketing-strategy`, and `playbook-ugc-strategy` without duplicating their content
+- **Cross-skill coherence:** The playbook correctly references `framework-community-trust`, `meta-social-listening`, `measurement-tracking-plan`, `08-influencer-marketing-strategy`, and `playbook-ugc-strategy` without duplicating their content
 
 ---
 

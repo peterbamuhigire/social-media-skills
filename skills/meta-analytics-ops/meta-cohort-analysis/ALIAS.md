@@ -7,6 +7,9 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-roi-framework through docs/skill-aliases.yml; content preserved in meta-roi-framework/references/retention-cohorts-and-ltv.md. Retained for historical content.
+
 # Cohort Analysis for Client Reporting
 
 **Source:** Raaz (c.2023) *Web Analytics Blueprint*

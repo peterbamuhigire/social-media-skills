@@ -1,6 +1,6 @@
 ---
 name: meta-roi-framework
-description: "Use when calculating campaign or channel return from attributable value and acquisition cost. Produces ROI model with assumptions, attribution limits and break-even analysis; use `meta-social-media-roi-business-case` when that neighbouring contract is the closer match."
+description: "Use when calculating campaign or channel return from attributable value and acquisition cost, comparing retention cohorts and LTV by channel, or building a board business case for social investment. Produces ROI model with assumptions, attribution limits and break-even analysis; use `meta-budget-planner` for spend allocation."
 metadata:
   portable: true
   compatible_with:
@@ -14,11 +14,13 @@ metadata:
 ## Use When
 
 - Use this skill for calculating campaign or channel return from attributable value and acquisition cost.
-- Confirm that `meta-social-media-roi-business-case` is not the closer route before proceeding.
+- The client wants acquisition or retention cohorts compared by channel, Week-4 retention, decay curves or cohort LTV from GA4 Cohort Exploration (formerly `meta-cohort-analysis`).
+- A sceptical board, CEO, finance committee or donor needs an executive business case for social media investment: revenue at risk from competitors, follower valuation, A&U study, NPS and budget tiers (formerly `meta-social-media-roi-business-case`).
+- Confirm that `meta-budget-planner` (spend allocation) or `meta-reporting` (periodic performance report) is not the closer route before proceeding.
 
 ## Do Not Use When
 
-- Use `meta-social-media-roi-business-case` when its narrower output is requested.
+- Use `meta-budget-planner` when the request is budget allocation or pacing rather than return; use `meta-reporting` for the periodic performance report.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -56,11 +58,13 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Attributable revenue or lifetime value, complete costs and attribution method is current and attributable | Produce the full ROI model with assumptions, attribution limits and break-even analysis and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-social-media-roi-business-case` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs per-channel retention or cohort LTV before the ratio can be trusted | Build acquisition or behaviour cohorts with [retention-cohorts-and-ltv](references/retention-cohorts-and-ltv.md) and use per-channel CLV in the TLV:COCA ratio. | A single average CLV hiding one-time-buyer channels. |
+| Leadership has not yet agreed to fund social media and asks for a business case | Build the eight-section case with [investment-business-case](references/investment-business-case.md), using this skill's ROI formula for its two scenarios. | An ROI model presented to a board that first needs the risk and investment argument. |
+| The requested outcome is budget allocation or a periodic report | Route to `meta-budget-planner` or `meta-reporting` and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-social-media-roi-business-case` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-budget-planner` or `meta-reporting` if its contract is closer.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -76,7 +80,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the ROI model with assumptions, attribution limits and break-even analysis without attributable revenue or lifetime value. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-social-media-roi-business-case` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing budget allocation (`meta-budget-planner`) or periodic reporting (`meta-reporting`) into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -85,7 +89,8 @@ Given verified attributable revenue or lifetime value, the skill produces a ROI 
 
 ## Read next
 
-- [`meta-social-media-roi-business-case`](../meta-social-media-roi-business-case/SKILL.md) for the neighbouring contract.
+- [`meta-budget-planner`](../meta-budget-planner/SKILL.md) for spend allocation and the bottom-up revenue plan.
+- [`meta-reporting`](../meta-reporting/SKILL.md) for periodic performance reporting.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
@@ -93,6 +98,8 @@ Given verified attributable revenue or lifetime value, the skill produces a ROI 
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 - [Measurement proof pack](../../../docs/evidence-packs/measurement-proof-pack.md)
+- [retention-cohorts-and-ltv](references/retention-cohorts-and-ltv.md) — read when comparing acquisition or behaviour cohorts, Week-4 retention or LTV by channel.
+- [investment-business-case](references/investment-business-case.md) — read when a board or funder needs a business case for social media investment.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input
@@ -215,7 +222,7 @@ Step 4: Divide by lead-to-opportunity CVR (benchmark: 25%) → qualified leads n
 Step 5: Divide by inquiry-to-lead CVR (benchmark: 3%) → total inquiries needed.
 Step 6: Allocate required inquiries by channel based on historical contribution or targets.
 
-Reference `meta-revenue-planning` for the full worked example.
+Reference the bottom-up revenue plan in [`meta-budget-planner`](../meta-budget-planner/SKILL.md) (`references/bottom-up-revenue-plan.md`) for the full worked example.
 
 **Pipeline Stage Weighting (Kahan, 2022):** For quarterly revenue forecasting, weight pipeline opportunities by stage rather than counting all pipeline at full value.
 - Open Opportunity: 10%
@@ -228,7 +235,7 @@ Weighted pipeline = more realistic forecast than unweighted pipeline total.
 
 **Deal Velocity as an ROI Component:** Faster conversion reduces the time-cost of capital and increases revenue per quarter at the same spend. Measure and report velocity in days at each funnel stage: inquiry-to-lead, lead-to-opportunity, opportunity-to-deal, and end-to-end. Include velocity targets in the ROI framework — they are as important as the cost targets (Kahan, 2022).
 
-**CLV by Acquisition Cohort (Zahay et al., 2024; Raaz, c.2023):** Replace single-average CLV with cohort-based LTV calculation. Calculate CLV separately for customers acquired through each channel — organic social, paid social, referral, email, events. This reveals which channels produce durable, high-value customers vs. one-transaction buyers. Note the benchmark: average repeat customers spend 67% more in months 31–36 than in months 1–6 — a data point that consistently justifies retention investment over acquisition-only strategies.
+**CLV by Acquisition Cohort (Zahay et al., 2024; Raaz, c.2023):** Replace single-average CLV with cohort-based LTV calculation. Calculate CLV separately for customers acquired through each channel — organic social, paid social, referral, email, events. This reveals which channels produce durable, high-value customers vs. one-transaction buyers. Note the benchmark: average repeat customers spend 67% more in months 31–36 than in months 1–6 — a data point that consistently justifies retention investment over acquisition-only strategies. Build the cohorts with [retention-cohorts-and-ltv](references/retention-cohorts-and-ltv.md).
 
 **Attribution Model Note:** ROI calculations depend on how revenue is attributed to channels. Select an attribution model before the campaign begins, not after. See `06-digital-marketing-strategy` references section for the full six-model attribution selection guide (Hanlon and Tuten, 2022). Apply the chosen model consistently across the full strategy period before switching.
 

@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-algorithm-guide through docs/skill-aliases.yml; content preserved in meta-algorithm-guide/references/posting-time-and-frequency-tests.md. Retained for historical content.
 # Meta — Posting Time and Frequency Optimisation
 
 ## Purpose

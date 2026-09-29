@@ -4,7 +4,7 @@ When to read: when defining how a campaign journey is tagged, counted and owned 
 
 ## 1. UTM table (per ad or ad group)
 
-Follow the naming convention in `meta-utm-tracking`. Minimum columns:
+Follow the UTM naming convention in `measurement-tracking-plan` (references/utm-convention-and-campaign-register.md). Minimum columns:
 
 | Ad ID | utm_source | utm_medium | utm_campaign | utm_content | utm_term (search) | Final URL | Short link (for WhatsApp/offline) |
 |---|---|---|---|---|---|---|---|

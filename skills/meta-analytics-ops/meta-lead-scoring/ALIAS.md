@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-sales-marketing-alignment through docs/skill-aliases.yml; content preserved in meta-sales-marketing-alignment/references/lead-scoring-model.md. Retained for historical content.
 # Lead Scoring Playbook
 
 

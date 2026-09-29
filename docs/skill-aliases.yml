@@ -12,7 +12,7 @@ active_skill_policy:
   hard_cap: 120
   target_range: 110-118
   close_target: 112
-  current_active_skill_count: 162
+  current_active_skill_count: 151
   # While the S02-S07 merges run, the active count may exceed hard_cap. S07 removes this key
   # (active count 110), after which cap-exceeded is enforced strictly.
   consolidation_until: S07
@@ -50,3 +50,15 @@ inactive_skill_aliases:
   skills/content-writing/prompt-library-image-audio-video: skills/content-writing/prompt-engineering-library
   skills/ai-marketing/ai-avatar-personalised-video: skills/strategy/strategy-video-content
   skills/platforms/platform-podcast-strategy: skills/strategy/strategy-video-content
+  skills/strategy/strategy-organic-paid-hybrid: skills/advertising/ad-testing-and-scaling
+  skills/meta-analytics-ops/meta-analytics-privacy: skills/meta-analytics-ops/measurement-tracking-plan
+  skills/meta-analytics-ops/meta-utm-tracking: skills/meta-analytics-ops/measurement-tracking-plan
+  skills/meta-analytics-ops/meta-posting-optimisation: skills/meta-analytics-ops/meta-algorithm-guide
+  skills/meta-analytics-ops/meta-revenue-planning: skills/meta-analytics-ops/meta-budget-planner
+  skills/meta-analytics-ops/meta-dashboard-design: skills/meta-analytics-ops/meta-reporting
+  skills/meta-analytics-ops/meta-social-marketing-mix-review: skills/meta-analytics-ops/meta-reporting
+  skills/meta-analytics-ops/meta-cohort-analysis: skills/meta-analytics-ops/meta-roi-framework
+  skills/meta-analytics-ops/meta-social-media-roi-business-case: skills/meta-analytics-ops/meta-roi-framework
+  skills/meta-analytics-ops/meta-lead-scoring: skills/meta-analytics-ops/meta-sales-marketing-alignment
+  skills/meta-analytics-ops/meta-sentiment-analysis: skills/meta-analytics-ops/meta-social-listening
+  skills/playbooks/playbook-sentiment-listening: skills/meta-analytics-ops/meta-social-listening

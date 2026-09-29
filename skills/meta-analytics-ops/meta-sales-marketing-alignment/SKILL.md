@@ -1,6 +1,6 @@
 ---
 name: meta-sales-marketing-alignment
-description: "Use when defining shared lifecycle stages, ownership, handover rules and review cadence. Produces sales-marketing service-level agreement and KPI map; use `meta-lead-scoring` when that neighbouring contract is the closer match."
+description: "Use when defining shared lifecycle stages, ownership, handover rules and review cadence. Produces sales-marketing service-level agreement, KPI map and lead-scoring model; use `meta-roi-framework` when that neighbouring contract is the closer match."
 metadata:
   portable: true
   compatible_with:
@@ -18,11 +18,12 @@ metadata:
 ## Use When
 
 - Use this skill for defining shared lifecycle stages, ownership, handover rules and review cadence.
-- Confirm that `meta-lead-scoring` is not the closer route before proceeding.
+- Confirm that `meta-roi-framework` is not the closer route before proceeding.
+- Design and calibrate a lead scoring model with sales: explicit fit and behavioural points, score decay, MQL threshold, BANT qualification and CRM set-up (formerly `meta-lead-scoring`).
 
 ## Do Not Use When
 
-- Use `meta-lead-scoring` when its narrower output is requested.
+- Use `meta-roi-framework` when its narrower output is requested.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -60,11 +61,12 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Current funnel stages, crm ownership and response-time evidence is current and attributable | Produce the full sales-marketing service-level agreement and KPI map and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-lead-scoring` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The requested outcome belongs to `meta-roi-framework` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs a full lead scoring design (explicit and behavioural points, decay, calibrated threshold, BANT) rather than the starter model | Build it with [lead-scoring-model](references/lead-scoring-model.md), after the CRM prerequisites are met. | Uncalibrated thresholds, stale high scores and unqualified MQLs reaching sales. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-lead-scoring` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-roi-framework` if its contract is closer.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -80,7 +82,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the sales-marketing service-level agreement and KPI map without current funnel stages. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-lead-scoring` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Absorbing `meta-roi-framework` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -89,13 +91,15 @@ Given verified current funnel stages, the skill produces a sales-marketing servi
 
 ## Read next
 
-- [`meta-lead-scoring`](../meta-lead-scoring/SKILL.md) for the neighbouring contract.
+- [`meta-roi-framework`](../meta-roi-framework/SKILL.md) for the neighbouring contract.
+- [Lead scoring model](references/lead-scoring-model.md) when the client needs a full scoring design.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [lead-scoring-model](references/lead-scoring-model.md) — read when designing, calibrating or auditing a lead scoring model and MQL handover threshold.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Inputs
@@ -195,6 +199,8 @@ Before implementing lead scoring, confirm the CRM is fully adopted (see above). 
 - Requested a demo or quote: +25
 
 **MQL threshold:** A lead reaching 50+ points is classified as an MQL and handed to sales. Adjust thresholds quarterly based on conversion data — if MQLs are converting at below 20%, lower the threshold or revise the scoring criteria.
+
+For the full design document (B2B/B2C fit tables, 10 behaviours, decay, 60-day calibration, BANT, EA starter model), use [lead-scoring-model](references/lead-scoring-model.md).
 
 For EA clients, include WhatsApp engagement in behavioural scoring: responding to a WhatsApp broadcast with a question (+15) or requesting a price list (+20) are strong intent signals.
 

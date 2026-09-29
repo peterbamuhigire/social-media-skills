@@ -49,4 +49,4 @@ Everything else (primary-text truncation points, headline limits in Meta, TikTok
 
 ## 7. Build-sheet record
 
-For each ad: format, placement, text fields with character counts, spec source (register ID or help-centre URL and date), CTA, destination URL with UTMs (see `meta-utm-tracking`), disclosure label if paid partnership, approval owner and date.
+For each ad: format, placement, text fields with character counts, spec source (register ID or help-centre URL and date), CTA, destination URL with UTMs (see the UTM convention in `measurement-tracking-plan`), disclosure label if paid partnership, approval owner and date.

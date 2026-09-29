@@ -26,7 +26,7 @@ Define the contract between a marketing campaign and the website that receives i
 - Traffic goes to Instagram/TikTok link-in-bio, WhatsApp chat or DMs without a web page; use `playbook-post-click-strategy`.
 - The deliverable is page build, code, performance engineering or design; hand off to website-skills and design-system-skills.
 - The need is a full website content plan; use `12-website-content-plan`.
-- The need is UTM governance across all campaigns; use `meta-utm-tracking` (this skill applies it to one journey).
+- The need is UTM governance across all campaigns; use `measurement-tracking-plan` (this skill applies it to one journey).
 
 ## Required Inputs
 
@@ -112,7 +112,7 @@ If the site, analytics or owners are unavailable, return the narrowest useful qu
 - [Destination UX heuristics](references/destination-ux-heuristics.md) — read when auditing or briefing a page's usability and trust.
 - [Measurement and ownership spec](references/measurement-and-ownership-spec.md) — read when defining UTMs, events, consent and the RACI.
 - [UX engagement diagnostics](references/ux-engagement-diagnostics.md) — read when the destination needs UX work the client has not scoped: design paradigm, scope level, production path, maturity ladder, team roles and briefing points before handoff.
-- [Post-click strategy](../../playbooks/playbook-post-click-strategy/SKILL.md); [UTM tracking](../../meta-analytics-ops/meta-utm-tracking/SKILL.md); [advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md).
+- [Post-click strategy](../../playbooks/playbook-post-click-strategy/SKILL.md); [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md); [advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md).
 - [12-website-content-plan](../../pipeline/12-website-content-plan/SKILL.md); [legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md).
 <!-- dual-compat-end -->
 

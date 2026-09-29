@@ -54,4 +54,4 @@ Rules: compare like with like; attach proof; separate media delivery from busine
 
 ## 6. Measurement hooks per medium
 
-Give each medium its own response code: WhatsApp keyword, short code, UTM-tagged link (see [UTM governance](../../../meta-analytics-ops/meta-utm-tracking/SKILL.md)), QR code or "how did you hear about us?" field. Offline media also create an echo in untraced channels; see [attribution and measurement](../../advertising-attribution-and-measurement/SKILL.md).
+Give each medium its own response code: WhatsApp keyword, short code, UTM-tagged link (see [UTM governance](../../../meta-analytics-ops/measurement-tracking-plan/references/utm-convention-and-campaign-register.md)), QR code or "how did you hear about us?" field. Offline media also create an echo in untraced channels; see [attribution and measurement](../../advertising-attribution-and-measurement/SKILL.md).

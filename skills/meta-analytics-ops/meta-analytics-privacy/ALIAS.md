@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/measurement-tracking-plan through docs/skill-aliases.yml; content preserved in measurement-tracking-plan/references/consent-retention-and-sharing-review.md. Retained for historical content.
 # Analytics Privacy and Data Governance
 
 **Sources:** Raaz (c.2023) *Web Analytics Blueprint*; Hanlon and Tuten (2022) *The SAGE Handbook of Digital Marketing*

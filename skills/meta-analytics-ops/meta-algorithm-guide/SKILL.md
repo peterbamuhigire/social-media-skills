@@ -1,6 +1,6 @@
 ---
 name: meta-algorithm-guide
-description: "Use when building or refreshing a platform-ranking reference from current evidence. Produces platform algorithm guide and pre-publication checklist; use `meta-posting-optimisation` when that neighbouring contract is the closer match."
+description: "Use when building or refreshing a platform-ranking reference from current evidence, or testing posting times and frequency against account data. Produces platform algorithm guide, pre-publication checklist and evidence-led posting schedule; use `11-content-calendar` to populate the editorial calendar."
 metadata:
   portable: true
   compatible_with:
@@ -18,11 +18,11 @@ metadata:
 ## Use When
 
 - Use this skill for building or refreshing a platform-ranking reference from current evidence.
-- Confirm that `meta-posting-optimisation` is not the closer route before proceeding.
+- The client asks when to post and how often: best posting times in EAT, posting frequency per platform, a 4-week posting-time test and a weekly posting schedule (formerly `meta-posting-optimisation`).
 
 ## Do Not Use When
 
-- Use `meta-posting-optimisation` when its narrower output is requested.
+- Use `11-content-calendar` when a confirmed posting schedule needs populating into the editorial calendar.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -60,11 +60,11 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Dated first-party platform guidance and account analytics is current and attributable | Produce the full platform algorithm guide and pre-publication checklist and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-posting-optimisation` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| The client needs a client-specific posting time and frequency schedule | Run the native-analytics read, frequency check and 4-week test in [posting-time and frequency tests](references/posting-time-and-frequency-tests.md). | Schedules copied from global "best time" articles. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-posting-optimisation` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; for a posting schedule, follow [posting-time and frequency tests](references/posting-time-and-frequency-tests.md).
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -80,7 +80,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the platform algorithm guide and pre-publication checklist without dated first-party platform guidance and account analytics. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-posting-optimisation` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Recommending posting times from global benchmark articles. Fix: read native analytics and run the 4-week test in [posting-time and frequency tests](references/posting-time-and-frequency-tests.md).
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -89,13 +89,14 @@ Given verified dated first-party platform guidance and account analytics, the sk
 
 ## Read next
 
-- [`meta-posting-optimisation`](../meta-posting-optimisation/SKILL.md) for the neighbouring contract.
+- [Posting-time and frequency tests](references/posting-time-and-frequency-tests.md) for a client-specific posting schedule.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [posting-time-and-frequency-tests](references/posting-time-and-frequency-tests.md) — read when setting posting times, frequency per platform, the 4-week test or a weekly posting schedule.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

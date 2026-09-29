@@ -7,6 +7,9 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-social-listening through docs/skill-aliases.yml; content preserved in meta-social-listening/references/sentiment-and-share-of-voice-method.md. Retained for historical content.
+
 # Sentiment Analysis Methodology
 
 > **Scope distinction:** This skill covers the analytical methodology — how to score, calculate, and interpret sentiment data, and how to translate findings into strategic decisions. Use `playbook-sentiment-listening` for the operational setup that generates the raw data. The two skills are complementary: listening provides the data; this skill provides the analysis.

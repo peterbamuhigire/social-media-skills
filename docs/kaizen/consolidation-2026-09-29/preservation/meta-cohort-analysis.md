@@ -1,0 +1,31 @@
+# Preservation map — meta-cohort-analysis → meta-roi-framework
+
+Filled from [preservation-map-template.md](../preservation-map-template.md) for Social Kaizen S04-T07. See [merge-runbook.md](../merge-runbook.md), step 2.
+
+Source: skills/meta-analytics-ops/meta-cohort-analysis/SKILL.md @ 8eacccb (233 lines; reads Aug–Sep 2026: 3; fan-in 0)
+Destination reference: skills/meta-analytics-ops/meta-roi-framework/references/retention-cohorts-and-ltv.md (abbreviated `RCL` below)
+
+| # | Source item (heading / decision row / anti-pattern / citation / reference file) | Destination (file § section) | Status (MOVED / MERGED-WITH-EXISTING / DROPPED-DUPLICATE-OF <target §>) | Reviewer tick |
+|---|---|---|---|---|
+| 1 | Shared contract scaffolding: Use When, Do Not Use When, Required Inputs table (generic rows), Outputs, Evidence Produced, Capability and permission boundary, Degraded mode, Decision rules (3 generic rows), Workflow steps 1–6, Quality Standards, Anti-Patterns bullets 1–5, Worked example | meta-roi-framework/SKILL.md same-named sections | DROPPED-DUPLICATE-OF target SKILL.md `Use When` … `Worked example` (identical templated text, differing only in the deliverable name "cohort analysis with qualified findings" vs "ROI model …" and the neighbour name; the source's read-only boundary is covered by the target's "Planning and drafting are read-only … require separate explicit authority and evidence"). The source-specific input "Event-level cohort data, date range and cohort definition" and its stop rule are carried as the last row of RCL § Inputs | ticked |
+| 2 | Read next: meta-reporting (neighbour), anti-ai-slop, ai-slop-audit | meta-roi-framework/SKILL.md § Read next; RCL § Procedure step 5 (meta-reporting link) | DROPPED-DUPLICATE-OF target § Read next (anti-ai-slop and ai-slop-audit links present verbatim); the meta-reporting pointer is carried in RCL § 5 | ticked |
+| 3 | References: anti-AI slop gate; three-view cohort reveal and churn denominators (meta-social-metrics-framework omtm reference, "read §6") | RCL § When to use this reference (paragraph 2) | MOVED (link kept; section cited by name, § Reading cohorts, because the reference's numbered §6 is now "Metric sets by business model"); anti-slop link DROPPED-DUPLICATE-OF target § References "Anti-AI slop production gate" | ticked |
+| 4 | Citation: Raaz (c.2023) *Web Analytics Blueprint* | RCL § When to use this reference (Method source) | MOVED (also already cited in target SKILL.md § CLV by Acquisition Cohort) | ticked |
+| 5 | Required Inputs (7 items: business name, industry, country/city, primary goal, GA4 access level, reporting period, acquisition channels) | RCL § Inputs table | MOVED | ticked |
+| 6 | What a Cohort Is (definition; first-session and specific-action definitions; aggregate metrics hide one-time vs loyal; reveals high-LTV vs one-transaction channels) | RCL § When to use this reference (paragraph 1) + § Procedure 1 | MOVED | ticked |
+| 7 | Two Cohort Types — Acquisition (track Week 1→2/3/4 return; use for retention, loyal channels) and Behaviour (track conversion to next stage; use for funnel optimisation, drop-off) | RCL § Procedure 1 + § Decision rules rows 1–2 | MOVED | ticked |
+| 8 | Building Cohorts in GA4 (6 steps: Explore → Cohort Exploration; acquisition-date vs event-based with `purchase`/`sign_up`/`generate_lead`; weekly vs monthly; metric; 12-week/12-month; Session default channel group filter) | RCL § Procedure 2 steps 1–6 + § Decision rules rows 3–4 | MOVED | ticked |
+| 9 | Permission note: Viewer minimum for Cohort Exploration; Editor for custom channel segments | RCL § Procedure 2 permission note + § Decision rules row 6 | MOVED (verify-before-stating note added) | ticked |
+| 10 | Key Insights to Extract table (Week-4 retention with <10% cold / >30% loyal; channel comparison; revenue by cohort over 6 months; decay curve shape) | RCL § Procedure 3 table | MOVED (benchmarks labelled provisional) | ticked |
+| 11 | Translating Cohort Data for Clients (no raw tables; three statements verbatim templates; single line chart of retention decay by channel; pointer to meta-dashboard-design) | RCL § Procedure 5 | MOVED (meta-dashboard-design is retired this phase; pointer re-routed to its owner meta-reporting) | ticked |
+| 12 | Cohort Reporting Output Format (Sections 1–5: 3-sentence exec summary; Week 0–8 table, top 3 channels, Week-4 row highlighted; behaviour funnel; ranked channel list with one sentence each; three SMART recommendations with Recommendation/Rationale/Success metric) | RCL § Template — cohort analysis report | MOVED | ticked |
+| 13 | EA: WhatsApp as acquisition channel — GA4 does not auto-track; UTM on all WhatsApp links with example string; pointer to meta-utm-tracking | RCL § Decision rules row 5 + § Procedure 2 (example string) | MOVED (meta-utm-tracking is retired this phase; pointer re-routed to measurement-tracking-plan) | ticked |
+| 14 | EA: mobile-first data — majority of Uganda/EA sessions on mobile; always segment by device | RCL § Procedure 2 step 7 + § Release checklist item 7 | MOVED | ticked |
+| 15 | EA: short purchase cycles — weekly cohorts for EA e-commerce/services; monthly loses resolution | RCL § Decision rules row 3 | MOVED | ticked |
+| 16 | Quality Criteria (8 items: plain-language statements; correct cohort type; ≥2 channels; ≥3 SMART recs; WhatsApp addressed; Week-4 vs 10%/30%; local currency UGX/KES; British English + imperative) | RCL § Release checklist | MOVED | ticked |
+| 17 | Implicit rule from Anti-Patterns 1 applied to cohort benchmarks (undated benchmark not the client's result) | RCL § Procedure 3 closing note | MERGED-WITH-EXISTING (target § Anti-Patterns bullet 1 states the general rule; RCL applies it to the 10%/30% bands) | ticked |
+| 18 | Reference files (`references/`) | none — source has no `references/` folder | n/a | ticked |
+
+Unique facts with register IDs carried: none (source cites no source-register IDs; freshness re-checked: NOT_ASSESSED). RCL adds verify-before-stating notes for GA4 access rules and the 10%/30% retention comparators, which carry no register record.
+Items dropped as duplicates (must name the equivalent target text): 3
+Reviewer: independent review agent (Claude Opus 5.5, read-only, S04 review) — verdict ACCEPT — 2026-09-29

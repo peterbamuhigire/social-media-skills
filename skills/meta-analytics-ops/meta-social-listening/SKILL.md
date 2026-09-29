@@ -1,6 +1,6 @@
 ---
 name: meta-social-listening
-description: "Use when setting up an ongoing listening query, evidence log, cadence and escalation path. Produces social listening plan, query set and intelligence log; use `meta-sentiment-analysis` when that neighbouring contract is the closer match."
+description: "Use when setting up an ongoing listening query, evidence log, cadence and escalation path, or scoring conversation data for sentiment, net sentiment score and share of voice. Produces social listening plan, query set, intelligence log, sentiment dashboard and report; use `meta-competitor-analysis` for full competitor benchmarking."
 metadata:
   portable: true
   compatible_with:
@@ -14,11 +14,12 @@ metadata:
 ## Use When
 
 - Use this skill for setting up an ongoing listening query, evidence log, cadence and escalation path.
-- Confirm that `meta-sentiment-analysis` is not the closer route before proceeding.
+- Score supplied comments, mentions and reviews for sentiment, net sentiment score (NSS), share of voice (SOV) against competitors and ranked conversation themes, ending in a monthly sentiment report with a named action (formerly `meta-sentiment-analysis`).
+- Run sentiment listening as a weekly operation: tool stack by budget, crisis-trigger keywords, Mobile Money complaint terms, real-time sentiment dashboard, crisis alert thresholds and a Monday/Wednesday/Friday routine (formerly `playbook-sentiment-listening`).
 
 ## Do Not Use When
 
-- Use `meta-sentiment-analysis` when its narrower output is requested.
+- Use `meta-competitor-analysis` when full competitor benchmarking, rather than listening-derived share of voice, is requested.
 - Do not publish, spend, change a live account, certify compliance, or invent missing client evidence.
 
 ## Required Inputs
@@ -56,11 +57,12 @@ If files, platform access, network, rendering, fonts, or calculation tools are u
 |---|---|---|
 | Brand terms, risks, competitors, languages and accessible sources is current and attributable | Produce the full social listening plan, query set and intelligence log and cite the evidence used. | Decisions based on stale or unrelated evidence. |
 | A material input is missing or contradictory | Stop that decision, request clarification, or issue a labelled partial result. | Fabricated precision and false confidence. |
-| The requested outcome belongs to `meta-sentiment-analysis` | Route there and hand over the verified inputs already collected. | Neighbour collision and duplicated work. |
+| Supplied conversation data must be scored for sentiment, NSS, share of voice or themes | Apply [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md) and end with a named action, owner and deadline. | Unscored mentions, word-only sentiment and data that changes nothing. |
+| The client needs listening run weekly with AI sentiment, dashboard and crisis alerts | Apply [listening-operations-playbook](references/listening-operations-playbook.md) with named owners per day. | Unscheduled monitoring and missed crisis signals. |
 
 ## Workflow
 
-1. Confirm the requested decision, consumer, market, period and permission boundary; route to `meta-sentiment-analysis` if its contract is closer.
+1. Confirm the requested decision, consumer, market, period and permission boundary; read the sentiment references when scoring or a weekly operation is requested.
 2. Inventory the required inputs and their provenance. Stop any decision whose critical evidence is absent; recover by requesting it or recording a bounded assumption.
 3. Apply the domain method in the core sections below, following the decision table whenever evidence conflicts or scope changes.
 4. Verify calculations, dates, named platforms and claims against the supplied sources; label inference and uncertainty.
@@ -76,7 +78,7 @@ The output is client-specific, uses British English and the stated market/curren
 - Using an undated benchmark as the client's result. Fix: use account evidence or label the benchmark as a provisional comparator.
 - Producing the social listening plan, query set and intelligence log without brand terms. Fix: stop the affected decision or issue a clearly bounded partial output.
 - Treating missing access or data as a successful check. Fix: record `not assessed`, its risk and the recovery input.
-- Absorbing `meta-sentiment-analysis` into this workflow. Fix: route the neighbouring output and hand over verified inputs.
+- Reporting sentiment as a word or without volume and driving theme. Fix: follow the NSS rules in the sentiment references.
 - Publishing, spending or editing a live account during planning or review. Fix: obtain separate explicit authority and retain action evidence.
 
 ## Worked example
@@ -85,13 +87,15 @@ Given verified brand terms, the skill produces a social listening plan, query se
 
 ## Read next
 
-- [`meta-sentiment-analysis`](../meta-sentiment-analysis/SKILL.md) for the neighbouring contract.
+- [`meta-competitor-analysis`](../meta-competitor-analysis/SKILL.md) for full competitor benchmarking.
 - [`anti-ai-slop`](../../ai-marketing/anti-ai-slop/SKILL.md) during production.
 - [`ai-slop-audit`](../../ai-marketing/ai-slop-audit/SKILL.md) at the release checkpoint.
 
 ## References
 
 - [Anti-AI slop production gate](../../ai-marketing/anti-ai-slop/SKILL.md)
+- [sentiment-and-share-of-voice-method](references/sentiment-and-share-of-voice-method.md) — read when scoring supplied conversation data for sentiment, NSS, share of voice or themes, or producing the monthly sentiment report.
+- [listening-operations-playbook](references/listening-operations-playbook.md) — read when setting up tools by budget, crisis-trigger keywords, the sentiment dashboard, weekly decision table or the Monday/Wednesday/Friday routine.
 - Follow the directly linked repository skills above and any domain references named in the core sections below. Verify current platform, price, legal and regulatory claims before use.
 
 ## Required Input

@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/advertising/ad-testing-and-scaling through docs/skill-aliases.yml; content preserved in ad-testing-and-scaling/references/organic-to-paid-amplification.md. Retained for historical content.
 # Organic-Then-Amplify Hybrid Strategy
 
 <!-- dual-compat-start -->

@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/measurement-tracking-plan through docs/skill-aliases.yml; content preserved in measurement-tracking-plan/references/utm-convention-and-campaign-register.md. Retained for historical content.
 # meta-utm-tracking
 
 ## Purpose

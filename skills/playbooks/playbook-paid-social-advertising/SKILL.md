@@ -1,6 +1,6 @@
 ---
 name: playbook-paid-social-advertising
-description: Use when planning, specifying, auditing or reporting paid social campaigns on Meta, TikTok or LinkedIn, including objectives, audiences, budgets, creative briefs, tracking and optimisation rules; use paid-search-advertising for Google Ads and strategy-organic-paid-hybrid for boosting organic winners.
+description: Use when planning, specifying, auditing or reporting paid social campaigns on Meta, TikTok or LinkedIn, including objectives, audiences, budgets, creative briefs, tracking and optimisation rules; use paid-search-advertising for Google Ads and ad-testing-and-scaling for boosting organic winners.
 metadata:
   portable: true
   compatible_with:
@@ -112,7 +112,7 @@ Without account access, current platform checks or tracking, return the narrowes
 - [Paid social diagnostics and reporting](references/paid-social-diagnostics-and-reporting.md) — read for weekly optimisation, kill/scale decisions and monthly reports.
 - [TikTok and LinkedIn paid notes](references/tiktok-and-linkedin-paid-notes.md) — read when either platform is in scope.
 - [Ad testing and scaling](../../advertising/ad-testing-and-scaling/SKILL.md); [ad copy and hook lab](../../advertising/ad-copy-and-hook-lab/SKILL.md); [creative brief and big idea](../../advertising/creative-brief-and-big-idea/SKILL.md).
-- [Ad-to-site journey handoff](../../advertising/ad-to-site-journey-handoff/SKILL.md); [post-click strategy](../playbook-post-click-strategy/SKILL.md); [UTM tracking](../../meta-analytics-ops/meta-utm-tracking/SKILL.md).
+- [Ad-to-site journey handoff](../../advertising/ad-to-site-journey-handoff/SKILL.md); [post-click strategy](../playbook-post-click-strategy/SKILL.md); [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md).
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md); [creative review gate](../../../docs/quality-gates/creative-review-gate.md); [anti-AI-slop gate](../../ai-marketing/anti-ai-slop/SKILL.md).
 <!-- dual-compat-end -->
 
@@ -139,7 +139,7 @@ Meta's current objectives are Awareness, Traffic, Engagement, Leads, App promoti
 | Enquiries via instant form or messaging | Leads | Add one qualifying question where sales capacity is limited |
 | Purchases, bookings, qualified conversions | Sales | Requires working Pixel/Conversions API events |
 
-Boosted posts suit amplification of proven organic posts (see `strategy-organic-paid-hybrid`); business outcomes use Ads Manager campaigns.
+Boosted posts suit amplification of proven organic posts (see `ad-testing-and-scaling`, references/organic-to-paid-amplification.md); business outcomes use Ads Manager campaigns.
 
 ## Section 2 — Audience temperature and starting split
 

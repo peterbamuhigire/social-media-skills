@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-reporting through docs/skill-aliases.yml; content preserved in meta-reporting/references/dashboard-specification.md. Retained for historical content.
 # Marketing Dashboard Design Standards
 
 **Source:** Raaz (c.2023) *Web Analytics Blueprint*

@@ -194,7 +194,7 @@ Once the influencer is selected and vetted, apply these design principles:
 2. **Authentic integration:** The most effective influencer content integrates the brand into the creator's natural content style — it does not interrupt it. A food blogger filming their weekly meal prep naturally featuring the client's product outperforms a scripted testimonial.
 3. **Disclose clearly:** No influencer-specific disclosure statute was found for Uganda, Kenya or Tanzania (register UG-01, KE-01, TZ-01, 2026-09-24), but misleading-representation and code rules apply indirectly; run the jurisdiction disclosure register and pre-campaign checklist in `../../pipeline/08-influencer-marketing-strategy/references/influencer-term-sheet-and-disclosure.md` (not legal advice; confirm with counsel), and apply the FTC/ASA standard as best practice. Require "#ad", "#sponsored", or equivalent in the creator's primary language, in the caption — not buried in hashtags.
 4. **Content rights:** Agree in writing whether the client has the right to repurpose influencer content as paid social advertising. This is contractual — refer to a lawyer.
-5. **Performance tracking:** Require UTM links for all influencer content linking to the client's website. Track reach, engagement, link clicks, and conversions. See `meta-utm-tracking` for UTM setup.
+5. **Performance tracking:** Require UTM links for all influencer content linking to the client's website. Track reach, engagement, link clicks, and conversions. See `measurement-tracking-plan` for UTM setup.
 
 ## Quality Criteria
 Output meets the standard for this skill if:

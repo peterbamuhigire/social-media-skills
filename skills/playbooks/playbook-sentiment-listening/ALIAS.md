@@ -7,6 +7,9 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-social-listening through docs/skill-aliases.yml; content preserved in meta-social-listening/references/listening-operations-playbook.md. Retained for historical content.
+
 # Sentiment Listening Playbook
 
 <!-- dual-compat-start -->

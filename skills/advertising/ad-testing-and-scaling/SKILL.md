@@ -1,6 +1,6 @@
 ---
 name: ad-testing-and-scaling
-description: Use when designing ad tests, reading results, deciding what to scale, kill or refresh, building retargeting pools, or rolling a winning ad out across budgets and markets; use meta-testing-framework for general experiment statistics and creative-brief-and-big-idea for concept screening.
+description: Use when designing ad tests, reading results, deciding what to scale, kill or refresh, boosting proven organic posts, building retargeting pools, or rolling a winning ad out across budgets and markets; use meta-testing-framework for general experiment statistics and creative-brief-and-big-idea for concept screening.
 metadata:
   portable: true
   compatible_with:
@@ -20,6 +20,7 @@ Test small and many before spending the bulk of a budget, decide with pre-agreed
 - A winning ad or audience needs a controlled roll-out across budget, markets or channels.
 - Performance is decaying (fatigue, rising cost) and the team needs a refresh plan.
 - A retargeting or re-engagement pool (web, video, WhatsApp, SMS, lead-form) needs designing.
+- Facebook or Instagram organic reach has declined and the client needs an organic-then-amplify plan: which posts to boost, boost budget bands in UGX, a WhatsApp owned audience and expectation-setting scripts (formerly `strategy-organic-paid-hybrid`).
 
 ## Do Not Use When
 
@@ -87,6 +88,7 @@ If exports, tracking or the break-even line are unavailable, return the narrowes
 | Frequency rising and cost per result worsening | Refresh creative or widen audience before more budget | Fatigue and wasted spend |
 | Result beats the line for the agreed window | Extend in steps, re-reading at each | Destabilising delivery with large jumps |
 | Comparative ad names a competitor | Legal review before launch; prefer a category rival | Disparagement or code breach |
+| Deciding whether to boost an organic Page post | Apply the early-engagement thresholds, decision tree and budget bands in [organic-to-paid amplification](references/organic-to-paid-amplification.md) | Boosting weak posts, or paid reach with no CTA |
 
 ## Quality Standards
 
@@ -110,6 +112,7 @@ If exports, tracking or the break-even line are unavailable, return the narrowes
 
 - [Test design and reading](references/test-design-and-reading.md) — read when writing test cards or reading results.
 - [Scaling, fatigue and retargeting](references/scaling-fatigue-and-retargeting.md) — read when deciding roll-out, refresh or pool design.
+- [organic-to-paid-amplification](references/organic-to-paid-amplification.md) — read when explaining organic reach decline, deciding which organic posts to boost, or setting a monthly boost budget.
 - [Meta-testing framework](../../meta-analytics-ops/meta-testing-framework/SKILL.md) for statistical design; [advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md) for incrementality.
 - [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md); [paid social playbook](../../playbooks/playbook-paid-social-advertising/SKILL.md); [paid search](../paid-search-advertising/SKILL.md).
 - [Direct-marketing ethics filter](../../content-writing/references/direct-marketing-ethics-filter.md).

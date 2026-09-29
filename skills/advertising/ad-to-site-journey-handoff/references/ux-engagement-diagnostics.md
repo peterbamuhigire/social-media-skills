@@ -79,7 +79,7 @@ Research users and stakeholders → define needs → ideate → prototype → te
 
 ## 8. Dashboards and data visualisation shown to clients
 
-When a destination or client report includes charts: choose the chart for the data and the decision, not decoration; avoid 3D widgets, heavy shadows and gradients; use colour to highlight meaning; give context for every number; use pre-attentive attributes (size, colour difference, orientation, proximity, similarity, connection) deliberately. Route visual production to `design-system-skills`; route dashboard content to [meta-dashboard-design](../../../meta-analytics-ops/meta-dashboard-design/SKILL.md).
+When a destination or client report includes charts: choose the chart for the data and the decision, not decoration; avoid 3D widgets, heavy shadows and gradients; use colour to highlight meaning; give context for every number; use pre-attentive attributes (size, colour difference, orientation, proximity, similarity, connection) deliberately. Route visual production to `design-system-skills`; route dashboard content to [meta-reporting](../../../meta-analytics-ops/meta-reporting/references/dashboard-specification.md).
 
 ## 9. Internal portals and intranets
 

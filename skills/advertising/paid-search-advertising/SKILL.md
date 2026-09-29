@@ -111,7 +111,7 @@ Without account access, current help-centre checks or keyword tools, return the 
 - [Search build specification](references/search-build-specification.md) — read when structuring a new account or campaign.
 - [Search optimisation and audit](references/search-optimisation-and-audit.md) — read for existing accounts and weekly optimisation.
 - [Ad copy and hook lab](../ad-copy-and-hook-lab/SKILL.md) for RSA assets; [ad-to-site journey handoff](../ad-to-site-journey-handoff/SKILL.md) for landing pages.
-- [Advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md); [UTM tracking](../../meta-analytics-ops/meta-utm-tracking/SKILL.md).
+- [Advertising attribution and measurement](../advertising-attribution-and-measurement/SKILL.md); [measurement tracking plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md).
 - [Legal/market release gate](../../../docs/quality-gates/legal-market-release-gate.md); [source register](../../../docs/source-registers/source-register.json).
 <!-- dual-compat-end -->
 

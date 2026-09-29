@@ -7,6 +7,9 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-roi-framework through docs/skill-aliases.yml; content preserved in meta-roi-framework/references/investment-business-case.md. Retained for historical content.
+
 # meta-social-media-roi-business-case
 
 ## Purpose

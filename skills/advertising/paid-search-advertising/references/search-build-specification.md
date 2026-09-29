@@ -39,7 +39,7 @@ Match-type behaviour, keyword matching rules, bidding strategy minimums and lear
 
 - One responsive search ad per ad group to start (more only when testing a distinct message), written to the AD-05 limits; follow `ad-copy-and-hook-lab` format guidance.
 - Sitelinks to real pages (pricing, booking, locations, proof), callouts (true, specific), structured snippets where relevant, call asset and location asset for local businesses; check current asset types on the day.
-- Final URL with UTM parameters from `meta-utm-tracking`; one landing page per theme.
+- Final URL with UTM parameters from the UTM convention in `measurement-tracking-plan`; one landing page per theme.
 
 ## 5. Conversion tracking brief
 

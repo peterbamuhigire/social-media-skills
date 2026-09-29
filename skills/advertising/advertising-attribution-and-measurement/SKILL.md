@@ -1,6 +1,6 @@
 ---
 name: advertising-attribution-and-measurement
-description: Use when defining conversion events, choosing an attribution model, designing holdout or geo incrementality tests, setting break-even ROAS and allowable CPA, or reconciling advertising results; use meta-roi-framework for full ROI business cases and meta-utm-tracking for naming.
+description: Use when deciding which conversions count for credit, choosing an attribution model, designing holdout or geo incrementality tests, setting break-even ROAS and allowable CPA, or reconciling advertising results; use meta-roi-framework for full ROI business cases and measurement-tracking-plan for tags, consent and UTM naming.
 metadata:
   portable: true
   compatible_with:
@@ -24,8 +24,8 @@ Decide what counts as a result, how credit is assigned across channels, how to p
 ## Do Not Use When
 
 - The task is a full ROI business case or investment justification; use [meta-roi-framework](../../meta-analytics-ops/meta-roi-framework/SKILL.md).
-- The task is UTM naming and campaign register governance; use [meta-utm-tracking](../../meta-analytics-ops/meta-utm-tracking/SKILL.md).
-- The task is dashboard layout; use [meta-dashboard-design](../../meta-analytics-ops/meta-dashboard-design/SKILL.md).
+- The task is the tracking plan itself (event map, Consent Mode v2, Conversions API or enhanced conversions set-up, UTM naming, BigQuery export); use [measurement-tracking-plan](../../meta-analytics-ops/measurement-tracking-plan/SKILL.md).
+- The task is dashboard layout; use [meta-reporting](../../meta-analytics-ops/meta-reporting/SKILL.md).
 - The task is statistical test design for creative variants; use [ad-testing-and-scaling](../ad-testing-and-scaling/SKILL.md) and [meta-testing-framework](../../meta-analytics-ops/meta-testing-framework/SKILL.md).
 - Stop if personal data would be processed without a lawful basis and authority.
 
@@ -37,7 +37,7 @@ Decide what counts as a result, how credit is assigned across channels, how to p
 | Gross margin, average order value, repeat rate or lifetime value | Client finance owner | Yes for allowable CPA and break-even ROAS | Label the economics `not assessed`; report cost per result only |
 | Tracking inventory (tags, pixels, conversion APIs, CRM fields, WhatsApp labels, POS codes) | Client web or analytics owner | Conditional | List gaps; recommend fixes via [ad-to-site-journey-handoff](../ad-to-site-journey-handoff/SKILL.md) |
 | Platform and analytics exports | Client-authorised accounts | Conditional | Mark channel results `not assessed` |
-| Consent and privacy position (markets served, CMP, privacy notice) | Client legal or data owner | Yes when EEA/UK/CH traffic or personal data is involved | Flag and route to [meta-analytics-privacy](../../meta-analytics-ops/meta-analytics-privacy/SKILL.md) |
+| Consent and privacy position (markets served, CMP, privacy notice) | Client legal or data owner | Yes when EEA/UK/CH traffic or personal data is involved | Flag and route to [measurement-tracking-plan](../../meta-analytics-ops/measurement-tracking-plan/references/consent-mode-and-cmp.md) |
 
 ## Workflow
 

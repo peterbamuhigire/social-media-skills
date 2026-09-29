@@ -74,7 +74,7 @@ Also check three perspectives — how the product fits the person's life, how th
 
 ## 7. Dashboards and data presentation
 
-Charts exist to improve understanding: choose the chart for the data and the decision, avoid 3D and decorative effects, use colour for meaning, give context, and use size, colour, orientation and proximity deliberately. Visual execution routes to `design-system-skills`; dashboard specification to `meta-dashboard-design`.
+Charts exist to improve understanding: choose the chart for the data and the decision, avoid 3D and decorative effects, use colour for meaning, give context, and use size, colour, orientation and proximity deliberately. Visual execution routes to `design-system-skills`; dashboard specification to `meta-reporting`.
 
 ## 8. Handoff
 

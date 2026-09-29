@@ -36,7 +36,7 @@ For formal-sector B2B clients, lay the programme out as an ordered chain and giv
 
 content creation → lead capture → prospect identification → nurture → scoring and qualification → marketing-qualified hand-over → sales acceptance.
 
-Route scoring to `meta-lead-scoring`, hand-over rules to `meta-sales-marketing-alignment`, and account-level programmes to `strategy/strategy-b2b-customer-community`. Source: Zahay, D. et al. (2024), B2B demand-generation process, paraphrased; any statistic about when buyers contact sales must come from a current, dated source.
+Route scoring and hand-over rules to `meta-sales-marketing-alignment`, and account-level programmes to `strategy/strategy-b2b-customer-community`. Source: Zahay, D. et al. (2024), B2B demand-generation process, paraphrased; any statistic about when buyers contact sales must come from a current, dated source.
 
 ## 5. Annual channel-mix review
 

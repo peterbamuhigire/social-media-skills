@@ -7,6 +7,8 @@ metadata:
   - claude-code
   - codex
 ---
+
+> Inactive alias. Route to skills/meta-analytics-ops/meta-reporting through docs/skill-aliases.yml; content preserved in meta-reporting/references/quarterly-marketing-mix-review.md. Retained for historical content.
 # Social Media Marketing Mix Review — 7 Ps Diagnostic
 
 ## Purpose

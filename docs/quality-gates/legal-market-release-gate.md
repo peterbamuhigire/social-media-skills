@@ -74,7 +74,7 @@ At discovery and immediately before release, run `python -X utf8 scripts/check_s
 
 Qualified legal or regulatory review is mandatory for political advertising, children, health claims, financial products, gambling, alcohol, tobacco, competitions with material prizes, biometric or sensitive data, cross-border transfers, unresolved copyright/likeness disputes, regulator complaints, or a proposed interpretation carrying material exposure. The reviewer’s decision and scope are evidence; “legal checked” without them is not.
 
-Parent routes: [paid social](../../skills/playbooks/playbook-paid-social-advertising/SKILL.md), [WhatsApp](../../skills/platforms/platform-whatsapp/SKILL.md), [influencer strategy](../../skills/pipeline/08-influencer-marketing-strategy/SKILL.md), [UGC strategy](../../skills/playbooks/playbook-ugc-strategy/SKILL.md), [analytics privacy](../../skills/meta-analytics-ops/meta-analytics-privacy/SKILL.md), and [AI content ethics](../../skills/policies/policy-ai-content-ethics/SKILL.md).
+Parent routes: [paid social](../../skills/playbooks/playbook-paid-social-advertising/SKILL.md), [WhatsApp](../../skills/platforms/platform-whatsapp/SKILL.md), [influencer strategy](../../skills/pipeline/08-influencer-marketing-strategy/SKILL.md), [UGC strategy](../../skills/playbooks/playbook-ugc-strategy/SKILL.md), [analytics privacy and consent](../../skills/meta-analytics-ops/measurement-tracking-plan/SKILL.md), and [AI content ethics](../../skills/policies/policy-ai-content-ethics/SKILL.md).
 
 ## Advertising, direct-response and outreach checks (2026-09-23)
 
