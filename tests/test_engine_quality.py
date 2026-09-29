@@ -19,6 +19,49 @@ def load_script(name: str):
     return module
 
 
+
+def count_surface_findings(root: Path) -> list[str]:
+    """S12-T07: README, marketplace and plugin surfaces must state the filesystem catalogue.
+
+    Portfolio precedent: test_current_active_count_matches_filesystem_and_documented_surfaces.
+    """
+    import yaml
+    findings: list[str] = []
+    active = sorted(path.parent for path in (root / "skills").rglob("SKILL.md"))
+    total = len(active)
+    readme = (root / "README.md").read_text(encoding="utf-8")
+    if f"{total} active `SKILL.md` files" not in readme:
+        findings.append(f"README capability sentence does not state {total} active skills")
+    if f"| **Total** | **{total}** |" not in readme:
+        findings.append(f"README category table total is not {total}")
+    for category, size in sorted({p.parent.name: 0 for p in active}.items()):
+        size = sum(1 for p in active if p.parent.name == category)
+        if f"| `{category}` | {size} |" not in readme:
+            findings.append(f"README category row for {category} is not {size}")
+    if f"library of {total} routed skills" not in readme:
+        findings.append(f"README executive summary does not state {total} routed skills")
+    listed = set(re.findall(r"^\| `([^`/]+)` \| `([^`/]+)` \| ", readme, re.M))
+    expected = {(p.parent.name, p.name) for p in active}
+    if listed != expected:
+        findings.append(f"README skill table differs from the filesystem: {sorted(listed ^ expected)}")
+    routes = (yaml.safe_load((root / "docs" / "skill-aliases.yml").read_text(encoding="utf-8")) or {}).get("inactive_skill_aliases") or {}
+    wanted = {(src.replace("skills/", "", 1), dst.replace("skills/", "", 1)) for src, dst in routes.items()}
+    retired = set()
+    for source, owner in re.findall(r"^\| `([^`]+)`(?: \(former category standards file\))? \| `([^`]+/[^`]+)` \|$", readme, re.M):
+        retired.add((source, owner))
+    if retired != wanted:
+        findings.append(f"README retired-route table differs from docs/skill-aliases.yml: {sorted(retired ^ wanted)}")
+    marketplace = json.loads((root / ".claude-plugin" / "marketplace.json").read_text(encoding="utf-8"))
+    description = marketplace["plugins"][0]["description"]
+    if not description.startswith(f"{total} skills "):
+        findings.append(f"marketplace description does not start with '{total} skills'")
+    plugin = json.loads((root / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
+    declared = {entry.strip("./").rstrip("/") for entry in plugin["skills"]}
+    if declared != {path.relative_to(root).as_posix() for path in active}:
+        findings.append("plugin.json skills list differs from the active catalogue")
+    return findings
+
+
 class EngineQualityTests(unittest.TestCase):
     def test_zero_debt_baseline_has_no_waivers(self):
         baseline = json.loads((ROOT / "quality-baseline.json").read_text(encoding="utf-8"))
@@ -165,6 +208,32 @@ class EngineQualityTests(unittest.TestCase):
                     (path.parent / target).resolve().exists(),
                     f"broken local link in {path.relative_to(ROOT)}: {target}",
                 )
+
+    def test_current_active_count_matches_filesystem_and_documented_surfaces(self):
+        # S12-T07 (portfolio precedent of the same name): README tables, the retired-route table,
+        # the marketplace description and plugin.json must state the filesystem catalogue.
+        self.assertEqual([], count_surface_findings(ROOT))
+
+    def test_count_surface_check_fails_on_a_mutated_count(self):
+        import shutil
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            shutil.copytree(ROOT / "skills", root / "skills", ignore=shutil.ignore_patterns("references", "scripts", "assets"))
+            (root / "docs").mkdir()
+            shutil.copy2(ROOT / "docs" / "skill-aliases.yml", root / "docs" / "skill-aliases.yml")
+            shutil.copytree(ROOT / ".claude-plugin", root / ".claude-plugin")
+            readme = (ROOT / "README.md").read_text(encoding="utf-8")
+            (root / "README.md").write_text(readme, encoding="utf-8")
+            self.assertEqual([], count_surface_findings(root))
+            active = len(list((ROOT / "skills").rglob("SKILL.md")))
+            mutated = readme.replace(f"| **Total** | **{active}** |", f"| **Total** | **{active + 1}** |")
+            (root / "README.md").write_text(mutated, encoding="utf-8")
+            self.assertTrue(any("category table total" in f for f in count_surface_findings(root)))
+            (root / "README.md").write_text(readme, encoding="utf-8")
+            marketplace = root / ".claude-plugin" / "marketplace.json"
+            marketplace.write_text(marketplace.read_text(encoding="utf-8").replace(f'"{active} skills ', f'"{active - 1} skills '), encoding="utf-8")
+            self.assertTrue(any("marketplace" in f for f in count_surface_findings(root)))
 
 
 if __name__ == "__main__":

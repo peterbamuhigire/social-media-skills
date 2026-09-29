@@ -16,6 +16,18 @@ validation:
       - windows
       - linux
       - macos
+  - id: routing-gate
+    command: python -X utf8 scripts/routing_smoke_test.py --lint-fixtures
+    working_directory: .
+    platforms: [windows, linux, macos]
+  - id: alias-gate
+    command: python -X utf8 scripts/check_skill_aliases.py
+    working_directory: .
+    platforms: [windows, linux, macos]
+  - id: source-freshness-gate
+    command: python -X utf8 scripts/check_source_freshness.py
+    working_directory: .
+    platforms: [windows, linux, macos]
 agent_integration:
   supported_modes: [full, sequential, read_only, not_assessed]
   local_context_files: [AGENTS.md, .skills-engine/AGENTS-INTEGRATION.md]
@@ -27,6 +39,7 @@ source_of_truth:
   router: AGENTS.md
   skills: skills/**/SKILL.md
   references: references/**
+  aliases: docs/skill-aliases.yml
 invariants:
   - id: british-english
     phrase: "Use British English throughout unless the target market or requested language requires otherwise."

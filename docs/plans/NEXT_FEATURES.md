@@ -1,10 +1,18 @@
 # Next Features — social-media-skills
 
-*Last updated: 13 July 2026*
+*Last updated: 29 September 2026*
 
 ---
 
 ## ✅ Recently Completed
+
+### September 2026 — Consolidation 191 → 112 (Social Kaizen 2026-09-29)
+
+- Consolidated 191 active skills to 112 (hard cap 120): 83 retired skills are inactive `ALIAS.md` routes in `docs/skill-aliases.yml`, each with a preservation map and its unique content moved into the owner's `references/` (S01–S07).
+- Rewrote every description and `Use When` in client language; applied the lean template and the 300-line ceiling (S08–S09).
+- Closed the world-class benchmark gaps: NEW `brand-strategy-and-distinctive-assets`, `marketing-mix-modelling`, `programmatic-and-brand-safety` and `measurement-tracking-plan`; East African legal-currency repairs; source register extended to 179 records (S04, S10; three companion pairs folded in S11).
+- Re-baselined routing: 392 fixtures covering all 112 skills, p@1 94.9 % (lexical proxy), social floor 92 registered in the portfolio ratchet, 0 social collision pairs at 0.75 or above (S11); README, router, manifests and engine tours regenerated (S12).
+- Evidence: `docs/kaizen/consolidation-2026-09-29/`. Tier 3 behavioural routing remains `NOT_ASSESSED (zero-spend rule)`.
 
 ### July 2026 — Zero-debt skill composition upgrade
 

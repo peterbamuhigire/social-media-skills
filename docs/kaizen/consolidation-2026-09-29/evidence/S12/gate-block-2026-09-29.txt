@@ -1,4 +1,4 @@
-# S11 standard gate block, 29 Sep 2026 (social-media-skills + chwezi-engine-agents), final run after review fixes
+# S12 standard gate block, 29 Sep 2026 (social-media-skills + chwezi-engine-agents), final run after review fixes
 
 $ python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json
 skills=112 compliant=112 failures=0 median_lines=121.0
@@ -17,14 +17,13 @@ skill aliases: routes=83 findings=0 active=112 cap=120
 exit=0
 
 $ python -X utf8 -B -m pytest -q tests
-............................................................... [ 92%]
-.....                                                           [100%]
-68 passed, 18 subtests passed in 8.48s
+......................................................................                                                         [100%]
+70 passed, 18 subtests passed in 8.42s
 exit=0
 
 $ python -X utf8 -m unittest discover -s tests -p test_*.py
 ----------------------------------------------------------------------
-Ran 68 tests in 7.876s
+Ran 70 tests in 8.314s
 
 OK
 exit=0
@@ -40,6 +39,10 @@ exit=0
 
 $ python -X utf8 scripts/measure_skill_scaffolding.py
 skills=112 raw_median=30.9% gated_median=1.4% median_lines=121.0 over_300=0
+exit=0
+
+$ node scripts/generate-plugin-manifest.js --engine . --check
+social-media-skills: plugin.json is current — 112 skills.
 exit=0
 
 $ git diff --check
@@ -70,7 +73,16 @@ $ (chwezi-engine-agents) python -X utf8 scripts/validate-no-book-extractions.py
 PASS: book-extraction check roots=12 findings=0
 exit=0
 
+$ (chwezi-engine-agents) python -X utf8 scripts/generate_engine_tour.py --all --check
+PASS: 12 tours; dangling paths 0; missing gate commands 0; stale warnings 0
+exit=0
+
+$ (chwezi-engine-agents) powershell -NoProfile -File scripts/validate-catalog.ps1
+PASS: schema=<workspace>\chwezi-engine-agents\schemas\engine-catalog.schema.json instance=<workspace>\chwezi-engine-agents\catalog\engines.yaml
+Catalog valid: 11 unique engines.
+exit=0
+
 $ (chwezi-engine-agents) python -X utf8 -B -m pytest -q tests
 ..................                                                       [100%]
-162 passed in 36.69s
+162 passed in 34.19s
 exit=0

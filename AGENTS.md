@@ -75,7 +75,7 @@ skills/
       assets/       # optional
 ```
 
-Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, `training/`, and `advertising/`. Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (The former category-level standards file `skills/content-writing/SKILL.md` is now the inactive alias `skills/content-writing/ALIAS.md`; its standards live in `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md`, and the shared `skills/content-writing/references/` folder stays in place.)
+Skills are grouped into thematic categories under `skills/`: `ai-marketing/`, `business-development/`, `content-writing/`, `frameworks/`, `language/`, `meta-analytics-ops/`, `meta-utility/`, `pipeline/`, `platforms/`, `playbooks/`, `policies/`, `seo-discovery/`, `sectors/`, `strategy/`, `training/`, and `advertising/` (`frameworks/` now holds only inactive aliases). Treat every `skills/<category>/<skill-name>/SKILL.md` file as a skill. The repository root is reserved for project documentation and operational folders such as `docs/`, `skills/`, and `projects/`; do not add new skill directories directly at root, and do not place a skill directly under `skills/` — it must sit inside a category. (The former category-level standards file `skills/content-writing/SKILL.md` is now the inactive alias `skills/content-writing/ALIAS.md`; its standards live in `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md`, and the shared `skills/content-writing/references/` folder stays in place.)
 
 ## Default Context
 
@@ -98,7 +98,7 @@ Apply these alongside the main deliverable skill when relevant:
 
 - `language/east-african-english`: tone, register, British spelling, EA business phrasing
 - `language/language-standards`: multilingual standards where English, French, or Kiswahili output is required
-- `content-writing/` (category): readability, headlines, persuasion, scannability
+- `content-writing/premium-commercial-writing/references/content-writing-standards.md`: readability, headlines, persuasion, scannability (the former category-level standards file)
 - `meta-utility/skill-writing`: authoring or revising skills in this repository
 - `meta-utility/skill-safety-audit`: safety review for imported or substantially changed skills
 - `ai-marketing/anti-ai-slop`: MANDATORY pre-ship gate — run its ship-gate checklist on every generated social output (caption, post, carousel, campaign, ad copy, blog, email, deck, image/video brief) before delivery or publishing
@@ -115,7 +115,7 @@ For integrated digital marketing, start with `skills/pipeline/06-digital-marketi
 Use the skill whose directory name and `description` most closely match the deliverable. Prefixes matter:
 
 - `biz-dev-`: credentials, proposals, pricing, outreach, practitioner positioning
-- `00-` to `04-`: intake and onboarding
+- `01-` to `04-`: intake and onboarding
 - `05-` to `09-`: strategy
 - `10-` to `13-`: planning
 - `platform-`: platform-specific plans
@@ -126,7 +126,7 @@ Use the skill whose directory name and `description` most closely match the deli
 - `policy-`: internal or client-facing policy documents
 - `ai-`, `brand-voice-`, `prompt-`: AI strategy, prompting, automation, evaluation
 - `caption-writer`, `email-copywriter`, `blog-writer`, `content-ideas`: direct content generation (hashtag strategy is part of `caption-writer`)
-- `framework-`, `peso-`, `owned-media-`, `social-commerce-`, `strategy-`: strategic frameworks and specialist strategy modules
+- `peso-`, `social-commerce-`, `strategy-`, `brand-strategy-`, `marketing-foundations-`, `traction-`: strategic frameworks and specialist strategy modules (brand building and distinctive assets route to `strategy/brand-strategy-and-distinctive-assets`)
 - `advertising/`: advertising strategy and budget, media planning, programmatic and brand safety, marketing mix modelling, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, ad-to-site journey handoff
 - `business-development/eac-call-for-applications-campaign`: donor-compliant calls for applications, EOIs, applicant FAQs, partner dissemination kits, fairness protocols, and evidence logs across EAC markets
 - `strategy/ecommerce-export-marketing-advisory`: export marketing plans for e-commerce companies, cross-border trust/proof layers, conversion reviews, CAC-bounded campaign outlines, and partner outreach
@@ -248,7 +248,7 @@ Treat that roadmap as the controlling sequence for major repository improvements
 | Deck outline output | Slide-by-slide outline declared by the matched skill; final visual production routes to `chwezi-design-engine` | No standalone deck route is active |
 | `meta-` | Analytical / reporting | meta-reporting, meta-roi-framework |
 | `advertising/` skills (plain names) | Advertising strategy, media, creative, copy, search, testing, attribution | advertising-strategy-and-budget, media-planning, ad-copy-and-hook-lab |
-| `training-` | Training guides | training-client-team (absorbed `training-diy-content`), training-ai-foundations |
+| `training-` | Training guides | training-client-team, training-ai-foundations |
 | Plain name | Utility / generation | caption-writer, content-ideas, blog-writer |
 
 ### Skill Categories
@@ -259,20 +259,20 @@ Skills are organised into thematic subdirectories under `skills/`. The canonical
 |---|---|
 | `ai-marketing/` | AI-prefixed skills, brand voice AI training, AI strategy and governance |
 | `business-development/` | `biz-dev-*` — credentials, proposals, pricing, outreach, practitioner positioning |
-| `content-writing/` | Blog, caption, email, copywriting, direct-response, prompt libraries, hashtag, image-prompt skills |
-| `pipeline/` | Numbered onboarding-to-planning flow `00-` through `13-` |
-| `frameworks/` | Inactive aliases only since Social Kaizen S06: `framework-community-trust` routes to `playbook-community-management` and `framework-digital-transparency` to `strategy-csr-purpose-communications` |
+| `content-writing/` | Blog writing, content ideas, captions (including hashtags), email copy, premium commercial copy, direct-response funnel copy and the marketing prompt library (including image prompts) |
+| `pipeline/` | Numbered onboarding-to-planning flow `01-` through `13-` |
+| `frameworks/` | Inactive aliases only (Social Kaizen S06); their routes are in `docs/skill-aliases.yml` |
 | `meta-analytics-ops/` | `meta-*` analytics, reporting, measurement, audit skills |
 | `platforms/` | `platform-*` per-channel plans |
 | `playbooks/` | `playbook-*` execution SOPs |
 | `policies/` | `policy-*` governance and compliance |
-| `strategy/` | `strategy-*` plus `peso-integrated-strategy` (absorbed `owned-media-strategy`), `social-commerce-strategy`, `ecommerce-*`, `brand-strategy-and-distinctive-assets`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
+| `strategy/` | `strategy-*` plus `peso-integrated-strategy`, `social-commerce-strategy`, `ecommerce-export-marketing-advisory`, `brand-strategy-and-distinctive-assets`, `marketing-foundations-stp-positioning`, `traction-channel-bullseye` |
 | `advertising/` | Advertising strategy and budget, media planning, programmatic and brand safety, marketing mix modelling, creative brief and big idea, ad copy and hook lab, paid search, testing and scaling, attribution and measurement, direct-response economics, and the ad-to-site journey handoff |
 | `training/` | `training-*` client team training guides |
 | `seo-discovery/` | `seo-geo-optimisation`, `demand-forecasting` |
-| `sectors/` | Sector-specific social media skills — `healthcare` (first); future: financial services, education, hospitality, NGO |
-| `language/` | `east-african-english`, `language-standards` |
-| `meta-utility/` | `skill-writing`, `skill-safety-audit` — for authoring/auditing skills themselves |
+| `sectors/` | Sector-specific marketing skills — `healthcare`, `hospitality-hotel-restaurant`; future: financial services, education, NGO |
+| `language/` | `east-african-english`, `language-standards`, `french-native-copy`, `swahili-native-copy` |
+| `meta-utility/` | `skill-writing`, `skill-safety-audit`, `kaizen-improvement-system` — for authoring, auditing and improving skills and deliverables |
 
 When referencing a skill in documentation or prompts, use the full path: `skills/<category>/<skill-name>/SKILL.md`.
 
@@ -293,10 +293,10 @@ The binding contract is `docs/standards/skill-authoring-standard.md`; use `docs/
 
 Two skills under `skills/ai-marketing/` enforce that nothing leaving this engine reads as AI slop:
 
-- **`anti-ai-slop` — MANDATORY, applied in REAL TIME.** This is a live constraint applied **continuously while generating** — to every caption, post, slide, line, and image-brief sentence as it is written, not only as a final pre-ship pass. The moment a banned word, generic placeholder, unverified figure/brand/price, or template default appears, fix it in place. Run its ship-gate checklist on **every generated social output** — caption, post, thread, carousel, campaign, ad copy, blog draft, email, deck outline, image/video brief — before it is delivered to a client or published. No output ships with an unticked ship-gate box. Apply it alongside the deliverable skill and its humanising rewrite passes (`skills/ai-marketing/anti-ai-slop/references/humanising-rewrite-passes.md`, which absorbed the retired `ai-content-humaniser`), not instead of them.
+- **`anti-ai-slop` — MANDATORY, applied in REAL TIME.** This is a live constraint applied **continuously while generating** — to every caption, post, slide, line, and image-brief sentence as it is written, not only as a final pre-ship pass. The moment a banned word, generic placeholder, unverified figure/brand/price, or template default appears, fix it in place. Run its ship-gate checklist on **every generated social output** — caption, post, thread, carousel, campaign, ad copy, blog draft, email, deck outline, image/video brief — before it is delivered to a client or published. No output ships with an unticked ship-gate box. Apply it alongside the deliverable skill and its humanising rewrite passes (`skills/ai-marketing/anti-ai-slop/references/humanising-rewrite-passes.md`), not instead of them.
 - **`ai-slop-audit` — RUNS AFTER EACH MAJOR ITERATION (not only on request).** Run it after each completed unit of work — a drafted caption/post, a finished thread/carousel, a completed campaign or content calendar, a deck outline, a significant revision — logging a verdict each time; a grade **F blocks progression** to the next asset or submission until the blocking findings are fixed. It also auto-runs whenever the user asks to **analyse, review, evaluate, audit, critique, score, or de-slop** any content, campaign, image, or video, or asks "does this look AI-generated / is this AI slop / why does this feel off?", and as the final gate before publishing. It returns a graded report (A/B/C/F) with evidenced findings and concrete fixes.
 
-The two skills share one verified evidence base and one merged banned-vocabulary list (the canonical anti-slop lexicon plus the list of the retired `ai-content-humaniser`, now merged into `anti-ai-slop`). Preserve their verified citations verbatim: Merriam-Webster 2025 Word of the Year; Kommers et al. *"Why Slop Matters"* (arXiv 2601.06060); Spracklen et al. (USENIX Security 2025, 19.7%); Veracode (45% / XSS 86% / log-injection 88%). Do not add unsourced statistics to either skill.
+The two skills share one verified evidence base and one merged banned-vocabulary list (the canonical anti-slop lexicon plus the former humaniser list, now merged into `anti-ai-slop`). Preserve their verified citations verbatim: Merriam-Webster 2025 Word of the Year; Kommers et al. *"Why Slop Matters"* (arXiv 2601.06060); Spracklen et al. (USENIX Security 2025, 19.7%); Veracode (45% / XSS 86% / log-injection 88%). Do not add unsourced statistics to either skill.
 
 ### Default Country Context: Uganda / East Africa
 
@@ -375,9 +375,13 @@ These skills are available under `skills/<category>/<skill-name>/SKILL.md` and s
 | `language-standards` | `skills/language/language-standards/` | Grammar, punctuation, and vocabulary rules |
 | `content-writing-standards` | `skills/content-writing/premium-commercial-writing/references/content-writing-standards.md` | General content writing standards (formerly the category-level `skills/content-writing/SKILL.md`) |
 | `blog-writer` | `skills/content-writing/blog-writer/` | Blog post content generation (text, SEO, captions — no web dev) |
-| `content-ideas` | `skills/content-writing/content-ideas/` | Generate content and blog topic ideas and briefs (absorbed `blog-idea-generator`) |
-| `platform-linkedin` | `skills/platforms/platform-linkedin/` | LinkedIn personal and Company Page work, including Company Page setup, growth, Sub-Pages and Events (absorbed `platform-linkedin-company-pages`) |
+| `content-ideas` | `skills/content-writing/content-ideas/` | Generate content and blog topic ideas and briefs |
+| `platform-linkedin` | `skills/platforms/platform-linkedin/` | LinkedIn personal and Company Page work, including Company Page setup, growth, Sub-Pages and Events |
 | `advertising-strategy-and-budget` | `skills/advertising/advertising-strategy-and-budget/` | Entry point for advertising strategy, budget triangulation, measurement architecture and agency–client governance |
+| `brand-strategy-and-distinctive-assets` | `skills/strategy/brand-strategy-and-distinctive-assets/` | Brand building: category entry points, mental and physical availability, distinctive assets, brand/activation balance and brand tracking |
+| `marketing-mix-modelling` | `skills/advertising/marketing-mix-modelling/` | Marketing mix model specification (Meridian or Robyn), data floor and experiment calibration |
+| `programmatic-and-brand-safety` | `skills/advertising/programmatic-and-brand-safety/` | Programmatic, CTV, DOOH and audio buying with viewability, invalid-traffic, supply-path and brand-suitability controls |
+| `measurement-tracking-plan` | `skills/meta-analytics-ops/measurement-tracking-plan/` | Privacy-safe tracking plan: events, UTMs, Consent Mode v2, Conversions API, enhanced conversions |
 | `direct-marketing-ethics-filter` | `skills/content-writing/references/direct-marketing-ethics-filter.md` | Canonical ethics filter for ads, offers, outreach and influencer work |
 | `anti-ai-slop` | `skills/ai-marketing/anti-ai-slop/` | MANDATORY pre-ship guardrail — ship-gate checklist run on every generated social output so it cannot read as AI slop |
 | `ai-slop-audit` | `skills/ai-marketing/ai-slop-audit/` | Auto-run detector — grades any social artefact (A/B/C/F) for AI slop with evidenced findings and concrete fixes |
