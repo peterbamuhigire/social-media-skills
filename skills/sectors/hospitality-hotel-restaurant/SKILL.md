@@ -160,4 +160,4 @@ orders, response time, cancellations and complaints after the test.
 ## References
 
 - [Social source-register rules](../../../docs/source-registers/README.md)
-- [Digital Research source evaluation](C:/wamp64/www/digital-research-engine/skills/source-evaluation/SKILL.md)
+- [Digital Research source evaluation](https://github.com/peterbamuhigire/digital-research-skills/blob/main/skills/source-evaluation/SKILL.md)

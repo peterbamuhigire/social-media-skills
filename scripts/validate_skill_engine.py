@@ -62,11 +62,29 @@ def markdown_links(text: str) -> list[str]:
     return re.findall(r"\[[^\]]+\]\(([^)]+)\)", text)
 
 
-def local_link_exists(skill: Path, target: str) -> bool:
+# Portable-link rule: CI checks out one repository, so a link that is host-absolute
+# (C:/..., /C:/..., file:) or that climbs out of the repository to a sibling engine
+# resolves only on the author's machine. Such links count as broken locally too, so a
+# local pass predicts the CI result; link to other engines by their GitHub URL instead.
+HOST_ABSOLUTE_LINK = re.compile(r"^(?:file:|/?[A-Za-z]:[\\/])", re.I)
+
+
+def portable_link_target(base: Path, root: Path, target: str) -> Path | None:
+    """Resolve a local link target, or return None when it is not portable."""
+    if HOST_ABSOLUTE_LINK.match(target):
+        return None
+    resolved = (base / target).resolve()
+    return resolved if resolved.is_relative_to(root.resolve()) else None
+
+
+def local_link_exists(skill: Path, target: str, root: Path) -> bool:
     target = target.split("#", 1)[0]
+    if HOST_ABSOLUTE_LINK.match(target):
+        return False
     if not target or "://" in target or target.startswith(("mailto:", "#")):
         return True
-    return (skill.parent / target).resolve().exists()
+    resolved = portable_link_target(skill.parent, root, target)
+    return resolved is not None and resolved.exists()
 
 
 def assess(path: Path, root: Path) -> list[str]:
@@ -140,7 +158,7 @@ def assess(path: Path, root: Path) -> list[str]:
     links = markdown_links(refs)
     if not links:
         findings.append("reference_contract")
-    if any(not local_link_exists(path, target) for target in markdown_links(body)):
+    if any(not local_link_exists(path, target, root) for target in markdown_links(body)):
         findings.append("broken_relative_link")
     if len(raw.splitlines()) > 500:
         findings.append("line_limit")

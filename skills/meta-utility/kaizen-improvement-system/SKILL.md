@@ -105,12 +105,12 @@ If a short-form video gets reach but no qualified action and triggers cultural c
 ## Mandatory Digital Research currentness gate
 
 Every Kaizen cycle must begin with the Digital Research Engine at
-`C:\\wamp64\\www\\digital-research-engine`, using its source evaluation
+`digital-research-engine`, using its source evaluation
 and source verification. Record scope, dates, freshness class, support status,
 uncertainty, and review date for current platform, market, legal, policy,
 technology, and lifecycle claims; quarantine unsupported claims as
 `NOT_ASSESSED`. Apply the portfolio Kaizen currentness gate at
-`C:\\wamp64\\www\\digital-research-engine\\docs\\continuous-improvement\\kaizen-currentness-gate.md`.
+`digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md`.
 
 ## References
 

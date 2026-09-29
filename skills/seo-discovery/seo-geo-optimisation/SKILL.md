@@ -164,9 +164,9 @@ claims without current primary-source verification.
 - [AI search and social discovery rules](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md)
 - [customer-language bank and intent map](../../ai-marketing/ai-generative-search-optimisation/references/ai-search-and-social-discovery-rules.md) and the [real-time bridge and voice contract](../../playbooks/playbook-content-production/references/real-time-content-bridge-and-voice.md)
 - [Social source register](../../../docs/source-registers/source-register.json)
-- [Digital Research currentness gate](../../../../digital-research-engine/docs/continuous-improvement/kaizen-currentness-gate.md)
-- [Digital Research source evaluation](../../../../digital-research-engine/skills/source-evaluation/SKILL.md)
-- [Digital Research source verification](../../../../digital-research-engine/skills/source-verification/SKILL.md)
+- [Digital Research currentness gate](https://github.com/peterbamuhigire/digital-research-skills/blob/main/docs/continuous-improvement/kaizen-currentness-gate.md)
+- [Digital Research source evaluation](https://github.com/peterbamuhigire/digital-research-skills/blob/main/skills/source-evaluation/SKILL.md)
+- [Digital Research source verification](https://github.com/peterbamuhigire/digital-research-skills/blob/main/skills/source-verification/SKILL.md)
 - [AI Generative Search Optimisation](../../ai-marketing/ai-generative-search-optimisation/SKILL.md)
 - [AI slop ship gate](../../ai-marketing/anti-ai-slop/SKILL.md)
 <!-- dual-compat-end -->
