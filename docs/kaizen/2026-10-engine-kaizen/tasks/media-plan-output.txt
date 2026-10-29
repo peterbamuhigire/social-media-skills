@@ -5,25 +5,61 @@
   "rows": [
     {
       "channel": "LinkedIn",
-      "budget_ugx": 4000000,
-      "assumed_cpm_ugx": 25000,
-      "assumed_frequency": 2.5,
+      "budget_ugx": {
+        "value": 4000000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; no client brief supplied"
+      },
+      "cpm_ugx": {
+        "value": 25000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a market rate"
+      },
+      "frequency": {
+        "value": 2.5,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a platform control"
+      },
       "impressions": 160000.0,
       "gross_reach_at_assumed_frequency": 64000.0
     },
     {
       "channel": "Instagram / Meta",
-      "budget_ugx": 5000000,
-      "assumed_cpm_ugx": 10000,
-      "assumed_frequency": 3,
+      "budget_ugx": {
+        "value": 5000000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; no client brief supplied"
+      },
+      "cpm_ugx": {
+        "value": 10000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a market rate"
+      },
+      "frequency": {
+        "value": 3,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a platform control"
+      },
       "impressions": 500000.0,
       "gross_reach_at_assumed_frequency": 166666.66666666666
     },
     {
       "channel": "TikTok",
-      "budget_ugx": 3000000,
-      "assumed_cpm_ugx": 8000,
-      "assumed_frequency": 3,
+      "budget_ugx": {
+        "value": 3000000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; no client brief supplied"
+      },
+      "cpm_ugx": {
+        "value": 8000,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a market rate"
+      },
+      "frequency": {
+        "value": 3,
+        "origin": "synthetic_assumption",
+        "source": "scenario assumption; not a platform control"
+      },
       "impressions": 375000.0,
       "gross_reach_at_assumed_frequency": 125000.0
     }
