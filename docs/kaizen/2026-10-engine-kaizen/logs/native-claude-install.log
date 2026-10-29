@@ -1,0 +1,135 @@
+{"command":"marketplace-add","outcome":"ok","marketplace":"chwezi-social","message":"Successfully added marketplace: chwezi-social (declared in user settings)"}
+{"command":"install","outcome":"ok","plugin":"social@chwezi-social","pluginId":"social@chwezi-social","scope":"user","message":"Successfully installed plugin: social@chwezi-social (scope: user)\n1 userConfig option not yet set — run /plugin configure social@chwezi-social in Claude Code, or pass --config KEY=VALUE."}
+social 1.2.0
+  Description: 112 skills for digital marketing and advertising consultancy work: strategy, advertising and media planning, creative and copy, paid search and social specifications, content, measurement and agency operations
+  Source: social@chwezi-social
+
+Component inventory
+  Skills (112)  01-client-brief, 02-platform-audit, 03-audience-personas, 04-brand-voice-intake, 05-social-media-strategy, 06-digital-marketing-strategy, 07-email-marketing-strategy, 08-influencer-marketing-strategy, 09-campaign-strategy, 10-content-pillars, 11-content-calendar, 12-website-content-plan, 13-campaign-brief, ad-copy-and-hook-lab, ad-testing-and-scaling, ad-to-site-journey-handoff, advertising-attribution-and-measurement, advertising-strategy-and-budget, ai-generative-search-optimisation, ai-readiness-diagnostic, ai-slop-audit, ai-use-case-mapping, anti-ai-slop, biz-dev-credentials, biz-dev-lawful-prospecting-outreach, biz-dev-positioning, biz-dev-pricing-menu, biz-dev-proposal, blog-writer, brand-strategy-and-distinctive-assets, brand-voice-ai-training, caption-writer, content-ideas, creative-brief-and-big-idea, demand-forecasting, direct-response-economics, direct-response-funnel-copy, eac-call-for-applications-campaign, east-african-english, ecommerce-export-marketing-advisory, email-copywriter, french-native-copy, healthcare, hospitality-hotel-restaurant, kaizen-improvement-system, language-standards, marketing-foundations-stp-positioning, marketing-mix-modelling, measurement-tracking-plan, media-planning, meta-algorithm-guide, meta-budget-planner, meta-competitor-analysis, meta-content-audit, meta-content-repurposing, meta-reporting, meta-roi-framework, meta-sales-marketing-alignment, meta-social-listening, meta-social-metrics-framework, meta-testing-framework, meta-tools-stack-evaluation, paid-search-advertising, peso-integrated-strategy, platform-facebook, platform-google-business-profile, platform-instagram, platform-linkedin, platform-tiktok, platform-whatsapp, platform-x-twitter, platform-youtube, playbook-agency-operations, playbook-chatbot-strategy, playbook-client-retainer-management, playbook-community-management, playbook-content-production, playbook-crisis-communications, playbook-daily-operations-routine, playbook-marketing-automation, playbook-networking, playbook-paid-social-advertising, playbook-post-click-strategy, playbook-pr-publicity, playbook-reputation-management, playbook-sms-whatsapp-marketing, playbook-social-media-policy, playbook-social-selling, playbook-viral-content-design, policy-ai-content-ethics, premium-commercial-writing, programmatic-and-brand-safety, prompt-engineering-library, seo-geo-optimisation, skill-safety-audit, skill-writing, social-commerce-strategy, strategy-b2b-customer-community, strategy-channel-architecture, strategy-creator-monetisation, strategy-csr-purpose-communications, strategy-customer-value-journey, strategy-ewom-reviews, strategy-experiential-marketing, strategy-personal-brand, strategy-video-content, swahili-native-copy, traction-channel-bullseye, training-ai-foundations, training-client-team, training-smartphone-video-production, training-social-media-fundamentals
+  Agents (0)
+  Hooks (1)  PreToolUse  (harness-only — no model context cost)
+  MCP servers (0)
+  LSP servers (0)
+
+Projected token cost
+  Always-on:   ~10,061 tok   added to every session
+
+Per-component (rounded)
+  component                                always-on  on-invoke
+  ad-copy-and-hook-lab                           ~80      ~2.6k
+  ad-testing-and-scaling                         ~90      ~2.5k
+  ad-to-site-journey-handoff                     ~90      ~2.5k
+  advertising-attribution-and-measurement       ~100      ~2.4k
+  advertising-strategy-and-budget                ~90      ~2.8k
+  creative-brief-and-big-idea                    ~90      ~2.9k
+  direct-response-economics                      ~90      ~2.2k
+  marketing-mix-modelling                        ~90      ~3.1k
+  media-planning                                 ~90      ~2.8k
+  paid-search-advertising                        ~90      ~2.6k
+  programmatic-and-brand-safety                 ~100      ~3.2k
+  ai-generative-search-optimisation              ~90      ~3.7k
+  ai-readiness-diagnostic                        ~90      ~3.2k
+  ai-slop-audit                                  ~90        ~3k
+  ai-use-case-mapping                            ~90        ~3k
+  anti-ai-slop                                   ~80      ~4.3k
+  brand-voice-ai-training                        ~90      ~2.8k
+  biz-dev-credentials                            ~80      ~2.7k
+  biz-dev-lawful-prospecting-outreach           ~100      ~2.1k
+  biz-dev-positioning                            ~90      ~2.5k
+  biz-dev-pricing-menu                           ~90      ~2.8k
+  biz-dev-proposal                               ~80      ~2.7k
+  eac-call-for-applications-campaign             ~90      ~2.5k
+  blog-writer                                    ~90      ~3.2k
+  caption-writer                                 ~80      ~3.1k
+  content-ideas                                  ~90      ~2.7k
+  direct-response-funnel-copy                    ~90      ~3.2k
+  email-copywriter                               ~90      ~2.6k
+  premium-commercial-writing                    ~100      ~3.1k
+  prompt-engineering-library                     ~90      ~3.4k
+  east-african-english                           ~90      ~2.4k
+  french-native-copy                             ~90      ~2.8k
+  language-standards                             ~90      ~2.9k
+  swahili-native-copy                            ~80      ~2.7k
+  measurement-tracking-plan                      ~90      ~3.3k
+  meta-algorithm-guide                           ~90      ~2.7k
+  meta-budget-planner                            ~90      ~2.9k
+  meta-competitor-analysis                       ~80      ~2.3k
+  meta-content-audit                             ~90      ~2.4k
+  meta-content-repurposing                       ~90      ~2.8k
+  meta-reporting                                 ~90      ~2.7k
+  meta-roi-framework                             ~90      ~3.1k
+  meta-sales-marketing-alignment                 ~90      ~2.8k
+  meta-social-listening                          ~90      ~3.1k
+  meta-social-metrics-framework                  ~80      ~2.8k
+  meta-testing-framework                         ~90      ~3.1k
+  meta-tools-stack-evaluation                    ~90        ~3k
+  kaizen-improvement-system                      ~90      ~2.4k
+  skill-safety-audit                             ~90      ~2.3k
+  skill-writing                                  ~90      ~1.5k
+  01-client-brief                                ~80      ~2.5k
+  02-platform-audit                              ~90      ~2.6k
+  03-audience-personas                           ~90      ~2.7k
+  04-brand-voice-intake                          ~90      ~2.6k
+  05-social-media-strategy                      ~100      ~3.4k
+  06-digital-marketing-strategy                  ~90      ~3.3k
+  07-email-marketing-strategy                    ~80      ~3.2k
+  08-influencer-marketing-strategy               ~90      ~3.1k
+  09-campaign-strategy                           ~80      ~2.8k
+  10-content-pillars                             ~80      ~2.1k
+  11-content-calendar                            ~90        ~2k
+  12-website-content-plan                        ~80      ~2.6k
+  13-campaign-brief                              ~80      ~3.2k
+  platform-facebook                              ~90      ~2.6k
+  platform-google-business-profile               ~90      ~2.8k
+  platform-instagram                             ~90      ~2.5k
+  platform-linkedin                              ~90      ~2.7k
+  platform-tiktok                                ~90      ~2.3k
+  platform-whatsapp                              ~90      ~2.8k
+  platform-x-twitter                             ~90      ~2.4k
+  platform-youtube                               ~90      ~2.3k
+  playbook-agency-operations                     ~90      ~3.2k
+  playbook-chatbot-strategy                      ~90      ~2.6k
+  playbook-client-retainer-management            ~90      ~2.6k
+  playbook-community-management                  ~90      ~2.7k
+  playbook-content-production                   ~100      ~2.5k
+  playbook-crisis-communications                ~100      ~2.9k
+  playbook-daily-operations-routine             ~100      ~2.5k
+  playbook-marketing-automation                  ~90      ~2.6k
+  playbook-networking                            ~90      ~2.2k
+  playbook-paid-social-advertising              ~100      ~2.8k
+  playbook-post-click-strategy                   ~90      ~2.7k
+  playbook-pr-publicity                          ~80      ~2.3k
+  playbook-reputation-management                 ~90      ~2.8k
+  playbook-sms-whatsapp-marketing               ~100      ~2.7k
+  playbook-social-media-policy                   ~90      ~2.6k
+  playbook-social-selling                        ~90      ~2.8k
+  playbook-viral-content-design                  ~90      ~2.5k
+  policy-ai-content-ethics                       ~90      ~3.9k
+  healthcare                                     ~90      ~2.9k
+  hospitality-hotel-restaurant                   ~90      ~2.3k
+  demand-forecasting                             ~90      ~2.6k
+  seo-geo-optimisation                           ~90      ~3.1k
+  brand-strategy-and-distinctive-assets         ~100        ~3k
+  ecommerce-export-marketing-advisory            ~90      ~2.5k
+  marketing-foundations-stp-positioning          ~90      ~2.2k
+  peso-integrated-strategy                       ~90      ~2.6k
+  social-commerce-strategy                       ~90      ~3.2k
+  strategy-b2b-customer-community                ~90      ~2.2k
+  strategy-channel-architecture                 ~100      ~2.8k
+  strategy-creator-monetisation                  ~90      ~2.9k
+  strategy-csr-purpose-communications            ~90      ~2.8k
+  strategy-customer-value-journey                ~80      ~2.7k
+  strategy-ewom-reviews                          ~90      ~2.7k
+  strategy-experiential-marketing                ~90      ~2.5k
+  strategy-personal-brand                        ~90      ~3.1k
+  strategy-video-content                         ~90        ~3k
+  traction-channel-bullseye                      ~90      ~1.9k
+  training-ai-foundations                        ~90      ~2.8k
+  training-client-team                           ~90      ~2.5k
+  training-smartphone-video-production          ~100      ~2.2k
+  training-social-media-fundamentals             ~90      ~2.2k
+
+  On-invoke cost is paid each time a skill or agent fires.
+  Token counts are estimates and may differ from actual usage.
+
+STDERR

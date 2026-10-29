@@ -1,0 +1,38 @@
+{
+  "marketplaceName": "chwezi-social",
+  "installedRoot": "/engine",
+  "alreadyAdded": false
+}
+{
+  "pluginId": "social@chwezi-social",
+  "name": "social",
+  "marketplaceName": "chwezi-social",
+  "version": "1.2.0",
+  "installedPath": "/root/.codex/plugins/cache/chwezi-social/social/1.2.0",
+  "authPolicy": "ON_INSTALL"
+}
+{
+  "installed": [
+    {
+      "pluginId": "social@chwezi-social",
+      "name": "social",
+      "marketplaceName": "chwezi-social",
+      "version": "1.2.0",
+      "installed": true,
+      "enabled": true,
+      "source": {
+        "source": "local",
+        "path": "/engine"
+      },
+      "marketplaceSource": {
+        "sourceType": "local",
+        "source": "/engine"
+      },
+      "installPolicy": "AVAILABLE",
+      "authPolicy": "ON_INSTALL"
+    }
+  ],
+  "available": []
+}
+
+STDERR
