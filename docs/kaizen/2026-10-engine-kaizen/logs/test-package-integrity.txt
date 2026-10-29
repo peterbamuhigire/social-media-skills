@@ -5,12 +5,12 @@ test_hard_ceiling_boundary_for_checkout_and_package (test_package_integrity.Pack
 test_manifest_identity_and_skill_paths_pass (test_package_integrity.PackageIntegrityTests.test_manifest_identity_and_skill_paths_pass) ... ok
 test_rejects_manifest_identity_mismatch (test_package_integrity.PackageIntegrityTests.test_rejects_manifest_identity_mismatch) ... ok
 test_rejects_manifest_skill_path_set_mismatch (test_package_integrity.PackageIntegrityTests.test_rejects_manifest_skill_path_set_mismatch) ... ok
+test_rejects_symlinked_manifest_directory (test_package_integrity.PackageIntegrityTests.test_rejects_symlinked_manifest_directory) ... ok
 test_rejects_symlinked_skill_directory (test_package_integrity.PackageIntegrityTests.test_rejects_symlinked_skill_directory) ... ok
 test_rejects_symlinked_skill_file (test_package_integrity.PackageIntegrityTests.test_rejects_symlinked_skill_file) ... ok
 test_unreadable_inventory_fails_closed (test_package_integrity.PackageIntegrityTests.test_unreadable_inventory_fails_closed) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.133s
+Ran 11 tests in 0.132s
 
 OK
-exit=0

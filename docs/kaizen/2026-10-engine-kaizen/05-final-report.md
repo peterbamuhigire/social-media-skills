@@ -34,5 +34,9 @@ Dimension inputs and baseline deficiencies are documented in the [frozen scoreca
 - `5a2f371` — requires origin and source for every numeric media input and exercises invalid-input refusal.
 - `f2fd463` — adds original positive/negative task fixtures; coverage improves under the unchanged count rule and routing gate remains green.
 - `40d6cd7` — updates the audit-date test to expect only the unresolved records that are explicitly quarantined, preserving the fail-closed currentness state.
+- `a80bc2e` — makes quarantined sources fail freshness even when their review deadline has not passed; the ten live quarantined records still block release.
+- `a4ef219` — restores sequential media-planning workflow numbering and adds a regression.
+- `15e73a8` — rejects a symlinked `.claude-plugin` directory and adds an escape-path regression.
+- `b42b6ea` — rejects malformed quarantine-state flags instead of treating them as absent.
 
 No kept changes were reverted. Other baseline gates remain equal or better. The one registered failure is the intentional source-currentness blocker; see [next-cycle findings](06-next-cycle.md).

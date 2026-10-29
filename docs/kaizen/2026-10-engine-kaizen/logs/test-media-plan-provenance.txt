@@ -1,11 +1,12 @@
-test_invalid_json_input_fails_closed (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_invalid_json_input_fails_closed) ... ok
-test_missing_origin_fails (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_missing_origin_fails) ... ok
-test_missing_source_fails (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_missing_source_fails) ... ok
-test_unknown_origin_fails (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_unknown_origin_fails) ... ok
-test_valid_numeric_origins_and_sources_pass (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_valid_numeric_origins_and_sources_pass) ... ok
-test_zero_or_nonfinite_frequency_fails (tests.test_media_plan_provenance.MediaPlanProvenanceTests.test_zero_or_nonfinite_frequency_fails) ... ok
+test_invalid_json_input_fails_closed (test_media_plan_provenance.MediaPlanProvenanceTests.test_invalid_json_input_fails_closed) ... ok
+test_missing_origin_fails (test_media_plan_provenance.MediaPlanProvenanceTests.test_missing_origin_fails) ... ok
+test_missing_source_fails (test_media_plan_provenance.MediaPlanProvenanceTests.test_missing_source_fails) ... ok
+test_unknown_origin_fails (test_media_plan_provenance.MediaPlanProvenanceTests.test_unknown_origin_fails) ... ok
+test_valid_numeric_origins_and_sources_pass (test_media_plan_provenance.MediaPlanProvenanceTests.test_valid_numeric_origins_and_sources_pass) ... ok
+test_workflow_numbering_remains_sequential (test_media_plan_provenance.MediaPlanProvenanceTests.test_workflow_numbering_remains_sequential) ... ok
+test_zero_or_nonfinite_frequency_fails (test_media_plan_provenance.MediaPlanProvenanceTests.test_zero_or_nonfinite_frequency_fails) ... ok
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.059s
+Ran 7 tests in 0.051s
 
 OK
