@@ -1,0 +1,16 @@
+{
+  "engine": "social-media-skills",
+  "commit": "750982a95bf09309e335d335031287aba5ccabe0",
+  "dirty": false,
+  "checked_at": "20261029T091153Z",
+  "cli": "Codex 0.165.0",
+  "model_requested": "gpt-6-luna",
+  "reasoning": "high",
+  "skills_max_context_tokens": 10000,
+  "expected": 112,
+  "discovered": 112,
+  "missing": [],
+  "exit": 0,
+  "network": "none",
+  "model_calls": 0
+}

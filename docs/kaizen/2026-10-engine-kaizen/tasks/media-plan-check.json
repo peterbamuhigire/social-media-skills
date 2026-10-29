@@ -1,0 +1,34 @@
+{
+  "status": "synthetic assumptions only; not an inventory forecast or market rate",
+  "method": "impressions = spend / assumed CPM * 1000; implied gross reach = impressions / assumed frequency",
+  "platform_reach_is_deduplicated": false,
+  "rows": [
+    {
+      "channel": "LinkedIn",
+      "budget_ugx": 4000000,
+      "assumed_cpm_ugx": 25000,
+      "assumed_frequency": 2.5,
+      "impressions": 160000.0,
+      "gross_reach_at_assumed_frequency": 64000.0
+    },
+    {
+      "channel": "Instagram / Meta",
+      "budget_ugx": 5000000,
+      "assumed_cpm_ugx": 10000,
+      "assumed_frequency": 3,
+      "impressions": 500000.0,
+      "gross_reach_at_assumed_frequency": 166666.66666666666
+    },
+    {
+      "channel": "TikTok",
+      "budget_ugx": 3000000,
+      "assumed_cpm_ugx": 8000,
+      "assumed_frequency": 3,
+      "impressions": 375000.0,
+      "gross_reach_at_assumed_frequency": 125000.0
+    }
+  ],
+  "total_budget_ugx": 12000000,
+  "total_impressions": 1035000.0,
+  "sum_of_platform_gross_reach": 355666.6666666666
+}

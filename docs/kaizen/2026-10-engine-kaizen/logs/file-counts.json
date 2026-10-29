@@ -1,0 +1,15 @@
+{
+  "method": "os.walk(followlinks=False); count regular file entries and symlink entries; count .git/cache contents in total; omit named cache/dependency directories only in filtered count",
+  "checkout_file_entries_including_git": 907,
+  "symlink_entries": 0,
+  "excluded_named_cache_or_dependency_entries": 39,
+  "filtered_entries_excluding_named_cache_or_dependency_dirs": 868,
+  "excluded_directory_names": [
+    ".cache",
+    ".git",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "venv"
+  ]
+}
