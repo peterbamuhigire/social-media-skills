@@ -30,6 +30,23 @@ class SourceFreshnessNegativeTests(unittest.TestCase):
         self.assertEqual([], self.check(self.payload()))
         self.assertTrue(any('future' in e for e in self.check(self.payload(), date(2025, 12, 31))))
 
+    def test_quarantine_is_visible_but_remains_a_release_blocker(self):
+        payload = self.payload()
+        payload['records'][0].update({
+            'quarantined': True,
+            'quarantined_on': '2026-02-01',
+            'support_status': 'NOT_ASSESSED',
+            'quarantine_reason': 'Synthetic blocked-source fixture.',
+        })
+        errors = self.check(payload, date(2026, 2, 1))
+        self.assertTrue(any('QUARANTINED' in error and 'NOT_ASSESSED' in error for error in errors))
+        for field, value in [('support_status', 'partial'), ('quarantine_reason', ''),
+                             ('quarantined_on', 'not-a-date')]:
+            bad = copy.deepcopy(payload)
+            bad['records'][0][field] = value
+            self.assertTrue(any('quarantine requires' in error
+                                for error in self.check(bad, date(2026, 2, 1))))
+
     def test_malformed_fields_reject_without_crashing(self):
         for field, value in (('id', []), ('domain', {}), ('url', {}),
                              ('url', 'https://['), ('tier', True), ('use_for', [None]),

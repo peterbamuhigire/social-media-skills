@@ -1,0 +1,10 @@
+test_malformed_fields_reject_without_crashing (test_source_freshness_negative.SourceFreshnessNegativeTests.test_malformed_fields_reject_without_crashing) ... ok
+test_nonobject_root_and_duplicate_id_reject (test_source_freshness_negative.SourceFreshnessNegativeTests.test_nonobject_root_and_duplicate_id_reject) ... ok
+test_quarantine_is_visible_but_remains_a_release_blocker (test_source_freshness_negative.SourceFreshnessNegativeTests.test_quarantine_is_visible_but_remains_a_release_blocker) ... ok
+test_url_authority_validation_and_cli_exit (test_source_freshness_negative.SourceFreshnessNegativeTests.test_url_authority_validation_and_cli_exit) ... ok
+test_valid_window_and_future_verification (test_source_freshness_negative.SourceFreshnessNegativeTests.test_valid_window_and_future_verification) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.047s
+
+OK

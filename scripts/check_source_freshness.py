@@ -90,7 +90,21 @@ def validate(register: Path, as_of: date) -> list[str]:
         if verified > as_of:
             errors.append(f'{label}: verified_on is in the future relative to as-of date')
         if review < as_of:
-            errors.append(f"{label}: overdue since {review.isoformat()}")
+            if record.get("quarantined") is True:
+                status = record.get("support_status")
+                reason = record.get("quarantine_reason")
+                quarantined_on = record.get("quarantined_on")
+                if status != "NOT_ASSESSED" or not isinstance(reason, str) or not reason.strip():
+                    errors.append(f"{label}: quarantine requires support_status NOT_ASSESSED and a reason")
+                else:
+                    try:
+                        date.fromisoformat(quarantined_on)
+                    except (TypeError, ValueError):
+                        errors.append(f"{label}: quarantine requires a valid quarantined_on date")
+                    else:
+                        errors.append(f"{label}: QUARANTINED; current support NOT_ASSESSED; review overdue since {review.isoformat()}")
+            else:
+                errors.append(f"{label}: overdue since {review.isoformat()}")
     missing_domains = sorted(DOMAINS - present_domains)
     if missing_domains:
         errors.append(f"register: missing domains {', '.join(missing_domains)}")

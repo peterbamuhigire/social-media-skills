@@ -1,6 +1,6 @@
 # Current-source registers
 
-Last full verification: 13 July 2026.
+Last full verification: 13 July 2026. A scoped source review on 29 October 2026 refreshed thirteen entries and quarantined ten overdue entries; this was not a full-register or legal review. See [the October 2026 Kaizen currentness record](../kaizen/2026-10-engine-kaizen/03-currentness.md). The freshness gate remains blocked until each quarantined entry is re-verified or removed from use with its dependent claims retired.
 
 `source-register.json` is the release-controlled register for changing legal, platform and market sources. Tier 1 means a statute, regulator, platform owner or intergovernmental data owner. It does not mean that an interpretation is legal advice or that a platform page will remain unchanged.
 
@@ -11,7 +11,7 @@ Last full verification: 13 July 2026.
 3. For market figures, retain the indicator definition, geography, period, population and denominator. Subscribers, accounts, devices, reach estimates and individual users are different measures.
 4. For platform policy, verify again on the release date. A passing monthly freshness check does not replace campaign-level review.
 5. For legal questions, identify the jurisdiction and processing/advertising act. Escalate material ambiguity, regulated sectors, minors, political/public communications, cross-border data, complaints, or disputed rights to qualified counsel or the responsible regulator.
-6. If a source is unavailable, stale or contradictory, mark the check `not assessed` and withhold the affected claim, targeting, collection, publication or approval.
+6. If a source is unavailable, stale or contradictory, mark the check `not assessed`, explicitly quarantine the source record and withhold the affected claim, targeting, collection, publication or approval. A quarantined record remains a failed freshness check; quarantine is not a pass.
 
 ## Registers by use
 
