@@ -1,0 +1,16 @@
+test_audit_enforces_lower_fixture_limit_and_rejects_higher_override (test_package_integrity.PackageIntegrityTests.test_audit_enforces_lower_fixture_limit_and_rejects_higher_override) ... ok
+test_counts_5000_and_5001_real_file_entries (test_package_integrity.PackageIntegrityTests.test_counts_5000_and_5001_real_file_entries) ... ok
+test_counts_symlink_entries_without_following_directory_links (test_package_integrity.PackageIntegrityTests.test_counts_symlink_entries_without_following_directory_links) ... ok
+test_hard_ceiling_boundary_for_checkout_and_package (test_package_integrity.PackageIntegrityTests.test_hard_ceiling_boundary_for_checkout_and_package) ... ok
+test_manifest_identity_and_skill_paths_pass (test_package_integrity.PackageIntegrityTests.test_manifest_identity_and_skill_paths_pass) ... ok
+test_rejects_manifest_identity_mismatch (test_package_integrity.PackageIntegrityTests.test_rejects_manifest_identity_mismatch) ... ok
+test_rejects_manifest_skill_path_set_mismatch (test_package_integrity.PackageIntegrityTests.test_rejects_manifest_skill_path_set_mismatch) ... ok
+test_rejects_symlinked_skill_directory (test_package_integrity.PackageIntegrityTests.test_rejects_symlinked_skill_directory) ... ok
+test_rejects_symlinked_skill_file (test_package_integrity.PackageIntegrityTests.test_rejects_symlinked_skill_file) ... ok
+test_unreadable_inventory_fails_closed (test_package_integrity.PackageIntegrityTests.test_unreadable_inventory_fails_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.133s
+
+OK
+exit=0

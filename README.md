@@ -47,6 +47,7 @@ Clone the repository, read [`CLAUDE.md`](CLAUDE.md) (which imports [`AGENTS.md`]
 ```powershell
 python -m pip install PyYAML
 python -X utf8 scripts\validate_skill_engine.py --baseline quality-baseline.json
+python -X utf8 scripts\check_package_integrity.py
 python -X utf8 scripts\routing_smoke_test.py
 python -X utf8 scripts\check_source_freshness.py
 python -X utf8 -m unittest discover -s tests -p "test_*.py"

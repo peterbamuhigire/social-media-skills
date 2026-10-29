@@ -202,7 +202,7 @@ Every skill and every deliverable should be:
 ## Maintenance
 
 - Follow `docs/standards/skill-authoring-standard.md` and start new skills from `docs/templates/SKILL.template.md`.
-- Treat `quality-baseline.json` as a zero-debt assertion, not a waiver list. Run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json` and `python -X utf8 scripts/routing_smoke_test.py` before release.
+- Treat `quality-baseline.json` as a zero-debt assertion, not a waiver list. Run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json`, `python -X utf8 scripts/check_package_integrity.py`, and `python -X utf8 scripts/routing_smoke_test.py` before release. The package check enforces the user-set 5,000-entry ceiling on both the full checkout (including `.git` and caches) and the package-oriented tree, and fails closed on incomplete inventory.
 - The legacy `scripts/normalise_skills_for_dual_compat.py` is not an authoring substitute; it may repair marker syntax only and must not invent domain contracts.
 - Run `skill-safety-audit` for third-party imports or major changes.
 - When a skill approaches the line limit, move detailed material into `references/` and leave only the execution workflow in `SKILL.md`.
@@ -287,7 +287,7 @@ The binding contract is `docs/standards/skill-authoring-standard.md`; use `docs/
 5. **Imperative language** — "Ask for…", "Generate…", "Apply…", "Include…". Not "you should" or "Claude will".
 6. **Composition contracts** — every skill declares sources and absent-input behaviour, outputs and acceptance, evidence, capability permissions, degraded mode, decision risks, stop/recovery workflow, quality standards, five corrected anti-patterns, and direct references.
 7. **Read-only analysis** — audits, reviews, diagnostics, critiques, analysis, and planning default to read-only. Publishing, spend, outreach, production mutation, destructive work, personal-data processing, and certification claims require explicit authority.
-8. **Release gates** — run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json`, `python -X utf8 scripts/routing_smoke_test.py`, repository tests, and canonical per-skill validation. Failure counts must remain empty.
+8. **Release gates** — run `python -X utf8 scripts/validate_skill_engine.py --baseline quality-baseline.json`, `python -X utf8 scripts/check_package_integrity.py`, `python -X utf8 scripts/routing_smoke_test.py`, repository tests, and canonical per-skill validation. Failure counts must remain empty.
 
 ### Anti-AI-Slop Quality Gate (Mandatory)
 
