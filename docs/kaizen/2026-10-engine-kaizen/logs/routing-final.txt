@@ -1,0 +1,4 @@
+routing fixtures=396 passed=396 top_3_precision=1.000 threshold=1.000
+precision@1=377/396 (95.2%) registered_floor=92.0% (lexical proxy, not live routing)
+owned negatives=123 passed=123 failed=0
+fixture lint: 0 finding(s)

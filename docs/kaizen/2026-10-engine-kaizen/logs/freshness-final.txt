@@ -1,0 +1,11 @@
+source freshness: FAIL
+- UG-DPPA-2019: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- UG-DPPR-2021: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- UG-UCC-ADS-2019: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- UG-COPYRIGHT-2026: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- KE-DP-GENERAL-2021: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- RW-DPP-2021: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- TZ-PDPA: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- TZ-PDPR-2023: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11
+- META-AD-STANDARDS: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-19
+- ITU-INTERNET-USAGE: QUARANTINED; current support NOT_ASSESSED; review overdue since 2026-10-11

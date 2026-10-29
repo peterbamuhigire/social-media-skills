@@ -1,0 +1,27 @@
+{
+ "fixtures": 396,
+ "types": {
+  "positive": 242,
+  "collision": 144,
+  "limited-capability": 4,
+  "failure-path": 6
+ },
+ "distinct_expected": 112,
+ "active": 112,
+ "skills_not_expected_by_any_fixture": [],
+ "alias_fixtures": 83,
+ "owned_negatives": 123,
+ "skills_owning_negatives": 112,
+ "competitor_bands": {
+  "ranks 4-10": 48,
+  "competitor in top 3": 74,
+  "below rank 10": 1
+ },
+ "t2_cov_ge3pos_ge2neg": 7,
+ "t2_cov": 0.0625,
+ "holdout": {
+  "n": 60,
+  "p1": 48,
+  "top3": 54
+ }
+}

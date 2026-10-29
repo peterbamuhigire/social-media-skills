@@ -1,0 +1,7 @@
+Cycle final offline native checks (2026-10-29)
+
+Codex local plugin install: exit 0; engine social-media-skills; marketplace chwezi-social; plugin social; no network; no model call.
+Claude local plugin install: exit 0; engine social-media-skills; marketplace chwezi-social; plugin social; no network; no model call.
+Codex prompt-input discovery: exit 0; expected 112; discovered 112; missing 0; network none; model calls 0; requested model gpt-6-luna, high reasoning.
+
+These checks establish native plugin installation and Codex skill discovery only. They do not establish behavioural routing, output quality, provider account entitlement, or Claude prompt-input discovery.
