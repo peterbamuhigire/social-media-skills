@@ -89,7 +89,10 @@ def validate(register: Path, as_of: date) -> list[str]:
             errors.append(f"{label}: next_review must equal verified_on plus review_every_days")
         if verified > as_of:
             errors.append(f'{label}: verified_on is in the future relative to as-of date')
-        if record.get("quarantined") is True:
+        quarantine_flag = record.get("quarantined")
+        if "quarantined" in record and type(quarantine_flag) is not bool:
+            errors.append(f"{label}: quarantined must be a boolean")
+        if quarantine_flag is True:
             status = record.get("support_status")
             reason = record.get("quarantine_reason")
             quarantined_on = record.get("quarantined_on")

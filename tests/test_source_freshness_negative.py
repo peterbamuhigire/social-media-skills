@@ -61,6 +61,12 @@ class SourceFreshnessNegativeTests(unittest.TestCase):
         self.assertTrue(any('quarantined_on is in the future' in error
                             for error in self.check(payload, date(2026, 1, 15))))
 
+    def test_malformed_quarantine_flag_fails_closed(self):
+        payload = self.payload()
+        payload['records'][0]['quarantined'] = 'true'
+        self.assertTrue(any('quarantined must be a boolean' in error
+                            for error in self.check(payload)))
+
     def test_malformed_fields_reject_without_crashing(self):
         for field, value in (('id', []), ('domain', {}), ('url', {}),
                              ('url', 'https://['), ('tier', True), ('use_for', [None]),
