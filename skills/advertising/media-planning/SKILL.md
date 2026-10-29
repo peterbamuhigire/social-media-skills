@@ -46,10 +46,10 @@ Decides where, when and how often the target audience should meet the message, a
 4. Compare media on cost per thousand in-target (target CPM), then incremental reach per shilling.
 5. Set reach and frequency targets and the effective-frequency assumption for this brand and message; record the reasoning.
 6. For each numeric plan input (including budget, CPM and frequency), label its origin as `observed`, `client_input` or `synthetic_assumption` and cite the source or state the assumption. Do not present assumed CPM, frequency or reach as a platform forecast; keep cross-platform reach deduplication `NOT_ASSESSED` unless supported by suitable evidence.
-6. Schedule: continuity, flighting or pulsing, aligned to buying cycles, school terms, holidays and payday (see [scheduling and weighting](references/scheduling-weighting-and-post-buy.md)).
-7. Weight geography by category and brand development and by distribution; do not advertise where people cannot buy.
-8. Build the plan table and the post-buy template, stating every assumption and its source; run quality and anti-slop gates, correct and rerun, and withhold any rate or audience figure without a source.
-9. After the flight, reconcile planned vs actual delivery and recommend make-goods or re-weighting.
+7. Schedule: continuity, flighting or pulsing, aligned to buying cycles, school terms, holidays and payday (see [scheduling and weighting](references/scheduling-weighting-and-post-buy.md)).
+8. Weight geography by category and brand development and by distribution; do not advertise where people cannot buy.
+9. Build the plan table and the post-buy template, stating every assumption and its source; run quality and anti-slop gates, correct and rerun, and withhold any rate or audience figure without a source.
+10. After the flight, reconcile planned vs actual delivery and recommend make-goods or re-weighting.
 
 ## Core concepts at a glance
 

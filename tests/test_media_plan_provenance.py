@@ -22,6 +22,12 @@ def valid_row():
 
 
 class MediaPlanProvenanceTests(unittest.TestCase):
+    def test_workflow_numbering_remains_sequential(self):
+        workflow = (ROOT / "skills/advertising/media-planning/SKILL.md").read_text(encoding="utf-8").split("## Workflow", 1)[1].split("## ", 1)[0]
+        numbers = [int(line.split(".", 1)[0]) for line in workflow.splitlines()
+                   if line[:1].isdigit() and ". " in line]
+        self.assertEqual(list(range(1, 11)), numbers)
+
     def test_valid_numeric_origins_and_sources_pass(self):
         self.assertEqual(module.validate_rows([valid_row()]), [])
 
