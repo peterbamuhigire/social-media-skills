@@ -80,6 +80,31 @@ These words and constructions are statistically over-produced by LLMs (FSU/COLIN
 - **French equivalents** (for Francophone Africa output, see `language/french-native-copy`): "plongeons dans", "il est important de noter que", "force est de constater", "dans un monde en constante évolution", "par ailleurs / de plus / en outre" as filler connectors, "au cœur de", "pierre angulaire", "incontournable" as default praise.
 
 ## Ship gate (run before delivering or publishing ANY output)
+
+### Social machine-error and visual overlay index
+
+Use these identifiers in the evidence record. The questions are the social
+adaptation in [guardrails and overlays](references/guardrails-and-overlays.md);
+they keep the audit traceable from this skill's entry point. For a text-only
+draft, visual/render checks that need a finished asset remain `NOT_ASSESSED`.
+
+| ID | Social production check |
+|---|---|
+| ME1 | Does each post or slide add a distinct point rather than repeat the previous card? |
+| ME2 | Is the hook or contrast real, or merely a repeated content template? |
+| ME3 | Can the audience act without another restatement or CTA recap? |
+| ME4 | Does urgency match the verified event, offer, or risk? |
+| ME5 | Is the place, person, price, or example real and approved? |
+| ME6 | Has the same hook, triplet, emoji, or CTA become a mannerism? |
+| ME7 | Does the asset earn attention with a useful claim, instruction, or decision? |
+| AS1 | Is the visual or copy template chosen for this audience and campaign rather than a generator default? |
+| AS2 | Do badges, chips, icon tiles, metrics, or numbered labels clarify the message or decorate it? |
+| AS3 | Do carousel cards and spacing distinguish ideas, or repeat one card template? |
+| AS4 | Does motion or glow communicate a state, message, or task and respect reduced motion? |
+| AS5 | Are imagery, examples, icons, and claims purposeful, approved, and traceable? |
+| AS6 | Are buzzwords, em-dash cadence, aphoristic contrasts, and theatrical framing recurring? |
+| AS7 | Is the rendered post readable, contrasted, complete, and free of clipped or missing content? |
+
 - [ ] Every post / slide / section has ≥1 concrete, named, market-specific element (U1/U2).
 - [ ] Every stat, quote, citation, named brand, platform figure, price verified against a named source (U3).
 - [ ] No banned vocabulary used as filler; word-searched the output against the list above.
