@@ -52,8 +52,11 @@ def _load_object(path: Path, label: str, errors: list[str]) -> dict | None:
 
 def validate_manifests(root: Path) -> list[str]:
     errors: list[str] = []
-    plugin = _load_object(root / ".claude-plugin" / "plugin.json", "plugin manifest", errors)
-    marketplace = _load_object(root / ".claude-plugin" / "marketplace.json", "marketplace manifest", errors)
+    manifest_dir = root / ".claude-plugin"
+    if manifest_dir.is_symlink():
+        return [".claude-plugin manifest directory must not be a symlink"]
+    plugin = _load_object(manifest_dir / "plugin.json", "plugin manifest", errors)
+    marketplace = _load_object(manifest_dir / "marketplace.json", "marketplace manifest", errors)
     if plugin is None or marketplace is None:
         return errors
 

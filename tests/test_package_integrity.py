@@ -44,6 +44,19 @@ class PackageIntegrityTests(unittest.TestCase):
             self.assertIn("marketplace plugin name differs from plugin manifest",
                           package_check.validate_manifests(root))
 
+    def test_rejects_symlinked_manifest_directory(self):
+        with tempfile.TemporaryDirectory() as tmp, tempfile.TemporaryDirectory() as external:
+            root = Path(tmp)
+            fixture(root)
+            manifest_dir = root / ".claude-plugin"
+            manifest_dir.rename(Path(external) / "claude-plugin")
+            try:
+                manifest_dir.symlink_to(Path(external) / "claude-plugin", target_is_directory=True)
+            except OSError as exc:
+                self.skipTest(f"symlink creation unavailable: {exc}")
+            self.assertIn(".claude-plugin manifest directory must not be a symlink",
+                          package_check.validate_manifests(root))
+
     def test_rejects_manifest_skill_path_set_mismatch(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
