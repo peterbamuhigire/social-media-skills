@@ -152,9 +152,12 @@ class EngineQualityTests(unittest.TestCase):
             # The mutable register now includes verifications through the
             # current audit date.
             # Separate synthetic tests reject future-dated verification.
-            date(2026, 9, 29),
+            date(2026, 10, 29),
         )
-        self.assertEqual([], errors)
+        payload = json.loads((ROOT / "docs" / "source-registers" / "source-register.json").read_text(encoding="utf-8"))
+        quarantined = {row["id"] for row in payload["records"] if row.get("quarantined") is True}
+        self.assertEqual(quarantined, {error.split(":", 1)[0] for error in errors})
+        self.assertTrue(all("QUARANTINED" in error and "NOT_ASSESSED" in error for error in errors))
 
     def test_source_register_rejects_overdue_records(self):
         freshness = load_script("check_source_freshness.py")
