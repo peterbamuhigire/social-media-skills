@@ -4,6 +4,13 @@ The Social Media Skills Engine (repository `social-media-skills`) is the Chwezi 
 
 The engine works to named standards rather than house opinion. Personal-data and direct-marketing work is checked against the Uganda Data Protection and Privacy Act 2019 and its 2021 Regulations, with the Kenyan, Rwandan and Tanzanian data-protection laws held in a dated source register (`docs/source-registers/source-register.json`, 179 records under a freshness gate); advertising claims against the Uganda Communications Commission Advertising Standards 2019 and the ICC Advertising and Marketing Communications Code; influencer disclosure against the FTC Endorsement Guides and ASA/CAP guidance; platform mechanics against the Meta, WhatsApp, TikTok, LinkedIn and Google policy pages in the same register; and web accessibility against WCAG 2.2. Method draws on named practitioner texts, among them Chaffey's RACE, Bodnar and Cohen's social ROI formula, Weinberg and Mares's Bullseye and Kotler's segmentation and positioning (full list under References). Every deliverable passes an anti-slop and human-review gate. The engine is for agency owners, account leads, strategists, media planners, copywriters, paid-media specialists, in-house marketing teams and founders who need reviewable, evidence-backed marketing decisions. It plans, specifies, writes, audits and reports; spending money, changing live ad accounts, publishing and contacting people always require explicit client authority.
 
+## Publishing approved social content
+
+After strategy, production, and review, use [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api)
+as the approval-first handoff for platform adaptation, scheduling, and
+publishing. See the [BulkPublish social media content skills](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills)
+and [API documentation](https://app.bulkpublish.com/docs) for integration details.
+
 ## Installation
 
 Prerequisites: Claude Code for the plugin route; Node.js 18 or later for the installer scripts; Python 3.11 or later (CI uses 3.12) with `PyYAML` for the validators and tests; Git for cloning.
